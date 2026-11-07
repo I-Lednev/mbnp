@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T18:17:52.849Z",
-  "tookMs": 11444,
+  "generatedAt": "2026-11-07T21:44:10.440Z",
+  "tookMs": 10696,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -24,26 +24,26 @@
     "war": "Война"
   },
   "counts": {
-    "ai": 107,
-    "games": 101,
-    "announces": 33,
+    "ai": 112,
+    "games": 107,
+    "announces": 34,
     "mobile": 15,
-    "releases": 43,
-    "rumors": 27,
+    "releases": 45,
+    "rumors": 28,
     "software": 44,
-    "science": 62,
-    "entertainment": 117,
-    "ports": 90,
-    "pc": 44,
-    "consoles": 115,
-    "hardware": 45,
-    "industry": 41,
+    "science": 64,
+    "entertainment": 140,
+    "ports": 98,
+    "pc": 49,
+    "consoles": 119,
+    "hardware": 46,
+    "industry": 43,
     "updates": 27,
     "aimods": 2,
-    "aisoft": 49,
-    "cars": 115,
-    "war": 102,
-    "total": 1179
+    "aisoft": 51,
+    "cars": 120,
+    "war": 107,
+    "total": 1251
   },
   "sourceCount": 98,
   "sources": [
@@ -747,12 +747,1488 @@
       "error": "HTTP 404"
     },
     {
+      "source": "Ukrinform",
+      "url": "https://www.ukrinform.ua/rss/block-lastnews",
+      "error": "лента пуста",
+      "reused": 3
+    },
+    {
       "source": "Novaya Gazeta Europe",
       "url": "https://novayagazeta.eu/feed/",
       "error": "HTTP 521"
     }
   ],
   "items": [
+    {
+      "id": "gh-1449755182",
+      "title": "ObeseCatLord/galaxy-angel-2-pc: Galaxy Angel 2 PC: a native PC port of the Galaxy Angel II PS2 trilogy, built with PS2Recomp static recompilation",
+      "url": "https://github.com/ObeseCatLord/galaxy-angel-2-pc",
+      "excerpt": "Galaxy Angel 2 PC: a native PC port of the Galaxy Angel II PS2 trilogy, built with PS2Recomp static recompilation",
+      "image": "",
+      "publishedAt": "2026-11-07T21:42:49Z",
+      "addedAt": "2026-11-07T21:44:04.409Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1440988244",
+      "title": "timboat/demons-souls-recomp: Native Windows port of Demon's Souls (PS3, BLUS-30443) via ps3recomp static recompilation. Bring your own disc image; no game files included.",
+      "url": "https://github.com/timboat/demons-souls-recomp",
+      "excerpt": "Native Windows port of Demon's Souls (PS3, BLUS-30443) via ps3recomp static recompilation. Bring your own disc image; no game files included.",
+      "image": "",
+      "publishedAt": "2026-11-07T21:34:16Z",
+      "addedAt": "2026-11-07T21:44:04.409Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1442475571",
+      "title": "xXNukem/in-extremis-port: In Extremis (1993) PC game source port in development.",
+      "url": "https://github.com/xXNukem/in-extremis-port",
+      "excerpt": "In Extremis (1993) PC game source port in development.",
+      "image": "",
+      "publishedAt": "2026-11-07T20:49:31Z",
+      "addedAt": "2026-11-07T21:44:03.978Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1421568804",
+      "title": "spitzdano/AidynReChronicled: Aidyn Chronicles: The First Mage (N64) as a native Linux and Windows game: HD and widescreen, newly painted art, smooth frame rates, quicksaves and Aidyn Patch / Aidyn Plus support. Bring your own ROM.",
+      "url": "https://github.com/spitzdano/AidynReChronicled",
+      "excerpt": "Aidyn Chronicles: The First Mage (N64) as a native Linux and Windows game: HD and widescreen, newly painted art, smooth frame rates, quicksaves and Aidyn Patch / Aidyn Plus support. Bring your own ROM.",
+      "image": "",
+      "publishedAt": "2026-11-07T21:39:38Z",
+      "addedAt": "2026-11-07T21:44:03.491Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1421553870",
+      "title": "raulzrrs/letsgo-recomp: Native Windows port of Pokémon: Let's Go, Eevee! (Switch v1.0.0) by static recompilation, built on LAS Recomp. No game files included.",
+      "url": "https://github.com/raulzrrs/letsgo-recomp",
+      "excerpt": "Native Windows port of Pokémon: Let's Go, Eevee! (Switch v1.0.0) by static recompilation, built on LAS Recomp. No game files included.",
+      "image": "",
+      "publishedAt": "2026-11-07T21:30:52Z",
+      "addedAt": "2026-11-07T21:44:03.491Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1439286882",
+      "title": "gustavomorinaga/project-vekta: Killzone HD // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
+      "url": "https://github.com/gustavomorinaga/project-vekta",
+      "excerpt": "Killzone HD // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
+      "image": "",
+      "publishedAt": "2026-11-07T21:25:25Z",
+      "addedAt": "2026-11-07T21:44:03.491Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1440904719",
+      "title": "PeterRichardsonGolf/Halo-CE-Arena-Evolved: Halo CE: Arena Evolved — releases and issue tracker. Halo: Combat Evolved with modern quality of life, on any PC.",
+      "url": "https://github.com/PeterRichardsonGolf/Halo-CE-Arena-Evolved",
+      "excerpt": "Halo CE: Arena Evolved — releases and issue tracker. Halo: Combat Evolved with modern quality of life, on any PC.",
+      "image": "",
+      "publishedAt": "2026-11-07T20:58:45Z",
+      "addedAt": "2026-11-07T21:44:03.491Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1423433613",
+      "title": "skuza-oss/downhill-revived: A PC port of Downhill Domination (PS2), built on a matching decompilation. Bring your own disc.",
+      "url": "https://github.com/skuza-oss/downhill-revived",
+      "excerpt": "A PC port of Downhill Domination (PS2), built on a matching decompilation. Bring your own disc.",
+      "image": "",
+      "publishedAt": "2026-11-07T19:01:51Z",
+      "addedAt": "2026-11-07T21:44:03.491Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "1wrfhmw",
+      "title": "County of Fortune, now out in early access, is a medieval city builder that asks, why limit yourself to just one city?",
+      "url": "https://www.rockpapershotgun.com/county-of-fortune-now-out-in-early-access-is-a-medieval-city-builder-that-asks-why-limit-yourself-to-just-one-city",
+      "excerpt": "I know what you want. The humble city builder isn't enough for you any more, is it? You need a cities builder, you can't just stop at one, but you don't want to build up an entirely different city on a new save file. If it were up to you, they'd all be on the…",
+      "content": "I know what you want. The humble city builder isn't enough for you any more, is it? You need a cities builder, you can't just stop at one, but you don't want to build up an entirely different city on a new save file. If it were up to you, they'd all be on the same map, a motorway's worth of a drive away from each other. If we're talking contemporary cities, I can't help you, but if you can settle for numerous medieval towns across an entire county, then County of Fortune should do just fine.\n\nRead more",
+      "image": "https://assetsio.gnwcdn.com/county-of-fortune.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "images": [
+        {
+          "url": "https://assetsio.gnwcdn.com/county-of-fortune.jpg?width=690&quality=85&format=jpg&auto=webp",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T21:30:50.000Z",
+      "sourceId": "rps",
+      "source": "Rock Paper Shotgun",
+      "category": "pc",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "ejluc6",
+      "title": "This RTX 5060 gaming PC costs less than the Steam Machine — grab the iBuyPower Slate prebuilt PC with massive $500 discount",
+      "url": "https://www.tomshardware.com/pc-components/this-rtx-5060-gaming-pc-costs-less-than-the-steam-machine-grab-the-ibuypower-slate-prebuilt-pc-with-massive-usd500-discount",
+      "excerpt": "It is arguably the worst time to build a gaming PC especially with the ongoing memory crisis inflating the cost of RAM, SSDs, and graphics cards. One way to possibly work around the rising costs is to consider a prebuilt system. For instance, the iBuyPower…",
+      "content": "It is arguably the worst time to build a gaming PC especially with the ongoing memory crisis inflating the cost of RAM, SSDs, and graphics cards. One way to possibly work around the rising costs is to consider a prebuilt system. For instance, the iBuyPower Slate Gaming Desktop PC , a well-rounded mid-range gaming PC which is selling for a very reasonable price of $899, down from its regular price of $1,399 over at Best Buy.\n\n• Check out the deal on Best Buy\n\nThe system is powered by the AMD Ryzen 5 8400F, an entry-level 6-core, 12-thread desktop processor with a relatively low 65W TDP. This makes it fairly power-efficient while still offering decent performance for 1080p gaming. For graphics, the prebuilt comes with an Nvidia GeForce RTX 5060, a solid GPU for 1080p gaming as well as an entry point to Nvidia's latest Blackwell architecture, with support for multi-frame generation and newly released DLSS 5.\n\nSlate Gaming Desktop PC: was $1399 now $899\nThis Best Buy deal makes the iBuyPower Slate considerably more affordable, cutting $500 off the price of a prebuilt gaming PC with an RTX 5060, Ryzen 5 8400F, and 1TB NVMe SSD View Deal\n\nFor memory, there's a single 16GB DDR5 stick running at 4,800MT/s. which isn't particularly fast and should ideally be configured in dual-channel, but a 16GB DDR5 memory stick on its own can cost around $300, making the system's $899 asking price a pretty solid deal. It also comes with a 1TB NVMe SSD with additional storage expansion for a secondary M.2 as well as SATA 2.5-inch and 3.5-inch drives. It is also worth noting that this iBuyPower prebuilt is cheaper yet more powerful than the Steam Machine, which currently goes for $1,049 for the base 512GB storage model. With a little bit of tinkering one could even use this system as a dedicated gaming PC for their living room.\n\nIn terms of cooling you get a single tower CPU cooler in addition to four ARGB fans, three at the front and one at the rear. The sturdy mid-tower chassis offers additional cooling fan mounting options, a glass side-panel, and a 600W PSU. iBuyPower also offers an entry-level gaming keyboard and mouse combo with the gaming PC. Remember, the discounted price of $899 is a limited-time offer, so you may want to grab it before the deal expires.",
+      "image": "https://cdn.mos.cms.futurecdn.net/9WfubkiBcJoBjUZEzfhJgG-1920-80.png",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/9WfubkiBcJoBjUZEzfhJgG-1920-80.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/M82Dyr4LBb6FBvWyRRmYsb-1920-80.webp",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T21:27:30.000Z",
+      "sourceId": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "hardware",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "1ytb63p",
+      "title": "Megaspeed exec was recruited to spy on Nvidia CEO, according to US intelligence memo",
+      "url": "https://techcrunch.com/2026/11/07/chinese-exec-was-recruited-to-spy-on-nvidia-ceo-according-to-us-intelligence-memo/",
+      "excerpt": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
+      "content": "A memo circulated earlier this year reportedly claimed that China’s Ministry of State Security recruited a female technology executive to spy on Nvidia's CEO.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-07T21:17:08.000Z",
+      "sourceId": "techcrunch-ai",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "kdsqwg",
+      "title": "Стоимость техобслуживания автомобилей Lada увеличилась: подробности",
+      "url": "https://www.zr.ru/content/news/988008-vladeltsam-lada-stoit-zaglyanut/",
+      "excerpt": "АВТОВАЗ в ноябре повысил цены на плановое ТО Lada, в среднем, на 15%",
+      "content": "АВТОВАЗ в ноябре повысил цены на плановое ТО Lada, в среднем, на 15%",
+      "image": "https://www.zr.ru/_ah/img/UD_-K466UGMvixWupqycnQ",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/UD_-K466UGMvixWupqycnQ",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T21:10:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "1huhbfd",
+      "title": "В Казахстане Kia Seltos местной сборки будут продавать за 2 млн рублей",
+      "url": "https://www.zr.ru/content/news/988115-krossover-kotoryj-stal-deshevl/",
+      "excerpt": "Kia Seltos нового поколения начали продавать в Казахстане",
+      "content": "Kia Seltos нового поколения начали продавать в Казахстане",
+      "image": "https://www.zr.ru/_ah/img/EBLTHlsSsWqonDXo9KMTwQ",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/EBLTHlsSsWqonDXo9KMTwQ",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T21:10:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "n74yi8",
+      "title": "Ремейк The Legend of Zelda: Ocarina of Time стал самой высокооценной игрой в истории на Metacritic по оценкам игроков",
+      "url": "https://www.playground.ru/legend_of_zelda_ocarina_of_time/news/remejk_the_legend_of_zelda_ocarina_of_time_stal_samoj_vysokootsennoj_igroj_v_istorii_na_metacritic_po_otsenkam_igrokov-1888709",
+      "excerpt": "Ремейк культовой The Legend of Zelda: Ocarina of Time для Nintendo Switch 2 официально занял первое место в списке лучших игр всех времен по версии пользователей Metacritic. Согласно данным агрегатора, пользовательская оценка ремейка достигла 9.7...",
+      "content": "Ремейк культовой The Legend of Zelda: Ocarina of Time для Nintendo Switch 2 официально занял первое место в списке лучших игр всех времен по версии пользователей Metacritic. Согласно данным агрегатора, пользовательская оценка ремейка достигла 9.7...",
+      "image": "https://i.playground.ru/e/OlwZROrU-LO4PiYRBxQkbQ.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/OlwZROrU-LO4PiYRBxQkbQ.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T21:05:57.000Z",
+      "sourceId": "playground-industry",
+      "source": "Playground Индустрия",
+      "category": "industry",
+      "lang": "ru",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "1tt2dh3",
+      "title": "«AI-революция — 2026»: новая бизнес-игра для автодилеров",
+      "url": "https://5koleso.ru/novosti-kompaniy/ai-revolyucziya-2026-novaya-biznes-igra-dlya-avtodilerov/",
+      "excerpt": "\\На этот раз организаторы подготовили интерактивную бизнес-игру. Так, в третьем блоке «Дилер 2027: управляем воронкой, считаем деньги» участники пройдут путь клиента от первого контакта до сделки, разберут проблемные ситуации и выберут решения, влияющие на…",
+      "content": "\\На этот раз организаторы подготовили интерактивную бизнес-игру. Так, в третьем блоке «Дилер 2027: управляем воронкой, считаем деньги» участники пройдут путь клиента от первого контакта до сделки, разберут проблемные ситуации и выберут решения, влияющие на конверсию, эффективность процессов и прибыль.\n\nБлагодаря этой бизнес-игре дилеры смогут посмотреть на ситуацию извне, понять своего покупателя и найти решения, которые еще не применяли на практике. А еще в рамках специального опроса «Индекс AI-зрелости российского авторитейла» дилеры могут рассказать о своем опыте применения искусственного интеллекта, полученных результатах и имеющихся сложностях в этом процессе.",
+      "image": "https://5koleso.ru/wp-content/uploads/2026/11/SMI_1-anons.jpg",
+      "images": [
+        {
+          "url": "https://5koleso.ru/wp-content/uploads/2026/11/SMI_1-anons.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T21:02:22.000Z",
+      "sourceId": "5koleso",
+      "source": "5 колесо",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "18fxguh",
+      "title": "The hidden ways insects support animal life—from habitat to health—go way beyond being food",
+      "url": "https://phys.org/news/2026-11-hidden-ways-insects-animal-life.html",
+      "excerpt": "There are at least 14 million insect species on Earth, and they play highly diverse roles in sustaining the natural world. Insects provide many well-known benefits—what scientists often call \"ecosystem services.\" For example, you can thank a bee or a hoverfly…",
+      "content": "There are at least 14 million insect species on Earth, and they play highly diverse roles in sustaining the natural world. Insects provide many well-known benefits—what scientists often call \"ecosystem services.\" For example, you can thank a bee or a hoverfly for pollinating wildflowers and agricultural crops, or credit dung beetles for decomposing manure and other waste materials.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/wide-blue-head-of-a-da.jpg",
+      "images": [
+        {
+          "url": "https://scx1.b-cdn.net/csz/news/tmb/2026/wide-blue-head-of-a-da.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T21:00:01.000Z",
+      "sourceId": "physorg",
+      "source": "Phys.org",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "17auv1s",
+      "title": "Cairn — госпожа горных дорог. Рецензия",
+      "url": "https://3dnews.ru/1150936/cairn-retsenziya",
+      "excerpt": "Первый в мире серьезный симулятор альпиниста Cairn вышел еще в январе этого года — а мы пишем о нем только сейчас. Формальный повод — релиз бесплатных DLC с новым контентом, но реальным поводом стоит признать необходимость отметить рецензией одну из лучших…",
+      "content": "Первый в мире серьезный симулятор альпиниста Cairn вышел еще в январе этого года — а мы пишем о нем только сейчас. Формальный повод — релиз бесплатных DLC с новым контентом, но реальным поводом стоит признать необходимость отметить рецензией одну из лучших игр года",
+      "image": "https://cdn.3dnews.ru/assets/external/illustrations/2026/11/06/1150936/01.jpg",
+      "images": [
+        {
+          "url": "https://cdn.3dnews.ru/assets/external/illustrations/2026/11/06/1150936/01.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T21:00:00.000Z",
+      "sourceId": "3dnews-games",
+      "source": "3DNews Игры",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "4czvse",
+      "title": "Walter Koenig Wanted A Star Trek: The Next Generation Role That Wasn't Pavel Chekov",
+      "url": "https://www.slashfilm.com/2304727/walter-koenig-wanted-star-trek-the-next-generation-role-not-pavel-chekov/",
+      "excerpt": "Walter Koenig wanted to appear on Star Trek: The Next Generation without reprising his role as Pavel Chekov, and his idea was later used for a different show.",
+      "content": "Walter Koenig wanted to appear on Star Trek: The Next Generation without reprising his role as Pavel Chekov, and his idea was later used for a different show.",
+      "image": "https://www.slashfilm.com/img/gallery/walter-koenig-wanted-a-star-trek-the-next-generation-role-that-wasnt-pavel-chekov/l-intro-1793652883.jpg",
+      "images": [
+        {
+          "url": "https://www.slashfilm.com/img/gallery/walter-koenig-wanted-a-star-trek-the-next-generation-role-that-wasnt-pavel-chekov/l-intro-1793652883.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.slashfilm.com/img/gallery/walter-koenig-wanted-a-star-trek-the-next-generation-role-that-wasnt-pavel-chekov/intro-1793652883.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T21:00:00.000Z",
+      "sourceId": "slashfilm",
+      "source": "SlashFilm",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "gvs8jl",
+      "title": "Bloomberg: Росія направляє в Абу-Дабі делегацію вищого рівня, ніж раніше",
+      "url": "https://www.pravda.com.ua/news/2026/11/07/8061758/",
+      "excerpt": "Росія направляє на переговори з Україною за посередництва США в Абу-Дабі делегацію вищого рівня, ніж на попередні раунди, що може свідчити про готовність до більш змістовних переговорів. Джерело : Bloomberg Деталі : Як пише видання, судячи зі складу…",
+      "content": "Росія направляє на переговори з Україною за посередництва США в Абу-Дабі делегацію вищого рівня, ніж на попередні раунди, що може свідчити про готовність до більш змістовних переговорів.\n\nДжерело : Bloomberg\n\nДеталі : Як пише видання, судячи зі складу делегації, можливо, РФ готова зосередитися як на політичних питаннях, так і на військових.\n\nЯк повідомило в суботу російське агентство \" Інтерфакс \" з посиланням на речника Кремля Дмитра Пєскова, до складу делегації РФ в Об'єднаних Арабських Еміратах увійдуть заступники міністра закордонних справ Сергій Рябков і Михайло Галузін, керівник військової розвідки Ігор Костюков та високопоставлений офіцер Генерального штабу Юрій Жигарловський. Очолюватиме делегацію помічник правителя РФ Володимир Мединський.\n\nРябков – головний російський дипломат, який курує відносини зі США та Іраном, а також переговори з питань контролю над озброєннями, тоді як Мединський бере участь у російських переговорах з Україною з часу переговорів у Стамбулі 2022 року. Костюков також очолював московську делегацію в Абу-Дабі в січні.\n\nПравитель РФ Володимир Путін у п'ятницю обговорив підготовку до переговорів із Радою безпеки Росії, і, за інформацією сайту Кремля, на цьому засіданні були присутні всі члени делегації, яка вирушає до ОАЕ.\n\nДелегацію України очолить голова Служби зовнішньої розвідки України Рустем Умєров. До складу делегації також входять керівник Офісу президента Кирило Буданов та голова фракції \"Слуга народу\" у ВР Давид Арахамія.\n\nПередісторія :\n\n•\nСпеціальний представник президента США Стів Віткофф оголосив, що тристоронні переговори про завершення російсько-української війни відбудуться наступного тижня в столиці Об'єднаних Арабських Еміратів та зосередяться на подальших кроках до миру.\n\n•\nРечник правителя Росії Дмитро Пєсков заявив, що російська делегація 10-11 листопада прибуде до Абу-Дабі і братиме участь у тристоронніх переговорах у форматі Україна-США-РФ. Головою російської делегації залишається помічник правителя РФ Володимир Мединський.\n\n•\nУкраїнський президент раніше заявив, що після розмови європейських лідерів з очільником Кремля є відчуття, що Росія серйозно налаштована на зустріч переговорних груп в Абу-Дабі.\n\n•\nПрезидент США Дональд Трамп заявив, що найближчим часом може бути укладена нова масштабна угода , яка стосуватиметься України та може торкнутися всієї Європи.\n\n•\nКерівник Офісу президента Кирило Буданов, який братиме участь у переговорах зі США та Росією в Абу-Дабі, заявив, що вони не є останніми .",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/2/7/952560/27bed8527b3cdd28971d3878ed0bb922.jpeg",
+      "images": [
+        {
+          "url": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/2/7/952560/27bed8527b3cdd28971d3878ed0bb922.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T20:48:00.000Z",
+      "sourceId": "pravda",
+      "source": "Ukrainska Pravda",
+      "category": "war",
+      "lang": "uk",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "bvrscu",
+      "title": "UFC’s Dana White As White House Press Secretary? Trump Says “Please Take The Job!”",
+      "url": "https://deadline.com/2026/11/dana-white-donald-trump-1237216350/",
+      "excerpt": "Donald Trump says he has offered the job of White House press secretary to UFC President and CEO Dana White, “a violent Fighter and Warrior,” in the president’s words. It was not immediately clear whether Trump was joking, trolling, both or neither. If White…",
+      "content": "Donald Trump says he has offered the job of White House press secretary to UFC President and CEO Dana White, “a violent Fighter and Warrior,” in the president’s words. It was not immediately clear whether Trump was joking, trolling, both or neither. If White accepts the gig, he would fill the vacancy left when the […]",
+      "image": "https://deadline.com/wp-content/uploads/2026/11/GettyImages-1202122681-e1794083568490.jpg",
+      "images": [
+        {
+          "url": "https://deadline.com/wp-content/uploads/2026/11/GettyImages-1202122681-e1794083568490.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T20:40:01.000Z",
+      "sourceId": "deadline",
+      "source": "Deadline",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "1mmhtjc",
+      "title": "Great Job, Internet: Philomena Cunk has a Letterboxd and it's wonderfully deranged",
+      "url": "https://www.avclub.com/gji-philomena-cunk-letterboxd-cunk-on-cinema",
+      "excerpt": "We’re about a week out at this point from the release of Cunk On Cinema , the latest installment in comedian Diane Morgan and Black Mirror creator Charlier Brooker’s ongoing exploration of the various facets of our world, as seen by the world’s dimmest…",
+      "content": "We’re about a week out at this point from the release of Cunk On Cinema , the latest installment in comedian Diane Morgan and Black Mirror creator Charlier Brooker’s ongoing exploration of the various facets of our world, as seen by the world’s dimmest reporter who won’t stop bringing up the antics of her mate Paul . As an exploration of the world of cinema, specifically, the series is leaning hard into modern film discourse for its promotion—including the reveal that Philomena Cunk now has her own Letterboxd and it is, not surprisingly, a pretty great read.\n\nThis is, of course, mere marketing—something Cunk “herself” notes in the bio, where she writes “Done a show about cinema so the producers made me set this up for PR reasons. They’re literally watching me type this now.” But it’s also a reminder that, beyond Morgan’s skill at dead-panning interviews with various people forced to humor Philomena Cunk simply because she happens to have a camera pointed at them, a core of the Cunk series’ appeal is the level of misdirection and skill that goes into its joke writing. Sometimes that relies on simplicity, as with her Rain Man review (“Disappointing superhero film. Tom Cruise stars as Rain-Man”), or her The Wicker Man review (“Disappointing superhero film. Edward Woodward stars as Wicker-Man.”) And sometimes it gets far more elaborate, as when she notes, in a classic Cunk-ism, that Grease stars “Olivia Newt and John,” or her beautifully deranged plot synopsis of E.T.\n\nThe account appears to be posting a new review per day, leading up the series’ November 15 release. And while we don’t know if any of them will be as spoiler-filled or hard-hitting as Philomena’s one-star take on The Martian —the pithy and practical “Matt Damon eats his own shit”—we do know that we’ll take extra Cunk jokes when and where we can get them.",
+      "image": "https://www.avclub.com/wp-content/uploads/2026/11/07/cunk-letterboxd.jpg",
+      "images": [
+        {
+          "url": "https://www.avclub.com/wp-content/uploads/2026/11/07/cunk-letterboxd.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/07153154/cunk-letterboxd-lead.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T20:36:29.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "9nus45",
+      "title": "Gamesblender № 801: песчаная TES VI: Sentinel, новый шутер Джона Ромеро и Xbox в крокодиле",
+      "url": "https://3dnews.ru/1151009/gamesblender-801",
+      "excerpt": "Добро пожаловать в новый выпуск GamesBlender! The Elder Scrolls VI наконец получила подзаголовок Sentinel и показала нам пустыню Хаммерфелла — правда, до самой игры, похоже, еще далеко. Джон Ромеро спас свой новый шутер после сокращений в Microsoft, Remedy…",
+      "content": "Добро пожаловать в новый выпуск GamesBlender! The Elder Scrolls VI наконец получила подзаголовок Sentinel и показала нам пустыню Хаммерфелла — правда, до самой игры, похоже, еще далеко. Джон Ромеро спас свой новый шутер после сокращений в Microsoft, Remedy празднует успех Control Resonant, а создатель Yakuza лишился новой студии и Gang of Dragon. Тем временем Nintendo столкнулась с проблемами производства картриджей, а Nvidia вспоминает легендарную GeForce 8800 GTX",
+      "image": "https://cdn.3dnews.ru/assets/external/illustrations/2026/11/07/1151009/gb801.png",
+      "images": [
+        {
+          "url": "https://cdn.3dnews.ru/assets/external/illustrations/2026/11/07/1151009/gb801.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T20:30:00.000Z",
+      "sourceId": "3dnews-games",
+      "source": "3DNews Игры",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "rpiuad",
+      "title": "Bill Skarsgard Says He’s “Spent” Playing Bad Guys but Would Still Play a James Bond Villain",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/bill-skarsgard-james-bond-villain-bad-guy-roles-1236750077/",
+      "excerpt": "The 'Nosferatu' star also said he wasn't approached to play the next 007: \"I wasn't even thrown into the mix.\"",
+      "content": "The 'Nosferatu' star also said he wasn't approached to play the next 007: \"I wasn't even thrown into the mix.\"",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-07T20:28:15.000Z",
+      "sourceId": "hollywoodreporter",
+      "source": "The Hollywood Reporter",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "1inluw1",
+      "title": "Data Found In Zelda: Ocarina Of Time May Hint At Master Quest DLC",
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xqg2yr/data_found_in_zelda_ocarina_of_time_may_hint_at/",
+      "excerpt": "Source: https://bsky.app/profile/mrcheeze.github.io/post/3mznlgrwvrs2j https://bsky.app/profile/mrcheeze.github.io/post/3mznuthcj6c2j &#32; submitted by &#32; /u/Loose_Society9485 [link] &#32; [комментарии]",
+      "content": "Source: https://bsky.app/profile/mrcheeze.github.io/post/3mznlgrwvrs2j\n\nhttps://bsky.app/profile/mrcheeze.github.io/post/3mznuthcj6c2j\n\n&#32; submitted by &#32; /u/Loose_Society9485\n[link] &#32; [комментарии]",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-07T20:28:14.000Z",
+      "sourceId": "reddit-leaks",
+      "source": "r/GamingLeaksAndRumours",
+      "category": "rumors",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "uiierk",
+      "title": "The 42 Best Gifts for All Types of Travelers, From Luxe Flight Essentials to Road Trip Gadgets",
+      "url": "https://www.hollywoodreporter.com/lifestyle/shopping/best-travel-gifts-1234953510/",
+      "excerpt": "Shower your favorite five-star vagabonds with these treats for their next staycation or whirlwind adventure.",
+      "content": "Shower your favorite five-star vagabonds with these treats for their next staycation or whirlwind adventure.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-07T20:27:35.000Z",
+      "sourceId": "hollywoodreporter",
+      "source": "The Hollywood Reporter",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "1kfhye9",
+      "title": "Sunrise On The Reaping director thinks Plutarch Heavensbee could lead his own Hunger Games",
+      "url": "https://www.avclub.com/hunger-games-sunrise-on-the-reaping-director-plutarch-heavensbee-spinoff-ideas",
+      "excerpt": "As The Hunger Games: Sunrise On The Reaping nears its November 20 release, its director is sharing ideas for a new spinoff in the Lionsgate franchise—and he already has a Hunger Games character in mind to take the lead. Speaking on the red carpet at a U.K…",
+      "content": "As The Hunger Games: Sunrise On The Reaping nears its November 20 release, its director is sharing ideas for a new spinoff in the Lionsgate franchise—and he already has a Hunger Games character in mind to take the lead. Speaking on the red carpet at a U.K. fan screening of Reaping in late October, director Francis Lawrence said he’s interested in exploring the life of Plutarch Heavensbee, the secret revolutionary in the popular Suzanne Collins series, at some point in the future. “You know, I thought about this,” Lawrence told Lionsgate’s social media team about his dream Games spinoff ( per The Wrap ). “There’s so many characters that I love. I think Plutarch [Heavensbee] is a really interesting character, and [co-star Jesse Plemons] just did a tremendous job.” Plemons took on the role first played by the late Philip Seymour Hoffman in the last three Hunger Games movies to star Jennifer Lawrence. (As for Katniss Everdeen, she recently let slip that she and co-stars Josh Hutcherson and Woody Harrelson will also appear in the new prequel.) “Seeing a Plutarch story would be really interesting,” the director said.\n\nPlemons leading a solo Hunger Games movie would be an interesting move for the franchise. Reaping and Lawrence’s 2023 prequel, The Ballad of Songbirds & Snakes also focus on the history of a consequential figure from Katniss Everdeen’s revolutionary era (Joseph Zada’s Haymitch Abernathy and Tom Blyth’s future president Coriolanus Snow, respectively). Plus, other sci-fi dystopian franchises have “reaped” rich ore from their prequel expansions—namely, Tony Gilroy’s Andor , the acclaimed Star Wars prequel that turned a secondary prequel figure into one of the franchise’s richest characters. A Heavensbee-focused prequel with Plemons in the lead could tap into similarly thrilling cloak-and-dagger territory as Andor , with Heavensbee oscillating between his Capitol propaganda work and subversive duties for the rebellion. The idea appeals to Hunger Games producer Nina Jacobsen, who also waxed enthusiastic about the character at the Reaping screening. “I’m a Plutarch obsessive, especially once you read [Collins’ latest book],” she said. “He’s been at this for twenty-five years, playing both sides. Like, how did you pull that off?”\n\nYou can watch Lawrence and Jacobson talk up Plutarch Heavensbee in an Instagram clip here.",
+      "image": "https://www.avclub.com/wp-content/uploads/2026/11/07/plutarch-plemons-header.jpg",
+      "images": [
+        {
+          "url": "https://www.avclub.com/wp-content/uploads/2026/11/07/plutarch-plemons-header.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/07150516/plutarch-plemons-lead.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T20:16:04.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "15vbx03",
+      "title": "Ukraine’s Zaporizhzhia faces threat as Russian drones close in",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/0711-reported-audrey-in-zaporizhzhia-071126?traffic_source=rss",
+      "excerpt": "Ukraine’s Zaporizhzhia, once a refuge for those fleeing the war, is now facing growing danger.",
+      "content": "Ukraine’s Zaporizhzhia, once a refuge for those fleeing the war, is now facing growing danger.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-07T20:10:38.000Z",
+      "sourceId": "aljazeera",
+      "source": "Al Jazeera",
+      "category": "war",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "je2r1r",
+      "title": "Missing Teen Saved From Alleged Kidnapper After Seeking Help in Among Us",
+      "url": "https://www.ign.com/articles/missing-teen-saved-from-alleged-kidnapper-after-seeking-help-in-among-us",
+      "excerpt": "A Utah teenager was rescued from an Oregon man's home after she successfully contacted help from another child in Among Us . Authorities saved the 17-year-old November 1, 2026, after receiving a tip relayed by a younger player she met while playing developer…",
+      "content": "A Utah teenager was rescued from an Oregon man's home after she successfully contacted help from another child in Among Us .\n\nAuthorities saved the 17-year-old November 1, 2026, after receiving a tip relayed by a younger player she met while playing developer Innersloth's hit party mystery game, according to Newsweek . She had allegedly spent more than 500 days held captive by 39-year-old Adam Harmel after he took her across state lines and prevented her from leaving.\n\nThe Utah teen was just 15 when she was reported missing in May 2025. Harmel allegedly began contacting her through Snapchat earlier that month before offering to send her money to travel to his home in Oregon. He then made the hours-long drive to her location and lured her into his vehicle, disposing of her phone by throwing it into a river shortly after.\n\nInvestigators said Harmel forced the teenager to sleep in a bed with him in his basement, becoming increasingly violent through the 521 days she was held captive. She found her window to escape when the alleged kidnapper granted her access to a phone without cellular data.\n\nAlthough unable to contact others via traditional means, the device did allow her to use a WiFi connection to play online games. Among Us, which allows players to communicate and was released for mobile devices in 2018, allowed her to get in touch with another child.\n\nAfter moving the conversation to a different, undisclosed social media app, she then told the other player who she was, revealing that she was actively being held captive at Harmel's home in Oregon.\n\nShe shared concern that, after more than 500 days of searching, authorities had stopped looking for her. The other child then alerted their mother to the interaction, with the parent then reaching out to the FBI. A subsequent video call with the missing teenager saw her describe her circumstances to investigators.\n\nShe was rescued from Harmel's property later that day. Harmel has since been arrested and charged with transporting the teenager across state lines with the intent to exploit her.",
+      "image": "https://assets-prd.ignimgs.com/2026/11/07/among-us-1794081958488.png",
+      "images": [
+        {
+          "url": "https://assets-prd.ignimgs.com/2026/11/07/among-us-1794081958488.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T20:06:52.000Z",
+      "sourceId": "ign",
+      "source": "IGN",
+      "category": "games",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "12wcfnx",
+      "title": "Star Wars Zero Company studio Bit Reactor lays off staff, a month after bringing furloughed developers back",
+      "url": "https://www.eurogamer.net/star-wars-zero-company-bit-reactor-layoffs",
+      "excerpt": "Star Wars Zero Company developer Bit Reactor has laid off an unspecified number of staff, a month after bringing some of its furloughed team back to work. Read more",
+      "content": "Star Wars Zero Company developer Bit Reactor has laid off an unspecified number of staff, a month after bringing some of its furloughed team back to work.\n\nRead more",
+      "image": "https://assetsio.gnwcdn.com/star-wars-zero-company-screen.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "images": [
+        {
+          "url": "https://assetsio.gnwcdn.com/star-wars-zero-company-screen.jpg?width=690&quality=85&format=jpg&auto=webp",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T20:06:10.000Z",
+      "sourceId": "eurogamer",
+      "source": "Eurogamer",
+      "category": "games",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "1s7smq8",
+      "title": "John Goodman Thinks He Shouldn't Have Starred In George Clooney's 2014 Critical Flop",
+      "url": "https://www.slashfilm.com/2288678/john-goodman-shouldnt-have-done-george-clooney-flop-the-monuments-men/",
+      "excerpt": "John Goodman says he had fun working on this flop with George Clooney, but he also thinks he probably shouldn't have made the movie.",
+      "content": "John Goodman says he had fun working on this flop with George Clooney, but he also thinks he probably shouldn't have made the movie.",
+      "image": "https://www.slashfilm.com/img/gallery/john-goodman-thinks-he-shouldnt-have-starred-in-george-clooneys-2014-critical-flop/l-intro-1793649924.jpg",
+      "images": [
+        {
+          "url": "https://www.slashfilm.com/img/gallery/john-goodman-thinks-he-shouldnt-have-starred-in-george-clooneys-2014-critical-flop/l-intro-1793649924.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.slashfilm.com/img/gallery/john-goodman-thinks-he-shouldnt-have-starred-in-george-clooneys-2014-critical-flop/intro-1793649924.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T20:00:00.000Z",
+      "sourceId": "slashfilm",
+      "source": "SlashFilm",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "1py5sb9",
+      "title": "Feature: Going Platinum: For About Two Months, I Was a Devout Member of the Cult of the Lamb",
+      "url": "https://www.pushsquare.com/features/going-platinum-for-about-two-months-i-was-a-devout-member-of-the-cult-of-the-lamb",
+      "excerpt": "No need to be sheepish about it. Platinum Trophy #40: Cult of the Lamb Date Earned: 11th October 2022 Read the full article on pushsquare.com",
+      "content": "No need to be sheepish about it.\n\nPlatinum Trophy #40: Cult of the Lamb\n\nDate Earned: 11th October 2022\n\nRead the full article on pushsquare.com",
+      "image": "https://images.pushsquare.com/513f67c0c9218/small.jpg",
+      "images": [
+        {
+          "url": "https://images.pushsquare.com/513f67c0c9218/small.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://images.pushsquare.com/513f67c0c9218/large.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T20:00:00.000Z",
+      "sourceId": "pushsquare",
+      "source": "Push Square",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "7bcss1",
+      "title": "UFC's Dana White appears to accept job offer to be Trump's new press secretary",
+      "url": "https://www.avclub.com/ufcs-dana-white-appears-accept-job-offer-trumps-new-press-secretary",
+      "excerpt": "Although it can be almost insanely difficult to pick, one of the frustrations of having a national leader whose 80-year-old brain has spent the last two decades slow-roasting in a soup of the world’s most toxic social media is that the line between official…",
+      "content": "Although it can be almost insanely difficult to pick, one of the frustrations of having a national leader whose 80-year-old brain has spent the last two decades slow-roasting in a soup of the world’s most toxic social media is that the line between official presidential announcements, deliberate jokes, and rambling toilet musings can get just a little blurry. Donald Trump has, after all, announced real policies, staffing changes, and outright military actions via his Truth Social yelling platform; actual human beings, with actual human bodies and families and everything, have died based on the words Trump has fat-thumbed all-cappsed onto the ad-slathered joke of a platform. So while our instinct is to assume that a pronouncement Trump made on Truth Social on Saturday—inviting UFC CEO and registered crony Dana White to be his new press secretary, after a series of high-profile departures from the role—was intended as a joke, on the other hand, who are we to call out any idea as too absurd for our current reality, y’know?\n\nPer Reuters , Trump posted the job offer on Saturday afternoon, writing that, “I am pleased to announce that the Great Dana White, a violent Fighter and Warrior, has been offered the job of Press Secretary of the United States.” Accompanied by what looks to be an AI-generated picture of White standing at a White House press podium, the post also invited White to “bring with him assistants, even though some are not from our Country, of Islam Makhachev, Khabib Nurmagomedov, Justin Gaethje, Daniel Cormier, Amanda Nunes, and Kayla Harris.” (Also all pictured, in the midst of various UFC bouts, as one does when issuing official presidential job offers.) The joke, if it is a joke, is that Trump feels he needs these UFC fighters to “defend us against the Lunatic Left,” presumably by hitting them very hard and grappling them into submission when they ask questions he doesn’t like, about, say, getting the crap kicked out of him in last week’s midterm elections, or whether he feels the need to project a six-year-old’s vision of masculinity to puff himself back up after such a public set of losses.\n\nAlthough he has no formal press training that we’re aware of, White has spent many years as the extremely vocal face of a company built around selling the spectacle of raw, ugly violence as good and wholesome fun, which does feel like a job skill this particular administration might prize. (Did you know he also runs a league for “slap fighting,” in which fighters take turns trying to slap each other until they can’t stand? You learn something new, and gross, every day.) For what it’s worth, White posted an update to his Instagram Story this afternoon, seeming to accept the job, posting a picture of himself at the Press Room podium with the caption “On to the next chapter.”",
+      "image": "https://www.avclub.com/wp-content/uploads/2026/11/07/white-trump-feature.jpg",
+      "images": [
+        {
+          "url": "https://www.avclub.com/wp-content/uploads/2026/11/07/white-trump-feature.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/07145031/white-trump-lead.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T19:56:37.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "14abiql",
+      "title": "‘Heated Rivalry’ Hat Trick: Hit Series Filming Season 2, Season 3 And A Movie – The Dish",
+      "url": "https://deadline.com/2026/11/heated-rivalry-season-2-season-3-movie-scott-kip-1237216072/",
+      "excerpt": "EXCLUSIVE: Heated Rivalry fans who have been eagerly awaiting Season 2 of Crave’s hockey series are in for a great surprise. The hugely popular romantic drama starring Connor Storrie and Hudson Williams has not one but two six-episode seasons on the way…",
+      "content": "EXCLUSIVE: Heated Rivalry fans who have been eagerly awaiting Season 2 of Crave’s hockey series are in for a great surprise. The hugely popular romantic drama starring Connor Storrie and Hudson Williams has not one but two six-episode seasons on the way, sources tell Deadline. And that’s not all, there is a movie coming up, […]",
+      "image": "https://deadline.com/wp-content/uploads/2026/11/Heated-Rivalry.jpg",
+      "images": [
+        {
+          "url": "https://deadline.com/wp-content/uploads/2026/11/Heated-Rivalry.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T19:53:03.000Z",
+      "sourceId": "deadline",
+      "source": "Deadline",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "zeirm1",
+      "title": "Trump Offers Press Secretary Role to UFC CEO Dana White, Asks That He Bring Assistants to ‘Defend Us Against the Lunatic Left’",
+      "url": "https://variety.com/2026/biz/news/trump-press-secretary-ufc-dana-white-1236942110/",
+      "excerpt": "President Donald Trump has offered UFC President and CEO Dana White the White House press secretary role after Katie Zacharia was ousted in October. “I am pleased to announce that the Great Dana White, a violent Fighter and Warrior, has been offered the job…",
+      "content": "President Donald Trump has offered UFC President and CEO Dana White the White House press secretary role after Katie Zacharia was ousted in October. “I am pleased to announce that the Great Dana White, a violent Fighter and Warrior, has been offered the job of Press Secretary of the United States,” Trump wrote on Truth […]",
+      "image": "https://variety.com/wp-content/uploads/2026/11/GettyImages-2209982489.jpg",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/GettyImages-2209982489.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T19:52:53.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "18fy03e",
+      "title": "Зеленский: Обсуждение новой архитектуры безопасности опасно для Европы",
+      "url": "https://www.dw.com/ru/%D0%B7%D0%B5%D0%BB%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D0%BE%D0%B1%D1%81%D1%83%D0%B6%D0%B4%D0%B5%D0%BD%D0%B8%D0%B5-%D0%BD%D0%BE%D0%B2%D0%BE%D0%B9-%D0%B0%D1%80%D1%85%D0%B8%D1%82%D0%B5%D0%BA%D1%82%D1%83%D1%80%D1%8B-%D0%B1%D0%B5%D0%B7%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE%D1%81%D1%82%D0%B8-%D0%BE%D0%BF%D0%B0%D1%81%D0%BD%D0%BE-%D0%B4%D0%BB%D1%8F-%D0%B5%D0%B2%D1%80%D0%BE%D0%BF%D1%8B/a-79887091?maca=rus-rss-ru-all-1126-rdf",
+      "excerpt": "По словам президента Украины, обсуждение будущей системы безопасности в Европе до окончания войны и предоставления гарантий Киеву может привести к новому разделу континента на сферы влияния.",
+      "content": "По словам президента Украины, обсуждение будущей системы безопасности в Европе до окончания войны и предоставления гарантий Киеву может привести к новому разделу континента на сферы влияния.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-07T19:51:00.000Z",
+      "sourceId": "dw-ru",
+      "source": "DW Russian",
+      "category": "war",
+      "lang": "ru",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "cnzp4l",
+      "title": "\"This trailer is my way of saying goodbye\": Have a listen to the Mass Effect 5 score that could have been, courtesy of one of the original games' composers",
+      "url": "https://www.rockpapershotgun.com/this-trailer-is-my-way-of-saying-goodbye-have-a-listen-to-the-mass-effect-5-score-that-could-have-been-courtesy-of-one-of-the-original-games-composers",
+      "excerpt": "By this point I'm probably safe in assuming that you all know EA are shutting down BioWare , and that Mass Effect 5 has been cancelled in turn. You may have also seen that an internal trailer for Mass Effect 5, or Universe as it was seemingly going to be…",
+      "content": "By this point I'm probably safe in assuming that you all know EA are shutting down BioWare , and that Mass Effect 5 has been cancelled in turn. You may have also seen that an internal trailer for Mass Effect 5, or Universe as it was seemingly going to be called, was leaked not long after the news broke , and that Sam Hulick, one of the composers on the original trilogy of games, shared he was going to offer up his re-scored version of the trailer . Well, it's N7 Day, as rough as that will be for many of the developers on the game, but Hulick has stood by his word, and shared an oral glimpse at what the world of Mass Effect Universe could have sounded like.\n\nRead more",
+      "image": "https://assetsio.gnwcdn.com/mass-effect-legendary-edition-thane.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "images": [
+        {
+          "url": "https://assetsio.gnwcdn.com/mass-effect-legendary-edition-thane.jpg?width=690&quality=85&format=jpg&auto=webp",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T19:49:20.000Z",
+      "sourceId": "rps",
+      "source": "Rock Paper Shotgun",
+      "category": "pc",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "13aznzz",
+      "title": "Zelda OOT Remake: Full Bottom of the Well walkthrough",
+      "url": "https://www.videogameschronicle.com/guide/zelda-oot-remake-full-bottom-of-the-well-walkthrough/",
+      "excerpt": "Everything you need to get the Lenses of Truth from the Bottom of the Well in The Legend of Zelda: Ocarina of Time remake… Source",
+      "content": "Everything you need to get the Lenses of Truth from the Bottom of the Well in The Legend of Zelda: Ocarina of Time remake…\n\nSource",
+      "image": "https://www.videogameschronicle.com/files/2026/11/Zelda-OOT-Remake-Full-Bottom-of-the-Well-walkthrough-1.jpg",
+      "images": [
+        {
+          "url": "https://www.videogameschronicle.com/files/2026/11/Zelda-OOT-Remake-Full-Bottom-of-the-Well-walkthrough-1.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T19:47:04.000Z",
+      "sourceId": "vgc",
+      "source": "VGC",
+      "category": "industry",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "8c6d87",
+      "title": "Кооперативный мультиплеер Mass Effect 3 вернулся в Legendary Edition благодаря масштабному моду",
+      "url": "https://www.playground.ru/mass_effect_trilogy/news/kooperativnyj_multipleer_mass_effect_3_vernulsya_v_legendary_edition_blagodarya_masshtabnomu_modu-1888692",
+      "excerpt": "В День N7 поклонники Mass Effect получили повод для радости на фоне закрытия BioWare: команда ME3Tweaks выпустила мод Legendary Edition Multiplayer, который переносит кооперативный мультиплеер из Mass Effect 3 в сборник Mass Effect Legendary Edition...",
+      "content": "В День N7 поклонники Mass Effect получили повод для радости на фоне закрытия BioWare: команда ME3Tweaks выпустила мод Legendary Edition Multiplayer, который переносит кооперативный мультиплеер из Mass Effect 3 в сборник Mass Effect Legendary Edition...",
+      "image": "https://i.playground.ru/e/IdspoRr6TOlndQi9yGzFtg.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/IdspoRr6TOlndQi9yGzFtg.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T19:43:01.000Z",
+      "sourceId": "playground-pc",
+      "source": "Playground ПК",
+      "category": "pc",
+      "lang": "ru",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "in7lel",
+      "title": "Richard Lloyd Dies: Guitarist With Influential Punk Pioneers Television Was 75",
+      "url": "https://deadline.com/2026/11/richard-lloyd-dead-1237216318/",
+      "excerpt": "Richard Lloyd, whose intricate guitar work for the pioneering punk band Television was a fiery counterpart to the sinewy stylings of the band’s co-guitarist and singer Tom Verlaine, died today of the bile duct cancer called cholangiocarcinoma at his home in…",
+      "content": "Richard Lloyd, whose intricate guitar work for the pioneering punk band Television was a fiery counterpart to the sinewy stylings of the band’s co-guitarist and singer Tom Verlaine, died today of the bile duct cancer called cholangiocarcinoma at his home in Chattanooga, Tenn. He was 75. His death was reported by his family to The […]",
+      "image": "https://deadline.com/wp-content/uploads/2026/11/GettyImages-50858680.jpg",
+      "images": [
+        {
+          "url": "https://deadline.com/wp-content/uploads/2026/11/GettyImages-50858680.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T19:39:21.000Z",
+      "sourceId": "deadline",
+      "source": "Deadline",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "1p2g4tw",
+      "title": "Sony delays PlayStation's Pulse Elevate speakers indefinitely, less than a week before launch",
+      "url": "https://www.eurogamer.net/playstation-pulse-elevate-speakers-delayed-indefinitely-production-issue",
+      "excerpt": "Sony has delayed its Pulse Elevate wireless speakers indefinitely, less than a week before they were due to launch. Read more",
+      "content": "Sony has delayed its Pulse Elevate wireless speakers indefinitely, less than a week before they were due to launch.\n\nRead more",
+      "image": "https://assetsio.gnwcdn.com/Screenshot-2026-11-07-at-19.29.39.png?width=690&quality=85&format=jpg&auto=webp",
+      "images": [
+        {
+          "url": "https://assetsio.gnwcdn.com/Screenshot-2026-11-07-at-19.29.39.png?width=690&quality=85&format=jpg&auto=webp",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T19:36:10.000Z",
+      "sourceId": "eurogamer",
+      "source": "Eurogamer",
+      "category": "games",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "6369iu",
+      "title": "Новые Мерседесы смогут сами себя очищать от снега: разработана новая система",
+      "url": "https://www.zr.ru/content/news/988177-sneg-s-kryshi-v-salon-bolshe-ne/",
+      "excerpt": "Mercedes-Benz разработал систему сдувания снега с крыши сжатым воздухом",
+      "content": "Mercedes-Benz разработал систему сдувания снега с крыши сжатым воздухом",
+      "image": "https://www.zr.ru/_ah/img/Rn1dE7zy-crWHHYT3wUL2A",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/Rn1dE7zy-crWHHYT3wUL2A",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T19:35:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "1b7nd1l",
+      "title": "Master Quest references potentially found in Zelda: Ocarina of Time remake files",
+      "url": "https://nintendoeverything.com/master-quest-references-potentially-found-in-zelda-ocarina-of-time-remake-files/",
+      "excerpt": "Following a new datamine, some fans are hoping that Master Quest could be added to the remake for The Legend of Zelda: Ocarina of Time in the future. As we previously reported, the game doesn’t have Master Quest included. Some fans were hoping it’d be an…",
+      "content": "Following a new datamine, some fans are hoping that Master Quest could be added to the remake for The Legend of Zelda: Ocarina of Time in the future. As we previously reported, the game doesn’t have Master Quest included. Some fans were hoping it’d be an unlockable bonus after beating the story, but nothing like that exists. MrCheeze has now...\n\nNintendo Everything .",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Zelda-Ocarina-of-Time-remake-Master-Quest-datamine-150x84.jpg",
+      "images": [
+        {
+          "url": "https://nintendoeverything.com/wp-content/uploads/Zelda-Ocarina-of-Time-remake-Master-Quest-datamine-150x84.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://nintendoeverything.com/wp-content/uploads/Zelda-Ocarina-of-Time-remake-Master-Quest-datamine.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T19:32:05.000Z",
+      "sourceId": "nintendoeverything",
+      "source": "Nintendo Everything",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "1kilnc7",
+      "title": "Intel Razor Lake-S выйдет не раньше 2028 года на платформе LGA-1954",
+      "url": "https://www.playground.ru/misc/news/intel_razor_lake_s_vyjdet_ne_ranshe_2028_goda_na_platforme_lga_1954-1888687",
+      "excerpt": "Razor Lake-S, по данным Jaykihn, станет продуктом 2028 года. Это согласуется с более ранними утечками: Nova Lake-S дебютирует в первом квартале 2027-го, а Intel планирует сохранить сокет LGA-1954 на несколько поколений. Если планы не изменятся...",
+      "content": "Razor Lake-S, по данным Jaykihn, станет продуктом 2028 года. Это согласуется с более ранними утечками: Nova Lake-S дебютирует в первом квартале 2027-го, а Intel планирует сохранить сокет LGA-1954 на несколько поколений. Если планы не изменятся...",
+      "image": "https://i.playground.ru/e/lBIeL73LDvG5-WCMBBPXjg.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/lBIeL73LDvG5-WCMBBPXjg.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T19:26:44.000Z",
+      "sourceId": "playground-announces",
+      "source": "Playground Анонсы",
+      "category": "announces",
+      "lang": "ru",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "1s2rq12",
+      "title": "Боди-хоррор \"Глиноликий\" от DC Studios собрал $100 млн и обошел \"Уличного бойца\" в мировом прокате",
+      "url": "https://www.playground.ru/misc/news/bodi_horror_glinolikij_ot_dc_studios_sobral_100_mln_i_oboshel_ulichnogo_bojtsa_v_mirovom_prokate-1888685",
+      "excerpt": "\"Глиноликий\", фильм в жанре боди-хоррора от DC Studios, достиг отметки в 100 миллионов долларов в мировом прокате. Благодаря этому результату картина превзошла общие сборы фильма \"Уличный боец\" (Street Fighter), несмотря на то, что вышла на...",
+      "content": "\"Глиноликий\", фильм в жанре боди-хоррора от DC Studios, достиг отметки в 100 миллионов долларов в мировом прокате. Благодаря этому результату картина превзошла общие сборы фильма \"Уличный боец\" (Street Fighter), несмотря на то, что вышла на...",
+      "image": "https://i.playground.ru/e/UKIoys3PWyHfytw8aHl9Hg.webp",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/UKIoys3PWyHfytw8aHl9Hg.webp",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T19:22:22.000Z",
+      "sourceId": "playground-releases",
+      "source": "Playground Релизы",
+      "category": "releases",
+      "lang": "ru",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "k8evkb",
+      "title": "Assassin's Creed is reportedly going to ancient Rome, while a mobile spin-off heads to Jerusalem",
+      "url": "https://www.eurogamer.net/assassins-creed-mars-ancient-rome-pocket-mobile-jerusalem-rumour",
+      "excerpt": "Ubisoft is reportedly working on two new Assassin's Creed games , and one of them is set in ancient Rome. Read more",
+      "content": "Ubisoft is reportedly working on two new Assassin's Creed games , and one of them is set in ancient Rome.\n\nRead more",
+      "image": "https://assetsio.gnwcdn.com/Assassins-Creed-Black-Flag-Resynced---Naval-Combat-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "images": [
+        {
+          "url": "https://assetsio.gnwcdn.com/Assassins-Creed-Black-Flag-Resynced---Naval-Combat-2.jpg?width=690&quality=85&format=jpg&auto=webp",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T19:16:50.000Z",
+      "sourceId": "eurogamer",
+      "source": "Eurogamer",
+      "category": "games",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "aywfol",
+      "title": "Rumour: Data Found In Zelda: Ocarina Of Time May Hint At Master Quest DLC",
+      "url": "https://www.nintendolife.com/news/2026/11/rumour-data-found-in-zelda-ocarina-of-time-may-hint-at-master-quest-dlc",
+      "excerpt": "Make it so. One of our main bugbears with Zelda: Ocarina of Time on Switch 2 – as incredible as it is – is that it's overall quite a breezy experience for those already familiar with the original or 3DS release. As such, we thought it might beneficial if…",
+      "content": "Make it so.\n\nOne of our main bugbears with Zelda: Ocarina of Time on Switch 2 – as incredible as it is – is that it's overall quite a breezy experience for those already familiar with the original or 3DS release.\n\nAs such, we thought it might beneficial if Nintendo were to include a more difficult mode, whether it be a simple Hero Mode in which enemies deal more damage, or perhaps even a port of the reworked Master Quest mode from the GameCube and 3DS.\n\nRead the full article on nintendolife.com",
+      "image": "https://images.nintendolife.com/6ee2920a8b7ff/small.jpg",
+      "images": [
+        {
+          "url": "https://images.nintendolife.com/6ee2920a8b7ff/small.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://images.nintendolife.com/6ee2920a8b7ff/large.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T19:15:00.000Z",
+      "sourceId": "nintendolife",
+      "source": "Nintendo Life",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "jyh9mk",
+      "title": "Latvian farmers protest over ‘blood grain’ trade with Russia",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/7/7-11-sv-latvia-farmers-protest-russian-grain-transit?traffic_source=rss",
+      "excerpt": "Latvian farmers are protesting Russian grain transit, arguing that it helps fund Moscow’s war in Ukraine.",
+      "content": "Latvian farmers are protesting Russian grain transit, arguing that it helps fund Moscow’s war in Ukraine.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-07T19:10:34.000Z",
+      "sourceId": "aljazeera",
+      "source": "Al Jazeera",
+      "category": "war",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "1hqjnm2",
+      "title": "Быстрее, проще, глупее: скрытая цена ИИ‑помощников",
+      "url": "https://habr.com/ru/articles/1104974/",
+      "excerpt": "Мы привыкли считать, что хороший интерфейс — это интерфейс, который снимает с человека лишнее умственное усилие. Для обычного продукта это верно: пользователь пришёл решить задачу, а не научиться чему-то. С ИИ-ассистентами эта логика перестаёт работать. Они…",
+      "content": "Мы привыкли считать, что хороший интерфейс — это интерфейс, который снимает с человека лишнее умственное усилие. Для обычного продукта это верно: пользователь пришёл решить задачу, а не научиться чему-то. С ИИ-ассистентами эта логика перестаёт работать. Они убирают не только лишнее усилие, но и ту работу с материалом, из которой складывается навык. Разберёмся, какая нагрузка мешает, какая нужна и почему продукту с ИИ одного снижения внешней нагрузки мало.\n\nЧитать далее",
+      "image": "https://habrastorage.org/extt/26/5d/81/265d81cbacf5180a48a1f346435173a2.png",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/26/5d/81/265d81cbacf5180a48a1f346435173a2.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T19:09:03.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "i871fc",
+      "title": "Как я предсказал просмотры на Хабре через ML",
+      "url": "https://habr.com/ru/articles/1104972/",
+      "excerpt": "Чуть больше года назад у меня вышла статья про биржу Kwork ( ссылка на статью ). Она набрала 30 000 просмотров. Результат неплохой, но в топе того же хабра лежат публикации по 150 000 и 350 000 просмотров. Мне стало интересно, почему одни статьи собирают пару…",
+      "content": "Чуть больше года назад у меня вышла статья про биржу Kwork ( ссылка на статью ). Она набрала 30 000 просмотров. Результат неплохой, но в топе того же хабра лежат публикации по 150 000 и 350 000 просмотров. Мне стало интересно, почему одни статьи собирают пару тысяч просмотров, а другие читают сотнями тысяч.\n\nЯ решил проверить это с помощью Python и машинного обучения. План был простой: собрать статистику по статьям из моего хаба, оценить качество текстов через языковую модель, загрузить все метрики в Random Forest и посмотреть, какие параметры сильнее всего влияют на просмотры.\n\nВ процессе я уперся в лимиты облачного API, локальная нейросеть в LM Studio схитрила на промпте, а сам алгоритм машинного обучения сначала выдал аномальный прогноз из-за утечки данных. Ниже расскажу, как я это исправлял и какие цифры получил в итоге.\n\nПредсказала ли модель статистику статьи?",
+      "image": "https://habrastorage.org/extt/79/a7/32/79a732a324e7e9281164ba0791a37919.png",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/79/a7/32/79a732a324e7e9281164ba0791a37919.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T19:02:07.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "178ese7",
+      "title": "‘Full House’ Star Jodie Sweetin Says She Had ‘$190 in My Bank Account’ Before Filming ‘Fuller House’: ‘I Had to Borrow Money the First Week’",
+      "url": "https://variety.com/2026/tv/news/full-house-jodie-sweetin-fuller-house-1236942080/",
+      "excerpt": "Jodie Sweetin, who first shot to fame as Stephanie Tanner on the beloved sitcom “Full House,” is opening up about her financial struggles over the years, particularly how close she came to running out of funds before returning to the show’s 2016 reboot…",
+      "content": "Jodie Sweetin, who first shot to fame as Stephanie Tanner on the beloved sitcom “Full House,” is opening up about her financial struggles over the years, particularly how close she came to running out of funds before returning to the show’s 2016 reboot, “Fuller House.” “I had to borrow money the first week I was […]",
+      "image": "https://variety.com/wp-content/uploads/2026/11/TCDFUHO_EC032.jpg",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/TCDFUHO_EC032.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T19:01:13.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "1ghepa1",
+      "title": "Different text genres help doctoral students adapt their writing to reach new readers",
+      "url": "https://phys.org/news/2026-11-text-genres-doctoral-students-readers.html",
+      "excerpt": "An academic abstract, a blog post and a public outreach article all place different demands on the writer. Readers' prior knowledge varies, as does the purpose of the text and what needs explaining. Mastering one kind of text therefore does not automatically…",
+      "content": "An academic abstract, a blog post and a public outreach article all place different demands on the writer. Readers' prior knowledge varies, as does the purpose of the text and what needs explaining. Mastering one kind of text therefore does not automatically mean being able to write another.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/different-text-genres.jpg",
+      "images": [
+        {
+          "url": "https://scx1.b-cdn.net/csz/news/tmb/2026/different-text-genres.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T19:00:02.000Z",
+      "sourceId": "physorg",
+      "source": "Phys.org",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "11z2d0e",
+      "title": "Keira Knightley and ‘Black Doves’ Creator Joe Barton Why Helen Should Have Been the One to Kill [SPOILER], That Oner and Hopes for Season 3",
+      "url": "https://variety.com/2026/tv/global/keira-knightley-black-doves-creator-joe-barton-dani-death-season-3-1236941609/",
+      "excerpt": "SPOILER ALERT: This article contains major spoilers for “Black Doves” Season 2, now streaming on Netflix. Keira Knightley is back as super spy Helen Webb in Season 2 of “Black Doves,” alongside Ben Whishaw as her troubled colleague Sam Young and Sarah…",
+      "content": "SPOILER ALERT: This article contains major spoilers for “Black Doves” Season 2, now streaming on Netflix. Keira Knightley is back as super spy Helen Webb in Season 2 of “Black Doves,” alongside Ben Whishaw as her troubled colleague Sam Young and Sarah Lancashire as her stoic spymaster Reed. The show, created by Joe Barton, returns […]",
+      "image": "https://variety.com/wp-content/uploads/2026/09/BD_201_Unit_02372_RT3.jpg",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/09/BD_201_Unit_02372_RT3.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/BlackDoves-Season2-SarahLancashire-BenWhishaw.jpg?w=1024&h=1000",
+          "alt": ""
+        },
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/BlackDoves-Season2-KeiraKnightley-kids.jpg?w=1024&h=1000",
+          "alt": ""
+        },
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/BlackDoves-Season2-KeiraKnightley-BenWhishaw.jpg?w=1024&h=1000",
+          "alt": ""
+        },
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/BlackDoves-Season2-KeiraKnightley-AndrewBuchan.jpg?w=1024&h=1000",
+          "alt": ""
+        },
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/BlackDoves-Season2-Keira-Ambika.1.jpg?w=1024&h=1000",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T19:00:00.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "a1n3r9",
+      "title": "Gilligan's Island Star Jim Backus Voiced One Of Animation's Most Famous Characters",
+      "url": "https://www.slashfilm.com/2299419/gilligans-island-star-jim-backus-mr-magoo-voice/",
+      "excerpt": "Jim Backus is best known for playing 'The Millionaire' on Gilligan's Island, but he also voiced a famous animated character with deep pockets of his own.",
+      "content": "Jim Backus is best known for playing 'The Millionaire' on Gilligan's Island, but he also voiced a famous animated character with deep pockets of his own.",
+      "image": "https://www.slashfilm.com/img/gallery/gilligans-island-star-jim-backus-voiced-one-of-animations-most-famous-characters/l-intro-1793194889.jpg",
+      "images": [
+        {
+          "url": "https://www.slashfilm.com/img/gallery/gilligans-island-star-jim-backus-voiced-one-of-animations-most-famous-characters/l-intro-1793194889.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.slashfilm.com/img/gallery/gilligans-island-star-jim-backus-voiced-one-of-animations-most-famous-characters/intro-1793194889.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T19:00:00.000Z",
+      "sourceId": "slashfilm",
+      "source": "SlashFilm",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "eaklbo",
+      "title": "Chauffeur Life",
+      "url": "https://www.caranddriver.com/features/columns/a74336655/elana-scherr-rear-seat-amenities/",
+      "excerpt": "My guests’ expertise in rear-seat amenities provides some insight into passenger-pleasing design.",
+      "content": "My guests’ expertise in rear-seat amenities provides some insight into passenger-pleasing design.",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/88b2f126-72ed-4f5d-964b-0b3e270fe936.jpg",
+      "images": [
+        {
+          "url": "https://hips.hearstapps.com/hmg-prod/images/88b2f126-72ed-4f5d-964b-0b3e270fe936.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T19:00:00.000Z",
+      "sourceId": "caranddriver",
+      "source": "Car and Driver",
+      "category": "cars",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "1ee4a9z",
+      "title": "Adam Driver wastes exactly zero time confirming he's not in the Girls revival",
+      "url": "https://www.avclub.com/adam-driver-confirms-not-in-girls-revival-nope",
+      "excerpt": "You may recall feeling a shift in the earth of the internet a few weeks back , a distant rumbling of some great machinery returning to grim and dismal life, as HBO announced that it was bringing Lena Dunham’s Girls —and, with it, the great and massive Girls…",
+      "content": "You may recall feeling a shift in the earth of the internet a few weeks back , a distant rumbling of some great machinery returning to grim and dismal life, as HBO announced that it was bringing Lena Dunham’s Girls —and, with it, the great and massive Girls Internet Drama Industrial Complex—back to life. But while the network confirmed back in October that Allison Williams, Zosia Mamet, Jemima Kirke, Andrew Rannells, and, of course, star and creator Lena Dunham would all be dutifully back at their positions on the assembly line, generating fodder for thinkpieces, hitpieces, and whatever other kinds of pieces you might enjoy about the show’s themes, relationships, and currently hypothetical behind-the-scenes issues, at least one member of the series’ ensemble has reportedly tapped out of their shift: Adam Driver, who spent six seasons playing love interest/frustration generator Adam Sackler on the series.\n\nDriver was asked whether he’d be throwing himself back into this particular thresher on Friday, with Cinema Blend taking the hit ( per THR ) of asking the actor, busy promoting his new movie Paper Tiger , whether there was “any chance” he’d be involved. Driver’s response arrived with, at the risk of psychoanalyzing, both the speed and the spin of someone who’s been practicing to backhand this particular serve for a minute: “Nope,” he says, lightning-quick, before adding a politely sincere “But I wish them the best of luck.”\n\nIt feels worth noting that Dunham wrote about Driver extensively in her 2026 memoir Famesick , including recounting incidents where he was rude and even physically aggressive toward her while they were working on the series. (She notes that during one heated rehearsal where she forgot her lines, he yelled at her and threw a chair near her.) “Who knows,” she wrote while describing their farewells from the series, “Maybe I’d write him new parts. We would tell new stories. We would laugh at the way things had been, and smile at the way they were now.” Instead, she writes, “I never heard from him again.” (We don’t know if Lena Dunham reads Cinema Blend , but it sounds like things on that score haven’t exactly thawed.)\n\nDunham’s Girls revival is expected to go into production in 2027.",
+      "image": "https://img.pastemagazine.com/wp-content/avuploads/2026/08/15025248/adam-driver-feature.jpg",
+      "images": [
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/08/15025248/adam-driver-feature.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/08/15025307/adam-driver-lead.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T18:59:58.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "pn5imz",
+      "title": "89% игроков уверены, что GTA 6 получит награду \"Игра года\" на The Game Awards",
+      "url": "https://www.playground.ru/gta_6/news/89_igrokov_uvereny_chto_gta_6_poluchit_nagradu_igra_goda_na_the_game_awards-1888679",
+      "excerpt": "Grand Theft Auto 6 ещё не вышла, но многие уже считают её главным претендентом на звание \"Игры года\". Согласно данным Polymarket, 89% участников рынка прогнозов уверены, что новый проект Rockstar получит главную награду на The...",
+      "content": "Grand Theft Auto 6 ещё не вышла, но многие уже считают её главным претендентом на звание \"Игры года\". Согласно данным Polymarket, 89% участников рынка прогнозов уверены, что новый проект Rockstar получит главную награду на The...",
+      "image": "https://i.playground.ru/e/nzpPA4twbZSta1SvMLokEA.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/nzpPA4twbZSta1SvMLokEA.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T18:33:22.000Z",
+      "sourceId": "playground-releases",
+      "source": "Playground Релизы",
+      "category": "releases",
+      "lang": "ru",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "el1b7u",
+      "title": "Отчаянные времена требуют отчаянных мер: GeForce GTX 1080 ожила в духовке через 35 минут",
+      "url": "https://www.playground.ru/misc/news/otchayannye_vremena_trebuyut_otchayannyh_mer_geforce_gtx_1080_ozhila_v_duhovke_cherez_35_minut-1888678",
+      "excerpt": "Десятилетний графический процессор NVIDIA вернулся в рабочее состояние после \"термической обработки\". Владелец карты FoxX11 \"оживил\" GeForce GTX 1080, прогрев её в духовке около 35 минут при температуре примерно 120-130 C.",
+      "content": "Десятилетний графический процессор NVIDIA вернулся в рабочее состояние после \"термической обработки\". Владелец карты FoxX11 \"оживил\" GeForce GTX 1080, прогрев её в духовке около 35 минут при температуре примерно 120-130 C.",
+      "image": "https://i.playground.ru/e/xPO_MOkUqYkvUtkTW_gTYg.webp",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/xPO_MOkUqYkvUtkTW_gTYg.webp",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T18:31:34.000Z",
+      "sourceId": "playground-pc",
+      "source": "Playground ПК",
+      "category": "pc",
+      "lang": "ru",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "1dpnrz4",
+      "title": "Godzilla Minus Zero Shuts Down One Of The Biggest Criticisms Of The Franchise",
+      "url": "https://www.slashfilm.com/2310132/godzilla-minus-zero-shut-down-criticism-franchise/",
+      "excerpt": "Godzilla movies have always delivered on the giant monster action, but Godzilla Minus Zero avoids one of most common criticisms of the franchise.",
+      "content": "Godzilla movies have always delivered on the giant monster action, but Godzilla Minus Zero avoids one of most common criticisms of the franchise.",
+      "image": "https://www.slashfilm.com/img/gallery/godzilla-minus-zero-shuts-down-one-of-the-biggest-criticisms-of-the-franchise/l-intro-1794075221.jpg",
+      "images": [
+        {
+          "url": "https://www.slashfilm.com/img/gallery/godzilla-minus-zero-shuts-down-one-of-the-biggest-criticisms-of-the-franchise/l-intro-1794075221.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.slashfilm.com/img/gallery/godzilla-minus-zero-shuts-down-one-of-the-biggest-criticisms-of-the-franchise/intro-1794075221.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T18:30:07.000Z",
+      "sourceId": "slashfilm",
+      "source": "SlashFilm",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "ges3zi",
+      "title": "Oscar Short Film Race Spotlights Bold Stories, New Animation Tech and Creative Risk-Taking",
+      "url": "https://variety.com/2026/awards/focus/oscar-short-film-race-1236939503/",
+      "excerpt": "Some of the most compelling stories in contention for the Academy Awards aren’t unfolding across two or three hours. They’re being told in a fraction of that time. The race in the short film categories is taking shape, offering a showcase for emerging…",
+      "content": "Some of the most compelling stories in contention for the Academy Awards aren’t unfolding across two or three hours. They’re being told in a fraction of that time. The race in the short film categories is taking shape, offering a showcase for emerging filmmakers, well-known talents and storytellers pushing the boundaries of what can be […]",
+      "image": "https://variety.com/wp-content/uploads/2026/11/Dear-Upstairs-Neighbors_Still-4_Ada-and-Fire.png",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/Dear-Upstairs-Neighbors_Still-4_Ada-and-Fire.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T18:30:00.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "12awb5i",
+      "title": "Глава МИД Италии заявил об утечке данных и угрозах семье",
+      "url": "https://www.dw.com/ru/%D0%B3%D0%BB%D0%B0%D0%B2%D0%B0-%D0%BC%D0%B8%D0%B4-%D0%B8%D1%82%D0%B0%D0%BB%D0%B8%D0%B8-%D0%B7%D0%B0%D1%8F%D0%B2%D0%B8%D0%BB-%D0%BE%D0%B1-%D1%83%D1%82%D0%B5%D1%87%D0%BA%D0%B5-%D0%B4%D0%B0%D0%BD%D0%BD%D1%8B%D1%85-%D0%B8-%D1%83%D0%B3%D1%80%D0%BE%D0%B7%D0%B0%D1%85-%D1%81%D0%B5%D0%BC%D1%8C%D0%B5/a-79887517?maca=rus-rss-ru-all-1126-rdf",
+      "excerpt": "По словам Антонио Таяни, в даркнете распространяются его личные данные, а также ведется поиск информации о нем и его близких. Премьер Италии Джорджа Мелони связала инцидент с деятельностью пророссийских хакеров.",
+      "content": "По словам Антонио Таяни, в даркнете распространяются его личные данные, а также ведется поиск информации о нем и его близких. Премьер Италии Джорджа Мелони связала инцидент с деятельностью пророссийских хакеров.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-07T18:30:00.000Z",
+      "sourceId": "dw-ru",
+      "source": "DW Russian",
+      "category": "war",
+      "lang": "ru",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "1qatdh0",
+      "title": "Доверяй, но проверяй: 12 выводов о Human‑in‑the‑Loop с LLM",
+      "url": "https://habr.com/ru/articles/1095740/",
+      "excerpt": "Сейчас LLM всё чаще внедряют в работающие бизнес-процессы: поиск и сбор информации, структурирование данных, проверку и публикацию. При этом цена одной ошибки модели бывает довольно высокой: это потерянные деньги, врея и репутация в глазах клиентов. Снизить…",
+      "content": "Сейчас LLM всё чаще внедряют в работающие бизнес-процессы: поиск и сбор информации, структурирование данных, проверку и публикацию. При этом цена одной ошибки модели бывает довольно высокой: это потерянные деньги, врея и репутация в глазах клиентов.\n\nСнизить этот риск помогает принцип Human-in-the-Loop: в процесс добавляется человек, который валидирует данные. В этой статье собраны наши выводы на примере двух реальных бизнес-задач : автоматического перевода и поиска размерных сеток.\n\nЧитать далее",
+      "image": "https://habrastorage.org/extt/87/82/1b/87821b81164d50d8205b47ebe416d32e.png",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/87/82/1b/87821b81164d50d8205b47ebe416d32e.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T18:22:07.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "1tcfcvm",
+      "title": "Epic Games готовит официальный лаунчер для Steam Deck - игры из EGS станет проще запускать на SteamOS",
+      "url": "https://www.playground.ru/misc/news/epic_games_gotovit_ofitsialnyj_launcher_dlya_steam_deck_igry_iz_egs_stanet_prosche_zapuskat_na_steamos-1888674",
+      "excerpt": "Epic Games подтвердила, что её лаунчер получит полноценную поддержку SteamOS. Это позволит владельцам Steam Deck устанавливать и запускать игры из Epic Games Store без необходимости вручную настраивать совместимость и пользоваться сторонними решениями.",
+      "content": "Epic Games подтвердила, что её лаунчер получит полноценную поддержку SteamOS. Это позволит владельцам Steam Deck устанавливать и запускать игры из Epic Games Store без необходимости вручную настраивать совместимость и пользоваться сторонними решениями.",
+      "image": "https://i.playground.ru/e/N8y7KYlvxfndRVooqzsxEg.webp",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/N8y7KYlvxfndRVooqzsxEg.webp",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T18:11:42.000Z",
+      "sourceId": "playground-pc",
+      "source": "Playground ПК",
+      "category": "pc",
+      "lang": "ru",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "1fzmty1",
+      "title": "The end of Microsoft Research's AI Frontiers group",
+      "url": "https://hunch.net/?p=13764006",
+      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 241 # Comments: 137",
+      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 241\n\n# Comments: 137",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-07T18:02:17.000Z",
+      "sourceId": "hn",
+      "source": "Hacker News",
+      "category": "aisoft",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "1irfa1w",
+      "title": "All 10 Big Poe locations in Zelda: Ocarina of Time",
+      "url": "https://nintendoeverything.com/all-10-big-poe-locations-in-zelda-ocarina-of-time/",
+      "excerpt": "Looking for all of the Big Poe locations in The Legend of Zelda: Ocarina of Time? Hyrule Field contains 10 Big Poes that are hidden, and we’ve marked every location on the map below to help you find them all. One of the more repetitive side quests in the…",
+      "content": "Looking for all of the Big Poe locations in The Legend of Zelda: Ocarina of Time? Hyrule Field contains 10 Big Poes that are hidden, and we’ve marked every location on the map below to help you find them all. One of the more repetitive side quests in the original Nintendo 64 (and later 3DS) version was collecting all of...\n\nNintendo Everything .",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Zelda-Ocarina-of-Time-Big-Poe-Locations-Guide-150x84.jpg",
+      "images": [
+        {
+          "url": "https://nintendoeverything.com/wp-content/uploads/Zelda-Ocarina-of-Time-Big-Poe-Locations-Guide-150x84.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://nintendoeverything.com/wp-content/uploads/Zelda-Ocarina-of-Time-Big-Poe-Locations-Guide.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T18:00:48.000Z",
+      "sourceId": "nintendoeverything",
+      "source": "Nintendo Everything",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "1jbjzmv",
+      "title": "Patrick Stewart made morality seem cool",
+      "url": "https://www.avclub.com/patrick-stewart-tribute-star-trek-next-generation-x-men-picard-charles-xavier",
+      "excerpt": "As the midterm election’s “Blue Tsunami” redraws American political lines, there’s been a parallel swing on social media. All the earnest liberal art that’s been written off as cringey or out-of-date since the 2016 election suddenly started to feel a little…",
+      "content": "As the midterm election’s “Blue Tsunami” redraws American political lines, there’s been a parallel swing on social media. All the earnest liberal art that’s been written off as cringey or out-of-date since the 2016 election suddenly started to feel a little more uplifting again. Celebratory West Wing clips flooded the internet. The Democratic Party’s official accounts posted election montages set to Hamilton and The Greatest Showman . The Hamilton tour cast got in on the fun. Even Glee was reclaimed as something empowering. If the insidious, irony-poisoned, amoral past few years can be summed up by “Anakin Posting,” this new dawn of “libbing out” is embracing the idea that maybe trying to have an earnest impact on the world doesn’t have to be embarrassing.\n\nIn a weird way, it’s a perfect tribute to the late great Patrick Stewart, whose most famous roles and personal politics were both defined by a classic, unwavering sense of right and wrong—and the ability to look cool while imparting those moral lessons. Onscreen, Stewart defended marginalized teens as Professor Charles Xavier and championed intergalactic diplomacy as Captain Jean-Luc Picard. Offscreen, he advocated for women experiencing domestic violence and spoke out for LGBTQ+ rights. He capped off his star-making seven-year run on Star Trek: The Next Generation by taking a supporting role in the AIDS-focused gay indie rom-com Jeffrey . And after 2016, he considered becoming a U.S. citizen specifically so he could have a greater role in the opposition to President Donald Trump.\n\nWhile it’s not that unusual to see a Hollywood actor speak up for liberal causes, it does feel a little more notable coming from a straight, white British man born two months after Winston Churchill first became Prime Minister. Long before the idea of using your privilege for good became a mainstream concept, Stewart instinctively walked that walk. He first opened up in 2004 about the domestic abuse he witnessed against his mother growing up. “At that time, it was unusual for a man, particularly someone as famous and respected as Patrick, to speak so openly about domestic abuse,” human rights lawyer Cherie Blair told The Guardian after his death in October . “His courage in sharing such painful personal experiences helped to break the silence surrounding domestic violence and reminded us that its consequences extend far beyond the immediate victim to the children who witness it.” Back in 2013 , Stewart explicitly called on men to join the movement to end violence against women, explaining, “In the same way that it was white men confronting white men in issues of civil rights in the United States, it needs to be men confronting men in the same way, on the issues of domestic violence.\n\nIn his work, that bold moral backbone is best embodied on The Next Generation. While Professor X fits the traditional archetype of a caring mentor who helps young people find their heroic purpose in the X-Men films, Captain Picard embodies that same sense of wisdom in a lead role, which is a much rarer combination. Where William Shatner’s Captain Kirk was a swashbuckling golden boy who paired his own sense of morality with a cowboy swagger, Captain Picard is an erudite European diplomat who loves tea and archeology. It’s the sort of character you’d expect to be prissy comic relief, not a dashing leading man. But Stewart’s Shakespeare-trained gravitas turned Picard into one of the defining TV icons of the ’90s—a heartthrob for some generations and a beloved father figure for others.\n\nPicard could be an aloof, imposing figure at times, particularly in the early seasons of the show. Yet he’s driven by an unwavering sense of confidence and conviction that makes him cool—not in the effortless way that Kirk is cool, but in a way where you can appreciate just how hard he’s working to be a good person. It seems like it should be impossible to make rule-following and deep ethical consideration worthy of admiration and aspiration, but Stewart pulls it off by blending Picard’s innate virtuousness with an open-minded curiosity and deep respect for others. In “Measure Of A Man,” he passionately argues for the rights of his android crewmember. In “Darmok,” he finds a way to connect to an alien captain despite the fact that they communicate in entirely different ways. In “Disaster,” he works through his lack of paternal instincts to protect three scared kids during a ship-wide malfunction.\n\nIt’s a different sort of heroic archetype than the one that usually anchors sci-fi and fantasy, which is part of what makes Picard such an impactful role model, particularly in terms of what masculinity can look like. “I used to get asked, ‘In a fight between Kirk and Picard, who would win?’” Stewart told The Hollywood Reporter in 2014 . “And my answer always was there wouldn’t be a fight because Picard would negotiate his way around it. Picard saw force as a last resort. Absolute last resort.” When Stewart returned to the role for the 2020 legacy sequel series Star Trek: Picard , it was with an even warmer performance in a show that tackled everything from ICE raids to mental health struggles. The show, he was unashamed to say, left him in tears over how movingly it wrapped up Picard’s legacy.\n\nIndeed, much more so than the characters he played onscreen, Stewart’s real-life personality was marked by a playfulness and openhearted emotionality—whether he was posing at Stonewall with Ian McKellen, teaching a masterclass on the quadruple take , advocating for pit bulls and the importance of arts funding , reciting soliloquies on Sesame Street , performing daily sonnets during the pandemic , dressing up as a lobster for Halloween, getting choked up while reminiscing about filming The Next Generation finale, or bringing his personal passion for stopping domestic violence to convention appearances throughout the years.\n\nIt was that blend of levity, joy, and deep consideration that made Stewart a unique cultural figure. Both onscreen and off it became his life’s work to get us to think about the world and how we can use whatever power and influence we have to make it better. And while it’s a little too neat to draw a direct line between broadly liberal art like The Next Generation and what happened in this year’s midterms, you can draw a line between Stacey Abrams citing Picard as an influence on her own worldview and how her trailblazing political campaigns paved the way for this current blue wave.\n\nIn that way and in so many others, Stewart did tangible good in the world, all with a keen eye on how much more there was to be done. “If you lose hope, you give up everything,” Stewart explained in 2013 . “And in my lifetime I have seen changes in the world that 50 years ago I believed I would never live to see. A relative peace in Northern Ireland, I mean, closest to the home where I was brought up. The Berlin Wall—the end of the Soviet Empire. Apartheid—formally, at least—ending in South Africa. These are huge transformations in the world, brought about by people having faith that things could be changed.” As much as any fictional universe that’s ever existed, Star Trek is about imagining a better, more equitable future, and there’s arguably no one who embodied that message better than Picard and the actor who played him. It’s hard to think of a more meaningful legacy than that.",
+      "image": "https://www.avclub.com/wp-content/uploads/2026/11/07/MixCollage-07-Nov-2026-09-34-AM-1942.jpg",
+      "images": [
+        {
+          "url": "https://www.avclub.com/wp-content/uploads/2026/11/07/MixCollage-07-Nov-2026-09-34-AM-1942.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/07132143/stewart-lead.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T18:00:41.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "kn2ywj",
+      "title": "Now you can smell like Kevin Costner, if that's what you want to do",
+      "url": "https://www.avclub.com/kevin-costner-luxury-fragrance-collaboration-19-69",
+      "excerpt": "If you ever found yourself watching Kevin Costner in the 2024 Western epic Horizon: An American Saga and thought, “I wonder what that dude smells like” or “I wonder if I could ever smell like him,” partner, you’re in luck. Kevin Costner, the rugged star of…",
+      "content": "If you ever found yourself watching Kevin Costner in the 2024 Western epic Horizon: An American Saga and thought, “I wonder what that dude smells like” or “I wonder if I could ever smell like him,” partner, you’re in luck. Kevin Costner, the rugged star of films such as Dances With Wolves , Robin Hood: Prince Of Thieves , and Waterworld , has launched a new collaboration with the luxury fragrance brand 19-69 for those looking to add a bit of Costner spice to their usual musk. Boasting three new bottled smells with evocative names such as “Pacific Coast Highway,” “Heritage,” and “After Hours,” the new exclusive line retails for $80, $300, and $800 per bottle, depending on how much of the actor’s potent scent-age you’re looking to spray on your body. And if those prices seem insane, let Costner assure you that your purchase will smell so good that strangers will approach you in public to ask “what you’re wearing.”\n\nNaturally, Costner is speaking from experience. In a new GQ feature about his fragrance line , the actor/director said that one of his new scents sniffed so good it prompted a woman to approach him during one of his son’s volleyball games, like a cartoon cat might approach a pie cooling on a windowsill. The scent he wore that day was After Hours, described by 19-69’s founder Johan Bergelin as his “signature scent.” “There were about fifteen teams of teenage boys, so the gym smelled really bad,” he told GQ . “She walks all across the gym towards me, and I wasn’t sure what this was going to be about. And she just turns to me and says, ‘Look, I’m married, I’m not [trying to bother you]. But what are you wearing?'”\n\nIf you’re wondering what After Hours smells like, 19-69’s official site describes the bouquet as “cypress, bourbon, nutmeg, guaiac wood, and vetiver,” which sounds like what would waft off a besotted Christmas elf moments after Santa takes off on Christmas Eve. (Bergelin says he designed the scent with imagery right out of a Tony Scott film in mind: “I envisioned a golden sun dipping behind the Hollywood Hills, and a balmy Pacific breeze softening the warm, aromatic air. Against this backdrop, Kevin’s silhouette cuts against the glittering grid of LA, set in a glass sanctuary…”) You can order a bottle of Costner’s new fragrances—along with an American Psycho scent, if that’s what you’re into— on 19-69’s website , just in time for the holidays.",
+      "image": "https://www.avclub.com/wp-content/uploads/2026/11/07/costner-header.jpg",
+      "images": [
+        {
+          "url": "https://www.avclub.com/wp-content/uploads/2026/11/07/costner-header.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/07124152/costner-lead.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T17:58:34.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "6a6jp5",
+      "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
+      "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
+      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 122 # Comments: 32",
+      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 122\n\n# Comments: 32",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-07T17:19:00.000Z",
+      "sourceId": "hn",
+      "source": "Hacker News",
+      "category": "aisoft",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "158qidl",
+      "title": "Pure, uncut hostility is the solution to modern gaming's \"niceness problem\"",
+      "url": "https://www.avclub.com/game-theory-queens-domain-kings-field-hostility",
+      "excerpt": "So: I’m standing in a grainy, deliberately lo-res dungeon, magical sword and throwing daggers in hand. My health is, at present, in the crapper—both in the real world, where I’ve just popped a positive on a fresh COVID test, and in Queen’s Domain , where I’m…",
+      "content": "So: I’m standing in a grainy, deliberately lo-res dungeon, magical sword and throwing daggers in hand. My health is, at present, in the crapper—both in the real world, where I’ve just popped a positive on a fresh COVID test, and in Queen’s Domain , where I’m one hit away from death. Lucky me, there’s a treasure chest sitting in front of me. It could have healing items in it, which would let me extend this particular dive a little further before prudence (and the ever-present knowledge that this game doesn’t auto-save or preserve progress after player death in any way, shape, or form) would force me to retreat.\n\nGrateful for this tiny sliver of mercy in a game not generally given to it, I open the chest, peering in at my hopeful new haul. Instead of healing herbs, or a new weapon, or even just some measly coins, what stares back at me from the container’s interior is a pair of eyes, with slavering teeth suddenly revealed on the edges of its “lid.” “Oh, come on,” I mutter, as the “chest” rises to two spindly feet and starts attempting to murder me, “Nobody even told me this game had mimics in it !”\n\nAnd maybe it’s just the mild fever talking, but I genuinely couldn’t be happier in that moment—even as, yes, the mimic ends up murdering me stone-dead, forcing a reload of my last save file, fully 20 minutes before. There’s been a lot of talk, in recent years, about the intersection between gaming, difficulty, and ideas about accessibility, the principle that anyone should be able to get to the end of any given game as a matter of course. But Queen’s Domain is a reminder that sometimes the best thing that can happen to a title is to append “…if they’re a mildly delusional masochist” to that generally noble ideal. Because the amount of sheer player-focused hostility this game brings to bear on me and my fellow siblings in suffering is not only bracing. It’s a reminder that the only solution to gaming’s current “niceness problem”—a general belief that every big-budget game should essentially be a frictionless slide from start to finish—is a little deliberate and thoughtful cruelty.\n\nQueen’s Domain —released by developer Freshly Baked Games LLC on all major consoles, plus Steam, last week—doesn’t bother trying to hide its hostile intents. The game is clearly patterned on From Software’s old King’s Field titles, first-person dungeon crawlers from back before the Dark Souls studio adopted even the slightest shred of clemency into its game design Bible. The King’s Field -like has been a relatively recent development in the indie gaming sphere, as games like 2023’s Lunacid attempt to mimic not just those games’ PlayStation One-era graphics, but a philosophy toward world design that’s comfortable leaving players lost, broken, and miserable. (No, you don’t get a map in Queen’s Domain . Draw your own!)\n\nWhen you play a game like this, the feeling of profound unfairness that’s being inflicted upon you—the “Christ, can’t I get a break ?” feeling that comes from backpedaling furiously away from lethal enemies while trying not to fall down another damn pit—is a feature, not a bug. We don’t put dungeons in video games to be nice ; we include them because getting lost in a deadly labyrinth is as exciting as it is awful—because the feeling of finally seeing the light at the end of the tunnel is as pure a thrill as gaming can deliver.\n\nIt feels important to note, in the midst of this conversation, that Queen’s Domain is hostile , as opposed to “difficult.” Although its combat system, which forces you to time out your swings and manage damage types against often hefty hordes of enemies, takes some getting used to, it’s not actually especially hard to get at least passably good at. (I say, even as I mutter “Oh, you dick” as the mimic moves way faster than I was expecting, chopping my last points of health down to zero.)\n\nThe difference between those two concepts, “hostility” and “difficulty,” has become increasingly important in gaming discourse in recent years. Take, for instance, recent Castlevania title Belmont’s Curse , which has, as one of its best selling points, a bastard-cruel willingness to leave players disoriented or confused by its giant maps full of secrets, even as it offers robust tools to let them choose how difficult its combat should be. Or, look to easy GOTY-contender Big Walk , which deliberately imposes inconveniences on the player, then invites them to discover abilities and upgrades that wonderfully alleviate them. I’ve been given army-obliterating superweapons in video games that felt less satisfying than the first time my group stumbled across a backpack in House House’s beautiful walkabout.\n\nDifficulty, in this sense, is a mechanical conceit; a reminder that all the damage you take or dish out in a video game is just an arbitrary number that a developer somewhere set, and could turn to your advantage or detriment on a whim. Hostility is more spiritual, and holistic: It is a measurement of how much a developer wants you to care about the moment-to-moment experience of navigating the world they’ve been kind enough to create. Both of these elements can stop a player from completing a game, with a boss that just hits too damn hard, with too much health, serving as as much of a roadblock as a cunningly built labyrinth designed to drain a player’s will to proceed. But hostility is the far richer, and more considered of the two; I’m all for developers providing accessibility options to alleviate the frustrations of numbers being set too high, but balk at the idea of removing the traps and cruelties of my beloved dungeon crawls.\n\nAnd that’s why, as the mimic gets that last hit in, sending me back to my last save, I can’t help but smile at what Queen’s Domain has achieved. No, it doesn’t feel good to lose that progress. I’m as prone to frustration as anybody else, even if I’m more philosophically inclined than some to take deliberate, comedic unfairness in stride. But that feeling will also lodge, even in my currently disease-addled brain; it will make an impression that a death in a game that doesn’t care about my misery—that exists solely to funnel me from one triumphant moment to the next—never could. To some extent, hostility is the opposite of indifference: It is a profound appreciation for the player’s emotional state, and how it can be tweaked, prodded, and, yes, tormented. We don’t create dungeons for each other to be nice , after all. But that doesn’t stop their creation from being, in their own twisted way, a fascinating act of care.",
+      "image": "https://www.avclub.com/wp-content/uploads/2026/11/05/queens-domain-with-badge.jpg",
+      "images": [
+        {
+          "url": "https://www.avclub.com/wp-content/uploads/2026/11/05/queens-domain-with-badge.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/05165432/queens-domain-lead.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T17:00:40.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "1bsinxy",
+      "title": "What to watch on Netflix: The best TV shows streaming right now",
+      "url": "https://www.avclub.com/what-to-watch-on-netflix-best-tv-shows",
+      "excerpt": "As the nights get longer this month, many will likely turn to some of Netflix’s mystery offerings to turn back the encroaching end-of-year blues. From more prestige-themed offerings like The Beast In Me and Dept. Q to more action-themed shows like The Night…",
+      "content": "As the nights get longer this month, many will likely turn to some of Netflix’s mystery offerings to turn back the encroaching end-of-year blues. From more prestige-themed offerings like The Beast In Me and Dept. Q to more action-themed shows like The Night Agent or Black Doves (which is back for its second season this month), there are plenty of options to choose from. For more internationally-themed fare, maybe dip your toe into one of the streamers’ many Nordic noir series for some real chilly and atmospheric vibes.\n\nThe current king of the streaming revolution, Netflix releases what often feels like a billion new titles every month. Its television offerings are vast, from prestige dramas and sly comedies to coming-of-age teen series, soapy romances, thoughtful animated series, and foreign language series. (And that’s not even touching its reality and documentary arms, which are constantly churning out new twists on the dating show and true crime documentary.) This is a lot to say that trying to figure out what you want to watch on this particular streamer can feel like a second job. So, let us try to help with our picks for the series you need to watch on Netflix right now.\n\nThis list was updated on November 7, 2026.\n\nAdolescence\n\nStars : Owen Cooper, Stephen Graham, Erin Doherty, Ashley Walters, Faye Marsay, Christine Temarco\n\nNumber of seasons: One\n\nBritish drama Adolescence scooped up virtually every kind of television award imaginable following its 2025 premiere, and with good reason. An uncomfortably timely story about a troubled 13-year-old accused of stabbing his classmate, the four-part series unflinchingly wrestles with the myriad ways toxic masculinity and internet culture are damaging a generation of young boys. Compelling performances and technical wizardry—each episode unfolds over one single shot—make it a genuine must-see.\n\nBaby Reindeer\n\nStars: Richard Gadd, Jessica Gunning, Nava Mau, Tom Goodman-Hill, Nina Sosanya, Michael Wildman, Danny Kirrane, Thomas Coombes, Shalom Brune-Franklin\n\nNumber of seasons: One\n\nOne of the darker and more psychologically disturbing series on this list—and this platform— Baby Reindeer isn’t a show you necessarily enjoy so much as survive. Still, the riveting drama, which is based on creator Richard Gadd’s own experiences with stalking and sexual assault, deftly mixes dark humor with unflinching emotional depth and honesty.\n\nBlack Mirror\n\nStars : Cristin Milioti, Jimmi Simpson, Issa Rae, Emma Corrin, Paul Giamatti, Rashida Jones, Chris O’Dowd, Tracee Ellis Ross, Peter Capaldi, Chris O’Dowd and so many more\n\nNumber of seasons : Seven\n\nThe course of human events has conspired to make some elements of Charlie Brooker’s dystopian anthology series feel less shocking than they might once have done, but the series remains equal parts scary, addictive, and frighteningly prescient. Recent episodes have dealt with everything from artificial intelligence and predatory subscription services to digital revenge, memory, and more.\n\nBoJack Horseman\n\nStars: Will Arnett, Alison Brie, Paul F. Tompkins, Aaron Paul, Amy Sedaris\n\nNumber of seasons on Netflix : Six, plus a special\n\nBoJack Horseman , the brilliant animated dramedy about a has-been ’90s sitcom star who also happens to be an anthropomorphic horse, might just be the deepest series Netflix has ever produced, tackling alcoholism, drug addiction, death, depression, fame, childhood trauma, betrayal, failure, and on and on and on. The series is also, we should add, very funny.\n\nBridgerton\n\nStars: Jonathan Bailey, Claudia Jessie, Luke Thompson, Hannah Dodd, Luke Newton, Phoebe Dynevor, Yerin Ha, Nicola Coughlan, Simone Ashley, Masali Baduza, Adjoa Andoh, Ruth Gemmell, Polly Walker, Regé-Jean Page, Julie Andrews\n\nNumber of seasons : Four\n\nBased on Julia Quinn’s popular series of novels, Netflix’s Bridgerton elevated Regency-era romance to an unprecedented level of bingeability. A candy-coated, fully anachronistic romp, each season of this sparkling series lets a Bridgerton sibling take the lead and look for love on their own terms in stories that are as emotionally compelling as they are addictive to watch. Not to mention all the steamy sex. (This is not your mother’s style of period drama, is what we’re saying.) The series has been renewed through season six.\n\nThe Crown\n\nStars : Claire Foy, Matt Smith, Tobias Menzies, Olivia Colman, Imelda Staunton, Jonathan Pryce, Charles Dance, Vanessa Kirby, Helena Bonham Carter, Emma Corrin, Josh O’Connor, Gillian Anderson, Lesley Manville, Elizabeth Debicki, Dominic West\n\nNumber of seasons: Five\n\nA sprawling dramatization of (most of) the reign of England’s Queen Elizabeth II, The Crown ’s unique casting gimmick—the show switched out lead actors every two seasons—allowed its main characters to age naturally and gave a frightening amount of prestige British actors the chance to deploy their poshest accents. A surprisingly sympathetic portrait of a woman whose life was never really her own, the show wrestles with questions of duty, progress, and whether a public figure’s life can ever be truly their own.\n\nDerry Girls\n\nStars: Saoirse-Monica Jackson, Nicola Coughlan, Louisa Harland, Jamie-Lee O’Donnell, Dylan Llewellyn, Siobhán McSweeney, Tara Lynne O’Neille, Tommy Tiernam\n\nNumber of seasons: Three\n\nLisa McGee’s Irish teen comedy is specifically set during the Troubles in Northern Ireland, but it has a universal appeal in how it portrays the coming-of-age years of its central heroines. Ridiculously funny and heartwarming by turns, the story follows a group of quirky, quick-witted Catholic school girls as they navigate school, faith, crushes, and family dynamics.\n\nThe Diplomat\n\nStars: Keri Russell, Rufus Sewell, Allison Janney, Bradley Whitford, Ato Essandoh, Ali Ahn, Nana Mensah, Rory Kinnear\n\nNumber of seasons : Four\n\nOne of the most delightfully bonkers shows on streaming, this political thriller about the U.S. ambassador (Russell) to the United Kingdom has it all: fast-paced storytelling, wild plot twists, complicated relationship dynamics, and more geopolitical crises than you can shake a stick at. Season 4 sees Kate Wyler attempt to balance the emotional and international tightrope of her husband’s (Sewell) role as vice president with the increasingly unhinged behavior of President Grace Penn (Janney), whose aggressive posture is threatening the U.S. and the U.K.’s longstanding alliance. The show has been renewed for a fifth season.\n\nEast of Eden\n\nStars: Florence Pugh, Christopher Abbott, Mike Faist, Hoon Lee, Ciarán Hinds\n\nNumber of seasons: One\n\nThis seven-part adaptation of John Steinbeck’s classic novel puts one of literature’s most famous antiheroines, Cathy Ames (Pugh), front and center, and the story is all the better for it. Reckoning with a tale that could be considered part of her family legacy, Zoe Kazan (whose grandfather helmed the 1955 feature film adaptation of East Of Eden that starred James Dean) gives Cathy’s story the kind of depth and context it often lacks on the page without sacrificing her innate darkness, and the result is something that feels like a new standard for what TV adaptations can be and do.\n\nForever\n\nStars : Lovie Simone, Michael Cooper Jr., Xosha Roquemore, Karen Pittman, Wood Harris\n\nNumber of seasons : One\n\nMara Brock Akil adapted Judy Blume’s 1975 novel, which was often banned for its portrayal of adolescent sex, into this charming TV show about two athletes navigating the highs and lows of an intense relationship. A poignant, tender drama that embraces Black culture and uses modern technology to update its story for a modern audience, its themes of navigating first love, family pressure, and identity remain universal.\n\nThe Haunting Of Hill House\n\nStars: Carla Gugino, Kate Siegel, Michael Huisman, Elizabeth Reaser, Victoria Pedretti, Oliver Jackson-Cohen, Henry Thomas\n\nNumber of seasons: One\n\nWhile there are five “emotionally fucked-up takes on horror” from Mike Flanagan to choose from on Netflix, the best of the lot is still his first venture, The Haunting Of Hill House . This gripping drama about the Crain family has plenty of twists and turns, not to mention deaths, ghosts, and jump scares. Hill House works because it weaves a tragic, moving story into its extremely supernatural setting.\n\nHeartstopper\n\nStars : Joe Locke, Kit Connor, Yasmin Finney, William Gao, Olivia Colman, Corinna Brown, Kizzy Edgell, Tobie Donovan\n\nNumber of seasons : Three, plus finale movie Heartstopper Forever\n\nAlice Oseman’s adaptation of her graphic novels has a lot going for it: Heartstopper is at once a cute, coming-of-age rom-com and deep drama, tackling weighty issues with realism and, yes, heart. We dare you to stop smiling as Charlie (Locke) and Nick (Connor) find love against all odds.\n\nMindhunter\n\nStars: Jonathan Groff, Holt McCallany, Anna Torv, Hannah Gross, Stacey Roca\n\nNumber of seasons: Two\n\nMore Mad Men than Law And Order , Mindhunter is not your typical procedural about FBI agents chasing after serial murderers. A thoughtful psychological crime drama about two odd-couple agents (Groff and McCallany) and a professor (Torv) in the Bureau’s Behavioral Science Unit who launch a project to interview serial killers about why they commit crimes. Executive produced and frequently directed by Zodiac’s David Fincher, the series is a high-tension exploration of the origins of criminal profiling and features a particularly compelling guest turn from Cameron Britton as murderer and necrophiliac Ed Kemper.\n\nMy Brilliant Career\n\nStars: Philippa Northeast, Christopher Chung, Anna Chancellor, Genevieve O’Reilly, Kate Mulvany, Jake Dunn, Alexander England, and Sherry-Lee Watson.\n\nNumber of seasons: One\n\nBased on the popular novel by Miles Franklin, this charming Australian period drama follows the story of Sybylla Melvyn, a dreamy 1900s farmgirl who dreams of becoming a famous writer. Pushed toward a marriage she doesn’t want to save her financially struggling family, she struggles to write a story that can help pave her path to independence. (And meets some handsome young bachelors along the way.) Star Philippa Northeast is luminous and likeable throughout, and the series’ fizzy, modern sensibility is a delight to behold.\n\nNever Have I Ever\n\nStars : Maitreyi Ramakrishnan, Poorna Jagannathan, Richa Moorjani, Darren Barnet, Jaren Lewison, Lee Rodriguez, Ramona Young, Sendhil Ramamurthy, Niecy Nash\n\nNumber of seasons: Four\n\nMindy Kaling and Louie Lang’s Never Have I Ever is the rare fun teen dramedy with an Indian American family that also subverts South Asian stereotypes. Devi Vishwakumar (Maitreyi Ramakrishnan) is a high schooler struggling with grief after her father’s death, and the show handles her coming-of-age issues with relatable vulnerability and relieving bouts of humor. Plus, Ramakrishnan is just an ingenious breakout star.\n\nOne Hundred Years Of Solitude\n\nStars : Diego Vásquez, Claudio Cataño, Marledy Soto, Akima Maldonaldo, Édgar Vittorino, Marco Antonio González, Susana Morales, Loren Sofía, Janer Villarreal\n\nNumber of seasons : Two\n\nGabriel García Márquez’s epic novel One Hundred Years Of Solitude had long been accepted as one of the great “unfilmable” novels. But series writers José Rivera, Natalia Santa, Camila Brugés, and Albatros González pull off the impossible: An adaptation that, though it deviates significantly from its source material in some ways—the novel contains surprisingly little dialogue, for example—gets the novel’s wild spirit and gorgeously descriptive imagery exactly right.\n\nRussian Doll\n\nStars: Natasha Lyonne, Charlie Barnett, Yul Vazquez, Elizabeth Ashley, Greta Lee, Rebecca Henderson, Dasha Polanco\n\nNumber of seasons on Netfli x: Two\n\nIn this killer series, Natasha Lyonne stars as Nadia, a snarky New York City woman who finds herself trapped in a Groundhog Day-style time loop. This puzzle box of a show delivers a never-ending treasure trove of questions to be answered and matches that surface-level s",
+      "image": "https://www.avclub.com/wp-content/uploads/2026/10/05/MixCollage-05-Nov-2026-06-41-PM-9706.jpg",
+      "images": [
+        {
+          "url": "https://www.avclub.com/wp-content/uploads/2026/10/05/MixCollage-05-Nov-2026-06-41-PM-9706.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/10/05182814/MixCollage-05-Nov-2026-06-14-PM-1071.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2025/12/19170704/Netflix-Adolescence.jpg",
+          "alt": "Netflix Adolescence Owen Cooper"
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2025/12/19170706/Netflix-Baby-Reindeer.jpg",
+          "alt": "Netflix Baby Reindeer Richard Gadd"
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2025/12/19170708/Netflix-Black-Mirror.jpg",
+          "alt": "Black Mirror Peter Capaldi"
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2025/12/19170708/Netflix-Bojack-Horseman.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2025/12/19170710/Netflix-Bridgerton.jpg",
+          "alt": "Netflix Bridgerton"
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2025/12/19171803/Netflix-The-Crown.jpg",
+          "alt": "Netflix The Crown Imelda Staunton Jonathan Pryce"
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2025/12/19170711/Netflix-Derry-Girls.jpg",
+          "alt": "Netflix Derry Girls"
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/10/05184533/MixCollage-05-Nov-2026-06-44-PM-1629.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/10/05184302/MixCollage-05-Nov-2026-06-42-PM-7778.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2025/12/19170712/Netflix-Forever.jpg",
+          "alt": "Netflix Forever"
+        }
+      ],
+      "publishedAt": "2026-11-07T17:00:00.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "41x67z",
+      "title": "The Triplets Of Belleville director says AI wasn't used to generate artwork for his Dior short",
+      "url": "https://www.avclub.com/christian-diors-night-in-color-animated-short-alleged-ai-use",
+      "excerpt": "When Dior released Christian Dior’s Night In Color , its 2026 holiday animated short directed by Oscar-nominated French filmmaker Sylvain Chomet ( The Triplets Of Belleville , The Illusionist ) and produced by Aton Soumache ( The Little Prince ), the chic…",
+      "content": "When Dior released Christian Dior’s Night In Color , its 2026 holiday animated short directed by Oscar-nominated French filmmaker Sylvain Chomet ( The Triplets Of Belleville , The Illusionist ) and produced by Aton Soumache ( The Little Prince ), the chic fashion concern likely didn’t expect controversy to muddy the affair. Yet people online are pointing to visual hiccups commonly associated with generative AI, including moments when characters appear to have six fingers , as evidence that Chomet and his creative team allegedly used the technology to produce the short. Now, in a new interview with Variety , Chomet is denying accusations that gen-AI created his artwork, produced in part to celebrate the “traditional craftsmanship” of Dior.\n\nDefending Chomet, Soumache pointed to the roughly twenty creatives they hired for the project—animators, storyboard artists, designers, background artists, compositors, and editors—as well as the time required to produce the short. “Some people are claiming Sylvain was contacted two weeks ago and that the entire film was made with generative AI, without a single drawing,” he said. “But the reality is that this film took seven months to make and it was entirely drawn by artists.” Soumache says Night In Color , which follows the late fashion designer Christian Dior one fateful night when actor and friend Marlene Dietrich suddenly requests a new gown (making a fanciful lark out of the creation of Dior’s Junon gown in 1949 ), used “automated interpolation”—the process in which computer software generates movement between certain keyframes—for “a very small part of the process.” “It’s a way of automating the repetitive, mechanical part of animation, not the creative work,” Chomet said.\n\nAutomated interpolation could explain instances in the short where characters briefly show six fingers on their mitts, though Chomet also says that artistic shorthand in traditional animation is often responsible for such visual peculiarities. “It’s a movement where the hand is spread out like a fan. In that kind of drawing, you might see six or seven fingers because you’re trying to convey movement,” he said. “I’ve seen a character turn his head, and his nose suddenly changes shape completely over five frames. These things happen.”\n\nYou can watch Christian Dior’s Night In Color , which features voice work by Louis Garrel, Camille Cottin, LaKeith Stanfield, Greta Lee, Rhianna, and competing Bonds Josh O’Connor and Robert Pattinson , in the video below.",
+      "image": "https://www.avclub.com/wp-content/uploads/2026/11/07/dior-header.jpg",
+      "images": [
+        {
+          "url": "https://www.avclub.com/wp-content/uploads/2026/11/07/dior-header.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/07105210/dior-lead.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T16:16:31.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "13g8owa",
+      "title": "Анализ рынка AI/ML/DL. Результаты",
+      "url": "https://habr.com/ru/articles/1104938/",
+      "excerpt": "Рынок ML, DL и прикладного AI. Исследование 226 объявлений о работе на hh.ru Вместе с нашей командой мы пропарсили и обработали 226 вакансий с hh.ru. Подробно описали ниже. Читать далее",
+      "content": "Рынок ML, DL и прикладного AI. Исследование 226 объявлений о работе на hh.ru\n\nВместе с нашей командой мы пропарсили и обработали 226 вакансий с hh.ru. Подробно описали ниже.\n\nЧитать далее",
+      "image": "https://habrastorage.org/extt/5b/7d/db/5b7ddbc9ea4d8c790f795c53c9ebe71f.png",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/5b/7d/db/5b7ddbc9ea4d8c790f795c53c9ebe71f.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T15:48:54.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
+    {
+      "id": "1v54p77",
+      "title": "This is not the end for Larry Fessenden",
+      "url": "https://www.avclub.com/larry-fessenden-not-final-film-interview-trauma-or-monsters-all",
+      "excerpt": "The monster mash-up Trauma Or, Monsters All likely isn’t what you think it is. Cynics may jokingly suggest that writer-director Larry Fessenden’s latest movie is his answer to the Marvel Cinematic Universe, since it assembles supernatural protagonists from…",
+      "content": "The monster mash-up Trauma Or, Monsters All likely isn’t what you think it is. Cynics may jokingly suggest that writer-director Larry Fessenden’s latest movie is his answer to the Marvel Cinematic Universe, since it assembles supernatural protagonists from three of his previous films: the grimy vampire drama Habit , the neo-romantic Frankenstein update Depraved , and the brooding werewolf pic Blackout . Others might fear that Trauma serves as Fessenden’s last movie, since it feels like an urgent summary of his work as both a filmmaker and founder of the independent horror studio Glass Eye Pix. In a recent conversation with The A.V. Club , Fessenden admits that he did wonder if Trauma was his last movie. But he’s since changed his mind—he’s not sick, and has no plans to retire. Fessenden also leaves room at the end of Trauma for future additions to his shared horror universe.\n\nFor Fessenden, Trauma Or, Monsters All is a modern update of the Universal horror sequels that threw together several characters from earlier monster movies, like Frankenstein Meets The Wolf Man or House Of Dracula . Fessenden watched those lovably shaggy follow-ups as a kid, but never aspired to make anything like them. “I certainly wasn’t thinking about my legacy,” Fessenden explains. In fact, he only thought to team up his antiheroic loners when making Blackout .\n\n“My key idea was that the monsters would be objectified for the first time,” Fessenden says. “The first three movies are an exploration of what it would be like to wake up as Frankenstein’s monster, or a werewolf, or a vampire. With Trauma I wanted to say: what if they were among us? Could you tell that they’re monsters?”\n\nTrauma follows Blackout ‘s grisly finale as young writer Cassandra (Laëtitia Hollard) publishes an article in her local newspaper about the monsters lurking in the upstate New York everytown of Talbot Falls, particularly tortured lycanthrope artist Charley (Alex Hurt) and introverted Franken-zombie Adam (Alex Breaux). Cassandra means well, but her article only draws unwelcome attention to Charley and Adam, especially after Habit ‘s bohemian vamp Sam (Fessenden) arrives and tries to force a meeting with his fellow cryptids.\n\nFessenden says that current events inspired him more than any movies could. In that sense, Trauma ‘s about the essential but often futile struggle of trying to get along with your neighbors during Trump’s second term, especially if you dare to bring up the country’s troubling past. “The grievances are so deep in this country,” Fessenden says. “If you say, ‘I think people should examine their history a little bit and realize that they’re suffering from trauma,’ a mob will show up and January 6th you.”\n\nIn this way, Cassandra and the monsters find themselves on opposite ends of their respective journeys, which makes Trauma a perfect vehicle for the Fessendenian theme of how life ultimately follows its own path, leaving us to judge for ourselves whether it’s taken a turn for the better or the worse. Anybody can appear monstrous in this context and everyone has their reasons for behaving like they do. So while Cassandra’s article inadvertently unsettles everyone, she’s still a young idealist who hopes to effect change in her own backyard. By contrast, Sam and his fellow creatures lash out at the world because they’re worn down and “exhausted from trying to lead a moral life,” Fessenden suggests. “They’ve all slipped into nihilism,” especially Sam, who “has been a vampire for 30 years and it’s a drag.”\n\nFessenden, on the other hand, has been re-energized by Trauma . He finds relatable qualities in all of his characters and has injected “a lot of autobiography” throughout. Sam, for starters, reflects a spiritual burnout that has hounded Fessenden after decades of struggling to make soulful, melancholy horror dramas that reflect his post-hippie values. Just making Trauma was a challenge, partly because of how demanding it was to bring together 26 actors at the same time on a fairly small budget. “I had to basically convince every actor to come back,” Fessenden says. That’s what made Fessenden think, albeit briefly, that Trauma could be his final film. “I was tired and angry at the culture. That’s what made me say, ‘This is it.'”\n\nFessenden points to a flashback where Sam identifies with his dead father by calling him “a disappointed optimist” instead of an outright pessimist. In that sense, Sam’s a reflection of what might have happened to Fessenden if he gave in to his darker impulses. “Optimism is what keeps me going,” Fessenden says. “Pessimism is still always there nipping at my heels saying, ‘It’s not gonna work, we’re doomed.’ But then I say to myself, ‘But you still bail. When the boat is going down, you still bail.’ Maybe there’s a day when you go, ‘You know what? I’m not bailing anymore.’ That would be a sad day, but maybe it’s a day you’ll have earned.”\n\nUnderscoring this wistful look towards the future is the fact that Trauma is being released while Fessenden’s personal films and the ones that he produced through Glass Eye Pix are enjoying more exposure than ever, thanks to a new slate of Blu-rays produced by Vinegar Syndrome. Fessenden has recently participated in and spearheaded a variety of new interviews and audio commentaries that have reunited him with his older movies’ cast, crew, and other collaborators.\n\n“I’m very content to look back,” Fessenden says. “I feel like we’re setting an example for the next generation of filmmakers.” Fessenden contrasts these releases with AI art, the latter of which he thinks only encourages people to “look back at what’s already transpired by regurgitating it. There’s a sort of stasis to it. I’d rather have a new generation of filmmakers who want to get their hands in the clay and make stuff. And by making our positions known [with these supplements], we’ll hopefully get more people to come to the movies.”\n\nAdding to the solemnity, Trauma will also be released just weeks after the untimely death of indie horror filmmaker Jeremiah Kipp, who started making movies as an assistant director and production assistant on Glass Eye productions like Automatons , I Sell The Dead , and Satan Hates You . Kipp’s passing is especially shocking given his hard-won progress with features like the eerie video game adaptation The Mortuary Assistant , which Kipp spoke to The A.V. Club about earlier this year.\n\nFessenden’s understandably still processing Kipp’s death, which is why he hasn’t otherwise commented on it publicly. But he fondly remembers meeting up with Kipp months before his death. “There was a sense of the future,” Fessenden says, recalling Kipp talking about all the projects he was either working on or about to pursue. “We had a philosophical alignment, since we both talked about monsters as the Other and with great compassion.” Fessenden remembers an early interaction where Kipp encouraged him to spend less time producing other filmmakers’ work so that he could focus on making his own movies: “I thought that was very compassionate of him.”\n\nAt the same time, Fessenden’s contributions as a film industry patron is just another way he’s developed his legacy. He talks admiringly about Ebenezer , Glass Eye alum Ti West’s upcoming take on A Christmas Carol . Fessenden’s excitement for that project is especially remarkable given his own love for Dickens’ novella, which has been the inspiration for a semi-annual puppet show that he directs and acts in at his Alphabet City apartment.\n\nSince he’s not quitting filmmaking anytime soon, Fessenden might even make his own movie version of A Christmas Carol . He imagines that his take would take place in the modern day, unlike West’s period-set adaptation. “I’m fascinated by the resilience of stories like this and how they’re still relevant now,” Fessenden says. “[ A Christmas Carol ] is about redemption, and I would love to say, ‘Let our villains reform.’ Even though there are serious concerns that arise from that sentiment. Like, can we ever forget the past and forgive others? You’d weep at the idea of somebody as venal as Trump or Musk having a change of heart. But that’s why it’s such a timeless story, because it’s about redemption.”\n\nOr maybe he’ll take a stab at Dr. Jekyll And Mr. Hyde next. It would be fitting, since Fessenden’s first movie was based on the classic horror story. He never finished his debut short, begun when he was 12 years old, so it’s a perfect opportunity to apply the same galvanizing energy that made Trauma seem like it might be a perfect swan song to a property that could serve as a career bookend. “There are still a few seminal horror movies that have meant so much to me that I could revisit,” Fessenden says. “Some have been done really well and some pretty poorly. So I’m not embarrassed to throw my hat in the ring.”",
+      "image": "https://www.avclub.com/wp-content/uploads/2026/11/03/fessenden-header.jpg",
+      "images": [
+        {
+          "url": "https://www.avclub.com/wp-content/uploads/2026/11/03/fessenden-header.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/03121326/fessenden-squared.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T15:00:21.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T21:43:59.744Z"
+    },
     {
       "id": "gh-1436014209",
       "title": "Monsdevo/infamous2-ios: Experimental native iOS port of inFAMOUS 2 (PS3), powered by ARM64 static recompilation and Metal.",
@@ -865,7 +2341,7 @@
     },
     {
       "id": "obbssr",
-      "title": "Adam Driver Says No More Kylo Ren: Star Wars “Ship Has Sailed”",
+      "title": "Adam Driver Says No More Kylo Ren: ‘Star Wars’ “Ship Has Sailed”",
       "url": "https://deadline.com/2026/11/adam-driver-kylo-ren-1237216296/",
       "excerpt": "We know Adam Driver has no plans to return to Lena Dunham’s Girls reboot, but what about the Star Wars franchise? Any chance fans will see Kylo Ren again? Nah. “Yeah, yeah, it’s over,” Driver said this week on The Rich Eisen Show podcast with regard to the…",
       "content": "We know Adam Driver has no plans to return to Lena Dunham’s Girls reboot, but what about the Star Wars franchise? Any chance fans will see Kylo Ren again? Nah. “Yeah, yeah, it’s over,” Driver said this week on The Rich Eisen Show podcast with regard to the possibility that he’d return to play Kylo […]",
@@ -1209,7 +2685,7 @@
       "url": "https://github.com/TheBozos/VP2S_Recomp",
       "excerpt": "Native PC port of Valkyrie Profile 2: Silmeria (USA, SLUS-21452) by static recompilation with PS2Recomp: native renderer and audio, no GS/VU1/SPU2 emulation. No game data or keys included.",
       "image": "",
-      "publishedAt": "2026-11-07T18:12:25Z",
+      "publishedAt": "2026-11-07T21:34:27Z",
       "addedAt": "2026-11-07T18:00:03.196Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -1274,7 +2750,7 @@
       "url": "https://github.com/dlh/blackshades",
       "excerpt": "Black Shades (Wolfire, 2002), the psychic-bodyguard shooter, ported to SDL3 for current macOS and Steam Deck",
       "image": "",
-      "publishedAt": "2026-11-07T18:09:32Z",
+      "publishedAt": "2026-11-07T20:03:15Z",
       "addedAt": "2026-11-07T18:00:02.732Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -1295,12 +2771,25 @@
       "lang": "en"
     },
     {
+      "id": "gh-1441623504",
+      "title": "makkaX2/DroneFlames-PC-Port: 🚁 DroneFlames PC Port (Windows x64) — native PC controls, WASD camera, smooth zoom, multiplayer & automated CI/CD builds by @good_boy_irl.",
+      "url": "https://github.com/makkaX2/DroneFlames-PC-Port",
+      "excerpt": "🚁 DroneFlames PC Port (Windows x64) — native PC controls, WASD camera, smooth zoom, multiplayer & automated CI/CD builds by @good_boy_irl.",
+      "image": "",
+      "publishedAt": "2026-11-07T21:41:24Z",
+      "addedAt": "2026-11-07T18:00:02.232Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
       "id": "gh-1430294447",
       "title": "TheBozos/TMB_Recomp: Twisted Metal: Black (USA, SCUS-97101) as a native PC port: static recompilation with PS2Recomp (no game data)",
       "url": "https://github.com/TheBozos/TMB_Recomp",
       "excerpt": "Twisted Metal: Black (USA, SCUS-97101) as a native PC port: static recompilation with PS2Recomp (no game data)",
       "image": "",
-      "publishedAt": "2026-11-07T18:13:02Z",
+      "publishedAt": "2026-11-07T21:31:40Z",
       "addedAt": "2026-11-07T18:00:02.232Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -1327,19 +2816,6 @@
       "excerpt": "Unofficial native recompilation of Need for Speed: Carbon (Xbox 360) for Apple Silicon Macs. Early Development — Playable in Parts. Bring your own disc; no game files included.",
       "image": "",
       "publishedAt": "2026-11-07T17:13:46Z",
-      "addedAt": "2026-11-07T18:00:02.232Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
-      "id": "gh-1441623504",
-      "title": "makkaX2/DroneFlames-PC-Port: 🚁 DroneFlames PC Port (Windows x64) — native PC controls, WASD camera, smooth zoom, multiplayer & automated CI/CD builds by @good_boy_irl.",
-      "url": "https://github.com/makkaX2/DroneFlames-PC-Port",
-      "excerpt": "🚁 DroneFlames PC Port (Windows x64) — native PC controls, WASD camera, smooth zoom, multiplayer & automated CI/CD builds by @good_boy_irl.",
-      "image": "",
-      "publishedAt": "2026-11-07T16:45:15Z",
       "addedAt": "2026-11-07T18:00:02.232Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -1876,7 +3352,7 @@
       "title": "Apple запретила писать с помощью свайпов 100 тысяч слов и выражений. Среди них — «Dictator Trump», а на русском — фразы о Путине и вводе войск",
       "url": "https://meduza.io/feature/2026/11/07/apple-zapretila-pisat-s-pomoschyu-svaypov-100-tysyach-slov-i-vyrazheniy-sredi-nih-dictator-trump-a-na-russkom-frazy-o-putine-i-vvode-voysk",
       "excerpt": "У компании Apple в iOS есть негласный «серый список» слов и фраз на почти 30 языках мира, которые невозможно написать при помощи свайпов и которые не будут появляться при предиктивном наборе . Список содержит около 100 тысяч слов и фраз, выяснил исследователь…",
-      "content": "У компании Apple в iOS есть негласный «серый список» слов и фраз на почти 30 языках мира, которые невозможно написать при помощи свайпов и которые не будут появляться при предиктивном наборе . Список содержит около 100 тысяч слов и фраз, выяснил исследователь Дерик Кауфман, опубликовавший подробный перечень на сайте swipeblocked.com .\n\nЭтот список лишь ограничивает возможности свайп-клавиатуры и предиктивный набор, но слова и фразы не запрещены — если пользователю нужно, он сможет ввести их, нажимая каждую отдельную букву.\n\nБольшинство фраз в списке — вульгарные, оскорбительные или связаны с наркотиками, сексом или насилием. При этом некоторые фразы носят политический характер, например в списке есть «Dictator Trump» (то есть «Диктатор Трамп») и «Sleepy Joe» (то есть «Сонный Джо», как Трамп называл Джо Байдена), пишет агентство Reuters, первое сообщившее об этом.\n\nТакже в запретный список на английском языке попали «right wing conspiracy» («правый заговор»), «Tibetan independence» («независимость Тибета») и «United Ireland» («Объединенная Ирландия»). В списке слов и фраз на хинди есть «Моди — хвастун», что относится к премьер-министру Индии Нарендре Моди, на иврите — «оккупированные территории», на французском — «иммиграция слишком высока».\n\nВ список на русском языке попали матерные слова и одна фраза с упоминанием Путина\n\nВ перечне, опубликованном на сайте Кауфмана, перечислены 637 записей на русском языке, использование которых ограничено, в основном это грубые выражения.\n\nНекоторые фразы связаны с военной тематикой: в списке есть «введи войск» и «вводи войск», а также упоминание войны России с Грузией в 2008 году: «войн с Грузией».\n\nКак обратила внимание «Медуза», в списке также есть фраза, в которой упоминается президент России: «Путин прогнав». Что это значит, неясно.\n\nВ перечень на русском языке среди прочего попали:\n\n• «беспредел мусор»\n\n• «белая мужлан»\n\n• «блин вообще»\n\n• «вдрызг пьяная»\n\n• «выходец с Кавказа»\n\n• «гадкая депутат»\n\n• «дешевая попса»\n\n• «иди лес»\n\n• «либерал болотная»\n\n• «ленивая журналист»\n\n• «обвини в экстремизм»\n\n• «опальная олигарх»\n\n• «православие головная мозг»\n\n• «распили бюджет»\n\n• «слюнявая либерал»\n\n• «тупой американец»\n\n• «убит охранник»\n\n• «фильтровал базар»\n\n• «ядрен батон»\n\nИсследователь нашел список, когда не смог при помощи свайпов написать «белый мужчина»\n\nКауфман рассказал, что обнаружил список Apple в сентябре. Он заметил, что при свайп-вводе система зависала, когда он пытался ввести определенные слова, например, «bad boy» («плохой мальчик») или «white man» («белый мужчина»). При этом он обнаружил, что система позволяет ввести другие похожие слова: «bad girl» («плохая девочка») или «black man» («темнокожий мужчина»).\n\nЧтобы выяснить причину, Кауфман использовал ИИ-инструменты для программирования — Codex от OpenAI и Claude Code от Anthropic. В результате он «в самых недрах» операционной системы iOS обнаружил список слов и фраз, использование которых ограничено.\n\nВыводы Кауфмана подтвердил Мэтт Суиче, инженер компании Tolmo, которая занимается кибербезопасностью. По его словам, он смог самостоятельно восстановить тот же «серый список» и сопоставил выводы Кауфмана с внутренними данными Apple.\n\nКауфман стал далеко не первым, кто обратил внимание на то, как работает функция автозаполнения текста в iOS. В прошлые годы пользователи соцсетей неоднократно жаловались на то, что они не могут вводить определенные фразы при помощи свайпов. Однако ранее не сообщалось о том, что у Apple есть отдельный список фраз, которые нельзя вводить.\n\nКомпания Apple не стала комментировать выводы Кауфмана и объяснять причины, почему использование некоторых политических фраз ограничено. В компании заявили, что пользователи айфонов всегда могут вводить конкретные слова или фразы и в любой момент отклонять любые предложения автозаполнения. Apple отметила, что ее клавиатура настроена так, чтобы не предлагать варианты, которые могут быть неуместными или ​оскорбительными.\n\nВ прошлые годы у Apple, как и других технологических компаний, возникали проблемы из-за того, что функция автозаполнения предлагала спорные фразы. В прошлом не раз критиковали функцию предиктивного ввода Google из-за предлагаемых поисковых запросов.\n\nВ устройствах Apple в 2025 году заметили ошибку, возникавшую при использовании функции распознавания речи: когда пользователи произносили слово «racist» («расист»), на экране ненадолго появлялось слово «Trump», то есть как фамилия Дональда Трампа. В Apple объясняли ошибку тем, что модели распознавания речи могут показывать слова с некоторым фонетическим совпадением.\n\nФото на обложке: Manuel Orbegozo / Reuters / Scanpix / LETA",
+      "content": "У компании Apple в iOS есть негласный «серый список» слов и фраз на почти 30 языках мира, которые невозможно написать при помощи свайпов и которые не будут появляться при предиктивном наборе . Список содержит около 100 тысяч слов и фраз, выяснил исследователь Дерик Кауфман, опубликовавший подробный перечень на сайте swipeblocked.com .\n\nЭтот список лишь ограничивает возможности свайп-клавиатуры и предиктивный набор, но слова и фразы не запрещены — если пользователю нужно, он сможет ввести их, нажимая каждую отдельную букву.\n\nБольшинство фраз в списке — вульгарные, оскорбительные или связаны с наркотиками, сексом или насилием. При этом некоторые фразы носят политический характер, например в списке есть «Dictator Trump» (то есть «Диктатор Трамп») и «Sleepy Joe» (то есть «Сонный Джо», как Трамп называл Джо Байдена), пишет агентство Reuters, первое сообщившее об этом.\n\nТакже в запретный список на английском языке попали «right wing conspiracy» («правый заговор»), «Tibetan independence» («независимость Тибета») и «United Ireland» («Объединенная Ирландия»). В списке слов и фраз на хинди есть «Моди — хвастун», что относится к премьер-министру Индии Нарендре Моди, на иврите — «оккупированные территории», на французском — «иммиграция слишком высока».\n\nВ список на русском языке попали матерные слова и одна фраза с упоминанием Путина\n\nВ перечне, опубликованном на сайте Кауфмана, перечислены 637 записей на русском языке, использование которых ограничено, в основном это грубые выражения.\n\nНекоторые фразы связаны с военной тематикой: в списке есть «введи войск» и «вводи войск», а также упоминание войны России с Грузией в 2008 году: «войн с Грузией».\n\nКак обратила внимание «Медуза», в списке также есть фраза, в которой упоминается президент России: «Путин прогнав». Что это значит, неясно.\n\nВ перечень на русском языке среди прочего попали:\n\n• «беспредел мусор»\n\n• «белая мужлан»\n\n• «блин вообще»\n\n• «вдрызг пьяная»\n\n• «выходец с Кавказа»\n\n• «гадкая депутат»\n\n• «дешевая попса»\n\n• «иди лес»\n\n• «либерал болотная»\n\n• «ленивая журналист»\n\n• «обвини в экстремизм»\n\n• «опальная олигарх»\n\n• «православие головная мозг»\n\n• «распили бюджет»\n\n• «слюнявая либерал»\n\n• «тупой американец»\n\n• «убит охранник»\n\n• «фильтровал базар»\n\n• «ядрен батон»\n\nИсследователь нашел список, когда не смог при помощи свайпов написать «белый мужчина»\n\nКауфман рассказал, что обнаружил список Apple в сентябре. Он заметил, что при свайп-вводе система зависала, когда он пытался ввести определенные слова, например, «bad boy» («плохой мальчик») или «white man» («белый мужчина»). При этом он обнаружил, что система позволяет ввести другие похожие слова: «bad girl» («плохая девочка») или «black man» («темнокожий мужчина»).\n\nЧтобы выяснить причину, Кауфман использовал ИИ-инструменты для программирования — Codex от OpenAI и Claude Code от Anthropic. В результате он «в самых недрах» операционной системы iOS обнаружил список слов и фраз, использование которых ограничено.\n\nВыводы Кауфмана подтвердил Мэтт Суиче, инженер компании Tolmo, которая занимается кибербезопасностью. По его словам, он смог самостоятельно восстановить тот же «серый список» и сопоставил выводы Кауфмана с внутренними данными Apple.\n\nКауфман стал далеко не первым, кто обратил внимание на то, как работает функция автозаполнения текста в iOS. В прошлые годы пользователи соцсетей неоднократно жаловались на то, что они не могут вводить определенные фразы при помощи свайпов. Однако ранее не сообщалось о том, что у Apple есть отдельный список фраз, которые нельзя вводить.\n\nКомпания Apple не стала комментировать выводы Кауфмана и объяснять причины, почему использование некоторых политических фраз ограничено. В компании заявили, что пользователи айфонов всегда могут вводить конкретные слова или фразы и в любой момент отклонять любые предложения автозаполнения. Apple отметила, что ее клавиатура настроена так, чтобы не предлагать варианты, которые могут быть неуместными или ​оскорбительными.\n\nВ прошлые годы у Apple, как и других технологических компаний, возникали проблемы из-за того, что функция автозаполнения предлагала спорные фразы. В прошлом не раз критиковали функцию предиктивного ввода Google из-за предлагаемых поисковых запросов.\n\nВ устройствах Apple в 2025 году заметили ошибку, возникавшую при использовании функции распознавания речи: когда пользователи произносили слово «racist» («расист»), на экране ненадолго появлялось слово «Trump», то есть как фамилия Дональда Трампа. В Apple объясняли ошибку тем, что модели распознавания речи могут показывать слова с некоторым фонетическим совпадением.\n\nеще об apple\n\n• Apple представила iPhone 18 Pro и Pro Max — и свою дебютную «раскладушку» iPhone Duo Это первая крупная премьера под руководством нового гендиректора Джона Тернуса\n\n• Apple полностью обновила интерфейс айфонов, айпадов и макбуков. Из-за «стеклянного» дизайна разобраться, что у вас на экране, будет крайне трудно Операционные системы компании стали похожи на Windows Vista 20-летней давности\n\n• Apple проигрывает ИИ-гонку, а владельцы айфонов задумались о переходе на Android За счет чего Google удалось обойти своего главного конкурента?\n\n• Россиянам запретили оплачивать сервисы Apple и покупать VPN в App Store с помощью счета мобильного. И как теперь все это делать? Коротко об альтернативах\n\nФото на обложке: Manuel Orbegozo / Reuters / Scanpix / LETA",
       "image": "https://meduza.io/image/attachments/images/012/946/140/small/yH5qId-bsHB5I3SQHtftMA",
       "images": [
         {
@@ -2754,8 +4230,8 @@
       "id": "yndhob",
       "title": "GTA 6's PS5 Physical Edition Revealed in First Photo",
       "url": "https://www.pushsquare.com/news/2026/11/gta-6s-ps5-physical-edition-revealed-in-first-photo",
-      "excerpt": "Code-in-box. An image of GTA 6’s physical edition has emerged on Reddit , ahead of its release later in the month. The anticipated open world game – which won’t include a disc – looks practically identical to every other PS5 release, in a sealed blue plastic…",
-      "content": "Code-in-box.\n\nAn image of GTA 6’s physical edition has emerged on Reddit , ahead of its release later in the month.\n\nThe anticipated open world game – which won’t include a disc – looks practically identical to every other PS5 release, in a sealed blue plastic case with the usual logos and layout.\n\nRead the full article on pushsquare.com",
+      "excerpt": "Code-in-box. Images of GTA 6’s physical edition have emerged on Reddit , ahead of its release later in the month. The anticipated open world game – which won’t include a disc – looks practically identical to every other PS5 release, in a sealed blue plastic…",
+      "content": "Code-in-box.\n\nImages of GTA 6’s physical edition have emerged on Reddit , ahead of its release later in the month.\n\nThe anticipated open world game – which won’t include a disc – looks practically identical to every other PS5 release, in a sealed blue plastic case with the usual logos and layout.\n\nRead the full article on pushsquare.com",
       "image": "https://images.pushsquare.com/22fef94b93cd7/small.jpg",
       "images": [
         {
@@ -4221,7 +5697,7 @@
       "url": "https://github.com/victor-takai/rogue-galaxy-recomp",
       "excerpt": "Rogue Galaxy (PS2) as a native Windows game: a static recompilation on PS2Recomp, built from your own disc.",
       "image": "",
-      "publishedAt": "2026-11-07T12:42:13Z",
+      "publishedAt": "2026-11-07T21:39:44Z",
       "addedAt": "2026-11-07T12:40:12.383Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -4507,12 +5983,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1424616350",
-      "title": "kauri-off/th08-rs: Clean-room Rust reimplementation of Touhou 8: Imperishable Night (Windows, Linux, android, browser)",
-      "url": "https://github.com/kauri-off/th08-rs",
-      "excerpt": "Clean-room Rust reimplementation of Touhou 8: Imperishable Night (Windows, Linux, android, browser)",
+      "id": "gh-1432169333",
+      "title": "Mauryln/Bakugan-Battle-Brawlers-PS3-recomp: Native Windows x64 port of Bakugan: Battle Brawlers (PS3, BLES00758) built by static PPU+SPU recompilation - no emulator. Menus, FMVs and the narrative intro work; 3D models, gameplay and SFX are next.",
+      "url": "https://github.com/Mauryln/Bakugan-Battle-Brawlers-PS3-recomp",
+      "excerpt": "Native Windows x64 port of Bakugan: Battle Brawlers (PS3, BLES00758) built by static PPU+SPU recompilation - no emulator. Menus, FMVs and the narrative intro work; 3D models, gameplay and SFX are next.",
       "image": "",
-      "publishedAt": "2026-11-07T16:13:38Z",
+      "publishedAt": "2026-11-07T20:04:46Z",
       "addedAt": "2026-11-07T12:10:10.544Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -4520,12 +5996,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1432169333",
-      "title": "Mauryln/Bakugan-Battle-Brawlers-PS3-recomp: Native Windows x64 port of Bakugan: Battle Brawlers (PS3, BLES00758) built by static PPU+SPU recompilation - no emulator. Menus, FMVs and the narrative intro work; 3D models, gameplay and SFX are next.",
-      "url": "https://github.com/Mauryln/Bakugan-Battle-Brawlers-PS3-recomp",
-      "excerpt": "Native Windows x64 port of Bakugan: Battle Brawlers (PS3, BLES00758) built by static PPU+SPU recompilation - no emulator. Menus, FMVs and the narrative intro work; 3D models, gameplay and SFX are next.",
+      "id": "gh-1424616350",
+      "title": "kauri-off/th08-rs: Clean-room Rust reimplementation of Touhou 8: Imperishable Night (Windows, Linux, android, browser)",
+      "url": "https://github.com/kauri-off/th08-rs",
+      "excerpt": "Clean-room Rust reimplementation of Touhou 8: Imperishable Night (Windows, Linux, android, browser)",
       "image": "",
-      "publishedAt": "2026-11-07T11:55:09Z",
+      "publishedAt": "2026-11-07T16:13:38Z",
       "addedAt": "2026-11-07T12:10:10.544Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -4790,8 +6266,8 @@
       "id": "1iqgq9j",
       "title": "Every Mac comes with an (undocumented) family member classifier",
       "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 430 # Comments: 245",
-      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 430\n\n# Comments: 245",
+      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 518 # Comments: 304",
+      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 518\n\n# Comments: 304",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T09:46:03.000Z",
@@ -5832,7 +7308,7 @@
       "url": "https://github.com/robongrui/derp",
       "excerpt": "Doom Engine Remaster Project (DERP) — an enhanced / experimental Doom source port featuring dynamic lighting, weather simulation, physics, reflections and more.",
       "image": "",
-      "publishedAt": "2026-11-07T10:34:01Z",
+      "publishedAt": "2026-11-07T20:55:49Z",
       "addedAt": "2026-11-07T10:10:14.873Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -5845,7 +7321,7 @@
       "url": "https://github.com/pablocpas/OpenCMR2",
       "excerpt": "Native SDL3 port of Colin McRae Rally 2.0 built from the CMR2Decomp decompilation. No game data included.",
       "image": "",
-      "publishedAt": "2026-11-07T17:15:55Z",
+      "publishedAt": "2026-11-07T20:03:32Z",
       "addedAt": "2026-11-07T10:10:14.512Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -5866,6 +7342,26 @@
       "lang": "en"
     },
     {
+      "id": "101cqzx",
+      "title": "Inside the Operation That Helped Ukraine Reverse Some Russian War Gains",
+      "url": "https://www.nytimes.com/2026/11/07/world/europe/ukraine-russia-war-operation-vivaldi.html",
+      "excerpt": "After months of secrecy, Ukrainian commanders let New York Times journalists join them in bunkers and training grounds used to reverse some Russian territorial gains.",
+      "content": "After months of secrecy, Ukrainian commanders let New York Times journalists join them in bunkers and training grounds used to reverse some Russian territorial gains.",
+      "image": "https://static01.nyt.com/images/2026/11/05/multimedia/05int-ukraine-battlefield-01-tkvw-promo/05int-ukraine-battlefield-01-tkvw-mediumSquareAt3X.jpg",
+      "images": [
+        {
+          "url": "https://static01.nyt.com/images/2026/11/05/multimedia/05int-ukraine-battlefield-01-tkvw-promo/05int-ukraine-battlefield-01-tkvw-mediumSquareAt3X.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T18:17:34.000Z",
+      "sourceId": "nyt-world",
+      "source": "The New York Times",
+      "category": "war",
+      "lang": "en",
+      "addedAt": "2026-11-07T10:10:10.197Z"
+    },
+    {
       "id": "1yzcetm",
       "title": "Не DeepSeek единым: 4 китайских ИИ-проекта, о которых стоит знать",
       "url": "https://habr.com/ru/companies/timeweb/articles/1103120/",
@@ -5883,26 +7379,6 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-07T10:10:10.197Z"
-    },
-    {
-      "id": "101cqzx",
-      "title": "Inside the Operation That Helped Ukraine Reverse Some Russian War Gains",
-      "url": "https://www.nytimes.com/2026/11/07/world/europe/ukraine-russia-war-operation-vivaldi.html",
-      "excerpt": "After months of secrecy, Ukrainian commanders let New York Times journalists join them in bunkers and training grounds used to reverse some Russian territorial gains.",
-      "content": "After months of secrecy, Ukrainian commanders let New York Times journalists join them in bunkers and training grounds used to reverse some Russian territorial gains.",
-      "image": "https://static01.nyt.com/images/2026/11/05/multimedia/05int-ukraine-battlefield-01-tkvw-promo/05int-ukraine-battlefield-01-tkvw-mediumSquareAt3X.jpg",
-      "images": [
-        {
-          "url": "https://static01.nyt.com/images/2026/11/05/multimedia/05int-ukraine-battlefield-01-tkvw-promo/05int-ukraine-battlefield-01-tkvw-mediumSquareAt3X.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-07T10:01:41.000Z",
-      "sourceId": "nyt-world",
-      "source": "The New York Times",
-      "category": "war",
-      "lang": "en",
       "addedAt": "2026-11-07T10:10:10.197Z"
     },
     {
@@ -7103,7 +8579,7 @@
       "url": "https://github.com/nayo186/AloneInTheDarkClassicReborn",
       "excerpt": "A source port of the Alone in the Dark trilogy and Jack in the Dark for modern PCs (Windows and Linux): fixes, HD options and its own launcher. Built on FITD by yaz0r, with parts of Re-Haunted",
       "image": "",
-      "publishedAt": "2026-11-07T07:31:59Z",
+      "publishedAt": "2026-11-07T18:53:57Z",
       "addedAt": "2026-11-07T07:40:12.287Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -7916,7 +9392,7 @@
       "url": "https://github.com/boburning/portcove",
       "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
       "image": "",
-      "publishedAt": "2026-11-07T18:15:29Z",
+      "publishedAt": "2026-11-07T21:41:28Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -9126,7 +10602,7 @@
       "url": "https://github.com/kirklandsig/halo2-decompiled",
       "excerpt": "Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
       "image": "",
-      "publishedAt": "2026-11-07T14:57:51Z",
+      "publishedAt": "2026-11-07T20:57:25Z",
       "addedAt": "2026-11-07T06:02:59.034Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -9225,6 +10701,19 @@
       "lang": "en"
     },
     {
+      "id": "gh-1396842451",
+      "title": "ChupathingyCE/chupathingyce: Halo CE: Ported for Everyone. Windows, Mac, Linux, Steam Deck, Android and FreeBSD, with online games and stats. Bring your own copy of the game.",
+      "url": "https://github.com/ChupathingyCE/chupathingyce",
+      "excerpt": "Halo CE: Ported for Everyone. Windows, Mac, Linux, Steam Deck, Android and FreeBSD, with online games and stats. Bring your own copy of the game.",
+      "image": "",
+      "publishedAt": "2026-11-07T20:44:13Z",
+      "addedAt": "2026-11-07T06:02:57.825Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
       "id": "gh-1441934743",
       "title": "Lucas-blip-png/dkb-pc-recomp: Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. The 3D tutorial renders; not playable yet. No game files included.",
       "url": "https://github.com/Lucas-blip-png/dkb-pc-recomp",
@@ -9257,19 +10746,6 @@
       "excerpt": "A native PC port of Mario Kart Arcade GP and GP 2 by static recompilation. Builds the games from your own disc images.",
       "image": "",
       "publishedAt": "2026-11-07T11:56:41Z",
-      "addedAt": "2026-11-07T06:02:57.825Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
-      "id": "gh-1396842451",
-      "title": "ChupathingyCE/chupathingyce: Halo CE: Ported for Everyone. Windows, Mac, Linux, Steam Deck, Android and FreeBSD, with online games and stats. Bring your own copy of the game.",
-      "url": "https://github.com/ChupathingyCE/chupathingyce",
-      "excerpt": "Halo CE: Ported for Everyone. Windows, Mac, Linux, Steam Deck, Android and FreeBSD, with online games and stats. Bring your own copy of the game.",
-      "image": "",
-      "publishedAt": "2026-11-07T11:10:53Z",
       "addedAt": "2026-11-07T06:02:57.825Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
