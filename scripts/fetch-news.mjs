@@ -1062,6 +1062,13 @@ async function main() {
   for (const item of previous?.items || []) {
     // Источник могли убрать из конфига — его старые материалы тоже убираем.
     if (!item?.id || !currentSourceIds.has(item.sourceId)) continue;
+    // Старые записи GitHub-портов могли попасть в выпуск до появления фильтра.
+    if (
+      item.sourceId === 'github-ports' &&
+      /awesome|curated|list of|collection of|database|wiki|toolkit/i.test(item.title || '')
+    ) {
+      continue;
+    }
     const category = sourceCategories.get(item.sourceId) || item.category;
     pool.set(item.id, { ...item, category, addedAt: item.addedAt || previousGeneratedAt });
   }
