@@ -1062,6 +1062,8 @@ function digestItemHtml(item) {
   const category = CATEGORY_KEYS.includes(item.category) ? item.category : 'ai';
   const image = safeUrl(item.image);
   const url = safeUrl(item.url);
+  const itemDate = item.addedAt || item.publishedAt || '';
+  const dateLabel = itemDate ? formatCardTime(itemDate) : 'без даты';
 
   return `
     <a class="digest-item" href="${esc(url)}" target="_blank" rel="noopener noreferrer">
@@ -1072,7 +1074,7 @@ function digestItemHtml(item) {
       <span class="digest-body">
         <span class="digest-meta">
           <span class="category">${esc(CATEGORY_LABELS[category])}</span>
-          ${esc(item.source || '')} · ${esc(item.publishedAt ? timeAgo(item.publishedAt) : '')}
+          ${esc(item.source || '')} · ${esc(dateLabel)}
         </span>
         <strong class="digest-title">${esc(item.title)}</strong>
         ${item.excerpt ? `<span class="digest-excerpt">${esc(item.excerpt)}</span>` : ''}
