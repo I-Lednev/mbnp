@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T06:17:03.125Z",
+  "generatedAt": "2026-11-07T06:23:47.110Z",
   "provider": "extractive",
   "categories": {
     "all": {
@@ -25,11 +25,11 @@
           "url": "https://www.playground.ru/misc/news/artur_hejs_ii_puzyr_budet_shtormit_no_on_ne_lopnet_pravitelstva_ne_pozvolyat_rynku_ruhnut-1888533"
         }
       ],
-      "count": 824,
+      "count": 832,
       "periodHours": 24,
       "sourceCount": 94,
-      "hash": "o4z98a",
-      "generatedAt": "2026-11-07T06:17:03.090Z"
+      "hash": "1d4f1gh",
+      "generatedAt": "2026-11-07T06:23:47.084Z"
     },
     "ai": {
       "label": "ИИ",
@@ -83,11 +83,11 @@
           "url": "https://arstechnica.com/gaming/2026/10/leaked-mass-effect-universe-trailer-gives-a-taste-of-what-were-all-missing/"
         }
       ],
-      "count": 76,
+      "count": 77,
       "periodHours": 24,
       "sourceCount": 7,
-      "hash": "1x5gwy",
-      "generatedAt": "2026-11-07T06:12:58.521Z"
+      "hash": "1lwjwch",
+      "generatedAt": "2026-11-07T06:23:47.090Z"
     },
     "announces": {
       "label": "Анонсы",
@@ -152,6 +152,12 @@
       "text": "За сутки в разделе «Релизы» — заметнее всего: Steam, Релиз, Доступно. Главное: Релиз: Боги гекконов.",
       "bullets": [
         {
+          "id": "1edkune",
+          "title": "Релиз: Боги гекконов",
+          "source": "GOG",
+          "url": "https://www.gog.com/fr/news/release_gecko_gods"
+        },
+        {
           "id": "honwd9",
           "title": "Релиз: Боги гекконов",
           "source": "GOG",
@@ -162,19 +168,13 @@
           "title": "Уже доступно в Steam — Angels Fall First, скидка 10%!",
           "source": "Steam Новинки",
           "url": "https://store.steampowered.com/news/275791/"
-        },
-        {
-          "id": "3afno",
-          "title": "Теперь доступно в Steam — Foundation, скидка 25%!",
-          "source": "Steam Новинки",
-          "url": "https://store.steampowered.com/news/237790/"
         }
       ],
-      "count": 27,
+      "count": 32,
       "periodHours": 24,
       "sourceCount": 3,
-      "hash": "50gysc",
-      "generatedAt": "2026-11-07T06:17:03.099Z"
+      "hash": "197nwbi",
+      "generatedAt": "2026-11-07T06:23:47.092Z"
     },
     "rumors": {
       "label": "Слухи",
@@ -315,11 +315,11 @@
           "url": "https://github.com/maxevans60/cm0102-bosman-edition"
         }
       ],
-      "count": 28,
+      "count": 29,
       "periodHours": 24,
       "sourceCount": 1,
-      "hash": "3mi4po",
-      "generatedAt": "2026-11-07T06:17:03.106Z"
+      "hash": "2aed29",
+      "generatedAt": "2026-11-07T06:23:47.098Z"
     },
     "pc": {
       "label": "ПК",
@@ -541,11 +541,11 @@
           "url": "https://insideevs.com/news/814708/2027-toyota-rav4-nacs-port-fast-charging/"
         }
       ],
-      "count": 79,
+      "count": 80,
       "periodHours": 24,
       "sourceCount": 7,
-      "hash": "1uz36bn",
-      "generatedAt": "2026-11-07T06:12:58.550Z"
+      "hash": "gn8g9r",
+      "generatedAt": "2026-11-07T06:23:47.108Z"
     },
     "war": {
       "label": "Война",
