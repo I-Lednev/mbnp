@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T21:44:10.440Z",
-  "tookMs": 10696,
+  "generatedAt": "2026-11-07T22:16:52.133Z",
+  "tookMs": 11289,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -24,26 +24,26 @@
     "war": "Война"
   },
   "counts": {
-    "ai": 112,
-    "games": 107,
+    "ai": 113,
+    "games": 108,
     "announces": 34,
     "mobile": 15,
     "releases": 45,
     "rumors": 28,
     "software": 44,
-    "science": 64,
-    "entertainment": 140,
-    "ports": 98,
+    "science": 65,
+    "entertainment": 142,
+    "ports": 99,
     "pc": 49,
-    "consoles": 119,
+    "consoles": 121,
     "hardware": 46,
     "industry": 43,
     "updates": 27,
     "aimods": 2,
     "aisoft": 51,
     "cars": 120,
-    "war": 107,
-    "total": 1251
+    "war": 108,
+    "total": 1260
   },
   "sourceCount": 98,
   "sources": [
@@ -736,6 +736,12 @@
   ],
   "errors": [
     {
+      "source": "r/GamingLeaksAndRumours",
+      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/new/.rss",
+      "error": "HTTP 429",
+      "reused": 10
+    },
+    {
       "source": "r/emulation",
       "url": "https://www.reddit.com/r/emulation/new/.rss",
       "error": "HTTP 429",
@@ -747,12 +753,6 @@
       "error": "HTTP 404"
     },
     {
-      "source": "Ukrinform",
-      "url": "https://www.ukrinform.ua/rss/block-lastnews",
-      "error": "лента пуста",
-      "reused": 3
-    },
-    {
       "source": "Novaya Gazeta Europe",
       "url": "https://novayagazeta.eu/feed/",
       "error": "HTTP 521"
@@ -760,12 +760,192 @@
   ],
   "items": [
     {
+      "id": "gh-1442329483",
+      "title": "Re-TeRo17/ratchet-tod-recomp: Ratchet & Clank: Tools of Destruction native PC port (PS3 static recompilation) – 4K, 60 fps, DualSense, Windows",
+      "url": "https://github.com/Re-TeRo17/ratchet-tod-recomp",
+      "excerpt": "Ratchet & Clank: Tools of Destruction native PC port (PS3 static recompilation) – 4K, 60 fps, DualSense, Windows",
+      "image": "",
+      "publishedAt": "2026-11-07T22:07:27Z",
+      "addedAt": "2026-11-07T22:16:45.297Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "ziyzvz",
+      "title": "Bill Skarsgård Says He ‘Wasn’t Even Thrown Into the Mix’ to Be James Bond, Despite British and Australian Actors Auditioning: ‘Maybe They Were Like, “We Can’t Do a Swede”’",
+      "url": "https://variety.com/2026/film/news/bill-skarsgard-playing-villains-james-bond-film-1236942134/",
+      "excerpt": "Bill Skarsgård won’t be the next 007, but he would play a Bond villain. In a recent appearance on Josh Horowitz’s “Happy Sad Confused” podcast, Skarsgård revealed he wasn’t asked to test for Denis Villeneuve’s reboot. “They didn’t call me about James Bond. I…",
+      "content": "Bill Skarsgård won’t be the next 007, but he would play a Bond villain. In a recent appearance on Josh Horowitz’s “Happy Sad Confused” podcast, Skarsgård revealed he wasn’t asked to test for Denis Villeneuve’s reboot. “They didn’t call me about James Bond. I don’t know what that was about,” he joked. “Every single British, […]",
+      "image": "https://variety.com/wp-content/uploads/2026/11/gettyimages-2187893278-594x594-1.jpg",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/gettyimages-2187893278-594x594-1.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T22:13:55.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T22:16:40.844Z"
+    },
+    {
+      "id": "55lb9q",
+      "title": "After the midterms, things are looking rocky for Elon Musk and data centers",
+      "url": "https://techcrunch.com/2026/11/07/after-the-midterms-things-are-looking-rocky-for-elon-musk-and-data-centers/",
+      "excerpt": "On Equity, we unpacked what the midterms mean for the tech industry.",
+      "content": "On Equity, we unpacked what the midterms mean for the tech industry.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-07T22:07:22.000Z",
+      "sourceId": "techcrunch-ai",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "lang": "en",
+      "addedAt": "2026-11-07T22:16:40.844Z"
+    },
+    {
+      "id": "gxo7up",
+      "title": "Student finds proof of rare wild cat in northern New Mexico",
+      "url": "https://phys.org/news/2026-11-student-proof-rare-wild-cat.html",
+      "excerpt": "Armed with dozens of motion-sensing cameras, William Grooms spent this past summer documenting wildlife across Carson National Forest in northern New Mexico. It was his first field season collecting photos for a two-year study to understand how forest…",
+      "content": "Armed with dozens of motion-sensing cameras, William Grooms spent this past summer documenting wildlife across Carson National Forest in northern New Mexico. It was his first field season collecting photos for a two-year study to understand how forest structure influences biodiversity in the Southern Rocky Mountains.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/nmsu-phd-student-finds.jpg",
+      "images": [
+        {
+          "url": "https://scx1.b-cdn.net/csz/news/tmb/2026/nmsu-phd-student-finds.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T22:00:05.000Z",
+      "sourceId": "physorg",
+      "source": "Phys.org",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-07T22:16:40.844Z"
+    },
+    {
+      "id": "1ou2796",
+      "title": "Project Hail Mary Author Andy Weir Reveals The Two Beloved Scenes He Wanted To Cut From The Movie [Exclusive]",
+      "url": "https://www.slashfilm.com/2304550/project-hail-mary-author-andy-weir-movie-scenes-wanted-cut/",
+      "excerpt": "Project Hail Mary book author Andy Weir suggested cutting two of the best scenes from the film adaptation starring Ryan Gosling.",
+      "content": "Project Hail Mary book author Andy Weir suggested cutting two of the best scenes from the film adaptation starring Ryan Gosling.",
+      "image": "https://www.slashfilm.com/img/gallery/project-hail-mary-author-andy-weir-reveals-the-two-beloved-scenes-he-wanted-to-cut-from-the-movie-exclusive/l-intro-1793647853.jpg",
+      "images": [
+        {
+          "url": "https://www.slashfilm.com/img/gallery/project-hail-mary-author-andy-weir-reveals-the-two-beloved-scenes-he-wanted-to-cut-from-the-movie-exclusive/l-intro-1793647853.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.slashfilm.com/img/gallery/project-hail-mary-author-andy-weir-reveals-the-two-beloved-scenes-he-wanted-to-cut-from-the-movie-exclusive/intro-1793647853.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T22:00:00.000Z",
+      "sourceId": "slashfilm",
+      "source": "SlashFilm",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T22:16:40.844Z"
+    },
+    {
+      "id": "18fc1fy",
+      "title": "Тестирование шутера Fragmentary Order от создателя Escape from Tarkov стартует в декабре — раскрыты системные требования альфа-версии",
+      "url": "https://3dnews.ru/1151008/testirovanie-shutera-fragmentary-order-ot-sozdatelya-escape-from-tarkov-startuet-v-dekabre-raskriti-sistemnie-trebovaniya-alfaversii",
+      "excerpt": "Закрытое альфа-тестирование научно-фантастического шутера Fragmentary Order от студии Rant Gaming начнётся в декабре. Перед скорым запуском соответствующих мероприятий в официальном микроблоге проекта были опубликованы системные требования.",
+      "content": "Закрытое альфа-тестирование научно-фантастического шутера Fragmentary Order от студии Rant Gaming начнётся в декабре. Перед скорым запуском соответствующих мероприятий в официальном микроблоге проекта были опубликованы системные требования.",
+      "image": "https://cdn.3dnews.ru/assets/external/illustrations/2026/11/07/1151008/fragmentary_order_title.jpg",
+      "images": [
+        {
+          "url": "https://cdn.3dnews.ru/assets/external/illustrations/2026/11/07/1151008/fragmentary_order_title.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T21:52:00.000Z",
+      "sourceId": "3dnews-games",
+      "source": "3DNews Игры",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-07T22:16:40.844Z"
+    },
+    {
+      "id": "16x6l01",
+      "title": "На фронті - 187 зіткнень, ЗСУ ліквідували понад 30 окупантів на Покровському напрямку",
+      "url": "https://www.ukrinform.ua/rubric-ato/4182531-na-fronti-187-zitknen-zsu-likviduvali-ponad-30-okupantiv-na-pokrovskomu-napramku.html",
+      "excerpt": "Протягом 7 листопада на фронті сталося 187 бойових зіткнень Сил оборони України з російськими загарбниками, найактивніше ворог намагався атакувати на Костянтинівському напрямку.",
+      "content": "Протягом 7 листопада на фронті сталося 187 бойових зіткнень Сил оборони України з російськими загарбниками, найактивніше ворог намагався атакувати на Костянтинівському напрямку.",
+      "image": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791111251-769.jpg",
+      "images": [
+        {
+          "url": "https://static.ukrinform.com/photos/2026_10/thumb_files/630_360_1791111251-769.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T21:48:00.000Z",
+      "sourceId": "ukrinform",
+      "source": "Ukrinform",
+      "category": "war",
+      "lang": "uk",
+      "addedAt": "2026-11-07T22:16:40.844Z"
+    },
+    {
+      "id": "1ozmp19",
+      "title": "Nintendo says its uniqueness is more important than ever amid explosion of internet and AI content",
+      "url": "https://nintendoeverything.com/nintendo-says-its-uniqueness-is-more-important-than-ever-amid-explosion-of-internet-and-ai-content/",
+      "excerpt": "During Nintendo’s latest financial results Q&A, one person asked how the company is striking a balance between creativity and business management, especially given that it can take a long time to make games these days. Yusuke Beppu, director and senior…",
+      "content": "During Nintendo’s latest financial results Q&A, one person asked how the company is striking a balance between creativity and business management, especially given that it can take a long time to make games these days. Yusuke Beppu, director and senior executive officer at Nintendo, fielded the question. He mentioned that the company’s ability to make something unique has always been...\n\nNintendo Everything .",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Nintendo-uniqueness-AI-internet-150x84.webp",
+      "images": [
+        {
+          "url": "https://nintendoeverything.com/wp-content/uploads/Nintendo-uniqueness-AI-internet-150x84.webp",
+          "alt": ""
+        },
+        {
+          "url": "https://nintendoeverything.com/wp-content/uploads/Nintendo-uniqueness-AI-internet.webp",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T21:30:19.000Z",
+      "sourceId": "nintendoeverything",
+      "source": "Nintendo Everything",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-07T22:16:40.844Z"
+    },
+    {
+      "id": "aad9hc",
+      "title": "Party battler RoomBattle heading to Nintendo Switch [update: release date]",
+      "url": "https://nintendoeverything.com/party-battler-roombattle-heading-to-nintendo-switch/",
+      "excerpt": "October 16: Flynn’s Arcade is teaming up with Dust Games on a Nintendo Switch version of RoomBattler, they’ve announced. For now, there’s no word on launch timing. RoomBattle is a fast-paced party battler. Up to six people play as customizable vacuum cleaners…",
+      "content": "October 16: Flynn’s Arcade is teaming up with Dust Games on a Nintendo Switch version of RoomBattler, they’ve announced. For now, there’s no word on launch timing. RoomBattle is a fast-paced party battler. Up to six people play as customizable vacuum cleaners while battling friends in frantic arenas and minigames across multiple game modes.  Additional information can be found in...\n\nNintendo Everything .",
+      "image": "https://nintendoeverything.com/wp-content/uploads/RoomBattle-150x86.jpg",
+      "images": [
+        {
+          "url": "https://nintendoeverything.com/wp-content/uploads/RoomBattle-150x86.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://nintendoeverything.com/wp-content/uploads/RoomBattle.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T19:25:59.000Z",
+      "sourceId": "nintendoeverything",
+      "source": "Nintendo Everything",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-07T22:16:40.844Z"
+    },
+    {
       "id": "gh-1449755182",
       "title": "ObeseCatLord/galaxy-angel-2-pc: Galaxy Angel 2 PC: a native PC port of the Galaxy Angel II PS2 trilogy, built with PS2Recomp static recompilation",
       "url": "https://github.com/ObeseCatLord/galaxy-angel-2-pc",
       "excerpt": "Galaxy Angel 2 PC: a native PC port of the Galaxy Angel II PS2 trilogy, built with PS2Recomp static recompilation",
       "image": "",
-      "publishedAt": "2026-11-07T21:42:49Z",
+      "publishedAt": "2026-11-07T22:11:41Z",
       "addedAt": "2026-11-07T21:44:04.409Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -804,7 +984,7 @@
       "url": "https://github.com/spitzdano/AidynReChronicled",
       "excerpt": "Aidyn Chronicles: The First Mage (N64) as a native Linux and Windows game: HD and widescreen, newly painted art, smooth frame rates, quicksaves and Aidyn Patch / Aidyn Plus support. Bring your own ROM.",
       "image": "",
-      "publishedAt": "2026-11-07T21:39:38Z",
+      "publishedAt": "2026-11-07T21:44:05Z",
       "addedAt": "2026-11-07T21:44:03.491Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -1975,8 +2155,8 @@
       "id": "1fzmty1",
       "title": "The end of Microsoft Research's AI Frontiers group",
       "url": "https://hunch.net/?p=13764006",
-      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 241 # Comments: 137",
-      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 241\n\n# Comments: 137",
+      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 263 # Comments: 147",
+      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 263\n\n# Comments: 147",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T18:02:17.000Z",
@@ -2062,8 +2242,8 @@
       "id": "6a6jp5",
       "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
       "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 122 # Comments: 32",
-      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 122\n\n# Comments: 32",
+      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 133 # Comments: 34",
+      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 133\n\n# Comments: 34",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T17:19:00.000Z",
@@ -2685,7 +2865,7 @@
       "url": "https://github.com/TheBozos/VP2S_Recomp",
       "excerpt": "Native PC port of Valkyrie Profile 2: Silmeria (USA, SLUS-21452) by static recompilation with PS2Recomp: native renderer and audio, no GS/VU1/SPU2 emulation. No game data or keys included.",
       "image": "",
-      "publishedAt": "2026-11-07T21:34:27Z",
+      "publishedAt": "2026-11-07T22:12:57Z",
       "addedAt": "2026-11-07T18:00:03.196Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -2776,7 +2956,7 @@
       "url": "https://github.com/makkaX2/DroneFlames-PC-Port",
       "excerpt": "🚁 DroneFlames PC Port (Windows x64) — native PC controls, WASD camera, smooth zoom, multiplayer & automated CI/CD builds by @good_boy_irl.",
       "image": "",
-      "publishedAt": "2026-11-07T21:41:24Z",
+      "publishedAt": "2026-11-07T22:16:15Z",
       "addedAt": "2026-11-07T18:00:02.232Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -2789,7 +2969,7 @@
       "url": "https://github.com/TheBozos/TMB_Recomp",
       "excerpt": "Twisted Metal: Black (USA, SCUS-97101) as a native PC port: static recompilation with PS2Recomp (no game data)",
       "image": "",
-      "publishedAt": "2026-11-07T21:31:40Z",
+      "publishedAt": "2026-11-07T22:09:21Z",
       "addedAt": "2026-11-07T18:00:02.232Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -6266,8 +6446,8 @@
       "id": "1iqgq9j",
       "title": "Every Mac comes with an (undocumented) family member classifier",
       "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 518 # Comments: 304",
-      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 518\n\n# Comments: 304",
+      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 532 # Comments: 314",
+      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 532\n\n# Comments: 314",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T09:46:03.000Z",
@@ -6545,7 +6725,7 @@
       "url": "https://github.com/luisbraganca/ps2n",
       "excerpt": "Static recompiler for PlayStation 2 executables. It reads an Emotion Engine (R5900) ELF, finds its functions, translates every instruction into plain C++, and links the result against a runtime that stands in for the rest of the console: the EE kernel, the hardware registers, the GS, and the IOP. The output is an ordinary buildable native program.",
       "image": "",
-      "publishedAt": "2026-11-07T17:59:10Z",
+      "publishedAt": "2026-11-07T22:16:10Z",
       "addedAt": "2026-11-07T11:10:10.681Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -7936,7 +8116,7 @@
       "url": "https://github.com/YodaMMM/NightfirePort",
       "excerpt": "Nightfire Rust: a native Windows PC port of 007: Nightfire (PS2), written in Rust",
       "image": "",
-      "publishedAt": "2026-11-07T11:29:33Z",
+      "publishedAt": "2026-11-07T22:12:25Z",
       "addedAt": "2026-11-07T09:10:09.502Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -9392,7 +9572,7 @@
       "url": "https://github.com/boburning/portcove",
       "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
       "image": "",
-      "publishedAt": "2026-11-07T21:41:28Z",
+      "publishedAt": "2026-11-07T22:14:35Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -10706,7 +10886,7 @@
       "url": "https://github.com/ChupathingyCE/chupathingyce",
       "excerpt": "Halo CE: Ported for Everyone. Windows, Mac, Linux, Steam Deck, Android and FreeBSD, with online games and stats. Bring your own copy of the game.",
       "image": "",
-      "publishedAt": "2026-11-07T20:44:13Z",
+      "publishedAt": "2026-11-07T22:11:50Z",
       "addedAt": "2026-11-07T06:02:57.825Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
