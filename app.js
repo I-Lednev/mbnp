@@ -6,6 +6,7 @@ const AUTO_REFRESH_MS = 10 * 60 * 1000;
 const SESSION_KEY = 'mbn:session:v1';
 const GH_TOKEN_KEY = 'mbn:gh-token';
 const INVITES_KEY = 'mbn:invites:v1';
+const INVITE_VERSION_KEY = 'mbn:invite-version';
 
 const STORAGE = {
   bookmarks: 'mbn:bookmarks:v1',
@@ -277,8 +278,14 @@ async function fetchInviteConfig() {
 
 async function currentInviteVersion() {
   const config = await fetchInviteConfig();
-  const version = Number(config?.inviteVersion);
-  return Number.isFinite(version) && version > 0 ? version : AUTH_CONFIG.inviteVersion;
+  const fromConfig = Number(config?.inviteVersion);
+  const cached = Number(localStorage.getItem(INVITE_VERSION_KEY));
+
+  return Math.max(
+    Number.isFinite(fromConfig) && fromConfig > 0 ? fromConfig : 0,
+    Number.isFinite(cached) && cached > 0 ? cached : 0,
+    AUTH_CONFIG.inviteVersion,
+  );
 }
 
 function hexToBytes(hex) {
@@ -578,6 +585,11 @@ async function revokeAllInvites() {
 
     saveInvites([]);
     renderInviteList();
+    try {
+      localStorage.setItem(INVITE_VERSION_KEY, String(next.inviteVersion));
+    } catch {
+      // Кэш версии не сохранится.
+    }
     showCabinetStatus('Все приглашения аннулированы. Старые ссылки больше не действуют.');
   } catch (error) {
     showCabinetStatus(`Не удалось аннулировать: ${error.message}. Проверьте токен и права Contents: Read and write.`);
