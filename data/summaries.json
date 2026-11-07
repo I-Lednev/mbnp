@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-07T06:12:58.556Z",
+  "generatedAt": "2026-11-07T06:17:03.125Z",
   "provider": "extractive",
   "categories": {
     "all": {
@@ -25,11 +25,11 @@
           "url": "https://www.playground.ru/misc/news/artur_hejs_ii_puzyr_budet_shtormit_no_on_ne_lopnet_pravitelstva_ne_pozvolyat_rynku_ruhnut-1888533"
         }
       ],
-      "count": 821,
+      "count": 824,
       "periodHours": 24,
       "sourceCount": 94,
-      "hash": "2vvxrl",
-      "generatedAt": "2026-11-07T06:12:58.512Z"
+      "hash": "o4z98a",
+      "generatedAt": "2026-11-07T06:17:03.090Z"
     },
     "ai": {
       "label": "ИИ",
@@ -149,8 +149,14 @@
     },
     "releases": {
       "label": "Релизы",
-      "text": "За сутки в разделе «Релизы» — заметнее всего: Steam, Доступно, Релиз. Главное: Уже доступно в Steam — Angels Fall First, скидка 10%!.",
+      "text": "За сутки в разделе «Релизы» — заметнее всего: Steam, Релиз, Доступно. Главное: Релиз: Боги гекконов.",
       "bullets": [
+        {
+          "id": "honwd9",
+          "title": "Релиз: Боги гекконов",
+          "source": "GOG",
+          "url": "https://www.gog.com/de/news/release_gecko_gods"
+        },
         {
           "id": "r0de57",
           "title": "Уже доступно в Steam — Angels Fall First, скидка 10%!",
@@ -162,19 +168,13 @@
           "title": "Теперь доступно в Steam — Foundation, скидка 25%!",
           "source": "Steam Новинки",
           "url": "https://store.steampowered.com/news/237790/"
-        },
-        {
-          "id": "ntu5ht",
-          "title": "Теперь доступно в Steam — RAILGRADE, скидка 25%!",
-          "source": "Steam Новинки",
-          "url": "https://store.steampowered.com/news/210653/"
         }
       ],
-      "count": 22,
+      "count": 27,
       "periodHours": 24,
       "sourceCount": 3,
-      "hash": "1cit14r",
-      "generatedAt": "2026-11-07T06:12:58.523Z"
+      "hash": "50gysc",
+      "generatedAt": "2026-11-07T06:17:03.099Z"
     },
     "rumors": {
       "label": "Слухи",
@@ -294,14 +294,8 @@
     },
     "ports": {
       "label": "Порты",
-      "text": "За сутки в разделе «Порты» — заметнее всего: Порт, Включены, Windows. Главное: maxevans60/cm0102-bosman-edition: Championship Manager 01/02 переработан для работы на Mac, Windows, Linux и Steam Deck. Неофициальный фан-порт..",
+      "text": "За сутки в разделе «Порты» — заметнее всего: Порт, Включены, Windows. Главное: dlprentice/onslaught-ce: Onslaught CE: собственный порт Battle Engine Aquila (2003) для Linux и Windows, созданный из исходного кода. Принесите свою….",
       "bullets": [
-        {
-          "id": "gh-1417787248",
-          "title": "maxevans60/cm0102-bosman-edition: Championship Manager 01/02 переработан для работы на Mac, Windows, Linux и Steam Deck…",
-          "source": "GitHub: порты",
-          "url": "https://github.com/maxevans60/cm0102-bosman-edition"
-        },
         {
           "id": "gh-1429046152",
           "title": "dlprentice/onslaught-ce: Onslaught CE: собственный порт Battle Engine Aquila (2003) для Linux и Windows, созданный из и…",
@@ -309,17 +303,23 @@
           "url": "https://github.com/dlprentice/onslaught-ce"
         },
         {
-          "id": "gh-1398811852",
-          "title": "abedegno/underworld-exhumed: Underworld Exhumed: Ultima Underworld I и II в виде исходного кода с сопоставлением байтов…",
+          "id": "gh-1396842451",
+          "title": "ChupathingyCE/chupathingyce: Halo CE: портировано для всех. Windows, Mac, Linux, Steam Deck, Android и FreeBSD, с онлай…",
           "source": "GitHub: порты",
-          "url": "https://github.com/abedegno/underworld-exhumed"
+          "url": "https://github.com/ChupathingyCE/chupathingyce"
+        },
+        {
+          "id": "gh-1417787248",
+          "title": "maxevans60/cm0102-bosman-edition: Championship Manager 01/02 переработан для работы на Mac, Windows, Linux и Steam Deck…",
+          "source": "GitHub: порты",
+          "url": "https://github.com/maxevans60/cm0102-bosman-edition"
         }
       ],
-      "count": 30,
+      "count": 28,
       "periodHours": 24,
       "sourceCount": 1,
-      "hash": "x8ydek",
-      "generatedAt": "2026-11-07T06:12:58.532Z"
+      "hash": "3mi4po",
+      "generatedAt": "2026-11-07T06:17:03.106Z"
     },
     "pc": {
       "label": "ПК",
