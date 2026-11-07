@@ -1141,6 +1141,38 @@ button:disabled {
   color: var(--muted-2);
 }
 
+.read-badge {
+  flex: none;
+  margin-left: auto;
+  color: var(--success);
+  font-size: 10px;
+  font-weight: 700;
+  letter-spacing: 0.07em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.card.is-read {
+  border-color: var(--border);
+}
+
+.card.is-read .card-media img {
+  filter: grayscale(0.5);
+  opacity: 0.82;
+}
+
+.card.is-read .card-title {
+  color: var(--muted);
+}
+
+.card.is-read .media-fallback {
+  opacity: 0.55;
+}
+
+.card.is-read .read-badge {
+  color: var(--muted-2);
+}
+
 .card-dates {
   display: grid;
   grid-template-columns: 1fr 1fr;
