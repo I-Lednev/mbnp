@@ -55,6 +55,7 @@ const state = {
   summaries: new Map(),
   summariesLoaded: false,
   summariesLoading: false,
+  summaryExpanded: false,
   digestIndex: null,
   digestIndexLoading: false,
   digestWeek: null,
@@ -702,14 +703,24 @@ function summaryHtml() {
     .filter((bullet) => bullet?.title)
     .slice(0, 3)
     .map((bullet) => {
+      const itemId = bullet.id || findItemIdByUrl(bullet.url);
       const href = safeUrl(bullet.url);
       const title = esc(bullet.title);
+      const label = `<span class="summary-title">${title}</span><span class="summary-source">${esc(bullet.source || '')}</span>`;
+
+      if (itemId) {
+        return `<li><a href="${esc(href || '#')}" data-read="${esc(itemId)}" title="Открыть в читалке">${label}</a></li>`;
+      }
+
       const link = href
-        ? `<a href="${esc(href)}" target="_blank" rel="noopener noreferrer">${title}</a>`
-        : `<span>${title}</span>`;
-      return `<li>${link}<span class="summary-source">${esc(bullet.source || '')}</span></li>`;
+        ? `<a href="${esc(href)}" target="_blank" rel="noopener noreferrer">${label}</a>`
+        : `<span>${label}</span>`;
+      return `<li>${link}</li>`;
     })
     .join('');
+
+  const expanded = state.summaryExpanded;
+  const long = summary.text.length > 200;
 
   return `
     <article class="summary-card" aria-label="Кратко за сутки">
@@ -717,10 +728,27 @@ function summaryHtml() {
         <span class="summary-kicker">Кратко за сутки</span>
         ${meta ? `<span class="summary-meta">${meta}</span>` : ''}
       </div>
-      <p class="summary-text">${esc(summary.text)}</p>
+      <p class="summary-text ${long && !expanded ? 'is-clamped' : ''}" ${long ? `id="summaryText-${esc(key)}"` : ''}>${esc(summary.text)}</p>
+      ${
+        long
+          ? `<button
+              class="summary-toggle"
+              type="button"
+              data-summary-toggle
+              aria-expanded="${expanded}"
+              aria-controls="summaryText-${esc(key)}"
+            >${expanded ? 'Свернуть' : 'Читать дальше'}</button>`
+          : ''
+      }
       ${bullets ? `<ul class="summary-list">${bullets}</ul>` : ''}
     </article>
   `;
+}
+
+function findItemIdByUrl(url) {
+  if (!url || !state.data?.items) return '';
+  const item = state.data.items.find((entry) => entry.url === url);
+  return item?.id || '';
 }
 
 function setStatus(text, mode) {
@@ -1285,6 +1313,19 @@ function bindEvents() {
     if (bookmark) {
       event.preventDefault();
       toggleBookmark(bookmark.dataset.bookmark);
+      return;
+    }
+
+    const summaryToggle = event.target.closest('[data-summary-toggle]');
+    if (summaryToggle) {
+      event.preventDefault();
+      const text = summaryToggle.closest('.summary-card')?.querySelector('.summary-text');
+      if (text) {
+        const expanded = text.classList.toggle('is-clamped') === false;
+        state.summaryExpanded = expanded;
+        summaryToggle.textContent = expanded ? 'Свернуть' : 'Читать дальше';
+        summaryToggle.setAttribute('aria-expanded', String(expanded));
+      }
       return;
     }
 
