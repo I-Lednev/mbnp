@@ -85,6 +85,7 @@ const state = {
   visible: PAGE_SIZE,
   lastAttempt: 0,
   loading: false,
+  tabsExpanded: false,
   deferredPrompt: null,
   readerItem: null,
 };
@@ -107,7 +108,8 @@ const els = {
   themeBtn: document.getElementById('themeBtn'),
   installBtn: document.getElementById('installBtn'),
   toast: document.getElementById('toast'),
-  tabs: [...document.querySelectorAll('.tab')],
+  tabs: [...document.querySelectorAll('.tab[data-category]')],
+  tabsToggle: document.getElementById('tabsToggle'),
   warNote: document.getElementById('warNote'),
   sourcesBtn: document.getElementById('sourcesBtn'),
   hiddenSourcesBadge: document.getElementById('hiddenSourcesBadge'),
@@ -148,6 +150,7 @@ init();
 function init() {
   applyTheme(getStoredTheme());
   if (els.translationSelect) els.translationSelect.value = state.translation;
+  applyTabsState(false);
   bindEvents();
   updateCounts();
   updateHiddenBadge();
@@ -779,6 +782,19 @@ function setStatus(text, mode) {
 
 /* ── Фильтры, разделы, источники ──────────────────────────────────────── */
 
+function applyTabsState(expanded = state.tabsExpanded) {
+  state.tabsExpanded = expanded;
+
+  const container = document.getElementById('tabs');
+  if (container) container.classList.toggle('is-expanded', expanded);
+
+  if (els.tabsToggle) {
+    els.tabsToggle.setAttribute('aria-expanded', String(expanded));
+    const label = els.tabsToggle.querySelector('.tabs-toggle-label');
+    if (label) label.textContent = expanded ? 'Скрыть' : 'Ещё';
+  }
+}
+
 function setCategory(category) {
   state.category = category;
   state.source = 'all';
@@ -791,6 +807,7 @@ function setCategory(category) {
     tab.setAttribute('aria-selected', String(active));
   }
 
+  applyTabsState(false);
   render();
 }
 
@@ -1310,6 +1327,10 @@ function bindEvents() {
       tab.scrollIntoView({ behavior: 'smooth', inline: 'center', block: 'nearest' });
     });
   }
+
+  els.tabsToggle?.addEventListener('click', () => {
+    applyTabsState(!state.tabsExpanded);
+  });
 
   let searchTimer;
   els.search.addEventListener('input', () => {
