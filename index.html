@@ -3,6 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <meta name="robots" content="noindex, nofollow" />
     <title>My Best NEWSpaper — новости</title>
     <meta
       name="description"
@@ -30,9 +31,35 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="icons/icon-192.png" />
-    <link rel="stylesheet" href="styles.css?v=25" />
+    <link rel="stylesheet" href="styles.css?v=26" />
   </head>
   <body>
+    <div id="authGate" class="auth-gate" hidden>
+      <form id="authForm" class="auth-card" autocomplete="on">
+        <div class="auth-brand">My Best <span class="brand-news">NEWS</span>paper</div>
+        <p class="auth-sub">Закрытый доступ</p>
+
+        <label class="auth-field">
+          <span>Логин</span>
+          <input id="authLogin" name="login" type="text" autocomplete="username" autocapitalize="none" spellcheck="false" required />
+        </label>
+
+        <label class="auth-field">
+          <span>Пароль</span>
+          <input id="authPassword" name="password" type="password" autocomplete="current-password" required />
+        </label>
+
+        <button class="primary-btn auth-submit" type="submit">Войти</button>
+        <p id="authError" class="auth-error" role="alert" hidden></p>
+
+        <button id="authRecoveryBtn" class="link-btn auth-recovery" type="button">Восстановить доступ</button>
+        <p id="authRecovery" class="auth-recovery-text" hidden>
+          Восстановление через почту в этом варианте недоступно. Чтобы сбросить пароль, обновите
+          <code>auth-config.js</code> в репозитории на GitHub. Приглашённым нужно запросить новую ссылку у владельца.
+        </p>
+      </form>
+    </div>
+
     <div class="app">
       <header class="topbar">
         <a class="brand" href="./">
@@ -79,6 +106,12 @@
           <button id="refreshBtn" class="icon-btn" type="button" aria-label="Обновить новости" title="Обновить">
             <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
               <path d="M20 11a8 8 0 1 0-2.3 6.3M20 5v6h-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <button id="cabinetBtn" class="icon-btn" type="button" aria-label="Личный кабинет" title="Личный кабинет" hidden>
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <circle cx="12" cy="8" r="3.5" stroke="currentColor" stroke-width="1.8" />
+              <path d="M5 20a7 7 0 0 1 14 0" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
             </svg>
           </button>
           <button id="layoutBtn" class="icon-btn layout-btn" type="button" aria-pressed="false" aria-label="Показать по две карточки в ряд" title="Крупные карточки">
@@ -330,6 +363,40 @@
       </div>
     </dialog>
 
+    <dialog id="cabinetDialog" class="cabinet-dialog" aria-labelledby="cabinetTitle">
+      <div class="dialog-head">
+        <div>
+          <h2 id="cabinetTitle">Личный кабинет</h2>
+          <p>Приглашения и доступ к сайту.</p>
+        </div>
+        <button id="cabinetCloseBtn" class="icon-btn" type="button" aria-label="Закрыть кабинет">×</button>
+      </div>
+
+      <div class="cabinet-body">
+        <label class="auth-field">
+          <span>GitHub token для управления приглашениями</span>
+          <input id="cabinetToken" type="password" autocomplete="off" spellcheck="false" placeholder="github_pat_..." />
+        </label>
+        <p class="cabinet-hint">
+          Токен хранится только в этом браузере. Нужен fine-grained token с доступом
+          <strong>Contents: Read and write</strong> к репозиторию MBNP.
+        </p>
+
+        <div class="cabinet-actions">
+          <button id="createInviteBtn" class="primary-btn" type="button">Создать приглашение</button>
+          <button id="revokeInvitesBtn" class="load-more danger-btn" type="button">Аннулировать все</button>
+        </div>
+
+        <p id="cabinetStatus" class="cabinet-status" role="status" hidden></p>
+        <ul id="inviteList" class="invite-list"></ul>
+      </div>
+
+      <div class="dialog-foot">
+        <button id="logoutBtn" class="link-btn" type="button">Выйти</button>
+        <button id="cabinetDoneBtn" class="primary-btn" type="button">Готово</button>
+      </div>
+    </dialog>
+
     <dialog id="readerDialog" class="reader-dialog" aria-labelledby="readerTitle">
       <div class="reader-head">
         <div class="reader-meta">
@@ -372,7 +439,7 @@
       (async () => {
         for (let attempt = 0; attempt < 4; attempt += 1) {
           try {
-            await import(`./app.js?v=26&retry=${attempt}`);
+            await import(`./app.js?v=27&retry=${attempt}`);
             return;
           } catch (error) {
             console.warn('Не удалось загрузить app.js, повтор…', error);
