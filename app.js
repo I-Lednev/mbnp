@@ -682,8 +682,15 @@ function renderLastUpdate() {
   }
 
   els.lastUpdate.hidden = false;
-  els.lastUpdate.textContent = `Последнее обновление: ${formatDateTime(ts)}`;
-  els.lastUpdate.title = `Новости собираются автоматически. Последний сбор: ${formatDateTime(ts)} (${timeAgo(ts)})`;
+
+  const next = new Date(date.getTime() + 30 * 60_000);
+  const overdue = next.getTime() < Date.now() - 5 * 60_000;
+  const nextLabel = overdue
+    ? 'следующее — в ближайшее время'
+    : `следующее около ${formatNextTime(next)}`;
+
+  els.lastUpdate.textContent = `Последнее обновление: ${formatDateTime(ts)} · ${nextLabel}`;
+  els.lastUpdate.title = `Новости собираются автоматически каждые 30 минут. Последний сбор: ${formatDateTime(ts)} (${timeAgo(ts)}). Следующий: ${nextLabel}.`;
 }
 
 function setStatus(text, mode) {
@@ -1527,6 +1534,15 @@ function formatDateTime(iso) {
     hour: '2-digit',
     minute: '2-digit',
   }).format(date);
+}
+
+function formatNextTime(date) {
+  const now = new Date();
+  const sameDay = now.toDateString() === date.toDateString();
+
+  return new Intl.DateTimeFormat('ru-RU', sameDay
+    ? { hour: '2-digit', minute: '2-digit' }
+    : { day: 'numeric', month: 'short', hour: '2-digit', minute: '2-digit' }).format(date);
 }
 
 function formatCardTime(iso) {
