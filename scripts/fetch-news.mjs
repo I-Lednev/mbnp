@@ -48,6 +48,44 @@ const WAR_KEYWORDS = [
   'херсон', 'харьков', 'курск', 'крым', 'нато', 'фронт',
 ];
 
+const CONSOLE_KEYWORDS = [
+  'playstation', 'ps5', 'ps4', 'ps3', 'xbox', 'nintendo', 'switch', 'steam deck',
+  'game pass', 'dualsense', 'joy-con', 'handheld', 'series x', 'series s', 'sony',
+  'консол', 'приставк', 'портативн',
+];
+
+const PC_HARDWARE_KEYWORDS = [
+  'видеокарт', 'gpu', 'nvidia', 'amd', 'intel', 'rtx', 'radeon', 'ryzen',
+  'core i', 'core ultra', 'процессор', 'материнск', 'ssd', 'hdd', 'ddr',
+  'оперативн', 'блок питания', 'корпус', 'thermalright', 'монитор', 'ноутбук',
+  'клавиатур', 'мышь', 'роутер', 'чип', 'желез', 'комплектующ', 'pcie', 'usb',
+  'thunderbolt', 'geekbench', 'dlss', 'l3-кэш',
+];
+
+const INDUSTRY_KEYWORDS = [
+  'рынок', 'продаж', 'выручк', 'компан', 'издател', 'студи', 'увольнен',
+  'сокращен', 'сделк', 'покупк', 'инвест', 'акци', 'отчет', 'прибыл', 'убыт',
+  'лиценз', 'судебн', 'бюджет', 'финанс', 'капитал', 'доход', 'контракт',
+  'поглощ', 'слиян',
+  'microsoft', 'sony', 'nintendo', 'tencent', 'embracer', 'ubisoft', 'take-two',
+  'electronic arts', 'ea', 'activision', 'blizzard', 'layoff', 'acquisition',
+  'merger', 'revenue', 'earnings', 'market', 'publisher', 'invest', 'lawsuit', 'ipo',
+];
+
+const PC_KEYWORDS = [
+  'пк', 'pc', 'steam', 'windows', 'linux', 'epic games', 'gog', 'мод', 'моды',
+  'модифик', 'патч', 'обновлен', 'драйвер', 'видеокарт', 'процессор', 'ssd', 'hdd',
+  'клавиатур', 'мышь', 'монитор', 'сборка', 'железо', 'бенчмарк', 'fps', 'dlss',
+  'rtx', 'amd', 'intel', 'nvidia', 'steam deck', 'ранний доступ', 'early access',
+];
+
+const UPDATES_KEYWORDS = [
+  'обновлен', 'патч', 'апдейт', 'dlc', 'длс', 'дополнен', 'сезон', 'ивент',
+  'событие', 'версия', 'hotfix', 'update', 'patch', 'expansion', 'season',
+  'event', 'version', 'early access', 'ранний доступ', 'balance', 'фикс',
+  'исправлен', 'release', 'релиз',
+];
+
 /**
  * Источники. id — стабильный ключ, category — вкладка, lang — язык.
  * keywords — необязательный фильтр для общих лент.
@@ -71,24 +109,42 @@ const FEEDS = [
   { id: '3dnews-games', category: 'games', name: '3DNews Игры', lang: 'ru', url: 'https://3dnews.ru/games/rss' },
   { id: 'ign', category: 'games', name: 'IGN', lang: 'en', url: 'https://feeds.ign.com/ign/games-all' },
   { id: 'eurogamer', category: 'games', name: 'Eurogamer', lang: 'en', url: 'https://www.eurogamer.net/feed' },
-  { id: 'pcgamer', category: 'games', name: 'PC Gamer', lang: 'en', url: 'https://www.pcgamer.com/rss/' },
-  { id: 'vgc', category: 'games', name: 'VGC', lang: 'en', url: 'https://www.videogameschronicle.com/feed/' },
   { id: 'ars-gaming', category: 'games', name: 'Ars Technica Gaming', lang: 'en', url: 'https://feeds.arstechnica.com/arstechnica/gaming' },
 
-  // ── Приставки и консоли ───────────────────────────────────────────────
-  { id: 'nintendolife', category: 'hardware', name: 'Nintendo Life', lang: 'en', url: 'https://www.nintendolife.com/feeds/latest' },
-  { id: 'nintendoeverything', category: 'hardware', name: 'Nintendo Everything', lang: 'en', url: 'https://www.nintendoeverything.com/feed/' },
-  { id: 'pushsquare', category: 'hardware', name: 'Push Square', lang: 'en', url: 'https://www.pushsquare.com/feeds/latest' },
-  { id: 'psu', category: 'hardware', name: 'PlayStation Universe', lang: 'en', url: 'https://www.psu.com/feed/' },
-  { id: 'purexbox', category: 'hardware', name: 'Pure Xbox', lang: 'en', url: 'https://www.purexbox.com/feeds/latest' },
-  { id: 'gematsu', category: 'hardware', name: 'Gematsu', lang: 'en', url: 'https://www.gematsu.com/feed' },
-  { id: 'timeextension', category: 'hardware', name: 'Time Extension', lang: 'en', url: 'https://www.timeextension.com/feeds/latest' },
-  { id: 'steamdeckhq', category: 'hardware', name: 'SteamDeckHQ', lang: 'en', url: 'https://steamdeckhq.com/feed/' },
+  // ── Индустрия игр ──────────────────────────────────────────────────────
+  { id: 'gamesindustry', category: 'industry', name: 'GamesIndustry.biz', lang: 'en', url: 'https://www.gamesindustry.biz/feed' },
+  { id: 'vgc', category: 'industry', name: 'VGC', lang: 'en', url: 'https://www.videogameschronicle.com/feed/' },
+  { id: 'playground-industry', category: 'industry', name: 'Playground Индустрия', lang: 'ru', url: 'https://www.playground.ru/rss/news.xml', keywords: INDUSTRY_KEYWORDS },
+
+  // ── Обновления игр ─────────────────────────────────────────────────────
+  { id: 'playground-updates', category: 'updates', name: 'Playground Обновления', lang: 'ru', url: 'https://www.playground.ru/rss/news.xml', keywords: UPDATES_KEYWORDS },
+  { id: 'ps-blog', category: 'updates', name: 'PlayStation Blog', lang: 'en', url: 'https://blog.playstation.com/feed/' },
+  { id: 'xbox-wire', category: 'updates', name: 'Xbox Wire', lang: 'en', url: 'https://news.xbox.com/en-us/feed/' },
+  { id: 'steam-news', category: 'updates', name: 'Steam News', lang: 'en', url: 'https://store.steampowered.com/feeds/news.xml' },
+
+  // ── ПК ─────────────────────────────────────────────────────────────────
+  { id: 'pcgamer', category: 'pc', name: 'PC Gamer', lang: 'en', url: 'https://www.pcgamer.com/rss/' },
+  { id: 'rps', category: 'pc', name: 'Rock Paper Shotgun', lang: 'en', url: 'https://www.rockpapershotgun.com/feed' },
+  { id: 'playground-pc', category: 'pc', name: 'Playground ПК', lang: 'ru', url: 'https://www.playground.ru/rss/news.xml', keywords: PC_KEYWORDS },
+
+  // ── Консоли ────────────────────────────────────────────────────────────
+  { id: 'playground-consoles', category: 'consoles', name: 'Playground Консоли', lang: 'ru', url: 'https://www.playground.ru/rss/news.xml', keywords: CONSOLE_KEYWORDS },
+  { id: 'nintendolife', category: 'consoles', name: 'Nintendo Life', lang: 'en', url: 'https://www.nintendolife.com/feeds/latest' },
+  { id: 'nintendoeverything', category: 'consoles', name: 'Nintendo Everything', lang: 'en', url: 'https://www.nintendoeverything.com/feed/' },
+  { id: 'pushsquare', category: 'consoles', name: 'Push Square', lang: 'en', url: 'https://www.pushsquare.com/feeds/latest' },
+  { id: 'psu', category: 'consoles', name: 'PlayStation Universe', lang: 'en', url: 'https://www.psu.com/feed/' },
+  { id: 'purexbox', category: 'consoles', name: 'Pure Xbox', lang: 'en', url: 'https://www.purexbox.com/feeds/latest' },
+  { id: 'gematsu', category: 'consoles', name: 'Gematsu', lang: 'en', url: 'https://www.gematsu.com/feed' },
+  { id: 'timeextension', category: 'consoles', name: 'Time Extension', lang: 'en', url: 'https://www.timeextension.com/feeds/latest' },
+  { id: 'steamdeckhq', category: 'consoles', name: 'SteamDeckHQ', lang: 'en', url: 'https://steamdeckhq.com/feed/' },
+
+  // ── Железо ─────────────────────────────────────────────────────────────
+  { id: 'playground-hardware', category: 'hardware', name: 'Playground Железо', lang: 'ru', url: 'https://www.playground.ru/rss/news.xml', keywords: PC_HARDWARE_KEYWORDS },
+  { id: '3dnews-hardware', category: 'hardware', name: '3DNews Железо', lang: 'ru', url: 'https://3dnews.ru/news/rss', keywords: PC_HARDWARE_KEYWORDS },
+  { id: 'tomshardware', category: 'hardware', name: "Tom's Hardware", lang: 'en', url: 'https://www.tomshardware.com/feeds/all' },
 
   // ── ИИ-моды, декомпиляции, игры, сделанные нейросетями ────────────────
   { id: '80lv', category: 'aimods', name: '80.lv', lang: 'en', url: 'https://80.lv/feed/', keywords: AI_MODS_KEYWORDS },
-  { id: 'gamesindustry', category: 'aimods', name: 'GamesIndustry.biz', lang: 'en', url: 'https://www.gamesindustry.biz/feed', keywords: AI_MODS_KEYWORDS },
-  { id: 'rps', category: 'aimods', name: 'Rock Paper Shotgun', lang: 'en', url: 'https://www.rockpapershotgun.com/feed', keywords: AI_MODS_KEYWORDS },
   { id: 'gamesradar', category: 'aimods', name: 'GamesRadar+', lang: 'en', url: 'https://www.gamesradar.com/rss/', keywords: AI_MODS_KEYWORDS },
 
   // ── Софт, созданный или разобранный нейросетями ───────────────────────
@@ -129,7 +185,11 @@ const FEEDS = [
 const CATEGORY_TITLES = {
   ai: 'ИИ',
   games: 'Игры',
-  hardware: 'Приставки',
+  pc: 'ПК',
+  consoles: 'Консоли',
+  hardware: 'Железо',
+  industry: 'Индустрия',
+  updates: 'Обновления',
   aimods: 'ИИ-моды',
   aisoft: 'ИИ-софт',
   cars: 'Авто',
@@ -830,27 +890,31 @@ async function main() {
   // addedAt — когда материал впервые появился на агрегаторе; он не меняется
   // при повторных запусках, поэтому сортировка и срок хранения стабильны.
   const previousGeneratedAt = previous?.generatedAt || fetchedAt;
-  const currentSourceIds = new Set(FEEDS.map((feed) => feed.id));
+  const sourceCategories = new Map(FEEDS.map((feed) => [feed.id, feed.category]));
+  const currentSourceIds = new Set(sourceCategories.keys());
   const pool = new Map();
 
   for (const item of previous?.items || []) {
     // Источник могли убрать из конфига — его старые материалы тоже убираем.
     if (!item?.id || !currentSourceIds.has(item.sourceId)) continue;
-    pool.set(item.id, { ...item, addedAt: item.addedAt || previousGeneratedAt });
+    const category = sourceCategories.get(item.sourceId) || item.category;
+    pool.set(item.id, { ...item, category, addedAt: item.addedAt || previousGeneratedAt });
   }
 
   for (const item of allItems) {
     if (!item?.id) continue;
 
+    const category = sourceCategories.get(item.sourceId) || item.category;
     const existing = pool.get(item.id);
     if (existing) {
       pool.set(item.id, {
         ...existing,
         ...item,
+        category,
         addedAt: existing.addedAt || item.addedAt || fetchedAt,
       });
     } else {
-      pool.set(item.id, { ...item, addedAt: item.addedAt || fetchedAt });
+      pool.set(item.id, { ...item, category, addedAt: item.addedAt || fetchedAt });
     }
   }
 
