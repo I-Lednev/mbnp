@@ -2699,6 +2699,24 @@ button:disabled {
   .tab-saved svg {
     display: none;
   }
+
+  .brand-text strong {
+    font-size: 13px;
+  }
+
+  .brand-mark {
+    width: 33px;
+    height: 33px;
+  }
+
+  .topbar-actions {
+    gap: 6px;
+  }
+
+  .icon-btn {
+    width: 32px;
+    height: 32px;
+  }
 }
 
 @media (prefers-reduced-motion: reduce) {
