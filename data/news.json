@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T06:47:09.786Z",
-  "tookMs": 11477,
+  "generatedAt": "2026-11-07T06:50:25.582Z",
+  "tookMs": 10925,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -25,7 +25,7 @@
   },
   "counts": {
     "ai": 82,
-    "games": 77,
+    "games": 78,
     "announces": 25,
     "mobile": 13,
     "releases": 32,
@@ -33,7 +33,7 @@
     "software": 39,
     "science": 45,
     "entertainment": 69,
-    "ports": 39,
+    "ports": 41,
     "pc": 30,
     "consoles": 91,
     "hardware": 29,
@@ -41,9 +41,9 @@
     "updates": 24,
     "aimods": 2,
     "aisoft": 45,
-    "cars": 81,
+    "cars": 82,
     "war": 69,
-    "total": 848
+    "total": 852
   },
   "sourceCount": 98,
   "sources": [
@@ -753,6 +753,72 @@
     }
   ],
   "items": [
+    {
+      "id": "gh-1438394948",
+      "title": "valentderah/totk-pc-recomp: Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
+      "url": "https://github.com/valentderah/totk-pc-recomp",
+      "excerpt": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
+      "image": "",
+      "publishedAt": "2026-11-07T06:48:48Z",
+      "addedAt": "2026-11-07T06:50:19.174Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1330183186",
+      "title": "Jstar269/Nakagawa-Recomp: Play PSP games you own as native Windows programs. A static recompiler: add your own disc, build, play. No game data included.",
+      "url": "https://github.com/Jstar269/Nakagawa-Recomp",
+      "excerpt": "Play PSP games you own as native Windows programs. A static recompiler: add your own disc, build, play. No game data included.",
+      "image": "",
+      "publishedAt": "2026-11-07T06:48:18Z",
+      "addedAt": "2026-11-07T06:50:19.174Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "1qc4t0t",
+      "title": "Ноябрьские игровые релизы грозят опустошить офисы — сотрудники массово берут выходные",
+      "url": "https://3dnews.ru/1150991/noyabrskie-igrovie-relizi-grozyat-opustoshit-ofisi-sotrudniki-massovo-berut-vihodnie",
+      "excerpt": "Ноябрь 2026 года оказался богат на долгожданные игровые релизы, вызывающие прилив ностальгии. На этой неделе вышли World of Warcraft: Forever и ремейк The Legend of Zelda: Ocarina of Time. До выпуска Grand Theft Auto VI, назначенного на 19 ноября после 13 лет…",
+      "content": "Ноябрь 2026 года оказался богат на долгожданные игровые релизы, вызывающие прилив ностальгии. На этой неделе вышли World of Warcraft: Forever и ремейк The Legend of Zelda: Ocarina of Time. До выпуска Grand Theft Auto VI, назначенного на 19 ноября после 13 лет ожидания, осталось меньше двух недель. Такое стечение обстоятельств создаёт сложности для работодателей: многие игроки одновременно просят отпуска и выходные.",
+      "image": "https://cdn.3dnews.ru/assets/external/illustrations/2026/11/07/1150991/gta-vi.jpg",
+      "images": [
+        {
+          "url": "https://cdn.3dnews.ru/assets/external/illustrations/2026/11/07/1150991/gta-vi.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T06:47:00.000Z",
+      "sourceId": "3dnews-games",
+      "source": "3DNews Игры",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-07T06:50:14.657Z"
+    },
+    {
+      "id": "4abjmg",
+      "title": "BMW сравнил дизайн Toyota Corolla 1991 года с новым X5 и вызвал волну насмешек",
+      "url": "https://www.zr.ru/content/news/988016-bmw-reshila-pokhvastatsya-dizajn/",
+      "excerpt": "BMW сравнила новый X5 с Toyota Corolla 1991 года — юзеры выбрали японскую модель",
+      "content": "BMW сравнила новый X5 с Toyota Corolla 1991 года — юзеры выбрали японскую модель",
+      "image": "https://www.zr.ru/_ah/img/1fxgw3ScdXr28dom5izTDQ",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/1fxgw3ScdXr28dom5izTDQ",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T06:45:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-07T06:50:14.657Z"
+    },
     {
       "id": "2fsw6t",
       "title": "На фронті за добу відбулося 190 боєзіткнень, найбільше - на Костянтинівському напрямку",
