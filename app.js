@@ -52,6 +52,9 @@ const state = {
   articles: new Map(),
   articlesLoaded: false,
   articlesLoading: false,
+  summaries: new Map(),
+  summariesLoaded: false,
+  summariesLoading: false,
   digestIndex: null,
   digestIndexLoading: false,
   digestWeek: null,
@@ -74,6 +77,7 @@ const els = {
   emptyText: document.getElementById('emptyText'),
   emptyActionBtn: document.getElementById('emptyActionBtn'),
   status: document.getElementById('status'),
+  lastUpdate: document.getElementById('lastUpdate'),
   generated: document.getElementById('generated'),
   search: document.getElementById('searchInput'),
   sourceSelect: document.getElementById('sourceSelect'),
@@ -194,6 +198,8 @@ async function loadData({ silent = false } = {}) {
     state.articlesLoaded = false;
     render();
 
+    loadSummaries({ force: state.summariesLoaded });
+
     if (state.translation === 'ru') {
       loadTranslations({ force: state.translationsLoaded });
     }
@@ -265,6 +271,25 @@ async function loadArticles() {
   }
 }
 
+async function loadSummaries({ force = false } = {}) {
+  if (state.summariesLoading || (state.summariesLoaded && !force)) return;
+
+  state.summariesLoading = true;
+
+  try {
+    const data = await fetchJson(`data/summaries.json?ts=${Date.now()}`);
+    const entries = data?.categories && typeof data.categories === 'object' ? data.categories : {};
+    state.summaries = new Map(Object.entries(entries));
+    state.summariesLoaded = true;
+  } catch (error) {
+    console.warn('Выжимки пока недоступны:', error);
+    state.summariesLoaded = true;
+  } finally {
+    state.summariesLoading = false;
+    if (state.data) render();
+  }
+}
+
 /* ── Отрисовка ────────────────────────────────────────────────────────── */
 
 function render() {
@@ -281,7 +306,8 @@ function render() {
   els.resetBtn.hidden = !hasActiveFilters();
   els.warNote.hidden = state.category !== 'war';
 
-  els.grid.innerHTML = items.slice(0, state.visible).map(cardHtml).join('');
+  const summary = summaryHtml();
+  els.grid.innerHTML = summary + items.slice(0, state.visible).map(cardHtml).join('');
   wireImages();
 
   els.empty.hidden = items.length !== 0;
@@ -296,6 +322,7 @@ function render() {
 
   setStatus(statusText(items, shown));
   renderGenerated();
+  renderLastUpdate();
 
   if (els.sourcesDialog.open) renderSourceList();
   if (els.readerDialog.open) renderReader();
@@ -630,6 +657,70 @@ function renderGenerated() {
 
   els.generated.textContent = parts.join(' · ');
   els.generated.title = errors.map((error) => `${error.source}: ${error.error}`).join('\n');
+}
+
+function renderLastUpdate() {
+  if (!els.lastUpdate) return;
+
+  const ts = state.data?.generatedAt;
+  if (!ts) {
+    els.lastUpdate.hidden = true;
+    return;
+  }
+
+  const date = new Date(ts);
+  if (Number.isNaN(date.getTime())) {
+    els.lastUpdate.hidden = true;
+    return;
+  }
+
+  els.lastUpdate.hidden = false;
+  els.lastUpdate.textContent = `Последнее обновление: ${formatDateTime(ts)}`;
+  els.lastUpdate.title = `Новости собираются автоматически. Последний сбор: ${formatDateTime(ts)} (${timeAgo(ts)})`;
+}
+
+function summaryHtml() {
+  if (state.category === 'saved') return '';
+  if (state.category === 'digest') return '';
+  if (state.source !== 'all') return '';
+  if (state.query) return '';
+
+  const key = state.category === 'all' ? 'all' : state.category;
+  const summary = state.summaries.get(key);
+  if (!summary?.text) return '';
+
+  const count = Number(summary.count) || 0;
+  const sources = Number(summary.sourceCount) || 0;
+  const meta = [
+    count ? `${count} ${plural(count, 'материал', 'материала', 'материалов')}` : '',
+    sources ? `${sources} ${plural(sources, 'источник', 'источника', 'источников')}` : '',
+  ]
+    .filter(Boolean)
+    .join(' · ');
+
+  const bullets = (Array.isArray(summary.bullets) ? summary.bullets : [])
+    .filter((bullet) => bullet?.title)
+    .slice(0, 3)
+    .map((bullet) => {
+      const href = safeUrl(bullet.url);
+      const title = esc(bullet.title);
+      const link = href
+        ? `<a href="${esc(href)}" target="_blank" rel="noopener noreferrer">${title}</a>`
+        : `<span>${title}</span>`;
+      return `<li>${link}<span class="summary-source">${esc(bullet.source || '')}</span></li>`;
+    })
+    .join('');
+
+  return `
+    <article class="summary-card" aria-label="Кратко за сутки">
+      <div class="summary-top">
+        <span class="summary-kicker">Кратко за сутки</span>
+        ${meta ? `<span class="summary-meta">${meta}</span>` : ''}
+      </div>
+      <p class="summary-text">${esc(summary.text)}</p>
+      ${bullets ? `<ul class="summary-list">${bullets}</ul>` : ''}
+    </article>
+  `;
 }
 
 function setStatus(text, mode) {
