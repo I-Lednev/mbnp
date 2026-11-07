@@ -344,6 +344,7 @@ async function main() {
       label: category.label,
       text,
       bullets: ranked.slice(0, 3).map((item) => ({
+        id: item.id,
         title: trim(item.title, 120),
         source: item.source,
         url: item.url,
