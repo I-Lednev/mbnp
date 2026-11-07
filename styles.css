@@ -255,6 +255,23 @@ button:disabled {
   gap: 8px;
 }
 
+.layout-btn {
+  display: none;
+}
+
+.layout-btn .layout-icon {
+  width: 19px;
+  height: 19px;
+}
+
+.layout-btn[aria-pressed="false"] .layout-icon-large {
+  display: none;
+}
+
+.layout-btn[aria-pressed="true"] .layout-icon-compact {
+  display: none;
+}
+
 .icon-btn {
   display: inline-flex;
   align-items: center;
@@ -2539,6 +2556,93 @@ button:disabled {
     flex-direction: column;
     align-items: flex-start;
     gap: 6px;
+  }
+
+  .layout-btn {
+    display: inline-flex;
+  }
+
+  .grid.is-compact {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 10px;
+  }
+
+  .grid.is-compact .card-media {
+    aspect-ratio: 16 / 10;
+  }
+
+  .grid.is-compact .card-body {
+    padding: 9px 10px 10px;
+  }
+
+  .grid.is-compact .card-meta {
+    gap: 4px;
+    font-size: 9.5px;
+  }
+
+  .grid.is-compact .read-badge {
+    display: none;
+  }
+
+  .grid.is-compact .card-dates {
+    grid-template-columns: 1fr;
+    gap: 4px;
+    margin-top: 7px;
+  }
+
+  .grid.is-compact .card-date {
+    padding: 4px 6px;
+  }
+
+  .grid.is-compact .card-date-label {
+    font-size: 7.5px;
+  }
+
+  .grid.is-compact .card-date time {
+    font-size: 9.5px;
+  }
+
+  .grid.is-compact .card-title {
+    margin-top: 6px;
+    font-size: 13px;
+    line-height: 1.3;
+    -webkit-line-clamp: 3;
+  }
+
+  .grid.is-compact .card-excerpt {
+    display: none;
+  }
+
+  .grid.is-compact .card-actions {
+    gap: 6px;
+    margin-top: 8px;
+    padding-top: 8px;
+  }
+
+  .grid.is-compact .read-link {
+    font-size: 11px;
+  }
+
+  .grid.is-compact .card-lang {
+    font-size: 9px;
+  }
+
+  .grid.is-compact .card-badge {
+    padding: 3px 6px;
+    font-size: 8.5px;
+  }
+
+  .grid.is-compact .bookmark-btn {
+    top: 6px;
+    right: 6px;
+    width: 28px;
+    height: 28px;
+    font-size: 14px;
+  }
+
+  .grid.is-compact .media-fallback span {
+    font-size: 17px;
+    letter-spacing: 0.12em;
   }
 }
 
