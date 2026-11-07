@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T06:53:25.941Z",
-  "count": 685,
+  "generatedAt": "2026-11-07T07:10:16.347Z",
+  "count": 690,
   "articles": {
     "1py56g3": {
       "version": 4,
@@ -17335,6 +17335,130 @@
         }
       ],
       "length": 2115,
+      "imageCount": 2
+    },
+    "78pu6g": {
+      "version": 4,
+      "url": "https://www.zr.ru/content/articles/988150-na-rossijskij-rynok-vyshel-novy/",
+      "fetchedAt": "2026-11-07T07:10:15.483Z",
+      "title": "Новый кроссовер вышел на рынок РФ — подробности",
+      "byline": "Милешкин Кирилл",
+      "siteName": "zr.ru",
+      "content": "Китайская марка Deepal вывела на российский рынок флагманскую модель S09.Deepal S09 Габариты внушительны: длина – 5205 мм, ширина – 1996 мм, высота – 1800 мм. Экстерьер с головной монофарой намекает, что дизайнеры ориентировались на успешные кроссоверы Li.Deepal S09 оценили в 6,6 млн рублей за пятиместное исполнение. Также предлагается шестиместная модификация с тремя рядами сидений, за нее просят от 6,74 млн рублей.Deepal S09Салон удивляет отсутствием щитка приборов: все данные выводятся на ветровое стекло. Впрочем, такой подход уже знаком по более компактному Дипалу S05. А двойной экран справа от руля давно применяют Li и их многочисленные подражатели.Интерьер Deepal S09Медиасистема поддерживает протоколы Android Auto и Apple CarPlay, есть встроенные сервисы Яндекса.В богатой комплектации Техно пред­усмотрены холодильник в подлокотнике между передними сиденьями, откидывающийся из потолка экран для задних пассажиров, электрорегулировки сидений второго ряда, пневматическая подвеска.Интерьер Deepal S09Силовая установка – последовательный подключаемый гибрид. Бензиновый турбомотор 1.5 с колесами не связан, он работает на зарядку тягового аккумулятора емкостью 40,2 кВт·ч. Пиковая отдача двух электромоторов составляет 492 л. с. Заявленный разгон до сотни – 5,9 с, запас хода – 1006 км. Подробности зимних тестов автомобилей Deepal опубликованы тут. НОМИНАНТ ГРАН-ПРИАвтомобиль из этой публикации может выиграть самую престижную автомобильную премию России – ГРАН-ПРИ «ЗА РУЛЕМ», если вы ПРОГОЛОСУЕТЕ за него. Голосование проходит с 1 по 30 ноября 2026 г. «За рулем» можно читать и в MAX",
+      "images": [
+        {
+          "url": "https://www.zr.ru/d/story/f6/988150/nominant.jpg",
+          "alt": ""
+        }
+      ],
+      "length": 1602,
+      "imageCount": 1
+    },
+    "gh-1449115225": {
+      "version": 4,
+      "url": "https://github.com/EstebanPdN/mutiny-3ds",
+      "fetchedAt": "2026-11-07T07:10:15.652Z",
+      "title": "GitHub - EstebanPdN/mutiny-3ds: Native Nintendo 3DS port of Nitrome's Mutiny, with a two-screen touch interface.",
+      "byline": "",
+      "siteName": "GitHub",
+      "content": "Pirates, cannons and a very angry seagull.\nNitrome's turn-based pirate artillery game, rebuilt natively for two Nintendo 3DS screens.\n\nDownload ·\nFeatures ·\nDocumentation ·\nContribute ·\nCredits\n\nNative Nintendo 3DS port of Mutiny, the 2008 Flash game by\nNitrome. The original ActionScript 2 game logic was rewritten in C, and the Flash\nanimations play back through a small MovieClip runtime written for this port. The top screen\nshows the game. The bottom screen is a new touch interface drawn in pixel art.\nThis project was developed with the help of Claude Code. Learn more about the development process here.\nMutiny and all of its artwork, animation, music, sound, text and level design are © Nitrome.\nThis is an unofficial fan port. It is not affiliated with or endorsed by Nitrome.\nFeatures\n\nMade for two screensThe game on top. Team health, a live minimap and the turn's controls on the touch screen below.\nThe whole gameAll 15 story levels, all 18 two-player battle maps and all 15 weapons, from cherry bombs to the tidal wave.\n\nThrow with the stylusTouch, pull back and let go. Slide across pirates and weapons to preview them, and drag the minimap to look around.\nFaithful to the originalOriginal animations, masks, sounds and music at the game's own 25 frames per second, drawn pixel-perfect.\n\nFeature details\n\nStory mode against the computer, with the original dialogue, scores and the end-of-game screen.\nTwo players on one console, taking turns on 18 battle maps. Treasure chests in two-player\ngames hold 1 to 5 different random weapons, with 1 to 10 of each. They never give a weapon that\nis already infinite for that pirate.\nBottom-screen interface: choose a pirate, pick a weapon, aim, place crates, barrels and\nanchors on the minimap, steer the parachute bomb, fire the cannon or send the tidal wave.\nTest match: press START + SELECT together, in a menu or during a game, to start a\ntwo-player battle where every pirate carries 5 of every weapon.\nNitrome's original intro on start-up, a two-screen pause window with match information, and\nlocal best scores.\n\nDownload and installation\n\nStable: v1.0. Requires a\nNintendo 3DS family console with custom firmware (Luma3DS).\n\nInstall the CIA with FBI. Scan the QR code from the\nrelease page with\nRemote Install → Scan QR Code, or copy the file to your SD card.\nOr copy the 3DSX to sdmc:/3ds/ and start it from the Homebrew Launcher.\nStart Mutiny from the HOME Menu. Progress and settings are saved to\nsdmc:/3ds/mutiny/mutiny.sav.\n\nThe application is self-contained: it needs no other files.\nAudio\nAudio requires a dumped DSP firmware. If you hear no sound, open the Luma3DS Rosalina menu and use:\nMiscellaneous options > Dump DSP firmware\n\nControls\n\nInput\nAction\n\nTouch screen\nEverything: pirates, weapons, aiming, buttons and the minimap.\n\nD-Pad / Circle Pad\nMove the camera, or the placement cursor.\n\nA\nConfirm, or use the current action.\n\nB\nBack.\n\nL / R\nPrevious / next pirate.\n\nY\nSlow placement cursor; switch the cannon between moving and aiming.\n\nSTART\nPause.\n\nSTART + SELECT\nStart the all-weapons test match.\n\nDocumentation\n\nGuide\nPurpose\n\nArchitecture\nHow the port is built: data pipeline, MovieClip runtime, game logic and platforms.\n\nSource map\nWhat every source file and tool does.\n\nDevelopment\nExtract the game data, build for macOS and 3DS, and run scripted tests.\n\nContributing\nHow to report bugs and propose changes.\n\nChangelog\nChanges in each release.\n\nBuild from source\nYou need your own copy of Mutiny.swf. The repository contains no Nitrome content: the build\nextracts and converts it locally. You also need devkitPro (devkitARM, libctru, citro2d,\ncitro3d, bannertool, makerom), Java for JPEXS, Python 3 with Pillow and NumPy, FFmpeg, and\nCMake with SDL3 for the macOS build.\ntools/extract.sh path/to/Mutiny.swf\ntools/.venv/bin/python -I tools/gen_ui.py build/extract assets/ui\ntools/.venv/bin/python -I tools/gen_lines.py build/extract src/game/lines.h\ntools/.venv/bin/python -I tools/gen_3ds_meta.py\ntools/build_3ds.sh # build/3ds/mutiny.3dsx and mutiny.cia\nSee the development guide for the full setup.\n\nCredits\nMutiny © 2008 Nitrome. Credits from the original game:\n\nProgramming: Chris Burt-Brown, Heather Stancliffe\nArtwork: Jon Annal, Mat Annal\nMusic: Dave Cowen\n\nPort:\n\nEsteban PDN: Nintendo 3DS and macOS port, two-screen interface and pixel art, release maintenance\n\nTools and libraries:\n\ndevkitPro: devkitARM, libctru, citro2d and citro3d\nJPEXS Free Flash Decompiler: SWF extraction (build-time tool only)\nSDL3: macOS development build\nzlib: game data compression\nbannertool and makerom (Project_CTR): CIA packaging\nAzahar: emulator testing\n\nSee THIRD-PARTY-LICENSES for licenses and notices.\nLicense and legal notice\nThe original port source code is distributed under GNU GPL v3.0 or later. See LICENSE.\nThe game content belongs to Nitrome and is not covered by that license. This repository\ncontains no Nitrome files: no SWF, extracted graphics, sound or text. The release builds contain\nthe game data converted from the original SWF, for personal use. If Nitrome asks for any of it to\nbe removed, it will be removed.",
+      "images": [
+        {
+          "url": "https://github.com/EstebanPdN/mutiny-3ds/raw/main/docs/images/hero-rounded.png",
+          "alt": "Mutiny 3DS: title screen, aiming a throw and the weapon grid, each with the game on the top screen and the touch interface below"
+        },
+        {
+          "url": "https://github.com/EstebanPdN/mutiny-3ds/raw/main/docs/images/screens/result.png",
+          "alt": "Level complete window on the top screen with next level and back to menu buttons below"
+        },
+        {
+          "url": "https://github.com/EstebanPdN/mutiny-3ds/raw/main/docs/images/screens/poop.png",
+          "alt": "A seagull flying over the level with the poop button on the touch screen"
+        }
+      ],
+      "length": 5111,
+      "imageCount": 3
+    },
+    "1qdec29": {
+      "version": 4,
+      "url": "https://habr.com/ru/companies/haulmont/articles/1102934/",
+      "fetchedAt": "2026-11-07T07:10:15.768Z",
+      "title": "Сегодня Claude, завтра Codex: обновления мультиагентной OpenIDE",
+      "byline": "honest_nicemanтолько что",
+      "siteName": "Habr",
+      "content": "Уровень сложностиПростойВремя на прочтение5 минОхват и читатели1ОбзорЧто делать, если завтра Anthropic или OpenAI заблокируют аккаунт? Или просто захочется перейти на другого агента, потому что для вашей задачи он подходит лучше? Не хочется каждый раз заново собирать рабочее место и привыкать к очередным изменениям в UI/UX.Мне нравится идея, что агента можно выбирать так же спокойно, как любой другой инструмент разработки. Сегодня работаешь с Claude, завтра подключаешь Codex, потом пробуешь OpenCode с локальной моделью. Работа с кодом, Git, тестам, дебагерром, базами данных и так далее остаются там, где были.А когда несколько агентов уже находятся в одном месте, возникает следующий вопрос: почему обязательно выбирать кого-то одного? Можно же попросить одного написать код, а другого проверить.Вокруг этих сценариев мы и развиваем Meta Harness OpenIDE. В крайнем обновлении появились треды, обращения к агентам через @ и сохранённые наборы агента и модели. Кому лень читать, есть короткий ролик про все новые возможности:Сначала хотелось просто менять агентаЕсли вы ещё не знакомы с OpenIDE, это мультиязычная среда разработки с поддержкой 10+ языков программирования. Поддержка модных AI-веяний позволяет интегрировать прямо в IDE Claude Code, Codex, OpenCode, Cursor, Gemini CLI, российские инструменты и ещё больше десятка других агентов. В каталоге можно выбрать агента, установить его и настроить доступ. Можно добавить и своего ACP-совместимого агента. Кто-то работает с облачной подпиской, кто-то подключает через OpenCode локальную или корпоративную модель.В общем, количество изменений в способе взаимодействия при смене агента стремится к нулю.А потом захотелось позвать второго (групповушка)Возьмём простой пример: приложение «Тайный Санта» для офисной жеребьёвки подарков. Есть список коллег и исключения, чтобы, например, муж с женой не дарили подарки друг другу. Они и без нашего приложения разберутся.Допустим, Claude добавил исключения и написал, что всё готово. Перед тем как отправлять ссылку коллегам, хочется проверить несколько вещей. Может ли человек вытянуть сам себя? Что будет, если допустимых комбинаций вообще нет? Не зависнет ли жеребьёвка?Можно открыть другой чат, пересказать задачу, перенести туда историю, получить замечания и принести их обратно. Но это так тупо. Почему нельзя всё это сделать в текущем чате? Теперь можно:Codex получает историю чата и отвечает в отдельной ветке справа. Там можно разобрать его замечания и задать уточнения. Основной разговор с Claude при этом не пополняется всей побочной перепиской.Когда результат проверки вас устраивает, нажимаете «Слить». Claude получает ответ из ветки, и можно продолжить исправления уже с этим контекстом. Для автоматического возврата результата есть «Авто-мерж».Тред можно открыть и с тем же агентом через /thread: например, отдельно обсудить другой алгоритм, не уводя основной разговор в сторону. Ветки сохраняются после перезапуска IDE; их можно подытожить, отметить решёнными или превратить в отдельные чаты.Для ревью у меня есть @reviewerКогда работаешь с несколькими агентами, постепенно появляются привычные сочетания. Для одной задачи выбираешь одного агента, для другой другого. Для ревью хочется конкретную модель и высокий effort, для короткого вопроса можно обойтись другим набором.Каждый раз переключать всё руками довольно быстро надоедает. Поэтому в OpenIDE можно сохранить комбинацию агента, модели и effort под своим именем. Например, @reviewer.Это имя запоминает выбранную конфигурацию. Нажимаете звёздочку в поле ввода, сохраняете текущий набор и дальше пишете @reviewer проверь изменения. Собственный набор можно задать и в настройках агента.Работают и обращения вроде @codex, @claude, @opus или @sonnet. Несколько имён в одном сообщении позволяют раздать поручения нескольким агентам сразу. Так выбор помощника и его конфигурации становится частью самого запроса.Вопрос к коду хочется задать около кодаВернёмся к жеребьёвке. Даже если тесты проходят, хочется самому понять, как работает исправленный алгоритм. Потому что однажды объяснять всё это придётся человеку. Возможно, себе через месяц.В прошлой версии OpenIDE можно было оставить комментарий к коду и отправить его в чат. Теперь выделяете фрагмент, выбираете «Спросить AI…» и пишете: «Объясни на пальцах, почему теперь никто не вытянет сам себя».Ответ появляется карточкой прямо под кодом. Там же можно продолжить разговор, обратиться к Codex через @ или вернуть обсуждение в основной чат. Если код успел измениться после вопроса, карточка это отметит, а агент получит обе версии.Для небольшого уточнения теперь достаточно остаться в том месте, где оно возникло.Агенту можно оставить задачу на ночьПосле проверки алгоритма хочется прогнать жеребьёвку десять тысяч раз, проверить исключения и дописать тесты. Это вполне можно поручить агенту ночью.Для таких сценариев мы добавили отложенную отправку. Правый клик по кнопке отправки или меню поля ввода, «Отправить позже», нужное время. Например, три часа ночи. Сообщение останется в очереди над полем ввода и в AI Explorer, а в назначенное время отправится агенту.В командах с локально развёрнутыми моделями так можно перенести часть нагрузки на часы, когда ими пользуется меньше людей. Компьютер при этом должен оставаться включённым, а OpenIDE открытой.А если задача остановилась из-за лимита, не обязательно сразу искать другого агента. Иногда достаточно дождаться сброса. Только сидеть рядом с таймером и нажимать «Продолжай» вручную тоже не хочется.Теперь вместо ошибки OpenIDE показывает карточку: какой лимит исчерпан и когда он сбросится. Через минуту после сброса OpenIDE сама повторит запрос, и агент продолжит работу в той же сессии. Повтор можно отменить. Новое сообщение, написанное до сброса, тоже дождётся своего времени в очереди.Одна IDE под всю эту историюВсё про что я вам рассказал, доступно в OpenIDE Pro. В одной среде собраны поддержка Java и Kotlin, Go, C#, Ruby, JavaScript и TypeScript, Python и PHP. Прямо в IDE также встроены DB-клиент, HTTP-клиент, Git, интеграция с Docker и отладчики.В следующем релизе планируем добавить отслеживание изменений файлов на каждом из шагов работы агента, улучшить дерево AI Explorer и сделать интеграцию с Telegram. Если ещё не пробовали, скачивайте OpenIDE Pro: два месяца всех возможностей бесплатно, без регистрации.",
+      "images": [
+        {
+          "url": "https://habrastorage.org/r/w1560/extt/92/a5/7a/92a57a925b7e305482e42b7e0c423def.png",
+          "alt": ""
+        },
+        {
+          "url": "https://habrastorage.org/extt/b6/d4/7f/b6d47f8812898b528b11ee2cef28e383.gif",
+          "alt": ""
+        },
+        {
+          "url": "https://habrastorage.org/r/w1560/extt/2b/18/79/2b187991f4d79e377efae2d27b42f489.png",
+          "alt": ""
+        },
+        {
+          "url": "https://habrastorage.org/r/w1560/extt/59/d5/b1/59d5b1d9dd57cb4e5cec5aaba702c828.png",
+          "alt": ""
+        },
+        {
+          "url": "https://habrastorage.org/r/w1560/extt/b6/c6/97/b6c697133c55847fb7a08791a4806494.png",
+          "alt": ""
+        },
+        {
+          "url": "https://habrastorage.org/extt/7d/29/51/7d2951fa124bb5af5471a09813257dce.gif",
+          "alt": ""
+        },
+        {
+          "url": "https://habrastorage.org/r/w1560/extt/8e/c9/49/8ec949782204fd2586d4b54668543fce.png",
+          "alt": ""
+        },
+        {
+          "url": "https://habrastorage.org/r/w1560/extt/67/76/b0/6776b07164f0f758e86c3b35ea581f12.png",
+          "alt": ""
+        },
+        {
+          "url": "https://habrastorage.org/r/w1560/extt/d9/f7/ae/d9f7ae0fca2ad5fb2d1f9928122c8120.png",
+          "alt": ""
+        }
+      ],
+      "length": 6309,
+      "imageCount": 9
+    },
+    "g1fd8t": {
+      "version": 4,
+      "url": "https://meduza.io/news/2026/11/07/rossiya-atakovala-severnyy-most-v-kieve-v-gorode-pereboi-so-svetom-teplom-i-vodoy",
+      "fetchedAt": "2026-11-07T07:10:15.892Z",
+      "title": "Россия атаковала Северный мост в Киеве. В городе перебои со светом, теплом и водой",
+      "byline": "Meduza",
+      "siteName": "Meduza",
+      "content": "В Киеве пять человек пострадали в результате ночной российской атаки, среди них 14-летний ребенок. Глава города Виталий Кличко сообщил, что Россия била баллистическими ракетами по объектам инфраструктуры. Под удар попал Северный мост через Днепр, движение по нему перекрыто. По словам Кличко, повреждены дорожное полотно, трамвайная линия и линия электропередачи. Под удар попали также пять грузовиков, припаркованные возле моста.Повреждения получили также объекты энергетики в Киевской и Житомирской областях, в Киеве «чрезвычайно сложная ситуация» с энергоснабжением, нарушена работа систем подачи тепла и воды, сообщил Кличко. Под удар попали также несколько жилых домов и детский сад, сообщает ГСЧС Украины.Полностью обесточен после ночной атаки Чернигов, сообщил телеграм-канал местного городского совета. В городе остановился электрический общественный транспорт.Российские войска начали активно наносить удары по мостам через Днепр в Киеве в октябре 2026 года.",
+      "images": [],
+      "length": 967,
+      "imageCount": 0
+    },
+    "12057kl": {
+      "version": 4,
+      "url": "https://www.igromania.ru/news/169786/spasibo-vam-world-of-warcraft-forever-pokazala-samyij-masshtabnyij-zapusk-v-istorii-wow/",
+      "fetchedAt": "2026-11-07T07:10:16.226Z",
+      "title": "«Спасибо вам» — World of Warcraft: Forever показала самый масштабный запуск в истории WoW",
+      "byline": "Екатерина Кравецкая",
+      "siteName": "igromania.ru",
+      "content": "Blizzard Entertainment благодарит фанатов WoW за то, что те помогли World of Warcraft: Forever войти в историю серии. У новинки два достижения:\n\nсамый масштабный запуск в истории WoW по пиковому онлайну (самое большое количество одновременно играющих пользователей);\nрекордное число вернувшихся игроков за всю историю WoW.\n\nИсточник: Blizzard EntertainmentWorld of Warcraft: Forever доступна с 4 ноября, стартовав с восторженными отзывами геймеров. Все новинки «вечной классики» представлены в большом обзорном видео.",
+      "images": [
+        {
+          "url": "https://newcdn.igromania.ru/sharepics/2026/11/07/70a02308-008a-4f64-ae04-f0e412171c3b.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://newcdn.igromania.ru/editor/images/91/f79b8fa3-9d7f-4d91-bc8a-bc4eb45fc8cc.png",
+          "alt": "Источник: Blizzard Entertainment"
+        }
+      ],
+      "length": 517,
       "imageCount": 2
     }
   }

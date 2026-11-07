@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T06:57:26.772Z",
-  "tookMs": 8550,
+  "generatedAt": "2026-11-07T07:10:14.460Z",
+  "tookMs": 9926,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -24,8 +24,8 @@
     "war": "Война"
   },
   "counts": {
-    "ai": 82,
-    "games": 78,
+    "ai": 83,
+    "games": 79,
     "announces": 25,
     "mobile": 13,
     "releases": 32,
@@ -33,7 +33,7 @@
     "software": 39,
     "science": 45,
     "entertainment": 69,
-    "ports": 41,
+    "ports": 42,
     "pc": 30,
     "consoles": 92,
     "hardware": 29,
@@ -41,9 +41,9 @@
     "updates": 24,
     "aimods": 2,
     "aisoft": 45,
-    "cars": 82,
-    "war": 69,
-    "total": 853
+    "cars": 83,
+    "war": 70,
+    "total": 858
   },
   "sourceCount": 98,
   "sources": [
@@ -754,6 +754,99 @@
   ],
   "items": [
     {
+      "id": "gh-1449115225",
+      "title": "EstebanPdN/mutiny-3ds: Native Nintendo 3DS port of Nitrome's Mutiny, with a two-screen touch interface.",
+      "url": "https://github.com/EstebanPdN/mutiny-3ds",
+      "excerpt": "Native Nintendo 3DS port of Nitrome's Mutiny, with a two-screen touch interface.",
+      "image": "",
+      "publishedAt": "2026-11-07T07:03:25Z",
+      "addedAt": "2026-11-07T07:10:08.523Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "1qdec29",
+      "title": "Сегодня Claude, завтра Codex: обновления мультиагентной OpenIDE",
+      "url": "https://habr.com/ru/companies/haulmont/articles/1102934/",
+      "excerpt": "Что делать, если завтра Anthropic или OpenAI заблокируют аккаунт? Или просто захочется перейти на другого агента, потому что для вашей задачи он подходит лучше? Не хочется каждый раз заново собирать рабочее место и привыкать к очередным изменениям в UI/UX…",
+      "content": "Что делать, если завтра Anthropic или OpenAI заблокируют аккаунт? Или просто захочется перейти на другого агента, потому что для вашей задачи он подходит лучше? Не хочется каждый раз заново собирать рабочее место и привыкать к очередным изменениям в UI/UX.\n\nМне нравится идея, что агента можно выбирать так же спокойно, как любой другой инструмент разработки. Сегодня работаешь с Claude, завтра подключаешь Codex, потом пробуешь OpenCode с локальной моделью. Работа с кодом, Git, тестам, дебагерром, базами данных и так далее остаются там, где были.\n\nА когда несколько агентов уже находятся в одном месте, возникает следующий вопрос: почему обязательно выбирать кого-то одного? Можно же попросить одного написать код, а другого проверить.\n\nВокруг этих сценариев мы и развиваем Meta Harness OpenIDE . В крайнем обновлении появились треды, обращения к агентам через @ и сохранённые наборы агента и модели.\n\nЧитать далее",
+      "image": "https://habrastorage.org/extt/28/a8/88/28a8883299856fd552b2902813e2cc58.jpg",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/28/a8/88/28a8883299856fd552b2902813e2cc58.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T07:09:36.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-07T07:10:04.534Z"
+    },
+    {
+      "id": "g1fd8t",
+      "title": "Россия атаковала Северный мост в Киеве. В городе перебои со светом, теплом и водой",
+      "url": "https://meduza.io/news/2026/11/07/rossiya-atakovala-severnyy-most-v-kieve-v-gorode-pereboi-so-svetom-teplom-i-vodoy",
+      "excerpt": "В Киеве пять человек пострадали в результате ночной российской атаки, среди них 14-летний ребенок. Глава города Виталий Кличко сообщил, что Россия била баллистическими ракетами по объектам инфраструктуры. Под удар попал Северный мост через Днепр, движение по…",
+      "content": "В Киеве пять человек пострадали в результате ночной российской атаки, среди них 14-летний ребенок. \n\nГлава города Виталий Кличко сообщил, что Россия била баллистическими ракетами по объектам инфраструктуры. Под удар попал Северный мост через Днепр, движение по нему перекрыто. По словам Кличко, повреждены дорожное полотно, трамвайная линия и линия электропередачи. Под удар попали также пять грузовиков, припаркованные возле моста.\n\nПовреждения получили также объекты энергетики в Киевской и Житомирской областях, в Киеве «чрезвычайно сложная ситуация» с энергоснабжением, нарушена работа систем подачи тепла и воды, сообщил Кличко. Под удар попали также несколько жилых домов и детский сад, сообщает ГСЧС Украины.\n\nПолностью обесточен после ночной атаки Чернигов, сообщил телеграм-канал местного городского совета. В городе остановился электрический общественный транспорт.\n\nРоссийские войска начали активно наносить удары по мостам через Днепр в Киеве в октябре 2026 года.",
+      "image": "https://meduza.io/imgly/share/1794035245/news/2026/11/07/rossiya-atakovala-severnyy-most-v-kieve-v-gorode-pereboi-so-svetom-teplom-i-vodoy",
+      "images": [
+        {
+          "url": "https://meduza.io/imgly/share/1794035245/news/2026/11/07/rossiya-atakovala-severnyy-most-v-kieve-v-gorode-pereboi-so-svetom-teplom-i-vodoy",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T07:07:25.000Z",
+      "sourceId": "meduza",
+      "source": "Meduza",
+      "category": "war",
+      "lang": "ru",
+      "addedAt": "2026-11-07T07:10:04.534Z"
+    },
+    {
+      "id": "12057kl",
+      "title": "«Спасибо вам» — World of Warcraft: Forever показала самый масштабный запуск в истории WoW",
+      "url": "https://www.igromania.ru/news/169786/spasibo-vam-world-of-warcraft-forever-pokazala-samyij-masshtabnyij-zapusk-v-istorii-wow/",
+      "excerpt": "Blizzard Entertainment благодарит фанатов WoW за то, что те помогли World of Warcraft: Forever войти в историю серии.",
+      "content": "Blizzard Entertainment благодарит фанатов WoW за то, что те помогли World of Warcraft: Forever войти в историю серии.",
+      "image": "https://newcdn.igromania.ru//r/38f528e5b8f64208a0903ffbdfad313e/510x-/newcdn.igromania.ru/articles/pics/tmp/images/2026/11/7/6f2dbb67-a6e8-4540-b042-102bf626c27d.jpg",
+      "images": [
+        {
+          "url": "https://newcdn.igromania.ru//r/38f528e5b8f64208a0903ffbdfad313e/510x-/newcdn.igromania.ru/articles/pics/tmp/images/2026/11/7/6f2dbb67-a6e8-4540-b042-102bf626c27d.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T07:02:00.000Z",
+      "sourceId": "igromania",
+      "source": "Игромания",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-07T07:10:04.534Z"
+    },
+    {
+      "id": "78pu6g",
+      "title": "Новый кроссовер вышел на рынок РФ — подробности",
+      "url": "https://www.zr.ru/content/articles/988150-na-rossijskij-rynok-vyshel-novy/",
+      "excerpt": "Кроссовер Deepal S09 представлен в двух версиях, цена – от 6,6 млн рублей",
+      "content": "Кроссовер Deepal S09 представлен в двух версиях, цена – от 6,6 млн рублей",
+      "image": "https://www.zr.ru/_ah/img/M0yuNFfmVjedjJVjMpkXOQ",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/M0yuNFfmVjedjJVjMpkXOQ",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T07:00:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-07T07:10:04.534Z"
+    },
+    {
       "id": "hrgifh",
       "title": "Nintendo Switch eShop charts – November 7, 2026 – Smash Bros. Ultimate #1 for the second week in a row",
       "url": "https://nintendoeverything.com/nintendo-switch-eshop-charts-november-7-2026/",
@@ -1352,7 +1445,7 @@
       "url": "https://github.com/boburning/portcove",
       "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
       "image": "",
-      "publishedAt": "2026-11-07T06:54:41Z",
+      "publishedAt": "2026-11-07T07:09:56Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -2666,7 +2759,20 @@
       "url": "https://github.com/ChupathingyCE/chupathingyce",
       "excerpt": "Halo CE: Ported for Everyone. Windows, Mac, Linux, Steam Deck, Android and FreeBSD, with online games and stats. Bring your own copy of the game.",
       "image": "",
-      "publishedAt": "2026-11-07T06:41:07Z",
+      "publishedAt": "2026-11-07T07:09:50Z",
+      "addedAt": "2026-11-07T06:02:57.825Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1426124038",
+      "title": "NoRain211/doa2u-re: Native Windows port of Dead or Alive 2 Ultimate (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
+      "url": "https://github.com/NoRain211/doa2u-re",
+      "excerpt": "Native Windows port of Dead or Alive 2 Ultimate (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
+      "image": "",
+      "publishedAt": "2026-11-07T07:02:49Z",
       "addedAt": "2026-11-07T06:02:57.825Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -2680,19 +2786,6 @@
       "excerpt": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. The 3D tutorial renders; not playable yet. No game files included.",
       "image": "",
       "publishedAt": "2026-11-07T06:36:17Z",
-      "addedAt": "2026-11-07T06:02:57.825Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
-      "id": "gh-1426124038",
-      "title": "NoRain211/doa2u-re: Native Windows port of Dead or Alive 2 Ultimate (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
-      "url": "https://github.com/NoRain211/doa2u-re",
-      "excerpt": "Native Windows port of Dead or Alive 2 Ultimate (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
-      "image": "",
-      "publishedAt": "2026-11-07T06:30:58Z",
       "addedAt": "2026-11-07T06:02:57.825Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -10875,8 +10968,8 @@
       "id": "16pilxa",
       "title": "AI is dramatically accelerating AI research",
       "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-      "excerpt": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai Comments URL: https://news.ycombinator.com/item?id=50397994 Points: 261 # Comments: 209",
-      "content": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai\n\nComments URL: https://news.ycombinator.com/item?id=50397994\n\nPoints: 261\n\n# Comments: 209",
+      "excerpt": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai Comments URL: https://news.ycombinator.com/item?id=50397994 Points: 271 # Comments: 210",
+      "content": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai\n\nComments URL: https://news.ycombinator.com/item?id=50397994\n\nPoints: 271\n\n# Comments: 210",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-06T20:27:23.000Z",
@@ -11129,8 +11222,8 @@
       "id": "28imw",
       "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
       "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
-      "excerpt": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution Comments URL: https://news.ycombinator.com/item?id=50397429 Points: 419 # Comments: 94",
-      "content": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution\n\nComments URL: https://news.ycombinator.com/item?id=50397429\n\nPoints: 419\n\n# Comments: 94",
+      "excerpt": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution Comments URL: https://news.ycombinator.com/item?id=50397429 Points: 425 # Comments: 96",
+      "content": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution\n\nComments URL: https://news.ycombinator.com/item?id=50397429\n\nPoints: 425\n\n# Comments: 96",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-06T19:48:51.000Z",
@@ -13519,8 +13612,8 @@
       "id": "15yabkl",
       "title": "Gemini Omni 1.2 Flash",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "excerpt": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/ Comments URL: https://news.ycombinator.com/item?id=50392118 Points: 315 # Comments: 226",
-      "content": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/\n\nComments URL: https://news.ycombinator.com/item?id=50392118\n\nPoints: 315\n\n# Comments: 226",
+      "excerpt": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/ Comments URL: https://news.ycombinator.com/item?id=50392118 Points: 317 # Comments: 227",
+      "content": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/\n\nComments URL: https://news.ycombinator.com/item?id=50392118\n\nPoints: 317\n\n# Comments: 227",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-06T13:35:27.000Z",
