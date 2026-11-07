@@ -11,6 +11,7 @@ on:
       - 'scripts/fetch-news.mjs'
       - 'scripts/enrich-articles.mjs'
       - 'scripts/translate-news.mjs'
+      - 'scripts/summarize-news.mjs'
       - 'package.json'
       - 'package-lock.json'
       - '.github/workflows/update-news.yml'
@@ -25,7 +26,7 @@ concurrency:
 jobs:
   update:
     runs-on: ubuntu-latest
-    timeout-minutes: 20
+    timeout-minutes: 26
 
     steps:
       - name: Получить репозиторий
@@ -65,10 +66,22 @@ jobs:
           MAX_TRANSLATE_ITEMS: 300
           TRANSLATE_TIME_LIMIT_MS: 600000
 
+      - name: Сделать краткие выжимки по разделам
+        # Без ключей строится выжимка из заголовков; с ключами — через бесплатную нейросеть.
+        continue-on-error: true
+        timeout-minutes: 6
+        run: node scripts/summarize-news.mjs
+        env:
+          GEMINI_API_KEY: ${{ secrets.GEMINI_API_KEY }}
+          GROQ_API_KEY: ${{ secrets.GROQ_API_KEY }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          SUMMARIZE_TIME_LIMIT_MS: 240000
+
       - name: Закоммитить изменения
         run: |
-          if [ -z "$(git status --porcelain -- data/news.json data/articles.json data/translations.json data/digest)" ]; then
-            echo "Новости, статьи, дайджест и переводы не изменились — коммит не нужен."
+          if [ -z "$(git status --porcelain -- data/news.json data/articles.json data/translations.json data/summaries.json data/digest)" ]; then
+            echo "Новости, статьи, дайджест, переводы и выжимки не изменились — коммит не нужен."
             exit 0
           fi
 
@@ -89,6 +102,9 @@ jobs:
           fi
           if [ -f data/translations.json ]; then
             git add data/translations.json
+          fi
+          if [ -f data/summaries.json ]; then
+            git add data/summaries.json
           fi
 
           if git diff --cached --quiet; then
