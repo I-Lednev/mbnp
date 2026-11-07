@@ -73,7 +73,6 @@ const state = {
   summaries: new Map(),
   summariesLoaded: false,
   summariesLoading: false,
-  summaryExpanded: false,
   digestIndex: null,
   digestIndexLoading: false,
   digestWeek: null,
@@ -224,8 +223,6 @@ async function loadData({ silent = false } = {}) {
     state.articlesLoaded = false;
     render();
 
-    loadSummaries({ force: state.summariesLoaded });
-
     if (state.translation === 'ru') {
       loadTranslations({ force: state.translationsLoaded });
     }
@@ -297,25 +294,6 @@ async function loadArticles() {
   }
 }
 
-async function loadSummaries({ force = false } = {}) {
-  if (state.summariesLoading || (state.summariesLoaded && !force)) return;
-
-  state.summariesLoading = true;
-
-  try {
-    const data = await fetchJson(`data/summaries.json?ts=${Date.now()}`);
-    const entries = data?.categories && typeof data.categories === 'object' ? data.categories : {};
-    state.summaries = new Map(Object.entries(entries));
-    state.summariesLoaded = true;
-  } catch (error) {
-    console.warn('Выжимки пока недоступны:', error);
-    state.summariesLoaded = true;
-  } finally {
-    state.summariesLoading = false;
-    if (state.data) render();
-  }
-}
-
 /* ── Отрисовка ────────────────────────────────────────────────────────── */
 
 function render() {
@@ -332,8 +310,7 @@ function render() {
   els.resetBtn.hidden = !hasActiveFilters();
   els.warNote.hidden = state.category !== 'war';
 
-  const summary = summaryHtml();
-  els.grid.innerHTML = summary + items.slice(0, state.visible).map(cardHtml).join('');
+  els.grid.innerHTML = items.slice(0, state.visible).map(cardHtml).join('');
   wireImages();
 
   els.empty.hidden = items.length !== 0;
@@ -705,77 +682,6 @@ function renderLastUpdate() {
   els.lastUpdate.hidden = false;
   els.lastUpdate.textContent = `Последнее обновление: ${formatDateTime(ts)}`;
   els.lastUpdate.title = `Новости собираются автоматически. Последний сбор: ${formatDateTime(ts)} (${timeAgo(ts)})`;
-}
-
-function summaryHtml() {
-  if (state.category === 'saved') return '';
-  if (state.category === 'digest') return '';
-  if (state.source !== 'all') return '';
-  if (state.query) return '';
-
-  const key = state.category === 'all' ? 'all' : state.category;
-  const summary = state.summaries.get(key);
-  if (!summary?.text) return '';
-
-  const count = Number(summary.count) || 0;
-  const sources = Number(summary.sourceCount) || 0;
-  const meta = [
-    count ? `${count} ${plural(count, 'материал', 'материала', 'материалов')}` : '',
-    sources ? `${sources} ${plural(sources, 'источник', 'источника', 'источников')}` : '',
-  ]
-    .filter(Boolean)
-    .join(' · ');
-
-  const bullets = (Array.isArray(summary.bullets) ? summary.bullets : [])
-    .filter((bullet) => bullet?.title)
-    .slice(0, 3)
-    .map((bullet) => {
-      const itemId = bullet.id || findItemIdByUrl(bullet.url);
-      const href = safeUrl(bullet.url);
-      const title = esc(bullet.title);
-      const label = `<span class="summary-title">${title}</span><span class="summary-source">${esc(bullet.source || '')}</span>`;
-
-      if (itemId) {
-        return `<li><a href="${esc(href || '#')}" data-read="${esc(itemId)}" title="Открыть в читалке">${label}</a></li>`;
-      }
-
-      const link = href
-        ? `<a href="${esc(href)}" target="_blank" rel="noopener noreferrer">${label}</a>`
-        : `<span>${label}</span>`;
-      return `<li>${link}</li>`;
-    })
-    .join('');
-
-  const expanded = state.summaryExpanded;
-  const long = summary.text.length > 200;
-
-  return `
-    <article class="summary-card" aria-label="Кратко за сутки">
-      <div class="summary-top">
-        <span class="summary-kicker">Кратко за сутки</span>
-        ${meta ? `<span class="summary-meta">${meta}</span>` : ''}
-      </div>
-      <p class="summary-text ${long && !expanded ? 'is-clamped' : ''}" ${long ? `id="summaryText-${esc(key)}"` : ''}>${esc(summary.text)}</p>
-      ${
-        long
-          ? `<button
-              class="summary-toggle"
-              type="button"
-              data-summary-toggle
-              aria-expanded="${expanded}"
-              aria-controls="summaryText-${esc(key)}"
-            >${expanded ? 'Свернуть' : 'Читать дальше'}</button>`
-          : ''
-      }
-      ${bullets ? `<ul class="summary-list">${bullets}</ul>` : ''}
-    </article>
-  `;
-}
-
-function findItemIdByUrl(url) {
-  if (!url || !state.data?.items) return '';
-  const item = state.data.items.find((entry) => entry.url === url);
-  return item?.id || '';
 }
 
 function setStatus(text, mode) {
@@ -1435,19 +1341,6 @@ function bindEvents() {
     if (bookmark) {
       event.preventDefault();
       toggleBookmark(bookmark.dataset.bookmark);
-      return;
-    }
-
-    const summaryToggle = event.target.closest('[data-summary-toggle]');
-    if (summaryToggle) {
-      event.preventDefault();
-      const text = summaryToggle.closest('.summary-card')?.querySelector('.summary-text');
-      if (text) {
-        const expanded = text.classList.toggle('is-clamped') === false;
-        state.summaryExpanded = expanded;
-        summaryToggle.textContent = expanded ? 'Свернуть' : 'Читать дальше';
-        summaryToggle.setAttribute('aria-expanded', String(expanded));
-      }
       return;
     }
 
