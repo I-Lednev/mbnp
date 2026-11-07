@@ -902,6 +902,61 @@ button:disabled {
   color: var(--muted-2);
 }
 
+.card-dates {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 6px;
+  margin-top: 9px;
+}
+
+.card-date {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+  min-width: 0;
+  padding: 5px 7px;
+  border: 1px solid var(--border);
+  border-radius: 8px;
+  background: var(--surface-2);
+}
+
+.card-date-label {
+  color: var(--muted-2);
+  font-size: 8.5px;
+  font-weight: 750;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.card-date time {
+  overflow: hidden;
+  color: var(--text);
+  font-size: 11px;
+  font-weight: 650;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+
+.card-date-added {
+  border-color: rgba(124, 92, 255, 0.32);
+  background: var(--accent-soft);
+}
+
+.card-date-added .card-date-label {
+  color: var(--accent);
+}
+
+[data-theme="light"] .card-date-added .card-date-label {
+  color: var(--accent);
+}
+
+.card-date-source .card-date-label {
+  color: var(--cars);
+}
+
 .card-title {
   display: -webkit-box;
   margin: 8px 0 0;
@@ -1550,6 +1605,24 @@ button:disabled {
   color: var(--accent-2);
   text-transform: uppercase;
   letter-spacing: 0.05em;
+}
+
+.digest-dates {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2px 10px;
+  color: var(--muted-2);
+  font-size: 10px;
+  font-weight: 550;
+}
+
+.digest-dates .added {
+  color: var(--accent);
+}
+
+.digest-dates time {
+  color: var(--text);
+  font-weight: 650;
 }
 
 .digest-title {
