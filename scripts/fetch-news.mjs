@@ -86,6 +86,51 @@ const UPDATES_KEYWORDS = [
   'исправлен', 'release', 'релиз',
 ];
 
+const ANNOUNCE_KEYWORDS = [
+  'анонс', 'анонсир', 'представ', 'объяв', 'объявил', 'объявлен', 'выйдет',
+  'выпустят', 'дата выхода', 'трейлер', 'дебют', 'первый взгляд',
+  'announc', 'reveal', 'unveil', 'coming', 'launch', 'release date', 'trailer',
+  'first look', 'world premiere', 'debut', 'set for', 'officially',
+];
+
+const MOBILE_KEYWORDS = [
+  'мобильн', 'mobile', 'android', 'ios', 'iphone', 'ipad', 'app store',
+  'google play', 'gacha', 'гача', 'смартфон', 'телефон', 'мобильная игра',
+  'pubg mobile', 'genshin', 'honkai', 'free fire', 'call of duty mobile',
+  'brawl stars', 'clash of clans', 'clash royale', 'pokemon go', 'roblox',
+  'pocket gamer', 'toucharcade', 'droid', 'apk',
+];
+
+const RELEASE_KEYWORDS = [
+  'релиз', 'вышл', 'вышел', 'вышла', 'вышло', 'вышли', 'доступн', 'запущ',
+  'уже в продаже', 'поступил в продажу', 'новинк',
+  'release', 'released', 'launch', 'launched', 'out now', 'now available',
+  'available now', 'is out', 'hits stores', 'new release',
+];
+
+const RUMOR_KEYWORDS = [
+  'слух', 'слухи', 'инсайд', 'утечк', 'утеч', 'якобы', 'неофициальн',
+  'по данным', 'источник', 'возможн',
+  'rumor', 'rumour', 'leak', 'leaked', 'insider', 'reportedly', 'allegedly',
+  'unconfirmed', 'datamine', 'datamined', 'according to', 'hint',
+];
+
+const SOFTWARE_KEYWORDS = [
+  'софт', 'программ', 'приложен', 'утилит', 'браузер', 'операционн',
+  'windows', 'macos', 'linux', 'android', 'ios', 'chrome', 'firefox', 'edge',
+  'office', 'photoshop', 'антивирус', 'драйвер', 'архиватор', 'мессенджер',
+  'telegram', 'whatsapp', 'discord', 'zoom',
+  'software', 'application', 'browser', 'utility', 'tool', 'operating system',
+  'driver', 'antivirus', 'desktop app', 'download',
+];
+
+const PORT_KEYWORDS = [
+  'port', 'порт', 'ported', 'pc port', 'switch', 'ps2', 'ps3', 'ps4', 'psp',
+  'wii', 'gamecube', 'n64', 'dreamcast', 'saturn', 'linux', 'steam deck',
+  'android', 'ios', 'emulator', 'эмулятор', 'decompil', 'декомпил', 'recompil',
+  'source code', 'исходн', 'remaster', 'ремастер', 'fan remake', 'фанатск',
+];
+
 /**
  * Источники. id — стабильный ключ, category — вкладка, lang — язык.
  * keywords — необязательный фильтр для общих лент.
@@ -110,6 +155,53 @@ const FEEDS = [
   { id: 'ign', category: 'games', name: 'IGN', lang: 'en', url: 'https://feeds.ign.com/ign/games-all' },
   { id: 'eurogamer', category: 'games', name: 'Eurogamer', lang: 'en', url: 'https://www.eurogamer.net/feed' },
   { id: 'ars-gaming', category: 'games', name: 'Ars Technica Gaming', lang: 'en', url: 'https://feeds.arstechnica.com/arstechnica/gaming' },
+
+  // ── Анонсы игр ─────────────────────────────────────────────────────────
+  { id: 'playground-announces', category: 'announces', name: 'Playground Анонсы', lang: 'ru', url: 'https://www.playground.ru/rss/news.xml', keywords: ANNOUNCE_KEYWORDS },
+  { id: 'siliconera', category: 'announces', name: 'Siliconera', lang: 'en', url: 'https://www.siliconera.com/feed/', keywords: ANNOUNCE_KEYWORDS },
+  { id: 'gamingbolt', category: 'announces', name: 'GamingBolt', lang: 'en', url: 'https://gamingbolt.com/feed', keywords: ANNOUNCE_KEYWORDS },
+  { id: 'vg247', category: 'announces', name: 'VG247', lang: 'en', url: 'https://www.vg247.com/feed', keywords: ANNOUNCE_KEYWORDS },
+
+  // ── Мобильные игры ─────────────────────────────────────────────────────
+  { id: 'playground-mobile', category: 'mobile', name: 'Playground Мобильные', lang: 'ru', url: 'https://www.playground.ru/rss/news.xml', keywords: MOBILE_KEYWORDS },
+  { id: 'toucharcade', category: 'mobile', name: 'TouchArcade', lang: 'en', url: 'https://toucharcade.com/feed/', keywords: MOBILE_KEYWORDS },
+
+  // ── Релизы игр ─────────────────────────────────────────────────────────
+  { id: 'playground-releases', category: 'releases', name: 'Playground Релизы', lang: 'ru', url: 'https://www.playground.ru/rss/news.xml', keywords: RELEASE_KEYWORDS },
+  { id: 'steam-newreleases', category: 'releases', name: 'Steam Новинки', lang: 'en', url: 'https://store.steampowered.com/feeds/newreleases.xml' },
+  { id: 'gog-news', category: 'releases', name: 'GOG', lang: 'en', url: 'https://www.gog.com/news/feed', keywords: RELEASE_KEYWORDS },
+
+  // ── Слухи и утечки ─────────────────────────────────────────────────────
+  { id: 'playground-rumors', category: 'rumors', name: 'Playground Слухи', lang: 'ru', url: 'https://www.playground.ru/rss/news.xml', keywords: RUMOR_KEYWORDS },
+  { id: 'reddit-leaks', category: 'rumors', name: 'r/GamingLeaksAndRumours', lang: 'en', url: 'https://www.reddit.com/r/GamingLeaksAndRumours/new/.rss', keywords: RUMOR_KEYWORDS },
+  { id: 'dexerto', category: 'rumors', name: 'Dexerto', lang: 'en', url: 'https://www.dexerto.com/feed/', keywords: RUMOR_KEYWORDS },
+
+  // ── Софт ───────────────────────────────────────────────────────────────
+  { id: 'playground-software', category: 'software', name: 'Playground Софт', lang: 'ru', url: 'https://www.playground.ru/rss/news.xml', keywords: SOFTWARE_KEYWORDS },
+  { id: 'ghacks', category: 'software', name: 'gHacks', lang: 'en', url: 'https://www.ghacks.net/feed/', keywords: SOFTWARE_KEYWORDS },
+  { id: 'macrumors', category: 'software', name: 'MacRumors', lang: 'en', url: 'https://www.macrumors.com/macrumors.xml', keywords: SOFTWARE_KEYWORDS },
+  { id: 'omgubuntu', category: 'software', name: 'OMG! Ubuntu', lang: 'en', url: 'https://www.omgubuntu.co.uk/feed', keywords: SOFTWARE_KEYWORDS },
+  { id: '9to5google', category: 'software', name: '9to5Google', lang: 'en', url: 'https://9to5google.com/feed/', keywords: SOFTWARE_KEYWORDS },
+
+  // ── Наука ──────────────────────────────────────────────────────────────
+  { id: 'sciencedaily', category: 'science', name: 'ScienceDaily', lang: 'en', url: 'https://www.sciencedaily.com/rss/top/science.xml' },
+  { id: 'physorg', category: 'science', name: 'Phys.org', lang: 'en', url: 'https://phys.org/rss-feed/' },
+  { id: 'nature', category: 'science', name: 'Nature', lang: 'en', url: 'https://www.nature.com/nature.rss' },
+  { id: 'arsscience', category: 'science', name: 'Ars Technica Science', lang: 'en', url: 'https://feeds.arstechnica.com/arstechnica/science' },
+  { id: 'quanta', category: 'science', name: 'Quanta Magazine', lang: 'en', url: 'https://www.quantamagazine.org/feed/' },
+
+  // ── Развлечения ────────────────────────────────────────────────────────
+  { id: 'verge-ent', category: 'entertainment', name: 'The Verge Entertainment', lang: 'en', url: 'https://www.theverge.com/rss/entertainment/index.xml' },
+  { id: 'variety', category: 'entertainment', name: 'Variety', lang: 'en', url: 'https://variety.com/feed/' },
+  { id: 'hollywoodreporter', category: 'entertainment', name: 'The Hollywood Reporter', lang: 'en', url: 'https://www.hollywoodreporter.com/feed/' },
+  { id: 'deadline', category: 'entertainment', name: 'Deadline', lang: 'en', url: 'https://deadline.com/feed/' },
+  { id: 'slashfilm', category: 'entertainment', name: 'SlashFilm', lang: 'en', url: 'https://www.slashfilm.com/feed/' },
+  { id: 'avclub', category: 'entertainment', name: 'The A.V. Club', lang: 'en', url: 'https://www.avclub.com/rss' },
+  { id: 'intermedia', category: 'entertainment', name: 'InterMedia', lang: 'ru', url: 'https://www.intermedia.ru/rss' },
+
+  // ── Порты игр ──────────────────────────────────────────────────────────
+  { id: 'github-ports', category: 'ports', name: 'GitHub: порты', lang: 'en', type: 'github', url: 'https://github.com/topics/game-port', queries: ['topic:game-port', 'topic:source-port', 'topic:decompilation'], maxItems: 24 },
+  { id: 'reddit-emulation', category: 'ports', name: 'r/emulation', lang: 'en', url: 'https://www.reddit.com/r/emulation/new/.rss', keywords: PORT_KEYWORDS },
 
   // ── Индустрия игр ──────────────────────────────────────────────────────
   { id: 'gamesindustry', category: 'industry', name: 'GamesIndustry.biz', lang: 'en', url: 'https://www.gamesindustry.biz/feed' },
@@ -185,6 +277,14 @@ const FEEDS = [
 const CATEGORY_TITLES = {
   ai: 'ИИ',
   games: 'Игры',
+  announces: 'Анонсы',
+  mobile: 'Мобильные',
+  releases: 'Релизы',
+  rumors: 'Слухи',
+  software: 'Софт',
+  science: 'Наука',
+  entertainment: 'Развлечения',
+  ports: 'Порты',
   pc: 'ПК',
   consoles: 'Консоли',
   hardware: 'Железо',
@@ -231,6 +331,8 @@ async function fetchFeed(feed) {
 }
 
 async function fetchFeedOnce(feed) {
+  if (feed.type === 'github') return fetchGithubFeed(feed);
+
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
   const started = Date.now();
@@ -261,6 +363,65 @@ async function fetchFeedOnce(feed) {
   } finally {
     clearTimeout(timer);
   }
+}
+
+async function fetchGithubFeed(feed) {
+  const started = Date.now();
+  const token = process.env.GITHUB_TOKEN || '';
+  const since = new Date(Date.now() - 14 * 86_400_000).toISOString().slice(0, 10);
+
+  const headers = {
+    'user-agent': USER_AGENT,
+    accept: 'application/vnd.github+json',
+    'x-github-api-version': '2022-11-28',
+  };
+  if (token) headers.authorization = `Bearer ${token}`;
+
+  const collected = [];
+
+  for (const query of feed.queries || []) {
+    const search = `${query} pushed:>${since}`;
+    const url = `https://api.github.com/search/repositories?q=${encodeURIComponent(search)}&sort=updated&order=desc&per_page=10`;
+
+    try {
+      const response = await fetch(url, { headers });
+      if (!response.ok) throw new Error(`HTTP ${response.status}`);
+      const data = await response.json();
+
+      for (const repo of data.items || []) {
+        if (!repo?.html_url || repo.fork) continue;
+
+        collected.push({
+          id: `gh-${repo.id}`,
+          title: `${repo.full_name}: ${repo.description || 'обновлённый порт'}`,
+          url: repo.html_url,
+          excerpt: repo.description || '',
+          image: '',
+          publishedAt: repo.pushed_at || repo.updated_at || new Date().toISOString(),
+          addedAt: new Date().toISOString(),
+          sourceId: feed.id,
+          source: feed.name,
+          category: feed.category,
+          lang: feed.lang,
+        });
+      }
+    } catch (error) {
+      console.warn(`  GitHub ${query}: ${errorMessage(error)}`);
+    }
+  }
+
+  const items = [];
+  const seen = new Set();
+
+  for (const item of collected) {
+    if (seen.has(item.id)) continue;
+    seen.add(item.id);
+    items.push(item);
+  }
+
+  if (items.length === 0) throw new Error('GitHub не вернул репозиториев');
+
+  return { feed, items: items.slice(0, feed.maxItems || 24), ms: Date.now() - started };
 }
 
 async function mapPool(items, limit, worker) {
