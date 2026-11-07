@@ -1,7 +1,7 @@
 export const AUTH_CONFIG = {
   login: 'i.lednev',
-  salt: '4b796712939585ba8ca6f14e3aeacad5',
-  hash: '42acd1bae2401e0644e9620a2f8ed07e2361099bdf25665c760cb7e5f4fb496c',
+  salt: '588ecd7e20468ccaa9a406838f99f8fc',
+  hash: '7e1bfe2cbc3a2b1c8252378b0e3e535dc3000bba4fbb6cd4d680909cbaf33f04',
   iterations: 210000,
   sessionDays: 30,
   inviteVersion: 1,
