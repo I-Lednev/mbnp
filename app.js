@@ -427,7 +427,9 @@ function cardHtml(item) {
         aria-hidden="true"
       >
         ${image ? `<img src="${esc(image)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-news-image />` : ''}
-        <span class="media-fallback"><span>${FALLBACK_LABELS[category]}</span></span>
+        <span class="media-fallback">
+          <img class="fallback-img" src="icons/fallback/${category}.svg" alt="" loading="lazy" decoding="async" />
+        </span>
         <span class="card-badge badge-${category}">${CATEGORY_LABELS[category]}</span>
       </a>
       <button
@@ -1230,7 +1232,9 @@ function digestItemHtml(item) {
     <a class="digest-item" href="${esc(url)}" target="_blank" rel="noopener noreferrer">
       <span class="digest-thumb ${image ? '' : 'no-image'}" data-category="${category}">
         ${image ? `<img src="${esc(image)}" alt="" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-digest-image />` : ''}
-        <span class="digest-thumb-fallback">${FALLBACK_LABELS[category]}</span>
+        <span class="digest-fallback">
+          <img class="digest-fallback-img" src="icons/fallback/${category}.svg" alt="" loading="lazy" decoding="async" />
+        </span>
       </span>
       <span class="digest-body">
         <span class="digest-meta">
