@@ -1,11 +1,19 @@
 # MBNP (My Best NEWSPaper)
 
-Персональный агрегатор новостей: ИИ, игры, приставки и консоли, ИИ-моды и декомпиляции, ИИ-софт, автомобили и сводки по Украине. Одна страница, без сервера и без базы данных.
+Персональный агрегатор новостей: ИИ, игры, анонсы, мобильные игры, релизы, слухи, софт, наука, развлечения, порты, ПК, консоли, железо, индустрия, обновления, ИИ-моды, ИИ-софт, автомобили и сводки по Украине. Одна страница, без сервера и без базы данных.
 
 - **ИИ** — TechCrunch AI, The Verge AI, Habr AI, OpenAI News, Hugging Face, MIT Technology Review, WIRED AI, IEEE Spectrum AI
 - **Игры** — StopGame, DTF, Игромания, 3DNews, IGN, Eurogamer, PC Gamer, VGC, Ars Technica Gaming
-- **Приставки** — Nintendo Life, Nintendo Everything, Push Square, PlayStation Universe, Pure Xbox, Gematsu, Time Extension, SteamDeckHQ
-- **ИИ-моды** — 80.lv, GamesIndustry.biz, Rock Paper Shotgun, GamesRadar+
+- **Анонсы** — Playground Анонсы, Siliconera, GamingBolt, VG247
+- **Мобильные** — Playground Мобильные, TouchArcade
+- **Релизы** — Playground Релизы, Steam Новинки, GOG
+- **Слухи** — Playground Слухи, r/GamingLeaksAndRumours, Dexerto
+- **Софт** — Playground Софт, gHacks, MacRumors, OMG! Ubuntu, 9to5Google
+- **Наука** — ScienceDaily, Phys.org, Nature, Ars Technica Science, Quanta Magazine
+- **Развлечения** — The Verge Entertainment, Variety, The Hollywood Reporter, Deadline, SlashFilm, The A.V. Club, InterMedia
+- **Порты** — GitHub (game-port, source-port, recompilation, decompilation), r/emulation
+- **Консоли** — Nintendo Life, Nintendo Everything, Push Square, PlayStation Universe, Pure Xbox, Gematsu, Time Extension, SteamDeckHQ
+- **ИИ-моды** — 80.lv, GamesRadar+
 - **ИИ-софт** — GitHub Blog, Stack Overflow, Hacker News, InfoQ AI/ML, Ars Technica Tech, BleepingComputer, Simon Willison
 - **Авто** — Kolesa.ru, «За рулём», «5 колесо», Газета.Ru Авто, Motor1, Car and Driver, InsideEVs
 - **Война** — Kyiv Independent, Ukrinform, Ukrainska Pravda, BBC Ukrainian, Radio Svoboda, Meduza, The Moscow Times, Novaya Gazeta Europe, The Guardian, UN News, Al Jazeera, The New York Times, BBC Russian, DW Russian
@@ -81,7 +89,7 @@ npm.cmd run serve
 
 ## Что уже умеет
 
-- **9 разделов:** Все, ИИ, Игры, Приставки, ИИ-моды, ИИ-софт, Авто, Война, Избранное.
+- **Разделы:** Все, ИИ, Игры, Анонсы, Мобильные, Релизы, Слухи, Софт, Наука, Развлечения, Порты, ПК, Консоли, Железо, Индустрия, Обновления, ИИ-моды, ИИ-софт, Авто, Война, Избранное.
 - **Выпуск за последние 7 дней:** новые материалы добавляются каждые 30 минут, старые не исчезают сразу — остаются в выпуске ещё 7 дней с полным текстом и переводом, просто опускаются ниже. Совсем старые уходят в дайджест.
 - **Дата и время появления на агрегаторе** на каждой карточке: по ним же идёт сортировка, новые сверху.
 - **Первые 10 рядов карточек** (40 штук на широком экране) и кнопка «Показать ещё» сразу после них, до футера.
@@ -92,7 +100,7 @@ npm.cmd run serve
 - **Недельный дайджест:** кнопка «Дайджест» открывает архив за последние 12 недель с фильтром по разделу.
 - **Избранное** в `localStorage`.
 - **Тёмная и светлая темы**, адаптивная вёрстка, PWA-установка и офлайн-кэш.
-- **57 источников**; в выпуске за 7 дней обычно 300–500 материалов, до 600 в одном разделе.
+- **98 источников**; в выпуске за 7 дней обычно 600–800 материалов.
 
 ## Дайджест и хранение
 
