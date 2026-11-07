@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T06:22:52.100Z",
-  "tookMs": 12335,
+  "generatedAt": "2026-11-07T06:26:04.905Z",
+  "tookMs": 11081,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -36,14 +36,14 @@
     "ports": 29,
     "pc": 30,
     "consoles": 91,
-    "hardware": 28,
+    "hardware": 29,
     "industry": 35,
     "updates": 24,
     "aimods": 2,
     "aisoft": 45,
     "cars": 80,
     "war": 66,
-    "total": 832
+    "total": 833
   },
   "sourceCount": 98,
   "sources": [
@@ -753,6 +753,26 @@
   ],
   "items": [
     {
+      "id": "fq01t6",
+      "title": "Nvidia внезапно выпустила новый драйвер Game Ready для Windows 10, хотя обещала так не делать",
+      "url": "https://3dnews.ru/1150951",
+      "excerpt": "Nvidia накануне выпустила драйвер GeForce версии 621.14 WHQL, подгадав к запуску World of Warcraft: Forever. Компания намеревалась прекратить поддержку драйверов Game Ready для Windows 10 ещё в октябре, но эта версия всё ещё устанавливается в данной ОС…",
+      "content": "Nvidia накануне выпустила драйвер GeForce версии 621.14 WHQL, подгадав к запуску World of Warcraft: Forever. Компания намеревалась прекратить поддержку драйверов Game Ready для Windows 10 ещё в октябре, но эта версия всё ещё устанавливается в данной ОС. Источник изображений: BoliviaInteligente / unsplash.com",
+      "image": "https://3dnews.ru/assets/external/illustrations/2026/11/06/1150951/nvidia_1.jpg",
+      "images": [
+        {
+          "url": "https://3dnews.ru/assets/external/illustrations/2026/11/06/1150951/nvidia_1.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-06T10:32:00.000Z",
+      "sourceId": "3dnews-hardware",
+      "source": "3DNews Железо",
+      "category": "hardware",
+      "lang": "ru",
+      "addedAt": "2026-11-07T06:25:53.824Z"
+    },
+    {
       "id": "gh-1423239072",
       "title": "DrummingBird1/gow-psp-recomp: Unofficial native PC ports of God of War: Chains of Olympus and Ghost of Sparta (PSP) by static recompilation. Bring your own disc.",
       "url": "https://github.com/DrummingBird1/gow-psp-recomp",
@@ -961,7 +981,7 @@
       "url": "https://github.com/nekomancer01/DarkSoulsPS2",
       "excerpt": "Homebrew PS2 port of Dark Souls Remastered: C/VU1 engine plus exporters that read your own copy of the game (no game data included)",
       "image": "",
-      "publishedAt": "2026-11-07T06:18:00Z",
+      "publishedAt": "2026-11-07T06:24:46Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -974,7 +994,7 @@
       "url": "https://github.com/boburning/portcove",
       "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
       "image": "",
-      "publishedAt": "2026-11-07T06:16:34Z",
+      "publishedAt": "2026-11-07T06:24:37Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
