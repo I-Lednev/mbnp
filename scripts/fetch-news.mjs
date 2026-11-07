@@ -200,7 +200,7 @@ const FEEDS = [
   { id: 'intermedia', category: 'entertainment', name: 'InterMedia', lang: 'ru', url: 'https://www.intermedia.ru/rss' },
 
   // ── Порты игр ──────────────────────────────────────────────────────────
-  { id: 'github-ports', category: 'ports', name: 'GitHub: порты', lang: 'en', type: 'github', url: 'https://github.com/topics/game-port', queries: ['topic:game-port', 'topic:source-port', 'topic:decompilation'], maxItems: 24 },
+  { id: 'github-ports', category: 'ports', name: 'GitHub: порты', lang: 'en', type: 'github', url: 'https://github.com/topics/game-port', queries: ['topic:game-port', 'topic:source-port', 'topic:recompilation', 'topic:decompilation'], maxItems: 24 },
   { id: 'reddit-emulation', category: 'ports', name: 'r/emulation', lang: 'en', url: 'https://www.reddit.com/r/emulation/new/.rss', keywords: PORT_KEYWORDS },
 
   // ── Индустрия игр ──────────────────────────────────────────────────────
@@ -390,6 +390,10 @@ async function fetchGithubFeed(feed) {
 
       for (const repo of data.items || []) {
         if (!repo?.html_url || repo.fork) continue;
+
+        const haystack = `${repo.name || ''} ${repo.description || ''}`;
+        // Списки, каталоги и инструменты — не новости о портах.
+        if (/awesome|curated|list of|collection of|database|wiki|decompiler designed|toolkit/i.test(haystack)) continue;
 
         collected.push({
           id: `gh-${repo.id}`,
