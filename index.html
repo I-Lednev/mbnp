@@ -1,0 +1,317 @@
+<!doctype html>
+<html lang="ru" data-theme="dark">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+    <title>MBNP — новости</title>
+    <meta
+      name="description"
+      content="MBNP (My Best NEWSPaper) — новости об ИИ, играх, приставках, автомобилях и Украине из открытых RSS-источников."
+    />
+    <meta name="color-scheme" content="dark light" />
+    <meta name="theme-color" content="#090b10" />
+    <meta property="og:title" content="MBNP — новости" />
+    <meta property="og:description" content="MBNP (My Best NEWSPaper) — новости об ИИ, играх, приставках, автомобилях и Украине." />
+    <meta property="og:type" content="website" />
+    <meta property="og:image" content="icons/icon-512.png" />
+    <script>
+      try {
+        const theme = localStorage.getItem('mbn:theme');
+        if (theme === 'light' || theme === 'dark') {
+          document.documentElement.dataset.theme = theme;
+          document.querySelector('meta[name="theme-color"]').content =
+            theme === 'light' ? '#f4f6fb' : '#090b10';
+        }
+      } catch {
+        /* хранилище недоступно — остаётся тёмная тема по умолчанию */
+      }
+    </script>
+
+    <link rel="manifest" href="manifest.webmanifest" />
+    <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
+    <link rel="apple-touch-icon" href="icons/icon-192.png" />
+    <link rel="stylesheet" href="styles.css?v=12" />
+  </head>
+  <body>
+    <div class="app">
+      <header class="topbar">
+        <a class="brand" href="./">
+          <span class="brand-mark" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none">
+              <rect width="48" height="48" rx="13" fill="url(#brandGradient)" />
+              <path
+                d="M8 27h6.5l3.6-9.5 5.8 19 4.1-12.2 2.4 5H40"
+                stroke="#fff"
+                stroke-width="2.8"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+              <defs>
+                <linearGradient id="brandGradient" x1="4" y1="4" x2="44" y2="44" gradientUnits="userSpaceOnUse">
+                  <stop stop-color="#7c5cff" />
+                  <stop offset="1" stop-color="#22d3ee" />
+                </linearGradient>
+              </defs>
+            </svg>
+          </span>
+          <span class="brand-text">
+            <strong><span class="brand-news">MBNP</span></strong>
+            <small>моя лучшая газета</small>
+          </span>
+        </a>
+
+        <div class="topbar-actions">
+          <button id="installBtn" class="install-btn" type="button" aria-label="Установить приложение" title="Установить приложение" hidden>
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M12 3v12m0 0 4-4m-4 4-4-4M5 21h14" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+            <span>Установить</span>
+          </button>
+          <button id="themeBtn" class="icon-btn" type="button" aria-label="Сменить тему" title="Сменить тему">
+            <svg class="icon-moon" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M21 12.8A8.5 8.5 0 1 1 11.2 3a6.6 6.6 0 0 0 9.8 9.8Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round" />
+            </svg>
+            <svg class="icon-sun" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <circle cx="12" cy="12" r="4" stroke="currentColor" stroke-width="1.8" />
+              <path d="M12 2v2m0 16v2M2 12h2m16 0h2M4.9 4.9l1.4 1.4m11.4 11.4 1.4 1.4M19.1 4.9l-1.4 1.4M6.3 17.7l-1.4 1.4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+            </svg>
+          </button>
+          <button id="refreshBtn" class="icon-btn" type="button" aria-label="Обновить новости" title="Обновить">
+            <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <path d="M20 11a8 8 0 1 0-2.3 6.3M20 5v6h-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+        </div>
+      </header>
+
+      <main>
+        <h1 class="visually-hidden">MBNP — новости об ИИ, играх, приставках, автомобилях и Украине</h1>
+
+        <section class="controls" aria-label="Фильтры новостей">
+          <div class="tabs" role="tablist" aria-label="Разделы">
+            <button class="tab is-active" type="button" role="tab" aria-selected="true" data-category="all">
+              Все <span class="tab-count" data-count="all">0</span>
+            </button>
+            <button class="tab" type="button" role="tab" aria-selected="false" data-category="ai">
+              <span class="tab-dot tab-dot-ai" aria-hidden="true"></span>ИИ <span class="tab-count" data-count="ai">0</span>
+            </button>
+            <button class="tab" type="button" role="tab" aria-selected="false" data-category="games">
+              <span class="tab-dot tab-dot-games" aria-hidden="true"></span>Игры <span class="tab-count" data-count="games">0</span>
+            </button>
+            <button class="tab" type="button" role="tab" aria-selected="false" data-category="hardware">
+              <span class="tab-dot tab-dot-hardware" aria-hidden="true"></span>Приставки <span class="tab-count" data-count="hardware">0</span>
+            </button>
+            <button class="tab" type="button" role="tab" aria-selected="false" data-category="aimods">
+              <span class="tab-dot tab-dot-aimods" aria-hidden="true"></span>ИИ-моды <span class="tab-count" data-count="aimods">0</span>
+            </button>
+            <button class="tab" type="button" role="tab" aria-selected="false" data-category="aisoft">
+              <span class="tab-dot tab-dot-aisoft" aria-hidden="true"></span>ИИ-софт <span class="tab-count" data-count="aisoft">0</span>
+            </button>
+            <button class="tab" type="button" role="tab" aria-selected="false" data-category="cars">
+              <span class="tab-dot tab-dot-cars" aria-hidden="true"></span>Авто <span class="tab-count" data-count="cars">0</span>
+            </button>
+            <button class="tab" type="button" role="tab" aria-selected="false" data-category="war">
+              <span class="tab-dot tab-dot-war" aria-hidden="true"></span>Война <span class="tab-count" data-count="war">0</span>
+            </button>
+            <button class="tab tab-saved" type="button" role="tab" aria-selected="false" data-category="saved">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="m12 3 2.8 5.7 6.2.9-4.5 4.4 1.1 6.2L12 17.3 6.4 20.2l1.1-6.2L3 9.6l6.2-.9L12 3Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round" />
+              </svg>
+              Избранное <span class="tab-count" data-count="saved">0</span>
+            </button>
+          </div>
+
+          <div class="filters">
+            <label class="search">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.8" />
+                <path d="m16.5 16.5 4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+              </svg>
+              <input id="searchInput" type="search" placeholder="Поиск по новостям…" autocomplete="off" spellcheck="false" />
+            </label>
+
+            <label class="select">
+              <span class="visually-hidden">Источник</span>
+              <select id="sourceSelect">
+                <option value="all">Все источники</option>
+              </select>
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="m7 10 5 5 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </label>
+
+            <label class="select" title="Перевод новостей">
+              <span class="visually-hidden">Перевод</span>
+              <select id="translationSelect">
+                <option value="original">Оригинал</option>
+                <option value="ru">По-русски</option>
+              </select>
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="m7 10 5 5 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+              </svg>
+            </label>
+
+            <button id="sourcesBtn" class="sources-btn" type="button" aria-haspopup="dialog">
+              <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+                <path d="M4 7h16M7 12h10M10 17h4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+                <circle cx="8" cy="7" r="1.6" fill="currentColor" />
+                <circle cx="15" cy="12" r="1.6" fill="currentColor" />
+                <circle cx="12" cy="17" r="1.6" fill="currentColor" />
+              </svg>
+              <span>Источники</span>
+              <span id="hiddenSourcesBadge" class="sources-badge" hidden>0</span>
+            </button>
+          </div>
+        </section>
+
+        <div class="statusbar">
+          <p id="status" aria-live="polite">Загружаем новости…</p>
+          <div class="status-actions">
+            <button id="digestBtn" class="link-btn" type="button">Дайджест</button>
+            <button id="resetBtn" class="link-btn" type="button" hidden>Сбросить фильтры</button>
+          </div>
+        </div>
+
+        <p id="warNote" class="section-note" hidden>
+          Раздел «Война в Украине»: заголовки и ссылки из открытых источников. Агрегатор не проверяет факты;
+          ненужные источники можно скрыть в «Источниках».
+        </p>
+
+        <section id="grid" class="grid" aria-busy="true" aria-label="Новости"></section>
+
+        <div id="empty" class="empty" hidden>
+          <span class="empty-icon" aria-hidden="true">
+            <svg viewBox="0 0 48 48" fill="none">
+              <circle cx="22" cy="22" r="13" stroke="currentColor" stroke-width="2.4" />
+              <path d="m32 32 8 8" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" />
+            </svg>
+          </span>
+          <h2 id="emptyTitle">Ничего не нашлось</h2>
+          <p id="emptyText">Попробуйте изменить запрос или сбросить фильтры.</p>
+          <button id="emptyActionBtn" class="primary-btn" type="button" data-action="reset">Сбросить фильтры</button>
+        </div>
+
+        <div class="load-wrap">
+          <button id="loadMoreBtn" class="load-more" type="button" hidden>Показать ещё</button>
+        </div>
+
+        <footer class="footer">
+          <p>
+            MBNP · My Best NEWSPaper · данные собраны из открытых RSS-лент. Обновление — каждые 30 минут.
+            <a href="data/news.json" target="_blank" rel="noopener">JSON</a>
+          </p>
+          <p id="generated"></p>
+        </footer>
+      </main>
+    </div>
+
+    <dialog id="sourcesDialog" class="dialog" aria-labelledby="sourcesTitle">
+      <div class="dialog-head">
+        <div>
+          <h2 id="sourcesTitle">Источники</h2>
+          <p>Снимите галочку, чтобы скрыть источник. Вернуть можно в любой момент.</p>
+        </div>
+        <button id="sourcesCloseBtn" class="icon-btn" type="button" aria-label="Закрыть">×</button>
+      </div>
+      <div class="dialog-tools">
+        <label class="search dialog-search">
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.8" />
+            <path d="m16.5 16.5 4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
+          </svg>
+          <input id="sourceSearch" type="search" placeholder="Найти источник…" autocomplete="off" spellcheck="false" />
+        </label>
+        <button id="showAllSourcesBtn" class="link-btn" type="button">Показать все</button>
+      </div>
+      <div id="sourceList" class="source-list"></div>
+      <div class="dialog-foot">
+        <span id="hiddenSourcesCount"></span>
+        <button id="sourcesDoneBtn" class="primary-btn" type="button">Готово</button>
+      </div>
+    </dialog>
+
+    <dialog id="digestDialog" class="digest-dialog" aria-labelledby="digestTitle">
+      <div class="dialog-head">
+        <div>
+          <h2 id="digestTitle">Недельный дайджест</h2>
+          <p>Главное за последние недели. Заголовки в оригинале, полный текст — на источнике. Храним 12 недель.</p>
+        </div>
+        <button id="digestCloseBtn" class="icon-btn" type="button" aria-label="Закрыть дайджест">×</button>
+      </div>
+      <div class="digest-toolbar">
+        <div id="digestWeeks" class="digest-weeks" role="tablist" aria-label="Недели"></div>
+        <label class="select digest-category">
+          <span class="visually-hidden">Раздел дайджеста</span>
+          <select id="digestCategory">
+            <option value="all">Все разделы</option>
+          </select>
+          <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
+            <path d="m7 10 5 5 5-5" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+          </svg>
+        </label>
+      </div>
+      <div id="digestList" class="digest-list"></div>
+      <div class="dialog-foot">
+        <span id="digestCount"></span>
+        <button id="digestDoneBtn" class="primary-btn" type="button">Готово</button>
+      </div>
+    </dialog>
+
+    <dialog id="readerDialog" class="reader-dialog" aria-labelledby="readerTitle">
+      <div class="reader-head">
+        <div class="reader-meta">
+          <span id="readerBadge" class="card-badge"></span>
+          <span id="readerSource" class="reader-source-label"></span>
+          <span class="dot" aria-hidden="true"></span>
+          <time id="readerTime"></time>
+        </div>
+        <button id="readerCloseBtn" class="icon-btn" type="button" aria-label="Закрыть новость">×</button>
+      </div>
+      <div id="readerScroll" class="reader-scroll">
+        <h2 id="readerTitle" class="reader-title"></h2>
+        <p id="readerOriginalTitle" class="reader-original" hidden></p>
+        <img id="readerImage" class="reader-image" alt="" hidden />
+        <div id="readerContent" class="reader-content"></div>
+        <div id="readerGallery" class="reader-gallery" hidden></div>
+        <p id="readerNotice" class="reader-notice"></p>
+      </div>
+      <div class="reader-foot">
+        <div class="reader-source">
+          <span>Источник:</span>
+          <strong id="readerSourceName"></strong>
+        </div>
+        <div class="reader-actions">
+          <button id="readerCopyBtn" class="load-more" type="button">Скопировать ссылку</button>
+          <a id="readerOpenLink" class="primary-btn" href="#" target="_blank" rel="noopener noreferrer">
+            Открыть оригинал <span aria-hidden="true">→</span>
+          </a>
+        </div>
+      </div>
+    </dialog>
+
+    <div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+    <noscript>
+      <div class="noscript">Для работы MBNP нужен JavaScript.</div>
+    </noscript>
+
+    <script type="module">
+      (async () => {
+        for (let attempt = 0; attempt < 4; attempt += 1) {
+          try {
+            await import(`./app.js?v=12&retry=${attempt}`);
+            return;
+          } catch (error) {
+            console.warn('Не удалось загрузить app.js, повтор…', error);
+            await new Promise((resolve) => setTimeout(resolve, 400 * (attempt + 1)));
+          }
+        }
+
+        document.body.insertAdjacentHTML(
+          'beforeend',
+          '<div class="noscript">Не удалось загрузить приложение. Обновите страницу.</div>',
+        );
+      })();
+    </script>
+  </body>
+</html>

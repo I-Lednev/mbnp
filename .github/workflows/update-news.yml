@@ -1,0 +1,88 @@
+name: Обновить новости
+
+on:
+  schedule:
+    # Каждые 30 минут. GitHub может задержать запуск в часы пик.
+    - cron: '*/30 * * * *'
+  workflow_dispatch:
+  push:
+    branches: [main]
+    paths:
+      - 'scripts/fetch-news.mjs'
+      - 'scripts/enrich-articles.mjs'
+      - 'scripts/translate-news.mjs'
+      - 'package.json'
+      - 'package-lock.json'
+      - '.github/workflows/update-news.yml'
+
+permissions:
+  contents: write
+
+concurrency:
+  group: update-news
+  cancel-in-progress: false
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+
+    steps:
+      - name: Получить репозиторий
+        uses: actions/checkout@v4
+
+      - name: Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 22
+          cache: npm
+
+      - name: Установить зависимости
+        run: npm ci
+
+      - name: Собрать news.json
+        run: node scripts/fetch-news.mjs
+
+      - name: Достать полный текст статей
+        # Если сайт закрылся от ботов, читалка останется на RSS-анонсе.
+        continue-on-error: true
+        timeout-minutes: 6
+        run: node scripts/enrich-articles.mjs
+        env:
+          MAX_ENRICH: 60
+          ENRICH_TIME_LIMIT_MS: 240000
+
+      - name: Перевести новые материалы
+        # Перевод не должен блокировать публикацию новостей, если сервис недоступен.
+        continue-on-error: true
+        timeout-minutes: 12
+        run: node scripts/translate-news.mjs
+        env:
+          # По умолчанию перевод идёт через Google Translate — без ключей и ручных действий.
+          # Чтобы включить DeepL: поставьте TRANSLATE_PROVIDER: deepl и добавьте секрет DEEPL_API_KEY.
+          TRANSLATE_PROVIDER: google
+          DEEPL_API_KEY: ${{ secrets.DEEPL_API_KEY }}
+          MAX_TRANSLATE_ITEMS: 300
+          TRANSLATE_TIME_LIMIT_MS: 600000
+
+      - name: Закоммитить изменения
+        run: |
+          if [ -z "$(git status --porcelain -- data/news.json data/articles.json data/translations.json data/digest)" ]; then
+            echo "Новости, статьи, дайджест и переводы не изменились — коммит не нужен."
+            exit 0
+          fi
+
+          git config user.name "my-best-newspaper-bot"
+          git config user.email "my-best-newspaper-bot@users.noreply.github.com"
+          git add data/news.json
+          if [ -f data/articles.json ]; then
+            git add data/articles.json
+          fi
+          if [ -d data/digest ]; then
+            git add data/digest
+          fi
+          if [ -f data/translations.json ]; then
+            git add data/translations.json
+          fi
+          git commit -m "chore: обновить новости $(date -u +'%Y-%m-%d %H:%M UTC')"
+          git push

@@ -1,0 +1,18 @@
+{
+  "name": "mbnp",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "MBNP (My Best NEWSPaper) — агрегатор новостей об ИИ, играх, приставках, автомобилях и Украине",
+  "scripts": {
+    "fetch": "node scripts/fetch-news.mjs",
+    "enrich": "node scripts/enrich-articles.mjs",
+    "translate": "node scripts/translate-news.mjs",
+    "serve": "node scripts/serve.mjs",
+    "dev": "node scripts/fetch-news.mjs && node scripts/serve.mjs"
+  },
+  "dependencies": {
+    "@mozilla/readability": "^0.6.0",
+    "jsdom": "^31.0.0"
+  }
+}
