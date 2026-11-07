@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T09:10:15.449Z",
-  "tookMs": 10441,
+  "generatedAt": "2026-11-07T09:40:15.763Z",
+  "tookMs": 9377,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -24,26 +24,26 @@
     "war": "Война"
   },
   "counts": {
-    "ai": 90,
-    "games": 84,
+    "ai": 91,
+    "games": 85,
     "announces": 25,
     "mobile": 13,
     "releases": 32,
     "rumors": 21,
     "software": 39,
     "science": 45,
-    "entertainment": 75,
-    "ports": 47,
+    "entertainment": 84,
+    "ports": 49,
     "pc": 33,
-    "consoles": 93,
+    "consoles": 94,
     "hardware": 30,
-    "industry": 35,
+    "industry": 37,
     "updates": 24,
     "aimods": 2,
     "aisoft": 45,
-    "cars": 87,
+    "cars": 89,
     "war": 78,
-    "total": 898
+    "total": 916
   },
   "sourceCount": 98,
   "sources": [
@@ -754,6 +754,374 @@
   ],
   "items": [
     {
+      "id": "gh-1428553930",
+      "title": "EvilNathan/gow2-android-build-kit: Sources-only build kit: static-recompilation Android arm64 port of God of War II (USA). No game assets, ISO, generated code, or APK included.",
+      "url": "https://github.com/EvilNathan/gow2-android-build-kit",
+      "excerpt": "Sources-only build kit: static-recompilation Android arm64 port of God of War II (USA). No game assets, ISO, generated code, or APK included.",
+      "image": "",
+      "publishedAt": "2026-11-07T09:26:44Z",
+      "addedAt": "2026-11-07T09:40:10.867Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1448930339",
+      "title": "JoeAfricano/LotusPorts: Seus clássicos, rodando nativos no PC: catálogo, instalação e atualização de ports nativos de jogos clássicos para Windows.",
+      "url": "https://github.com/JoeAfricano/LotusPorts",
+      "excerpt": "Seus clássicos, rodando nativos no PC: catálogo, instalação e atualização de ports nativos de jogos clássicos para Windows.",
+      "image": "",
+      "publishedAt": "2026-11-07T09:19:43Z",
+      "addedAt": "2026-11-07T09:40:10.867Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "1xp3pne",
+      "title": "Краска с алмазной пылью и прозрачная «механика»: чем удивляет последняя Huayra",
+      "url": "https://www.zr.ru/content/news/988165-kraska-s-almaznoj-pylyu-i-koro/",
+      "excerpt": "Pagani представила Huayra 70 Anima — гиперкар к 70-летию Горацио Пагани",
+      "content": "Pagani представила Huayra 70 Anima — гиперкар к 70-летию Горацио Пагани",
+      "image": "https://www.zr.ru/_ah/img/pN_IIAiLmBECGvr9SIv_fA",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/pN_IIAiLmBECGvr9SIv_fA",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T09:35:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-07T09:40:06.386Z"
+    },
+    {
+      "id": "1uawh29",
+      "title": "Студия создателей Star Wars Zero Company сократила штат после недавнего возвращения сотрудников",
+      "url": "https://www.igromania.ru/news/169790/studiya-sozdatelej-star-wars-zero-company-sokratila-shtat-posle-nedavnego-vozvrascheniya-sotrudnikov/",
+      "excerpt": "Студия Bit Reactor, создавшая Star Wars Zero Company, сократила штат. Об этом сообщает портал Bespin Bulletin, ссылаясь на LinkedIn-профили бывших сотрудников. Точное число пострадавших не уточняется.",
+      "content": "Студия Bit Reactor, создавшая Star Wars Zero Company, сократила штат. Об этом сообщает портал Bespin Bulletin, ссылаясь на LinkedIn-профили бывших сотрудников. Точное число пострадавших не уточняется.",
+      "image": "https://newcdn.igromania.ru//r/40b13a775acc1254413f09b20c69f4bc/510x-/newcdn.igromania.ru/articles/pics/tmp/images/2026/11/7/147ca438-39e4-4ff3-8cca-13aa8e325f00.jpg",
+      "images": [
+        {
+          "url": "https://newcdn.igromania.ru//r/40b13a775acc1254413f09b20c69f4bc/510x-/newcdn.igromania.ru/articles/pics/tmp/images/2026/11/7/147ca438-39e4-4ff3-8cca-13aa8e325f00.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T09:34:06.000Z",
+      "sourceId": "igromania",
+      "source": "Игромания",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-07T09:40:06.386Z"
+    },
+    {
+      "id": "scb1jf",
+      "title": "Фэнтезийную стратегию Age of Wonders 4 можно бесплатно опробовать в Steam до 9 ноября",
+      "url": "https://www.playground.ru/age_of_wonders_4/news/fentezijnuyu_strategiyu_age_of_wonders_4_mozhno_besplatno_oprobovat_v_steam_do_9_noyabrya-1888571",
+      "excerpt": "В Steam стартовали бесплатные выходные Age of Wonders 4. До 9 ноября игроки могут опробовать полную версию стратегии без покупки. После окончания акции для продолжения игры потребуется приобрести её.",
+      "content": "В Steam стартовали бесплатные выходные Age of Wonders 4. До 9 ноября игроки могут опробовать полную версию стратегии без покупки. После окончания акции для продолжения игры потребуется приобрести её.",
+      "image": "https://i.playground.ru/e/mEX2pouC-lDvaMD2io0mcg.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/mEX2pouC-lDvaMD2io0mcg.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T09:33:41.000Z",
+      "sourceId": "playground-industry",
+      "source": "Playground Индустрия",
+      "category": "industry",
+      "lang": "ru",
+      "addedAt": "2026-11-07T09:40:06.386Z"
+    },
+    {
+      "id": "1eyarlj",
+      "title": "Кооперативный шутер Payday 3 можно бесплатно опробовать в Steam до 9 ноября",
+      "url": "https://www.playground.ru/payday_3/news/kooperativnyj_shuter_payday_3_mozhno_besplatno_oprobovat_v_steam_do_9_noyabrya-1888570",
+      "excerpt": "Payday 3 можно бесплатно опробовать в Steam до 9 ноября. В рамках акции игроки получили временный доступ к полной версии платного кооперативного шутера без необходимости покупать его.",
+      "content": "Payday 3 можно бесплатно опробовать в Steam до 9 ноября. В рамках акции игроки получили временный доступ к полной версии платного кооперативного шутера без необходимости покупать его.",
+      "image": "https://i.playground.ru/e/HIskM6wu9_cMODwpjTe5dA.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/HIskM6wu9_cMODwpjTe5dA.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T09:30:43.000Z",
+      "sourceId": "playground-industry",
+      "source": "Playground Индустрия",
+      "category": "industry",
+      "lang": "ru",
+      "addedAt": "2026-11-07T09:40:06.386Z"
+    },
+    {
+      "id": "oosgte",
+      "title": "Умерла актриса Лидия Федосеева-Шукшина",
+      "url": "https://www.intermedia.ru/news/407970",
+      "excerpt": "Актриса Лидия Федосеева-Шукшина скончалась 7 ноября 2026 года в возрасте 88 лет в московской больнице, куда попала в октябре в тяжелом...",
+      "content": "Актриса Лидия Федосеева-Шукшина скончалась 7 ноября 2026 года в возрасте 88 лет в московской больнице, куда попала в октябре в тяжелом...",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-07T09:30:00.000Z",
+      "sourceId": "intermedia",
+      "source": "InterMedia",
+      "category": "entertainment",
+      "lang": "ru",
+      "addedAt": "2026-11-07T09:40:06.386Z"
+    },
+    {
+      "id": "tzmlfi",
+      "title": "Бывший глава PlayStation считает, что у портативной PS6 отличные шансы на успех, но есть одно условие",
+      "url": "https://www.playground.ru/misc/news/byvshij_glava_playstation_schitaet_chto_u_portativnoj_ps6_otlichnye_shansy_na_uspeh_no_est_odno_uslovie-1888567",
+      "excerpt": "Бывший глава PlayStation считает, что одновременный выпуск домашней приставки и портативки - это верный путь к провалу.",
+      "content": "Бывший глава PlayStation считает, что одновременный выпуск домашней приставки и портативки - это верный путь к провалу.",
+      "image": "https://i.playground.ru/e/us2Fw_MA2uXuBhYNJOSZJw.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/us2Fw_MA2uXuBhYNJOSZJw.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T09:24:30.000Z",
+      "sourceId": "playground-consoles",
+      "source": "Playground Консоли",
+      "category": "consoles",
+      "lang": "ru",
+      "addedAt": "2026-11-07T09:40:06.386Z"
+    },
+    {
+      "id": "vnzmdu",
+      "title": "Claude Code без Anthropic: заводим агента на GLM-5.3 и Qwen через свой шлюз и собираем грабли",
+      "url": "https://habr.com/ru/articles/1104826/",
+      "excerpt": "Из Беларуси Claude Code официально не работает. Мы делаем ZuBrIQ (zubriq.ai) — шлюз к моделям на LiteLLM с оплатой в BYN — и заставили Claude Code, Codex и OpenCode работать на открытых моделях: GLM-5.3 у провайдера и Qwen3.8-27B на собственных V100. Схема и…",
+      "content": "Из Беларуси Claude Code официально не работает. Мы делаем ZuBrIQ (zubriq.ai) — шлюз к моделям на LiteLLM с оплатой в BYN — и заставили Claude Code, Codex и OpenCode работать на открытых моделях: GLM-5.3 у провайдера и Qwen3.8-27B на собственных V100. Схема и пять граблей: тихий уход в резерв, служебные модели Claude Code, нулевой spend, «слепая» модель и KV-кеш на старом железе.\n\nЧитать далее",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-07T09:17:00.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-07T09:40:06.386Z"
+    },
+    {
+      "id": "1j0wja3",
+      "title": "23 Years Later, Buddy The Elf's Best Line Is Still The Greatest Christmas Quote Ever",
+      "url": "https://www.slashfilm.com/2309713/elf-best-line-greatest-christmas-quote-ever/",
+      "excerpt": "Decades after Jon Favreau's Elf debuted in theaters, one of its best lines is representative of the film's attitude toward Christmas.",
+      "content": "Decades after Jon Favreau's Elf debuted in theaters, one of its best lines is representative of the film's attitude toward Christmas.",
+      "image": "https://www.slashfilm.com/img/gallery/23-years-later-buddy-the-elfs-best-line-is-still-the-greatest-christmas-quote-ever/l-intro-1793993148.jpg",
+      "images": [
+        {
+          "url": "https://www.slashfilm.com/img/gallery/23-years-later-buddy-the-elfs-best-line-is-still-the-greatest-christmas-quote-ever/l-intro-1793993148.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.slashfilm.com/img/gallery/23-years-later-buddy-the-elfs-best-line-is-still-the-greatest-christmas-quote-ever/intro-1793993148.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T09:10:00.000Z",
+      "sourceId": "slashfilm",
+      "source": "SlashFilm",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T09:40:06.386Z"
+    },
+    {
+      "id": "lgnmwx",
+      "title": "5 Years Ago: Benedict Cumberbatch Starred In Netflix's Best Western Movie",
+      "url": "https://www.slashfilm.com/2298784/benedict-cumberbatch-the-power-of-the-dog-netflix-best-western-movie-5-year-anniversary/",
+      "excerpt": "Five years ago, Benedict Cumberbatch led the ensemble cast of Netflix's best Western, one of the very best original films the streamer has ever released.",
+      "content": "Five years ago, Benedict Cumberbatch led the ensemble cast of Netflix's best Western, one of the very best original films the streamer has ever released.",
+      "image": "https://www.slashfilm.com/img/gallery/5-years-ago-benedict-cumberbatch-starred-in-netflixs-best-western-movie/l-intro-1793126933.jpg",
+      "images": [
+        {
+          "url": "https://www.slashfilm.com/img/gallery/5-years-ago-benedict-cumberbatch-starred-in-netflixs-best-western-movie/l-intro-1793126933.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.slashfilm.com/img/gallery/5-years-ago-benedict-cumberbatch-starred-in-netflixs-best-western-movie/intro-1793126933.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T09:10:00.000Z",
+      "sourceId": "slashfilm",
+      "source": "SlashFilm",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T09:40:06.386Z"
+    },
+    {
+      "id": "14vac3x",
+      "title": "Новая система въезда заработает в «Москва-Сити» и «Сколково» с 12 декабря",
+      "url": "https://www.zr.ru/content/news/988164-moskvicham-stanet-proshche-parkova/",
+      "excerpt": "На территории «Москва-Сити» и «Сколково» уберут шлагбаумы, установят автоматические камеры",
+      "content": "На территории «Москва-Сити» и «Сколково» уберут шлагбаумы, установят автоматические камеры",
+      "image": "https://www.zr.ru/_ah/img/2HXctjT-3fWNO88nONA1LA",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/2HXctjT-3fWNO88nONA1LA",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T09:00:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-07T09:40:06.386Z"
+    },
+    {
+      "id": "1dr3o70",
+      "title": "Elijah Wood and Natalia Dyer to star in unexpected, unrequested 1408 sequel",
+      "url": "https://www.avclub.com/elijah-wood-and-natalia-dyer-to-star-in-unexpected-1408-sequel",
+      "excerpt": "Today, in “Why does Elijah Wood keep co-starring in extremely unnecessary sequels to decent horror movies ?” news: Elijah Wood and Stranger Things veteran Natalia Dyer have both signed on to star in a follow-up to 2007 Stephen King adaptation 1408…",
+      "content": "Today, in “Why does Elijah Wood keep co-starring in extremely unnecessary sequels to decent horror movies ?” news: Elijah Wood and Stranger Things veteran Natalia Dyer have both signed on to star in a follow-up to 2007 Stephen King adaptation 1408 . Specifically, Dyer will ( per Variety ) take on the starring role in the unexpected sequel, while Wood will land in a supporting one, with both appearing alongside original stars John Cusack and Samuel L. Jackson.\n\nDetails about the sequel movie, which is being directed by original 1408 director Mikael Håfström, from a script he co-wrote with Mark Verheiden, are being kept quiet. (It feels worth noting that King never wrote a sequel to the original short story, which Håfström already had to stretch out pretty extensively to get to feature length two decades ago.) The fact that Cusack’s character will appear, alongside Jackson’s, in a supporting role, suggests that, of the original film’s various endings, ones where horror writer Mike Enslin survived are likely canon; on the other hand, this is a story centered on a haunted hotel room, so…\n\nReports that a 1408 sequel was in early development began circulating last week. (Building on comments Cusack made last year about how it was one of his only films he thinks deserves a continuation.) Dyer is, of course, still fresh off of Stranger Things , which she starred in for its entire run; Wood most recently popped up on the animated Among Us TV series, and before that, the previously alluded-to Ready Or Not 2 .",
+      "image": "https://www.avclub.com/wp-content/uploads/2026/11/07/1408-feature.jpg",
+      "images": [
+        {
+          "url": "https://www.avclub.com/wp-content/uploads/2026/11/07/1408-feature.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/06201801/1408-lead.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T01:20:59.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T09:40:06.386Z"
+    },
+    {
+      "id": "1mppwug",
+      "title": "Skydance realizes this must be the moment for Larry The Cable Guy's triumphant return",
+      "url": "https://www.avclub.com/larry-the-cable-guy-american-mayhem-paramount-network",
+      "excerpt": "It’s strange, optimistic days in America; a sense that things might finally be on the upturn, after years of feeling like the ghouls and demons infesting the national spirit might have installed themselves, permanently, at the helm. Is it any wonder, then…",
+      "content": "It’s strange, optimistic days in America; a sense that things might finally be on the upturn, after years of feeling like the ghouls and demons infesting the national spirit might have installed themselves, permanently, at the helm. Is it any wonder, then, that minds like those at the Skydance-owned Paramount Network might be a little giddy at the potential of it all, or believe that this might just be the right time to bring an old, semi-forgotten friend back into the forefront of the public consciousness? After all, in the aftermath of “Holy crap, they did it,” what could be more appropriate than a boisterous “Git-r-done!”?\n\nThat’s right: Somehow, Larry The Cable Guy returned. This is per Variety , which reports that comedian Dan Whitney, whose recent credits have basically amounted to a single 2025 Prime Video stand-up special, and whatever Mater work Disney still occasionally requires, has lined up a new gig: A cable version of American Mayhem , a syndicated show he apparently launched last month without having the courtesy to tell the rest of us. Per Variety , this new version of the series will feature 13 brand new episodes, distinct from the 52 that Whitney already banked for a robust syndication package.\n\nFrom a brief perusal, it would be easy to dismiss American Mayhem as “backwoods Ridiculousness .” Which, to be fair, is because it basically is: A bunch of clips culled from the internet, with Whitney providing commentary, catchphrases, and wide-eyed gaping at the camera. Whitney was not shy about his own reasons for taking the job, either, noting in interviews that it makes for a very nice contrast to working as a touring stand-up: “I can do it a mile from my house with greenscreen and I don’t have to go anywhere.” (Honestly: Fair enough.)\n\nThe big question here, obviously, is why Paramount Network decided it needed its own version of the series, launching in a primetime Friday night slot next week; we know the network misses Yellowstone and all, but we’re not sure an America’s Funniest Home Videos knock-off from a guy who did a single-episode cameo on that series is going to scratch the exact same itch.",
+      "image": "https://www.avclub.com/wp-content/uploads/2026/11/07/larry-cable-guy-feature.jpg",
+      "images": [
+        {
+          "url": "https://www.avclub.com/wp-content/uploads/2026/11/07/larry-cable-guy-feature.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/06192239/larry-cable-guy-lead.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T00:22:23.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T09:40:06.386Z"
+    },
+    {
+      "id": "d3tcgg",
+      "title": "John Wick animated prequel movie to finally spare poor Keanu's knees",
+      "url": "https://www.avclub.com/john-wick-animated-prequel-movie-keanu-reeves",
+      "excerpt": "The John Wick franchise ran up pretty hard against the physical limits of star Keanu Reeves a few years back , as the action star revealed that one of the main things stopping a John Wick: Chapter 5 from happening—besides, y’know, the climactic events of John…",
+      "content": "The John Wick franchise ran up pretty hard against the physical limits of star Keanu Reeves a few years back , as the action star revealed that one of the main things stopping a John Wick: Chapter 5 from happening—besides, y’know, the climactic events of John Wick: Chapter 4 —was his 62-year-old body and its 62-year-old knees. Sure, Lionsgate keeps making noises about a fifth mainline Wick movie being in active development , bringing both Reeves and director Chad Stahelski (fresh off his sojourn in Highlander land ) back together. But we haven’t heard much about anything concrete on that front in several months. Now, though, The Wrap reports that at least one of the various side projects and spinoffs surrounding the franchise is moving forward, as Lionsgate gives the green light to an animated film prequel to the original John Wick .\n\nAlthough currently untitled, the film reportedly centers on the biggest question mark in the Baba Yaga’s personal backstory, i.e., the “impossible task” he completed in order to earn his way out of the hitman game for a shot at what turned out to be some extremely short-lived marital bliss. (Darn it, narratively convenient terminal diseases!) And while we’re a bit hesitant at the idea of animated Wick —since the series derives such huge amounts of its joys from the extremely grounded and realistic kinesthetics created by Stahelski’s direction, an incredible fight choreography team, and Reeves’ full-body commitment to the bit—we will admit that this is probably the only way to tell this particular story without committing the genuinely unthinkable sin of recasting Reeves with a younger performer.\n\nPer The Wrap , the film is being directed by Shannon Tindle, a veteran animator whose credits include Samurai Jack , Kubo And The Two Strings , and 2024 Netflix film Ultraman: Rising , and written by Eternals writers Ryan and Kaz Firpo. Stahelski and Reeves are both expected to produce. The project is one of several Wick spinoffs in the works, including Donnie Yen’s Caine , and another potential TV series titled Under The High Table .",
+      "image": "https://img.pastemagazine.com/wp-content/uploads/2022/06/20134333/JohnWick-EpicGames-Main.jpg",
+      "images": [
+        {
+          "url": "https://img.pastemagazine.com/wp-content/uploads/2022/06/20134333/JohnWick-EpicGames-Main.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/uploads/2022/06/20134335/JohnWick-EpicGames-Lead.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-06T23:22:32.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T09:40:06.386Z"
+    },
+    {
+      "id": "8gecfb",
+      "title": "In the trailer for Drag, Lizzy Caplan's bad back bungles break-in",
+      "url": "https://www.avclub.com/drag-trailer-lizzy-caplan-lucy-devito",
+      "excerpt": "What a drag it is robbing homes. Lizzy Caplan learns the importance of stretching and the dangers of bathtubs in the trailer for the upcoming home-invasion comedy Drag . The film follows two sisters, played by Caplan and Lucy DeVito, who break into a…",
+      "content": "What a drag it is robbing homes. Lizzy Caplan learns the importance of stretching and the dangers of bathtubs in the trailer for the upcoming home-invasion comedy Drag . The film follows two sisters, played by Caplan and Lucy DeVito, who break into a luxurious home in rural upstate New York. It’s an easy job until Caplan throws her back out and the homeowner (John Stamos) unexpectedly returns. The trailer teases a home-heist thriller where, as the title implies, DeVito must drag Caplan out of the house without alerting the mysterious owner or his date (Christine Ko).\n\nWritten and directed by Raviv Ullman and Greg Yagolnitzer, Drag is both filmmakers’ first feature. Ullman is an actor from R.J. Decker , Broad City , and Criminal Minds ; Yagolnitzer is a music video director best known for work with Green Day and Weezer. Since premiering at SXSW this year, the film has received solid reviews.\n\n“I think the only option is to drag you out of here,” DeVito says. Trailer editors dream of a line like that. The premise is juicy, but who the sisters are hiding from remains a mystery. Is Stamos a killer? Is his date a stalker? Will DeVito drag Caplan to safety? All will be revealed when the film opens on January 29, 2027.",
+      "image": "https://www.avclub.com/wp-content/uploads/2026/11/06/drag-feature.jpg",
+      "images": [
+        {
+          "url": "https://www.avclub.com/wp-content/uploads/2026/11/06/drag-feature.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/06175558/drag-lead.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-06T22:58:36.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T09:40:06.386Z"
+    },
+    {
+      "id": "16qj0oz",
+      "title": "You now have two years to prepare yourself for the next G.I. Joe movie",
+      "url": "https://www.avclub.com/danny-mcbride-bradley-cooper-g-i-joes-movie-october-2028",
+      "excerpt": "It’s been five long years since Americans were last granted the chance to watch a G.I. Joes movies in theaters. (You remember Snake Eyes , right? We all absolutely remember that there was a G.I. Joes -spinoff Snake Eyes movie put out by Paramount in 2021.)…",
+      "content": "It’s been five long years since Americans were last granted the chance to watch a G.I. Joes movies in theaters. (You remember Snake Eyes , right? We all absolutely remember that there was a G.I. Joes -spinoff Snake Eyes movie put out by Paramount in 2021.) Now, Danny McBride’s passionate pitch to play with the Joes is finally ready to correct this horrific oversight, as Variety confirms the news : You have almost exactly two years to prepare yourselves for another G.I. Joes film.\n\nThis is per a general schedule reshuffle from freshly merged studio behemoth Skydance, which announced that the Joes film—which will both star Bradley Cooper , and serve as McBride’s directorial debut —has now been set for October 20, 2028. And, look, we know: That’s not a lot of time to prepare yourself for all the potential disappointments of this particular franchise, which has skipped like a stone across the American box office for 17 years without ever making a significant impact. But while hearing that Cooper is playing Joes main guy Duke—a character so boring he doesn’t even get his own accent—is kind of a bummer, we have heard McBride give some interviews where he revealed he’s a genuine nut for the weirder aspects of the military franchise. (Including revealing that he initially pitched then-Paramount on a movie based on extremely minor bad guys The Dreadnoks, and his interest in the “American town secretly subverted by Cobra” setting of Springfield .) The upshot of this is that there may, in fact, be some actual ideas in this G.I. Joes movie, which would be an interesting change of pace for those of us who made it through The Rise Of Cobra and Retaliation , if nothing else.\n\nMeanwhile, Skydance also announced—in partnership with the recently renamed Blumhouse Atomic—that it’s also setting a new date for the next film in the Paranormal Activity franchise. Directed by Undertone ‘s Ian Tuason, the film was previously scheduled for May of 2027, but has now been put into prime horror territory with an October 22, 2027 release.",
+      "image": "https://www.avclub.com/wp-content/uploads/2026/11/06/joes-feature.jpg",
+      "images": [
+        {
+          "url": "https://www.avclub.com/wp-content/uploads/2026/11/06/joes-feature.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/06173459/joes-lead.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-06T22:38:31.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T09:40:06.386Z"
+    },
+    {
+      "id": "90qwt",
+      "title": "MST3K pulls off an incredible act of bad movie excavation with The Mummy Theme Park",
+      "url": "https://www.avclub.com/mst3k-rifftrax-experiments-recap-the-mummy-theme-park",
+      "excerpt": "The other day, while scanning a handful of year-in-film pages on Wikipedia for an upcoming feature, I noticed an interesting pattern: Nestled among the more prominent, more memorable, and more influential titles were so, so, so many Mystery Science Theater…",
+      "content": "The other day, while scanning a handful of year-in-film pages on Wikipedia for an upcoming feature, I noticed an interesting pattern: Nestled among the more prominent, more memorable, and more influential titles were so, so, so many Mystery Science Theater 3000 movies. I’ll admit that I’m probably more attuned than most to notice that particular pattern, but it did make me wonder: Were it not for MST3K , would any of these movies— Mitchell , to name just one that I came across—wind up as part of this crowdsourced history of the medium? Beyond all-time turkeys like Robot Monster , Bride Of The Monster , and Mac And Me , I feel like most of what’s been played on the Satellite Of Love would’ve been lost to time if a VHS hadn’t landed in the hands of Frank Conniff or one of his successors in movie-screening for the show. Just consider a case like Manos: The Hands Of Fate , whose legacy, if you can call it that, is due almost entirely to Mystery Science Theater .\n\nDespite the bellyaches of the various filmmakers and actors whose work has wound up on MST3K , the show is an invaluable force for film preservation. Or, if I may be permitted a groaner both worthy of and related to the third RiffTrax Experiment , film excavation. Just when you think you’ve heard of every last so-bad-its-good movie, just when it seems like any future MST3K revivals will be limited to Shout! Factory acquisitions and the legendary sci-fi stinkers finally freed up by the 2023 death of Wade Williams, along comes The Mummy Theme Park with its clunky title, conspicuous dubbing, and scrappy visual ingenuity that screams “special effects guy turned filmmaker.” What a low-rent marvel. What a feast for Mike and the ’bots. What a perfect articulation of the question Joel Hodgson asked himself while reading The Golden Turkey Awards in his college dorm: “‘Why isn’t anyone making shows with these adorable, weird movies?”\n\n“Adorable” doesn’t quite apply to a movie as leering and racist as The Mummy Theme Park —but I would say that it’s charming in its strangeness. It has its parallels to other Italian-produced MST3K movies (those scenes with the Osiris statue are begging for a callback to Donald Pleasance and his Pumaman mask), but it’s also unlike anything else that’s ever been on the show. It fits the same “it’s good when the movie is a little entertaining” bill as Deathsport , but its stabs at ripping off Hollywood blockbusters on a shoestring are far more one-of-one—all those forced-perspective sets alone! The miniatures and the rear projection scenery that make up director Alvaro Passeri’s cartoon vision of Egypt set up some solid riffing—and they’re arguably the closest an MST3K movie has ever come to the production values and art direction of MST3K itself.\n\nPair that with enough directorial acumen, onscreen charisma, and psychedelic experimentation, and you can wind up with something like Nobuhiko Obayashi’s House . Thankfully, The Mummy Theme Park has none of those things, so it leaves a lot of cracks for Servo, Mike, and Crow to spackle over with jokes about the movie’s drip of a lead, the nonsensical workings of the park and the horny mummies at its center, and the subplot about the sheikh’s harem that “feels like the director working something personal out—possibly something prosecutable.” The mummies are great fodder for some Muppet-voiced inner monologue; you can hear the RiffTrax team having a ball with the gross-out vfx, too. I was laughing right along Kevin Murphy and Mike Nelson after Crow’s “Unlike most mummies, I’m juicy!” It’s nice to hear that the guys can still surprise each other after all these years.\n\nAnd it’s nice that the Forrester family still has some surprises left in the vault. And nice to have a few more sketch-comedy beats in the host segments this time around. Did I lead this recap with a Wikipedia-based anecdote because of Crow and Bobo’s editing war over the free encylopedia’s entry on Mary Worth ? Who’s to say. But that opener is a great melding of a contemporary topic with some classic MST3K raised-on-pop-culture minutiae. I wouldn’t have minded spending more time with Grandpa Servo during intermission (or getting the old-time baseball runner there, rather than as a post-credits bonus), but then that would’ve delayed our return to The Mummy Theme Park . And I just had to get back to that Mummy Theme Park . Thankfully, the doors there open extremely slowly.\n\nStray observations\n\n• • I’m running short on time this afternoon, so I’ll come back and fill out the strays with favorite riffs and other notes later. But don’t wait for me to share your favorites down in the comments!",
+      "image": "https://www.avclub.com/wp-content/uploads/2026/11/06/TRU_Mummy_InTheater.jpg",
+      "images": [
+        {
+          "url": "https://www.avclub.com/wp-content/uploads/2026/11/06/TRU_Mummy_InTheater.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/06171755/TRU_Mummy_ThisGuy.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-06T22:18:56.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T09:40:06.386Z"
+    },
+    {
       "id": "gh-1448215310",
       "title": "bassobr/Far-Cry-Instincts-Recomp: Static recompilation of the original Xbox Far Cry Instincts into a native Windows x64 executable (Direct3D 11). Bring your own copy of the game; no game files included.",
       "url": "https://github.com/bassobr/Far-Cry-Instincts-Recomp",
@@ -772,7 +1140,7 @@
       "url": "https://github.com/YodaMMM/NightfirePort",
       "excerpt": "Nightfire Rust: a native Windows PC port of 007: Nightfire (PS2), written in Rust",
       "image": "",
-      "publishedAt": "2026-11-07T09:10:06Z",
+      "publishedAt": "2026-11-07T09:33:28Z",
       "addedAt": "2026-11-07T09:10:09.502Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -783,16 +1151,20 @@
       "id": "1w7b0zs",
       "title": "Умерла Лидия Федосеева-Шукшина",
       "url": "https://meduza.io/news/2026/11/07/umerla-lidiya-fedoseeva-shukshina",
-      "excerpt": "Советская и российская актриса Лидия Федосеева-Шукшина умерла в возрасте 88 лет. О ее смерти 7 ноября сообщила ТАСС дочь артистки. Новость дополняется",
-      "content": "Советская и российская актриса Лидия Федосеева-Шукшина умерла в возрасте 88 лет. О ее смерти 7 ноября сообщила ТАСС дочь артистки.\n\nНовость дополняется",
-      "image": "https://meduza.io/imgly/share/1794042523/news/2026/11/07/umerla-lidiya-fedoseeva-shukshina",
+      "excerpt": "Советская и российская актриса Лидия Федосеева-Шукшина умерла в возрасте 88 лет. О ее смерти 7 ноября сообщила ТАСС дочь артистки. 14 октября Федосееву-Шукшину срочно госпитализировали из-за проблем с сердцем. После этого адвокат актрисы отказалась…",
+      "content": "Советская и российская актриса Лидия Федосеева-Шукшина умерла в возрасте 88 лет. О ее смерти 7 ноября сообщила ТАСС дочь артистки.\n\n14 октября Федосееву-Шукшину срочно госпитализировали из-за проблем с сердцем. После этого адвокат актрисы отказалась подтвердить сообщения телеграм-каналов о том, что у нее неизлечимое заболевание, и говорила, что надеется на ее выздоровление.\n\nФедосеева-Шукшина — народная артистка РСФСР, вдова режиссера Василия Шукшина. За свою карьеру она снялась более чем в 90 фильмах, среди которых «Они сражались за Родину», «12 стульев», «Вам и не снилось…» и «Виват, гардемарины!». Широкую известность ей принесли роли в картинах Шукшина «Печки-лавочки» и «Калина красная».",
+      "image": "https://meduza.io/imgly/share/1794043271/news/2026/11/07/umerla-lidiya-fedoseeva-shukshina",
       "images": [
         {
-          "url": "https://meduza.io/imgly/share/1794042523/news/2026/11/07/umerla-lidiya-fedoseeva-shukshina",
+          "url": "https://meduza.io/imgly/share/1794043271/news/2026/11/07/umerla-lidiya-fedoseeva-shukshina",
           "alt": ""
         },
         {
           "url": "https://meduza.io/image/attachments/images/012/945/397/small/IetibQnRK758DlCTEK6XgA",
+          "alt": ""
+        },
+        {
+          "url": "https://meduza.io/image/attachments/images/012/945/413/small/0ZI0rbMRNs6Haqf0cmY7yQ",
           "alt": ""
         }
       ],
@@ -1479,10 +1851,10 @@
     },
     {
       "id": "1jtoqy4",
-      "title": "Новая система въезда заработает в «Москва-Сити» и «Сколково» с 12 декабря",
+      "title": "Москвичам станет проще парковаться у своего дома на ряде улиц с 25 декабря",
       "url": "https://www.zr.ru/content/news/988156-moskva-city-vyezd/",
-      "excerpt": "На территории «Москва-Сити» и «Сколково» уберут шлагбаумы, установят автоматические камеры",
-      "content": "На территории «Москва-Сити» и «Сколково» уберут шлагбаумы, установят автоматические камеры",
+      "excerpt": "Парковочные тарифы будут скорректированы на ряде улиц Москвы",
+      "content": "Парковочные тарифы будут скорректированы на ряде улиц Москвы",
       "image": "https://www.zr.ru/_ah/img/pRAH__iD-6PZ8VwjzdQeQg",
       "images": [
         {
@@ -1655,7 +2027,7 @@
       "url": "https://github.com/Jstar269/Nakagawa-Recomp",
       "excerpt": "Play PSP games you own as native Windows programs. A static recompiler: add your own disc, build, play. No game data included.",
       "image": "",
-      "publishedAt": "2026-11-07T09:08:24Z",
+      "publishedAt": "2026-11-07T09:29:41Z",
       "addedAt": "2026-11-07T06:50:19.174Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -1668,7 +2040,7 @@
       "url": "https://github.com/valentderah/totk-pc-recomp",
       "excerpt": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
       "image": "",
-      "publishedAt": "2026-11-07T08:46:56Z",
+      "publishedAt": "2026-11-07T09:23:38Z",
       "addedAt": "2026-11-07T06:50:19.174Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -2224,7 +2596,7 @@
       "url": "https://github.com/boburning/portcove",
       "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
       "image": "",
-      "publishedAt": "2026-11-07T09:04:59Z",
+      "publishedAt": "2026-11-07T09:38:56Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -3538,7 +3910,7 @@
       "url": "https://github.com/Lucas-blip-png/dkb-pc-recomp",
       "excerpt": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. The 3D tutorial renders; not playable yet. No game files included.",
       "image": "",
-      "publishedAt": "2026-11-07T08:56:08Z",
+      "publishedAt": "2026-11-07T09:20:02Z",
       "addedAt": "2026-11-07T06:02:57.825Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -11747,8 +12119,8 @@
       "id": "16pilxa",
       "title": "AI is dramatically accelerating AI research",
       "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-      "excerpt": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai Comments URL: https://news.ycombinator.com/item?id=50397994 Points: 291 # Comments: 230",
-      "content": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai\n\nComments URL: https://news.ycombinator.com/item?id=50397994\n\nPoints: 291\n\n# Comments: 230",
+      "excerpt": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai Comments URL: https://news.ycombinator.com/item?id=50397994 Points: 301 # Comments: 237",
+      "content": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai\n\nComments URL: https://news.ycombinator.com/item?id=50397994\n\nPoints: 301\n\n# Comments: 237",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-06T20:27:23.000Z",
@@ -12001,8 +12373,8 @@
       "id": "28imw",
       "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
       "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
-      "excerpt": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution Comments URL: https://news.ycombinator.com/item?id=50397429 Points: 458 # Comments: 106",
-      "content": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution\n\nComments URL: https://news.ycombinator.com/item?id=50397429\n\nPoints: 458\n\n# Comments: 106",
+      "excerpt": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution Comments URL: https://news.ycombinator.com/item?id=50397429 Points: 465 # Comments: 106",
+      "content": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution\n\nComments URL: https://news.ycombinator.com/item?id=50397429\n\nPoints: 465\n\n# Comments: 106",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-06T19:48:51.000Z",
@@ -12060,8 +12432,8 @@
       "id": "qtlkhs",
       "title": "Firecracker VM Escape: PwnEscape Part 2",
       "url": "https://pwn.ai/blog/firecracker-escape",
-      "excerpt": "Article URL: https://pwn.ai/blog/firecracker-escape Comments URL: https://news.ycombinator.com/item?id=50397219 Points: 228 # Comments: 105",
-      "content": "Article URL: https://pwn.ai/blog/firecracker-escape\n\nComments URL: https://news.ycombinator.com/item?id=50397219\n\nPoints: 228\n\n# Comments: 105",
+      "excerpt": "Article URL: https://pwn.ai/blog/firecracker-escape Comments URL: https://news.ycombinator.com/item?id=50397219 Points: 233 # Comments: 105",
+      "content": "Article URL: https://pwn.ai/blog/firecracker-escape\n\nComments URL: https://news.ycombinator.com/item?id=50397219\n\nPoints: 233\n\n# Comments: 105",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-06T19:33:38.000Z",
@@ -14391,8 +14763,8 @@
       "id": "15yabkl",
       "title": "Gemini Omni 1.2 Flash",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "excerpt": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/ Comments URL: https://news.ycombinator.com/item?id=50392118 Points: 329 # Comments: 228",
-      "content": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/\n\nComments URL: https://news.ycombinator.com/item?id=50392118\n\nPoints: 329\n\n# Comments: 228",
+      "excerpt": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/ Comments URL: https://news.ycombinator.com/item?id=50392118 Points: 333 # Comments: 229",
+      "content": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/\n\nComments URL: https://news.ycombinator.com/item?id=50392118\n\nPoints: 333\n\n# Comments: 229",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-06T13:35:27.000Z",
