@@ -979,6 +979,14 @@ async function main() {
     let accepted = 0;
 
     for (const item of items) {
+      // В старых выпусках и части RSS может сохраниться HTML — вычищаем его.
+      if (/<[a-z][\s\S]*>/i.test(item.content || '')) {
+        item.content = makeContent(item.content, item.title);
+      }
+      if (/<[a-z][\s\S]*>/i.test(item.excerpt || '')) {
+        item.excerpt = cleanText(item.excerpt);
+      }
+
       const urlKey = item.url.toLowerCase().replace(/\/$/, '');
       const titleKey = item.title.toLowerCase().replace(/[^\p{L}\p{N}]+/gu, ' ').trim();
 
