@@ -1,5 +1,11 @@
+import { AUTH_CONFIG } from './auth-config.js';
+
 const PAGE_SIZE = 40;
 const AUTO_REFRESH_MS = 10 * 60 * 1000;
+
+const SESSION_KEY = 'mbn:session:v1';
+const GH_TOKEN_KEY = 'mbn:gh-token';
+const INVITES_KEY = 'mbn:invites:v1';
 
 const STORAGE = {
   bookmarks: 'mbn:bookmarks:v1',
@@ -87,6 +93,7 @@ const state = {
   lastAttempt: 0,
   loading: false,
   tabsExpanded: false,
+  started: false,
   deferredPrompt: null,
   readerItem: null,
 };
@@ -145,15 +152,48 @@ const els = {
   digestCategory: document.getElementById('digestCategory'),
   digestList: document.getElementById('digestList'),
   digestCount: document.getElementById('digestCount'),
+  authGate: document.getElementById('authGate'),
+  authForm: document.getElementById('authForm'),
+  authLogin: document.getElementById('authLogin'),
+  authPassword: document.getElementById('authPassword'),
+  authError: document.getElementById('authError'),
+  authRecoveryBtn: document.getElementById('authRecoveryBtn'),
+  authRecovery: document.getElementById('authRecovery'),
+  cabinetBtn: document.getElementById('cabinetBtn'),
+  cabinetDialog: document.getElementById('cabinetDialog'),
+  cabinetCloseBtn: document.getElementById('cabinetCloseBtn'),
+  cabinetDoneBtn: document.getElementById('cabinetDoneBtn'),
+  cabinetToken: document.getElementById('cabinetToken'),
+  createInviteBtn: document.getElementById('createInviteBtn'),
+  revokeInvitesBtn: document.getElementById('revokeInvitesBtn'),
+  cabinetStatus: document.getElementById('cabinetStatus'),
+  inviteList: document.getElementById('inviteList'),
+  logoutBtn: document.getElementById('logoutBtn'),
 };
 
 init();
 
-function init() {
+async function init() {
   applyTheme(getStoredTheme());
-  if (els.translationSelect) els.translationSelect.value = state.translation;
   applyTabsState(false);
   applyLayout();
+  bindAuthEvents();
+
+  const authorized = await initAuth();
+  if (!authorized) {
+    showAuthGate();
+    return;
+  }
+
+  startApp();
+}
+
+function startApp() {
+  if (state.started) return;
+  state.started = true;
+
+  hideAuthGate();
+  if (els.translationSelect) els.translationSelect.value = state.translation;
   bindEvents();
   updateCounts();
   updateHiddenBadge();
@@ -163,6 +203,386 @@ function init() {
 
   if (window.matchMedia('(display-mode: standalone)').matches) {
     els.installBtn.hidden = true;
+  }
+
+  if (isOwner(readSession())) {
+    els.cabinetBtn.hidden = false;
+  }
+}
+
+/* ── Авторизация ──────────────────────────────────────────────────────── */
+
+function readSession() {
+  try {
+    const session = JSON.parse(localStorage.getItem(SESSION_KEY) || 'null');
+    return session && typeof session === 'object' ? session : null;
+  } catch {
+    return null;
+  }
+}
+
+function writeSession(session) {
+  try {
+    localStorage.setItem(SESSION_KEY, JSON.stringify(session));
+  } catch {
+    // Сессия не сохранится между визитами.
+  }
+}
+
+function clearSession() {
+  try {
+    localStorage.removeItem(SESSION_KEY);
+  } catch {
+    // Ничего страшного.
+  }
+}
+
+function isOwner(session) {
+  return session?.login === AUTH_CONFIG.login;
+}
+
+function showAuthError(message) {
+  if (!els.authError) return;
+  els.authError.textContent = message || '';
+  els.authError.hidden = !message;
+}
+
+function showAuthGate(message) {
+  document.body.classList.add('is-locked');
+  if (els.authGate) els.authGate.hidden = false;
+  showAuthError(message);
+  els.authLogin?.focus();
+}
+
+function hideAuthGate() {
+  document.body.classList.remove('is-locked');
+  if (els.authGate) els.authGate.hidden = true;
+}
+
+function clearInviteHash() {
+  if (location.hash.startsWith('#invite=')) {
+    history.replaceState(null, '', `${location.pathname}${location.search}`);
+  }
+}
+
+async function fetchInviteConfig() {
+  try {
+    const response = await fetch(`${AUTH_CONFIG.configUrl}?ts=${Date.now()}`, { cache: 'no-store' });
+    if (!response.ok) return null;
+    return await response.json();
+  } catch {
+    return null;
+  }
+}
+
+async function currentInviteVersion() {
+  const config = await fetchInviteConfig();
+  const version = Number(config?.inviteVersion);
+  return Number.isFinite(version) && version > 0 ? version : AUTH_CONFIG.inviteVersion;
+}
+
+function hexToBytes(hex) {
+  const bytes = new Uint8Array(hex.length / 2);
+  for (let index = 0; index < bytes.length; index += 1) {
+    bytes[index] = Number.parseInt(hex.slice(index * 2, index * 2 + 2), 16);
+  }
+  return bytes;
+}
+
+function bytesToHex(bytes) {
+  return [...bytes].map((byte) => byte.toString(16).padStart(2, '0')).join('');
+}
+
+async function derivePasswordHash(password) {
+  const key = await crypto.subtle.importKey(
+    'raw',
+    new TextEncoder().encode(password),
+    'PBKDF2',
+    false,
+    ['deriveBits'],
+  );
+
+  const bits = await crypto.subtle.deriveBits(
+    {
+      name: 'PBKDF2',
+      salt: hexToBytes(AUTH_CONFIG.salt),
+      iterations: AUTH_CONFIG.iterations,
+      hash: 'SHA-256',
+    },
+    key,
+    256,
+  );
+
+  return bytesToHex(new Uint8Array(bits));
+}
+
+async function verifyCredentials(login, password) {
+  if (login.trim().toLowerCase() !== AUTH_CONFIG.login) return false;
+  const hash = await derivePasswordHash(password);
+  return hash === AUTH_CONFIG.hash;
+}
+
+async function acceptInvite(code) {
+  const match = /^v(\d+)\.([a-z0-9-]+)$/i.exec(code || '');
+  if (!match) return false;
+
+  const version = await currentInviteVersion();
+  if (Number(match[1]) !== version) {
+    clearInviteHash();
+    showAuthGate('Эта ссылка-приглашение больше не действует. Запросите новую у владельца.');
+    return false;
+  }
+
+  writeSession({
+    login: 'guest',
+    invite: code,
+    version,
+    expires: Date.now() + AUTH_CONFIG.sessionDays * 86_400_000,
+  });
+
+  clearInviteHash();
+  return true;
+}
+
+async function initAuth() {
+  const invite = new URLSearchParams(location.hash.slice(1)).get('invite');
+  if (invite && (await acceptInvite(invite))) return true;
+
+  const session = readSession();
+  if (!session) return false;
+
+  if (!Number.isFinite(session.expires) || session.expires < Date.now()) {
+    clearSession();
+    return false;
+  }
+
+  if (!isOwner(session)) {
+    const version = await currentInviteVersion();
+    if (Number(session.version) !== version) {
+      clearSession();
+      showAuthGate('Приглашение аннулировано. Запросите новую ссылку у владельца.');
+      return false;
+    }
+  }
+
+  return true;
+}
+
+function bindAuthEvents() {
+  els.authForm?.addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const login = els.authLogin.value.trim();
+    const password = els.authPassword.value;
+    const button = els.authForm.querySelector('button[type="submit"]');
+
+    if (!login || !password || button?.disabled) return;
+
+    if (button) button.disabled = true;
+    showAuthError('');
+
+    try {
+      if (await verifyCredentials(login, password)) {
+        writeSession({
+          login: AUTH_CONFIG.login,
+          expires: Date.now() + AUTH_CONFIG.sessionDays * 86_400_000,
+        });
+        els.authPassword.value = '';
+        startApp();
+      } else {
+        showAuthError('Неверный логин или пароль.');
+      }
+    } catch {
+      showAuthError('Не удалось проверить пароль. Обновите страницу и попробуйте ещё раз.');
+    } finally {
+      if (button) button.disabled = false;
+    }
+  });
+
+  els.authRecoveryBtn?.addEventListener('click', () => {
+    els.authRecovery.hidden = !els.authRecovery.hidden;
+  });
+
+  els.cabinetBtn?.addEventListener('click', openCabinet);
+  els.cabinetCloseBtn?.addEventListener('click', closeCabinet);
+  els.cabinetDoneBtn?.addEventListener('click', closeCabinet);
+  els.cabinetDialog?.addEventListener('click', (event) => {
+    if (event.target === els.cabinetDialog) closeCabinet();
+  });
+
+  els.createInviteBtn?.addEventListener('click', createInvite);
+  els.revokeInvitesBtn?.addEventListener('click', revokeAllInvites);
+  els.logoutBtn?.addEventListener('click', () => {
+    clearSession();
+    location.reload();
+  });
+
+  els.inviteList?.addEventListener('click', async (event) => {
+    const code = event.target.closest('[data-copy-invite]')?.dataset.copyInvite;
+    if (!code) return;
+
+    try {
+      await navigator.clipboard.writeText(inviteUrl(code));
+      showCabinetStatus('Ссылка скопирована.');
+    } catch {
+      showCabinetStatus('Не удалось скопировать — выделите ссылку вручную.');
+    }
+  });
+}
+
+/* ── Личный кабинет ───────────────────────────────────────────────────── */
+
+function loadInvites() {
+  try {
+    const list = JSON.parse(localStorage.getItem(INVITES_KEY) || '[]');
+    return Array.isArray(list) ? list.filter((entry) => entry?.code) : [];
+  } catch {
+    return [];
+  }
+}
+
+function saveInvites(list) {
+  try {
+    localStorage.setItem(INVITES_KEY, JSON.stringify(list.slice(0, 50)));
+  } catch {
+    // Список не сохранится.
+  }
+}
+
+function inviteUrl(code) {
+  return `${location.origin}${location.pathname}#invite=${code}`;
+}
+
+function randomInviteToken() {
+  const bytes = crypto.getRandomValues(new Uint8Array(9));
+  return [...bytes].map((byte) => byte.toString(36).padStart(2, '0')).join('').slice(0, 14);
+}
+
+function showCabinetStatus(message) {
+  if (!els.cabinetStatus) return;
+  els.cabinetStatus.textContent = message || '';
+  els.cabinetStatus.hidden = !message;
+}
+
+function renderInviteList() {
+  if (!els.inviteList) return;
+
+  const invites = loadInvites();
+  if (invites.length === 0) {
+    els.inviteList.innerHTML = '<li class="invite-empty">Пока нет созданных приглашений.</li>';
+    return;
+  }
+
+  els.inviteList.innerHTML = invites
+    .map(
+      (invite) => `
+        <li class="invite-item">
+          <span class="invite-link" title="${esc(inviteUrl(invite.code))}">${esc(inviteUrl(invite.code))}</span>
+          <button class="invite-copy" type="button" data-copy-invite="${esc(invite.code)}">Копировать</button>
+        </li>
+      `,
+    )
+    .join('');
+}
+
+function openCabinet() {
+  if (!els.cabinetDialog) return;
+  els.cabinetToken.value = localStorage.getItem(GH_TOKEN_KEY) || '';
+  renderInviteList();
+  showCabinetStatus('');
+  if (!els.cabinetDialog.open) els.cabinetDialog.showModal();
+}
+
+function closeCabinet() {
+  if (els.cabinetDialog?.open) els.cabinetDialog.close();
+}
+
+async function createInvite() {
+  if (!els.createInviteBtn) return;
+
+  els.createInviteBtn.disabled = true;
+  showCabinetStatus('Создаю приглашение…');
+
+  try {
+    const version = await currentInviteVersion();
+    const code = `v${version}.${randomInviteToken()}`;
+    const invites = loadInvites();
+    invites.unshift({ code, createdAt: new Date().toISOString() });
+    saveInvites(invites);
+
+    renderInviteList();
+    showCabinetStatus(`Ссылка создана: ${inviteUrl(code)}`);
+
+    try {
+      await navigator.clipboard.writeText(inviteUrl(code));
+      showCabinetStatus('Ссылка создана и скопирована в буфер обмена.');
+    } catch {
+      // Буфер обмена может быть недоступен.
+    }
+  } catch {
+    showCabinetStatus('Не удалось создать приглашение. Попробуйте ещё раз.');
+  } finally {
+    els.createInviteBtn.disabled = false;
+  }
+}
+
+async function revokeAllInvites() {
+  if (!els.revokeInvitesBtn) return;
+
+  const token = els.cabinetToken?.value.trim();
+  if (!token) {
+    showCabinetStatus('Укажите GitHub token — без него нельзя аннулировать приглашения.');
+    return;
+  }
+
+  try {
+    localStorage.setItem(GH_TOKEN_KEY, token);
+  } catch {
+    // Токен не сохранится.
+  }
+
+  els.revokeInvitesBtn.disabled = true;
+  showCabinetStatus('Аннулирую приглашения…');
+
+  const api = 'https://api.github.com/repos/I-Lednev/mbnp/contents/access/config.json';
+  const headers = {
+    authorization: `Bearer ${token}`,
+    accept: 'application/vnd.github+json',
+    'x-github-api-version': '2022-11-28',
+    'user-agent': 'MBNP-Cabinet',
+  };
+
+  try {
+    const get = await fetch(`${api}?ts=${Date.now()}`, { headers, cache: 'no-store' });
+    if (!get.ok) throw new Error(`GitHub HTTP ${get.status}`);
+
+    const current = await get.json();
+    const config = JSON.parse(atob((current.content || '').replace(/\s+/g, '')) || '{}');
+    const next = {
+      ...config,
+      inviteVersion: (Number(config.inviteVersion) || AUTH_CONFIG.inviteVersion) + 1,
+      revoked: [],
+    };
+
+    const put = await fetch(api, {
+      method: 'PUT',
+      headers: { ...headers, 'content-type': 'application/json' },
+      body: JSON.stringify({
+        message: 'chore: аннулировать все приглашения',
+        content: btoa(JSON.stringify(next, null, 2)),
+        sha: current.sha,
+        branch: 'main',
+      }),
+    });
+
+    if (!put.ok) throw new Error(`GitHub HTTP ${put.status}`);
+
+    saveInvites([]);
+    renderInviteList();
+    showCabinetStatus('Все приглашения аннулированы. Старые ссылки больше не действуют.');
+  } catch (error) {
+    showCabinetStatus(`Не удалось аннулировать: ${error.message}. Проверьте токен и права Contents: Read and write.`);
+  } finally {
+    els.revokeInvitesBtn.disabled = false;
   }
 }
 
