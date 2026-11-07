@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T13:10:18.548Z",
-  "count": 857,
+  "generatedAt": "2026-11-07T13:32:05.753Z",
+  "count": 864,
   "articles": {
     "1py56g3": {
       "version": 4,
@@ -21505,6 +21505,210 @@
         }
       ],
       "length": 8880,
+      "imageCount": 1
+    },
+    "gh-1367417480": {
+      "version": 4,
+      "url": "https://github.com/dyzz/srw64-recomp",
+      "fetchedAt": "2026-11-07T13:32:03.595Z",
+      "title": "GitHub - dyzz/srw64-recomp: Unofficial native recompilation of Super Robot Wars 64 for Windows, macOS, Linux/Steam Deck, Android and Switch: Japanese, English, Simplified and Traditional Chinese, Korean, widescreen, optional HD art, mods and bug fixes. Requires your own ROM.",
+      "byline": "",
+      "siteName": "GitHub",
+      "content": "Super Robot Wars 64 — a native recompilation of the 1999 N64 game.\n\nEnglish · 简体中文 · 日本語 · 한국어\n\nWebsite ·\nDownload and install ·\nFAQ ·\nStory ·\nLibrary ·\nGuide\n\nMarchwind 64 is an unofficial native recompilation project for Super Robot Wars 64.\nIt runs natively on Windows, macOS, Linux, Steam Deck, Android and Nintendo Switch, with full English,\nChinese (Simplified and Traditional) and Korean translations and widescreen support, plus an\noptional HD art pack.\nThe Korean translation and Korean title logo are by 테오 (jung5441), CC BY 4.0.\n\nRequires your own Japanese ROM (Super Robot Taisen 64, Rev 0). Neither this\nrepository nor the downloads contain any game data. See\nAbout ROMs.\n\nNative\nEN · 简 · 繁 · KO · JA\nHD and widescreen\nOriginal bug fixes\n\nInstall, add your ROM and play\nFull translations, switchable in game\nSwitch between original and HD art at any time\nEnabled by default, with individual toggles\n\nOriginal and HD graphics\n\nOriginal · 4:3\nMARCHWIND 64 · HD widescreen\n\nLeft: the original 4:3 view, with N64-resolution portraits and maps. Right: Marchwind 64\nwith the HD pack, showing redrawn portraits and world map in 16:9. Switch between\noriginal and HD art at any time in game; both use the same saves.\nInterface and control updates\nBuilt on the N64 original, with updated screens, full translations and control\nimprovements, plus individually selectable bug fixes. All images below are in-game\nscreenshots.\nDialogue reader\n\nAll dialogue is re-typeset in a high-resolution font. Each line runs continuously and\nis paged to fit the text size, avoiding page breaks mid-sentence. Earlier lines can be\nreviewed at any time, and auto-play, fast-forward and skip each have their own\ncontrol, with the current reading mode and controls shown along the bottom of the\nscreen.\n\nReview the last 256 lines, coloured by speaker\nFour auto-play speeds; text size from 10 to 18\nFast-forward and skip work as in modern Super Robot Wars games: hold to fast-forward\nand let go to stop; skip runs through the whole scene to the next choice or battle,\nwith the same result as reading every line\nSwitch language or check the original Japanese at any time; the current line is\nre-typeset at once\nDialogue is stored as plain text files you can edit yourself\n\nModern SRW screens and controls\n\nThe pre-battle screen is redesigned in the style of modern Super Robot Wars games:\ndamage, hit and critical rates for both sides appear side by side with shield and\nbarrier effects, and spirits, weapon selection and the battle animation toggle are\ngrouped below. The tactical map gains the shortcuts modern entries have too.\n\nWhile choosing a destination, jump straight to the farthest reachable squares\nL1/R1 step through your units, L2/R2 through the enemy’s\nStop a battle animation at any time; the result is calculated normally\nThe original screen is also available in settings\n\nMods: music, numbers, names and icons\n\nDrop a .srw64mod file on the game window to install it; on Android, put it in mods/ in\nthe Marchwind64 folder under Files. A package holds data only, no code, and your saves\nkeep the game’s own values, so you can turn a mod off or remove it at any time.\n\nMusic: replace any of the 49 tracks with Ogg files, and pick the song a character or\nunit fights to\nNumbers: unit, pilot and weapon stats, terrain ratings, skills and spirit commands\nNames and portraits: the heroes’, partners’ and unit’s names, any character, unit or\nweapon name, and character portraits\nMap icons and battle voices: one picture replaces a unit’s map icon; a voice plays when\na battle line comes up\nFive makers on the website do it all in the\nbrowser; nothing is uploaded\n\nUp to 4× speed\n\nThe speed key steps through normal, 2×, 3× and 4×: Tab on the keyboard, R4 on the back\nof the Steam Deck, a speed button on phones, or pick one in Options → General. It speeds\nup story scenes on the map, the enemy phase, units moving, battle animations and the\nworld map; your menus, the cursor and the intermission keep the original speed, and the\nmusic keeps its pitch.\n\n3× and 4× need 90 and 120 frames a second; a device that can’t keep up draws every\nother frame while the game logic still runs every frame\nKaraoke, the title demo and the battle viewer always run at normal speed\n\nLink Battler without a Game Boy cartridge\n\nChoose Link in the intermission menu and tick the series: F91, GoShogun and Zambot 3 join\nthrough the original link stages. No Transfer Pak or Game Boy cartridge needed.\n\nConfirmed working from start to finish\nAny combination of the three series\n\nIn-game settings\n\nAdjust language, original or HD graphics, aspect ratio, full screen and interface size\nduring play. You can also toggle individual rule fixes and remap keyboard and\ncontroller inputs.\n\nOpen them at any time in game, or from the button at the bottom right of the title screen\nThree interface sizes: standard, large and largest\n\nRetroArch filters and bezels\n\nUse RetroArch slang shader presets (.slangp) directly for CRT scanlines, NTSC colour and\nmore. At 4:3 you can also add a RetroArch bezel; its transparent window lines up with the\npicture by itself. Both are in Options → General.\n\nNine common presets included, such as crt-lottes, crt-geom, zfast-crt (for handhelds),\nntsc-adaptive and xbrz-freescale\nFinds every slang shader of an installed RetroArch; drop your own presets and bezels in\nthe data folder\nWorks on the original 240 lines (closest to a CRT), 480, 960, or the window’s resolution\nOnly the game picture and dialogue are filtered; the options window, notices and the\nbezel stay sharp\nFilters run on Windows, macOS, Linux/Steam Deck and Android; not on Switch yet\n\nBezel: tv-integer from RetroArch’s own overlays (libretro/common-overlays, CC BY 4.0).\nFilter: crt-lottes at 480 lines. The game ships with no bezels.\nLibrary: 353 units, 293 characters\n\nOrganised by series, with unit stats, terrain ratings, weapons and their fully upgraded\npower, upgrade caps, and each pilot’s growth, spirits and skills. All entries come\ndirectly from the game data.\n\nOpen it from the title screen or during play\nThe same Library is on the website\n\nBattle Viewer\n\nChoose the attacking and defending units and pilots, set the weapon, the defender’s\nreaction, the damage and the scene, then play the full battle animation.\n\nView weapon animations for every unit\nPlays the attacker’s theme, as in the original\n\nBattles in HD\nHigh-resolution art for units, cut-ins, portraits and backgrounds, with the original\nanimation timing and camera work.\n\nEach rule has its own toggle and takes effect immediately, using the same save format.\nSelect “Turn all off” to use the original rules.\nOriginal bug fixes — on by default. Corrections to calculation errors and omissions\nin the original.\n\nESP: hit and evade use the actual skill level (the original always used 64)\nHoly Warrior: evade uses the actual level (the original always used 32)\nLimit: hit and evade, each combined with mobility, are capped by the unit’s limit\nPotential: corrected HP bands, with no bonus at full HP\nPotential: hit and evade bonuses halved, criticals unchanged\nMachine swap: the 3 weapons omitted from the table also retain their upgrades\nHoly Warrior: Hyper Aura Slash grows stronger with the level\n\nConvenience and difficulty — off by default. Optional adjustments to upgrades,\nfunds and battle difficulty.\n\nRaised upgrade cap: every unit can reach 15 levels\nDeparture refund: returns upgrade funds when a unit leaves as part of the story\nParts carry over: enhancement parts move with the pilot to the new machine\nBoss dummies: halve their uses or disable them\nNew Game+: hidden extras you completed in an earlier playthrough join right after the\nstage they first join in\n\nGraphics and interface — new or original. Choose the new or original layout for\neach screen.\n\nPre-battle screen: new, HD original or original\nIntermission, hero selection and title menu: new or original\nArt: HD or original, switchable at any time\nAspect ratio: fill the screen or keep 4:3\nWeapon upgrades: unified (all of a unit’s weapons go up together, at the same total\ncost) or one by one (original)\nBattle animations and autosaves: individual toggles\n\nMore features\n\nRuns natively. The N64 program is recompiled into native code, with graphics\nrendered by RT64. After installation, add your ROM following the setup instructions\nto start playing.\nFull text in five languages. Full English, Simplified Chinese, Traditional Chinese\nand Korean translations alongside the original Japanese. The Korean translation is by\n테오 (jung5441), under CC BY 4.0. Character, unit and weapon names follow common usage\nin each language; Traditional Chinese uses the names used in Taiwan.\nExtra save slots and autosaves. More save slots than the original, with\nautosaves at key points. Export cartridge saves for use with ares, Project64,\nRetroArch and other emulators.\nWidescreen without stretching. Supports screen ratios from 4:3 to 16:9. The\noriginal view stays centred while the scenery extends to the sides, filling the\nscreen without stretching the image.\nHandhelds, phones, controllers. Automatically detects Steam Deck and uses its\nbutton layout with a large interface by default. On Android, touch controls show the\nbuttons needed for the current screen, labelled with their functions, such as “OK”,\n“Fast” and “Next unit”.\nOptional HD art pack. The HD art pack is a separate download for computers and\nAndroid, with one of its own for the Switch. The game uses the original pixel art without it; once installed, you can\nswitch between the two at any time in game.\n\nSystem requirements\nWindows, the Steam Deck, Android and the Switch are experimental. On computers the graphics\nrequirements are the same as other recompilations drawn with RT64; older\nhardware has not been tested.\nWindows (experimental)\nTo keep settings and saves with the game, create a user-data folder beside the\nEXE. Local data takes precedence; normal exit syncs back to AppData, asking and\nbacking up before replacing different saves. Without this folder, existing\nAppData behavior is unchanged. See desktop portable data.\n\nRequirement\n\nOS\nWindows 10 / 11, 64-bit\n\nGraphics\nDirect3D 12 (Shader Model 6.0) or Vulkan 1.2\n\nNVIDIA\nGeForce GT 630 (Kepler) or newer\n\nAMD\nRadeon HD 7750 or newer\n\nIntel\nIntel HD Graphics 510 (6th-gen Core) or newer\n\nCPU\nAn x86-64-v2 processor (1st-gen Intel Core i, AMD FX or newer)\n\nDrivers\nUp-to-date graphics drivers\n\nmacOS\n\nRequirement\n\nOS\nmacOS 14 or later\n\nProcessor\nApple silicon (M1 or later); Intel Macs are not supported\n\nGraphics\nMetal\n\nLinux\nLike Windows, an existing user-data folder beside srw64 enables portable\nsettings and saves with confirmed, backed-up synchronization to the system user\ndirectory on normal exit. See desktop portable data.\n\nRequirement\n\nOS\n64-bit, glibc 2.35 or later (Ubuntu 22.04, Debian 12 or newer)\n\nGraphics\nVulkan 1.2\n\nGPU and CPU\nSame as Windows\n\nDrivers\nUp-to-date Mesa or NVIDIA drivers\n\nSteam Deck (experimental)\nLCD and OLED models on an up-to-date SteamOS. It uses the Linux package; a script adds\nit to Steam, and it is played from Game Mode.\nAndroid (experimental)\n\nRequirement\n\nOS\nAndroid 9 or later\n\nProcessor\narm64 (64-bit)\n\nGraphics\nVulkan 1.1\n\nRecommended\nSnapdragon 865, Dimensity 1080, Exynos 1380, Tensor G2 or newer, about 30 FPS\n\nEntry-level\nDimensity 6100+, Dimensity 700 and similar (Mali-G57) run at about 10–14 FPS\n\nNintendo Switch (experimental)\n\nRequirement\n\nConsole\nA Switch that runs Atmosphère custom firmware (tested on the original model)\n\nSystem\nAtmosphère and hbmenu, in application mode (hold R while starting any game)\n\nSpace\nAbout 110 MB on the SD card, plus about 1.6 GB for the Switch HD pack\n\nExtract it to the SD card's root and put the ROM in /switch/Marchwind64/ as rom.z64. The\nfirst launch imports it on the console in about half a minute. It is an NRO homebrew program,\nwith no NSP; the computers' HD pack does not work on the Switch.\nThe game takes about 165 MB, and the optional HD art pack about 700 MB more. If the game\ncrashes at start or freezes, update your graphics drivers first. Step-by-step\ninstructions for each platform are on the\ninstall page.\nHelp improve the translation\nBrowse the full script by stage, with the\nJapanese original and translation side by side. Suggest changes on individual lines to\nhelp resolve awkward wording or inconsistent names; the outcome of each suggestion is\npublic. Bugs go to GitHub Issues.\nBuilding from source\nThe repository contains no ROM, saves, extracted game data, generated game code, HD art\nor prebuilt application. Put your own Japanese Rev 0 ROM in the repository root as\nrom.z64 (its identity is in provenance).\nOn macOS (Apple silicon) with Python 3.11+ and the Xcode command line tools:\nbrew install python cmake ninja sdl2 freetype harfbuzz icu4c\nmake # toolchain, generated game code and the host\nscripts/Play\\ SRW64\\ Native.command --language en # play\n\nDevelopment guide: build steps, checks and module boundaries\nLinux and Steam Deck build · Releases\nDebug interface and MCP: drive the game from the command line or an AI agent\nTechnical documentation index (mostly in Chinese) · Contributing\n\nCredits\nBuilt on N64Recomp,\nN64ModernRuntime and\nRT64; further sources and pinned revisions are listed in\nprovenance. The interface and dialogue use the HarmonyOS Sans\nfonts, distributed unmodified under their licence (content/fonts), and button icons\nadapted from Yukari “Shinmera” Hafner’s PromptFont under the SIL Open Font License.\nThe Korean translation and Korean title logo are by 테오 (jung5441),\nlicensed under CC BY 4.0; the Korean text uses\nDroid Sans Fallback (Apache License 2.0) and subsets of Nanum Brush Script and Gmarket Sans\n(SIL Open Font License, renamed SRW64 Brush KO and SRW64 Banner KO).\nThis is an unofficial fan project. Super Robot Wars and all related characters, mechanics\nand trademarks belong to their respective rights holders.\nLicense\nThe project’s own source code and tools are licensed under the\nGNU General Public License v3.0 or (at your option) any later version. This\ncovers only what the project wrote. It does not cover Super Robot Wars 64, its ROM, or\nanything taken or derived from it (game code, text, data, images, music), nor the\ncharacters, mechanics and trademarks of their rights holders. The fonts in\ncontent/fonts, the HD image pack (see its NOTICE) and third-party components keep\ntheir own terms.",
+      "images": [
+        {
+          "url": "https://github.com/dyzz/srw64-recomp/raw/main/web/public/brand/title-en.webp",
+          "alt": "MARCHWIND64"
+        },
+        {
+          "url": "https://github.com/dyzz/srw64-recomp/raw/main/web/public/media/compare-original-en.webp",
+          "alt": "Original 4:3 view"
+        },
+        {
+          "url": "https://github.com/dyzz/srw64-recomp/raw/main/web/public/media/compare-hd-en.webp",
+          "alt": "HD widescreen view"
+        },
+        {
+          "url": "https://github.com/dyzz/srw64-recomp/raw/main/web/public/media/auto-en.webp",
+          "alt": "Auto-play"
+        },
+        {
+          "url": "https://github.com/dyzz/srw64-recomp/raw/main/web/public/media/history-en.webp",
+          "alt": "Dialogue history"
+        },
+        {
+          "url": "https://github.com/dyzz/srw64-recomp/raw/main/web/public/media/prebattle-en.webp",
+          "alt": "Pre-battle screen"
+        },
+        {
+          "url": "https://github.com/dyzz/srw64-recomp/raw/main/web/public/media/move-jump.webp",
+          "alt": "Jumping to the farthest square"
+        },
+        {
+          "url": "https://github.com/dyzz/srw64-recomp/raw/main/web/public/media/mods-en.webp",
+          "alt": "Mods"
+        },
+        {
+          "url": "https://github.com/dyzz/srw64-recomp/raw/main/web/public/media/speed-en.webp",
+          "alt": "4× speed on the map"
+        },
+        {
+          "url": "https://github.com/dyzz/srw64-recomp/raw/main/web/public/media/speedset-en.webp",
+          "alt": "Speed setting"
+        },
+        {
+          "url": "https://github.com/dyzz/srw64-recomp/raw/main/web/public/media/link-en.webp",
+          "alt": "Link Battler"
+        },
+        {
+          "url": "https://github.com/dyzz/srw64-recomp/raw/main/web/public/media/settings-en.webp",
+          "alt": "Settings"
+        },
+        {
+          "url": "https://github.com/dyzz/srw64-recomp/raw/main/web/public/media/filters-tv-crt.webp",
+          "alt": "RetroArch bezel with the crt-lottes filter"
+        },
+        {
+          "url": "https://github.com/dyzz/srw64-recomp/raw/main/web/public/media/library-en.webp",
+          "alt": "Library"
+        },
+        {
+          "url": "https://github.com/dyzz/srw64-recomp/raw/main/web/public/media/viewer-en.webp",
+          "alt": "Battle Viewer"
+        },
+        {
+          "url": "https://github.com/dyzz/srw64-recomp/raw/main/web/public/media/cutin-en.webp",
+          "alt": "Cut-in"
+        },
+        {
+          "url": "https://github.com/dyzz/srw64-recomp/raw/main/web/public/media/spin-en.webp",
+          "alt": "Battle"
+        },
+        {
+          "url": "https://github.com/dyzz/srw64-recomp/raw/main/web/public/media/beam-en.webp",
+          "alt": "Beam attack"
+        },
+        {
+          "url": "https://github.com/dyzz/srw64-recomp/raw/main/web/public/media/sekiha-en.webp",
+          "alt": "Battle"
+        }
+      ],
+      "length": 14393,
+      "imageCount": 19
+    },
+    "gh-1449368836": {
+      "version": 4,
+      "url": "https://github.com/kamb205/TNA-iMPACT-Reloaded-PS5",
+      "fetchedAt": "2026-11-07T13:32:03.743Z",
+      "title": "GitHub - kamb205/TNA-iMPACT-Reloaded-PS5: TNA iMPACT! (Xbox 360, 2008) statically recompiled to run natively on jailbroken PS5: 60 fps, up to 1440p, DualSense. Bring your own disc image.",
+      "byline": "",
+      "siteName": "GitHub",
+      "content": "TNA iMPACT! (Xbox 360, Midway, 2008) statically recompiled and running natively on a\njailbroken PlayStation 5, with a hub made for the DualSense.\nThis is not an emulator: the Xbox 360 game is recompiled ahead of time with\nReXGlue and draws through Mesa RADV on the PS5's GPU.\nImportantNo game files are included. You need your own Xbox 360 copy of TNA iMPACT! as a disc\nimage (.iso). The app finds it on your PS5 and reads it in place.\n\nTitle ID: PPSA94007\nVersion: see the release page\nPlatform: jailbroken PS5, firmware 13.60\n\nFeatures\n\n60 fps, using the game's own 60 fps mode, at 720p (the Xbox 360's picture) or 1440p\n(drawn at 2x). 1080p output is also available.\nFSR 1 or CAS upscaling to 4K, 16x anisotropic filtering, optional FXAA / 2x–8x MSAA.\nDualSense: vibration levels (Off / Light / Medium / Full) and a light bar colour (TNA gold\nby default).\nThe hub: Home, Settings and About pages, menu music (R3 for the next song) and an FPS counter.\nBring your own disc image: the hub searches /data/homebrew, /data and your USB drives\nfor an .iso or an extracted folder with default.xex, and remembers your choice.\n\nInstall\nYou need a jailbroken PS5 that runs homebrew apps from /data/homebrew/.\n\nDownload PPSA94007.zip from Releases and unzip it.\nFTP the whole PPSA94007 folder to /data/homebrew/PPSA94007/.\nPut your own disc image (or extracted disc files) where the hub can find it:\n\ncopy TNA iMPACT!.iso into /data/homebrew/PPSA94007/, or\ncopy it to /data/ or a USB drive, or\nextract it (leave out $SystemUpdate) into /data/homebrew/PPSA94007/Assets/, so you have\nAssets/default.xex.\n\nStart TNA iMPACT! Reloaded from your homebrew launcher.\nIf the game isn't found, press Triangle on the Home page to search again. With several\ngames found, Settings › Game files cycles between them.\n\nThe .iso is read in place; you don't have to extract it.\nControls (hub)\n\nButton\nAction\n\nL1 / R1\nprevious / next page\n\nD-pad\nmove; Left / Right changes a setting\n\nCross\nStart Game (Home) / change a setting (Settings)\n\nTriangle\nsearch for your game again (Home)\n\nCircle\nback to Home\n\nOptions\nstart the game from any page\n\nR3\nnext menu song\n\nSettings\nAll settings are saved as you change them in\n/data/homebrew/PPSA94007/UserData/settings.toml and take effect when the game starts:\n\nSetting\nValues\n\nResolution\n720p (original), 1080p, 1440p (recommended)\n\nFrame Rate\n30 fps, 60 fps (original)\n\nAnti-Aliasing\nOff (original), FXAA, 2x, 4x, 8x MSAA\n\nUpscaling\nFSR 1 (recommended), CAS sharpen, bilinear\n\nAnisotropic Filter\nOff, 2x, 4x, 8x, 16x\n\nFPS Counter\nOn, Off\n\nVibration\nOff, Light, Medium, Full\n\nLight Bar\nTNA Gold, Red, Blue, White, System\n\nMenu Music\nOff … 100%\n\nGame files\nyour disc image / game folder\n\nYour own menu music (MP3, WAV, FLAC or OGG) goes in\n/data/homebrew/PPSA94007/hub/music/.\nUpdating\nReplace the PPSA94007 folder with the new release's folder (eboot.bin, sce_sys/,\nsce_module/, hub/). Keep your UserData/ and your game files. After changing the home-screen\nart, the PS5 may keep the old cached icon: also copy icon0/pic0/pic1/pic2 (.dds and\n.png) to /user/appmeta/PPSA94007/.\nKnown issues\n\nOnline / Xbox LIVE is not available.\nSome Xbox button prompts remain in the game's menus (PlayStation button art is partial).\nCAW/Story black character lighting can still occur (under investigation).\n\nReporting problems\nOpen an issue with the newest log from /data/homebrew/PPSA94007/UserData/logs/ and, if there is\none, the crash from UserData/crashes/. Say what you were doing and your firmware version.\nCredits\n\nkamb205 — recompiled TNA iMPACT! and ported it to PS5.\nGitHub · Discord kamsb205 ·\nSupport the port\nMidway Studios Los Angeles — made TNA iMPACT! (2008).\n@elripalda — brought ReXGlue to PS5 and made the hub this port is based on\n(SvR2008-Recomp-PS5, GPL-3.0).\nReXGlue and Xenia — the static recompiler and runtime.\nPS5 Payload SDK, Mesa RADV, plume.\nUnleashedRecomp-Prospero — the DualSense vibration-mode approach.\nAMD FidelityFX FSR 1 (MIT).\nDear ImGui, stb, dr_mp3/dr_flac, Oswald/Inter fonts (OFL).\n\nTNA iMPACT! is Midway Studios Los Angeles' game; all names belong to their owners. This is an\nunofficial fan project, not affiliated with or endorsed by TNA Entertainment, Midway, Microsoft\nor Sony.\nLicense\nGPL-3.0. The hub is based on elripalda's GPL-3.0 PS5 port work; see LICENSE.",
+      "images": [],
+      "length": 4306,
+      "imageCount": 0
+    },
+    "6wlk1t": {
+      "version": 4,
+      "url": "https://www.dw.com/ru/%D0%B5%D0%B2%D1%80%D0%BE%D0%BF%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B5-%D1%81%D0%BF%D0%B5%D1%86%D1%81%D0%BB%D1%83%D0%B6%D0%B1%D1%8B-%D0%B8%D1%89%D1%83%D1%82-%D1%81%D0%B2%D1%8F%D0%B7%D1%8C-%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B8-%D1%81-%D1%83%D0%B3%D1%80%D0%BE%D0%B7%D0%B0%D0%BC%D0%B8-%D1%81%D0%B0%D0%BC%D0%BE%D0%BB%D0%B5%D1%82%D0%B0%D0%BC/a-79884787?maca=rus-rss-ru-all-1126-rdf",
+      "fetchedAt": "2026-11-07T13:32:03.952Z",
+      "title": "Европейские спецслужбы расследуют волну угроз самолетам и проверяют возможный след России",
+      "byline": "Сергей Ромашенко",
+      "siteName": "Deutsche Welle",
+      "content": "Европейские спецслужбы и службы безопасности пытаются установить, могли ли скоординированные угрозы взрывов в самолетах европейских авиакомпаний, поступившие на этой неделе, исходить из России, сообщила в субботу, 7 ноября, лондонская газета The Financial Times (FT) со ссылкой на источники.\n\nНа этой неделе десятки европейских самолетов были выведены из эксплуатации после того, как по электронной почте поступили анонимные сообщения о бомбах на бортах воздушных судов, выполнявших рейсы между европейскими городами. Аналитики называют случившееся крайне необычной атакой.\n\nПо данным представителей разведслужб, сейчас проводится трансграничное расследование с участием европейских спецслужб и органов безопасности, направленное на установление источника угроз. Они подчеркнули, что до конкретных выводов о причастных к этой кампании еще далеко. Один из собеседников отметил, что установление виновных требует кропотливой работы и может занять много времени, а может и вовсе не привести к результату.\n\nВозможный след России\n\nНесмотря на отсутствие окончательных выводов, некоторые представители европейского разведывательного сообщества уверены, что наиболее вероятным виновником является Россия. В качестве аргументов они приводят мотивы, методы, предыдущие подобные случаи и первые криминалистические данные расследования.\n\nУгрозы поступили на фоне усиления гибридной кампании, которую агенты Кремля проводят в Европе в этом году. Одно из основных направлений этой деятельности - использование уязвимостей гражданской инфраструктуры таким образом, чтобы можно было отрицать причастность к атакам. Цель состоит в усилении давления на европейское общество за счет нарушения повседневной жизни и создания впечатления, что правительства не способны защитить своих граждан.\n\nРабочая версия европейских спецслужб, обсуждавших случившееся в последние дни, заключается в том, что скоординированные угрозы могли быть организованы прокремлевскими активистами или хакерскими группировками. Даже если за атакой стояли именно они, остается неясным, какую роль могли играть российские спецслужбы - направляли ли они эту деятельность, поощряли ее или давали на нее разрешение.Угроза для авиации\n\nНа самолетах, ставших целью ложных сообщений, не обнаружили никаких взрывных устройств. Очевидной закономерности в нарушениях авиасообщения пока также не выявлено.\n\nВ этом году гибридная война России в Европе сопровождалась усилением физических диверсий, в том числе применением дронов со взрывчаткой для атак на неподвижные самолеты. До сих пор такие нападения были строго ограничены объектами, которые Россия считает оказывающими военную или логистическую поддержку Украине.\n\n\"В том, какие цели выбирает Россия и насколько далеко она готова зайти, по-прежнему прослеживается определенная логика\", - заявил FT представитель разведки. По его словам, Кремль понимает, что намеренное уничтожение гражданского авиалайнера над Европой станет красной чертой и может спровоцировать военный ответ НАТО.\n\nРеальной опасности пока нет\n\nПредставители спецслужб не считают, что от лиц, стоящих за нынешними угрозами, исходит реальная опасность для европейской гражданской авиации. Тем не менее гражданская авиация Европы уже становилась целью диверсий. Чуть более года назад многочисленные случаи появления беспилотников в воздушных коридорах вблизи крупных европейских аэропортов вызвали масштабные перебои в авиасообщении. Большинство экспертов по безопасности считают, что за этими инцидентами стояли российские агенты.\n\nЛожные сообщения о бомбах тоже не являются новым методом работы российских агентов. В октябре 2023 года целью подобной кампании стали школы и детские сады Литвы. Тогда поступило более 1500 необоснованных сообщений об угрозах взрывов. Кампания была направлена на запугивание населения и подрыв доверия к правоохранительным органам.\n\nСтраны Балтии как испытательный полигон\n\nВильнюс публично возложил ответственность на \"государственного актора\", не называя конкретную страну. В разведывательных кругах, однако, пришли к выводу, что за этим стояли российские активисты, вероятно, действовавшие при поддержке спецслужб Кремля.\n\nСтраны Балтии часто становятся \"испытательным полигоном\" для российских провокаций, отметил представитель региональных служб безопасности. По его словам, Западной Европе теперь приходится сталкиваться с теми видами провокационных атак, которые Россия осуществляет в странах Балтии уже почти два десятилетия.",
+      "images": [
+        {
+          "url": "https://static.dw.com/image/78987434_6.jpg",
+          "alt": ""
+        }
+      ],
+      "length": 4428,
+      "imageCount": 1
+    },
+    "60qge8": {
+      "version": 4,
+      "url": "https://insideevs.com/news/814749/europeans-pay-more-save-carmakers/",
+      "fetchedAt": "2026-11-07T13:32:03.989Z",
+      "error": "HTTP 403"
+    },
+    "1lf8xuq": {
+      "version": 4,
+      "url": "https://www.pravda.com.ua/news/2026/11/07/8061722/",
+      "fetchedAt": "2026-11-07T13:32:04.240Z",
+      "title": "ЗМІ: Фінляндія може встановити протитанкові загородження \"як в Україні\"",
+      "byline": "Іванна Костіна, Роман Петренко",
+      "siteName": "Українська правда",
+      "content": "Фінляндія вивчає можливість встановлення протитанкових перешкод за зразком українських, щоб зміцнити свій кордон із Росією та посилити оборону на східному фланзі НАТО.\n\nДжерело: Bloomberg,\"Європейська правда\"\n\nДеталі: Генерал-лейтенант Пасі Велімакі, командувач фінської армії, заявив в інтерв'ю, що Росія вже почала відновлювати свій військовий потенціал, навіть попри те, що її повномасштабне вторгнення в Україну завершує п'ятий рік.\n\nРеклама:\n\nУ цьому конфлікті ЗСУ використовували розгалужені оборонні лінії та протитанкові загородження, щоб уповільнити нападників. Окупанти не знайшли надійного способу прорвати їх і відновити великомасштабні пересування та маневри, зазначив Велімакі.\n\nФінляндія, яка має спільний кордон з Росією протяжністю 1 340 кілометрів – що становить приблизно половину сухопутного кордону НАТО з цією країною, – мусить визначити, як споруди, подібні до тих, що використовуються в Україні, витримають суворі північні погодні умови.\n\n\"Умови у Фінляндії є складнішими\", – зазначив Велімакі.\n\nРЕКЛАМА:\n\n\"Якщо ми побудуємо укріплення та викопаємо протитанкові рови чи перешкоди такої ж глибини, як в Україні, скільки часу знадобиться, щоб наше середовище перетворило їх на штучні водойми?\" – уточнив він.\n\nЗа його словами, зусилля Росії щодо поповнення своїх запасів озброєння починають давати певні результати: на склади доставляються танки Т-90, бойові машини піхоти БМП-3 та самохідні гаубиці 2С19.\n\nФінляндія не має можливості запобігти цьому переозброєнню. Натомість мета полягає в тому, щоб стримати Росію, переконавши її військових, що напад зазнає поразки, сказав він.\n\n\"Усе, що ми робимо зараз, спрямовано на створення такого бар'єру, щоб Росія не пішла далі, незалежно від того, чи йдеться про альянс, чи про Фінляндію\", – сказав Велімакі.\n\nФінляндія продовжувала практику призову та підтримувала резерви територіальної оборони після закінчення \"холодної війни\", навіть коли багато європейських країн скорочували свої збройні сили. Незважаючи на населення, що становить лише 5,6 мільйона осіб, її збройні сили можуть мобілізувати близько 280 000 військовослужбовців у разі війни.\n\n\"Коли почалася війна в Україні, ми підвищили свою боєготовність і протягом двох років провели перепідготовку 60 000 осіб\", – зазначив Велімакі.\n\nЗараз Фінляндія проводить реорганізацію своїх сухопутних військ, яка триватиме до кінця 2030-х років і охоплюватиме оснащення, структуру збройних сил, боєготовність та здатність до тривалої бойової дії. Основний підхід – стримування нападу завдяки готовності – не змінився, зазначив Велімакі. Змінилися лише необхідні масштаби.",
+      "images": [
+        {
+          "url": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/d/9/952350/d9eaa5b0ef00833115f743e4bbfced7d.jpeg?w=1200&q=85&stamp=1794056096",
+          "alt": ""
+        }
+      ],
+      "length": 2589,
+      "imageCount": 1
+    },
+    "1bv21et": {
+      "version": 4,
+      "url": "https://www.playground.ru/misc/news/nvidia_poprosila_tsmc_zanyatsya_3d_dram_kompaniya_mozhet_vyjti_na_rynok_pamyati-1888606",
+      "fetchedAt": "2026-11-07T13:32:04.836Z",
+      "title": "NVIDIA попросила TSMC заняться 3D DRAM - компания может выйти на рынок памяти",
+      "byline": "Legend_of_the_Hero",
+      "siteName": "Playground",
+      "content": "TSMC рассматривает возможность выхода на рынок передовой оперативной памяти. По данным The Information, крупнейший в мире контрактный производитель полупроводников уже начал прорабатывать планы по выпуску 3D DRAM, причём инициатива появилась по просьбе NVIDIA — крупнейшего клиента компании.\n3D DRAM отличается от традиционной динамической памяти тем, что ячейки располагаются не только в одной плоскости, а формируются вертикальными слоями. Такой подход позволяет повысить плотность памяти без пропорционального увеличения площади кристалла.\nСейчас рынок DRAM фактически контролируют Samsung Electronics, SK Hynix и Micron. Все три компании также работают над собственными технологиями 3D DRAM, поэтому выход TSMC на этот рынок потенциально создаст нового крупного конкурента в следующем поколении памяти.\nПока неизвестно, когда TSMC сможет начать производство и где именно будут выпускаться такие чипы. По данным источников, компания рассматривает несколько вариантов — строительство новой фабрики либо приобретение уже существующего предприятия с последующим переоборудованием под выпуск памяти.\nИнтерес NVIDIA к дополнительным производственным мощностям связывают с продолжающимся ростом спроса на оборудование для искусственного интеллекта. Дефицит памяти уже привёл к росту цен и заставляет крупных разработчиков чипов искать новые источники поставок.\nПри этом для TSMC производство DRAM не является полностью новым направлением. Компания выпускала стандартную память в 1990-х и 2000-х годах и отдельно раскрывала выручку от этого бизнеса вплоть до 2008 года. Однако основным направлением TSMC давно остаётся контрактное производство логических микросхем.\nДополнительный интерес к теме создаёт существующее сотрудничество TSMC и SK Hynix. Ещё в 2024 году компании договорились использовать производственные технологии TSMC для базовых кристаллов следующего поколения HBM. Кроме того, NVIDIA недавно потребовала от поставщиков своей будущей памяти NVHBM использовать 3-нм техпроцесс TSMC для base die.\nПереход к полноценному производству 3D DRAM оказался бы значительно более серьёзным шагом. Он позволил бы TSMC занять ещё большую долю цепочки поставок оборудования для ИИ, но одновременно вывел бы компанию на крайне цикличный рынок памяти, где периоды дефицита традиционно сменяются перепроизводством и падением цен.\nTSMC заявила The Information, что не комментирует рыночные слухи и спекуляции, и подчеркнула, что её основным бизнесом остаётся контрактное производство логических микросхем. NVIDIA официально сообщения о возможном производстве 3D DRAM на мощностях TSMC пока не комментировала.",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/F0d8c22HRXHT_lApsSXT_A.png",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/F0d8c22HRXHT_lApsSXT_A.png?760xauto",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/F0d8c22HRXHT_lApsSXT_A.png.webp?420xauto",
+          "alt": ""
+        }
+      ],
+      "length": 2602,
+      "imageCount": 3
+    },
+    "qwsfv5": {
+      "version": 4,
+      "url": "https://www.intermedia.ru/news/407962",
+      "fetchedAt": "2026-11-07T13:32:05.502Z",
+      "title": "К 75-летию Стаса Намина изданы клавиры группы «Цветы»",
+      "byline": "",
+      "siteName": "",
+      "content": "Четвертая музыкальная премия СТС Kids «СуперЛайкШоу» состоялась на «Live Арене» 1 ноября 2026 года. В этом году премия собрала самый сильный лайнап за всю историю проекта: Милану Хаметову, Viki Show, Марию Янковскую, Betsy, Gazan, Марьяну Локель, Толю Саммера, Steshok, Вау Веронику, AdrenalinHouse и других кумиров нового поколения. От вирусного хита «67 (Six Seven)» до совместного выступления Бэтси, Миланы Хаметовой и Viki Show — на сцене прозвучали песни, которые сегодня определяют музыкальные тренды среди детей и подростков. Уже четвертый год соавтором и соорганизатором премии выступает креативное агентство Kids Project.По традиции программа премии стартовала с розовой дорожки, где зрители могли встретиться со своими кумирами на расстоянии вытянутой руки, сделать совместные фото и получить автографы. В этом году розовая дорожка превратилась в отдельный концерт с выступлениями популярных артистов и блогеров. На сцену вышли Betsy, Viki Show, Steshok, Толя Саммер, Sofi Shine, Кира Бурундук и другие исполнители. Среди звездных гостей появились Милана Хаметова, Gazan, Мария Янковская, Мирослава и Злата Быковы, Марьяна Локель, Вау Вероника, AdrenalinHouse и многие другие. Ведущими розовой дорожки стали Кристи Кристал и Денис Пропалов, Elizabett и Низорчик, Валлери и Арина Жулина.Самой юной артисткой за всю историю «СуперЛайкШоу» стала пятилетняя Кира Бурундук. На розовой дорожке она исполнила свой вирусный хит «Почему», под который пользователи создали уже 3,3 миллиона публикаций в TikTok. А на основной сцене премии Кира впервые в жизни выступила перед многотысячным залом, исполнив вместе с Марией Янковской новый молодежный гимн Москвы «МоскВАУ».Количество звезд и вирусных хитов на сцене «СуперЛайкШоу» зашкаливало: в число хедлайнеров вошел Gazan — один из самых востребованных молодых исполнителей сезона. Он исполнил сразу два трека — «Черемшу» и «67 (Six Seven)». Последний стал настоящим музыкальным феноменом: официальный клип собрал более 50 миллионов просмотров, а пользователи сняли под песню свыше 10 миллионов роликов в TikTok.Среди главных хитов вечера — «Я тебя могну» творческого объединения ЦУ Е ФА, под который всего за полтора месяца сняли более 8,3 миллиона роликов в TikTok. Одним из финальных номеров стало совместное выступление Марьяны Локель, Steshok, Вау Вероники и Макара Давыдова с треком «Лопаю Лайки», официальный клип на который собрал уже более 7,8 миллиона просмотров на YouTube.Сразу с несколькими хитами выступила Betsy. Вместе с младшей сестрой Чибинс она исполнила «Печалик», собравший более двух миллионов просмотров на официальном YouTube-канале артистки, а с Миланой Хаметовой и Viki Show — «Парацетамол», одну из самых ярких музыкальных коллабораций сезона. Серию своих выступлений Бэтси завершила новогодним хитом «Под Новый год». Песня вышла в декабре 2025 года и уже к концу месяца поднялась на вторую строчку чарта Яндекс Музыки, стала самой популярной композицией новогодних праздников по данным сервиса «Звук», а в TikTok под нее создали более миллиона публикаций.Завершил музыкальную программу Толя Саммер — один из самых обсуждаемых молодых исполнителей этого года. Он исполнил вирусный хит «За горами за лесами», который разлетелся по соцсетям и стал одним из самых узнаваемых музыкальных трендов сезона.Вести главное детское музыкальное шоу страны вышли сразу четыре звездные пары: Настя Князева и Вова Левченко, Мария Янковская и Толя Саммер, Марьяна Локель и ВАУ Вероника, а также Никита Шульгин и Маша Денисова из AdrenalinHouse. Одним из самых ожидаемых моментов вечера стало объявление результатов зрительского голосования. В этом году молодые исполнители боролись за награды в пяти главных номинациях:Победители зрительского голосования«Артист года» — Марьяна Локель«Лучший фандом» — Марьяна Локель«Коллаб года» — Бэтси, Милана Хаметова и Viki Show с треком «Парацетамол»«Супертренд года» — ЦУ Е ФА с треком «Я тебя могну»«Лучшая песня» — Gazan, «Six Seven»Победители специальных номинаций«Суперкреатор» — Мирослава и Злата Быковы«Открытие года» — Aleksa Life«Свой стиль» — Даша Самошкина«Любимка в прайме» — Вау Вероника«СуперЛайк Детского радио» — Макар Казарян и Несс Егорова«Открытие VK Видео Детям» — Elizabett«Супершоу» — AdrenalinHouse«СуперТур» — Viki Show«Выбор VK Видео Детям» — Viki Show«Музыкальная роль» — Милана Хаметова«Супермиссия» — Мария Янковская«Лучший блогер (Likee)» — Соня Сафарова«Хитмейкер поколения» — Бэтси«Лучшая подружка СберКота» — Марьяна ЛокельГенеральным партнером премии выступил Сбер. Партнерами проекта также стали VK Видео Детям, бренд кондитерских изделий Baby Fox и частная школа «Лидеры».Информационные партнеры проекта: Likee, Parents, «7 дней», «Мел», «Зум», «ИнтерМедиа», The Girl, «Детское радио», Music Box.Телевизионную версию премии покажут на телеканале СТС Kids 28 ноября в 17:00.",
+      "images": [
+        {
+          "url": "https://cdn1.intermedia.ru/img/news_x350/407962.jpg?t=1793989832",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn1.intermedia.ru/img/news_x400/407958.jpg?t=1793987288",
+          "alt": "предоставлено пресс-службой премии"
+        }
+      ],
+      "length": 4809,
+      "imageCount": 2
+    },
+    "1lgka5a": {
+      "version": 4,
+      "url": "https://www.playground.ru/retro_rewind_video_store_simulator/news/v_simulyatore_videoprokata_iz_90_h_retro_rewind_poyavilis_konsoli_i_kartridzhi_iz_80_h_i_90_h-1888604",
+      "fetchedAt": "2026-11-07T13:32:05.632Z",
+      "title": "В симуляторе видеопроката из 90-х Retro Rewind появились консоли и картриджи из 80-х и 90-х",
+      "byline": "BADR007",
+      "siteName": "Playground",
+      "content": "В популярном экономическом симуляторе Retro Rewind - Video Store Simulator вышло долгожданное крупное обновление.\nИзначально в игре можно было управлять только классическим прокатом видеокассет (VHS), но теперь разработчики добавили возможность продавать и сдавать в аренду подержанные игровые консоли и картриджи. В магазине можно выделить отдельные зоны под ретро-гейминг. Появились узнаваемые аналоги игровых систем (NES/Dendy, Sega Mega Drive, Super Nintendo) и картриджи с играми тех времен.",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/V9iuZgCT4EIFuEUDl0fyuw.png",
+          "alt": ""
+        }
+      ],
+      "length": 496,
       "imageCount": 1
     }
   }

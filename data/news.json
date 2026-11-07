@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T13:10:15.932Z",
-  "tookMs": 9910,
+  "generatedAt": "2026-11-07T13:32:02.194Z",
+  "tookMs": 10559,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -28,22 +28,22 @@
     "games": 95,
     "announces": 26,
     "mobile": 13,
-    "releases": 34,
-    "rumors": 22,
+    "releases": 35,
+    "rumors": 23,
     "software": 41,
     "science": 56,
-    "entertainment": 91,
-    "ports": 74,
+    "entertainment": 92,
+    "ports": 76,
     "pc": 35,
     "consoles": 101,
-    "hardware": 36,
-    "industry": 40,
+    "hardware": 37,
+    "industry": 39,
     "updates": 25,
     "aimods": 2,
     "aisoft": 48,
-    "cars": 100,
-    "war": 90,
-    "total": 1029
+    "cars": 101,
+    "war": 92,
+    "total": 1037
   },
   "sourceCount": 98,
   "sources": [
@@ -760,6 +760,142 @@
   ],
   "items": [
     {
+      "id": "gh-1449368836",
+      "title": "kamb205/TNA-iMPACT-Reloaded-PS5: TNA iMPACT! (Xbox 360, 2008) statically recompiled to run natively on jailbroken PS5: 60 fps, up to 1440p, DualSense. Bring your own disc image.",
+      "url": "https://github.com/kamb205/TNA-iMPACT-Reloaded-PS5",
+      "excerpt": "TNA iMPACT! (Xbox 360, 2008) statically recompiled to run natively on jailbroken PS5: 60 fps, up to 1440p, DualSense. Bring your own disc image.",
+      "image": "",
+      "publishedAt": "2026-11-07T13:30:42Z",
+      "addedAt": "2026-11-07T13:31:56.467Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1367417480",
+      "title": "dyzz/srw64-recomp: Unofficial native recompilation of Super Robot Wars 64 for Windows, macOS, Linux/Steam Deck, Android and Switch: Japanese, English, Simplified and Traditional Chinese, Korean, widescreen, optional HD art, mods and bug fixes. Requires your own ROM.",
+      "url": "https://github.com/dyzz/srw64-recomp",
+      "excerpt": "Unofficial native recompilation of Super Robot Wars 64 for Windows, macOS, Linux/Steam Deck, Android and Switch: Japanese, English, Simplified and Traditional Chinese, Korean, widescreen, optional HD art, mods and bug fixes. Requires your own ROM.",
+      "image": "",
+      "publishedAt": "2026-11-07T13:24:39Z",
+      "addedAt": "2026-11-07T13:31:56.467Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "6wlk1t",
+      "title": "Европейские спецслужбы ищут связь России с угрозами самолетам",
+      "url": "https://www.dw.com/ru/%D0%B5%D0%B2%D1%80%D0%BE%D0%BF%D0%B5%D0%B9%D1%81%D0%BA%D0%B8%D0%B5-%D1%81%D0%BF%D0%B5%D1%86%D1%81%D0%BB%D1%83%D0%B6%D0%B1%D1%8B-%D0%B8%D1%89%D1%83%D1%82-%D1%81%D0%B2%D1%8F%D0%B7%D1%8C-%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B8-%D1%81-%D1%83%D0%B3%D1%80%D0%BE%D0%B7%D0%B0%D0%BC%D0%B8-%D1%81%D0%B0%D0%BC%D0%BE%D0%BB%D0%B5%D1%82%D0%B0%D0%BC/a-79884787?maca=rus-rss-ru-all-1126-rdf",
+      "excerpt": "Европейские спецслужбы расследуют волну анонимных сообщений о бомбах на борту самолетов. Окончательных выводов нет, но часть представителей разведсообщества считает наиболее вероятным источником кампании Россию.",
+      "content": "Европейские спецслужбы расследуют волну анонимных сообщений о бомбах на борту самолетов. Окончательных выводов нет, но часть представителей разведсообщества считает наиболее вероятным источником кампании Россию.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-07T13:24:00.000Z",
+      "sourceId": "dw-ru",
+      "source": "DW Russian",
+      "category": "war",
+      "lang": "ru",
+      "addedAt": "2026-11-07T13:31:51.635Z"
+    },
+    {
+      "id": "1bv21et",
+      "title": "NVIDIA попросила TSMC заняться 3D DRAM - компания может выйти на рынок памяти",
+      "url": "https://www.playground.ru/misc/news/nvidia_poprosila_tsmc_zanyatsya_3d_dram_kompaniya_mozhet_vyjti_na_rynok_pamyati-1888606",
+      "excerpt": "TSMC рассматривает возможность выхода на рынок передовой оперативной памяти. По данным The Information, крупнейший в мире контрактный производитель полупроводников уже начал прорабатывать планы по выпуску 3D DRAM, причём инициатива появилась по просьбе NVIDIA…",
+      "content": "TSMC рассматривает возможность выхода на рынок передовой оперативной памяти. По данным The Information, крупнейший в мире контрактный производитель полупроводников уже начал прорабатывать планы по выпуску 3D DRAM, причём инициатива появилась по просьбе NVIDIA - крупнейшего...",
+      "image": "https://i.playground.ru/e/F0d8c22HRXHT_lApsSXT_A.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/F0d8c22HRXHT_lApsSXT_A.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T13:18:43.000Z",
+      "sourceId": "playground-rumors",
+      "source": "Playground Слухи",
+      "category": "rumors",
+      "lang": "ru",
+      "addedAt": "2026-11-07T13:31:51.635Z"
+    },
+    {
+      "id": "qwsfv5",
+      "title": "К 75-летию Стаса Намина изданы клавиры группы «Цветы»",
+      "url": "https://www.intermedia.ru/news/407962",
+      "excerpt": "Центр Стаса Намина при поддержке Российского музыкального союза выпустил в московском издательстве «Композитор» сборник нот и текстов...",
+      "content": "Центр Стаса Намина при поддержке Российского музыкального союза выпустил в московском издательстве «Композитор» сборник нот и текстов...",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-07T13:13:00.000Z",
+      "sourceId": "intermedia",
+      "source": "InterMedia",
+      "category": "entertainment",
+      "lang": "ru",
+      "addedAt": "2026-11-07T13:31:51.635Z"
+    },
+    {
+      "id": "60qge8",
+      "title": "EV Buyers Could Foot The Bill For Saving Europe’s Carmakers",
+      "url": "https://insideevs.com/news/814749/europeans-pay-more-save-carmakers/",
+      "excerpt": "A new report warns that Europe’s push for homegrown batteries could add €2,100 to an EV’s cost.",
+      "content": "A new report warns that Europe’s push for homegrown batteries could add €2,100 to an EV’s cost.",
+      "image": "https://cdn.motor1.com/images/mgl/4046pK/s3/gm-prismatic-lmr-battery-cell-2.jpg",
+      "images": [
+        {
+          "url": "https://cdn.motor1.com/images/mgl/4046pK/s3/gm-prismatic-lmr-battery-cell-2.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T13:09:25.000Z",
+      "sourceId": "insideevs",
+      "source": "InsideEVs",
+      "category": "cars",
+      "lang": "en",
+      "addedAt": "2026-11-07T13:31:51.635Z"
+    },
+    {
+      "id": "1lf8xuq",
+      "title": "ЗМІ: Фінляндія може встановити протитанкові загородження \"як в Україні\"",
+      "url": "https://www.pravda.com.ua/news/2026/11/07/8061722/",
+      "excerpt": "Фінляндія вивчає можливість встановлення протитанкових перешкод за зразком українських, щоб зміцнити свій кордон із Росією та посилити оборону на східному фланзі НАТО. Джерело : Bloomberg ,\" Європейська правда \" Деталі : Генерал-лейтенант Пасі Велімакі…",
+      "content": "Фінляндія вивчає можливість встановлення протитанкових перешкод за зразком українських, щоб зміцнити свій кордон із Росією та посилити оборону на східному фланзі НАТО.\n\nДжерело : Bloomberg ,\" Європейська правда \"\n\nДеталі : Генерал-лейтенант Пасі Велімакі, командувач фінської армії, заявив в інтерв'ю, що Росія вже почала відновлювати свій військовий потенціал, навіть попри те, що її повномасштабне вторгнення в Україну завершує п'ятий рік.\n\nУ цьому конфлікті ЗСУ використовували розгалужені оборонні лінії та протитанкові загородження, щоб уповільнити нападників. Окупанти не знайшли надійного способу прорвати їх і відновити великомасштабні пересування та маневри, зазначив Велімакі.\n\nФінляндія, яка має спільний кордон з Росією протяжністю 1 340 кілометрів – що становить приблизно половину сухопутного кордону НАТО з цією країною, – мусить визначити, як споруди, подібні до тих, що використовуються в Україні, витримають суворі північні погодні умови.\n\n\"Умови у Фінляндії є складнішими\", – зазначив Велімакі.\n\n\"Якщо ми побудуємо укріплення та викопаємо протитанкові рови чи перешкоди такої ж глибини, як в Україні, скільки часу знадобиться, щоб наше середовище перетворило їх на штучні водойми?\" – уточнив він.\n\nЗа його словами, зусилля Росії щодо поповнення своїх запасів озброєння починають давати певні результати: на склади доставляються танки Т-90, бойові машини піхоти БМП-3 та самохідні гаубиці 2С19.\n\nФінляндія не має можливості запобігти цьому переозброєнню. Натомість мета полягає в тому, щоб стримати Росію, переконавши її військових, що напад зазнає поразки, сказав він.\n\n\"Усе, що ми робимо зараз, спрямовано на створення такого бар'єру, щоб Росія не пішла далі, незалежно від того, чи йдеться про альянс, чи про Фінляндію\", – сказав Велімакі.\n\nФінляндія продовжувала практику призову та підтримувала резерви територіальної оборони після закінчення \"холодної війни\", навіть коли багато європейських країн скорочували свої збройні сили. Незважаючи на населення, що становить лише 5,6 мільйона осіб, її збройні сили можуть мобілізувати близько 280 000 військовослужбовців у разі війни.\n\n\"Коли почалася війна в Україні, ми підвищили свою боєготовність і протягом двох років провели перепідготовку 60 000 осіб\", – зазначив Велімакі.\n\nЗараз Фінляндія проводить реорганізацію своїх сухопутних військ, яка триватиме до кінця 2030-х років і охоплюватиме оснащення, структуру збройних сил, боєготовність та здатність до тривалої бойової дії. Основний підхід – стримування нападу завдяки готовності – не змінився, зазначив Велімакі. Змінилися лише необхідні масштаби.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/d/9/952350/d9eaa5b0ef00833115f743e4bbfced7d.jpeg",
+      "images": [
+        {
+          "url": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/d/9/952350/d9eaa5b0ef00833115f743e4bbfced7d.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T13:09:00.000Z",
+      "sourceId": "pravda",
+      "source": "Ukrainska Pravda",
+      "category": "war",
+      "lang": "uk",
+      "addedAt": "2026-11-07T13:31:51.635Z"
+    },
+    {
+      "id": "1lgka5a",
+      "title": "В симуляторе видеопроката из 90-х Retro Rewind появились консоли и картриджи из 80-х и 90-х",
+      "url": "https://www.playground.ru/retro_rewind_video_store_simulator/news/v_simulyatore_videoprokata_iz_90_h_retro_rewind_poyavilis_konsoli_i_kartridzhi_iz_80_h_i_90_h-1888604",
+      "excerpt": "В популярном экономическом симуляторе Retro Rewind - Video Store Simulator вышло долгожданное крупное обновление.",
+      "content": "В популярном экономическом симуляторе Retro Rewind - Video Store Simulator вышло долгожданное крупное обновление.",
+      "image": "https://i.playground.ru/e/V9iuZgCT4EIFuEUDl0fyuw.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/V9iuZgCT4EIFuEUDl0fyuw.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T13:06:57.000Z",
+      "sourceId": "playground-releases",
+      "source": "Playground Релизы",
+      "category": "releases",
+      "lang": "ru",
+      "addedAt": "2026-11-07T13:31:51.635Z"
+    },
+    {
       "id": "gh-1437443646",
       "title": "exoteric33/ps2-native-recomp: Turns a PS2 disc image into a native PC program by static recompilation; builds on ps2-web-recomp (MIT). Work in progress. Bring your own disc.",
       "url": "https://github.com/exoteric33/ps2-native-recomp",
@@ -789,8 +925,8 @@
       "id": "1f3btgz",
       "title": "Blackouts and water shortages in Kyiv after Russia strikes Ukraine’s energy grid",
       "url": "https://www.theguardian.com/world/2026/nov/07/blackout-water-shortage-kyiv-russia-strike-ukraine-energy-grid",
-      "excerpt": "Moscow used 172 drones and 36 ballistic missiles in attacks on electricity substations and bridge over the Dnipro Volodymyr Zelenskyy has accused Russia of trying to “plunge Kyiv and the entire country into a blackout”, following a major attack overnight on…",
-      "content": "Moscow used 172 drones and 36 ballistic missiles in attacks on electricity substations and bridge over the Dnipro\n\nVolodymyr Zelenskyy has accused Russia of trying to “plunge Kyiv and the entire country into a blackout”, following a major attack overnight on energy infrastructure in the capital and a bridge over the Dnipro River.\n\nUkraine’s president said Moscow’s preparations for peace talks next week involved pummelling a city of millions with ballistic missiles.\n\n..",
+      "excerpt": "Moscow used 172 drones and 36 ballistic missiles in attacks on electricity substations and bridge over the Dnipro Volodymyr Zelenskyy has accused Russia of trying to “plunge Kyiv and the entire country into a blackout”, after a major attack overnight on…",
+      "content": "Moscow used 172 drones and 36 ballistic missiles in attacks on electricity substations and bridge over the Dnipro\n\nVolodymyr Zelenskyy has accused Russia of trying to “plunge Kyiv and the entire country into a blackout”, after a major attack overnight on energy infrastructure in the capital and a bridge over the Dnipro River.\n\nUkraine’s president said Moscow’s preparations for peace talks next week involved pummelling a city of millions with ballistic missiles.\n\n..",
       "image": "https://i.guim.co.uk/img/media/e51e3a880a5661d978f95a21cc47d7489b533135/0_355_4556_3645/master/4556.jpg?width=140&quality=85&auto=format&fit=max&s=3d43b27b3c2c259de81a9207bf8adbd7",
       "images": [
         {
@@ -1089,12 +1225,12 @@
       "id": "11yub58",
       "title": "Издательство Slitherine анонсировало тактическую стратегию Steel Platoon о битве за Москву",
       "url": "https://www.playground.ru/misc/news/izdatelstvo_slitherine_anonsirovalo_takticheskuyu_strategiyu_steel_platoon_o_bitve_za_moskvu-1888600",
-      "excerpt": "",
-      "content": "",
-      "image": "https://i.playground.ru/e/urvig2bSBYUX37Xe4hFUpA.jpeg",
+      "excerpt": "Издательство Slitherine совместно со студией Tactical Move анонсировало военно-историческую тактику в реальном времени Steel Platoon с ролевыми элементами. Страница проекта уже появилась в сервисе Steam вместе с дебютным видеороликом и подборкой скриншотов…",
+      "content": "Издательство Slitherine совместно со студией Tactical Move анонсировало военно-историческую тактику в реальном времени Steel Platoon с ролевыми элементами. Страница проекта уже появилась в сервисе Steam вместе с дебютным видеороликом и подборкой скриншотов игрового процесса. События...",
+      "image": "https://i.playground.ru/e/ta4J_HKTiVV3UZoS36vgVw.jpeg",
       "images": [
         {
-          "url": "https://i.playground.ru/e/urvig2bSBYUX37Xe4hFUpA.jpeg",
+          "url": "https://i.playground.ru/e/ta4J_HKTiVV3UZoS36vgVw.jpeg",
           "alt": ""
         }
       ],
@@ -1634,8 +1770,8 @@
       "id": "1iqgq9j",
       "title": "Every Mac comes with an (undocumented) family member classifier",
       "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 178 # Comments: 91",
-      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 178\n\n# Comments: 91",
+      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 210 # Comments: 104",
+      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 210\n\n# Comments: 104",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T09:46:03.000Z",
@@ -3012,9 +3148,9 @@
         }
       ],
       "publishedAt": "2026-11-07T09:30:43.000Z",
-      "sourceId": "playground-industry",
-      "source": "Playground Индустрия",
-      "category": "industry",
+      "sourceId": "playground-hardware",
+      "source": "Playground Железо",
+      "category": "hardware",
       "lang": "ru",
       "addedAt": "2026-11-07T09:40:06.386Z"
     },
@@ -3291,7 +3427,7 @@
       "url": "https://github.com/bassobr/Far-Cry-Instincts-Recomp",
       "excerpt": "Static recompilation of the original Xbox Far Cry Instincts into a native Windows x64 executable (Direct3D 11). Bring your own copy of the game; no game files included.",
       "image": "",
-      "publishedAt": "2026-11-07T12:31:00Z",
+      "publishedAt": "2026-11-07T13:14:26Z",
       "addedAt": "2026-11-07T09:10:10.285Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -4191,7 +4327,7 @@
       "url": "https://github.com/Jstar269/Nakagawa-Recomp",
       "excerpt": "Play PSP games you own as native Windows programs. A static recompiler: add your own disc, build, play. No game data included.",
       "image": "",
-      "publishedAt": "2026-11-07T11:13:16Z",
+      "publishedAt": "2026-11-07T13:29:43Z",
       "addedAt": "2026-11-07T06:50:19.174Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -4755,6 +4891,32 @@
       "addedAt": "2026-11-07T06:16:14.418Z"
     },
     {
+      "id": "gh-1447268795",
+      "title": "vittau/top-gear-2-genesis-pc: Native PC port of Top Gear 2 (Sega Genesis) via static recompilation: widescreen, true 60 fps, music+SFX together. Bring your own ROM.",
+      "url": "https://github.com/vittau/top-gear-2-genesis-pc",
+      "excerpt": "Native PC port of Top Gear 2 (Sega Genesis) via static recompilation: widescreen, true 60 fps, music+SFX together. Bring your own ROM.",
+      "image": "",
+      "publishedAt": "2026-11-07T13:23:47Z",
+      "addedAt": "2026-11-07T06:09:06.147Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1441366661",
+      "title": "nekomancer01/DarkSoulsPS2: Homebrew PS2 port of Dark Souls Remastered: C/VU1 engine plus exporters that read your own copy of the game (no game data included)",
+      "url": "https://github.com/nekomancer01/DarkSoulsPS2",
+      "excerpt": "Homebrew PS2 port of Dark Souls Remastered: C/VU1 engine plus exporters that read your own copy of the game (no game data included)",
+      "image": "",
+      "publishedAt": "2026-11-07T13:12:01Z",
+      "addedAt": "2026-11-07T06:09:06.147Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
       "id": "gh-1437594480",
       "title": "alfaiotadev/recomp.party: Tracker for playable static recompilations and source ports of classic games",
       "url": "https://github.com/alfaiotadev/recomp.party",
@@ -4787,32 +4949,6 @@
       "excerpt": "Championship Manager 01/02 rebuilt to run natively on Mac, Windows, Linux and Steam Deck. Unofficial fan port.",
       "image": "",
       "publishedAt": "2026-11-07T11:56:21Z",
-      "addedAt": "2026-11-07T06:09:06.147Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
-      "id": "gh-1447268795",
-      "title": "vittau/top-gear-2-genesis-pc: Native PC port of Top Gear 2 (Sega Genesis) via static recompilation: widescreen, true 60 fps, music+SFX together. Bring your own ROM.",
-      "url": "https://github.com/vittau/top-gear-2-genesis-pc",
-      "excerpt": "Native PC port of Top Gear 2 (Sega Genesis) via static recompilation: widescreen, true 60 fps, music+SFX together. Bring your own ROM.",
-      "image": "",
-      "publishedAt": "2026-11-07T08:38:30Z",
-      "addedAt": "2026-11-07T06:09:06.147Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
-      "id": "gh-1441366661",
-      "title": "nekomancer01/DarkSoulsPS2: Homebrew PS2 port of Dark Souls Remastered: C/VU1 engine plus exporters that read your own copy of the game (no game data included)",
-      "url": "https://github.com/nekomancer01/DarkSoulsPS2",
-      "excerpt": "Homebrew PS2 port of Dark Souls Remastered: C/VU1 engine plus exporters that read your own copy of the game (no game data included)",
-      "image": "",
-      "publishedAt": "2026-11-07T07:09:37Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -14537,8 +14673,8 @@
       "id": "28imw",
       "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
       "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
-      "excerpt": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution Comments URL: https://news.ycombinator.com/item?id=50397429 Points: 508 # Comments: 121",
-      "content": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution\n\nComments URL: https://news.ycombinator.com/item?id=50397429\n\nPoints: 508\n\n# Comments: 121",
+      "excerpt": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution Comments URL: https://news.ycombinator.com/item?id=50397429 Points: 513 # Comments: 122",
+      "content": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution\n\nComments URL: https://news.ycombinator.com/item?id=50397429\n\nPoints: 513\n\n# Comments: 122",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-06T19:48:51.000Z",
@@ -14596,8 +14732,8 @@
       "id": "qtlkhs",
       "title": "Firecracker VM Escape: PwnEscape Part 2",
       "url": "https://pwn.ai/blog/firecracker-escape",
-      "excerpt": "Article URL: https://pwn.ai/blog/firecracker-escape Comments URL: https://news.ycombinator.com/item?id=50397219 Points: 254 # Comments: 110",
-      "content": "Article URL: https://pwn.ai/blog/firecracker-escape\n\nComments URL: https://news.ycombinator.com/item?id=50397219\n\nPoints: 254\n\n# Comments: 110",
+      "excerpt": "Article URL: https://pwn.ai/blog/firecracker-escape Comments URL: https://news.ycombinator.com/item?id=50397219 Points: 256 # Comments: 110",
+      "content": "Article URL: https://pwn.ai/blog/firecracker-escape\n\nComments URL: https://news.ycombinator.com/item?id=50397219\n\nPoints: 256\n\n# Comments: 110",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-06T19:33:38.000Z",
@@ -16927,8 +17063,8 @@
       "id": "15yabkl",
       "title": "Gemini Omni 1.2 Flash",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "excerpt": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/ Comments URL: https://news.ycombinator.com/item?id=50392118 Points: 345 # Comments: 233",
-      "content": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/\n\nComments URL: https://news.ycombinator.com/item?id=50392118\n\nPoints: 345\n\n# Comments: 233",
+      "excerpt": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/ Comments URL: https://news.ycombinator.com/item?id=50392118 Points: 347 # Comments: 234",
+      "content": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/\n\nComments URL: https://news.ycombinator.com/item?id=50392118\n\nPoints: 347\n\n# Comments: 234",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-06T13:35:27.000Z",
