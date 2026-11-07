@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T12:52:56.054Z",
-  "tookMs": 8640,
+  "generatedAt": "2026-11-07T13:10:15.932Z",
+  "tookMs": 9910,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -25,25 +25,25 @@
   },
   "counts": {
     "ai": 100,
-    "games": 94,
+    "games": 95,
     "announces": 26,
     "mobile": 13,
     "releases": 34,
     "rumors": 22,
     "software": 41,
-    "science": 55,
-    "entertainment": 89,
-    "ports": 72,
+    "science": 56,
+    "entertainment": 91,
+    "ports": 74,
     "pc": 35,
-    "consoles": 100,
-    "hardware": 35,
+    "consoles": 101,
+    "hardware": 36,
     "industry": 40,
     "updates": 25,
     "aimods": 2,
     "aisoft": 48,
-    "cars": 99,
-    "war": 89,
-    "total": 1019
+    "cars": 100,
+    "war": 90,
+    "total": 1029
   },
   "sourceCount": 98,
   "sources": [
@@ -760,6 +760,212 @@
   ],
   "items": [
     {
+      "id": "gh-1437443646",
+      "title": "exoteric33/ps2-native-recomp: Turns a PS2 disc image into a native PC program by static recompilation; builds on ps2-web-recomp (MIT). Work in progress. Bring your own disc.",
+      "url": "https://github.com/exoteric33/ps2-native-recomp",
+      "excerpt": "Turns a PS2 disc image into a native PC program by static recompilation; builds on ps2-web-recomp (MIT). Work in progress. Bring your own disc.",
+      "image": "",
+      "publishedAt": "2026-11-07T13:06:57Z",
+      "addedAt": "2026-11-07T13:10:10.718Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1413560153",
+      "title": "shaneomac1337/WWE-AllStars-Recomp: Unofficial Windows version of WWE All Stars (Xbox 360), recompiled with ReXGlue. Bring your own disc image.",
+      "url": "https://github.com/shaneomac1337/WWE-AllStars-Recomp",
+      "excerpt": "Unofficial Windows version of WWE All Stars (Xbox 360), recompiled with ReXGlue. Bring your own disc image.",
+      "image": "",
+      "publishedAt": "2026-11-07T13:06:45Z",
+      "addedAt": "2026-11-07T13:10:10.718Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "1f3btgz",
+      "title": "Blackouts and water shortages in Kyiv after Russia strikes Ukraine’s energy grid",
+      "url": "https://www.theguardian.com/world/2026/nov/07/blackout-water-shortage-kyiv-russia-strike-ukraine-energy-grid",
+      "excerpt": "Moscow used 172 drones and 36 ballistic missiles in attacks on electricity substations and bridge over the Dnipro Volodymyr Zelenskyy has accused Russia of trying to “plunge Kyiv and the entire country into a blackout”, following a major attack overnight on…",
+      "content": "Moscow used 172 drones and 36 ballistic missiles in attacks on electricity substations and bridge over the Dnipro\n\nVolodymyr Zelenskyy has accused Russia of trying to “plunge Kyiv and the entire country into a blackout”, following a major attack overnight on energy infrastructure in the capital and a bridge over the Dnipro River.\n\nUkraine’s president said Moscow’s preparations for peace talks next week involved pummelling a city of millions with ballistic missiles.\n\n..",
+      "image": "https://i.guim.co.uk/img/media/e51e3a880a5661d978f95a21cc47d7489b533135/0_355_4556_3645/master/4556.jpg?width=140&quality=85&auto=format&fit=max&s=3d43b27b3c2c259de81a9207bf8adbd7",
+      "images": [
+        {
+          "url": "https://i.guim.co.uk/img/media/e51e3a880a5661d978f95a21cc47d7489b533135/0_355_4556_3645/master/4556.jpg?width=140&quality=85&auto=format&fit=max&s=3d43b27b3c2c259de81a9207bf8adbd7",
+          "alt": ""
+        },
+        {
+          "url": "https://i.guim.co.uk/img/media/e51e3a880a5661d978f95a21cc47d7489b533135/0_355_4556_3645/master/4556.jpg?width=460&quality=85&auto=format&fit=max&s=f7c0d49513a8cd4a1b56fa7711762791",
+          "alt": ""
+        },
+        {
+          "url": "https://i.guim.co.uk/img/media/e51e3a880a5661d978f95a21cc47d7489b533135/0_355_4556_3645/master/4556.jpg?width=700&quality=85&auto=format&fit=max&s=14968f14944040f095e5c88c5ddf98e8",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T13:03:03.000Z",
+      "sourceId": "guardian-ukraine",
+      "source": "The Guardian",
+      "category": "war",
+      "lang": "en",
+      "addedAt": "2026-11-07T13:10:06.022Z"
+    },
+    {
+      "id": "pu93ix",
+      "title": "Why treating soil acidity crop by crop is no longer enough for prairie farmers",
+      "url": "https://phys.org/news/2026-11-soil-acidity-crop-longer-prairie.html",
+      "excerpt": "To protect their future harvests, Western Canadian farmers need to manage soil acidity across their entire multiyear rotation rather than crop by crop, long-term research from the University of Alberta suggests.",
+      "content": "To protect their future harvests, Western Canadian farmers need to manage soil acidity across their entire multiyear rotation rather than crop by crop, long-term research from the University of Alberta suggests.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2025/crop.jpg",
+      "images": [
+        {
+          "url": "https://scx1.b-cdn.net/csz/news/tmb/2025/crop.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T13:00:01.000Z",
+      "sourceId": "physorg",
+      "source": "Phys.org",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-07T13:10:06.022Z"
+    },
+    {
+      "id": "173vlmo",
+      "title": "Here’s How to Watch WWE Crown Jewel 2026 Live Online",
+      "url": "https://variety.com/2026/shopping/news/how-to-watch-wwe-crown-jewel-2026-live-online-free-1236938579/",
+      "excerpt": "After an epic Money in the Bank event with Roman Reigns defeated LA Knight to retain the World Heavyweight Championship, WWE travels to Saudi Arabia for WWE Crown Jewel 2026, a premium live event on Saturday, Nov. 7. The event features four bouts, including…",
+      "content": "After an epic Money in the Bank event with Roman Reigns defeated LA Knight to retain the World Heavyweight Championship, WWE travels to Saudi Arabia for WWE Crown Jewel 2026, a premium live event on Saturday, Nov. 7. The event features four bouts, including three title matches for the Crown Jewel Championship, Women’s Crown Jewel […]",
+      "image": "https://variety.com/wp-content/uploads/2026/11/WWE-Roman-Reigns-Getty-VR-Featured.jpg",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/WWE-Roman-Reigns-Getty-VR-Featured.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T13:00:00.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T13:10:06.022Z"
+    },
+    {
+      "id": "qizk6n",
+      "title": "These 30+ Games Are Coming To Xbox Next Week (November 9-13)",
+      "url": "https://www.purexbox.com/news/2026/11/these-30plus-games-are-coming-to-xbox-next-week-november-9-13",
+      "excerpt": "Including six more Game Pass titles! Welcome to your Xbox games roundup for November 9-13 ! We're really starting to feel the looming presence of GTA 6 now, but before we get there, the likes of Shrek 2 Remastered , Raccoin: Chaos Max Edition, Football…",
+      "content": "Including six more Game Pass titles!\n\nWelcome to your Xbox games roundup for November 9-13 ! We're really starting to feel the looming presence of GTA 6 now, but before we get there, the likes of Shrek 2 Remastered , Raccoin: Chaos Max Edition, Football Manager 27 and loads of Xbox Game Pass titles are all on the way to keep us busy!\n\nHere's what's coming to Xbox next week:\n\nRead the full article on purexbox.com",
+      "image": "https://images.purexbox.com/07531f5886ce0/small.jpg",
+      "images": [
+        {
+          "url": "https://images.purexbox.com/07531f5886ce0/small.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://images.purexbox.com/07531f5886ce0/large.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T13:00:00.000Z",
+      "sourceId": "purexbox",
+      "source": "Pure Xbox",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-07T13:10:06.022Z"
+    },
+    {
+      "id": "9m3s5i",
+      "title": "TSMC denies exploring 3D DRAM at Nvidia's request",
+      "url": "https://www.tomshardware.com/pc-components/dram/tsmc-denies-exploring-3d-dram-at-nvidias-request-advanced-memory-tech-is-still-years-from-market-viability",
+      "excerpt": "A recent report from The Information suggested that TSMC is exploring 3D DRAM production at Nvidia's request as surging demand for AI hardware strains global DRAM supplies and drives up prices. If the proposal were to come to fruition, it could mean a new…",
+      "content": "A recent report from The Information suggested that TSMC is exploring 3D DRAM production at Nvidia's request as surging demand for AI hardware strains global DRAM supplies and drives up prices. If the proposal were to come to fruition, it could mean a new, albeit prone to cyclical risks, business for TSMC and could dramatically expand its role in the AI supply chain. For its part, TSMC states that it is a pure-play logic foundry and plans to remain a logic foundry, which essentially means a denial of the report.\n\nGo deeper with TH Premium: Memory\n\n• AI data centers are swallowing the world's memory and storage supply\n\n• Samsung debuts three next-generation memory technologies for AI data centers\n\n• The future of DRAM: From DDR5 to future ICs\n\n• High-bandwidth memory roadmap\n\n• Inside the history of DRAM price-fixing lawsuits\n\n\"Please note that TSMC focuses on our core business at all times, which is dedicated IC foundry,\" a TSMC spokesperson told Tom's Hardware. \"Our mission is to be the trusted technology and capacity provider of the global logic IC industry for years to come.\"\n\nDespite the denial, according to two people familiar with the initiative cited by The Information , TSMC has begun preparing plans for 3D DRAM manufacturing following a request from Nvidia, its largest customer. The initiative is reportedly overseen by Hsu Kuo-chin, TSMC’s vice president responsible for advanced packaging and former head of Micron’s Taiwanese operations. The effort comes amid widespread memory shortages that turned memory from a commodity into a strategic asset that could determine whether a company can ship its products to customers or not.\n\nAlthough TSMC works closely with DRAM producers as it packages memory into system-in-packages (SiPs) for its customers, the company lacks the expertise and production capacity to make DRAM, let alone 3D DRAM. Meanwhile, given that 3D DRAM is years away even for major memory makers, pursuing a 3D DRAM strategy cannot solve memory shortages for at least five years.\n\nUnlike conventional DRAM, which arranges memory cells in a single plane, 3D DRAM places multiple levels of memory cells vertically to increase capacity per wafer. All three leading DRAM makers — Micron, Samsung, and SK hynix — are working on their 3D DRAM projects. However, Micron's DRAM strategy includes at least four more planar DRAM process technologies before 3D DRAM becomes a reality .\n\nWhile TSMC has arguably the industry's best logic process technologies, DRAM production requires entirely different manufacturing processes, which TSMC would have to develop, should it pursue making memory for its customers. Meanwhile, producing 3D DRAM requires completely different fabrication techniques to construct multiple memory-cell layers while controlling defects and maintaining acceptable yields. It is hardly possible to develop a 3D DRAM manufacturing process without having a competitive planar DRAM process technology, and TSMC does not have one.\n\nOne of the options for TSMC to enter the DRAM business would be to acquire a small specialty memory producer that has its own fabrication capability. This would give TSMC a credible route into advanced DRAM manufacturing without having to develop the underlying memory technology and IPs from scratch. However, small makers do not have leading-edge commodity DRAM nodes, so TSMC would still need to invest billions of dollars and years of R&D into development of a leading-edge process technology for DRAM.\n\nHowever, entering DRAM manufacturing would expose TSMC to substantial market risks. Memory shortages frequently encourage capacity expansions that eventually create oversupply, depressing prices and profitability. Such uncertainty could surely make TSMC think twice before going down the DRAM route. Furthermore, entering the DRAM business could also complicate TSMC's relationship with large DRAM makers in general, and SK Hynix, which partnered with the foundry in 2024 to manufacture logic base dies for next-generation HBM products, in particular.\n\nTSMC’s potential entry into DRAM manufacturing could also raise antitrust questions, particularly if the company combines its dominant position in leading-edge logic manufacturing, leading position in advanced chip packaging, and ramping memory production. Regulators could examine whether such vertical integration would enable TSMC to favor its own memory products or disadvantage competitors that lack such a vertical integration. Then again, in-house DRAM development by TSMC could also strengthen competition by introducing another supplier into a market dominated by just three manufacturers.\n\nYet, TSMC does not necessarily need to manufacture DRAM to capitalize on growing demand for advanced memory. Instead, it could capture a larger share of the value generated by DRAM by producing sophisticated logic base dies for HBM, integrating memory with processors using its SoIC hybrid bonding technology, and developing customized memory solutions with partners such as GUC and established DRAM manufacturers. This approach would allow TSMC to expand its presence in the advanced memory market without investing billions of dollars in developing competitive DRAM process technologies from scratch and/or building additional fabs for tens of billions of dollars.",
+      "image": "https://cdn.mos.cms.futurecdn.net/inWCPzXNVFbyYDRmxtthn3-1920-80.jpg",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/inWCPzXNVFbyYDRmxtthn3-1920-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/xi79WuWDZXzix4Fc7sXNMn-1920-80.png",
+          "alt": "HBM3E vs HBM4"
+        }
+      ],
+      "publishedAt": "2026-11-07T13:00:00.000Z",
+      "sourceId": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "hardware",
+      "lang": "en",
+      "addedAt": "2026-11-07T13:10:06.022Z"
+    },
+    {
+      "id": "1pvgqf2",
+      "title": "Рама и полный привод: в продаже появится новый доступный пикап известной марки",
+      "url": "https://www.zr.ru/content/news/988019-pokupatelyam-pikapov-sollers-st/",
+      "excerpt": "Новый полноприводный пикап Sollers ST7 скоро появится на российском рынке",
+      "content": "Новый полноприводный пикап Sollers ST7 скоро появится на российском рынке",
+      "image": "https://www.zr.ru/_ah/img/-LLkMLAzgjS3b99p0_nstg",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/-LLkMLAzgjS3b99p0_nstg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T13:00:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-07T13:10:06.022Z"
+    },
+    {
+      "id": "1olid4j",
+      "title": "One Of Daredevil's Most Important Characters Was Only Supposed To Appear Once",
+      "url": "https://www.slashfilm.com/2303819/daredevil-important-character-only-supposed-appear-once-elektra/",
+      "excerpt": "Frank Miller created this essential Daredevil character for Marvel Comics, although he originally only intended to include them in a single story.",
+      "content": "Frank Miller created this essential Daredevil character for Marvel Comics, although he originally only intended to include them in a single story.",
+      "image": "https://www.slashfilm.com/img/gallery/one-of-daredevils-most-important-characters-was-only-supposed-to-appear-once/l-intro-1793630674.jpg",
+      "images": [
+        {
+          "url": "https://www.slashfilm.com/img/gallery/one-of-daredevils-most-important-characters-was-only-supposed-to-appear-once/l-intro-1793630674.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.slashfilm.com/img/gallery/one-of-daredevils-most-important-characters-was-only-supposed-to-appear-once/intro-1793630674.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T12:45:00.000Z",
+      "sourceId": "slashfilm",
+      "source": "SlashFilm",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T13:10:06.022Z"
+    },
+    {
+      "id": "ubvpjj",
+      "title": "Live action трейлер к запуску Stellar Blade на Switch 2",
+      "url": "https://stopgame.ru/newsdata/73415/live_action_trailer_k_zapusku_stellar_blade_na_switch_2",
+      "excerpt": "Студия Shift Up перенесла экшен-адвенчуру Stellar Blade на вторую Nintendo Switch. В честь релиза корейцы выложили забавный ролик.… […]",
+      "content": "Студия Shift Up перенесла экшен-адвенчуру Stellar Blade на вторую Nintendo Switch. В честь релиза корейцы выложили забавный ролик.… […]",
+      "image": "https://images.stopgame.ru/news/2026/11/06/SQJmlpQj4.jpg",
+      "images": [
+        {
+          "url": "https://images.stopgame.ru/news/2026/11/06/SQJmlpQj4.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-06T18:43:17.000Z",
+      "sourceId": "stopgame",
+      "source": "StopGame",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-07T13:10:06.022Z"
+    },
+    {
       "id": "8io99y",
       "title": "Нейросети в MAX за рубли: что решить до первого платежа",
       "url": "https://habr.com/ru/articles/1104888/",
@@ -1428,8 +1634,8 @@
       "id": "1iqgq9j",
       "title": "Every Mac comes with an (undocumented) family member classifier",
       "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 166 # Comments: 80",
-      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 166\n\n# Comments: 80",
+      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 178 # Comments: 91",
+      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 178\n\n# Comments: 91",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T09:46:03.000Z",
@@ -4549,12 +4755,25 @@
       "addedAt": "2026-11-07T06:16:14.418Z"
     },
     {
+      "id": "gh-1437594480",
+      "title": "alfaiotadev/recomp.party: Tracker for playable static recompilations and source ports of classic games",
+      "url": "https://github.com/alfaiotadev/recomp.party",
+      "excerpt": "Tracker for playable static recompilations and source ports of classic games",
+      "image": "",
+      "publishedAt": "2026-11-07T13:07:38Z",
+      "addedAt": "2026-11-07T06:09:06.147Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
       "id": "gh-1354613114",
       "title": "boburning/portcove: Local-first manager for decompilations, recompilations, and native PC ports.",
       "url": "https://github.com/boburning/portcove",
       "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
       "image": "",
-      "publishedAt": "2026-11-07T12:38:45Z",
+      "publishedAt": "2026-11-07T13:02:59Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -4594,19 +4813,6 @@
       "excerpt": "Homebrew PS2 port of Dark Souls Remastered: C/VU1 engine plus exporters that read your own copy of the game (no game data included)",
       "image": "",
       "publishedAt": "2026-11-07T07:09:37Z",
-      "addedAt": "2026-11-07T06:09:06.147Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
-      "id": "gh-1437594480",
-      "title": "alfaiotadev/recomp.party: Tracker for playable static recompilations and source ports of classic games",
-      "url": "https://github.com/alfaiotadev/recomp.party",
-      "excerpt": "Tracker for playable static recompilations and source ports of classic games",
-      "image": "",
-      "publishedAt": "2026-11-07T06:03:38Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -14077,8 +14283,8 @@
       "id": "16pilxa",
       "title": "AI is dramatically accelerating AI research",
       "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-      "excerpt": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai Comments URL: https://news.ycombinator.com/item?id=50397994 Points: 328 # Comments: 289",
-      "content": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai\n\nComments URL: https://news.ycombinator.com/item?id=50397994\n\nPoints: 328\n\n# Comments: 289",
+      "excerpt": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai Comments URL: https://news.ycombinator.com/item?id=50397994 Points: 330 # Comments: 292",
+      "content": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai\n\nComments URL: https://news.ycombinator.com/item?id=50397994\n\nPoints: 330\n\n# Comments: 292",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-06T20:27:23.000Z",
@@ -14331,8 +14537,8 @@
       "id": "28imw",
       "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
       "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
-      "excerpt": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution Comments URL: https://news.ycombinator.com/item?id=50397429 Points: 507 # Comments: 121",
-      "content": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution\n\nComments URL: https://news.ycombinator.com/item?id=50397429\n\nPoints: 507\n\n# Comments: 121",
+      "excerpt": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution Comments URL: https://news.ycombinator.com/item?id=50397429 Points: 508 # Comments: 121",
+      "content": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution\n\nComments URL: https://news.ycombinator.com/item?id=50397429\n\nPoints: 508\n\n# Comments: 121",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-06T19:48:51.000Z",
@@ -14390,8 +14596,8 @@
       "id": "qtlkhs",
       "title": "Firecracker VM Escape: PwnEscape Part 2",
       "url": "https://pwn.ai/blog/firecracker-escape",
-      "excerpt": "Article URL: https://pwn.ai/blog/firecracker-escape Comments URL: https://news.ycombinator.com/item?id=50397219 Points: 253 # Comments: 110",
-      "content": "Article URL: https://pwn.ai/blog/firecracker-escape\n\nComments URL: https://news.ycombinator.com/item?id=50397219\n\nPoints: 253\n\n# Comments: 110",
+      "excerpt": "Article URL: https://pwn.ai/blog/firecracker-escape Comments URL: https://news.ycombinator.com/item?id=50397219 Points: 254 # Comments: 110",
+      "content": "Article URL: https://pwn.ai/blog/firecracker-escape\n\nComments URL: https://news.ycombinator.com/item?id=50397219\n\nPoints: 254\n\n# Comments: 110",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-06T19:33:38.000Z",
@@ -16721,8 +16927,8 @@
       "id": "15yabkl",
       "title": "Gemini Omni 1.2 Flash",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "excerpt": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/ Comments URL: https://news.ycombinator.com/item?id=50392118 Points: 344 # Comments: 233",
-      "content": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/\n\nComments URL: https://news.ycombinator.com/item?id=50392118\n\nPoints: 344\n\n# Comments: 233",
+      "excerpt": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/ Comments URL: https://news.ycombinator.com/item?id=50392118 Points: 345 # Comments: 233",
+      "content": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/\n\nComments URL: https://news.ycombinator.com/item?id=50392118\n\nPoints: 345\n\n# Comments: 233",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-06T13:35:27.000Z",
