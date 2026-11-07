@@ -30,7 +30,7 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="icons/icon-192.png" />
-    <link rel="stylesheet" href="styles.css?v=21" />
+    <link rel="stylesheet" href="styles.css?v=22" />
   </head>
   <body>
     <div class="app">
@@ -79,6 +79,17 @@
           <button id="refreshBtn" class="icon-btn" type="button" aria-label="Обновить новости" title="Обновить">
             <svg viewBox="0 0 24 24" fill="none" aria-hidden="true">
               <path d="M20 11a8 8 0 1 0-2.3 6.3M20 5v6h-6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" />
+            </svg>
+          </button>
+          <button id="layoutBtn" class="icon-btn layout-btn" type="button" aria-pressed="false" aria-label="Показать по две карточки в ряд" title="Крупные карточки">
+            <svg class="layout-icon layout-icon-compact" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <rect x="3" y="3" width="8" height="8" rx="2" stroke="currentColor" stroke-width="1.7" />
+              <rect x="13" y="3" width="8" height="8" rx="2" stroke="currentColor" stroke-width="1.7" />
+              <rect x="3" y="13" width="8" height="8" rx="2" stroke="currentColor" stroke-width="1.7" />
+              <rect x="13" y="13" width="8" height="8" rx="2" stroke="currentColor" stroke-width="1.7" />
+            </svg>
+            <svg class="layout-icon layout-icon-large" viewBox="0 0 24 24" fill="none" aria-hidden="true">
+              <rect x="4.5" y="3" width="15" height="18" rx="2.5" stroke="currentColor" stroke-width="1.7" />
             </svg>
           </button>
         </div>
@@ -361,7 +372,7 @@
       (async () => {
         for (let attempt = 0; attempt < 4; attempt += 1) {
           try {
-            await import(`./app.js?v=21&retry=${attempt}`);
+            await import(`./app.js?v=22&retry=${attempt}`);
             return;
           } catch (error) {
             console.warn('Не удалось загрузить app.js, повтор…', error);
