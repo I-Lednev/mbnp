@@ -250,7 +250,7 @@ function showAuthError(message) {
 function showAuthGate(message) {
   document.body.classList.add('is-locked');
   if (els.authGate) els.authGate.hidden = false;
-  showAuthError(message);
+  if (message !== undefined) showAuthError(message);
   els.authLogin?.focus();
 }
 
