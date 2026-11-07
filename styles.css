@@ -16,6 +16,14 @@
   --accent-soft: rgba(124, 92, 255, 0.16);
   --ai: #a78bfa;
   --games: #fb7185;
+  --announces: #f472b6;
+  --mobile: #2dd4bf;
+  --releases: #d97706;
+  --rumors: #c026d3;
+  --software: #7dd3fc;
+  --science: #4ade80;
+  --entertainment: #f43f5e;
+  --ports: #6366f1;
   --pc: #a3e635;
   --consoles: #fbbf24;
   --hardware: #94a3b8;
@@ -50,6 +58,14 @@
   --accent-soft: rgba(109, 74, 255, 0.1);
   --ai: #7c3aed;
   --games: #e11d48;
+  --announces: #be185d;
+  --mobile: #0f766e;
+  --releases: #92400e;
+  --rumors: #86198f;
+  --software: #0369a1;
+  --science: #15803d;
+  --entertainment: #be123c;
+  --ports: #4338ca;
   --pc: #4d7c0f;
   --consoles: #b45309;
   --hardware: #475569;
@@ -378,6 +394,46 @@ button:disabled {
 .tab-dot-games {
   background: var(--games);
   box-shadow: 0 0 0 3px rgba(251, 113, 133, 0.14);
+}
+
+.tab-dot-announces {
+  background: var(--announces);
+  box-shadow: 0 0 0 3px rgba(244, 114, 182, 0.16);
+}
+
+.tab-dot-mobile {
+  background: var(--mobile);
+  box-shadow: 0 0 0 3px rgba(45, 212, 191, 0.16);
+}
+
+.tab-dot-releases {
+  background: var(--releases);
+  box-shadow: 0 0 0 3px rgba(217, 119, 6, 0.18);
+}
+
+.tab-dot-rumors {
+  background: var(--rumors);
+  box-shadow: 0 0 0 3px rgba(192, 38, 211, 0.18);
+}
+
+.tab-dot-software {
+  background: var(--software);
+  box-shadow: 0 0 0 3px rgba(125, 211, 252, 0.16);
+}
+
+.tab-dot-science {
+  background: var(--science);
+  box-shadow: 0 0 0 3px rgba(74, 222, 128, 0.16);
+}
+
+.tab-dot-entertainment {
+  background: var(--entertainment);
+  box-shadow: 0 0 0 3px rgba(244, 63, 94, 0.16);
+}
+
+.tab-dot-ports {
+  background: var(--ports);
+  box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.18);
 }
 
 .tab-dot-pc {
@@ -949,6 +1005,38 @@ button:disabled {
   background: linear-gradient(135deg, #881337, #e11d48 55%, #7f1d1d);
 }
 
+.card-media.no-image[data-category="announces"] .media-fallback {
+  background: linear-gradient(135deg, #831843, #ec4899 55%, #500724);
+}
+
+.card-media.no-image[data-category="mobile"] .media-fallback {
+  background: linear-gradient(135deg, #134e4a, #14b8a6 55%, #042f2e);
+}
+
+.card-media.no-image[data-category="releases"] .media-fallback {
+  background: linear-gradient(135deg, #78350f, #d97706 55%, #451a03);
+}
+
+.card-media.no-image[data-category="rumors"] .media-fallback {
+  background: linear-gradient(135deg, #701a75, #c026d3 55%, #4a044e);
+}
+
+.card-media.no-image[data-category="software"] .media-fallback {
+  background: linear-gradient(135deg, #0c4a6e, #0ea5e9 55%, #082f49);
+}
+
+.card-media.no-image[data-category="science"] .media-fallback {
+  background: linear-gradient(135deg, #14532d, #22c55e 55%, #052e16);
+}
+
+.card-media.no-image[data-category="entertainment"] .media-fallback {
+  background: linear-gradient(135deg, #881337, #f43f5e 55%, #4c0519);
+}
+
+.card-media.no-image[data-category="ports"] .media-fallback {
+  background: linear-gradient(135deg, #312e81, #6366f1 55%, #1e1b4b);
+}
+
 .card-media.no-image[data-category="pc"] .media-fallback {
   background: linear-gradient(135deg, #365314, #65a30d 55%, #1a2e05);
 }
@@ -1011,6 +1099,54 @@ button:disabled {
   color: #ffe4e6;
   background: rgba(136, 19, 55, 0.64);
   border-color: rgba(251, 113, 133, 0.35);
+}
+
+.badge-announces {
+  color: #fce7f3;
+  background: rgba(157, 23, 77, 0.7);
+  border-color: rgba(244, 114, 182, 0.35);
+}
+
+.badge-mobile {
+  color: #ccfbf1;
+  background: rgba(19, 78, 74, 0.7);
+  border-color: rgba(45, 212, 191, 0.35);
+}
+
+.badge-releases {
+  color: #fef3c7;
+  background: rgba(120, 53, 15, 0.75);
+  border-color: rgba(217, 119, 6, 0.4);
+}
+
+.badge-rumors {
+  color: #fae8ff;
+  background: rgba(112, 26, 117, 0.72);
+  border-color: rgba(192, 38, 211, 0.4);
+}
+
+.badge-software {
+  color: #e0f2fe;
+  background: rgba(7, 89, 133, 0.72);
+  border-color: rgba(125, 211, 252, 0.4);
+}
+
+.badge-science {
+  color: #dcfce7;
+  background: rgba(22, 101, 52, 0.72);
+  border-color: rgba(74, 222, 128, 0.4);
+}
+
+.badge-entertainment {
+  color: #ffe4e6;
+  background: rgba(159, 18, 57, 0.72);
+  border-color: rgba(244, 63, 94, 0.4);
+}
+
+.badge-ports {
+  color: #e0e7ff;
+  background: rgba(49, 46, 129, 0.72);
+  border-color: rgba(99, 102, 241, 0.4);
 }
 
 .badge-pc {
@@ -1832,6 +1968,38 @@ button:disabled {
 
 .digest-thumb.no-image[data-category="games"] {
   background: linear-gradient(135deg, #881337, #e11d48);
+}
+
+.digest-thumb.no-image[data-category="announces"] {
+  background: linear-gradient(135deg, #831843, #ec4899);
+}
+
+.digest-thumb.no-image[data-category="mobile"] {
+  background: linear-gradient(135deg, #134e4a, #14b8a6);
+}
+
+.digest-thumb.no-image[data-category="releases"] {
+  background: linear-gradient(135deg, #78350f, #d97706);
+}
+
+.digest-thumb.no-image[data-category="rumors"] {
+  background: linear-gradient(135deg, #701a75, #c026d3);
+}
+
+.digest-thumb.no-image[data-category="software"] {
+  background: linear-gradient(135deg, #0c4a6e, #0ea5e9);
+}
+
+.digest-thumb.no-image[data-category="science"] {
+  background: linear-gradient(135deg, #14532d, #22c55e);
+}
+
+.digest-thumb.no-image[data-category="entertainment"] {
+  background: linear-gradient(135deg, #881337, #f43f5e);
+}
+
+.digest-thumb.no-image[data-category="ports"] {
+  background: linear-gradient(135deg, #312e81, #6366f1);
 }
 
 .digest-thumb.no-image[data-category="pc"] {
