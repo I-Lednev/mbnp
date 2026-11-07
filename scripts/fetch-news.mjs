@@ -681,12 +681,10 @@ function decodeEntities(value) {
 
 function cleanText(raw) {
   if (!raw) return '';
-  return decodeEntities(
-    textOf(raw)
-      .replace(/<script[\s\S]*?<\/script>/gi, ' ')
-      .replace(/<style[\s\S]*?<\/style>/gi, ' ')
-      .replace(/<[^>]+>/g, ' '),
-  )
+  return decodeEntities(textOf(raw))
+    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<[^>]+>/g, ' ')
     .replace(/[\u0000-\u0008\u000b\u000c\u000e-\u001f]/g, '')
     .replace(/[\u200b-\u200d\ufeff]/g, '')
     .replace(/\s+/g, ' ')
@@ -721,16 +719,14 @@ function makeExcerpt(text, title) {
 function makeContent(raw, title) {
   if (!raw) return '';
 
-  let html = textOf(raw)
+  let text = decodeEntities(textOf(raw))
     .replace(/<script[\s\S]*?<\/script>/gi, ' ')
     .replace(/<style[\s\S]*?<\/style>/gi, ' ')
     .replace(/<figure[\s\S]*?<\/figure>/gi, ' ')
     .replace(/<br\s*\/?>/gi, '\n')
-    .replace(/<\/(?:p|div|h[1-6]|li|blockquote|section|article)>/gi, '\n\n')
+    .replace(/<\/(?:p|div|h[1-6]|li|blockquote|section|article|tr|table)>/gi, '\n\n')
     .replace(/<li\b[^>]*>/gi, '• ')
-    .replace(/<[^>]+>/g, ' ');
-
-  let text = decodeEntities(html)
+    .replace(/<[^>]+>/g, ' ')
     .replace(/\r/g, '')
     .replace(/[ \t]+/g, ' ')
     .replace(/ *\n */g, '\n')
