@@ -26,6 +26,7 @@ const CF_ACCOUNT = process.env.CLOUDFLARE_ACCOUNT_ID || '';
 const CF_TOKEN = process.env.CLOUDFLARE_API_TOKEN || '';
 const TIME_LIMIT_MS = Number(process.env.SUMMARIZE_TIME_LIMIT_MS) || 180_000;
 const PERIOD_HOURS = 24;
+const SUMMARY_VERSION = 2;
 const MAX_ITEMS = 8;
 
 const STOPWORDS = new Set([
@@ -313,7 +314,7 @@ async function main() {
     const selected = ranked.slice(0, MAX_ITEMS);
     const sourceCount = new Set(pool.map((item) => item.sourceId)).size;
     const sourceHash = hash(
-      `${provider}\n${category.key}\n${pool.length}\n${selected.map((item) => `${item.id}:${item.title}`).join('|')}`,
+      `${SUMMARY_VERSION}\n${provider}\n${category.key}\n${pool.length}\n${selected.map((item) => `${item.id}:${item.title}`).join('|')}`,
     );
     const cached = previousCategories[category.key];
 
