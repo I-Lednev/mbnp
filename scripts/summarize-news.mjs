@@ -26,7 +26,7 @@ const CF_ACCOUNT = process.env.CLOUDFLARE_ACCOUNT_ID || '';
 const CF_TOKEN = process.env.CLOUDFLARE_API_TOKEN || '';
 const TIME_LIMIT_MS = Number(process.env.SUMMARIZE_TIME_LIMIT_MS) || 180_000;
 const PERIOD_HOURS = 24;
-const SUMMARY_VERSION = 2;
+const SUMMARY_VERSION = 3;
 const MAX_ITEMS = 8;
 
 const STOPWORDS = new Set([
@@ -59,6 +59,11 @@ const STOPWORDS = new Set([
   'years', 'time', 'times', 'people', 'world', 'one', 'two', 'way', 'ways', 'get',
   'got', 'using', 'use', 'used', 'first', 'release', 'released', 'launch',
   'brings', 'bring', 'beyond', 'developer', 'developers', 'develop', 'guide',
+  'revealed', 'reveals', 'announced', 'announces', 'coming', 'available', 'off',
+  'own', 'native', 'show', 'shows', 'officially', 'official', 'november',
+  'december', 'january', 'february', 'march', 'april', 'june', 'july',
+  'august', 'september', 'october', 'grand', 'theft', 'don', 'investment',
+  'toucharcade', 'mid',
 ]);
 
 function tokenize(value) {
