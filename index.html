@@ -30,7 +30,7 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="icons/icon-192.png" />
-    <link rel="stylesheet" href="styles.css?v=12" />
+    <link rel="stylesheet" href="styles.css?v=13" />
   </head>
   <body>
     <div class="app">
@@ -167,6 +167,21 @@
         <div class="statusbar">
           <p id="status" aria-live="polite">Загружаем новости…</p>
           <div class="status-actions">
+            <a
+              id="visitorBadge"
+              class="visitor-badge"
+              href="https://github.com/I-Lednev/mbnp"
+              target="_blank"
+              rel="noopener noreferrer"
+              title="Просмотры сайта. Счётчик считает загрузки страницы."
+            >
+              <img
+                src="https://api.visitorbadge.io/api/visitors?path=mbnp-i-lednev-site-2026&label=views&labelColor=%2311151D&countColor=%237c5cff"
+                alt="Просмотры сайта"
+                loading="lazy"
+                referrerpolicy="no-referrer"
+              />
+            </a>
             <button id="digestBtn" class="link-btn" type="button">Дайджест</button>
             <button id="resetBtn" class="link-btn" type="button" hidden>Сбросить фильтры</button>
           </div>
@@ -299,7 +314,7 @@
       (async () => {
         for (let attempt = 0; attempt < 4; attempt += 1) {
           try {
-            await import(`./app.js?v=12&retry=${attempt}`);
+            await import(`./app.js?v=13&retry=${attempt}`);
             return;
           } catch (error) {
             console.warn('Не удалось загрузить app.js, повтор…', error);
