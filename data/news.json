@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T18:00:18.431Z",
-  "tookMs": 20451,
+  "generatedAt": "2026-11-07T18:17:52.849Z",
+  "tookMs": 11444,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -24,26 +24,26 @@
     "war": "Война"
   },
   "counts": {
-    "ai": 105,
-    "games": 98,
+    "ai": 107,
+    "games": 101,
     "announces": 33,
     "mobile": 15,
-    "releases": 38,
+    "releases": 43,
     "rumors": 27,
     "software": 44,
-    "science": 61,
-    "entertainment": 112,
-    "ports": 88,
-    "pc": 41,
-    "consoles": 114,
+    "science": 62,
+    "entertainment": 117,
+    "ports": 90,
+    "pc": 44,
+    "consoles": 115,
     "hardware": 45,
-    "industry": 40,
+    "industry": 41,
     "updates": 27,
     "aimods": 2,
     "aisoft": 49,
     "cars": 115,
-    "war": 101,
-    "total": 1155
+    "war": 102,
+    "total": 1179
   },
   "sourceCount": 98,
   "sources": [
@@ -754,17 +754,454 @@
   ],
   "items": [
     {
-      "id": "gh-1371134518",
-      "title": "oliverjessner/OpenEmperor: 🤴🏼 Clean-room reimplementation of Emperor: Rise of the Middle Kingdom in C++20 and SDL3. Built for modern systems, starting with Apple Silicon macOS. Early development; original game data required.",
-      "url": "https://github.com/oliverjessner/OpenEmperor",
-      "excerpt": "🤴🏼 Clean-room reimplementation of Emperor: Rise of the Middle Kingdom in C++20 and SDL3. Built for modern systems, starting with Apple Silicon macOS. Early development; original game data required.",
+      "id": "gh-1436014209",
+      "title": "Monsdevo/infamous2-ios: Experimental native iOS port of inFAMOUS 2 (PS3), powered by ARM64 static recompilation and Metal.",
+      "url": "https://github.com/Monsdevo/infamous2-ios",
+      "excerpt": "Experimental native iOS port of inFAMOUS 2 (PS3), powered by ARM64 static recompilation and Metal.",
       "image": "",
-      "publishedAt": "2026-11-07T17:57:22Z",
-      "addedAt": "2026-11-07T18:00:03.196Z",
+      "publishedAt": "2026-11-07T18:11:10Z",
+      "addedAt": "2026-11-07T18:17:46.881Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
       "lang": "en"
+    },
+    {
+      "id": "gh-1448654895",
+      "title": "MEKCCK/MHGU-Relink: MHGU Relink: Monster Hunter Generations Ultimate recompiled for PC and Android, with Rust networking and emulator crossplay",
+      "url": "https://github.com/MEKCCK/MHGU-Relink",
+      "excerpt": "MHGU Relink: Monster Hunter Generations Ultimate recompiled for PC and Android, with Rust networking and emulator crossplay",
+      "image": "",
+      "publishedAt": "2026-11-07T18:10:39Z",
+      "addedAt": "2026-11-07T18:17:46.881Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "15q4gu5",
+      "title": "AMD CEO Lisa Su: 'We are a data center-first company'",
+      "url": "https://www.pcgamer.com/gaming-industry/amd-ceo-lisa-su-we-are-a-data-center-first-company/",
+      "excerpt": "In a Thursday, November 5 interview with Yahoo Finance (via TechRadar ), AMD CEO Lisa Su emphasized the company's AI commitments. Separately, in a Q3 2026 earnings call, Su forecasted an overall \"dobule-digit\" slump in PC sales in 2027. 2026 games : All the…",
+      "content": "In a Thursday, November 5 interview with Yahoo Finance (via TechRadar ), AMD CEO Lisa Su emphasized the company's AI commitments. Separately, in a Q3 2026 earnings call, Su forecasted an overall \"dobule-digit\" slump in PC sales in 2027.\n\n2026 games : All the upcoming games\nBest PC games : Our all-time favorites\nFree PC games : Freebie fest\nBest FPS games : Finest gunplay\nBest RPGs : Grand adventures\nBest co-op games : Better together",
+      "image": "https://cdn.mos.cms.futurecdn.net/qDK99x7KtDSDHFZjKX9dj3-1920-80.jpg",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/qDK99x7KtDSDHFZjKX9dj3-1920-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/6offQUY4CXebir2TC27dMd-1920-80.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T18:10:16.000Z",
+      "sourceId": "pcgamer",
+      "source": "PC Gamer",
+      "category": "pc",
+      "lang": "en",
+      "addedAt": "2026-11-07T18:17:41.405Z"
+    },
+    {
+      "id": "w54pqt",
+      "title": "Затестил Kimi AI, Qwen, DeepSeek и Grok на работе с текстами. Делюсь результатами",
+      "url": "https://habr.com/ru/articles/1104964/",
+      "excerpt": "Нейросеть получает статью на редактуру и возвращает гладкий текст, в котором автора уже не узнать. В препринте 2026 года исследователи из Berkeley, Google DeepMind и других организаций показали, что ИИ-модели меняют смысл текста, даже когда их просят…",
+      "content": "Нейросеть получает статью на редактуру и возвращает гладкий текст, в котором автора уже не узнать. В препринте 2026 года исследователи из Berkeley, Google DeepMind и других организаций показали, что ИИ-модели меняют смысл текста, даже когда их просят исправить только грамматику. Kimi AI, Qwen, DeepSeek и Grok всё чаще пробуют для текстов вместо ChatGPT, и выбирать среди них редактора на глаз рискованно.\n\nПо умолчанию нейросеть, которой дали текст на редактуру, переписывает его, хотя просили только править. Ограничить её можно только жёстким промптом и сравнением версий. Модели для редактуры надо сравнивать по тому, какую долю текста они изменили и сохранился ли смысл, а не по впечатлению, что стало лучше.\n\nЧитать далее",
+      "image": "https://habrastorage.org/extt/56/e7/9a/56e79aeff0265d0bb179671ad0cf4e09.jpg",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/56/e7/9a/56e79aeff0265d0bb179671ad0cf4e09.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T18:08:56.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-07T18:17:41.405Z"
+    },
+    {
+      "id": "16qwbwa",
+      "title": "Zelda OOT Remake: Business Scrub Password solution",
+      "url": "https://www.videogameschronicle.com/guide/zelda-oot-remake-business-scrub-password-solution/",
+      "excerpt": "How to find the Business Scrub's Password in The Legend of Zelda: Ocarina of Time remake… Source",
+      "content": "How to find the Business Scrub's Password in The Legend of Zelda: Ocarina of Time remake…\n\nSource",
+      "image": "https://www.videogameschronicle.com/files/2026/11/Zelda-OOT-Remake-Business-Scrub-Password-solution-4.jpg",
+      "images": [
+        {
+          "url": "https://www.videogameschronicle.com/files/2026/11/Zelda-OOT-Remake-Business-Scrub-Password-solution-4.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T18:06:58.000Z",
+      "sourceId": "vgc",
+      "source": "VGC",
+      "category": "industry",
+      "lang": "en",
+      "addedAt": "2026-11-07T18:17:41.405Z"
+    },
+    {
+      "id": "1iv8ze9",
+      "title": "Richard Lloyd, Television’s Fiery and Fluent Guitarist, Dies at 75",
+      "url": "https://variety.com/2026/music/news/richard-lloyd-dead-television-guitarist-1236942055/",
+      "excerpt": "Richard Lloyd, whose fluent and fiery guitar work was a vital element in the influential 1970s-era New York City band Television, died on Saturday at his home in Chattanooga, Tenn., according to the New York Times. The cause of death was bile duct cancer; he…",
+      "content": "Richard Lloyd, whose fluent and fiery guitar work was a vital element in the influential 1970s-era New York City band Television, died on Saturday at his home in Chattanooga, Tenn., according to the New York Times. The cause of death was bile duct cancer; he was 75. While commonly associated with the punk rock movement […]",
+      "image": "https://variety.com/wp-content/uploads/2026/11/Richard-Lloyd.jpg",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/Richard-Lloyd.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T18:06:47.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T18:17:41.405Z"
+    },
+    {
+      "id": "obbssr",
+      "title": "Adam Driver Says No More Kylo Ren: Star Wars “Ship Has Sailed”",
+      "url": "https://deadline.com/2026/11/adam-driver-kylo-ren-1237216296/",
+      "excerpt": "We know Adam Driver has no plans to return to Lena Dunham’s Girls reboot, but what about the Star Wars franchise? Any chance fans will see Kylo Ren again? Nah. “Yeah, yeah, it’s over,” Driver said this week on The Rich Eisen Show podcast with regard to the…",
+      "content": "We know Adam Driver has no plans to return to Lena Dunham’s Girls reboot, but what about the Star Wars franchise? Any chance fans will see Kylo Ren again? Nah. “Yeah, yeah, it’s over,” Driver said this week on The Rich Eisen Show podcast with regard to the possibility that he’d return to play Kylo […]",
+      "image": "https://deadline.com/wp-content/uploads/2026/11/MCDSTWA_EC212.jpg",
+      "images": [
+        {
+          "url": "https://deadline.com/wp-content/uploads/2026/11/MCDSTWA_EC212.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T18:04:39.000Z",
+      "sourceId": "deadline",
+      "source": "Deadline",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T18:17:41.405Z"
+    },
+    {
+      "id": "58gtmb",
+      "title": "Path of Exile 2's 1.0 version is out this year after all, arriving in December with a full campaign, two neat new classes, and more",
+      "url": "https://www.rockpapershotgun.com/path-of-exile-2s-10-version-is-out-this-year-after-all-arriving-in-december-with-a-full-campaign-two-neat-new-classes-and-more",
+      "excerpt": "About a year ago, the devs behind Path of Exile 2 delayed the game's 1.0 release to an unspecified point in time, only offering the hope that it wouldn't slip into 2027 (doing much the same about half a year later). But there's good news: it won't! As the…",
+      "content": "About a year ago, the devs behind Path of Exile 2 delayed the game's 1.0 release to an unspecified point in time, only offering the hope that it wouldn't slip into 2027 (doing much the same about half a year later). But there's good news: it won't! As the action RPG now has a 1.0 release date locked in, alongside a look at what you can expect when it arrives.\n\nRead more",
+      "image": "https://assetsio.gnwcdn.com/path-of-exile-2-release-date.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "images": [
+        {
+          "url": "https://assetsio.gnwcdn.com/path-of-exile-2-release-date.jpg?width=690&quality=85&format=jpg&auto=webp",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T18:00:40.000Z",
+      "sourceId": "rps",
+      "source": "Rock Paper Shotgun",
+      "category": "pc",
+      "lang": "en",
+      "addedAt": "2026-11-07T18:17:41.405Z"
+    },
+    {
+      "id": "13fnkao",
+      "title": "В настройках бота было два лимита на длину диалога. Ни один из них ни разу не сработал",
+      "url": "https://habr.com/ru/articles/1104936/",
+      "excerpt": "В админке нашего бота было два лимита: сколько ответов дать до передачи менеджеру и сколько бессмысленных сообщений терпеть подряд. Ни один не срабатывал: в условии стояло И вместо ИЛИ, а ветка передачи писала результат туда, откуда его никто не читал…",
+      "content": "В админке нашего бота было два лимита: сколько ответов дать до передачи менеджеру и сколько бессмысленных сообщений терпеть подряд. Ни один не срабатывал: в условии стояло И вместо ИЛИ, а ветка передачи писала результат туда, откуда его никто не читал. Рассказываю, почему две ошибки прятали друг друга, как решение переехало в чистую функцию с 16 тестами и где в формулах лимитов прячутся ошибки на единицу.\n\nЧитать далее",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-07T18:00:17.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-07T18:17:41.405Z"
+    },
+    {
+      "id": "1n41pmu",
+      "title": "Two paths, one flux: Trapped ions simulate Aharonov–Bohm interference in a lattice gauge theory",
+      "url": "https://phys.org/news/2026-11-paths-flux-ions-simulate-aharonovbohm.html",
+      "excerpt": "In a new Nature Physics study, researchers demonstrated the Aharonov-Bohm effect in a quantum simulation of a lattice gauge theory using a hybrid trapped-ion quantum computer.",
+      "content": "In a new Nature Physics study, researchers demonstrated the Aharonov-Bohm effect in a quantum simulation of a lattice gauge theory using a hybrid trapped-ion quantum computer.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/two-paths-one-flux-tra.jpg",
+      "images": [
+        {
+          "url": "https://scx1.b-cdn.net/csz/news/tmb/2026/two-paths-one-flux-tra.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T18:00:02.000Z",
+      "sourceId": "physorg",
+      "source": "Phys.org",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-07T18:17:41.405Z"
+    },
+    {
+      "id": "j9puwa",
+      "title": "Connor Wood Reveals What Happened on 8th Avenue With Jennifer Lawrence in New Smoothie King Collab: “Missed My Moment” (Exclusive)",
+      "url": "https://www.hollywoodreporter.com/news/general-news/connor-wood-jennifer-lawrence-8th-avenue-smoothie-king-1236749871/",
+      "excerpt": "The 'Dancing With the Stars' contestant teamed up with Smoothie King to debut “Connor’s Paid Me No Mind Smoothie,\" a play on the trendy moment sparked by the Oscar winner.",
+      "content": "The 'Dancing With the Stars' contestant teamed up with Smoothie King to debut “Connor’s Paid Me No Mind Smoothie,\" a play on the trendy moment sparked by the Oscar winner.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-07T18:00:00.000Z",
+      "sourceId": "hollywoodreporter",
+      "source": "The Hollywood Reporter",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T18:17:41.405Z"
+    },
+    {
+      "id": "v2i20b",
+      "title": "Why Project Hail Mary Author Andy Weir Thinks Sci-Fi Has 'Grown Up' Recently [Exclusive]",
+      "url": "https://www.slashfilm.com/2304395/project-hail-mary-author-andy-weir-sci-fi-grown-up/",
+      "excerpt": "Sci-fi has arguably evolved and matured in the 21st Century, and Project Hail Mary author Andy Weir has credited that to multiple factors.",
+      "content": "Sci-fi has arguably evolved and matured in the 21st Century, and Project Hail Mary author Andy Weir has credited that to multiple factors.",
+      "image": "https://www.slashfilm.com/img/gallery/why-project-hail-mary-author-andy-weir-thinks-sci-fi-has-grown-up-recently-exclusive/l-intro-1793645020.jpg",
+      "images": [
+        {
+          "url": "https://www.slashfilm.com/img/gallery/why-project-hail-mary-author-andy-weir-thinks-sci-fi-has-grown-up-recently-exclusive/l-intro-1793645020.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.slashfilm.com/img/gallery/why-project-hail-mary-author-andy-weir-thinks-sci-fi-has-grown-up-recently-exclusive/intro-1793645020.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T18:00:00.000Z",
+      "sourceId": "slashfilm",
+      "source": "SlashFilm",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T18:17:41.405Z"
+    },
+    {
+      "id": "iaip6f",
+      "title": "After seeing them myself, I'm convinced WoW: Forever's RP servers don't need to be this separate, and I say that as a decorated veteran of MMO roleplay",
+      "url": "https://www.pcgamer.com/games/world-of-warcraft/after-seeing-them-myself-im-convinced-wow-forevers-rp-servers-dont-need-to-be-this-separate-and-i-say-that-as-a-decorated-veteran-of-mmo-roleplay/",
+      "excerpt": "I've been stuck into World of Warcraft: Forever —at the time of writing, I'm around 15 hours /played (and will likely be 20+ hours by the time you're reading this) on my warrior. I chose the roleplay ruleset because, well, I'm a roleplayer. I've been writing…",
+      "content": "I've been stuck into World of Warcraft: Forever —at the time of writing, I'm around 15 hours /played (and will likely be 20+ hours by the time you're reading this) on my warrior. I chose the roleplay ruleset because, well, I'm a roleplayer. I've been writing and being cringe in videogames for over 15 years .\n\nRP in WoW is, actually, what got me into writing in the first place. My clear and obvious mastery over the written word was hard-won by being a terribly annoying edgelord death knight, for which I apologise.\n\nI was curious about the implementation of the roleplay ruleset back when it was properly announced—back then, I thought it was great that we're being given our own place, but being completely split off from \"normal\" ruleset (which I'll be calling PvE for simplicity) didn't seem necessary to me.\n\nHaving played in the roleplay ruleset for a little while, my opinion has only been vindicated. Splitting PvE and PvP rulesets does make sense. For instance, a resource node might be easier to gather on PvE, throwing the economic balance of the PvP server out of the window. But beyond technical limitations, a complete, strict divide between RP and PvE just has me scratching my head.\n\nThere are things I like about having our own little nook of the Forever servers to putz about on. For starters, the vibes are a lot chiller. I don't want to cast generalisations about players, but I do think roleplayers are just smarter, sexier, have bigger muscles, and will solve climate change.\n\nIn seriousness, I do think thinking about your character's place in the world and having a bent towards immersion does make you a chiller person in general. I've experienced vanishingly little toxicity or hostility. The absolute worst instance was a tank getting a little passive-aggressive about mining nodes in my Deadmines run. That's it.\n\nBut what I foresaw is bearing out: Nobody is really roleplaying in instanced or group content, and that's because we legitimately never have done so. Most RP takes place either spontaneously out in the open world, or in dedicated hot spots. Even in the most diehard MMO communities, people aren't talking in ye olde English while pushing Vancleef's face in.\n\nThere are some people who are always in-character, sure, but that portion of the playerbase is incredibly rare. We're talking a sliver of an already-small population of a videogame, here.\n\nAs for the strict rules on naming conventions—yeah, I'm seeing a lot more lore-accurate names, but I'm also seeing plenty of joke ones. And if I'm being perfectly honest, these gag names really haven't ever bothered me; people being disruptive or annoying when I'm roleplaying are a massive pain, but if Tsundere Cowbell the paladin wants to watch me write, my immersion isn't shattered.\n\nOverall, I think keeping us on our own server architecture for the most part is the smarter plan, especially given layering would dilute roleplayers so much that RP would be hard to find. However, I don't think there's any real reason to disallow us from jumping to the Normal ruleset servers when we group up with someone from there—or giving us an option to travel between them of our own accord.\n\nJust as we tend to swap between in-character for roleplay and out-of-character for, y'know, playing the videogame—I think most of us would be happy to have the choice as to whether we want to futz about on the roleplay layer or go hang out with our non-theatre kid friends on the PvE ruleset.\n\nEspecially given, as time goes on, population might become an issue. Believe it or not, roleplayers still do like to raid and gear up, and if they should be able to migrate on characters they've invested literal dozens of hours into, rather than having to start all over again.\n\nBest MMOs : Most massive\nBest strategy games : Number crunching\nBest open world games : Unlimited exploration\nBest survival games : Live craft love\nBest horror games : Fight or flight",
+      "image": "https://cdn.mos.cms.futurecdn.net/6Ywe8m6nRRzBLZTNpNbAXn-1920-80.png",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/6Ywe8m6nRRzBLZTNpNbAXn-1920-80.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/ahEGtzYgdtscBynSWUZPNn-1920-80.png",
+          "alt": "Adventurers battle an ogre and Defias Brotherhood thieves in World of Warcraft: Forever."
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/UjCJY9gjRfatHZjCuGMrhR-1920-80.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T18:00:00.000Z",
+      "sourceId": "pcgamer",
+      "source": "PC Gamer",
+      "category": "pc",
+      "lang": "en",
+      "addedAt": "2026-11-07T18:17:41.405Z"
+    },
+    {
+      "id": "1thke5j",
+      "title": "Gallery: So, What's Your Favourite Zelda Cover Art?",
+      "url": "https://www.timeextension.com/news/2026/11/gallery-so-whats-your-favourite-zelda-cover-art",
+      "excerpt": "Take a link to the past with our box art gallery. The Legend of Zelda: Ocarina of Time has just launched on Switch 2, and the critical reaction seems to be pretty impressive – our pals over at Nintendo Life awarded it a glowing 9/10 in their review . I…",
+      "content": "Take a link to the past with our box art gallery.\n\nThe Legend of Zelda: Ocarina of Time has just launched on Switch 2, and the critical reaction seems to be pretty impressive – our pals over at Nintendo Life awarded it a glowing 9/10 in their review .\n\nI imagine many of you are already romping around the environs of Hyrule in all its remastered glory, and I took the current wave of Zeldamania as a good excuse to crack out the DSLR and photograph some Zelda box art.\n\nRead the full article on timeextension.com",
+      "image": "https://images.timeextension.com/6c3e9d6d0958c/small.jpg",
+      "images": [
+        {
+          "url": "https://images.timeextension.com/6c3e9d6d0958c/small.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://images.timeextension.com/6c3e9d6d0958c/large.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T18:00:00.000Z",
+      "sourceId": "timeextension",
+      "source": "Time Extension",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-07T18:17:41.405Z"
+    },
+    {
+      "id": "s04fbc",
+      "title": "Глава офиса президента Украины Буданов заплатит штраф за русский язык",
+      "url": "https://www.dw.com/ru/%D0%B3%D0%BB%D0%B0%D0%B2%D0%B0-%D0%BE%D1%84%D0%B8%D1%81%D0%B0-%D0%BF%D1%80%D0%B5%D0%B7%D0%B8%D0%B4%D0%B5%D0%BD%D1%82%D0%B0-%D1%83%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D1%8B-%D0%B1%D1%83%D0%B4%D0%B0%D0%BD%D0%BE%D0%B2-%D0%B7%D0%B0%D0%BF%D0%BB%D0%B0%D1%82%D0%B8%D1%82-%D1%88%D1%82%D1%80%D0%B0%D1%84-%D0%B7%D0%B0-%D1%80%D1%83%D1%81%D1%81%D0%BA%D0%B8%D0%B9-%D1%8F%D0%B7%D1%8B%D0%BA/a-79887400?maca=rus-rss-ru-all-1126-rdf",
+      "excerpt": "Глава Офиса президента Украины Кирилл Буданов заплатит штраф за использование русского языка во время событий под Киевом 2 ноября. Об этом заявила уполномоченная по защите государственного языка Елена Ивановская.",
+      "content": "Глава Офиса президента Украины Кирилл Буданов заплатит штраф за использование русского языка во время событий под Киевом 2 ноября. Об этом заявила уполномоченная по защите государственного языка Елена Ивановская.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-07T17:57:00.000Z",
+      "sourceId": "dw-ru",
+      "source": "DW Russian",
+      "category": "war",
+      "lang": "ru",
+      "addedAt": "2026-11-07T18:17:41.405Z"
+    },
+    {
+      "id": "qx2j7n",
+      "title": "Mass Effect Cast Celebrates N7 Day With Video Asking Fans to Help Save the Franchise",
+      "url": "https://www.ign.com/articles/mass-effect-cast-celebrates-n7-day-with-video-asking-fans-to-help-save-the-franchise",
+      "excerpt": "Without BioWare, N7 Day is quieter this year, but that didn't stop the Normandy cast and crew from teaming up for a video message asking fans to help save Mass Effect. EA shuttered BioWare , canceled Mass Effect 5 , and put the gaming side of the franchise on…",
+      "content": "Without BioWare, N7 Day is quieter this year, but that didn't stop the Normandy cast and crew from teaming up for a video message asking fans to help save Mass Effect.\n\nEA shuttered BioWare , canceled Mass Effect 5 , and put the gaming side of the franchise on an indefinite hold just weeks before the series' annual November 7 holiday, leaving players just as hurt as they were confused. There's not really any official festivities to enjoy this year, but the developers and actors behind the stories and characters fans love still made sure to get together for a special video message.\n\nOrganized by the unofficial group known as We are Mass Effect, the two-minute video message features appearances from composer Sam Hulick, Jennifer Hale (Commander Shepard/FemShep), Ash Sroka (Tali'Zorah), Keythe Farley (Thane), Kimberly Brooks (Ashley), Mark Meer (Commander Shepard/MaleShep), Steve Blum (Urdnot Grunt), Brandon Keener (Garrus), and many more. One by one, they each call to \"Save Mass Effect\" in the wake of BioWare's closure, marking what is only the latest shot to garner attention and, hopefully, give the franchise a shot in the arm.\n\nToday is a very special day for Mass Effect fans.\n\nWe've worked incredibly hard to bring together most of the original Mass Effect trilogy's voice cast to share a very important message with you.\n\nWe need to #SaveMassEffect. https://t.co/FOp0qp4wBI\n\n— We are Mass Effect - #SaveMassEffect (@WeAreMassEffect) November 7, 2026\n\n\"It started feeling like Shepard recruiting the squad in Mass Effect 2!\" We are Mass Effect's Mer told IGN when describing the process to make the video. \"We were bringing people on board one by one, and Mark was a huge help in making that happen! It almost felt like we were gathering War Assets. And the most surprising thing is that with every video we received, the actors would thank us.\n\n\"We'd get messages saying, 'Thank you for doing this,' or 'Thank you for your work.' We were the ones who felt incredibly grateful to them for taking the time to participate, but they kept turning around and thanking us. That really touched me. Everyone involved, from the people who made these games to the people who brought their characters to life, cares deeply about this universe.\"\n\nWe are Mass Effect and other Mass Effect fans have been busy the last few weeks. After footage and details for the canceled Mass Effect: Universe appeared online just days after EA brought the franchise to a halt, a petition has launched and gained more than 310,000 signatures . A Canadian politician also started a government petition to save BioWare just last week.\n\nAs some have called to boycott EA , others have taken their fight straight to the publisher's front door . We are Mass Effect has been a big part of that initiative, with its first and most notable move arriving when it launched a #SaveMassEffect billboard in Times Square . Yesterday, the group drove a mobile billboard around EA headquarters in Redwood City, California . More billboards are live today, including one posted up around the former BioWare offices in Edmonton, Alberta, Canada, with another set to appear around The Game Awards next month. Former project director and executive producer Michael Gamble also sent a message to fans for N7 Day.\n\n🚨 WE ARE IN EDMONTON\n\nToday, our mobile billboard is right outside BioWare's former offices.\n\nFor 30 years, BioWare gave us unforgettable stories and characters. Today, we're standing up for the people who brought them to life.\n\n#SaveMassEffect https://t.co/fXa4bemyfE\n\n— We are Mass Effect - #SaveMassEffect (@WeAreMassEffect) November 7, 2026\n\n🚨 WE'RE KICKING OFF N7 DAY WITH ANOTHER BILLBOARD\n\nThis time, #SaveMassEffect has made its way to Cardiff, Wales, thanks to the incredible @psykit.\n\nAnother amazing initiative from our community, showing that we're not giving up on Mass Effect and BioWare's legacy. https://t.co/4avNpk18jd\n\n— We are Mass Effect - #SaveMassEffect (@WeAreMassEffect) November 7, 2026\n\n🚨 WE ARE TAKING OVER TEXAS\n\nA member of our community, AngryBaby, has put up #SaveMassEffect billboards in the Frisco and Dallas areas of North Texas.\n\nIt's incredible to see fans taking the initiative and spreading the movement on their own.\n\nHOLD THE LINE 🫡 https://t.co/AoJBppCzbV\n\n— We are Mass Effect - #SaveMassEffect (@WeAreMassEffect) November 6, 2026\n\nYou all are truly amazing. The love and passion for this…universe…is incredible. Even in worst days, we could always count on you.\n\nTo all the stories left untold.\n\nHappy N7 Day.\n\n— Michael Gamble (@GambleMike) November 7, 2026\n\n\"We're still holding on to that hope and fighting for the future of Mass Effect, BioWare, and the people who have dedicated so much of themselves to bringing this universe to life,\" Mer added. \"N7 Day is a reminder of what these games mean to all of us, but also of the people behind them. The impact they've had on this community will never been forgotten, and we will continue celebrating it for as long as we can.\"\n\nMeanwhile, as the Mass Effect cast and fans on the ground do their best to celebrate N7 Day, other developers have chimed in to share their love for the series on its saddest holiday so far. Owlcat Games, the team behind the upcoming Mass Effect-inspired RPG The Expanse: Osiris Reborn, shared a video celebrating what BioWare and its work over the decades means to them.\n\n\"Everybody in Owlcat dreamt about playing Mass Effect 5,\" studio creative director Alexander Mishulin said. \"It's very, very selfish, but we wanted to experience the next chapter in those adventures. Our hearts and minds are with [BioWare], and we really hope they find themselves a new home, different studios that will allow them to make even more worlds, even more experiences, more adventures that we will be amazed at. That will be new beacons for new generations of game developers.\n\nThis #N7Day is a sad one for all Mass Effect fans. So we want to reminisce about what Mass Effect and many other BioWare games meant to us and how they inspired us. https://t.co/HKG5XkLA28\n\n— Owlcat Games (@OwlcatGames) November 7, 2026\n\n\"It will be not Mass Effect, but it will be something else, and something beautiful.\"\n\nBioWare's final years were captured on video and will soon be shared in a new documentary . For more, you can check out IGN's interview with one modder who has rebuilt Mass Effect 3's multiplayer . You can also read about how AI is impacting the modding scene .",
+      "image": "https://assets-prd.ignimgs.com/2026/08/17/me1-blogroll-1786972844387.jpg",
+      "images": [
+        {
+          "url": "https://assets-prd.ignimgs.com/2026/08/17/me1-blogroll-1786972844387.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T17:28:09.000Z",
+      "sourceId": "ign",
+      "source": "IGN",
+      "category": "games",
+      "lang": "en",
+      "addedAt": "2026-11-07T18:17:41.405Z"
+    },
+    {
+      "id": "nk2vwe",
+      "title": "'I Feel Like Modding is Kind Of Dying' – Mass Effect 3 Multiplayer Modder on AI's Impact on the Scene",
+      "url": "https://www.ign.com/articles/i-feel-like-modding-is-kind-of-dying-mass-effect-3-multiplayer-modder-on-ais-impact-on-the-scene",
+      "excerpt": "Over the past few months, there's been an explosion of AI in the modding scene. Whether it's mashup mods on Twitter or full decompilation done by Claude , AI is everywhere in the mod community, and it could be killing the hobby. I got a chance to sit down…",
+      "content": "Over the past few months, there's been an explosion of AI in the modding scene. Whether it's mashup mods on Twitter or full decompilation done by Claude , AI is everywhere in the mod community, and it could be killing the hobby.\n\nI got a chance to sit down with ME3Tweaks' Mgamerz to talk about his new Mass Effect Legendary Edition ME3 Multiplayer mod, where I asked him about how AI has affected the modding community. While he admits that Claude is very effective at modding games, it's causing an avalanche of low-effort content that's hard to sift through. And, while there has always been a range of quality for mods, the inherent difficulty of getting into a game's files and changing things was a natural filter that's slowly eroding.\n\nMgamerz told me, \"The difficulty of making mods and getting into it filtered out a lot of low-quality stuff. You see this on stuff like the Switch eShop, I've heard. It's full of slop, because there's no quality control and you can just ship whatever, and then users have to dredge through all sorts of stuff like that.\"\n\nAlthough typing in a prompt to mod your own copy of a game is one thing, the problems start to appear once you start distributing it on platforms like Nexus Mods, where you have to be mindful about how your mod will interact with other add-ons, otherwise you're likely to just break peoples' games.\n\nMgamerz laid out that process, telling me, \"In the modding community, you have an ecosystem. For example, I have my mod manager, you deploy mods through the mod manager, it runs a bunch of checks on the mods to make sure you're not going to ship something that's just going to break someone's game immediately.\"\n\nThese AI mods can do more than just break other people's mods too — they can also make your game much harder to run if they aren't optimized properly. For example, Mgamerz says, \"There's certain knowledge, like you don't put stuff in startup files because it wastes tons of memory. If you stuff everything in there, you boot the game, oh, now the game takes an extra gigabyte of memory for your single mod to work, because you didn't want to do it the proper way.\"\n\nIt's hard to argue with the fact that these AI tools are introducing a whole new generation of gamers to modding, but it's doing so without making them go through the effort of figuring out how to make things effectively. We've already seen major modding communities pull their sites down because of this outbreak of AI modding tools that can take months of someone's hard work and spin it around into a 'working' mod after a couple of Claude prompts. And that might end up becoming the default for people who learn how to code exclusively through AI tools.\n\nWhen I asked Mgamerz what the pathway for people who want to get into modding these days is, his answer was grim. He told me, \"Getting into [modding]? I feel like modding is kind of dying. If you come in and you're like, 'I want to just do this, no AI. I just want to cut my teeth, find the boundaries, break over them, have a difficult, challenging task,' you pretty much have to work in secret now.\"\n\n\"Because if you essentially have an idea and someone else is like, 'Wow, that's a cool idea.' And you're like, 'Well, it's going to take me six months.' And they're like, 'I don't want to wait six months.' They can spend 20 bucks and pump this thing out in a day or two, and it'll probably work, but the user will have no understanding of how.\"\n\nMgamerz understands, though, that the prevalence of these AI tools is getting a lot of people interested in modding their favorite games, and that's not a bad thing. He told me, \"If you don't release the stuff that you make, I don't see any problem. You made something cool for yourself.\"\n\nInstead, the problem is that, if you install it without considering how it'll interact with other software, it can really bungle other peoples' projects. \"Once you hand this product over to somebody else, share it with the world, suddenly it can become everybody's problem. And from my experience, everyone that vibe codes stuff, two weeks later, they're gone. They're not supporting it. So the people that stick around have to fix and deal with all of it.\"\n\nEver since Claude Opus 5.5 released back in September, it feels like the modding scene has been going through a rollercoaster, and it's impossible to know where exactly it's going to land. Whether the world of Nexus Mods and publicly available GitHub forks is going to start to die down like Mgamerz thinks it will is anyone's guess. But one thing's for sure: Once The Elder Scrolls VI: Sentinel drops, modding is going to be a completely different animal than the Skyrim days, if Bethesda's next game is even moddable at all.",
+      "image": "https://assets-prd.ignimgs.com/2026/10/29/me3-1793234529955.jpg",
+      "images": [
+        {
+          "url": "https://assets-prd.ignimgs.com/2026/10/29/me3-1793234529955.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T17:00:00.000Z",
+      "sourceId": "ign",
+      "source": "IGN",
+      "category": "games",
+      "lang": "en",
+      "addedAt": "2026-11-07T18:17:41.405Z"
+    },
+    {
+      "id": "17c59mx",
+      "title": "BioWare May Be Dead, But a Modder Has Rebuilt Mass Effect 3's Multiplayer Into the Legendary Edition",
+      "url": "https://www.ign.com/articles/bioware-may-be-dead-but-a-modder-has-rebuilt-mass-effect-3s-multiplayer-into-the-legendary-edition",
+      "excerpt": "When the Mass Effect Legendary Edition came out in 2021, it included the single player campaign of all three original games, along with all the DLC. But while all the story content you could ever want was included, Mass Effect 3's multiplayer mode was…",
+      "content": "When the Mass Effect Legendary Edition came out in 2021, it included the single player campaign of all three original games, along with all the DLC. But while all the story content you could ever want was included, Mass Effect 3's multiplayer mode was conspicuously absent, despite having a dedicated fanbase.\n\nNow, just a few weeks after EA's shutdown of BioWare , a team of modders has successfully ported Mass Effect 3 's multiplayer to the Legendary Edition, with all the graphics and engine improvements that came with that re-release. The mod will be coming out on N7 Day – November 7th – and will be free to play, as long as you already own Mass Effect Legendary Edition.\n\nI also got a chance to sit down with Mgamerz, who runs the ME3Tweaks team that created the mod, to talk about Mass Effect 3, and about the state of modding in 2026. And if you want to download the mod yourself, it's available now on Nexus Mods.\n\nIGN: So, tell me a little bit about the project, and how you got started on basically porting the Mass Effect 3 multiplayer over to the Legendary Edition.\n\nMgamerz: Yeah, so my dev team, ME3Tweaks, and I run it. We ported Pinnacle Station back in 2021. Crazy effort. I don't know how we got that done in a two-month timeframe. And then we were doing other projects for two years, and then near the end of me working on LE2 Randomizer, which is a randomizer for legendary Mass Effect 2, someone discovered a copy of the Citadel in Mass Effect 2.\n\nThere's an area from the wards. I can't remember which game it was, but they found an area of the game that nobody knew about before, and you could load into and you're like, 'Well, this was clearly supposed to be something, and then they just never finished it.' It was a very early prototype. And it was like, 'Man, what if we could port something like that into another level?' And so I made this project called Project Wardle, Ward being the first part of it. (We have a bunch of stupid internal code names.)\n\nAnd I eventually made it so we could port a Mass Effect 2 level into Mass Effect 3, and we fixed up the cover, because cover is just an unbelievable nightmare. It's very important for enemies to be able to use it. Gameplay's a huge component of why Mass Effect 3 is fun. And we got that working and then I was like, 'Well, man, what if we could port the multiplayer levels?' Because we did it for Pinnacle Station. We ported the old game. But Pinnacle Station is mostly just reused assets from Mass Effect 1.\n\nLike 90% of it was just existing assets that they just reused. But multiplayer was totally different. It's like, yeah, none of this content exists. So the scope of work is just huge. So at the end of 2023, right as we finished LE2 Randomizer, literally on N7 day, I spun up a new Discord.\n\nI invited a couple people and they're like, 'What's this Discord about?' I'm like, 'We're going to do something stupid. We're going to port [Mass Effect 3] Multiplayer.' And those were the first two messages I ever sent. I have some screenshots of it.\n\nAnd then people were like, 'Yeah, you're joking, right?' And I'm like, 'No.' And then the last three years we've been working on it. It hasn't been constant. Last year I broke my arm, which set us back six to eight months.\n\nBut for the first two years, it was tons of prototyping. Within the first month of this project, we actually had multiplayer working. It was a proof of concept. And then we spent the next two years getting audio to port, from a different version of the audio engine because they upgraded it. It's like we got shaders building, which was a total nightmare because BioWare compiled the game with a bunch of sources that don't ship with the game.\n\nAnd so we had to figure out 'how do we replicate that?' So that took a long time. And then it's like textures. We have a bunch more people that know how to do texture upscaling. The first two years is almost all prototype and then asset generation. We want to make it look good. We're planning stuff out, that kind of stuff. So that's really not how it started.\n\nIGN: So, you basically built from scratch again? Did you take assets from the original Mass Effect 3?\n\nMgamerz: Oh yeah, the whole thing ports from it. It's not a one-to-one port. We're not just taking Mass Effect 3 multiplayer and dumping it into Legendary Edition and then, 'Hey guys, check out it's multiplayer, [as] you remember it.' Where we took a lot of extra steps, the lighting actually gets re-baked in Unreal Engine 4's light solver.\n\nEssentially what that means is, imagine you have a light bulb in a room and if you wanted to project what the lights would look like, a light beam's going to hit your microphone and it's going to cast a shadow.\n\nAnd then that light bounces off for you, goes into your closet and it bounces off and illuminates the closet a little bit from the inside. Unreal Engine 3 had a solver and that's how all of the lighting for all the Unreal Engine 3 games worked. But in Unreal Engine 4, they added like, 'Oh, we can do additional light bounces or we found a better statistical way to do light bounces.' And so you get crisper shadow edges or the more soft, like a grate covering on some maps. The light bounces through the grate, and unless you have super high resolution textures, it looks terrible. Mass Effect 3 is full of terrible light maps. If you look at them, you're like, 'Wow, it's just a big stair step of shadows and it looks bad.' And so we spent a lot of time upgrading that kind of stuff.\n\nI modded Mass Effect 3 multiplayer for eight years before Legendary Edition came out, and there's a bunch of stuff I was like, 'Wow, I didn't even realize three of the character classes don't even use the highest-quality mesh.' So it's like BioWare made the Geth Infiltrator, and they made it at a high quality where it has all the polygons and triangles. And then as you get further away from the camera, it gets less triangles, because you can't see as much detail. But BioWare was just like, 'We're just not going to use the highest quality one. We'll ship it in the game, but you'll never see it.' And so it's like, 'Oh, well, we can just turn those on and it's an immediate quality upgrade.'\n\nIGN: Was quality a big reason why you took on this massive undertaking to bring ME3 multiplayer to Legendary Edition? Because if I understand correctly, the servers for the original ME3 multiplayer are still working, for now at least.\n\nMgamerz: By the time we publish this, I don't know, man. N7HQ's gone, so I wouldn't be surprised if it disappears before.\n\nActually, the whole reason this project started, I was getting to the end of LE2 Randomizer and I was like, 'Man, I love Mass Effect 3 multiplayer.' I modded tons of stuff into it, and it was really fun.\n\nI went back and I was like, 'I want to make a new one. I want to make a new mod.' I went back to it and I was like, 'These tools,' and I'm totally throwing myself under the bus, 'These tools suck. There's no debug tools. Everything is so immature compared to what we have in Legendary Edition, thanks to what BioWare changed for us.' And so I was like, 'Man, I'd rather just port multiplayer than have to deal with this awful development environment.'\n\nAnd then I was like, 'Okay, well, I've modeled this forever.' I know where all of the pain points are in extending this because I made a new map pack, I made a new enemy pack that adds a new faction. So I'm like, 'I know where all the landmines were, because I had to pioneer it.' And I'm like, 'What if we rebuilt multiplayer and accounted for those landmines so if someone else wants to do it, they don't have to go through the same landmines, or they're at least aware that they're there?' So there's a bunch of considerations for extensibility.\n\nAs a user, if you just go in and you just play Standard, you might not notice the changes, but the next dev who wants to add a new faction, it'll be like, 'Wow, I don't have to deal with all these stupid problems that I would've had in the original game.' And so a lot of stuff like that that people won't appreciate, but will make a difference in the long run.\n\nIGN: And it'll probably mean more mods end up coming out for it, as well. So, I'm sure you had a certain amount of people that you expected to play this once you launched it. How much did BioWare's closure change your expectations for your launch date?\n\nMgamerz: We were already targeting N7 Day. It was probably about in early August, late July. We were getting to a point where it was like, okay, this is fully playable. It doesn't crash. The shaders look right. It's like, this is something we could probably ship by N7 Day. I was more like, We should probably ship this in January.\n\nBut then I was like, it's N7 Day . I hate doing the N7 Day crunch, but I always do it, because I secretly feel like I'm a masochist and I kind of enjoy it. There's a satisfaction of essentially killing yourself to get the thing out the door and then being like, oh, it's finally done.\n\nI am a hundred percent ready as of this interview to ship this thing. There's so much stress going on around this release that's killing me. But Bioware's closure, honestly, didn't really factor into it [the release date] at all.\n\nIGN: Do you think you're going to get more people checking it out though?\n\nMgamerz: Oh yeah, because there's tons of attention on Mass Effect right now, so I'm sure there's going to be a lot more, which is adding to the stress. I've done launches like this for years, and I know on the first day, stuff's going to be broken. I mean, I've been developing software, the mod manager and stuff, and you launch a new feature and some user clicks a button you didn't think they'd click at the exact frame of the installer or whatever, and the whole thing dies. So I'm expecting the first day to just be kind of a train wreck, which sucks, but it's just how it is. It'll get better over time.\n\nIGN: Do you expect that EA is going to pull access to some of the tools that are necessary for modding the game?\n\nMgamerz: I don't think so. We had an NDA with BioWare back in 2021. It's expired by now, but they had my dev team, not the current dev team — there's a couple more members now, but more core members back then — they had us all under NDA before Legendary Edition launched, and we provided some input to help modding.\n\nSo they clearly were interested in having modders to some degree as part of it. I don't know if new EA ownership shares that same view, so it's a little concerning, but I mean, our game requires you own Mass Effect Legendary Edition. This was never going to be like DotA where, \"Hey, we split the game off and you get to go do whatever.\" The goal has always been, \"You own Mass Effect Legendary Edition. We're going to source assets from it during the install.\"\n\nOur game is technically self-contained, so it's not like a mod into Mass Effect 3. It generates a new copy of essentially Mass Effect 3, we call it LMP, and it's fully standalone. So all of your existing mods, they actually don't work with the new install by design because we don't want people immediately installing and immediately breaking everything.\n\nIt's one of those landmines that working on the old stuff, I know for a fact doing that will break multiplayer for a lot of people. So I'd rather be more restrictive at launch and then relax it as we figure it out versus, \"Hey guys, here's all this stuff. You install a bunch of mods and then it just doesn't work on day one.\" And you're like, \"Well, I'm never going to come back to this again.\"\n\nIGN: Yeah. Are you hoping to support this project long term, then?\n\nMgamerz: Yes. Yes. Multiplayer is my jam, dude. I racked up thousands of hours, probably at least a thousand hours in the first year before Origin even tracked how long you played the game. And then I have another 2,800 hours on top of that, and most of it was modding multiplayer. And then I don't even know how much I have in Legendary Edition. I d",
+      "image": "https://assets-prd.ignimgs.com/2026/11/06/masseffect-multiplayermod-interview-blogroll-1793999260678.jpg",
+      "images": [
+        {
+          "url": "https://assets-prd.ignimgs.com/2026/11/06/masseffect-multiplayermod-interview-blogroll-1793999260678.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T17:00:00.000Z",
+      "sourceId": "ign",
+      "source": "IGN",
+      "category": "games",
+      "lang": "en",
+      "addedAt": "2026-11-07T18:17:41.405Z"
+    },
+    {
+      "id": "1u39ad0",
+      "title": "Thunderbolts Storyboards Reveal A Major Marvel Character Was Cut From The Team",
+      "url": "https://www.slashfilm.com/2296273/thunderboards-storyboards-marvel-character-cut-team-swamp-thing/",
+      "excerpt": "The Thunderbolts movie lineup changed a lot in development, and storyboards reveal that the team once included one of Marvel's strangest characters.",
+      "content": "The Thunderbolts movie lineup changed a lot in development, and storyboards reveal that the team once included one of Marvel's strangest characters.",
+      "image": "https://www.slashfilm.com/img/gallery/thunderboards-storyboards-marvel-character-cut-team-swamp-thing/l-intro-1793106244.jpg",
+      "images": [
+        {
+          "url": "https://www.slashfilm.com/img/gallery/thunderboards-storyboards-marvel-character-cut-team-swamp-thing/l-intro-1793106244.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.slashfilm.com/img/gallery/thunderboards-storyboards-marvel-character-cut-team-swamp-thing/intro-1793106244.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T17:00:00.000Z",
+      "sourceId": "slashfilm",
+      "source": "SlashFilm",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T18:17:41.405Z"
+    },
+    {
+      "id": "8bpn5y",
+      "title": "Release: Gecko Gods",
+      "url": "https://www.gog.com/pl/news/release_gecko_gods",
+      "excerpt": "Gecko Gods is a puzzle-adventure where you play as a tiny gecko – and it's now available on GOG! Climb walls, solve ancient puzzles and uncover a lost civilisation in a world full of hidden paths, quiet secrets and natural wonder. But that's not all – from…",
+      "content": "Gecko Gods is a puzzle-adventure where you play as a tiny gecko – and it's now available on GOG!\n\nClimb walls, solve ancient puzzles and uncover a lost civilisation in a world full of hidden paths, quiet secrets and natural wonder.\n\nBut that's not all – from the same publisher, Super Rare Originals, Lelu is coming soon on GOG!\n\nCheck them out!",
+      "image": "",
+      "images": [],
+      "publishedAt": null,
+      "sourceId": "gog-news",
+      "source": "GOG",
+      "category": "releases",
+      "lang": "en",
+      "addedAt": "2026-11-07T18:17:41.405Z"
+    },
+    {
+      "id": "l730jn",
+      "title": "Release: Pool of Radiance: Ruins of Myth Drannor",
+      "url": "https://www.gog.com/pl/news/release_pool_of_radiance_ruins_of_myth_drannor",
+      "excerpt": "Pool of Radiance: Ruins of Myth Drannor is a turn-based party RPG set in the Forgotten Realms – and it's now available on GOG! Malevolence is afoot in the Forgotten Realms world: a new Pool of Radiance has been discovered beneath the city of New Phlan, and a…",
+      "content": "Pool of Radiance: Ruins of Myth Drannor is a turn-based party RPG set in the Forgotten Realms – and it's now available on GOG!\n\nMalevolence is afoot in the Forgotten Realms world: a new Pool of Radiance has been discovered beneath the city of New Phlan, and a wave of pure evil now emanates from it, cursing all it touches. Answer Elminster’s call, descend into the ruined Elven city of Myth Drannor and stop the sorceress and the dracolich before they turn the power of the Pool against the realm.\n\nNow on GOG!",
+      "image": "",
+      "images": [],
+      "publishedAt": null,
+      "sourceId": "gog-news",
+      "source": "GOG",
+      "category": "releases",
+      "lang": "en",
+      "addedAt": "2026-11-07T18:17:41.405Z"
+    },
+    {
+      "id": "1em5lok",
+      "title": "Release: Underkeep",
+      "url": "https://www.gog.com/pl/news/release_underkeep",
+      "excerpt": "Underkeep is a loving tribute to the role-playing classics of the 90s with turn-based combat and grid-based movement – and it's now available on GOG! This game brings the best of old-school dungeon crawlers to the modern era. Underkeep brings back the spirit…",
+      "content": "Underkeep is a loving tribute to the role-playing classics of the 90s with turn-based combat and grid-based movement – and it's now available on GOG!\n\nThis game brings the best of old-school dungeon crawlers to the modern era. Underkeep brings back the spirit of classic dungeon crawlers: grid movement, slow tension and tactical combat.\n\nNow on GOG!",
+      "image": "",
+      "images": [],
+      "publishedAt": null,
+      "sourceId": "gog-news",
+      "source": "GOG",
+      "category": "releases",
+      "lang": "en",
+      "addedAt": "2026-11-07T18:17:41.405Z"
+    },
+    {
+      "id": "jpnvkn",
+      "title": "Release: Cash is King! Business Simulator",
+      "url": "https://www.gog.com/pl/news/release_cash_is_king_business_simulator",
+      "excerpt": "Cash is King! Business Simulator is a simulation managerial game – and it's now available on GOG! Start with nothing and build your own business empire in sunny Miami Beach! Sell lemonade, run vending machines, automate your companies and turn small side jobs…",
+      "content": "Cash is King! Business Simulator is a simulation managerial game – and it's now available on GOG!\n\nStart with nothing and build your own business empire in sunny Miami Beach! Sell lemonade, run vending machines, automate your companies and turn small side jobs into big profits in this relaxed first-person simulator.\n\nNow on GOG!",
+      "image": "",
+      "images": [],
+      "publishedAt": null,
+      "sourceId": "gog-news",
+      "source": "GOG",
+      "category": "releases",
+      "lang": "en",
+      "addedAt": "2026-11-07T18:17:41.405Z"
+    },
+    {
+      "id": "h9q31",
+      "title": "Release: Stamperor! The Jester's Decree",
+      "url": "https://www.gog.com/pl/news/release_stamperor_the_jester_s_decree",
+      "excerpt": "Stamperor! The Jester's Decree is a simulation roguelike game – and it's now available on GOG! Stamp decisions. Accidentally destroy your own empire. Repeat. In Stamperor!, you rule as a jester making fast decisions that shape the fate of your empire. Do…",
+      "content": "Stamperor! The Jester's Decree is a simulation roguelike game – and it's now available on GOG!\n\nStamp decisions. Accidentally destroy your own empire. Repeat. In Stamperor!, you rule as a jester making fast decisions that shape the fate of your empire. Do everything you can to prevent unexpected events from destroying your empire and leading you to defeat. Each cycle, citizens arrive with requests, but it’s not just about saying “yes” or “no”.\n\nNow on GOG!",
+      "image": "",
+      "images": [],
+      "publishedAt": null,
+      "sourceId": "gog-news",
+      "source": "GOG",
+      "category": "releases",
+      "lang": "en",
+      "addedAt": "2026-11-07T18:17:41.405Z"
     },
     {
       "id": "gh-1429599038",
@@ -772,7 +1209,20 @@
       "url": "https://github.com/TheBozos/VP2S_Recomp",
       "excerpt": "Native PC port of Valkyrie Profile 2: Silmeria (USA, SLUS-21452) by static recompilation with PS2Recomp: native renderer and audio, no GS/VU1/SPU2 emulation. No game data or keys included.",
       "image": "",
-      "publishedAt": "2026-11-07T17:57:01Z",
+      "publishedAt": "2026-11-07T18:12:25Z",
+      "addedAt": "2026-11-07T18:00:03.196Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1371134518",
+      "title": "oliverjessner/OpenEmperor: 🤴🏼 Clean-room reimplementation of Emperor: Rise of the Middle Kingdom in C++20 and SDL3. Built for modern systems, starting with Apple Silicon macOS. Early development; original game data required.",
+      "url": "https://github.com/oliverjessner/OpenEmperor",
+      "excerpt": "🤴🏼 Clean-room reimplementation of Emperor: Rise of the Middle Kingdom in C++20 and SDL3. Built for modern systems, starting with Apple Silicon macOS. Early development; original game data required.",
+      "image": "",
+      "publishedAt": "2026-11-07T17:57:22Z",
       "addedAt": "2026-11-07T18:00:03.196Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -824,7 +1274,7 @@
       "url": "https://github.com/dlh/blackshades",
       "excerpt": "Black Shades (Wolfire, 2002), the psychic-bodyguard shooter, ported to SDL3 for current macOS and Steam Deck",
       "image": "",
-      "publishedAt": "2026-11-07T17:59:09Z",
+      "publishedAt": "2026-11-07T18:09:32Z",
       "addedAt": "2026-11-07T18:00:02.732Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -850,7 +1300,7 @@
       "url": "https://github.com/TheBozos/TMB_Recomp",
       "excerpt": "Twisted Metal: Black (USA, SCUS-97101) as a native PC port: static recompilation with PS2Recomp (no game data)",
       "image": "",
-      "publishedAt": "2026-11-07T17:45:04Z",
+      "publishedAt": "2026-11-07T18:13:02Z",
       "addedAt": "2026-11-07T18:00:02.232Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -1554,7 +2004,7 @@
       "title": "‘Godzilla Minus Zero’ Is A Box Office Hero With $32M Live-Action Foreign-Language Opening Record – Saturday AM Update",
       "url": "https://deadline.com/2026/11/box-office-godzilla-minus-zero-cat-in-the-hat-1237215161/",
       "excerpt": "SATURDAY AM: In what is a never-before-seen stat, 74% of Imax and PLFs combined are driving the weekend gross of Gkids’ Godzilla Minus Zero‘s $32M opening after a $14.5M Friday. That share is bigger than the first weekend gross of Universal’s The Odyssey…",
-      "content": "SATURDAY AM: In what is a never-before-seen stat, 74% of Imax and PLFs combined are driving the weekend gross of Gkids’ Godzilla Minus Zero‘s $32M opening after a $14.5M Friday. That share is bigger than the first weekend gross of Universal’s The Odyssey which collected 52% of of its $123.5M opening weekend from both Imax […]",
+      "content": "SATURDAY AM: In what is a never-before-seen stat, 74% of Imax and PLFs combined are driving the weekend gross of Gkids’ Godzilla Minus Zero‘s $32M opening after a $14.5M Friday. That share is bigger than the first weekend gross of Universal’s The Odyssey which collected 52% of its $123.5M opening weekend from both Imax and […]",
       "image": "https://deadline.com/wp-content/uploads/2026/11/%E3%80%8E%E3%82%B4%E3%82%B8%E3%83%A9-0.0%E3%80%8F%E3%83%91%E3%83%96%E3%82%AB%E3%83%83%E3%83%88%E3%89%92-e1793929665158.jpg",
       "images": [
         {
@@ -3278,8 +3728,8 @@
       "id": "1406rz3",
       "title": "The Components of Agent Memory",
       "url": "https://www.anthropic.com/research/components-of-agent-memory",
-      "excerpt": "Article URL: https://www.anthropic.com/research/components-of-agent-memory Comments URL: https://news.ycombinator.com/item?id=50402212 Points: 117 # Comments: 64",
-      "content": "Article URL: https://www.anthropic.com/research/components-of-agent-memory\n\nComments URL: https://news.ycombinator.com/item?id=50402212\n\nPoints: 117\n\n# Comments: 64",
+      "excerpt": "Article URL: https://www.anthropic.com/research/components-of-agent-memory Comments URL: https://news.ycombinator.com/item?id=50402212 Points: 118 # Comments: 64",
+      "content": "Article URL: https://www.anthropic.com/research/components-of-agent-memory\n\nComments URL: https://news.ycombinator.com/item?id=50402212\n\nPoints: 118\n\n# Comments: 64",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T06:39:04.000Z",
@@ -4340,8 +4790,8 @@
       "id": "1iqgq9j",
       "title": "Every Mac comes with an (undocumented) family member classifier",
       "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 422 # Comments: 243",
-      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 422\n\n# Comments: 243",
+      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 430 # Comments: 245",
+      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 430\n\n# Comments: 245",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T09:46:03.000Z",
@@ -7461,6 +7911,19 @@
       "addedAt": "2026-11-07T06:16:14.418Z"
     },
     {
+      "id": "gh-1354613114",
+      "title": "boburning/portcove: Local-first manager for decompilations, recompilations, and native PC ports.",
+      "url": "https://github.com/boburning/portcove",
+      "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
+      "image": "",
+      "publishedAt": "2026-11-07T18:15:29Z",
+      "addedAt": "2026-11-07T06:09:06.147Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
       "id": "gh-1447268795",
       "title": "vittau/top-gear-2-genesis-pc: Native PC port of Top Gear 2 (Sega Genesis) via static recompilation: widescreen, true 60 fps, music+SFX together. Bring your own ROM.",
       "url": "https://github.com/vittau/top-gear-2-genesis-pc",
@@ -7493,19 +7956,6 @@
       "excerpt": "Tracker for playable static recompilations and source ports of classic games",
       "image": "",
       "publishedAt": "2026-11-07T13:07:38Z",
-      "addedAt": "2026-11-07T06:09:06.147Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
-      "id": "gh-1354613114",
-      "title": "boburning/portcove: Local-first manager for decompilations, recompilations, and native PC ports.",
-      "url": "https://github.com/boburning/portcove",
-      "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
-      "image": "",
-      "publishedAt": "2026-11-07T13:02:59Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -17243,8 +17693,8 @@
       "id": "28imw",
       "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
       "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
-      "excerpt": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution Comments URL: https://news.ycombinator.com/item?id=50397429 Points: 548 # Comments: 136",
-      "content": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution\n\nComments URL: https://news.ycombinator.com/item?id=50397429\n\nPoints: 548\n\n# Comments: 136",
+      "excerpt": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution Comments URL: https://news.ycombinator.com/item?id=50397429 Points: 551 # Comments: 136",
+      "content": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution\n\nComments URL: https://news.ycombinator.com/item?id=50397429\n\nPoints: 551\n\n# Comments: 136",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-06T19:48:51.000Z",
@@ -17302,8 +17752,8 @@
       "id": "qtlkhs",
       "title": "Firecracker VM Escape: PwnEscape Part 2",
       "url": "https://pwn.ai/blog/firecracker-escape",
-      "excerpt": "Article URL: https://pwn.ai/blog/firecracker-escape Comments URL: https://news.ycombinator.com/item?id=50397219 Points: 270 # Comments: 117",
-      "content": "Article URL: https://pwn.ai/blog/firecracker-escape\n\nComments URL: https://news.ycombinator.com/item?id=50397219\n\nPoints: 270\n\n# Comments: 117",
+      "excerpt": "Article URL: https://pwn.ai/blog/firecracker-escape Comments URL: https://news.ycombinator.com/item?id=50397219 Points: 272 # Comments: 117",
+      "content": "Article URL: https://pwn.ai/blog/firecracker-escape\n\nComments URL: https://news.ycombinator.com/item?id=50397219\n\nPoints: 272\n\n# Comments: 117",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-06T19:33:38.000Z",
