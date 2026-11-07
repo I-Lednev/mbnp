@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T22:16:52.133Z",
-  "tookMs": 11289,
+  "generatedAt": "2026-11-07T23:10:15.704Z",
+  "tookMs": 8834,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -30,20 +30,20 @@
     "mobile": 15,
     "releases": 45,
     "rumors": 28,
-    "software": 44,
+    "software": 45,
     "science": 65,
-    "entertainment": 142,
-    "ports": 99,
-    "pc": 49,
+    "entertainment": 146,
+    "ports": 102,
+    "pc": 50,
     "consoles": 121,
     "hardware": 46,
-    "industry": 43,
+    "industry": 44,
     "updates": 27,
     "aimods": 2,
     "aisoft": 51,
     "cars": 120,
-    "war": 108,
-    "total": 1260
+    "war": 109,
+    "total": 1271
   },
   "sourceCount": 98,
   "sources": [
@@ -736,12 +736,6 @@
   ],
   "errors": [
     {
-      "source": "r/GamingLeaksAndRumours",
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/new/.rss",
-      "error": "HTTP 429",
-      "reused": 10
-    },
-    {
       "source": "r/emulation",
       "url": "https://www.reddit.com/r/emulation/new/.rss",
       "error": "HTTP 429",
@@ -760,6 +754,204 @@
   ],
   "items": [
     {
+      "id": "gh-1414494799",
+      "title": "whylurking/IsaacRecomp: Native C++ recompilation of The Binding of Isaac (Flash) — 60 fps, 1080p, Windows/Linux/Switch. Requires the original game from Steam",
+      "url": "https://github.com/whylurking/IsaacRecomp",
+      "excerpt": "Native C++ recompilation of The Binding of Isaac (Flash) — 60 fps, 1080p, Windows/Linux/Switch. Requires the original game from Steam",
+      "image": "",
+      "publishedAt": "2026-11-07T23:08:25Z",
+      "addedAt": "2026-11-07T23:10:11.062Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1415686242",
+      "title": "fabegalo/x360-native: An open-source Xbox 360 recompilation project bringing original games and the authentic dashboard to modern PCs. Experimental and actively developed.",
+      "url": "https://github.com/fabegalo/x360-native",
+      "excerpt": "An open-source Xbox 360 recompilation project bringing original games and the authentic dashboard to modern PCs. Experimental and actively developed.",
+      "image": "",
+      "publishedAt": "2026-11-07T23:07:08Z",
+      "addedAt": "2026-11-07T23:10:11.062Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1404706030",
+      "title": "vyanhursky/DefJamFFNY-recomp: Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
+      "url": "https://github.com/vyanhursky/DefJamFFNY-recomp",
+      "excerpt": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
+      "image": "",
+      "publishedAt": "2026-11-07T22:55:18Z",
+      "addedAt": "2026-11-07T23:10:10.266Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gpyadg",
+      "title": "Google Messages homepage redesign: Pinned chat avatars, bottom search, corner Gemini",
+      "url": "https://9to5google.com/2026/11/07/google-messages-pinned-chats-redesign/",
+      "excerpt": "In addition to the new app icon , Google Messages for Android is testing a big homepage redesign that has three core components. more…",
+      "content": "In addition to the new app icon , Google Messages for Android is testing a big homepage redesign that has three core components.\n\nmore…",
+      "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/09/google-messages-thread-1.jpg?quality=82&strip=all&w=1600",
+      "images": [
+        {
+          "url": "https://9to5google.com/wp-content/uploads/sites/4/2026/09/google-messages-thread-1.jpg?quality=82&strip=all&w=1600",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T23:08:00.000Z",
+      "sourceId": "9to5google",
+      "source": "9to5Google",
+      "category": "software",
+      "lang": "en",
+      "addedAt": "2026-11-07T23:10:06.870Z"
+    },
+    {
+      "id": "f19pvm",
+      "title": "U2’s The Edge Wrote an ‘Elf’ Sequel, But It ‘Petered Out and Never Happened,’ Says Andy Richter",
+      "url": "https://variety.com/2026/film/news/u2-the-edge-sequel-elf-andy-richter-1236942164/",
+      "excerpt": "According to Andy Richter, U2’s the Edge penned a script for a sequel to “Elf” — but fans will likely never get to see (or read) it. On a recent episode of “Obsessed: The Podcast,” the actor explained that Shauna Robertson, who’d produced the original film…",
+      "content": "According to Andy Richter, U2’s the Edge penned a script for a sequel to “Elf” — but fans will likely never get to see (or read) it. On a recent episode of “Obsessed: The Podcast,” the actor explained that Shauna Robertson, who’d produced the original film, once received a message saying that the band member, […]",
+      "image": "https://variety.com/wp-content/uploads/2026/11/Bono-Stories-Of-Surrender-Red-Carpet-Cannes-Film-Festival-2025-ELF-Will-Ferrell-2003-c-New-Linecourtesy-Everett-Collection-U2-iNNOCENCE-eXPERIENCE-Tour-Opener-Vancouver-1000.jpg",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/Bono-Stories-Of-Surrender-Red-Carpet-Cannes-Film-Festival-2025-ELF-Will-Ferrell-2003-c-New-Linecourtesy-Everett-Collection-U2-iNNOCENCE-eXPERIENCE-Tour-Opener-Vancouver-1000.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T23:07:32.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T23:10:06.870Z"
+    },
+    {
+      "id": "flv386",
+      "title": "MSG Says Macklemore Is “Not An Arena Level Act” After Turning Down Free Palestine Tour",
+      "url": "https://deadline.com/2026/11/msg-macklemore-not-arena-level-act-free-palestine-tour-1237216363/",
+      "excerpt": "After Macklemore called out some of the venues that would not host his Free Palestine Tour, Madison Square Garden has responded. In a recent statement, an MSG spokesperson claimed the decision to reject the tour was due to “extremely limited availability” and…",
+      "content": "After Macklemore called out some of the venues that would not host his Free Palestine Tour, Madison Square Garden has responded. In a recent statement, an MSG spokesperson claimed the decision to reject the tour was due to “extremely limited availability” and the fact that he’s “not an arena level act,” despite quickly selling out […]",
+      "image": "https://deadline.com/wp-content/uploads/2026/09/Macklemore-2153049755.jpg",
+      "images": [
+        {
+          "url": "https://deadline.com/wp-content/uploads/2026/09/Macklemore-2153049755.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T23:01:18.000Z",
+      "sourceId": "deadline",
+      "source": "Deadline",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T23:10:06.870Z"
+    },
+    {
+      "id": "15e1sx",
+      "title": "‘Club Kid’ Scene-Stealer Kirby Howell-Baptiste on Playing a Drugged-Up Party Girl Who Turns Jordan Firstman’s World Upside Down: She’s ‘A Complete Tornado’",
+      "url": "https://variety.com/2026/film/global/club-kid-star-kirby-howell-baptiste-edison-party-girl-1236914502/",
+      "excerpt": "“Should we do a bump?” It’s a line said, in various forms, numerous times across the first half of “Club Kid,” Jordan Firstman’s hedonistic and heartfelt coming-of-age comedy drama about a hard-partying New York club promoter suddenly forced to grapple with…",
+      "content": "“Should we do a bump?” It’s a line said, in various forms, numerous times across the first half of “Club Kid,” Jordan Firstman’s hedonistic and heartfelt coming-of-age comedy drama about a hard-partying New York club promoter suddenly forced to grapple with life and responsibilities. But the most hilariously-timed utterance comes in the middle of a […]",
+      "image": "https://variety.com/wp-content/uploads/2026/11/Club-Kid-Edison.jpg",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/Club-Kid-Edison.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/Club-Kid-Edison-2.jpg?h=1000",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T23:00:00.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T23:10:06.870Z"
+    },
+    {
+      "id": "13kekck",
+      "title": "French Cinema Is Thriving at Festivals but Facing an Uphill Battle in U.S. Theaters as Distributors Navigate a Shrinking Market",
+      "url": "https://variety.com/2026/film/global/french-cinema-festivals-uphill-battle-u-s-theaters-1236942099/",
+      "excerpt": "French cinema may be enjoying a golden run on the festival circuit and in the awards race, but getting those films into U.S. theaters, and persuading American audiences to buy tickets, has become an increasingly uphill battle. That paradox was at the heart of…",
+      "content": "French cinema may be enjoying a golden run on the festival circuit and in the awards race, but getting those films into U.S. theaters, and persuading American audiences to buy tickets, has become an increasingly uphill battle. That paradox was at the heart of a lively discussion at the American French Film Festival on Thursday, […]",
+      "image": "https://variety.com/wp-content/uploads/2026/05/G75FOJT7HNGEVLHLFM5CHOM6MA.jpg",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/05/G75FOJT7HNGEVLHLFM5CHOM6MA.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T22:59:05.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T23:10:06.870Z"
+    },
+    {
+      "id": "laoz3b",
+      "title": "Echoes of Mirror's Edge, Dishonored and a dream set in Italy I once had can be found in Boars in Rome, an expressive parkour platformer set in dystopian Rome",
+      "url": "https://www.rockpapershotgun.com/echoes-of-mirrors-edge-dishonored-and-a-dream-set-in-italy-i-once-had-can-be-found-in-boars-in-rome-an-expressive-parkour-platformer-set-in-dystopian-rome",
+      "excerpt": "Years ago, I had this dream where I was parkouring through a greatly sunken version of Venice, no doubt sourced from the many hours I put into Assassin's Creed 2 as a teen who should have been studying for their GCSEs a lot more than they were. It's stuck…",
+      "content": "Years ago, I had this dream where I was parkouring through a greatly sunken version of Venice, no doubt sourced from the many hours I put into Assassin's Creed 2 as a teen who should have been studying for their GCSEs a lot more than they were. It's stuck with me after all this time mostly because of how much I wanted to capture that feeling again somehow, as the real Assassin's Creed didn't quite cut it. And lo and behold, there I was today browsing Bluesky when I came across Boars in Rome, a Mirror's Edge and Counter Strike Surf inspired parkour platformer set in a dystopian version of Rome.\n\nRead more",
+      "image": "https://assetsio.gnwcdn.com/boars-in-rome.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "images": [
+        {
+          "url": "https://assetsio.gnwcdn.com/boars-in-rome.jpg?width=690&quality=85&format=jpg&auto=webp",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T22:52:30.000Z",
+      "sourceId": "rps",
+      "source": "Rock Paper Shotgun",
+      "category": "pc",
+      "lang": "en",
+      "addedAt": "2026-11-07T23:10:06.870Z"
+    },
+    {
+      "id": "11h3rwa",
+      "title": "Зеленский анонсировал кадровые решения в СБУ после обнародования новых деталей антикоррупционной спецоперации \"Карфаген\"",
+      "url": "https://www.dw.com/ru/%D0%B7%D0%B5%D0%BB%D0%B5%D0%BD%D1%81%D0%BA%D0%B8%D0%B9-%D0%B0%D0%BD%D0%BE%D0%BD%D1%81%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BB-%D0%BA%D0%B0%D0%B4%D1%80%D0%BE%D0%B2%D1%8B%D0%B5-%D1%80%D0%B5%D1%88%D0%B5%D0%BD%D0%B8%D1%8F-%D0%B2-%D1%81%D0%B1%D1%83-%D0%BF%D0%BE%D1%81%D0%BB%D0%B5-%D0%BE%D0%B1%D0%BD%D0%B0%D1%80%D0%BE%D0%B4%D0%BE%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D0%BD%D0%BE%D0%B2%D1%8B%D1%85-%D0%B4%D0%B5%D1%82%D0%B0%D0%BB%D0%B5%D0%B9-%D0%B0%D0%BD%D1%82%D0%B8%D0%BA%D0%BE%D1%80%D1%80%D1%83%D0%BF%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%B9-%D1%81%D0%BF%D0%B5%D1%86%D0%BE%D0%BF%D0%B5%D1%80%D0%B0%D1%86%D0%B8%D0%B8-%D0%BA%D0%B0%D1%80%D1%84%D0%B0%D0%B3%D0%B5%D0%BD/a-79888522?maca=rus-rss-ru-all-1126-rdf",
+      "excerpt": "После обнародования новых деталей операции \"Карфаген\" президент Украины Владимир Зеленский объявил, что в СБУ будут новые кадровые решения. Ранее в рамках расследования провели обыски у высокопоставленных чиновников СБУ.",
+      "content": "После обнародования новых деталей операции \"Карфаген\" президент Украины Владимир Зеленский объявил, что в СБУ будут новые кадровые решения. Ранее в рамках расследования провели обыски у высокопоставленных чиновников СБУ.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-07T22:48:00.000Z",
+      "sourceId": "dw-ru",
+      "source": "DW Russian",
+      "category": "war",
+      "lang": "ru",
+      "addedAt": "2026-11-07T23:10:06.870Z"
+    },
+    {
+      "id": "pfq6t0",
+      "title": "Zelda OOT Remake: Win the Treasure Chest Shop game",
+      "url": "https://www.videogameschronicle.com/guide/zelda-oot-remake-win-treasure-chest-shop-game/",
+      "excerpt": "How to win the Treasure Chest Shop game in The Legend of Zelda: Ocarina of Time remake… Source",
+      "content": "How to win the Treasure Chest Shop game in The Legend of Zelda: Ocarina of Time remake…\n\nSource",
+      "image": "https://www.videogameschronicle.com/files/2026/11/Zelda-OOT-Remake-Win-the-Treasure-Chest-Shop-game-6.jpg",
+      "images": [
+        {
+          "url": "https://www.videogameschronicle.com/files/2026/11/Zelda-OOT-Remake-Win-the-Treasure-Chest-Shop-game-6.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T22:29:51.000Z",
+      "sourceId": "vgc",
+      "source": "VGC",
+      "category": "industry",
+      "lang": "en",
+      "addedAt": "2026-11-07T23:10:06.870Z"
+    },
+    {
       "id": "gh-1442329483",
       "title": "Re-TeRo17/ratchet-tod-recomp: Ratchet & Clank: Tools of Destruction native PC port (PS3 static recompilation) – 4K, 60 fps, DualSense, Windows",
       "url": "https://github.com/Re-TeRo17/ratchet-tod-recomp",
@@ -774,7 +966,7 @@
     },
     {
       "id": "ziyzvz",
-      "title": "Bill Skarsgård Says He ‘Wasn’t Even Thrown Into the Mix’ to Be James Bond, Despite British and Australian Actors Auditioning: ‘Maybe They Were Like, “We Can’t Do a Swede”’",
+      "title": "Bill Skarsgård Says He ‘Wasn’t Even Thrown Into the Mix’ to Be James Bond: ‘Maybe They Were Like, “We Can’t Do a Swede”’",
       "url": "https://variety.com/2026/film/news/bill-skarsgard-playing-villains-james-bond-film-1236942134/",
       "excerpt": "Bill Skarsgård won’t be the next 007, but he would play a Bond villain. In a recent appearance on Josh Horowitz’s “Happy Sad Confused” podcast, Skarsgård revealed he wasn’t asked to test for Denis Villeneuve’s reboot. “They didn’t call me about James Bond. I…",
       "content": "Bill Skarsgård won’t be the next 007, but he would play a Bond villain. In a recent appearance on Josh Horowitz’s “Happy Sad Confused” podcast, Skarsgård revealed he wasn’t asked to test for Denis Villeneuve’s reboot. “They didn’t call me about James Bond. I don’t know what that was about,” he joked. “Every single British, […]",
@@ -1703,10 +1895,10 @@
     },
     {
       "id": "1b7nd1l",
-      "title": "Master Quest references potentially found in Zelda: Ocarina of Time remake files",
+      "title": "Master Quest references potentially found in Zelda: Ocarina of Time remake files [update: more details]",
       "url": "https://nintendoeverything.com/master-quest-references-potentially-found-in-zelda-ocarina-of-time-remake-files/",
-      "excerpt": "Following a new datamine, some fans are hoping that Master Quest could be added to the remake for The Legend of Zelda: Ocarina of Time in the future. As we previously reported, the game doesn’t have Master Quest included. Some fans were hoping it’d be an…",
-      "content": "Following a new datamine, some fans are hoping that Master Quest could be added to the remake for The Legend of Zelda: Ocarina of Time in the future. As we previously reported, the game doesn’t have Master Quest included. Some fans were hoping it’d be an unlockable bonus after beating the story, but nothing like that exists. MrCheeze has now...\n\nNintendo Everything .",
+      "excerpt": "Original: Following a new datamine, some fans are hoping that Master Quest could be added to the remake for The Legend of Zelda: Ocarina of Time in the future. As we previously reported, the game doesn’t have Master Quest included. Some fans were hoping it’d…",
+      "content": "Original: Following a new datamine, some fans are hoping that Master Quest could be added to the remake for The Legend of Zelda: Ocarina of Time in the future. As we previously reported, the game doesn’t have Master Quest included. Some fans were hoping it’d be an unlockable bonus after beating the story, but nothing like that exists. MrCheeze has...\n\nNintendo Everything .",
       "image": "https://nintendoeverything.com/wp-content/uploads/Zelda-Ocarina-of-Time-remake-Master-Quest-datamine-150x84.jpg",
       "images": [
         {
@@ -2155,8 +2347,8 @@
       "id": "1fzmty1",
       "title": "The end of Microsoft Research's AI Frontiers group",
       "url": "https://hunch.net/?p=13764006",
-      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 263 # Comments: 147",
-      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 263\n\n# Comments: 147",
+      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 294 # Comments: 163",
+      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 294\n\n# Comments: 163",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T18:02:17.000Z",
@@ -2242,8 +2434,8 @@
       "id": "6a6jp5",
       "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
       "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 133 # Comments: 34",
-      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 133\n\n# Comments: 34",
+      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 150 # Comments: 40",
+      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 150\n\n# Comments: 40",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T17:19:00.000Z",
@@ -2865,7 +3057,7 @@
       "url": "https://github.com/TheBozos/VP2S_Recomp",
       "excerpt": "Native PC port of Valkyrie Profile 2: Silmeria (USA, SLUS-21452) by static recompilation with PS2Recomp: native renderer and audio, no GS/VU1/SPU2 emulation. No game data or keys included.",
       "image": "",
-      "publishedAt": "2026-11-07T22:12:57Z",
+      "publishedAt": "2026-11-07T23:01:32Z",
       "addedAt": "2026-11-07T18:00:03.196Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -2951,12 +3143,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1441623504",
-      "title": "makkaX2/DroneFlames-PC-Port: 🚁 DroneFlames PC Port (Windows x64) — native PC controls, WASD camera, smooth zoom, multiplayer & automated CI/CD builds by @good_boy_irl.",
-      "url": "https://github.com/makkaX2/DroneFlames-PC-Port",
-      "excerpt": "🚁 DroneFlames PC Port (Windows x64) — native PC controls, WASD camera, smooth zoom, multiplayer & automated CI/CD builds by @good_boy_irl.",
+      "id": "gh-1430294447",
+      "title": "TheBozos/TMB_Recomp: Twisted Metal: Black (USA, SCUS-97101) as a native PC port: static recompilation with PS2Recomp (no game data)",
+      "url": "https://github.com/TheBozos/TMB_Recomp",
+      "excerpt": "Twisted Metal: Black (USA, SCUS-97101) as a native PC port: static recompilation with PS2Recomp (no game data)",
       "image": "",
-      "publishedAt": "2026-11-07T22:16:15Z",
+      "publishedAt": "2026-11-07T23:08:13Z",
       "addedAt": "2026-11-07T18:00:02.232Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -2964,12 +3156,25 @@
       "lang": "en"
     },
     {
-      "id": "gh-1430294447",
-      "title": "TheBozos/TMB_Recomp: Twisted Metal: Black (USA, SCUS-97101) as a native PC port: static recompilation with PS2Recomp (no game data)",
-      "url": "https://github.com/TheBozos/TMB_Recomp",
-      "excerpt": "Twisted Metal: Black (USA, SCUS-97101) as a native PC port: static recompilation with PS2Recomp (no game data)",
+      "id": "gh-1406150361",
+      "title": "SpeedBreakerProject/speedbreaker: Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
+      "url": "https://github.com/SpeedBreakerProject/speedbreaker",
+      "excerpt": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
       "image": "",
-      "publishedAt": "2026-11-07T22:09:21Z",
+      "publishedAt": "2026-11-07T22:53:51Z",
+      "addedAt": "2026-11-07T18:00:02.232Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1441623504",
+      "title": "makkaX2/DroneFlames-PC-Port: 🚁 DroneFlames PC Port (Windows x64) — native PC controls, WASD camera, smooth zoom, multiplayer & automated CI/CD builds by @good_boy_irl.",
+      "url": "https://github.com/makkaX2/DroneFlames-PC-Port",
+      "excerpt": "🚁 DroneFlames PC Port (Windows x64) — native PC controls, WASD camera, smooth zoom, multiplayer & automated CI/CD builds by @good_boy_irl.",
+      "image": "",
+      "publishedAt": "2026-11-07T22:35:24Z",
       "addedAt": "2026-11-07T18:00:02.232Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -2996,19 +3201,6 @@
       "excerpt": "Unofficial native recompilation of Need for Speed: Carbon (Xbox 360) for Apple Silicon Macs. Early Development — Playable in Parts. Bring your own disc; no game files included.",
       "image": "",
       "publishedAt": "2026-11-07T17:13:46Z",
-      "addedAt": "2026-11-07T18:00:02.232Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
-      "id": "gh-1406150361",
-      "title": "SpeedBreakerProject/speedbreaker: Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
-      "url": "https://github.com/SpeedBreakerProject/speedbreaker",
-      "excerpt": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Most Wanted (2005): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
-      "image": "",
-      "publishedAt": "2026-11-07T15:58:30Z",
       "addedAt": "2026-11-07T18:00:02.232Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -3096,10 +3288,10 @@
       "url": "https://variety.com/2026/artisans/news/godzilla-minus-zero-vfx-water-particles-1236939477/",
       "excerpt": "It’s been just over two years since “Godzilla Minus One” collected the Oscar in visual effects. Writer, director and VFX supervisor Takashi Yamazaki became the first helmer to receive a VFX trophy since Stanley Kubrick for 1968’s “2001: A Space Odyssey.”…",
       "content": "It’s been just over two years since “Godzilla Minus One” collected the Oscar in visual effects. Writer, director and VFX supervisor Takashi Yamazaki became the first helmer to receive a VFX trophy since Stanley Kubrick for 1968’s “2001: A Space Odyssey.” Reflecting on that historic night, Yamazaki, speaking through a translator, said, “It was just […]",
-      "image": "https://variety.com/wp-content/uploads/2026/11/GMZ_Stills-Copyright_still-03.jpg",
+      "image": "https://variety.com/wp-content/uploads/2026/11/%E3%80%8E%E3%82%B4%E3%82%B8%E3%83%A9-0.0%E3%80%8F%E3%83%91%E3%83%96%E3%82%AB%E3%83%83%E3%83%88%E3%89%92.jpg",
       "images": [
         {
-          "url": "https://variety.com/wp-content/uploads/2026/11/GMZ_Stills-Copyright_still-03.jpg",
+          "url": "https://variety.com/wp-content/uploads/2026/11/%E3%80%8E%E3%82%B4%E3%82%B8%E3%83%A9-0.0%E3%80%8F%E3%83%91%E3%83%96%E3%82%AB%E3%83%83%E3%83%88%E3%89%92.jpg",
           "alt": ""
         },
         {
@@ -5877,7 +6069,7 @@
       "url": "https://github.com/victor-takai/rogue-galaxy-recomp",
       "excerpt": "Rogue Galaxy (PS2) as a native Windows game: a static recompilation on PS2Recomp, built from your own disc.",
       "image": "",
-      "publishedAt": "2026-11-07T21:39:44Z",
+      "publishedAt": "2026-11-07T22:48:32Z",
       "addedAt": "2026-11-07T12:40:12.383Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -6446,8 +6638,8 @@
       "id": "1iqgq9j",
       "title": "Every Mac comes with an (undocumented) family member classifier",
       "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 532 # Comments: 314",
-      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 532\n\n# Comments: 314",
+      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 550 # Comments: 324",
+      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 550\n\n# Comments: 324",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T09:46:03.000Z",
@@ -8116,7 +8308,7 @@
       "url": "https://github.com/YodaMMM/NightfirePort",
       "excerpt": "Nightfire Rust: a native Windows PC port of 007: Nightfire (PS2), written in Rust",
       "image": "",
-      "publishedAt": "2026-11-07T22:12:25Z",
+      "publishedAt": "2026-11-07T23:01:56Z",
       "addedAt": "2026-11-07T09:10:09.502Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -10886,7 +11078,7 @@
       "url": "https://github.com/ChupathingyCE/chupathingyce",
       "excerpt": "Halo CE: Ported for Everyone. Windows, Mac, Linux, Steam Deck, Android and FreeBSD, with online games and stats. Bring your own copy of the game.",
       "image": "",
-      "publishedAt": "2026-11-07T22:11:50Z",
+      "publishedAt": "2026-11-07T22:58:43Z",
       "addedAt": "2026-11-07T06:02:57.825Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -26275,10 +26467,10 @@
     },
     {
       "id": "130ljkl",
-      "title": "Война в Украине: в Киеве поврежден Северный мост через Днепр, в Киевской области пострадали подстанции",
+      "title": "Война в Украине: Россия назвала состав своей делегации на переговорах в Абу-Даби; в Киеве поврежден Северный мост",
       "url": "https://www.bbc.co.uk/russian/live/cmjrwvyj4jy8t?at_medium=RSS&at_campaign=rss",
       "excerpt": "Последние новости, комментарии и видео о войне России против Украины.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7b3d/live/8e4123a0-dab7-11f1-8c3b-f3c0d6bd7c4f.jpg",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1042/live/b49e3dd0-daf8-11f1-b9a2-091c4f802785.jpg",
       "publishedAt": null,
       "sourceId": "bbc-ru",
       "source": "BBC Russian",
@@ -26288,7 +26480,7 @@
       "content": "Последние новости, комментарии и видео о войне России против Украины.",
       "images": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/7b3d/live/8e4123a0-dab7-11f1-8c3b-f3c0d6bd7c4f.jpg",
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1042/live/b49e3dd0-daf8-11f1-b9a2-091c4f802785.jpg",
           "alt": ""
         }
       ]
