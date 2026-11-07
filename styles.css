@@ -584,6 +584,26 @@ button:disabled {
   flex: none;
 }
 
+.visitor-badge {
+  display: inline-flex;
+  align-items: center;
+  height: 28px;
+  overflow: hidden;
+  border-radius: 7px;
+  opacity: 0.9;
+  transition: opacity 0.15s ease;
+}
+
+.visitor-badge:hover {
+  opacity: 1;
+}
+
+.visitor-badge img {
+  display: block;
+  width: auto;
+  height: 28px;
+}
+
 #status {
   display: flex;
   align-items: center;
