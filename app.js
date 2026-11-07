@@ -11,7 +11,11 @@ const STORAGE = {
 const CATEGORY_LABELS = {
   ai: 'ИИ',
   games: 'Игры',
-  hardware: 'Приставки',
+  pc: 'ПК',
+  consoles: 'Консоли',
+  hardware: 'Железо',
+  industry: 'Индустрия',
+  updates: 'Обновления',
   aimods: 'ИИ-моды',
   aisoft: 'ИИ-софт',
   cars: 'Авто',
@@ -23,7 +27,11 @@ const CATEGORY_KEYS = Object.keys(CATEGORY_LABELS);
 const FALLBACK_LABELS = {
   ai: 'AI',
   games: 'GAME',
-  hardware: 'CONS',
+  pc: 'PC',
+  consoles: 'CONS',
+  hardware: 'HW',
+  industry: 'BIZ',
+  updates: 'UPD',
   aimods: 'MOD',
   aisoft: 'SOFT',
   cars: 'AUTO',
@@ -1009,7 +1017,11 @@ async function loadDigestWeek(key) {
 
   try {
     const data = await fetchJson(`data/digest/${encodeURIComponent(key)}.json?ts=${Date.now()}`);
-    state.digestItems = Array.isArray(data.items) ? data.items : [];
+    const sourceCategories = new Map((state.data?.sources || []).map((source) => [source.id, source.category]));
+    state.digestItems = (Array.isArray(data.items) ? data.items : []).map((item) => ({
+      ...item,
+      category: sourceCategories.get(item.sourceId) || item.category,
+    }));
     populateDigestCategories();
     renderDigestList();
   } catch (error) {
