@@ -43,6 +43,8 @@ jobs:
 
       - name: Собрать news.json
         run: node scripts/fetch-news.mjs
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Достать полный текст статей
         # Если сайт закрылся от ботов, читалка останется на RSS-анонсе.
