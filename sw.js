@@ -1,5 +1,5 @@
 /* Service worker: офлайн-оболочка и кэш последнего news.json. */
-const CACHE_NAME = 'my-best-newspaper-v17';
+const CACHE_NAME = 'my-best-newspaper-v18';
 
 const APP_SHELL = [
   './',
@@ -42,6 +42,7 @@ self.addEventListener('fetch', (event) => {
     url.pathname.endsWith('/data/news.json') ||
     url.pathname.endsWith('/data/articles.json') ||
     url.pathname.endsWith('/data/translations.json') ||
+    url.pathname.endsWith('/data/summaries.json') ||
     url.pathname.includes('/data/digest/')
   ) {
     const cacheKey = new Request(`${url.origin}${url.pathname}`);
