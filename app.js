@@ -1209,6 +1209,16 @@ function bindEvents() {
     renderDigestList();
   });
 
+  const visitorBadge = document.getElementById('visitorBadge');
+  const visitorImage = visitorBadge?.querySelector('img');
+  visitorImage?.addEventListener(
+    'error',
+    () => {
+      if (visitorBadge) visitorBadge.hidden = true;
+    },
+    { once: true },
+  );
+
   els.sourcesDialog.addEventListener('click', (event) => {
     if (event.target === els.sourcesDialog) closeSourcesDialog();
   });
