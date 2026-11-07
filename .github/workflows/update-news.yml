@@ -81,7 +81,7 @@ jobs:
           # Другой запуск мог уже закоммитить данные, пока этот работал.
           # Ставим наш сгенерированный выпуск поверх актуального origin/main.
           git fetch origin main
-          git reset --soft origin/main
+          git reset --mixed origin/main
 
           git add data/news.json
           if [ -f data/articles.json ]; then
