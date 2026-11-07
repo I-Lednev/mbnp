@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T11:10:16.377Z",
-  "tookMs": 9878,
+  "generatedAt": "2026-11-07T11:40:16.471Z",
+  "tookMs": 10846,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -24,26 +24,26 @@
     "war": "Война"
   },
   "counts": {
-    "ai": 96,
+    "ai": 98,
     "games": 89,
     "announces": 25,
     "mobile": 13,
     "releases": 33,
     "rumors": 22,
     "software": 40,
-    "science": 51,
+    "science": 53,
     "entertainment": 87,
-    "ports": 62,
-    "pc": 33,
+    "ports": 66,
+    "pc": 34,
     "consoles": 97,
-    "hardware": 31,
-    "industry": 39,
+    "hardware": 33,
+    "industry": 40,
     "updates": 24,
     "aimods": 2,
     "aisoft": 47,
-    "cars": 96,
+    "cars": 97,
     "war": 84,
-    "total": 971
+    "total": 984
   },
   "sourceCount": 98,
   "sources": [
@@ -760,6 +760,242 @@
   ],
   "items": [
     {
+      "id": "gh-1433893244",
+      "title": "dalves408/nhlhitzpro-recomp: NHL Hitz Pro (Xbox, 2003) for Windows PC: a static recompilation with a Direct3D 11 renderer, 4-player controller support and an installer. Bring your own disc; no game content included.",
+      "url": "https://github.com/dalves408/nhlhitzpro-recomp",
+      "excerpt": "NHL Hitz Pro (Xbox, 2003) for Windows PC: a static recompilation with a Direct3D 11 renderer, 4-player controller support and an installer. Bring your own disc; no game content included.",
+      "image": "",
+      "publishedAt": "2026-11-07T11:29:19Z",
+      "addedAt": "2026-11-07T11:40:10.586Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1442210019",
+      "title": "AmarilloNL/ssx-recomp: Native PC port of SSX (2012) via Xbox 360 static recompilation. Bring your own ISO.",
+      "url": "https://github.com/AmarilloNL/ssx-recomp",
+      "excerpt": "Native PC port of SSX (2012) via Xbox 360 static recompilation. Bring your own ISO.",
+      "image": "",
+      "publishedAt": "2026-11-07T11:20:24Z",
+      "addedAt": "2026-11-07T11:40:10.586Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1424652893",
+      "title": "NichlasEk/AVP-PS4: Native Aliens versus Predator (1999) source port for PS4 / OpenOrbis. Bring your own game data.",
+      "url": "https://github.com/NichlasEk/AVP-PS4",
+      "excerpt": "Native Aliens versus Predator (1999) source port for PS4 / OpenOrbis. Bring your own game data.",
+      "image": "",
+      "publishedAt": "2026-11-07T11:33:00Z",
+      "addedAt": "2026-11-07T11:40:10.203Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1425287032",
+      "title": "NichlasEk/Descent-PS4: Descent I & II native OpenOrbis PS4 port based on DXX-Rebirth. Bring your own game data.",
+      "url": "https://github.com/NichlasEk/Descent-PS4",
+      "excerpt": "Descent I & II native OpenOrbis PS4 port based on DXX-Rebirth. Bring your own game data.",
+      "image": "",
+      "publishedAt": "2026-11-07T11:14:16Z",
+      "addedAt": "2026-11-07T11:40:10.203Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "1uuwmz1",
+      "title": "Я отдал Директу 200 тысяч рублей и понял, что AI-продавца надо раздавать бесплатно",
+      "url": "https://habr.com/ru/articles/1104876/",
+      "excerpt": "Каждый, кто писал в чат интернет-магазина, знает, чем это кончается. Вы хотите спросить про один товар, а окошко в углу сначала требует имя, телефон и почту. Вы заполняете все три поля, и если на часах уже больше десяти вечера, окошко обещает ответить «в…",
+      "content": "Каждый, кто писал в чат интернет-магазина, знает, чем это кончается. Вы хотите спросить про один товар, а окошко в углу сначала требует имя, телефон и почту. Вы заполняете все три поля, и если на часах уже больше десяти вечера, окошко обещает ответить «в течение минуты», через минуту сообщает, что «оператор скоро подключится», и больше не пишет ничего. В соседней вкладке к этому времени уже открыт конкурент.\n\nВладелец магазина за этот визит, скорее всего, уже заплатил. В белорусском магазине сантехники, где сейчас работает мой бот, больше половины тех, кто пишет в чат, пришли с платной рекламы. Сколько стоит такой посетитель, я знаю по собственному сайту: с лета я отдал Яндекс Директу около 200 тысяч рублей, и каждый, кто успел сделать на сайте хоть что-нибудь, от клика по форме до регистрации, обходился мне дороже 700 рублей. Если такой человек закрыл окошко на поле с телефоном или так и не дождался ответа, деньги за его визит просто сгорели.\n\nЧитать далее",
+      "image": "https://habrastorage.org/extt/5b/35/ba/5b35ba2cf1bb541673a75ece5114b5a9.png",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/5b/35/ba/5b35ba2cf1bb541673a75ece5114b5a9.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T11:39:02.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-07T11:40:05.625Z"
+    },
+    {
+      "id": "f0u0l7",
+      "title": "EA producer found 20,000 archival media assets in secret physical vault at its HQ",
+      "url": "https://www.tomshardware.com/video-games/retro-gaming/ea-producer-found-20-000-archival-media-assets-in-secret-physical-vault-at-its-hq-betacam-vhs-and-d1-tapes-among-6000-assets-digitized-to-remaster-seven-classic-games",
+      "excerpt": "Jim Vessella, a Senior Producer at the EA Partner teams at Electronic Arts, stumbled upon EA’s secret physical media vault at the company’s Redwood Shores campus. This wasn't just any storage room containing copies of old games; instead, it held nearly 20,000…",
+      "content": "Jim Vessella, a Senior Producer at the EA Partner teams at Electronic Arts, stumbled upon EA’s secret physical media vault at the company’s Redwood Shores campus. This wasn't just any storage room containing copies of old games; instead, it held nearly 20,000 archival media assets stored in various media, including Betacam, VHS, D1, Film Reels, CD-ROMs, and more. Vessella discovered it in 2022 and spent the next six months outside of his working hours unpacking the room. He was eventually joined by Greg Roensch, who worked with the EA Story initiative, which is the company’s own preservation project, and reorganized the room chronologically. From there, EA shared how this effort turned from an archival project into a remaster of several classic titles.\n\nVessella, who also worked on the Command & Conquer Remastered Collection in 2019, built a proposal to digitize the room once it was organized, with efforts starting in 2024. Two years later, the team working on the project had digitized 6,000 media assets and 2,500 hours of historical footage, including the Master Source tapes for the Wing Commander and Road Rash franchises. This has allowed the team to build Wing Commander III: Heart of the Tiger: 30th Anniversary Edition using those original master tapes. But more than just putting in new footage in the game, Vessella reached out to the Wing Commander community to help make the game playable on modern systems. This included Matt Wells (Mash), who built an Enhancement Patch for the Kilrathi Saga version of the game released in 1996, Owen “ODVS” Davies, who advised the EA team on full-motion video (FMV) restoration for some damaged tapes, and Ben “LOAF” Lesnick, who tweaked the game to fix the infamous insta-kill missile spam in Wing Commander IV.\n\nEA also released Privateer 2: The Darkening: 30th Anniversary Edition with the help of Steve Hilliker, the original Cinematics Director of the game. It was actually a community member who said that they saw a video of Hilliker saying that he still has some of the master footage for the game stored on Digi 8. The team then reached out to the director, who found the entire collection in his attic. The team then commissioned Hilliker to digitize the tapes and create a “Director’s Cut” of the game’s cinematics. Matt once again stepped in and created an Enhancement Patch for Privateer 2 , delivering a lot of quality-of-life improvements to the original game.\n\nThere was also a ton of work done on the original Wing Commander and the Wing Commander II sequel, plus the Road Rash retro titles. While purists might decry the “improvements” made to these titles that allowed them to be played on modern systems, the combined efforts of Electronic Arts, its passionate employees, GOG, and the community at large have allowed these games to be brought back to life. You could now get the entire Wing Commander collection and Road Rash: 30th Anniversary Edition on Steam, allowing you to reminisce about your favorite titles from the ‘90s and even allow your kids to see what gaming was like 30 years ago.\n\nThe recent release of these retro titles and the effort behind preserving them is a refreshing move after Sony announced that it will ditch physical games by 2028. While online game libraries like Steam are often more convenient for gamers, it has also raised the issue of ownership, with GOG taking a jab at Steam after the latter added a banner clarifying that you don’t own the games you buy on the platform. Despite Sony’s move away from physical media, other game companies have iterated their support for it. Nintendo says that fans like physical games , while Microsoft introduced the Xbox Disc to Digital feature that gave gamers the best of both worlds. GOG is even considering reviving physical game releases , although it admits that it still has to figure things out before it can start printing out physical game media.",
+      "image": "https://cdn.mos.cms.futurecdn.net/kPG2J4Lu4Q9YZEndR8ZQ7M-1920-80.png",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/kPG2J4Lu4Q9YZEndR8ZQ7M-1920-80.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T11:30:00.000Z",
+      "sourceId": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "hardware",
+      "lang": "en",
+      "addedAt": "2026-11-07T11:40:05.625Z"
+    },
+    {
+      "id": "15kcn59",
+      "title": "Престиж, комфорт, драйв, крепкая подвеска, живучий кузов... А что не так?",
+      "url": "https://www.zr.ru/content/news/988067-prestizh-komfort-drajv-krepk/",
+      "excerpt": "«За рулем» подробно описал слабые места подержанных BMW X5 поколения Е70",
+      "content": "«За рулем» подробно описал слабые места подержанных BMW X5 поколения Е70",
+      "image": "https://www.zr.ru/_ah/img/EhytUNBGDxnR0rzxYY8Paw",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/EhytUNBGDxnR0rzxYY8Paw",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T11:30:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-07T11:40:05.625Z"
+    },
+    {
+      "id": "pvkerd",
+      "title": "Polar vortex faltering weeks earlier than ever recorded",
+      "url": "https://phys.org/news/2026-11-polar-vortex-faltering-weeks-earlier.html",
+      "excerpt": "Meteorologists said Friday they were observing an unprecedented early disruption of the polar vortex, raising the risk of cold snaps across the Northern Hemisphere, though there remains significant uncertainty.",
+      "content": "Meteorologists said Friday they were observing an unprecedented early disruption of the polar vortex, raising the risk of cold snaps across the Northern Hemisphere, though there remains significant uncertainty.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-person-wearing-a-thi.jpg",
+      "images": [
+        {
+          "url": "https://scx1.b-cdn.net/csz/news/tmb/2026/a-person-wearing-a-thi.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T11:20:04.000Z",
+      "sourceId": "physorg",
+      "source": "Phys.org",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-07T11:40:05.625Z"
+    },
+    {
+      "id": "chs6la",
+      "title": "Pakistani astronaut to board Shenzhou 24 and become the first foreigner on China's space station",
+      "url": "https://phys.org/news/2026-11-pakistani-astronaut-board-shenzhou-foreigner.html",
+      "excerpt": "A Pakistani astronaut will join the crew of China's Shenzhou 24 spacecraft on a mission that would make him the first foreign national to board Beijing's space station, state media reported Saturday.",
+      "content": "A Pakistani astronaut will join the crew of China's Shenzhou 24 spacecraft on a mission that would make him the first foreign national to board Beijing's space station, state media reported Saturday.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/china-pakistani-astron.jpg",
+      "images": [
+        {
+          "url": "https://scx1.b-cdn.net/csz/news/tmb/2026/china-pakistani-astron.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T11:20:01.000Z",
+      "sourceId": "physorg",
+      "source": "Phys.org",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-07T11:40:05.625Z"
+    },
+    {
+      "id": "zxttwm",
+      "title": "Nier: Automata developer is 'currently investigating' a bizarre update bug that drastically inflated the game's file size from 50GB to 366GB",
+      "url": "https://www.pcgamer.com/games/rpg/nier-automata-developer-is-currently-investigating-a-bizarre-update-bug-that-drastically-inflated-the-games-file-size-from-50gb-to-366gb/",
+      "excerpt": "Usually, it's a good thing when a patch makes an already excellent game substantially larger. But in the case of Nier: Automata 's most recent update, bigger is most certainly not better. On Friday, the beloved action RPG from Square Enix received what should…",
+      "content": "Usually, it's a good thing when a patch makes an already excellent game substantially larger. But in the case of Nier: Automata 's most recent update, bigger is most certainly not better. On Friday, the beloved action RPG from Square Enix received what should have been a straightforward update to added localisation support for Simplified Chinese, Traditional Chinese and Korean languages. But as reported by Automaton Media, the update also increased the game's file size from 50 gigabytes to a staggering 366 (and a half) gigabytes.\n\n\"We have identified an issue following the latest update for Nier: Automata … where installation requires significantly more storage space than intended,\" wrote Square Enix in a Steam post . \"We are currently investigating the cause and working to resolve the issue. We apologise for the inconvenience.\"\n\nIt isn't clear how this issue has occurred, but it may be related to Nier: Automata's DLC. When selected for download on Steam, each DLC appears to have the same file size as the base game. Weirdly though, this is only true for the initial download and installation. Once the game is installed, the file reportedly reverts to a more appropriate size of roughly 50 gigs.\n\nIndeed, as a temporary solution, Square Enix suggests that anyone who needs to download Nier: Automata deselects all eight DLC when they do so. \"As a temporary workaround, you can download the base game using the intended amount of storage space by going to \"Properties\" à \"DLC\" in Steam and unchecking each DLC item.\"\n\nWhile 366 gigabytes is obviously a ridiculous size for a game, what's frightening to me is that games are on track to become that massive in the coming years. Big budget games regularly exceed the 100 gigabytes in file size these days, while several major titles like Call of Duty: Modern Warfare and Call of Duty: Black Ops Cold War, have surpassed 200GB.\n\nOne of the largest reported installations to date is for the combat simulator DCS World , which had a maximum file size of 250GB back in 2021 . So although Nier: Automata's SSD-choking file-size is an accidental anomaly, it might also be an ominous glimpse into the future of PC gaming.\n\n2026 games : All the upcoming games\nBest PC games : Our all-time favorites\nFree PC games : Freebie fest\nBest FPS games : Finest gunplay\nBest RPGs : Grand adventures\nBest co-op games : Better together",
+      "image": "https://cdn.mos.cms.futurecdn.net/k598NBBJiCSKJrL33QJRvC-1920-80.jpg",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/k598NBBJiCSKJrL33QJRvC-1920-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/6offQUY4CXebir2TC27dMd-1920-80.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T11:15:54.000Z",
+      "sourceId": "pcgamer",
+      "source": "PC Gamer",
+      "category": "pc",
+      "lang": "en",
+      "addedAt": "2026-11-07T11:40:05.625Z"
+    },
+    {
+      "id": "1t5145d",
+      "title": "Запуск WoW Forever стал рекордным в истории франшизы",
+      "url": "https://www.playground.ru/world_of_warcraft/news/zapusk_wow_forever_stal_rekordnym_v_istorii_franshizy-1888587",
+      "excerpt": "Blizzard опубликовала в соцсетях пост об успехе World of Warcraft: Forever - MMORPG, основанной на версии 2004 года, но с рядом улучшений и дополнительным контентом.",
+      "content": "Blizzard опубликовала в соцсетях пост об успехе World of Warcraft: Forever - MMORPG, основанной на версии 2004 года, но с рядом улучшений и дополнительным контентом.",
+      "image": "https://i.playground.ru/e/uhyIGUXJqQVroB6Zm7DJ7A.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/uhyIGUXJqQVroB6Zm7DJ7A.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T11:13:38.000Z",
+      "sourceId": "playground-industry",
+      "source": "Playground Индустрия",
+      "category": "industry",
+      "lang": "ru",
+      "addedAt": "2026-11-07T11:40:05.625Z"
+    },
+    {
+      "id": "vcqbs9",
+      "title": "Разбивая лёд. Claude vs ТСПУ. Ноябрь 2026",
+      "url": "https://habr.com/ru/articles/1104872/",
+      "excerpt": "Данная статья написана исключительно в исследовательских целях и не является инструкцией по применению. Посадил я Клода в сеть Ростелекома и попросил выйти в мир. Вот что из этого вышло. Всё, что ниже - нейрослоп. Читать далее",
+      "content": "Данная статья написана исключительно в исследовательских целях и не является инструкцией по применению.\n\nПосадил я Клода в сеть Ростелекома и попросил выйти в мир. Вот что из этого вышло. Всё, что ниже - нейрослоп.\n\nЧитать далее",
+      "image": "https://habrastorage.org/extt/91/91/4c/91914c1e6b952b4634bfcaf772bd4695.png",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/91/91/4c/91914c1e6b952b4634bfcaf772bd4695.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T11:11:02.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-07T11:40:05.625Z"
+    },
+    {
+      "id": "1b33r6x",
+      "title": "Huawei представила насквозь китайский ПК — от процессора до блока питания и ОС",
+      "url": "https://3dnews.ru/1150998",
+      "excerpt": "Huawei представила свой первый настольный компьютер под управлением HarmonyOS — Qingyun HM650 для корпоративных и государственных заказчиков. По заявлению компании, это первый в отрасли настольный ПК, получивший сертификат, подтверждающий использование…",
+      "content": "Huawei представила свой первый настольный компьютер под управлением HarmonyOS — Qingyun HM650 для корпоративных и государственных заказчиков. По заявлению компании, это первый в отрасли настольный ПК, получивший сертификат, подтверждающий использование исключительно китайских компонентов. Источник изображений: Huawei",
+      "image": "https://3dnews.ru/assets/external/illustrations/2026/11/07/1150998/HM650-1.jpg",
+      "images": [
+        {
+          "url": "https://3dnews.ru/assets/external/illustrations/2026/11/07/1150998/HM650-1.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T10:39:00.000Z",
+      "sourceId": "3dnews-hardware",
+      "source": "3DNews Железо",
+      "category": "hardware",
+      "lang": "ru",
+      "addedAt": "2026-11-07T11:40:05.625Z"
+    },
+    {
       "id": "gh-1447228620",
       "title": "crashbashash/DW4_Decomp: Work-in-progress matching decompilation of Digimon World 4 (PS2, USA). No game data included.",
       "url": "https://github.com/crashbashash/DW4_Decomp",
@@ -791,7 +1027,7 @@
       "url": "https://github.com/luisbraganca/ps2n",
       "excerpt": "Static recompiler for PlayStation 2 executables. It reads an Emotion Engine (R5900) ELF, finds its functions, translates every instruction into plain C++, and links the result against a runtime that stands in for the rest of the console: the EE kernel, the hardware registers, the GS, and the IOP. The output is an ordinary buildable native program.",
       "image": "",
-      "publishedAt": "2026-11-07T10:53:38Z",
+      "publishedAt": "2026-11-07T11:29:28Z",
       "addedAt": "2026-11-07T11:10:10.681Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -1056,7 +1292,7 @@
       "title": "«Лето в Бадене» — роман советского патологоанатома Леонида Цыпкина о Федоре и Анне Достоевских, по которому вышел фильм. Сьюзан Зонтаг говорила, что книги достаточно, чтобы понять русскую литературу. Вот что стоит знать, если вы никогда не слышали о ней",
       "url": "https://meduza.io/feature/2026/11/07/leto-v-badene-roman-sovetskogo-patologoanatoma-leonida-tsypkina-o-fedore-i-anne-dostoevskih-po-kotoromu-vyshel-film",
       "excerpt": "5 ноября в российский прокат вышел фильм журналиста Антона Желнова «Лето в Бадене» (соавтор сценария — Юрий Сапрыкин) — экранизация одноименного романа Леонида Цыпкина, впервые опубликованного в тамиздате в 1982 году. Текст основан на настоящих дневниках Анны…",
-      "content": "5 ноября в российский прокат вышел фильм журналиста Антона Желнова «Лето в Бадене» (соавтор сценария — Юрий Сапрыкин) — экранизация одноименного романа Леонида Цыпкина, впервые опубликованного в тамиздате в 1982 году. Текст основан на настоящих дневниках Анны Достоевской, и он пронизан противоречивыми чувствами к писателю — в 1990-е русскоязычные критики во многом именно поэтому возненавидели роман советского ученого. По просьбе «Медузы» Алекс Месропов рассказывает, каким этот текст видится сегодня.\n\nКак роман советского ученого восхитил Сьюзан Зонтаг\n\n15 марта 1982 года патологоанатома Леонида Цыпкина уволили из НИИ Академии медицинских наук СССР. В тот же день до него дозвонился из США сын и сказал, что 13 марта эмигрантский журнал «Новая газета» опубликовал первые страницы романа Леонида «Лето в Бадене».\n\nЭто была единственная прижизненная публикация Цыпкина: его тексты не выходили ни в официальной печати, ни в самиздате, писал ученый исключительно в стол. Только после того, как на него начали давить на работе из-за иммиграции сына в США, он решился отправить «Лето в Бадене» за границу.\n\n20 марта, через неделю после публикации романа — в свой 56-й день рождения, — Леонид Цыпкин умер от сердечного приступа.\n\nГоворят, что роман понравился Довлатову и Бродскому, но большого внимания в русскоязычной среде он не привлек. Зато он получил признание на Западе. В 1983 году вышло немецкое издание «Лета в Бадене», в 1987-м — английское.\n\nНо главное, что в начале 1990-х его прочитала Сьюзен Зонтаг — она случайно нашла потрепанный экземпляр романа на книжном развале в Лондоне. В судьбе этого текста писательница сыграла решающую роль. «Если вы хотите, прочтя лишь одну книжку, понять глубину и мощь русской литературы, прочитайте эту книгу», — говорила Зонтаг о романе.\n\nОна же пригласила Михаила Цыпкина, сына писателя, в Нью-Йорк, узнала от него о жизни Леонида, после чего всеми силами добивалась издания романа в США. Благодаря ей в 2001 году книга вышла в New Directions — издательстве, выпускавшем произведения Эзры Паунда, Уильяма Сарояна, Эудженио Монтале, Бориса Пастернака, Лидии Дэвис, Ласло Краснохоркаи, Энн Карсон — словом, звезд мировой литературы прошлого и настоящего. Американское издание предваряет знаменитая статья Зонтаг « Любить Достоевского »; лучшего введения в жизнь и творчество Цыпкина до сих пор не написано. С тех пор «Лето в Бадене» было переведено как минимум на двадцать языков. \n\nВ России роман впервые вышел в 1999 году в издательстве Московского Художественного театра — крохотным тиражом 500 экземпляров, по инициативе Михаила Цыпкина, а также при участии редактора Анны Ильницкой и кинокритика Зары Абдуллаевой. Позднее Абдуллаева рассказывала , что отечественные издатели упорно игнорировали эту рукопись, из-за чего роман пришлось опубликовать на деньги сына.\n\nВ 2003 году роман переиздали в «Новом литературном обозрении» — с переводом статьи Зонтаг и послесловием филолога Андрея Устинова. Роман наконец прочитали российские критики.\n\nПравда, их отзывы были снисходительными, уничижительными, злыми, даже ресентиментыми; они ставили под сомнение и литературное подвижничество Зонтаг, и мнение западных славистов, высоко ставивших «Лето в Бадене», и само качество романа. Например, критик Лиза Новикова в «Коммерсанте» назвала роман «любительским сочинением на тему „Мой Достоевский“», а  Михаил Эдельштейн  — «графоманией». Он связывал успех книги на Западе исключительно с тем, что взгляды Цыпкина на Достоевского «совпали с мифологизированной Россией американских и европейских леволибералов». Большинство, судя по всему, разозлило то, что Цыпкин так подробно остановился на  антисемитизме Достоевского . Положительно роман оценили единицы: например, киновед Майя Туровская и поэт Александр Скидан.\n\nС тех пор «НЛО» переиздало роман еще четыре раза — правда, скромными тиражами по 1000 или 1500 экземпляров. В русскоязычной среде Цыпкин так и остался литературным маргиналом, писателем для писателей. Не исключено, что в 2026 году, с выходом экранизации , эта ситуация изменится.\n\nВ романе переплетаются путешествия героев из разных эпох. И один из них — Достоевский\n\nОдин из главных персонажей книги — анонимный рассказчик из 1970-х, который едет на поезде из Москвы в Ленинград и читает «Дневник» Анны Достоевской. Вторая поездка, описанная здесь, — путешествие Достоевских в 1867 году в Дрезден, Баден и Базель, воссозданная по дневникам Анны. \n\nРассказчик едет в Ленинград, чтобы посетить дом-музей Достоевского: для него это своего рода паломничество. Писатель же бежит с молодой женой из Петербурга, спасаясь от кредиторов. Рассказчик — советский еврей, как и Цыпкин, — прибыв в Ленинград, с болью размышляет об антисемитизме любимого писателя. Достоевский, приехав летом с женой в Баден, начинает играть в рулетку, надеясь сорвать достаточно денег, чтобы рассчитаться с кредиторами.\n\nРассказчик размышляет: почему среди советских исследователей Достоевского почти все были евреями? Почему он сам не может представить свою жизнь без Достоевского? И нет ли здесь связи между ощущением собственной инаковости в СССР и шовинизмом советского общества? Тем временем Достоевский, испытывая презрение ко всем — и особенно к «жидкам», немцам и Тургеневу , — в конце концов покидает Баден, потому что иначе рисковал навсегда потерять Анну.\n\nСам факт экранизации говорит о том, что «Лето в Бадене» вновь и вновь выдерживает проверку временем. В 1980-е его можно было прочитать как постмодернистский филологический роман, в 1990-е — как книгу о неудобной памяти, в 2000-е — как профеминистскую историю, в 2010-е — как автофикшн, а в 2020-е — как метароман о том, что такое быть писателем в России. И это только тематический уровень книги.\n\nДо сих пор не верится, что одинокий и далекий от литературной среды советский патологоанатом самостоятельно выработал стиль, напоминающий прозу Томаса Бернхарда, Хавьера Мариаса, Винфрида Зебальда — словом, многих ведущих писателей XX и XXI веков, с творчеством которых он  не мог быть знаком . Здесь нельзя не задуматься о том, как именно будет выглядеть экранизация романа. В истории кино достаточно примеров, когда гипнотические модернистские тексты были перенесены на экран с не меньшей виртуозностью — можно вспомнить, например, лучшую экранизацию «Обретенного времени» Марселя Пруста, снятую Раулем Руисом.\n\nВ отзывах русскоязычных критиков удивляет вот еще что: почти никто не написал, что Анна Достоевская играет в романе если не главную, то одну из основных ролей. Неслучайно рассказчик «Лета в Бадене» читает в поезде ее дневники, ее имя встречается в тексте не реже имени Федора и движение сюжета во многом зависит от  нее. Анна постоянно успокаивает Федю, когда он проигрывает, приводит его в чувство во время припадков эпилепсии, дает ему свои украшения, чтобы он заложил их, ждет его в парке, пока он снова играет в рулетку, занимается с ним сексом, если он в настроении, и в конце концов вытаскивает его из Бадена, когда они оказываются на краю пропасти. Если проследить перемещения Достоевского в романе, обнаружится повторяющийся маршрут: от Анны — чаще всего в казино — и обратно к ней.\n\nВажно, что Цыпкин не выдумал эту историю в Бадене. Он, в сущности, пересказал дневник Анны Достоевский, показав, как Федор зависел от жены и одновременно мучил ее.\n\nК слову, Анна — не единственный важный женский персонаж романа. Приехав в Ленинград, рассказчик останавливается у еврейской старушки Гили, пережившей блокаду; из ее дома он затем идет в музей Достоевского. Рассказ о пребывании у Гили — самая теплая по настроению часть истории. Наконец-то отношения двух героев в романе не требуют мучительной жертвы или сентиментального надрыва; просто два человека, рассказчик и Гиля, дарят друг другу ощущение домашнего тепла в зимнем Ленинграде. Описание ее судьбы для текста не менее важно, чем история самого рассказчика; точно так же линия Анны по-новому раскрывает характер Достоевского.\n\nНо о чем же эта история на самом деле?\n\nПочти все критики, нападавшие на Цыпкина, сосредоточились на вопросе, был ли его любимый писатель антисемитом. Но мало кто из них шел в анализе дальше.\n\n«Лето в Бадене» — еще и роман о защитных реакциях психики перед лицом насилия и унижения. Или, пользуясь выражением самого автора, — об «охранительной природе человеческой психики». Эта тема раскрывается через всех героев.\n\nНапример, в финале рассказчик допускает, что и за его любовью к Достоевскому, и за решением советских евреев исследовать творчество русского писателя, стояло «желание спрятаться за его [Достоевского] спиной, как за охранной грамотой — нечто вроде принятия христианства или намалевания креста на двери еврейской квартиры во время погрома». Кроме того, Цыпкин предполагает, что радикальное православие Достоевского и его националистический запал сформировались как защитная реакция психики на физические и моральные унижения, перенесенные писателем на каторге. Как известно, Достоевский неоднократно признавал каторжный опыт заслуженным, и Цыпкин допускает, что христианство с его акцентом на чувство вины стало для писателя самым подходящим способом придать хоть какой-то смысл перенесенным страданиям. \n\nГероини тоже показывают, какой бывает психологическая защита. Например, в романе есть сцены, когда Достоевский угрожает покончить с собой после очередного проигрыша — Анна пугается, но находит силы терпеть дальше, оправдывая поведение мужа эпилепсией, видя в нем скорее больного ребенка, чем ответственного взрослого. Или старушка Гиля: по воспоминаниям рассказчика, она вновь и вновь с любовью говорит о покойном муже Мозе, несмотря на его измены. Незадолго до смерти мужа ей на миг даже показалось, будто другой женщины вообще не было, будто он всегда был верен только ей.\n\nЦыпкин показывает, что человек все время остается на шаг, на два позади «охранительной природы человеческой психики»; лишь задним числом он осознает, что верил в иллюзии. Сравнить эти озарения можно с теми, что в наши дни испытывают многие после сеансов психотерапии. Не будем забывать, что Цыпкин виртуозно продемонстрировал это в романе, написанном еще в конце 1970-х — начале 1980-х годов, задолго до автофикционального бума в XXI веке.\n\nМожно предположить, что новый интерес к «тихим» позднесоветским писателям во многом связан как раз с тем, что они предлагают стратегии выживания в обществе полном насилия. Помимо Цыпкина, к таким авторам можно отнести литературоведа Лидию Гинзбург, поэта и научного фантаста Геннадия Гора, писательницу Наталью Баранскую . Все они жили в позднем СССР, работали в научных институтах и музеях, были на вторых или третьих ролях в литературном сообществе, а нередко и вовсе оставались незамеченными, почти не печатались или писали только в стол. Сегодня ценность их текстов очевидна: они рассказывают, как продолжать заниматься своим делом — нередко ценой самообмана. И как не терять надежды на признание — хотя бы посмертное.\n\nО книге натальи Баранской\n\n• «Неделя как неделя» — книга советской писательницы Натальи Баранской о жизни простой сотрудницы НИИ За границей этот текст изучают уже 40 лет. Никогда о нем не слышали? Переиздание — повод прочитать\n\nАлекс Месропов",
+      "content": "5 ноября в российский прокат вышел фильм журналиста Антона Желнова «Лето в Бадене» (соавтор сценария — Юрий Сапрыкин) — экранизация одноименного романа Леонида Цыпкина, впервые опубликованного в тамиздате в 1982 году. Текст основан на настоящих дневниках Анны Достоевской, и он пронизан противоречивыми чувствами к писателю — в 1990-е русскоязычные критики во многом именно поэтому возненавидели роман советского ученого. По просьбе «Медузы» Алекс Месропов рассказывает, каким этот текст видится сегодня.\n\nКак роман советского ученого восхитил Сьюзан Зонтаг\n\n15 марта 1982 года патологоанатома Леонида Цыпкина уволили из НИИ Академии медицинских наук СССР. В тот же день до него дозвонился из США сын и сказал, что 13 марта эмигрантский журнал «Новая газета» опубликовал первые страницы романа Леонида «Лето в Бадене».\n\nЭто была единственная прижизненная публикация Цыпкина: его тексты не выходили ни в официальной печати, ни в самиздате, писал ученый исключительно в стол. Только после того, как на него начали давить на работе из-за иммиграции сына в США, он решился отправить «Лето в Бадене» за границу.\n\n20 марта, через неделю после публикации романа — в свой 56-й день рождения, — Леонид Цыпкин умер от сердечного приступа.\n\nГоворят, что роман понравился Довлатову и Бродскому, но большого внимания в русскоязычной среде он не привлек. Зато он получил признание на Западе. В 1983 году вышло немецкое издание «Лета в Бадене», в 1987-м — английское.\n\nНо главное, что в начале 1990-х его прочитала Сьюзен Зонтаг — она случайно нашла потрепанный экземпляр романа на книжном развале в Лондоне. В судьбе этого текста писательница сыграла решающую роль. «Если вы хотите, прочтя лишь одну книжку, понять глубину и мощь русской литературы, прочитайте эту книгу», — говорила Зонтаг о романе.\n\nОна же пригласила Михаила Цыпкина, сына писателя, в Нью-Йорк, узнала от него о жизни Леонида, после чего всеми силами добивалась издания романа в США. Благодаря ей в 2001 году книга вышла в New Directions — издательстве, выпускавшем произведения Эзры Паунда, Уильяма Сарояна, Эудженио Монтале, Бориса Пастернака, Лидии Дэвис, Ласло Краснохоркаи, Энн Карсон — словом, звезд мировой литературы прошлого и настоящего. Американское издание предваряет знаменитая статья Зонтаг « Любить Достоевского »; лучшего введения в жизнь и творчество Цыпкина до сих пор не написано. С тех пор «Лето в Бадене» было переведено как минимум на двадцать языков. \n\nВ России роман впервые вышел в 1999 году в издательстве Московского Художественного театра — крохотным тиражом 500 экземпляров, по инициативе Михаила Цыпкина, а также при участии редактора Анны Ильницкой и кинокритика Зары Абдуллаевой. Позднее Абдуллаева рассказывала , что отечественные издатели упорно игнорировали эту рукопись, из-за чего роман пришлось опубликовать на деньги сына.\n\nВ 2003 году роман переиздали в «Новом литературном обозрении» — с переводом статьи Зонтаг и послесловием филолога Андрея Устинова. Роман наконец прочитали российские критики.\n\nПравда, их отзывы были снисходительными, уничижительными, злыми, даже ресентиментными; они ставили под сомнение и литературное подвижничество Зонтаг, и мнение западных славистов, высоко ставивших «Лето в Бадене», и само качество романа. Например, критик Лиза Новикова в «Коммерсанте» назвала роман «любительским сочинением на тему „Мой Достоевский“», а  Михаил Эдельштейн  — «графоманией». Он связывал успех книги на Западе исключительно с тем, что взгляды Цыпкина на Достоевского «совпали с мифологизированной Россией американских и европейских леволибералов». Большинство, судя по всему, разозлило то, что Цыпкин так подробно остановился на  антисемитизме Достоевского . Положительно роман оценили единицы: например, киновед Майя Туровская и поэт Александр Скидан.\n\nС тех пор «НЛО» переиздало роман еще четыре раза — правда, скромными тиражами по 1000 или 1500 экземпляров. В русскоязычной среде Цыпкин так и остался литературным маргиналом, писателем для писателей. Не исключено, что в 2026 году, с выходом экранизации , эта ситуация изменится.\n\nВ романе переплетаются путешествия героев из разных эпох. И один из них — Достоевский\n\nОдин из главных персонажей книги — анонимный рассказчик из 1970-х, который едет на поезде из Москвы в Ленинград и читает «Дневник» Анны Достоевской. Вторая поездка, описанная здесь, — путешествие Достоевских в 1867 году в Дрезден, Баден и Базель, воссозданная по дневникам Анны. \n\nРассказчик едет в Ленинград, чтобы посетить дом-музей Достоевского: для него это своего рода паломничество. Писатель же бежит с молодой женой из Петербурга, спасаясь от кредиторов. Рассказчик — советский еврей, как и Цыпкин, — прибыв в Ленинград, с болью размышляет об антисемитизме любимого писателя. Достоевский, приехав летом с женой в Баден, начинает играть в рулетку, надеясь сорвать достаточно денег, чтобы рассчитаться с кредиторами.\n\nРассказчик размышляет: почему среди советских исследователей Достоевского почти все были евреями? Почему он сам не может представить свою жизнь без Достоевского? И нет ли здесь связи между ощущением собственной инаковости в СССР и шовинизмом советского общества? Тем временем Достоевский, испытывая презрение ко всем — и особенно к «жидкам», немцам и Тургеневу , — в конце концов покидает Баден, потому что иначе рисковал навсегда потерять Анну.\n\nСам факт экранизации говорит о том, что «Лето в Бадене» вновь и вновь выдерживает проверку временем. В 1980-е его можно было прочитать как постмодернистский филологический роман, в 1990-е — как книгу о неудобной памяти, в 2000-е — как профеминистскую историю, в 2010-е — как автофикшен, а в 2020-е — как метароман о том, что такое быть писателем в России. И это только тематический уровень книги.\n\nДо сих пор не верится, что одинокий и далекий от литературной среды советский патологоанатом самостоятельно выработал стиль, напоминающий прозу Томаса Бернхарда, Хавьера Мариаса, Винфрида Зебальда — словом, многих ведущих писателей XX и XXI веков, с творчеством которых он  не мог быть знаком . Здесь нельзя не задуматься о том, как именно будет выглядеть экранизация романа. В истории кино достаточно примеров, когда гипнотические модернистские тексты были перенесены на экран с не меньшей виртуозностью — можно вспомнить, например, лучшую экранизацию «Обретенного времени» Марселя Пруста, снятую Раулем Руисом.\n\nВ отзывах русскоязычных критиков удивляет вот еще что: почти никто не написал, что Анна Достоевская играет в романе если не главную, то одну из основных ролей. Неслучайно рассказчик «Лета в Бадене» читает в поезде ее дневники, ее имя встречается в тексте не реже имени Федора и движение сюжета во многом зависит от  нее. Анна постоянно успокаивает Федю, когда он проигрывает, приводит его в чувство во время припадков эпилепсии, дает ему свои украшения, чтобы он заложил их, ждет его в парке, пока он снова играет в рулетку, занимается с ним сексом, если он в настроении, и в конце концов вытаскивает его из Бадена, когда они оказываются на краю пропасти. Если проследить перемещения Достоевского в романе, обнаружится повторяющийся маршрут: от Анны — чаще всего в казино — и обратно к ней.\n\nВажно, что Цыпкин не выдумал эту историю в Бадене. Он, в сущности, пересказал дневник Анны Достоевской, показав, как Федор зависел от жены и одновременно мучил ее.\n\nК слову, Анна — не единственный важный женский персонаж романа. Приехав в Ленинград, рассказчик останавливается у еврейской старушки Гили, пережившей блокаду; из ее дома он затем идет в Музей Достоевского. Рассказ о пребывании у Гили — самая теплая по настроению часть истории. Наконец-то отношения двух героев в романе не требуют мучительной жертвы или сентиментального надрыва; просто два человека, рассказчик и Гиля, дарят друг другу ощущение домашнего тепла в зимнем Ленинграде. Описание ее судьбы для текста не менее важно, чем история самого рассказчика; точно так же линия Анны по-новому раскрывает характер Достоевского.\n\nНо о чем же эта история на самом деле?\n\nПочти все критики, нападавшие на Цыпкина, сосредоточились на вопросе, был ли его любимый писатель антисемитом. Но мало кто из них шел в анализе дальше.\n\n«Лето в Бадене» — еще и роман о защитных реакциях психики перед лицом насилия и унижения. Или, пользуясь выражением самого автора, — об «охранительной природе человеческой психики». Эта тема раскрывается через всех героев.\n\nНапример, в финале рассказчик допускает, что и за его любовью к Достоевскому, и за решением советских евреев исследовать творчество русского писателя стояло «желание спрятаться за его [Достоевского] спиной, как за охранной грамотой — нечто вроде принятия христианства или намалевания креста на двери еврейской квартиры во время погрома». Кроме того, Цыпкин предполагает, что радикальное православие Достоевского и его националистический запал сформировались как защитная реакция психики на физические и моральные унижения, перенесенные писателем на каторге. Как известно, Достоевский неоднократно признавал каторжный опыт заслуженным, и Цыпкин допускает, что христианство с его акцентом на чувство вины стало для писателя самым подходящим способом придать хоть какой-то смысл перенесенным страданиям. \n\nГероини тоже показывают, какой бывает психологическая защита. Например, в романе есть сцены, когда Достоевский угрожает покончить с собой после очередного проигрыша, — Анна пугается, но находит силы терпеть дальше, оправдывая поведение мужа эпилепсией, видя в нем скорее больного ребенка, чем ответственного взрослого. Или старушка Гиля: по воспоминаниям рассказчика, она вновь и вновь с любовью говорит о покойном муже Мозе, несмотря на его измены. Незадолго до смерти мужа ей на миг даже показалось, будто другой женщины вообще не было, будто он всегда был верен только ей.\n\nЦыпкин показывает, что человек все время остается на шаг, на два позади «охранительной природы человеческой психики»; лишь задним числом он осознает, что верил в иллюзии. Сравнить эти озарения можно с теми, что в наши дни испытывают многие после сеансов психотерапии. Не будем забывать, что Цыпкин виртуозно продемонстрировал это в романе, написанном еще в конце 1970-х — начале 1980-х годов, задолго до автофикционального бума в XXI веке.\n\nМожно предположить, что новый интерес к «тихим» позднесоветским писателям во многом связан как раз с тем, что они предлагают стратегии выживания в обществе, полном насилия. Помимо Цыпкина, к таким авторам можно отнести литературоведа Лидию Гинзбург, поэта и научного фантаста Геннадия Гора, писательницу Наталью Баранскую . Все они жили в позднем СССР, работали в научных институтах и музеях, были на вторых или третьих ролях в литературном сообществе, а нередко и вовсе оставались незамеченными, почти не печатались или писали только в стол. Сегодня ценность их текстов очевидна: они рассказывают, как продолжать заниматься своим делом — нередко ценой самообмана. И как не терять надежды на признание — хотя бы посмертное.\n\nО книге Натальи Баранской\n\n• «Неделя как неделя» — книга советской писательницы Натальи Баранской о жизни простой сотрудницы НИИ За границей этот текст изучают уже 40 лет. Никогда о нем не слышали? Переиздание — повод прочитать\n\nАлекс Месропов",
       "image": "https://meduza.io/image/attachments/images/012/929/878/small/CURB27hls6CbVPi1k1rRsw",
       "images": [
         {
@@ -1502,7 +1738,7 @@
       "url": "https://github.com/1vs100/1vs100-reborn-pc",
       "excerpt": "1 vs 100 Xbox 360 game, ported to PC (windows, linux, mac) and xbox one/series in dev mode",
       "image": "",
-      "publishedAt": "2026-11-07T10:18:08Z",
+      "publishedAt": "2026-11-07T11:12:58Z",
       "addedAt": "2026-11-07T10:10:15.241Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -2182,7 +2418,7 @@
       "url": "https://github.com/YodaMMM/NightfirePort",
       "excerpt": "Nightfire Rust: a native Windows PC port of 007: Nightfire (PS2), written in Rust",
       "image": "",
-      "publishedAt": "2026-11-07T10:59:50Z",
+      "publishedAt": "2026-11-07T11:29:33Z",
       "addedAt": "2026-11-07T09:10:09.502Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -2195,10 +2431,10 @@
       "url": "https://meduza.io/news/2026/11/07/umerla-lidiya-fedoseeva-shukshina",
       "excerpt": "Советская и российская актриса Лидия Федосеева-Шукшина умерла в возрасте 88 лет. О ее смерти 7 ноября сообщила ТАСС дочь артистки. 14 октября Федосееву-Шукшину срочно госпитализировали из-за проблем с сердцем. После этого адвокат актрисы отказалась…",
       "content": "Советская и российская актриса Лидия Федосеева-Шукшина умерла в возрасте 88 лет. О ее смерти 7 ноября сообщила ТАСС дочь артистки.\n\n14 октября Федосееву-Шукшину срочно госпитализировали из-за проблем с сердцем. После этого адвокат актрисы отказалась подтвердить сообщения телеграм-каналов о том, что у нее неизлечимое заболевание, и говорила, что надеется на ее выздоровление.\n\nФедосеева-Шукшина — народная артистка РСФСР, вдова режиссера Василия Шукшина. За свою карьеру она снялась более чем в 90 фильмах, среди которых «Они сражались за Родину», «12 стульев», «Вам и не снилось…» и «Виват, гардемарины!». Широкую известность ей принесли роли в картинах Шукшина «Печки-лавочки» и «Калина красная».",
-      "image": "https://meduza.io/imgly/share/1794043271/news/2026/11/07/umerla-lidiya-fedoseeva-shukshina",
+      "image": "https://meduza.io/imgly/share/1794049808/news/2026/11/07/umerla-lidiya-fedoseeva-shukshina",
       "images": [
         {
-          "url": "https://meduza.io/imgly/share/1794043271/news/2026/11/07/umerla-lidiya-fedoseeva-shukshina",
+          "url": "https://meduza.io/imgly/share/1794049808/news/2026/11/07/umerla-lidiya-fedoseeva-shukshina",
           "alt": ""
         },
         {
@@ -2713,8 +2949,8 @@
       "id": "1ujscmm",
       "title": "Toei CEO Fumio Yoshimura Talks Global Expansion, GenAI Adoption & Entry Into Games",
       "url": "https://deadline.com/2026/11/kamen-rider-toei-gen-ai-gaming-dear-stranger-iris-1237215381/",
-      "excerpt": "Fumio Yoshimura, CEO of Japan’s Toei, explained how the studio is working with local partners to globalize its long-established IP, as well as innovating in areas including GenAI and gaming, in a keynote Forum session at Taiwan Creative Content Fest (TCCF)…",
-      "content": "Fumio Yoshimura, CEO of Japan’s Toei, explained how the studio is working with local partners to globalize its long-established IP, as well as innovating in areas including GenAI and gaming, in a keynote Forum session at Taiwan Creative Content Fest (TCCF). In 2023, the 75-year-old studio launched an ambitious $2BN ‘Toei New Wave’ plan to […]",
+      "excerpt": "Fumio Yoshimura, CEO of Japan’s Toei Co, explained how the studio is working with local partners to globalize its long-established IP, as well as innovating in areas including GenAI and gaming, in a keynote Forum session at Taiwan Creative Content Fest…",
+      "content": "Fumio Yoshimura, CEO of Japan’s Toei Co, explained how the studio is working with local partners to globalize its long-established IP, as well as innovating in areas including GenAI and gaming, in a keynote Forum session at Taiwan Creative Content Fest (TCCF). In 2023, the 75-year-old studio launched an ambitious $2BN ‘Toei New Wave’ plan […]",
       "image": "https://deadline.com/wp-content/uploads/2026/11/Fumio-Yoshimura.jpg",
       "images": [
         {
@@ -3069,7 +3305,7 @@
       "url": "https://github.com/Jstar269/Nakagawa-Recomp",
       "excerpt": "Play PSP games you own as native Windows programs. A static recompiler: add your own disc, build, play. No game data included.",
       "image": "",
-      "publishedAt": "2026-11-07T11:03:36Z",
+      "publishedAt": "2026-11-07T11:13:16Z",
       "addedAt": "2026-11-07T06:50:19.174Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -3638,7 +3874,7 @@
       "url": "https://github.com/boburning/portcove",
       "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
       "image": "",
-      "publishedAt": "2026-11-07T11:05:44Z",
+      "publishedAt": "2026-11-07T11:30:43Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -4848,7 +5084,20 @@
       "url": "https://github.com/kirklandsig/halo2-decompiled",
       "excerpt": "Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
       "image": "",
-      "publishedAt": "2026-11-07T10:08:56Z",
+      "publishedAt": "2026-11-07T11:33:07Z",
+      "addedAt": "2026-11-07T06:02:59.034Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1398811852",
+      "title": "abedegno/underworld-exhumed: Underworld Exhumed: Ultima Underworld I and II as byte-matching source code and native ports for macOS, Windows and Linux",
+      "url": "https://github.com/abedegno/underworld-exhumed",
+      "excerpt": "Underworld Exhumed: Ultima Underworld I and II as byte-matching source code and native ports for macOS, Windows and Linux",
+      "image": "",
+      "publishedAt": "2026-11-07T11:11:44Z",
       "addedAt": "2026-11-07T06:02:59.034Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -4921,19 +5170,6 @@
       "lang": "en"
     },
     {
-      "id": "gh-1398811852",
-      "title": "abedegno/underworld-exhumed: Underworld Exhumed: Ultima Underworld I and II as byte-matching source code and native ports for macOS, Windows and Linux",
-      "url": "https://github.com/abedegno/underworld-exhumed",
-      "excerpt": "Underworld Exhumed: Ultima Underworld I and II as byte-matching source code and native ports for macOS, Windows and Linux",
-      "image": "",
-      "publishedAt": "2026-11-06T20:53:59Z",
-      "addedAt": "2026-11-07T06:02:59.034Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
       "id": "gh-1380918033",
       "title": "xfynx/prsche-disasm: Reverse engineering and C/C++ source recovery of Need for Speed: Porsche Unleashed / Porsche 2000 (NFS5, PC 2000), with original-binary indexes, native differential tests and Rust port research.",
       "url": "https://github.com/xfynx/prsche-disasm",
@@ -4952,7 +5188,7 @@
       "url": "https://github.com/ChupathingyCE/chupathingyce",
       "excerpt": "Halo CE: Ported for Everyone. Windows, Mac, Linux, Steam Deck, Android and FreeBSD, with online games and stats. Bring your own copy of the game.",
       "image": "",
-      "publishedAt": "2026-11-07T11:08:56Z",
+      "publishedAt": "2026-11-07T11:10:53Z",
       "addedAt": "2026-11-07T06:02:57.825Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -13161,8 +13397,8 @@
       "id": "16pilxa",
       "title": "AI is dramatically accelerating AI research",
       "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-      "excerpt": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai Comments URL: https://news.ycombinator.com/item?id=50397994 Points: 315 # Comments: 268",
-      "content": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai\n\nComments URL: https://news.ycombinator.com/item?id=50397994\n\nPoints: 315\n\n# Comments: 268",
+      "excerpt": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai Comments URL: https://news.ycombinator.com/item?id=50397994 Points: 318 # Comments: 273",
+      "content": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai\n\nComments URL: https://news.ycombinator.com/item?id=50397994\n\nPoints: 318\n\n# Comments: 273",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-06T20:27:23.000Z",
@@ -13415,8 +13651,8 @@
       "id": "28imw",
       "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
       "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
-      "excerpt": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution Comments URL: https://news.ycombinator.com/item?id=50397429 Points: 490 # Comments: 113",
-      "content": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution\n\nComments URL: https://news.ycombinator.com/item?id=50397429\n\nPoints: 490\n\n# Comments: 113",
+      "excerpt": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution Comments URL: https://news.ycombinator.com/item?id=50397429 Points: 498 # Comments: 118",
+      "content": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution\n\nComments URL: https://news.ycombinator.com/item?id=50397429\n\nPoints: 498\n\n# Comments: 118",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-06T19:48:51.000Z",
@@ -13474,8 +13710,8 @@
       "id": "qtlkhs",
       "title": "Firecracker VM Escape: PwnEscape Part 2",
       "url": "https://pwn.ai/blog/firecracker-escape",
-      "excerpt": "Article URL: https://pwn.ai/blog/firecracker-escape Comments URL: https://news.ycombinator.com/item?id=50397219 Points: 244 # Comments: 109",
-      "content": "Article URL: https://pwn.ai/blog/firecracker-escape\n\nComments URL: https://news.ycombinator.com/item?id=50397219\n\nPoints: 244\n\n# Comments: 109",
+      "excerpt": "Article URL: https://pwn.ai/blog/firecracker-escape Comments URL: https://news.ycombinator.com/item?id=50397219 Points: 246 # Comments: 109",
+      "content": "Article URL: https://pwn.ai/blog/firecracker-escape\n\nComments URL: https://news.ycombinator.com/item?id=50397219\n\nPoints: 246\n\n# Comments: 109",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-06T19:33:38.000Z",
@@ -15805,8 +16041,8 @@
       "id": "15yabkl",
       "title": "Gemini Omni 1.2 Flash",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "excerpt": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/ Comments URL: https://news.ycombinator.com/item?id=50392118 Points: 339 # Comments: 231",
-      "content": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/\n\nComments URL: https://news.ycombinator.com/item?id=50392118\n\nPoints: 339\n\n# Comments: 231",
+      "excerpt": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/ Comments URL: https://news.ycombinator.com/item?id=50392118 Points: 340 # Comments: 231",
+      "content": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/\n\nComments URL: https://news.ycombinator.com/item?id=50392118\n\nPoints: 340\n\n# Comments: 231",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-06T13:35:27.000Z",
