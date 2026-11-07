@@ -32,7 +32,8 @@ GitHub Actions (каждые 30 минут)
 1. собирает свежие RSS-ленты в `data/news.json` и пополняет недельный дайджест в `data/digest/`;
 2. достаёт полный текст и картинки со страниц статей в `data/articles.json` (до 60 новых страниц за запуск);
 3. переводит новые материалы через Google Translate в `data/translations.json` (до 300 материалов за запуск);
-4. коммитит изменения, а GitHub Pages сразу показывает новый выпуск.
+4. делает краткие выжимки за сутки по каждому разделу в `data/summaries.json` — бесплатно, из заголовков, а при наличии ключа Gemini/Groq/Cloudflare — через нейросеть;
+5. коммитит изменения, а GitHub Pages сразу показывает новый выпуск.
 
 Если сервис перевода или какой-то сайт недоступен, пайплайн не падает: читалка остаётся на RSS-анонсе, перевод догоняется следующим запуском. Вручную можно нажать **Actions → Обновить новости → Run workflow**, если хочется обновить прямо сейчас. Ваш компьютер для этого не нужен.
 
@@ -46,6 +47,7 @@ npm.cmd install
 node scripts/fetch-news.mjs
 node scripts/enrich-articles.mjs
 node scripts/translate-news.mjs
+node scripts/summarize-news.mjs
 node scripts/serve.mjs
 ```
 
@@ -253,11 +255,13 @@ my-best-newspaper/
 │   ├── news.json               # собранные новости (генерируется)
 │   ├── articles.json           # полный текст и фото со страниц (генерируется)
 │   ├── translations.json       # переводы (генерируется)
+│   ├── summaries.json          # краткие выжимки по разделам за сутки (генерируется)
 │   └── digest/                 # недельный архив, 12 недель (генерируется)
 ├── scripts/
 │   ├── fetch-news.mjs          # RSS → news.json
 │   ├── enrich-articles.mjs     # страницы статей → articles.json
 │   ├── translate-news.mjs      # news.json + articles.json → translations.json
+│   ├── summarize-news.mjs      # news.json + translations.json → summaries.json
 │   └── serve.mjs               # локальный сервер
 ├── package.json
 ├── package-lock.json
