@@ -1,5 +1,5 @@
 /* Service worker: офлайн-оболочка и кэш последнего news.json. */
-const CACHE_NAME = 'my-best-newspaper-v33';
+const CACHE_NAME = 'my-best-newspaper-v34';
 
 const APP_SHELL = [
   './',
