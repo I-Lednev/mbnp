@@ -5,5 +5,5 @@ export const AUTH_CONFIG = {
   iterations: 210000,
   sessionDays: 30,
   inviteVersion: 1,
-  configUrl: 'https://raw.githubusercontent.com/I-Lednev/mbnp/main/access/config.json',
+  configUrl: 'https://i-lednev.github.io/mbnp/access/config.json',
 };
