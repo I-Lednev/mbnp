@@ -2291,22 +2291,6 @@ button:disabled {
   }
 }
 
-@media (max-width: 380px) {
-  .tabs {
-    gap: 2px;
-    padding: 4px;
-  }
-
-  .tab {
-    gap: 4px;
-    padding: 0 7px;
-  }
-
-  .tab-saved svg {
-    display: none;
-  }
-}
-
 @media (max-width: 420px) {
   .tabs {
     gap: 4px;
@@ -2326,6 +2310,23 @@ button:disabled {
 
   .card-title {
     font-size: 16px;
+  }
+}
+
+@media (max-width: 380px) {
+  .tabs {
+    gap: 3px;
+  }
+
+  .tab {
+    gap: 0;
+    padding: 0 6px;
+    font-size: 10.5px;
+  }
+
+  .tab-dot,
+  .tab-saved svg {
+    display: none;
   }
 }
 
