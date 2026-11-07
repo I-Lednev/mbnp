@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T23:10:18.866Z",
-  "count": 1080,
+  "generatedAt": "2026-11-07T23:40:27.960Z",
+  "count": 1085,
   "articles": {
     "1py56g3": {
       "version": 4,
@@ -27389,6 +27389,108 @@
         }
       ],
       "length": 2617,
+      "imageCount": 1
+    },
+    "45f0bm": {
+      "version": 4,
+      "url": "https://phys.org/news/2026-11-personalized-boost.html",
+      "fetchedAt": "2026-11-07T23:40:26.392Z",
+      "error": "HTTP 403"
+    },
+    "15ca9gx": {
+      "version": 4,
+      "url": "https://www.zr.ru/content/news/988178-pathfinder-kotoryj-ne-kupish/",
+      "fetchedAt": "2026-11-07T23:40:26.741Z",
+      "title": "Nissan выпустил особую версию Pathfinder для сложного бездорожья",
+      "byline": "Лежнин Роман",
+      "siteName": "zr.ru",
+      "content": "На SEMA Nissan привезла Pathfinder XE-V6 – внедорожный концепт, собранный для демонстрации того, как компания умеет дорабатывать уже существующие кроссоверы. В серию такая машина не пойдет, о чем в Nissan говорят прямо. Зато отдельные аксессуары из этого проекта со временем перейдут на другие модели марки.Nissan Pathfinder XE-V6Базу для концепта дала комплектация Rock Creek. Силовая установка – 3,5-литровый V6, выдающий до 295 л.с. и 366 Нм крутящего момента; выхлопную систему позаимствовали у спортивных автомобилей Nismo.Nissan Pathfinder XE-V6Проходимость улучшили заметнее всего: дорожный просвет вырос на 102 мм, а в подвеске появились новые проставки для подрамника. Для этой версии подготовили 18-дюймовые колесные диски с внедорожной резиной.Во внешности бросаются в глаза высокий передний бампер с дополнительной оптикой, точки крепления на корме, встроенный фаркоп, кастомные пороги, защита днища, клетка для запасного колеса и экспедиционный багажник. В поездку с собой можно взять 42,5-литровый холодильник и 6,6-литровую канистру, а вытаскивать машину из сложных мест поможет лебедка с синтетическим тросом.Интерьер Nissan Pathfinder XE-V6О похожих экспериментах с внедорожниками «За рулем» рассказывал на примере Land Cruiser с катерным мотором.Понравилась публикация?Тогда добавьте «За рулем» в список интересных источников: 1. Откройте https://google.com... 2. Поставьте галочку напротив нашего изданияГотово – остаемся на связи! «За рулем» можно читать в Одноклассниках",
+      "images": [
+        {
+          "url": "https://www.zr.ru/d/story/12/988178/mycollages-2026-11-06_01-01-44.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.zr.ru/d/story/67/956775/111222.jpg",
+          "alt": ""
+        }
+      ],
+      "length": 1491,
+      "imageCount": 2
+    },
+    "gh-1219110356": {
+      "version": 4,
+      "url": "https://github.com/sunsided/gorillas.rs",
+      "fetchedAt": "2026-11-07T23:40:26.890Z",
+      "title": "GitHub - sunsided/gorillas.rs: GORILLAS.BAS ... in Rust",
+      "byline": "",
+      "siteName": "GitHub",
+      "content": "Because someone had to do it: QBasic Gorillas, the 1991 IBM classic where two gorillas fling exploding bananas across a city skyline, reimplemented in Rust.\n\nThe original and very vintage GORILLAS.BAS is bundled in this repo.\nPlay it in the browser: https://sunsided.github.io/gorillas.rs/\nHow it works\nThis is not a remake that looks like Gorillas: it is GORILLAS.BAS itself, ported statement by\nstatement (src/gorillas.rs), running on an emulated VGA card and PC\nspeaker from game-toolkit-dosvideo.\nUnderneath sits a small QBasic runtime (src/qb.rs) with the statements the game\nuses, quirks included:\n\nLINE, CIRCLE and PAINT draw the pixels QBasic draws. CIRCLE is GW-BASIC's\nhalf-pixel algorithm with an 8.8 fixed-point aspect ratio (which is why the gorilla\nexplosion's aspect of -1.57 comes out flat), arcs are cut by point count, not angle.\nRND and RANDOMIZE are QBasic's 24-bit generator: with the same seed, the port builds the\nsame city, wind and gorilla positions as QBasic.\nPLAY keeps tempo, octave and length from one statement to the next, buffers background\nmusic and blocks when the buffer is full, which is what paces the gorilla intro dance.\nText uses the VGA BIOS fonts, 8x14 in SCREEN 9 and 8x16 in text mode.\nTime is the emulated machine's: Rest busy-waits on the 18.2 Hz TIMER like the original,\ncalibrated against QBasic 1.1 in DOSBox-X at 3000 cycles.\n\nThe program runs as an async fn polled by the host loop, so BASIC's blocking loops\n(INKEY$ polls, TIMER waits, PLAY in the foreground) stay blocking loops in the port.\nChecked against the original\ntools/dosbox plays the same scripted session in QBasic under DOSBox-X and in\nthe port (task compare), with RANDOMIZE 42 on both sides, and diffs the screenshots: the\nintro, the input screens, the city, the sun, the gorillas and the explosions match pixel for\npixel. Animation timing matches within a few frames; the PC speaker uses the same notes, its\ntiming drifts a little.\nRunning\ncargo run --release\nAlt+C cycles the CRT filters (it starts on the soft glow), Alt+Enter toggles fullscreen.\nGORILLAS_SEED=n replaces RANDOMIZE (TIMER) with RANDOMIZE n; GORILLAS_CRT=0..6 picks the\nfilter (0 = sharp pixels).\ngorillas capture TIMELINE OUTDIR [--frames] runs a scripted session headless and writes\nscreenshots, a frame sequence and the speaker as WAV.\nIn the browser\nThe web version is a SvelteKit page around the wasm build (Yarn via Corepack, wasm-pack):\ntask web # build the wasm and serve with live reload\ntask web:build # static site in web/build\nGitHub Pages deploys from main through .github/workflows/pages.yml.\nNotes\ndocs/UPSTREAM.md collects what this port had to build that belongs in\ngame-toolkit-dosvideo.\nLicense\nEUPL-1.2, except the font files in fonts/: the VGA BIOS character sets as DOSBox-X\nprovides them, dumped through the INT 43h vector, under GPL-2.0-or-later (see\nfonts/README.md). The binaries embed those fonts, so the crate as a whole is\nEUPL-1.2 AND GPL-2.0-or-later.",
+      "images": [
+        {
+          "url": "https://github.com/sunsided/gorillas.rs/raw/main/.readme/gorillas.png",
+          "alt": "Screenshot"
+        }
+      ],
+      "length": 2968,
+      "imageCount": 1
+    },
+    "gh-1449770510": {
+      "version": 4,
+      "url": "https://github.com/Goldoire/fefw-recomp",
+      "fetchedAt": "2026-11-07T23:40:27.025Z",
+      "title": "GitHub - Goldoire/fefw-recomp: Native Windows PC port of Fire Emblem: Fortune's Weave by static recompilation. Bring your own dump; no game files included.",
+      "byline": "",
+      "siteName": "GitHub",
+      "content": "A native Windows PC port of Fire Emblem: Fortune's Weave (Nintendo Switch 2), made by static recompilation. The game's code is\ntranslated to C++ and compiled into a regular Windows program, which runs on a small runtime that stands in for the console's system\nsoftware and draws with Vulkan. It is not an emulator.\nImportantNo game files are included or downloadable here. This project contains only its own tools and runtime. To play, you need your\nown legally dumped copy of the game; everything that reads the game happens on your PC. See LEGAL.md.\nNot affiliated with or endorsed by Nintendo or Intelligent Systems.\n\nFeatures\n\nRuns natively on Windows, with no emulator in between\n60 or 120 FPS modes, any output resolution, render scale and a temporal upscaler\nWindowed, borderless or fullscreen\nKeyboard and mouse or any controller, with matching button prompts\nAn in-game settings overlay (F1)\nA launcher that sets everything up from your dump, with nothing else to install\n\nRequirements\n\nWindows 10 or 11, 64-bit\nA GPU with Vulkan 1.3 and an up-to-date driver\n16 GB of RAM and about 30 GB of free disk space\nYour own decrypted dump of the game at update 131072, in one of these forms:\n\na folder with exefs\\ and romfs\\\na dump folder with base\\ and updates\\<version>\\\na .nup package\n\nGetting started\n\nDownload fefw-recomp-<version>-win64.zip from the Releases page and extract it to its own folder.\nRun fefw-launcher.exe.\nOn Setup, choose your dump folder (or .nup file) and press Set up. The launcher checks your files, builds the game on\nyour PC and prepares the shaders. The first setup takes a while; you can Pause it and continue later.\nPress Play.\n\nYour saves are in the save\\ folder next to the launcher.\nSettings\nThe launcher's Settings page covers resolution, frame rate, upscaling, window mode, sound and controls. Press F1 in game for\nthe overlay. Every option is described in runtime/docs/CONFIG.md.\nUpdating to a new release\nExtract the new zip to a new folder, copy your save\\ folder into it, and run Set up again.\nTroubleshooting\n\n\"These game files are a different version\": only update 131072 is supported. Check that you dumped the update, not only the\nbase game.\nSetup stopped or failed: press Set up again to continue where it stopped. Open full log on the Setup page shows what\nwent wrong.\nThe game closes or freezes: look at fefw.log in the launcher's folder, and update your GPU driver.\n\nReporting problems\nOpen an issue with fefw.log, your GPU, driver and Windows version, and the release you used. Please do not attach\ngame files or anything made from them.\nBuilding from source\nSee docs/BUILDING.md. Contributions are welcome.\nCredits\nThis project stands on the work of others. Thank you.\n\nnxrecomp by drakolordx7: the recompiler this is built on.\npokopia-recomp (drakolordx7) and featureJosh/pokopia-recomp\n(featureJosh): the runtime, tools and launcher this project started from (GPL-3.0).\ndrakolordx7/switch2-recomp: the launcher design this launcher follows.\nnxnative-penis6 by seedds (MIT): the movie decoder front end, its dav1d copy and\nseveral hardware facts (notices in runtime/THIRD_PARTY_NOTICES.md).\nRyujinx / Ryubing (MIT): the shader translator and tiling code; Mesa NAK (MIT).\nSuperMarioWonderRecomp (MIT); smo-recomp, ScarletNX and ssbu-recomp (GPL-3.0); yuzu and Eden\n(GPL); libnx (ISC); LLVM libc++abi (Apache-2.0 with LLVM exceptions).\nzbic by Yannik Marchand (GPLv2; installed by pip at setup, not included here): ZBIC decompression.\ndav1d (BSD-2-Clause), libvpx (BSD-3-Clause),\nZstandard (BSD), SDL3 (zlib), volk, VulkanMemoryAllocator, Dear ImGui (MIT),\nVulkan-Headers (Apache-2.0 or MIT).\nastc-encoder (Apache-2.0), bc7enc_rdo\n(MIT or public domain), ISPC (BSD-3-Clause).\nAMD FidelityFX SDK headers and FSR (MIT), NVIDIA Image Scaling (MIT), NVIDIA Streamline headers (MIT). No NVIDIA or AMD binaries are\nincluded; DLSS is not used or distributed.\nSascha Willems' Vulkan samples (MIT): the stand-in shader test corpus.\nKenney input prompts (CC0), DejaVu fonts, Tauri, Lucide icons (ISC).\n\nLicence texts: runtime/THIRD_PARTY_NOTICES.md, recomp/THIRD_PARTY.md, tools/*/licenses/, tools/textures/THIRD_PARTY.md and the\nlicence files inside runtime/third_party/. All of these licences are compatible with the GPL-3.0 this project is released under.\nLicense\nGPL-3.0 (LICENSE). Third-party code keeps its own licence.",
+      "images": [],
+      "length": 4365,
+      "imageCount": 0
+    },
+    "brid0d": {
+      "version": 4,
+      "url": "https://www.pcgamer.com/games/rpg/one-of-the-buggiest-d-and-d-games-ever-released-pool-of-radiance-ruins-of-myth-drannor-is-back-and-actually-playable-again/",
+      "fetchedAt": "2026-11-07T23:40:27.766Z",
+      "title": "One of the buggiest D&D games ever released, Pool of Radiance: Ruins of Myth Drannor, is back and actually playable…",
+      "byline": "Jody Macgregor",
+      "siteName": "PC Gamer",
+      "content": "(Image credit: SNEG)\"Not since the infamous debut of Daikatana has the release of a single game generated so much incensed indignation from early buyers.\" Our review of Pool of Radiance: Ruins of Myth Drannor didn't hold back. The 2001 dungeon crawler contained, our review said, \"A multitude of outrageous bugs,\" including ones that corrupted saves, made quest items disappear, and most infamously deleted system files when you uninstalled the game.SNEG's rerelease, available now on Steam and GOG, doesn't have those issues. It adds widescreen, controller support, adjustable combat speed, tooltips, an action bar, and sharpened visuals. If, like me, you skipped this one back in the day because of its reputation for being a hassle to play—even with the eventual patches and community fixes—now it's smooth and problem-free. I've played the opening hours without a single key item vanishing or save file going corrupt.Don't get the wrong idea, though. Ruins of Myth Drannor isn't Vampire: The Masquerade – Bloodlines. This isn't an RPG masterpiece held back by its buggy release. It's a simplistic turn-based dungeon crawl that's mostly notable for being a spiritual successor to the first Gold Box D&D game, Pool of Radiance, and for adapting the then-new third edition of D&D's rules.The 3.0 rules were a huge step forward at the time. Any character could choose any class, and Armor Class went up instead of down—you can't imagine how much of a drag it was explaining to new players that lower AC was better than high AC, and ideally you wanted a negative number. It also formalized the central mechanic of rolling a d20 and adding a number to beat a difficulty score. If you've played 5th edition, you'll recognize a lot of its DNA here.Which is why it's a shame Ruins of Myth Drannor isn't a complete adaptation of those rules. You can't play a wizard—sorcerer is the only option for arcane casters—or a halfling or a gnome. You choose which class to improve when you advance a level, but don't get to decide where your skill points go or what feats to take. A couple of years later, The Temple of Elemental Evil would adapt the 3.5 rules update much more fully. Ruins of Myth Drannor feels rudimentary by comparison.It's also not much of a story. Set 10 years after the events of Pool of Radiance, a new magical pool has opened in the ruined elven city of Myth Drannor so the evil sorceress and dracolich on the box art can get up to some shenanigans, and Elminster has sent a party of adventurers in to stop them. There's one fun twist to this otherwise bog-standard plot, and it's that you're not that first party of adventurers. You're the B-team sent as backup, but a magic portal mishap means you arrive too late to save the A-team and have to take on their quest.Which explains why four level-one nobodies now have to clear out hundreds of orcs and skeletons from samey dungeon rooms. It's a slow-paced slog, especially in Myth Drannor's main halls, earning a drip-feed of experience points and gold coins from zombies and ghouls, hoping an orc doesn't score a crit and drop one of your party members in a single blow.Keep up to date with the most important stories and the best deals, as picked by the PC Gamer team.There are plenty of reasons not to like Ruins of Myth Drannor, but I've been enjoying it in spite of them. It's an undemanding RPG that offers simple pleasures. I get ambushed by skeletons, then realize my cleric is perfectly positioned to hit them all with Turn Undead. I meet a weird slug monster, try talking to him and find out he's friendly. I block doors to protect my sorcerer, while rushing enemy spellcasters before they get their big area-of-effect blast off.It's junk food D&D, but then I mostly play D&D at a table covered in pizza and beer anyway. Between more demanding games, this is an ideal low-stakes guilty pleasure and I'm glad it's finally back.\n\nJody's first computer was a Commodore 64, so he remembers having to use a code wheel to play Pool of Radiance. A former music journalist who interviewed everyone from Giorgio Moroder to Trent Reznor, Jody also co-hosted Australia's first radio show about videogames, Zed Games. He's written for Rock Paper Shotgun, The Big Issue, GamesRadar, Zam, Glixel, Five Out of Ten Magazine, and Playboy.com, whose cheques with the bunny logo made for fun conversations at the bank. Jody's first article for PC Gamer was about the audio of Alien Isolation, published in 2015. Jody edited PC Gamer Indie from 2017 to 2018, and he eventually lived up to his promise to play every Warhammer videogame.",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/RTBYtRwwXNQ5uHRWkUh2FL-1920-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/RTBYtRwwXNQ5uHRWkUh2FL-1200-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/FohMkJ4yQib5MRDt6QHJ75-1200-80.jpg",
+          "alt": "A party of adventurers faces orcs in a dungeon"
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/FohMkJ4yQib5MRDt6QHJ75-1200-80.jpg.webp",
+          "alt": ""
+        }
+      ],
+      "length": 4587,
+      "imageCount": 4
+    },
+    "1h5bk1x": {
+      "version": 4,
+      "url": "https://www.pushsquare.com/news/2026/11/sony-indefinitely-delays-another-ps5-peripheral-days-before-release",
+      "fetchedAt": "2026-11-07T23:40:27.840Z",
+      "title": "Sony Indefinitely Delays Another PS5 Peripheral Days Before Release",
+      "byline": "Sammy Barker",
+      "siteName": "Push Square",
+      "content": "Desktop speakers switched off for now\nby Sammy BarkerTomorrow 00:00\n\nImage: Push SquareSony has indefinitely delayed the PS5’s official Pulse Elevate desktop speakers, which were originally due to deploy days from now, on 12th November.\nIn a brief update on the PS Blog, the manufacturer said that it had “identified a production issue with the product and have made the decision to delay the launch”.\nThis delay feels eerily similar to the one that affected its FlexStrike arcade stick earlier in the year, which was originally due out on 6th August but ultimately indefinitely postponed.Subscribe to Push Square on YouTube172k\n\nAt the time, the manufacturer said it had encountered “unexpected production delays”, but that was several months ago now and it hasn’t provided an update since.\nSony’s Edwin Foo said of the Pulse Elevate delay:\n\n“The additional time will allow us to ensure the product will deliver the experience we intended for our players. We apologise for the delay and appreciate your patience and understanding. We look forward to bringing Pulse Elevate to players soon.”\n\nThe speakers – which are designed for both desktop and portable use – promise “lifelike, ultra-low latency” audio.\nI wonder what went wrong during production, and whether it’s going to have to scrap its entire inventory and start over from scratch on these.\nSurely this close to its originally intended release, the $220 product must have made it into warehouses around the world already.\n\n[source blog.playstation.com, via ign.com, eurogamer.net]\n\nAs the Editor of Push Square, Sammy has over 15 years of experience analysing the world of PlayStation, from PS3 through PS5 and everything in between. He’s an expert on PS Studios and industry matters, as well as sports games and simulators. He also enjoys RPGs when he has the time to dedicate to them, and is a bit of a gacha whale. Author Profile Bluesky Reply",
+      "images": [
+        {
+          "url": "https://images.pushsquare.com/d33d4b5df3e27/1280x720.jpg",
+          "alt": ""
+        }
+      ],
+      "length": 1906,
       "imageCount": 1
     }
   }
