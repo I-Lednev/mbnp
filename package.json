@@ -8,6 +8,7 @@
     "fetch": "node scripts/fetch-news.mjs",
     "enrich": "node scripts/enrich-articles.mjs",
     "translate": "node scripts/translate-news.mjs",
+    "summarize": "node scripts/summarize-news.mjs",
     "serve": "node scripts/serve.mjs",
     "dev": "node scripts/fetch-news.mjs && node scripts/serve.mjs"
   },
