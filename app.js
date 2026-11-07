@@ -169,6 +169,9 @@ const els = {
   revokeInvitesBtn: document.getElementById('revokeInvitesBtn'),
   cabinetStatus: document.getElementById('cabinetStatus'),
   inviteList: document.getElementById('inviteList'),
+  siteSizeTotal: document.getElementById('siteSizeTotal'),
+  siteSizeList: document.getElementById('siteSizeList'),
+  sizeRefreshBtn: document.getElementById('sizeRefreshBtn'),
   logoutBtn: document.getElementById('logoutBtn'),
 };
 
@@ -418,6 +421,7 @@ function bindAuthEvents() {
 
   els.createInviteBtn?.addEventListener('click', createInvite);
   els.revokeInvitesBtn?.addEventListener('click', revokeAllInvites);
+  els.sizeRefreshBtn?.addEventListener('click', loadSiteSize);
   els.logoutBtn?.addEventListener('click', () => {
     clearSession();
     location.reload();
@@ -496,7 +500,61 @@ function openCabinet() {
   els.cabinetToken.value = localStorage.getItem(GH_TOKEN_KEY) || '';
   renderInviteList();
   showCabinetStatus('');
+  loadSiteSize();
   if (!els.cabinetDialog.open) els.cabinetDialog.showModal();
+}
+
+function formatSize(bytes) {
+  const mb = bytes / 1024 / 1024;
+  if (mb >= 1) return `${mb.toFixed(2)} МБ`;
+  return `${Math.max(1, Math.round(bytes / 1024))} КБ`;
+}
+
+async function loadSiteSize() {
+  if (!els.siteSizeTotal) return;
+
+  els.siteSizeTotal.textContent = 'Считаю…';
+  if (els.siteSizeList) els.siteSizeList.innerHTML = '';
+
+  const token = els.cabinetToken?.value.trim() || localStorage.getItem(GH_TOKEN_KEY) || '';
+  const headers = { accept: 'application/vnd.github+json', 'user-agent': 'MBNP-Cabinet' };
+  if (token) headers.authorization = `Bearer ${token}`;
+
+  try {
+    const response = await fetch(
+      `https://api.github.com/repos/I-Lednev/mbnp/git/trees/main?recursive=1&ts=${Date.now()}`,
+      { headers, cache: 'no-store' },
+    );
+
+    if (!response.ok) throw new Error(`GitHub HTTP ${response.status}`);
+
+    const data = await response.json();
+    const files = (data.tree || []).filter((entry) => entry.type === 'blob');
+    if (files.length === 0) throw new Error('пустое дерево');
+
+    const total = files.reduce((sum, entry) => sum + (entry.size || 0), 0);
+    const groups = new Map();
+
+    for (const file of files) {
+      const root = file.path.includes('/') ? file.path.split('/')[0] : 'корень';
+      groups.set(root, (groups.get(root) || 0) + (file.size || 0));
+    }
+
+    const labels = { data: 'Данные', icons: 'Иконки', scripts: 'Скрипты', '.github': 'GitHub', корень: 'Корень' };
+
+    els.siteSizeTotal.textContent = `Всего: ${formatSize(total)}`;
+    if (els.siteSizeList) {
+      els.siteSizeList.innerHTML = [...groups.entries()]
+        .sort((a, b) => b[1] - a[1])
+        .map(
+          ([root, size]) =>
+            `<li><span>${esc(labels[root] || root)}</span><span>${formatSize(size)}</span></li>`,
+        )
+        .join('');
+    }
+  } catch (error) {
+    els.siteSizeTotal.textContent = `Не удалось получить размер: ${error.message}`;
+  }
 }
 
 function closeCabinet() {
