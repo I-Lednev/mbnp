@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T04:11:54.418Z",
-  "tookMs": 43577,
+  "generatedAt": "2026-11-07T04:14:50.916Z",
+  "tookMs": 7376,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -20,14 +20,14 @@
     "games": 73,
     "pc": 32,
     "consoles": 89,
-    "hardware": 29,
+    "hardware": 30,
     "industry": 39,
     "updates": 31,
     "aimods": 2,
     "aisoft": 45,
     "cars": 74,
     "war": 69,
-    "total": 565
+    "total": 566
   },
   "sourceCount": 67,
   "sources": [
@@ -520,6 +520,26 @@
     }
   ],
   "items": [
+    {
+      "id": "fq01t6",
+      "title": "Nvidia внезапно выпустила новый драйвер Game Ready для Windows 10, хотя обещала так не делать",
+      "url": "https://3dnews.ru/1150951",
+      "excerpt": "Nvidia накануне выпустила драйвер GeForce версии 621.14 WHQL, подгадав к запуску World of Warcraft: Forever. Компания намеревалась прекратить поддержку драйверов Game Ready для Windows 10 ещё в октябре, но эта версия всё ещё устанавливается в данной ОС…",
+      "content": "Nvidia накануне выпустила драйвер GeForce версии 621.14 WHQL, подгадав к запуску World of Warcraft: Forever. Компания намеревалась прекратить поддержку драйверов Game Ready для Windows 10 ещё в октябре, но эта версия всё ещё устанавливается в данной ОС. Источник изображений: BoliviaInteligente / unsplash.com",
+      "image": "https://3dnews.ru/assets/external/illustrations/2026/11/06/1150951/nvidia_1.jpg",
+      "images": [
+        {
+          "url": "https://3dnews.ru/assets/external/illustrations/2026/11/06/1150951/nvidia_1.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-06T10:32:00.000Z",
+      "sourceId": "3dnews-hardware",
+      "source": "3DNews Железо",
+      "category": "hardware",
+      "lang": "ru",
+      "addedAt": "2026-11-07T04:14:43.540Z"
+    },
     {
       "id": "r2ldhj",
       "title": "Вы просили AI-помощника исправить баг…",
@@ -5376,8 +5396,8 @@
       "id": "16pilxa",
       "title": "AI is dramatically accelerating AI research",
       "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-      "excerpt": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai Comments URL: https://news.ycombinator.com/item?id=50397994 Points: 229 # Comments: 173",
-      "content": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai\n\nComments URL: https://news.ycombinator.com/item?id=50397994\n\nPoints: 229\n\n# Comments: 173",
+      "excerpt": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai Comments URL: https://news.ycombinator.com/item?id=50397994 Points: 234 # Comments: 175",
+      "content": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai\n\nComments URL: https://news.ycombinator.com/item?id=50397994\n\nPoints: 234\n\n# Comments: 175",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-06T20:27:23.000Z",
@@ -5630,8 +5650,8 @@
       "id": "28imw",
       "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
       "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
-      "excerpt": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution Comments URL: https://news.ycombinator.com/item?id=50397429 Points: 375 # Comments: 85",
-      "content": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution\n\nComments URL: https://news.ycombinator.com/item?id=50397429\n\nPoints: 375\n\n# Comments: 85",
+      "excerpt": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution Comments URL: https://news.ycombinator.com/item?id=50397429 Points: 378 # Comments: 86",
+      "content": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution\n\nComments URL: https://news.ycombinator.com/item?id=50397429\n\nPoints: 378\n\n# Comments: 86",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-06T19:48:51.000Z",
@@ -5689,8 +5709,8 @@
       "id": "qtlkhs",
       "title": "Firecracker VM Escape: PwnEscape Part 2",
       "url": "https://pwn.ai/blog/firecracker-escape",
-      "excerpt": "Article URL: https://pwn.ai/blog/firecracker-escape Comments URL: https://news.ycombinator.com/item?id=50397219 Points: 188 # Comments: 88",
-      "content": "Article URL: https://pwn.ai/blog/firecracker-escape\n\nComments URL: https://news.ycombinator.com/item?id=50397219\n\nPoints: 188\n\n# Comments: 88",
+      "excerpt": "Article URL: https://pwn.ai/blog/firecracker-escape Comments URL: https://news.ycombinator.com/item?id=50397219 Points: 193 # Comments: 90",
+      "content": "Article URL: https://pwn.ai/blog/firecracker-escape\n\nComments URL: https://news.ycombinator.com/item?id=50397219\n\nPoints: 193\n\n# Comments: 90",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-06T19:33:38.000Z",
@@ -8020,8 +8040,8 @@
       "id": "15yabkl",
       "title": "Gemini Omni 1.2 Flash",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "excerpt": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/ Comments URL: https://news.ycombinator.com/item?id=50392118 Points: 304 # Comments: 220",
-      "content": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/\n\nComments URL: https://news.ycombinator.com/item?id=50392118\n\nPoints: 304\n\n# Comments: 220",
+      "excerpt": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/ Comments URL: https://news.ycombinator.com/item?id=50392118 Points: 306 # Comments: 220",
+      "content": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/\n\nComments URL: https://news.ycombinator.com/item?id=50392118\n\nPoints: 306\n\n# Comments: 220",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-06T13:35:27.000Z",
