@@ -1065,8 +1065,20 @@ async function main() {
     ) {
       continue;
     }
+
+    // В старых выпусках мог сохраниться HTML из RSS — вычищаем его.
+    const hasHtml = /<[a-z][\s\S]*>/i.test(item.content || '') || /<[a-z][\s\S]*>/i.test(item.excerpt || '');
+    const content = hasHtml ? makeContent(item.content, item.title) : item.content;
+    const excerpt = hasHtml ? cleanText(item.excerpt) : item.excerpt;
+
     const category = sourceCategories.get(item.sourceId) || item.category;
-    pool.set(item.id, { ...item, category, addedAt: item.addedAt || previousGeneratedAt });
+    pool.set(item.id, {
+      ...item,
+      content,
+      excerpt,
+      category,
+      addedAt: item.addedAt || previousGeneratedAt,
+    });
   }
 
   for (const item of allItems) {
