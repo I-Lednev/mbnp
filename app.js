@@ -7,6 +7,7 @@ const STORAGE = {
   translation: 'mbn:translation',
   hiddenSources: 'mbn:hiddenSources:v1',
   read: 'mbn:read:v1',
+  layout: 'mbn:layout:v1',
 };
 
 const CATEGORY_LABELS = {
@@ -81,6 +82,7 @@ const state = {
   digestCategory: 'all',
   hiddenSources: new Set(loadHiddenSources()),
   read: new Set(loadRead()),
+  layout: loadLayout(),
   sourceQuery: '',
   visible: PAGE_SIZE,
   lastAttempt: 0,
@@ -110,6 +112,7 @@ const els = {
   toast: document.getElementById('toast'),
   tabs: [...document.querySelectorAll('.tab[data-category]')],
   tabsToggle: document.getElementById('tabsToggle'),
+  layoutBtn: document.getElementById('layoutBtn'),
   warNote: document.getElementById('warNote'),
   sourcesBtn: document.getElementById('sourcesBtn'),
   hiddenSourcesBadge: document.getElementById('hiddenSourcesBadge'),
@@ -151,6 +154,7 @@ function init() {
   applyTheme(getStoredTheme());
   if (els.translationSelect) els.translationSelect.value = state.translation;
   applyTabsState(false);
+  applyLayout();
   bindEvents();
   updateCounts();
   updateHiddenBadge();
@@ -782,6 +786,36 @@ function setStatus(text, mode) {
 
 /* ── Фильтры, разделы, источники ──────────────────────────────────────── */
 
+function loadLayout() {
+  try {
+    return localStorage.getItem(STORAGE.layout) === 'compact' ? 'compact' : 'large';
+  } catch {
+    return 'large';
+  }
+}
+
+function applyLayout(layout = state.layout) {
+  state.layout = layout === 'compact' ? 'compact' : 'large';
+  const compact = state.layout === 'compact';
+
+  els.grid?.classList.toggle('is-compact', compact);
+
+  if (els.layoutBtn) {
+    els.layoutBtn.setAttribute('aria-pressed', String(compact));
+    els.layoutBtn.setAttribute(
+      'aria-label',
+      compact ? 'Показать крупные карточки' : 'Показать по две карточки в ряд',
+    );
+    els.layoutBtn.title = compact ? 'Крупные карточки' : 'По две в ряд';
+  }
+
+  try {
+    localStorage.setItem(STORAGE.layout, state.layout);
+  } catch {
+    // Настройка не сохранится между визитами.
+  }
+}
+
 function applyTabsState(expanded = state.tabsExpanded) {
   state.tabsExpanded = expanded;
 
@@ -1330,6 +1364,10 @@ function bindEvents() {
 
   els.tabsToggle?.addEventListener('click', () => {
     applyTabsState(!state.tabsExpanded);
+  });
+
+  els.layoutBtn?.addEventListener('click', () => {
+    applyLayout(state.layout === 'compact' ? 'large' : 'compact');
   });
 
   let searchTimer;
