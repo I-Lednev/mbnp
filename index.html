@@ -30,7 +30,7 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="icons/icon-192.png" />
-    <link rel="stylesheet" href="styles.css?v=15" />
+    <link rel="stylesheet" href="styles.css?v=16" />
   </head>
   <body>
     <div class="app">
@@ -177,7 +177,10 @@
         </section>
 
         <div class="statusbar">
-          <p id="status" aria-live="polite">Загружаем новости…</p>
+          <div class="status-main">
+            <p id="status" aria-live="polite">Загружаем новости…</p>
+            <span id="lastUpdate" class="last-update" hidden></span>
+          </div>
           <div class="status-actions">
             <a
               id="visitorBadge"
@@ -326,7 +329,7 @@
       (async () => {
         for (let attempt = 0; attempt < 4; attempt += 1) {
           try {
-            await import(`./app.js?v=16&retry=${attempt}`);
+            await import(`./app.js?v=17&retry=${attempt}`);
             return;
           } catch (error) {
             console.warn('Не удалось загрузить app.js, повтор…', error);
