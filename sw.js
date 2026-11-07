@@ -1,5 +1,5 @@
 /* Service worker: офлайн-оболочка и кэш последнего news.json. */
-const CACHE_NAME = 'my-best-newspaper-v29';
+const CACHE_NAME = 'my-best-newspaper-v30';
 
 const APP_SHELL = [
   './',
@@ -36,6 +36,22 @@ self.addEventListener('fetch', (event) => {
 
   const url = new URL(request.url);
   if (url.origin !== self.location.origin) return;
+
+  // Конфиг входа — network-first, чтобы смена пароля применялась сразу.
+  if (url.pathname.endsWith('/auth-config.js')) {
+    event.respondWith(
+      fetch(request)
+        .then((response) => {
+          if (response.ok) {
+            const copy = response.clone();
+            caches.open(CACHE_NAME).then((cache) => cache.put(request, copy));
+          }
+          return response;
+        })
+        .catch(() => caches.match(request)),
+    );
+    return;
+  }
 
   // Новости, полные статьи и переводы — network-first: свежие данные важнее, но офлайн отдаём кэш.
   if (
