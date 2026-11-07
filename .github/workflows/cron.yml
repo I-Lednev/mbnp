@@ -1,0 +1,20 @@
+name: Плановый запуск
+
+on:
+  schedule:
+    # Каждые 30 минут, не в пиковые :00 и :30.
+    - cron: '7,37 * * * *'
+  workflow_dispatch:
+
+permissions:
+  actions: write
+  contents: read
+
+jobs:
+  trigger:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Запустить обновление новостей
+        run: gh workflow run update-news.yml --ref main --repo "${{ github.repository }}"
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
