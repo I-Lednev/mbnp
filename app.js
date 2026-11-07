@@ -371,9 +371,9 @@ function cardHtml(item) {
       : '';
   const saveLabel = saved ? 'Убрать из избранного' : 'Добавить в избранное';
   const addedAt = item.addedAt || item.publishedAt || '';
+  const publishedAt = item.publishedAt || '';
   const addedLabel = addedAt ? formatCardTime(addedAt) : 'без даты';
-  const publishedTitle = item.publishedAt ? `Опубликовано: ${formatDateTime(item.publishedAt)}` : '';
-  const addedTitle = `Добавлено на агрегатор${publishedTitle ? `; ${publishedTitle}` : ''}`;
+  const publishedLabel = publishedAt ? formatCardTime(publishedAt) : 'нет даты';
 
   return `
     <article class="card" data-id="${esc(item.id)}" ${translated ? 'data-translated="true"' : ''}>
@@ -402,8 +402,16 @@ function cardHtml(item) {
       <div class="card-body">
         <div class="card-meta">
           <span class="card-source" title="${esc(item.source || '')}">${esc(item.source || 'Источник')}</span>
-          <span class="dot" aria-hidden="true"></span>
-          <time class="card-time" datetime="${esc(addedAt)}" title="${esc(addedTitle)}">${esc(addedLabel)}</time>
+        </div>
+        <div class="card-dates">
+          <span class="card-date card-date-added" title="Когда новость появилась на агрегаторе">
+            <span class="card-date-label">В агрегаторе</span>
+            <time datetime="${esc(addedAt)}">${esc(addedLabel)}</time>
+          </span>
+          <span class="card-date card-date-source" title="Когда новость опубликовал источник">
+            <span class="card-date-label">Источник</span>
+            <time datetime="${esc(publishedAt)}">${esc(publishedLabel)}</time>
+          </span>
         </div>
         <h2 class="card-title" ${translated ? `title="${esc(item.title)}"` : ''}>
           <a href="${esc(url)}" data-read="${esc(item.id)}" target="_blank" rel="noopener noreferrer">${esc(title)}</a>
@@ -1062,8 +1070,10 @@ function digestItemHtml(item) {
   const category = CATEGORY_KEYS.includes(item.category) ? item.category : 'ai';
   const image = safeUrl(item.image);
   const url = safeUrl(item.url);
-  const itemDate = item.addedAt || item.publishedAt || '';
-  const dateLabel = itemDate ? formatCardTime(itemDate) : 'без даты';
+  const addedDate = item.addedAt || item.publishedAt || '';
+  const publishedDate = item.publishedAt || '';
+  const addedLabel = addedDate ? formatCardTime(addedDate) : 'нет даты';
+  const publishedLabel = publishedDate ? formatCardTime(publishedDate) : 'нет даты';
 
   return `
     <a class="digest-item" href="${esc(url)}" target="_blank" rel="noopener noreferrer">
@@ -1074,7 +1084,11 @@ function digestItemHtml(item) {
       <span class="digest-body">
         <span class="digest-meta">
           <span class="category">${esc(CATEGORY_LABELS[category])}</span>
-          ${esc(item.source || '')} · ${esc(dateLabel)}
+          ${esc(item.source || '')}
+        </span>
+        <span class="digest-dates">
+          <span class="added">В агрегаторе: <time datetime="${esc(addedDate)}">${esc(addedLabel)}</time></span>
+          <span>Источник: <time datetime="${esc(publishedDate)}">${esc(publishedLabel)}</time></span>
         </span>
         <strong class="digest-title">${esc(item.title)}</strong>
         ${item.excerpt ? `<span class="digest-excerpt">${esc(item.excerpt)}</span>` : ''}
