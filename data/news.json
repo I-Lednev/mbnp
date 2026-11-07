@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-07T09:40:15.763Z",
-  "tookMs": 9377,
+  "generatedAt": "2026-11-07T10:10:21.283Z",
+  "tookMs": 11086,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -24,7 +24,7 @@
     "war": "Война"
   },
   "counts": {
-    "ai": 91,
+    "ai": 92,
     "games": 85,
     "announces": 25,
     "mobile": 13,
@@ -32,18 +32,18 @@
     "rumors": 21,
     "software": 39,
     "science": 45,
-    "entertainment": 84,
-    "ports": 49,
+    "entertainment": 85,
+    "ports": 56,
     "pc": 33,
-    "consoles": 94,
+    "consoles": 96,
     "hardware": 30,
     "industry": 37,
     "updates": 24,
     "aimods": 2,
-    "aisoft": 45,
-    "cars": 89,
-    "war": 78,
-    "total": 916
+    "aisoft": 46,
+    "cars": 93,
+    "war": 79,
+    "total": 933
   },
   "sourceCount": 98,
   "sources": [
@@ -754,6 +754,300 @@
   ],
   "items": [
     {
+      "id": "gh-1418287531",
+      "title": "1vs100/1vs100-reborn-pc: 1 vs 100 Xbox 360 game, ported to PC (windows, linux, mac) and xbox one/series in dev mode",
+      "url": "https://github.com/1vs100/1vs100-reborn-pc",
+      "excerpt": "1 vs 100 Xbox 360 game, ported to PC (windows, linux, mac) and xbox one/series in dev mode",
+      "image": "",
+      "publishedAt": "2026-11-07T10:08:45Z",
+      "addedAt": "2026-11-07T10:10:15.241Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1431324263",
+      "title": "rashevskyv/conker-lr-recomp: Conker: Live & Reloaded (Xbox) on Nintendo Switch, Linux and Windows: static recompilation. Build it from your own XBE; no game data.",
+      "url": "https://github.com/rashevskyv/conker-lr-recomp",
+      "excerpt": "Conker: Live & Reloaded (Xbox) on Nintendo Switch, Linux and Windows: static recompilation. Build it from your own XBE; no game data.",
+      "image": "",
+      "publishedAt": "2026-11-07T10:03:25Z",
+      "addedAt": "2026-11-07T10:10:15.241Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1428228424",
+      "title": "ILFforever/YW4Recomp: Fan static recompilation of Yokai Watch 4++ (Switch) to native Windows/Linux. ARM64 → C, NVN on Vulkan.",
+      "url": "https://github.com/ILFforever/YW4Recomp",
+      "excerpt": "Fan static recompilation of Yokai Watch 4++ (Switch) to native Windows/Linux. ARM64 → C, NVN on Vulkan.",
+      "image": "",
+      "publishedAt": "2026-11-07T09:44:28Z",
+      "addedAt": "2026-11-07T10:10:15.241Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1416453328",
+      "title": "elripalda/RecompStore: RecompStore: the free homebrew app store for jailbroken PS5. Installs and updates recompiled game ports, emulators, apps and tools from the console. Bring your own disc.",
+      "url": "https://github.com/elripalda/RecompStore",
+      "excerpt": "RecompStore: the free homebrew app store for jailbroken PS5. Installs and updates recompiled game ports, emulators, apps and tools from the console. Bring your own disc.",
+      "image": "",
+      "publishedAt": "2026-11-07T09:34:59Z",
+      "addedAt": "2026-11-07T10:10:15.241Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1410247473",
+      "title": "robongrui/derp: Doom Engine Remaster Project (DERP) — an enhanced / experimental Doom source port featuring dynamic lighting, weather simulation, physics, reflections and more.",
+      "url": "https://github.com/robongrui/derp",
+      "excerpt": "Doom Engine Remaster Project (DERP) — an enhanced / experimental Doom source port featuring dynamic lighting, weather simulation, physics, reflections and more.",
+      "image": "",
+      "publishedAt": "2026-11-07T10:08:17Z",
+      "addedAt": "2026-11-07T10:10:14.873Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1432695352",
+      "title": "kuraeow/ultratears: Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
+      "url": "https://github.com/kuraeow/ultratears",
+      "excerpt": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
+      "image": "",
+      "publishedAt": "2026-11-07T09:54:13Z",
+      "addedAt": "2026-11-07T10:10:14.512Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1413279818",
+      "title": "pablocpas/OpenCMR2: Native SDL3 port of Colin McRae Rally 2.0 built from the CMR2Decomp decompilation. No game data included.",
+      "url": "https://github.com/pablocpas/OpenCMR2",
+      "excerpt": "Native SDL3 port of Colin McRae Rally 2.0 built from the CMR2Decomp decompilation. No game data included.",
+      "image": "",
+      "publishedAt": "2026-11-07T09:50:51Z",
+      "addedAt": "2026-11-07T10:10:14.512Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "1yzcetm",
+      "title": "Не DeepSeek единым: 4 китайских ИИ-проекта, о которых стоит знать",
+      "url": "https://habr.com/ru/companies/timeweb/articles/1103120/",
+      "excerpt": "В последние годы нейросети не просто совершили гигантский рывок вверх по качеству работы но и неплохо так разошлись вширь. Западный рынок представляет собой в первую очередь через ChatGPT, у нас Алиса и GigaCHAT вполне пытаются конкурировать а от «сборной»…",
+      "content": "В последние годы нейросети не просто совершили гигантский рывок вверх по качеству работы но и неплохо так разошлись вширь. Западный рынок представляет собой в первую очередь через ChatGPT, у нас Алиса и GigaCHAT вполне пытаются конкурировать а от «сборной» Китая за всех отдувается бесплатный и вполне мощный DeepSeek...\n\nА точно он один? Ну... вообще то нет. На самом деле в Китае сейчас идет настоящий бум больших языковых моделей, и многие из них не просто конкурируют с ChatGPT, но и обходят его в ряде специфических задач.\n\nВ этом материале посмотрим на 5 лучших и интересных представителей.\n\nЧитать далее",
+      "image": "https://habrastorage.org/extt/b6/1d/46/b61d4634fa1912e1f83a2ceff6b4574a.jpg",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/b6/1d/46/b61d4634fa1912e1f83a2ceff6b4574a.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T10:05:44.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-07T10:10:10.197Z"
+    },
+    {
+      "id": "101cqzx",
+      "title": "Inside the Operation That Helped Ukraine Reverse Some Russian War Gains",
+      "url": "https://www.nytimes.com/2026/11/07/world/europe/ukraine-russia-war-operation-vivaldi.html",
+      "excerpt": "After months of secrecy, Ukrainian commanders let New York Times journalists join them in bunkers and training grounds used to reverse some Russian territorial gains.",
+      "content": "After months of secrecy, Ukrainian commanders let New York Times journalists join them in bunkers and training grounds used to reverse some Russian territorial gains.",
+      "image": "https://static01.nyt.com/images/2026/11/05/multimedia/05int-ukraine-battlefield-01-tkvw-promo/05int-ukraine-battlefield-01-tkvw-mediumSquareAt3X.jpg",
+      "images": [
+        {
+          "url": "https://static01.nyt.com/images/2026/11/05/multimedia/05int-ukraine-battlefield-01-tkvw-promo/05int-ukraine-battlefield-01-tkvw-mediumSquareAt3X.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T10:01:41.000Z",
+      "sourceId": "nyt-world",
+      "source": "The New York Times",
+      "category": "war",
+      "lang": "en",
+      "addedAt": "2026-11-07T10:10:10.197Z"
+    },
+    {
+      "id": "ffp57q",
+      "title": "Talking Point: What Are You Playing This Weekend? (7th November)",
+      "url": "https://www.nintendolife.com/features/talking-point-what-are-you-playing-this-weekend-7th-november",
+      "excerpt": "Epona friend. HYAAH, HUHH, HUP, HYAAH * coughing and splutting * Sorry about that, everyone. Welcome to another edition of What Are You Playing! Just in case you somehow missed it, it was Zelda week this week as Ocarina of Time finally landed on Switch 2! The…",
+      "content": "Epona friend.\n\nHYAAH, HUHH, HUP, HYAAH * coughing and splutting * Sorry about that, everyone. Welcome to another edition of What Are You Playing!\n\nJust in case you somehow missed it, it was Zelda week this week as Ocarina of Time finally landed on Switch 2! The ensuing Ask the Developer interviews revealed the game's dev team , Aonuma's reasons for returning to it, Water Temple tweaks and more. There was also a wild midnight launch event in London, Metascore madness , new gameplay footage and more. In short, a lot of Zelda.\n\nRead the full article on nintendolife.com",
+      "image": "https://images.nintendolife.com/c84e6ce8ff536/small.jpg",
+      "images": [
+        {
+          "url": "https://images.nintendolife.com/c84e6ce8ff536/small.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://images.nintendolife.com/c84e6ce8ff536/large.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T10:00:00.000Z",
+      "sourceId": "nintendolife",
+      "source": "Nintendo Life",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-07T10:10:10.197Z"
+    },
+    {
+      "id": "1j6cacz",
+      "title": "Taito's Claustrophobic Classic Elevator Action Drops into the Console Archives",
+      "url": "https://www.timeextension.com/news/2026/11/taitos-claustrophobic-classic-elevator-action-drops-into-the-console-archives",
+      "excerpt": "Sugar, we're going down. Grab your spy satchel and throw on your best jump-kick shoes, as Hamster's Console Archives recognises one of Taito's earliest and most notable contributions to the coin-op scene. The NES edition of arcade classic Elevator Action is…",
+      "content": "Sugar, we're going down.\n\nGrab your spy satchel and throw on your best jump-kick shoes, as Hamster's Console Archives recognises one of Taito's earliest and most notable contributions to the coin-op scene. The NES edition of arcade classic Elevator Action is available now on PS5 and Nintendo Switch 2.\n\nOriginally released in arcades in 1983 , before being ported to the Famicom in 1985 (and eventually the NES), Elevator Action is a single-screen spy adventure that challenges the player - as superspy \"Agent 17\" - to descend a series of high-rise buildings, dipping in and out of offices to steal secret documents, exchanging fire with enemy agents, and making it to the getaway car on the ground floor in one piece.\n\nRead the full article on timeextension.com",
+      "image": "https://images.timeextension.com/1219b4730aa2b/small.jpg",
+      "images": [
+        {
+          "url": "https://images.timeextension.com/1219b4730aa2b/small.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://images.timeextension.com/1219b4730aa2b/large.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T10:00:00.000Z",
+      "sourceId": "timeextension",
+      "source": "Time Extension",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-07T10:10:10.197Z"
+    },
+    {
+      "id": "1g3losz",
+      "title": "Продажи машин побили в октябре годовой рекорд",
+      "url": "https://www.zr.ru/content/news/988017-gibridy-i-ehlektrokary-v-rossii/",
+      "excerpt": "Минпромторг: в октябре в России продали 147 285 новых автомобилей",
+      "content": "Минпромторг: в октябре в России продали 147 285 новых автомобилей",
+      "image": "https://www.zr.ru/_ah/img/4aUjhLyTs3ddPg1X4mb0Zg",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/4aUjhLyTs3ddPg1X4mb0Zg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T10:00:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-07T10:10:10.197Z"
+    },
+    {
+      "id": "ly4oxe",
+      "title": "Новый серийный пикап Renault уже на рынке: подробности о машине",
+      "url": "https://www.zr.ru/content/news/988168-vmesto-ehmblemy-khromirovannye/",
+      "excerpt": "Renault Niagara: пикап на платформе RGMP вышел на рынок Аргентины",
+      "content": "Renault Niagara: пикап на платформе RGMP вышел на рынок Аргентины",
+      "image": "https://www.zr.ru/_ah/img/lGs_hcyB0GOsEzinz12_eA",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/lGs_hcyB0GOsEzinz12_eA",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T10:00:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-07T10:10:10.197Z"
+    },
+    {
+      "id": "vuavxy",
+      "title": "Опасное вождение так и не пропишут в законе",
+      "url": "https://www.zr.ru/content/news/988171-opasnoe-vozhdenie-tak-i-ne-prop/",
+      "excerpt": "Комитет Госдумы рекомендовал отклонить законопроект об опасном вождении",
+      "content": "Комитет Госдумы рекомендовал отклонить законопроект об опасном вождении",
+      "image": "https://www.zr.ru/_ah/img/GBT3zEvfzP8afMOGAuoU3Q",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/GBT3zEvfzP8afMOGAuoU3Q",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T09:55:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-07T10:10:10.197Z"
+    },
+    {
+      "id": "2jnntj",
+      "title": "‘3 Body Problem’ Director Derek Tsang Boards DEA True-Crime Series ‘Group 41’ From Zhang Yimou’s ‘Shadow’ Producer Jonah Greenberg (EXCLUSIVE)",
+      "url": "https://variety.com/2026/tv/asia/3-body-problem-director-derek-tsang-dea-true-crime-series-group-41-1236941978/",
+      "excerpt": "“3 Body Problem” and “Better Days” filmmaker Derek Tsang is attached to direct and executive produce “Group 41,” a true-crime drama series about the first Asian-American squad at the U.S. Drug Enforcement Administration (DEA). The project, from Jonah…",
+      "content": "“3 Body Problem” and “Better Days” filmmaker Derek Tsang is attached to direct and executive produce “Group 41,” a true-crime drama series about the first Asian-American squad at the U.S. Drug Enforcement Administration (DEA). The project, from Jonah Greenberg’s Salty Pictures, is at the Taiwan Creative Content Fest (TCCF) in Taipei. The 10-episode series, with […]",
+      "image": "https://variety.com/wp-content/uploads/2026/11/Derek-Tsang-Jonah-Greenberg.jpg",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/Derek-Tsang-Jonah-Greenberg.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T09:50:17.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-07T10:10:10.197Z"
+    },
+    {
+      "id": "bbah01",
+      "title": "General Motors заплатит сотни миллионов долларов за тайную продажу данных",
+      "url": "https://www.zr.ru/content/news/988166-mashina-remembers-kak-vy-tormo/",
+      "excerpt": "GM выплатит 220 млн долларов по искам 36 штатов из-за OnStar Smart Driver",
+      "content": "GM выплатит 220 млн долларов по искам 36 штатов из-за OnStar Smart Driver",
+      "image": "https://www.zr.ru/_ah/img/3Eg9LeRwLYeAt0w_-kr34w",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/3Eg9LeRwLYeAt0w_-kr34w",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T09:50:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-07T10:10:10.197Z"
+    },
+    {
+      "id": "1qqs1uk",
+      "title": "Open Source pg_vectorsearch Brings More Scalable Vector Search to PostgreSQL",
+      "url": "https://www.infoq.com/news/2026/11/postgresql-vector-search/",
+      "excerpt": "Tiger Data has released pg_vectorsearch, an open source PostgreSQL extension for vector similarity search, currently in alpha. Its PRISM index uses data partitioning and compression instead of the graph-based approach used by pgvector’s HNSW index, reducing…",
+      "content": "Tiger Data has released pg_vectorsearch, an open source PostgreSQL extension for vector similarity search, currently in alpha. Its PRISM index uses data partitioning and compression instead of the graph-based approach used by pgvector’s HNSW index, reducing memory requirements and index build times.\n\nBy Renato Losio",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-07T09:49:00.000Z",
+      "sourceId": "infoq-ai",
+      "source": "InfoQ AI/ML",
+      "category": "aisoft",
+      "lang": "en",
+      "addedAt": "2026-11-07T10:10:10.197Z"
+    },
+    {
       "id": "gh-1428553930",
       "title": "EvilNathan/gow2-android-build-kit: Sources-only build kit: static-recompilation Android arm64 port of God of War II (USA). No game assets, ISO, generated code, or APK included.",
       "url": "https://github.com/EvilNathan/gow2-android-build-kit",
@@ -900,8 +1194,13 @@
       "url": "https://habr.com/ru/articles/1104826/",
       "excerpt": "Из Беларуси Claude Code официально не работает. Мы делаем ZuBrIQ (zubriq.ai) — шлюз к моделям на LiteLLM с оплатой в BYN — и заставили Claude Code, Codex и OpenCode работать на открытых моделях: GLM-5.3 у провайдера и Qwen3.8-27B на собственных V100. Схема и…",
       "content": "Из Беларуси Claude Code официально не работает. Мы делаем ZuBrIQ (zubriq.ai) — шлюз к моделям на LiteLLM с оплатой в BYN — и заставили Claude Code, Codex и OpenCode работать на открытых моделях: GLM-5.3 у провайдера и Qwen3.8-27B на собственных V100. Схема и пять граблей: тихий уход в резерв, служебные модели Claude Code, нулевой spend, «слепая» модель и KV-кеш на старом железе.\n\nЧитать далее",
-      "image": "",
-      "images": [],
+      "image": "https://habrastorage.org/extt/e4/e8/c2/e4e8c22a572118c5a53ad4266f71aef0.png",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/e4/e8/c2/e4e8c22a572118c5a53ad4266f71aef0.png",
+          "alt": ""
+        }
+      ],
       "publishedAt": "2026-11-07T09:17:00.000Z",
       "sourceId": "habr-ai",
       "source": "Habr AI",
@@ -1140,7 +1439,7 @@
       "url": "https://github.com/YodaMMM/NightfirePort",
       "excerpt": "Nightfire Rust: a native Windows PC port of 007: Nightfire (PS2), written in Rust",
       "image": "",
-      "publishedAt": "2026-11-07T09:33:28Z",
+      "publishedAt": "2026-11-07T09:55:13Z",
       "addedAt": "2026-11-07T09:10:09.502Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -2027,7 +2326,7 @@
       "url": "https://github.com/Jstar269/Nakagawa-Recomp",
       "excerpt": "Play PSP games you own as native Windows programs. A static recompiler: add your own disc, build, play. No game data included.",
       "image": "",
-      "publishedAt": "2026-11-07T09:29:41Z",
+      "publishedAt": "2026-11-07T10:07:24Z",
       "addedAt": "2026-11-07T06:50:19.174Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -2040,7 +2339,7 @@
       "url": "https://github.com/valentderah/totk-pc-recomp",
       "excerpt": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
       "image": "",
-      "publishedAt": "2026-11-07T09:23:38Z",
+      "publishedAt": "2026-11-07T09:52:00Z",
       "addedAt": "2026-11-07T06:50:19.174Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -2596,7 +2895,7 @@
       "url": "https://github.com/boburning/portcove",
       "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
       "image": "",
-      "publishedAt": "2026-11-07T09:38:56Z",
+      "publishedAt": "2026-11-07T10:01:18Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -3801,6 +4100,32 @@
       "lang": "en"
     },
     {
+      "id": "gh-1400563069",
+      "title": "kirklandsig/halo2-decompiled: Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
+      "url": "https://github.com/kirklandsig/halo2-decompiled",
+      "excerpt": "Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
+      "image": "",
+      "publishedAt": "2026-11-07T10:08:56Z",
+      "addedAt": "2026-11-07T06:02:59.034Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1429046152",
+      "title": "dlprentice/onslaught-ce: Onslaught CE: a native Linux and Windows port of Battle Engine Aquila (2003), built from its source. Bring your own copy of the game.",
+      "url": "https://github.com/dlprentice/onslaught-ce",
+      "excerpt": "Onslaught CE: a native Linux and Windows port of Battle Engine Aquila (2003), built from its source. Bring your own copy of the game.",
+      "image": "",
+      "publishedAt": "2026-11-07T10:03:35Z",
+      "addedAt": "2026-11-07T06:02:59.034Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
       "id": "gh-1149948783",
       "title": "themuffinator/openQ4: The modern way to play QUAKE 4.",
       "url": "https://github.com/themuffinator/openQ4",
@@ -3820,19 +4145,6 @@
       "excerpt": "A true 1:1 C++20 source decompliation and modernization of the original Little Fighter 2 (lf2.exe, version 1.9c / 2.0a, x86-32 MSVC++).",
       "image": "",
       "publishedAt": "2026-11-07T04:03:56Z",
-      "addedAt": "2026-11-07T06:02:59.034Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
-      "id": "gh-1429046152",
-      "title": "dlprentice/onslaught-ce: Onslaught CE: a native Linux and Windows port of Battle Engine Aquila (2003), built from its source. Bring your own copy of the game.",
-      "url": "https://github.com/dlprentice/onslaught-ce",
-      "excerpt": "Onslaught CE: a native Linux and Windows port of Battle Engine Aquila (2003), built from its source. Bring your own copy of the game.",
-      "image": "",
-      "publishedAt": "2026-11-06T23:57:09Z",
       "addedAt": "2026-11-07T06:02:59.034Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -3879,19 +4191,6 @@
       "lang": "en"
     },
     {
-      "id": "gh-1400563069",
-      "title": "kirklandsig/halo2-decompiled: Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
-      "url": "https://github.com/kirklandsig/halo2-decompiled",
-      "excerpt": "Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
-      "image": "",
-      "publishedAt": "2026-11-06T20:48:20Z",
-      "addedAt": "2026-11-07T06:02:59.034Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
       "id": "gh-1380918033",
       "title": "xfynx/prsche-disasm: Reverse engineering and C/C++ source recovery of Need for Speed: Porsche Unleashed / Porsche 2000 (NFS5, PC 2000), with original-binary indexes, native differential tests and Rust port research.",
       "url": "https://github.com/xfynx/prsche-disasm",
@@ -3899,6 +4198,19 @@
       "image": "",
       "publishedAt": "2026-11-06T20:48:14Z",
       "addedAt": "2026-11-07T06:02:59.034Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1449071443",
+      "title": "VetTV-Studios/simpsons-hit-and-run-recomp: Fan-made static recompilation bring-up of the original Xbox version of The Simpsons: Hit & Run for native PC. Bring your own game; no assets included.",
+      "url": "https://github.com/VetTV-Studios/simpsons-hit-and-run-recomp",
+      "excerpt": "Fan-made static recompilation bring-up of the original Xbox version of The Simpsons: Hit & Run for native PC. Bring your own game; no assets included.",
+      "image": "",
+      "publishedAt": "2026-11-07T09:54:20Z",
+      "addedAt": "2026-11-07T06:02:57.825Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -3950,19 +4262,6 @@
       "excerpt": "Zelda: Tears of the Kingdom (TotK) 1.0.0 recompiled to native Windows and Vulkan. Frame cap up to 240, DLSS option, mouse and keyboard. Open source, mostly written by AI agents. You build it from your own dump; no game files included. Measured on one PC so far.",
       "image": "",
       "publishedAt": "2026-11-07T06:11:26Z",
-      "addedAt": "2026-11-07T06:02:57.825Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
-      "id": "gh-1449071443",
-      "title": "VetTV-Studios/simpsons-hit-and-run-recomp: Fan-made static recompilation bring-up of the original Xbox version of The Simpsons: Hit & Run for native PC. Bring your own game; no assets included.",
-      "url": "https://github.com/VetTV-Studios/simpsons-hit-and-run-recomp",
-      "excerpt": "Fan-made static recompilation bring-up of the original Xbox version of The Simpsons: Hit & Run for native PC. Bring your own game; no assets included.",
-      "image": "",
-      "publishedAt": "2026-11-07T05:52:10Z",
       "addedAt": "2026-11-07T06:02:57.825Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -12119,8 +12418,8 @@
       "id": "16pilxa",
       "title": "AI is dramatically accelerating AI research",
       "url": "https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai",
-      "excerpt": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai Comments URL: https://news.ycombinator.com/item?id=50397994 Points: 301 # Comments: 237",
-      "content": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai\n\nComments URL: https://news.ycombinator.com/item?id=50397994\n\nPoints: 301\n\n# Comments: 237",
+      "excerpt": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai Comments URL: https://news.ycombinator.com/item?id=50397994 Points: 304 # Comments: 253",
+      "content": "Article URL: https://www.planned-obsolescence.org/p/ai-is-dramatically-accelerating-ai\n\nComments URL: https://news.ycombinator.com/item?id=50397994\n\nPoints: 304\n\n# Comments: 253",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-06T20:27:23.000Z",
@@ -12373,8 +12672,8 @@
       "id": "28imw",
       "title": "A Jev that can ask Opus for help gives Opus accuracy at 4x lower cost",
       "url": "https://hightouch.com/blog/llm-judges-identity-resolution",
-      "excerpt": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution Comments URL: https://news.ycombinator.com/item?id=50397429 Points: 465 # Comments: 106",
-      "content": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution\n\nComments URL: https://news.ycombinator.com/item?id=50397429\n\nPoints: 465\n\n# Comments: 106",
+      "excerpt": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution Comments URL: https://news.ycombinator.com/item?id=50397429 Points: 475 # Comments: 109",
+      "content": "Article URL: https://hightouch.com/blog/llm-judges-identity-resolution\n\nComments URL: https://news.ycombinator.com/item?id=50397429\n\nPoints: 475\n\n# Comments: 109",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-06T19:48:51.000Z",
@@ -12432,8 +12731,8 @@
       "id": "qtlkhs",
       "title": "Firecracker VM Escape: PwnEscape Part 2",
       "url": "https://pwn.ai/blog/firecracker-escape",
-      "excerpt": "Article URL: https://pwn.ai/blog/firecracker-escape Comments URL: https://news.ycombinator.com/item?id=50397219 Points: 233 # Comments: 105",
-      "content": "Article URL: https://pwn.ai/blog/firecracker-escape\n\nComments URL: https://news.ycombinator.com/item?id=50397219\n\nPoints: 233\n\n# Comments: 105",
+      "excerpt": "Article URL: https://pwn.ai/blog/firecracker-escape Comments URL: https://news.ycombinator.com/item?id=50397219 Points: 237 # Comments: 105",
+      "content": "Article URL: https://pwn.ai/blog/firecracker-escape\n\nComments URL: https://news.ycombinator.com/item?id=50397219\n\nPoints: 237\n\n# Comments: 105",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-06T19:33:38.000Z",
@@ -14763,8 +15062,8 @@
       "id": "15yabkl",
       "title": "Gemini Omni 1.2 Flash",
       "url": "https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/",
-      "excerpt": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/ Comments URL: https://news.ycombinator.com/item?id=50392118 Points: 333 # Comments: 229",
-      "content": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/\n\nComments URL: https://news.ycombinator.com/item?id=50392118\n\nPoints: 333\n\n# Comments: 229",
+      "excerpt": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/ Comments URL: https://news.ycombinator.com/item?id=50392118 Points: 336 # Comments: 230",
+      "content": "Article URL: https://blog.google/innovation-and-ai/technology/developers-tools/introducing-gemini-omni-1-2-flash/\n\nComments URL: https://news.ycombinator.com/item?id=50392118\n\nPoints: 336\n\n# Comments: 230",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-06T13:35:27.000Z",
