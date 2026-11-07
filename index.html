@@ -30,7 +30,7 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="icons/icon-192.png" />
-    <link rel="stylesheet" href="styles.css?v=19" />
+    <link rel="stylesheet" href="styles.css?v=20" />
   </head>
   <body>
     <div class="app">
@@ -97,6 +97,30 @@
             </button>
             <button class="tab" type="button" role="tab" aria-selected="false" data-category="games">
               <span class="tab-dot tab-dot-games" aria-hidden="true"></span>Игры <span class="tab-count" data-count="games">0</span>
+            </button>
+            <button class="tab" type="button" role="tab" aria-selected="false" data-category="announces">
+              <span class="tab-dot tab-dot-announces" aria-hidden="true"></span>Анонсы <span class="tab-count" data-count="announces">0</span>
+            </button>
+            <button class="tab" type="button" role="tab" aria-selected="false" data-category="mobile">
+              <span class="tab-dot tab-dot-mobile" aria-hidden="true"></span>Мобильные <span class="tab-count" data-count="mobile">0</span>
+            </button>
+            <button class="tab" type="button" role="tab" aria-selected="false" data-category="releases">
+              <span class="tab-dot tab-dot-releases" aria-hidden="true"></span>Релизы <span class="tab-count" data-count="releases">0</span>
+            </button>
+            <button class="tab" type="button" role="tab" aria-selected="false" data-category="rumors">
+              <span class="tab-dot tab-dot-rumors" aria-hidden="true"></span>Слухи <span class="tab-count" data-count="rumors">0</span>
+            </button>
+            <button class="tab" type="button" role="tab" aria-selected="false" data-category="software">
+              <span class="tab-dot tab-dot-software" aria-hidden="true"></span>Софт <span class="tab-count" data-count="software">0</span>
+            </button>
+            <button class="tab" type="button" role="tab" aria-selected="false" data-category="science">
+              <span class="tab-dot tab-dot-science" aria-hidden="true"></span>Наука <span class="tab-count" data-count="science">0</span>
+            </button>
+            <button class="tab" type="button" role="tab" aria-selected="false" data-category="entertainment">
+              <span class="tab-dot tab-dot-entertainment" aria-hidden="true"></span>Развлечения <span class="tab-count" data-count="entertainment">0</span>
+            </button>
+            <button class="tab" type="button" role="tab" aria-selected="false" data-category="ports">
+              <span class="tab-dot tab-dot-ports" aria-hidden="true"></span>Порты <span class="tab-count" data-count="ports">0</span>
             </button>
             <button class="tab" type="button" role="tab" aria-selected="false" data-category="pc">
               <span class="tab-dot tab-dot-pc" aria-hidden="true"></span>ПК <span class="tab-count" data-count="pc">0</span>
@@ -329,7 +353,7 @@
       (async () => {
         for (let attempt = 0; attempt < 4; attempt += 1) {
           try {
-            await import(`./app.js?v=19&retry=${attempt}`);
+            await import(`./app.js?v=20&retry=${attempt}`);
             return;
           } catch (error) {
             console.warn('Не удалось загрузить app.js, повтор…', error);
