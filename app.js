@@ -6,6 +6,7 @@ const STORAGE = {
   theme: 'mbn:theme',
   translation: 'mbn:translation',
   hiddenSources: 'mbn:hiddenSources:v1',
+  read: 'mbn:read:v1',
 };
 
 const CATEGORY_LABELS = {
@@ -63,6 +64,7 @@ const state = {
   digestWeekLoading: false,
   digestCategory: 'all',
   hiddenSources: new Set(loadHiddenSources()),
+  read: new Set(loadRead()),
   sourceQuery: '',
   visible: PAGE_SIZE,
   lastAttempt: 0,
@@ -406,13 +408,14 @@ function cardHtml(item) {
       ? 'Перевод пока недоступен'
       : '';
   const saveLabel = saved ? 'Убрать из избранного' : 'Добавить в избранное';
+  const read = state.read.has(item.id);
   const addedAt = item.addedAt || item.publishedAt || '';
   const publishedAt = item.publishedAt || '';
   const addedLabel = addedAt ? formatCardTime(addedAt) : 'без даты';
   const publishedLabel = publishedAt ? formatCardTime(publishedAt) : 'нет даты';
 
   return `
-    <article class="card" data-id="${esc(item.id)}" ${translated ? 'data-translated="true"' : ''}>
+    <article class="card ${read ? 'is-read' : ''}" data-id="${esc(item.id)}" ${translated ? 'data-translated="true"' : ''}>
       <a
         class="card-media ${image ? '' : 'no-image'}"
         href="${esc(url)}"
@@ -438,6 +441,7 @@ function cardHtml(item) {
       <div class="card-body">
         <div class="card-meta">
           <span class="card-source" title="${esc(item.source || '')}">${esc(item.source || 'Источник')}</span>
+          ${read ? '<span class="read-badge" title="Вы уже открывали эту новость">✓ прочитано</span>' : ''}
         </div>
         <div class="card-dates">
           <span class="card-date card-date-added" title="Когда новость появилась на агрегаторе">
@@ -837,6 +841,48 @@ function persistHiddenSources() {
   }
 }
 
+/* ── Прочитанные ──────────────────────────────────────────────────────── */
+
+function loadRead() {
+  try {
+    const raw = JSON.parse(localStorage.getItem(STORAGE.read) || '[]');
+    return Array.isArray(raw) ? raw.filter((id) => typeof id === 'string' && id) : [];
+  } catch {
+    return [];
+  }
+}
+
+function persistRead() {
+  try {
+    localStorage.setItem(STORAGE.read, JSON.stringify([...state.read]));
+  } catch (error) {
+    console.warn('Не удалось сохранить прочитанные:', error);
+  }
+}
+
+function markRead(id) {
+  if (!id || state.read.has(id)) return;
+
+  state.read.add(id);
+  while (state.read.size > 2000) {
+    state.read.delete(state.read.values().next().value);
+  }
+  persistRead();
+
+  const card = els.grid.querySelector(`.card[data-id="${CSS.escape(id)}"]`);
+  if (!card) return;
+
+  card.classList.add('is-read');
+  const meta = card.querySelector('.card-meta');
+  if (meta && !meta.querySelector('.read-badge')) {
+    const badge = document.createElement('span');
+    badge.className = 'read-badge';
+    badge.title = 'Вы уже открывали эту новость';
+    badge.textContent = '✓ прочитано';
+    meta.append(badge);
+  }
+}
+
 /* ── Избранное ────────────────────────────────────────────────────────── */
 
 function loadBookmarks() {
@@ -901,6 +947,7 @@ function openReader(id) {
   const item = state.data?.items.find((entry) => entry.id === id) || state.bookmarks.get(id);
   if (!item) return;
 
+  markRead(id);
   state.readerItem = item;
 
   if (!state.articlesLoaded && !state.articlesLoading) {
