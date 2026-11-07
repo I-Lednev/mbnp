@@ -458,7 +458,7 @@ function cardHtml(item) {
         <h2 class="card-title" ${translated ? `title="${esc(item.title)}"` : ''}>
           <a href="${esc(url)}" data-read="${esc(item.id)}" target="_blank" rel="noopener noreferrer">${esc(title)}</a>
         </h2>
-        ${excerpt ? `<p class="card-excerpt">${esc(excerpt)}</p>` : ''}
+        ${excerpt ? `<p class="card-excerpt">${esc(cleanArticleText(excerpt))}</p>` : ''}
         <div class="card-actions">
           <a class="read-link" href="${esc(url)}" data-read="${esc(item.id)}" target="_blank" rel="noopener noreferrer">
             Читать <span aria-hidden="true">→</span>
@@ -955,7 +955,7 @@ function renderReader() {
   const title = translation?.title || item.title;
   const content = translation?.content || baseContent;
   const excerpt = translation?.excerpt || item.excerpt || '';
-  const body = content && content.length >= 40 ? content : excerpt;
+  const body = cleanArticleText(content && content.length >= 40 ? content : excerpt);
   const images = mergeReaderImages(enriched?.images, item.images, item.image);
   const hero = safeUrl(images[0]?.url || '');
 
@@ -1567,6 +1567,20 @@ function plural(number, one, few, many) {
   if (mod10 === 1 && mod100 !== 11) return one;
   if (mod10 >= 2 && mod10 <= 4 && (mod100 < 10 || mod100 >= 20)) return few;
   return many;
+}
+
+function cleanArticleText(value) {
+  return String(value || '')
+    .replace(/<script[\s\S]*?<\/script>/gi, ' ')
+    .replace(/<style[\s\S]*?<\/style>/gi, ' ')
+    .replace(/<br\s*\/?>/gi, '\n')
+    .replace(/<\/(?:p|div|h[1-6]|li|blockquote|section|article|tr|table)>/gi, '\n\n')
+    .replace(/<li\b[^>]*>/gi, '• ')
+    .replace(/<[^>]+>/g, ' ')
+    .replace(/[ \t]+/g, ' ')
+    .replace(/ *\n */g, '\n')
+    .replace(/\n{3,}/g, '\n\n')
+    .trim();
 }
 
 function safeUrl(raw) {
