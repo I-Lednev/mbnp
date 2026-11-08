@@ -195,6 +195,13 @@ const FEEDS = [
   { id: 'avclub', category: 'entertainment', name: 'The A.V. Club', lang: 'en', url: 'https://www.avclub.com/rss' },
   { id: 'intermedia', category: 'entertainment', name: 'InterMedia', lang: 'ru', url: 'https://www.intermedia.ru/rss' },
 
+  // ── Рассылки ───────────────────────────────────────────────────────────
+  { id: 'aibrews', category: 'newsletters', name: 'AI Brews', lang: 'en', url: 'https://aibrews.substack.com/feed' },
+  { id: 'earlybirdai', category: 'newsletters', name: 'Early Bird AI', lang: 'en', url: 'https://earlybirdai.beehiiv.com/feed' },
+
+  // ── Reddit ─────────────────────────────────────────────────────────────
+  { id: 'reddit', category: 'reddit', name: 'Reddit', lang: 'en', url: 'https://www.reddit.com/r/gaming+pcgaming+artificial+technology+singularity/.rss' },
+
   // ── Порты игр ──────────────────────────────────────────────────────────
   { id: 'github-ports', category: 'ports', name: 'GitHub: порты', lang: 'en', type: 'github', url: 'https://github.com/topics/game-port', queries: ['topic:game-port', 'topic:source-port', 'topic:recompilation', 'topic:decompilation'], maxItems: 24 },
   { id: 'reddit-emulation', category: 'ports', name: 'r/emulation', lang: 'en', url: 'https://www.reddit.com/r/emulation/new/.rss', keywords: PORT_KEYWORDS },
@@ -275,6 +282,8 @@ const CATEGORY_TITLES = {
   software: 'Софт',
   science: 'Наука',
   entertainment: 'Развлечения',
+  newsletters: 'Рассылки',
+  reddit: 'Reddit',
   ports: 'Порты',
   pc: 'ПК',
   consoles: 'Консоли',
