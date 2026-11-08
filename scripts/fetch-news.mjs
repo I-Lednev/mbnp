@@ -198,9 +198,6 @@ const FEEDS = [
   // ── Рассылки ───────────────────────────────────────────────────────────
   { id: 'aibrews', category: 'newsletters', name: 'AI Brews', lang: 'en', type: 'substack', url: 'https://aibrews.substack.com/api/v1/archive?sort=new&limit=20' },
 
-  // ── Reddit ─────────────────────────────────────────────────────────────
-  { id: 'reddit', category: 'reddit', name: 'Reddit', lang: 'en', type: 'reddit', url: 'https://www.reddit.com/r/gaming', subreddits: ['gaming', 'pcgaming', 'artificial', 'technology', 'singularity'] },
-
   // ── Порты игр ──────────────────────────────────────────────────────────
   { id: 'github-ports', category: 'ports', name: 'GitHub: порты', lang: 'en', type: 'github', url: 'https://github.com/topics/game-port', queries: ['topic:game-port', 'topic:source-port', 'topic:recompilation', 'topic:decompilation'], maxItems: 24 },
   { id: 'reddit-emulation', category: 'ports', name: 'r/emulation', lang: 'en', url: 'https://www.reddit.com/r/emulation/new/.rss', keywords: PORT_KEYWORDS },
@@ -282,7 +279,6 @@ const CATEGORY_TITLES = {
   science: 'Наука',
   entertainment: 'Развлечения',
   newsletters: 'Рассылки',
-  reddit: 'Reddit',
   ports: 'Порты',
   pc: 'ПК',
   consoles: 'Консоли',
