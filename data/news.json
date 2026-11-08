@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T07:10:17.972Z",
-  "tookMs": 11015,
+  "generatedAt": "2026-11-08T07:40:17.726Z",
+  "tookMs": 10345,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -24,8 +24,8 @@
     "war": "Война"
   },
   "counts": {
-    "ai": 116,
-    "games": 109,
+    "ai": 117,
+    "games": 110,
     "announces": 37,
     "mobile": 15,
     "releases": 47,
@@ -33,7 +33,7 @@
     "software": 46,
     "science": 67,
     "entertainment": 182,
-    "ports": 128,
+    "ports": 129,
     "pc": 54,
     "consoles": 127,
     "hardware": 47,
@@ -42,8 +42,8 @@
     "aimods": 2,
     "aisoft": 54,
     "cars": 135,
-    "war": 123,
-    "total": 1396
+    "war": 124,
+    "total": 1400
   },
   "sourceCount": 98,
   "sources": [
@@ -736,12 +736,6 @@
   ],
   "errors": [
     {
-      "source": "Nature",
-      "url": "https://www.nature.com/nature.rss",
-      "error": "ответ не похож на RSS/Atom",
-      "reused": 10
-    },
-    {
       "source": "r/emulation",
       "url": "https://www.reddit.com/r/emulation/new/.rss",
       "error": "HTTP 429",
@@ -759,6 +753,79 @@
     }
   ],
   "items": [
+    {
+      "id": "gh-1299064746",
+      "title": "elisesurmounted381/pt-pc: Play P.T., the 2014 PS4 teaser by Kojima Productions, natively on Windows, Linux, and macOS with this PC port.",
+      "url": "https://github.com/elisesurmounted381/pt-pc",
+      "excerpt": "Play P.T., the 2014 PS4 teaser by Kojima Productions, natively on Windows, Linux, and macOS with this PC port.",
+      "image": "",
+      "publishedAt": "2026-11-08T07:13:32Z",
+      "addedAt": "2026-11-08T07:40:12.425Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "9z3m63",
+      "title": "Ubisoft готовит две новые Assassinʼs Creed — в том числе в Древнем Риме",
+      "url": "https://www.igromania.ru/news/169792/ubisoft-gotovit-dve-novyie-assassins-creed-v-tom-chisle-v-drevnem-rime/",
+      "excerpt": "Ubisoft планирует создать ещё две игры во вселенной Assassinʼs Creed, сообщает надёжный инсайдер j0nathan.",
+      "content": "Ubisoft планирует создать ещё две игры во вселенной Assassinʼs Creed, сообщает надёжный инсайдер j0nathan.",
+      "image": "https://newcdn.igromania.ru//r/159edefcfcbdbebb37dfcf6c1e33a83c/510x-/newcdn.igromania.ru/articles/pics/tmp/images/2026/11/8/427fdc49-164a-4f19-ab35-4804458958fe.jpg",
+      "images": [
+        {
+          "url": "https://newcdn.igromania.ru//r/159edefcfcbdbebb37dfcf6c1e33a83c/510x-/newcdn.igromania.ru/articles/pics/tmp/images/2026/11/8/427fdc49-164a-4f19-ab35-4804458958fe.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T07:35:00.000Z",
+      "sourceId": "igromania",
+      "source": "Игромания",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-08T07:40:07.381Z"
+    },
+    {
+      "id": "vuu1ea",
+      "title": "WP: Кушнер хоче відродити модель Ради НАТО-Росія в рамках зусиль щодо припинення війни",
+      "url": "https://www.pravda.com.ua/news/2026/11/08/8061776/",
+      "excerpt": "За даними джерел WP , спецпредставник і зять Дональда Трампа Джаред Кушнер орієнтується на модель Ради НАТО-Росія при обговоренні ширших домовленостей про післявоєнну безпеку в Європі, однак європейські посадовці наголошують, що спершу має бути досягнуто…",
+      "content": "За даними джерел WP , спецпредставник і зять Дональда Трампа Джаред Кушнер орієнтується на модель Ради НАТО-Росія при обговоренні ширших домовленостей про післявоєнну безпеку в Європі, однак європейські посадовці наголошують, що спершу має бути досягнуто припинення вогню в Україні.\n\nДжерело : колумніст The Washington Post Девід Ігнатіус із посиланням на джерела\n\nПряма мова : \"Кушнер пов'язав свої зусилля щодо досягнення перемир'я в Україні із закликом до ширших багатосторонніх переговорів між Росією та Європою щодо післявоєнної безпеки на континенті.\n\nЗа словами чиновника, обізнаного з перемовинами, моделлю для Кушнера є Рада НАТО-Росія, яка була створена після закінчення Холодної війни, але діяльність якої було призупинено у 2014 році після вторгнення Росії в Україну та захоплення Криму\".\n\nДеталі : Європейські чиновники повідомили журналісту в п'ятницю, що вони готові до діалогу з Росією, але погодяться на рамки безпеки лише після досягнення перемир'я в Україні.\n\n\"Обидва напрямки працюють\", – написав у повідомленні обізнаний чиновник із країни, яка є близьким союзником США. Однак він застеріг, що \"мирну угоду щодо України потрібно укласти до укладення угоди про архітектуру безпеки\".\n\nВисокопоставлений чиновник з іншої ключової європейської країни пояснив у своєму повідомленні: \"Цей підхід несе для нас чимало ризиків, але краще брати участь, ніж утримуватися. Наша позиція залишається незмінною: ці питання можна обговорювати лише після закінчення війни. … Переговори будуть непростими\". Цей чиновник підкреслив, що, хоча провідні європейські лідери підтримують зусилля Кушнера, в Європі існує \"широка єдність\" щодо того, що будь-які переговори між Європою та Росією мають відбуватися лише після укладення перемир'я.\n\nЗа словами Ігнатіуса, саме послідовність цих кроків стане вирішальним питанням.\n\n\"Кушнер прагне, щоб процес відбувався одночасно – щоб, так би мовити, обидва потяги прибули одночасно. Європа, яка підтримує Україну, наполягає на тому, щоб на першому місці було питання про припинення вогню\", – пише він.\n\nЗа даними журналіста, правитель Росії Володимир Путін \"з ентузіазмом поставився до загальноєвропейського плану безпеки\" під час зустрічі 21 жовтня в Санкт-Петербурзі зі Стівом Віткоффом, до якої Кушнер приєднався через відеоконференцію.\n\nУ четвер президент США Дональд Трамп зустрівся в Білому домі з посланцем Путіна Кирилом Дмитрієвим. Після цього Трамп похвалився, що він близький до укладення \"великої, прекрасної угоди\", яка охоплюватиме Україну та \"всю Європу\".\n\n\"Це надзвичайно передчасно, з огляду на те, що я почув у п'ятницю від європейських чиновників\", – додає колумніст WP .\n\nПередісторія :\n\n•\nПрезидент США Дональд Трамп заявив, що найближчим часом може бути укладена нова масштабна угода , яка стосуватиметься України та може торкнутися всієї Європи.\n\n•\nНезрозуміла пропозиція адміністрації США щодо нової угоди з Росією про безпеку в Європі викликала скептицизм та занепокоєння у європейських столицях, які побоюються, що це може призвести до відсунення континенту на другий план у переговорах.\n\n•\nПрезидент України Володимир Зеленський у суботу попередив адміністрацію Дональда Трампа, що запропонований ним новий план безпеки для Європи може бути \"небезпечним\", оскільки Росія не демонструє жодних ознак бажання припинити війну.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/c/e/952614/ce82eade8935333c31aa65683db9d626.jpeg",
+      "images": [
+        {
+          "url": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/c/e/952614/ce82eade8935333c31aa65683db9d626.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T07:32:00.000Z",
+      "sourceId": "pravda",
+      "source": "Ukrainska Pravda",
+      "category": "war",
+      "lang": "uk",
+      "addedAt": "2026-11-08T07:40:07.381Z"
+    },
+    {
+      "id": "1fvuyr7",
+      "title": "Зачем ИИ-моделям самореплицироваться. Или это нужно не им?",
+      "url": "https://habr.com/ru/articles/1105028/",
+      "excerpt": "В недавней статье Антропик “AI models may be capable of self-replicating without access to a datacenter “ исследователи рассмотрели как легковесные open-weight модели могут копировать себя на взломанные потребительские и IoT-устройства и поднимать там…",
+      "content": "В недавней статье Антропик “AI models may be capable of self-replicating without access to a datacenter “ исследователи рассмотрели как легковесные open-weight модели могут копировать себя на взломанные потребительские и IoT-устройства и поднимать там локальный инференс.\n\nИсследователи утверждают, что могут, но я полагаю, что в этом нет экономического смысла.\n\nВ этой статье я рассматриваю вопрос, что на самом деле значит распространение ИИ, и как скорее всего это будет выглядеть на самом деле.\n\nЧитать далее",
+      "image": "https://habrastorage.org/extt/ac/7f/60/ac7f60d57bbd8ec1d39ec2f58b7e8bae.png",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/ac/7f/60/ac7f60d57bbd8ec1d39ec2f58b7e8bae.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T07:16:13.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-08T07:40:07.381Z"
+    },
     {
       "id": "gh-15365681",
       "title": "bradharding/doomretro: The classic, refined DOOM source port. For Windows PC.",
@@ -1106,8 +1173,8 @@
       "id": "vduo6c",
       "title": "Goodbye Claude, Hello Pi",
       "url": "https://caleb.software/posts/claude-to-pi.html",
-      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 136 # Comments: 79",
-      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 136\n\n# Comments: 79",
+      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 166 # Comments: 93",
+      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 166\n\n# Comments: 93",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T03:11:48.000Z",
@@ -2103,7 +2170,7 @@
       "url": "https://github.com/galarianpikachu2021-hue/Racing-8-DX-Recomp",
       "excerpt": "Mario Kart 8 Deluxe recompiled to run natively on your PC: no JIT, FSR 3.1 + frame generation, experimental DLSS, 720p to 4K output, HDR10. Bring your own game files.",
       "image": "",
-      "publishedAt": "2026-11-08T04:55:15Z",
+      "publishedAt": "2026-11-08T07:28:02Z",
       "addedAt": "2026-11-08T03:10:13.553Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -2464,7 +2531,7 @@
       "url": "https://github.com/Destinity13/TimeSplitters-2-Native-Linux-Recomp",
       "excerpt": "TimeSplitters 2 (PS2, NTSC-U) statically recompiled to a native Linux executable – HD remaster: 60 FPS, real 16:9, up to 8x resolution, split-screen co-op, verified against PCSX2",
       "image": "",
-      "publishedAt": "2026-11-08T01:57:10Z",
+      "publishedAt": "2026-11-08T07:35:38Z",
       "addedAt": "2026-11-08T01:40:14.870Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -3024,8 +3091,8 @@
       "id": "zof7yv",
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 319 # Comments: 221",
-      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 319\n\n# Comments: 221",
+      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 332 # Comments: 226",
+      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 332\n\n# Comments: 226",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T20:45:32.000Z",
@@ -4743,8 +4810,8 @@
       "id": "1fzmty1",
       "title": "The end of Microsoft Research's AI Frontiers group",
       "url": "https://hunch.net/?p=13764006",
-      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 438 # Comments: 260",
-      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 438\n\n# Comments: 260",
+      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 439 # Comments: 263",
+      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 439\n\n# Comments: 263",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T18:02:17.000Z",
@@ -4830,8 +4897,8 @@
       "id": "6a6jp5",
       "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
       "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 272 # Comments: 74",
-      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 272\n\n# Comments: 74",
+      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 276 # Comments: 76",
+      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 276\n\n# Comments: 76",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T17:19:00.000Z",
@@ -8165,7 +8232,7 @@
       "url": "https://github.com/exoteric33/ps2-native-recomp",
       "excerpt": "Turns a PS2 disc image into a native PC program by static recompilation; builds on ps2-web-recomp (MIT). Work in progress. Bring your own disc.",
       "image": "",
-      "publishedAt": "2026-11-07T13:06:57Z",
+      "publishedAt": "2026-11-08T07:19:44Z",
       "addedAt": "2026-11-07T13:10:10.718Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -9034,8 +9101,8 @@
       "id": "1iqgq9j",
       "title": "Every Mac comes with an (undocumented) family member classifier",
       "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 678 # Comments: 372",
-      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 678\n\n# Comments: 372",
+      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 689 # Comments: 372",
+      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 689\n\n# Comments: 372",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T09:46:03.000Z",
@@ -10318,7 +10385,7 @@
       "url": "https://github.com/EvilNathan/gow2-android-build-kit",
       "excerpt": "Sources-only build kit: static-recompilation Android arm64 port of God of War II (USA). No game assets, ISO, generated code, or APK included.",
       "image": "",
-      "publishedAt": "2026-11-08T06:44:53Z",
+      "publishedAt": "2026-11-08T07:21:02Z",
       "addedAt": "2026-11-07T09:40:10.867Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -11591,7 +11658,7 @@
       "url": "https://github.com/Jstar269/Nakagawa-Recomp",
       "excerpt": "Play PSP games you own as native Windows programs. A static recompiler: add your own disc, build, play. No game data included.",
       "image": "",
-      "publishedAt": "2026-11-08T07:06:53Z",
+      "publishedAt": "2026-11-08T07:37:46Z",
       "addedAt": "2026-11-07T06:50:19.174Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
