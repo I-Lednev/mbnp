@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T07:55:50.954Z",
-  "tookMs": 14147,
+  "generatedAt": "2026-11-08T08:10:22.293Z",
+  "tookMs": 13785,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -24,9 +24,9 @@
     "war": "Война"
   },
   "counts": {
-    "ai": 117,
+    "ai": 118,
     "games": 110,
-    "announces": 37,
+    "announces": 38,
     "mobile": 15,
     "releases": 47,
     "rumors": 31,
@@ -34,16 +34,16 @@
     "science": 67,
     "entertainment": 182,
     "ports": 129,
-    "pc": 54,
-    "consoles": 127,
+    "pc": 53,
+    "consoles": 129,
     "hardware": 47,
     "industry": 48,
     "updates": 28,
     "aimods": 2,
     "aisoft": 54,
     "cars": 135,
-    "war": 124,
-    "total": 1400
+    "war": 126,
+    "total": 1405
   },
   "sourceCount": 98,
   "sources": [
@@ -760,6 +760,110 @@
   ],
   "items": [
     {
+      "id": "azaja2",
+      "title": "NVIDIA нарушила собственный график прекращения поддержки Windows 10, выпустив новый драйвер Game Ready",
+      "url": "https://www.playground.ru/misc/news/nvidia_narushila_sobstvennyj_grafik_prekrascheniya_podderzhki_windows_10_vypustiv_novyj_drajver_game_ready-1888761",
+      "excerpt": "Компания NVIDIA выпустила новый графический драйвер GeForce Game Ready 621.14 WHQL, который по-прежнему поддерживает Windows 10. Это примечательно, поскольку ранее производитель официально объявил, что последний игровой драйвер для устаревшей операционной…",
+      "content": "Компания NVIDIA выпустила новый графический драйвер GeForce Game Ready 621.14 WHQL, который по-прежнему поддерживает Windows 10. Это примечательно, поскольку ранее производитель официально объявил, что последний игровой драйвер для устаревшей операционной системы выйдет в октябре 2026...",
+      "image": "https://i.playground.ru/e/3BJRovA7CG1DF03TiJs5kQ.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/3BJRovA7CG1DF03TiJs5kQ.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T08:07:44.000Z",
+      "sourceId": "playground-announces",
+      "source": "Playground Анонсы",
+      "category": "announces",
+      "lang": "ru",
+      "addedAt": "2026-11-08T08:10:08.508Z"
+    },
+    {
+      "id": "1jco18i",
+      "title": "Ускоряем развитие Wine с помощью ИИ",
+      "url": "https://habr.com/ru/articles/1105036/",
+      "excerpt": "Привет, Хабр! Это Иван Сорокин, вы меня знаете по статья про far2l, его идейному продолжению f4 и порту Dos Navigator на современные системы. Хочу рассказать про новый проект (на самом деле, проекты), вам наверняка понравится и пригодится! Представляю…",
+      "content": "Привет, Хабр! Это Иван Сорокин, вы меня знаете по статья про far2l, его идейному продолжению f4 и порту Dos Navigator на современные системы. Хочу рассказать про новый проект (на самом деле, проекты), вам наверняка понравится и пригодится!\n\nПредставляю fix-it-in-wine и dllmgr . Первый это скилл, он позволяет поручать ИИ-агенту исправление ошибок совместимости Windows-приложений с Wine. Второй - что-то вроде пакетного менеджера для DLL: позволяет устанавливать исправленные библиотеки независимо от основного Wine, делиться ими, использовать готовые решения других разработчиков.\n\nНо главная идея здесь даже не в том, чтобы научить ИИ исправлять ошибки Wine. Она в том, чтобы изменить саму модель разработки и распространения исправлений .\n\nЧитать далее",
+      "image": "https://habrastorage.org/extt/b9/17/ab/b917ab216e843ebfd1d1cc9a443b2d98.jpg",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/b9/17/ab/b917ab216e843ebfd1d1cc9a443b2d98.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T08:06:56.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-08T08:10:08.508Z"
+    },
+    {
+      "id": "82k8ud",
+      "title": "Генштаб ЗСУ про ситуацію на фронті: найбільше атак за добу було на Костянтинівському напрямку",
+      "url": "https://www.radiosvoboda.org/a/news-henshtab-front-kostyantynivskyy-napryamok/33893192.html",
+      "excerpt": "На Костянтинівському напрямку російські загарбники вели наступальні дії у районах населених пунктів Костянтинівка, Вільне та в бік Миколайпілля, Новопавлівки, Золотого Колодязя",
+      "content": "На Костянтинівському напрямку російські загарбники вели наступальні дії у районах населених пунктів Костянтинівка, Вільне та в бік Миколайпілля, Новопавлівки, Золотого Колодязя",
+      "image": "https://gdb.rferl.org/0b392726-ce2c-431e-415b-08df13a884cb_w800_h450.jpg",
+      "images": [
+        {
+          "url": "https://gdb.rferl.org/0b392726-ce2c-431e-415b-08df13a884cb_w800_h450.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T08:02:29.000Z",
+      "sourceId": "radiosvoboda",
+      "source": "Radio Svoboda",
+      "category": "war",
+      "lang": "uk",
+      "addedAt": "2026-11-08T08:10:08.508Z"
+    },
+    {
+      "id": "1vecws8",
+      "title": "За добу росіяни найбільше атакували на Костянтинівському напрямку – Генштаб",
+      "url": "https://www.pravda.com.ua/news/2026/11/08/8061778/",
+      "excerpt": "Протягом доби на фронті відбулося 199 бойових зіткнень, зокрема на Констянтинівському напрямку зафіксовано 23 російських атаки. Джерело : зведення Генштабу ЗСУ станом на 8:00 неділі Деталі : На Північно-Слобожанському і Курському напрямках Сили оборони…",
+      "content": "Протягом доби на фронті відбулося 199 бойових зіткнень, зокрема на Констянтинівському напрямку зафіксовано 23 російських атаки.\n\nДжерело : зведення Генштабу ЗСУ станом на 8:00 неділі\n\nДеталі : На Північно-Слобожанському і Курському напрямках Сили оборони відбили чотири атаки противника. Агресор завдав 9 авіаційних ударів, застосувавши 20 КАБ, та здійснив 126 обстрілів позицій українських військ і населених пунктів.\n\nНа Південно-Слобожанському напрямку українські підрозділи відбили вісім атак противника у бік населених пунктів Козача Лопань, Радьківка, Охрімівка та в районах Вовчанська, Цегельного, Вовчанських Хуторів.\n\nНа Лиманському напрямку відбито п'ять атак, в бік Лиману та у районі населеного пункту Колодязі.\n\nНа Слов'янському напрямку противник здійснив чотири атаки в бік Пискунівки, Миколаївки та в районі населеного пункту Озерне.\n\nНа Краматорському напрямку противник провів одну штурмову дію, атакуючи в бік Миколаївки.\n\nНа Костянтинівському напрямку зафіксовано 23 атаки. Загарбники вели наступальні дії у районах населених пунктів Костянтинівка, Вільне та в бік Миколайпілля, Новопавлівки, Золотого Колодязя.\n\nДев'ять атак здійснив ворог на Покровському напрямку. Окупанти намагалися просунутися неподалік населених пунктів Новий Донбас, Новогришине, Молодецьке та в бік населених пунктів Добропілля, Сергіївки, Новопідгороднього.\n\nНа Гуляйпільському напрямку окупанти три рази атакували позиції захисників. Ворог намагався просунутися у бік населених пунктів Косівцеве та поблизу Добропілля, Малої Токмачки.\n\nНа Оріхівському напрямку окупанти провели дві атаки в бік населених пунктів Новопавлівка та Лук'янівське.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/8/3/952627/83f56509571d755f9e7836ddf292529a.jpeg",
+      "images": [
+        {
+          "url": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/8/3/952627/83f56509571d755f9e7836ddf292529a.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T08:01:00.000Z",
+      "sourceId": "pravda",
+      "source": "Ukrainska Pravda",
+      "category": "war",
+      "lang": "uk",
+      "addedAt": "2026-11-08T08:10:08.508Z"
+    },
+    {
+      "id": "1xkgo4j",
+      "title": "Digital Foundry Delivers Its Tech Verdict On Stellar Blade's Switch 2 Port",
+      "url": "https://www.nintendolife.com/news/2026/11/digital-foundry-delivers-its-tech-verdict-on-stellar-blades-switch-2-port",
+      "excerpt": "\"Better than expected\". Stellar Blade also arrived on the Switch 2 this week, and it's been positively received so far. Here on Nintendo Life, we gave it a score of seven out of ten, and although there are some technical drawbacks, Eve's outing stands tall on…",
+      "content": "\"Better than expected\".\n\nStellar Blade also arrived on the Switch 2 this week, and it's been positively received so far. Here on Nintendo Life, we gave it a score of seven out of ten, and although there are some technical drawbacks, Eve's outing stands tall on the hybrid platform.\n\nThe team at Digital Foundry has now delivered its tech review of the Unreal Engine 4 title, and while it's no \"tour de force\", it does translate to a \"better than expected Switch 2 port\", with what's described as an experience with \"gentler compromises\" than many more recent titles.\n\nRead the full article on nintendolife.com",
+      "image": "https://images.nintendolife.com/d391a48c81f62/small.jpg",
+      "images": [
+        {
+          "url": "https://images.nintendolife.com/d391a48c81f62/small.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://images.nintendolife.com/d391a48c81f62/large.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T08:00:00.000Z",
+      "sourceId": "nintendolife",
+      "source": "Nintendo Life",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-08T08:10:08.508Z"
+    },
+    {
       "id": "gh-1299064746",
       "title": "elisesurmounted381/pt-pc: Play P.T., the 2014 PS4 teaser by Kojima Productions, natively on Windows, Linux, and macOS with this PC port.",
       "url": "https://github.com/elisesurmounted381/pt-pc",
@@ -1137,14 +1241,14 @@
       "url": "https://www.nintendolife.com/news/2026/11/video-zelda-ocarina-of-time-side-by-side-graphics-comparison-switch-2-3ds-n64",
       "excerpt": "Take a look. Zelda: Ocarina of Time returned this week on the Switch 2 and it looks better than ever. If you are wondering just much of a facelift it's had since the 2011 outing, and the original N64 hit, you might want to check out this side-by-side…",
       "content": "Take a look.\n\nZelda: Ocarina of Time returned this week on the Switch 2 and it looks better than ever. If you are wondering just much of a facelift it's had since the 2011 outing, and the original N64 hit, you might want to check out this side-by-side comparison video.\n\nYouTube channel ElAnalistDeBits has now released a \"final graphics comparison\" which takes a closer look at the character models, environments, physics, the many locations in the game, and much more.\n\nRead the full article on nintendolife.com",
-      "image": "https://images.nintendolife.com/a10364492c43f/small.jpg",
+      "image": "https://images.nintendolife.com/d14351f36451a/small.jpg",
       "images": [
         {
-          "url": "https://images.nintendolife.com/a10364492c43f/small.jpg",
+          "url": "https://images.nintendolife.com/d14351f36451a/small.jpg",
           "alt": ""
         },
         {
-          "url": "https://images.nintendolife.com/a10364492c43f/large.jpg",
+          "url": "https://images.nintendolife.com/d14351f36451a/large.jpg",
           "alt": ""
         }
       ],
@@ -1179,8 +1283,8 @@
       "id": "vduo6c",
       "title": "Goodbye Claude, Hello Pi",
       "url": "https://caleb.software/posts/claude-to-pi.html",
-      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 183 # Comments: 102",
-      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 183\n\n# Comments: 102",
+      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 197 # Comments: 114",
+      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 197\n\n# Comments: 114",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T03:11:48.000Z",
@@ -1457,7 +1561,7 @@
       "url": "https://github.com/7v0biscuit/OpenKai2",
       "excerpt": "A Native Windows Port of Dragon Ball Z: Budokai 2",
       "image": "",
-      "publishedAt": "2026-11-08T06:34:53Z",
+      "publishedAt": "2026-11-08T08:09:24Z",
       "addedAt": "2026-11-08T05:40:16.174Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -2537,7 +2641,7 @@
       "url": "https://github.com/Destinity13/TimeSplitters-2-Native-Linux-Recomp",
       "excerpt": "TimeSplitters 2 (PS2, NTSC-U) statically recompiled to a native Linux executable – HD remaster: 60 FPS, real 16:9, up to 8x resolution, split-screen co-op, verified against PCSX2",
       "image": "",
-      "publishedAt": "2026-11-08T07:53:04Z",
+      "publishedAt": "2026-11-08T08:01:42Z",
       "addedAt": "2026-11-08T01:40:14.870Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -3097,8 +3201,8 @@
       "id": "zof7yv",
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 340 # Comments: 229",
-      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 340\n\n# Comments: 229",
+      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 345 # Comments: 233",
+      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 345\n\n# Comments: 233",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T20:45:32.000Z",
@@ -4806,9 +4910,9 @@
         }
       ],
       "publishedAt": "2026-11-07T18:11:42.000Z",
-      "sourceId": "playground-pc",
-      "source": "Playground ПК",
-      "category": "pc",
+      "sourceId": "playground-consoles",
+      "source": "Playground Консоли",
+      "category": "consoles",
       "lang": "ru",
       "addedAt": "2026-11-07T21:43:59.744Z"
     },
@@ -4816,8 +4920,8 @@
       "id": "1fzmty1",
       "title": "The end of Microsoft Research's AI Frontiers group",
       "url": "https://hunch.net/?p=13764006",
-      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 442 # Comments: 265",
-      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 442\n\n# Comments: 265",
+      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 445 # Comments: 266",
+      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 445\n\n# Comments: 266",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T18:02:17.000Z",
@@ -4903,8 +5007,8 @@
       "id": "6a6jp5",
       "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
       "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 280 # Comments: 78",
-      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 280\n\n# Comments: 78",
+      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 285 # Comments: 78",
+      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 285\n\n# Comments: 78",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T17:19:00.000Z",
@@ -9107,8 +9211,8 @@
       "id": "1iqgq9j",
       "title": "Every Mac comes with an (undocumented) family member classifier",
       "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 691 # Comments: 372",
-      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 691\n\n# Comments: 372",
+      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 694 # Comments: 372",
+      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 694\n\n# Comments: 372",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T09:46:03.000Z",
@@ -11664,7 +11768,7 @@
       "url": "https://github.com/Jstar269/Nakagawa-Recomp",
       "excerpt": "Play PSP games you own as native Windows programs. A static recompiler: add your own disc, build, play. No game data included.",
       "image": "",
-      "publishedAt": "2026-11-08T07:47:52Z",
+      "publishedAt": "2026-11-08T08:08:01Z",
       "addedAt": "2026-11-07T06:50:19.174Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -12233,7 +12337,7 @@
       "url": "https://github.com/boburning/portcove",
       "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
       "image": "",
-      "publishedAt": "2026-11-08T07:55:12Z",
+      "publishedAt": "2026-11-08T08:07:54Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -13438,12 +13542,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1298591675",
-      "title": "Yokimitsuro/khdays-port: Experimental native PC runtime for Kingdom Hearts 358/2 Days, developed alongside the matching Nintendo DS decompilation. No copyrighted game data included.",
-      "url": "https://github.com/Yokimitsuro/khdays-port",
-      "excerpt": "Experimental native PC runtime for Kingdom Hearts 358/2 Days, developed alongside the matching Nintendo DS decompilation. No copyrighted game data included.",
+      "id": "gh-1400563069",
+      "title": "kirklandsig/halo2-decompiled: Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
+      "url": "https://github.com/kirklandsig/halo2-decompiled",
+      "excerpt": "Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
       "image": "",
-      "publishedAt": "2026-11-08T01:17:10Z",
+      "publishedAt": "2026-11-08T08:01:15Z",
       "addedAt": "2026-11-07T06:02:59.034Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -13451,12 +13555,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1400563069",
-      "title": "kirklandsig/halo2-decompiled: Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
-      "url": "https://github.com/kirklandsig/halo2-decompiled",
-      "excerpt": "Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
+      "id": "gh-1298591675",
+      "title": "Yokimitsuro/khdays-port: Experimental native PC runtime for Kingdom Hearts 358/2 Days, developed alongside the matching Nintendo DS decompilation. No copyrighted game data included.",
+      "url": "https://github.com/Yokimitsuro/khdays-port",
+      "excerpt": "Experimental native PC runtime for Kingdom Hearts 358/2 Days, developed alongside the matching Nintendo DS decompilation. No copyrighted game data included.",
       "image": "",
-      "publishedAt": "2026-11-07T20:57:25Z",
+      "publishedAt": "2026-11-08T01:17:10Z",
       "addedAt": "2026-11-07T06:02:59.034Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
