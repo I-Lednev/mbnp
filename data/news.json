@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T01:10:31.843Z",
-  "tookMs": 24962,
+  "generatedAt": "2026-11-08T01:20:59.567Z",
+  "tookMs": 11387,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -26,14 +26,14 @@
   "counts": {
     "ai": 113,
     "games": 108,
-    "announces": 34,
+    "announces": 35,
     "mobile": 15,
     "releases": 45,
     "rumors": 29,
-    "software": 45,
+    "software": 46,
     "science": 66,
-    "entertainment": 158,
-    "ports": 106,
+    "entertainment": 159,
+    "ports": 107,
     "pc": 52,
     "consoles": 123,
     "hardware": 46,
@@ -43,7 +43,7 @@
     "aisoft": 53,
     "cars": 121,
     "war": 112,
-    "total": 1299
+    "total": 1303
   },
   "sourceCount": 98,
   "sources": [
@@ -736,6 +736,12 @@
   ],
   "errors": [
     {
+      "source": "Nature",
+      "url": "https://www.nature.com/nature.rss",
+      "error": "ответ не похож на RSS/Atom",
+      "reused": 10
+    },
+    {
       "source": "r/emulation",
       "url": "https://www.reddit.com/r/emulation/new/.rss",
       "error": "HTTP 429",
@@ -753,6 +759,79 @@
     }
   ],
   "items": [
+    {
+      "id": "gh-1321785975",
+      "title": "portemon-nitro/portemon: Getting HeartGold/SoulSilver out of the DS",
+      "url": "https://github.com/portemon-nitro/portemon",
+      "excerpt": "Getting HeartGold/SoulSilver out of the DS",
+      "image": "",
+      "publishedAt": "2026-11-08T01:14:31Z",
+      "addedAt": "2026-11-08T01:20:53.244Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "68ugbh",
+      "title": "Taiwan’s Mirror Fiction Hands Out $50,000 In Awards For Book To Screen Adaptations",
+      "url": "https://deadline.com/2026/11/mirror-fiction-stand-in-family-endless-rain-tccf-taicca-1237216206/",
+      "excerpt": "Mirror Fiction, a Taiwanese IP development and production outfit, handed out cash prizes worth more than $50,000 to two authors, to help them adapt their works for screen, in the fifth edition of its biennial awards. The announcement was made at Taiwan…",
+      "content": "Mirror Fiction, a Taiwanese IP development and production outfit, handed out cash prizes worth more than $50,000 to two authors, to help them adapt their works for screen, in the fifth edition of its biennial awards. The announcement was made at Taiwan Creative Content Fest (TCCF), where Mirror Fiction also unveiled its latest line-up of […]",
+      "image": "https://deadline.com/wp-content/uploads/2026/11/Mirror-Fiction-Awards.jpg",
+      "images": [
+        {
+          "url": "https://deadline.com/wp-content/uploads/2026/11/Mirror-Fiction-Awards.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T01:11:56.000Z",
+      "sourceId": "deadline",
+      "source": "Deadline",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T01:20:48.180Z"
+    },
+    {
+      "id": "pud7g5",
+      "title": "Гиганотозавр стал ещё опаснее - ARK: Survival Ascended получила обновление с переработанным динозавром",
+      "url": "https://www.playground.ru/ark_survival_evolved/news/giganotozavr_stal_eschyo_opasnee_ark_survival_ascended_poluchila_obnovlenie_s_pererabotannym_dinozavrom-1888694",
+      "excerpt": "Студия Wildcard представила новый трейлер ARK: Survival Ascended, посвящённый масштабной переработке гиганотозавра (Giganotosaurus). Один из самых грозных хищников игры получил обновлённую внешность, новые боевые способности и изменённую механику приручения.",
+      "content": "Студия Wildcard представила новый трейлер ARK: Survival Ascended, посвящённый масштабной переработке гиганотозавра (Giganotosaurus). Один из самых грозных хищников игры получил обновлённую внешность, новые боевые способности и изменённую механику приручения.",
+      "image": "https://i.playground.ru/e/bQ9dHoh9I_Y3IbcDxo2zeA.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/bQ9dHoh9I_Y3IbcDxo2zeA.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T19:52:01.000Z",
+      "sourceId": "playground-announces",
+      "source": "Playground Анонсы",
+      "category": "announces",
+      "lang": "ru",
+      "addedAt": "2026-11-08T01:20:48.180Z"
+    },
+    {
+      "id": "a7tg9i",
+      "title": "Пинг-понг вместо пистолетов - представлен необычный экшен Tiebreakers в стиле аниме",
+      "url": "https://www.playground.ru/tiebreakers/news/ping_pong_vmesto_pistoletov_predstavlen_neobychnyj_ekshen_tiebreakers_v_stile_anime-1888639",
+      "excerpt": "В рамках выставки Endix Expo Fall 2026 состоялся анонс Tiebreakers - двухмерного экшена в стиле классических run 'n gun, в котором привычное огнестрельное оружие заменили спортивным инвентарём. Разработчики представили дебютный трейлер с демонстрацией…",
+      "content": "В рамках выставки Endix Expo Fall 2026 состоялся анонс Tiebreakers - двухмерного экшена в стиле классических run 'n gun, в котором привычное огнестрельное оружие заменили спортивным инвентарём. Разработчики представили дебютный трейлер с демонстрацией игрового процесса.",
+      "image": "https://i.playground.ru/e/yz_k_g10V0Dz8q_l6fHqJg.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/yz_k_g10V0Dz8q_l6fHqJg.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T15:54:06.000Z",
+      "sourceId": "playground-announces",
+      "source": "Playground Анонсы",
+      "category": "announces",
+      "lang": "ru",
+      "addedAt": "2026-11-08T01:20:48.180Z"
+    },
     {
       "id": "gh-1420902544",
       "title": "gamboozino/ngbrecomp: Ninja Gaiden Black (Xbox, 2005) statically recompiled into native Linux and Windows builds, with an experimental Android port, drawn by its own Vulkan renderer. A steady 60 fps, widescreen and ultrawide, keyboard and mouse, touch controls on Android, Steam Deck ready. Bring your own copy of the game.",
@@ -1189,8 +1268,8 @@
       "id": "zof7yv",
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 152 # Comments: 107",
-      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 152\n\n# Comments: 107",
+      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 163 # Comments: 113",
+      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 163\n\n# Comments: 113",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T20:45:32.000Z",
@@ -1219,7 +1298,7 @@
       "url": "https://github.com/sunsided/gorillas.rs",
       "excerpt": "GORILLAS.BAS ... in Rust",
       "image": "",
-      "publishedAt": "2026-11-08T01:09:50Z",
+      "publishedAt": "2026-11-08T01:15:15Z",
       "addedAt": "2026-11-07T23:40:19.308Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -1693,12 +1772,12 @@
       "addedAt": "2026-11-07T22:16:40.844Z"
     },
     {
-      "id": "gh-1440988244",
-      "title": "timboat/demons-souls-recomp: Native Windows port of Demon's Souls (PS3, BLUS-30443) via ps3recomp static recompilation. Bring your own disc image; no game files included.",
-      "url": "https://github.com/timboat/demons-souls-recomp",
-      "excerpt": "Native Windows port of Demon's Souls (PS3, BLUS-30443) via ps3recomp static recompilation. Bring your own disc image; no game files included.",
+      "id": "gh-1449755182",
+      "title": "ObeseCatLord/galaxy-angel-2-pc: Galaxy Angel 2 PC: a native PC port of the Galaxy Angel II PS2 trilogy, built with PS2Recomp static recompilation",
+      "url": "https://github.com/ObeseCatLord/galaxy-angel-2-pc",
+      "excerpt": "Galaxy Angel 2 PC: a native PC port of the Galaxy Angel II PS2 trilogy, built with PS2Recomp static recompilation",
       "image": "",
-      "publishedAt": "2026-11-07T23:18:55Z",
+      "publishedAt": "2026-11-08T01:18:51Z",
       "addedAt": "2026-11-07T21:44:04.409Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -1706,12 +1785,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1449755182",
-      "title": "ObeseCatLord/galaxy-angel-2-pc: Galaxy Angel 2 PC: a native PC port of the Galaxy Angel II PS2 trilogy, built with PS2Recomp static recompilation",
-      "url": "https://github.com/ObeseCatLord/galaxy-angel-2-pc",
-      "excerpt": "Galaxy Angel 2 PC: a native PC port of the Galaxy Angel II PS2 trilogy, built with PS2Recomp static recompilation",
+      "id": "gh-1440988244",
+      "title": "timboat/demons-souls-recomp: Native Windows port of Demon's Souls (PS3, BLUS-30443) via ps3recomp static recompilation. Bring your own disc image; no game files included.",
+      "url": "https://github.com/timboat/demons-souls-recomp",
+      "excerpt": "Native Windows port of Demon's Souls (PS3, BLUS-30443) via ps3recomp static recompilation. Bring your own disc image; no game files included.",
       "image": "",
-      "publishedAt": "2026-11-07T22:11:41Z",
+      "publishedAt": "2026-11-07T23:18:55Z",
       "addedAt": "2026-11-07T21:44:04.409Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -2908,8 +2987,8 @@
       "id": "1fzmty1",
       "title": "The end of Microsoft Research's AI Frontiers group",
       "url": "https://hunch.net/?p=13764006",
-      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 364 # Comments: 208",
-      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 364\n\n# Comments: 208",
+      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 369 # Comments: 211",
+      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 369\n\n# Comments: 211",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T18:02:17.000Z",
@@ -2995,8 +3074,8 @@
       "id": "6a6jp5",
       "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
       "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 188 # Comments: 55",
-      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 188\n\n# Comments: 55",
+      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 192 # Comments: 56",
+      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 192\n\n# Comments: 56",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T17:19:00.000Z",
@@ -3618,7 +3697,7 @@
       "url": "https://github.com/TheBozos/VP2S_Recomp",
       "excerpt": "Native PC port of Valkyrie Profile 2: Silmeria (USA, SLUS-21452) by static recompilation with PS2Recomp: native renderer and audio, no GS/VU1/SPU2 emulation. No game data or keys included.",
       "image": "",
-      "publishedAt": "2026-11-08T01:09:48Z",
+      "publishedAt": "2026-11-08T01:20:10Z",
       "addedAt": "2026-11-07T18:00:03.196Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -3709,7 +3788,7 @@
       "url": "https://github.com/TheBozos/TMB_Recomp",
       "excerpt": "Twisted Metal: Black (USA, SCUS-97101) as a native PC port: static recompilation with PS2Recomp (no game data)",
       "image": "",
-      "publishedAt": "2026-11-08T00:53:13Z",
+      "publishedAt": "2026-11-08T01:19:52Z",
       "addedAt": "2026-11-07T18:00:02.232Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -5617,9 +5696,9 @@
         }
       ],
       "publishedAt": "2026-11-07T14:21:44.000Z",
-      "sourceId": "playground-announces",
-      "source": "Playground Анонсы",
-      "category": "announces",
+      "sourceId": "playground-software",
+      "source": "Playground Софт",
+      "category": "software",
       "lang": "ru",
       "addedAt": "2026-11-07T17:59:57.981Z"
     },
@@ -6630,7 +6709,7 @@
       "url": "https://github.com/victor-takai/rogue-galaxy-recomp",
       "excerpt": "Rogue Galaxy (PS2) as a native Windows game: a static recompilation on PS2Recomp, built from your own disc.",
       "image": "",
-      "publishedAt": "2026-11-08T01:10:03Z",
+      "publishedAt": "2026-11-08T01:10:21Z",
       "addedAt": "2026-11-07T12:40:12.383Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -7199,8 +7278,8 @@
       "id": "1iqgq9j",
       "title": "Every Mac comes with an (undocumented) family member classifier",
       "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 587 # Comments: 342",
-      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 587\n\n# Comments: 342",
+      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 591 # Comments: 344",
+      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 591\n\n# Comments: 344",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T09:46:03.000Z",
@@ -11530,6 +11609,19 @@
       "lang": "en"
     },
     {
+      "id": "gh-1298591675",
+      "title": "Yokimitsuro/khdays-port: Experimental native PC runtime for Kingdom Hearts 358/2 Days, developed alongside the matching Nintendo DS decompilation. No copyrighted game data included.",
+      "url": "https://github.com/Yokimitsuro/khdays-port",
+      "excerpt": "Experimental native PC runtime for Kingdom Hearts 358/2 Days, developed alongside the matching Nintendo DS decompilation. No copyrighted game data included.",
+      "image": "",
+      "publishedAt": "2026-11-08T01:17:10Z",
+      "addedAt": "2026-11-07T06:02:59.034Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
       "id": "gh-1400563069",
       "title": "kirklandsig/halo2-decompiled: Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
       "url": "https://github.com/kirklandsig/halo2-decompiled",
@@ -11588,19 +11680,6 @@
       "excerpt": "A true 1:1 C++20 source decompliation and modernization of the original Little Fighter 2 (lf2.exe, version 1.9c / 2.0a, x86-32 MSVC++).",
       "image": "",
       "publishedAt": "2026-11-07T04:03:56Z",
-      "addedAt": "2026-11-07T06:02:59.034Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
-      "id": "gh-1298591675",
-      "title": "Yokimitsuro/khdays-port: Experimental native PC runtime for Kingdom Hearts 358/2 Days, developed alongside the matching Nintendo DS decompilation. No copyrighted game data included.",
-      "url": "https://github.com/Yokimitsuro/khdays-port",
-      "excerpt": "Experimental native PC runtime for Kingdom Hearts 358/2 Days, developed alongside the matching Nintendo DS decompilation. No copyrighted game data included.",
-      "image": "",
-      "publishedAt": "2026-11-06T23:46:24Z",
       "addedAt": "2026-11-07T06:02:59.034Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
