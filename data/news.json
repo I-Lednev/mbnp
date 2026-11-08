@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T05:40:24.591Z",
-  "tookMs": 15711,
+  "generatedAt": "2026-11-08T06:10:20.943Z",
+  "tookMs": 10542,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -26,24 +26,24 @@
   "counts": {
     "ai": 114,
     "games": 108,
-    "announces": 35,
+    "announces": 36,
     "mobile": 15,
-    "releases": 46,
+    "releases": 47,
     "rumors": 31,
     "software": 46,
     "science": 67,
-    "entertainment": 176,
-    "ports": 123,
+    "entertainment": 179,
+    "ports": 126,
     "pc": 54,
-    "consoles": 124,
+    "consoles": 125,
     "hardware": 47,
     "industry": 48,
-    "updates": 27,
+    "updates": 28,
     "aimods": 2,
     "aisoft": 53,
-    "cars": 130,
-    "war": 118,
-    "total": 1364
+    "cars": 132,
+    "war": 119,
+    "total": 1377
   },
   "sourceCount": 98,
   "sources": [
@@ -736,12 +736,6 @@
   ],
   "errors": [
     {
-      "source": "Nature",
-      "url": "https://www.nature.com/nature.rss",
-      "error": "ответ не похож на RSS/Atom",
-      "reused": 10
-    },
-    {
       "source": "r/emulation",
       "url": "https://www.reddit.com/r/emulation/new/.rss",
       "error": "HTTP 429",
@@ -759,6 +753,267 @@
     }
   ],
   "items": [
+    {
+      "id": "gh-1413086652",
+      "title": "mr-finster/vf1-recomp: Virtua Fighter (Sega Model 1, 1993) statically recompiled for Mac, Windows and Steam Deck: up to 6x, widescreen, smooth 120 fps. Bring your own vf.zip.",
+      "url": "https://github.com/mr-finster/vf1-recomp",
+      "excerpt": "Virtua Fighter (Sega Model 1, 1993) statically recompiled for Mac, Windows and Steam Deck: up to 6x, widescreen, smooth 120 fps. Bring your own vf.zip.",
+      "image": "",
+      "publishedAt": "2026-11-08T05:48:43Z",
+      "addedAt": "2026-11-08T06:10:15.656Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1413086989",
+      "title": "mr-finster/vf2-recomp: Virtua Fighter 2 (Sega Model 2, 1994) for Mac, Windows and Steam Deck: the arcade's i960 program recompiled to native code, up to 6x, widescreen, smooth 120 fps. Bring your own vf2.zip.",
+      "url": "https://github.com/mr-finster/vf2-recomp",
+      "excerpt": "Virtua Fighter 2 (Sega Model 2, 1994) for Mac, Windows and Steam Deck: the arcade's i960 program recompiled to native code, up to 6x, widescreen, smooth 120 fps. Bring your own vf2.zip.",
+      "image": "",
+      "publishedAt": "2026-11-08T05:48:28Z",
+      "addedAt": "2026-11-08T06:10:15.656Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1424943417",
+      "title": "mr-finster/vf3-recomp: Virtua Fighter 3 (Sega Model 3, 1996) for Mac, Windows and Steam Deck: the arcade's PowerPC program recompiled to native code, up to 6x, widescreen, smooth 120 fps. Bring your own vf3.zip.",
+      "url": "https://github.com/mr-finster/vf3-recomp",
+      "excerpt": "Virtua Fighter 3 (Sega Model 3, 1996) for Mac, Windows and Steam Deck: the arcade's PowerPC program recompiled to native code, up to 6x, widescreen, smooth 120 fps. Bring your own vf3.zip.",
+      "image": "",
+      "publishedAt": "2026-11-08T05:48:12Z",
+      "addedAt": "2026-11-08T06:10:15.656Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "1390ngl",
+      "title": "Donald Trump’s power is on the wane. What next for Russia, Israel – and the rest of us? | Simon Tisdall",
+      "url": "https://www.theguardian.com/commentisfree/2026/nov/08/donald-trump-power-russia-israel-us-president",
+      "excerpt": "With the global tide turning against him, the US president’s lame duck status could still aggravate old tensions and spark new explosions It was a victory for the world, too. People in the many countries that suffered pain, loss and cruel indignities at the…",
+      "content": "With the global tide turning against him, the US president’s lame duck status could still aggravate old tensions and spark new explosions\n\nIt was a victory for the world, too. People in the many countries that suffered pain, loss and cruel indignities at the hands of Donald Trump over the past two chaotic, fearful years celebrated a moment of glorious, shared redemption. The monster, like others of his kind, still lurks in his gilded White House lair; far-right authoritarianism still casts a dark shadow over many nations. But the power of this most destructive of presidents is shattered , his malignant spell broken. The triumphant roar of US midterm voters was a rallying cry of democratic defiance that, echoing the American revolution of 250 years ago, reverberated around the globe.\n\nFor Iranians, Trump’s electoral humiliation raised hopes, perhaps misplaced, that his murderous war of choice against Tehran’s oppressive regime may soon cease . In Israel, many among the majority who voted for change last week will welcome the humbling of the foremost supporter of Benjamin Netanyahu’s as-yet-unvanquished extremist coalition. Ukrainians voiced optimism that a Democratic-controlled Congress will curb the sickening appeasement of Vladimir Putin’s Russia. In Europe, the beginning of the end of the Trump era brought a sense of relief – and hope that toxic transatlantic relations can be drained of Maga poison.\n\n..",
+      "image": "https://i.guim.co.uk/img/media/89b89ba0a50751e84783041572033fc1691753e0/186_0_5683_4547/master/5683.jpg?width=140&quality=85&auto=format&fit=max&s=d3ac829a6b2a9b21114d0dbc226d8644",
+      "images": [
+        {
+          "url": "https://i.guim.co.uk/img/media/89b89ba0a50751e84783041572033fc1691753e0/186_0_5683_4547/master/5683.jpg?width=140&quality=85&auto=format&fit=max&s=d3ac829a6b2a9b21114d0dbc226d8644",
+          "alt": ""
+        },
+        {
+          "url": "https://i.guim.co.uk/img/media/89b89ba0a50751e84783041572033fc1691753e0/186_0_5683_4547/master/5683.jpg?width=460&quality=85&auto=format&fit=max&s=99cfab245b58685aba728c753f5a1fe7",
+          "alt": ""
+        },
+        {
+          "url": "https://i.guim.co.uk/img/media/89b89ba0a50751e84783041572033fc1691753e0/186_0_5683_4547/master/5683.jpg?width=700&quality=85&auto=format&fit=max&s=33aef2c5b8de858f90ac971e17cd0277",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T06:00:32.000Z",
+      "sourceId": "guardian-ukraine",
+      "source": "The Guardian",
+      "category": "war",
+      "lang": "en",
+      "addedAt": "2026-11-08T06:10:10.401Z"
+    },
+    {
+      "id": "x5lgnv",
+      "title": "Обзор: «Мы все ошибались насчёт Сергея Зверева!»",
+      "url": "https://www.intermedia.ru/news/407887",
+      "excerpt": "2026, Resonance.Ведущий канала Resonance решил высказаться в защиту Сергея Зверева. Звезда в шоке! От кого и почему нужно защищать поющего...",
+      "content": "2026, Resonance.Ведущий канала Resonance решил высказаться в защиту Сергея Зверева. Звезда в шоке! От кого и почему нужно защищать поющего...",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-08T06:00:00.000Z",
+      "sourceId": "intermedia",
+      "source": "InterMedia",
+      "category": "entertainment",
+      "lang": "ru",
+      "addedAt": "2026-11-08T06:10:10.401Z"
+    },
+    {
+      "id": "1pm2iyw",
+      "title": "За 6 лет потратила на ремонт 10 000 рублей: отзыв владелицы Volkswagen Polo",
+      "url": "https://5koleso.ru/content/za-6-let-potratila-na-remont-10-000-rublej-otzyv-vladeliczy-volkswagen-polo/",
+      "excerpt": "Владелец: Ольга Клочкова Профессия: педагог Возраст: 42 года Стаж вождения: 17 лет Предыдущий VW Polo за время эксплуатации не доставил серьезных проблем. Поэтому решила не экспериментировать. Возможно, кому-то интереснее каждый раз менять марку, сравнивать…",
+      "content": "Владелец: Ольга Клочкова\nПрофессия: педагог\nВозраст: 42 года\nСтаж вождения: 17 лет\n\nПредыдущий VW Polo за время эксплуатации не доставил серьезных проблем. Поэтому решила не экспериментировать. Возможно, кому-то интереснее каждый раз менять марку, сравнивать разные машины, но мне хотелось понятный автомобиль на каждый день.\n\nАвтомобиль купила новым в июле 2020 года у официального дилера в Москве. Цена составила 1 055 800 рублей. Покупку оформляла в кредит с использованием государственной субсидии, благодаря чему процентная ставка получилась ниже обычной. Для меня это было важным условием: всю сумму сразу отдавать не хотелось, а откладывать покупку тоже не видела смысла.\n\nОсновной сценарий использования очень простой. По утрам вожу дочь на фигурное катание, потом еду на работу или по делам. Большинство маршрутов проходит по району: дом, каток, школа, магазин, работа. Расстояния небольшие, зато остановок и поездок за день бывает много.\n\nПо выходным ездим на дачу, а иногда отправляемся в отпуск на машине. Дважды ездили в Ростовскую область. Именно там я окончательно поняла, что Polo вполне подходит для дальних поездок, хотя назвать его особенно комфортным туристическим автомобилем все-таки не могу.\n\nСейчас пробег составляет 48 000 километров. Для машины 2020 года это не слишком много, но она используется регулярно. Просто основная часть пробега складывается из коротких городских маршрутов.\n\nВ городе Polo удобен прежде всего размерами. Он легко помещается во дворах и на небольших парковках, габариты понятны почти сразу. После предыдущего поколения привыкать долго не пришлось, хотя нынешняя машина ощущается просторнее и современнее.\n\nОтдельно нравится кузов лифтбек. Внешне автомобиль выглядит почти как седан, но крышка багажника поднимается вместе со стеклом. Когда нужно положить крупные сумки, чемодан или вещи для дачи, это намного удобнее. Проем широкий, не приходится проталкивать багаж через узкую щель.\n\nСалон без особых изысков. Пластик жесткий, некоторые детали выглядят довольно просто, но за шесть лет ничего критично не затерлось и не развалилось. Для семейной машины практичность важнее дорогой отделки.\n\nПосадка для меня удобная, хотя после нескольких часов в дороге все равно хочется остановиться и размяться. Кнопки расположены понятно, приборы хорошо читаются. Не нужно каждый раз искать нужную функцию в сложном меню.\n\nА вот мультимедиа иногда живет своей жизнью. Бывает, что после запуска экран включается не сразу или телефон не подключается с первого раза. Пару раз пропадал звук, помогало выключить и снова включить систему. Это не поломка, из-за которой нужно ехать в сервис, но периодически раздражает.\n\nОбзорность нормальная. Посадка ниже, чем в кроссовере, зато сам автомобиль хорошо чувствуется. На парковке особых проблем нет.\n\nСвет у машины заметно лучше, чем был на моем предыдущем Polo. В темное время суток дорога видна нормально, на неосвещенной трассе не приходится всматриваться в темноту перед капотом. Для меня это важно, потому что зимой дочь нужно возить на тренировки рано утром, когда на улице еще темно.\n\nНа трассе Polo держит дорогу уверенно. На скорости около 100–110 км/ч ехать спокойно, машину не приходится постоянно ловить рулем. При обгоне, конечно, нужно заранее оценивать расстояние. Это не спортивный автомобиль, особенно когда в салоне пассажиры, а багажник загружен вещами.\n\nШумоизоляция средняя. После 100 км/ч хорошо слышны шины, ветер и дорога. Во время поездки в Ростовскую область это ощущалось особенно сильно: через несколько часов постоянный шум начинает утомлять. Разговаривать и слушать музыку можно, но громкость приходится увеличивать.\n\nПодвеска оставила смешанные впечатления. На обычной дороге все нормально, машина не раскачивается даже с полным багажником. Но на мелких частых неровностях, когда асфальт напоминает стиральную доску, Polo едет жестко и как будто спотыкается на каждом участке. Крупные ямы тоже лучше не проверять на прочность.\n\nДо дачи добираемся без проблем, поскольку дорога там более-менее нормальная. Но дорожный просвет небольшой. В глубокую колею или на раскисшую грунтовку я бы не поехала — это обычный городской автомобиль, а не кроссовер.\n\nРасход топлива меня устраивает. В городе он заметно зависит от пробок, прогревов и коротких поездок. Иногда двигатель только успевает прогреться, а мы уже приехали. На трассе расход существенно ниже, поэтому дальние поездки не становятся слишком дорогими по бензину. По борткомпьютеру в среднем 8,1 литра на сотню.\n\nПлановое техническое обслуживание прохожу каждый год. В среднем одно ТО обходится примерно в 15 000 рублей. За все время получилось около 90 000 рублей. Обычно меняют масло, фильтры, проверяют тормоза, подвеску и остальные основные узлы.\n\nНа пробеге около 45 000 км появились посторонние звуки на небольших неровностях. В сервисе сказали, что пора менять стойки стабилизаторов. Работа вместе с деталями обошлась примерно в 10 000 рублей. После замены стук пропал.\n\nБольше заметных ремонтов не было. Несколько раз меняла щетки стеклоочистителя, однажды пришлось заменить батарейку в ключе, но это обычные мелочи, которые ремонтом автомобиля я не считаю. Двигатель и коробка передач работают без нареканий, масло между обслуживаниями доливать не приходилось.\n\nТормозов для моего спокойного стиля езды хватает. При полной загрузке машина, конечно, тормозит чуть тяжелее, это особенно чувствовалось в дальней поездке. Поэтому дистанцию стараюсь держать больше и перед поворотами заранее снижать скорость.\n\nИз недостатков могу отметить жесткую работу подвески на плохом асфальте, шум на трассе, периодические зависания мультимедиа и небольшой дорожный просвет. Салон тоже явно сделан с экономией: дорогих материалов здесь нет.\n\nНо Polo и не покупался как премиальный автомобиль. Мне нужна была машина, на которой можно утром отвезти ребенка на тренировку, потом поехать на работу, вечером заехать в магазин, а в выходные загрузить вещи и отправиться на дачу.\n\nЗа 48 000 км он с этими задачами справился. Автомобиль не идеальный и временами раздражает мелочами, но серьезных неприятностей не доставляет. После опыта с двумя поколениями Polo могу сказать, что это по-прежнему понятная и достаточно надежная семейная машина, только нынешняя версия стала просторнее и практичнее благодаря кузову лифтбек.\n\nЦена на момент покупки: 1 055 800 р.\nГод выпуска/приобретения: 2020 / 2020\nПробег общий/личный: 48 000 / 48 000 км\nЗатраты на ТО/ремонт: 90 000 / 10 000 р.",
+      "image": "https://5koleso.ru/wp-content/uploads/2026/10/photo_2026-08-03_15-56-12.jpg",
+      "images": [
+        {
+          "url": "https://5koleso.ru/wp-content/uploads/2026/10/photo_2026-08-03_15-56-12.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://5koleso.ru/wp-content/uploads/2026/10/photo_2026-08-03_15-56-09.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://5koleso.ru/wp-content/uploads/2026/10/photo_2026-08-03_15-56-08.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://5koleso.ru/wp-content/uploads/2026/10/photo_2026-08-03_15-56-07.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://5koleso.ru/wp-content/uploads/2026/10/photo_2026-08-03_15-56-11.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://5koleso.ru/wp-content/uploads/2026/10/photo_2026-08-03_15-56-14.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T06:00:00.000Z",
+      "sourceId": "5koleso",
+      "source": "5 колесо",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-08T06:10:10.401Z"
+    },
+    {
+      "id": "tva7tp",
+      "title": "‘SNL’ Weekend Update Brutally Roasts Elon Musk Over ‘Epic’ Midterms Defeat",
+      "url": "https://variety.com/2026/tv/news/snl-weekend-update-elon-musk-midterms-election-1236942283/",
+      "excerpt": "An unhinged “Elon Musk” hit the “Saturday Night Live” Weekend Update desk this week to address the outcome of this week’s midterm elections — and Musk, as played by “SNL” featured player Jeremy Culhane, didn’t quite know how to address it. The real Musk, of…",
+      "content": "An unhinged “Elon Musk” hit the “Saturday Night Live” Weekend Update desk this week to address the outcome of this week’s midterm elections — and Musk, as played by “SNL” featured player Jeremy Culhane, didn’t quite know how to address it. The real Musk, of course, spent nearly $500 million on Republican candidates, especially in […]",
+      "image": "https://variety.com/wp-content/uploads/2026/11/Screenshot-2026-11-08-at-12.37.27-AM.png",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/Screenshot-2026-11-08-at-12.37.27-AM.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T05:57:06.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T06:10:10.401Z"
+    },
+    {
+      "id": "urrxbt",
+      "title": "Druski Embodies Elizabeth Holmes in ‘You Can See Everything’ Spoof on ‘SNL’",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/druski-elizabeth-holmes-snl-you-can-see-everything-skit-1236750276/",
+      "excerpt": "The comedian gave his own take on Nathan Fielder and Lance Oppenheim's documentary, instead entitled 'Dru Can See Everything.'",
+      "content": "The comedian gave his own take on Nathan Fielder and Lance Oppenheim's documentary, instead entitled 'Dru Can See Everything.'",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-08T05:51:44.000Z",
+      "sourceId": "hollywoodreporter",
+      "source": "The Hollywood Reporter",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T06:10:10.401Z"
+    },
+    {
+      "id": "1pll0us",
+      "title": "Хакер AOBA взломал Denuvo в обновлённой версии PES 2017 спустя десять лет после релиза CPY",
+      "url": "https://www.playground.ru/pro_evolution_soccer_2017/news/haker_aoba_vzlomal_denuvo_v_obnovlyonnoj_versii_pes_2017_spustya_desyat_let_posle_reliza_cpy-1888749",
+      "excerpt": "Неизвестный ранее хакер под псевдонимом AOBA объявил о взломе антипиратской защиты Denuvo в футбольном симуляторе Pro Evolution Soccer 2017 от Konami. Речь идёт о версии 1.04.01, которая значительно новее сборки, взломанной группой CPY ещё в...",
+      "content": "Неизвестный ранее хакер под псевдонимом AOBA объявил о взломе антипиратской защиты Denuvo в футбольном симуляторе Pro Evolution Soccer 2017 от Konami. Речь идёт о версии 1.04.01, которая значительно новее сборки, взломанной группой CPY ещё в...",
+      "image": "https://i.playground.ru/e/3KbBJiY0zoN6BwVuZjedRw.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/3KbBJiY0zoN6BwVuZjedRw.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T05:48:08.000Z",
+      "sourceId": "playground-announces",
+      "source": "Playground Анонсы",
+      "category": "announces",
+      "lang": "ru",
+      "addedAt": "2026-11-08T06:10:10.401Z"
+    },
+    {
+      "id": "1jlhf4e",
+      "title": "Jeep представил проект ультимативного внедорожного пикапа на базе Wrangler",
+      "url": "https://www.zr.ru/content/news/988180-oranzhevyj-scrambler-srt-jeep/",
+      "excerpt": "Jeep представил концепт Wrangler Scrambler SRT с V8 и независимой подвеской",
+      "content": "Jeep представил концепт Wrangler Scrambler SRT с V8 и независимой подвеской",
+      "image": "https://www.zr.ru/_ah/img/07PnG9FA8k3UebqdygA26Q",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/07PnG9FA8k3UebqdygA26Q",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T05:45:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-08T06:10:10.401Z"
+    },
+    {
+      "id": "126xk0u",
+      "title": "В GTA 6 будет 55 трофеев на релизе - все они предназначены для одиночного режима",
+      "url": "https://www.playground.ru/gta_6/news/v_gta_6_budet_55_trofeev_na_relize_vse_oni_prednaznacheny_dlya_odinochnogo_rezhima-1888746",
+      "excerpt": "Инсайдеры и датамайнеры обнаружили данные о системе достижений для грядущего хит-блокбастера Grand Theft Auto VI. Первым информацию в приложении Xbox заметил пользователь IbocularVI, а авторитетные источники, включая TexFunz2 и PlaystationSize, подтвердили…",
+      "content": "Инсайдеры и датамайнеры обнаружили данные о системе достижений для грядущего хит-блокбастера Grand Theft Auto VI. Первым информацию в приложении Xbox заметил пользователь IbocularVI, а авторитетные источники, включая TexFunz2 и PlaystationSize, подтвердили, что на релизе игра...",
+      "image": "https://i.playground.ru/e/LH1rVo1tA7xxTvbBXz1-Yw.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/LH1rVo1tA7xxTvbBXz1-Yw.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T05:42:24.000Z",
+      "sourceId": "playground-releases",
+      "source": "Playground Релизы",
+      "category": "releases",
+      "lang": "ru",
+      "addedAt": "2026-11-08T06:10:10.401Z"
+    },
+    {
+      "id": "1wi10ty",
+      "title": "FX завершил съемочный процесс второго сезона фантастического шоу \"Чужой: Земля\"",
+      "url": "https://www.playground.ru/misc/news/fx_zavershil_semochnyj_protsess_vtorogo_sezona_fantasticheskogo_shou_chuzhoj_zemlya-1888743",
+      "excerpt": "Второй сезон научно-фантастического сериала \"Чужой: Земля\" (Alien: Earth) официально ушел на стадию постпродакшна. О завершении съемочного процесса сообщил актер Бабу Сисей, исполняющий роль киборга Морроу. Он опубликовал в своих социальных сетях фотографию…",
+      "content": "Второй сезон научно-фантастического сериала \"Чужой: Земля\" (Alien: Earth) официально ушел на стадию постпродакшна. О завершении съемочного процесса сообщил актер Бабу Сисей, исполняющий роль киборга Морроу. Он опубликовал в своих социальных сетях фотографию со съемочной площадки...",
+      "image": "https://i.playground.ru/e/WS0dryO8fh1jirKYb0O_AQ.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/WS0dryO8fh1jirKYb0O_AQ.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T05:26:38.000Z",
+      "sourceId": "playground-updates",
+      "source": "Playground Обновления",
+      "category": "updates",
+      "lang": "ru",
+      "addedAt": "2026-11-08T06:10:10.401Z"
+    },
+    {
+      "id": "1d8we3o",
+      "title": "We’re still missing these Nintendo Switch 2 Editions",
+      "url": "https://nintendoeverything.com/were-still-missing-these-nintendo-switch-2-editions/",
+      "excerpt": "We’re going over a bunch of Switch games that have yet to receive Nintendo Switch 2 Editions. Nintendo has remained fairly consistent with its Nintendo Switch 2 Editions this year. The lineup includes Super Mario Bros. Wonder in March, Xenoblade Chronicles…",
+      "content": "We’re going over a bunch of Switch games that have yet to receive Nintendo Switch 2 Editions. Nintendo has remained fairly consistent with its Nintendo Switch 2 Editions this year. The lineup includes Super Mario Bros. Wonder in March, Xenoblade Chronicles: Definitive Edition in June, Xenoblade Chronicles 2 in July, Pikmin 4 in November, and Xenoblade Chronicles 3 in December....\n\nNintendo Everything .",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Switch-2-Editions-we-need-150x84.jpg",
+      "images": [
+        {
+          "url": "https://nintendoeverything.com/wp-content/uploads/Switch-2-Editions-we-need-150x84.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://nintendoeverything.com/wp-content/uploads/Switch-2-Editions-we-need.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T05:00:32.000Z",
+      "sourceId": "nintendoeverything",
+      "source": "Nintendo Everything",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-08T06:10:10.401Z"
+    },
     {
       "id": "gh-1431550875",
       "title": "Newbie1337x/ProvingGroundRecomp: Native PC port of Tony Hawk's Proving Ground, statically recompiled from the Xbox 360 version (bring your own game)",
@@ -950,7 +1205,7 @@
     },
     {
       "id": "1wch34j",
-      "title": "Druski Does Elizabeth Holmes Whiteface In ‘Dru Can See Everything’ Sketch During ‘SNL’ Debut",
+      "title": "Druski Serves Elizabeth Holmes Whiteface In ‘Dru Can See Everything’ Sketch During ‘SNL’ Debut",
       "url": "https://deadline.com/2026/11/druski-elizabeth-holmes-whiteface-dru-can-see-everything-snl-1237216571/",
       "excerpt": "Shortly after joking that he couldn’t promise Saturday Night Live he’d do “no whiteface,” Druski channeled Elizabeth Holmes. On Saturday’s episode of the NBC sketch comedy show, the content creator quickly delivered one of the funniest sketches of the season…",
       "content": "Shortly after joking that he couldn’t promise Saturday Night Live he’d do “no whiteface,” Druski channeled Elizabeth Holmes. On Saturday’s episode of the NBC sketch comedy show, the content creator quickly delivered one of the funniest sketches of the season as he played himself in the sketch “Dru Can See Everything,” which imagines Holmes (Jane […]",
@@ -966,6 +1221,14 @@
         },
         {
           "url": "https://deadline.com/wp-content/uploads/2026/11/Screenshot-2026-11-07-at-9.04.16-PM.png?w=1024&h=1000",
+          "alt": ""
+        },
+        {
+          "url": "https://deadline.com/wp-content/uploads/2026/11/Screenshot-2026-11-07-at-9.42.06-PM-1.png?w=1024&h=1000",
+          "alt": ""
+        },
+        {
+          "url": "https://deadline.com/wp-content/uploads/2026/11/Screenshot-2026-11-07-at-10.03.46-PM.png?w=1024&h=1000",
           "alt": ""
         }
       ],
@@ -1018,7 +1281,7 @@
     },
     {
       "id": "1v823c9",
-      "title": "Emma Stone Crashes Druski’s ‘SNL’ Monologue in Hilarious Fashion",
+      "title": "Emma Stone Ambushes Druski’s ‘SNL’ Monologue in Hilarious Fashion",
       "url": "https://variety.com/2026/tv/news/emma-stone-druski-snl-monologue-the-catch-1236942272/",
       "excerpt": "When Druski was announced as a future host of “Saturday Night Live,” it was its most interesting move in quite some time. The sketch-comedy show had tapped its first exclusively digital creator (who hadn’t experienced crossover success, a la Issa Rae or…",
       "content": "When Druski was announced as a future host of “Saturday Night Live,” it was its most interesting move in quite some time. The sketch-comedy show had tapped its first exclusively digital creator (who hadn’t experienced crossover success, a la Issa Rae or Quinta Brinson) to serve as its master of ceremonies, marking its first major […]",
@@ -1128,8 +1391,8 @@
       "id": "1jao8qz",
       "title": "James Talarico Crashes ‘SNL’ Cold Open: ‘I’m the Guy Who’s Been Texting You Every Day Asking for $5’",
       "url": "https://variety.com/2026/tv/news/james-talarico-saturday-night-live-snl-cold-open-election-1236942257/",
-      "excerpt": "Newly elected Texas Sen. James Talarico crashed this week’s “Saturday Night Live” cold open — in order to ask the question on everyone’s mind: How many more of these “Donald-Trump-freezes-the-action-to-ramble” cold opens is “SNL” going to do? Responded…",
-      "content": "Newly elected Texas Sen. James Talarico crashed this week’s “Saturday Night Live” cold open — in order to ask the question on everyone’s mind: How many more of these “Donald-Trump-freezes-the-action-to-ramble” cold opens is “SNL” going to do? Responded “Donald Trump” (James Austin Johnson): “Infinity!” Talarico popped up near the end of the cold open to […]",
+      "excerpt": "Newly elected Texas Sen. James Talarico crashed this week’s “Saturday Night Live” cold open in order to ask the question on everyone’s mind: How many more of these “Donald-Trump-freezes-the-action-to-ramble” cold opens is “SNL” going to do? Responded “Donald…",
+      "content": "Newly elected Texas Sen. James Talarico crashed this week’s “Saturday Night Live” cold open in order to ask the question on everyone’s mind: How many more of these “Donald-Trump-freezes-the-action-to-ramble” cold opens is “SNL” going to do? Responded “Donald Trump” (James Austin Johnson): “Infinity!” Talarico popped up near the end of the cold open to cheers […]",
       "image": "https://variety.com/wp-content/uploads/2026/11/Screenshot-2026-11-07-at-11.36.08-PM.png",
       "images": [
         {
@@ -1161,14 +1424,14 @@
     },
     {
       "id": "e2h8k0",
-      "title": "James Talarico Stuns ‘SNL’ With Post-Midterm Election Win Cameo & “Trump Freezers” Swipe",
+      "title": "James Talarico Stuns ‘SNL’ With Post-Midterms Cameo & “Trump Freezers” Swipe",
       "url": "https://deadline.com/2026/11/saturday-night-live-james-talarico-cold-open-1237216532/",
-      "excerpt": "Out of a week that saw MAGA’s political fangs knocked out by a big blue sock to jaw in the midterms, Saturday Night Live tonight leaped into the ring and started swinging from the cold open get-go. In fact, they went Texas BBQ hot with newly elected James…",
-      "content": "Out of a week that saw MAGA’s political fangs knocked out by a big blue sock to jaw in the midterms, Saturday Night Live tonight leaped into the ring and started swinging from the cold open get-go. In fact, they went Texas BBQ hot with newly elected James Talarico showing up. Taking another Donald Trump […]",
-      "image": "https://deadline.com/wp-content/uploads/2026/11/snl-talarico.jpg",
+      "excerpt": "After of a week that saw MAGA’s political fangs knocked out by a big blue sock to jaw in the midterms, Saturday Night Live tonight leaped into the ring and started swinging from the cold open get-go. In fact, they went Texas BBQ hot with newly elected James…",
+      "content": "After of a week that saw MAGA’s political fangs knocked out by a big blue sock to jaw in the midterms, Saturday Night Live tonight leaped into the ring and started swinging from the cold open get-go. In fact, they went Texas BBQ hot with newly elected James Talarico showing up. Taking another Donald Trump […]",
+      "image": "https://deadline.com/wp-content/uploads/2026/11/Screenshot-2026-11-07-at-9.35.53-PM-1.png",
       "images": [
         {
-          "url": "https://deadline.com/wp-content/uploads/2026/11/snl-talarico.jpg",
+          "url": "https://deadline.com/wp-content/uploads/2026/11/Screenshot-2026-11-07-at-9.35.53-PM-1.png",
           "alt": ""
         },
         {
@@ -2397,8 +2660,8 @@
       "id": "zof7yv",
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 285 # Comments: 199",
-      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 285\n\n# Comments: 199",
+      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 301 # Comments: 207",
+      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 301\n\n# Comments: 207",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T20:45:32.000Z",
@@ -2554,7 +2817,7 @@
       "url": "https://github.com/vyanhursky/DefJamFFNY-recomp",
       "excerpt": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
       "image": "",
-      "publishedAt": "2026-11-08T04:45:17Z",
+      "publishedAt": "2026-11-08T06:02:50Z",
       "addedAt": "2026-11-07T23:10:10.266Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -4116,8 +4379,8 @@
       "id": "1fzmty1",
       "title": "The end of Microsoft Research's AI Frontiers group",
       "url": "https://hunch.net/?p=13764006",
-      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 430 # Comments: 255",
-      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 430\n\n# Comments: 255",
+      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 432 # Comments: 258",
+      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 432\n\n# Comments: 258",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T18:02:17.000Z",
@@ -4203,8 +4466,8 @@
       "id": "6a6jp5",
       "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
       "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 252 # Comments: 72",
-      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 252\n\n# Comments: 72",
+      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 259 # Comments: 73",
+      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 259\n\n# Comments: 73",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T17:19:00.000Z",
@@ -8407,8 +8670,8 @@
       "id": "1iqgq9j",
       "title": "Every Mac comes with an (undocumented) family member classifier",
       "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 661 # Comments: 370",
-      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 661\n\n# Comments: 370",
+      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 667 # Comments: 372",
+      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 667\n\n# Comments: 372",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T09:46:03.000Z",
@@ -10964,7 +11227,7 @@
       "url": "https://github.com/Jstar269/Nakagawa-Recomp",
       "excerpt": "Play PSP games you own as native Windows programs. A static recompiler: add your own disc, build, play. No game data included.",
       "image": "",
-      "publishedAt": "2026-11-08T02:19:39Z",
+      "publishedAt": "2026-11-08T06:09:01Z",
       "addedAt": "2026-11-07T06:50:19.174Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -11528,6 +11791,19 @@
       "addedAt": "2026-11-07T06:16:14.418Z"
     },
     {
+      "id": "gh-1437594480",
+      "title": "alfaiotadev/recomp.party: Tracker for playable static recompilations and source ports of classic games",
+      "url": "https://github.com/alfaiotadev/recomp.party",
+      "excerpt": "Tracker for playable static recompilations and source ports of classic games",
+      "image": "",
+      "publishedAt": "2026-11-08T06:08:17Z",
+      "addedAt": "2026-11-07T06:09:06.147Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
       "id": "gh-1441366661",
       "title": "nekomancer01/DarkSoulsPS2: Homebrew PS2 port of Dark Souls Remastered: C/VU1 engine plus exporters that read your own copy of the game (no game data included)",
       "url": "https://github.com/nekomancer01/DarkSoulsPS2",
@@ -11560,19 +11836,6 @@
       "excerpt": "Native PC port of Top Gear 2 (Sega Genesis) via static recompilation: widescreen, true 60 fps, music+SFX together. Bring your own ROM.",
       "image": "",
       "publishedAt": "2026-11-07T13:23:47Z",
-      "addedAt": "2026-11-07T06:09:06.147Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
-      "id": "gh-1437594480",
-      "title": "alfaiotadev/recomp.party: Tracker for playable static recompilations and source ports of classic games",
-      "url": "https://github.com/alfaiotadev/recomp.party",
-      "excerpt": "Tracker for playable static recompilations and source ports of classic games",
-      "image": "",
-      "publishedAt": "2026-11-07T13:07:38Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -12847,7 +13110,7 @@
       "url": "https://github.com/Lucas-blip-png/dkb-pc-recomp",
       "excerpt": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. The 3D tutorial renders; not playable yet. No game files included.",
       "image": "",
-      "publishedAt": "2026-11-08T05:29:56Z",
+      "publishedAt": "2026-11-08T06:03:25Z",
       "addedAt": "2026-11-07T06:02:57.825Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
