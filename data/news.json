@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T11:40:30.334Z",
-  "tookMs": 11204,
+  "generatedAt": "2026-11-08T12:10:24.815Z",
+  "tookMs": 8571,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -24,26 +24,26 @@
     "war": "Война"
   },
   "counts": {
-    "ai": 122,
-    "games": 116,
-    "announces": 40,
+    "ai": 125,
+    "games": 117,
+    "announces": 41,
     "mobile": 15,
-    "releases": 53,
-    "rumors": 32,
+    "releases": 54,
+    "rumors": 33,
     "software": 49,
-    "science": 72,
+    "science": 74,
     "entertainment": 195,
-    "ports": 138,
+    "ports": 139,
     "pc": 54,
-    "consoles": 134,
-    "hardware": 51,
-    "industry": 49,
+    "consoles": 136,
+    "hardware": 52,
+    "industry": 50,
     "updates": 28,
     "aimods": 2,
     "aisoft": 54,
-    "cars": 146,
-    "war": 134,
-    "total": 1484
+    "cars": 147,
+    "war": 135,
+    "total": 1500
   },
   "sourceCount": 98,
   "sources": [
@@ -754,6 +754,335 @@
   ],
   "items": [
     {
+      "id": "gh-1435370926",
+      "title": "IvaYar/dead-space-3ds-port: Experimental native port of Dead Space Mobile (2011) to New Nintendo 3DS, using the original ARM game engine.",
+      "url": "https://github.com/IvaYar/dead-space-3ds-port",
+      "excerpt": "Experimental native port of Dead Space Mobile (2011) to New Nintendo 3DS, using the original ARM game engine.",
+      "image": "",
+      "publishedAt": "2026-11-08T11:51:34Z",
+      "addedAt": "2026-11-08T12:10:19.388Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "ywj0g4",
+      "title": "Как я переписывал свою CRM без программистов",
+      "url": "https://habr.com/ru/articles/1105104/",
+      "excerpt": "В моей CRM 6 сервисов вокруг одной базы команда программистов строила несколько лет. Базы на SQLite рядом с ней, скрипты, тесты и обслуживание дописывал уже Claude Code. Сейчас всю эту работу, от разбора чужого кода до новых доработок, он может делать сам…",
+      "content": "В моей CRM 6 сервисов вокруг одной базы команда программистов строила несколько лет. Базы на SQLite рядом с ней, скрипты, тесты и обслуживание дописывал уже Claude Code. Сейчас всю эту работу, от разбора чужого кода до новых доработок, он может делать сам.\n\nЧитать далее",
+      "image": "https://habrastorage.org/extt/a3/c1/30/a3c130582209a0701ab7f98e49b7e2c8.png",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/a3/c1/30/a3c130582209a0701ab7f98e49b7e2c8.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T12:08:36.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-08T12:10:16.244Z"
+    },
+    {
+      "id": "belrap",
+      "title": "Разработчики AION 2 анонсировали масштабные планы: дома, рыбалка, мореплавание, битвы фракций и многое другое",
+      "url": "https://www.playground.ru/aion_2/news/razrabotchiki_aion_2_anonsirovali_masshtabnye_plany_doma_rybalka_moreplavanie_bitvy_fraktsij_i_mnogoe_drugoe-1888821",
+      "excerpt": "На официальной корейской презентации, приуроченной к первой годовщине AION 2, разработчики NCSOFT представили ближайшие обновления и долгосрочные планы развития игры. Стрим прошёл 8 ноября 2026 года. Вот ключевые моменты, которые уже подтверждены: Одно из…",
+      "content": "На официальной корейской презентации, приуроченной к первой годовщине AION 2, разработчики NCSOFT представили ближайшие обновления и долгосрочные планы развития игры. Стрим прошёл 8 ноября 2026 года. Вот ключевые моменты, которые уже подтверждены: Одно из самых...",
+      "image": "https://i.playground.ru/e/dWimhs3BPoneqMKgBT4nmg.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/dWimhs3BPoneqMKgBT4nmg.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T12:08:23.000Z",
+      "sourceId": "playground-announces",
+      "source": "Playground Анонсы",
+      "category": "announces",
+      "lang": "ru",
+      "addedAt": "2026-11-08T12:10:16.244Z"
+    },
+    {
+      "id": "1hznesr",
+      "title": "Как настроить ИИ-агентов в OpenCode со своим провайдером",
+      "url": "https://habr.com/ru/companies/bothub/articles/1105102/",
+      "excerpt": "Если вы в курсе новостей последних трёх лет, то наверняка слышали о таком термине, как ИИ-агент. Даже больше — вы могли использовать или хотя бы знать о таких ИИ-агентных системах, как Claude Code или Codex. Первое время они кажутся просто маркетингом и…",
+      "content": "Если вы в курсе новостей последних трёх лет, то наверняка слышали о таком термине, как ИИ-агент. Даже больше — вы могли использовать или хотя бы знать о таких ИИ-агентных системах, как Claude Code или Codex.\n\nПервое время они кажутся просто маркетингом и попыткой оправдать ИИ-пузырь — зачем строить какую-то абстрактную структуру, платить за токены, настраивать агентов и субагентов, если можно идти по стандартному сценарию использования ИИ-чата: открыть сам чат, вставить текст, сформулировать промпт и получить выхлоп. Упростило нам жизнь? Безусловно! Но это быстро упирается в некий потолок. Модель — это просто модель, она не знает ни контекст, ни работает с вашим проектом напрямую. А вот ИИ-агент — уже целая система, ведь это не просто LLM, а LLM + harness.\n\nИ вот беда — Claude Code и Codex закрытые, проприетарные и только для их моделей. Как раз тут и приходит OpenCode — open-source harness-система, где модель-агент может читать файлы, запускать тесты, вызывать другие модели, передавать работу субагентам, подключать MCP, скиллы и плагины. А главное — он не привязан к одному вендору. Можно использовать хоть официальные, хоть сторонние провайдеры и вызывать какие угодно доступные модели, хоть GLM 5.3, хоть Claude Opus 5.5.\n\nВ этой статье я пройдусь по основам создания ИИ-агентов в OpenCode с подключением OpenAI-совместимого шлюза.\n\nЧитать далее",
+      "image": "https://habrastorage.org/extt/d7/ea/de/d7eadeffc79a2164bf5bd91ef3bf1ec0.jpeg",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/d7/ea/de/d7eadeffc79a2164bf5bd91ef3bf1ec0.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T12:08:13.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-08T12:10:16.244Z"
+    },
+    {
+      "id": "13cbtp5",
+      "title": "В GTA 6 будет 55 достижений на консолях",
+      "url": "https://www.igromania.ru/news/169796/v-gta-6-budet-55-dostizhenij-na-konsolyah/",
+      "excerpt": "Криминальный боевик Grand Theft Auto VI содержит 55 достижений на консолях — при этом одно из них предположительно будет платиновым на PS5/мифическим на Xbox Series.",
+      "content": "Криминальный боевик Grand Theft Auto VI содержит 55 достижений на консолях — при этом одно из них предположительно будет платиновым на PS5/мифическим на Xbox Series.",
+      "image": "https://newcdn.igromania.ru//r/30bd6314cf178c284850ae54719da1ac/510x-/newcdn.igromania.ru/articles/pics/tmp/images/2026/11/8/b78e99ec-f5a4-481d-86bf-59a37d119bc1.jpg",
+      "images": [
+        {
+          "url": "https://newcdn.igromania.ru//r/30bd6314cf178c284850ae54719da1ac/510x-/newcdn.igromania.ru/articles/pics/tmp/images/2026/11/8/b78e99ec-f5a4-481d-86bf-59a37d119bc1.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T12:05:07.000Z",
+      "sourceId": "igromania",
+      "source": "Игромания",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-08T12:10:16.244Z"
+    },
+    {
+      "id": "1g8on6p",
+      "title": "I Used NYT Cooking’s New AI-Powered Recipe Modifier, and It’s Actually Pretty Good",
+      "url": "https://www.wired.com/story/nyt-cooking-new-ai-powered-recipe-modifier-is-pretty-good/",
+      "excerpt": "The New York Times has added a beta feature to its Cooking app that helps readers swap ingredients or adjust recipes to suit their needs. It mostly hits the mark.",
+      "content": "The New York Times has added a beta feature to its Cooking app that helps readers swap ingredients or adjust recipes to suit their needs. It mostly hits the mark.",
+      "image": "https://media.wired.com/photos/6aee77f4ece1c19963602401/master/pass/gear-nyt-cooking-ai-assistant.jpg",
+      "images": [
+        {
+          "url": "https://media.wired.com/photos/6aee77f4ece1c19963602401/master/pass/gear-nyt-cooking-ai-assistant.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T12:00:00.000Z",
+      "sourceId": "wired-ai",
+      "source": "WIRED AI",
+      "category": "ai",
+      "lang": "en",
+      "addedAt": "2026-11-08T12:10:16.244Z"
+    },
+    {
+      "id": "16cgy",
+      "title": "10+ Game Pass Titles Are Confirmed For Xbox's 25th Anniversary Week",
+      "url": "https://www.purexbox.com/news/2026/11/10plus-game-pass-titles-are-confirmed-for-xboxs-25th-anniversary-week",
+      "excerpt": "With potentially more to come. We're heading into Xbox's 25th anniversary week ! Xbox will officially be celebrating that milestone on Sunday, November 15th (exactly seven days from the time of posting this article), and we're hoping for some surprises along…",
+      "content": "With potentially more to come.\n\nWe're heading into Xbox's 25th anniversary week ! Xbox will officially be celebrating that milestone on Sunday, November 15th (exactly seven days from the time of posting this article), and we're hoping for some surprises along the way.\n\nWe already know of one surprise, which is that eight games will be joining Xbox Game Pass Essential on the 15th itself. Combine that with the six others during the rest of the week, and we've got over 10 brand-new additions heading to Game Pass during the course of the 25th anniversary period.\n\nRead the full article on purexbox.com",
+      "image": "https://images.purexbox.com/44570adbacd04/small.jpg",
+      "images": [
+        {
+          "url": "https://images.purexbox.com/44570adbacd04/small.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://images.purexbox.com/44570adbacd04/large.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T12:00:00.000Z",
+      "sourceId": "purexbox",
+      "source": "Pure Xbox",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-08T12:10:16.244Z"
+    },
+    {
+      "id": "solf8m",
+      "title": "Retro Recap: Castlevania, MediEvil And Jaz Rignall - All The Classic Gaming News From The Past Week (November 8th 2026)",
+      "url": "https://www.timeextension.com/features/retro-recap-castlevania-medievil-and-jaz-rignall-all-the-classic-gaming-news-from-the-past-week-november-8th-2026",
+      "excerpt": "Catch up on your retro news here. Welcome to Retro Recap , a regular feature we run each and every weekend which rounds up all of the best retro gaming news and content from the past week in one place. Read the full article on timeextension.com",
+      "content": "Catch up on your retro news here.\n\nWelcome to Retro Recap , a regular feature we run each and every weekend which rounds up all of the best retro gaming news and content from the past week in one place.\n\nRead the full article on timeextension.com",
+      "image": "https://images.timeextension.com/fa8945d8bb05e/small.jpg",
+      "images": [
+        {
+          "url": "https://images.timeextension.com/fa8945d8bb05e/small.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://images.timeextension.com/fa8945d8bb05e/large.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T12:00:00.000Z",
+      "sourceId": "timeextension",
+      "source": "Time Extension",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-08T12:10:16.244Z"
+    },
+    {
+      "id": "hcb3v6",
+      "title": "Pocket-sized Ukrainian receiver intercepts Russian strike drone video feeds up to six miles away",
+      "url": "https://www.tomshardware.com/tech-industry/drones/pocket-sized-ukrainian-receiver-intercepts-russian-strike-drone-video-feeds-up-to-six-miles-away-device-only-slightly-heavier-than-a-smartphone-intercepts-analog-video-signals-sent-to-russian-operators",
+      "excerpt": "CODE380, a radio manufacturer based in Kyiv, just built a new software-defined radio (SDR) that intercepts analog video signals that Russian drones transmit to their operators, making it easier for troops to find and intercept them. According to Defense News…",
+      "content": "CODE380, a radio manufacturer based in Kyiv, just built a new software-defined radio (SDR) that intercepts analog video signals that Russian drones transmit to their operators, making it easier for troops to find and intercept them. According to Defense News, the D·Vision SDR can sweep radio frequencies from 500 MHz to 8.7 GHz and convert any intercepted analog radio signal into a video feed. It has a detection range of up to six miles for signals on the 540 MHz to 6 GHz band, and up to two to three miles for higher frequencies.\n\nAlthough this isn’t the first passive Ukraine-made drone detector, it’s one of the lightest models produced so far, weighing just 10 ounces or 290 grams — by comparison, an iPhone 18 Pro Max weighs about 8.78 ounces or 249 grams. Its competitors include the Vydun 7.5, which weighs around 2 pounds or 900 grams and could intercept signals at up to 7.5 GHz; the 23-ounce (650-gram) Chuyka 3.0, which can detect signals at up to 8.8 GHz; and the SENSE-4, which weighs 21 ounces or 600 grams and could detect drone signals of up to 8.2 GHz.\n\nHow much money are you willing to spend during the Black Friday sales?\n\nAll these receivers cover the 4.1 to 4.5 GHz band that Russian Molniya strike drones began using in June of this year to transmit video back to their operators, Presidential advisor Serhii “Flash” Beskrestnov said. However, he also warned against relying on them for protection alone. “Most detectors don’t see these frequencies, or see them poorly,” he said in a social media post. “I’m warning you so that trust in a detector doesn’t cost you your life.” These receivers are often designed to work in tandem with other sensors, like radar, acoustic sensors , and drone interceptors, as part of an anti-drone defense system.\n\nMost of these units are designed to intercept analog signals, meaning they won't be useful for intercepting video signals once Russia figures out how to use digital signals. Still, the D·Vision SDR is claimed to have digital UAV detection, although it’s only tuned towards DJI drones for now. It’s unclear what types of radios Russian drones use, though, so the company would have to recover downed units to inspect their hardware and build appropriate countermeasures. It will also be ineffective against fiber optic drones, which are both jam- and intercept-proof as they use a physical connection to communicate with their home base.",
+      "image": "https://cdn.mos.cms.futurecdn.net/XiucPoqSXZURgspEBuaPLU-1920-80.png",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/XiucPoqSXZURgspEBuaPLU-1920-80.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T12:00:00.000Z",
+      "sourceId": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "hardware",
+      "lang": "en",
+      "addedAt": "2026-11-08T12:10:16.244Z"
+    },
+    {
+      "id": "ydypq9",
+      "title": "Ломаться нечему, ресурс огромный: чем хороша дешевая «Гранта»?",
+      "url": "https://5koleso.ru/vopros-otvet/lomatsya-nechemu-resurs-ogromnyj-chem-horosha-deshevaya-granta/",
+      "excerpt": "Даже в условиях действующих санкций и прочих неприятностей, выбор автомобилей на рынке очень солидный, равно как и разброс цен на нем. При этом сам факт обладания машиной давно уже не является неким статусным атрибутом состоявшегося человека. Сегодня на…",
+      "content": "Даже в условиях действующих санкций и прочих неприятностей, выбор автомобилей на рынке очень солидный, равно как и разброс цен на нем. При этом сам факт обладания машиной давно уже не является неким статусным атрибутом состоявшегося человека. Сегодня на автомобилях ездят все, кому не лень, а приобретение личной машины не является приоритетной мечтой молодежи. Поэтому даже очень обеспеченный человек все чаще смотрит на автомобиль прагматически, прикидывая, что ему реально нужно, и размышляя, стоит ли приобретать, грубо говоря, Audi , если по факту ничего, кроме хлопот, он от такой покупки не получит.\n\nВпрочем, у такого человека может быть несколько машин – как для визитов в элитный гольф-клуб, так и для прозаических поездок на колхозный рынок или на рыбалку в Подмосковье. В последних ситуациях гораздо разумнее пользоваться какой-то рабочей скотинкой, которую не жалко оставлять  где-то на обочине и можно грузить, чем попало, не тратя средства на дорогостоящее обслуживание. Тут и появляется интерес к простым автомобилям типа Lada Granta . \n\nКак уже было сказано, о престиже речь не идет. Есть четыре колеса, крыша над головой и вполне работоспособная конструкция, рассчитанная на неприхотливую эксплуатацию в течение длительного времени. Само собой, что и для небогатого потребителя эти аргументы не менее важны. Дескать, ломаться тут особо нечему, починить можно где угодно, запчастей полно, да и переживать из-за каждого скола эмали никто не станет. Заливай нужные жидкости, относись по-человечески и езди себе на здоровье. Нет лишних функций – нет и проблем, связанных с ними.\n\nСколько может протянуть «Гранта» ? Как повезет, конечно же, но у массовых восьмиклапанных моторов (например, ВАЗ-11182 или ВАЗ-11186) при регулярном грамотном обслуживании реальный пробег до серьезного вмешательства часто превышает 250–350 тысяч километров. Важно, что с 2018 года многие двигатели (и 8-, и 16-клапанные) получили «невтыковые» поршни. Иными словами, если вдруг оборвётся ремень ГРМ, то клапаны не встретятся с поршнями, и дорогостоящий ремонт не понадобится. Хотя, как уже отмечалось, ремонтопригодность таких машин высокая, многие владельцы и сервисмены хорошо ее освоили, а детали массово производятся.\n\nРоссийских условий эксплуатации «Гранта» не боится. Подвеска хорошо приспособлена к неровностям, а потому поездки за город сложностей обычно не вызывают. Стоимость техобслуживания, как правило, ниже, чем у иномарок подобного класса. Цена страховки и величина транспортного налога также приемлемые. \n\nВ чудеса, конечно, верить не стоит: есть у «Гранты» и слабые стороны. Довольно часто встречаются проблемы с электрикой (датчики, контакты и т.п.), могут подтекать сальники, есть склонность к коррозии и пр. Однако все эти мелочи не превращаются в головную боль для владельца и, как правило, быстро нейтрализуются.",
+      "image": "https://5koleso.ru/wp-content/uploads/2026/11/otecz-na-azs-2048x1530-1-1024x765.jpg",
+      "images": [
+        {
+          "url": "https://5koleso.ru/wp-content/uploads/2026/11/otecz-na-azs-2048x1530-1-1024x765.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://5koleso.ru/wp-content/uploads/2026/11/photo_2024-05-02-18.13.59-1024x461.jpeg",
+          "alt": ""
+        },
+        {
+          "url": "https://5koleso.ru/wp-content/uploads/2026/11/lada-granta-129.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T12:00:00.000Z",
+      "sourceId": "5koleso",
+      "source": "5 колесо",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-08T12:10:16.244Z"
+    },
+    {
+      "id": "y5gwb",
+      "title": "Энтузиаст создал скрипт, который ежедневно жалуется Сэму Альтману на неиспользуемую оперативную память",
+      "url": "https://www.playground.ru/misc/news/entuziast_sozdal_skript_kotoryj_ezhednevno_zhaluetsya_semu_altmanu_na_neispolzuemuyu_operativnuyu_pamyat-1888819",
+      "excerpt": "Разработчик под ником IainKay представил необычный проект Ram-Altman - шуточный Linux-скрипт, который отслеживает количество неиспользуемой оперативной памяти компьютера и может ежедневно отправлять генеральному директору OpenAI Сэму \"ОЗУ\" Альтману…",
+      "content": "Разработчик под ником IainKay представил необычный проект Ram-Altman - шуточный Linux-скрипт, который отслеживает количество неиспользуемой оперативной памяти компьютера и может ежедневно отправлять генеральному директору OpenAI Сэму \"ОЗУ\" Альтману электронные письма с жалобами на \"простаивающие\" гигабайты...",
+      "image": "https://i.playground.ru/e/eZOPhJV65pQq3u432fq1vw.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/eZOPhJV65pQq3u432fq1vw.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T11:51:40.000Z",
+      "sourceId": "playground-announces",
+      "source": "Playground Анонсы",
+      "category": "announces",
+      "lang": "ru",
+      "addedAt": "2026-11-08T12:10:16.244Z"
+    },
+    {
+      "id": "1wbr9d4",
+      "title": "Российские военные атаковали дроном спасателей, разбирающих завалы в Камышевахе. Там в результате удара РФ по убежищу погибли более 50 человек",
+      "url": "https://meduza.io/news/2026/11/08/rossiyskie-voennye-atakovali-dronom-spasateley-razbirayuschih-zavaly-v-kamyshevahe-tam-v-rezultate-udara-rf-po-ubezhischu-pogibli-bolee-50-chelovek",
+      "excerpt": "Российские военные атаковали дроном Камышеваху, где продолжается разбор завалов после авиаудара по убежищу, нанесенного войсками РФ 2 ноября. «Абсолютный цинизм и жестокость», — написал президент Украины Владимир Зеленский в своем телеграм-канале. По…",
+      "content": "Российские военные атаковали дроном Камышеваху, где продолжается разбор завалов после авиаудара по убежищу, нанесенного войсками РФ 2 ноября. «Абсолютный цинизм и жестокость», — написал президент Украины Владимир Зеленский в своем телеграм-канале.\n\nПо последним данным, напомнил он, в результате российского авиаудара погибли 55 человек, но обнаружены еще не все жертвы, поисковая операция продолжается.\n\nВ ГСЧС Украины, в свою очередь, подчеркнули, что дрон целенаправленно атаковал спасателей, участвующих в разборе завалов. Повреждена техника, люди не пострадали, сообщается в фейсбуке Государственно службы по чрезвычайным ситуациям.\n\nРоссийский удар по Камышевахе стал самым крупным по числу погибших за последние два года. Под удар попало бывшее здание школы, которое, как сообщила украинская сторона, использовали как пункт раздачи гуманитарной помощи и укрытие.\n\nЧитайте также\n\n• Война 1714-й день. Россия ударила по пункту раздачи гуманитарной помощи в Камышевахе. 33 человека погибли, десятки остаются под завалами",
+      "image": "https://meduza.io/imgly/share/1794138758/news/2026/11/08/rossiyskie-voennye-atakovali-dronom-spasateley-razbirayuschih-zavaly-v-kamyshevahe-tam-v-rezultate-udara-rf-po-ubezhischu-pogibli-bolee-50-chelovek",
+      "images": [
+        {
+          "url": "https://meduza.io/imgly/share/1794138758/news/2026/11/08/rossiyskie-voennye-atakovali-dronom-spasateley-razbirayuschih-zavaly-v-kamyshevahe-tam-v-rezultate-udara-rf-po-ubezhischu-pogibli-bolee-50-chelovek",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T11:48:46.000Z",
+      "sourceId": "meduza",
+      "source": "Meduza",
+      "category": "war",
+      "lang": "ru",
+      "addedAt": "2026-11-08T12:10:16.244Z"
+    },
+    {
+      "id": "1sl06x8",
+      "title": "Want to fly to the moon? NASA is looking for new astronauts to help grow its Artemis program",
+      "url": "https://phys.org/news/2026-11-fly-moon-nasa-astronauts-artemis.html",
+      "excerpt": "Want to fly to the moon and help build a permanent lunar base? NASA is accepting applications for a new astronaut class that will help grow the Artemis program.",
+      "content": "Want to fly to the moon and help build a permanent lunar base? NASA is accepting applications for a new astronaut class that will help grow the Artemis program.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/help-wanted-astronauts.jpg",
+      "images": [
+        {
+          "url": "https://scx1.b-cdn.net/csz/news/tmb/2026/help-wanted-astronauts.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T11:45:12.000Z",
+      "sourceId": "physorg",
+      "source": "Phys.org",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-08T12:10:16.244Z"
+    },
+    {
+      "id": "r8rjz4",
+      "title": "Zelda OOT Remake: Fishing Pond and Sinking Lure explained, all rewards",
+      "url": "https://www.videogameschronicle.com/guide/zelda-oot-remake-fishing-pond-sinking-lure-rewards/",
+      "excerpt": "How to find the Sinking Lure and get all rewards from the Fishing Pond in The Legend of Zelda: Ocarina of Time remake… Source",
+      "content": "How to find the Sinking Lure and get all rewards from the Fishing Pond in The Legend of Zelda: Ocarina of Time remake…\n\nSource",
+      "image": "https://www.videogameschronicle.com/files/2026/11/Zelda-OOT-Remake-Fishing-Pond-and-Sinking-Lure-explained-all-rewards-2.jpg",
+      "images": [
+        {
+          "url": "https://www.videogameschronicle.com/files/2026/11/Zelda-OOT-Remake-Fishing-Pond-and-Sinking-Lure-explained-all-rewards-2.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T11:44:54.000Z",
+      "sourceId": "vgc",
+      "source": "VGC",
+      "category": "industry",
+      "lang": "en",
+      "addedAt": "2026-11-08T12:10:16.244Z"
+    },
+    {
+      "id": "grz4gb",
+      "title": "Chimp sanctuary delivers an ape's food by drone amid Florida floods",
+      "url": "https://phys.org/news/2026-11-chimp-sanctuary-ape-food-drone.html",
+      "excerpt": "A Florida chimpanzee sanctuary had to deliver food to one of its 200 apes by drone this week because the property was swamped by heavy rain. But the animals stayed safe, and the water finally was receding significantly on Saturday, the organization said.",
+      "content": "A Florida chimpanzee sanctuary had to deliver food to one of its 200 apes by drone this week because the property was swamped by heavy rain. But the animals stayed safe, and the water finally was receding significantly on Saturday, the organization said.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/us-extreme-weather-chi.jpg",
+      "images": [
+        {
+          "url": "https://scx1.b-cdn.net/csz/news/tmb/2026/us-extreme-weather-chi.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T11:44:40.000Z",
+      "sourceId": "physorg",
+      "source": "Phys.org",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-08T12:10:16.244Z"
+    },
+    {
+      "id": "gqb4uf",
+      "title": "SoulCalibur с Dreamcast перенесли на ПК без эмулятора - Voldorium поддерживает 4K, онлайн-бои и кроссплей Windows/Linux",
+      "url": "https://www.playground.ru/soulcalibur/news/soulcalibur_s_dreamcast_perenesli_na_pk_bez_emulyatora_voldorium_podderzhivaet_4k_onlajn_boi_i_krossplej_windows_linux-1888817",
+      "excerpt": "Энтузиаст под ником enrique363 представил Voldorium - неофициальный нативный ПК-порт культового файтинга SoulCalibur, выпущенного на Sega Dreamcast в 1999 году. Проект использует технологию статической рекомпиляции, позволяющую запускать оригинальную игру на…",
+      "content": "Энтузиаст под ником enrique363 представил Voldorium - неофициальный нативный ПК-порт культового файтинга SoulCalibur, выпущенного на Sega Dreamcast в 1999 году. Проект использует технологию статической рекомпиляции, позволяющую запускать оригинальную игру на современных компьютерах без традиционного эмулятора...",
+      "image": "https://i.playground.ru/e/aY9-JFM6Zk-UrxoP9lt3Zw.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/aY9-JFM6Zk-UrxoP9lt3Zw.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T11:42:27.000Z",
+      "sourceId": "playground-announces",
+      "source": "Playground Анонсы",
+      "category": "announces",
+      "lang": "ru",
+      "addedAt": "2026-11-08T12:10:16.244Z"
+    },
+    {
       "id": "gh-1436761699",
       "title": "Blightwidow/rogue-byte: Byte-matching decompilation of Sly 2: Band of Thieves (PS2, USA). No game data included.",
       "url": "https://github.com/Blightwidow/rogue-byte",
@@ -826,11 +1155,11 @@
       "title": "Хакеры, объявившие о взломе Росстата, утверждают, что в войне с Украиной погибли более 390 тысяч россиян",
       "url": "https://meduza.io/news/2026/11/08/hakery-ob-yavivshie-o-vzlome-rosstata-utverzhdayut-chto-v-voyne-s-ukrainoy-pogibli-bolee-390-tysyach-rossiyan",
       "excerpt": "Хакерские группировки «Киберпартизаны BY» и Silent Crow, заявившие, что им удалось взломать Росстат, сообщили , что в войне с Украиной погибли более 390 тысяч россиян к концу августа 2026 года. По подсчетам «Киберпартизан BY», с начала большой войны погиб 393…",
-      "content": "Хакерские группировки «Киберпартизаны BY» и Silent Crow, заявившие, что им удалось взломать Росстат, сообщили , что в войне с Украиной погибли более 390 тысяч россиян к концу августа 2026 года.\n\nПо подсчетам «Киберпартизан BY», с начала большой войны погиб 393 881 россиянин. Речь идет о тех, у кого в системе Росстата в причине смерти указаны военные действия или их последствия.\n\nSilent Crow приводит другие данные. По их подсчетам, погибли 450 100 россиян. Они учитывают не только смерти в результате военных действий и их последствий, но также смерти с отметкой о теракте, небоевые смерти военнослужащих и смерть людей, зарегистрированных в России и умерших на оккупированных территориях или в Украине без указанной причины.\n\nВ  поименных списках погибших, которые собирает «Медиазона» и «Русская служба Би-Би-Си», сейчас около 286 тысяч человек, однако эти списки заведомо неполны — особенно это касается последних месяцев и даже лет. В последнем обновлении совместного исследования «Медузы» и «Медиазоны», сделанном на основе данных Реестра наследственных дел, общее число погибших на конец 2025 года оценивалось в 350 тысяч человек. Таким образом, подсчеты хакерских группировок по порядку цифр соответствуют ожидаемым --- однако пока невозможно сказать, насколько они точны.\n\n«Медуза» и «Медиазона» получили доступ к данным, опубликованным хакерам, и уже занимаются их проверкой. Мы пытаемся не только исключить возможность искусственного отравления данных, но и ответить на вопрос о полноте. Известно, например, что далеко не всегда в медицинских справках, на основании которых выдаются сертификаты о смерти, указывается истинная причина смерти. Еще важнее понимать, что даже внутренние данные Росстата, которые сейчас стали доступны журналистам, не содержат актуальных сведений о пропавших без вести. Такие люди признаются погибшими с большой задержкой; только полноценное исследование позволит ответить на вопрос об их наиболее вероятном числе.\n\nЧитайте также\n\n• 350 тысяч погибших российских солдат Это новая — надежная — оценка потерь ВС РФ за четыре года большой войны. Нам впервые удалось включить в подсчет пропавших без вести военных",
-      "image": "https://meduza.io/imgly/share/1794137643/news/2026/11/08/hakery-ob-yavivshie-o-vzlome-rosstata-utverzhdayut-chto-v-voyne-s-ukrainoy-pogibli-bolee-390-tysyach-rossiyan",
+      "content": "Хакерские группировки «Киберпартизаны BY» и Silent Crow, заявившие, что им удалось взломать Росстат, сообщили , что в войне с Украиной погибли более 390 тысяч россиян к концу августа 2026 года.\n\nПо подсчетам «Киберпартизан BY», с начала большой войны погиб 393 881 россиянин. Речь идет о тех, у кого в системе Росстата в причине смерти указаны военные действия или их последствия.\n\nSilent Crow приводит другие данные. По их подсчетам, погибли 450 100 россиян. Они учитывают не только смерти в результате военных действий и их последствий, но также смерти с отметкой о теракте, небоевые смерти военнослужащих и смерть людей, зарегистрированных в России и умерших на оккупированных территориях или в Украине без указанной причины.\n\nВ  поименных списках погибших, которые собирает «Медиазона» и «Русская служба Би-Би-Си», сейчас около 286 тысяч человек, однако эти списки заведомо неполны — особенно это касается последних месяцев и даже лет. В последнем обновлении совместного исследования «Медузы» и «Медиазоны», сделанном на основе данных Реестра наследственных дел, общее число погибших на конец 2025 года оценивалось в 350 тысяч человек. Таким образом, подсчеты хакерских группировок по порядку цифр соответствуют ожидаемым --- однако пока невозможно сказать, насколько они точны.\n\n«Медуза» и «Медиазона» получили доступ к данным, опубликованным хакерам, и уже занимаются их проверкой. Мы пытаемся не только исключить возможность искусственного отравления данных , но и ответить на вопрос о полноте. Известно, например, что далеко не всегда в медицинских справках, на основании которых выдаются сертификаты о смерти, указывается истинная причина смерти. Еще важнее понимать, что даже внутренние данные Росстата, которые сейчас стали доступны журналистам, не содержат актуальных сведений о пропавших без вести. Такие люди признаются погибшими с большой задержкой; только полноценное исследование позволит ответить на вопрос об их наиболее вероятном числе.\n\nЧитайте также\n\n• 350 тысяч погибших российских солдат Это новая — надежная — оценка потерь ВС РФ за четыре года большой войны. Нам впервые удалось включить в подсчет пропавших без вести военных",
+      "image": "https://meduza.io/imgly/share/1794138047/news/2026/11/08/hakery-ob-yavivshie-o-vzlome-rosstata-utverzhdayut-chto-v-voyne-s-ukrainoy-pogibli-bolee-390-tysyach-rossiyan",
       "images": [
         {
-          "url": "https://meduza.io/imgly/share/1794137643/news/2026/11/08/hakery-ob-yavivshie-o-vzlome-rosstata-utverzhdayut-chto-v-voyne-s-ukrainoy-pogibli-bolee-390-tysyach-rossiyan",
+          "url": "https://meduza.io/imgly/share/1794138047/news/2026/11/08/hakery-ob-yavivshie-o-vzlome-rosstata-utverzhdayut-chto-v-voyne-s-ukrainoy-pogibli-bolee-390-tysyach-rossiyan",
           "alt": ""
         }
       ],
@@ -1401,7 +1730,7 @@
       "url": "https://github.com/segovia-no/MotoRacerRecomp",
       "excerpt": "Native port of Moto Racer (1997) for Mac, Windows, Linux, Steam Deck and PSP. Widescreen up to 4K, gamepads, high frame rates. Static recompilation built from your own GOG copy.",
       "image": "",
-      "publishedAt": "2026-11-08T10:15:58Z",
+      "publishedAt": "2026-11-08T12:06:21Z",
       "addedAt": "2026-11-08T10:10:11.226Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -2757,8 +3086,8 @@
       "id": "vduo6c",
       "title": "Goodbye Claude, Hello Pi",
       "url": "https://caleb.software/posts/claude-to-pi.html",
-      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 356 # Comments: 217",
-      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 356\n\n# Comments: 217",
+      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 368 # Comments: 228",
+      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 368\n\n# Comments: 228",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T03:11:48.000Z",
@@ -3035,7 +3364,7 @@
       "url": "https://github.com/7v0biscuit/OpenKai2",
       "excerpt": "A Native Windows Port of Dragon Ball Z: Budokai 2",
       "image": "",
-      "publishedAt": "2026-11-08T11:38:05Z",
+      "publishedAt": "2026-11-08T12:02:10Z",
       "addedAt": "2026-11-08T05:40:16.174Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -4115,7 +4444,7 @@
       "url": "https://github.com/Destinity13/TimeSplitters-2-Native-Linux-Recomp",
       "excerpt": "TimeSplitters 2 (PS2, NTSC-U) statically recompiled to a native Linux executable – HD remaster: 60 FPS, real 16:9, up to 8x resolution, split-screen co-op, verified against PCSX2",
       "image": "",
-      "publishedAt": "2026-11-08T11:20:46Z",
+      "publishedAt": "2026-11-08T11:42:12Z",
       "addedAt": "2026-11-08T01:40:14.870Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -4675,8 +5004,8 @@
       "id": "zof7yv",
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 423 # Comments: 287",
-      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 423\n\n# Comments: 287",
+      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 434 # Comments: 293",
+      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 434\n\n# Comments: 293",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T20:45:32.000Z",
@@ -4832,7 +5161,7 @@
       "url": "https://github.com/vyanhursky/DefJamFFNY-recomp",
       "excerpt": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
       "image": "",
-      "publishedAt": "2026-11-08T11:35:19Z",
+      "publishedAt": "2026-11-08T11:59:09Z",
       "addedAt": "2026-11-07T23:10:10.266Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -5978,9 +6307,9 @@
         }
       ],
       "publishedAt": "2026-11-07T19:26:44.000Z",
-      "sourceId": "playground-announces",
-      "source": "Playground Анонсы",
-      "category": "announces",
+      "sourceId": "playground-rumors",
+      "source": "Playground Слухи",
+      "category": "rumors",
       "lang": "ru",
       "addedAt": "2026-11-07T21:43:59.744Z"
     },
@@ -6394,8 +6723,8 @@
       "id": "1fzmty1",
       "title": "The end of Microsoft Research's AI Frontiers group",
       "url": "https://hunch.net/?p=13764006",
-      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 464 # Comments: 278",
-      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 464\n\n# Comments: 278",
+      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 467 # Comments: 280",
+      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 467\n\n# Comments: 280",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T18:02:17.000Z",
@@ -6481,8 +6810,8 @@
       "id": "6a6jp5",
       "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
       "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 330 # Comments: 84",
-      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 330\n\n# Comments: 84",
+      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 332 # Comments: 86",
+      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 332\n\n# Comments: 86",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T17:19:00.000Z",
@@ -7195,7 +7524,7 @@
       "url": "https://github.com/makkaX2/DroneFlames-PC-Port",
       "excerpt": "🚁 DroneFlames PC Port (Windows x64) — native PC controls, WASD camera, smooth zoom, multiplayer & automated CI/CD builds by @good_boy_irl.",
       "image": "",
-      "publishedAt": "2026-11-08T11:23:38Z",
+      "publishedAt": "2026-11-08T12:06:57Z",
       "addedAt": "2026-11-07T18:00:02.232Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -7888,9 +8217,9 @@
         }
       ],
       "publishedAt": "2026-11-07T16:15:16.000Z",
-      "sourceId": "playground-announces",
-      "source": "Playground Анонсы",
-      "category": "announces",
+      "sourceId": "playground-releases",
+      "source": "Playground Релизы",
+      "category": "releases",
       "lang": "ru",
       "addedAt": "2026-11-07T17:59:57.981Z"
     },
@@ -10685,8 +11014,8 @@
       "id": "1iqgq9j",
       "title": "Every Mac comes with an (undocumented) family member classifier",
       "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 743 # Comments: 397",
-      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 743\n\n# Comments: 397",
+      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 749 # Comments: 401",
+      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 749\n\n# Comments: 401",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T09:46:03.000Z",
@@ -10933,6 +11262,19 @@
       "addedAt": "2026-11-07T11:40:05.625Z"
     },
     {
+      "id": "gh-1268808203",
+      "title": "tangosdev/sm64ds-decomp: From-scratch, byte-matching decompilation of Super Mario 64 DS into C/C++, with a live progress atlas and matching tools.",
+      "url": "https://github.com/tangosdev/sm64ds-decomp",
+      "excerpt": "From-scratch, byte-matching decompilation of Super Mario 64 DS into C/C++, with a live progress atlas and matching tools.",
+      "image": "",
+      "publishedAt": "2026-11-08T12:09:20Z",
+      "addedAt": "2026-11-07T11:10:11.096Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
       "id": "gh-1447228620",
       "title": "crashbashash/DW4_Decomp: Work-in-progress matching decompilation of Digimon World 4 (PS2, USA). No game data included.",
       "url": "https://github.com/crashbashash/DW4_Decomp",
@@ -10946,25 +11288,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1268808203",
-      "title": "tangosdev/sm64ds-decomp: From-scratch, byte-matching decompilation of Super Mario 64 DS into C/C++, with a live progress atlas and matching tools.",
-      "url": "https://github.com/tangosdev/sm64ds-decomp",
-      "excerpt": "From-scratch, byte-matching decompilation of Super Mario 64 DS into C/C++, with a live progress atlas and matching tools.",
-      "image": "",
-      "publishedAt": "2026-11-07T11:07:40Z",
-      "addedAt": "2026-11-07T11:10:11.096Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
       "id": "gh-1437711930",
       "title": "luisbraganca/ps2n: Static recompiler for PlayStation 2 executables. It reads an Emotion Engine (R5900) ELF, finds its functions, translates every instruction into plain C++, and links the result against a runtime that stands in for the rest of the console: the EE kernel, the hardware registers, the GS, and the IOP. The output is an ordinary buildable native program.",
       "url": "https://github.com/luisbraganca/ps2n",
       "excerpt": "Static recompiler for PlayStation 2 executables. It reads an Emotion Engine (R5900) ELF, finds its functions, translates every instruction into plain C++, and links the result against a runtime that stands in for the rest of the console: the EE kernel, the hardware registers, the GS, and the IOP. The output is an ordinary buildable native program.",
       "image": "",
-      "publishedAt": "2026-11-07T22:16:10Z",
+      "publishedAt": "2026-11-08T12:07:15Z",
       "addedAt": "2026-11-07T11:10:10.681Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -12355,7 +12684,7 @@
       "url": "https://github.com/YodaMMM/NightfirePort",
       "excerpt": "Nightfire Rust: a native Windows PC port of 007: Nightfire (PS2), written in Rust",
       "image": "",
-      "publishedAt": "2026-11-08T11:39:00Z",
+      "publishedAt": "2026-11-08T12:10:05Z",
       "addedAt": "2026-11-07T09:10:09.502Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -13242,7 +13571,7 @@
       "url": "https://github.com/Jstar269/Nakagawa-Recomp",
       "excerpt": "Play PSP games you own as native Windows programs. A static recompiler: add your own disc, build, play. No game data included.",
       "image": "",
-      "publishedAt": "2026-11-08T08:48:00Z",
+      "publishedAt": "2026-11-08T12:05:12Z",
       "addedAt": "2026-11-07T06:50:19.174Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -13811,7 +14140,7 @@
       "url": "https://github.com/boburning/portcove",
       "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
       "image": "",
-      "publishedAt": "2026-11-08T11:36:30Z",
+      "publishedAt": "2026-11-08T12:09:14Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -13824,7 +14153,7 @@
       "url": "https://github.com/nekomancer01/DarkSoulsPS2",
       "excerpt": "Homebrew PS2 port of Dark Souls Remastered: C/VU1 engine plus exporters that read your own copy of the game (no game data included)",
       "image": "",
-      "publishedAt": "2026-11-08T11:25:49Z",
+      "publishedAt": "2026-11-08T11:53:27Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
