@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T11:10:25.487Z",
-  "count": 1273,
+  "generatedAt": "2026-11-08T11:40:34.216Z",
+  "count": 1279,
   "articles": {
     "1py56g3": {
       "version": 4,
@@ -31795,6 +31795,118 @@
       ],
       "length": 3659,
       "imageCount": 4
+    },
+    "gh-1436761699": {
+      "version": 4,
+      "url": "https://github.com/Blightwidow/rogue-byte",
+      "fetchedAt": "2026-11-08T11:40:32.045Z",
+      "title": "GitHub - Blightwidow/rogue-byte: Byte-matching decompilation of Sly 2: Band of Thieves (PS2, USA). No game data included.",
+      "byline": "",
+      "siteName": "GitHub",
+      "content": "A work-in-progress, byte-matching decompilation of Sly 2: Band of Thieves for PlayStation 2.\nReconstructing the original game code in readable C.\n\nWarningRogue Byte does not include game data, executables, disc images, or proprietary toolchains.\nA legitimately obtained copy of the USA / NTSC-U release (SCUS_97316) is required; the tools rebuild everything locally.\nThe PAL release (SCES_52529) is optional: with its executable the tools also check that the matched C reproduces the PAL code.\nsrc/ reconstructs game code function by function: see src/README.md and THIRD_PARTY_NOTICES.md.\n\nVersion\nCode\nof which exact C\nFunctions\nBlocked for C\n\nNTSC-U SCUS_973.16\n78.30% (1098080 of 1402480 bytes)\n48.16%\n6125 of 6825\n853 functions, 30.13%\n\nPAL SCES_525.29\n76.80% (1077172 of 1402480 bytes)\n46.67%\n6038 of 6825\n853 functions, 30.13%\n\nA function counts when make elf links its C and the image still equals retail byte for byte; for PAL, when the same C also reproduces PAL's code. Permanent blockers (a VU0, MMI or COP0 instruction, or hand-written assembly: config/us/blockers.tsv, docs/build/vu0-mmi.md) stay original assembly and count as finished too, shown apart from the exact C.\n\nLive numbers on bytematch.dev.\nLayout\n\nPath\nWhat\n\nsrc/\nmatched C/C++, one function per file, grouped by module (src/README.md)\n\nnonmatching/\nthe best source that compiles for each unmatched function: starting points that count as partial work in the report (nonmatching/README.md)\n\ninclude/\nshared headers (sly2.h) and the assembler macros\n\nconfig/\nthe Splat configuration and the US retail layout, and config/eu/, the PAL pairing and check results (config/README.md)\n\nscripts/build/\nthe image pipeline: split, link, pack, objdiff\n\nscripts/names/, scripts/ghidra/\nname recovery: the Sly 1 code matcher, headless Ghidra scripts\n\nscripts/decompile/, scripts/matching/\ndecompilation helpers, compile-and-compare tooling for matching\n\nconfig/sly1/, config/recovered/\ninputs from the Sly 1 decompilation (CC0) and the recovered names, classes and modules\n\nprogress/\nthe objdiff reports ByteMatch reads (us/report.json, eu/report.json)\n\ndocs/\nbuild, contributing and game notes\n\ntools/, work/\ngit-ignored: the downloaded toolchain, your executables and local work\n\nGetting started\n\n./setup.sh --sly2 /path/to/SCUS_973.16 checks your executable (USA, sha1 de2af92a...), creates .venv and downloads the\ntoolchain into tools/.\nmake elf splits the executable with Splat, compiles src/ with the original compiler, rebuilds the image and checks\nit byte for byte (docs/build/building.md).\nmake report, make objdiff and make readme write the numbers (docs/build/progress.md).\nOptional, PAL: python3 scripts/disc_extract.py discs/<disc>.iso puts SCES_525.29 in work/elf/, then make pal pairs the functions and checks\nthe matched C against it (docs/build/building.md). The US build is the reference: PAL is verified, not rebuilt.\n\nMore: docs/TOOLCHAIN.md (compiler, assembler, flags), docs/AGENT_WORKFLOW.md (the matching procedure, for people and AI agents), docs/ROADMAP.md.\nName recovery needs more (Ghidra 12.1.4 with the ghidra-emotionengine-reloaded extension, Java 21, your Sly 1 executable):\ndocs/build/name-recovery.md and docs/build/decompilation.md.\nRun every tool from this repository's root. ROGUE_BYTE_DIR overrides the detected repository root.\nLicense\nGPL-3.0-or-later, see LICENSE. Third-party material and its licenses: THIRD_PARTY_NOTICES.md.",
+      "images": [],
+      "length": 3432,
+      "imageCount": 0
+    },
+    "owzvuy": {
+      "version": 4,
+      "url": "https://www.tomshardware.com/video-games/pc-gaming/wow-forever-launch-used-70-480-cpu-cores-and-251-terabytes-of-ram-3-924-virtual-machines-powered-one-of-world-of-warcrafts-smoothest-launches-ever",
+      "fetchedAt": "2026-11-08T11:40:33.148Z",
+      "title": "WoW: Forever launch used 70,480 CPU cores and 251 terabytes of RAM — 3,924 virtual machines powered one of World…",
+      "byline": "Zhiye Liu",
+      "siteName": "Tom's Hardware",
+      "content": "Blizzard pulled out all the stops to ensure World of Warcraft: Forever survived a chaotic launch night. What was the company's secret weapon? Splurging an absurd amount of money on infrastructure made up of 3,924 virtual machines with 70,480 CPU cores and a whopping 251,136 GB, or 251 TB, of memory.Praised by media and players as one of the smoothest launches in Blizzard's history, World of Warcraft: Forever requires significant computing firepower. 3,924 virtual machines work out to 18 cores and 64GB of memory per instance. Or, the company could be using a mixture of 16-core and 32-core nodes with slightly less memory.Get Tom's Hardware's best news and in-depth reviews, straight to your inbox.",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/TNCBNhGaotv4BgQQDz5pbj-2560-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/TNCBNhGaotv4BgQQDz5pbj-1200-80.jpg",
+          "alt": ""
+        }
+      ],
+      "length": 703,
+      "imageCount": 2
+    },
+    "oesv4f": {
+      "version": 4,
+      "url": "https://www.intermedia.ru/news/407973",
+      "fetchedAt": "2026-11-08T11:40:33.369Z",
+      "title": "Актеры «Позолоченного века» записали рождественский альбом",
+      "byline": "",
+      "siteName": "",
+      "content": "ИнтерМедиа представляет календарь актуальных дат и важных событий на сегодня, завтра и послезавтра.8 ноября 2026 года, воскресенье.IOWA даст большой концерт в Tau.Navai даст концерт в VK Stadium.Бастинда, Эсмеральда и Дядька Черномор споют в новом сезоне «Шоу Аватар».Дмитрий Шепелев и Владимир Маркони примут участие в реалити «Три острова».Иван Охлобыстин станет хозяином загадочного замка с заданиями в шоу «Коллекционер» на СТС.День пианиста.Международный день КВН.41 год актрисе Екатерине Олькиной.45 лет певцу и актёру Александру Асташёнку.46 лет актёру Евгению Пронину.54 года бас-гитаристу Даниле Захаренкову.58 лет актрисе Паркер Поузи.60 лет ведущему кулинарного шоу Гордону Рамзи.64 года балетмейстеру Лорану Илеру.65 лет назад родился поэт Мирослав Немиров (1961-2016).66 лет актёру Олегу Меньшикову.67 лет актрисе Евдокии Германовой.70 лет режиссёру и сценаристу Ричарду Кёртису.70 лет назад родился экс-басист группы «Круиз» Александр Кирницкий (1956-2008).75 лет Стасу Намину.Стас Намин (Анастас Алексеевич Микоян) родился 8 ноября 1951 года в Москве. Советский и российский музыкант, композитор и продюсер, художник и фотограф, режиссёр. Создатель и лидер рок-группы «Цветы». Автор популярных песен «Рано прощаться», «Летний вечер», «Мы желаем счастья вам» и др. Организатор первого в СССР независимого продюсерского центра SNC. Организатор Международного музыкального фестиваля мира в «Лужниках» в 1989 году. Основатель первых в стране частных концертного агентства, студии дизайна, фирмы грамзаписи, радиостанции, телекомпании и т. д. Создатель Московского театра музыки и драмы.80 лет футбольному тренеру Гусу Хиддинку.95 лет назад родился режиссёр Паоло Тавиани (1931-2024).100 лет назад родилась актриса Людмила Аринина (1926-2026).9 ноября 2026 года, понедельник.Сериал «Балтийское море» покажет «Россия».Никита Панфилов и Евгений Миллер будут искать поджигателя в «Огне».35 лет назад умер актёр и певец Ив Монтан (1921-1991).37 лет актёру Билли Хоулу.39 лет актрисе Дженнифер Холланд.41 год рэперу French Montana.41 год певцу Роману Архипову.43 года актрисе Глафире Тархановой.45 лет актёру Ивану Стебунову.51 год телеведущей Марии Ситтель.61 год сценаристу и режиссеру Райану Мёрфи.71 год режиссёру Фернанду Мейреллишу.10 ноября 2026 года, вторник.26 лет актрисе Маккензи Фой.27 лет актрисе Кирнан Шипке.27 лет рэперу Yasmi.29 лет певцу Йосту Кляйну.32 года актрисе Зои Дойч.35 лет актёру Филиппу Авдееву.37 лет актёру Тэрону Эджертону.39 лет актёру Эндрю Кодзи.45 лет певцу Kamazz.48 лет диджею Дипло.51 год телепродюсеру Тине Канделаки.53 года певице Ирине Дюковой.54 года участнику группы «Ундервуд» Владимиру Ткаченко.55 лет актёру Уолтону Гоггинсу.56 лет лидеру группы Theodor Bastard Александру Старостину.57 лет актрисе Эллен Помпео.60 лет актёру Борису Каморзину.60 лет участнику «Квартета И» Камилю Ларину.63 года актёру Хью Бонневиллю.63 года актёру Михаилу Ефремову.65 лет клавишнику Александру Белоносову.69 лет барабанщику Александру Львову.75 лет актёру Виктору Сухорукову.82 года драматургу Тиму Райсу.5 лет назад умер пианист Вячеслав Горский (1953-2021).10 лет назад умер органист Гарри Гродберг (1929-2016).60 лет назад родился басист группы Pulp Стив Маки (1966-2023).135 лет назад умер поэт Артюр Рембо (1854-1891).",
+      "images": [
+        {
+          "url": "https://cdn1.intermedia.ru/img/news_x350/407973.jpg?t=1794082808",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn1.intermedia.ru/img/news_x400/407906.jpg?t=1793874460",
+          "alt": "архив Стаса Намина"
+        }
+      ],
+      "length": 3259,
+      "imageCount": 2
+    },
+    "1jt2dt3": {
+      "version": 4,
+      "url": "https://dtf.ru/games/5399937-henderson-assassins-creed-hexe-otlozhili",
+      "fetchedAt": "2026-11-08T11:40:33.463Z",
+      "title": "Хендерсон: Assassin's Creed Hexe отложили — игра вряд ли выйдет раньше 2028 года — Игры на DTF",
+      "byline": "daniel",
+      "siteName": "DTF",
+      "content": "Согласно другому источнику, Ubisoft также занята игрой про Древний Рим. Журналист Том Хендерсон прокомментировал информацию блогера J0nathan об Assassin's Creed. Тот рассказал, что Ubisoft работает над игрой про Древний Рим под кодовым названием Mars и мобильным тайтлом про Иерусалим под рабочим заголовком Pocket.Хендерсон слышал эти рабочие названия, но не смог установить, действительно ли они относятся к упомянутым играм. Согласно ему, из-за перестановок в Ubisoft разбираться в информации о компании стало заметно сложнее. Тем не менее, прежде J0nathan делился достоверными подробностями о франшизе.Вместе с этим Хендерсон рассказал, что в октябре узнал о переносе Assassin's Creed Hexe. Игра столкнулась с проблемами, и Ubisoft решила выделить на неё больше времени.Вероятно, теперь релиз Hexe не стоит ждать раньше 2028 года, а вышеупомянутые Mars и Pocket могут быть ещё дальше в расписании компании.В конце октября Ubisoft сообщила, что поделится подробностями Hexe до конца 2027 года.Ubisoft сообщила, что поделится деталями Assassin's Creed Hexe в 2027 году, а ремейков других частей в активной разработке пока нет В ноябре Valhalla получит долгожданный режим «Новая игра+».11221100221111",
+      "images": [
+        {
+          "url": "https://api.dtf.ru/v2.9/cover/fb/c/5399937/1794138032/cover.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://api.dtf.ru/v2.9/cover/tw/c/5399937/1794138032/cover.jpg",
+          "alt": ""
+        }
+      ],
+      "length": 1201,
+      "imageCount": 2
+    },
+    "lvbi4r": {
+      "version": 4,
+      "url": "https://meduza.io/news/2026/11/08/hakery-ob-yavivshie-o-vzlome-rosstata-utverzhdayut-chto-v-voyne-s-ukrainoy-pogibli-bolee-390-tysyach-rossiyan",
+      "fetchedAt": "2026-11-08T11:40:33.576Z",
+      "title": "Хакеры, объявившие о взломе Росстата, утверждают, что в войне с Украиной погибли более 390 тысяч россиян",
+      "byline": "Meduza",
+      "siteName": "Meduza",
+      "content": "Хакерские группировки «Киберпартизаны BY» и Silent Crow, заявившие, что им удалось взломать Росстат, сообщили, что в войне с Украиной погибли более 390 тысяч россиян к концу августа 2026 года.По подсчетам «Киберпартизан BY», с начала большой войны погиб 393 881 россиянин. Речь идет о тех, у кого в системе Росстата в причине смерти указаны военные действия или их последствия.Silent Crow приводит другие данные. По их подсчетам, погибли 450 100 россиян. Они учитывают не только смерти в результате военных действий и их последствий, но также смерти с отметкой о теракте, небоевые смерти военнослужащих и смерть людей, зарегистрированных в России и умерших на оккупированных территориях или в Украине без указанной причины.В поименных списках погибших, которые собирает «Медиазона» и «Русская служба Би-Би-Си», сейчас около 286 тысяч человек, однако эти списки заведомо неполны — особенно это касается последних месяцев и даже лет. В последнем обновлении совместного исследования «Медузы» и «Медиазоны», сделанном на основе данных Реестра наследственных дел, общее число погибших на конец 2025 года оценивалось в 350 тысяч человек. Таким образом, подсчеты хакерских группировок по порядку цифр соответствуют ожидаемым --- однако пока невозможно сказать, насколько они точны.«Медуза» и «Медиазона» получили доступ к данным, опубликованным хакерам, и уже занимаются их проверкой. Мы пытаемся не только исключить возможность искусственного отравления данных, но и ответить на вопрос о полноте. Известно, например, что далеко не всегда в медицинских справках, на основании которых выдаются сертификаты о смерти, указывается истинная причина смерти. Еще важнее понимать, что даже внутренние данные Росстата, которые сейчас стали доступны журналистам, не содержат актуальных сведений о пропавших без вести. Такие люди признаются погибшими с большой задержкой; только полноценное исследование позволит ответить на вопрос об их наиболее вероятном числе.",
+      "images": [],
+      "length": 1945,
+      "imageCount": 0
+    },
+    "16p8mms": {
+      "version": 4,
+      "url": "https://www.playground.ru/misc/news/microsoft_sozdala_novyj_redaktor_reestra_windows_11_na_winui_3_on_rabotaet_s_nastoyaschim_reestrom_no_poka_ne_gotov-1888811",
+      "fetchedAt": "2026-11-08T11:40:34.096Z",
+      "title": "Microsoft создала новый редактор реестра Windows 11 на WinUI 3 - он работает с настоящим реестром, но пока не готов",
+      "byline": "Legend_of_the_Hero",
+      "siteName": "Playground",
+      "content": "Компания Microsoft разработала современную версию редактора реестра Windows 11 на базе WinUI 3 и экспериментального фреймворка Microsoft.UI.Reactor. Журналисты Windows Latest обнаружили приложение в открытом репозитории компании, самостоятельно собрали его и протестировали на Windows 11. В отличие от стандартного Regedit, интерфейс которого практически не изменился со времён Windows 95, новая версия получила современное оформление и полноценный доступ к системному реестру.\nПриложение сохраняет привычную двухпанельную компоновку с деревом разделов слева и списком параметров справа. При этом интерфейс использует современные элементы WinUI, плавные анимации, обновлённую адресную строку и эффект Mica. В нижней части окна отображается текущий путь к выбранному разделу реестра.\nВо время тестирования на Windows 11 Build 26340.9882 программа продемонстрировала хорошую отзывчивость. Разделы HKEY_CLASSES_ROOT и HKEY_LOCAL_MACHINE\\SOFTWARE корректно отображали реальные ключи и параметры. При раскрытии крупных разделов ненадолго появлялся индикатор Loading, после чего содержимое загружалось без заметных задержек.\n\nВ основе редактора лежит Microsoft.UI.Reactor — экспериментальный C#-фреймворк, использующий архитектурную модель Model-View-Update (MVU). Он позволяет создавать нативные интерфейсы WinUI непосредственно на C# без необходимости отдельно описывать страницы XAML и традиционные ViewModel. Для управления состоянием предусмотрены механизмы UseState и UseEffect, напоминающие React, но работающие без JavaScript.\nПрограмма не использует Electron, HTML или WebView2. Все элементы интерфейса являются нативными компонентами WinUI, а взаимодействие с реестром реализовано через отдельный класс RegistryService, использующий API Microsoft.Win32 платформы .NET. Предусмотрена обработка ошибок доступа к защищённым разделам.\nЭкспериментальный редактор уже поддерживает создание, переименование и удаление разделов реестра, поиск сочетанием Ctrl+F и редактирование параметров различных типов, включая String, Binary, DWORD, QWORD, Multi-String и Expandable String.\n\nОднако некоторые функции пока отсутствуют или реализованы частично. Избранные разделы не сохраняются после перезапуска, импорт и экспорт работают через буфер обмена без полноценной поддержки файлов .reg, а Export All ограничен разделом HKEY_LOCAL_MACHINE. Управление разрешениями, загрузка и выгрузка кустов реестра, сетевые подключения и печать пока не реализованы.\nДля тестирования Windows Latest подготовила портативную сборку, включив необходимые компоненты .NET и Windows App SDK. Изменения исходного кода Microsoft при этом не потребовались.\nНовый редактор реестра остаётся экспериментальным проектом, предназначенным для демонстрации возможностей Microsoft.UI.Reactor. Microsoft пока не объявляла о планах заменить стандартный Regedit в Windows 11 или включить приложение в будущие обновления операционной системы.",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/NwXJj_BOWDqzjvM2YhTcNA.jpeg",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/NwXJj_BOWDqzjvM2YhTcNA.jpeg",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/NwXJj_BOWDqzjvM2YhTcNA.jpeg.webp?420xauto",
+          "alt": ""
+        }
+      ],
+      "length": 2896,
+      "imageCount": 3
     }
   }
 }

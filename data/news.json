@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T11:10:19.584Z",
-  "tookMs": 11666,
+  "generatedAt": "2026-11-08T11:40:30.334Z",
+  "tookMs": 11204,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -25,25 +25,25 @@
   },
   "counts": {
     "ai": 122,
-    "games": 115,
+    "games": 116,
     "announces": 40,
     "mobile": 15,
     "releases": 53,
     "rumors": 32,
-    "software": 48,
+    "software": 49,
     "science": 72,
-    "entertainment": 194,
-    "ports": 137,
+    "entertainment": 195,
+    "ports": 138,
     "pc": 54,
     "consoles": 134,
-    "hardware": 50,
+    "hardware": 51,
     "industry": 49,
     "updates": 28,
     "aimods": 2,
     "aisoft": 54,
     "cars": 146,
-    "war": 133,
-    "total": 1478
+    "war": 134,
+    "total": 1484
   },
   "sourceCount": 98,
   "sources": [
@@ -753,6 +753,114 @@
     }
   ],
   "items": [
+    {
+      "id": "gh-1436761699",
+      "title": "Blightwidow/rogue-byte: Byte-matching decompilation of Sly 2: Band of Thieves (PS2, USA). No game data included.",
+      "url": "https://github.com/Blightwidow/rogue-byte",
+      "excerpt": "Byte-matching decompilation of Sly 2: Band of Thieves (PS2, USA). No game data included.",
+      "image": "",
+      "publishedAt": "2026-11-08T11:39:10Z",
+      "addedAt": "2026-11-08T11:40:24.701Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "owzvuy",
+      "title": "WoW: Forever launch used 70,480 CPU cores and 251 terabytes of RAM",
+      "url": "https://www.tomshardware.com/video-games/pc-gaming/wow-forever-launch-used-70-480-cpu-cores-and-251-terabytes-of-ram-3-924-virtual-machines-powered-one-of-world-of-warcrafts-smoothest-launches-ever",
+      "excerpt": "Blizzard pulled out all the stops to ensure World of Warcraft: Forever survived a chaotic launch night. What was the company's secret weapon? Splurging an absurd amount of money on infrastructure made up of 3,924 virtual machines with 70,480 CPU cores and a…",
+      "content": "Blizzard pulled out all the stops to ensure World of Warcraft: Forever survived a chaotic launch night. What was the company's secret weapon? Splurging an absurd amount of money on infrastructure made up of 3,924 virtual machines with 70,480 CPU cores and a whopping 251,136 GB, or 251 TB, of memory.\n\nPraised by media and players as one of the smoothest launches in Blizzard's history, World of Warcraft: Forever requires significant computing firepower. 3,924 virtual machines work out to 18 cores and 64GB of memory per instance. Or, the company could be using a mixture of 16-core and 32-core nodes with slightly less memory.\n\nTo put the infrastructure's scale in consumer terms, we are looking at about 8,810 mainstream processors, or 7,848 high-end gaming systems with 32GB of memory each. In any event, the hardware is greatly improved compared to what World of Warcraft used to run on back in 2009.\n\nIn 2009, Blizzard said it used 10 data centers worldwide to host World of Warcraft. At the time, the infrastructure included 13,250 server blades, totaling 75,000 CPU cores and 112.5 TB of memory. By comparison, World of Warcraft: Forever leverages 6% fewer CPU cores but rocks 2.2X more memory. Modern processors are leagues faster than chips from 17 years ago. By today's standards, the bottleneck is memory capacity and bandwidth, which is why the infrastructure can run on fewer cores but has more than double the memory to compensate.\n\nBlizzard does not specify the exact hardware that World of Warcraft: Forever runs on. However, if we were to translate the core specifications to, for example, AMD's EPYC 128-core Bergamo or 96-core Genoa chips, it could be anywhere between 275 and 365 2U server nodes, depending on which processor it uses. Therefore, World of Warcraft: Forever could be running on just eight to ten 42U server racks, a noteworthy improvement over 17 years ago.\n\nBlizzard should have no trouble building the infrastructure for World of Warcraft: Forever . A ballpark estimate for about ten 42U server racks with EPYC chips is at least $15 million, even with today's memory pricing. But then again, since Microsoft owns Blizzard now, the company could just be tapping its parent's existing Azure platform. Technically, it is not free compute, but Blizzard would benefit from cost pricing and priority allocation of Azure's capacity.\n\nWorld of Warcraft: Forever shows that a high-profile launch does not have to be a nightmare when companies are willing to invest in computing infrastructure. In this case, many would agree Blizzard is putting those 251TB to good use, although Sam Altman may say otherwise .",
+      "image": "https://cdn.mos.cms.futurecdn.net/TNCBNhGaotv4BgQQDz5pbj-1920-80.jpg",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/TNCBNhGaotv4BgQQDz5pbj-1920-80.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T11:30:00.000Z",
+      "sourceId": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "hardware",
+      "lang": "en",
+      "addedAt": "2026-11-08T11:40:19.130Z"
+    },
+    {
+      "id": "16p8mms",
+      "title": "Microsoft создала новый редактор реестра Windows 11 на WinUI 3 - он работает с настоящим реестром, но пока не готов",
+      "url": "https://www.playground.ru/misc/news/microsoft_sozdala_novyj_redaktor_reestra_windows_11_na_winui_3_on_rabotaet_s_nastoyaschim_reestrom_no_poka_ne_gotov-1888811",
+      "excerpt": "Компания Microsoft разработала современную версию редактора реестра Windows 11 на базе WinUI 3 и экспериментального фреймворка Microsoft.UI.Reactor. Журналисты Windows Latest обнаружили приложение в открытом репозитории компании, самостоятельно собрали его и…",
+      "content": "Компания Microsoft разработала современную версию редактора реестра Windows 11 на базе WinUI 3 и экспериментального фреймворка Microsoft.UI.Reactor. Журналисты Windows Latest обнаружили приложение в открытом репозитории компании, самостоятельно собрали его и протестировали на Windows 11. В...",
+      "image": "https://i.playground.ru/e/NwXJj_BOWDqzjvM2YhTcNA.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/NwXJj_BOWDqzjvM2YhTcNA.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T11:26:58.000Z",
+      "sourceId": "playground-software",
+      "source": "Playground Софт",
+      "category": "software",
+      "lang": "ru",
+      "addedAt": "2026-11-08T11:40:19.130Z"
+    },
+    {
+      "id": "oesv4f",
+      "title": "Актеры «Позолоченного века» записали рождественский альбом",
+      "url": "https://www.intermedia.ru/news/407973",
+      "excerpt": "Актерский состав сериала «Позолоченный век» (The Gilded Age) — артисты, каждый из которых обладает богатым опытом выступлений на Бродвее, —...",
+      "content": "Актерский состав сериала «Позолоченный век» (The Gilded Age) — артисты, каждый из которых обладает богатым опытом выступлений на Бродвее, —...",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-08T11:24:00.000Z",
+      "sourceId": "intermedia",
+      "source": "InterMedia",
+      "category": "entertainment",
+      "lang": "ru",
+      "addedAt": "2026-11-08T11:40:19.130Z"
+    },
+    {
+      "id": "lvbi4r",
+      "title": "Хакеры, объявившие о взломе Росстата, утверждают, что в войне с Украиной погибли более 390 тысяч россиян",
+      "url": "https://meduza.io/news/2026/11/08/hakery-ob-yavivshie-o-vzlome-rosstata-utverzhdayut-chto-v-voyne-s-ukrainoy-pogibli-bolee-390-tysyach-rossiyan",
+      "excerpt": "Хакерские группировки «Киберпартизаны BY» и Silent Crow, заявившие, что им удалось взломать Росстат, сообщили , что в войне с Украиной погибли более 390 тысяч россиян к концу августа 2026 года. По подсчетам «Киберпартизан BY», с начала большой войны погиб 393…",
+      "content": "Хакерские группировки «Киберпартизаны BY» и Silent Crow, заявившие, что им удалось взломать Росстат, сообщили , что в войне с Украиной погибли более 390 тысяч россиян к концу августа 2026 года.\n\nПо подсчетам «Киберпартизан BY», с начала большой войны погиб 393 881 россиянин. Речь идет о тех, у кого в системе Росстата в причине смерти указаны военные действия или их последствия.\n\nSilent Crow приводит другие данные. По их подсчетам, погибли 450 100 россиян. Они учитывают не только смерти в результате военных действий и их последствий, но также смерти с отметкой о теракте, небоевые смерти военнослужащих и смерть людей, зарегистрированных в России и умерших на оккупированных территориях или в Украине без указанной причины.\n\nВ  поименных списках погибших, которые собирает «Медиазона» и «Русская служба Би-Би-Си», сейчас около 286 тысяч человек, однако эти списки заведомо неполны — особенно это касается последних месяцев и даже лет. В последнем обновлении совместного исследования «Медузы» и «Медиазоны», сделанном на основе данных Реестра наследственных дел, общее число погибших на конец 2025 года оценивалось в 350 тысяч человек. Таким образом, подсчеты хакерских группировок по порядку цифр соответствуют ожидаемым --- однако пока невозможно сказать, насколько они точны.\n\n«Медуза» и «Медиазона» получили доступ к данным, опубликованным хакерам, и уже занимаются их проверкой. Мы пытаемся не только исключить возможность искусственного отравления данных, но и ответить на вопрос о полноте. Известно, например, что далеко не всегда в медицинских справках, на основании которых выдаются сертификаты о смерти, указывается истинная причина смерти. Еще важнее понимать, что даже внутренние данные Росстата, которые сейчас стали доступны журналистам, не содержат актуальных сведений о пропавших без вести. Такие люди признаются погибшими с большой задержкой; только полноценное исследование позволит ответить на вопрос об их наиболее вероятном числе.\n\nЧитайте также\n\n• 350 тысяч погибших российских солдат Это новая — надежная — оценка потерь ВС РФ за четыре года большой войны. Нам впервые удалось включить в подсчет пропавших без вести военных",
+      "image": "https://meduza.io/imgly/share/1794137643/news/2026/11/08/hakery-ob-yavivshie-o-vzlome-rosstata-utverzhdayut-chto-v-voyne-s-ukrainoy-pogibli-bolee-390-tysyach-rossiyan",
+      "images": [
+        {
+          "url": "https://meduza.io/imgly/share/1794137643/news/2026/11/08/hakery-ob-yavivshie-o-vzlome-rosstata-utverzhdayut-chto-v-voyne-s-ukrainoy-pogibli-bolee-390-tysyach-rossiyan",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T11:16:42.000Z",
+      "sourceId": "meduza",
+      "source": "Meduza",
+      "category": "war",
+      "lang": "ru",
+      "addedAt": "2026-11-08T11:40:19.130Z"
+    },
+    {
+      "id": "1jt2dt3",
+      "title": "Хендерсон: Assassin's Creed Hexe отложили — игра вряд ли выйдет раньше 2028 года",
+      "url": "https://dtf.ru/games/5399937-henderson-assassins-creed-hexe-otlozhili",
+      "excerpt": "Согласно другому источнику, Ubisoft также занята игрой про Древний Рим.",
+      "content": "Согласно другому источнику, Ubisoft также занята игрой про Древний Рим.",
+      "image": "https://leonardo.osnova.io/783f5b01-fe20-572e-b7d2-21a265e9d9e7/",
+      "images": [
+        {
+          "url": "https://leonardo.osnova.io/783f5b01-fe20-572e-b7d2-21a265e9d9e7/",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T11:16:36.000Z",
+      "sourceId": "dtf",
+      "source": "DTF",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-08T11:40:19.130Z"
+    },
     {
       "id": "gh-1376255525",
       "title": "wie-project/PS4Recomp: Experimental  macOS Apple Silicon first recompiler of PS4 programs",
@@ -1518,12 +1626,12 @@
       "id": "1yy2tr0",
       "title": "Кушнер предложил использовать Совет Россия — НАТО в качестве модели для будущих переговоров по безопасности в Европе",
       "url": "https://meduza.io/news/2026/11/08/kushner-predlozhil-ispolzovat-sovet-rossiya-nato-v-kachestve-modeli-dlya-buduschih-peregovorov-po-bezopasnosti-v-evrope",
-      "excerpt": "Спецпосланник президента США, зать Дональда Трампа Джаред Кушнер предложил взять в качестве модели для новой архитектуры безопасности в Европе Совет Россия — НАТО. Об этом сообщил колумнист The Washington Post Дэвид Игнатиус со ссылкой на источник…",
-      "content": "Спецпосланник президента США, зать Дональда Трампа Джаред Кушнер предложил взять в качестве модели для новой архитектуры безопасности в Европе Совет Россия — НАТО.\n\nОб этом сообщил колумнист The Washington Post Дэвид Игнатиус со ссылкой на источник, осведомленный о ходе переговоров.\n\nСовет Россия — НАТО был создан в 2002 году. Его целью было развитие сотрудничества и координация военно-политических действий между РФ и странами-членами НАТО.\n\nЕвропейские политики, пишет Игнатиус, сообщили, что готовы к диалогу с Россией, но согласны обсуждать архитектуру безопасности лишь после того, как будет достигнуто соглашение о прекращении огня между РФ и Украиной.\n\n«Наш подход по-прежнему заключается в том, что эти вопросы можно обсуждать только после войны», — заявил высокопоставленный политик из одной из европейских стран. «Это будет непростое обсуждение», — добавил он.\n\nДжаред Кушнер в начале ноября написал в соцсетях, что Вашингтон работает над новой системой европейской безопасности, которая будет учитывать интересы всех сторон. Для Европы, как отмечала Financial Times, это заявление Кушнера стало «полной неожиданностью». «У нас уже есть европейская архитектура безопасности — НАТО и Европейский союз оба выполняют соответствующие роли», — заявила глава европейской дипломатии Кая Каллас.\n\nПоследнее на настоящий момент заседание Совета Россия — НАТО состоялось в январе 2022 года. Работа совета приостанавливалась в 2008 году после войны в Южной Осетии, а также после аннексии Россией Крыма в 2014 году. В 2008 — 2011 годах постоянным представителем России при НАТО был Дмитрий Рогозин. Сейчас Рогозин является сенатором от частично оккупированной Россией Запорожской области.\n\nЧитайте также\n\n• Война 1718-й день. Заявление Трампа о «большой прекрасной сделке» с Россией застало Европу врасплох. Европейские лидеры опасаются, что Москва лишь выиграет время для ударов",
-      "image": "https://meduza.io/imgly/share/1794130980/news/2026/11/08/kushner-predlozhil-ispolzovat-sovet-rossiya-nato-v-kachestve-modeli-dlya-buduschih-peregovorov-po-bezopasnosti-v-evrope",
+      "excerpt": "Спецпосланник президента США, зять Дональда Трампа Джаред Кушнер предложил взять в качестве модели для новой архитектуры безопасности в Европе Совет Россия — НАТО. Об этом сообщил колумнист The Washington Post Дэвид Игнатиус со ссылкой на источник…",
+      "content": "Спецпосланник президента США, зять Дональда Трампа Джаред Кушнер предложил взять в качестве модели для новой архитектуры безопасности в Европе Совет Россия — НАТО.\n\nОб этом сообщил колумнист The Washington Post Дэвид Игнатиус со ссылкой на источник, осведомленный о ходе переговоров.\n\nСовет Россия — НАТО был создан в 2002 году. Его целью было развитие сотрудничества и координация военно-политических действий между РФ и странами-членами НАТО.\n\nЕвропейские политики, пишет Игнатиус, сообщили, что готовы к диалогу с Россией, но согласны обсуждать архитектуру безопасности лишь после того, как будет достигнуто соглашение о прекращении огня между РФ и Украиной.\n\n«Наш подход по-прежнему заключается в том, что эти вопросы можно обсуждать только после войны», — заявил высокопоставленный политик из одной из европейских стран. «Это будет непростое обсуждение», — добавил он.\n\nДжаред Кушнер в начале ноября написал в соцсетях, что Вашингтон работает над новой системой европейской безопасности, которая будет учитывать интересы всех сторон. Для Европы, как отмечала Financial Times, это заявление Кушнера стало «полной неожиданностью». «У нас уже есть европейская архитектура безопасности — НАТО и Европейский союз оба выполняют соответствующие роли», — заявила глава европейской дипломатии Кая Каллас.\n\nПоследнее на настоящий момент заседание Совета Россия — НАТО состоялось в январе 2022 года. Работа совета приостанавливалась в 2008 году после войны в Южной Осетии, а также после аннексии Россией Крыма в 2014 году. В 2008 — 2011 годах постоянным представителем России при НАТО был Дмитрий Рогозин. Сейчас Рогозин является сенатором от частично оккупированной Россией Запорожской области.\n\nЧитайте также\n\n• Война 1718-й день. Заявление Трампа о «большой прекрасной сделке» с Россией застало Европу врасплох. Европейские лидеры опасаются, что Москва лишь выиграет время для ударов",
+      "image": "https://meduza.io/imgly/share/1794136851/news/2026/11/08/kushner-predlozhil-ispolzovat-sovet-rossiya-nato-v-kachestve-modeli-dlya-buduschih-peregovorov-po-bezopasnosti-v-evrope",
       "images": [
         {
-          "url": "https://meduza.io/imgly/share/1794130980/news/2026/11/08/kushner-predlozhil-ispolzovat-sovet-rossiya-nato-v-kachestve-modeli-dlya-buduschih-peregovorov-po-bezopasnosti-v-evrope",
+          "url": "https://meduza.io/imgly/share/1794136851/news/2026/11/08/kushner-predlozhil-ispolzovat-sovet-rossiya-nato-v-kachestve-modeli-dlya-buduschih-peregovorov-po-bezopasnosti-v-evrope",
           "alt": ""
         }
       ],
@@ -2649,8 +2757,8 @@
       "id": "vduo6c",
       "title": "Goodbye Claude, Hello Pi",
       "url": "https://caleb.software/posts/claude-to-pi.html",
-      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 343 # Comments: 204",
-      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 343\n\n# Comments: 204",
+      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 356 # Comments: 217",
+      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 356\n\n# Comments: 217",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T03:11:48.000Z",
@@ -2927,7 +3035,7 @@
       "url": "https://github.com/7v0biscuit/OpenKai2",
       "excerpt": "A Native Windows Port of Dragon Ball Z: Budokai 2",
       "image": "",
-      "publishedAt": "2026-11-08T11:07:35Z",
+      "publishedAt": "2026-11-08T11:38:05Z",
       "addedAt": "2026-11-08T05:40:16.174Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -4007,7 +4115,7 @@
       "url": "https://github.com/Destinity13/TimeSplitters-2-Native-Linux-Recomp",
       "excerpt": "TimeSplitters 2 (PS2, NTSC-U) statically recompiled to a native Linux executable – HD remaster: 60 FPS, real 16:9, up to 8x resolution, split-screen co-op, verified against PCSX2",
       "image": "",
-      "publishedAt": "2026-11-08T11:07:36Z",
+      "publishedAt": "2026-11-08T11:20:46Z",
       "addedAt": "2026-11-08T01:40:14.870Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -4567,8 +4675,8 @@
       "id": "zof7yv",
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 411 # Comments: 277",
-      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 411\n\n# Comments: 277",
+      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 423 # Comments: 287",
+      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 423\n\n# Comments: 287",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T20:45:32.000Z",
@@ -4724,7 +4832,7 @@
       "url": "https://github.com/vyanhursky/DefJamFFNY-recomp",
       "excerpt": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
       "image": "",
-      "publishedAt": "2026-11-08T07:49:39Z",
+      "publishedAt": "2026-11-08T11:35:19Z",
       "addedAt": "2026-11-07T23:10:10.266Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -6286,8 +6394,8 @@
       "id": "1fzmty1",
       "title": "The end of Microsoft Research's AI Frontiers group",
       "url": "https://hunch.net/?p=13764006",
-      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 464 # Comments: 277",
-      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 464\n\n# Comments: 277",
+      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 464 # Comments: 278",
+      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 464\n\n# Comments: 278",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T18:02:17.000Z",
@@ -6373,8 +6481,8 @@
       "id": "6a6jp5",
       "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
       "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 325 # Comments: 84",
-      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 325\n\n# Comments: 84",
+      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 330 # Comments: 84",
+      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 330\n\n# Comments: 84",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T17:19:00.000Z",
@@ -7087,7 +7195,7 @@
       "url": "https://github.com/makkaX2/DroneFlames-PC-Port",
       "excerpt": "🚁 DroneFlames PC Port (Windows x64) — native PC controls, WASD camera, smooth zoom, multiplayer & automated CI/CD builds by @good_boy_irl.",
       "image": "",
-      "publishedAt": "2026-11-08T10:57:17Z",
+      "publishedAt": "2026-11-08T11:23:38Z",
       "addedAt": "2026-11-07T18:00:02.232Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -10577,8 +10685,8 @@
       "id": "1iqgq9j",
       "title": "Every Mac comes with an (undocumented) family member classifier",
       "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 738 # Comments: 393",
-      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 738\n\n# Comments: 393",
+      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 743 # Comments: 397",
+      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 743\n\n# Comments: 397",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T09:46:03.000Z",
@@ -12247,7 +12355,7 @@
       "url": "https://github.com/YodaMMM/NightfirePort",
       "excerpt": "Nightfire Rust: a native Windows PC port of 007: Nightfire (PS2), written in Rust",
       "image": "",
-      "publishedAt": "2026-11-08T11:05:42Z",
+      "publishedAt": "2026-11-08T11:39:00Z",
       "addedAt": "2026-11-07T09:10:09.502Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -13698,12 +13806,12 @@
       "addedAt": "2026-11-07T06:16:14.418Z"
     },
     {
-      "id": "gh-1441366661",
-      "title": "nekomancer01/DarkSoulsPS2: Homebrew PS2 port of Dark Souls Remastered: C/VU1 engine plus exporters that read your own copy of the game (no game data included)",
-      "url": "https://github.com/nekomancer01/DarkSoulsPS2",
-      "excerpt": "Homebrew PS2 port of Dark Souls Remastered: C/VU1 engine plus exporters that read your own copy of the game (no game data included)",
+      "id": "gh-1354613114",
+      "title": "boburning/portcove: Local-first manager for decompilations, recompilations, and native PC ports.",
+      "url": "https://github.com/boburning/portcove",
+      "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
       "image": "",
-      "publishedAt": "2026-11-08T11:04:53Z",
+      "publishedAt": "2026-11-08T11:36:30Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -13711,12 +13819,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1354613114",
-      "title": "boburning/portcove: Local-first manager for decompilations, recompilations, and native PC ports.",
-      "url": "https://github.com/boburning/portcove",
-      "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
+      "id": "gh-1441366661",
+      "title": "nekomancer01/DarkSoulsPS2: Homebrew PS2 port of Dark Souls Remastered: C/VU1 engine plus exporters that read your own copy of the game (no game data included)",
+      "url": "https://github.com/nekomancer01/DarkSoulsPS2",
+      "excerpt": "Homebrew PS2 port of Dark Souls Remastered: C/VU1 engine plus exporters that read your own copy of the game (no game data included)",
       "image": "",
-      "publishedAt": "2026-11-08T11:03:33Z",
+      "publishedAt": "2026-11-08T11:25:49Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -15013,11 +15121,11 @@
     },
     {
       "id": "gh-1441934743",
-      "title": "Lucas-blip-png/dkb-pc-recomp: Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. The 3D tutorial renders; not playable yet. No game files included.",
+      "title": "Lucas-blip-png/dkb-pc-recomp: Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Plays from the title screen through the first stage on an RTX 5060 Ti; still early, can crash. No game files included.",
       "url": "https://github.com/Lucas-blip-png/dkb-pc-recomp",
-      "excerpt": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. The 3D tutorial renders; not playable yet. No game files included.",
+      "excerpt": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Plays from the title screen through the first stage on an RTX 5060 Ti; still early, can crash. No game files included.",
       "image": "",
-      "publishedAt": "2026-11-08T06:03:25Z",
+      "publishedAt": "2026-11-08T11:22:29Z",
       "addedAt": "2026-11-07T06:02:57.825Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -30406,10 +30514,10 @@
     },
     {
       "id": "130ljkl",
-      "title": "Война в Украине: атаки на Одессу и удар по мосту на трассе «Новороссия»",
+      "title": "Война в Украине: Россия атаковала пригород Днепра, есть погибший и раненые",
       "url": "https://www.bbc.co.uk/russian/live/cmjrwvyj4jy8t?at_medium=RSS&at_campaign=rss",
       "excerpt": "Последние новости, комментарии и видео о войне России против Украины.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1042/live/b49e3dd0-daf8-11f1-b9a2-091c4f802785.jpg",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a44e/live/b56c15b0-db67-11f1-b441-2b33b063138f.jpg",
       "publishedAt": null,
       "sourceId": "bbc-ru",
       "source": "BBC Russian",
@@ -30419,7 +30527,7 @@
       "content": "Последние новости, комментарии и видео о войне России против Украины.",
       "images": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/1042/live/b49e3dd0-daf8-11f1-b9a2-091c4f802785.jpg",
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a44e/live/b56c15b0-db67-11f1-b441-2b33b063138f.jpg",
           "alt": ""
         }
       ]
