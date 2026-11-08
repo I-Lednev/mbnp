@@ -215,7 +215,18 @@
                 <circle cx="11" cy="11" r="7" stroke="currentColor" stroke-width="1.8" />
                 <path d="m16.5 16.5 4 4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" />
               </svg>
-              <input id="searchInput" type="search" placeholder="Поиск по новостям…" autocomplete="off" spellcheck="false" />
+              <input
+                id="searchInput"
+                type="search"
+                name="search"
+                placeholder="Поиск по новостям…"
+                autocomplete="off"
+                autocapitalize="none"
+                spellcheck="false"
+                readonly
+                data-lpignore="true"
+                data-form-type="other"
+              />
             </label>
 
             <label class="select">
@@ -449,7 +460,7 @@
       (async () => {
         for (let attempt = 0; attempt < 4; attempt += 1) {
           try {
-            await import(`./app.js?v=31&retry=${attempt}`);
+            await import(`./app.js?v=32&retry=${attempt}`);
             return;
           } catch (error) {
             console.warn('Не удалось загрузить app.js, повтор…', error);
