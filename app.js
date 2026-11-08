@@ -1761,6 +1761,16 @@ function formatWeekRange(week) {
 /* ── События ──────────────────────────────────────────────────────────── */
 
 function bindEvents() {
+  const unlockSearch = () => {
+    if (els.search.hasAttribute('readonly')) {
+      els.search.removeAttribute('readonly');
+    }
+  };
+
+  els.search.addEventListener('pointerdown', unlockSearch);
+  els.search.addEventListener('focus', unlockSearch);
+  els.search.addEventListener('keydown', unlockSearch);
+
   for (const tab of els.tabs) {
     tab.addEventListener('click', () => {
       if (tab.dataset.category === state.category) return;
