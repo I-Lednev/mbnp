@@ -198,6 +198,7 @@ function startApp() {
 
   hideAuthGate();
   if (els.translationSelect) els.translationSelect.value = state.translation;
+  if (els.search) els.search.value = state.query;
   bindEvents();
   updateCounts();
   updateHiddenBadge();
