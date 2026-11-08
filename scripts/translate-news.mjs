@@ -57,7 +57,26 @@ function hash(value) {
 }
 
 function sourceHash(item, content) {
-  return hash(`${item.lang || ''}\n${item.title}\n${item.excerpt || ''}\n${(content || '').slice(0, 1500)}`);
+  const limit = item.category === 'newsletters' ? 6000 : 1500;
+  return hash(`${item.lang || ''}\n${item.title}\n${item.excerpt || ''}\n${(content || '').slice(0, limit)}`);
+}
+
+function chunkText(text, size) {
+  const chunks = [];
+  let rest = String(text || '').trim();
+
+  while (rest.length > size) {
+    let cut = rest.lastIndexOf('\n\n', size);
+    if (cut < size * 0.4) cut = rest.lastIndexOf('. ', size);
+    if (cut < size * 0.4) cut = rest.lastIndexOf(' ', size);
+    if (cut < size * 0.4) cut = size;
+
+    chunks.push(rest.slice(0, cut).trim());
+    rest = rest.slice(cut).trim();
+  }
+
+  if (rest) chunks.push(rest);
+  return chunks.filter(Boolean);
 }
 
 function sleep(ms) {
@@ -402,8 +421,13 @@ async function main() {
       for (const entry of group) {
         tasks.push({ entry, field: 'title', text: entry.item.title });
         if (entry.item.excerpt) tasks.push({ entry, field: 'excerpt', text: entry.item.excerpt });
+
         if (entry.content) {
-          tasks.push({ entry, field: 'content', text: entry.content.slice(0, 1500) });
+          const limit = entry.item.category === 'newsletters' ? 12_000 : 1_500;
+          const chunks = chunkText(entry.content.slice(0, limit), 3000);
+          chunks.forEach((chunk, index) => {
+            tasks.push({ entry, field: `content:${index}`, text: chunk });
+          });
         }
       }
 
@@ -438,10 +462,17 @@ async function main() {
         const entry = group[index];
         const titleIndex = tasks.findIndex((task) => task.entry === entry && task.field === 'title');
         const excerptIndex = tasks.findIndex((task) => task.entry === entry && task.field === 'excerpt');
-        const contentIndex = tasks.findIndex((task) => task.entry === entry && task.field === 'content');
+
+        const contentParts = tasks
+          .map((task, taskIndex) => ({ task, taskIndex }))
+          .filter(({ task }) => task.entry === entry && task.field.startsWith('content:'))
+          .sort((a, b) => Number(a.task.field.slice(8)) - Number(b.task.field.slice(8)))
+          .map(({ taskIndex }) => translated?.[taskIndex] || '')
+          .filter(Boolean);
+
         const title = translated?.[titleIndex] || '';
         const excerpt = excerptIndex >= 0 ? translated?.[excerptIndex] || '' : '';
-        const content = contentIndex >= 0 ? translated?.[contentIndex] || '' : '';
+        const content = contentParts.join('\n\n');
 
         if (!title) {
           failed += 1;
