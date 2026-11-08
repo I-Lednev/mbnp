@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T01:47:58.658Z",
-  "tookMs": 8534,
+  "generatedAt": "2026-11-08T02:10:19.852Z",
+  "tookMs": 10692,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -33,7 +33,7 @@
     "software": 46,
     "science": 67,
     "entertainment": 159,
-    "ports": 110,
+    "ports": 112,
     "pc": 53,
     "consoles": 123,
     "hardware": 46,
@@ -41,9 +41,9 @@
     "updates": 27,
     "aimods": 2,
     "aisoft": 53,
-    "cars": 121,
-    "war": 112,
-    "total": 1308
+    "cars": 122,
+    "war": 114,
+    "total": 1313
   },
   "sourceCount": 98,
   "sources": [
@@ -754,6 +754,92 @@
   ],
   "items": [
     {
+      "id": "gh-1439790250",
+      "title": "Putrefacto669/Cry-Of-Fear-PortWeb: Port web no oficial de Cry of Fear jugable en el navegador (WebAssembly + WebGL 2, Xash3D FWGS). Gratis y de código abierto, con permiso de su autor.",
+      "url": "https://github.com/Putrefacto669/Cry-Of-Fear-PortWeb",
+      "excerpt": "Port web no oficial de Cry of Fear jugable en el navegador (WebAssembly + WebGL 2, Xash3D FWGS). Gratis y de código abierto, con permiso de su autor.",
+      "image": "",
+      "publishedAt": "2026-11-08T02:03:36Z",
+      "addedAt": "2026-11-08T02:10:12.970Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1408068472",
+      "title": "NoRain211/doa3-re: Native Windows port of Dead or Alive 3 (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
+      "url": "https://github.com/NoRain211/doa3-re",
+      "excerpt": "Native Windows port of Dead or Alive 3 (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
+      "image": "",
+      "publishedAt": "2026-11-08T00:38:03Z",
+      "addedAt": "2026-11-08T02:10:12.970Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "n6u69h",
+      "title": "Контррозвідка попереджає естонських студентів у Росії про ризики вербування",
+      "url": "https://www.ukrinform.ua/rubric-world/4182540-kontrrozvidka-poperedzae-estonskih-studentiv-u-rosii-pro-riziki-verbuvanna.html",
+      "excerpt": "Попри офіційні застереження, майже 400 молодих людей з Естонії навчаються в Росії, де ризикують бути завербованими спецслужбами або відправленими на фронт.",
+      "content": "Попри офіційні застереження, майже 400 молодих людей з Естонії навчаються в Росії, де ризикують бути завербованими спецслужбами або відправленими на фронт.",
+      "image": "https://static.ukrinform.com/photos/2025_10/thumb_files/630_360_1761224467-185.jpg",
+      "images": [
+        {
+          "url": "https://static.ukrinform.com/photos/2025_10/thumb_files/630_360_1761224467-185.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T02:06:00.000Z",
+      "sourceId": "ukrinform",
+      "source": "Ukrinform",
+      "category": "war",
+      "lang": "uk",
+      "addedAt": "2026-11-08T02:10:09.160Z"
+    },
+    {
+      "id": "qzqfmk",
+      "title": "Штрафа за опасное вождение не будет — плохо или хорошо?",
+      "url": "https://www.zr.ru/content/news/988185-shtrafa-za-opasnoe-vozhdenie-ne/",
+      "excerpt": "Максим Кадаков: термин «опасное вождение» очень сложно оцифровать",
+      "content": "Максим Кадаков: термин «опасное вождение» очень сложно оцифровать",
+      "image": "https://www.zr.ru/_ah/img/KRo8qAM1cS-kpkKXy6TCSw",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/KRo8qAM1cS-kpkKXy6TCSw",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T02:00:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-08T02:10:09.160Z"
+    },
+    {
+      "id": "1bai9nq",
+      "title": "Кабмін розподілив понад ₴15 мільйонів від ООН на обладнання для шкільних їдалень",
+      "url": "https://www.ukrinform.ua/rubric-society/4182538-kabmin-rozpodiliv-ponad-15-miljoniv-vid-oon-na-obladnanna-dla-skilnih-idalen.html",
+      "excerpt": "Уряд розподілив понад 15 млн грн допомоги Всесвітньої продовольчої програми ООН на закупівлю обладнання для шкільних їдалень і харчоблоків у 203 прифронтових закладах освіти.",
+      "content": "Уряд розподілив понад 15 млн грн допомоги Всесвітньої продовольчої програми ООН на закупівлю обладнання для шкільних їдалень і харчоблоків у 203 прифронтових закладах освіти.",
+      "image": "https://static.ukrinform.com/photos/2026_09/thumb_files/630_360_1789147715-958.png",
+      "images": [
+        {
+          "url": "https://static.ukrinform.com/photos/2026_09/thumb_files/630_360_1789147715-958.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T01:44:00.000Z",
+      "sourceId": "ukrinform",
+      "source": "Ukrinform",
+      "category": "war",
+      "lang": "uk",
+      "addedAt": "2026-11-08T02:10:09.160Z"
+    },
+    {
       "id": "gh-1380768510",
       "title": "YuutaTsubasa/Free-Riders-Recompiled: Unofficial static recompilation of Sonic Free Riders for Windows, Linux and Android, with controller/keyboard support, custom VRM avatars, and Kinect v1, Kinect v2 (experimental) and webcam motion controls on Windows.",
       "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled",
@@ -785,7 +871,7 @@
       "url": "https://github.com/Destinity13/TimeSplitters-2-Native-Linux-Recomp",
       "excerpt": "TimeSplitters 2 (PS2, NTSC-U) statically recompiled to a native Linux executable – HD remaster: 60 FPS, real 16:9, up to 8x resolution, split-screen co-op, verified against PCSX2",
       "image": "",
-      "publishedAt": "2026-11-08T01:27:56Z",
+      "publishedAt": "2026-11-08T01:57:10Z",
       "addedAt": "2026-11-08T01:40:14.870Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -1345,8 +1431,8 @@
       "id": "zof7yv",
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 172 # Comments: 122",
-      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 172\n\n# Comments: 122",
+      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 185 # Comments: 129",
+      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 185\n\n# Comments: 129",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T20:45:32.000Z",
@@ -2179,8 +2265,8 @@
       "id": "bvrscu",
       "title": "UFC’s Dana White As White House Press Secretary? Trump Says “Please Take The Job!”",
       "url": "https://deadline.com/2026/11/dana-white-donald-trump-1237216350/",
-      "excerpt": "Donald Trump says he has offered the job of White House press secretary to UFC President and CEO Dana White, “a violent Fighter and Warrior,” in the president’s words. It was not immediately clear whether Trump was joking, trolling, both or neither. If White…",
-      "content": "Donald Trump says he has offered the job of White House press secretary to UFC President and CEO Dana White, “a violent Fighter and Warrior,” in the president’s words. It was not immediately clear whether Trump was joking, trolling, both or neither. If White accepts the gig, he would fill the vacancy left when the […]",
+      "excerpt": "UPDATED: Donald Trump says he has offered the job of White House press secretary to UFC President and CEO Dana White, “a violent Fighter and Warrior,” in the president’s words. It was not immediately clear whether Trump was joking, trolling, both or neither…",
+      "content": "UPDATED: Donald Trump says he has offered the job of White House press secretary to UFC President and CEO Dana White, “a violent Fighter and Warrior,” in the president’s words. It was not immediately clear whether Trump was joking, trolling, both or neither. If White accepts the gig, he would fill the vacancy left when […]",
       "image": "https://deadline.com/wp-content/uploads/2026/11/GettyImages-1202122681-e1794083568490.jpg",
       "images": [
         {
@@ -3064,8 +3150,8 @@
       "id": "1fzmty1",
       "title": "The end of Microsoft Research's AI Frontiers group",
       "url": "https://hunch.net/?p=13764006",
-      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 378 # Comments: 221",
-      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 378\n\n# Comments: 221",
+      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 389 # Comments: 226",
+      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 389\n\n# Comments: 226",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T18:02:17.000Z",
@@ -3151,8 +3237,8 @@
       "id": "6a6jp5",
       "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
       "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 202 # Comments: 57",
-      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 202\n\n# Comments: 57",
+      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 205 # Comments: 63",
+      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 205\n\n# Comments: 63",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T17:19:00.000Z",
@@ -3774,7 +3860,7 @@
       "url": "https://github.com/TheBozos/VP2S_Recomp",
       "excerpt": "Native PC port of Valkyrie Profile 2: Silmeria (USA, SLUS-21452) by static recompilation with PS2Recomp: native renderer and audio, no GS/VU1/SPU2 emulation. No game data or keys included.",
       "image": "",
-      "publishedAt": "2026-11-08T01:44:02Z",
+      "publishedAt": "2026-11-08T02:04:36Z",
       "addedAt": "2026-11-07T18:00:03.196Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -3865,7 +3951,7 @@
       "url": "https://github.com/TheBozos/TMB_Recomp",
       "excerpt": "Twisted Metal: Black (USA, SCUS-97101) as a native PC port: static recompilation with PS2Recomp (no game data)",
       "image": "",
-      "publishedAt": "2026-11-08T01:19:52Z",
+      "publishedAt": "2026-11-08T01:56:36Z",
       "addedAt": "2026-11-07T18:00:02.232Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -7355,8 +7441,8 @@
       "id": "1iqgq9j",
       "title": "Every Mac comes with an (undocumented) family member classifier",
       "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 596 # Comments: 345",
-      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 596\n\n# Comments: 345",
+      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 606 # Comments: 348",
+      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 606\n\n# Comments: 348",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T09:46:03.000Z",
@@ -10481,7 +10567,7 @@
       "url": "https://github.com/boburning/portcove",
       "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
       "image": "",
-      "publishedAt": "2026-11-08T01:47:27Z",
+      "publishedAt": "2026-11-08T02:03:26Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
