@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T12:47:19.970Z",
-  "tookMs": 7733,
+  "generatedAt": "2026-11-08T12:47:49.589Z",
+  "tookMs": 9408,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -12,7 +12,6 @@
     "software": "Софт",
     "science": "Наука",
     "entertainment": "Развлечения",
-    "newsletters": "Рассылки",
     "ports": "Порты",
     "pc": "ПК",
     "consoles": "Консоли",
@@ -34,7 +33,6 @@
     "software": 35,
     "science": 75,
     "entertainment": 195,
-    "newsletters": 0,
     "ports": 144,
     "pc": 50,
     "consoles": 124,
@@ -47,7 +45,7 @@
     "war": 138,
     "total": 1396
   },
-  "sourceCount": 90,
+  "sourceCount": 89,
   "sources": [
     {
       "id": "techcrunch-ai",
@@ -328,13 +326,6 @@
       "category": "entertainment",
       "lang": "ru",
       "url": "https://www.intermedia.ru/rss"
-    },
-    {
-      "id": "aibrews",
-      "name": "AI Brews",
-      "category": "newsletters",
-      "lang": "en",
-      "url": "https://aibrews.substack.com/api/v1/archive?sort=new&limit=20"
     },
     {
       "id": "github-ports",
@@ -682,11 +673,6 @@
   ],
   "errors": [
     {
-      "source": "AI Brews",
-      "url": "https://aibrews.substack.com/api/v1/archive?sort=new&limit=20",
-      "error": "HTTP 403"
-    },
-    {
       "source": "r/emulation",
       "url": "https://www.reddit.com/r/emulation/new/.rss",
       "error": "HTTP 429",
@@ -711,7 +697,7 @@
       "excerpt": "A Work-In-Progress reverse engineering and asset viewer/extractor of Legaia 2: Duel Saga for the PlayStation 2 (PAL, SLES-50891).",
       "image": "",
       "publishedAt": "2026-11-08T12:44:52Z",
-      "addedAt": "2026-11-08T12:47:16.254Z",
+      "addedAt": "2026-11-08T12:47:44.920Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -735,7 +721,7 @@
       "source": "Tom's Hardware",
       "category": "hardware",
       "lang": "en",
-      "addedAt": "2026-11-08T12:47:12.237Z"
+      "addedAt": "2026-11-08T12:47:40.181Z"
     },
     {
       "id": "1p3p6vh",
@@ -759,7 +745,7 @@
       "source": "Ars Technica Science",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-08T12:47:12.237Z"
+      "addedAt": "2026-11-08T12:47:40.181Z"
     },
     {
       "id": "gh-638464462",
