@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T01:20:59.567Z",
-  "tookMs": 11387,
+  "generatedAt": "2026-11-08T01:40:21.598Z",
+  "tookMs": 11008,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -31,10 +31,10 @@
     "releases": 45,
     "rumors": 29,
     "software": 46,
-    "science": 66,
+    "science": 67,
     "entertainment": 159,
-    "ports": 107,
-    "pc": 52,
+    "ports": 110,
+    "pc": 53,
     "consoles": 123,
     "hardware": 46,
     "industry": 44,
@@ -43,7 +43,7 @@
     "aisoft": 53,
     "cars": 121,
     "war": 112,
-    "total": 1303
+    "total": 1308
   },
   "sourceCount": 98,
   "sources": [
@@ -736,12 +736,6 @@
   ],
   "errors": [
     {
-      "source": "Nature",
-      "url": "https://www.nature.com/nature.rss",
-      "error": "ответ не похож на RSS/Atom",
-      "reused": 10
-    },
-    {
       "source": "r/emulation",
       "url": "https://www.reddit.com/r/emulation/new/.rss",
       "error": "HTTP 429",
@@ -759,6 +753,89 @@
     }
   ],
   "items": [
+    {
+      "id": "gh-1380768510",
+      "title": "YuutaTsubasa/Free-Riders-Recompiled: Unofficial static recompilation of Sonic Free Riders for Windows, Linux and Android, with controller/keyboard support, custom VRM avatars, and Kinect v1, Kinect v2 (experimental) and webcam motion controls on Windows.",
+      "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled",
+      "excerpt": "Unofficial static recompilation of Sonic Free Riders for Windows, Linux and Android, with controller/keyboard support, custom VRM avatars, and Kinect v1, Kinect v2 (experimental) and webcam motion controls on Windows.",
+      "image": "",
+      "publishedAt": "2026-11-08T01:33:39Z",
+      "addedAt": "2026-11-08T01:40:15.873Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1448035370",
+      "title": "Destinity13/shadow-of-the-colossus-recomp: Shadow of the Colossus — Native Linux Port  The PS2 game, statically recompiled into a native Linux executable and rebuilt as an HD remaster.",
+      "url": "https://github.com/Destinity13/shadow-of-the-colossus-recomp",
+      "excerpt": "Shadow of the Colossus — Native Linux Port  The PS2 game, statically recompiled into a native Linux executable and rebuilt as an HD remaster.",
+      "image": "",
+      "publishedAt": "2026-11-08T01:26:38Z",
+      "addedAt": "2026-11-08T01:40:15.873Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1449120748",
+      "title": "Destinity13/TimeSplitters-2-Native-Linux-Recomp: TimeSplitters 2 (PS2, NTSC-U) statically recompiled to a native Linux executable – HD remaster: 60 FPS, real 16:9, up to 8x resolution, split-screen co-op, verified against PCSX2",
+      "url": "https://github.com/Destinity13/TimeSplitters-2-Native-Linux-Recomp",
+      "excerpt": "TimeSplitters 2 (PS2, NTSC-U) statically recompiled to a native Linux executable – HD remaster: 60 FPS, real 16:9, up to 8x resolution, split-screen co-op, verified against PCSX2",
+      "image": "",
+      "publishedAt": "2026-11-08T01:27:56Z",
+      "addedAt": "2026-11-08T01:40:14.870Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "3o1dog",
+      "title": "A BioWare documentary was already in the works when the shutdown was announced: 'With the studio's recent closure, the film is now a profound valediction'",
+      "url": "https://www.pcgamer.com/gaming-industry/a-bioware-documentary-was-already-in-the-works-when-the-shutdown-was-announced-with-the-studios-recent-closure-the-film-is-now-a-profound-valediction/",
+      "excerpt": "Deadline reports that a Canadian documentary about the history of BioWare was already two years into filming when EA closed the studio. Now, it's becoming a sad goodbye to a legendary developer. \"The BioWare founders are my hometown heroes,\" the documentary's…",
+      "content": "Deadline reports that a Canadian documentary about the history of BioWare was already two years into filming when EA closed the studio. Now, it's becoming a sad goodbye to a legendary developer.\n\n\"The BioWare founders are my hometown heroes,\" the documentary's writer and director Akash Sherman said. \"It's a privilege and responsibility to share the journey of underdogs who came together to create deeply beloved storytelling. Their golden era kindled a spark in me and in an entire generation. With the studio's recent closure, the film is now a profound valediction.\"\n\nThe documentary, Massive Effect: The BioWare Story, features interviews with the studio's founders, Ray Muzyka, Greg Zeschuk, and Augustine Yip, as well as developers Casey Hudson, Mark Darrah, David Gaider, Drew Karpyshyn, Aaryn Flynn, Mac Walters, Trent Oster, James Ohlen, and Caroline Livingstone, voice actor Jennifer Hale, former CEO of EA John Riccitello, and vice president of Lucasfilm Games Douglas Reilly.\n\n\"When the production team asked for our blessing to tell the BioWare story, we were honored and genuinely moved,\" Muzyka and Zeschuk said in a statement. \"BioWare was never just about the logo or the building. It was about deeply emotionally engaging stories and characters, brought to life by the amazingly talented people on our dev teams, and our excellent production and distribution partners who helped us bring those stories successfully to all corners of the planet, and our passionate fans who defended those worlds, championed them and carried them forward. We're proud this film honors those who made it all possible. The best stories never really end. They live on in our memories and wait for someone to pick them up again.\"\n\nMassive Effect: The BioWare Story is scheduled for release next year. Meanwhile, composer Sam Hulick has shared a re-scored version of the leaked trailer for Mass Effect Universe as his own way of saying goodbye, though apparently Amazon's Mass Effect TV series is still in the works .\n\nBest laptop games : Low-spec life\nBest Steam Deck games : Handheld must-haves\nBest browser games : No install needed\nBest indie games : Independent excellence\nBest co-op games : Better together",
+      "image": "https://cdn.mos.cms.futurecdn.net/uSjqHDZA7WMXxsKULPqTL3-1920-80.jpg",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/uSjqHDZA7WMXxsKULPqTL3-1920-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/o2twU6ehEfeJDWWUZMiEsB-1920-80.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T01:31:13.000Z",
+      "sourceId": "pcgamer",
+      "source": "PC Gamer",
+      "category": "pc",
+      "lang": "en",
+      "addedAt": "2026-11-08T01:40:10.590Z"
+    },
+    {
+      "id": "17m8ln9",
+      "title": "Why the tropics lose the most birds when cities expand",
+      "url": "https://phys.org/news/2026-11-tropics-birds-cities.html",
+      "excerpt": "Tropical ecosystems are famous for their teeming, exuberant diversity. In fact, the dramatic increase in biodiversity from the poles to the tropics—known as the latitudinal diversity gradient—is pervasive across branches of the tree of life, and fossil…",
+      "content": "Tropical ecosystems are famous for their teeming, exuberant diversity. In fact, the dramatic increase in biodiversity from the poles to the tropics—known as the latitudinal diversity gradient—is pervasive across branches of the tree of life, and fossil evidence suggests it has existed for millennia.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/birds-tropical-city.jpg",
+      "images": [
+        {
+          "url": "https://scx1.b-cdn.net/csz/news/tmb/2026/birds-tropical-city.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T01:30:01.000Z",
+      "sourceId": "physorg",
+      "source": "Phys.org",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-08T01:40:10.590Z"
+    },
     {
       "id": "gh-1321785975",
       "title": "portemon-nitro/portemon: Getting HeartGold/SoulSilver out of the DS",
@@ -1268,8 +1345,8 @@
       "id": "zof7yv",
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 163 # Comments: 113",
-      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 163\n\n# Comments: 113",
+      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 172 # Comments: 122",
+      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 172\n\n# Comments: 122",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T20:45:32.000Z",
@@ -2987,8 +3064,8 @@
       "id": "1fzmty1",
       "title": "The end of Microsoft Research's AI Frontiers group",
       "url": "https://hunch.net/?p=13764006",
-      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 369 # Comments: 211",
-      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 369\n\n# Comments: 211",
+      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 378 # Comments: 221",
+      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 378\n\n# Comments: 221",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T18:02:17.000Z",
@@ -3074,8 +3151,8 @@
       "id": "6a6jp5",
       "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
       "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 192 # Comments: 56",
-      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 192\n\n# Comments: 56",
+      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 202 # Comments: 57",
+      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 202\n\n# Comments: 57",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T17:19:00.000Z",
@@ -3697,7 +3774,7 @@
       "url": "https://github.com/TheBozos/VP2S_Recomp",
       "excerpt": "Native PC port of Valkyrie Profile 2: Silmeria (USA, SLUS-21452) by static recompilation with PS2Recomp: native renderer and audio, no GS/VU1/SPU2 emulation. No game data or keys included.",
       "image": "",
-      "publishedAt": "2026-11-08T01:20:10Z",
+      "publishedAt": "2026-11-08T01:38:03Z",
       "addedAt": "2026-11-07T18:00:03.196Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -7278,8 +7355,8 @@
       "id": "1iqgq9j",
       "title": "Every Mac comes with an (undocumented) family member classifier",
       "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 591 # Comments: 344",
-      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 591\n\n# Comments: 344",
+      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 596 # Comments: 345",
+      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 596\n\n# Comments: 345",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T09:46:03.000Z",
@@ -10399,12 +10476,12 @@
       "addedAt": "2026-11-07T06:16:14.418Z"
     },
     {
-      "id": "gh-1441366661",
-      "title": "nekomancer01/DarkSoulsPS2: Homebrew PS2 port of Dark Souls Remastered: C/VU1 engine plus exporters that read your own copy of the game (no game data included)",
-      "url": "https://github.com/nekomancer01/DarkSoulsPS2",
-      "excerpt": "Homebrew PS2 port of Dark Souls Remastered: C/VU1 engine plus exporters that read your own copy of the game (no game data included)",
+      "id": "gh-1354613114",
+      "title": "boburning/portcove: Local-first manager for decompilations, recompilations, and native PC ports.",
+      "url": "https://github.com/boburning/portcove",
+      "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
       "image": "",
-      "publishedAt": "2026-11-08T01:05:27Z",
+      "publishedAt": "2026-11-08T01:36:31Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -10412,12 +10489,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1354613114",
-      "title": "boburning/portcove: Local-first manager for decompilations, recompilations, and native PC ports.",
-      "url": "https://github.com/boburning/portcove",
-      "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
+      "id": "gh-1441366661",
+      "title": "nekomancer01/DarkSoulsPS2: Homebrew PS2 port of Dark Souls Remastered: C/VU1 engine plus exporters that read your own copy of the game (no game data included)",
+      "url": "https://github.com/nekomancer01/DarkSoulsPS2",
+      "excerpt": "Homebrew PS2 port of Dark Souls Remastered: C/VU1 engine plus exporters that read your own copy of the game (no game data included)",
       "image": "",
-      "publishedAt": "2026-11-08T00:34:43Z",
+      "publishedAt": "2026-11-08T01:05:27Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
