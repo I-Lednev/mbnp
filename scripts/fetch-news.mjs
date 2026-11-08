@@ -196,11 +196,10 @@ const FEEDS = [
   { id: 'intermedia', category: 'entertainment', name: 'InterMedia', lang: 'ru', url: 'https://www.intermedia.ru/rss' },
 
   // ── Рассылки ───────────────────────────────────────────────────────────
-  { id: 'aibrews', category: 'newsletters', name: 'AI Brews', lang: 'en', url: 'https://aibrews.substack.com/feed' },
-  { id: 'earlybirdai', category: 'newsletters', name: 'Early Bird AI', lang: 'en', url: 'https://earlybirdai.beehiiv.com/feed' },
+  { id: 'aibrews', category: 'newsletters', name: 'AI Brews', lang: 'en', type: 'substack', url: 'https://aibrews.substack.com/api/v1/archive?sort=new&limit=20' },
 
   // ── Reddit ─────────────────────────────────────────────────────────────
-  { id: 'reddit', category: 'reddit', name: 'Reddit', lang: 'en', url: 'https://www.reddit.com/r/gaming+pcgaming+artificial+technology+singularity/.rss' },
+  { id: 'reddit', category: 'reddit', name: 'Reddit', lang: 'en', type: 'reddit', url: 'https://www.reddit.com/r/gaming', subreddits: ['gaming', 'pcgaming', 'artificial', 'technology', 'singularity'] },
 
   // ── Порты игр ──────────────────────────────────────────────────────────
   { id: 'github-ports', category: 'ports', name: 'GitHub: порты', lang: 'en', type: 'github', url: 'https://github.com/topics/game-port', queries: ['topic:game-port', 'topic:source-port', 'topic:recompilation', 'topic:decompilation'], maxItems: 24 },
@@ -332,6 +331,8 @@ async function fetchFeed(feed) {
 
 async function fetchFeedOnce(feed) {
   if (feed.type === 'github') return fetchGithubFeed(feed);
+  if (feed.type === 'substack') return fetchSubstackFeed(feed);
+  if (feed.type === 'reddit') return fetchRedditFeed(feed);
 
   const controller = new AbortController();
   const timer = setTimeout(() => controller.abort(), FETCH_TIMEOUT_MS);
@@ -426,6 +427,105 @@ async function fetchGithubFeed(feed) {
   if (items.length === 0) throw new Error('GitHub не вернул репозиториев');
 
   return { feed, items: items.slice(0, feed.maxItems || 24), ms: Date.now() - started };
+}
+
+async function fetchSubstackFeed(feed) {
+  const started = Date.now();
+  const response = await fetch(feed.url, {
+    headers: { 'user-agent': USER_AGENT, accept: 'application/json' },
+  });
+
+  if (!response.ok) throw new Error(`HTTP ${response.status}`);
+
+  const data = await response.json();
+  const posts = Array.isArray(data.posts) ? data.posts : [];
+
+  const items = posts
+    .map((post) => ({
+      id: `substack-${post.id}`,
+      title: post.title || '',
+      url: post.canonical_url || post.url || '',
+      excerpt: post.description || post.subtitle || '',
+      content: makeContent(post.body_html || '', post.title || ''),
+      image: post.cover_image || '',
+      publishedAt: post.post_date || new Date().toISOString(),
+      addedAt: new Date().toISOString(),
+      sourceId: feed.id,
+      source: feed.name,
+      category: feed.category,
+      lang: feed.lang,
+    }))
+    .filter((item) => item.title && item.url);
+
+  if (items.length === 0) throw new Error('Substack не вернул постов');
+
+  return { feed, items, ms: Date.now() - started };
+}
+
+async function fetchRedditFeed(feed) {
+  const started = Date.now();
+  const clientId = process.env.REDDIT_CLIENT_ID;
+  const secret = process.env.REDDIT_CLIENT_SECRET;
+
+  if (!clientId || !secret) {
+    throw new Error('нет REDDIT_CLIENT_ID/REDDIT_CLIENT_SECRET');
+  }
+
+  const basic = Buffer.from(`${clientId}:${secret}`).toString('base64');
+  const tokenResponse = await fetch('https://www.reddit.com/api/v1/access_token', {
+    method: 'POST',
+    headers: {
+      authorization: `Basic ${basic}`,
+      'content-type': 'application/x-www-form-urlencoded',
+      'user-agent': USER_AGENT,
+    },
+    body: 'grant_type=client_credentials',
+  });
+
+  if (!tokenResponse.ok) throw new Error(`Reddit token HTTP ${tokenResponse.status}`);
+
+  const tokenData = await tokenResponse.json();
+  if (!tokenData.access_token) throw new Error('Reddit не выдал токен');
+
+  const subreddits = feed.subreddits?.length ? feed.subreddits : ['gaming'];
+  const response = await fetch(
+    `https://oauth.reddit.com/r/${subreddits.join('+')}/top?limit=25&t=day`,
+    {
+      headers: {
+        authorization: `Bearer ${tokenData.access_token}`,
+        'user-agent': USER_AGENT,
+      },
+    },
+  );
+
+  if (!response.ok) throw new Error(`Reddit HTTP ${response.status}`);
+
+  const data = await response.json();
+  const posts = data?.data?.children || [];
+
+  const items = posts
+    .map(({ data: post }) => {
+      const selftext = post.selftext || '';
+      return {
+        id: `reddit-${post.id}`,
+        title: post.title || '',
+        url: post.permalink ? `https://www.reddit.com${post.permalink}` : '',
+        excerpt: selftext ? makeContent(selftext, post.title || '').slice(0, 400) : '',
+        content: selftext ? makeContent(selftext, post.title || '') : '',
+        image: /^https?:\/\//i.test(post.thumbnail || '') ? post.thumbnail : '',
+        publishedAt: new Date((post.created_utc || 0) * 1000).toISOString(),
+        addedAt: new Date().toISOString(),
+        sourceId: feed.id,
+        source: feed.name,
+        category: feed.category,
+        lang: feed.lang,
+      };
+    })
+    .filter((item) => item.title && item.url);
+
+  if (items.length === 0) throw new Error('Reddit не вернул постов');
+
+  return { feed, items, ms: Date.now() - started };
 }
 
 async function mapPool(items, limit, worker) {
