@@ -23,6 +23,8 @@
   --software: #7dd3fc;
   --science: #4ade80;
   --entertainment: #f43f5e;
+  --newsletters: #eab308;
+  --reddit: #ff4500;
   --ports: #6366f1;
   --pc: #a3e635;
   --consoles: #fbbf24;
@@ -65,6 +67,8 @@
   --software: #0369a1;
   --science: #15803d;
   --entertainment: #be123c;
+  --newsletters: #a16207;
+  --reddit: #c2410c;
   --ports: #4338ca;
   --pc: #4d7c0f;
   --consoles: #b45309;
@@ -473,6 +477,16 @@ button:disabled {
 .tab-dot-entertainment {
   background: var(--entertainment);
   box-shadow: 0 0 0 3px rgba(244, 63, 94, 0.16);
+}
+
+.tab-dot-newsletters {
+  background: var(--newsletters);
+  box-shadow: 0 0 0 3px rgba(234, 179, 8, 0.18);
+}
+
+.tab-dot-reddit {
+  background: var(--reddit);
+  box-shadow: 0 0 0 3px rgba(255, 69, 0, 0.18);
 }
 
 .tab-dot-ports {
@@ -1086,6 +1100,14 @@ button:disabled {
   background: linear-gradient(135deg, #881337, #f43f5e 55%, #4c0519);
 }
 
+.card-media.no-image[data-category="newsletters"] .media-fallback {
+  background: linear-gradient(135deg, #713f12, #eab308 55%, #422006);
+}
+
+.card-media.no-image[data-category="reddit"] .media-fallback {
+  background: linear-gradient(135deg, #9a3412, #ff4500 55%, #431407);
+}
+
 .card-media.no-image[data-category="ports"] .media-fallback {
   background: linear-gradient(135deg, #312e81, #6366f1 55%, #1e1b4b);
 }
@@ -1194,6 +1216,18 @@ button:disabled {
   color: #ffe4e6;
   background: rgba(159, 18, 57, 0.72);
   border-color: rgba(244, 63, 94, 0.4);
+}
+
+.badge-newsletters {
+  color: #fef9c3;
+  background: rgba(113, 63, 18, 0.72);
+  border-color: rgba(234, 179, 8, 0.4);
+}
+
+.badge-reddit {
+  color: #ffedd5;
+  background: rgba(154, 52, 18, 0.72);
+  border-color: rgba(255, 69, 0, 0.4);
 }
 
 .badge-ports {
@@ -2066,6 +2100,14 @@ button:disabled {
 
 .digest-thumb.no-image[data-category="entertainment"] {
   background: linear-gradient(135deg, #881337, #f43f5e);
+}
+
+.digest-thumb.no-image[data-category="newsletters"] {
+  background: linear-gradient(135deg, #713f12, #eab308);
+}
+
+.digest-thumb.no-image[data-category="reddit"] {
+  background: linear-gradient(135deg, #9a3412, #ff4500);
 }
 
 .digest-thumb.no-image[data-category="ports"] {
