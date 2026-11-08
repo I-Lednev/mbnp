@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T12:47:49.589Z",
-  "tookMs": 9408,
+  "generatedAt": "2026-11-08T15:04:08.932Z",
+  "tookMs": 10483,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -24,26 +24,26 @@
     "war": "Война"
   },
   "counts": {
-    "ai": 126,
-    "games": 127,
+    "ai": 131,
+    "games": 141,
     "announces": 15,
     "mobile": 10,
     "releases": 35,
     "rumors": 17,
-    "software": 35,
-    "science": 75,
-    "entertainment": 195,
-    "ports": 144,
-    "pc": 50,
-    "consoles": 124,
-    "hardware": 43,
-    "industry": 37,
+    "software": 36,
+    "science": 76,
+    "entertainment": 201,
+    "ports": 150,
+    "pc": 52,
+    "consoles": 131,
+    "hardware": 49,
+    "industry": 39,
     "updates": 21,
     "aimods": 2,
     "aisoft": 54,
-    "cars": 148,
-    "war": 138,
-    "total": 1396
+    "cars": 154,
+    "war": 142,
+    "total": 1456
   },
   "sourceCount": 89,
   "sources": [
@@ -684,12 +684,1257 @@
       "error": "HTTP 404"
     },
     {
+      "source": "BBC Ukrainian",
+      "url": "https://feeds.bbci.co.uk/ukrainian/rss.xml",
+      "error": "лента пуста",
+      "reused": 1
+    },
+    {
       "source": "Novaya Gazeta Europe",
       "url": "https://novayagazeta.eu/feed/",
       "error": "HTTP 521"
     }
   ],
   "items": [
+    {
+      "id": "gh-1416318739",
+      "title": "TheRealestNwah/sotc-decomp: Matching decompilation of Shadow of the Colossus (PS2, NTSC-U) aiming for a native PC port",
+      "url": "https://github.com/TheRealestNwah/sotc-decomp",
+      "excerpt": "Matching decompilation of Shadow of the Colossus (PS2, NTSC-U) aiming for a native PC port",
+      "image": "",
+      "publishedAt": "2026-11-08T15:02:02Z",
+      "addedAt": "2026-11-08T15:04:03.454Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1444637921",
+      "title": "TheRealestNwah/skate-recomp: Work-in-progress native Windows port of skate. (2007) via Xbox 360 static recompilation.",
+      "url": "https://github.com/TheRealestNwah/skate-recomp",
+      "excerpt": "Work-in-progress native Windows port of skate. (2007) via Xbox 360 static recompilation.",
+      "image": "",
+      "publishedAt": "2026-11-08T15:03:29Z",
+      "addedAt": "2026-11-08T15:04:03.044Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1443519371",
+      "title": "featureJosh/Recompia: Pokémon Pokopia (Switch 2) recompiled to run natively on Windows. With multiplayer support",
+      "url": "https://github.com/featureJosh/Recompia",
+      "excerpt": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows. With multiplayer support",
+      "image": "",
+      "publishedAt": "2026-11-08T15:00:52Z",
+      "addedAt": "2026-11-08T15:04:03.044Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1433509938",
+      "title": "ErKDev01/RecompHub: Launcher em português para jogos de console recompilados para rodar nativamente no PC: explorar, instalar, atualizar e jogar seus recomps.",
+      "url": "https://github.com/ErKDev01/RecompHub",
+      "excerpt": "Launcher em português para jogos de console recompilados para rodar nativamente no PC: explorar, instalar, atualizar e jogar seus recomps.",
+      "image": "",
+      "publishedAt": "2026-11-08T14:41:23Z",
+      "addedAt": "2026-11-08T15:04:03.044Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1382537450",
+      "title": "JuggyMcNutty/port-ex-machina: Deus Ex on Linux, Windows and game consoles, on our own engine and launcher.",
+      "url": "https://github.com/JuggyMcNutty/port-ex-machina",
+      "excerpt": "Deus Ex on Linux, Windows and game consoles, on our own engine and launcher.",
+      "image": "",
+      "publishedAt": "2026-11-08T15:02:13Z",
+      "addedAt": "2026-11-08T15:04:02.210Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1441671687",
+      "title": "secretpray/Black: Unofficial native Apple Silicon port of BLACK for Original Xbox. Bring your own supported game disc.",
+      "url": "https://github.com/secretpray/Black",
+      "excerpt": "Unofficial native Apple Silicon port of BLACK for Original Xbox. Bring your own supported game disc.",
+      "image": "",
+      "publishedAt": "2026-11-08T14:53:35Z",
+      "addedAt": "2026-11-08T15:04:02.210Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "i6cyot",
+      "title": "Как я пишу агента для оценки и выбора модели под свои задачи/агентов",
+      "url": "https://habr.com/ru/articles/1104780/",
+      "excerpt": "В прошлый раз я писал про \"Как я пишу почти автономного агента для разработки своих пет-проектов\" , а сейчас я хочу сместить фокус на выбор модели под конкретные задачи. В сети полно контента на тему \"Вышел новый GPT Astra (Claude Fable) near-AGI edition\", но…",
+      "content": "В прошлый раз я писал про \"Как я пишу почти автономного агента для разработки своих пет-проектов\" , а сейчас я хочу сместить фокус на выбор модели под конкретные задачи. В сети полно контента на тему \"Вышел новый GPT Astra (Claude Fable) near-AGI edition\", но нас это мало чем интересует: дорого, долго и слишком самостоятельны. Под капотом много картинок, 2 таблицы и мнение автора, не претендующее на методологию или «правильный путь»\n\nПод капотом",
+      "image": "https://habrastorage.org/extt/22/81/78/2281781b96b4cf94cf3ee4d6d300415c.png",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/22/81/78/2281781b96b4cf94cf3ee4d6d300415c.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T15:00:19.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "1vieceg",
+      "title": "Before Ghost Rider, Nicolas Cage Nearly Played A Very Different Marvel Superhero",
+      "url": "https://www.slashfilm.com/2305265/ghost-rider-nicolas-cage-marvel-superhero-iron-man/",
+      "excerpt": "Nicolas Cage has played superheroes like Ghost Rider, but he wanted to portray another Marvel hero in a movie long before they became an A-lister.",
+      "content": "Nicolas Cage has played superheroes like Ghost Rider, but he wanted to portray another Marvel hero in a movie long before they became an A-lister.",
+      "image": "https://www.slashfilm.com/img/gallery/before-ghost-rider-nicolas-cage-nearly-played-a-very-different-marvel-superhero/l-intro-1793719325.jpg",
+      "images": [
+        {
+          "url": "https://www.slashfilm.com/img/gallery/before-ghost-rider-nicolas-cage-nearly-played-a-very-different-marvel-superhero/l-intro-1793719325.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.slashfilm.com/img/gallery/before-ghost-rider-nicolas-cage-nearly-played-a-very-different-marvel-superhero/intro-1793719325.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T15:00:00.000Z",
+      "sourceId": "slashfilm",
+      "source": "SlashFilm",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "14yc5xc",
+      "title": "WoW: Forever is more than just a millennial retirement home",
+      "url": "https://www.pcgamer.com/games/world-of-warcraft/wow-forever-is-more-than-just-a-millennial-retirement-home/",
+      "excerpt": "Play This Right Now Welcome to Play This Right Now, the site version of our weekly newsletter in which we celebrate a new game, update, or DLC that we think is well worth checking out. You can subscribe to the newsletter at the link if you want to get our…",
+      "content": "Play This Right Now\n\nWelcome to Play This Right Now, the site version of our weekly newsletter in which we celebrate a new game, update, or DLC that we think is well worth checking out. You can subscribe to the newsletter at the link if you want to get our thoughts about a new videogame happening direct to your inbox every Thursday.\n\nWorld of Warcraft: Forever is fascinating from so many perspectives—not necessarily in terms of what's on offer (it is, despite my enamorment, still very much Classic WoW) but in what it means for the MMO genre at large.\n\nIt's the kind of project that usually only gets cooked up in \"what ifs\", a version of a 20-year old game that decided not to go for expansions, but to instead spread out horizontally . A World of Warcraft that didn't have to rush a single hour of development time. It's an attempt at not only just recreating nostalgia, but applying a fine layer of polish to that nostalgia.\n\nForever has over 1,000 new quests and dungeons —and having played some of them in my 50 hours with its beta, I can say that Blizzard has absolutely nailed what I've seen so far. To restore a prior version of a game is one thing, but to add new areas and content that feel appropriate to its oldschool game design feels like a magic trick.\n\nIt's like someone's dusted off a set of forbidden texts and started reading them in flawless ancient greek—a sleight-of-hand that's been dunked on as a \"millenial retirement home\" but, as the exact target audience for Forever, I've gotta say: Bingo night's really popping.\n\nDungeon crawling\n\nLet's start with the dungeons. I went through the new romp, Ruins of Lordaeron, and was clocked sideways with a feeling of familiarity, despite it being the first time I'd ever set foot there—modern MMO dungeons are like theme park rides, where you strap yourself in and get funnelled through a series of hallways to knock over bosses for fat loot and a ton of quest XP .\n\nAnd listen, I love rollercoasters. But I had no idea how much I'd missed that slower, more ponderous pace . Having to manually ask for invites, spending a half-hour collecting quests outside of the dungeon itself, journeying there on foot, and then once you're in—carefully pulling group after group in a sprawling maze where you can legitimately get lost.\n\nIt ruled. It still rules, that's what surprised me—there's merit to this older way of doing things that transcends the rose-tinted glasses I'm wary of, and it's not even because the game's harder. Quite the contrary: Doing solid DPS as a level 18 warrior is pretty easy, I just hit Heroic Strike every now and then and try not to rip aggro too much.\n\nBut the lo-fi pace of it all, even if it does take longer, is downright lovely. It has a quality all of its own—one that's so refreshing in a world of seasonal grinds . And that expands to the questing, too.\n\nAsk me a quest-ion\n\nI've talked about the classic pace of questing on the site before, but the light touch Blizzard has applied here is marvellous—the original WoW was riddled with huge gaps in questing zones that were either unfinished or simply barren when it came to questlines, even though its intention back in 2004 was to avoid that . Many of these places—and new questing zones entirely—are getting added with Forever.\n\nI didn't have a direct template to compare it to, but I felt it: Forever paves over these yawning gaps in the questing experience, but it doesn't modernise questing itself. They're still put in inconvenient areas, they're still given to you in massive batches , and they're still sometimes a massive pain in the butt.\n\nBut layering new stuff on top of that old chassis means the engine runs smoother. The satisfaction of a long, multi-hour journey across a zone pairs so sweetly with the dopamine hit of turning all your quests in at once. A hit that I just don't really get in modern theme park MMOs anymore.\n\nSometimes I had to travel to different zones because I was being outlevelled by quests, sure, but I was never stuck, I never had to grind. And if Blizzard can keep that tempo going for the rest of its 30 levels, I'm going to be wrapped up in a cozy loop of oldschool questing for the foreseeable future.\n\nYou can check out WoW: Forever via the BattleNet launcher on the game's official website .\n\nBest MMOs : Most massive\nBest strategy games : Number crunching\nBest open world games : Unlimited exploration\nBest survival games : Live craft love\nBest horror games : Fight or flight",
+      "image": "https://cdn.mos.cms.futurecdn.net/GmfjPrH94zwSEoEpGw7Son-1920-80.png",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/GmfjPrH94zwSEoEpGw7Son-1920-80.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/ahEGtzYgdtscBynSWUZPNn-1920-80.png",
+          "alt": "Adventurers battle an ogre and Defias Brotherhood thieves in World of Warcraft: Forever."
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/vjE6dVYfxHrArq7jkgP8rn-1920-80.png",
+          "alt": "A watchman patrols the paths of Duskwood in World of Warcraft: Forever."
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/UjCJY9gjRfatHZjCuGMrhR-1920-80.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T15:00:00.000Z",
+      "sourceId": "pcgamer",
+      "source": "PC Gamer",
+      "category": "pc",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "gya321",
+      "title": "Авторы Ragnarok Online 3 представили масштабный режим Dominion Grounds и назвали сроки тестирования",
+      "url": "https://www.playground.ru/ragnarok_online_3/news/avtory_ragnarok_online_3_predstavili_masshtabnyj_rezhim_dominion_grounds_i_nazvali_sroki_testirovaniya-1888871",
+      "excerpt": "Компании Gravity Game Vision и JoyMaker опубликовали первый геймплейный трейлер масштабного гильдейского режима Dominion Grounds для разрабатываемой многопользовательской ролевой игры Ragnarok Online 3. Разработчики показали сражения за контроль над…",
+      "content": "Компании Gravity Game Vision и JoyMaker опубликовали первый геймплейный трейлер масштабного гильдейского режима Dominion Grounds для разрабатываемой многопользовательской ролевой игры Ragnarok Online 3. Разработчики показали сражения за контроль над локациями, механику сбора ресурсов и поэтапные...",
+      "image": "https://i.playground.ru/e/P6Qy42y6kX8-IUIWItqhlQ.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/P6Qy42y6kX8-IUIWItqhlQ.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T14:58:46.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "is8l3c",
+      "title": "Глубоководье ИИ инженерии",
+      "url": "https://habr.com/ru/articles/1105122/",
+      "excerpt": "Как устроена моя рабочая среда для ИИ-агентов: общая база правил и памяти, выбор контекста по задаче, навыки с ограниченными правами, проверки корректности и передача работы между агентами. Разбираю устройство Jarvis на своих проектах и показываю, что можно…",
+      "content": "Как устроена моя рабочая среда для ИИ-агентов: общая база правил и памяти, выбор контекста по задаче, навыки с ограниченными правами, проверки корректности и передача работы между агентами. Разбираю устройство Jarvis на своих проектах и показываю, что можно установить и попробовать из открытого репозитория.\n\nКак устроен Jarvis",
+      "image": "https://habrastorage.org/extt/e2/2f/18/e22f18cfa68a726cc7d2c063be8bfd44.jpg",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/e2/2f/18/e22f18cfa68a726cc7d2c063be8bfd44.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T14:49:02.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "kizbrq",
+      "title": "Tom Rob Smith Writing Fiction Book Based On West Memphis Three Murder Case — Thessaloniki",
+      "url": "https://deadline.com/2026/11/tom-rob-smith-west-memphis-three-murder-case-book-1237216655/",
+      "excerpt": "British writer Tom Rob Smith led an enlightening Q&A session on the difference between writing prose fiction and writing for the screen this afternoon at the Thessaloniki Film Festival, where he is one of the headline speakers. During the session, the Emmy…",
+      "content": "British writer Tom Rob Smith led an enlightening Q&A session on the difference between writing prose fiction and writing for the screen this afternoon at the Thessaloniki Film Festival, where he is one of the headline speakers. During the session, the Emmy winner, best known for the novel Child 44 and the series The Assassination […]",
+      "image": "https://deadline.com/wp-content/uploads/2026/11/GettyImages-129024667_3c8d7a.jpg",
+      "images": [
+        {
+          "url": "https://deadline.com/wp-content/uploads/2026/11/GettyImages-129024667_3c8d7a.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T14:48:47.000Z",
+      "sourceId": "deadline",
+      "source": "Deadline",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "o6bd7l",
+      "title": "Вайбкодинг против сотни шардов: как я за пару дней собрал Terox",
+      "url": "https://habr.com/ru/articles/1105130/",
+      "excerpt": "Когда сервис живёт на сотне PostgreSQL-шардов, даже вопрос «где лежит запись с таким ID?» легко превращается в обход десятков подключений. Сущности распределены консистентным хешированием, а редкие операции на нагруженных таблицах требуют отдельно следить за…",
+      "content": "Когда сервис живёт на сотне PostgreSQL-шардов, даже вопрос «где лежит запись с таким ID?» легко превращается в обход десятков подключений. Сущности распределены консистентным хешированием, а редкие операции на нагруженных таблицах требуют отдельно следить за lock_timeout , statement_timeout и пулом соединений.\n\nЯ бэкенд-разработчик высоконагруженных сервисов, в прошлом DBA. Штатные миграции у нас раскатываются автоматически. Но когда изменение требует отдельного контроля на нагруженной таблице, не хочется полагаться только на то, что разработчик проверил скрипт и ничего не забыл.\n\nТак за пару дней совместной работы с ИИ появился Terox — CLI, который ищет данные по набору шардов, переключается на найденный и раскатывает сложный SQL через dry-run, canary и батчи. Рассказываю, как рабочая боль превратилась в open-source инструмент и почему при работе с production-базами вайбкодинг быстро превращается в обычную инженерную работу.\n\nПриручить сотню шардов",
+      "image": "https://habrastorage.org/extt/9e/2b/ed/9e2bed78b8bf54ba33b91bb49f4c9fa6.jpg",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/9e/2b/ed/9e2bed78b8bf54ba33b91bb49f4c9fa6.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T14:46:31.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "yghy0x",
+      "title": "'Stupendously large' primordial black holes ruled out as a dark matter source",
+      "url": "https://phys.org/news/2026-11-stupendously-large-primordial-black-holes.html",
+      "excerpt": "Primordial black holes are hypothetical objects that could have formed directly from dense clumps of matter in the very early universe. If they exist, their dramatic origins would set them apart from the black holes we see today, which form when massive stars…",
+      "content": "Primordial black holes are hypothetical objects that could have formed directly from dense clumps of matter in the very early universe. If they exist, their dramatic origins would set them apart from the black holes we see today, which form when massive stars collapse. Some theories suggest that \"stupendously large\" primordial black holes could account for a significant share of the universe's elusive dark matter.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/stupendously-large-pri.jpg",
+      "images": [
+        {
+          "url": "https://scx1.b-cdn.net/csz/news/tmb/2026/stupendously-large-pri.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T14:40:01.000Z",
+      "sourceId": "physorg",
+      "source": "Phys.org",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "1a7b6u7",
+      "title": "The end of an era as Linux 7.5 purges the last 30-year-old Intel MMX optimizations from Pentium age",
+      "url": "https://www.tomshardware.com/software/linux/the-end-of-an-era-as-linux-7-5-purges-the-last-30-year-old-intel-mmx-optimizations-from-pentium-age-open-source-os-retires-ancient-1997-pentium-instructions-to-streamline-code",
+      "excerpt": "Linux developers are preparing to make Intel’s ancient MultiMedia eXtensions an irrelevance. Intel introduced MMX in the Pentium era, but a patch expected to merge into mainline Linux 7.5 will remove the last remaining optimized software from the open-source…",
+      "content": "Linux developers are preparing to make Intel’s ancient MultiMedia eXtensions an irrelevance. Intel introduced MMX in the Pentium era, but a patch expected to merge into mainline Linux 7.5 will remove the last remaining optimized software from the open-source OS. Expected to be released in 2027, the new kernel will wipe MMX-optimized code from its software RAID XOR code, explains Phoronix .\n\nAdmittedly, there wasn’t much left in Linux in terms of MMX optimizations. But few folks will be running the most modern kernels on Pentium MMX and Pentium II chips in 2026. And most other MMX-optimized code disappeared from the OS half a decade ago, when some MMX-optimized memory management code was removed. Note that, if you are a determined late-90s Pentium devotee, you can still use software RAID, but it will lack the MMX fast path.\n\nThis is a classic case of Linux code housekeeping. With this change, the kernel will lose over 800 lines of code and replace them with just 12.\n\nRemembering MMX\n\nIntel first introduced MMX Pentium chips in January 1997. Though I vaguely remember these processors being marketed as being enhanced by ‘MultiMedia eXtensions,’ Wikipedia insists that “MMX is officially a meaningless initialism[6] trademarked by Intel.”\n\nIn a subsequent trademark battle with longtime foe AMD, a document produced in court indicated that MMX stood for ‘Matrix Math Extensions.’ AMD relied on this to sidestep the trademark, as an initialism cannot be trademarked, according to the encyclopedic source.\n\nEventually, all rival x86 processors managed to integrate MMX instructions – so as not to be pushed into the shade during the multimedia boom. A surprisingly large number of non-Intel chips ended up offering MMX, too. Along with Pentium MMX chips, AMD, Centaur, Cyrix , Rise, and Transmeta eventually offered MMX CPUs.\n\nAfter MMX's marketing success, AMD pioneered 3DNow! instructions , and about a year later, Intel fired back with SSE and SSE2.",
+      "image": "https://cdn.mos.cms.futurecdn.net/rXG5LfQBM4KrVowgfX4A3g-1920-80.jpg",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/rXG5LfQBM4KrVowgfX4A3g-1920-80.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T14:40:00.000Z",
+      "sourceId": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "hardware",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "w3vi6l",
+      "title": "Ukraine builds combat robots to hunt Russian troops in underground gas pipelines",
+      "url": "https://www.tomshardware.com/tech-industry/robotics/ukraine-builds-combat-robots-to-hunt-russian-troops-in-underground-gas-pipelines-ugvs-adapted-following-15-kilometer-subterranean-assault",
+      "excerpt": "Ukraine is developing a new class of combat robots designed to operate inside underground gas pipelines, where Russian troops have repeatedly attempted to bypass frontline defenses, United24Media reports. The project, disclosed by Ukraine's 2 nd National…",
+      "content": "Ukraine is developing a new class of combat robots designed to operate inside underground gas pipelines, where Russian troops have repeatedly attempted to bypass frontline defenses, United24Media reports. The project, disclosed by Ukraine's 2 nd National Guard Corps, Khartiia, involves modifying unmanned ground vehicles (UGVs) to perform reconnaissance and combat missions in spaces too narrow for conventional military machinery. Notably, the work is being carried out by specialists from the corps’ Lava Unmanned Systems Regiment, following Operation Veles — an underground assault that saw Ukrainian soldiers advance more than 15 kilometers through pipeline infrastructure near Kupiansk. Khartiia says the operation killed more than 100 enemy soldiers and resulted in over 30 captured, although those battlefield figures have not been independently verified.\n\nThe commander of Lavas ground robotic system battalion, identified by the callsign ‘Matematyk’, said the project addresses a category of warfare that requires a different approach from conventional battlefield robotics. “There is a very long list of tasks that need to be accomplished to fight underground and counter the enemy underground. This is a new class of technologies and challenges that we will have to confront,” he said.\n\nThe machines are being adapted from existing groundrobots ,rather than developed as conventional surface vehicles. They must be compact enough to navigate narrow pipelines while retaining the ability to carry out military assignments . Most commercially available underground machinery, meanwhile, is designed for construction, drilling, and tunneling — not combat.\n\nAs of now, Khartiia is already developing several robotic systems to address those limitations, with the broader objective of sending machines into dangerous underground environments where soldiers would otherwise have to conduct reconnaissance, confront enemy positions, clear positions, or clear out themselves. “War is already underground, and it will expand. The question is how we adapt to this war,” Matematyk said.\n\nThe project follows unusual battlefield developments near Kupiansk, where Ukrainian forces used the same underground infrastructure that Russian troops have previously exploited to infiltrate behind Ukrainian defensive positions. During Operation Vels, Ukrainian soldiers moved through a gas pipeline measuring approximately 1.2 meters in diameter, according to a report by Ikrainska Pravda. The confined passage made movement and close-range firefights particularly,with Ukrainian troops having little-to-no room to maneuver.\n\nRussia had previously used the pipeline network beneath the Oskil River to move soldiers toward Ukrainian-held territory. The Ukrainian battlefield monitoring group ‘Deepstate' reported an earlier Russian infiltration attempt in September 2025. Last month, President Volodymyr Zelenskyy said that Ukrainian forces had eliminated more than 100 Russian troops and captured over 30 during the operation. The experience also exposed the limitation of sending soldiers into such environments. Underground operations restrict visibility,complicate communications , and leave little room for maneuvering equipment.\n\nThat said, Ukraine has increased its reliance on unmanned military systems as battlefield terrain proves complicated to navigate. In July 2024, we reported on Ukrainian forces deploying AI-controlled drones capable of independently identifying and attaching targets. The country has also been experimenting with unmanned systems that operate beyond conventional aerial platforms. In August, the US Army tested an autonomous Ford F-250 breaching vehicle , which builds on the Lancer unmanned ground vehicle program and uses a counter-drone turret to protect military operations from aerial attacks.\n\nHowever, autonomous ground systems still face considerable technical challenges. Russia's Shturm uncrewed assault tanks , for instance , repeatedly lost their command connection during the Tsentr-2026 military exercise. The vehicle eventually became stuck in mud, even after organizers switched to manual driving. Russia has also tested an AI powered Shahed variant using Nvidia's Jetson Orin computing platform. The system was reportedly capable of identifying targets without relying on externally supplied coordinates.",
+      "image": "https://cdn.mos.cms.futurecdn.net/LxFmy4cYLLRUZKdapra5MC-1920-80.jpg",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/LxFmy4cYLLRUZKdapra5MC-1920-80.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T14:36:39.000Z",
+      "sourceId": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "hardware",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "1stswmt",
+      "title": "Авторы Project Azoth могут перенести серверы New World в Россию для защиты от претензий Amazon",
+      "url": "https://www.playground.ru/new_world_aeternum/news/avtory_project_azoth_mogut_perenesti_servery_new_world_v_rossiyu_dlya_zaschity_ot_pretenzij_amazon-1888858",
+      "excerpt": "Создатели амбициозного фанатского сервера Project Azoth по мотивам многопользовательской ролевой игры New World открыто обсудили юридические риски своего проекта. Разработчики признают, что корпорация Amazon обладает всеми юридическими рычагами для…",
+      "content": "Создатели амбициозного фанатского сервера Project Azoth по мотивам многопользовательской ролевой игры New World открыто обсудили юридические риски своего проекта. Разработчики признают, что корпорация Amazon обладает всеми юридическими рычагами для мгновенного закрытия серверов в любой момент...",
+      "image": "https://i.playground.ru/e/stESKDSGLiS_4RTFTMfspQ.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/stESKDSGLiS_4RTFTMfspQ.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T14:33:46.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "1bc6joj",
+      "title": "Saving Mass Effect would take $200m+, says BioWare co-founder",
+      "url": "https://www.eurogamer.net/mass-effect-5-save-cost-200m-bioware-co-founder-trent-oster",
+      "excerpt": "Anyone hoping to buy Mass Effect from EA and finish what BioWare started needs to get saving now, as it could cost over $200 million (£150m). Read more",
+      "content": "Anyone hoping to buy Mass Effect from EA and finish what BioWare started needs to get saving now, as it could cost over $200 million (£150m).\n\nRead more",
+      "image": "https://assetsio.gnwcdn.com/mass-effect-shepard-sad.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "images": [
+        {
+          "url": "https://assetsio.gnwcdn.com/mass-effect-shepard-sad.jpg?width=690&quality=85&format=jpg&auto=webp",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T14:31:00.000Z",
+      "sourceId": "eurogamer",
+      "source": "Eurogamer",
+      "category": "games",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "cseuzn",
+      "title": "Сценарий PHYSINT насчитывает более 150 страниц: Кодзима раскрыл новые подробности своего шпионского проекта",
+      "url": "https://www.playground.ru/physint/news/stsenarij_physint_naschityvaet_bolee_150_stranits_kodzima_raskryl_novye_podrobnosti_svoego_shpionskogo_proekta-1888856",
+      "excerpt": "Хидео Кодзима начал распространять сценарий проекта PHYSINT под названием \"Начинается новая холодная война\" (\"A New Cold War Begins\") среди избранных актёров и разработчиков, участвующих в создании его новой шпионской игры. Японская версия документа занимает…",
+      "content": "Хидео Кодзима начал распространять сценарий проекта PHYSINT под названием \"Начинается новая холодная война\" (\"A New Cold War Begins\") среди избранных актёров и разработчиков, участвующих в создании его новой шпионской игры. Японская версия документа занимает более...",
+      "image": "https://i.playground.ru/e/SontlaUeRtWYZRUq4tIO-w.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/SontlaUeRtWYZRUq4tIO-w.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T14:30:52.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "k91zzu",
+      "title": "В России продлили распродажу «клона» Geely Tugella: подробности",
+      "url": "https://www.zr.ru/content/news/988120-350-tysyach-skidki-na-krossover/",
+      "excerpt": "Knewstar продлил распродажу модели 001: скидки до 350 тыс. рублей",
+      "content": "Knewstar продлил распродажу модели 001: скидки до 350 тыс. рублей",
+      "image": "https://www.zr.ru/_ah/img/18VlwuJ7nEhd2-AXbm6anw",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/18VlwuJ7nEhd2-AXbm6anw",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T14:30:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "xyo0td",
+      "title": "Хакеры: На войне против Украины погибли почти 400 тысяч россиян",
+      "url": "https://www.dw.com/ru/%D1%85%D0%B0%D0%BA%D0%B5%D1%80%D1%8B-%D0%BD%D0%B0-%D0%B2%D0%BE%D0%B9%D0%BD%D0%B5-%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2-%D1%83%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D1%8B-%D0%BF%D0%BE%D0%B3%D0%B8%D0%B1%D0%BB%D0%B8-%D0%BF%D0%BE%D1%87%D1%82%D0%B8-400-%D1%82%D1%8B%D1%81%D1%8F%D1%87-%D1%80%D0%BE%D1%81%D1%81%D0%B8%D1%8F%D0%BD/a-79890412?maca=rus-rss-ru-all-1126-rdf",
+      "excerpt": "\"Киберпартизаны\" и группа Silent Crow по результатам взлома Росстата представили новые оценки потерь России в войне против Украины. По их данным, число погибших может достигать 400 тысяч человек.",
+      "content": "\"Киберпартизаны\" и группа Silent Crow по результатам взлома Росстата представили новые оценки потерь России в войне против Украины. По их данным, число погибших может достигать 400 тысяч человек.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-08T14:26:00.000Z",
+      "sourceId": "dw-ru",
+      "source": "DW Russian",
+      "category": "war",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "17e3fxy",
+      "title": "Nvidia released its 8800 GTX GPU 20 years ago today, celebrates with Steam game homage",
+      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-released-its-8800-gtx-gpu-20-years-ago-today-celebrates-with-steam-game-homage-interactive-demos-eye-watering-minimum-requirements-include-rtx-4070-32gb-ram-and-30gb-storage",
+      "excerpt": "On this day in 2006, Nvidia released the legendary GeForce 8800 GTX and 8800 GTS graphics cards . Nvidia has decided to honor the flagship of the pair with its GeForce 8800 GTX - 20 Years of a Legend interactive demo, now free on Steam . However, the…",
+      "content": "On this day in 2006, Nvidia released the legendary GeForce 8800 GTX and 8800 GTS graphics cards . Nvidia has decided to honor the flagship of the pair with its GeForce 8800 GTX - 20 Years of a Legend interactive demo, now free on Steam . However, the recommended specs to ‘play’ with this semi-interactive path-traced unboxing experience include a wallet-worrying RTX 5080 . Or you could just watch the video, embedded below for your convenience.\n\nThe downloadable demo, which also requires 32GB of RAM and 30GB of free storage, was created by Dylan Browne, a senior special effects artist who frequently works with Unreal Engine , as in this case. This experience is said to deliver era-appropriate graphics, but requires the most advanced graphics tech available two decades after the 8800 GTX first hit the scene to work its graphical magic.\n\nTo run GeForce 8800 GTX - 20 Years of a Legend on a 2026 PC, you will need at least an RTX 4070 for acceptable performance, according to the Steam page. This software is stuffed with the latest graphics tech embraced by the green team. “DLSS 4.5 with Dynamic Multi Frame Generation, Ray Reconstruction, path tracing, and Mega Geometry” are all present, says Nvidia.\n\nThere’s a bit more to the interactive demo than looking around and poking a box with your mouse and then prodding it to fit the shiny new GPU into your “era-accurate PC tower.” An extra layer of fun is promised by the provision of hidden Easter eggs in this experience.\n\nHowever, the demo appears to show Windows Vista on the PC in the gaming den, which launched at retail a few months after the 8800 GTX. Admittedly, this legendary GeForce card and Windows Vista OS would roam the Earth at the same time, with many folks buying the GeForce 8800 GTX and 8800 GTS to shove into their Vista PCs from 2007 onwards. Crysis launched on PCs in late 2007, a year after the G80 architecture cards debuted.\n\nNvidia launched the GeForce 8800 GTX (128 shader units) and 8800 GTS (96 shader units) at $599 and $449, respectively. These legendary Nvidia GPUs spearheaded the DirectX 10 era, accelerating existing PC titles and delivering next-gen visuals with new DX10 software. You can read more in our reviews from the time, like the 12-page review of the GeForce 8800 GTX and GTS from the launch week. Briefly, our reviewer thought these cards were “amazing” for their current performance and DX10 promise . They were also excited about the G80 architecture for bringing CUDA to consumers and the promise of making the GPU “something much more than a frame rendering device.” Some Luddite gamers may wish that had never happened.\n\nNvidia driver support for the GeForce 8800 GTX and GTS would run out of road about a decade later. By that time, DirectX 11 hardware and games were mainstream, leaving older graphics hardware designs obsolete when it came to playing the latest AAA PC titles.",
+      "image": "https://cdn.mos.cms.futurecdn.net/TmUVtxVZfu7Yc9Rnd5tCtA-1920-80.jpg",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/TmUVtxVZfu7Yc9Rnd5tCtA-1920-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/x24zVCi3L9xn9GwXvgMDeA-1920-80.jpg",
+          "alt": "GeForce 8800 GTX - 20 Years of a Legend"
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/GgXRGS23X6wVgnAFhHScjA-1920-80.jpg",
+          "alt": "GeForce 8800 GTX - 20 Years of a Legend"
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/eJ8WTgNh6f6jBBde6bGMtA-1920-80.jpg",
+          "alt": "GeForce 8800 GTX - 20 Years of a Legend"
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/NVQyyU27qufLmxJjdKVuUA-1920-80.jpg",
+          "alt": "GeForce 8800 GTX benchmarks"
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/tJGF65V6ch72MoafLKr9MA-1920-80.jpg",
+          "alt": "GeForce 8800 GTX specs"
+        }
+      ],
+      "publishedAt": "2026-11-08T14:20:00.000Z",
+      "sourceId": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "hardware",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "1s5526",
+      "title": "Бывшая сотрудница PlayStation раскрыла суровые реалии работы по временным контрактам в стенах Sony",
+      "url": "https://www.playground.ru/misc/news/byvshaya_sotrudnitsa_playstation_raskryla_surovye_realii_raboty_po_vremennym_kontraktam_v_stenah_sony-1888849",
+      "excerpt": "Игровая индустрия привыкла привлекать внимание громкими анонсами и кинематографичными блокбастерами, но условия труда рядовых разработчиков за закрытыми дверями нередко разительно отличаются от парадного маркетинга. Бывший координатор творческих операций…",
+      "content": "Игровая индустрия привыкла привлекать внимание громкими анонсами и кинематографичными блокбастерами, но условия труда рядовых разработчиков за закрытыми дверями нередко разительно отличаются от парадного маркетинга. Бывший координатор творческих операций PlayStation Studios Миа Джинэй Уоткинс в эфире...",
+      "image": "https://i.playground.ru/e/b0yFphEVSx6ianBUf8bSxg.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/b0yFphEVSx6ianBUf8bSxg.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T14:12:49.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "1m3pd5q",
+      "title": "DLSS 5 в Hogwarts Legacy снова вызвала споры - игроки жалуются на почти незаметные улучшения после критики лиц",
+      "url": "https://www.playground.ru/hogwarts_legacy/news/dlss_5_v_hogwarts_legacy_snova_vyzvala_spory_igroki_zhaluyutsya_na_pochti_nezametnye_uluchsheniya_posle_kritiki_lits-1888846",
+      "excerpt": "Новая версия NVIDIA DLSS 5 вновь оказалась в центре обсуждений после выхода графического обновления Hogwarts Legacy 5 ноября 2026 года. Если раньше пользователи критиковали технологию за чрезмерное изменение внешности персонажей с помощью искусственного…",
+      "content": "Новая версия NVIDIA DLSS 5 вновь оказалась в центре обсуждений после выхода графического обновления Hogwarts Legacy 5 ноября 2026 года. Если раньше пользователи критиковали технологию за чрезмерное изменение внешности персонажей с помощью искусственного интеллекта, то...",
+      "image": "https://i.playground.ru/e/7H_gpbPQcfB9S8Np_4I5wg.webp",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/7H_gpbPQcfB9S8Np_4I5wg.webp",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T14:11:12.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "sm0ecs",
+      "title": "The New Epic Games Launcher Will Support SteamOS",
+      "url": "https://steamdeckhq.com/news/epic-games-launcher-steamos-support/",
+      "excerpt": "Epic Games has confirmed that their new launcher will support SteamOS, along with a variety of other Linux distributions.",
+      "content": "Epic Games has confirmed that their new launcher will support SteamOS, along with a variety of other Linux distributions.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-08T14:02:32.000Z",
+      "sourceId": "steamdeckhq",
+      "source": "SteamDeckHQ",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "btml78",
+      "title": "Android tablets are back, but are they for you?",
+      "url": "https://9to5google.com/2026/11/08/android-tablets-are-back-poll/",
+      "excerpt": "Android tablets have always been a bit of a touchy subject, but it’s abundantly clear that the form factor is making a comeback. But, as someone who’s a fan of the smaller sizes, are you actually using the gargantuan Android tablets that every company seems…",
+      "content": "Android tablets have always been a bit of a touchy subject, but it’s abundantly clear that the form factor is making a comeback. But, as someone who’s a fan of the smaller sizes, are you actually using the gargantuan Android tablets that every company seems obsessed with? In other words – are you the customer for the Android tablets these brands are selling?\n\n9to5Google Weekender by Ben Schoon is a part of our free newsletter that also includes ‘Inbox,’ a twice-weekly roundup of key stories from around the web by Daniel Bader. Sign up here to get Weekender delivered to your inbox every Sunday along with ‘Inbox’ on Tuesday and Thursday. You can find past issues here .\n\nmore…",
+      "image": "https://9to5google.com/wp-content/uploads/sites/4/2026/11/android-tablets-amazon-lenovo-redmagic.jpg?quality=82&strip=all&w=1600",
+      "images": [
+        {
+          "url": "https://9to5google.com/wp-content/uploads/sites/4/2026/11/android-tablets-amazon-lenovo-redmagic.jpg?quality=82&strip=all&w=1600",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T14:00:00.000Z",
+      "sourceId": "9to5google",
+      "source": "9to5Google",
+      "category": "software",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "139d3ex",
+      "title": "How to Watch Trump’s ’60 Minutes’ Interview Online",
+      "url": "https://variety.com/2026/shopping/news/how-to-watch-trump-60-minutes-interview-live-online-1236941457/",
+      "excerpt": "President Donald Trump is set to appear on Sunday’s edition of “60 Minutes” for his first in-depth interview since Republicans suffered sweeping losses in Tuesday’s midterm elections. The president is scheduled to sit down with CBS News correspondent Ross…",
+      "content": "President Donald Trump is set to appear on Sunday’s edition of “60 Minutes” for his first in-depth interview since Republicans suffered sweeping losses in Tuesday’s midterm elections. The president is scheduled to sit down with CBS News correspondent Ross Douthat on Friday, with the interview slated to air Nov. 8. According to CNN, CBS News […]",
+      "image": "https://variety.com/wp-content/uploads/2026/11/2303049099.jpg",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/2303049099.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T14:00:00.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "xnc70c",
+      "title": "Disney Tried To Resurrect A Groundbreaking '60s Sitcom With A Movie That Bombed",
+      "url": "https://www.slashfilm.com/2305184/disney-60s-sitcom-my-favorite-martian-movie-bomb/",
+      "excerpt": "In the late 1990s, Disney tried and failed to resurrect a beloved '60s sitcom in the form of this sci-fi comedy movie that flopped at the box office.",
+      "content": "In the late 1990s, Disney tried and failed to resurrect a beloved '60s sitcom in the form of this sci-fi comedy movie that flopped at the box office.",
+      "image": "https://www.slashfilm.com/img/gallery/disney-tried-to-resurrect-a-groundbreaking-60s-sitcom-with-a-movie-that-bombed/l-intro-1793715200.jpg",
+      "images": [
+        {
+          "url": "https://www.slashfilm.com/img/gallery/disney-tried-to-resurrect-a-groundbreaking-60s-sitcom-with-a-movie-that-bombed/l-intro-1793715200.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.slashfilm.com/img/gallery/disney-tried-to-resurrect-a-groundbreaking-60s-sitcom-with-a-movie-that-bombed/intro-1793715200.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T14:00:00.000Z",
+      "sourceId": "slashfilm",
+      "source": "SlashFilm",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "13cfl9i",
+      "title": "Opinion: Onimusha vs Phantom Blade Zero - The Insane Sword Fight for Game of the Year",
+      "url": "https://www.pushsquare.com/features/opinion-onimusha-vs-phantom-blade-zero-the-insane-sword-fight-for-game-of-the-year",
+      "excerpt": "Looking sharp. Onimusha: Way of the Sword and Phantom Blade Zero are two of the best action games I've played in years. I've always been a sucker for cool sword fights and I'd argue that these two games do sword fights better than almost any other ( Ghost of…",
+      "content": "Looking sharp.\n\nOnimusha: Way of the Sword and Phantom Blade Zero are two of the best action games I've played in years.\n\nI've always been a sucker for cool sword fights and I'd argue that these two games do sword fights better than almost any other ( Ghost of Tsushima and Ghost of Yotei deserve a big shoutout, mind).\n\nRead the full article on pushsquare.com",
+      "image": "https://images.pushsquare.com/09897e2409e0d/small.jpg",
+      "images": [
+        {
+          "url": "https://images.pushsquare.com/09897e2409e0d/small.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://images.pushsquare.com/09897e2409e0d/large.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T14:00:00.000Z",
+      "sourceId": "pushsquare",
+      "source": "Push Square",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "h9fafl",
+      "title": "Feature: Five Reasons Why 2026 Is The Best Time Ever To Be An Xbox Series X|S Owner",
+      "url": "https://www.purexbox.com/features/five-reasons-why-2026-is-the-best-time-ever-to-be-an-xbox-series-xs-owner",
+      "excerpt": "The two consoles are celebrating their sixth anniversary on November 10th. We've got a lot of anniversaries taking place over the next few weeks, including the big 25th anniversary of Xbox on November 15th, but we thought we'd first take a moment to celebrate…",
+      "content": "The two consoles are celebrating their sixth anniversary on November 10th.\n\nWe've got a lot of anniversaries taking place over the next few weeks, including the big 25th anniversary of Xbox on November 15th, but we thought we'd first take a moment to celebrate the Xbox Series X|S anniversary as well.\n\nBoth of these consoles launched six years ago on November 10th of 2020, and Pure Xbox was there at the time with a big celebration of the launch along with an unboxing preview , a full review , and various bits of coverage.\n\nRead the full article on purexbox.com",
+      "image": "https://images.purexbox.com/7d7680457d236/small.jpg",
+      "images": [
+        {
+          "url": "https://images.purexbox.com/7d7680457d236/small.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://images.purexbox.com/7d7680457d236/large.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T14:00:00.000Z",
+      "sourceId": "purexbox",
+      "source": "Pure Xbox",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "osslp8",
+      "title": "Dolphin Depot Is a New Nintendo GameCube Homebrew App Launcher That Works on Real Hardware",
+      "url": "https://www.timeextension.com/news/2026/11/dolphin-depot-is-a-new-nintendo-gamecube-homebrew-app-launcher-that-works-on-real-hardware",
+      "excerpt": "No more jumping through hoops. Self-described \"GameCube & Wii enthusiast, wannabe hardware hacker and electrical engineer\" webhdx has announced a new project that aims to collate homebrew software for the Nintendo GameCube. Dolphin Depot is designed as an…",
+      "content": "No more jumping through hoops.\n\nSelf-described \"GameCube & Wii enthusiast, wannabe hardware hacker and electrical engineer\" webhdx has announced a new project that aims to collate homebrew software for the Nintendo GameCube.\n\nDolphin Depot is designed as an all-in-one space/store where Cube users can browse and download a host of unofficial apps, including emulators, game launchers, HUD customisers, resolution changers, and many more tools designed to explore and optimise the capabilities of Nintendo's lil' purple box.\n\nRead the full article on timeextension.com",
+      "image": "https://images.timeextension.com/92114f41a1e66/small.jpg",
+      "images": [
+        {
+          "url": "https://images.timeextension.com/92114f41a1e66/small.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://images.timeextension.com/92114f41a1e66/large.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T14:00:00.000Z",
+      "sourceId": "timeextension",
+      "source": "Time Extension",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "emiqp5",
+      "title": "A NASCAR Driver Bought An Actual Tank. The HOA Isn't Happy",
+      "url": "https://www.motor1.com/news/814646/hoa-upset-my-tank-over/",
+      "excerpt": "A decommissioned tank turns a broken $800 Chevy Cobalt into scrap metal, cutting short a cheap-car challenge with neighbors watching.",
+      "content": "A decommissioned tank turns a broken $800 Chevy Cobalt into scrap metal, cutting short a cheap-car challenge with neighbors watching.",
+      "image": "https://cdn.motor1.com/images/mgl/wlkXKG/s3/carson-hocevar-s-runs-over-chevrolet-cobalt-with-a-tank.jpg",
+      "images": [
+        {
+          "url": "https://cdn.motor1.com/images/mgl/wlkXKG/s3/carson-hocevar-s-runs-over-chevrolet-cobalt-with-a-tank.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T14:00:00.000Z",
+      "sourceId": "motor1",
+      "source": "Motor1",
+      "category": "cars",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "1bupt",
+      "title": "Would You Rather: Cadillac Escalade IQ vs. Escalade-V",
+      "url": "https://www.caranddriver.com/features/a74230088/would-you-rather-cadillac-escalade-iq-vs-escalade-v/",
+      "excerpt": "For about $160,000, are you taking the 682-hp supercharged gas Escalade or the 750-hp electric one?",
+      "content": "For about $160,000, are you taking the 682-hp supercharged gas Escalade or the 750-hp electric one?",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/1485bfce-5e79-49c1-9675-a5abe147d0d9.jpg",
+      "images": [
+        {
+          "url": "https://hips.hearstapps.com/hmg-prod/images/1485bfce-5e79-49c1-9675-a5abe147d0d9.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T14:00:00.000Z",
+      "sourceId": "caranddriver",
+      "source": "Car and Driver",
+      "category": "cars",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "gq6a7",
+      "title": "Русский дизайнер интерфейсов помог внедрить механику в духе \"Героев Меча и Магии\" в Path of Exile 2",
+      "url": "https://www.playground.ru/path_of_exile_2/news/russkij_dizajner_interfejsov_pomog_vnedrit_mehaniku_v_duhe_geroev_mecha_i_magii_v_path_of_exile_2-1888842",
+      "excerpt": "Идея новой лиги для версии 1.0 родилась из увлечения классическими пошаговыми стратегиями. Геймдиректор Grinding Gear Games Джонатан Роджерс на презентации ExileCon 2026 признался, что во время поиска свежих концепций проводил свободные вечера за игрой в...",
+      "content": "Идея новой лиги для версии 1.0 родилась из увлечения классическими пошаговыми стратегиями. Геймдиректор Grinding Gear Games Джонатан Роджерс на презентации ExileCon 2026 признался, что во время поиска свежих концепций проводил свободные вечера за игрой в...",
+      "image": "https://i.playground.ru/e/v8Q0WdXLjfoZuFWCRoa1lg.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/v8Q0WdXLjfoZuFWCRoa1lg.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T13:46:00.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "1ymvgng",
+      "title": "Janusz Kaminski, the Polish Cameraman Who Taught Hollywood How to See",
+      "url": "https://www.hollywoodreporter.com/movies/movie-features/janusz-kaminski-thr-visionary-cinematographer-award-1236750373/",
+      "excerpt": "The cinematographer behind 'Schindler's List,' 'Saving Private Ryan' and 'The Diving Bell and the Butterfly' is THR's Visionary of the Year.",
+      "content": "The cinematographer behind 'Schindler's List,' 'Saving Private Ryan' and 'The Diving Bell and the Butterfly' is THR's Visionary of the Year.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-08T13:45:00.000Z",
+      "sourceId": "hollywoodreporter",
+      "source": "The Hollywood Reporter",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "n3ncn5",
+      "title": "Harley-Davidson представил самый дешевый мотоцикл в своей истории",
+      "url": "https://www.zr.ru/content/news/988183-smozhet-li-harley-davidson-vern/",
+      "excerpt": "Harley-Davidson выпустил Sprint 440 за 493 тысячи рублей с двигателем 440 кубов",
+      "content": "Harley-Davidson выпустил Sprint 440 за 493 тысячи рублей с двигателем 440 кубов",
+      "image": "https://www.zr.ru/_ah/img/39NVJKmn6cLi9lUYdUZk-g",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/39NVJKmn6cLi9lUYdUZk-g",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T13:45:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "8s82ah",
+      "title": "В студии авторов Star Wars Zero Company прошли сокращения",
+      "url": "https://dtf.ru/gameindustry/5400126-sokrashcheniya-v-studii-bit-reactor-star-wars-zero-company",
+      "excerpt": "Сколько людей уволили из Bit Reactor, неизвестно.",
+      "content": "Сколько людей уволили из Bit Reactor, неизвестно.",
+      "image": "https://leonardo.osnova.io/26f244e7-4e1e-5760-a3e6-7d21a841da52/",
+      "images": [
+        {
+          "url": "https://leonardo.osnova.io/26f244e7-4e1e-5760-a3e6-7d21a841da52/",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T13:43:40.000Z",
+      "sourceId": "dtf",
+      "source": "DTF",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "jyccfx",
+      "title": "Open-source GPU task manager reveals exactly what's eating your VRAM",
+      "url": "https://www.tomshardware.com/pc-components/gpus/open-source-gpu-task-manager-reveals-exactly-whats-eating-your-vram-microsoft-vps-new-gpu-taskman-tool-reveals-every-process-using-your-gpu-how-much-memory-each-uses-and-breaks-down-ai-and-llm-workloads",
+      "excerpt": "Microsoft VP Scott Hanselman has revealed a new open-source GitHub project called gputaskman . The name neatly encapsulates the headline role of this tool, a GPU-focused task manager, but its scope might be broader than you expect. This new tool for Windows…",
+      "content": "Microsoft VP Scott Hanselman has revealed a new open-source GitHub project called gputaskman . The name neatly encapsulates the headline role of this tool, a GPU-focused task manager, but its scope might be broader than you expect. This new tool for Windows, Linux, and macOS can show per-process GPU usage, VRAM consumption , active runtimes, and many more stats. It also breaks out AI/LLM task-specific information.\n\nOn social media, Hanselman snappily makes clear the technical itch that gputaskman was designed to scratch. “There's a lot going on in my GPU,” wrote the prominent public face of Microsoft's developer ecosystem. “I'm making a GPU Taskman to get insights to where my GPU memory is going.”\n\nThere are several example screenshots of GPU Taskman in use by the Microsoft VP. They clearly show the kinds of data that are presented in the terminal-like display that pops up in the tool. Hanselman’s tweet shows that the most VRAM-hungry app on his RTX 4080S system is the desktop windows manager. That is selected in the list, and more details are shown for this task at the bottom of the window. Also, we see AI/LLM apps consuming VRAM, and a few Windows staples.\n\nIn a GitHub-embedded image, we see what details are broken out when the llama-server.exe app is selected in the list. The bottom of the window breakdown reveals that Qwen3-0.6B is being used, and there’s a breakdown of its weights, the KV cache , the number of parameters, and more. Very informative.\n\nAs the Microsoft developer has made portable Windows downloads of the latest v0.3.0 release of gputaskman, I couldn’t resist giving it a spin. Upon launch, I found that no tasks were using the discrete GPU in my laptop… so I fired up ye olde Unigine Valley GPU benchmark to stir the RTX 4060 from its slumber. I note the live-streaming charts showing GPU load, VRAM use, temperature, and so on are more prominent in my screenshot than in Hanselman’s examples. Perhaps he screen-shotted a previous version of the tool.\n\nThere’s a lot more information about gputaskman, its inner workings, and even its source code, on the linked GitHub repository. Hanselman is sharing his “experimental software” tool under the permissive MIT license. Finally, in social media comments, he hints that expanded GPU monitoring capabilities could be coming to Windows as standard.",
+      "image": "https://cdn.mos.cms.futurecdn.net/j6M4fBvsjExPSFtuP5xYyG-1920-80.jpg",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/j6M4fBvsjExPSFtuP5xYyG-1920-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/CJLAMoHHwMZL8chMPQ8k6H-1920-80.jpg",
+          "alt": "gputaskman in action"
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/wi6yEzpHEwnvbN3qSJbG6H-1920-80.jpg",
+          "alt": "gputaskman in action"
+        }
+      ],
+      "publishedAt": "2026-11-08T13:40:00.000Z",
+      "sourceId": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "hardware",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "hadntn",
+      "title": "MSI представила компактный игровой монитор MAG 256QR36 с частотой 360 Гц и WQHD-разрешением",
+      "url": "https://www.playground.ru/misc/news/msi_predstavila_kompaktnyj_igrovoj_monitor_mag_256qr36_s_chastotoj_360_gts_i_wqhd_razresheniem-1888840",
+      "excerpt": "Компания MSI анонсировала новый игровой монитор MAG 256QR36 - модель ориентирована на киберспортсменов и требовательных геймеров, которым важны высокая частота обновления, хорошая детализация и компактная диагональ.",
+      "content": "Компания MSI анонсировала новый игровой монитор MAG 256QR36 - модель ориентирована на киберспортсменов и требовательных геймеров, которым важны высокая частота обновления, хорошая детализация и компактная диагональ.",
+      "image": "https://i.playground.ru/e/qy4KN9cvDA4c5faNZxqH4g.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/qy4KN9cvDA4c5faNZxqH4g.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T13:39:35.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "1i2giek",
+      "title": "Никогда не задавайте ИИ вопросы на которые не знаете ответа",
+      "url": "https://habr.com/ru/articles/1104572/",
+      "excerpt": "мерзкое чтиво из двух частей Вот казалось бы автор что-то совсем непотребное написал, зачем задавать вопрос, если знаешь ответ! Смысл этого бреда!? Вопросы для того и задают, что бы услышать ответ! Но оказывается, что главное не задать вопрос и даже не…",
+      "content": "мерзкое чтиво из двух частей\n\nВот казалось бы автор что-то совсем непотребное написал, зачем задавать вопрос, если знаешь ответ! Смысл этого бреда!? Вопросы для того и задают, что бы услышать ответ!\n\nНо оказывается, что главное не задать вопрос и даже не услышать ответ.\n\nЧасть первая. простая",
+      "image": "https://habrastorage.org/extt/75/5f/15/755f1524adaef19e69b15b3daaea7efe.jpg",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/75/5f/15/755f1524adaef19e69b15b3daaea7efe.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T13:39:34.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "1rrxfvp",
+      "title": "Разработчик State of Decay 3 рассказал о бета-тестах на консолях, расширенной механике выживания и улучшениях онлайна",
+      "url": "https://www.playground.ru/state_of_decay_3/news/razrabotchik_state_of_decay_3_rasskazal_o_beta_testah_na_konsolyah_rasshirennoj_mehanike_vyzhivaniya_i_uluchsheniyah_onlajna-1888839",
+      "excerpt": "Undead Labs поделилась новыми подробностями о State of Decay 3, включая планы по проведению бета-тестирования на консолях, расширенную механику выживания и значительные улучшения боевой системы. Глава студии Филип Холт также сообщил, что в настоящее время...",
+      "content": "Undead Labs поделилась новыми подробностями о State of Decay 3, включая планы по проведению бета-тестирования на консолях, расширенную механику выживания и значительные улучшения боевой системы. Глава студии Филип Холт также сообщил, что в настоящее время...",
+      "image": "https://i.playground.ru/e/uDSiE-zdmFEff3s4GgjlXA.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/uDSiE-zdmFEff3s4GgjlXA.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T13:39:29.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "19dbdl",
+      "title": "Zelda OOT Remake: Get the Silver and Golden Scales to dive deeper",
+      "url": "https://www.videogameschronicle.com/guide/zelda-oot-remake-silver-golden-scale-dive/",
+      "excerpt": "How to get the Silver and Golden Scales to increase your dive depth in The Legend of Zelda: Ocarina of Time remake… Source",
+      "content": "How to get the Silver and Golden Scales to increase your dive depth in The Legend of Zelda: Ocarina of Time remake…\n\nSource",
+      "image": "https://www.videogameschronicle.com/files/2026/11/Zelda-OOT-Remake-Fishing-Pond-and-Sinking-Lure-explained-all-rewards-1.jpg",
+      "images": [
+        {
+          "url": "https://www.videogameschronicle.com/files/2026/11/Zelda-OOT-Remake-Fishing-Pond-and-Sinking-Lure-explained-all-rewards-1.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T13:36:43.000Z",
+      "sourceId": "vgc",
+      "source": "VGC",
+      "category": "industry",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "1ib00vq",
+      "title": "Можно ли заменить системный промпт начальным состоянием? Эксперименты на RWKV-7",
+      "url": "https://habr.com/ru/articles/1105120/",
+      "excerpt": "Что такое начальное состояние модели? Почему у RWKV оно может заменить системный промпт? И чем это отличается от обычного промпта? Ответы на эти вопросы в этой статье. Обычный трансформер читает системный промпт в каждом запросе заново и хранит его в кэше…",
+      "content": "Что такое начальное состояние модели? Почему у RWKV оно может заменить системный промпт? И чем это отличается от обычного промпта? Ответы на эти вопросы в этой статье.\n\nОбычный трансформер читает системный промпт в каждом запросе заново и хранит его в кэше, который растёт вместе с текстом. RWKV устроена иначе: прочитав любой текст, она сжимает всё, что запомнила, в «память» фиксированного размера, то есть в состояние. Перед началом работы это состояние пустое, а значит, его можно взять не пустым. Есть два пути: один раз прочитать промпт и сохранить получившееся состояние (я называю это «свернуть» промпт) или подобрать состояние обучением, не трогая веса модели. В обоих случаях текст промпта больше не нужен.\n\nЯ проверил оба пути на моделях RWKV-7 от 0.4B до 2.9B параметров на обычном MacBook M4 16 ГБ. Всё считалось в SwiftRWKV , а квантованные базы сделаны в rwkv-quant (он описан в моей прошлой статье Квантование RWKV-7: что ломается в моделях разного размера ). Ниже: что получилось, где это работает лучше текстового промпта, а где ломается.\n\nВердикт. Да — для неизменной инструкции на моделях такого размера, если состояние обучено на отфильтрованных данных. Выигрыш — в скорости, иногда в точности и устойчивости; знаний состояние не добавляет. Подробности и границы — ниже.\n\nКоротко\n\nСвёрнутый промпт — бесплатный и точный кэш. Он даёт те же ответы, что и текст промпта, а при длинном промпте запрос стартует до 13 раз быстрее.\n\nПромпт в строке может ухудшить модель. На вопросах с проверяемым ответом он снижал точность на 3–15 пунктов на всех восьми проверенных моделях. Обученное состояние ни разу не было значимо хуже модели без промпта и всегда лучше промпта.\n\nСостояние учит форму ответа, а не новые знания — и ему нужны отфильтрованные данные. Если копировать ошибки учителя, состояние их наследует.\n\nСостояние не хуже LoRA на тех же данных: вдвое меньше параметров, веса не меняются. По сравнению с дообучением верхних слоёв в генерации оно лучше или не хуже (в эмбеддере — нет).\n\nСлабые места: наводящие вопросы («Ты ведь Claude?») и длинные диалоги. Оба можно улучшить — с оговорками ниже.\n\nРаботает и там, где модель вообще не выполняет инструкцию из текста : 0.4B по промпту классифицирует новости на 0.00, по обученному состоянию — на 0.84–0.89.\n\nК каждому пункту ниже — график и ссылка на полные таблицы.\n\nЧитать далее",
+      "image": "https://habrastorage.org/extt/14/57/74/14577456245680499fd4301a0a05460a.png",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/14/57/74/14577456245680499fd4301a0a05460a.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T13:32:57.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "1pkwuwp",
+      "title": "ASUS выпустила внешнюю Radeon RX 9060 XT LP в компактном корпусе, но ограничила её мощность до 75 Вт",
+      "url": "https://www.playground.ru/misc/news/asus_vypustila_vneshnyuyu_radeon_rx_9060_xt_lp_v_kompaktnom_korpuse_no_ogranichila_eyo_moschnost_do_75_vt-1888837",
+      "excerpt": "ASUS представила внешнюю видеокарту XG Core Radeon RX 9060 XT LP, предназначенную для повышения производительности ноутбуков и игровых портативных устройств. Новинка использует полноценный графический процессор Radeon RX 9060 XT в низкопрофильном исполнении…",
+      "content": "ASUS представила внешнюю видеокарту XG Core Radeon RX 9060 XT LP, предназначенную для повышения производительности ноутбуков и игровых портативных устройств. Новинка использует полноценный графический процессор Radeon RX 9060 XT в низкопрофильном исполнении, однако компактный корпус...",
+      "image": "https://i.playground.ru/e/cHdQNuSsxK8Vsfyvjiloyw.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/cHdQNuSsxK8Vsfyvjiloyw.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T13:30:06.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "1d5owm4",
+      "title": "God of War Spin-Off Game Seemingly Getting Surprise PS4 Port",
+      "url": "https://www.pushsquare.com/news/2026/11/god-of-war-spin-off-game-seemingly-getting-surprise-ps4-port",
+      "excerpt": "PS4 Spartaaa. God of War: Sons of Sparta , the retro-style Metroidvania by Mega Cat Studios, is seemingly coming to the PS4. The game first launched on the PS5 as a State of Play shadow drop earlier this year . Read the full article on pushsquare.com",
+      "content": "PS4 Spartaaa.\n\nGod of War: Sons of Sparta , the retro-style Metroidvania by Mega Cat Studios, is seemingly coming to the PS4.\n\nThe game first launched on the PS5 as a State of Play shadow drop earlier this year .\n\nRead the full article on pushsquare.com",
+      "image": "https://images.pushsquare.com/55a80f75aebc9/small.jpg",
+      "images": [
+        {
+          "url": "https://images.pushsquare.com/55a80f75aebc9/small.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://images.pushsquare.com/55a80f75aebc9/large.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T13:30:00.000Z",
+      "sourceId": "pushsquare",
+      "source": "Push Square",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "vl6ec7",
+      "title": "Missing teenager rescued after reaching out to another player in Among Us",
+      "url": "https://www.eurogamer.net/among-us-missing-teen-rescued-utah-oregon",
+      "excerpt": "A teenager who went missing in Utah more than 17 months ago has been rescued from a home in Oregon after she got in touch with another young player in Among Us . Read more",
+      "content": "A teenager who went missing in Utah more than 17 months ago has been rescued from a home in Oregon after she got in touch with another young player in Among Us .\n\nRead more",
+      "image": "https://assetsio.gnwcdn.com/among-us-is-coming-to-xbox-next-year-1608287434062.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "images": [
+        {
+          "url": "https://assetsio.gnwcdn.com/among-us-is-coming-to-xbox-next-year-1608287434062.jpg?width=690&quality=85&format=jpg&auto=webp",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T13:28:20.000Z",
+      "sourceId": "eurogamer",
+      "source": "Eurogamer",
+      "category": "games",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "143qwa2",
+      "title": "Сборная Норвегии по хоккею сообщила, что ее выгнали с молодежного чемпионата мира. И добавили туда Россию",
+      "url": "https://meduza.io/news/2026/11/08/sbornaya-norvegii-po-hokkeyu-soobschila-chto-ee-vygnali-s-molodezhnogo-chempionata-mira-i-dobavili-tuda-rossiyu",
+      "excerpt": "Норвежская федерация хоккея получила от международной федерации (IIHF) письмо, в котором говорится, что ее сборная исключена из участниц молодежного чемпионата мира. Норвегия отправилась в низший дивизион, а место на ЧМ получила сборная России. На сайте IIHF…",
+      "content": "Норвежская федерация хоккея получила от международной федерации (IIHF) письмо, в котором говорится, что ее сборная исключена из участниц молодежного чемпионата мира. Норвегия отправилась в низший дивизион, а место на ЧМ получила сборная России.\n\nНа сайте IIHF никаких объявлений об этом нет. В  официальном расписании Норвегия играет матч-открытие турнира 26 декабря с Чехией. На игру продаются билеты.\n\nВ сообщении норвежской федерации сказано, что сборную исключили, так как нужно было включить Россию, а у Норвегии наиболее низкий рейтинг среди всех стран-участниц. При этом норвежцы подчеркивают, что ждут дополнительных разъяснений от IIHF, так как раньше сообщалось, что россиянам не дадут визы на ЧМ, а некоторые страны будут бойкотировать игры со сборной России.\n\nДо начала чемпионата осталось 48 дней.\n\nСпортивный арбитражный суд допустил Россию до чемпионатов мира по хоккею в конце октября. В IIHF сразу же заявили, что не согласны с решением, но будут стараться его выполнить.\n\nВ свою очередь, сборные Чехии и Швейцарии заявили , что не будут играть с Россией даже в случае допуска. Сборной Латвии такой поединок запрещен законами страны. Канадские чиновники считают, что российская команда даже при наличии решения суда не может играть в Канаде — а именно там проходит ЧМ.\n\nВ сборной России, которую не допускают до международных соревнований с 2022 года, начали готовиться к турниру. Там не исключают , что могут собрать сборную из игроков, уже выступающих в Северной Америке — чтобы не нужно было оформлять визы.\n\nПоскольку суд допустил сборную России не только до молодежного чемпионата мира, но и до взрослого, который состоится в мае, IIHF и там может применить логику по исключению слабейшей команды. В случае с взрослым ЧМ эта команда — Украина.\n\nПодробнее про решение суда\n\n• Спортивный суд обязал немедленно вернуть Россию в большой хоккей. К этому оказалось абсолютно ничего не готово Не исключено, что организаторам ЧМ придется отдать России место Украины, которая попала на турнир впервые за 20 лет",
+      "image": "https://meduza.io/imgly/share/1794148924/news/2026/11/08/sbornaya-norvegii-po-hokkeyu-soobschila-chto-ee-vygnali-s-molodezhnogo-chempionata-mira-i-dobavili-tuda-rossiyu",
+      "images": [
+        {
+          "url": "https://meduza.io/imgly/share/1794148924/news/2026/11/08/sbornaya-norvegii-po-hokkeyu-soobschila-chto-ee-vygnali-s-molodezhnogo-chempionata-mira-i-dobavili-tuda-rossiyu",
+          "alt": ""
+        },
+        {
+          "url": "https://meduza.io/image/attachments/images/012/947/769/small/GmkXkrnc95X0dmup9FMO-A",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T13:28:13.000Z",
+      "sourceId": "meduza",
+      "source": "Meduza",
+      "category": "war",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "10ut1bt",
+      "title": "Глава NVIDIA Дженсен Хуанг выступил против полного запрета поставок ИИ-чипов в Китай: \"Америка должна конкурировать\"",
+      "url": "https://www.playground.ru/misc/news/glava_nvidia_dzhensen_huang_vystupil_protiv_polnogo_zapreta_postavok_ii_chipov_v_kitaj_amerika_dolzhna_konkurirovat-1888835",
+      "excerpt": "Генеральный директор NVIDIA Дженсен Хуанг публично не согласился с позицией главы Anthropic Дарио Амодея, который призывает полностью запретить поставки передовых ИИ-процессоров и оборудования для производства полупроводников в Китай. В интервью CBS Хуанг…",
+      "content": "Генеральный директор NVIDIA Дженсен Хуанг публично не согласился с позицией главы Anthropic Дарио Амодея, который призывает полностью запретить поставки передовых ИИ-процессоров и оборудования для производства полупроводников в Китай. В интервью CBS Хуанг заявил, что американским...",
+      "image": "https://i.playground.ru/e/IFLyqrZxrev5Gk_H-kUFaQ.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/IFLyqrZxrev5Gk_H-kUFaQ.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T13:22:56.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "v93yba",
+      "title": "Hundreds arrested after Microsoft data center protest turns violent",
+      "url": "https://www.tomshardware.com/tech-industry/data-centers/hundreds-arrested-after-microsoft-data-center-protest-turns-violent-stop-dirty-data-centers-coalition-demands-halt-to-ai-data-center-expansion-dutch-police-seize-break-in-tools-suspected-stolen-items-from-construction-site",
+      "excerpt": "Amsterdam police have arrested 150 to 200 protesters at a Microsoft data center site on suspicion of trespassing. According to a Facebook post by the authorities [machine translated], tools designed for breaking into the site were seized from the protesters…",
+      "content": "Amsterdam police have arrested 150 to 200 protesters at a Microsoft data center site on suspicion of trespassing. According to a Facebook post by the authorities [machine translated], tools designed for breaking into the site were seized from the protesters, who were then allowed on their way to protest peacefully. However, it appears that some members of the group decided to enter the construction site “with violence” anyway, forcing the police to intervene and leading to their arrest. There were also some allegedly stolen items from the construction site found among the belongings of some of the protesters, plus damage and vandalism done to the data center site.\n\nThis protest is a continuation of the action that started last Friday , where protesters breached the Microsoft data center, which was being owned by Pure Data Centers. It is also the first of many organized by the “Stop Dirty Data Centers” coalition across Europe, with actions planned for Amsterdam, Dublin, Warsaw, Denmark, and several other cities across the continent. The Dutch publication NOS [machine translated] identified the exact group at the site today as Fossielvrij, who are against the use of fossil fuels in data centers such as the jet engines that Elon Musk installed at xAI’s Mississippi data center.\n\nGo deeper with TH Premium: AI and data centers\n\n• The data center cooling state of play\n\n• The custom AI ASIC state of play\n\n• America’s AI chip rules keep changing — and the rest of the world is paying the price\n\n• GTC 2026: Ian Buck press Q&A transcript — VP of Hyperscale and HPC speaks out on shelving CPX and shipping LPU decode this year\n\n• Demand for data center CPUs has surged, and AI agents are responsible\n\n“Gas prices are going through the roof, and new houses are being postponed because of the overcrowded power grid. Yet tech billionaires like Elon Musk and Jeff Bezos are building energy-guzzling, hideous data centers,” the group said on its website. “We can take back the power of Big Tech by pressing the pause button now. Give us the opportunity to democratically decide what we do and do not use AI for, so that it is not at the expense of our living environment and everything that makes our lives beautiful. Then we look at how many more data centers are needed.”\n\nThe protest comes amid the AI data center build-out, which has been facing increased opposition across the United States . A Google data center site in Finland is also in trouble after it cleared out around 1,300 acres worth of forest and trees without an environmental impact assessment, displacing wildlife , and leading to a criminal probe on Tuike Finland Oy , the Google subsidiary in charge of the site.\n\nFossielvrij’s action was supposed to be peaceful, but it appears that another group joined the demonstration and broke through the fences around the site, leading to the police confrontation. The suspects were arrested for domestic violence and then taken to a cell complex, where it will be decided if they will be detained longer. The police also said that “All suspects will be heard afterward.”",
+      "image": "https://cdn.mos.cms.futurecdn.net/TwLpg3gN7h8B8fkmMySvu4-1920-80.jpg",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/TwLpg3gN7h8B8fkmMySvu4-1920-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/Vh4nY3pMCcmra2ymXah9S7-1920-80.jpg",
+          "alt": "Microsoft data center in Mount Pleasant, Wisconsin"
+        }
+      ],
+      "publishedAt": "2026-11-08T13:20:00.000Z",
+      "sourceId": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "hardware",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "1o8osj6",
+      "title": "This massive mod essentially turns Skyrim into a persistent MMO 'where player actions create lasting consequences'",
+      "url": "https://www.pcgamer.com/games/the-elder-scrolls/this-massive-mod-essentially-turns-skyrim-into-a-persistent-mmo-where-player-actions-create-lasting-consequences/",
+      "excerpt": "PC gaming isn't short of multiplayer fantasy adventures these days, but there is still something alluring about the idea of playing Skyrim with pals. Some mods have facilitated small-scale Skyrim multiplayer in the past, like the cooperative mod Skyrim…",
+      "content": "PC gaming isn't short of multiplayer fantasy adventures these days, but there is still something alluring about the idea of playing Skyrim with pals. Some mods have facilitated small-scale Skyrim multiplayer in the past, like the cooperative mod Skyrim Together . But Aurbis goes several step further, converting Bethesda's RPG into a persistent online roleplaying server—essentially a Skyrim MMO in all but name.\n\nAccording to its ModDB page, Aurbis transforms Skyrim's solo adventure into \"a persistent world where player actions create lasting consequences\", snythesising Skyrim's existing experience with a bunch of multiplayer and MMO-like systems. It's designed with roleplaying in mind, though the mod's creators stress that RP is not mandatory, and players can focus on other elements like cooperative dungeon runs or PvP play if they so choose.\n\nThe list of changes and additions to Aurbis is impressive, running from character creation outward. The retooled character builder is designed to let avatars \"develop over time instead of becoming powerful immediately\", though it also lets players start with vampirism or lycanthropy for roleplaying purposes.\n\nThose roles are heavily defined by the player's choice of Birthsign, which affects how efficiently skills develop. Crafting professions are supported by a player-driven economy that factors in bank accounts, property ownership and player-created quests, while activities like combat are designed to be dangerous and reward \"preparation, equipment, specialisation and teamwork.\"\n\nAlongside these changes are entirely new, multiplayer specific systems. Players can form their own groups called Cohorts, designed to act as a \"strong foundation for MMO-style social gameplay\". This ranges from establishing parties and guilds to aligning yourself with Skyrim's existing factions, combining \"familiar Skyrim content with custom multiplayer mechanics\".\n\nThe list doesn't end there, either. There are more nuanced survival systems, complex horse management, MMO style death penalties, and much more. There's even a fully-fledged language and literacy system whereby players \"do not automatically understand every conversation or know every location\", so mastering language and literacy can provide a genuine roleplaying advantage.\n\nIt sounds wild , and this only represents an early access release. If you fancy investigating Aurbis, all you need is a legitimate copy of Skyrim that's downgraded to version 1.6.1170. The beta is invite-only, but a session key is listed on the ModDB page that should grant you access, while Aurbis has a custom launcher that downloads and maintains all required mods.\n\n2026 games : All the upcoming games\nBest PC games : Our all-time favorites\nFree PC games : Freebie fest\nBest FPS games : Finest gunplay\nBest RPGs : Grand adventures\nBest co-op games : Better together",
+      "image": "https://cdn.mos.cms.futurecdn.net/zcxc3uHvAH7FJr4rQrSwXE-1920-80.jpg",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/zcxc3uHvAH7FJr4rQrSwXE-1920-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/Mu9AUgnNsNWYm42VSMpJZb-1920-80.png",
+          "alt": "A group of players stand together in Skyrim mod Aurbis."
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/6offQUY4CXebir2TC27dMd-1920-80.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T13:19:55.000Z",
+      "sourceId": "pcgamer",
+      "source": "PC Gamer",
+      "category": "pc",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "lq9we1",
+      "title": "WoW: Forever is the biggest launch in World of Warcraft history, says Blizzard",
+      "url": "https://www.eurogamer.net/wow-forever-biggest-launch-world-of-warcraft-history-concurrent-players",
+      "excerpt": "World of Warcraft: Forever is the biggest launch in the MMO's history, pulling in more concurrent players than any previous WoW launch. Read more",
+      "content": "World of Warcraft: Forever is the biggest launch in the MMO's history, pulling in more concurrent players than any previous WoW launch.\n\nRead more",
+      "image": "https://assetsio.gnwcdn.com/wow-forever.png?width=690&quality=85&format=jpg&auto=webp",
+      "images": [
+        {
+          "url": "https://assetsio.gnwcdn.com/wow-forever.png?width=690&quality=85&format=jpg&auto=webp",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T13:09:10.000Z",
+      "sourceId": "eurogamer",
+      "source": "Eurogamer",
+      "category": "games",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "1t5fwup",
+      "title": "Famitsu review scores – November 8, 2026 – Zelda: Ocarina of Time, first score for Prinny Party, more",
+      "url": "https://nintendoeverything.com/famitsu-review-scores-november-8-2026-zelda-ocarina-of-time-first-score-for-prinny-party-more/",
+      "excerpt": "The latest Famitsu review scores for the week of November 8, 2026 are as follows: The Legend of Zelda: Ocarina of Time – 9/9/9/10 Call of Duty: Modern Warfare 4 – 9/9/9/9 Prinny Party: Going Overboard – 7/7/8/7 Japanese Rural Life Adventure – 8/7/7/7 Moomin…",
+      "content": "The latest Famitsu review scores for the week of November 8, 2026 are as follows: The Legend of Zelda: Ocarina of Time – 9/9/9/10 Call of Duty: Modern Warfare 4 – 9/9/9/9 Prinny Party: Going Overboard – 7/7/8/7 Japanese Rural Life Adventure – 8/7/7/7 Moomin: Midsummer Madness – 7/7/8/7 The Fallen Kingdom – 7/7/7/8 Note that for each review, four...\n\nNintendo Everything .",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Ocarina-150x84.webp",
+      "images": [
+        {
+          "url": "https://nintendoeverything.com/wp-content/uploads/Ocarina-150x84.webp",
+          "alt": ""
+        },
+        {
+          "url": "https://nintendoeverything.com/wp-content/uploads/Ocarina.webp",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T13:00:06.000Z",
+      "sourceId": "nintendoeverything",
+      "source": "Nintendo Everything",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "w1aczr",
+      "title": "Set Phasers To Stun: Star Trek's Different Phaser Settings Explained",
+      "url": "https://www.slashfilm.com/2305915/star-trek-phaser-settings-explained/",
+      "excerpt": "Across the Star Trek franchise, phasers have been shown to have multiple settings with different levels of intensity. Here's a breakdown of what they mean.",
+      "content": "Across the Star Trek franchise, phasers have been shown to have multiple settings with different levels of intensity. Here's a breakdown of what they mean.",
+      "image": "https://www.slashfilm.com/img/gallery/set-phasers-to-stun-star-treks-different-phaser-settings-explained/l-intro-1793739160.jpg",
+      "images": [
+        {
+          "url": "https://www.slashfilm.com/img/gallery/set-phasers-to-stun-star-treks-different-phaser-settings-explained/l-intro-1793739160.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.slashfilm.com/img/gallery/set-phasers-to-stun-star-treks-different-phaser-settings-explained/intro-1793739160.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T13:00:00.000Z",
+      "sourceId": "slashfilm",
+      "source": "SlashFilm",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "sdwxdd",
+      "title": "Two Chinese companies cleared to buy banned Nvidia AI chips have empty offices and unknown addresses",
+      "url": "https://www.tomshardware.com/tech-industry/artificial-intelligence/two-chinese-companies-cleared-to-buy-banned-nvidia-ai-chips-have-empty-offices-and-unknown-addresses-investigation-reveals-businesses-have-ties-to-sanctioned-chinese-military-suppliers",
+      "excerpt": "An investigation has found that addresses for two Chinese companies approved to purchase Nvidia H200 chips led to empty offices, and the receptionists at the buildings were unfamiliar with them. According to The New York Times , these companies didn’t just…",
+      "content": "An investigation has found that addresses for two Chinese companies approved to purchase Nvidia H200 chips led to empty offices, and the receptionists at the buildings were unfamiliar with them. According to The New York Times , these companies didn’t just have empty offices; their executives are often linked to other firms sanctioned by the United States for working with and providing advanced technology to the Chinese military.\n\nThis news has revealed concerns that the U.S. Department of Commerce is simply rubber-stamping GPU export license applications instead of scrutinizing each one for potential links to Beijing. “I have a ton of concerns that neither the Commerce Department or Nvidia is doing the due diligence needed to ensure that the licensing terms are being followed,” former China director for the White House National Security Council Liza Tobin told the publication.\n\nMany of these approved companies include well-known entities like Baidu, BYD, Tesla Shanghai, as well as ZTE , which has previously been blacklisted from the U.S. market, Alibaba, Tencent, and ByteDance. However, the outfit’s investigation also revealed approval for two relatively unknown firms: New Matrix and Maginfra. The offices for both companies were empty shells with some office furniture, and people working nearby said they’d never heard of the company or seen anyone go to the deserted spaces.\n\nThe New Matrix website also reportedly did not contain any information about its owners or its history, although public company records reveal that it was founded by Li Bin, who, along with two other primary owners, are connected to Wise Road, a Chinese private equity firm sanctioned by the U.S. for helping Beijing acquire sensitive chip technologies. Furthermore, Mr. Li chairs Tsinghua Unigroup, a tech conglomerate partly owned by the Chinese government, and owns New H3C Semiconductor Technologies, which has also been added to the Commerce Department’s Entity List for cooperating with the Chinese military.\n\nMaginfra, on the other hand, is suspected of being linked to Inspur, which Washington has b lacklisted since 2023 for supporting the People’s Liberation Army, with both companies sharing personnel, patents, and a similar government ownership structure. These two firms aren’t listed as the final users of Nvidia’s AI chips, though. Instead, they’re supposed to assemble them into AI servers, which would then be forwarded to a final user, although it’s unclear who their customers are.\n\nAside from these questionable non-entities, another company that received a license to purchase H200 GPUs has some suspicious links. Zhejiang Yindun Cloud Technology’s executives are reportedly related to the founder of Range Intelligent Computing Technology Group, a data center operator that has sold compute capacity to Chinese military contractors. It’s also reportedly partly operating out of a Range data center.\n\nPresident Donald Trump banned the export of Nvidia AI GPUs in April 2025 , even those customized to meet the performance ceiling Washington set for AI processors. The president reversed the decision late last year in exchange for a 25% cut of the sale, but it still took more than eight months for the first H200 shipments to arrive in China . Beijing’s refusal to give Chinese tech companies the green light to buy the chips for the first few months of the year caused the delay. But once China lifted its import ban on Nvidia chips, several Chinese companies applied for licenses to buy them, and The New York Times reported that around two dozen firms have already received approval, including these questionable ones.",
+      "image": "https://cdn.mos.cms.futurecdn.net/RAnrUYUPEDMbGSwoqAPETM-1920-80.png",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/RAnrUYUPEDMbGSwoqAPETM-1920-80.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T13:00:00.000Z",
+      "sourceId": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "hardware",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "1fvw9ux",
+      "title": "Летние шины могут испортиться за зиму: как их правильно хранить",
+      "url": "https://www.zr.ru/content/news/988119-letnie-shiny-mogut-isportitsya/",
+      "excerpt": "Эксперт Плетнев рассказал, как правильно хранить летние шины зимой",
+      "content": "Эксперт Плетнев рассказал, как правильно хранить летние шины зимой",
+      "image": "https://www.zr.ru/_ah/img/Tj3BRfMibWAS6BDOAjN2qQ",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/Tj3BRfMibWAS6BDOAjN2qQ",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T13:00:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "g9lm2",
+      "title": "Многорычажки и алюминий в подвеске: зачем машину делают заведомо ненадежнее, а мы за это переплачиваем?",
+      "url": "https://5koleso.ru/vopros-otvet/mnogorychazhki-i-alyuminij-v-podveske-zachem-mashinu-delayut-zavedomo-nenadezhnee-a-my-za-eto-pereplachivaem/",
+      "excerpt": "С таким ходом мыслей можно дофантазироваться до самых странных выводов. Напомним, лишь, что когда-то водитель с помощью рычажка на подрулевой колонке должен был сам подстраивать величину опережения зажигания – и это было в порядке вещей! А наши ГАЗ-24…",
+      "content": "С таким ходом мыслей можно дофантазироваться до самых странных выводов. Напомним, лишь, что когда-то водитель с помощью рычажка на подрулевой колонке должен был сам подстраивать величину опережения зажигания – и это было в порядке вещей! А наши ГАЗ-24 наматывали в таксопарках сотни тысяч километров, пожирая при этом бензин, масло и, в конечном итоге, деньги. Тогда это был автомобиль-мечта, но сегодня мало кто захочет расходовать около 15 литров бензина на сотню километров, не получая взамен ни скорости, ни динамики. Впрочем, вернемся к подвеске.\n\nЗадача сделать ее менее надежной перед инженерами не стоит. Можно порассуждать о том, что она теперь должны выхаживать строго гарантийный срок, но это – не главное. Многорычажная подвеска нацелена на улучшение управляемости и комфорта. Благодаря ей каждое колесо обрело свой комплект рычагов, что позволило успешнее контролировать его положение во всех плоскостях. В итоге снизились крены при прохождении поворотов, улучшилось сцепление с дорогой, повысилась комфортность при езде по неровным поверхностям, а также при движении на высоких скоростях.\n\nА зачем понадобился алюминий ? Все просто: он легкий, а потому может снижать неподрессоренную массу. Речь идет о деталях, которые на неровностях «прыгают» вместе с колесами. Облегченные рычаги облегчают работу амортизаторов, подвеска начинает точнее и быстрее реагировать на мелкие неровности, а колесо лучше цепляется за асфальт. Можно отметить, также, что с алюминиевыми деталями легче становится и весь автомобиль в целом. Поэтому и расход топлива хоть и немножко, но снизится.\n\nВсе ли так безоблачно? Никоим образом: есть и серьезные минусы. При попадании машины в дорожную выбоину, не говоря уже о контакте с бордюрами, алюминиевая деталь запросто может деформироваться и даже треснуть. Меньшая ударная прочность – это не очень хорошо. С ремонтом также имеются сложности: обычно алюминиевые рычаги меняют в сборе, обходясь без сварки и выпрессовки. А еще есть такая гадость как электрохимическая коррозия. Ведь в подвеске алюминий часто контактирует со стальными болтами или втулками, а потому, при наличии влаги и дорожных реагентов, между разными металлами возникает электрохимическая реакция. Ее последствия ничего приятного не сулят.\n\nМожно ничего не понимать в технике, однако очевидно главное: чем сложнее конструкция, тем она менее надежна. Растет число зон износа, появляются люфты, нарушается выверенная изначально геометрия всей подвески. И многорычажная алюминиевая подвеска – это выбор в пользу динамики и точности, а не максимальной живучести в тяжелых условиях. Можно назвать это инженерным компромиссом. Цель известна: хорошая управляемость, повышенный комфорт, предсказуемое поведение машины. За все это владелец переплачивает – увы. Обслуживание такой подвески обычно обходится недешево: детали дороже, а ремонт сложнее – иногда он требует замены целых узлов, а не отдельных элементов. Остается только посоветовать оберегать такую подвеску от сильных ударов, регулярно проверять состояние резинометаллических элементов и не игнорировать первые признаки износа (стук, увод, неравномерный износ шин). Так реально можно отсрочить дорогой ремонт, получая удовольствие от преимуществ данного технического решения.",
+      "image": "https://5koleso.ru/wp-content/uploads/2026/11/photo_2024-07-26_16-46-54-1024x1024.jpg",
+      "images": [
+        {
+          "url": "https://5koleso.ru/wp-content/uploads/2026/11/photo_2024-07-26_16-46-54-1024x1024.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://5koleso.ru/wp-content/uploads/2026/11/sadk7009-1024x683.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T13:00:00.000Z",
+      "sourceId": "5koleso",
+      "source": "5 колесо",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "14xig7n",
+      "title": "Сили оборони за добу уразили чотири ворожі пункти управління дронами",
+      "url": "https://www.ukrinform.ua/rubric-ato/4182672-sili-oboroni-za-dobu-urazili-cotiri-vorozi-punkti-upravlinna-dronami.html",
+      "excerpt": "Сили оборони України за минулу добу уразили одразу чотири пункти управління безпілотниками противника - на ТОТ Запорізької, Херсонської, Донецької областей, а також на території РФ.",
+      "content": "Сили оборони України за минулу добу уразили одразу чотири пункти управління безпілотниками противника - на ТОТ Запорізької, Херсонської, Донецької областей, а також на території РФ.",
+      "image": "https://static.ukrinform.com/photos/2026_08/thumb_files/630_360_1786205585-323.jpg",
+      "images": [
+        {
+          "url": "https://static.ukrinform.com/photos/2026_08/thumb_files/630_360_1786205585-323.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T12:57:47.000Z",
+      "sourceId": "ukrinform",
+      "source": "Ukrinform",
+      "category": "war",
+      "lang": "uk",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "16ygs80",
+      "title": "Zelda OOT Remake: Full Biggoron’s Sword quest explained",
+      "url": "https://www.videogameschronicle.com/guide/zelda-oot-biggorons-sword-trade-sequence-quest/",
+      "excerpt": "Everything you need to get the Biggoron's Sword in The Legend of Zelda: Ocarina of Time on N64 and Nintendo Switch 2… Source",
+      "content": "Everything you need to get the Biggoron's Sword in The Legend of Zelda: Ocarina of Time on N64 and Nintendo Switch 2…\n\nSource",
+      "image": "https://www.videogameschronicle.com/files/2026/11/Zelda-OOT-Remake-Full-Biggorons-Sword-quest-explained-21.jpg",
+      "images": [
+        {
+          "url": "https://www.videogameschronicle.com/files/2026/11/Zelda-OOT-Remake-Full-Biggorons-Sword-quest-explained-21.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T12:55:12.000Z",
+      "sourceId": "vgc",
+      "source": "VGC",
+      "category": "industry",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "kgy4yz",
+      "title": "Сили оборони уразили 4 пункти управління БпЛА в Росії й на окупованих територіях",
+      "url": "https://www.pravda.com.ua/news/2026/11/08/8061816/",
+      "excerpt": "Сили оборони 7 листопада уразили 4 пункти управління безпілотниками на території РФ та на окупованих територіях. Джерело : Генеральний штаб ЗСУ Дослівно : \"Минула доба видалася невдалою для російських операторів БпЛА. Підрозділи Сил оборони України уразили…",
+      "content": "Сили оборони 7 листопада уразили 4 пункти управління безпілотниками на території РФ та на окупованих територіях.\n\nДжерело : Генеральний штаб ЗСУ\n\nДослівно : \"Минула доба видалася невдалою для російських операторів БпЛА. Підрозділи Сил оборони України уразили одразу чотири пункти управління безпілотниками противника – на загарбаних землях Запоріжжя, Херсонщини, Донеччини та на території самої Росії\".\n\nДеталі : Найціннішою ціллю Генштаб називає уражений в окупованому Бердянську пункт тимчасової дислокації та пункт управління БпЛА підрозділу зі складу \"Рубікону\" – одного з найбільш боєздатних російських дронових центрів, який також тероризує цивільне населення в прифронтових населених пунктах. Втрати ворога уточнюються.\n\nНеподалік Олешків на Херсонщині та в районі Білицького на Донеччині Сили оборони уразили пункти управління безпілотниками армії РФ. А на Брянщині, в районі Александровського, удару зазнав пункт управління БпЛА вже на території РФ.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/a/e/952842/ae7352d4493a7b4eb91e7c87d290d675.jpeg",
+      "images": [
+        {
+          "url": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/a/e/952842/ae7352d4493a7b4eb91e7c87d290d675.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T12:54:00.000Z",
+      "sourceId": "pravda",
+      "source": "Ukrainska Pravda",
+      "category": "war",
+      "lang": "uk",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
+    {
+      "id": "1goujdg",
+      "title": "Nintendo's Bill Trinen Explains Why Ocarina Of Time Is The Perfect Place To Start In The Zelda Universe",
+      "url": "https://www.nintendolife.com/news/2026/11/nintendos-bill-trinen-explains-why-ocarina-of-time-is-the-perfect-place-to-start-in-the-zelda-universe",
+      "excerpt": "Gather round, Kokiri. If you're in a position where you've never actually played a Zelda game before, Nintendo's Bill Trinen just wants to let you know Ocarina of Time is the \"perfect place\" to start. Although this comment just happens to line up with the…",
+      "content": "Gather round, Kokiri.\n\nIf you're in a position where you've never actually played a Zelda game before, Nintendo's Bill Trinen just wants to let you know Ocarina of Time is the \"perfect place\" to start.\n\nAlthough this comment just happens to line up with the arrival of the Switch 2 remake, Nintendo's VP of Player & Product Experience really is convinced this is the best game to begin with, as it's a \"foundational story\", where the player is taught everything they need to know about the world and characters.\n\nRead the full article on nintendolife.com",
+      "image": "https://images.nintendolife.com/81067a9c2a4fc/small.jpg",
+      "images": [
+        {
+          "url": "https://images.nintendolife.com/81067a9c2a4fc/small.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://images.nintendolife.com/81067a9c2a4fc/large.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T09:45:00.000Z",
+      "sourceId": "nintendolife",
+      "source": "Nintendo Life",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:03:58.449Z"
+    },
     {
       "id": "gh-1419009138",
       "title": "WeAreTommyBruh/Legaia2-Decomp: A Work-In-Progress reverse engineering and asset viewer/extractor of Legaia 2: Duel Saga for the PlayStation 2 (PAL, SLES-50891).",
@@ -3206,8 +4451,8 @@
       "id": "vduo6c",
       "title": "Goodbye Claude, Hello Pi",
       "url": "https://caleb.software/posts/claude-to-pi.html",
-      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 389 # Comments: 240",
-      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 389\n\n# Comments: 240",
+      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 469 # Comments: 312",
+      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 469\n\n# Comments: 312",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T03:11:48.000Z",
@@ -4384,7 +5629,7 @@
       "url": "https://github.com/Destinity13/TimeSplitters-2-Native-Linux-Recomp",
       "excerpt": "TimeSplitters 2 (PS2, NTSC-U) statically recompiled to a native Linux executable – HD remaster: 60 FPS, real 16:9, up to 8x resolution, split-screen co-op, verified against PCSX2",
       "image": "",
-      "publishedAt": "2026-11-08T12:32:52Z",
+      "publishedAt": "2026-11-08T14:54:34Z",
       "addedAt": "2026-11-08T01:40:14.870Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -4904,8 +6149,8 @@
       "id": "zof7yv",
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 440 # Comments: 302",
-      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 440\n\n# Comments: 302",
+      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 470 # Comments: 331",
+      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 470\n\n# Comments: 331",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T20:45:32.000Z",
@@ -6570,8 +7815,8 @@
       "id": "6a6jp5",
       "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
       "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 333 # Comments: 87",
-      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 333\n\n# Comments: 87",
+      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 344 # Comments: 95",
+      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 344\n\n# Comments: 95",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T17:19:00.000Z",
@@ -7193,7 +8438,7 @@
       "url": "https://github.com/TheBozos/VP2S_Recomp",
       "excerpt": "Native PC port of Valkyrie Profile 2: Silmeria (USA, SLUS-21452) by static recompilation with PS2Recomp: native renderer and audio, no GS/VU1/SPU2 emulation. No game data or keys included.",
       "image": "",
-      "publishedAt": "2026-11-08T12:43:48Z",
+      "publishedAt": "2026-11-08T15:02:33Z",
       "addedAt": "2026-11-07T18:00:03.196Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -7279,12 +8524,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1441623504",
-      "title": "makkaX2/DroneFlames-PC-Port: 🚁 DroneFlames PC Port (Windows x64) — native PC controls, WASD camera, smooth zoom, multiplayer & automated CI/CD builds by @good_boy_irl.",
-      "url": "https://github.com/makkaX2/DroneFlames-PC-Port",
-      "excerpt": "🚁 DroneFlames PC Port (Windows x64) — native PC controls, WASD camera, smooth zoom, multiplayer & automated CI/CD builds by @good_boy_irl.",
+      "id": "gh-1430294447",
+      "title": "TheBozos/TMB_Recomp: Twisted Metal: Black (USA, SCUS-97101) as a native PC port: static recompilation with PS2Recomp (no game data)",
+      "url": "https://github.com/TheBozos/TMB_Recomp",
+      "excerpt": "Twisted Metal: Black (USA, SCUS-97101) as a native PC port: static recompilation with PS2Recomp (no game data)",
       "image": "",
-      "publishedAt": "2026-11-08T12:42:36Z",
+      "publishedAt": "2026-11-08T14:43:18Z",
       "addedAt": "2026-11-07T18:00:02.232Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -7292,12 +8537,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1430294447",
-      "title": "TheBozos/TMB_Recomp: Twisted Metal: Black (USA, SCUS-97101) as a native PC port: static recompilation with PS2Recomp (no game data)",
-      "url": "https://github.com/TheBozos/TMB_Recomp",
-      "excerpt": "Twisted Metal: Black (USA, SCUS-97101) as a native PC port: static recompilation with PS2Recomp (no game data)",
+      "id": "gh-1441623504",
+      "title": "makkaX2/DroneFlames-PC-Port: 🚁 DroneFlames PC Port (Windows x64) — native PC controls, WASD camera, smooth zoom, multiplayer & automated CI/CD builds by @good_boy_irl.",
+      "url": "https://github.com/makkaX2/DroneFlames-PC-Port",
+      "excerpt": "🚁 DroneFlames PC Port (Windows x64) — native PC controls, WASD camera, smooth zoom, multiplayer & automated CI/CD builds by @good_boy_irl.",
       "image": "",
-      "publishedAt": "2026-11-08T12:34:22Z",
+      "publishedAt": "2026-11-08T14:39:25Z",
       "addedAt": "2026-11-07T18:00:02.232Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -9765,7 +11010,7 @@
       "url": "https://github.com/gamboozino/ng2recomp",
       "excerpt": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
       "image": "",
-      "publishedAt": "2026-11-08T12:11:04Z",
+      "publishedAt": "2026-11-08T14:58:04Z",
       "addedAt": "2026-11-07T12:40:12.383Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -10274,8 +11519,8 @@
       "id": "1iqgq9j",
       "title": "Every Mac comes with an (undocumented) family member classifier",
       "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 755 # Comments: 405",
-      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 755\n\n# Comments: 405",
+      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 773 # Comments: 420",
+      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 773\n\n# Comments: 420",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T09:46:03.000Z",
@@ -11764,7 +13009,7 @@
       "url": "https://github.com/YodaMMM/NightfirePort",
       "excerpt": "Nightfire Rust: a native Windows PC port of 007: Nightfire (PS2), written in Rust",
       "image": "",
-      "publishedAt": "2026-11-08T12:45:24Z",
+      "publishedAt": "2026-11-08T15:03:55Z",
       "addedAt": "2026-11-07T09:10:09.502Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -13180,7 +14425,7 @@
       "url": "https://github.com/boburning/portcove",
       "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
       "image": "",
-      "publishedAt": "2026-11-08T12:41:51Z",
+      "publishedAt": "2026-11-08T14:59:17Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -14494,7 +15739,7 @@
       "url": "https://github.com/Lucas-blip-png/dkb-pc-recomp",
       "excerpt": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Plays from the title screen through the first stage on an RTX 5060 Ti; still early, can crash. No game files included.",
       "image": "",
-      "publishedAt": "2026-11-08T12:24:41Z",
+      "publishedAt": "2026-11-08T14:43:33Z",
       "addedAt": "2026-11-07T06:02:57.825Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -28663,7 +29908,7 @@
     },
     {
       "id": "130ljkl",
-      "title": "Война в Украине: Россия атаковала пригород Днепра, есть погибший и раненые",
+      "title": "Война в Украине: Россия ударила по пригороду Днепра, дрон атаковал спасателей в Камышевахе, Франция заявила об участии Европы во встрече в Абу-Даби",
       "url": "https://www.bbc.co.uk/russian/live/cmjrwvyj4jy8t?at_medium=RSS&at_campaign=rss",
       "excerpt": "Последние новости, комментарии и видео о войне России против Украины.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a44e/live/b56c15b0-db67-11f1-b441-2b33b063138f.jpg",
