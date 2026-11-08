@@ -155,29 +155,25 @@ const FEEDS = [
   { id: 'ign', category: 'games', name: 'IGN', lang: 'en', url: 'https://feeds.ign.com/ign/games-all' },
   { id: 'eurogamer', category: 'games', name: 'Eurogamer', lang: 'en', url: 'https://www.eurogamer.net/feed' },
   { id: 'ars-gaming', category: 'games', name: 'Ars Technica Gaming', lang: 'en', url: 'https://feeds.arstechnica.com/arstechnica/gaming' },
+  { id: 'playground', category: 'games', name: 'Playground', lang: 'ru', url: 'https://www.playground.ru/rss/news.xml' },
 
   // ── Анонсы игр ─────────────────────────────────────────────────────────
-  { id: 'playground-announces', category: 'announces', name: 'Playground Анонсы', lang: 'ru', url: 'https://www.playground.ru/rss/news.xml', keywords: ANNOUNCE_KEYWORDS },
   { id: 'siliconera', category: 'announces', name: 'Siliconera', lang: 'en', url: 'https://www.siliconera.com/feed/', keywords: ANNOUNCE_KEYWORDS },
   { id: 'gamingbolt', category: 'announces', name: 'GamingBolt', lang: 'en', url: 'https://gamingbolt.com/feed', keywords: ANNOUNCE_KEYWORDS },
   { id: 'vg247', category: 'announces', name: 'VG247', lang: 'en', url: 'https://www.vg247.com/feed', keywords: ANNOUNCE_KEYWORDS },
 
   // ── Мобильные игры ─────────────────────────────────────────────────────
-  { id: 'playground-mobile', category: 'mobile', name: 'Playground Мобильные', lang: 'ru', url: 'https://www.playground.ru/rss/news.xml', keywords: MOBILE_KEYWORDS },
   { id: 'toucharcade', category: 'mobile', name: 'TouchArcade', lang: 'en', url: 'https://toucharcade.com/feed/', keywords: MOBILE_KEYWORDS },
 
   // ── Релизы игр ─────────────────────────────────────────────────────────
-  { id: 'playground-releases', category: 'releases', name: 'Playground Релизы', lang: 'ru', url: 'https://www.playground.ru/rss/news.xml', keywords: RELEASE_KEYWORDS },
   { id: 'steam-newreleases', category: 'releases', name: 'Steam Новинки', lang: 'en', url: 'https://store.steampowered.com/feeds/newreleases.xml' },
   { id: 'gog-news', category: 'releases', name: 'GOG', lang: 'en', url: 'https://www.gog.com/news/feed', keywords: RELEASE_KEYWORDS },
 
   // ── Слухи и утечки ─────────────────────────────────────────────────────
-  { id: 'playground-rumors', category: 'rumors', name: 'Playground Слухи', lang: 'ru', url: 'https://www.playground.ru/rss/news.xml', keywords: RUMOR_KEYWORDS },
   { id: 'reddit-leaks', category: 'rumors', name: 'r/GamingLeaksAndRumours', lang: 'en', url: 'https://www.reddit.com/r/GamingLeaksAndRumours/new/.rss', keywords: RUMOR_KEYWORDS },
   { id: 'dexerto', category: 'rumors', name: 'Dexerto', lang: 'en', url: 'https://www.dexerto.com/feed/', keywords: RUMOR_KEYWORDS },
 
   // ── Софт ───────────────────────────────────────────────────────────────
-  { id: 'playground-software', category: 'software', name: 'Playground Софт', lang: 'ru', url: 'https://www.playground.ru/rss/news.xml', keywords: SOFTWARE_KEYWORDS },
   { id: 'ghacks', category: 'software', name: 'gHacks', lang: 'en', url: 'https://www.ghacks.net/feed/', keywords: SOFTWARE_KEYWORDS },
   { id: 'macrumors', category: 'software', name: 'MacRumors', lang: 'en', url: 'https://www.macrumors.com/macrumors.xml', keywords: SOFTWARE_KEYWORDS },
   { id: 'omgubuntu', category: 'software', name: 'OMG! Ubuntu', lang: 'en', url: 'https://www.omgubuntu.co.uk/feed', keywords: SOFTWARE_KEYWORDS },
@@ -206,10 +202,8 @@ const FEEDS = [
   // ── Индустрия игр ──────────────────────────────────────────────────────
   { id: 'gamesindustry', category: 'industry', name: 'GamesIndustry.biz', lang: 'en', url: 'https://www.gamesindustry.biz/feed' },
   { id: 'vgc', category: 'industry', name: 'VGC', lang: 'en', url: 'https://www.videogameschronicle.com/feed/' },
-  { id: 'playground-industry', category: 'industry', name: 'Playground Индустрия', lang: 'ru', url: 'https://www.playground.ru/rss/news.xml', keywords: INDUSTRY_KEYWORDS },
 
   // ── Обновления игр ─────────────────────────────────────────────────────
-  { id: 'playground-updates', category: 'updates', name: 'Playground Обновления', lang: 'ru', url: 'https://www.playground.ru/rss/news.xml', keywords: UPDATES_KEYWORDS },
   { id: 'ps-blog', category: 'updates', name: 'PlayStation Blog', lang: 'en', url: 'https://blog.playstation.com/feed/' },
   { id: 'xbox-wire', category: 'updates', name: 'Xbox Wire', lang: 'en', url: 'https://news.xbox.com/en-us/feed/' },
   { id: 'steam-news', category: 'updates', name: 'Steam News', lang: 'en', url: 'https://store.steampowered.com/feeds/news.xml' },
@@ -217,10 +211,8 @@ const FEEDS = [
   // ── ПК ─────────────────────────────────────────────────────────────────
   { id: 'pcgamer', category: 'pc', name: 'PC Gamer', lang: 'en', url: 'https://www.pcgamer.com/rss/' },
   { id: 'rps', category: 'pc', name: 'Rock Paper Shotgun', lang: 'en', url: 'https://www.rockpapershotgun.com/feed' },
-  { id: 'playground-pc', category: 'pc', name: 'Playground ПК', lang: 'ru', url: 'https://www.playground.ru/rss/news.xml', keywords: PC_KEYWORDS },
 
   // ── Консоли ────────────────────────────────────────────────────────────
-  { id: 'playground-consoles', category: 'consoles', name: 'Playground Консоли', lang: 'ru', url: 'https://www.playground.ru/rss/news.xml', keywords: CONSOLE_KEYWORDS },
   { id: 'nintendolife', category: 'consoles', name: 'Nintendo Life', lang: 'en', url: 'https://www.nintendolife.com/feeds/latest' },
   { id: 'nintendoeverything', category: 'consoles', name: 'Nintendo Everything', lang: 'en', url: 'https://www.nintendoeverything.com/feed/' },
   { id: 'pushsquare', category: 'consoles', name: 'Push Square', lang: 'en', url: 'https://www.pushsquare.com/feeds/latest' },
@@ -231,7 +223,6 @@ const FEEDS = [
   { id: 'steamdeckhq', category: 'consoles', name: 'SteamDeckHQ', lang: 'en', url: 'https://steamdeckhq.com/feed/' },
 
   // ── Железо ─────────────────────────────────────────────────────────────
-  { id: 'playground-hardware', category: 'hardware', name: 'Playground Железо', lang: 'ru', url: 'https://www.playground.ru/rss/news.xml', keywords: PC_HARDWARE_KEYWORDS },
   { id: '3dnews-hardware', category: 'hardware', name: '3DNews Железо', lang: 'ru', url: 'https://3dnews.ru/news/rss', keywords: PC_HARDWARE_KEYWORDS },
   { id: 'tomshardware', category: 'hardware', name: "Tom's Hardware", lang: 'en', url: 'https://www.tomshardware.com/feeds/all' },
 
