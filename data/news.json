@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T20:25:47.822Z",
-  "tookMs": 9429,
+  "generatedAt": "2026-11-08T23:40:02.961Z",
+  "tookMs": 9656,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -24,26 +24,26 @@
     "war": "Война"
   },
   "counts": {
-    "ai": 142,
-    "games": 161,
-    "announces": 19,
+    "ai": 147,
+    "games": 162,
+    "announces": 20,
     "mobile": 10,
     "releases": 35,
     "rumors": 17,
     "software": 40,
-    "science": 81,
-    "entertainment": 230,
-    "ports": 160,
-    "pc": 57,
-    "consoles": 140,
-    "hardware": 54,
+    "science": 82,
+    "entertainment": 257,
+    "ports": 166,
+    "pc": 59,
+    "consoles": 141,
+    "hardware": 56,
     "industry": 39,
     "updates": 21,
     "aimods": 3,
-    "aisoft": 56,
-    "cars": 162,
-    "war": 154,
-    "total": 1581
+    "aisoft": 58,
+    "cars": 166,
+    "war": 157,
+    "total": 1636
   },
   "sourceCount": 89,
   "sources": [
@@ -703,6 +703,1112 @@
   ],
   "items": [
     {
+      "id": "gh-1126466912",
+      "title": "dreamingmoths/memory-of-alessa: In-progress matching decompilation of Silent Hill 3",
+      "url": "https://github.com/dreamingmoths/memory-of-alessa",
+      "excerpt": "In-progress matching decompilation of Silent Hill 3",
+      "image": "",
+      "publishedAt": "2026-11-08T23:38:58Z",
+      "addedAt": "2026-11-08T23:39:57.848Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1151399333",
+      "title": "pomalusnejjksi/Aegis-Wing-XBLA-PC-Recomp: Play Aegis Wing natively on Windows at up to 4K 60 FPS with four-player co-op and online multiplayer via static recompilation.",
+      "url": "https://github.com/pomalusnejjksi/Aegis-Wing-XBLA-PC-Recomp",
+      "excerpt": "Play Aegis Wing natively on Windows at up to 4K 60 FPS with four-player co-op and online multiplayer via static recompilation.",
+      "image": "",
+      "publishedAt": "2026-11-08T23:36:31Z",
+      "addedAt": "2026-11-08T23:39:57.531Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1431958632",
+      "title": "sirbilliams/Tinkerbell-Android: Reconstruction of Disney's You Can Fly! with Tinker Bell (2002 PC) running natively on Android and the AYN Thor. Work in progress.",
+      "url": "https://github.com/sirbilliams/Tinkerbell-Android",
+      "excerpt": "Reconstruction of Disney's You Can Fly! with Tinker Bell (2002 PC) running natively on Android and the AYN Thor. Work in progress.",
+      "image": "",
+      "publishedAt": "2026-11-08T23:07:00Z",
+      "addedAt": "2026-11-08T23:39:56.747Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1432845664",
+      "title": "otavix010/asuras-wrath-pc: Asura's Wrath (Xbox 360) — port nativo para PC por recompilação estática (ReXGlue). Gera a partir da sua .iso.",
+      "url": "https://github.com/otavix010/asuras-wrath-pc",
+      "excerpt": "Asura's Wrath (Xbox 360) — port nativo para PC por recompilação estática (ReXGlue). Gera a partir da sua .iso.",
+      "image": "",
+      "publishedAt": "2026-11-08T22:53:11Z",
+      "addedAt": "2026-11-08T23:39:56.747Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1432680259",
+      "title": "otavix010/fifa-street-2-pc: FIFA Street 2 (Xbox) recompilado para rodar nativo no PC: 120 fps, widescreen, 4K, DLSS/FSR/XeSS e mods. Traga a sua cópia do jogo.",
+      "url": "https://github.com/otavix010/fifa-street-2-pc",
+      "excerpt": "FIFA Street 2 (Xbox) recompilado para rodar nativo no PC: 120 fps, widescreen, 4K, DLSS/FSR/XeSS e mods. Traga a sua cópia do jogo.",
+      "image": "",
+      "publishedAt": "2026-11-08T22:51:38Z",
+      "addedAt": "2026-11-08T23:39:56.747Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1433605771",
+      "title": "otavix010/silent-hill-pc: Silent Hill (PS1, PAL SLES-01514): native PC port by static recompilation (PSXRecomp), with modern controls. Bring your own disc.",
+      "url": "https://github.com/otavix010/silent-hill-pc",
+      "excerpt": "Silent Hill (PS1, PAL SLES-01514): native PC port by static recompilation (PSXRecomp), with modern controls. Bring your own disc.",
+      "image": "",
+      "publishedAt": "2026-11-08T22:51:33Z",
+      "addedAt": "2026-11-08T23:39:56.747Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "5acj8l",
+      "title": "‘Steps’ Review: A Stellar Voice Cast Including Amanda Seyfried, Ali Wong and Bette Midler Gets Stuck in a Tortured Revisionist Fairy Tale",
+      "url": "https://www.hollywoodreporter.com/movies/movie-reviews/steps-review-amanda-seyfried-ali-wong-bette-midler-netflix-1236750081/",
+      "excerpt": "Stephanie Hsu, Nikki Glaser, Daniel Radcliffe and Peter Dinklage also feature in Netflix’s animated overhaul of the ‘Cinderella’ story, told from the perspective of her “evil” stepsister.",
+      "content": "Stephanie Hsu, Nikki Glaser, Daniel Radcliffe and Peter Dinklage also feature in Netflix’s animated overhaul of the ‘Cinderella’ story, told from the perspective of her “evil” stepsister.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-08T23:30:00.000Z",
+      "sourceId": "hollywoodreporter",
+      "source": "The Hollywood Reporter",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "1xj9vtz",
+      "title": "‘Godzilla Minus Zero’ and ‘Ramayana: Rise of a Legend’ Roar at International Box Office",
+      "url": "https://variety.com/2026/film/box-office/godzilla-minus-zero-ramayana-nternational-box-office-1236942760/",
+      "excerpt": "Asian cinema dominated the worldwide box office over the weekend as Toho and Takashi Yamazaki’s “Godzilla Minus Zero” and Namit Malhotra and Nitesh Tiwari’s Indian epic “Ramayana: Rise of a Legend” posted thunderous global debuts, fueled by historic…",
+      "content": "Asian cinema dominated the worldwide box office over the weekend as Toho and Takashi Yamazaki’s “Godzilla Minus Zero” and Namit Malhotra and Nitesh Tiwari’s Indian epic “Ramayana: Rise of a Legend” posted thunderous global debuts, fueled by historic attendance on premium large format and Imax screens. Leading the charge across the globe, “Godzilla Minus Zero” […]",
+      "image": "https://variety.com/wp-content/uploads/2026/11/Godzilla-Ramayana.jpg",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/Godzilla-Ramayana.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T23:22:44.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "1888jzd",
+      "title": "Patrick Dempsey's Thanksgiving Horror Movie Is Worth Revisiting This Holiday Season",
+      "url": "https://www.slashfilm.com/2306498/patrick-dempsey-thanksgiving-horror-movie-worth-revisiting-holiday-season/",
+      "excerpt": "If you want to watch a Thanksgiving movie that features amusingly gross deaths, Patrick Dempsey, and more, this Eli Roth horror flick should do the trick.",
+      "content": "If you want to watch a Thanksgiving movie that features amusingly gross deaths, Patrick Dempsey, and more, this Eli Roth horror flick should do the trick.",
+      "image": "https://www.slashfilm.com/img/gallery/patrick-dempseys-thanksgiving-horror-movie-is-worth-revisiting-this-holiday-season/l-intro-1793805162.jpg",
+      "images": [
+        {
+          "url": "https://www.slashfilm.com/img/gallery/patrick-dempseys-thanksgiving-horror-movie-is-worth-revisiting-this-holiday-season/l-intro-1793805162.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.slashfilm.com/img/gallery/patrick-dempseys-thanksgiving-horror-movie-is-worth-revisiting-this-holiday-season/intro-1793805162.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T23:00:00.000Z",
+      "sourceId": "slashfilm",
+      "source": "SlashFilm",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "1orab11",
+      "title": "Зарядка за 9 минут и «глаз Бога»: чем удивил новый электрокар за 2 миллиона?",
+      "url": "https://www.zr.ru/content/news/988188-devyat-minut-na-zaryadku-s-10-d/",
+      "excerpt": "В КНР начались продажи BYD Seal 07 с запасом хода 775 км ценой от 1,7 млн рублей",
+      "content": "В КНР начались продажи BYD Seal 07 с запасом хода 775 км ценой от 1,7 млн рублей",
+      "image": "https://www.zr.ru/_ah/img/5vThUaq5cJDWlPIMwNG97g",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/5vThUaq5cJDWlPIMwNG97g",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T23:00:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "hb5vid",
+      "title": "Грузия за три месяца выдворила больше россиян, чем за весь прошлый год",
+      "url": "https://www.dw.com/ru/%D0%B3%D1%80%D1%83%D0%B7%D0%B8%D1%8F-%D0%B7%D0%B0-%D1%82%D1%80%D0%B8-%D0%BC%D0%B5%D1%81%D1%8F%D1%86%D0%B0-%D0%B2%D1%8B%D0%B4%D0%B2%D0%BE%D1%80%D0%B8%D0%BB%D0%B0-%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B5-%D1%80%D0%BE%D1%81%D1%81%D0%B8%D1%8F%D0%BD-%D1%87%D0%B5%D0%BC-%D0%B7%D0%B0-%D0%B2%D0%B5%D1%81%D1%8C-%D0%BF%D1%80%D0%BE%D1%88%D0%BB%D1%8B%D0%B9-%D0%B3%D0%BE%D0%B4/a-79893776?maca=rus-rss-ru-all-1126-rdf",
+      "excerpt": "С июля по сентябрь 2026 года Грузия выдворила 109 нелегальных мигрантов из России. Это в полтора раза выше показателя за весь 2025 год.",
+      "content": "С июля по сентябрь 2026 года Грузия выдворила 109 нелегальных мигрантов из России. Это в полтора раза выше показателя за весь 2025 год.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-08T22:57:00.000Z",
+      "sourceId": "dw-ru",
+      "source": "DW Russian",
+      "category": "war",
+      "lang": "ru",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "syvzz1",
+      "title": "Here’s the full text of Jensen Huang’s memo to Nvidia",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029595/full-text-jensen-huang-affair-memo-nvidia",
+      "excerpt": "Jensen Huang, chief executive officer of Nvidia Corp., attends a media briefing following the company's \"Japan AI Ecosystem\" reception in Tokyo, Japan, on Thursday, July 16, 2026. Japan is planning to buy 27,500 next-generation Rubin chips from Nvidia Corp…",
+      "content": "On Sunday, Nvidia announced it was launching an investigation into CEO Jensen Huang's relationship with Alice Huang, an AI executive and agent of the Chinese government. In addition to the Board of Directors announcing the investigation, Huang sent a memo to Nvidia employees acknowledging the affair. You can read the full text below.\n\nTo my colleagues at NVIDIA,\n\nI owe my family and all of you an apology.\n\nI was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did. I am deeply sorry.\n\nThroughout my life, my family has given me love and support. They deserve my honesty and loyalty. Instead, I …",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2285784039.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "images": [
+        {
+          "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/09/gettyimages-2285784039.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T22:54:50.000Z",
+      "sourceId": "verge-ai",
+      "source": "The Verge AI",
+      "category": "ai",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "15q8dcz",
+      "title": "Россия нанесла около 40 ударов по Днепропетровской области и атаковала спасателей в Камышевахе",
+      "url": "https://www.dw.com/ru/%D1%80%D0%BE%D1%81%D1%81%D0%B8%D1%8F-%D0%BD%D0%B0%D0%BD%D0%B5%D1%81%D0%BB%D0%B0-%D0%BE%D0%BA%D0%BE%D0%BB%D0%BE-40-%D1%83%D0%B4%D0%B0%D1%80%D0%BE%D0%B2-%D0%BF%D0%BE-%D0%B4%D0%BD%D0%B5%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%81%D0%BA%D0%BE%D0%B9-%D0%BE%D0%B1%D0%BB%D0%B0%D1%81%D1%82%D0%B8-%D0%B8-%D0%B0%D1%82%D0%B0%D0%BA%D0%BE%D0%B2%D0%B0%D0%BB%D0%B0-%D1%81%D0%BF%D0%B0%D1%81%D0%B0%D1%82%D0%B5%D0%BB%D0%B5%D0%B9-%D0%B2-%D0%BA%D0%B0%D0%BC%D1%8B%D1%88%D0%B5%D0%B2%D0%B0%D1%85%D0%B5/a-79894740?maca=rus-rss-ru-all-1126-rdf",
+      "excerpt": "Россия атаковала несколько областей Украины, есть погибшие и раненые. В Запорожской области под удары беспилотников попали спасатели в Камышевахе. ВС РФ также нанесли около 40 ударов по Днепропетровской области.",
+      "content": "Россия атаковала несколько областей Украины, есть погибшие и раненые. В Запорожской области под удары беспилотников попали спасатели в Камышевахе. ВС РФ также нанесли около 40 ударов по Днепропетровской области.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-08T22:53:00.000Z",
+      "sourceId": "dw-ru",
+      "source": "DW Russian",
+      "category": "war",
+      "lang": "ru",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "1v3juho",
+      "title": "Oscar Predictions: Best Casting — ‘Being Heumann’ and ‘La Bola Negra’ Found the Year’s Boldest Discoveries. Will the Academy Reward Them?",
+      "url": "https://variety.com/feature/2027-oscars-best-casting-predictions-1236878513/",
+      "excerpt": "Variety Awards Circuit section is the home for all awards news and related content throughout the year, featuring the following: the official predictions for the upcoming Oscars, Emmys, Grammys and Tony Awards ceremonies, curated by Variety chief awards…",
+      "content": "Variety Awards Circuit section is the home for all awards news and related content throughout the year, featuring the following: the official predictions for the upcoming Oscars, Emmys, Grammys and Tony Awards ceremonies, curated by Variety chief awards editor Clayton Davis. The prediction pages reflect the current standings in the race and do not reflect […]",
+      "image": "https://variety.com/wp-content/uploads/2026/11/1000044877.jpg",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/1000044877.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/05/la-bola-negra.jpg?w=1024&h=1000",
+          "alt": ""
+        },
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/09/I-Play-Rocky.jpg?w=1024&h=1000",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T22:50:00.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "afu9xt",
+      "title": "Dave Chappelle’s Charlie Kirk Joke Prompts Response from Erika Kirk: Using the ‘Destruction of a Human Life’ as a ‘Punchline Is Beyond Disgusting’",
+      "url": "https://variety.com/2026/digital/news/dave-chappelles-charlie-kirk-joke-erika-kirk-responds-1236942735/",
+      "excerpt": "After Dave Chappelle joked that he feels better ever since Charlie Kirk was murdered, Kirk’s widow, Erika, has responded to those using her late husband’s death as a punchline. “To see leftist podcasters, comedians, and commentators laugh about political…",
+      "content": "After Dave Chappelle joked that he feels better ever since Charlie Kirk was murdered, Kirk’s widow, Erika, has responded to those using her late husband’s death as a punchline. “To see leftist podcasters, comedians, and commentators laugh about political assassination as though it’s entertainment and the destruction of a human life is a punchline, is […]",
+      "image": "https://variety.com/wp-content/uploads/2026/11/US-POLITICS-SHOOTING-KIRK-1000.jpg",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/US-POLITICS-SHOOTING-KIRK-1000.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T22:44:32.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "12ubfjw",
+      "title": "Печка дует холодом? Возможно, дело в термостате",
+      "url": "https://www.zr.ru/content/news/988123-pechka-duet-kholodom-na-trasse/",
+      "excerpt": "Эксперт Архипов: почему осенью двигатель дольше прогревается",
+      "content": "Эксперт Архипов: почему осенью двигатель дольше прогревается",
+      "image": "https://www.zr.ru/_ah/img/ajEawt6MoyEaVn5_f4v7_A",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/ajEawt6MoyEaVn5_f4v7_A",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T22:40:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "1l6la7w",
+      "title": "Soul Glo’s Diaspora Problems is a hardcore record like no other",
+      "url": "https://www.theverge.com/entertainment/1029579/soul-glo-diaspora-problems-hardcore-punk-review",
+      "excerpt": "Soul Glo has a new record called NA I'M GON GRAB ALLAT coming out in January, and I, for one, can not wait. While two singles have dropped, it's not enough to truly tide me over, so I've been revisiting Songs to Yeet at the Sun and my favorite album of 2022…",
+      "content": "Soul Glo has a new record called NA I'M GON GRAB ALLAT coming out in January, and I, for one, can not wait. While two singles have dropped, it's not enough to truly tide me over, so I've been revisiting Songs to Yeet at the Sun and my favorite album of 2022 - Diaspora Problems .\n\n\"Gold Chain Punk (whogonbeatmyass?)\" is an opening salvo for the ages. Bong rip, into a catchy-as-hell hardcore riff, with frontman Pierce Jordan ranting. Then comes the half-time stomp as Jordan gets fully unhinged, screaming \"Who gon beat my ass? Who the fuck gon beat my ass?\" From here on out, as the music shifts through a few different sections, the energy never …",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/a3168552135_10.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "images": [
+        {
+          "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/a3168552135_10.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "alt": "The cover of Soul Glo’s Diaspora Problems."
+        }
+      ],
+      "publishedAt": "2026-11-08T22:37:22.000Z",
+      "sourceId": "verge-ent",
+      "source": "The Verge Entertainment",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "1dg0kp3",
+      "title": "parse_number() as a SQLite extension: C vs Rust",
+      "url": "https://simonwillison.net/2026/Nov/8/sqlite-parse-number-c-vs-rust/",
+      "excerpt": "Research: parse_number() as a SQLite extension: C vs Rust I was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning strings like -$1,234.56 or '12.5%' into…",
+      "content": "Research: parse_number() as a SQLite extension: C vs Rust\n\nI was out walking the dog when I got curious about how easy/difficult it would be to write a SQLite C extension that adds a parse_number() function for turning strings like -$1,234.56 or '12.5%' into numeric values that could be summed and sorted.\n\nI fired up regular Claude chat (Opus 5.5) and prompted :\n\nI'm thinking about a SQLite custom function 'parse_number(value)' that strips ',', '$', '£' and '%', handles a leading '-', and returns 'NULL' for anything it can’t parse\n\nExplore the difference between building this as a SQLite extension in C v.s. in Rust - I want to compare performance and code complexity and size of the resulting .so (or whatever) file\n\nThis gave me a solid starting point - the Rust extension was 321 KB (using Rusqlite ) and 298 KB (using sqlite-loadable-rs ), while the C extension was 14 KB. But the Rust extension was faster!\n\nTurns out that's because the Rust equivalent of C's strtod is \"twice as fast\". So I prompted:\n\nTry writing your own C function for parsing text into a decimal number that catches up to or beats the Rust implementation\n\nAnd it did:\n\nNet cost per row over 2 million rows, lower is better:\n\nfirst C\nnew C\nrusqlite\nsqlite-loadable\n\nMixed data\n67 ns\n19 ns\n46 ns\n41 ns\n\nIntegers only\n25 ns\n16 ns\n36 ns\n32 ns\n\nDecimals only\n106 ns\n18 ns\n55 ns\n47 ns\n\nFinally, I had it rewrite the prototype as a research report to match the others in simonw/research by prompting this:\n\nClone simonw/research from GitHub and turn your above investigation into a research report as seen in that repository - you can give me a zip file to download that contains your new folder\n\nHere's the resulting report .\n\nTags: c , research , sqlite , rust , claude",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-08T22:26:00.000Z",
+      "sourceId": "simonw",
+      "source": "Simon Willison",
+      "category": "aisoft",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "y7yori",
+      "title": "Jackbox Games isn't interested in AI development: 'All that is done by people, and we have no intention of changing that'",
+      "url": "https://www.pcgamer.com/gaming-industry/game-development/jackbox-games-isnt-interested-in-ai-development-all-that-is-done-by-people-and-we-have-no-intention-of-changing-that/",
+      "excerpt": "On a recent visit to Jackbox Games HQ here in Chicago, I got to speak with developers and studio leadership about their process, history, and place in the industry. Given, you know, everything , I'm pretty much contractually obligated to ask about AI in…",
+      "content": "On a recent visit to Jackbox Games HQ here in Chicago, I got to speak with developers and studio leadership about their process, history, and place in the industry. Given, you know, everything , I'm pretty much contractually obligated to ask about AI in conversations like this. Here's what CEO Mike Bilder had to say on the topic:\n\n2026 games : All the upcoming games\nBest PC games : Our all-time favorites\nFree PC games : Freebie fest\nBest FPS games : Finest gunplay\nBest RPGs : Grand adventures\nBest co-op games : Better together",
+      "image": "https://cdn.mos.cms.futurecdn.net/ZimasKeFtUuoHSCqpCekQo-1920-80.png",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/ZimasKeFtUuoHSCqpCekQo-1920-80.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/6offQUY4CXebir2TC27dMd-1920-80.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T22:06:56.000Z",
+      "sourceId": "pcgamer",
+      "source": "PC Gamer",
+      "category": "pc",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "17bit93",
+      "title": "Druski Leads One Of ‘SNL’s Most Star-Studded Curtain Calls Ever With Emma Stone, Michael B. Jordan, Austin Butler, Plus Chappelle, Rock, Goggins",
+      "url": "https://deadline.com/2026/11/druski-snl-emma-stone-michael-b-jordan-austin-butler-1237216899/",
+      "excerpt": "Hollywood heavy hitters turned out to witness Saturday Night Live history this weekend as comedian Druski became the fist digital creator to host the venerable NBC late-night sketch program. Druski’s The Catch co-star Emma Stone and newly elected Texas…",
+      "content": "Hollywood heavy hitters turned out to witness Saturday Night Live history this weekend as comedian Druski became the fist digital creator to host the venerable NBC late-night sketch program. Druski’s The Catch co-star Emma Stone and newly elected Texas Senator James Talarico were expected to join the host for the curtain call at the end […]",
+      "image": "https://deadline.com/wp-content/uploads/2026/11/SNLDruski.jpg",
+      "images": [
+        {
+          "url": "https://deadline.com/wp-content/uploads/2026/11/SNLDruski.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T22:00:41.000Z",
+      "sourceId": "deadline",
+      "source": "Deadline",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "b5ph13",
+      "title": "Liquid-assisted crystal growth cuts perovskite defects for efficient solar cells and LEDs",
+      "url": "https://phys.org/news/2026-11-liquid-crystal-growth-perovskite-defects.html",
+      "excerpt": "A research team led by professor Seong Sik Shin of the SKKU Advanced Institute of Nanotechnology (SAINT) at Sungkyunkwan University (SKKU), in international collaboration with the Korea Research Institute of Chemical Technology (KRICT), the University of…",
+      "content": "A research team led by professor Seong Sik Shin of the SKKU Advanced Institute of Nanotechnology (SAINT) at Sungkyunkwan University (SKKU), in international collaboration with the Korea Research Institute of Chemical Technology (KRICT), the University of California, San Diego, and Princeton University, has developed a next-generation perovskite semiconductor thin film with dramatically reduced defects. Using the same material platform, the researchers demonstrated both high-performance solar cells and LEDs.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/skku-develops-ultra-lo-1.jpg",
+      "images": [
+        {
+          "url": "https://scx1.b-cdn.net/csz/news/tmb/2026/skku-develops-ultra-lo-1.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T22:00:01.000Z",
+      "sourceId": "physorg",
+      "source": "Phys.org",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "1icjx2m",
+      "title": "Patrick Stewart's '90s Fantasy Movie With Neve Campbell Is Streaming For Free",
+      "url": "https://www.slashfilm.com/2306342/patrick-stewart-90s-fantasy-movie-neve-campbell-streaming-free-the-canterville-ghost/",
+      "excerpt": "Neve Campbell starred opposite Patrick Stewart (as a ghost) in this '90s Oscar Wilde fantasy story adaptation, which you can currently stream for free.",
+      "content": "Neve Campbell starred opposite Patrick Stewart (as a ghost) in this '90s Oscar Wilde fantasy story adaptation, which you can currently stream for free.",
+      "image": "https://www.slashfilm.com/img/gallery/patrick-stewarts-90s-fantasy-movie-with-neve-campbell-is-streaming-for-free/l-intro-1793799460.jpg",
+      "images": [
+        {
+          "url": "https://www.slashfilm.com/img/gallery/patrick-stewarts-90s-fantasy-movie-with-neve-campbell-is-streaming-for-free/l-intro-1793799460.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.slashfilm.com/img/gallery/patrick-stewarts-90s-fantasy-movie-with-neve-campbell-is-streaming-for-free/intro-1793799460.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T22:00:00.000Z",
+      "sourceId": "slashfilm",
+      "source": "SlashFilm",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "oyw1px",
+      "title": "Шпионский скандал разрастается: Дженсен Хуанг сознался в супружеской измене — Nvidia запустила расследование",
+      "url": "https://3dnews.ru/1151027",
+      "excerpt": "Основатель и генеральный директор Nvidia Дженсен Хуанг (Jensen Huang) признался в супружеской измене на фоне сообщений о его отношениях с женщиной, которую подозревают в работе на китайскую разведку. Cовет директоров компании объявил о начале независимого…",
+      "content": "Основатель и генеральный директор Nvidia Дженсен Хуанг (Jensen Huang) признался в супружеской измене на фоне сообщений о его отношениях с женщиной, которую подозревают в работе на китайскую разведку. Cовет директоров компании объявил о начале независимого расследования. Пока Хуанг продолжит руководить Nvidia. В опубликованном 8 ноября обращении к сотрудникам 63-летний Хуанг извинился перед женой и детьми, признав, что причинил им боль и несёт полную ответственность за свои поступки. «Я изменил своей жене. Мои поступки причинили боль ей и нашим детям. Моему поступку нет оправдания», — написал он. Глава Nvidia также попросил прощения у сотрудников, совета директоров, партнёров и акционеров, заявив, что не оправдал их доверия и намерен его вернуть. Имени женщины в обращении он не назвал.",
+      "image": "https://3dnews.ru/assets/external/illustrations/2026/11/09/1151027/sdf.jpg",
+      "images": [
+        {
+          "url": "https://3dnews.ru/assets/external/illustrations/2026/11/09/1151027/sdf.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T21:58:00.000Z",
+      "sourceId": "3dnews-hardware",
+      "source": "3DNews Железо",
+      "category": "hardware",
+      "lang": "ru",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "hvldmd",
+      "title": "Вайбкодинг закончился, когда пришёл второй пользователь",
+      "url": "https://habr.com/ru/articles/1101952/",
+      "excerpt": "Друг принёс Telegram-бота, собранного с помощью ИИ: видео обрабатываются, кнопки работают, осталось арендовать сервер. Потом выяснилось, что параллельное приложение умеет параллельно ждать одну блокировку, а двенадцать обработчиков иногда медленнее пяти…",
+      "content": "Друг принёс Telegram-бота, собранного с помощью ИИ: видео обрабатываются, кнопки работают, осталось арендовать сервер. Потом выяснилось, что параллельное приложение умеет параллельно ждать одну блокировку, а двенадцать обработчиков иногда медленнее пяти. Рассказываю, как мы превращали вайбкод в сервис: от SQLite до PostgreSQL, очередей, общего хранилища и деплоя по кнопке. И почему промпт «сделай хорошо» всё ещё не заменяет инженерные знания.\n\nВпустить второго пользователя",
+      "image": "https://habrastorage.org/extt/c1/ad/a8/c1ada8222f71d13bf432c236da487406.jpg",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/c1/ad/a8/c1ada8222f71d13bf432c236da487406.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T21:55:25.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "ex9s8w",
+      "title": "Какие сегменты смазочных материалов в лидерах рынка: репортаж с конференции Lubricant Market 2026",
+      "url": "https://5koleso.ru/avtopark/novosti-komtransa/kakie-segmenty-smazochnyh-materialov-v-liderah-rynka-reportazh-s-konferenczii-lubricant-market-2026/",
+      "excerpt": "По прогнозу агентства b2x в 2026 году рынок смазочных материалов в РФ останется на уровне 2025 года. Суммарный объем реализации в структурах легковых авто, коммерческой техники и индустрии составит 1745 тыс. тонн (+2% год к году). Лучшую динамику на розничном…",
+      "content": "По прогнозу агентства b2x в 2026 году рынок смазочных материалов в РФ останется на уровне 2025 года. Суммарный объем реализации в структурах легковых авто, коммерческой техники и индустрии составит 1745 тыс. тонн (+2% год к году).\n\nЛучшую динамику на розничном рынке по итогам января-сентября 2026 года показывают масла с маркировкой 2Т/4T (для легкомоторной техники) – их продажи в рублях увеличились на 16,1% относительно 9 месяцев 2025 года. Двузначную динамику роста в деньгах также показывают масла для коммерческой техники (+13,8%).\n\nПри этом доля импорта в потреблении продолжает снижаться: с 15% в 2024 году до 13% в 2026-м. Доля российских брендов в розничных продажах в 2026 году составила: в маслах PVL (легковые) — 58%, в маслах CVL (коммерческие) – 82%, в антифризах – 96%, а в тормозных жидкостях – 89%.\n\nПо результатам за январь-сентябрь 2026 года наиболее растущими сегментами в литровом эквиваленте названы масла вязкостью 0W-20: прирост относительно аналогичного периода 2025 года составил 24%\n\nСреди тенденций рынка смазочных материалов генеральный директор агентства b2х Анатолий Филаткин назвал рост себестоимости готовой продукции и соответственно рост цен на смазочные материалы. Например, средневзвешенная розничная цена на моторные масла российских брендов за год увеличилась на 16,6% и составила 715 руб./л.\n\nМеждународная конференция «Производство и рынок смазочных материалов», организатором которой является компания RPI, посвящена смазочному рынку России в новой реальности, его проблемам и их решениям, возможностям как для поставщиков компонентов, так и для производителей смазочных материалов. Участники знакомятся с прогнозами рынка масел и автомобильной техники и актуальными требованиями к различным видам масел. Конференция является важнейшим местом встречи производителей и потребителей отрасли.\n\nВ этом году конференция состоялась в двадцатый раз.",
+      "image": "https://5koleso.ru/wp-content/uploads/2026/11/1794172673962-1024x768.jpg",
+      "images": [
+        {
+          "url": "https://5koleso.ru/wp-content/uploads/2026/11/1794172673962-1024x768.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://5koleso.ru/wp-content/uploads/2026/11/img_8311.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://5koleso.ru/wp-content/uploads/2026/11/img_8312.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T21:47:37.000Z",
+      "sourceId": "5koleso",
+      "source": "5 колесо",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "db1w1j",
+      "title": "Ezra Dyer: Maybe the Saturn Sky Red Line Is Not Quite a Discount Viper, but It Comes Close",
+      "url": "https://www.caranddriver.com/features/a74056723/ezra-dyer-saturn-red-line/",
+      "excerpt": "This car is proof that the old GM’s ideas weren’t all bad, as I find out when I take custody of one.",
+      "content": "This car is proof that the old GM’s ideas weren’t all bad, as I find out when I take custody of one.",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/dae0625a-41e5-4fda-87d3-da4bf9cd40fb.jpg",
+      "images": [
+        {
+          "url": "https://hips.hearstapps.com/hmg-prod/images/dae0625a-41e5-4fda-87d3-da4bf9cd40fb.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T21:40:26.000Z",
+      "sourceId": "caranddriver",
+      "source": "Car and Driver",
+      "category": "cars",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "1uw9tus",
+      "title": "Nvidia CEO Jensen Huang admits to affair with alleged Chinese spy as company board launches investigation",
+      "url": "https://www.pcgamer.com/gaming-industry/nvidia-ceo-jensen-huang-admits-to-affair-with-alleged-chinese-spy-as-company-board-launches-investigation/",
+      "excerpt": "As reported by Axios , Nvidia CEO Jensen Huang has admitted to carrying on an extramarital affair with Alice Huang, an executive at Chinese AI company Megaspeed. According to The New York Times , the Trump administration suspects Ms. Huang of passing…",
+      "content": "As reported by Axios , Nvidia CEO Jensen Huang has admitted to carrying on an extramarital affair with Alice Huang, an executive at Chinese AI company Megaspeed. According to The New York Times , the Trump administration suspects Ms. Huang of passing information to China's Ministry of State Security. The Chinese government denies the accusation.\n\nBoth the NYT and Financial Times ' previous reporting on Jensen Huang pursuing a romantic relationship with Alice Huang were contested by Nvidia, which had maintained that any relationship between the two was strictly professional.\n\nAxios obtained a draft version of Jensen Huang's email apology to Nvidia employees. \"I owe my family and all of you an apology,\" Huang allegedly wrote. \"I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did.\" Huang reportedly took \"full responsibility\" for the affair, but will not step down as Nvidia's CEO: \"I am fully committed to Nvidia and will work to earn back your confidence.\"\n\nNvidia's board is organizing an independent committee to investigate the relationship, but does not believe company or national security secrets were compromised. Nvidia's board is not seeking Huang's removal from the CEO position.\n\nThis all comes as the US takes an increasingly hawkish stance toward China, framing AI development as a national security issue and restricting the sale of advanced AI chips to Chinese companies. Meanwhile, US-based AI companies and their aggressive datacenter buildouts are proving increasingly unpopular with American voters.\n\nI think I speak for all of us when I say: Damn, that's crazy. Remember when Jensen Huang was just the gaming graphics guy and not the AI apocalypse national security guy? Perhaps we were all happier in those simpler times, including Huang, whatever his skyrocketing net worth might say to the contrary.\n\n2026 games : All the upcoming games\nBest PC games : Our all-time favorites\nFree PC games : Freebie fest\nBest FPS games : Finest gunplay\nBest RPGs : Grand adventures\nBest co-op games : Better together",
+      "image": "https://cdn.mos.cms.futurecdn.net/VE3dBZCG8wUwPxHWNzqwD9-1920-80.jpg",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/VE3dBZCG8wUwPxHWNzqwD9-1920-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/6offQUY4CXebir2TC27dMd-1920-80.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T21:38:31.000Z",
+      "sourceId": "pcgamer",
+      "source": "PC Gamer",
+      "category": "pc",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "ytqlwt",
+      "title": "Jesse Eisenberg \"experiments\" with AI to make sure it's still bad at writing",
+      "url": "https://www.avclub.com/jesse-eisenberg-experiments-with-ai-writing-bad",
+      "excerpt": "Jesse Eisenberg sleeps well at night—for now—knowing AI isn’t advanced enough to replace good old-fashioned human writing skills. In a new interview with Variety , Eisenberg and Julianne Moore, his co-star in his new A24 film The Debut , were asked how they…",
+      "content": "Jesse Eisenberg sleeps well at night—for now—knowing AI isn’t advanced enough to replace good old-fashioned human writing skills. In a new interview with Variety , Eisenberg and Julianne Moore, his co-star in his new A24 film The Debut , were asked how they feel about AI shaping Hollywood. While Moore expressed hope for the future and the yet-to-be-discovered filmmakers it may produce, Eisenberg admitted that he’s “ totally paranoid.” That paranoia has led the writer, director, and actor to tinker with AI and test its writing capabilities to see just how worried he should be about it replacing his job. “I sometimes experiment with AI to see whether it’s good at writing. And it’s still not. I’m paranoid, so I check and it still isn’t. Thank God,” he said. The use of AI has been an ongoing hot topic among Hollywood creatives, with many vehemently opposing it , others expressing skepticism , and some embracing it . Eisenberg has tested AI by prompting it to write scenes, and the results speak for themselves. “I say, ‘Write a scene like this.’ I’m just testing it to make sure it’s bad, and it’s still bad,” he said. “So I’m relieved, but, like, how far away is it from being good? How far are we from a kid putting on a pair of goggles and saying, ‘I want to watch a movie about me where I rob a bank and then kiss the girl I’m in love with at school. Here are pictures of her, here are pictures of me’ and then they press play? I’m paranoid about that.”\n\nIt’s a valid concern, as AI has already infiltrated the entertainment industry, whether audiences realize it or not. Netflix quietly used some form of AI on 300 titles and recently rolled out a feature called AI Discover , while an AI bot stole Mia Goth’s name and likeness for viral social media posts. Meanwhile, people are still trying to make “AI actor” Tilly Norwood a thing. As more AI-generated slop takes over, audiences seem to be seeking out human-made art, and companies are catching on . Despite Eisenberg’s concerns about AI, he agreed with Moore that the “creative spirit will find ways to entertain and delight us and speak about things in a way that maybe computers won’t.” Eisenberg also pointed to the evolution of storytelling, from cavepeople sitting around campfires to the development of Greek plays that are still performed today, as evidence that human creativity will endure. “People want to be in the same room as other people, watching and listening to stories,” he said. “It’s as old as cave people sitting by the campfire telling stories, and there will always be room for that. What I do worry about is whether we’ll still be able to make a living from it. I’m not 100% sure about that.”",
+      "image": "https://www.avclub.com/wp-content/uploads/2026/11/08/jesse-eisenberg-tonight-show-starring-jimmy-fallon-featured.jpg",
+      "images": [
+        {
+          "url": "https://www.avclub.com/wp-content/uploads/2026/11/08/jesse-eisenberg-tonight-show-starring-jimmy-fallon-featured.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/08162900/jesse-eisenberg-tonight-show-starring-jimmy-fallon-lead.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T21:32:55.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "1c3xfej",
+      "title": "‘SNL’ Pays Tribute To Susan Saint James With Title Card",
+      "url": "https://deadline.com/2026/11/snl-pays-tribute-susan-saint-james-title-card-1237216895/",
+      "excerpt": "Saturday Night Live paid tribute to a longtime member of the show’s family last night on air. This weekend’s episode of the NBC sketch comedy show featured a title card before the goodnights, in memory of to two-time SNL host Susan Saint James, who remained…",
+      "content": "Saturday Night Live paid tribute to a longtime member of the show’s family last night on air. This weekend’s episode of the NBC sketch comedy show featured a title card before the goodnights, in memory of to two-time SNL host Susan Saint James, who remained close to the show over the years. While guest-hosting for […]",
+      "image": "https://deadline.com/wp-content/uploads/2026/11/HWlTXX5XEAAuIZ0.jpg",
+      "images": [
+        {
+          "url": "https://deadline.com/wp-content/uploads/2026/11/HWlTXX5XEAAuIZ0.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T21:32:49.000Z",
+      "sourceId": "deadline",
+      "source": "Deadline",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "1mugh8g",
+      "title": "Умер солист группы «Разные люди» Александр Чернецкий",
+      "url": "https://www.intermedia.ru/news/407987",
+      "excerpt": "Лидер рок-группы «Разные люди» Александр Чернецкий скончался 8 ноября 2026 года в возрасте 60 лет. О его смерти сообщили в соцсетях друзья...",
+      "content": "Лидер рок-группы «Разные люди» Александр Чернецкий скончался 8 ноября 2026 года в возрасте 60 лет. О его смерти сообщили в соцсетях друзья...",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-08T21:28:00.000Z",
+      "sourceId": "intermedia",
+      "source": "InterMedia",
+      "category": "entertainment",
+      "lang": "ru",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "1dcgtww",
+      "title": "Nvidia CEO Jensen Huang admits to having an affair with suspected Chinese spy",
+      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-ceo-jensen-huang-admits-to-having-an-affair-with-suspected-chinese-spy-jensen-apologizes-in-letter-to-staff-company-board-forms-independent-committee-to-investigate",
+      "excerpt": "Nvidia CEO Jensen Huang has admitted to having an affair with a woman who is allegedly a Chinese spy. His apology came in a letter to Nvidia staff, which you can read in full below. Nvidia's board of directors released a statement late on Sunday to address…",
+      "content": "Nvidia CEO Jensen Huang has admitted to having an affair with a woman who is allegedly a Chinese spy. His apology came in a letter to Nvidia staff, which you can read in full below. Nvidia's board of directors released a statement late on Sunday to address the bombshell report that U.S. intelligence believes Huang had an affair with a Chinese spy . The board says it has no reason to believe sensitive corporate information or U.S. national security was compromised, but the company intends to examine all available information to determine what happened.\n\nThe BoD claims it is fully confident in Jensen Huang and his leadership team. Huang, who has been married to his wife, Lori Huang, for 41 years, says he fully supports the investigation.\n\n\"A committee of independent directors, assisted by outside independent counsel, will oversee the investigation,\" a statement by Nvidia's BoD reads. \"The Board prioritizes U.S. national and economic security, which is paramount to the interests of Nvidia and its shareholders. […] Jensen fully supports the review and has committed to cooperating with it.\"\n\nOn Friday, the first reporting emerged claiming U.S. intelligence agencies believe Huang had a romantic relationship with Alice Huang, also known as Huang Le, a former executive at Singapore-based Megaspeed who was allegedly recruited by China's Ministry of State Security (MSS) to gather information and help Chinese companies obtain restricted AI GPUs. The company has been on the radar for smuggling restricted hardware to China since at least 2025: Megaspeed has been accused of smuggling $2 billion worth of AI chips into China via its subsidiary Speedmatrix.\n\nTo my colleagues at NVIDIA, I owe my family and all of you an apology.\n\nJensen Huang, Nvidia CEO\n\nNvidia has strenuously rejected suggestions of improper dealings, saying that its CEO regularly meets thousands of customers and that these interactions do not involve sensitive corporate information or national security secrets. Chinese officials have also dismissed the espionage allegations as unfounded.\n\nThe suspected Chinese intelligence operation targeting Jensen has not been independently confirmed as a fact. The relationship is alleged to follow the typical \"honeypot\" strategy, wherein foreign intelligence agencies use operatives to ensnare targets into romantic relationships to steal information and influence their decision-making.\n\nHuang has been an outspoken critic of those opposed to limiting the supply of AI GPUs to China. Huang recently expressed his opinion that the label 'China hawk' is not a badge of honor Americans should wear; it is really 'a badge of shame.' Huang also said it \"doesn’t have to be all us or them. It could be us and them,\" drawing fire from others in the administration and other tech companies, including the CEO of Palantir .\n\n\"I owe my family and all of you an apology,\" Huang wrote . \"I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did. I am deeply sorry. Throughout my life, my family has given me love and support. They deserve my honesty and loyalty. Instead, I let them down and damaged the life we built together. I take full responsibility for what I did and the hurt I caused, and I accept the criticism that comes with it. To my wife and family: I love you. I know an apology cannot undo what I have done. I hope our family will heal and that, over time, I can earn back your trust.\"\n\nIn June 2018, Intel chief executive Brian Krzanich resigned after an internal investigation, assisted by external legal counsel, confirmed that he had engaged in a consensual romantic relationship with an Intel employee, which violated the company's non-fraternization policy applicable to all managers. Krzanich, who had led Intel since 2013, also stepped down from the company's board, while then-chief financial officer Robert Swan took over as interim CEO. For now, it remains unclear if Jensen will meet a similar fate and lose control of the company he founded.\n\nJensen's full letter to staff reads as follows:\n\nTo my colleagues at NVIDIA, I owe my family and all of you an apology. I was unfaithful to my wife. My actions hurt her and our children. There is no excuse for what I did. I am deeply sorry.\n\nThroughout my life, my family has given me love and support. They deserve my honesty and loyalty. Instead, I let them down and damaged the life we built together. I take full responsibility for what I did and the hurt I caused, and I accept the criticism that comes with it.\n\nTo my wife and family: I love you. I know an apology cannot undo what I have done. I hope our family will heal and that, over time, I can earn back your trust.\n\nTo my colleagues at NVIDIA, including those I have worked alongside for decades, and to our board, partners, and shareholders around the world: you deserve better from me. Leading NVIDIA is the privilege of my life. My responsibility is to serve you and be worthy of your trust. I have fallen short of that responsibility. I am fully committed to NVIDIA and will work to earn back your confidence.\n\nRegarding the national security concerns raised in news reports, NVIDIA’s Board of Directors has initiated an independent investigation. I support the investigation and will cooperate fully. I love our country and our company. I am committed to protecting NVIDIA and supporting America’s national security. I am proud and grateful to be an American.\n\nMy family bears no responsibility for my choices. I do. Please give them privacy.\n\nJensen\n\nThe whole statement from Nvidia's Board of Directors reads as follows:\n\nThe Nvidia Board is initiating an independent investigation in light of recent reporting that founder and CEO Jensen Huang has been the target of a foreign intelligence effort.\n\nA committee of independent directors, assisted by outside independent counsel, will oversee the investigation.\n\nThe Board prioritizes U.S. national and economic security, which is paramount to the interests of NVIDIA and its shareholders.\n\nWhile the Board has no reason to believe that either national security or NVIDIA secrets were compromised, the Board's inquiry will examine all available information.\n\nJensen fully supports the review and has committed to cooperating with it.\n\nThe Board has confidence in Jensen and his leadership team and will provide further updates as appropriate.",
+      "image": "https://cdn.mos.cms.futurecdn.net/Kjestg9jiuvnbE868dhwjf-1920-80.jpg",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/Kjestg9jiuvnbE868dhwjf-1920-80.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T21:27:29.000Z",
+      "sourceId": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "hardware",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "1bn1mnq",
+      "title": "NBC’s Mike Tirico Skipping ‘Sunday Night Football’ In Chicago Due To “Health Issue”",
+      "url": "https://deadline.com/2026/11/nbc-mike-tirico-skipping-sunday-night-football-health-issue-1237216897/",
+      "excerpt": "Mike Tirico is sitting out this weekend’s Sunday Night Football in Chicago as he recovers from an illness. On Sunday, the NBC Sports commentator announced his last-minute absence due to “a health issue,” with Noah Eagle taking over for him at the game between…",
+      "content": "Mike Tirico is sitting out this weekend’s Sunday Night Football in Chicago as he recovers from an illness. On Sunday, the NBC Sports commentator announced his last-minute absence due to “a health issue,” with Noah Eagle taking over for him at the game between the Tampa Bay Buccaneers and Chicago Bears. “Unfortunately, I will have […]",
+      "image": "https://deadline.com/wp-content/uploads/2026/11/GettyImages-1699414095.jpg",
+      "images": [
+        {
+          "url": "https://deadline.com/wp-content/uploads/2026/11/GettyImages-1699414095.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T21:25:36.000Z",
+      "sourceId": "deadline",
+      "source": "Deadline",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "1pbp44i",
+      "title": "Nvidia начала независимое расследование после сообщений о попытке китайской разведки завербовать Дженсена Хуанга",
+      "url": "https://www.playground.ru/misc/news/nvidia_nachala_nezavisimoe_rassledovanie_posle_soobschenij_o_popytke_kitajskoj_razvedki_zaverbovat_dzhensena_huanga-1888948",
+      "excerpt": "Совет директоров Nvidia начал независимое расследование после публикаций The New York Times и Financial Times о возможной попытке китайской разведки завербовать главу компании Дженсена Хуанга. В центре истории оказалась Алиса Хуанг - китайская…",
+      "content": "Совет директоров Nvidia начал независимое расследование после публикаций The New York Times и Financial Times о возможной попытке китайской разведки завербовать главу компании Дженсена Хуанга. В центре истории оказалась Алиса Хуанг - китайская предпринимательница, чья...",
+      "image": "https://i.playground.ru/e/YjjBb_D8WBuLOvX97r9LLw.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/YjjBb_D8WBuLOvX97r9LLw.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T21:18:35.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "1cfluek",
+      "title": "AI для PHP‑разработчиков. Часть 8: Свёрточные нейронные сети: ищем границы на изображениях с помощью чистого PHP",
+      "url": "https://habr.com/ru/articles/1105232/",
+      "excerpt": "Компьютер не видит фотографию так, как её видит человек. Для него изображение – это набор чисел, описывающих яркость и цвет отдельных пикселей. И чтобы научиться распознавать объекты, находить границы или определять визуальные признаки, нужно научиться…",
+      "content": "Компьютер не видит фотографию так, как её видит человек. Для него изображение – это набор чисел, описывающих яркость и цвет отдельных пикселей. И чтобы научиться распознавать объекты, находить границы или определять визуальные признаки, нужно научиться работать с этими числами.\n\nДля решения таких задач используются свёрточные нейронные сети (Convolutional Neural Networks, CNN). Они широко применяются в компьютерном зрении – от распознавания объектов до анализа медицинских изображений.\n\nОдна из основных операций таких сетей – свёртка (convolution). С её помощью сеть анализирует небольшие участки изображения и обнаруживает локальные признаки: границы, линии, текстуры и другие структуры.\n\nНо как именно это работает?\n\nЧитать далее",
+      "image": "https://habrastorage.org/extt/f2/5e/97/f25e9718b932907e58557e0f6f9a5d92.png",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/f2/5e/97/f25e9718b932907e58557e0f6f9a5d92.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T21:17:35.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "11l83do",
+      "title": "‘Avedon’ Review: Ron Howard’s Thrilling Documentary About Richard Avedon, the Great Photographer Who Turned Head-On Portraits Into an Art Form",
+      "url": "https://variety.com/2026/film/reviews/avedon-review-ron-howard-richard-avedon-1236942472/",
+      "excerpt": "\"Avedon,\" Ron Howard’s documentary about the legendary photographer, is a fantastic movie. It’s the best documentary Ron Howard has made (my favorite before this: \"The Beatles: Eight Days a Week — The Touring Years\"), and it’s been edited in a way that’s so…",
+      "content": "\"Avedon,\" Ron Howard’s documentary about the legendary photographer, is a fantastic movie. It’s the best documentary Ron Howard has made (my favorite before this: \"The Beatles: Eight Days a Week — The Touring Years\"), and it’s been edited in a way that’s so supple and artful that its technique should be studied in filmmaking classes. (The film’s editor is Andrew Morreale.) Woven through the movie are hundreds of images that were shot by Richard Avedon, and there’s no question that the images are stunning, but the way the movie layers them into your consciousness is nearly musical in its finesse. And that helps to tell the very large story that \"Avedon\" is telling: how Richard Avedon changed photography in a way that shifted how we see the world.",
+      "image": "https://variety.com/wp-content/uploads/2026/11/avedon-netflix-2.jpg.webp",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/avedon-netflix-2.jpg.webp",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T21:02:08.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "j8qwud",
+      "title": "Nvidia will investigate CEO Jensen Huang’s relationship with possible Chinese spy",
+      "url": "https://techcrunch.com/2026/11/08/nvidia-says-its-investigating-ceo-jensen-huangs-relationship-with-possible-chinese-spy/",
+      "excerpt": "In a memo to the company, Huang admitted that he had an affair.",
+      "content": "In a memo to the company, Huang admitted that he had an affair.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-08T21:00:11.000Z",
+      "sourceId": "techcrunch-ai",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "byylsp",
+      "title": "This Chilling Japanese Folk Horror Series Is One Of Hulu's Best Hidden Gems",
+      "url": "https://www.slashfilm.com/2306333/gannibal-japanese-folk-horror-series-streaming-hulu-hidden-gem/",
+      "excerpt": "Fans of creepy folk horror should check out this under-the-radar Japanese TV series that's currently streaming over on Hulu.",
+      "content": "Fans of creepy folk horror should check out this under-the-radar Japanese TV series that's currently streaming over on Hulu.",
+      "image": "https://www.slashfilm.com/img/gallery/this-chilling-japanese-folk-horror-series-is-one-of-hulus-best-hidden-gems/l-intro-1793798961.jpg",
+      "images": [
+        {
+          "url": "https://www.slashfilm.com/img/gallery/this-chilling-japanese-folk-horror-series-is-one-of-hulus-best-hidden-gems/l-intro-1793798961.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.slashfilm.com/img/gallery/this-chilling-japanese-folk-horror-series-is-one-of-hulus-best-hidden-gems/intro-1793798961.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T21:00:00.000Z",
+      "sourceId": "slashfilm",
+      "source": "SlashFilm",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "p8npbc",
+      "title": "This X-Men-Esque '80s Sci-Fi Series Launched Courteney Cox's Career",
+      "url": "https://www.slashfilm.com/2300145/courteney-cox-80s-sci-fi-series-x-men-launch-carreer-misfits-of-science/",
+      "excerpt": "Before Courteney Cox joined the cast of Friends, she had a starring role in a one-season 1980s sci-fi show that shared some DNA with Marvel's X-Men.",
+      "content": "Before Courteney Cox joined the cast of Friends, she had a starring role in a one-season 1980s sci-fi show that shared some DNA with Marvel's X-Men.",
+      "image": "https://www.slashfilm.com/img/gallery/this-x-men-esque-80s-sci-fi-series-launched-courteney-coxs-career/l-intro-1793211563.jpg",
+      "images": [
+        {
+          "url": "https://www.slashfilm.com/img/gallery/this-x-men-esque-80s-sci-fi-series-launched-courteney-coxs-career/l-intro-1793211563.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.slashfilm.com/img/gallery/this-x-men-esque-80s-sci-fi-series-launched-courteney-coxs-career/intro-1793211563.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T20:45:00.000Z",
+      "sourceId": "slashfilm",
+      "source": "SlashFilm",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "b7yijy",
+      "title": "‘Passing Strange’ Comes to Pasadena Playhouse: Creators Stew and Heidi Rodewald on the Rock Musical Reaching L.A. Almost Two Decades After Tony-Winning Broadway Run",
+      "url": "https://variety.com/2026/legit/news/passing-strange-pasadena-playhouse-stew-heidi-interview-1236942647/",
+      "excerpt": "“Passing Strange” will seem just a little less strange to theatergoers now than it might have when it opened on Broadway in 2007 and scored big wins at the Tonys, the Drama Desk Awards and the New York Drama Critics’ Circle Awards. Without naming any names…",
+      "content": "“Passing Strange” will seem just a little less strange to theatergoers now than it might have when it opened on Broadway in 2007 and scored big wins at the Tonys, the Drama Desk Awards and the New York Drama Critics’ Circle Awards. Without naming any names, there are plenty of successful shows since then that […]",
+      "image": "https://variety.com/wp-content/uploads/2026/11/MixCollage-08-Nov-2026-12-19-PM-4793.jpg",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/MixCollage-08-Nov-2026-12-19-PM-4793.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T20:43:24.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "1ccwdxk",
+      "title": "Taylor Swift and Karlie Kloss Reunite at Travis Kelce’s Chiefs Game Against Jets",
+      "url": "https://variety.com/2026/digital/news/taylor-swift-karlie-kloss-reunite-travis-kelce-chiefs-game-1236942684/",
+      "excerpt": "Taylor Swift and Karlie Kloss attended the Kansas City Chiefs-New York Jets game at Arrowhead Stadium on Sunday, marking their first public appearance together in years. Cameras caught the model and the “Life of a Showgirl” singer sitting in a box at the…",
+      "content": "Taylor Swift and Karlie Kloss attended the Kansas City Chiefs-New York Jets game at Arrowhead Stadium on Sunday, marking their first public appearance together in years. Cameras caught the model and the “Life of a Showgirl” singer sitting in a box at the Kansas City stadium, accompanied by Swift’s mom, Andrea, and dad, Scott. Travis […]",
+      "image": "https://variety.com/wp-content/uploads/2026/11/New-York-Jets-v-Kansas-City-Chiefs-1000.jpg",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/New-York-Jets-v-Kansas-City-Chiefs-1000.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T20:39:25.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "1smjply",
+      "title": "На фронті 127 зіткнень, Покровський напрямок залишається найгарячішим",
+      "url": "https://www.ukrinform.ua/rubric-ato/4182746-na-fronti-127-zitknen-pokrovskij-napramok-zalisaetsa-najgaracisim.html",
+      "excerpt": "На фронті 127 бойових зіткнень, на Покровському напрямку ворог втратив понад 60 окупантів.",
+      "content": "На фронті 127 бойових зіткнень, на Покровському напрямку ворог втратив понад 60 окупантів.",
+      "image": "https://static.ukrinform.com/photos/2026_07/thumb_files/630_360_1785438699-198.jpg",
+      "images": [
+        {
+          "url": "https://static.ukrinform.com/photos/2026_07/thumb_files/630_360_1785438699-198.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T20:36:00.000Z",
+      "sourceId": "ukrinform",
+      "source": "Ukrinform",
+      "category": "war",
+      "lang": "uk",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "kifthw",
+      "title": "Assassin’s Creed Codename Hexe Potentially Delayed to 2028, New Game Set in Ancient Rome – Rumor",
+      "url": "https://gamingbolt.com/assassins-creed-codename-hexe-potentially-delayed-to-2028-new-game-set-in-ancient-rome-rumor",
+      "excerpt": "After ending support for Assassin’s Creed Black Flag Resynced with a massive update , Ubisoft is focused on its next mainline entry, Assassin’s Creed Codename Hexe . However, there have reportedly been issues. Sources speaking to Insider Gaming’s Tom…",
+      "content": "After ending support for Assassin’s Creed Black Flag Resynced with a massive update , Ubisoft is focused on its next mainline entry, Assassin’s Creed Codename Hexe . However, there have reportedly been issues. Sources speaking to Insider Gaming’s Tom Henderson allege a year-long internal delay.\n\nIt could launch in 2028, after it was reportedly targeting mid-2027 . However, it seems another mainline title, codenamed Mars , is reportedly in the works per insider Jonathan. Citing sources with “access to Ubisoft’s backend systems,” it’s apparently set in Ancient Rome and could very well tie into the upcoming live-action series. This wouldn’t be the first time the franchise has visited the city – see 2010’s Assassin’s Creed Brotherhood .\n\nWhile Henderson admits hearing the codename, he couldn’t verify the other details because the franchise has been “going through turbulence over the last year or so.” And while Ubisoft’s huge restructuring could be one reason, it seems previous franchise head Marc-Alexis Côté’s departure is a major factor. Though the publisher called it “voluntary,” Côté called it a “constructive dismissal” and sued Ubisoft for nearly $1 million.\n\nWith an update for Hexe promised next year, we may not have to wait long before learning more about the franchise’s future. Perhaps Mars is closer to release than many might think. Time will tell, so stay tuned for more details and in the meantime, check out our review of Resynced , which surpassed expectations and sold over 3.5 million in about two weeks .",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-08T20:34:04.000Z",
+      "sourceId": "gamingbolt",
+      "source": "GamingBolt",
+      "category": "announces",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "p6gpa1",
+      "title": "Nvidia is investigating Jensen Huang’s relationship with a Chinese spy",
+      "url": "https://www.theverge.com/ai-artificial-intelligence/1029562/nvidia-investigating-jensen-huang-relationship-chinese-spy",
+      "excerpt": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company . A statement posted by the…",
+      "content": "Nvidia has announced that it is opening an investigation into CEO Jensen Huang and his relationship with Megaspeed executive Alice Huang, who was reportedly recruited by China's Ministry of State Security to spy on the company . A statement posted by the board of directors reads:\n\nThe NVIDIA Board is initiating an independent investigation in light of recent reporting that founder and CEO Jensen Huang has been the target of a foreign intelligence effort. A committee of independent directors, assisted by outside independent counsel, will oversee the investigation.\n\nThe Board prioritizes U.S. national and economic security, which is paramou …",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "images": [
+        {
+          "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/STKP210_JENSEN_HUANG_A.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T20:22:39.000Z",
+      "sourceId": "verge-ai",
+      "source": "The Verge AI",
+      "category": "ai",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "1bn8op4",
+      "title": "Why Michael Stuhlbarg Left HBO's Boardwalk Empire",
+      "url": "https://www.slashfilm.com/2305178/why-michael-stuhlbarg-left-hbo-boardwalk-empire/",
+      "excerpt": "Michael Stuhlbarg is a standout on HBO's Boardwalk Empire as racketeer Arnold Rothstein, so it's odd that he doesn't appear in the show's final season.",
+      "content": "Michael Stuhlbarg is a standout on HBO's Boardwalk Empire as racketeer Arnold Rothstein, so it's odd that he doesn't appear in the show's final season.",
+      "image": "https://www.slashfilm.com/img/gallery/why-michael-stuhlbarg-left-hbos-boardwalk-empire/l-intro-1793715308.jpg",
+      "images": [
+        {
+          "url": "https://www.slashfilm.com/img/gallery/why-michael-stuhlbarg-left-hbos-boardwalk-empire/l-intro-1793715308.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.slashfilm.com/img/gallery/why-michael-stuhlbarg-left-hbos-boardwalk-empire/intro-1793715308.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T20:00:00.000Z",
+      "sourceId": "slashfilm",
+      "source": "SlashFilm",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "t8mbnr",
+      "title": "How I Fight AI Brain Fry",
+      "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
+      "excerpt": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry Comments URL: https://news.ycombinator.com/item?id=50416363 Points: 123 # Comments: 110",
+      "content": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry\n\nComments URL: https://news.ycombinator.com/item?id=50416363\n\nPoints: 123\n\n# Comments: 110",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-08T19:37:42.000Z",
+      "sourceId": "hn",
+      "source": "Hacker News",
+      "category": "aisoft",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "6p227h",
+      "title": "Nintendo pre-order updates – November 8, 2026 – The Grimm Reapress and the Drearytale Monster, more",
+      "url": "https://nintendoeverything.com/nintendo-pre-order-updates-november-8-2026/",
+      "excerpt": "Below are the latest Nintendo products that can be currently pre-ordered at retailers for the week of November 8, 2026: United States Switch 2 Pikmin 4 – Nintendo Switch 2 Edition + Dandori Academy – November 12 – Amazon, Best Buy, GameStop Gothic 3 Classic…",
+      "content": "Below are the latest Nintendo products that can be currently pre-ordered at retailers for the week of November 8, 2026: United States Switch 2 Pikmin 4 – Nintendo Switch 2 Edition + Dandori Academy – November 12 – Amazon, Best Buy, GameStop Gothic 3 Classic – November 24 – Amazon, Best Buy inKonbini: One Store. Many Stories – November 24...\n\nNintendo Everything .",
+      "image": "https://nintendoeverything.com/wp-content/uploads/The-Grimm-Reapress-and-the-Drearytale-Monster-physical-150x115.jpg",
+      "images": [
+        {
+          "url": "https://nintendoeverything.com/wp-content/uploads/The-Grimm-Reapress-and-the-Drearytale-Monster-physical-150x115.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://nintendoeverything.com/wp-content/uploads/The-Grimm-Reapress-and-the-Drearytale-Monster-physical.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T19:30:48.000Z",
+      "sourceId": "nintendoeverything",
+      "source": "Nintendo Everything",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "1mehk3p",
+      "title": "Bill Skarsgård is kind of \"spent\" playing villains, but would gladly be James Bond's foe",
+      "url": "https://www.avclub.com/bill-skarsgard-villain-roles-james-bond",
+      "excerpt": "While Robert Pattinson, Nicholas Hoult, Callum Turner, Jack Lowden, and Josh O’Connor are reportedly battling it out to succeed Daniel Craig as James Bond, Bill Skarsgård is throwing his hat in the ring to play 007’s enemy. During an appearance on Josh…",
+      "content": "While Robert Pattinson, Nicholas Hoult, Callum Turner, Jack Lowden, and Josh O’Connor are reportedly battling it out to succeed Daniel Craig as James Bond, Bill Skarsgård is throwing his hat in the ring to play 007’s enemy. During an appearance on Josh Horowitz’s Happy Sad Confused podcast , Skarsgård said that after years of transformations for memorable villains like Pennywise and Nosferatu, he’s become more discerning about playing the bad guy and suspects his team probably filters out a lot of those roles before they ever reach him. “For a villain, it would have to be something that felt original to me, that was something that I hadn’t done before,” he said. “I feel kind of spent with those things. But there are villains that could be really fun in different ways.” One such role is a Bond nemesis, which would offer the appeal of a one-off movie deal similar to Mads Mikkelsen’s part in Casino Royale , “because they didn’t call me about James Bond,” he joked to Horowitz. “I don’t know what that was about. Every single British, Australian… But maybe they were like, ‘We can’t do a Swede for this guy.’ I wasn’t even thrown into the mix.”\n\nIn a previous interview with Esquire , Skarsgård said that he was “obsessed with James Bond” as a kid, an admittedly inappropriate franchise obsession for a 6-year-old. The actor is self-aware enough to recognize that casting a Swede as the suave, quintessentially British spy would be sacrilegious. But playing one of Bond’s adversaries could be a better fit and a much smaller time commitment. Aside from George Lazenby, every Bond actor has appeared in multiple films. Craig, the most recent holder of the license to kill, starred in five movies over 15 years before moving on to have the time of his life as Southern sleuth Benoit Blanc in Rian Johnson’s Knives Out franchise. Whether or not he ever ends up playing a Bond villain, Skarsgård said his career choices ultimately come down to being drawn to a project. “I think I could probably go long stretches without working and waiting for something to be compelling enough for me to work on,” he said.",
+      "image": "https://www.avclub.com/wp-content/uploads/2026/11/08/bill-skarsgard-happy-sad-confused-featured-.jpg",
+      "images": [
+        {
+          "url": "https://www.avclub.com/wp-content/uploads/2026/11/08/bill-skarsgard-happy-sad-confused-featured-.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/08141547/bill-skarsgard-happy-sad-confused-lead.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T19:23:10.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "vijgzw",
+      "title": "Former Little Rascal turned \"Catholic extremist\" asks for help raising sixth child",
+      "url": "https://www.avclub.com/bug-hall-little-rascals-crowdfunding-sixth-child",
+      "excerpt": "Few in Hollywood have it tougher than child stars . So perhaps it’s not that surprising that former actor Bug Hall , who led the 1994 The Little Rascals ensemble as the squeaky voiced, cowlick-sporting Alfalfa, has gone on to have some—let’s call them…",
+      "content": "Few in Hollywood have it tougher than child stars . So perhaps it’s not that surprising that former actor Bug Hall , who led the 1994 The Little Rascals ensemble as the squeaky voiced, cowlick-sporting Alfalfa, has gone on to have some—let’s call them “extreme” views as he’s aged out of cute kid roles. In a post on crowdfunding site GoFundMe, the former actor (whose real name is Brandon Rowan) explained that he, his wife, and his soon-to-be six children are in need of financial support to continue what he calls his “Catholic extremist” lifestyle.\n\n“It’s now six years since I self-cancelled,” Hall states, “and I have avoided doing one of these in all that time. I always said this was my choice, and so I didn’t want to offload the glorious burden of it unless there was no other choice. Well here we are.” As People reports , “Here” in a geographical sense at least, is the Hall clan’s rustically unadorned 80-acre compound in Mountain View, Arkansas, where his wife Jill DeGroff is expecting their sixth child next month. And while Hall has touted his “off-the-grid” existence away from show business’ corrupting influence, he does note that at least some of the money raised will go toward keeping up his often controversial social media presence via much needed phone and electricity.\n\nHow controversial Hall’s views have become will be a matter of opinion, naturally, although the former Atlas Shrugged: Part II actor (who’s also termed himself a “medieval moralist”) has emerged from the woods periodically to claim that only his first born male son is his “heir,” while his daughters will serve as “ dishwashers .” Hall’s also gone on the expected fundamentalist rants against abortion rights and homosexuality, proudly touted corporal punishment of his children starting in infancy, and discouraged his homeschooled kids from even thinking about going to college.\n\nDespite his “self-cancellation” and proclaimed vow of poverty, Hall did give himself dispensation to appear in the 2024 Angel Studios’ Catholic missionary biopic Cabrini (which was shot in 2021). He also is a credited screenwriter for the 2020 Selena Gomez-produced teen comedy This Is The Year and has appeared in films like 2009’s American Pie Presents: The Book Of Love and TV shows from Masters Of Sex to Castle and Major Crimes .",
+      "image": "https://www.avclub.com/wp-content/uploads/2026/11/08/BH-feature.jpg",
+      "images": [
+        {
+          "url": "https://www.avclub.com/wp-content/uploads/2026/11/08/BH-feature.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/08125932/BH-151.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T18:05:35.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "dx25gl",
+      "title": "Jodie Sweetin had $190 in her bank account when she returned for Full House revival",
+      "url": "https://www.avclub.com/jodie-sweetin-fuller-house-bank-account-money",
+      "excerpt": "Jodie Sweetin may have been a child star on one of the most popular sitcoms of the ’80s and ’90s, but life wasn’t easy in the years that followed. During an appearance on the podcast We’re Still Here, Babe , hosted by Natanya Ross, Sweetin, who starred as the…",
+      "content": "Jodie Sweetin may have been a child star on one of the most popular sitcoms of the ’80s and ’90s, but life wasn’t easy in the years that followed. During an appearance on the podcast We’re Still Here, Babe , hosted by Natanya Ross, Sweetin, who starred as the outgoing Stephanie Tanner on Full House , spoke candidly about her challenges with alcohol and drug abuse, as well as financial hardships. By the time she signed on for Netflix’s Fuller House revival , Sweetin she was still finding it difficult to make ends meet. “I had to borrow money the first week I was working on Fuller House, and I skidded into my first paycheck with like, $190 in my bank account,” she recalled. “And nobody that I worked with knew that.” Sweetin said she didn’t care whether people knew or not, though she’s used to people assuming she must be set for life because of her TV fame. But in reality, there have been instances where “there’s no money and you gotta work, and your ego can’t be involved in it.”\n\nDuring the interview, Sweetin voiced her frustration with people attributing her addiction and struggles to being a child star. Sweetin said that she grew up in Seal Beach, a “nice middle-class neighborhood,” where she knew young people who went to rehab and got DUIs. Regarding her own substance abuse, Sweetin said her career afforded her the opportunity to seek treatment and focus on recovery. “I was in a position that I had been known, so that I had made enough money to be able to afford to get the treatment, and get all of that kind of stuff because I don’t know where I would be if I hadn’t,” she said. “I always say that for a minute, I’m never not grateful for the fact that I had available to me the ability to go and get good treatment and to be able to afford. And then the money’s gone.”\n\nSweetin said that part of the reason why she was able to return to Hollywood and enjoy the experience was that she “had gone completely in the other direction,” working a normal job. She recalled having “no money” and living in a 1.5-bedroom apartment with her two daughters, earning $2,200 a month while her parents covered half her rent. “I didn’t have ego about it,” she said. “I didn’t care that I was, quote, unquote, working a normal job. I think other people, again were like, ‘What are you doing here?’ And I was like, ‘Paying my bills. Kids don’t pay for themselves.'” Sweetin was working at a treatment center when she got a call about reprising her role for Fuller House , which lasted for five seasons between 2016 and 2020. She said she never expected to return to the world of Full House, calling the revival a “weirdly surreal experience.”",
+      "image": "https://www.avclub.com/wp-content/uploads/2026/11/08/jodie-sweetin-fuller-house-featured.jpg",
+      "images": [
+        {
+          "url": "https://www.avclub.com/wp-content/uploads/2026/11/08/jodie-sweetin-fuller-house-featured.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/08125317/jodie-sweetin-fuller-house-lead.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T17:55:59.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "1kur0ej",
+      "title": "The Black Vietnam War experience is finally making its way into movies, decades late",
+      "url": "https://www.avclub.com/black-vietnam-war-movies-soul-patrol-brothers-in-blood-documentaries",
+      "excerpt": "After Oscar-winning moneymakers like The Deer Hunter , Coming Home , and Apocalypse Now collectively tested out the waters in the late ’70s, the multiplexes would become inundated with Vietnam War stories in the ’80s. (Though, technically, uber-patriotic star…",
+      "content": "After Oscar-winning moneymakers like The Deer Hunter , Coming Home , and Apocalypse Now collectively tested out the waters in the late ’70s, the multiplexes would become inundated with Vietnam War stories in the ’80s. (Though, technically, uber-patriotic star John Wayne was the first to bring Vietnam to the big screen, with the critically reviled 1968 hit The Green Berets .) But while Sylvester Stallone and Chuck Norris used the war to create their own jingoistic action franchises, others created rough-but-earnest tales of soldiers going through hell in combat and at home. Oliver Stone directed a trio—the semi-autobiographical Platoon , Born On The Fourth of July , and Heaven And Earth —while Stanley Kubrick came out of hiding to drop Full Metal Jacket and Robin Williams scored his first Oscar nomination in Good Morning, Vietnam . While many of the aforementioned films featured veterans of color, to show how Vietnam was the first war where Black and white servicemen fought side by side, the attention wasn’t generally focused on them. The protagonists of these films were always white boys.\n\nThe fact of the matter is, apart from ensemble flicks like Hamburger Hill (which featured Don Cheadle and Courtney B. Vance as military men dealing with racial discrimination), the Black experience in Vietnam was rarely discussed on the big screen during the super-pale, super-conservative Reagan ’80s. It wasn’t until 1995—one year after Oscar-winning hit Forrest Gump saw Tom Hanks’ titular simpleton sweetheart go through Vietnam unscathed—when not one, but two movies about Black soldiers in Vietnam (directed by Black filmmakers) finally hit the scene.\n\nFirst was The Walking Dead , not to be confused with the zombie franchise. Written and directed by first-timer Preston A. Whitmore II, it featured a mostly dark-skinned crew of Marines (including Joe Morton, Allen Payne, and comedian Eddie Griffin) on a suicide mission to evacuate a POW camp. This was followed by Dead Presidents , from brothers Allen and Albert Hughes ( Menace II Society ), where some frustrated vets (including Menace star Larenz Tate and Chris Tucker) come together to pull off a heist. (Spike Lee would pull a similar caper with Da 5 Bloods , where vets returned to Vietnam to retrieve gold they discovered during battle.)\n\nBut those movies (which weren’t big draws at the box office) were more like genre pictures than authentic portraits of brothas in the war. Both films were greeted with criticism from both vets and historians for their inaccuracy and lurid sensationalism. “None of it would have happened,” ex-Marine Lawrence Smith said about The Walking Dead . “You wouldn’t have had talking in the bush… Hell, if you talked out there and jeopardized my life, I would shoot you myself.”\n\nWallace Terry, whose 1984 book Bloods: An Oral History Of The Vietnam War By Black Veterans served as inspiration for both The Walking Dead and Dead Presidents , said those films didn’t address what he calls “the war within the war.” “What I found when I was there (as a Time correspondent from 1967-69) was a replay of the civil rights movement going on in the rear,” he explained. “It was not unusual to see Confederate flags or experience cross-burnings or riots among Black and white troops.”\n\nIt’s not until now that two recent documentaries have finally given Black Vietnam vets their long-overdue flowers on the big screen. Soul Patrol, directed by J.M. Harper, adapts Ed Emanuel’s 2003 memoir of the same name, where he lays out his time as a member of the only Black Long Range Reconnaissance Patrol unit in Vietnam. While Soul Patrol debuted at this year’s Sundance and is now making its way onto screens across the country, Joseph Puleo’s Brothers In Blood: Black In Vietnam is still playing at various film festivals.\n\nBoth films have different methods of saluting the troops. Soul Patrol is woozy and dreamlike, with Harper rounding up interviews with Emanuel and other surviving members of his unit, as well as archival footage, Super 8 home movies, and actual recreations of the men in battle. Harper’s hybrid doc practically puts the viewer in the POV of these mentally and physically damaged men who are still haunted by their experiences. One running bit has Emanuel being followed around by his fellow soldiers in a supermarket, giving monologues near the checkout lines.\n\nBrothers In Blood is more like an updated version of The Bloods Of ‘Nam , the 1986 Frontline doc (written and reported by Wallace Terry) that focused on Black vets. Over an hour and a half, Puleo makes an acceptably comprehensive chronicle of the Black experience in Vietnam, getting interviews from veterans as well as authors and historians. Both films have vets giving harrowing testimonials about the terror and racism they faced on the battlefield, dealing with both racist good ol’ boys and merciless Viet Cong soldiers. (They do learn to respect their enemies, who seem to grasp that these Black men aren’t the real problem.)\n\nUltimately, both films show how Vietnam left Black men just as bruised and broken as the white guys—maybe even more so. Over 300,000 Black men served in Vietnam, with 7,000 not making it back. In 1967, they represented 23 percent of all combat troops. Two years prior, they represented a quarter of all U.S. combat deaths. Once they came home, not only were they saddled with PTSD and illnesses brought on by Agent Orange, they dealt with a country (which wasn’t ever that keen on them in the first place) that neglected and shunned them. Unlike the popcorn pulpiness of The Walking Dead and Dead Presidents , Soul Patrol and Brothers In Blood finally take the time for something that’s been long overdue: They thank Black men for their service by giving time and attention to what they went through.",
+      "image": "https://www.avclub.com/wp-content/uploads/2026/11/06/soul-patrol-header.jpg",
+      "images": [
+        {
+          "url": "https://www.avclub.com/wp-content/uploads/2026/11/06/soul-patrol-header.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/06163618/soul-patrol-squared.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T17:00:43.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "lvbv1v",
+      "title": "Nicolas Cage is fine with Spider-Noir getting canceled, actually",
+      "url": "https://www.avclub.com/nicolas-cage-okay-with-spider-noir-cancellation",
+      "excerpt": "Fans of Nicolas Cage’s live-action take on the multiversal Spider-Man variant he played in Prime Video’s Emmy-winning Spider-Noir were surprised and disappointed when the streamer announced it was canceling the show after a single season back in September…",
+      "content": "Fans of Nicolas Cage’s live-action take on the multiversal Spider-Man variant he played in Prime Video’s Emmy-winning Spider-Noir were surprised and disappointed when the streamer announced it was canceling the show after a single season back in September. And while The A.V. Club’s own reviews were lukewarm on the gritty 1940s noir take on the classic superhero, the show’s ratings had been promising enough to think that Cage would return as series protagonist Ben Reilly in further adventures .\n\nBut according to Cage himself, the cancellation was just what he was hoping for in his trenchcoated spider-heart. Talking to IGN at a red carpet event for his upcoming biopic Madden , Cage unequivocally doubled down on previous statements, explaining, “I meant it when I said what I said. It’s a perfect season. You never wanna get stuck repeating a character and wear out your welcome.” Cage, assessing his own work as the aging private eye and reluctant web-slinging hero, “Ben Riley is so idiosyncratic. I was doing something that was pretty high-risk, tightrope stuff. If you do that for season 2, season 3, you could really wear out your welcome.”\n\nCage is certainly no stranger to walking the high wire between boldly innovative and self-indulgently mannered in his career, and if his work as Reilly skewed more toward the dour than other recent Cage tours-de-force, it’s hard not to see where he’s coming from. (Apart from a couple of Ghost Riders and a pair of equally lucrative National Treasure movies , Cage has largely steered clear of repeating himself.) As the actor clarified, “So when they didn’t pick it up, I was like, ‘Whew, thank you!’ Because now I’m doing True Detective , and that’s only one season. It’s better that way, you know? I liked it when you would see Rock Hudson and McMillan and it’s one season. I didn’t wanna keep repeating it. I don’t like repeating myself. It’s perfect, and I love that character. I love that season, and it will always be there and always be fresh.” (For the young among us, Cage seems to be referring to the one-season TV detective series McMillan , although Hudson had played the same character for five years alongside Susan Saint James on McMillan & Wife . )\n\nFor fans of Ben Reilly and his alter ego, there’s always the animated Spider-Verse , where Cage keeps popping up as Spider-Man Noir in his inimitable vocal capacity. As to other reasons why Cage may be glad to be done with Prime at least, the actor has been a vocal critic of the streamer’s pivot to AI in its programming, having refused to sign off his likeness as per the company’s demand and noting at the time , “I’m not part of their club. I didn’t sign the waiver to use AI on Spider-Noir . I’ll probably not work with that studio again, but that’s okay.”",
+      "image": "https://www.avclub.com/wp-content/uploads/2026/11/08/NC-feature.jpg",
+      "images": [
+        {
+          "url": "https://www.avclub.com/wp-content/uploads/2026/11/08/NC-feature.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/08113617/NC-151.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T16:38:26.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "161b31m",
+      "title": "Free speech absolutist Charlie Kirk still canceling people from beyond the grave",
+      "url": "https://www.avclub.com/charlie-kirk-joke-podcasters-advertiser-boycott",
+      "excerpt": "In just the latest instance of right-wing values being unmasked as opportunistic bad faith hypocrisy , two popular podcast hosts are now facing calls for cancellation from fans of late, self-proclaimed free speech absolutist Charlie Kirk. As reported in…",
+      "content": "In just the latest instance of right-wing values being unmasked as opportunistic bad faith hypocrisy , two popular podcast hosts are now facing calls for cancellation from fans of late, self-proclaimed free speech absolutist Charlie Kirk. As reported in TheWrap , Kirk, the far-right internet troll who repeatedly boasted that there’s no such thing as hate speech, was the fleeting subject of a bout of quickly stifled laughter from hosts Jennifer Welch and Angie “Pumps” Sullivan on their latest I’ve Had It podcast. Nothing if not consistently inconsistent in their moral outrage , supporters of the slain Kirk have now successfully bullied several sponsors into dropping I’ve Had It from their ad buys, and are claiming once more that comedy now being legal again only matters when the “jokes” are about things and people they don’t personally like. (Like women’s rights, non-white people, the LGBTQ+ community, Democratic lawmakers’ husbands being attacked with hammers —that sort of stuff.)\n\nOn the episode in question, Welch and Sullivan were reading out joke social media posts about the Democrats’ righteous stomping of the GOP in Tuesday’s midterm elections when they were taken unaware by one user’s admittedly ghoulish quip, “We’re digging up Charlie Kirk and doing it again,” referring to Kirk’s murder by a lone gunman at a speaking engagement in September, 2025. The hosts chuckled guiltily at the joke before noting a quick, “No comment,” but that was enough for irate conservatives to flood the show’s advertisers with no doubt intellectually consistent complaints that giggling at someone else’s joke about the guy who routinely mocked women, minorities, gay and trans people, and others under the guise of unfettered “free speech” is grounds for cancellation. ( Hundreds of people across the United States were fired from their jobs for exercising their freedom of speech about Kirk’s murder after similar pressure from high-profile conservatives.)\n\nAs of now, I’ve Had It advertisers Chewy and CashApp, among several others, have fled the show, with Welch and Sullivan editing out the brief segment from their online broadcast. In a statement following the not-at-all hypocritical outcry and resulting advertiser exodus, Welch and Sullivan posted, “On Thursday’s show, we laughed at a joke about Charlie Kirk. It was an insensitive joke, and we should not have laughed. We regret it, and we apologize.” They also noted that they have long been advocates for “sensible gun control,” unlike Kirk, who famously stated that kids murdered in school shootings every year were just “ the cost ” of allowing literally anyone to carry guns at any time, anywhere. Welch and Sullivan also made a donation to gun control group Everytown for Gun Safety in Kirk’s memory, an act likely more actually offensive to Kirk’s minions than their retracted on-mic titters.",
+      "image": "https://www.avclub.com/wp-content/uploads/2026/11/08/DH-feature.jpg",
+      "images": [
+        {
+          "url": "https://www.avclub.com/wp-content/uploads/2026/11/08/DH-feature.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/08100935/DH-151.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T15:14:09.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "46cw6s",
+      "title": "What are you reading this week?",
+      "url": "https://www.avclub.com/what-are-you-reading-this-week-sarah-j-maas-acotar-6",
+      "excerpt": "They say the kids aren’t reading anymore. But while the publishing industry has certainly changed over the past several decades—thanks to the ubiquity of e-readers, the rise of audiobooks, and, yes, the widespread influence of BookTok—it’s still trucking…",
+      "content": "They say the kids aren’t reading anymore. But while the publishing industry has certainly changed over the past several decades—thanks to the ubiquity of e-readers, the rise of audiobooks, and, yes, the widespread influence of BookTok—it’s still trucking right along, churning out more titles than most of us could ever hope to read.\n\nNowadays, the real challenge is figuring out what titles are actually worth your time. So we’re bringing back our regular recommendation feature that’s based on what we’re actually reading right now. (Our books enthusiast Lacy Baugher Milas is cursed/blessed with the inability to read one thing at a time—finally, a win/failing from which everyone can benefit!)\n\nAs always, we invite you to contribute your own responses and recommendations in the comments—the best way to find out what’s worth reading is to hear from the people who are turning the pages.\n\nA Court Of Splintered Harmony by Sarah J. Maas\n\nLike most everyone you know who is even a casual reader in the romantasy space, my week was devoted to the new installment in Sarah J. Maas’s A Court Of Thorns And Roses series. (Well, reading it and then immediately devouring all the copious internet theories about where this story goes next. Which sort of counts, I suppose.)\n\nTitled A Court Of Splintered Harmony, this release differs quite a bit from the other books in the ACOTAR universe from both a structural and a character perspective. While obviously part of a larger whole, the earlier novels are all also self-contained stories where specific quests are completed, or enemies vanquished. They also have a primary character focus: the first four books focus on Feyre Acheron, now High Lady of the Night Court, while the fifth follows her sister Nesta. Splintered Harmony has seven different POV characters and reads much more as an extended prologue than a book that stands on its own.\n\nAnd to be fair, it doesn’t—and Maas herself admits this upfront. She’s said repeatedly that she considers Splintered Harmony “Movement I” in a larger cycle that’s spread over her next several books. But it does make the experience of reading this particular book very different from those that have come before. Clocking in at around 350 pages, It’s a fairly short read for anything set in the Maas-verse, but its story is almost entirely set-up, and very little actually happens in these pages. There’s a lot of political wrangling as Feyre and Rhys attempt to unite the other courts of Prythian against the other kingdoms seeking to invade the human lands and potentially start a new war. There’s also a lot of talking about the threat posed by Koschei the Deathless, should the final of the three death gods escape his lake-bound prison. (He’s the sibling of the Bone Carver and Stryga, The Weaver Of The Wood, for those who haven’t read an ACOTAR wiki refresher recently.)\n\nStill, some of the character beats are worthwhile; Splintered Harmony cleans up some of the lingering issues leftover from Nesta’s involvement in the crossover events of House Of Flame And Shadow , the third installment of Maas’s Crescent City series. The forbidden flirtation between Illyrian warrior Azriel and Feyre’s sister Elain heats up. Feyre and her husband Rhysand are exceptionally gooey new parents. Mor…appears occasionally! And Vassa remains my favorite random third-tier supporting character this series has introduced. But despite its enjoyable moments, this is a book that leaves you with many more questions than you started with, and little sense of what to expect from its sequel. (Er…second and third “movements”, apparently.)\n\nThankfully, we won’t have to wait all that long for answers; the next installment, A Court Of Forgotten Melody, arrives in January, which, when compared to the five-year wait between Splintered Harmony and its predecessor, A Court Of Silver Flames, is basically nothing. But one has to wonder whether it might have been better to release both these two titles together, either as a single combined (admittedly, terrifyingly massive) volume or two separate installments at once. Having the book end just as it feels as though the larger plot is finally starting is frustrating, to say the least. Still, since the book sold 1.7 million copies on release day, we’re clearly not all complaining that much. (What? It’s not like I’m not going to be right back in Prythian in January.",
+      "image": "https://www.avclub.com/wp-content/uploads/2026/11/07/MixCollage-06-Nov-2026-08-54-PM-8305.jpg",
+      "images": [
+        {
+          "url": "https://www.avclub.com/wp-content/uploads/2026/11/07/MixCollage-06-Nov-2026-08-54-PM-8305.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/06215545/MixCollage-06-Nov-2026-08-54-PM-2792.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T14:00:49.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "6otalj",
+      "title": "Senator-elect James Talarico takes a victory lap around SNL's Trump",
+      "url": "https://www.avclub.com/james-talarico-saturday-night-live-cold-open-trump",
+      "excerpt": "Despite (or perhaps because of) becoming a lightning rod for juvenile homophobic/transphobic insults from GOP leaders, overt political censorship at the hand of Donald Trump’s pet FCC commissioner , and a veritable flood of Elon Musk-funded attack ads in the…",
+      "content": "Despite (or perhaps because of) becoming a lightning rod for juvenile homophobic/transphobic insults from GOP leaders, overt political censorship at the hand of Donald Trump’s pet FCC commissioner , and a veritable flood of Elon Musk-funded attack ads in the run-up to the midterm elections, James Talarico handily won the Texas senate race on Tuesday. And on Saturday, the senator-elect took an in-person swipe at Donald Trump (or at least his doppelgänger) by showing up in person on the live public airwaves the real Trump pressured one network to ban him from.\n\nIn the inevitable Trump-centric cold open on last night’s Saturday Night Live , James Austin Johnson’s Trump—having used his by-now predictable time-freezing abilities to halt presumptive Democratic congressional leaders Chuck Schumer and Hakeem Jeffries from ineffectually gloating—went off on a series of tangents, as is the sundowning head of state’s m.o. these days. Amidst ramblings about men’s asses (Colin Jost’s belligerent Pete Hegseth in this case) and speculating on how it took the entrance of Furguson the cat to really make best use of Lamorne Morris’ Winston on New Girl , JAJ’s Trump turned to Talarico, using one of his go-to middle school bully nicknames for the baby-faced Democrat.\n\n“That’s Senator Talafreako,” the real James Talarico said, entering to the sound of extended and rapturous applause from the studio audience, and momentarily turning the tables both by reappropriating the insult and freezing Johnson’s Trump in an uncomfortable arms-wide pose. Brought back into action by Talarico apologizing for “texting you every day asking for $5,” Johnson’s Trump could only play along as Talarico referenced the public’s clear call for something “new and different,” starting with changing up Saturday Night Live ‘s weekly Trump cold opens. After Trump boasted that there would be “infinity” more such sketches for the next few years, the only thing left for the Democratic winner to say was, “Live, from New York, it’s Saturday Night!,” as the crowd once more exploded in some cathartic applause.",
+      "image": "https://www.avclub.com/wp-content/uploads/2026/11/08/JT-feature.jpg",
+      "images": [
+        {
+          "url": "https://www.avclub.com/wp-content/uploads/2026/11/08/JT-feature.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/08084458/JT-151.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T13:49:44.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
+      "id": "xngmo9",
+      "title": "What's on TV this week—VisionQuest ends and The Rings Of Power returns",
+      "url": "https://www.avclub.com/what-to-watch-on-tv-november-8-november-14-visionquest-lord-of-the-rings-the-rings-of-power",
+      "excerpt": "Welcome to What’s On, our weekly roundup of notable shows. Here is what’s happening on TV from Sunday, November 8 to Saturday, November 14. All times are Eastern. New this week VisionQuest (Disney+, Tuesday, series finale) We’ve got ourselves a high-stakes…",
+      "content": "Welcome to What’s On, our weekly roundup of notable shows. Here is what’s happening on TV from Sunday, November 8 to Saturday, November 14. All times are Eastern.\n\nNew this week\n\nVisionQuest (Disney+, Tuesday, series finale) We’ve got ourselves a high-stakes showdown between a rebooted Vision (Paul Bettany) and Ultron (James Spader) in the series finale of this WandaVision spin-off. Entitled “Forever,” episode eight of the Marvel miniseries will also feature the much-anticipated reunion of the Maximoff family, with twin bros Billy/Wiccan (Joe Locke) and Tommy/Speed (Ruaridh Mollica) coming together to help save Vision. Catch The A.V. Club ’s finale recap this Tuesday night.\n\nThe Lord Of The Rings: The Rings Of Power (Prime Video, Wednesday, season three premiere) Back into the legendarium of J.R.R. Tolkien land we go, with this epic fantasy prequel picking up five years after the events of season two, with Sauron (Charlie Vickers) and his army of angry orcs, dragons, and ringwraiths continuing to torture the good folks of Middle-earth as the Dark Lord works to create the One Ring and conquer the world. The surviving factions—Elves, Dwarves, Wizards, and Men alike—come together in desperate alliance. And speaking of wizards, Gandalf (Daniel Weyman) is fully embracing his identity as the grey wizard and turning his attention toward opposing a friend-turned-foe, the Dark Wizard (Ciarán Hinds). The first four episodes drop Wednesday—you’ll find The A.V. Club ’s premiere recap that day, too.\n\nThe Body (Netflix, Wednesday, series premiere) Sex, drugs, and Catholic school—such is the focus of this supernatural-horror series, created by actor-turned-filmmaker Quinn Shephard ( Blame , Not Okay ). After a dance-team initiation goes very wrong, a group of teenage girls—played by Kristina Bogic, Sara Boustany, Geena Meszaros, Sofia Wylie, and Shirley Chen— begin experiencing prophetic visions that set off mass hysteria across their town. The eight-ep coming-of-age nightmare sounds like Yellowjackets meets Cruel Intentions meets The Crucible. Fun! Check out The A.V. Club ’s take on the Netflix newcomer this Wednesday.\n\nThe Good Daughter (Peacock, Thursday, limited series premiere) Based on the 2017 bestselling novel by Will Trent author Karin Slaughter, this six-part thriller pairs together Rose Byrne and Meghann Fahy as estranged sisters Charlotte and Samantha Quinn, whose two-decade rift stems from a violent home invasion that led to the horrific death of their mother. When another attack threatens to splinter their hometown of Pikeville, GA, the siblings are forced back together to sift through painful memories and long-buried secrets as a new investigation unfolds. Brendan Gleeson, Olivia Williams, Harper Steele, Michael Dorman, Audrey Grace Marshall, and Drew Cheek also star. Look out for The A.V. Club ’s series review on Thursday.\n\n﻿\n\n12 12 12 (Apple TV, Friday, series premiere) Jamie Dornan knows his way around a cat-and-mouse crime thriller—after all, he played the calculating serial killer hunted by Gillian Anderson’s detective superintendent for three seasons of The Fall . This heist drama has a similar setup, with Dornan as career criminal Paul Galvin and Anthony Mackie as disgraced FBI agent Jack Strickland, who is investigating a high-stakes bank vault robbery in Zurich. But the episode format gets a novel twist: Each installment cuts across three distinct timelines to recount the vault raid: 12 months of planning, a 12-hour robbery, and the 12 days of aftermath . (Get it?) Steal a read of The A.V. Club ’s review on Thursday.\n\nAlso arriving\n\nCity Of God: The Fight Rages On (HBO Max, Sunday, season two premiere)\n\nThe Institute (MGM+, Sunday, season two premiere)\n\nGet Huge: Looksmaxxing To Death (Hulu, Tuesday, docuseries premiere)\n\nLast One Standing (Netflix, Tuesday, season four premiere)\n\nThe Devil’s Plan (Netflix, Tuesday, season three premiere)\n\nRivals (Hulu, Wednesday, season two part two premiere) Blue Lights (BritBox, Thursday, season four premiere)\n\nThe Empress (Netflix, Thursday, season three premiere)\n\nThe Secret Lives Of Mormon Wives: Orange County (Hulu, Thursday, series premiere)\n\nSouthern Charm (Bravo, Thursday, 9:15 p.m., season 12 premiere)\n\nSnoopy Presents: 12 Days Of Snoopy (Apple TV, Friday, holiday special premiere)",
+      "image": "https://www.avclub.com/wp-content/uploads/2026/11/08/MixCollage-07-Nov-2026-06-19-PM-2029.jpg",
+      "images": [
+        {
+          "url": "https://www.avclub.com/wp-content/uploads/2026/11/08/MixCollage-07-Nov-2026-06-19-PM-2029.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/07193402/LOTR_S3_UT_250902_ROTBEN_00170_R2_3000.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T12:00:32.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T23:39:53.305Z"
+    },
+    {
       "id": "gh-1450616223",
       "title": "marciliofilho/KirbysDreamLand3Recomp: Native static recompilation of Kirby's Dream Land 3 (USA) for PC, built on snesrecomp and recomp-ui.",
       "url": "https://github.com/marciliofilho/KirbysDreamLand3Recomp",
@@ -958,7 +2064,7 @@
       "url": "https://github.com/Laeresh/CSVM",
       "excerpt": "Open-source remake of Crimson Skies (2000) — plays the original game using your own files",
       "image": "",
-      "publishedAt": "2026-11-08T19:41:18Z",
+      "publishedAt": "2026-11-08T20:42:25Z",
       "addedAt": "2026-11-08T19:39:09.129Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -1183,6 +2289,10 @@
           "alt": ""
         },
         {
+          "url": "https://deadline.com/wp-content/uploads/2026/11/Still-Standing-still4.png?h=1000",
+          "alt": ""
+        },
+        {
           "url": "https://deadline.com/wp-content/uploads/2026/11/Still-Standing-2.png?h=1000",
           "alt": ""
         }
@@ -1216,7 +2326,7 @@
     },
     {
       "id": "iq5w2y",
-      "title": "Ocarina of Time remake has UK’s second-biggest Zelda launch of all times, biggest physical game launch of 2026",
+      "title": "Ocarina of Time remake has UK’s second-biggest Zelda launch of all time, biggest physical game launch of 2026",
       "url": "https://nintendoeverything.com/ocarina-of-time-remake-has-uks-second-biggest-zelda-launch-of-all-times-biggest-physical-game-launch-of-2026/",
       "excerpt": "Initial reports are in for the sales performance of The Legend of Zelda: Ocarina of Time on Nintendo Switch 2, and we’re hearing that it’s the UK’s second-biggest Zelda launch of all time. This is based on physical sales of the title. The Ocarina of Time…",
       "content": "Initial reports are in for the sales performance of The Legend of Zelda: Ocarina of Time on Nintendo Switch 2, and we’re hearing that it’s the UK’s second-biggest Zelda launch of all time. This is based on physical sales of the title. The Ocarina of Time remake had a 35 percent bigger launch than Breath of the Wild on Nintendo...\n\nNintendo Everything .",
@@ -1319,7 +2429,7 @@
     },
     {
       "id": "6pc4m9",
-      "title": "Почему Claude Code нарушает правила из CLAUDE.md и почему вам точн онужны разрешения и хуки",
+      "title": "Почему Claude Code нарушает правила из CLAUDE.md и почему вам точно нужны разрешения и хуки",
       "url": "https://habr.com/ru/articles/1105196/",
       "excerpt": "Claude Code читает CLAUDE.md в начале каждой сессии, но запрет из этого файла агент всё равно может нарушить. По словам автора issue #46779 , Claude Code раз за разом удалял данные сверх запроса, хотя запреты в CLAUDE.md были написаны прямо. Мои агенты…",
       "content": "Claude Code читает CLAUDE.md в начале каждой сессии, но запрет из этого файла агент всё равно может нарушить. По словам автора issue #46779 , Claude Code раз за разом удалял данные сверх запроса, хотя запреты в CLAUDE.md были написаны прямо. Мои агенты работают по файлу правил проекта и по проверкам кодом, и правила между ними я делю по цене нарушения. Если ошибка стоит минут, хватит строки в тексте. Если она стоит денег, раскрывает ключи или запускает работу без подтверждения, нужны разрешения, хук или проверка кодом. Правило, которое можно нарушить, со временем нарушается, поэтому важное я переношу из текста в код и разрешения.\n\nЧитать далее",
@@ -1482,10 +2592,10 @@
     },
     {
       "id": "1aabzwz",
-      "title": "Goldman Sachs Is Pulling Claude Code from Its Bankers and Traders",
+      "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
       "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-      "excerpt": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 266 # Comments: 165",
-      "content": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers\n\nComments URL: https://news.ycombinator.com/item?id=50415628\n\nPoints: 266\n\n# Comments: 165",
+      "excerpt": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 529 # Comments: 321",
+      "content": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers\n\nComments URL: https://news.ycombinator.com/item?id=50415628\n\nPoints: 529\n\n# Comments: 321",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T18:16:07.000Z",
@@ -1574,8 +2684,8 @@
       "id": "11uucx4",
       "title": "Гига Писарь в Google Play и как не словить бан",
       "url": "https://habr.com/ru/companies/gigapisar/articles/1105184/",
-      "excerpt": "Привет, Хабр! Короткая новость: Гига Писарь для Android теперь ставится из Google Play Ссылка: https://play.google.com/store/apps/details?id=ru.gigapisar . Версия с GitHub никуда не делась, обновляется сама и живёт параллельно, но большинству проще из…",
-      "content": "Привет, Хабр!\n\nКороткая новость: Гига Писарь для Android теперь ставится из Google Play\n\nСсылка: https://play.google.com/store/apps/details?id=ru.gigapisar .\n\nВерсия с GitHub никуда не делась, обновляется сама и живёт параллельно, но большинству проще из магазина.\n\nВ прошлой статье я писал, что Google требует от новых аккаунтов две недели закрытого теста с двенадцатью участниками, я позвал вас, и в группу пришло гораздо больше, спасибо всем, кто гонял Писаря и репортил что не так, ну и теперь Google открыл приложение для всех, в 178 странах.\n\nЧитать далее",
+      "excerpt": "Привет, Хабр! Короткая новость: Гига Писарь для Android теперь ставится из Google Play Ссылка Версия с GitHub никуда не делась, обновляется сама и живёт параллельно, но большинству проще из магазина. В прошлой статье я писал, что Google требует от новых…",
+      "content": "Привет, Хабр!\n\nКороткая новость: Гига Писарь для Android теперь ставится из Google Play\n\nСсылка\n\nВерсия с GitHub никуда не делась, обновляется сама и живёт параллельно, но большинству проще из магазина.\n\nВ прошлой статье я писал, что Google требует от новых аккаунтов две недели закрытого теста с двенадцатью участниками, я позвал вас, и в группу пришло гораздо больше, спасибо всем, кто гонял Писаря и репортил что не так, ну и теперь Google открыл приложение для всех, в 178 странах.\n\nЧитать далее",
       "image": "https://habrastorage.org/extt/0a/07/13/0a0713ebcaba6e53eb7cca7b534ee8f0.png",
       "images": [
         {
@@ -1752,8 +2862,8 @@
       "id": "1og4iyd",
       "title": "This Week’s Japanese Game Releases: Prinny Party: Going Overboard!, Pikmin 4 – Nintendo Switch 2 Edition + Dandori Academy, more",
       "url": "https://www.gematsu.com/2026/11/this-weeks-japanese-game-releases-prinny-party-going-overboard-pikmin-4-nintendo-switch-2-edition-dandori-academy-more",
-      "excerpt": "The remake of Prinny Party: Going Overboard! for PlayStation 5, Switch 2, Switch, and PC… Source",
-      "content": "The remake of Prinny Party: Going Overboard! for PlayStation 5, Switch 2, Switch, and PC…\n\nSource",
+      "excerpt": "Prinny Party: Going Overboard! for PlayStation 5, Switch 2, Switch, and PC, and Pikmin 4 … Source",
+      "content": "Prinny Party: Going Overboard! for PlayStation 5, Switch 2, Switch, and PC, and Pikmin 4 …\n\nSource",
       "image": "https://www.gematsu.com/wp-content/uploads/2026/11/Japanese-Game-Releases_11-08-26.jpg",
       "images": [
         {
@@ -1770,7 +2880,7 @@
     },
     {
       "id": "10ijfhh",
-      "title": "От предложений LLM к управляемому исполнению: опыт разработки AI-агента",
+      "title": "От предложений LLM к управляемому исполнению: опыт разработки AI‑агента",
       "url": "https://habr.com/ru/articles/1105178/",
       "excerpt": "Подключить AI-агента к инструментам - лишь часть задачи. Гораздо сложнее организовать его работу там, где недостаточно уверенного ответа модели и необходимо соблюдать ограничения, контролировать действия и проверять последствия. Например, если агент…",
       "content": "Подключить AI-агента к инструментам - лишь часть задачи. Гораздо сложнее организовать его работу там, где недостаточно уверенного ответа модели и необходимо соблюдать ограничения, контролировать действия и проверять последствия.\n\nНапример, если агент предлагает восстановить деградировавший сервис, кто проверит: выдержит ли инфраструктура переключение трафика? выполнены ли все необходимые условия? действительно ли сервис восстановился?\n\nЯ решил исследовать эти вопросы на примере управляемого AI-агента с локальной Qwen3.8:27b. Для этого разработал отдельную среду исполнения «Governed Agent Runtime», в которой модель выбирает следующий шаг, но допустимость и выполнение операций контролирует детерминированный runtime.\n\nВ начале область исследования ограничивалась отдельными предложениями, позже реализация перешла к многошаговому исполнению и, хотя агент справился с последовательными действиями, остались вопросы к отдельным пояснениям модели.\nТакже в ходе работы пришлось пересмотреть собственную систему оценки результатов.\n\nВсе эксперименты проводились на синтетическом платежном сервисе. Результаты можно посмотреть в демонстрационном интерфейсе:\n\nhttps://антонтрофимов.рф/gov-agent/\n\nРеализация и материалы представлены в репозитории проекта - ссылка в конце статьи.\n\nРазработка велась на основе спецификаций (SDD).\n\nЧитать далее",
@@ -2198,7 +3308,7 @@
     },
     {
       "id": "13zchys",
-      "title": "Акции ИИ-компаний рухнули: помешает ли это масштабированию медицинского ИИ в России",
+      "title": "Акции ИИ‑компаний рухнули: помешает ли это масштабированию медицинского ИИ в России",
       "url": "https://habr.com/ru/articles/1105162/",
       "excerpt": "Данные Bessemer и Bain, российская специфика и схема перехода от работающей модели к поддерживаемому медицинскому продукту. Читать далее",
       "content": "Данные Bessemer и Bain, российская специфика и схема перехода от работающей модели к поддерживаемому медицинскому продукту.\n\nЧитать далее",
@@ -2633,14 +3743,14 @@
       "url": "https://www.purexbox.com/guides/xbox-adds-more-perks-for-game-pass-members-november-2026",
       "excerpt": "The latest freebies for XGP subscribers. The Xbox Game Pass Perks program is continuing to add a bunch of freebies for Game Pass members throughout November 2026, including for the likes of Skate, Sea of Thieves and much more! Rare's Sea of Thieves one is…",
       "content": "The latest freebies for XGP subscribers.\n\nThe Xbox Game Pass Perks program is continuing to add a bunch of freebies for Game Pass members throughout November 2026, including for the likes of Skate, Sea of Thieves and much more!\n\nRare's Sea of Thieves one is perhaps the most notable so far - it's an emote celebrating the 25th anniversary of Xbox. Of course, with the anniversary itself taking place on November 15th, there may be more surprise perks on the way.\n\nRead the full article on purexbox.com",
-      "image": "https://images.purexbox.com/49f00905ed3ce/small.jpg",
+      "image": "https://images.purexbox.com/f489c710f7e7d/small.jpg",
       "images": [
         {
-          "url": "https://images.purexbox.com/49f00905ed3ce/small.jpg",
+          "url": "https://images.purexbox.com/f489c710f7e7d/small.jpg",
           "alt": ""
         },
         {
-          "url": "https://images.purexbox.com/49f00905ed3ce/large.jpg",
+          "url": "https://images.purexbox.com/f489c710f7e7d/large.jpg",
           "alt": ""
         }
       ],
@@ -3260,8 +4370,8 @@
       "id": "10fltch",
       "title": "Agent memory needs its OpenTelemetry moment",
       "url": "https://www.lorekit.io/blog/open-agent-memory-format",
-      "excerpt": "Article URL: https://www.lorekit.io/blog/open-agent-memory-format Comments URL: https://news.ycombinator.com/item?id=50411467 Points: 150 # Comments: 100",
-      "content": "Article URL: https://www.lorekit.io/blog/open-agent-memory-format\n\nComments URL: https://news.ycombinator.com/item?id=50411467\n\nPoints: 150\n\n# Comments: 100",
+      "excerpt": "Article URL: https://www.lorekit.io/blog/open-agent-memory-format Comments URL: https://news.ycombinator.com/item?id=50411467 Points: 164 # Comments: 102",
+      "content": "Article URL: https://www.lorekit.io/blog/open-agent-memory-format\n\nComments URL: https://news.ycombinator.com/item?id=50411467\n\nPoints: 164\n\n# Comments: 102",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T08:40:23.000Z",
@@ -3290,7 +4400,7 @@
       "url": "https://github.com/featureJosh/Recompia",
       "excerpt": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows. With multiplayer support",
       "image": "",
-      "publishedAt": "2026-11-08T20:06:52Z",
+      "publishedAt": "2026-11-08T23:22:37Z",
       "addedAt": "2026-11-08T15:04:03.044Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -6065,7 +7175,7 @@
       "url": "https://github.com/kelvynzucco/majistic-recomp",
       "excerpt": "Native PC port and static recompilation of Majin and the Forsaken Kingdom (Xbox 360) for Windows x64. Direct3D 12, locked 60 FPS, and 4K support.",
       "image": "",
-      "publishedAt": "2026-11-08T20:07:51Z",
+      "publishedAt": "2026-11-08T23:08:51Z",
       "addedAt": "2026-11-08T09:40:16.203Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -6705,7 +7815,7 @@
       "url": "https://github.com/bradharding/doomretro",
       "excerpt": "The classic, refined DOOM source port. For Windows PC.",
       "image": "",
-      "publishedAt": "2026-11-08T06:53:00Z",
+      "publishedAt": "2026-11-08T21:43:08Z",
       "addedAt": "2026-11-08T07:10:11.604Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -7026,8 +8136,8 @@
       "id": "vduo6c",
       "title": "Goodbye Claude, hello Pi",
       "url": "https://caleb.software/posts/claude-to-pi.html",
-      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 620 # Comments: 394",
-      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 620\n\n# Comments: 394",
+      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 670 # Comments: 424",
+      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 670\n\n# Comments: 424",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T03:11:48.000Z",
@@ -7817,7 +8927,7 @@
       "url": "https://github.com/kayochiaradia/mtf-recomp",
       "excerpt": "MTF Recomp: a static recompilation of Mario Tennis Fever (Switch 2) into a native Windows x86-64 application. No game files included.",
       "image": "",
-      "publishedAt": "2026-11-08T05:18:48Z",
+      "publishedAt": "2026-11-08T23:39:38Z",
       "addedAt": "2026-11-08T03:40:14.649Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -8724,8 +9834,8 @@
       "id": "zof7yv",
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 534 # Comments: 381",
-      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 534\n\n# Comments: 381",
+      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 574 # Comments: 390",
+      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 574\n\n# Comments: 390",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T20:45:32.000Z",
@@ -9053,7 +10163,7 @@
       "url": "https://github.com/Re-TeRo17/ratchet-tod-recomp",
       "excerpt": "Ratchet & Clank: Tools of Destruction native PC port (PS3 static recompilation) – 4K, 60 fps, DualSense, Windows",
       "image": "",
-      "publishedAt": "2026-11-07T22:07:27Z",
+      "publishedAt": "2026-11-08T23:36:00Z",
       "addedAt": "2026-11-07T22:16:45.297Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -9233,7 +10343,7 @@
       "url": "https://github.com/timboat/demons-souls-recomp",
       "excerpt": "Native Windows port of Demon's Souls (PS3, BLUS-30443) via ps3recomp static recompilation. Bring your own disc image; no game files included.",
       "image": "",
-      "publishedAt": "2026-11-08T05:04:42Z",
+      "publishedAt": "2026-11-08T23:36:47Z",
       "addedAt": "2026-11-07T21:44:04.409Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -9259,21 +10369,8 @@
       "url": "https://github.com/xXNukem/Extremis-RE",
       "excerpt": "In Extremis (1993) PC game source port in development.",
       "image": "",
-      "publishedAt": "2026-11-08T16:17:18Z",
+      "publishedAt": "2026-11-08T22:54:12Z",
       "addedAt": "2026-11-07T21:44:03.978Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
-      "id": "gh-1439286882",
-      "title": "gustavomorinaga/project-vekta: Killzone HD // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
-      "url": "https://github.com/gustavomorinaga/project-vekta",
-      "excerpt": "Killzone HD // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
-      "image": "",
-      "publishedAt": "2026-11-08T19:21:37Z",
-      "addedAt": "2026-11-07T21:44:03.491Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -9285,7 +10382,20 @@
       "url": "https://github.com/spitzdano/AidynReChronicled",
       "excerpt": "Aidyn Chronicles: The First Mage (N64) as a native Linux and Windows game: HD and widescreen, newly painted art, smooth frame rates, quicksaves and Aidyn Patch / Aidyn Plus support. Bring your own ROM.",
       "image": "",
-      "publishedAt": "2026-11-08T18:19:11Z",
+      "publishedAt": "2026-11-08T23:19:28Z",
+      "addedAt": "2026-11-07T21:44:03.491Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1439286882",
+      "title": "gustavomorinaga/project-vekta: Killzone HD // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
+      "url": "https://github.com/gustavomorinaga/project-vekta",
+      "excerpt": "Killzone HD // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
+      "image": "",
+      "publishedAt": "2026-11-08T23:16:36Z",
       "addedAt": "2026-11-07T21:44:03.491Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -10178,7 +11288,7 @@
     },
     {
       "id": "eaklbo",
-      "title": "Chauffeur Life",
+      "title": "Elana Scherr: Chauffeur Life",
       "url": "https://www.caranddriver.com/features/columns/a74336655/elana-scherr-rear-seat-amenities/",
       "excerpt": "My guests’ expertise in rear-seat amenities provides some insight into passenger-pleasing design.",
       "content": "My guests’ expertise in rear-seat amenities provides some insight into passenger-pleasing design.",
@@ -11008,12 +12118,12 @@
       "addedAt": "2026-11-07T18:17:41.405Z"
     },
     {
-      "id": "gh-1391431410",
-      "title": "TGP482/XboxXBERecomp: A tool for statically recompiling original Xbox games into native executables.",
-      "url": "https://github.com/TGP482/XboxXBERecomp",
-      "excerpt": "A tool for statically recompiling original Xbox games into native executables.",
+      "id": "gh-1429599038",
+      "title": "TheBozos/VP2S_Recomp: Native PC port of Valkyrie Profile 2: Silmeria (USA, SLUS-21452) by static recompilation with PS2Recomp: native renderer and audio, no GS/VU1/SPU2 emulation. No game data or keys included.",
+      "url": "https://github.com/TheBozos/VP2S_Recomp",
+      "excerpt": "Native PC port of Valkyrie Profile 2: Silmeria (USA, SLUS-21452) by static recompilation with PS2Recomp: native renderer and audio, no GS/VU1/SPU2 emulation. No game data or keys included.",
       "image": "",
-      "publishedAt": "2026-11-08T15:52:24Z",
+      "publishedAt": "2026-11-08T23:30:25Z",
       "addedAt": "2026-11-07T18:00:03.196Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -11021,12 +12131,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1429599038",
-      "title": "TheBozos/VP2S_Recomp: Native PC port of Valkyrie Profile 2: Silmeria (USA, SLUS-21452) by static recompilation with PS2Recomp: native renderer and audio, no GS/VU1/SPU2 emulation. No game data or keys included.",
-      "url": "https://github.com/TheBozos/VP2S_Recomp",
-      "excerpt": "Native PC port of Valkyrie Profile 2: Silmeria (USA, SLUS-21452) by static recompilation with PS2Recomp: native renderer and audio, no GS/VU1/SPU2 emulation. No game data or keys included.",
+      "id": "gh-1391431410",
+      "title": "TGP482/XboxXBERecomp: A tool for statically recompiling original Xbox games into native executables.",
+      "url": "https://github.com/TGP482/XboxXBERecomp",
+      "excerpt": "A tool for statically recompiling original Xbox games into native executables.",
       "image": "",
-      "publishedAt": "2026-11-08T15:37:31Z",
+      "publishedAt": "2026-11-08T15:52:24Z",
       "addedAt": "2026-11-07T18:00:03.196Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -11104,7 +12214,7 @@
       "url": "https://github.com/TheBozos/TMB_Recomp",
       "excerpt": "Twisted Metal: Black (USA, SCUS-97101) as a native PC port: static recompilation with PS2Recomp (no game data)",
       "image": "",
-      "publishedAt": "2026-11-08T19:20:08Z",
+      "publishedAt": "2026-11-08T23:29:32Z",
       "addedAt": "2026-11-07T18:00:02.232Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -13125,7 +14235,7 @@
       "title": "Gundam Assemble: Hands-On With Mobile Suit Gundam’s Miniatures Tabletop Game",
       "url": "https://www.ign.com/articles/gundam-assemble-hands-on-with-mobile-suit-gundams-miniatures-tabletop-game",
       "excerpt": "The storied Mobile Suit Gundam series makes another venture into the tabletop world with Gundam Assemble, a new miniatures game experience. In fact, this new game was revealed alongside the Gundam Card Game as a visual companion, so fans got hit with a fun…",
-      "content": "The storied Mobile Suit Gundam series makes another venture into the tabletop world with Gundam Assemble, a new miniatures game experience. In fact, this new game was revealed alongside the Gundam Card Game as a visual companion, so fans got hit with a fun one-two punch of new game teases. Gundam Assemble is available for the first time this fall, with more expansion packs and sets already prepared to release into early next year. After a good chunk of time with the starter set, this game is shaping up to be a fun bite-size brawl compared to some of the other miniature games out there right now.\n\nArguably one of the biggest barriers of entry to miniature wargames is the building and painting aspect. If building is your biggest concern, have no fear with Gundam Assemble. Just like the gunpla that the series is known for, Gundam Assemble features pieces that you cut out and snap into place. Granted, the pieces are a lot smaller in comparison to regular gunpla, but it’s simplified, needing only a handful of parts to complete a mini Gundam unit. I suggest using proper cutting tools since these are miniatures and there’s less room for error. They look good though, showcasing a decent amount of detail for miniature versions of what fans are familiar with. Like other modern miniatures, assembly has been made a lot easier by simply snapping parts together as instructed, but it loses the customization that players may prefer with particular sets of miniature games. Instead, we see different variants or poses of Gundam units across the different releases. For instance, the RX-78-2 Gundam in the starter set features a beam saber attack, but the variant in the Paint Pack has the mech unit brandishing a beam rifle. Although not ideal for those that want a little bit of personal touch to their creations, it does make it easier for beginners (or even impatient players like myself) to jump right into painting and the gameplay soon after.\n\nPainting miniatures is not for the faint of heart, and Gundam Assemble isn’t any easier with all the tiny details, from the weapons to the mech head pieces. And if you’re a perfectionist, you’ll be spending more time painting than even playing the game. With that said, the mech units in the Gundam universe are fairly straightforward to paint with the mostly monochrome looks with embellishments littered about. Thankfully, there’s no skin or flesh color to deal with while painting Gundam units, which can be difficult to do properly. As long as you start off with a primer, you can save a bit of time, especially with units like the RX-78-2 or the Wing Gundam Zero. For me, I like to keep painting fairly simple because I just don’t have as much free time nowadays. And I care more about the gameplay than the arts and crafts of it all anyway. With that said, I do still want to make things look somewhat cool and clean compared to what I did as a 12-year-old painting Black Templar Space Marines because it was one of the easier chapters to paint. On the flip side, I’d prefer to skip painting altogether if possible, and that’s how I got into other miniature games like HeroClix and Star Wars X-Wing – where the minis were already painted. You can also just not paint the minis, but the extra effort does make for a better experience. The starter set even has a painting guide section in its instruction manual if you’re new to the hobby. Other than having some specific paints available like the Gundam Assemble Paint Pack, it’s also fine to use any water-based acrylic model paint and mix colors as need be. That’s how Char’s Zaku’s colors turned out when some friends and I had a dedicated paint day for some of these minis. Overall, painting is much easier now and it saves a ton of time if you do a bit of research before getting started.\n\nAs I mentioned, I care mostly about the gameplay when it comes to miniature games, and Gundam Assemble’s matches are surprisingly a smooth experience. I’m not in the miniatures tabletop scene constantly, but I dabble with some casual games every now and then like Marvel United. The hardest part is finding a buddy or group willing to learn the complex game mechanics and dedicating time and space to matches. It’s been kind of a sore spot for me and my friends lately, always talking about wanting to play Warhammer 40K Kill Team , but never fully committing because we still want to properly build and paint. With Gundam Assemble, it’s easier to get games going because you only really need six mech units versus a multitude of grunts to fill up a squad or army on either side. Although there are still a lot of tokens for various effects and objectives, the most important feature that makes turn-taking smooth is the Gundam Assemble timeline. It consists of ten rounds equaling one phase. On the timeline, players have their mech units’ tokens slotted into specific spots to help track each unit’s turn. For example, the Gundam Vidar has a timeline start number of one compared to RX-78-2’s timeline start number two. This means that Gundam Vidar places its token on round one of the timeline at setup, signifying that it takes its turn first before moving to round two, where RX-78-2’s token sits. As units make certain actions, their unit token moves down the timeline. So depending on what your mech unit does, they could be waiting a long time to act again. Seeing which mech is next in line does give an extra layer of strategy similar to turn-based tactics video games like XCOM or Star Wars Zero Company . It’s nice to have the timeline set to the side of the map and away from the battlefield where token placements can get out of hand.\n\nIn a common scenario, players play through two phases or 20 rounds, trying to collect as many victory points as possible through various means. Scoring victory points ranges from rescuing/destroying garrisons to defeating a mech unit or holding objective points at the end of each phase. Each mech unit’s turn consists of a few possible options: advance, primary action, command abilities, and tactics cards. Advance is simply movement, and units can move up to three hexes in any direction. Although, when it comes to moving up a level of terrain, it costs two hexes of movement. There’s no terrain penalty going down a level, and units with a Hover ability ignore terrain penalties all together. Primary actions move the unit token down the timeline and includes options like attack, dash, energize, and rescue. Attacks on the unit cards have specific timeline costs. So if the RX-78-2’s Beam Saber attack has a timeline of three, the Gundam’s token moves down the timeline three rounds after using this specific attack. The other three primary actions normally cost two timeline rounds. Dash is an option to move two hexes further. In Char’s Zaku’s case, dashes can also deal damage with his Char Kick ability. Next is energize, which gives a unit an energy token so they can use certain abilities later in the game. And the last primary action is rescue, which can be used to rescue friendly garrison tokens on the battlefield for victory points. Some units benefit from rescuing garrisons like the RX-78-2, which has a command ability that increases its strength by one for every garrison rescued. Speaking of command abilities, that’s another option available during a mech unit’s turn that’s printed on the unit card. These command abilities usually have an energy cost and/or specific requirement, so plan accordingly. And finally there are tactics cards, which can be used up to once a turn before being discarded. Players start off with three tactics cards but eventually draw more after a phase ends. These are one-time use, ranging from repairing a mech unit to using an entirely new attack or countering an enemy unit. It seems like a lot for one turn, but at most times, players are mainly just advancing and using a primary action as options on the battlefield start to dwindle.\n\nOf course, we have to talk about the combat in a Gundam miniatures game. Since games are typically 3v3 mech units, the battlefield is not too cluttered with miniatures, so entering combat gameplay is fairly quick in the opening turns as they each get deployed onto the battlefield and disperse towards various objectives. When enemy units are in range, the player’s unit can choose one of two attacks printed on their card or possibly an attack Tactics card. Each attack has a strength number and that signals how many 10-sided dice to use to calculate hits, criticals, and damage. Four and greater is a hit which equals one damage, and nines or tens are critical hits that activate the attack’s crit effect – whether it’s additional damage or a negative effect that hinders a unit’s capabilities. Unlike other games, Gundam Assemble doesn’t have defensive rolls like saving throws, so its damage calculation can be fairly easy. Instead, defenses can be used in the form of Shield tokens that a unit can pick up by chance or applied via a command ability or tactics card. Shield tokens are passive bonuses that nullify one hit per token equipped, and become exhausted or deactivated until the start of that mech unit’s turn. For example, the Gundam Barbatos Lupus Rex’s Tail Blade attack attempts to deal six damage to Gundam Vidar, but the defending unit has two Shield tokens equipped. Instead of taking six damage, Gundam Vidar only takes four and the two Shield tokens are flipped over to signify being used. If another unit comes along to attack the Gundam Vidar before it reactivates its Shield tokens, the tokens will not defend two hits of damage. This, alongside some abilities or tactics cards that can nullify or lessen damage, keep combat rolls fairly quick and seamless. There’s no need to calculate a multitude of faction bonuses or if a unit is concealed or aiming like in other miniature wargames so far. The only other consideration when attacking is accuracy, which can be altered by elevation or special terrain like water. When a mech unit is eventually defeated, the winning player gains victory points as noted on the enemy unit’s card. Then the enemy unit’s token on the timeline is moved two spaces ahead when it can redeploy again after ‘repairs’ have been made. Any upgrades or energy accumulated stay with the defeated mech unit until it deploys again.\n\nOne other thing worth mentioning when it comes to any miniatures games is the price. After all, these detailed minis are a step above acrylic or cardboard standees or tokens, and it can get overwhelming when deciding which units to collect. The Gundam Assemble Starter Set 01 will run you about $35, which isn’t that much more than a HG gunpla kit, depending on the model. Considering a starter set of Warhammer 40K Kill Team can run you about $118 or a Star Wars Legion starter at about $99, Gundam Assemble is much easier on the wallet. I know my mom would’ve appreciated that when I first got into Warhammer 40K back in the day. With that said, there is a Deluxe Starter Set for Gundam Assemble at about $100, which contains double the minis of a regular starter. And if you’re feeling the itch, there are expansion packs featuring fan favorites that can run you $40.\n\nGundam Assemble’s gameplay is a nice blend of objective-based scoring while also having the option to just all-out attack enemy units for their VP rewards. It’s the balance of managing both strategies to your units’ best abilities that determines who is the better tactician. Between the easy builds that gunpla and miniature fans are familiar with to the fairly quick instances of combat and timeline management, the barrier to entry is slightly more beginner-friendly than other starter sets in the miniature wargame landscape. Not to mention, the price isn’t too bad for Gundam fans interested in a new tabletop experience, or those looking to venture into miniature games for the first time. For more Gundam, check out our hands-on impressions of the Gundam Card Game or our interview with t",
+      "content": "The storied Mobile Suit Gundam series makes another venture into the tabletop world with Gundam Assemble, a new miniatures game experience. In fact, this new game was revealed alongside the Gundam Card Game as a visual companion, so fans got hit with a fun one-two punch of new game teases. Gundam Assemble is available for the first time this fall, with more expansion packs and sets already prepared to release into early next year. After a good chunk of time with the starter set, this game is shaping up to be a fun bite-size brawl compared to some of the other miniature games out there right now.\n\nArguably one of the biggest barriers of entry to miniature wargames is the building and painting aspect. If building is your biggest concern, have no fear with Gundam Assemble. Just like the gunpla that the series is known for, Gundam Assemble features pieces that you cut out and snap into place. Granted, the pieces are a lot smaller in comparison to regular gunpla, but it’s simplified, needing only a handful of parts to complete a mini Gundam unit. I suggest using proper cutting tools since these are miniatures and there’s less room for error. They look good though, showcasing a decent amount of detail for miniature versions of what fans are familiar with. Like other modern miniatures, assembly has been made a lot easier by simply snapping parts together as instructed, but it loses the customization that players may prefer with particular sets of miniature games. Instead, we see different variants or poses of Gundam units across the different releases. For instance, the RX-78-2 Gundam in the starter set features a beam saber attack, but the variant in the Paint Pack has the mech unit brandishing a beam rifle. Although not ideal for those that want a little bit of personal touch to their creations, it does make it easier for beginners (or even impatient players like myself) to jump right into painting and the gameplay soon after.\n\nPainting miniatures is not for the faint of heart, and Gundam Assemble isn’t any easier with all the tiny details, from the weapons to the mech head pieces. And if you’re a perfectionist, you’ll be spending more time painting than even playing the game. With that said, the mech units in the Gundam universe are fairly straightforward to paint with the mostly monochrome looks with embellishments littered about. Thankfully, there’s no skin or flesh color to deal with while painting Gundam units, which can be difficult to do properly. As long as you start off with a primer, you can save a bit of time, especially with units like the RX-78-2 or the Wing Gundam Zero. For me, I like to keep painting fairly simple because I just don’t have as much free time nowadays. And I care more about the gameplay than the arts and crafts of it all anyway. With that said, I do still want to make things look somewhat cool and clean compared to what I did as a 12-year-old painting Black Templar Space Marines because it was one of the easier chapters to paint. On the flip side, I’d prefer to skip painting altogether if possible, and that’s how I got into other miniature games like HeroClix and Star Wars X-Wing – where the minis were already painted. You can also just not paint the minis, but the extra effort does make for a better experience. The starter set even has a painting guide section in its instruction manual if you’re new to the hobby. Other than having some specific paints available like the Gundam Assemble Paint Pack, it’s also fine to use any water-based acrylic model paint and mix colors as need be. That’s how Char’s Zaku’s colors turned out when some friends and I had a dedicated paint day for some of these minis. Overall, painting is much easier now and it saves a ton of time if you do a bit of research before getting started.\n\nAs I mentioned, I care mostly about the gameplay when it comes to miniature games, and Gundam Assemble’s matches are surprisingly a smooth experience. I’m not in the miniatures tabletop scene constantly, but I dabble with some casual games every now and then like Marvel United. The hardest part is finding a buddy or group willing to learn the complex game mechanics and dedicating time and space to matches. It’s been kind of a sore spot for me and my friends lately, always talking about wanting to play Warhammer 40K Kill Team , but never fully committing because we still want to properly build and paint. With Gundam Assemble, it’s easier to get games going because you only really need six mech units versus a multitude of grunts to fill up a squad or army on either side. Although there are still a lot of tokens for various effects and objectives, the most important feature that makes turn-taking smooth is the Gundam Assemble timeline. It consists of ten rounds equaling one phase. On the timeline, players have their mech units’ tokens slotted into specific spots to help track each unit’s turn. For example, the Gundam Vidar has a timeline start number of one compared to RX-78-2’s timeline start number two. This means that Gundam Vidar places its token on round one of the timeline at setup, signifying that it takes its turn first before moving to round two, where RX-78-2’s token sits. As units make certain actions, their unit token moves down the timeline. So depending on what your mech unit does, they could be waiting a long time to act again. Seeing which mech is next in line does give an extra layer of strategy similar to turn-based video games like Clair Obscur: Expedition 33 or Digimon Survive . It’s nice to have the timeline set to the side of the map and away from the battlefield where token placements can get out of hand.\n\nIn a common scenario, players play through two phases or 20 rounds, trying to collect as many victory points as possible through various means. Scoring victory points ranges from rescuing/destroying garrisons to defeating a mech unit or holding objective points at the end of each phase. Each mech unit’s turn consists of a few possible options: advance, primary action, command abilities, and tactics cards. Advance is simply movement, and units can move up to three hexes in any direction. Although, when it comes to moving up a level of terrain, it costs two hexes of movement. There’s no terrain penalty going down a level, and units with a Hover ability ignore terrain penalties all together. Primary actions move the unit token down the timeline and includes options like attack, dash, energize, and rescue. Attacks on the unit cards have specific timeline costs. So if the RX-78-2’s Beam Saber attack has a timeline of three, the Gundam’s token moves down the timeline three rounds after using this specific attack. The other three primary actions normally cost two timeline rounds. Dash is an option to move two hexes further. In Char’s Zaku’s case, dashes can also deal damage with his Char Kick ability. Next is energize, which gives a unit an energy token so they can use certain abilities later in the game. And the last primary action is rescue, which can be used to rescue friendly garrison tokens on the battlefield for victory points. Some units benefit from rescuing garrisons like the RX-78-2, which has a command ability that increases its strength by one for every garrison rescued. Speaking of command abilities, that’s another option available during a mech unit’s turn that’s printed on the unit card. These command abilities usually have an energy cost and/or specific requirement, so plan accordingly. And finally there are tactics cards, which can be used up to once a turn before being discarded. Players start off with three tactics cards but eventually draw more after a phase ends. These are one-time use, ranging from repairing a mech unit to using an entirely new attack or countering an enemy unit. It seems like a lot for one turn, but at most times, players are mainly just advancing and using a primary action as options on the battlefield start to dwindle.\n\nOf course, we have to talk about the combat in a Gundam miniatures game. Since games are typically 3v3 mech units, the battlefield is not too cluttered with miniatures, so entering combat gameplay is fairly quick in the opening turns as they each get deployed onto the battlefield and disperse towards various objectives. When enemy units are in range, the player’s unit can choose one of two attacks printed on their card or possibly an attack Tactics card. Each attack has a strength number and that signals how many 10-sided dice to use to calculate hits, criticals, and damage. Four and greater is a hit which equals one damage, and nines or tens are critical hits that activate the attack’s crit effect – whether it’s additional damage or a negative effect that hinders a unit’s capabilities. Unlike other games, Gundam Assemble doesn’t have defensive rolls like saving throws, so its damage calculation can be fairly easy. Instead, defenses can be used in the form of Shield tokens that a unit can pick up by chance or applied via a command ability or tactics card. Shield tokens are passive bonuses that nullify one hit per token equipped, and become exhausted or deactivated until the start of that mech unit’s turn. For example, the Gundam Barbatos Lupus Rex’s Tail Blade attack attempts to deal six damage to Gundam Vidar, but the defending unit has two Shield tokens equipped. Instead of taking six damage, Gundam Vidar only takes four and the two Shield tokens are flipped over to signify being used. If another unit comes along to attack the Gundam Vidar before it reactivates its Shield tokens, the tokens will not defend two hits of damage. This, alongside some abilities or tactics cards that can nullify or lessen damage, keep combat rolls fairly quick and seamless. There’s no need to calculate a multitude of faction bonuses or if a unit is concealed or aiming like in other miniature wargames so far. The only other consideration when attacking is accuracy, which can be altered by elevation or special terrain like water. When a mech unit is eventually defeated, the winning player gains victory points as noted on the enemy unit’s card. Then the enemy unit’s token on the timeline is moved two spaces ahead when it can redeploy again after ‘repairs’ have been made. Any upgrades or energy accumulated stay with the defeated mech unit until it deploys again.\n\nOne other thing worth mentioning when it comes to any miniatures games is the price. After all, these detailed minis are a step above acrylic or cardboard standees or tokens, and it can get overwhelming when deciding which units to collect. The Gundam Assemble Starter Set 01 will run you about $35, which isn’t that much more than a HG gunpla kit, depending on the model. Considering a starter set of Warhammer 40K Kill Team can run you about $118 or a Star Wars Legion starter at about $99, Gundam Assemble is much easier on the wallet. I know my mom would’ve appreciated that when I first got into Warhammer 40K back in the day. With that said, there is a Deluxe Starter Set for Gundam Assemble at about $100, which contains double the minis of a regular starter. And if you’re feeling the itch, there are expansion packs featuring fan favorites that can run you $40.\n\nGundam Assemble’s gameplay is a nice blend of objective-based scoring while also having the option to just all-out attack enemy units for their VP rewards. It’s the balance of managing both strategies to your units’ best abilities that determines who is the better tactician. Between the easy builds that gunpla and miniature fans are familiar with to the fairly quick instances of combat and timeline management, the barrier to entry is slightly more beginner-friendly than other starter sets in the miniature wargame landscape. Not to mention, the price isn’t too bad for Gundam fans interested in a new tabletop experience, or those looking to venture into miniature games for the first time. For more Gundam, check out our hands-on impressions of the Gundam Card Game or our intervie",
       "image": "https://assets-prd.ignimgs.com/2026/11/06/gundamaoo-1793929453718.jpg",
       "images": [
         {
@@ -15584,7 +16694,7 @@
       "url": "https://github.com/YodaMMM/NightfirePort",
       "excerpt": "Nightfire Rust: a native Windows PC port of 007: Nightfire (PS2), written in Rust",
       "image": "",
-      "publishedAt": "2026-11-08T20:19:29Z",
+      "publishedAt": "2026-11-08T23:32:01Z",
       "addedAt": "2026-11-07T09:10:09.502Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -16187,7 +17297,7 @@
       "url": "https://github.com/nayo186/AloneInTheDarkClassicReborn",
       "excerpt": "A source port of the Alone in the Dark trilogy and Jack in the Dark for modern PCs (Windows and Linux): fixes, HD options and its own launcher. Built on FITD by yaz0r, with parts of Re-Haunted",
       "image": "",
-      "publishedAt": "2026-11-08T18:03:24Z",
+      "publishedAt": "2026-11-08T22:05:54Z",
       "addedAt": "2026-11-07T07:40:12.287Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -18205,6 +19315,19 @@
       "lang": "en"
     },
     {
+      "id": "gh-1380918033",
+      "title": "xfynx/prsche-disasm: Reverse engineering and C/C++ source recovery of Need for Speed: Porsche Unleashed / Porsche 2000 (NFS5, PC 2000), with original-binary indexes, native differential tests and Rust port research.",
+      "url": "https://github.com/xfynx/prsche-disasm",
+      "excerpt": "Reverse engineering and C/C++ source recovery of Need for Speed: Porsche Unleashed / Porsche 2000 (NFS5, PC 2000), with original-binary indexes, native differential tests and Rust port research.",
+      "image": "",
+      "publishedAt": "2026-11-08T20:54:27Z",
+      "addedAt": "2026-11-07T06:02:59.034Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
       "id": "gh-1398811852",
       "title": "abedegno/underworld-exhumed: Underworld Exhumed: Ultima Underworld I and II as byte-matching source code and native ports for macOS, Windows and Linux",
       "url": "https://github.com/abedegno/underworld-exhumed",
@@ -18289,19 +19412,6 @@
       "excerpt": "A decompilation of Bloodborne (CUSA03173 v1.09) with its own runtime: the game's code rewritten as readable C++, one verified function at a time. The game doesn't run on it yet; 21 functions verified. No game files included.",
       "image": "",
       "publishedAt": "2026-11-06T23:06:08Z",
-      "addedAt": "2026-11-07T06:02:59.034Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
-      "id": "gh-1380918033",
-      "title": "xfynx/prsche-disasm: Reverse engineering and C/C++ source recovery of Need for Speed: Porsche Unleashed / Porsche 2000 (NFS5, PC 2000), with original-binary indexes, native differential tests and Rust port research.",
-      "url": "https://github.com/xfynx/prsche-disasm",
-      "excerpt": "Reverse engineering and C/C++ source recovery of Need for Speed: Porsche Unleashed / Porsche 2000 (NFS5, PC 2000), with original-binary indexes, native differential tests and Rust port research.",
-      "image": "",
-      "publishedAt": "2026-11-06T20:48:14Z",
       "addedAt": "2026-11-07T06:02:59.034Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -32483,10 +33593,10 @@
     },
     {
       "id": "130ljkl",
-      "title": "Война в Украине: Россия ударила по пригороду Днепра, дрон атаковал спасателей в Камышевахе",
+      "title": "Война в Украине: в Одесской области перебои со светом после удара; в Кременчуге дроны атаковали жилой дом и гостиницу",
       "url": "https://www.bbc.co.uk/russian/live/cmjrwvyj4jy8t?at_medium=RSS&at_campaign=rss",
       "excerpt": "Последние новости, комментарии и видео о войне России против Украины.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a44e/live/b56c15b0-db67-11f1-b441-2b33b063138f.jpg",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eea0/live/993ba2c0-dbb2-11f1-a701-fddedf244c16.jpg",
       "publishedAt": null,
       "sourceId": "bbc-ru",
       "source": "BBC Russian",
@@ -32496,7 +33606,7 @@
       "content": "Последние новости, комментарии и видео о войне России против Украины.",
       "images": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a44e/live/b56c15b0-db67-11f1-b441-2b33b063138f.jpg",
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eea0/live/993ba2c0-dbb2-11f1-a701-fddedf244c16.jpg",
           "alt": ""
         }
       ]
