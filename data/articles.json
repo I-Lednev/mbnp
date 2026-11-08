@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T12:42:13.690Z",
-  "count": 1186,
+  "generatedAt": "2026-11-08T12:47:22.530Z",
+  "count": 1189,
   "articles": {
     "1py56g3": {
       "version": 4,
@@ -29804,6 +29804,93 @@
       ],
       "length": 20000,
       "imageCount": 1
+    },
+    "zy4wi0": {
+      "version": 4,
+      "url": "https://www.tomshardware.com/pc-components/ram/pcs-with-64gb-of-ram-plummet-18-percent-as-memory-prices-soar-cpu-z-install-base-data-shows-ddr4-making-a-surprise-comeback",
+      "fetchedAt": "2026-11-08T12:47:22.073Z",
+      "title": "PC's with 64GB of RAM plummet 18% as memory prices soar — CPU-Z install base data shows DDR4 making a…",
+      "byline": "Zhiye Liu",
+      "siteName": "Tom's Hardware",
+      "content": "(Image credit: Getty Images)\n\nThe latest CPU-Z hardware survey data shows 32GB and 64GB memory configurations down 2.5% and 18% year on year, respectively. The driving factor is no mystery: High-capacity memory has become a luxury in modern PC builds. The AI rush is still gobbling up the global DRAM supply, so prices for the best RAM options across DDR4 and DDR5 have gone through the roof.If you are not familiar with CPU-Z, it is a free program that gives you a detailed breakdown of the hardware inside your system. It only tracks systems where it is actually installed and running, so it does not report monthly retail sales figures. Do not take the data as sales figures in any sense. They represent CPU-Z's active user base.Get Tom's Hardware's best news and in-depth reviews, straight to your inbox.\n\nZhiye Liu is a news editor, memory reviewer, and SSD tester at Tom’s Hardware. Although he loves everything that’s hardware, he has a soft spot for CPUs, GPUs, and RAM.",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/vp5VEBetgZmgodQQoxWEvY-2560-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/vp5VEBetgZmgodQQoxWEvY-1200-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/vp5VEBetgZmgodQQoxWEvY-1920-80.jpg",
+          "alt": "Samsung DDR5 128GB RDIMM"
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/vp5VEBetgZmgodQQoxWEvY-1920-80.jpg.webp",
+          "alt": ""
+        }
+      ],
+      "length": 978,
+      "imageCount": 4
+    },
+    "gh-1419009138": {
+      "version": 4,
+      "url": "https://github.com/WeAreTommyBruh/Legaia2-Decomp",
+      "fetchedAt": "2026-11-08T12:47:22.268Z",
+      "title": "GitHub - WeAreTommyBruh/Legaia2-Decomp: A Work-In-Progress reverse engineering and asset viewer/extractor of Legaia 2: Duel Saga for the PlayStation 2 (PAL, SLES-50891).",
+      "byline": "",
+      "siteName": "GitHub",
+      "content": "Legaia 2: Duel Saga (PAL, SLES-50891) decompilation\nThis project aims to rebuild Legaia 2 code into readable C source code. The goal of this project is a byte-for-byte decomp that can reproduce the games executable.\nAlmost everything is C. The exceptions are the libvu0 routines (VU0 coprocessor code), which are written as file-scope assembly in src/vu0_asm.c (plus 25 other VU0/COP2 routines in src/vu0_asm2.c), and a few single hardware instructions (syscall, sync, ei, mfc0, ...) inline in otherwise normal C functions.\n\nSetup\nRequired Tools\n\nPython 3\nClang\nLLD (ld.lld)\nEE-GCC 2.9-ee-991111-01\nLegaia 2: Duel Saga (PAL) disc image\n\nYou can get EE-GCC 2.9-ee-991111-01 through decomp.me\nmkdir -p ~/tools/ee-gcc2.9-991111-01\ncurl -L https://github.com/decompme/compilers/releases/download/compilers/ee-gcc2.9-991111-01.tar.xz \\\n| tar xJ -C ~/tools/ee-gcc2.9-991111-01\nThe compiler is a 32-bit linux executable. On 64-bit systems you need to install the 32-bit runtime libraries.\nsudo dpkg --add-architecture i386\nsudo [package manager] update\nsudo [package manager] libc6:i386\ngit clone https://github.com/WeAreTommyBruh/Legaia2-Decomp.git\n\nPut your disc image in the root as \"SLES_50891.ISO\"\n\npython3 tools/asm_build.py all\n\nFor windows users you need to install WSL.\n\nwsl --install\n\nThere is an asset viewer on the website.\nYou open your own disc image and you can look at the models, textures, audio, motions and effects. There is also a button to extract everything to a folder. It all runs in your browser. Nothing gets uploaded and there are no game files in this repo.\nIt is not perfect so expect bugs. If there are any report it in issues. Effects are only a rough preview. The viewer is JavaScript, it lives in site/viewer.\nAI Usage\nThis project is obviously entirely ai.\nContributing\nAny help will be welcome. Please read CONTRIBUTING.md for more details.\nLegal\nThis project contains no game assets of Legaia 2: Duel Saga. I will not provide any copies of the game.\nThis project is not affiliated with or endorsed by the game's original developers or publisher.\nHow Long Is This Gonna Take?\nReverse engineering and matching decompilation are time-consuming processes. Depending on how complex the game is and my use with ai this will take many months to complete, Possibly a year. I am not in a rush to finish this so this project will be finished when it's finished.",
+      "images": [
+        {
+          "url": "https://github.com/WeAreTommyBruh/Legaia2-Decomp/raw/main/badges/code.svg",
+          "alt": "Code"
+        },
+        {
+          "url": "https://github.com/WeAreTommyBruh/Legaia2-Decomp/raw/main/badges/functions.svg",
+          "alt": "Functions"
+        },
+        {
+          "url": "https://github.com/WeAreTommyBruh/Legaia2-Decomp/raw/main/badges/fuzzy.svg",
+          "alt": "Fuzzy"
+        },
+        {
+          "url": "https://github.com/WeAreTommyBruh/Legaia2-Decomp/raw/main/badges/data.svg",
+          "alt": "Data"
+        },
+        {
+          "url": "https://github.com/WeAreTommyBruh/Legaia2-Decomp/raw/main/badges/units.svg",
+          "alt": "Units"
+        }
+      ],
+      "length": 2380,
+      "imageCount": 5
+    },
+    "1p3p6vh": {
+      "version": 4,
+      "url": "https://arstechnica.com/science/2026/11/physicists-listened-to-electrical-noise-to-crack-a-superconductor-mystery/",
+      "fetchedAt": "2026-11-08T12:47:22.409Z",
+      "title": "Physicists listened to electrical noise to crack a superconductor mystery",
+      "byline": "Jacek Krywko",
+      "siteName": "Ars Technica",
+      "content": "Pairing up\n\nTuning in to electronic noise can tell us whether electrons have paired up or not.\n\nSuperconductors carry electricity without resistance, but most only work a few degrees above absolute zero. In the late 1980s, copper-based materials called cuprates were found to superconduct at higher temperatures—reachable with affordable liquid nitrogen. Yet nearly 40 years later, physicists still don’t agree on why.\nIn a recent Science study, a team of physicists led by Milan Allan of Ludwig Maximilian University of Munich and Ingmar Swart of Utrecht University in the Netherlands has found some answers by listening to the faint electrical crackle of current flowing into a cuprate.\nThe missing electrons\nCentral to the mystery of cuprates’ high-temperature superconductivity is a strange state called the pseudogap. “The pseudogap is a phenomenon of missing electrons,” Allan said. Above the temperature at which cuprates become superconducting, some of their electrons seem to vanish—measurements find far fewer of them at the energies where they should be. “Everybody knows that from different probes, you see that there’s these vanishing electrons, but nobody knows why,” Allan said.\nOver the decades, physicists have put forward two main competing explanations. The first hypothesizes that the electrons get stuck in some sort of structure. In this view, electrons freeze into patterns, such as charge density waves, and superconductivity develops separately. The alternative explanation tightly links this phenomenon to superconductivity. “Other people think they’re missing because they form pairs,” Allan said. Pairs of electrons, called Cooper pairs, are what carry current in a superconductor. If, as the material cools, these pairs appear before the material becomes superconducting, they would be a precondition of superconductivity, a waiting room of sorts, where pairs exist but can’t yet move together in lockstep.\nSettling this proved extremely hard. “Lots of different experimental signatures are kind of lumped inside this,” Allan said. Different instruments all see something, but their readings, Allan said, are never conclusive. “It’s always something kind of incoherent, hard to grasp,” he said.  What the researchers needed was a way to see pairs directly, and Allan and his colleagues figured it out.\n\nHeavier raindrops\nThe team decided to listen to shot noise—tiny fluctuations caused by the arrival of individual charges that form the stream of an electric current. Allan says it resembles rain drumming on the roof.  “If you imagine that you have raindrops and then all of a sudden you make the drops twice as heavy, there’ll be more noise,” Allan said. “With the electrons it’s similar. If you have two electrons coming always together, because they’re associated with pairing, then it will be more noise.”\nThe researchers did this measurement with a scanning tunneling microscope, which passed current between a needle-sharp tip and a cuprate sample, letting them listen to the noise at specific energy levels and different locations on the surface. In conventional superconductors, pairing produces a clean doubling of the noise. In cuprates, the signal is much weaker, because single electrons keep flowing alongside the pairs.\nMaking the instrument sensitive enough to discern the pairs took years. “What it took is very talented and persistent students who worked for, I don’t know, four years on this to get it working,” Allan said. “There was not a single trick. It was electronics craftsmanship.”\n\nThe step at the gap\nThe team examined crystals of a cuprate known as BSCCO, cooled to a few degrees above absolute zero, and compared the noise to the energies at which electrons go missing. By adjusting the voltage between the tip of the needle and the sample, the team could choose the energy of the electrons they were listening to, a bit like turning a radio dial. If the pseudogap came purely from frozen patterns, the team reasoned, the extra noise of pairing should only kick in at energy levels associated with superconductivity. Instead, pairing showed up right at the pseudogap energy.\n\n“The fact that there is more noise indicates that pairing is associated with this large gap,” Allan said. The pseudogap’s energy varies from spot to spot on the surface, but wherever the team listened, the extra noise always started rising at the local pseudogap energy. The same pattern held in samples with different chemical compositions.\nRuling out other sources of noise, such as atoms shifting on the surface, took a lot of effort. “Noise is super hard to interpret, and that was basically the thing that we had the most sleepless nights about,” Allan said. The decisive check involved placing the samples in magnetic fields of up to six tesla, which suppresses pairing while leaving the overall pattern of missing electrons largely intact. As the magnetic field grew, the noise dropped back toward the single-electron level, exactly as expected if pairs were behind it.\nThe strength of electron pairing can be expressed as the energy required to pull a pair apart. Lowering the temperature helps boost pairing because the warmer a material becomes, the more violently its particles jostle and the more pairs get broken. In conventional superconductors, two ingredients needed for superconductivity—pair formation and phase coherence—occur simultaneously at the critical temperature. (Phase coherence is where the electrons start moving together as a fluid.) In cuprates, Allan and Swart’s study points to a different sequence.\nThe pairing energy the team measured is well above the temperature at which the material superconducts. “So the picture that emerges is that you first have pre-formed pairs, and then only at lower temperatures, phase coherence sets in,” Swart said. That suggests the superconductivity bottleneck is not getting electrons to pair, but getting the pairs to move together.\n\n“If you have pairing at such high energies, that means that you might be able to push Tc [superconducting temperature] higher,” Allan said. “This is something people hoped for in the very early days of cuprates, and now everybody’s afraid to even mention that. But to me it gives hope.”\nTempering hopes\nAn optimistic reading of the results is that cuprate electrons could theoretically pair at room temperature, and we only need to make them coherent to achieve a room-temperature superconductor. The team, though, thinks that’s a bit naive. “I think Ingmar and I both believe that it’s not going to be that simple, because you have all kinds of other effects that are coupled there,” Allan said.\nThe researchers also stress that their experiment does not fully answer the central question. It rules out the idea that the pseudogap comes from frozen patterns alone, but not that such patterns are intertwined with pairing. “Whatever the detailed explanation of the pseudogap is, pairing should be part of it,” Swart said.\nBecause the technique used in the study loses sensitivity as temperature rises, the team couldn’t yet listen above the superconducting temperature, where the pseudogap is usually defined. “Hopefully other groups will do that,” Allan said. “What limits Tc, especially if the energy of pairing is high? What happens at Tc? That’s for me the most interesting question.”\nSwart wants to make noise maps of the surface with higher resolution and, eventually, an instrument that can detect coherence directly, which he hopes should give us separate markers for the onset of phase coherence and electron pairing. Allan, meanwhile, increasingly thinks the route to better superconductors runs through chemistry, aided by AI, rather than pure physics. “When it comes to trying to make the superconducting material better and increase Tc, I have more hope in direct trial and error,” he said.\nScience, 2026: 10.1126/science.adt3444\n\nJacek Krywko is a freelance science and technology writer who covers space exploration, artificial intelligence research, computer science, and all sorts of engineering wizardry.\n\n0 Comments",
+      "images": [
+        {
+          "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-90737843-884x648.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.arstechnica.net/wp-content/uploads/2024/03/jacek_krywko.jpg",
+          "alt": "Photo of Jacek Krywko"
+        },
+        {
+          "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/GettyImages-2290156853-500x500.jpg",
+          "alt": "Listing image for first story in Most Read: British soldier ignored order to pull his SIM card, then got blackmailed"
+        }
+      ],
+      "length": 8076,
+      "imageCount": 3
     }
   }
 }
