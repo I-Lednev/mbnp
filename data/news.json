@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T09:10:19.800Z",
-  "tookMs": 10583,
+  "generatedAt": "2026-11-08T09:40:22.634Z",
+  "tookMs": 10692,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -24,26 +24,26 @@
     "war": "Война"
   },
   "counts": {
-    "ai": 118,
+    "ai": 119,
     "games": 111,
     "announces": 39,
     "mobile": 15,
-    "releases": 52,
+    "releases": 53,
     "rumors": 31,
-    "software": 46,
+    "software": 47,
     "science": 67,
-    "entertainment": 185,
-    "ports": 131,
-    "pc": 53,
+    "entertainment": 191,
+    "ports": 133,
+    "pc": 52,
     "consoles": 130,
-    "hardware": 48,
+    "hardware": 49,
     "industry": 48,
     "updates": 28,
     "aimods": 2,
     "aisoft": 54,
-    "cars": 139,
+    "cars": 140,
     "war": 127,
-    "total": 1424
+    "total": 1436
   },
   "sourceCount": 98,
   "sources": [
@@ -759,6 +759,247 @@
     }
   ],
   "items": [
+    {
+      "id": "gh-1435983892",
+      "title": "giacomozama/live-and-recompiled: An unofficial native PC port of the OG Xbox Conker: Live & Reloaded.",
+      "url": "https://github.com/giacomozama/live-and-recompiled",
+      "excerpt": "An unofficial native PC port of the OG Xbox Conker: Live & Reloaded.",
+      "image": "",
+      "publishedAt": "2026-11-08T09:39:45Z",
+      "addedAt": "2026-11-08T09:40:17.057Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1449527062",
+      "title": "kelvynzucco/majistic-recomp: Native PC port and static recompilation of Majin and the Forsaken Kingdom (Xbox 360) for Windows x64. Direct3D 12, locked 60 FPS, and 4K support.",
+      "url": "https://github.com/kelvynzucco/majistic-recomp",
+      "excerpt": "Native PC port and static recompilation of Majin and the Forsaken Kingdom (Xbox 360) for Windows x64. Direct3D 12, locked 60 FPS, and 4K support.",
+      "image": "",
+      "publishedAt": "2026-11-08T09:19:28Z",
+      "addedAt": "2026-11-08T09:40:16.203Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "g1nxda",
+      "title": "Локальная генерация на 16 ГБ: что умеют новые модели",
+      "url": "https://habr.com/ru/articles/1105054/",
+      "excerpt": "В мае я писал про своё приложение SD Studio — оболочку над Stable Diffusion, в которой картинку описываешь обычным языком, а промпт и настройки подбирают LLM и пресеты. Делал я его, чтобы бесплатно генерировать сотни иллюстраций для книги-игры; зачем…",
+      "content": "В мае я писал про своё приложение SD Studio — оболочку над Stable Diffusion, в которой картинку описываешь обычным языком, а промпт и настройки подбирают LLM и пресеты. Делал я его, чтобы бесплатно генерировать сотни иллюстраций для книги-игры; зачем понадобилось своё приложение — тоже в первой статье.\n\nЧитать далее",
+      "image": "https://habrastorage.org/extt/54/f0/1c/54f01c2e422d9f78e974fe4564a8177d.jpg",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/54/f0/1c/54f01c2e422d9f78e974fe4564a8177d.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T09:33:16.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-08T09:40:11.942Z"
+    },
+    {
+      "id": "19smdjt",
+      "title": "ASUS без объяснения причин удаляет последнюю версию графического драйвера для ROG Ally и ROG Ally X",
+      "url": "https://www.playground.ru/misc/news/asus_bez_obyasneniya_prichin_udalyaet_poslednyuyu_versiyu_graficheskogo_drajvera_dlya_rog_ally_i_rog_ally_x-1888781",
+      "excerpt": "Владельцы ROG Ally сомневаются в поддержке ASUS после удаления последней версии драйвера.",
+      "content": "Владельцы ROG Ally сомневаются в поддержке ASUS после удаления последней версии драйвера.",
+      "image": "https://i.playground.ru/e/PYdN4ZsIWSTpS2yGC42Gzw.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/PYdN4ZsIWSTpS2yGC42Gzw.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T09:27:40.000Z",
+      "sourceId": "playground-software",
+      "source": "Playground Софт",
+      "category": "software",
+      "lang": "ru",
+      "addedAt": "2026-11-08T09:40:11.942Z"
+    },
+    {
+      "id": "o4t9fg",
+      "title": "Суфьян Стивенс выпустил сборник рождественских песен",
+      "url": "https://www.intermedia.ru/news/407972",
+      "excerpt": "Американский певец и мультинструменталист Суфьян Стивенс выпустил 6 ноября 2026 года альбом под названием «Worst Christmas Ever!». В...",
+      "content": "Американский певец и мультинструменталист Суфьян Стивенс выпустил 6 ноября 2026 года альбом под названием «Worst Christmas Ever!». В...",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-08T09:27:00.000Z",
+      "sourceId": "intermedia",
+      "source": "InterMedia",
+      "category": "entertainment",
+      "lang": "ru",
+      "addedAt": "2026-11-08T09:40:11.942Z"
+    },
+    {
+      "id": "n4ucqd",
+      "title": "Шон Лейден: PS6 не нужна большая мощность - нужна доступная цена",
+      "url": "https://www.playground.ru/misc/news/shon_lejden_ps6_ne_nuzhna_bolshaya_moschnost_nuzhna_dostupnaya_tsena-1888780",
+      "excerpt": "Бывший глава PlayStation Шон Лейден считает, что неизбежной PS6 не нужно быть мощнее, чтобы добиться успеха. По его мнению, \"настоящая инновация\" - это сделать консоль следующего поколения доступной по цене.",
+      "content": "Бывший глава PlayStation Шон Лейден считает, что неизбежной PS6 не нужно быть мощнее, чтобы добиться успеха. По его мнению, \"настоящая инновация\" - это сделать консоль следующего поколения доступной по цене.",
+      "image": "https://i.playground.ru/e/R-o40SZlBleYLPf5oQ9dFA.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/R-o40SZlBleYLPf5oQ9dFA.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T09:26:42.000Z",
+      "sourceId": "playground-releases",
+      "source": "Playground Релизы",
+      "category": "releases",
+      "lang": "ru",
+      "addedAt": "2026-11-08T09:40:11.942Z"
+    },
+    {
+      "id": "rxj7ik",
+      "title": "Тюнеры представили первый и единственный в мире пикап Lexus",
+      "url": "https://www.zr.ru/content/news/988181-divan-s-podogrevom-v-bortu-ka/",
+      "excerpt": "Meso Customs на SEMA 2026 показала пикап Lexus TX1 на базе Toyota Tacoma",
+      "content": "Meso Customs на SEMA 2026 показала пикап Lexus TX1 на базе Toyota Tacoma",
+      "image": "https://www.zr.ru/_ah/img/lxxfU2OX33pEnuT2vnmqrg",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/lxxfU2OX33pEnuT2vnmqrg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T09:15:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-08T09:40:11.942Z"
+    },
+    {
+      "id": "17r9gq4",
+      "title": "39 Years Later, Inigo Montoya's Princess Bride Line Is Still The Greatest Movie Quote Ever",
+      "url": "https://www.slashfilm.com/2309924/inigo-montoya-princess-bride-line-greatest-movie-quote-ever/",
+      "excerpt": "A case could be made that Inigo Montoya's most famous line in Rob Reiner's The Princess Bride is the best movie quote of all time.",
+      "content": "A case could be made that Inigo Montoya's most famous line in Rob Reiner's The Princess Bride is the best movie quote of all time.",
+      "image": "https://www.slashfilm.com/img/gallery/39-years-later-inigo-montoyas-princess-bride-line-is-still-the-greatest-movie-quote-ever/l-intro-1794002616.jpg",
+      "images": [
+        {
+          "url": "https://www.slashfilm.com/img/gallery/39-years-later-inigo-montoyas-princess-bride-line-is-still-the-greatest-movie-quote-ever/l-intro-1794002616.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.slashfilm.com/img/gallery/39-years-later-inigo-montoyas-princess-bride-line-is-still-the-greatest-movie-quote-ever/intro-1794002616.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T09:10:00.000Z",
+      "sourceId": "slashfilm",
+      "source": "SlashFilm",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T09:40:11.942Z"
+    },
+    {
+      "id": "v0kkp5",
+      "title": "Druski creates some Saturday Night Live-like content in his first hosting gig",
+      "url": "https://www.avclub.com/saturday-night-live-recap-season-52-episode-5",
+      "excerpt": "Druski rattled it all off in his Saturday Night Live monologue: He’s the first “internet content creator, social media influencer, only-make-you-laugh-on-your-phone, TikTok-and-Instagram-and-YouTube-star” to ever host the show. SNL has started recruiting…",
+      "content": "Druski rattled it all off in his Saturday Night Live monologue: He’s the first “internet content creator, social media influencer, only-make-you-laugh-on-your-phone, TikTok-and-Instagram-and-YouTube-star” to ever host the show. SNL has started recruiting staffers from that world, but there’s a world of difference between the followings Grace Reiter or Jane Wickline accrued pre-network-TV and the kind of multi-platform blitz that Druski can pull off, which hasn’t traditionally been an area the show has treated as equal to film, TV, music, sports, or even politics. There are whole worlds of fame that have seemed well and truly—blessedly?—outside the purview of the SNL bookers. (Maybe they’re still getting over the side effects of viral sensation and one-time musical guest Karmin. A surprising number of internet users still report symptoms of Long Karmin!)\n\nBut while Druski’s background is decidedly different from most of the show’s hosts, and he half-jokingly alluded to shifting SNL to his whims in his monologue, his actual appearance felt relatively familiar, for good and ill. For a guy just dipping into traditionally delivered film and TV, his confidence and comfort in front of a live TV camera was consistently impressive, and also—to me, a mostly-uninitiated viewer who had heard of Druski but knew him primarily from that Erika Kirk spoof—almost immediately likable. I don’t know if it’s because he vaguely resembles Ice Cube’s charming nepo-baby son O’Shea Jackson Jr., or if it’s because he has a vastly less annoying voice than so many internet-first celebs (I can see why he gets a lot of mileage out of spoofing the music industry; he’s got a great tone!). Whatever it was, Druski came out of the gate easy to like.\n\nPerhaps more surprising, his actual sketches had a retro sensibility that belied his new-media origins. Ditch some of the more contemporary phrasings and slang, and it would be easy enough to picture, say, his high-maintenance drag character Daniela, the one who takes great offense when a friend orders fajitas (pronounced with an American “j”) on (or around) her birthday, in an SNL sketch circa 1998. Not to be outdone, Marcello Hernández came up with a not-yet-recurring character overfamiliar enough to feel like we were getting his eighth appearance tonight, with Druski on hand to do the old “the host plays a second version of a recurring character” routine, in the endless sketch about trying to buy a phone from a couple of proudly Dominican salesmen. Having that duo be all volume, energy, and repetition may not have been funny, but it was great for verisimilitude. Druski was fitting right in to a classic middling-to-bad episode of SNL .\n\nNot all of the sketches were quite that dire. The ad for “My Corner Guy,” a fitness app that’s actually just a neighborhood weirdo, was the kind of city-life concept the show has done well in recent years, and still gave Druski plenty to do. And actually, that aforementioned fajitas bit made me smile a few times; the pointlessly shifting loyalties, the pettiness, and the assemblage of talented SNL ladies surrounding Druski more or less put it across despite never feeling like Daniela was a fully realized personality. The “Washington in Focus” sketch that existed just to goof on white guys with stereotypically Black-sounding names was impressive less for its jokes than Druski’s ability to go beyond simulating the performance of a seasoned TV comedian and actually play more or less like a cast member (albeit a cast member stuck in an amusing but forgettable sketch).\n\nAt the same time, his likability did give way to a certain thinness, most noticeably when it came time for him to really flex the Druski brand in a spoof of You Can See Everything that asks: What if Druski was in that movie instead of Nathan Fielder? Opposite a spot-on Elizabeth Holmes impression from Jane Wickline, Druski cycled through a bunch of stuff I faintly recognized (from the internet, context, and earlier in the show) as his routines: He does some verbal humor that never quite makes its way toward telling a joke, mostly peppering dialogue with irreverent (and bleeped) profanity; he puts on whiteface, as winkingly promised in the monologue, seemingly more for the spectacle of it than actually having an Elizabeth Holmes impression (or even a take) up his sleeve; and he does his Coulda Been Records bit of bringing out untalented musicians (with Holmes’ off-putting partner Billy Evans filling that role here). While back in the monologue Druski couched his multi-hyphenate trailblazing status in a “people are saying” presumably to avoid sounding too self-impressed, that’s exactly how “Dru Can See Everything” came across: a long-form assumption that people know and love his stuff, which he will now graciously bring to a less hip crowd while delighting his many fans.\n\nAnd look, fair enough. “Dru Can See Everything” probably did both of those things and was sort of fascinating, even though it didn’t make me laugh much. But rather than sell me on Druski as a distinctive comedian, it instead sold me the notion that he could probably benefit from something more dorkily traditionalist like SNL . His better sketch work throughout the night was more reminiscent of someone like Jack Black who almost blends in with the cast with overall comic energy and sensiblity, but brings an extra bit of vibrancy into his performance that signals he’s not just part of the ensemble. The clumsiest passages of his episode played a little like Daniela’s absurd directive when she steps out to the restroom: Nobody talk until I get back!\n\nWhat was on\n\nThe actual best sketch of the evening (and the one that most embodied that Jack Black-y quality) was “She Said Yes,” basically just a self-consciously silly musical number that accidentally kicks off after an overconfident boyfriend (Jeremy Culhane) proposes to his reluctant girlfriend (Sarah Sherman). As the MC of the proceedings, Druski’s energy is perfect for the “What Up with That” quality of the performance parade. The brief “Golden Age of Hip-Hop” segment featuring a quasi-progressive but endlessly clueless interracial group felt like a corollary to this; another opportunity for Druski’s musicality to harmonize with the cast members.\n\nWhat was off\n\nI may have winced through several of tonight’s sketches, but it feels like the one where were all wincing together was that sketch with Druski and fellow vertical-video refugee Grace Reiter as overzealous wedding photographers. Classic right-down-the-middle- SNL sketch, replete with the kind of physical comedy that usually draws automatic big laughs in the room, and it just audibly died! The live audience sometimes seems baffled by the show’s more interesting sketches, but when they’re right, they’re right. This was a big miss.\n\nMost valuable player\n\nJane Wickline nailed an impression, an ensemble role (as part of Daniela’s belated birthday celebration), and a silly walk-on (as a beginner, but Scottish-accented, bagpiper in the proposal sketch), so I’m tempted to give it to her. But Jeremy Culhane was not only a great oblivious straight man in the best sketch of that night, he also debuted an Elon Musk impression that may not be as refreshingly mean as the Mike Myers version, but does a great job cutting that dope down to size.\n\nNext time\n\nJohn Mulaney and Phoebe Bridgers, an aging-millennial hipster special. (It’s me. I’m aging millennial.) Considering Mulaney’s track record, Bridgers’ musical excellence (amusingly shouted out tonight in the proposal sketch), and the fact that none of Season 52’s episodes have risen above “pretty good,” expectations will be ridiculously high, which of course is rarely a good thing.\n\nStray observations\n\n• • It makes sense that Lorne might hedge his bet on a phone-comedy guy with some familiar friend-of-the-show stars, but it was also a little odd how little any of those actually did. Emma Stone stepped into the monologue for a couple of low-key jokes. Walton Goggins played bongos in the Strokes. Dave Chappelle and Chris Rock showed up for the goodnights, which on first broadcast meant they were there just long enough to be name-checked before the feed cut out. Why was newly elected James Talarico doing more than any of them?\n\n• • Speaking of the cold open, one of the few bright spots of the Trump Freeze format has been seeing James Austin Johnson’s Trump random into a deep-cut SNL reference. Here, the self-referentiality is about how tired everyone is of doing these sketches. I’m thinking there could be a solution here that might be better in the long run than a brief, cheap laugh.\n\n• • The Strokes made a deal: They won’t move that much, but they’ll let the backgrounds move a lot.\n\n• • I’m begging Weekend Update to just look at the final rundown and cut five jokes at the last minute. Maybe start with the ones that transparently exist to set up puns, or obvious punchlines to studies no one has ever heard of until someone wrote a joke about it. (I know that’s an Update mainstay, but the fakeness of it is starting to get to me.)\n\n• • On the other hand: I’d much rather see a full sketch with James Austin Johnson’s Bob Dylan meeting the Pope than hear a 15-second Update joke about it from Jost or Che.\n\n• • I’d also rather see whatever sketch has been rattling around in Andrew Dismukes’ beautiful brain than a revival of the Two People Who Just Hooked Up, even though he and Ashley Padilla play it flawlessly as usual.",
+      "image": "https://www.avclub.com/wp-content/uploads/2026/11/08/SNL-Druski.jpg",
+      "images": [
+        {
+          "url": "https://www.avclub.com/wp-content/uploads/2026/11/08/SNL-Druski.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/08022741/SNL-Druski-Lead.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T07:29:14.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T09:40:11.942Z"
+    },
+    {
+      "id": "pejae5",
+      "title": "One Of Willy Wonka's Most Memorable Scenes Was An Absolute Nightmare To Shoot",
+      "url": "https://www.slashfilm.com/2287457/willy-wonka-and-the-chocolate-factory-river-scene-nightmare-shoot/",
+      "excerpt": "Willy Wonka and the Chocolate Factory is full of memorably twisted moments, including one that was rather difficult (and gross) to film.",
+      "content": "Willy Wonka and the Chocolate Factory is full of memorably twisted moments, including one that was rather difficult (and gross) to film.",
+      "image": "https://www.slashfilm.com/img/gallery/one-of-willy-wonkas-most-memorable-scenes-was-an-absolute-nightmare-to-shoot/l-intro-1792069880.jpg",
+      "images": [
+        {
+          "url": "https://www.slashfilm.com/img/gallery/one-of-willy-wonkas-most-memorable-scenes-was-an-absolute-nightmare-to-shoot/l-intro-1792069880.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.slashfilm.com/img/gallery/one-of-willy-wonkas-most-memorable-scenes-was-an-absolute-nightmare-to-shoot/intro-1792069880.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T01:45:00.000Z",
+      "sourceId": "slashfilm",
+      "source": "SlashFilm",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T09:40:11.942Z"
+    },
+    {
+      "id": "1fvhhjy",
+      "title": "Michael Fassbender's Underrated 2015 Western Is Worth Revisiting",
+      "url": "https://www.slashfilm.com/2300836/michael-fassbender-western-slow-west-worth-revisiting/",
+      "excerpt": "This underrated Western from 2015 starring Kodi Smit-McPhee, Michael Fassbender, and Ben Mendelsohn deserves to be rediscovered.",
+      "content": "This underrated Western from 2015 starring Kodi Smit-McPhee, Michael Fassbender, and Ben Mendelsohn deserves to be rediscovered.",
+      "image": "https://www.slashfilm.com/img/gallery/michael-fassbenders-underrated-2015-western-is-worth-revisiting/l-intro-1793277765.jpg",
+      "images": [
+        {
+          "url": "https://www.slashfilm.com/img/gallery/michael-fassbenders-underrated-2015-western-is-worth-revisiting/l-intro-1793277765.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.slashfilm.com/img/gallery/michael-fassbenders-underrated-2015-western-is-worth-revisiting/intro-1793277765.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T01:00:00.000Z",
+      "sourceId": "slashfilm",
+      "source": "SlashFilm",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T09:40:11.942Z"
+    },
+    {
+      "id": "1ehs3r6",
+      "title": "Heated Rivalry is reportedly banking two seasons and a movie to keep the fans at bay",
+      "url": "https://www.avclub.com/heated-rivalry-season-3-movie-rumors-filming",
+      "excerpt": "The success of Jacob Tierney’s Heated Rivalry reportedly caught pretty much everybody off-guard, from original Canadian streamer Crave, to American distributor HBO, to, presumably, Tierney himself, who’s been scrambling to get a second season of the show…",
+      "content": "The success of Jacob Tierney’s Heated Rivalry reportedly caught pretty much everybody off-guard, from original Canadian streamer Crave, to American distributor HBO, to, presumably, Tierney himself, who’s been scrambling to get a second season of the show together to meet this sudden, erotic hockey-action demand ever since the first season started rolling out to suddenly enraptured fans.\n\nNow, it sounds like Tierney and his team are feeling unwilling to be caught flat-footed again, with a new report from Deadline suggesting that the show’s current production push isn’t just about finally getting a second season to fans before they combust, but also about banking a third one, plus a movie, in order to keep the hordes at bay. This is all lodged in the nebulous realm of “sources said”—the show hasn’t even been officially renewed for a third season, it’s worth pointing out—but the report claims there have been some indicators that, although Tierney has said the show’s second season will only be six episodes, he and his crew are currently working on twelve. (Among other things, Deadline notes a leaked Cameo from series co-star Dylan Walsh back in August, where he told fans he believed they’d be making “twelve episodes” with their current run—followed by Walsh stepping away from making Cameos because “a video went viral that got me in trouble.”)\n\nAs for the movie—and this is in equally grain-of-salt-required territory, mind you—it’s supposedly being filmed this December, after the current production run, whatever length it winds up being, is done. Notably, the film is being described as not featuring series stars Hudson Williams and Connor Storrie, who play the show’s central couple; as Deadline notes, Rachel Reid’s numerous Game Changers books contain a number of other couples for the franchise to focus in on, with a suggestion that it might be a holiday-themed film focused on François Arnaud’s Scott and Robbie G.K.’s Kip from the show’s first season.\n\nMeanwhile, fans who still just can’t wait are in luck; the series was recently announced to be getting a re-run of its first season in theaters, the better to stoke those good, old-fashioned yearning feelings for the second season’s arrival.",
+      "image": "https://img.pastemagazine.com/wp-content/avuploads/2026/08/04174700/connor-storie-heated-rivalry-feature.jpg",
+      "images": [
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/08/04174700/connor-storie-heated-rivalry-feature.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/10/28093329/connor-storrie-lead.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-07T21:48:23.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T09:40:11.942Z"
+    },
     {
       "id": "gh-1450091901",
       "title": "rzrbld/ReRED_Faction_Duo: ReRed Faction II — ARM64 Linux port of Red Faction II (2003), using static recompilation, SDL2 and OpenGL ES. Players supply their own game (GOG.com).",
@@ -1618,8 +1859,8 @@
       "id": "vduo6c",
       "title": "Goodbye Claude, Hello Pi",
       "url": "https://caleb.software/posts/claude-to-pi.html",
-      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 255 # Comments: 145",
-      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 255\n\n# Comments: 145",
+      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 277 # Comments: 162",
+      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 277\n\n# Comments: 162",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T03:11:48.000Z",
@@ -2950,7 +3191,7 @@
       "url": "https://github.com/YuutaTsubasa/Free-Riders-Recompiled",
       "excerpt": "Unofficial static recompilation of Sonic Free Riders for Windows, Linux and Android, with controller/keyboard support, custom VRM avatars, and Kinect v1, Kinect v2 (experimental) and webcam motion controls on Windows.",
       "image": "",
-      "publishedAt": "2026-11-08T04:27:45Z",
+      "publishedAt": "2026-11-08T09:37:31Z",
       "addedAt": "2026-11-08T01:40:15.873Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -3033,7 +3274,7 @@
       "url": "https://github.com/portemon-nitro/portemon",
       "excerpt": "Getting HeartGold/SoulSilver out of the DS",
       "image": "",
-      "publishedAt": "2026-11-08T01:14:31Z",
+      "publishedAt": "2026-11-08T09:38:00Z",
       "addedAt": "2026-11-08T01:20:53.244Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -3536,8 +3777,8 @@
       "id": "zof7yv",
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 375 # Comments: 258",
-      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 375\n\n# Comments: 258",
+      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 383 # Comments: 264",
+      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 383\n\n# Comments: 264",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T20:45:32.000Z",
@@ -4735,9 +4976,9 @@
         }
       ],
       "publishedAt": "2026-11-07T19:43:01.000Z",
-      "sourceId": "playground-pc",
-      "source": "Playground ПК",
-      "category": "pc",
+      "sourceId": "playground-hardware",
+      "source": "Playground Железо",
+      "category": "hardware",
       "lang": "ru",
       "addedAt": "2026-11-07T21:43:59.744Z"
     },
@@ -5255,8 +5496,8 @@
       "id": "1fzmty1",
       "title": "The end of Microsoft Research's AI Frontiers group",
       "url": "https://hunch.net/?p=13764006",
-      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 453 # Comments: 270",
-      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 453\n\n# Comments: 270",
+      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 453 # Comments: 271",
+      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 453\n\n# Comments: 271",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T18:02:17.000Z",
@@ -5342,8 +5583,8 @@
       "id": "6a6jp5",
       "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
       "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 297 # Comments: 79",
-      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 297\n\n# Comments: 79",
+      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 300 # Comments: 81",
+      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 300\n\n# Comments: 81",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T17:19:00.000Z",
@@ -7652,7 +7893,7 @@
     },
     {
       "id": "1hwc0iy",
-      "title": "Авторы Fragmentary Order сообщили, что первые тесты начнутся в декабре и назвали системные требования",
+      "title": "Авторы Fragmentary Order сообщили, что первые тесты начнутся в декабре, и назвали системные требования",
       "url": "https://dtf.ru/games/5398158-testirovanie-fragmentary-order-nachnetsya-v-zakrytoi-alfe",
       "excerpt": "А Никита Буянов ответил на некоторые из вопросов игроков.",
       "content": "А Никита Буянов ответил на некоторые из вопросов игроков.",
@@ -9546,8 +9787,8 @@
       "id": "1iqgq9j",
       "title": "Every Mac comes with an (undocumented) family member classifier",
       "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 709 # Comments: 373",
-      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 709\n\n# Comments: 373",
+      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 719 # Comments: 378",
+      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 719\n\n# Comments: 378",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T09:46:03.000Z",
@@ -12672,7 +12913,7 @@
       "url": "https://github.com/boburning/portcove",
       "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
       "image": "",
-      "publishedAt": "2026-11-08T09:09:42Z",
+      "publishedAt": "2026-11-08T09:29:06Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
