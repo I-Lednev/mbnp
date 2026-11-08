@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T09:40:22.634Z",
-  "tookMs": 10692,
+  "generatedAt": "2026-11-08T10:10:16.041Z",
+  "tookMs": 9086,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -24,26 +24,26 @@
     "war": "Война"
   },
   "counts": {
-    "ai": 119,
-    "games": 111,
+    "ai": 120,
+    "games": 112,
     "announces": 39,
     "mobile": 15,
     "releases": 53,
     "rumors": 31,
-    "software": 47,
+    "software": 48,
     "science": 67,
-    "entertainment": 191,
-    "ports": 133,
+    "entertainment": 192,
+    "ports": 134,
     "pc": 52,
-    "consoles": 130,
+    "consoles": 132,
     "hardware": 49,
     "industry": 48,
     "updates": 28,
     "aimods": 2,
     "aisoft": 54,
-    "cars": 140,
-    "war": 127,
-    "total": 1436
+    "cars": 143,
+    "war": 130,
+    "total": 1449
   },
   "sourceCount": 98,
   "sources": [
@@ -747,18 +747,280 @@
       "error": "HTTP 404"
     },
     {
+      "source": "Ukrinform",
+      "url": "https://www.ukrinform.ua/rss/block-lastnews",
+      "error": "лента пуста",
+      "reused": 8
+    },
+    {
       "source": "Novaya Gazeta Europe",
       "url": "https://novayagazeta.eu/feed/",
       "error": "HTTP 521"
-    },
-    {
-      "source": "Al Jazeera",
-      "url": "https://www.aljazeera.com/xml/rss/all.xml",
-      "error": "лента пуста",
-      "reused": 7
     }
   ],
   "items": [
+    {
+      "id": "gh-1418129807",
+      "title": "segovia-no/MotoRacerRecomp: Native port of Moto Racer (1997) for Mac, Windows, Linux, Steam Deck and PSP. Widescreen up to 4K, gamepads, high frame rates. Static recompilation built from your own GOG copy.",
+      "url": "https://github.com/segovia-no/MotoRacerRecomp",
+      "excerpt": "Native port of Moto Racer (1997) for Mac, Windows, Linux, Steam Deck and PSP. Widescreen up to 4K, gamepads, high frame rates. Static recompilation built from your own GOG copy.",
+      "image": "",
+      "publishedAt": "2026-11-08T09:55:37Z",
+      "addedAt": "2026-11-08T10:10:11.226Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "n0uunk",
+      "title": "Наталья Бочкарёва развелась со вторым мужем",
+      "url": "https://www.intermedia.ru/news/407976",
+      "excerpt": "Актриса Наталья Бочкарёва («Счастливы вместе», «Бедный олигарх») развелась со своим мужем – бизнесменом Романом Гавриловым. Решение о...",
+      "content": "Актриса Наталья Бочкарёва («Счастливы вместе», «Бедный олигарх») развелась со своим мужем – бизнесменом Романом Гавриловым. Решение о...",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-08T10:08:00.000Z",
+      "sourceId": "intermedia",
+      "source": "InterMedia",
+      "category": "entertainment",
+      "lang": "ru",
+      "addedAt": "2026-11-08T10:10:06.955Z"
+    },
+    {
+      "id": "e2ibkd",
+      "title": "World Models Will Soon Be Inescapable. Here’s What You Need to Know",
+      "url": "https://www.wired.com/story/world-models-will-soon-be-inescapable-what-you-need-to-know/",
+      "excerpt": "Moving AI from text to 3D space, world models simulate real-world physics to teach robots and autonomous cars how to navigate reality.",
+      "content": "Moving AI from text to 3D space, world models simulate real-world physics to teach robots and autonomous cars how to navigate reality.",
+      "image": "https://media.wired.com/photos/6aee7497bf81da8802edc3e6/master/pass/gear-ai-world-models-3d.jpg",
+      "images": [
+        {
+          "url": "https://media.wired.com/photos/6aee7497bf81da8802edc3e6/master/pass/gear-ai-world-models-3d.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T10:00:00.000Z",
+      "sourceId": "wired-ai",
+      "source": "WIRED AI",
+      "category": "ai",
+      "lang": "en",
+      "addedAt": "2026-11-08T10:10:06.955Z"
+    },
+    {
+      "id": "27x92b",
+      "title": "Feature: Box Art Brawl: The Legend Of Zelda: Ocarina Of Time Ultimate Showdown",
+      "url": "https://www.nintendolife.com/features/box-art-brawl-the-legend-of-zelda-ocarina-of-time-ultimate-showdown",
+      "excerpt": "Battle for the ages. Welcome all, to a very special edition of Box Art Brawl ! Looking back at last week , we checked out Revenge of the 'Gator to celebrate its addition to Nintendo Switch Online. Both designs for this one are great in their own way, but it…",
+      "content": "Battle for the ages.\n\nWelcome all, to a very special edition of Box Art Brawl !\n\nLooking back at last week , we checked out Revenge of the 'Gator to celebrate its addition to Nintendo Switch Online. Both designs for this one are great in their own way, but it was Japan that took home the trophy with 58% of the vote, leaving North America and Europe to mop up the remaining 42%.\n\nRead the full article on nintendolife.com",
+      "image": "https://images.nintendolife.com/b5c43735dd0be/small.jpg",
+      "images": [
+        {
+          "url": "https://images.nintendolife.com/b5c43735dd0be/small.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://images.nintendolife.com/b5c43735dd0be/large.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T10:00:00.000Z",
+      "sourceId": "nintendolife",
+      "source": "Nintendo Life",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-08T10:10:06.955Z"
+    },
+    {
+      "id": "88fduz",
+      "title": "Кроссовер Honda Avancier: новые изображения",
+      "url": "https://www.kolesa.ru/news/krossover-honda-avancier-novye-izobrazeniia",
+      "excerpt": "Позавчера Honda распространила тизеры своего нового кроссовера, благодаря которым у нас есть возможность составить первое представление о его внешнем виде. В гамме японского бренда уже была модель Avancier: изначально это был построенный на базе Accord…",
+      "content": "Позавчера Honda распространила тизеры своего нового кроссовера, благодаря которым у нас есть возможность составить первое представление о его внешнем виде.\n\nВ гамме японского бренда уже была модель Avancier: изначально это был построенный на базе Accord шестого поколенияуниверсал для японского рынка, производившийся с 1999 по 2003 годы. Спустя 13 лет модель возродили в виде купеобразного кроссовера для рынка Китая, там он производится и до сих пор на совместном предприятии GAC Honda. Теперь же к премьере готовится ещё один Avancier, и это совсем другой автомобиль.\n\nКак ожидается, производство новой модели будет налажено в Таиланде, а предлагаться она будет также на других рынках с левосторонним движением, таких как Япония, Австралия и Новая Зеландия (подразделения именно этих стран опубликовали тизер будущего Avancier). Кроссовер станет первой серийной моделью марки, выполненной в новом стиле, продемонстрированном весной этого года. Для этого стиля характерны простые формы и прямые линии. Ассоциацию с весенним концептом может вызвать также «двухэтажная» передняя оптика, состоящая из узких горизонтальных светодиодных габаритов под кромкой капота и основных блоков, встроенных в бампер. На тизерах видны выдвижные ручки, сильно наклонённые задние стойки и фонари в виде вертикальных сегментов по краям и объединяющей их горизонтальной полосы.\n\nОжидается, что паркетник будет оснащён гибридной силовой установкой нового поколения под названием Honda Hybrid, которая может включать в себя 2,0-литровый бензиновый мотор. Скорее всего, модель получит трёхрядный салон, а в модельной линейке он встанет на ступень выше кроссовера CR-V.\n\nПремьера новинки состоится 1 декабря в Таиланде. Между тем, к дебюту готовится ещё один кроссовер Honda с необычным дизайном.",
+      "image": "https://kolesa-uploads.ru/-/4755bacc-4ca9-4c36-80a2-35ab6ac3ecd1/honda-suv-front1-mini.jpg",
+      "images": [
+        {
+          "url": "https://kolesa-uploads.ru/-/4755bacc-4ca9-4c36-80a2-35ab6ac3ecd1/honda-suv-front1-mini.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://kolesa-uploads.ru/r/880x/047643e7-be10-49fe-bbde-bf9dc3ce0a37/honda-suv-front1.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://kolesa-uploads.ru/r/880x/c19558a3-8b9b-4e27-baaa-eba5ad6eaafd/honda-suv-rear1.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T10:00:00.000Z",
+      "sourceId": "kolesa",
+      "source": "Kolesa.ru",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-08T10:10:06.955Z"
+    },
+    {
+      "id": "1uesi62",
+      "title": "Рекорд на рынке электромобилей: какая модель обошла всех в октябре",
+      "url": "https://www.zr.ru/content/news/988118-rekord-na-rynke-ehlektromobilej/",
+      "excerpt": "«Автостат»: продажи электрокаров в России в октябре выросли в 2,5 раза",
+      "content": "«Автостат»: продажи электрокаров в России в октябре выросли в 2,5 раза",
+      "image": "https://www.zr.ru/_ah/img/eZx1NCYa0LcJ1dSgrct1XA",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/eZx1NCYa0LcJ1dSgrct1XA",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T10:00:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-08T10:10:06.955Z"
+    },
+    {
+      "id": "cd2ahm",
+      "title": "Nvidia добавила \"приоритизацию GPU-приложений\" для владельцев некоторых видеокарт RTX",
+      "url": "https://www.playground.ru/misc/news/nvidia_dobavila_prioritizatsiyu_gpu_prilozhenij_dlya_vladeltsev_nekotoryh_videokart_rtx-1888787",
+      "excerpt": "Впервые функция появилась на системах RTX Spark, а теперь Nvidia добавила новый элемент управления \"приоритизация GPU-приложений\" в собственное приложение.",
+      "content": "Впервые функция появилась на системах RTX Spark, а теперь Nvidia добавила новый элемент управления \"приоритизация GPU-приложений\" в собственное приложение.",
+      "image": "https://i.playground.ru/e/jGwZjjQ0sxjXowuK0TWkbw.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/jGwZjjQ0sxjXowuK0TWkbw.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T09:57:19.000Z",
+      "sourceId": "playground-software",
+      "source": "Playground Софт",
+      "category": "software",
+      "lang": "ru",
+      "addedAt": "2026-11-08T10:10:06.955Z"
+    },
+    {
+      "id": "3j9hy5",
+      "title": "Аудитория серии Death Stranding достигла 28 миллионов игроков",
+      "url": "https://dtf.ru/games/5399818-auditoriya-serii-death-stranding-dostigla-28-millionov-igrokov",
+      "excerpt": "Kojima Productions отметила седьмую годовщину франшизы.",
+      "content": "Kojima Productions отметила седьмую годовщину франшизы.",
+      "image": "https://leonardo.osnova.io/5b71b46c-7428-5094-98ed-b2784246fa62/",
+      "images": [
+        {
+          "url": "https://leonardo.osnova.io/5b71b46c-7428-5094-98ed-b2784246fa62/",
+          "alt": ""
+        },
+        {
+          "url": "https://leonardo.osnova.io/6be6cdfe-aab8-53ad-87cc-2269488b5ff2/",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T09:55:38.000Z",
+      "sourceId": "dtf",
+      "source": "DTF",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-08T10:10:06.955Z"
+    },
+    {
+      "id": "qc59x0",
+      "title": "Опасно ли браться за клеммы аккумулятора голыми руками и как все же правильно «прикуривать» авто?",
+      "url": "https://5koleso.ru/vopros-otvet/opasno-li-bratsya-za-klemmy-akkumulyatora-golymi-rukami-i-kak-vse-zhe-pravilno-prikurivat-avto/",
+      "excerpt": "Опасно ли браться руками за полюсные выводы аккумуляторной батареи? Да нет, конечно же, скажет любой технарь: сколько раз хватался – и ничего! Однако же есть один нюанс. При поражении организма электрическим током огромную роль играет путь прохождения этого…",
+      "content": "Опасно ли браться руками за полюсные выводы аккумуляторной батареи? Да нет, конечно же, скажет любой технарь: сколько раз хватался – и ничего! Однако же есть один нюанс. При поражении организма электрическим током огромную роль играет путь прохождения этого тока по телу человека. От левой руки до правой ноги – самый опасный маршрут: при этом возрастает вероятность воздействия тока на сердечную мышцу. И сердце может даже остановиться – это не шутки.\n\nДа, но ведь опасен, вроде бы, ток, а не напряжение. Так оно и есть – добавим сюда, что играет роль и длительность воздействия этого тока. При этом влажная, потная или поврежденная кожа снижает сопротивление тела, что увеличивает силу тока – как и заметил в свое время автор закона Ома.\n\nНе могу удержаться, чтобы не привести пример и собственной практики. Еще в школьные годы, играя с тестером, автор от нечего делать стал измерять им свое сопротивление. Один щуп в левой руке, другой в правой – получалось примерно 20 кОм. Тестер питался от батарейки напряжением 4,5 В – это важно. В какой-то момент автор заметил у себя на пальце царапину и ткнул щупом прямо в нее… Удар был такой силы, что в глазах потемнело, а дыхание перехватило. Щуп, естественно, выпал, а потому через несколько секунд автор пришел в себя. Каким-то образом проклятый закон Ома отыскал самый короткий путь и пропустил через организм ток более одного ампера. И это было крайне неприятно.\n\nКонечно, такое совпадение – редкость. Но вывод простой: хотя напряжение на выводах батареи и безопасно, все-таки не ставьте эксперименты на себе. Вдруг у вас тоже есть ссадины или царапины, на которые вы не обращаете внимания…\n\nТеперь – о прикуривании , то есть о пуске машины с подсевшей батареей от другой батареи. В советские времена этим приемом пользовались сплошь и рядом, не опасаясь за состояние бортовой электроники ввиду ее полного отсутствия. Сегодня же далеко не каждый владелец машины захочет открыть капот, позволяя вам подцепить к выводам его батареи пусковые провода. Понять его можно: вдруг что-то сгорит? Есть и другие примеры, когда во время прикуривания импортных машин, перевозимых морем, страдала именно их электроника, а машины-доноры были в порядке. Однако, в большинстве случаев, все проходит нормально – не будем распространять страшилки. \n\nРекомендуемый порядок прикуривания такой. Первым делом читаем инструкцию к автомобилю. Если в ней четко оговариваются точки подсоединения проводов, то в дальнейшем следует подсоединяться именно к ним – без самодеятельности. Если таких указаний нет, то действуем самостоятельно и, взяв пусковые провода, переходим к последующим пунктам. \n\n— Соединяем положительный (+) пусковой провод (обычно он красный) с положительным (+) выводом батареи-донора, а затем – с положительным (+) выводом разряженной батареи.\n— Соединяем отрицательный (–) пусковой провод (как правило – черный) с отрицательным (–) выводом батареи-донора, а затем – с рымом для поднятия силового агрегата или иной неокрашенной токонесущей частью капризного двигателя. Если подходящего доступа к «металлу» нет, соединяем провод с (–) выводом подсевшей батареи. \n— Убеждаемся, что провода не касаются лопаток вентилятора и иных подвижных деталей.\n— Пытаемся пустить капризный мотор. Если все нормально, то отсоединяем отрицательный провод (сначала от ожившего  автомобиля, затем от батареи-донора), а затем положительный провод в той же последовательности. \n— Даем двигателю поработать – пусть генератор подзаряжает штатную АКБ. Конечно, после пуска машина сможет работать и без батареи, но если не дать ей как следует подзарядиться, то прикуривание впрок не пойдет.\n\nСчастливого пути!",
+      "image": "https://5koleso.ru/wp-content/uploads/2026/11/img_2065-1024x768.jpg",
+      "images": [
+        {
+          "url": "https://5koleso.ru/wp-content/uploads/2026/11/img_2065-1024x768.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://5koleso.ru/wp-content/uploads/2026/11/img_9013-2048x1536-1-1024x768.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T09:54:38.000Z",
+      "sourceId": "5koleso",
+      "source": "5 колесо",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-08T10:10:06.955Z"
+    },
+    {
+      "id": "16o7eue",
+      "title": "После ударов РФ более 600 тысяч жителей Днепропетровщины без света",
+      "url": "https://www.dw.com/ru/%D0%BF%D0%BE%D1%81%D0%BB%D0%B5-%D1%83%D0%B4%D0%B0%D1%80%D0%BE%D0%B2-%D1%80%D1%84-%D0%B1%D0%BE%D0%BB%D0%B5%D0%B5-600-%D1%82%D1%8B%D1%81%D1%8F%D1%87-%D0%B6%D0%B8%D1%82%D0%B5%D0%BB%D0%B5%D0%B9-%D0%B4%D0%BD%D0%B5%D0%BF%D1%80%D0%BE%D0%BF%D0%B5%D1%82%D1%80%D0%BE%D0%B2%D1%89%D0%B8%D0%BD%D1%8B-%D0%B1%D0%B5%D0%B7-%D1%81%D0%B2%D0%B5%D1%82%D0%B0/a-79889497?maca=rus-rss-ru-all-1126-rdf",
+      "excerpt": "После российских ударов по объектам энергетики более 600 тысяч жителей Днепропетровской области остались без электроснабжения. Больницы переведены на генераторы, а восстановлению сетей мешают продолжающиеся обстрелы.",
+      "content": "После российских ударов по объектам энергетики более 600 тысяч жителей Днепропетровской области остались без электроснабжения. Больницы переведены на генераторы, а восстановлению сетей мешают продолжающиеся обстрелы.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-08T09:46:00.000Z",
+      "sourceId": "dw-ru",
+      "source": "DW Russian",
+      "category": "war",
+      "lang": "ru",
+      "addedAt": "2026-11-08T10:10:06.955Z"
+    },
+    {
+      "id": "gn5i7s",
+      "title": "Nintendo's Bill Trinen Explains Why Ocarina Of Time Is The Perfect Entry Point Into The Zelda Universe",
+      "url": "https://www.nintendolife.com/news/2026/11/nintendos-bill-trinen-explains-why-ocarina-of-time-is-the-perfect-entry-point-into-the-zelda-universe",
+      "excerpt": "Gather round, Kokiri. If you're in a position where you've never actually played a Zelda game before, Nintendo's Bill Trinen just wants to let you know Ocarina of Time is the \"perfect place\" to start. Although this comment just happens to line up with the…",
+      "content": "Gather round, Kokiri.\n\nIf you're in a position where you've never actually played a Zelda game before, Nintendo's Bill Trinen just wants to let you know Ocarina of Time is the \"perfect place\" to start.\n\nAlthough this comment just happens to line up with the arrival of the Switch 2 remake, Nintendo's VP of Player & Product Experience really is convinced this is the best game to begin with, as it's a \"foundational story\", where the player is taught everything they need to know about the world and characters.\n\nRead the full article on nintendolife.com",
+      "image": "https://images.nintendolife.com/81067a9c2a4fc/small.jpg",
+      "images": [
+        {
+          "url": "https://images.nintendolife.com/81067a9c2a4fc/small.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://images.nintendolife.com/81067a9c2a4fc/large.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T09:45:00.000Z",
+      "sourceId": "nintendolife",
+      "source": "Nintendo Life",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-08T10:10:06.955Z"
+    },
+    {
+      "id": "1yy2tr0",
+      "title": "Кушнер предложил использовать Совет Россия — НАТО в качестве модели для будущих переговоров по безопасности в Европе",
+      "url": "https://meduza.io/news/2026/11/08/kushner-predlozhil-ispolzovat-sovet-rossiya-nato-v-kachestve-modeli-dlya-buduschih-peregovorov-po-bezopasnosti-v-evrope",
+      "excerpt": "Спецпосланник президента США, зать Дональда Трампа Джаред Кушнер предложил взять в качестве модели для новой архитектуры безопасности в Европе Совет Россия — НАТО. Об этом сообщил колумнист The Washington Post Дэвид Игнатиус со ссылкой на источник…",
+      "content": "Спецпосланник президента США, зать Дональда Трампа Джаред Кушнер предложил взять в качестве модели для новой архитектуры безопасности в Европе Совет Россия — НАТО.\n\nОб этом сообщил колумнист The Washington Post Дэвид Игнатиус со ссылкой на источник, осведомленный о ходе переговоров.\n\nСовет Россия — НАТО был создан в 2002 году. Его целью было развитие сотрудничества и координация военно-политических действий между РФ и странами-членами НАТО.\n\nЕвропейские политики, пишет Игнатиус, сообщили, что готовы к диалогу с Россией, но согласны обсуждать архитектуру безопасности лишь после того, как будет достигнуто соглашение о прекращении огня между РФ и Украиной.\n\n«Наш подход по-прежнему заключается в том, что эти вопросы можно обсуждать только после войны», — заявил высокопоставленный политик из одной из европейских стран. «Это будет непростое обсуждение», — добавил он.\n\nДжаред Кушнер в начале ноября написал в соцсетях, что Вашингтон работает над новой системой европейской безопасности, которая будет учитывать интересы всех сторон. Для Европы, как отмечала Financial Times, это заявление Кушнера стало «полной неожиданностью». «У нас уже есть европейская архитектура безопасности — НАТО и Европейский союз оба выполняют соответствующие роли», — заявила глава европейской дипломатии Кая Каллас.\n\nПоследнее на настоящий момент заседание Совета Россия — НАТО состоялось в январе 2022 года. Работа совета приостанавливалась в 2008 году после войны в Южной Осетии, а также после аннексии Россией Крыма в 2014 году. В 2008 — 2011 годах постоянным представителем России при НАТО был Дмитрий Рогозин. Сейчас Рогозин является сенатором от частично оккупированной Россией Запорожской области.\n\nЧитайте также\n\n• Война 1718-й день. Заявление Трампа о «большой прекрасной сделке» с Россией застало Европу врасплох. Европейские лидеры опасаются, что Москва лишь выиграет время для ударов",
+      "image": "https://meduza.io/imgly/share/1794130980/news/2026/11/08/kushner-predlozhil-ispolzovat-sovet-rossiya-nato-v-kachestve-modeli-dlya-buduschih-peregovorov-po-bezopasnosti-v-evrope",
+      "images": [
+        {
+          "url": "https://meduza.io/imgly/share/1794130980/news/2026/11/08/kushner-predlozhil-ispolzovat-sovet-rossiya-nato-v-kachestve-modeli-dlya-buduschih-peregovorov-po-bezopasnosti-v-evrope",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T09:42:59.000Z",
+      "sourceId": "meduza",
+      "source": "Meduza",
+      "category": "war",
+      "lang": "ru",
+      "addedAt": "2026-11-08T10:10:06.955Z"
+    },
+    {
+      "id": "9tq1g3",
+      "title": "Democrats’ congressional win could strengthen Ukraine’s hand against Russia",
+      "url": "https://www.aljazeera.com/news/2026/11/8/democrats-congressional-win-could-strengthen-ukraines-hand-against-russia?traffic_source=rss",
+      "excerpt": "Ukraine hopes for more US support but faces uncertainty over Trump’s peace efforts and continued military aid.",
+      "content": "Ukraine hopes for more US support but faces uncertainty over Trump’s peace efforts and continued military aid.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-08T09:30:17.000Z",
+      "sourceId": "aljazeera",
+      "source": "Al Jazeera",
+      "category": "war",
+      "lang": "en",
+      "addedAt": "2026-11-08T10:10:06.955Z"
+    },
     {
       "id": "gh-1435983892",
       "title": "giacomozama/live-and-recompiled: An unofficial native PC port of the OG Xbox Conker: Live & Reloaded.",
@@ -1193,7 +1455,7 @@
       "url": "https://github.com/veritr1x/metal-fatigue-recomp",
       "excerpt": "Native Metal Fatigue recompilation with Metal/Vulkan rendering, audio, movies and HD output. Bring your own game files.",
       "image": "",
-      "publishedAt": "2026-11-08T08:25:07Z",
+      "publishedAt": "2026-11-08T09:53:21Z",
       "addedAt": "2026-11-08T08:40:16.763Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -1859,8 +2121,8 @@
       "id": "vduo6c",
       "title": "Goodbye Claude, Hello Pi",
       "url": "https://caleb.software/posts/claude-to-pi.html",
-      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 277 # Comments: 162",
-      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 277\n\n# Comments: 162",
+      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 303 # Comments: 177",
+      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 303\n\n# Comments: 177",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T03:11:48.000Z",
@@ -2137,7 +2399,7 @@
       "url": "https://github.com/7v0biscuit/OpenKai2",
       "excerpt": "A Native Windows Port of Dragon Ball Z: Budokai 2",
       "image": "",
-      "publishedAt": "2026-11-08T08:46:45Z",
+      "publishedAt": "2026-11-08T10:08:56Z",
       "addedAt": "2026-11-08T05:40:16.174Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -3217,7 +3479,7 @@
       "url": "https://github.com/Destinity13/TimeSplitters-2-Native-Linux-Recomp",
       "excerpt": "TimeSplitters 2 (PS2, NTSC-U) statically recompiled to a native Linux executable – HD remaster: 60 FPS, real 16:9, up to 8x resolution, split-screen co-op, verified against PCSX2",
       "image": "",
-      "publishedAt": "2026-11-08T08:54:27Z",
+      "publishedAt": "2026-11-08T09:59:54Z",
       "addedAt": "2026-11-08T01:40:14.870Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -3274,7 +3536,7 @@
       "url": "https://github.com/portemon-nitro/portemon",
       "excerpt": "Getting HeartGold/SoulSilver out of the DS",
       "image": "",
-      "publishedAt": "2026-11-08T09:38:00Z",
+      "publishedAt": "2026-11-08T09:59:58Z",
       "addedAt": "2026-11-08T01:20:53.244Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -3432,7 +3694,7 @@
       "url": "https://github.com/SickSartori/mc3port",
       "excerpt": "Unofficial native Windows port of Midnight Club 3: DUB Edition Remix (Xbox, PAL). Runs the game from your own disc image: no game files included. 16:9 widescreen, up to 60 fps, higher internal resolution, modern effects.",
       "image": "",
-      "publishedAt": "2026-11-08T00:26:29Z",
+      "publishedAt": "2026-11-08T09:58:59Z",
       "addedAt": "2026-11-08T00:40:15.500Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -3777,8 +4039,8 @@
       "id": "zof7yv",
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 383 # Comments: 264",
-      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 383\n\n# Comments: 264",
+      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 393 # Comments: 270",
+      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 393\n\n# Comments: 270",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T20:45:32.000Z",
@@ -5496,8 +5758,8 @@
       "id": "1fzmty1",
       "title": "The end of Microsoft Research's AI Frontiers group",
       "url": "https://hunch.net/?p=13764006",
-      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 453 # Comments: 271",
-      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 453\n\n# Comments: 271",
+      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 456 # Comments: 276",
+      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 456\n\n# Comments: 276",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T18:02:17.000Z",
@@ -5583,8 +5845,8 @@
       "id": "6a6jp5",
       "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
       "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 300 # Comments: 81",
-      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 300\n\n# Comments: 81",
+      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 309 # Comments: 83",
+      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 309\n\n# Comments: 83",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T17:19:00.000Z",
@@ -9787,8 +10049,8 @@
       "id": "1iqgq9j",
       "title": "Every Mac comes with an (undocumented) family member classifier",
       "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 719 # Comments: 378",
-      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 719\n\n# Comments: 378",
+      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 727 # Comments: 385",
+      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 727\n\n# Comments: 385",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T09:46:03.000Z",
@@ -10777,7 +11039,7 @@
       "url": "https://github.com/1vs100/1vs100-reborn-pc",
       "excerpt": "1 vs 100 Xbox 360 game, ported to PC (windows, linux, mac) and xbox one/series in dev mode",
       "image": "",
-      "publishedAt": "2026-11-07T11:12:58Z",
+      "publishedAt": "2026-11-08T10:09:08Z",
       "addedAt": "2026-11-07T10:10:15.241Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -11457,7 +11719,7 @@
       "url": "https://github.com/YodaMMM/NightfirePort",
       "excerpt": "Nightfire Rust: a native Windows PC port of 007: Nightfire (PS2), written in Rust",
       "image": "",
-      "publishedAt": "2026-11-08T00:07:07Z",
+      "publishedAt": "2026-11-08T10:06:23Z",
       "addedAt": "2026-11-07T09:10:09.502Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -12100,7 +12362,7 @@
       "url": "https://github.com/nayo186/AloneInTheDarkClassicReborn",
       "excerpt": "A source port of the Alone in the Dark trilogy and Jack in the Dark for modern PCs (Windows and Linux): fixes, HD options and its own launcher. Built on FITD by yaz0r, with parts of Re-Haunted",
       "image": "",
-      "publishedAt": "2026-11-07T23:48:03Z",
+      "publishedAt": "2026-11-08T09:56:59Z",
       "addedAt": "2026-11-07T07:40:12.287Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
