@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T15:04:08.932Z",
-  "tookMs": 10483,
+  "generatedAt": "2026-11-08T15:56:13.420Z",
+  "tookMs": 9729,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -24,26 +24,26 @@
     "war": "Война"
   },
   "counts": {
-    "ai": 131,
-    "games": 141,
+    "ai": 133,
+    "games": 145,
     "announces": 15,
     "mobile": 10,
     "releases": 35,
     "rumors": 17,
-    "software": 36,
-    "science": 76,
+    "software": 38,
+    "science": 77,
     "entertainment": 201,
-    "ports": 150,
-    "pc": 52,
+    "ports": 153,
+    "pc": 53,
     "consoles": 131,
-    "hardware": 49,
+    "hardware": 52,
     "industry": 39,
     "updates": 21,
     "aimods": 2,
-    "aisoft": 54,
-    "cars": 154,
-    "war": 142,
-    "total": 1456
+    "aisoft": 55,
+    "cars": 155,
+    "war": 146,
+    "total": 1478
   },
   "sourceCount": 89,
   "sources": [
@@ -697,6 +697,503 @@
   ],
   "items": [
     {
+      "id": "gh-1443254779",
+      "title": "TheBozos/BozoEngine: The Bozos' native toolchain for PC ports of PlayStation 2 games: a static recompiler and a runtime with native libraries, no emulation",
+      "url": "https://github.com/TheBozos/BozoEngine",
+      "excerpt": "The Bozos' native toolchain for PC ports of PlayStation 2 games: a static recompiler and a runtime with native libraries, no emulation",
+      "image": "",
+      "publishedAt": "2026-11-08T15:55:39Z",
+      "addedAt": "2026-11-08T15:56:08.434Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1439718178",
+      "title": "Decryptu/ctr-decrypted: CTR Decrypted: native Crash Team Racing port with enhancements and Archipelago built in",
+      "url": "https://github.com/Decryptu/ctr-decrypted",
+      "excerpt": "CTR Decrypted: native Crash Team Racing port with enhancements and Archipelago built in",
+      "image": "",
+      "publishedAt": "2026-11-08T15:35:19Z",
+      "addedAt": "2026-11-08T15:56:08.019Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1431728873",
+      "title": "malinkin-s/naruto-rise-of-a-ninja-nx: Nintendo Switch homebrew port of Naruto: Rise of a Ninja (Xbox 360): static recompilation with ReXGlue, Renut renderer on deko3d. Work in progress, bring your own game.",
+      "url": "https://github.com/malinkin-s/naruto-rise-of-a-ninja-nx",
+      "excerpt": "Nintendo Switch homebrew port of Naruto: Rise of a Ninja (Xbox 360): static recompilation with ReXGlue, Renut renderer on deko3d. Work in progress, bring your own game.",
+      "image": "",
+      "publishedAt": "2026-11-08T15:46:49Z",
+      "addedAt": "2026-11-08T15:56:07.026Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "jsymnf",
+      "title": "Как обойти Llama-3 70B моделью в 600 раз меньше: Теорема Платона, JEPA и революция Моделей Мира",
+      "url": "https://habr.com/ru/articles/1105086/",
+      "excerpt": "Новое исследование Рэнделла Балестриеро и Яна ЛеКуна «Proving and Improving the Platonic Representation Hypothesis with JEPAs» , подкрепленное публичными выступлениями ЛеКуна, доказывает: стремление достичь универсального интеллекта (AGI) исключительно за…",
+      "content": "Новое исследование Рэнделла Балестриеро и Яна ЛеКуна «Proving and Improving the Platonic Representation Hypothesis with JEPAs» , подкрепленное публичными выступлениями ЛеКуна, доказывает: стремление достичь универсального интеллекта (AGI) исключительно за счет масштабирования предсказания следующего токена — это тупиковый путь. Авторы превратили эмпирическую Гипотезу платоновского представления (Platonic Representation Hypothesis) в строгую математическую теорему и доказали, что компактная архитектура Joint-Embedding Predictive Architecture (JEPA) с «хорошими видами» выравнивает представление о реальном мире в десятки раз эффективнее гигантских LLM.\n\nЧитать далее",
+      "image": "https://habrastorage.org/extt/65/90/03/65900310b7e5aeabbe134612be46fac6.jpg",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/65/90/03/65900310b7e5aeabbe134612be46fac6.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T15:52:25.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:56:03.691Z"
+    },
+    {
+      "id": "19k990s",
+      "title": "Росія в Олешках провела значну ротацію військ і техніки – Зеленський",
+      "url": "https://www.pravda.com.ua/news/2026/11/08/8061833/",
+      "excerpt": "Російська армія використала гуманітарну операцію в Олешках на Херсонщині для значної ротації особового складу та техніки на лівобережжі Дніпра. До міста та навколишньої громади окупанти завели додаткові сили. Джерело : президент Володимир Зеленський у…",
+      "content": "Російська армія використала гуманітарну операцію в Олешках на Херсонщині для значної ротації особового складу та техніки на лівобережжі Дніпра. До міста та навколишньої громади окупанти завели додаткові сили.\n\nДжерело : президент Володимир Зеленський у Telegram за підсумками наради з керівниками обласних адміністрацій\n\nПряма мова : \"На жаль, під прикриттям гуманітарної операції в Олешках російська армія провела значну ротацію особового складу та техніки на Лівобережжі. В Олешки і в навколишню громаду були заведені додаткові сили окупанта\".\n\nДеталі : За словами Зеленського, командування ЗСУ має представити пропозиції щодо додаткового захисту жителів Херсона від російських атак.\n\nПрезидент також повідомив про результати наради щодо ситуації в інших регіонах.\n\nЗокрема, на Сумщині визначили окремі завдання для ЗСУ щодо протидії російським операціям. На Харківщині обговорили підготовку критичної інфраструктури до зими, а на Дніпропетровщині – відновлення електропостачання після російських ударів.\n\nОкремо розглянули ситуацію в енергосистемі Житомирщини та визначили відповідні завдання для Міністерства енергетики.\n\nТакож Зеленський повідомив, що російські війська суттєво посилили обстріли Краматорська та навколишньої громади. Заходи протидії планують визначити на засіданні Ставки верховного головнокомандувача.\n\nНагадаємо : Раніше Зеленський заявив, що досвід припинення вогню в Олешках на Херсонщині доводить можливість швидкого встановлення перемир'я без тривалої підготовки, відведення озброєнь чи створення буферних зон.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/3/c/952911/3c5ec1a7692a6cf3be220fc53c06316d.jpeg",
+      "images": [
+        {
+          "url": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/3/c/952911/3c5ec1a7692a6cf3be220fc53c06316d.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T15:45:00.000Z",
+      "sourceId": "pravda",
+      "source": "Ukrainska Pravda",
+      "category": "war",
+      "lang": "uk",
+      "addedAt": "2026-11-08T15:56:03.691Z"
+    },
+    {
+      "id": "ozy56d",
+      "title": "Apple Taking New Approach to Developing iOS 28 and macOS 28",
+      "url": "https://www.macrumors.com/2026/11/08/apple-tweaks-ios-28-development-process/",
+      "excerpt": "Apple has made a change to its development process for iOS 28, macOS 28, and corresponding software updates, according to Bloomberg 's Mark Gurman. In his Power On newsletter today , he said Apple separates development of each year's new operating systems…",
+      "content": "Apple has made a change to its development process for iOS 28, macOS 28, and corresponding software updates, according to Bloomberg 's Mark Gurman.\n\nIn his Power On newsletter today , he said Apple separates development of each year's new operating systems into three major stages. Typically, he said each stage consists of four weeks of coding followed by a four-week \"convergence\" period where new features are integrated into the operating systems. This time around, Apple has made a change.\n\nThe first stage of development for iOS 28 and the other updates apparently consisted of six weeks of coding and two weeks of feature convergence.\n\n\"Instead of the normal split between two four-week efforts, Apple engineers were tasked with six weeks of coding, exploration and feature development, and then only two weeks of convergence,\" he said. \"Employees say they like the change, indicating that it creates more time for coming up with ideas and exploring them before needing to lock things in.\"\n\nGurman did not reveal any specific features planned for iOS 28. The update should be available in beta in June and released in September next year. Tags: iOS 28 , Mark Gurman\n\nThis article, \" Apple Taking New Approach to Developing iOS 28 and macOS 28 \" first appeared on MacRumors.com\n\nDiscuss this article in our forums",
+      "image": "https://images.macrumors.com/article-new/2026/11/iOS-28-AI.jpg",
+      "images": [
+        {
+          "url": "https://images.macrumors.com/article-new/2026/11/iOS-28-AI.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T15:42:52.000Z",
+      "sourceId": "macrumors",
+      "source": "MacRumors",
+      "category": "software",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:56:03.691Z"
+    },
+    {
+      "id": "h4hgdb",
+      "title": "Mullvad shuts down its public encrypted DNS service: switch to Quad9 or another resolver now",
+      "url": "https://www.ghacks.net/2026/11/08/mullvad-dns-shutdown-quad9/",
+      "excerpt": "Mullvad's free public encrypted DNS service, the DNS over HTTPS and DNS over TLS resolvers at dns.mullvad.net and its five filtering variants, was scheduled to be discontinued on November 2, 2026. Mullvad now sponsors Quad9 instead and recommends it as the…",
+      "content": "Mullvad's free public encrypted DNS service, the DNS over HTTPS and DNS over TLS resolvers at dns.mullvad.net and its five filtering variants, was scheduled to be discontinued on November 2, 2026. Mullvad now sponsors Quad9 instead and recommends it as the replacement. Anyone who typed a Mullvad DNS hostname into a browser, Android Private DNS, a router or an iOS or macOS profile should switch to another resolver now.\n\nMullvad VPN users who rely on the app's built-in DNS inside the tunnel are not the target of this change. This post covers what was shut down, why, which settings to change, verified replacement addresses, and how to confirm which resolver a device really uses.\n\nWhat Mullvad shut down and why\n\nMullvad is retiring its public encrypted DNS service only, not its VPN. Mullvad announced the move on its blog on September 3, 2026 , and its DNS over HTTPS and DNS over TLS help page states that the service \"will be discontinued on November 2, 2026.\"\n\nThe company gives two reasons. First, the servers add nothing for its VPN customers, because VPN traffic is already encrypted and the VPN's own resolver handles queries. Second, it considers running a privacy-focused public resolver a specialized job and prefers to fund Quad9, which it calls the leader in the field, rather than duplicate that work. Mullvad says it will financially support Quad9 but does not name an amount.\n\nThe service launched as a free alternative for people who wanted encrypted DNS without a VPN. In 2023, ghacks reported that Mullvad's public encrypted DNS servers moved to RAM-only operation ; that infrastructure is what is going away.\n\nWhich Mullvad DNS settings stop working\n\nEvery manual configuration that points to a Mullvad DNS hostname or address is affected. The help page lists these six resolvers:\n\n• dns.mullvad.net (194.242.2.2): no blocking\n\n• adblock.dns.mullvad.net (194.242.2.3): ads and trackers\n\n• base.dns.mullvad.net (194.242.2.4): ads, trackers and malware\n\n• extended.dns.mullvad.net (194.242.2.5): base plus social media\n\n• family.dns.mullvad.net (194.242.2.6): base plus adult content and gambling\n\n• all.dns.mullvad.net (194.242.2.9): all of the above\n\nThe older hostnames doh.mullvad.net and dot.mullvad.net, which the help page already listed as replaced, should be removed as well. Mullvad's blog adds three platform notes:\n\n• Mullvad Browser: users on the default DNS over HTTPS setting or the included ad-blocking option are moved to Quad9 automatically. Custom settings are not changed, so anyone who picked base, extended or family should switch back to the default.\n\n• iOS and macOS: Mullvad DNS configuration profiles stop working. Delete them and install a Quad9 profile instead.\n\n• Everything else (browsers, Android, routers, Windows): replace the hostname or DoH URL by hand.\n\nReplacement resolvers with DoH and DoT addresses\n\nQuad9 is the replacement Mullvad recommends, and it is the closest fit in terms of privacy policy. Quad9 is a Swiss public-benefit not-for-profit foundation, and its privacy policy states that it \"does not collect or record user IP addresses.\" Its default service blocks malicious domains and validates DNSSEC. ghacks covered the launch of Quad9 in 2017 .\n\nAll addresses below come from each provider's own documentation:\n\nResolver\nDNS over HTTPS URL\nDNS over TLS / Android Private DNS hostname\n\nQuad9 (malware blocking)\nhttps://dns.quad9.net/dns-query\ndns.quad9.net\n\nQuad9 (no blocking)\nhttps://dns10.quad9.net/dns-query\ndns10.quad9.net\n\nAdGuard DNS (ad blocking)\nhttps://dns.adguard-dns.com/dns-query\ndns.adguard-dns.com\n\nDNS4EU (ad blocking)\nhttps://noads.joindns4.eu/dns-query\nnoads.joindns4.eu\n\nCloudflare 1.1.1.1\nhttps://cloudflare-dns.com/dns-query\none.one.one.one\n\nThe plain IPv4 addresses are 9.9.9.9 and 149.112.112.112 for Quad9 , 94.140.14.14 and 94.140.15.15 for AdGuard DNS , 86.54.11.13 and 86.54.11.213 for DNS4EU , and 1.1.1.1 and 1.0.0.1 for Cloudflare .\n\nWhich one replaces which Mullvad tier:\n\n• dns.mullvad.net: Quad9 no-blocking or Cloudflare.\n\n• adblock, base or all: AdGuard DNS or DNS4EU ad blocking, both of which filter ads and trackers. AdGuard says it processes no personal data on its public servers; DNS4EU, operated by Whalebone in the Czech Republic, says client IPs are anonymised before logging.\n\n• family: DNS4EU's child protection variant (child.joindns4.eu).\n\nCloudflare says it keeps no source IPs in non-volatile storage and deletes truncated IPs within 25 hours. Our older look at AdGuard DNS and its filtering explains the blocking approach in more detail. To enter any of these in a browser, follow our guide to enabling DNS over HTTPS in Chrome, Brave, Edge and Firefox .\n\nHow to check which resolver a device uses\n\nThe quickest check is the provider's own test page, opened on the device you changed. Quad9's on.quad9.net answers yes or no, and Cloudflare's one.one.one.one/help runs a set of tests that show whether the connection to 1.1.1.1 works.\n\n• Open the browser's secure DNS setting first. A browser DoH provider overrides the system resolver, and Quad9 notes that Firefox and Brave may default to Cloudflare in some regions.\n\n• On Windows, run ipconfig /all in a terminal and read the DNS Servers lines for the active adapter. Any 194.242.2.x address is a leftover Mullvad entry.\n\n• On Android, open Settings, search for Private DNS and confirm the hostname. Replace any Mullvad hostname with one from the table above.\n\n• On iOS and macOS, check the installed profiles under VPN and Device Management and remove any Mullvad DNS profile. iCloud Private Relay must be off for a third-party resolver to apply.\n\n• If a VPN is active, enter the new resolver in the VPN client's custom DNS setting, because VPNs usually ignore the device setting.\n\nDo not mix providers: Quad9's test reports \"no\" when a device lists a Quad9 address next to one from another resolver.\n\nRelated: display all cached DNS entries on Windows , Control D, the DNS service from the makers of Windscribe\n\nWhich resolver did you move to after Mullvad's DNS shutdown, and did you keep ad blocking at the DNS level or move it to the browser?\n\nThank you for being a Ghacks reader. gHacks .",
+      "image": "https://www.ghacks.net/wp-content/uploads/2026/11/mullvad-dns-shutdown-replacements.webp",
+      "images": [
+        {
+          "url": "https://www.ghacks.net/wp-content/uploads/2026/11/mullvad-dns-shutdown-replacements.webp",
+          "alt": "Diagram mapping each Mullvad public DNS tier to a replacement resolver: Quad9, Cloudflare, AdGuard DNS and DNS4EU, with DoT hostnames"
+        }
+      ],
+      "publishedAt": "2026-11-08T15:40:38.000Z",
+      "sourceId": "ghacks",
+      "source": "gHacks",
+      "category": "software",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:56:03.691Z"
+    },
+    {
+      "id": "177fx62",
+      "title": "В ремейке Ocarina of Time нашли упоминания Master Quest - режима с повышенной сложностью",
+      "url": "https://www.playground.ru/legend_of_zelda_ocarina_of_time/news/v_remejke_ocarina_of_time_nashli_upominaniya_master_quest_rezhima_s_povyshennoj_slozhnostyu-1888879",
+      "excerpt": "В файлах ремейка The Legend of Zelda: Ocarina of Time для Nintendo Switch 2 обнаружили признаки возможного дополнения Master Quest, которое может вернуть альтернативный режим прохождения с повышенной сложностью. Находку сделал датамайнер MrCheeze…",
+      "content": "В файлах ремейка The Legend of Zelda: Ocarina of Time для Nintendo Switch 2 обнаружили признаки возможного дополнения Master Quest, которое может вернуть альтернативный режим прохождения с повышенной сложностью. Находку сделал датамайнер MrCheeze, специализирующийся на...",
+      "image": "https://i.playground.ru/e/ReNxPuh63JTMiMQDLIWzwA.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/ReNxPuh63JTMiMQDLIWzwA.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T15:31:13.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:56:03.691Z"
+    },
+    {
+      "id": "1a2ayl9",
+      "title": "Game theory helps SETI search for alien civilizations",
+      "url": "https://phys.org/news/2026-11-game-theory-seti-alien-civilizations.html",
+      "excerpt": "The search for extraterrestrial intelligence (SETI) is mostly concerned with where to look for technosignatures from another civilization. Between 2012 and 2015, SETI's Project Phoenix targeted about 1,000 sun-like stars for signs of intelligent life. But…",
+      "content": "The search for extraterrestrial intelligence (SETI) is mostly concerned with where to look for technosignatures from another civilization. Between 2012 and 2015, SETI's Project Phoenix targeted about 1,000 sun-like stars for signs of intelligent life. But where to look might not be as important as when to look, according to scientists at SETI.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/game-theory-helps-seti.jpg",
+      "images": [
+        {
+          "url": "https://scx1.b-cdn.net/csz/news/tmb/2026/game-theory-helps-seti.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T15:30:06.000Z",
+      "sourceId": "physorg",
+      "source": "Phys.org",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:56:03.691Z"
+    },
+    {
+      "id": "1o7o785",
+      "title": "Diamond Foundry creates world's first 200mm single-crystal diamond wafer",
+      "url": "https://www.tomshardware.com/pc-components/cooling/diamond-foundry-creates-worlds-first-200mm-single-crystal-diamond-wafer-massive-gem-aims-to-solve-ai-chip-cooling-crisis-envisioned-as-a-cooling-material-for-semiconductors",
+      "excerpt": "Diamonds have exceptional cooling capabilities due to their excellent thermal conductivity, with the material estimated to be at least five times more conductive than copper . Because of this, Diamond Foundry, a firm focusing on lab-grown diamonds, announced…",
+      "content": "Diamonds have exceptional cooling capabilities due to their excellent thermal conductivity, with the material estimated to be at least five times more conductive than copper . Because of this, Diamond Foundry, a firm focusing on lab-grown diamonds, announced the world’s first 200mm single-crystal diamond (SCD) wafer. The 200mm SCD is about the same wafer size that semiconductor fabs use for older processes, with the company boasting on its website that “Single-crystal diamond has entered the wafer-scale era.” This is part of the effort to manufacture SCD at scale so that it can be used for semiconductor cooling, especially now that increasing power of AI chips has also led to enormous thermal problems.\n\nWhat makes Diamond Foundry’s 200mm SCD wafer different from other lab-grown diamonds is that it’s created as a high-quality single-crystal piece instead of a polycrystalline gem. Although the former is difficult to manufacture, it is what allows diamond to become an extreme efficient thermal conductor while simultaneously retaining its electrical insulating properties — this efficiency should help cut down on hotspots, making SCDs an excellent solution for AI chip cooling.\n\nThe company also showed in a graph that it is now thought possible to create a D300 SCD wafer before 2030, matching the size of the wafers used in leading node processes. However, it should be noted that the sample shown by the company remains unpolished, meaning it still needs to go through some processes to make it suitable for chipmakers.\n\nAlthough the company was founded in 2012, it also acknowledged the work of scientists who have been chipping away at the scale problem of SCDs since the early 2000s. “This is one of those milestones that once seemed almost impossible. Hundreds of DF engineers, scientists, and technicians contributed to us getting here. It is the accumulated result of countless experiments, failures, inventions, rebuilt machines, and insights over more than a decade,” Diamond Foundry CEO Martin Roscheisen said.\n\n“Stefan and Martin pursued this goal for 25 years. There are very few examples in technology of someone sticking to a really hard scientific challenge with that level of perseverance. They kept going when the prevailing view was that single‑crystal diamond simply could not be made at this scale. Today, the perseverance shows as the first-ever D200mm single‑crystal diamond. And best of all, it makes D300mm predictable as well.”\n\nDiamond Foundry isn’t the only company that has identified the potential of lab-grown diamonds for semiconductor cooling. Akash Systems secured $18.2 million in CHIPS Act funding in 2024 to produce Gallium Nitride fused with synthetic diamond , which it claims will reduce temperatures by 20 degrees C. The De Beers Group, which is known for its diamond mines in Africa, is also building a copper-plated diamond composite material aimed at improving cooling efficiency for AI, high-performance computing, and GaN RF devices. Even Frore Systems, which is known for its solid-state cooler , is diving into diamond-infused watercooling cold plates for Nvidia’s next-generation AI GPUs.",
+      "image": "https://cdn.mos.cms.futurecdn.net/PhYnHgbq2oQkd3ZZoMnZXj-1920-80.png",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/PhYnHgbq2oQkd3ZZoMnZXj-1920-80.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/xhAUnMhwcXcDyBHwo4SkdQ-1920-80.png",
+          "alt": "Diamond Foundry prediction"
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/NMVYfJu9ZZJU2aspMfP6XB-1920-80.jpg",
+          "alt": "Diamond Foundry slides"
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/LbAvq59jxhbKKg82YriwWB-1920-80.jpg",
+          "alt": "Diamond Foundry slides"
+        }
+      ],
+      "publishedAt": "2026-11-08T15:25:00.000Z",
+      "sourceId": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "hardware",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:56:03.691Z"
+    },
+    {
+      "id": "1veoprm",
+      "title": "Новый автономный сельскохозяйственный робот заменит обычные тракторы",
+      "url": "https://www.zr.ru/content/news/988184-dvadtsat-dve-tonny-smysla-zach/",
+      "excerpt": "Naïo Technologies выпустила сельскохозяйственного робота Sanka массой 2,2 тонны",
+      "content": "Naïo Technologies выпустила сельскохозяйственного робота Sanka массой 2,2 тонны",
+      "image": "https://www.zr.ru/_ah/img/i6-nysYh9v1dsCHHzXiO_g",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/i6-nysYh9v1dsCHHzXiO_g",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T15:25:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:56:03.691Z"
+    },
+    {
+      "id": "2mx3no",
+      "title": "Промты не горят: может ли ИИ написать художественно ценный текст",
+      "url": "https://habr.com/ru/companies/bothub/articles/1105138/",
+      "excerpt": "Попросила нейросеть написать сцену по мотивам своего рассказа. Она придумала героям сына, общее прошлое и взялась их мирить. Разбираюсь, как ИИ сочиняет прозу и как объяснить ему, что у автора тоже были планы. Читать далее",
+      "content": "Попросила нейросеть написать сцену по мотивам своего рассказа. Она придумала героям сына, общее прошлое и взялась их мирить. Разбираюсь, как ИИ сочиняет прозу и как объяснить ему, что у автора тоже были планы.\n\nЧитать далее",
+      "image": "https://habrastorage.org/extt/3d/e1/25/3de125f8f032ab2862e6a47003a61379.png",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/3d/e1/25/3de125f8f032ab2862e6a47003a61379.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T15:21:53.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:56:03.691Z"
+    },
+    {
+      "id": "rg2w57",
+      "title": "Глава Epic Games Тим Суини поссорился с известным художником из-за ИИ - в конфликт вмешался даже Илон Маск",
+      "url": "https://www.playground.ru/misc/news/glava_epic_games_tim_suini_possorilsya_s_izvestnym_hudozhnikom_iz_za_ii_v_konflikt_vmeshalsya_dazhe_ilon_mask-1888876",
+      "excerpt": "Генеральный директор Epic Games Тим Суини оказался в центре скандала после публичной перепалки с известным игровым художником Кенни Влёгельсом (Kenney), который выступил против распространения генеративного искусственного интеллекта в игровой индустрии…",
+      "content": "Генеральный директор Epic Games Тим Суини оказался в центре скандала после публичной перепалки с известным игровым художником Кенни Влёгельсом (Kenney), который выступил против распространения генеративного искусственного интеллекта в игровой индустрии. Конфликт привлёк внимание Илона Маска...",
+      "image": "https://i.playground.ru/e/LwwUbxBMx25prweUuwXuIQ.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/LwwUbxBMx25prweUuwXuIQ.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T15:17:41.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:56:03.691Z"
+    },
+    {
+      "id": "1j6rhrs",
+      "title": "Тактический ретро-шутер Hamburger Hill получил обновление 0.10.0 с кампанией за горных повстанцев",
+      "url": "https://www.playground.ru/misc/news/takticheskij_retro_shuter_hamburger_hill_poluchil_obnovlenie_0_10_0_s_kampaniej_za_gornyh_povstantsev-1888875",
+      "excerpt": "Разработчик Wesware выпустил масштабное обновление 0.10.0 для тактического военного шутера Hamburger Hill. Главным нововведением патча стало появление полноценной сюжетной кампании за фракцию Dhal Warlords. Проект сочетает динамику классических шутеров старой…",
+      "content": "Разработчик Wesware выпустил масштабное обновление 0.10.0 для тактического военного шутера Hamburger Hill. Главным нововведением патча стало появление полноценной сюжетной кампании за фракцию Dhal Warlords. Проект сочетает динамику классических шутеров старой школы с пошаговым тактическим планированием...",
+      "image": "https://i.playground.ru/e/V0kr0cy1ZL47VJvZG_ADKg.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/V0kr0cy1ZL47VJvZG_ADKg.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T15:14:51.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:56:03.691Z"
+    },
+    {
+      "id": "9yvc0t",
+      "title": "Inspired by Dark Messiah and Thief, this stealth game sees you sneak through a medieval megastructure prowled by undead guards",
+      "url": "https://www.pcgamer.com/games/sim/inspired-by-dark-messiah-and-thief-this-stealth-game-sees-you-sneak-through-a-medieval-megastructure-prowled-by-undead-guards/",
+      "excerpt": "It's a great time to be a fan of both Thief: The Dark Project and Dark Messiah of Might and Magic . A Thief remaster from Nightdive—which features a new campaign—is coming next month , while Dark Messiah is getting a Ubisoft-approved community edition that…",
+      "content": "It's a great time to be a fan of both Thief: The Dark Project and Dark Messiah of Might and Magic . A Thief remaster from Nightdive—which features a new campaign—is coming next month , while Dark Messiah is getting a Ubisoft-approved community edition that adds co-op, new modes and more. There are also numerous spiritual successors in the works for both games, such as the dark and Thief-y Gloomwood and the Dark Messiah-inspired Fatekeeper and Alkahest .\n\nUntil earlier today, I hadn't seen a game inspired by both Thief and Dark Messiah at the same time (apart from Dishonored , I suppose, though that was made by Dark Messiah developers Arkane, so I'm not sure that counts). But that all changed when The Citadel Project snuck through my eyes and booted my ignorance right out of my brain.\n\nCreated by solo outfit Reliquary Software, The Citadel Project synthesises the designs of Thief and Dark Messiah with first-person indie gaming's current fascination with megastructures. It casts you as a sickle-wielding prisoner trying to escape a sprawling medieval fortress prowled by shambling undead guards.\n\nThe Citadel Project's Thief leanings are most obvious at a glance. Environments are shrouded in shadow, stealth is your greatest asset, and your character carries a crossbow that can fire various kinds of bolts—including water bolts and moss quarrels. The Dark Messiah DNA, meanwhile, is most prominent in the physics engine. Alongside being able to slip past enemies, your character can give them a hard shove in the back, shunting them off ledges and into conveniently placed spike traps.\n\nThere's a demo available which sees you sneaking through a network of subterranean caverns having escaped your incarceration. I took this for a spin, and as a stealth game, The Citadel Project is fairly meat & potatoes, while some of the player/enemy interactions would benefit from a little refinement. That said, the atmosphere is enjoyably moody, while the environments have a pleasing scale to them.\n\nAlongside Thief and Dark Messiah, there's a sprinkling of Dark Souls in The Citadel Project too. There are bonfire-like checkpoints where you can upgrade your character, while the story is told through item descriptions and notes that you collect as you progress. To be clear though, while there is combat and even a parry system, this is a stealth game through and through, and it's nothing like as demanding as FromSoft's formidable RPGs.\n\nIn short, I had a pleasant time skulking through The Citadel Project's shadows, and I'll be curious to see what the \"full\" game looks like when it launches into Steam early access on November 11. Thief Remastered and Dark Messiah's community edition aren't far behind it, either. The latter is due to arrive sometime in December, while the former has a more specific launch date of December 3.\n\n2026 games : All the upcoming games\nBest PC games : Our all-time favorites\nFree PC games : Freebie fest\nBest FPS games : Finest gunplay\nBest RPGs : Grand adventures\nBest co-op games : Better together",
+      "image": "https://cdn.mos.cms.futurecdn.net/d2WvAanTYs5x843XGHNQi3-1920-80.jpg",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/d2WvAanTYs5x843XGHNQi3-1920-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/6offQUY4CXebir2TC27dMd-1920-80.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T15:08:46.000Z",
+      "sourceId": "pcgamer",
+      "source": "PC Gamer",
+      "category": "pc",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:56:03.691Z"
+    },
+    {
+      "id": "1ardkdb",
+      "title": "Для Mass Effect 3 вышел масштабный мод Take Earth Back 2.0 с переработкой битвы за Землю и тактическим выбором союзников",
+      "url": "https://www.playground.ru/mass_effect_trilogy/news/dlya_mass_effect_3_vyshel_masshtabnyj_mod_take_earth_back_2_0_s_pererabotkoj_bitvy_za_zemlyu_i_takticheskim_vyborom_soyuznikov-1888874",
+      "excerpt": "Команда разработчиков модификаций выпустила масштабное обновление 2.0 для проекта Take Earth Back, созданного для сборника Mass Effect: Legendary Edition. Модификация кардинально перерабатывает заключительное сюжетное задание Приоритет: Земля в Mass Effect 3…",
+      "content": "Команда разработчиков модификаций выпустила масштабное обновление 2.0 для проекта Take Earth Back, созданного для сборника Mass Effect: Legendary Edition. Модификация кардинально перерабатывает заключительное сюжетное задание Приоритет: Земля в Mass Effect 3. Главной задачей авторов стало...",
+      "image": "https://i.playground.ru/e/ByVu9ckFdxO6O7bluaeHWg.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/ByVu9ckFdxO6O7bluaeHWg.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T15:08:08.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:56:03.691Z"
+    },
+    {
+      "id": "1utxb8c",
+      "title": "Россия может вытеснить Норвегию с молодежного чемпионата мира по хоккею в Канаде",
+      "url": "https://www.dw.com/ru/%D1%80%D0%BE%D1%81%D1%81%D0%B8%D1%8F-%D0%BC%D0%BE%D0%B6%D0%B5%D1%82-%D0%B2%D1%8B%D1%82%D0%B5%D1%81%D0%BD%D0%B8%D1%82%D1%8C-%D0%BD%D0%BE%D1%80%D0%B2%D0%B5%D0%B3%D0%B8%D1%8E-%D1%81-%D0%BC%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%B6%D0%BD%D0%BE%D0%B3%D0%BE-%D1%87%D0%B5%D0%BC%D0%BF%D0%B8%D0%BE%D0%BD%D0%B0%D1%82%D0%B0-%D0%BC%D0%B8%D1%80%D0%B0-%D0%BF%D0%BE-%D1%85%D0%BE%D0%BA%D0%BA%D0%B5%D1%8E-%D0%B2-%D0%BA%D0%B0%D0%BD%D0%B0%D0%B4%D0%B5/a-79891077?maca=rus-rss-ru-all-1126-rdf",
+      "excerpt": "В связи с решением Спортивного суда Норвегия как команда с самым низким рейтингом на молодежном чемпионате мира должна уступить свое место сборной России. В Осло ожидают дополнительной информации от IIHF в ближайшие дни.",
+      "content": "В связи с решением Спортивного суда Норвегия как команда с самым низким рейтингом на молодежном чемпионате мира должна уступить свое место сборной России. В Осло ожидают дополнительной информации от IIHF в ближайшие дни.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-08T15:03:00.000Z",
+      "sourceId": "dw-ru",
+      "source": "DW Russian",
+      "category": "war",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:56:03.691Z"
+    },
+    {
+      "id": "1pupibz",
+      "title": "Logitech G502 X Lightspeed Review: No lights, same price",
+      "url": "https://www.tomshardware.com/peripherals/gaming-mice/logitech-g502-x-lightspeed-review",
+      "excerpt": "Logitech's G502 X Lightspeed has been around for awhile — the mouse was introduced in 2022 alongside the fancier Logitech G502 X Plus (and the wired G502 X), but since it’s receiving a firmware update that upgrades its Hero 25K sensor to a Hero 44K sensor…",
+      "content": "Logitech's G502 X Lightspeed has been around for awhile — the mouse was introduced in 2022 alongside the fancier Logitech G502 X Plus (and the wired G502 X), but since it’s receiving a firmware update that upgrades its Hero 25K sensor to a Hero 44K sensor, this seemed like a good time to take a look at it. The G502X Lightspeed is available in black and white colorways and currently retails for $159.99, which is the same price as the G502 X Plus — however, it can (and should) normally be found for less than this.\n\nDesign and Comfort of the G502 X Lightspeed\n\nThe Logitech G502 X Lightspeed is a right-handed gaming mouse with an ergonomically contoured shape. It's the same size and shape as the G502 X Plus, with large primary mouse buttons, textured rubber side panels for grip, and a smooth matte chassis with glossy accents. It comes in black and white colorways (our review unit was black) and has no lighting aside from a small indicator light at the front of the mouse to indicate connection and battery life.\n\nLike the G502 X Plus, the G502 X Lightspeed is definitely on the larger side. It measures 5.17 inches (131.4mm) long by 3.12 inches (79.2mm) wide, and is 1.62 inches (41.1mm) high at its tallest point. It's larger than the Razer Basilisk V3 Pro and V4 Pro (5.11 x 2.96 x 1.67 inches / 130 x 75.4 x 42.5mm) — not by a lot, but it definitely feels like a much larger mouse. It weighs about 3.6 ounces (102g), which makes it lighter than the Basilisk V3 Pro, but slightly heavier than the Basilisk V4 Pro.\n\nThe G502 X Lightspeed has 11 programmable buttons, and 13 programmable controls if you include scroll up/down. There are the left and right primary mouse buttons, as well as two side buttons along the left edge of the left mouse button. On the left side of the mouse there are the two standard thumb buttons, plus a \"sniper\" button that's magnetically attached and can be flipped so that it's not in your way. The sniper button can also be \"deleted,\" and Logitech includes a delete cover in the box that makes the button unpressable (and also has the same soft, rubbery texture as the rest of the thumb rest).\n\nThe scroll wheel is a 4-way tilt wheel, so it has three programmable \"buttons\" (left click, right click, and center click), as well as scroll up/down. Above the scroll wheel are two buttons: One is a mechanical scroll wheel switch that switches between notched, tactile scroll and free scroll — that’s not programmable, as it's a physical switch — and the other is a profile cycle button that can be remapped.\n\nOn the bottom of the mouse you'll find UHMWPE mouse feet — at the top and bottom, around the sensor, and under the thumb rest. There's a power switch, as well as a magnetically-attached dummy puck that can be swapped out for the charging puck included in the Logitech PowerPlay 2 . Under the puck is a slot for storing the mouse's wireless dongle.\n\nIn the box, the G502 X Lightspeed comes with a 6-foot (1.8m) USB-C-to-USB-A cable, a USB-A dongle, a USB-C converter, and a sniper button delete cover.\n\nSpecs\n\nSpecs Sensor Model\n\nHERO 25K\n\nMax Sensitivity\n\n25,000 DPI (44,000 DPI with update)\n\nMax Speed (IPS)\n\n400 IPS (678 IPS with update)\n\nMax Acceleration\n\n40 G\n\nPolling Rates\n\n1000 Hz\n\nProgrammable Buttons\n\n11 (13 programmable controls)\n\nLED Zones\n\n8\n\nCable\n\n6ft / 1.8m USB-C to USB-A\n\nConnectivity\n\n2.4GHz wireless, wired (USB-C)\n\nMeasurements (L x W x H)\n\n5.17 x 3.12 x 1.62 inches / 131.4 x 79.2 x 41.1 mm\n\nWeight (excluding cable)\n\n3.6oz / 102g\n\nMSRP / Price at Time of Review\n\n159.99\n\nRelease Date\n\nAug. 2022 / Firmware update Sept. 2026\n\nPerformance of the G502 X Lightspeed\n\nThe Logitech G502 X Lightspeed ships with Logitech's Hero 25K optical sensor, which has a max resolution of 25,600 DPI and a maximum speed of 400 IPS, and can handle up to 40 G's of force. However, both the G502X Lightspeed and the G502 X Plus are receiving a firmware update that will upgrade the Hero 25K optical sensor to a Hero 44K optical sensor, with a maximum resolution of 44,000 DPI and a maximum speed of up to 678 IPS. It's not clear when this upgrade will roll out, however, and I wasn't able to upgrade my review unit in G Hub as of this writing.\n\nUpgrades aside, the G502 X Lightspeed's sensor is very good. It tracks on just about every surface you might possibly use while gaming, and is speedy, sensitive, and very accurate. The mouse supports a polling rate of up to 1,000 Hz, which is still pretty standard for most gamers — however, if you're someone who's convinced that the extra 0.125 milliseconds of lag is the reason for your losses, this is not a mouse with an 8,000 Hz or even a 4,000 Hz polling rate.\n\nThe G502 X Lightspeed features Logitech's Lightforce hybrid optical-mechanical switches in its primary mouse buttons, which combine the feel of mechanical switches with the speed and reliability of optical ones. The G502 X Lightspeed's switches do have a nice, tactile click with a crisp sound that's definitely on the louder side. The side buttons also feel and sound good — not quite as tactile as the primary buttons, but with a very crisp click sound.\n\nThe mouse features a dual-mode tilt wheel with a mechanical switch that lets you move between a notched, tactile scroll and a smooth, speedy free-scroll. Logitech's implementation of this is different from Razer's — Logitech's is mechanical, while Razer's is software-based. This means the modes are more distinct, but I'm not really sure if that's a good thing. While I liked the free-scroll mode of the G502 X Lightspeed better than I liked the free-scroll mode on Razer's mice (such as the Basilisk V4 Pro and the Naga V3 Pro), the tactile scroll was stiff, clunky, and very loud — with a lot of rattling. The scroll wheel only has two modes, so there's no middle ground — and while I'm fine to use free-scroll for most things, there are definitely games where I need a notched scroll wheel.\n\nFeatures and Software of the G502 X Lightspeed\n\nThe G502 X Lightspeed is configurable via Logitech's universal peripheral software, G Hub. You can use G Hub to change the mouse's DPI settings (DPI steps and DPI shift speed — the DPI switch that occurs when you hit the DPI shift button) and remap keys. You can also use G Hub to update the mouse's firmware, so this is presumably where the Hero 44K sensor upgrade will come through.\n\nWireless Experience & Battery Life of the G502 X Lightspeed\n\nThe G502 X Lightspeed connects to your PC via 2.4GHz wireless; it can also utilize a wired connection, though the included USB-C cable is rubber and won't get you that smooth, drag-free wired mouse movement you can get with flexible paracord-covered mouse cables. The mouse does not include Bluetooth.\n\nLogitech rates the G502 X Lightspeed at 140 hours of battery life, which is about 10 hours longer than the G502 X Plus (with no lighting). This is pretty impressive, even if there are similar wireless mice that last longer (the recently-launched Razer Basilisk V4 Pro gets up to 200 hours, for example). This should give you at least two weeks before you need to recharge, even with intense use. The G502X Lightspeed is also compatible with the PowerPlay 2, Logitech's wireless charging mousepad (sold separately).\n\nBottom Line\n\nThe G502 X Lightspeed is a solid gaming mouse for most gamers — its contoured, ergonomic shape is comfortable, though it does feel bigger than similarly shaped mice, such as the Razer Basilisk V4 Pro. It has enough extra well-placed buttons for the average gamer (though, not enough for the average MMO player), and its 140-hour battery life is higher than average. Plus, assuming it actually gets this firmware update, it will have a competitive sensor — though it's not going to be quite as good as the actual Hero 2 sensor. But this mouse is currently priced at $159.99, which is the same price as the fancier Logitech G502 X Plus — and it's definitely supposed to be the more budget version of the two. Unless you find it at a great sale price, I'd pick up the G502 X Plus or even Razer's Basilisk V3 Pro 35K at a similar price.",
+      "image": "https://cdn.mos.cms.futurecdn.net/LRYNJSMjBm7jkB5d34dfZ9-1920-80.jpg",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/LRYNJSMjBm7jkB5d34dfZ9-1920-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/a3fLpUpJ3xJD8mJa67FdR9-1920-80.jpg",
+          "alt": "Logitech G502 X Lightspeed"
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/BrCjMbioSMgyVYdB53F5N9-1920-80.jpg",
+          "alt": "Logitech G502 X Lightspeed"
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/H2bRMJmcMFc8jdgdapqNN9-1920-80.jpg",
+          "alt": "Logitech G502 X Lightspeed"
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/Li3NThtVeKNXdba5YjZ7R9-1920-80.jpg",
+          "alt": "Logitech G502 X Lightspeed"
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/3NjQqMiqvsW7rvKxNi7Hh9-1920-80.jpg",
+          "alt": "Logitech G502 X Lightspeed"
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/32Ab4fEobfaVFawJKHAFi9-1920-80.jpg",
+          "alt": "Logitech G502 X Lightspeed"
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/63L7TNRf6XzqLASf6GvnX9-1920-80.jpg",
+          "alt": "Logitech G502 X Lightspeed"
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/ZWMSYDm5gPpbGdEr2WgNi9-1920-80.jpg",
+          "alt": "Logitech G502 X Lightspeed"
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/YSdvYiDCBffgqmLj22Vte9-1920-80.jpg",
+          "alt": "Logitech G502 X Lightspeed"
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/ahtgobLXySNHjcdzFJarc9-1920-80.jpg",
+          "alt": "Logitech G502 X Lightspeed"
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/273H3QZGP7L2EkR7EvFif9-1920-80.jpg",
+          "alt": "Logitech G502 X Lightspeed"
+        }
+      ],
+      "publishedAt": "2026-11-08T15:00:00.000Z",
+      "sourceId": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "hardware",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:56:03.691Z"
+    },
+    {
+      "id": "h5zlz4",
+      "title": "Japanese arcades suffer week-long blackout following Sega server hack",
+      "url": "https://www.tomshardware.com/video-games/japanese-arcades-suffer-week-long-blackout-following-sega-server-hack-bandai-namco-titles-resume-trial-operations-as-sega-games-remain-offline",
+      "excerpt": "The sensory overload typically experienced when visiting video game arcades in Japan was eerily absent from some venues this week, reports ITMedia News [machine translation]. It says that a Sega system outage meant there was “no end in sight” for the rows of…",
+      "content": "The sensory overload typically experienced when visiting video game arcades in Japan was eerily absent from some venues this week, reports ITMedia News [machine translation]. It says that a Sega system outage meant there was “no end in sight” for the rows of silent black screens. However, a recent tweet from arcade network operator ALL.net indicates that both Sega and Bandai Namco machines are affected. Moreover, arcade lovers will be pleased to hear that affected arcades will “gradually resume operation on a trial basis starting today.”\n\nALL.Net, a contraction of Amusement Linkage Live Network, was launched by Sega in 2004 to allow arcade games to look up to the net for auto updates, data logging, implement online play, and power national leaderboards. Sega titles like Initial D The Arcade, Maimai, and CHUNITHM , rely on this network, as do Bandai Namco games like A iko no Tatsujin, Mario Kart Arcade GP DX, and Gundam Extreme Vs .\n\nIn its official apology blog post, dated November 2, ALL.Net / Sega Fave said that it suspended services a day prior after it became aware of its servers being affected by “unauthorized access by a third party.” It reassured customers that their personal info and billing data were not on the compromised server. However, it asked for more time to investigate, run safety checks, and so on, before restoring service.\n\nThis morning ALL.Net told customers that Bandia Namco titles “will gradually resume operation on a trial basis starting today (online play and card use enabled).” Sega products remain under maintenance, and online services are unavailable. There is currently no estimate for issue resolution, but a news bulletin is promised for November 10 (Tuesday).\n\nClassic offline arcade machines weren’t affected by this outage, of course. Moreover, rival arcade gaming legends like Taito and Konami run their own, separate, arcade networks and authentication systems.",
+      "image": "https://cdn.mos.cms.futurecdn.net/6bTepYkWP4cUUo6aw772iH-1920-80.jpg",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/6bTepYkWP4cUUo6aw772iH-1920-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/LREMXDfYxFfQCQ2mUL9zeH-1920-80.jpg",
+          "alt": "Arcades go dark"
+        }
+      ],
+      "publishedAt": "2026-11-08T15:00:00.000Z",
+      "sourceId": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "hardware",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:56:03.691Z"
+    },
+    {
+      "id": "1vpurwr",
+      "title": "Зеленський доручив Корецькому представити програму безкоштовного проїзду в транспорті Києва",
+      "url": "https://www.radiosvoboda.org/a/news-zelensky-koretsky-prohramabezkoshtovnoho-proizdu-kyiv/33893305.html",
+      "excerpt": "Селекторна нарада також стосувалася ситуації в Харкові, Запоріжжі, на Дніпропетровщині та в інших прифронтових громадах",
+      "content": "Селекторна нарада також стосувалася ситуації в Харкові, Запоріжжі, на Дніпропетровщині та в інших прифронтових громадах",
+      "image": "https://gdb.rferl.org/03879ac8-3422-4ae2-e552-08df13a87301_cx0_cy10_cw0_w800_h450.jpg",
+      "images": [
+        {
+          "url": "https://gdb.rferl.org/03879ac8-3422-4ae2-e552-08df13a87301_cx0_cy10_cw0_w800_h450.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T14:59:50.000Z",
+      "sourceId": "radiosvoboda",
+      "source": "Radio Svoboda",
+      "category": "war",
+      "lang": "uk",
+      "addedAt": "2026-11-08T15:56:03.691Z"
+    },
+    {
+      "id": "8bg994",
+      "title": "Война. 1719-й день. Россия продолжает наносить удары по энергосистеме Украины. В Днепропетровской области блэкаут — без электричества остались 600 тысяч человек",
+      "url": "https://meduza.io/feature/2026/11/08/voyna",
+      "excerpt": "«Медуза» с 24 февраля 2022 года в прямом эфире рассказывает о российско-украинской войне. Мы ежедневно публикуем ваши письма, потому что уверены: о войне нужно продолжать говорить. Поделитесь с нами мыслями о войне. Какие чувства вы испытываете? Как война…",
+      "content": "«Медуза» с 24 февраля 2022 года в прямом эфире рассказывает о российско-украинской войне. Мы ежедневно публикуем ваши письма, потому что уверены: о войне нужно продолжать говорить.  Поделитесь с нами мыслями о войне. Какие чувства вы испытываете? Как война влияет на вашу жизнь и ваше отношение к миру?   Если у вас есть история, связанная с войной, — расскажите ее . Форма для обратной связи — в конце этой статьи. Обзор предыдущего дня можно прочитать  здесь .\n\nРоссийские войска продолжают наносить удары по энергетической инфраструктуре Украины. В результате очередной атаки в Днепропетровской области без электричества остались около 600 тысяч человек. До войны в этом регионе жили три миллиона человек.\n\nГлава Днепропетровской областной администрации Александр Ганжа сообщил утром 8 ноября, что подача электричества прервана в Днепровском, Каменском, Самаровском, Павлоградском и Синельниковском районах. Больницы и объекты критической инфраструктуры переходят на работу от генераторов, объявил он. Глава области призвал жителей, у которых не отключили электричество, экономно расходовать его, чтобы не создавать нагрузку на сети.\n\nЭнергокомпания ДТЭК, в свою очередь, заявила , что в результате ночных ударов повреждены важные объекты инфраструктуры. Энергетики делают все возможное, чтобы оперативно устранить последствия ударов, но «работы осложняются повторными атаками».\n\nКак украинские города живут под российскими атаками\n\n• Украинские города адаптируются к войне, которая все больше проникает в тыл Вот как она меняет ежедневный быт в Киеве, Одессе, Харькове, Днепре и Запорожье\n\nМинэнерго Украины сообщило , что из-за российских атак перебои в подаче электричества также произошли в Житомирской, Ровенской, Сумской, Харьковской и Черниговской областях. В очередной раз прервано внешнее электроснабжение Запорожской АЭС, находящейся под контролем российских военных. Станция перешла на питание от дизельных генераторов. По подсчетам Минэнерго Украины, Запорожская АЭС осталась без внешнего электроснабжения 16-й раз с начала этого года.\n\nТакже сложной остается ситуация с электроснабжением Киева и Киевской области, признает «Укрэнерго». Там 8 ноября введены экстренные отключения электричества.\n\nВ октябре The New York Times писала о российском плане вывести из строя энергосистему Украины, чтобы принудить Киев к капитуляции предстоящей зимой. По этому плану, который, как сообщалось, удалось перехватить украинским спецслужбам, Россия собиралась оставить крупнейшие города Украины — Киев, Одессу и Харьков — без электричества, водоснабжения и канализации.\n\nВоенные эксперты, опрошенные NYT, указывали, что у Украины может не хватить средств ПВО для отражения атак, а ее энергосистема уязвима из-за накопленного эффекта предыдущих ударов. При этом они подчеркивали, что подобные кампании бомбардировок, разрушающих экономику и жизнь мирного населения, как показывает историческая практика, к капитуляции не приводят.\n\nПодробнее об этом плане\n\n• Россия хочет оставить Одессу, Харьков и Киев без света и воды зимой — чтобы принудить Украину к капитуляции Такой план перехватила украинская разведка\n\nВойна в фотографиях\n\nРоссийские войска 2 ноября нанесли авиаудар по убежищу в Камышевахе, расположенному в здании бывшей школы. По данным на 8 ноября, в Камышевахе погибли 55 человек. Разбор завалов пока не завершен, список погибших не окончательный. Спасателей, работающих в Камышевахе, российские военные 8 ноября атаковали дроном . В Запорожье 7 ноября прошли первые похороны погибших в Камышевахе.\n\nВойна глазами читателей «Медузы»\n\nЧитатели «Медузы» живут в разных странах и по-разному относятся к войне. Мы публикуем ваши письма, чтобы увидеть это событие вашими глазами. Наши редакторы стараются представить все точки зрения, даже если они не совпадают с позицией редакции. В соответствии с  кодексом «Медузы»  мы не публикуем сообщения, в которых содержится «язык ненависти», оправдывается убийство мирных людей, выражается прямая поддержка агрессивной войны.\n\nМы проверяем, не написаны ли письма искусственным интеллектом, но, к сожалению, даже самая тщательная проверка не способна в полной мере защитить от манипуляций. Пожалуйста, имейте это в виду, когда читаете этот материал.\n\nИлья (Россия) . Что я могу сказать. Я и, наверное, примерно все мое поколение очень «удачно» попали. Мы были еще слишком юны и глупы, когда в РФ еще что-то можно было менять. Теперь уже поздно.\n\nМы были молоды, без денег и карьеры тогда. Кто-то из нас все так же без карьеры и денег сейчас, кто-то при деньгах относительно и уверенно стоит на ногах. Но в самый пик нашей жизни — мы изгои для доброй половины мира. Ровно тогда, когда ты хочешь и уже, возможно, можешь себе позволить путешествовать, заводить новые контакты (возможно, за рубежом), познавать новое, творить, создавать стартапы и так далее. Ровно в это время нам это все закрыто.\n\nЯ видел кучу мнений, и на «Медузе» в том числе, о том, что это не навсегда. Что настанет когда-то лучшая РФ будущего. А мне что? А мне плевать — зачем она мне когда-то? Я живу свою жизнь сейчас, я молодой сейчас. Я хочу творить сейчас. Зачем мне все это тогда, когда я уже ничего хотеть не буду? Конечно, надежда где-то есть, и я хочу верить, что это не навсегда. Но одновременно есть огромное уныние — моя молодость от этого не вернется, годы, проведенные с позором, изгнанием и так далее, это не отменит. Равно как и для украинцев это не отменит смерти и годы, проведенные в страхе. Война отнимает не просто жизни, но и нечто большее. У всех.\n\nПоделитесь вашими мыслями о войне\n\nО чем мы писали накануне\n\n• Война 1718-й день. Заявление Трампа о «большой прекрасной сделке» с Россией застало Европу врасплох. Европейские лидеры опасаются, что Москва лишь выиграет время для ударов",
+      "image": "https://meduza.io/image/attachments/images/012/947/574/small/Pjw_cxyotay45IRTZmcrNw",
+      "images": [
+        {
+          "url": "https://meduza.io/image/attachments/images/012/947/574/small/Pjw_cxyotay45IRTZmcrNw",
+          "alt": ""
+        },
+        {
+          "url": "https://meduza.io/image/attachments/images/012/947/663/small/SvdkSevnFsxBejtYYxA96Q",
+          "alt": ""
+        },
+        {
+          "url": "https://meduza.io/image/attachments/images/012/947/687/small/dTlv4gFyq0aWRB7w8XSawg",
+          "alt": ""
+        },
+        {
+          "url": "https://meduza.io/image/attachments/images/012/947/740/small/xTGaw1Wvyhx20oLxJVi48A",
+          "alt": ""
+        },
+        {
+          "url": "https://meduza.io/image/attachments/images/012/947/679/small/qDkxbXSDPYYBpnIkt8Q09A",
+          "alt": ""
+        },
+        {
+          "url": "https://meduza.io/image/attachments/images/012/947/671/small/4_q8vo3529BxPAxbwfenrw",
+          "alt": ""
+        },
+        {
+          "url": "https://meduza.io/image/attachments/images/012/947/695/small/tjpWBgOwJTv-lvzVrc8adQ",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T14:26:19.000Z",
+      "sourceId": "meduza",
+      "source": "Meduza",
+      "category": "war",
+      "lang": "ru",
+      "addedAt": "2026-11-08T15:56:03.691Z"
+    },
+    {
+      "id": "10fltch",
+      "title": "Agent memory needs its OpenTelemetry moment",
+      "url": "https://www.lorekit.io/blog/open-agent-memory-format",
+      "excerpt": "Article URL: https://www.lorekit.io/blog/open-agent-memory-format Comments URL: https://news.ycombinator.com/item?id=50411467 Points: 101 # Comments: 77",
+      "content": "Article URL: https://www.lorekit.io/blog/open-agent-memory-format\n\nComments URL: https://news.ycombinator.com/item?id=50411467\n\nPoints: 101\n\n# Comments: 77",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-08T08:40:23.000Z",
+      "sourceId": "hn",
+      "source": "Hacker News",
+      "category": "aisoft",
+      "lang": "en",
+      "addedAt": "2026-11-08T15:56:03.691Z"
+    },
+    {
       "id": "gh-1416318739",
       "title": "TheRealestNwah/sotc-decomp: Matching decompilation of Shadow of the Colossus (PS2, NTSC-U) aiming for a native PC port",
       "url": "https://github.com/TheRealestNwah/sotc-decomp",
@@ -754,7 +1251,7 @@
       "url": "https://github.com/JuggyMcNutty/port-ex-machina",
       "excerpt": "Deus Ex on Linux, Windows and game consoles, on our own engine and launcher.",
       "image": "",
-      "publishedAt": "2026-11-08T15:02:13Z",
+      "publishedAt": "2026-11-08T15:16:31Z",
       "addedAt": "2026-11-08T15:04:02.210Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -3490,7 +3987,7 @@
       "url": "https://github.com/kelvynzucco/majistic-recomp",
       "excerpt": "Native PC port and static recompilation of Majin and the Forsaken Kingdom (Xbox 360) for Windows x64. Direct3D 12, locked 60 FPS, and 4K support.",
       "image": "",
-      "publishedAt": "2026-11-08T10:37:56Z",
+      "publishedAt": "2026-11-08T15:24:20Z",
       "addedAt": "2026-11-08T09:40:16.203Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -4451,8 +4948,8 @@
       "id": "vduo6c",
       "title": "Goodbye Claude, Hello Pi",
       "url": "https://caleb.software/posts/claude-to-pi.html",
-      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 469 # Comments: 312",
-      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 469\n\n# Comments: 312",
+      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 500 # Comments: 326",
+      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 500\n\n# Comments: 326",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T03:11:48.000Z",
@@ -4669,7 +5166,7 @@
       "url": "https://github.com/7v0biscuit/OpenKai2",
       "excerpt": "A Native Windows Port of Dragon Ball Z: Budokai 2",
       "image": "",
-      "publishedAt": "2026-11-08T12:02:10Z",
+      "publishedAt": "2026-11-08T15:47:46Z",
       "addedAt": "2026-11-08T05:40:16.174Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -5036,7 +5533,7 @@
       "url": "https://github.com/KinmoCode/ocarina-recomp-guide",
       "excerpt": "Release SHA-256 checksums, requirements and setup notes for Ocarina Recomp, Hookshot (NotRexed) and TriAevum native PC ports",
       "image": "",
-      "publishedAt": "2026-11-08T04:36:41Z",
+      "publishedAt": "2026-11-08T15:53:34Z",
       "addedAt": "2026-11-08T04:40:14.479Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -6149,8 +6646,8 @@
       "id": "zof7yv",
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 470 # Comments: 331",
-      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 470\n\n# Comments: 331",
+      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 487 # Comments: 350",
+      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 487\n\n# Comments: 350",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T20:45:32.000Z",
@@ -7815,8 +8312,8 @@
       "id": "6a6jp5",
       "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
       "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 344 # Comments: 95",
-      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 344\n\n# Comments: 95",
+      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 348 # Comments: 98",
+      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 348\n\n# Comments: 98",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T17:19:00.000Z",
@@ -8433,12 +8930,25 @@
       "addedAt": "2026-11-07T18:17:41.405Z"
     },
     {
+      "id": "gh-1391431410",
+      "title": "TGP482/XboxXBERecomp: A tool for statically recompiling original Xbox games into native executables.",
+      "url": "https://github.com/TGP482/XboxXBERecomp",
+      "excerpt": "A tool for statically recompiling original Xbox games into native executables.",
+      "image": "",
+      "publishedAt": "2026-11-08T15:52:24Z",
+      "addedAt": "2026-11-07T18:00:03.196Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
       "id": "gh-1429599038",
       "title": "TheBozos/VP2S_Recomp: Native PC port of Valkyrie Profile 2: Silmeria (USA, SLUS-21452) by static recompilation with PS2Recomp: native renderer and audio, no GS/VU1/SPU2 emulation. No game data or keys included.",
       "url": "https://github.com/TheBozos/VP2S_Recomp",
       "excerpt": "Native PC port of Valkyrie Profile 2: Silmeria (USA, SLUS-21452) by static recompilation with PS2Recomp: native renderer and audio, no GS/VU1/SPU2 emulation. No game data or keys included.",
       "image": "",
-      "publishedAt": "2026-11-08T15:02:33Z",
+      "publishedAt": "2026-11-08T15:37:31Z",
       "addedAt": "2026-11-07T18:00:03.196Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -8465,19 +8975,6 @@
       "excerpt": "🤴🏼 Clean-room reimplementation of Emperor: Rise of the Middle Kingdom in C++20 and SDL3. Built for modern systems, starting with Apple Silicon macOS. Early development; original game data required.",
       "image": "",
       "publishedAt": "2026-11-07T17:57:22Z",
-      "addedAt": "2026-11-07T18:00:03.196Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
-      "id": "gh-1391431410",
-      "title": "TGP482/XboxXBERecomp: A tool for statically recompiling original Xbox games into native executables.",
-      "url": "https://github.com/TGP482/XboxXBERecomp",
-      "excerpt": "A tool for statically recompiling original Xbox games into native executables.",
-      "image": "",
-      "publishedAt": "2026-11-07T17:55:16Z",
       "addedAt": "2026-11-07T18:00:03.196Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -8529,7 +9026,7 @@
       "url": "https://github.com/TheBozos/TMB_Recomp",
       "excerpt": "Twisted Metal: Black (USA, SCUS-97101) as a native PC port: static recompilation with PS2Recomp (no game data)",
       "image": "",
-      "publishedAt": "2026-11-08T14:43:18Z",
+      "publishedAt": "2026-11-08T15:25:49Z",
       "addedAt": "2026-11-07T18:00:02.232Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -11519,8 +12016,8 @@
       "id": "1iqgq9j",
       "title": "Every Mac comes with an (undocumented) family member classifier",
       "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 773 # Comments: 420",
-      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 773\n\n# Comments: 420",
+      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 784 # Comments: 422",
+      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 784\n\n# Comments: 422",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T09:46:03.000Z",
@@ -14425,7 +14922,7 @@
       "url": "https://github.com/boburning/portcove",
       "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
       "image": "",
-      "publishedAt": "2026-11-08T14:59:17Z",
+      "publishedAt": "2026-11-08T15:51:59Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -15734,12 +16231,25 @@
       "lang": "en"
     },
     {
+      "id": "gh-1359181981",
+      "title": "chrissotraidis/projectreach: Halo: Combat Evolved on iPhone, iPad and Mac. The Xbox edition with online matches of up to 128 players and the original campaign, plus Halo Custom Edition with its community servers. Bring your own game and build it on your Mac.",
+      "url": "https://github.com/chrissotraidis/projectreach",
+      "excerpt": "Halo: Combat Evolved on iPhone, iPad and Mac. The Xbox edition with online matches of up to 128 players and the original campaign, plus Halo Custom Edition with its community servers. Bring your own game and build it on your Mac.",
+      "image": "",
+      "publishedAt": "2026-11-08T15:44:29Z",
+      "addedAt": "2026-11-07T06:02:57.825Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
       "id": "gh-1441934743",
       "title": "Lucas-blip-png/dkb-pc-recomp: Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Plays from the title screen through the first stage on an RTX 5060 Ti; still early, can crash. No game files included.",
       "url": "https://github.com/Lucas-blip-png/dkb-pc-recomp",
       "excerpt": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Plays from the title screen through the first stage on an RTX 5060 Ti; still early, can crash. No game files included.",
       "image": "",
-      "publishedAt": "2026-11-08T14:43:33Z",
+      "publishedAt": "2026-11-08T15:42:52Z",
       "addedAt": "2026-11-07T06:02:57.825Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -15831,19 +16341,6 @@
       "excerpt": "Multiplatform and Feature-rich Port based on PSX decompilation of Silent Hill 1 made with Claude and Psycross. Still in beta and is in active development.",
       "image": "",
       "publishedAt": "2026-11-07T05:51:30Z",
-      "addedAt": "2026-11-07T06:02:57.825Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
-      "id": "gh-1359181981",
-      "title": "chrissotraidis/projectreach: Halo: Combat Evolved on iPhone, iPad and Mac. The Xbox edition with online matches of up to 128 players and the original campaign, plus Halo Custom Edition with its community servers. Bring your own game and build it on your Mac.",
-      "url": "https://github.com/chrissotraidis/projectreach",
-      "excerpt": "Halo: Combat Evolved on iPhone, iPad and Mac. The Xbox edition with online matches of up to 128 players and the original campaign, plus Halo Custom Edition with its community servers. Bring your own game and build it on your Mac.",
-      "image": "",
-      "publishedAt": "2026-11-07T04:13:59Z",
       "addedAt": "2026-11-07T06:02:57.825Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -29908,7 +30405,7 @@
     },
     {
       "id": "130ljkl",
-      "title": "Война в Украине: Россия ударила по пригороду Днепра, дрон атаковал спасателей в Камышевахе, Франция заявила об участии Европы во встрече в Абу-Даби",
+      "title": "Война в Украине: Россия ударила по пригороду Днепра, дрон атаковал спасателей в Камышевахе",
       "url": "https://www.bbc.co.uk/russian/live/cmjrwvyj4jy8t?at_medium=RSS&at_campaign=rss",
       "excerpt": "Последние новости, комментарии и видео о войне России против Украины.",
       "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a44e/live/b56c15b0-db67-11f1-b441-2b33b063138f.jpg",
