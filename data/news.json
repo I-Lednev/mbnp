@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T08:10:22.293Z",
-  "tookMs": 13785,
+  "generatedAt": "2026-11-08T08:40:24.529Z",
+  "tookMs": 13964,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -25,25 +25,25 @@
   },
   "counts": {
     "ai": 118,
-    "games": 110,
-    "announces": 38,
+    "games": 111,
+    "announces": 39,
     "mobile": 15,
     "releases": 47,
     "rumors": 31,
     "software": 46,
     "science": 67,
-    "entertainment": 182,
-    "ports": 129,
-    "pc": 53,
+    "entertainment": 184,
+    "ports": 130,
+    "pc": 52,
     "consoles": 129,
-    "hardware": 47,
+    "hardware": 48,
     "industry": 48,
     "updates": 28,
     "aimods": 2,
     "aisoft": 54,
-    "cars": 135,
+    "cars": 138,
     "war": 126,
-    "total": 1405
+    "total": 1413
   },
   "sourceCount": 98,
   "sources": [
@@ -736,12 +736,6 @@
   ],
   "errors": [
     {
-      "source": "Nature",
-      "url": "https://www.nature.com/nature.rss",
-      "error": "ответ не похож на RSS/Atom",
-      "reused": 10
-    },
-    {
       "source": "r/emulation",
       "url": "https://www.reddit.com/r/emulation/new/.rss",
       "error": "HTTP 429",
@@ -759,6 +753,154 @@
     }
   ],
   "items": [
+    {
+      "id": "gh-1378624759",
+      "title": "veritr1x/metal-fatigue-recomp: Native Metal Fatigue recompilation with Metal/Vulkan rendering, audio, movies and HD output. Bring your own game files.",
+      "url": "https://github.com/veritr1x/metal-fatigue-recomp",
+      "excerpt": "Native Metal Fatigue recompilation with Metal/Vulkan rendering, audio, movies and HD output. Bring your own game files.",
+      "image": "",
+      "publishedAt": "2026-11-08T08:25:07Z",
+      "addedAt": "2026-11-08T08:40:16.763Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "r0vdmi",
+      "title": "Создатели Fragmentary Order раскрыли предварительные системные требования шутера",
+      "url": "https://www.igromania.ru/news/169793/sozdateli-fragmentary-order-raskryili-predvaritelnyie-sistemnyie-trebovaniya-shutera/",
+      "excerpt": "Разработчики Fragmentary Order — нового шутера создателя Escape from Tarkov Никиты Буянова — раскрыли предварительные системные требования альфа-версии игры. Впрочем, со временем они могут измениться.",
+      "content": "Разработчики Fragmentary Order — нового шутера создателя Escape from Tarkov Никиты Буянова — раскрыли предварительные системные требования альфа-версии игры. Впрочем, со временем они могут измениться.",
+      "image": "https://newcdn.igromania.ru//r/5e8793dc5e2e47d9bfbf542c11215f4e/510x-/newcdn.igromania.ru/articles/pics/tmp/images/2026/11/8/8cf2cbfa-6803-4eb3-a9b3-f5ef7153f3d4.jpg",
+      "images": [
+        {
+          "url": "https://newcdn.igromania.ru//r/5e8793dc5e2e47d9bfbf542c11215f4e/510x-/newcdn.igromania.ru/articles/pics/tmp/images/2026/11/8/8cf2cbfa-6803-4eb3-a9b3-f5ef7153f3d4.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T08:31:30.000Z",
+      "sourceId": "igromania",
+      "source": "Игромания",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-08T08:40:10.565Z"
+    },
+    {
+      "id": "1athx6x",
+      "title": "Что проверить в автомобиле до первых морозов",
+      "url": "https://www.zr.ru/content/news/988146-chto-proverit-v-avtomobile-do/",
+      "excerpt": "Эксперты Авито рассказали о подготовке авто к зиме",
+      "content": "Эксперты Авито рассказали о подготовке авто к зиме",
+      "image": "https://www.zr.ru/_ah/img/VDFLPn1mreYzynkgaF-8eg",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/VDFLPn1mreYzynkgaF-8eg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T08:30:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-08T08:40:10.565Z"
+    },
+    {
+      "id": "oys2id",
+      "title": "Британский исполнитель Passenger выпустил альбом «Wild Love»",
+      "url": "https://www.intermedia.ru/news/407971",
+      "excerpt": "Британский музыкант Майкл Розенберг, известный как Passenger, выпустил 6 ноября 2026 года свой новый альбом «Wild Love». Релиз состоялся на всех...",
+      "content": "Британский музыкант Майкл Розенберг, известный как Passenger, выпустил 6 ноября 2026 года свой новый альбом «Wild Love». Релиз состоялся на всех...",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-08T08:27:00.000Z",
+      "sourceId": "intermedia",
+      "source": "InterMedia",
+      "category": "entertainment",
+      "lang": "ru",
+      "addedAt": "2026-11-08T08:40:10.565Z"
+    },
+    {
+      "id": "2qfy32",
+      "title": "BYD's New Flagship Sedan Wants To Be China's Most Luxurious Car Yet",
+      "url": "https://www.motor1.com/news/814760/byd-yangwang-altior-revealed/",
+      "excerpt": "For when you need two fridges and 39 speakers inside your car.",
+      "content": "For when you need two fridges and 39 speakers inside your car.",
+      "image": "https://cdn.motor1.com/images/mgl/2N9Kxz/s3/2027-yangwang-altior.jpg",
+      "images": [
+        {
+          "url": "https://cdn.motor1.com/images/mgl/2N9Kxz/s3/2027-yangwang-altior.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T08:25:09.000Z",
+      "sourceId": "motor1",
+      "source": "Motor1",
+      "category": "cars",
+      "lang": "en",
+      "addedAt": "2026-11-08T08:40:10.565Z"
+    },
+    {
+      "id": "bzdqx",
+      "title": "TeamKill Media выпустила крупное обновление для Code Violet и анонсировала платное DLC с косметикой",
+      "url": "https://www.playground.ru/code_violet/news/teamkill_media_vypustila_krupnoe_obnovlenie_dlya_code_violet_i_anonsirovala_platnoe_dlc_s_kosmetikoj-1888765",
+      "excerpt": "Студия TeamKill Media сообщила о выходе масштабного патча 01.000.029 для эксклюзива PlayStation 5 Code Violet. Обновление принесло оптимизацию производительности, расширенные возможности кастомизации, улучшенное поведение динозавров, более отзывчивое…",
+      "content": "Студия TeamKill Media сообщила о выходе масштабного патча 01.000.029 для эксклюзива PlayStation 5 Code Violet. Обновление принесло оптимизацию производительности, расширенные возможности кастомизации, улучшенное поведение динозавров, более отзывчивое управление и множество исправлений по всей игре.",
+      "image": "https://i.playground.ru/e/DKjiow6b7yilCCBp8U7OPw.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/DKjiow6b7yilCCBp8U7OPw.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T08:24:53.000Z",
+      "sourceId": "playground-announces",
+      "source": "Playground Анонсы",
+      "category": "announces",
+      "lang": "ru",
+      "addedAt": "2026-11-08T08:40:10.565Z"
+    },
+    {
+      "id": "n5zhyx",
+      "title": "К дилерам поступила Лада Веста с новым мотором: цена — 1 885 000 рублей",
+      "url": "https://www.zr.ru/content/news/988189-k-dileram-postupila-lada-vesta/",
+      "excerpt": "Самые важные для автомобилистов события — в новом выпуске «Разборки недели».",
+      "content": "Самые важные для автомобилистов события — в новом выпуске «Разборки недели».",
+      "image": "https://www.zr.ru/_ah/img/hMx41u7jxpzydz2lDYKtpA",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/hMx41u7jxpzydz2lDYKtpA",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T08:15:57.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-08T08:40:10.565Z"
+    },
+    {
+      "id": "wqcurc",
+      "title": "Indonesian Horror Hit ‘Pabrik Gula’ Gets 2028 Sequel as MD Entertainment Lines Up Three Imax Films",
+      "url": "https://variety.com/2026/film/markets-festivals/indonesian-horror-pabrik-gula-2028-sequel-1236942313/",
+      "excerpt": "Indonesian studio giant MD Entertainment will release a sequel to its 2025 horror smash “Pabrik Gula” in early 2028 and has three Imax films planned for 2027, Astrid Wienardi, the company’s head of content licensing and global business, said Sunday at Taiwan…",
+      "content": "Indonesian studio giant MD Entertainment will release a sequel to its 2025 horror smash “Pabrik Gula” in early 2028 and has three Imax films planned for 2027, Astrid Wienardi, the company’s head of content licensing and global business, said Sunday at Taiwan Creative Content Fest (TCCF) in Taipei. Wienardi delivered a presentation on how MD […]",
+      "image": "https://variety.com/wp-content/uploads/2025/04/Pabrik-Gula.jpg",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2025/04/Pabrik-Gula.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T08:11:55.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T08:40:10.565Z"
+    },
     {
       "id": "azaja2",
       "title": "NVIDIA нарушила собственный график прекращения поддержки Windows 10, выпустив новый драйвер Game Ready",
@@ -1283,8 +1425,8 @@
       "id": "vduo6c",
       "title": "Goodbye Claude, Hello Pi",
       "url": "https://caleb.software/posts/claude-to-pi.html",
-      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 197 # Comments: 114",
-      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 197\n\n# Comments: 114",
+      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 219 # Comments: 130",
+      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 219\n\n# Comments: 130",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T03:11:48.000Z",
@@ -1561,7 +1703,7 @@
       "url": "https://github.com/7v0biscuit/OpenKai2",
       "excerpt": "A Native Windows Port of Dragon Ball Z: Budokai 2",
       "image": "",
-      "publishedAt": "2026-11-08T08:09:24Z",
+      "publishedAt": "2026-11-08T08:38:34Z",
       "addedAt": "2026-11-08T05:40:16.174Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -2641,7 +2783,7 @@
       "url": "https://github.com/Destinity13/TimeSplitters-2-Native-Linux-Recomp",
       "excerpt": "TimeSplitters 2 (PS2, NTSC-U) statically recompiled to a native Linux executable – HD remaster: 60 FPS, real 16:9, up to 8x resolution, split-screen co-op, verified against PCSX2",
       "image": "",
-      "publishedAt": "2026-11-08T08:01:42Z",
+      "publishedAt": "2026-11-08T08:27:08Z",
       "addedAt": "2026-11-08T01:40:14.870Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -3201,8 +3343,8 @@
       "id": "zof7yv",
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 345 # Comments: 233",
-      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 345\n\n# Comments: 233",
+      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 361 # Comments: 246",
+      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 361\n\n# Comments: 246",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T20:45:32.000Z",
@@ -4811,9 +4953,9 @@
         }
       ],
       "publishedAt": "2026-11-07T18:31:34.000Z",
-      "sourceId": "playground-pc",
-      "source": "Playground ПК",
-      "category": "pc",
+      "sourceId": "playground-hardware",
+      "source": "Playground Железо",
+      "category": "hardware",
       "lang": "ru",
       "addedAt": "2026-11-07T21:43:59.744Z"
     },
@@ -4920,8 +5062,8 @@
       "id": "1fzmty1",
       "title": "The end of Microsoft Research's AI Frontiers group",
       "url": "https://hunch.net/?p=13764006",
-      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 445 # Comments: 266",
-      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 445\n\n# Comments: 266",
+      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 447 # Comments: 269",
+      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 447\n\n# Comments: 269",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T18:02:17.000Z",
@@ -5007,8 +5149,8 @@
       "id": "6a6jp5",
       "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
       "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 285 # Comments: 78",
-      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 285\n\n# Comments: 78",
+      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 291 # Comments: 78",
+      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 291\n\n# Comments: 78",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T17:19:00.000Z",
@@ -9211,8 +9353,8 @@
       "id": "1iqgq9j",
       "title": "Every Mac comes with an (undocumented) family member classifier",
       "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 694 # Comments: 372",
-      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 694\n\n# Comments: 372",
+      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 701 # Comments: 373",
+      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 701\n\n# Comments: 373",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T09:46:03.000Z",
@@ -11768,7 +11910,7 @@
       "url": "https://github.com/Jstar269/Nakagawa-Recomp",
       "excerpt": "Play PSP games you own as native Windows programs. A static recompiler: add your own disc, build, play. No game data included.",
       "image": "",
-      "publishedAt": "2026-11-08T08:08:01Z",
+      "publishedAt": "2026-11-08T08:40:12Z",
       "addedAt": "2026-11-07T06:50:19.174Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -12337,7 +12479,20 @@
       "url": "https://github.com/boburning/portcove",
       "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
       "image": "",
-      "publishedAt": "2026-11-08T08:07:54Z",
+      "publishedAt": "2026-11-08T08:32:13Z",
+      "addedAt": "2026-11-07T06:09:06.147Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1417787248",
+      "title": "maxevans60/cm0102-bosman-edition: Championship Manager 01/02 rebuilt to run natively on Mac, Windows, Linux and Steam Deck. Unofficial fan port.",
+      "url": "https://github.com/maxevans60/cm0102-bosman-edition",
+      "excerpt": "Championship Manager 01/02 rebuilt to run natively on Mac, Windows, Linux and Steam Deck. Unofficial fan port.",
+      "image": "",
+      "publishedAt": "2026-11-08T08:28:06Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -12377,19 +12532,6 @@
       "excerpt": "Native PC port of Top Gear 2 (Sega Genesis) via static recompilation: widescreen, true 60 fps, music+SFX together. Bring your own ROM.",
       "image": "",
       "publishedAt": "2026-11-07T13:23:47Z",
-      "addedAt": "2026-11-07T06:09:06.147Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
-      "id": "gh-1417787248",
-      "title": "maxevans60/cm0102-bosman-edition: Championship Manager 01/02 rebuilt to run natively on Mac, Windows, Linux and Steam Deck. Unofficial fan port.",
-      "url": "https://github.com/maxevans60/cm0102-bosman-edition",
-      "excerpt": "Championship Manager 01/02 rebuilt to run natively on Mac, Windows, Linux and Steam Deck. Unofficial fan port.",
-      "image": "",
-      "publishedAt": "2026-11-07T11:56:21Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -13547,7 +13689,7 @@
       "url": "https://github.com/kirklandsig/halo2-decompiled",
       "excerpt": "Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
       "image": "",
-      "publishedAt": "2026-11-08T08:01:15Z",
+      "publishedAt": "2026-11-08T08:18:31Z",
       "addedAt": "2026-11-07T06:02:59.034Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
