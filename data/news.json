@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T12:28:38.476Z",
-  "tookMs": 9809,
+  "generatedAt": "2026-11-08T12:34:31.735Z",
+  "tookMs": 16333,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -12,6 +12,8 @@
     "software": "Софт",
     "science": "Наука",
     "entertainment": "Развлечения",
+    "newsletters": "Рассылки",
+    "reddit": "Reddit",
     "ports": "Порты",
     "pc": "ПК",
     "consoles": "Консоли",
@@ -33,7 +35,9 @@
     "software": 35,
     "science": 74,
     "entertainment": 195,
-    "ports": 139,
+    "newsletters": 0,
+    "reddit": 0,
+    "ports": 141,
     "pc": 50,
     "consoles": 124,
     "hardware": 42,
@@ -42,10 +46,10 @@
     "aimods": 2,
     "aisoft": 54,
     "cars": 148,
-    "war": 136,
-    "total": 1387
+    "war": 138,
+    "total": 1391
   },
-  "sourceCount": 89,
+  "sourceCount": 92,
   "sources": [
     {
       "id": "techcrunch-ai",
@@ -326,6 +330,27 @@
       "category": "entertainment",
       "lang": "ru",
       "url": "https://www.intermedia.ru/rss"
+    },
+    {
+      "id": "aibrews",
+      "name": "AI Brews",
+      "category": "newsletters",
+      "lang": "en",
+      "url": "https://aibrews.substack.com/feed"
+    },
+    {
+      "id": "earlybirdai",
+      "name": "Early Bird AI",
+      "category": "newsletters",
+      "lang": "en",
+      "url": "https://earlybirdai.beehiiv.com/feed"
+    },
+    {
+      "id": "reddit",
+      "name": "Reddit",
+      "category": "reddit",
+      "lang": "en",
+      "url": "https://www.reddit.com/r/gaming+pcgaming+artificial+technology+singularity/.rss"
     },
     {
       "id": "github-ports",
@@ -673,6 +698,21 @@
   ],
   "errors": [
     {
+      "source": "AI Brews",
+      "url": "https://aibrews.substack.com/feed",
+      "error": "HTTP 403"
+    },
+    {
+      "source": "Early Bird AI",
+      "url": "https://earlybirdai.beehiiv.com/feed",
+      "error": "HTTP 404"
+    },
+    {
+      "source": "Reddit",
+      "url": "https://www.reddit.com/r/gaming+pcgaming+artificial+technology+singularity/.rss",
+      "error": "HTTP 429"
+    },
+    {
       "source": "r/emulation",
       "url": "https://www.reddit.com/r/emulation/new/.rss",
       "error": "HTTP 429",
@@ -690,6 +730,67 @@
     }
   ],
   "items": [
+    {
+      "id": "gh-1444823678",
+      "title": "raulcorreia7/bof3-decomp: Matching decompilation of Breath of Fire III (US, PlayStation)",
+      "url": "https://github.com/raulcorreia7/bof3-decomp",
+      "excerpt": "Matching decompilation of Breath of Fire III (US, PlayStation)",
+      "image": "",
+      "publishedAt": "2026-11-08T12:32:33Z",
+      "addedAt": "2026-11-08T12:34:19.494Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1449402730",
+      "title": "Nazatric/Re-Port: Android Game Ports Put Into A Beautiful App",
+      "url": "https://github.com/Nazatric/Re-Port",
+      "excerpt": "Android Game Ports Put Into A Beautiful App",
+      "image": "",
+      "publishedAt": "2026-11-08T12:34:11Z",
+      "addedAt": "2026-11-08T12:34:19.141Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "12wtxz2",
+      "title": "У Росії заявили про пошкодження моста, який з’єднує Ростов-на-Дону з окупованими територіями України",
+      "url": "https://www.radiosvoboda.org/a/news-udar-mist-u-rf-rostov-okupovani-terytoriyi/33893273.html",
+      "excerpt": "У Росії заявили про пошкодження моста, що з’єднує Ростов-на-Дону з тимчасово окупованими територіями України. Про це повідомив губернатор Ростовської області РФ Юрій Слюсар. Він заявив про пошкодження мосту через річку Міус у Неклінівському районі внаслідок…",
+      "content": "У Росії заявили про пошкодження моста, що з’єднує Ростов-на-Дону з тимчасово окупованими територіями України. Про це повідомив губернатор Ростовської області РФ Юрій Слюсар.\nВін заявив про пошкодження мосту через річку Міус у Неклінівському районі внаслідок ранкової повітряної атаки. За його даними, пошкоджено дорожнє покриття мосту через річку Міус у Неклінівському районі, а також два гусеничні крани. Чиновник пояснив це падінням уламків збитого дрона. Він уточнив, що ніхто не постраждав. Наразі рух через міст організовано у реверсному напрямку.\nЗгодом Слюсар повідомив, що рух на ділянці траси Р-280 на шляху до мосту через річку Міус перекрито – ця ділянка дороги постраждала внаслідок атаки БпЛА.\nТакож про удар по мосту у Ростовській обалсті РФ пишуть у соцмережах, зокрема, телеграм-канал Supernova.\nРосійське Міноборони стверджує, що за ніч засоби ППО збили загалом 142 українські безпілотники над територією низки російських регіонів, зокрема Ростовської області, окупованого Криму та над акваторією Азовського моря.\nУкраїнська сторона наразі цей удар по мосту у Ростовській області РФ не підтверджувала.\nТрасу Р-280 (так звана траса «Новоросія») завдовжки приблизно 640 кілометрів з Ростова-на-Дону до Сімферополя російська влада почала облаштовувати з 2023 року як альтернативу шляху до Криму через Керченський (Кримський) міст. Вона мала пройти вздовж узбережжя Азовського моря через окуповані українські території і міста: Маріуполь – Бердянськ – Мелітополь – Генічеськ – Джанкой – Сімферополь.\nЗ весни 2025-го траса запрацювала повноцінно – як швидкий і безпечний (на той час) автомобільний маршрут для сил РФ.",
+      "image": "https://gdb.rferl.org/84efac6e-6fee-4493-7a85-08dd3bb48444_w800_h450.jpg",
+      "images": [
+        {
+          "url": "https://gdb.rferl.org/84efac6e-6fee-4493-7a85-08dd3bb48444_w800_h450.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T12:29:55.000Z",
+      "sourceId": "radiosvoboda",
+      "source": "Radio Svoboda",
+      "category": "war",
+      "lang": "uk",
+      "addedAt": "2026-11-08T12:34:15.402Z"
+    },
+    {
+      "id": "1s49kvi",
+      "title": "Russian strikes on Ukraine leave hundreds of thousands without electricity",
+      "url": "https://www.aljazeera.com/news/2026/11/8/russian-strikes-on-ukraine-leave-hundreds-of-thousands-without-electricity?traffic_source=rss",
+      "excerpt": "About 850,000 people lose power after Russian attacks on energy infrastructure in Ukraine's Dnipropetrovsk and Kharkiv.",
+      "content": "About 850,000 people lose power after Russian attacks on energy infrastructure in Ukraine's Dnipropetrovsk and Kharkiv.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-08T12:20:17.000Z",
+      "sourceId": "aljazeera",
+      "source": "Al Jazeera",
+      "category": "war",
+      "lang": "en",
+      "addedAt": "2026-11-08T12:34:15.402Z"
+    },
     {
       "id": "1sxk279",
       "title": "Shadow of the Tomb Raider заняла двадцатое место в чартах Nintendo Switch 2",
@@ -4240,7 +4341,7 @@
       "url": "https://github.com/Destinity13/TimeSplitters-2-Native-Linux-Recomp",
       "excerpt": "TimeSplitters 2 (PS2, NTSC-U) statically recompiled to a native Linux executable – HD remaster: 60 FPS, real 16:9, up to 8x resolution, split-screen co-op, verified against PCSX2",
       "image": "",
-      "publishedAt": "2026-11-08T12:15:02Z",
+      "publishedAt": "2026-11-08T12:32:52Z",
       "addedAt": "2026-11-08T01:40:14.870Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -4917,7 +5018,7 @@
       "url": "https://github.com/vyanhursky/DefJamFFNY-recomp",
       "excerpt": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
       "image": "",
-      "publishedAt": "2026-11-08T11:59:09Z",
+      "publishedAt": "2026-11-08T12:31:51Z",
       "addedAt": "2026-11-07T23:10:10.266Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -7135,6 +7236,19 @@
       "lang": "en"
     },
     {
+      "id": "gh-1430294447",
+      "title": "TheBozos/TMB_Recomp: Twisted Metal: Black (USA, SCUS-97101) as a native PC port: static recompilation with PS2Recomp (no game data)",
+      "url": "https://github.com/TheBozos/TMB_Recomp",
+      "excerpt": "Twisted Metal: Black (USA, SCUS-97101) as a native PC port: static recompilation with PS2Recomp (no game data)",
+      "image": "",
+      "publishedAt": "2026-11-08T12:34:09Z",
+      "addedAt": "2026-11-07T18:00:02.232Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
       "id": "gh-1441623504",
       "title": "makkaX2/DroneFlames-PC-Port: 🚁 DroneFlames PC Port (Windows x64) — native PC controls, WASD camera, smooth zoom, multiplayer & automated CI/CD builds by @good_boy_irl.",
       "url": "https://github.com/makkaX2/DroneFlames-PC-Port",
@@ -7154,19 +7268,6 @@
       "excerpt": "Unofficial native recompilation of Need for Speed: Carbon (Xbox 360) for Apple Silicon Macs. Early Development — Playable in Parts. Bring your own disc; no game files included.",
       "image": "",
       "publishedAt": "2026-11-08T03:37:46Z",
-      "addedAt": "2026-11-07T18:00:02.232Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
-      "id": "gh-1430294447",
-      "title": "TheBozos/TMB_Recomp: Twisted Metal: Black (USA, SCUS-97101) as a native PC port: static recompilation with PS2Recomp (no game data)",
-      "url": "https://github.com/TheBozos/TMB_Recomp",
-      "excerpt": "Twisted Metal: Black (USA, SCUS-97101) as a native PC port: static recompilation with PS2Recomp (no game data)",
-      "image": "",
-      "publishedAt": "2026-11-08T02:49:27Z",
       "addedAt": "2026-11-07T18:00:02.232Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -9240,12 +9341,12 @@
       "addedAt": "2026-11-07T17:59:57.981Z"
     },
     {
-      "id": "gh-1449368836",
-      "title": "kamb205/TNA-iMPACT-Reloaded-PS5: TNA iMPACT! (Xbox 360, 2008) statically recompiled to run natively on jailbroken PS5: 60 fps, up to 1440p, DualSense. Bring your own disc image.",
-      "url": "https://github.com/kamb205/TNA-iMPACT-Reloaded-PS5",
-      "excerpt": "TNA iMPACT! (Xbox 360, 2008) statically recompiled to run natively on jailbroken PS5: 60 fps, up to 1440p, DualSense. Bring your own disc image.",
+      "id": "gh-1367417480",
+      "title": "dyzz/srw64-recomp: Unofficial native recompilation of Super Robot Wars 64 for Windows, macOS, Linux/Steam Deck, Android and Switch: Japanese, English, Simplified and Traditional Chinese, Korean, widescreen, optional HD art, mods and bug fixes. Requires your own ROM.",
+      "url": "https://github.com/dyzz/srw64-recomp",
+      "excerpt": "Unofficial native recompilation of Super Robot Wars 64 for Windows, macOS, Linux/Steam Deck, Android and Switch: Japanese, English, Simplified and Traditional Chinese, Korean, widescreen, optional HD art, mods and bug fixes. Requires your own ROM.",
       "image": "",
-      "publishedAt": "2026-11-07T13:30:42Z",
+      "publishedAt": "2026-11-08T12:29:10Z",
       "addedAt": "2026-11-07T13:31:56.467Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -9253,12 +9354,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1367417480",
-      "title": "dyzz/srw64-recomp: Unofficial native recompilation of Super Robot Wars 64 for Windows, macOS, Linux/Steam Deck, Android and Switch: Japanese, English, Simplified and Traditional Chinese, Korean, widescreen, optional HD art, mods and bug fixes. Requires your own ROM.",
-      "url": "https://github.com/dyzz/srw64-recomp",
-      "excerpt": "Unofficial native recompilation of Super Robot Wars 64 for Windows, macOS, Linux/Steam Deck, Android and Switch: Japanese, English, Simplified and Traditional Chinese, Korean, widescreen, optional HD art, mods and bug fixes. Requires your own ROM.",
+      "id": "gh-1449368836",
+      "title": "kamb205/TNA-iMPACT-Reloaded-PS5: TNA iMPACT! (Xbox 360, 2008) statically recompiled to run natively on jailbroken PS5: 60 fps, up to 1440p, DualSense. Bring your own disc image.",
+      "url": "https://github.com/kamb205/TNA-iMPACT-Reloaded-PS5",
+      "excerpt": "TNA iMPACT! (Xbox 360, 2008) statically recompiled to run natively on jailbroken PS5: 60 fps, up to 1440p, DualSense. Bring your own disc image.",
       "image": "",
-      "publishedAt": "2026-11-07T13:24:39Z",
+      "publishedAt": "2026-11-07T13:30:42Z",
       "addedAt": "2026-11-07T13:31:56.467Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -11620,7 +11721,7 @@
       "url": "https://github.com/YodaMMM/NightfirePort",
       "excerpt": "Nightfire Rust: a native Windows PC port of 007: Nightfire (PS2), written in Rust",
       "image": "",
-      "publishedAt": "2026-11-08T12:26:39Z",
+      "publishedAt": "2026-11-08T12:32:23Z",
       "addedAt": "2026-11-07T09:10:09.502Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
