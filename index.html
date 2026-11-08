@@ -169,9 +169,6 @@
             <button class="tab" type="button" role="tab" aria-selected="false" data-category="newsletters">
               <span class="tab-dot tab-dot-newsletters" aria-hidden="true"></span>Рассылки <span class="tab-count" data-count="newsletters">0</span>
             </button>
-            <button class="tab" type="button" role="tab" aria-selected="false" data-category="reddit">
-              <span class="tab-dot tab-dot-reddit" aria-hidden="true"></span>Reddit <span class="tab-count" data-count="reddit">0</span>
-            </button>
             <button class="tab" type="button" role="tab" aria-selected="false" data-category="pc">
               <span class="tab-dot tab-dot-pc" aria-hidden="true"></span>ПК <span class="tab-count" data-count="pc">0</span>
             </button>
@@ -466,7 +463,7 @@
       (async () => {
         for (let attempt = 0; attempt < 4; attempt += 1) {
           try {
-            await import(`./app.js?v=34&retry=${attempt}`);
+            await import(`./app.js?v=35&retry=${attempt}`);
             return;
           } catch (error) {
             console.warn('Не удалось загрузить app.js, повтор…', error);
