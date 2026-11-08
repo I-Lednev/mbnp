@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T12:40:16.239Z",
-  "tookMs": 9245,
+  "generatedAt": "2026-11-08T12:41:42.637Z",
+  "tookMs": 11253,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -37,7 +37,7 @@
     "entertainment": 195,
     "newsletters": 0,
     "reddit": 0,
-    "ports": 142,
+    "ports": 143,
     "pc": 50,
     "consoles": 124,
     "hardware": 42,
@@ -47,9 +47,9 @@
     "aisoft": 54,
     "cars": 148,
     "war": 137,
-    "total": 1391
+    "total": 1392
   },
-  "sourceCount": 92,
+  "sourceCount": 91,
   "sources": [
     {
       "id": "techcrunch-ai",
@@ -336,21 +336,14 @@
       "name": "AI Brews",
       "category": "newsletters",
       "lang": "en",
-      "url": "https://aibrews.substack.com/feed"
-    },
-    {
-      "id": "earlybirdai",
-      "name": "Early Bird AI",
-      "category": "newsletters",
-      "lang": "en",
-      "url": "https://earlybirdai.beehiiv.com/feed"
+      "url": "https://aibrews.substack.com/api/v1/archive?sort=new&limit=20"
     },
     {
       "id": "reddit",
       "name": "Reddit",
       "category": "reddit",
       "lang": "en",
-      "url": "https://www.reddit.com/r/gaming+pcgaming+artificial+technology+singularity/.rss"
+      "url": "https://www.reddit.com/r/gaming"
     },
     {
       "id": "github-ports",
@@ -698,19 +691,20 @@
   ],
   "errors": [
     {
+      "source": "Nature",
+      "url": "https://www.nature.com/nature.rss",
+      "error": "ответ не похож на RSS/Atom",
+      "reused": 10
+    },
+    {
       "source": "AI Brews",
-      "url": "https://aibrews.substack.com/feed",
+      "url": "https://aibrews.substack.com/api/v1/archive?sort=new&limit=20",
       "error": "HTTP 403"
     },
     {
-      "source": "Early Bird AI",
-      "url": "https://earlybirdai.beehiiv.com/feed",
-      "error": "HTTP 404"
-    },
-    {
       "source": "Reddit",
-      "url": "https://www.reddit.com/r/gaming+pcgaming+artificial+technology+singularity/.rss",
-      "error": "HTTP 429"
+      "url": "https://www.reddit.com/r/gaming",
+      "error": "нет REDDIT_CLIENT_ID/REDDIT_CLIENT_SECRET"
     },
     {
       "source": "r/emulation",
@@ -730,6 +724,19 @@
     }
   ],
   "items": [
+    {
+      "id": "gh-638464462",
+      "title": "afsenovilla/Tombi-Decomp: A matching decompilation of Tombi! (known as Tomba! in North America and Ore! Tomba in Japan) for the original PlayStation. The goal is C source code that compiles, with the game's original toolchain, into byte-identical machine code.",
+      "url": "https://github.com/afsenovilla/Tombi-Decomp",
+      "excerpt": "A matching decompilation of Tombi! (known as Tomba! in North America and Ore! Tomba in Japan) for the original PlayStation. The goal is C source code that compiles, with the game's original toolchain, into byte-identical machine code.",
+      "image": "",
+      "publishedAt": "2026-11-08T12:40:18Z",
+      "addedAt": "2026-11-08T12:41:38.100Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
     {
       "id": "gh-1400228215",
       "title": "OpenRAC/rac2-decomp: Going Commando USA v1.01: byte-exact reconstruction tools and native-port research. No game assets.",
