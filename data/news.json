@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T04:40:21.034Z",
-  "tookMs": 11923,
+  "generatedAt": "2026-11-08T05:10:21.878Z",
+  "tookMs": 12853,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -28,22 +28,22 @@
     "games": 108,
     "announces": 35,
     "mobile": 15,
-    "releases": 45,
+    "releases": 46,
     "rumors": 31,
     "software": 46,
     "science": 67,
-    "entertainment": 166,
-    "ports": 120,
+    "entertainment": 173,
+    "ports": 121,
     "pc": 54,
     "consoles": 124,
     "hardware": 47,
-    "industry": 44,
+    "industry": 45,
     "updates": 27,
     "aimods": 2,
     "aisoft": 53,
-    "cars": 127,
-    "war": 115,
-    "total": 1340
+    "cars": 128,
+    "war": 118,
+    "total": 1354
   },
   "sourceCount": 98,
   "sources": [
@@ -736,12 +736,6 @@
   ],
   "errors": [
     {
-      "source": "Nature",
-      "url": "https://www.nature.com/nature.rss",
-      "error": "ответ не похож на RSS/Atom",
-      "reused": 10
-    },
-    {
       "source": "r/emulation",
       "url": "https://www.reddit.com/r/emulation/new/.rss",
       "error": "HTTP 429",
@@ -759,6 +753,277 @@
     }
   ],
   "items": [
+    {
+      "id": "gh-969497300",
+      "title": "Alex842023/RidgeRacer6-Recompilation: Play Ridge Racer 6 natively on Windows via this unofficial PowerPC-to-C++ recompilation; bring your own Xbox 360 disc.",
+      "url": "https://github.com/Alex842023/RidgeRacer6-Recompilation",
+      "excerpt": "Play Ridge Racer 6 natively on Windows via this unofficial PowerPC-to-C++ recompilation; bring your own Xbox 360 disc.",
+      "image": "",
+      "publishedAt": "2026-11-08T04:49:50Z",
+      "addedAt": "2026-11-08T05:10:14.890Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "1wch34j",
+      "title": "Druski Does Elizabeth Holmes Whiteface In ‘Dru Can See Everything’ Sketch During ‘SNL’ Debut",
+      "url": "https://deadline.com/2026/11/druski-elizabeth-holmes-whiteface-dru-can-see-everything-snl-1237216571/",
+      "excerpt": "Shortly after joking that he couldn’t promise Saturday Night Live he’d do “no whiteface,” Druski channeled Elizabeth Holmes. On Saturday’s episode of the NBC sketch comedy show, the content creator played himself in the sketch “Dru Can See Everything,” which…",
+      "content": "Shortly after joking that he couldn’t promise Saturday Night Live he’d do “no whiteface,” Druski channeled Elizabeth Holmes. On Saturday’s episode of the NBC sketch comedy show, the content creator played himself in the sketch “Dru Can See Everything,” which imagines Holmes (Jane Wickline) and husband Billy Evans (Ben Marshall) going to Druski to make […]",
+      "image": "https://deadline.com/wp-content/uploads/2026/11/Druski-SNL.jpg",
+      "images": [
+        {
+          "url": "https://deadline.com/wp-content/uploads/2026/11/Druski-SNL.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T05:09:43.000Z",
+      "sourceId": "deadline",
+      "source": "Deadline",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T05:10:09.025Z"
+    },
+    {
+      "id": "1s4b6bh",
+      "title": "Gears of War исполнилось 20 лет - разработчики выпустили юбилейное видео и подготовили бесплатные подарки для игроков",
+      "url": "https://www.playground.ru/gears_of_war_e_day/news/gears_of_war_ispolnilos_20_let_razrabotchiki_vypustili_yubilejnoe_video_i_podgotovili_besplatnye_podarki_dlya_igrokov-1888740",
+      "excerpt": "7 ноября 2026 года культовой серии Gears of War исполнилось ровно 20 лет. Оригинальная игра, разработанная Epic Games и выпущенная в 2006 году эксклюзивно для Xbox 360, положила начало одной из самых известных франшиз Microsoft...",
+      "content": "7 ноября 2026 года культовой серии Gears of War исполнилось ровно 20 лет. Оригинальная игра, разработанная Epic Games и выпущенная в 2006 году эксклюзивно для Xbox 360, положила начало одной из самых известных франшиз Microsoft...",
+      "image": "https://i.playground.ru/e/_c3nYuWA2TMfDj8MLlw2WQ.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/_c3nYuWA2TMfDj8MLlw2WQ.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T05:09:00.000Z",
+      "sourceId": "playground-industry",
+      "source": "Playground Индустрия",
+      "category": "industry",
+      "lang": "ru",
+      "addedAt": "2026-11-08T05:10:09.025Z"
+    },
+    {
+      "id": "1jiraoa",
+      "title": "Глава Moon Studios раскритиковал геймдизайн ремейка Ocarina of Time и оценки прессы",
+      "url": "https://www.playground.ru/legend_of_zelda_ocarina_of_time/news/glava_moon_studios_raskritikoval_gejmdizajn_remejka_ocarina_of_time_i_otsenki_pressy-1888738",
+      "excerpt": "Генеральный директор и соучредитель Moon Studios Томас Малер, известный как один из создателей дилогии Ori, спровоцировал бурные дискуссии в игровой индустрии, крайне критически высказавшись о релизе ремейка культовой экшен-адвенчуры The Legend of Zelda…",
+      "content": "Генеральный директор и соучредитель Moon Studios Томас Малер, известный как один из создателей дилогии Ori, спровоцировал бурные дискуссии в игровой индустрии, крайне критически высказавшись о релизе ремейка культовой экшен-адвенчуры The Legend of Zelda: Ocarina of...",
+      "image": "https://i.playground.ru/e/gik9o1mdYrkEpINB4pFj6w.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/gik9o1mdYrkEpINB4pFj6w.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T05:01:58.000Z",
+      "sourceId": "playground-releases",
+      "source": "Playground Релизы",
+      "category": "releases",
+      "lang": "ru",
+      "addedAt": "2026-11-08T05:10:09.025Z"
+    },
+    {
+      "id": "1v823c9",
+      "title": "Emma Stone Crashes Druski’s ‘SNL’ Monologue in Hilarious Fashion",
+      "url": "https://variety.com/2026/tv/news/emma-stone-druski-snl-monologue-the-catch-1236942272/",
+      "excerpt": "When Druski was announced as a future host of “Saturday Night Live,” it was its most interesting move in quite some time. The sketch-comedy show had tapped its first exclusively digital creator (who hadn’t experienced crossover success, a la Issa Rae or…",
+      "content": "When Druski was announced as a future host of “Saturday Night Live,” it was its most interesting move in quite some time. The sketch-comedy show had tapped its first exclusively digital creator (who hadn’t experienced crossover success, a la Issa Rae or Quinta Brinson) to serve as its master of ceremonies, marking its first major […]",
+      "image": "https://variety.com/wp-content/uploads/2026/11/Screenshot-2026-11-07-at-11.48.59-PM.png",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/Screenshot-2026-11-07-at-11.48.59-PM.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T05:00:40.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T05:10:09.025Z"
+    },
+    {
+      "id": "1ml3zn9",
+      "title": "Свет и тепло в Европе дорожают из-за Америки и России. Кризис грозит затянуться не на одну зиму",
+      "url": "https://www.bbc.com/russian/articles/cr93zee13e1yo?at_medium=RSS&at_campaign=rss",
+      "excerpt": "Даже если на Ближнем Востоке немедленно воцарится мир, европейцам придется переплачивать за свет и тепло еще и следующей зимой, предупреждают эксперты.",
+      "content": "Даже если на Ближнем Востоке немедленно воцарится мир, европейцам придется переплачивать за свет и тепло еще и следующей зимой, предупреждают эксперты.",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/cb04/live/4c998670-d910-11f1-94c6-3f8050561bf5.jpg",
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/cb04/live/4c998670-d910-11f1-94c6-3f8050561bf5.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T05:00:36.000Z",
+      "sourceId": "bbc-ru",
+      "source": "BBC Russian",
+      "category": "war",
+      "lang": "ru",
+      "addedAt": "2026-11-08T05:10:09.025Z"
+    },
+    {
+      "id": "1y0qvyx",
+      "title": "Ukraine’s new frontier: how space has become critical to balance of the war",
+      "url": "https://www.theguardian.com/science/ng-interactive/2026/nov/08/ukraine-space-critical-war-starlink",
+      "excerpt": "In a war driven by drones and battlefield sensors, access to space is essential. After Starlink speed restrictions and Russian Oreshnik missile strikes, Kyiv is racing to develop its own space capabilities For people in the Russian industrial city of Samara…",
+      "content": "In a war driven by drones and battlefield sensors, access to space is essential. After Starlink speed restrictions and Russian Oreshnik missile strikes, Kyiv is racing to develop its own space capabilities\n\nFor people in the Russian industrial city of Samara on the banks of the Volga, the first they knew of the Ukrainian attack were detonations that sent a column of smoke into the air.\n\nIf the Kremlin was vague about the target, video footage on social media soon made it clear what had been hit in the early hours of 15 August: the Progress Rocket and Space Centre, manufacturer of Russia’s Soyuz-2 rockets.\n\n..",
+      "image": "https://i.guim.co.uk/img/media/a2e74883c34189ee475959f8f42c735f8b9f1483/0_883_4000_3198/master/4000.jpg?width=140&quality=85&auto=format&fit=max&s=9edf40374512a24b3ad5de87b5e1040d",
+      "images": [
+        {
+          "url": "https://i.guim.co.uk/img/media/a2e74883c34189ee475959f8f42c735f8b9f1483/0_883_4000_3198/master/4000.jpg?width=140&quality=85&auto=format&fit=max&s=9edf40374512a24b3ad5de87b5e1040d",
+          "alt": ""
+        },
+        {
+          "url": "https://i.guim.co.uk/img/media/a2e74883c34189ee475959f8f42c735f8b9f1483/0_883_4000_3198/master/4000.jpg?width=460&quality=85&auto=format&fit=max&s=565f9b2d4d76ba0d5781c376b38ed14c",
+          "alt": ""
+        },
+        {
+          "url": "https://i.guim.co.uk/img/media/a2e74883c34189ee475959f8f42c735f8b9f1483/0_883_4000_3198/master/4000.jpg?width=700&quality=85&auto=format&fit=max&s=b15d202570d5d419df33ed15ac657873",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T05:00:30.000Z",
+      "sourceId": "guardian-ukraine",
+      "source": "The Guardian",
+      "category": "war",
+      "lang": "en",
+      "addedAt": "2026-11-08T05:10:09.025Z"
+    },
+    {
+      "id": "1kddwh6",
+      "title": "Оснащение и цены Волги С50: в чём она обогнала конкурентов",
+      "url": "https://www.zr.ru/content/articles/987830-volga-s50-v-chem-ona-obognala/",
+      "excerpt": "Изучили отличия российского седана Волга С50 и китайского прародителя Geely Preface",
+      "content": "Изучили отличия российского седана Волга С50 и китайского прародителя Geely Preface",
+      "image": "https://www.zr.ru/_ah/img/KDrvrSpk7G4HEhmY6RErHQ",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/KDrvrSpk7G4HEhmY6RErHQ",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T05:00:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-08T05:10:09.025Z"
+    },
+    {
+      "id": "p1i533",
+      "title": "Emma Stone Joins Druski For His ‘SNL’ Debut Opening Monologue While Filming ‘The Catch’ Rom-Com",
+      "url": "https://deadline.com/2026/11/emma-stone-joins-druski-snl-debut-opening-monologue-1237216552/",
+      "excerpt": "As Druksi made his Saturday Night Live debut, he had some moral support from a friend who happens to be in the Five-Timers Club. On this weekend’s episode of the NBC sketch comedy show, the content creator was joined by The Catch co-star Emma Stone during his…",
+      "content": "As Druksi made his Saturday Night Live debut, he had some moral support from a friend who happens to be in the Five-Timers Club. On this weekend’s episode of the NBC sketch comedy show, the content creator was joined by The Catch co-star Emma Stone during his opening monologue, whom he joked is his romantic […]",
+      "image": "https://deadline.com/wp-content/uploads/2026/11/Emma-Stone-Druski-SNL.jpg",
+      "images": [
+        {
+          "url": "https://deadline.com/wp-content/uploads/2026/11/Emma-Stone-Druski-SNL.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T04:54:25.000Z",
+      "sourceId": "deadline",
+      "source": "Deadline",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T05:10:09.025Z"
+    },
+    {
+      "id": "1jao8qz",
+      "title": "James Talarico Crashes ‘SNL’ Cold Open: ‘I’m the Guy Who’s Been Texting You Every Day Asking for $5’",
+      "url": "https://variety.com/2026/tv/news/james-talarico-saturday-night-live-snl-cold-open-election-1236942257/",
+      "excerpt": "Newly elected Texas Sen. James Talarico crashed this week’s “Saturday Night Live” cold open — in order to ask the question on everyone’s mind: How many more of these “Donald-Trump-freezes-the-action-to-ramble” cold opens is “SNL” going to do? Responded…",
+      "content": "Newly elected Texas Sen. James Talarico crashed this week’s “Saturday Night Live” cold open — in order to ask the question on everyone’s mind: How many more of these “Donald-Trump-freezes-the-action-to-ramble” cold opens is “SNL” going to do? Responded “Donald Trump” (James Austin Johnson): “Infinity!” Talarico popped up near the end of the cold open to […]",
+      "image": "https://variety.com/wp-content/uploads/2026/11/Screenshot-2026-11-07-at-11.36.08-PM.png",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/Screenshot-2026-11-07-at-11.36.08-PM.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T04:53:48.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T05:10:09.025Z"
+    },
+    {
+      "id": "bdp13j",
+      "title": "Emma Stone Joins Druski During His ‘SNL’ Hosting Debut",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/druski-snl-monologue-emma-stone-1236750120/",
+      "excerpt": "The Oscar winner and comedian will co-star in the Universal Pictures rom-com The Catch, which hits theaters on May 21, 2027.",
+      "content": "The Oscar winner and comedian will co-star in the Universal Pictures rom-com The Catch, which hits theaters on May 21, 2027.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-08T04:53:13.000Z",
+      "sourceId": "hollywoodreporter",
+      "source": "The Hollywood Reporter",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T05:10:09.025Z"
+    },
+    {
+      "id": "e2h8k0",
+      "title": "James Talarico Stuns ‘SNL’ With Post-Midterm Election Win Cameo & “Trump Freezers” Swipe",
+      "url": "https://deadline.com/2026/11/saturday-night-live-james-talarico-cold-open-1237216532/",
+      "excerpt": "Out of a week that saw MAGA’s political fangs knocked out by a big blue sock to jaw in the midterms, Saturday Night Live tonight leaped into the ring and started swinging from the cold open get-go. In fact, they went Texas BBQ hot with newly elected James…",
+      "content": "Out of a week that saw MAGA’s political fangs knocked out by a big blue sock to jaw in the midterms, Saturday Night Live tonight leaped into the ring and started swinging from the cold open get-go. In fact, they went Texas BBQ hot with newly elected James Talarico showing up. The Senator-designate mocked his […]",
+      "image": "https://deadline.com/wp-content/uploads/2026/11/snl-talarico.jpg",
+      "images": [
+        {
+          "url": "https://deadline.com/wp-content/uploads/2026/11/snl-talarico.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T04:52:21.000Z",
+      "sourceId": "deadline",
+      "source": "Deadline",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T05:10:09.025Z"
+    },
+    {
+      "id": "3err5d",
+      "title": "Former NCT Member Lucas Wong Makes Acting Debut in Taiwanese Folk-Music Drama ‘A Time’ With Jerry Yan, Ning Chang at Taiwan Creative Content Fest",
+      "url": "https://variety.com/2026/film/markets-festivals/nct-lucas-wong-acting-debut-taiwan-drama-a-time-1236942261/",
+      "excerpt": "Taiwanese director Tsao Jui-yuan unveiled his new drama series “A Time,” rooted in Taiwan’s campus folk music movement of the 1970s, at the Taiwan Creative Content Fest (TCCF). Tsao, known for “Crystal Boys,” “A Touch of Green” and “Seqalu: Formosa 1867,”…",
+      "content": "Taiwanese director Tsao Jui-yuan unveiled his new drama series “A Time,” rooted in Taiwan’s campus folk music movement of the 1970s, at the Taiwan Creative Content Fest (TCCF). Tsao, known for “Crystal Boys,” “A Touch of Green” and “Seqalu: Formosa 1867,” spent eight years developing the project, which traces four decades of friendship, love and […]",
+      "image": "https://variety.com/wp-content/uploads/2026/11/A-Time-launch-TCCF.jpg",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/A-Time-launch-TCCF.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T04:47:28.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T05:10:09.025Z"
+    },
+    {
+      "id": "7a8if6",
+      "title": "Кремль намерен выиграть от ослабления Трампа после выборов в США",
+      "url": "https://www.dw.com/ru/%D0%BA%D1%80%D0%B5%D0%BC%D0%BB%D1%8C-%D0%BD%D0%B0%D0%BC%D0%B5%D1%80%D0%B5%D0%BD-%D0%B2%D1%8B%D0%B8%D0%B3%D1%80%D0%B0%D1%82%D1%8C-%D0%BE%D1%82-%D0%BE%D1%81%D0%BB%D0%B0%D0%B1%D0%BB%D0%B5%D0%BD%D0%B8%D1%8F-%D1%82%D1%80%D0%B0%D0%BC%D0%BF%D0%B0-%D0%BF%D0%BE%D1%81%D0%BB%D0%B5-%D0%B2%D1%8B%D0%B1%D0%BE%D1%80%D0%BE%D0%B2-%D0%B2-%D1%81%D1%88%D0%B0/a-79865531?maca=rus-rss-ru-all-1126-rdf",
+      "excerpt": "Слабый Трамп может для России быть даже удобнее, чем сильный, опирающийся на Конгресс. Оппозиция будет сковывать президента США, лишив фирменной непредсказуемости, констатирует Иван Преображенский.",
+      "content": "Слабый Трамп может для России быть даже удобнее, чем сильный, опирающийся на Конгресс. Оппозиция будет сковывать президента США, лишив фирменной непредсказуемости, констатирует Иван Преображенский.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-05T12:38:00.000Z",
+      "sourceId": "dw-ru",
+      "source": "DW Russian",
+      "category": "war",
+      "lang": "ru",
+      "addedAt": "2026-11-08T05:10:09.025Z"
+    },
     {
       "id": "gh-1449974354",
       "title": "KinmoCode/ocarina-recomp-guide: Release SHA-256 checksums, requirements and setup notes for Ocarina Recomp, Hookshot (NotRexed) and TriAevum native PC ports",
@@ -971,7 +1236,7 @@
       "url": "https://github.com/kayochiaradia/mtf-recomp",
       "excerpt": "MTF Recomp: a static recompilation of Mario Tennis Fever (Switch 2) into a native Windows x86-64 application. No game files included.",
       "image": "",
-      "publishedAt": "2026-11-08T04:38:33Z",
+      "publishedAt": "2026-11-08T04:54:47Z",
       "addedAt": "2026-11-08T03:40:14.649Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -1012,12 +1277,12 @@
       "addedAt": "2026-11-08T03:40:08.489Z"
     },
     {
-      "id": "gh-1437397801",
-      "title": "BTr-RJ/RedBaron_Recomp: Native Windows x64 recompilation of Snoopy Flying Ace with a local-build launcher, modern video options and EOS online integration.",
-      "url": "https://github.com/BTr-RJ/RedBaron_Recomp",
-      "excerpt": "Native Windows x64 recompilation of Snoopy Flying Ace with a local-build launcher, modern video options and EOS online integration.",
+      "id": "gh-1431547686",
+      "title": "galarianpikachu2021-hue/Racing-8-DX-Recomp: Mario Kart 8 Deluxe recompiled to run natively on your PC: no JIT, FSR 3.1 + frame generation, experimental DLSS, 720p to 4K output, HDR10. Bring your own game files.",
+      "url": "https://github.com/galarianpikachu2021-hue/Racing-8-DX-Recomp",
+      "excerpt": "Mario Kart 8 Deluxe recompiled to run natively on your PC: no JIT, FSR 3.1 + frame generation, experimental DLSS, 720p to 4K output, HDR10. Bring your own game files.",
       "image": "",
-      "publishedAt": "2026-11-08T03:07:38Z",
+      "publishedAt": "2026-11-08T04:55:15Z",
       "addedAt": "2026-11-08T03:10:13.553Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -1025,12 +1290,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1431547686",
-      "title": "galarianpikachu2021-hue/Racing-8-DX-Recomp: Mario Kart 8 Deluxe recompiled to run natively on your PC: no JIT, FSR 3.1 + frame generation, experimental DLSS, 720p to 4K output, HDR10. Bring your own game files.",
-      "url": "https://github.com/galarianpikachu2021-hue/Racing-8-DX-Recomp",
-      "excerpt": "Mario Kart 8 Deluxe recompiled to run natively on your PC: no JIT, FSR 3.1 + frame generation, experimental DLSS, 720p to 4K output, HDR10. Bring your own game files.",
+      "id": "gh-1437397801",
+      "title": "BTr-RJ/RedBaron_Recomp: Native Windows x64 recompilation of Snoopy Flying Ace with a local-build launcher, modern video options and EOS online integration.",
+      "url": "https://github.com/BTr-RJ/RedBaron_Recomp",
+      "excerpt": "Native Windows x64 recompilation of Snoopy Flying Ace with a local-build launcher, modern video options and EOS online integration.",
       "image": "",
-      "publishedAt": "2026-11-08T02:54:21Z",
+      "publishedAt": "2026-11-08T03:07:38Z",
       "addedAt": "2026-11-08T03:10:13.553Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -1938,8 +2203,8 @@
       "id": "zof7yv",
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 260 # Comments: 168",
-      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 260\n\n# Comments: 168",
+      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 271 # Comments: 178",
+      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 271\n\n# Comments: 178",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T20:45:32.000Z",
@@ -2095,7 +2360,7 @@
       "url": "https://github.com/vyanhursky/DefJamFFNY-recomp",
       "excerpt": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
       "image": "",
-      "publishedAt": "2026-11-08T04:17:18Z",
+      "publishedAt": "2026-11-08T04:45:17Z",
       "addedAt": "2026-11-07T23:10:10.266Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -2447,7 +2712,7 @@
       "url": "https://github.com/timboat/demons-souls-recomp",
       "excerpt": "Native Windows port of Demon's Souls (PS3, BLUS-30443) via ps3recomp static recompilation. Bring your own disc image; no game files included.",
       "image": "",
-      "publishedAt": "2026-11-08T03:27:42Z",
+      "publishedAt": "2026-11-08T05:04:42Z",
       "addedAt": "2026-11-07T21:44:04.409Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -3657,8 +3922,8 @@
       "id": "1fzmty1",
       "title": "The end of Microsoft Research's AI Frontiers group",
       "url": "https://hunch.net/?p=13764006",
-      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 424 # Comments: 250",
-      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 424\n\n# Comments: 250",
+      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 427 # Comments: 252",
+      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 427\n\n# Comments: 252",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T18:02:17.000Z",
@@ -3744,8 +4009,8 @@
       "id": "6a6jp5",
       "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
       "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 235 # Comments: 67",
-      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 235\n\n# Comments: 67",
+      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 243 # Comments: 68",
+      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 243\n\n# Comments: 68",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T17:19:00.000Z",
@@ -7948,8 +8213,8 @@
       "id": "1iqgq9j",
       "title": "Every Mac comes with an (undocumented) family member classifier",
       "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 644 # Comments: 358",
-      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 644\n\n# Comments: 358",
+      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 653 # Comments: 363",
+      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 653\n\n# Comments: 363",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T09:46:03.000Z",
@@ -11074,7 +11339,7 @@
       "url": "https://github.com/boburning/portcove",
       "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
       "image": "",
-      "publishedAt": "2026-11-08T04:07:23Z",
+      "publishedAt": "2026-11-08T04:59:16Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -12388,7 +12653,7 @@
       "url": "https://github.com/Lucas-blip-png/dkb-pc-recomp",
       "excerpt": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. The 3D tutorial renders; not playable yet. No game files included.",
       "image": "",
-      "publishedAt": "2026-11-08T04:35:14Z",
+      "publishedAt": "2026-11-08T05:05:53Z",
       "addedAt": "2026-11-07T06:02:57.825Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
