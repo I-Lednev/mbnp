@@ -31,7 +31,7 @@
     <link rel="manifest" href="manifest.webmanifest" />
     <link rel="icon" href="icons/icon.svg" type="image/svg+xml" />
     <link rel="apple-touch-icon" href="icons/icon-192.png" />
-    <link rel="stylesheet" href="styles.css?v=27" />
+    <link rel="stylesheet" href="styles.css?v=28" />
   </head>
   <body>
     <div id="authGate" class="auth-gate" hidden>
@@ -165,6 +165,12 @@
             </button>
             <button class="tab" type="button" role="tab" aria-selected="false" data-category="ports">
               <span class="tab-dot tab-dot-ports" aria-hidden="true"></span>Порты <span class="tab-count" data-count="ports">0</span>
+            </button>
+            <button class="tab" type="button" role="tab" aria-selected="false" data-category="newsletters">
+              <span class="tab-dot tab-dot-newsletters" aria-hidden="true"></span>Рассылки <span class="tab-count" data-count="newsletters">0</span>
+            </button>
+            <button class="tab" type="button" role="tab" aria-selected="false" data-category="reddit">
+              <span class="tab-dot tab-dot-reddit" aria-hidden="true"></span>Reddit <span class="tab-count" data-count="reddit">0</span>
             </button>
             <button class="tab" type="button" role="tab" aria-selected="false" data-category="pc">
               <span class="tab-dot tab-dot-pc" aria-hidden="true"></span>ПК <span class="tab-count" data-count="pc">0</span>
@@ -460,7 +466,7 @@
       (async () => {
         for (let attempt = 0; attempt < 4; attempt += 1) {
           try {
-            await import(`./app.js?v=33&retry=${attempt}`);
+            await import(`./app.js?v=34&retry=${attempt}`);
             return;
           } catch (error) {
             console.warn('Не удалось загрузить app.js, повтор…', error);
