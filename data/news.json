@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T03:40:20.648Z",
-  "tookMs": 12159,
+  "generatedAt": "2026-11-08T04:10:21.620Z",
+  "tookMs": 11991,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -24,7 +24,7 @@
     "war": "Война"
   },
   "counts": {
-    "ai": 113,
+    "ai": 114,
     "games": 108,
     "announces": 35,
     "mobile": 15,
@@ -32,10 +32,10 @@
     "rumors": 31,
     "software": 46,
     "science": 67,
-    "entertainment": 163,
-    "ports": 117,
+    "entertainment": 165,
+    "ports": 119,
     "pc": 54,
-    "consoles": 123,
+    "consoles": 124,
     "hardware": 47,
     "industry": 44,
     "updates": 27,
@@ -43,7 +43,7 @@
     "aisoft": 53,
     "cars": 125,
     "war": 114,
-    "total": 1329
+    "total": 1335
   },
   "sourceCount": 98,
   "sources": [
@@ -736,6 +736,12 @@
   ],
   "errors": [
     {
+      "source": "Nature",
+      "url": "https://www.nature.com/nature.rss",
+      "error": "ответ не похож на RSS/Atom",
+      "reused": 10
+    },
+    {
       "source": "r/emulation",
       "url": "https://www.reddit.com/r/emulation/new/.rss",
       "error": "HTTP 429",
@@ -754,17 +760,109 @@
   ],
   "items": [
     {
-      "id": "gh-1449945171",
-      "title": "kayochiaradia/mtf-recomp: MTF Recomp: a static recompilation of Mario Tennis Fever (Switch 2) into a native Windows x86-64 application. No game files included.",
-      "url": "https://github.com/kayochiaradia/mtf-recomp",
-      "excerpt": "MTF Recomp: a static recompilation of Mario Tennis Fever (Switch 2) into a native Windows x86-64 application. No game files included.",
+      "id": "gh-1449953692",
+      "title": "fasipe/Castlevania-COD-QOL: Unofficial native PC port of Castlevania: Curse of Darkness (PS2) by static recompilation: up to 4x resolution, widescreen, texture filtering, minimap, sprint and more. Requires your own copy of the game.",
+      "url": "https://github.com/fasipe/Castlevania-COD-QOL",
+      "excerpt": "Unofficial native PC port of Castlevania: Curse of Darkness (PS2) by static recompilation: up to 4x resolution, widescreen, texture filtering, minimap, sprint and more. Requires your own copy of the game.",
       "image": "",
-      "publishedAt": "2026-11-08T03:38:24Z",
-      "addedAt": "2026-11-08T03:40:14.649Z",
+      "publishedAt": "2026-11-08T04:08:17Z",
+      "addedAt": "2026-11-08T04:10:15.412Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
       "lang": "en"
+    },
+    {
+      "id": "gh-1449942986",
+      "title": "Guuzzeji/otogi-xunchain: Otogi: Myth of Demons natively recompiled for Windows PC. Static recompilation of the original Xbox game (no emulator) with widescreen, high frame rates and up to 4x resolution. Bring your own disc.",
+      "url": "https://github.com/Guuzzeji/otogi-xunchain",
+      "excerpt": "Otogi: Myth of Demons natively recompiled for Windows PC. Static recompilation of the original Xbox game (no emulator) with widescreen, high frame rates and up to 4x resolution. Bring your own disc.",
+      "image": "",
+      "publishedAt": "2026-11-08T04:08:11Z",
+      "addedAt": "2026-11-08T04:10:15.412Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "1hd6d7r",
+      "title": "[Перевод] Они не взламывали Polymarket, а просто подменили его тест скорости",
+      "url": "https://habr.com/ru/articles/1104926/",
+      "excerpt": "Все слышали про взлом Бинанса: увели около $6.3 млрд, крупнейший взлом в истории крипты. Ключи не утекли: по отчёту самой биржи, разработчика взяли фейковым собеседованием и занесли вредоносный код на его машину ( BBC ). Но эта история своей огромностью…",
+      "content": "Все слышали про взлом Бинанса: увели около $6.3 млрд, крупнейший взлом в истории крипты. Ключи не утекли: по отчёту самой биржи, разработчика взяли фейковым собеседованием и занесли вредоносный код на его машину ( BBC ).\n\nНо эта история своей огромностью затмила другую, которая случилась в тот же день. Масштаб меньше на порядок, рынок другой, и прошла она почти незамеченной. Это Polymarket. Взломали не инфраструктуру и не смарт-контракт, а провайдера, который мерил скорость загрузки его страниц.\n\n29 октября днём пользователи Polymarket начали сообщать о списаниях и принудительных продажах позиций. Сначала международную площадку перевели в режим только отмены, потом остановили торговлю и relayer, через который проходят торговые заявки. Примерно через час торговля вернулась ( The Paypers ).\n\nВ тот же день вышло официальное заявление: скомпрометирован сторонний провайдер, случай передан в правоохранительные органы. Имени провайдера в заявлении не было.\n\n30 октября на статус-странице появился постмортем с деталями: возвраты $3.9M из них $2.7M прямых потерь и $1.2M компенсации за принудительно проданные позиции и за саму паузу в торговле. 95% затронутых кошельков получили полный возврат уже 30 октября ( постмортем ).\n\nЗаявки на возврат не требовались: затронутые кошельки определяли автоматически по ончейн и торговым данным.\n\nBitquery по блокчейну насчитали 737 кошельков с суммарной потерей около $2.73M за один час, и это отдельный счёт ( KuCoin , Gate ). А в блокчейне видно 985 несанкционированных выводов за тот же час, и все они прошли через официальный relayer Polymarket с валидными авторизациями кошелька.\n\nЧитать далее",
+      "image": "https://habrastorage.org/extt/32/7b/03/327b0399c7b8684a820682b01cd0032d.png",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/32/7b/03/327b0399c7b8684a820682b01cd0032d.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T04:05:55.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-08T04:10:09.629Z"
+    },
+    {
+      "id": "bh25fm",
+      "title": "2026 LACMA Art+Film Gala Photos: Sofía Vergara, Andrew Garfield, Quinta Brunson and More Stars",
+      "url": "https://www.hollywoodreporter.com/gallery/2025-lacma-art-film-gala-photos-andrew-garfield-sofia-vergara-1236750141/",
+      "excerpt": "Parker Posey, Anya Taylor-Joy, Anthony Ramos, Tyriq Withers, Paris Hilton were also in attendance at the star-studded event.",
+      "content": "Parker Posey, Anya Taylor-Joy, Anthony Ramos, Tyriq Withers, Paris Hilton were also in attendance at the star-studded event.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-08T04:02:36.000Z",
+      "sourceId": "hollywoodreporter",
+      "source": "The Hollywood Reporter",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T04:10:09.629Z"
+    },
+    {
+      "id": "11o4tbo",
+      "title": "Cristian Mungiu’s Palme d’Or Winner ‘Fjord’ Takes Jakarta World Cinema Audience Award as Short Film Winners Land Debut Feature Funding",
+      "url": "https://variety.com/2026/film/festivals/palme-dor-winner-fjord-jakarta-world-cinema-audience-award-1236942247/",
+      "excerpt": "Cristian Mungiu’s Palme d’Or winner “Fjord” took the audience award at Jakarta World Cinema, which wrapped with Banjong Pisanthanakun’s Thai horror film “Inherit” and handed three Indonesian short filmmakers funding for their first features. “Fjord,” which…",
+      "content": "Cristian Mungiu’s Palme d’Or winner “Fjord” took the audience award at Jakarta World Cinema, which wrapped with Banjong Pisanthanakun’s Thai horror film “Inherit” and handed three Indonesian short filmmakers funding for their first features. “Fjord,” which also opened the festival, won the Jakarta World Cinema Audience Award, the event’s only feature prize. The closing ceremony […]",
+      "image": "https://variety.com/wp-content/uploads/2026/11/Jakarta-World-Cinema-closing-night-and-awards.jpg",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/Jakarta-World-Cinema-closing-night-and-awards.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T03:50:26.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T04:10:09.629Z"
+    },
+    {
+      "id": "1gh6zv8",
+      "title": "Nintendo Switch Online adds Pikmin icons",
+      "url": "https://nintendoeverything.com/nintendo-switch-online-adds-pikmin-icons/",
+      "excerpt": "October 31: As part of the Pikmin Day festivities, Nintendo Switch Online has added in new icons based on the franchise. These can be redeemed on Nintendo Switch 2 and Switch. Characters, backgrounds, and frames are all available. With each character, they…",
+      "content": "October 31: As part of the Pikmin Day festivities, Nintendo Switch Online has added in new icons based on the franchise. These can be redeemed on Nintendo Switch 2 and Switch. Characters, backgrounds, and frames are all available. With each character, they cost 10 Platinum Points on My Nintendo. Everything else is 5 Platinum Points. As a reminder, once you...\n\nNintendo Everything .",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Pikmin-icons-Switch-Online-150x67.jpg",
+      "images": [
+        {
+          "url": "https://nintendoeverything.com/wp-content/uploads/Pikmin-icons-Switch-Online-150x67.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://nintendoeverything.com/wp-content/uploads/Pikmin-icons-Switch-Online.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T02:00:21.000Z",
+      "sourceId": "nintendoeverything",
+      "source": "Nintendo Everything",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-08T04:10:09.629Z"
     },
     {
       "id": "gh-1320835191",
@@ -772,7 +870,20 @@
       "url": "https://github.com/psxrestore/Condemned2Recomp",
       "excerpt": "A static recompilation of Condemned 2: Bloodshot done with RexGlue.",
       "image": "",
-      "publishedAt": "2026-11-08T03:26:35Z",
+      "publishedAt": "2026-11-08T04:03:57Z",
+      "addedAt": "2026-11-08T03:40:14.649Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1449945171",
+      "title": "kayochiaradia/mtf-recomp: MTF Recomp: a static recompilation of Mario Tennis Fever (Switch 2) into a native Windows x86-64 application. No game files included.",
+      "url": "https://github.com/kayochiaradia/mtf-recomp",
+      "excerpt": "MTF Recomp: a static recompilation of Mario Tennis Fever (Switch 2) into a native Windows x86-64 application. No game files included.",
+      "image": "",
+      "publishedAt": "2026-11-08T03:38:24Z",
       "addedAt": "2026-11-08T03:40:14.649Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -1726,8 +1837,8 @@
       "id": "zof7yv",
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 225 # Comments: 147",
-      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 225\n\n# Comments: 147",
+      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 244 # Comments: 154",
+      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 244\n\n# Comments: 154",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T20:45:32.000Z",
@@ -3445,8 +3556,8 @@
       "id": "1fzmty1",
       "title": "The end of Microsoft Research's AI Frontiers group",
       "url": "https://hunch.net/?p=13764006",
-      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 418 # Comments: 244",
-      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 418\n\n# Comments: 244",
+      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 423 # Comments: 247",
+      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 423\n\n# Comments: 247",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T18:02:17.000Z",
@@ -3532,8 +3643,8 @@
       "id": "6a6jp5",
       "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
       "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 221 # Comments: 66",
-      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 221\n\n# Comments: 66",
+      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 228 # Comments: 67",
+      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 228\n\n# Comments: 67",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T17:19:00.000Z",
@@ -7736,8 +7847,8 @@
       "id": "1iqgq9j",
       "title": "Every Mac comes with an (undocumented) family member classifier",
       "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 628 # Comments: 353",
-      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 628\n\n# Comments: 353",
+      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 639 # Comments: 355",
+      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 639\n\n# Comments: 355",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T09:46:03.000Z",
@@ -10862,7 +10973,7 @@
       "url": "https://github.com/boburning/portcove",
       "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
       "image": "",
-      "publishedAt": "2026-11-08T02:59:32Z",
+      "publishedAt": "2026-11-08T04:07:23Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -12176,7 +12287,7 @@
       "url": "https://github.com/Lucas-blip-png/dkb-pc-recomp",
       "excerpt": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. The 3D tutorial renders; not playable yet. No game files included.",
       "image": "",
-      "publishedAt": "2026-11-08T02:20:08Z",
+      "publishedAt": "2026-11-08T04:01:52Z",
       "addedAt": "2026-11-07T06:02:57.825Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
