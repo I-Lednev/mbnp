@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T08:55:26.620Z",
-  "tookMs": 8482,
+  "generatedAt": "2026-11-08T09:10:19.800Z",
+  "tookMs": 10583,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -32,8 +32,8 @@
     "rumors": 31,
     "software": 46,
     "science": 67,
-    "entertainment": 184,
-    "ports": 130,
+    "entertainment": 185,
+    "ports": 131,
     "pc": 53,
     "consoles": 130,
     "hardware": 48,
@@ -41,9 +41,9 @@
     "updates": 28,
     "aimods": 2,
     "aisoft": 54,
-    "cars": 138,
-    "war": 126,
-    "total": 1420
+    "cars": 139,
+    "war": 127,
+    "total": 1424
   },
   "sourceCount": 98,
   "sources": [
@@ -759,6 +759,74 @@
     }
   ],
   "items": [
+    {
+      "id": "gh-1450091901",
+      "title": "rzrbld/ReRED_Faction_Duo: ReRed Faction II — ARM64 Linux port of Red Faction II (2003), using static recompilation, SDL2 and OpenGL ES. Players supply their own game (GOG.com).",
+      "url": "https://github.com/rzrbld/ReRED_Faction_Duo",
+      "excerpt": "ReRed Faction II — ARM64 Linux port of Red Faction II (2003), using static recompilation, SDL2 and OpenGL ES. Players supply their own game (GOG.com).",
+      "image": "",
+      "publishedAt": "2026-11-08T09:03:40Z",
+      "addedAt": "2026-11-08T09:10:14.101Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "1fx72jq",
+      "title": "Taiwan’s Content Agency and Partners Put $180 Million Into 27 Projects, From an ‘Our Blues’ Remake to an Off-Broadway Musical",
+      "url": "https://variety.com/2026/film/asia/taiwan-content-agency-partners-180-million-27-projects-1236942318/",
+      "excerpt": "The Taiwan Creative Content Agency (TAICCA) and its partners have invested in 27 projects, backed by NT$5.64 billion ($180 million) in total, including NT$740 million ($23.7 million) from the agency and NT$4.9 billion ($157 million) in private capital, TAICCA…",
+      "content": "The Taiwan Creative Content Agency (TAICCA) and its partners have invested in 27 projects, backed by NT$5.64 billion ($180 million) in total, including NT$740 million ($23.7 million) from the agency and NT$4.9 billion ($157 million) in private capital, TAICCA chair Sue Wang said at the Taiwan Creative Content Fest (TCCF). TAICCA brought together its four […]",
+      "image": "https://variety.com/wp-content/uploads/2026/11/TAICCA-JV.jpg",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/TAICCA-JV.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T09:04:48.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-08T09:10:09.217Z"
+    },
+    {
+      "id": "1va4liq",
+      "title": "За что хейтят Лады, если их расхватывают как горячие пирожки",
+      "url": "https://www.zr.ru/content/articles/988151-lada-obzor/",
+      "excerpt": "Почему автомобили Lada критикуют: качество, комплектации и отношение к вазовской продукции",
+      "content": "Почему автомобили Lada критикуют: качество, комплектации и отношение к вазовской продукции",
+      "image": "https://www.zr.ru/_ah/img/7DkUFoqbse_-Um3dr7BtyQ",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/7DkUFoqbse_-Um3dr7BtyQ",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T09:00:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-08T09:10:09.217Z"
+    },
+    {
+      "id": "jxme8z",
+      "title": "Zaporizhzhia Nuclear Plant Loses External Power Supply, Russian-Installed Management Says",
+      "url": "https://www.themoscowtimes.com/2026/11/08/zaporizhzhia-nuclear-plant-loses-external-power-supply-russian-installed-management-says-a94202",
+      "excerpt": "",
+      "content": "",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-08T08:50:33.000Z",
+      "sourceId": "moscowtimes",
+      "source": "The Moscow Times",
+      "category": "war",
+      "lang": "en",
+      "addedAt": "2026-11-08T09:10:09.217Z"
+    },
     {
       "id": "1jaci1e",
       "title": "Фанатская кампания поддержать Mass Effect в День N7 не добилась успеха: игра собрала лишь 10 тысяч игроков в Steam",
@@ -1550,8 +1618,8 @@
       "id": "vduo6c",
       "title": "Goodbye Claude, Hello Pi",
       "url": "https://caleb.software/posts/claude-to-pi.html",
-      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 238 # Comments: 140",
-      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 238\n\n# Comments: 140",
+      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 255 # Comments: 145",
+      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 255\n\n# Comments: 145",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T03:11:48.000Z",
@@ -3468,8 +3536,8 @@
       "id": "zof7yv",
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 369 # Comments: 253",
-      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 369\n\n# Comments: 253",
+      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 375 # Comments: 258",
+      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 375\n\n# Comments: 258",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T20:45:32.000Z",
@@ -5187,8 +5255,8 @@
       "id": "1fzmty1",
       "title": "The end of Microsoft Research's AI Frontiers group",
       "url": "https://hunch.net/?p=13764006",
-      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 450 # Comments: 270",
-      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 450\n\n# Comments: 270",
+      "excerpt": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft... Comments URL: https://news.ycombinator.com/item?id=50406563 Points: 453 # Comments: 270",
+      "content": "https://archive.is/AaY5O https://businessexaminer.ca/victoria-articles/item/microsoft...\n\nComments URL: https://news.ycombinator.com/item?id=50406563\n\nPoints: 453\n\n# Comments: 270",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T18:02:17.000Z",
@@ -5274,8 +5342,8 @@
       "id": "6a6jp5",
       "title": "MaxxBench – \"Nice DeepSWE score. But is it true?\"",
       "url": "https://maxxbench.unlap.ai/research/why-maxxbench/",
-      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 291 # Comments: 79",
-      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 291\n\n# Comments: 79",
+      "excerpt": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/ Comments URL: https://news.ycombinator.com/item?id=50406222 Points: 297 # Comments: 79",
+      "content": "Article URL: https://maxxbench.unlap.ai/research/why-maxxbench/\n\nComments URL: https://news.ycombinator.com/item?id=50406222\n\nPoints: 297\n\n# Comments: 79",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T17:19:00.000Z",
@@ -7233,7 +7301,7 @@
       "title": "ICYMI: Call Of Duty: Warzone Is Now Available For Switch 2",
       "url": "https://www.nintendolife.com/news/2026/11/icymi-call-of-duty-warzone-is-now-available-for-switch-2",
       "excerpt": "Download it for free from the eShop. Much of the focus has been on Zelda: Ocarina of Time this week, but in case you missed it, Call of Duty: Warzone is now available to download for the Switch 2. This is a free-to-play battle royale experience, where you can…",
-      "content": "Download it for free from the eShop.\n\nMuch of the focus has been on Zelda: Ocarina of Time this week, but in case you missed it, Call of Duty: Warzone is now available to download for the Switch 2.\n\nThis is a free-to-play battle royale experience, where you can squad up and drop in. It's a separate mode from the Modern Warfare 4 single-player, multiplayer and DMZ mode.\n\nRead the full article on nintendolife.com",
+      "content": "Download it for free from the eShop.\n\nMuch of the focus has been on Zelda: Ocarina of Time this week, but in case you missed it, Call of Duty: Warzone is now available to download for the Switch 2.\n\nThis is a free-to-play battle royale experience, where you can squad up and drop in. It's a separate mode from the Modern Warfare 4 single player, multiplayer and DMZ mode.\n\nRead the full article on nintendolife.com",
       "image": "https://images.nintendolife.com/61f542c60d887/small.jpg",
       "images": [
         {
@@ -9478,8 +9546,8 @@
       "id": "1iqgq9j",
       "title": "Every Mac comes with an (undocumented) family member classifier",
       "url": "https://8rank.ai/game/apple-intelligence-personal-knowledge-graph",
-      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 704 # Comments: 373",
-      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 704\n\n# Comments: 373",
+      "excerpt": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph Comments URL: https://news.ycombinator.com/item?id=50403097 Points: 709 # Comments: 373",
+      "content": "Article URL: https://8rank.ai/game/apple-intelligence-personal-knowledge-graph\n\nComments URL: https://news.ycombinator.com/item?id=50403097\n\nPoints: 709\n\n# Comments: 373",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T09:46:03.000Z",
@@ -10528,12 +10596,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1413279818",
-      "title": "pablocpas/OpenCMR2: Native SDL3 port of Colin McRae Rally 2.0 built from the CMR2Decomp decompilation. No game data included.",
-      "url": "https://github.com/pablocpas/OpenCMR2",
-      "excerpt": "Native SDL3 port of Colin McRae Rally 2.0 built from the CMR2Decomp decompilation. No game data included.",
+      "id": "gh-1432695352",
+      "title": "kuraeow/ultratears: Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
+      "url": "https://github.com/kuraeow/ultratears",
+      "excerpt": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
       "image": "",
-      "publishedAt": "2026-11-07T20:03:32Z",
+      "publishedAt": "2026-11-08T06:56:26Z",
       "addedAt": "2026-11-07T10:10:14.512Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -10541,12 +10609,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1432695352",
-      "title": "kuraeow/ultratears: Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
-      "url": "https://github.com/kuraeow/ultratears",
-      "excerpt": "Unofficial native PC and Steam Deck port of Tears of the Kingdom 1.4.3 using static recompilation. Builds locally from the player's own extracted game dump; no game files included.",
+      "id": "gh-1413279818",
+      "title": "pablocpas/OpenCMR2: Native SDL3 port of Colin McRae Rally 2.0 built from the CMR2Decomp decompilation. No game data included.",
+      "url": "https://github.com/pablocpas/OpenCMR2",
+      "excerpt": "Native SDL3 port of Colin McRae Rally 2.0 built from the CMR2Decomp decompilation. No game data included.",
       "image": "",
-      "publishedAt": "2026-11-07T16:56:42Z",
+      "publishedAt": "2026-11-07T20:03:32Z",
       "addedAt": "2026-11-07T10:10:14.512Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -12599,12 +12667,12 @@
       "addedAt": "2026-11-07T06:16:14.418Z"
     },
     {
-      "id": "gh-1417787248",
-      "title": "maxevans60/cm0102-bosman-edition: Championship Manager 01/02 rebuilt to run natively on Mac, Windows, Linux and Steam Deck. Unofficial fan port.",
-      "url": "https://github.com/maxevans60/cm0102-bosman-edition",
-      "excerpt": "Championship Manager 01/02 rebuilt to run natively on Mac, Windows, Linux and Steam Deck. Unofficial fan port.",
+      "id": "gh-1354613114",
+      "title": "boburning/portcove: Local-first manager for decompilations, recompilations, and native PC ports.",
+      "url": "https://github.com/boburning/portcove",
+      "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
       "image": "",
-      "publishedAt": "2026-11-08T08:55:09Z",
+      "publishedAt": "2026-11-08T09:09:42Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -12612,12 +12680,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1354613114",
-      "title": "boburning/portcove: Local-first manager for decompilations, recompilations, and native PC ports.",
-      "url": "https://github.com/boburning/portcove",
-      "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
+      "id": "gh-1417787248",
+      "title": "maxevans60/cm0102-bosman-edition: Championship Manager 01/02 rebuilt to run natively on Mac, Windows, Linux and Steam Deck. Unofficial fan port.",
+      "url": "https://github.com/maxevans60/cm0102-bosman-edition",
+      "excerpt": "Championship Manager 01/02 rebuilt to run natively on Mac, Windows, Linux and Steam Deck. Unofficial fan port.",
       "image": "",
-      "publishedAt": "2026-11-08T08:51:42Z",
+      "publishedAt": "2026-11-08T08:55:09Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
