@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-08T19:37:36.844Z",
+  "generatedAt": "2026-11-08T19:39:33.214Z",
   "count": 1321,
   "articles": {
     "1py56g3": {
@@ -32001,27 +32001,43 @@
       "fetchedAt": "2026-11-08T15:56:19.657Z",
       "error": "UND_ERR_CONNECT_TIMEOUT"
     },
-    "12w8del": {
+    "qe70rh": {
       "version": 4,
-      "url": "https://deadline.com/2026/11/maya-jama-exits-love-island-uk-host-itv-1237216848/",
-      "fetchedAt": "2026-11-08T19:37:26.097Z",
-      "title": "Maya Jama Exits As ‘Love Island UK’ Host After 9 Seasons",
-      "byline": "Armando Tinoco",
-      "siteName": "Deadline",
-      "content": "Maya Jama, the ultimate bombshell, is not returning as Love Island UK host after fronting the dating series for nine seasons.\n\nJama took to social media to share a goodbye message with some of her best bits from the ITV reality series.\n\n“What an incredible era and what an unforgettable time I’ve had, it’s been far too much fun to put into words or a video..but as all good things must come to an end, it’s my time to step down as the host of my beloved Love Island,” Jama shared on Instagram.\n\nShe continued, “Firstly, I want to thank all of the people who rooted so hard for me to host the show in the first place. I wouldn’t change a thing.\n\nTo the fans of the show, thank you for every supportive message and every single time you’ve tuned in during my time as host, I’m forever grateful to you all. The show really does belong to the people who watch it and embrace it year after year.\n\nBiggest thanks to the incredible production team, I’ve seen firsthand how you work your asses off for months every year to bring this iconic show to life.\n\nI started hosting the show aged 28 and during the 9 incredible series met the most wonderful humans along the way. I’ve loved every slow-mo walk, fire pit and live show. I’ll forever be grateful for the experience.But I’ve always believed that to truly grow, you have to take a leap every now and then, and now is my time to throw myself into something new.\n\nWhile my own Love Island journey has come to an end, I wish the show and the team all the success in the world, I’ll be cheering you lot on from the sidelines forever.”",
+      "url": "https://www.zr.ru/content/news/988182-sem-mest-lidar-na-kryshe-i-si/",
+      "fetchedAt": "2026-11-08T19:39:20.365Z",
+      "title": "Известный в России кроссовер подрос и стал семиместным: когда ждать на рынке?",
+      "byline": "Лежнин Роман",
+      "siteName": "zr.ru",
+      "content": "Премьера обновленного флагманского кроссовера Lynk & Co 900 назначена на 10 ноября, а до дилеров машина доберется к концу 2026 года.Китайцы пересмотрели не только оформление: после рестайлинга автомобиль подрос в габаритах, получил третий ряд сидений и приставку L в названии. Теперь это семиместный кроссовер.Lynk & Co 900 LВнешне машина изменилась сильно – по крайней мере, те, кто уже видел снимки, отмечают, что силуэт и пропорции теперь заметно перекликаются с Range Rover.Одна из главных деталей экстерьера – светодиодная полоса, которая объединяет фары в единый элемент. Добавили и полускрытые дверные ручки, а на крыше появился лидар.Светящийся логотип, крупные воздухозаборники и 21-дюймовые колесные диски дополняют картину. Углы въезда и съезда у новинки составляют 20º.Lynk & Co 900 LСиловая установка осталась подзаряжаемой гибридной: под капотом – двухлитровый бензиновый мотор. Суммарную мощность в компании пока не раскрывают, зато известно про максимальную скорость 225 км/ч и полный привод.На одной электротяге кроссовер, в зависимости от версии, проезжает 320 или 430 км. В оснащение войдет и пневмоподвеска.Российским покупателям марка знакома: автомобили Lynk & Co продаются в стране, причем 900-я модель тянет за собой весь объем продаж на рынке. Ранее компания начала в Китае продажи кроссовера 02 – цены на него стартуют от 123 800 юаней, что по состоянию на 6 ноября 2026 года равно примерно 1,5 млн рублей.О том, как в России набирает популярность кроссовер Geely с полным приводом, «За рулем» уже рассказывал.Понравилась публикация?Тогда добавьте «За рулем» в список интересных источников: 1. Откройте https://google.com... 2. Поставьте галочку напротив нашего изданияГотово – остаемся на связи! «За рулем» можно читать в Одноклассниках",
       "images": [
         {
-          "url": "https://deadline.com/wp-content/uploads/2026/07/maya-jama-love-island-uk-host.jpg?w=1024",
+          "url": "https://www.zr.ru/d/story/16/988182/mycollages-2026-10-21_13-32-59.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.zr.ru/d/story/67/956775/111222.jpg",
           "alt": ""
         }
       ],
-      "length": 1576,
-      "imageCount": 1
+      "length": 1763,
+      "imageCount": 2
+    },
+    "gh-1427165644": {
+      "version": 4,
+      "url": "https://github.com/Cainam-git/MPG321URX-FW-DECOMP",
+      "fetchedAt": "2026-11-08T19:39:20.601Z",
+      "title": "GitHub - Cainam-git/MPG321URX-FW-DECOMP: Decompilation of the MSI MPG 321URX monitor firmware FW.021",
+      "byline": "",
+      "siteName": "GitHub",
+      "content": "A byte-exact decompilation of the firmware of the MSI MPG 321URX QD-OLED monitor, version FW.021.\nThe goal is readable source code for every function in the firmware. Compiled with the same tools MSI used, this\nsource reproduces the original firmware file byte for byte. A function only counts as done when it matches exactly,\nso every file in src/ is a proven reconstruction, not an approximation.\nThe project is a reference and documentation of how this monitor's firmware works. It is not meant to be flashed.\nInside the monitor\nThe monitor is driven by a Novatek NT68500 scaler chip. The firmware holds programs for four processors:\n\nProcessor\nResponsibilities\n\nMain processor (LEON2, \"Leon2M\")\nPicture pipeline, panel control and on-screen menu logic.\n\nInput processor (LEON2, \"Leon2S\")\nReceiving and decoding the HDMI and DisplayPort signals.\n\nHelper processor (8051)\nBooting the system, loading the programs of the other processors, supervising the main processor, power and firmware updates.\n\nTensilica processor (Xtensa)\nZone dimming for LED backlights. Runs, but drives no LEDs in this OLED monitor.\n\nProgress\nMain processor [##################--] 91 %\nInput processor [###################-] 99 %\nHelper processor [####################] 100 %\nTensilica processor [####################] 100 %\nOverall [##################--] 94 %\n\nPercentages are by code size. More than 6,500 of roughly 6,600 functions are done. The input processor and the\nhelper processor are complete, and the Tensilica program is rebuilt completely from assembly source.\ntools/rebuild.py builds the complete firmware image from the matched functions plus the original bytes for\neverything else, and the result is identical to the original file. Detailed numbers are in the\nstatus report.\nHow it works\n\nA function is rewritten in C, or in assembly where the original was written in assembly. Routines from the\ntoolchains' own libraries are taken unchanged from those libraries.\nIt is compiled with the original toolchains: GCC 3.4.4 for the two LEON processors and Keil C51 9.57 for the 8051.\nThe compiler of the Tensilica program is not available, so that program is kept as assembly source that the\nfree Xtensa assembler builds to the original bytes.\nThe result is compared with the original bytes at the exact address the function occupies.\nOnly an identical result is accepted.\n\nMost source files begin with a short description of what the function does. The full method is described in the\nworkflow guide.\nWhere to look\n\nIf you want to…\nRead\n\nSee how the firmware file is laid out\nFirmware map\n\nSet up the toolchains and check a function\nBuild guide\n\nUnderstand the matching method\nWorkflow guide\n\nLearn the source tricks that make GCC and Keil produce identical code\nMatching tricks\n\nChange the firmware safely\nModifying the firmware\n\nContribute a function\nContributing\n\nLook up a term\nGlossary\n\nFind a script\nTools\n\nRepository layout\n\nFolder\nContents\n\nsrc/\nThe reconstructed source code, one file per function (a few 8051 files hold a Keil module of several functions; src/tensilica/ holds the Tensilica program as assembly).\n\nfirmware/\nThe original FW.021 file, older versions for comparison, and two custom versions.\n\nasm/\nThe original machine code of each function, as a reference.\n\nsymbols/\nNames and status of every function.\n\ndecomp/\nRaw output of the Ghidra decompiler, as a reading aid.\n\ntools/\nScripts that compile, compare, accept and count functions.\n\ndocs/\nDocumentation.",
+      "images": [],
+      "length": 3469,
+      "imageCount": 0
     },
     "gh-1164452451": {
       "version": 4,
       "url": "https://github.com/maci0/rebrew",
-      "fetchedAt": "2026-11-08T19:37:26.300Z",
+      "fetchedAt": "2026-11-08T19:39:20.808Z",
       "title": "GitHub - maci0/rebrew: Compiler-in-the-loop decompilation workbench for binary-matching game reversing.",
       "byline": "",
       "siteName": "GitHub",
@@ -32038,7 +32054,7 @@
     "gh-1308504857": {
       "version": 4,
       "url": "https://github.com/Laeresh/CSVM",
-      "fetchedAt": "2026-11-08T19:37:26.431Z",
+      "fetchedAt": "2026-11-08T19:39:20.975Z",
       "title": "GitHub - Laeresh/CSVM: Open-source remake of Crimson Skies (2000) — plays the original game using your own files",
       "byline": "",
       "siteName": "GitHub",
@@ -32047,10 +32063,27 @@
       "length": 10718,
       "imageCount": 0
     },
+    "1as1c9s": {
+      "version": 4,
+      "url": "https://variety.com/2026/shopping/news/watch-baumgardner-nur-turhan-espn-boxing-live-online-free-1236938381/",
+      "fetchedAt": "2026-11-08T19:39:21.651Z",
+      "title": "Baumgardner vs. Nur Turhan: How To Watch Boxing Live Online for Free",
+      "byline": "Rudie Obias",
+      "siteName": "Variety",
+      "content": "The best boxers in the world travel to Texas for the Most Valuable Promotions boxing event. For the main event, American Alycia Baumgardner (18-1-0) takes on Turkish boxer Elif Nur Turhan (14-0-0). The unification title bout is scheduled for 10 rounds. Nur Turhan’s IBF championship belt is on the line, so the winner will receive the women’s lightweight title.\n\nWhen Is Alycia Baumgardner vs. Elif Nur Turhan? Date, Time\n\nBaumgardner vs. Nur Turhan takes place on Sunday, Nov. 8 from College Park Center arena in Arlington, Texas. The event starts at 5:30 p.m. ET/2:30 p.m. PT, with the main card starting around 8:30 p.m. ET/5:30 p.m. PT. The MVP boxing event is available to watch on ESPN Unlimited for the prelims and the main card.\n\nSince the bout is in Texas, there may be a few celebrities in-attendance to watch the title bout. Previous MVP fights have brought out stars, like Lil’ Kim, Floyd Mayweather Jr., Jake Paul, Amanda Serrano and others. To find out who is at the match, watch the livestream.\n\nMeanwhile, with the popularity of women’s sports, it’s likely that the match is going to be a ratings draws for ESPN.\n\nESPN\n\nESPN Unlimited\n\nGet all ESPN networks with one streaming service\n\nGet an ESPN Unlimited subscription here for $31.99/month, which will get you instant access to the livestream online. Unlike pay-per-view events, Baumgardner vs. Nur Turhan is available to stream online free for ESPN Unlimited subscribers.\n\nFor new subscribers, ESPN Unlimited bundle comes with Disney+ and Hulu for $35.99/month. The bundle comes with ESPN Unlimited, as well as Disney+ and Hulu for free when you purchase access to the livestream feed.\n\nHowever, the streaming service doesn’t come with a free trial, but there’s a clever workaround, if you want to watch ESPN Unlimited for free. Learn more about how to watch online for free here.\n\nESPN Unlimited features everything that ESPN has to offer, including access to all of its networks and streaming service, like ESPN, ESPN2, ESPN3, ESPN on ABC, ESPNU, ESPNEWS, ESPN Deportes, SEC Network, ACC Network and ESPN+. It’s the ideal streamer for sports fans who want it all.\n\nOn Sunday, Nov. 8, you can watch Alycia Baumgardner vs. Elif Nur Turhan live online with a subscription to ESPN Unlimited.\n\nMVP Fight Card\n\nWomen’s Lightweight: Alycia Baumgardner vs. Elif Nur Turhan (champion) — Main Event, IBF Title Fight\n\nWomen’s Super Flyweight: Irma Garcia (champion) vs. Nataly Delgado — IBF Title Fight\n\nWomen’s Super Bantamweight: Ramla Ali vs. Mikiah Kreps — IBF and WBO Titles Fight (vacant)\n\nWomen’s Super Bantamweight: Skye Nicolson (champion) vs. Miyo Yoshida — WBC Title Fight\n\nWomen’s Bantamweight: Brittany Sims vs. Shera Mae Patricio\n\nWomen’s Flyweight: Natalie Dove vs. Nayeli Rodriguez\n\nWomen’s Featherweight: Fernando Garcia vs. Alexander Castellano\n\nWomen’s Strawweight: Jocelyn Camarillo vs. Nazarena Serra\n\nWomen’s Welterweight: Javier Guerrero Cruz vs. Aiden Anderson\n\nWomen’s Super Lightweight: Albina Moldazhanova vs. Kirstie Bavington",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/Boxing-MVP-Alycia-Baumgardner-Getty-VR-Featured.jpg?w=1000&h=563&crop=1",
+          "alt": ""
+        }
+      ],
+      "length": 3015,
+      "imageCount": 1
+    },
     "gh-1416110370": {
       "version": 4,
       "url": "https://github.com/TalhaMudo/NFSU2Recomp",
-      "fetchedAt": "2026-11-08T19:37:26.596Z",
+      "fetchedAt": "2026-11-08T19:39:21.896Z",
       "title": "GitHub - TalhaMudo/NFSU2Recomp: Play Need for Speed: Underground 2 natively on Apple Silicon Macs (M1+). Static recompilation of the PC game (x86, Direct3D 9) to ARM64 + Metal: no Wine, CrossOver or emulator; 119 fps vs 10-15 fps under Wine. Bring your own copy; no game code or assets included.",
       "byline": "",
       "siteName": "GitHub",
@@ -32068,27 +32101,39 @@
       "length": 20000,
       "imageCount": 2
     },
-    "1as1c9s": {
+    "12w8del": {
       "version": 4,
-      "url": "https://variety.com/2026/shopping/news/watch-baumgardner-nur-turhan-espn-boxing-live-online-free-1236938381/",
-      "fetchedAt": "2026-11-08T19:37:26.909Z",
-      "title": "Baumgardner vs. Nur Turhan: How To Watch Boxing Live Online for Free",
-      "byline": "Rudie Obias",
-      "siteName": "Variety",
-      "content": "The best boxers in the world travel to Texas for the Most Valuable Promotions boxing event. For the main event, American Alycia Baumgardner (18-1-0) takes on Turkish boxer Elif Nur Turhan (14-0-0). The unification title bout is scheduled for 10 rounds. Nur Turhan’s IBF championship belt is on the line, so the winner will receive the women’s lightweight title.\n\nWhen Is Alycia Baumgardner vs. Elif Nur Turhan? Date, Time\n\nBaumgardner vs. Nur Turhan takes place on Sunday, Nov. 8 from College Park Center arena in Arlington, Texas. The event starts at 5:30 p.m. ET/2:30 p.m. PT, with the main card starting around 8:30 p.m. ET/5:30 p.m. PT. The MVP boxing event is available to watch on ESPN Unlimited for the prelims and the main card.\n\nSince the bout is in Texas, there may be a few celebrities in-attendance to watch the title bout. Previous MVP fights have brought out stars, like Lil’ Kim, Floyd Mayweather Jr., Jake Paul, Amanda Serrano and others. To find out who is at the match, watch the livestream.\n\nMeanwhile, with the popularity of women’s sports, it’s likely that the match is going to be a ratings draws for ESPN.\n\nESPN\n\nESPN Unlimited\n\nGet all ESPN networks with one streaming service\n\nGet an ESPN Unlimited subscription here for $31.99/month, which will get you instant access to the livestream online. Unlike pay-per-view events, Baumgardner vs. Nur Turhan is available to stream online free for ESPN Unlimited subscribers.\n\nFor new subscribers, ESPN Unlimited bundle comes with Disney+ and Hulu for $35.99/month. The bundle comes with ESPN Unlimited, as well as Disney+ and Hulu for free when you purchase access to the livestream feed.\n\nHowever, the streaming service doesn’t come with a free trial, but there’s a clever workaround, if you want to watch ESPN Unlimited for free. Learn more about how to watch online for free here.\n\nESPN Unlimited features everything that ESPN has to offer, including access to all of its networks and streaming service, like ESPN, ESPN2, ESPN3, ESPN on ABC, ESPNU, ESPNEWS, ESPN Deportes, SEC Network, ACC Network and ESPN+. It’s the ideal streamer for sports fans who want it all.\n\nOn Sunday, Nov. 8, you can watch Alycia Baumgardner vs. Elif Nur Turhan live online with a subscription to ESPN Unlimited.\n\nMVP Fight Card\n\nWomen’s Lightweight: Alycia Baumgardner vs. Elif Nur Turhan (champion) — Main Event, IBF Title Fight\n\nWomen’s Super Flyweight: Irma Garcia (champion) vs. Nataly Delgado — IBF Title Fight\n\nWomen’s Super Bantamweight: Ramla Ali vs. Mikiah Kreps — IBF and WBO Titles Fight (vacant)\n\nWomen’s Super Bantamweight: Skye Nicolson (champion) vs. Miyo Yoshida — WBC Title Fight\n\nWomen’s Bantamweight: Brittany Sims vs. Shera Mae Patricio\n\nWomen’s Flyweight: Natalie Dove vs. Nayeli Rodriguez\n\nWomen’s Featherweight: Fernando Garcia vs. Alexander Castellano\n\nWomen’s Strawweight: Jocelyn Camarillo vs. Nazarena Serra\n\nWomen’s Welterweight: Javier Guerrero Cruz vs. Aiden Anderson\n\nWomen’s Super Lightweight: Albina Moldazhanova vs. Kirstie Bavington",
+      "url": "https://deadline.com/2026/11/maya-jama-exits-love-island-uk-host-itv-1237216848/",
+      "fetchedAt": "2026-11-08T19:39:22.331Z",
+      "title": "Maya Jama Exits As ‘Love Island UK’ Host After 9 Seasons",
+      "byline": "Armando Tinoco",
+      "siteName": "Deadline",
+      "content": "Maya Jama, the ultimate bombshell, is not returning as Love Island UK host after fronting the dating series for nine seasons.\n\nJama took to social media to share a goodbye message with some of her best bits from the ITV reality series.\n\n“What an incredible era and what an unforgettable time I’ve had, it’s been far too much fun to put into words or a video..but as all good things must come to an end, it’s my time to step down as the host of my beloved Love Island,” Jama shared on Instagram.\n\nShe continued, “Firstly, I want to thank all of the people who rooted so hard for me to host the show in the first place. I wouldn’t change a thing. To the fans of the show, thank you for every supportive message and every single time you’ve tuned in during my time as host, I’m forever grateful to you all. The show really does belong to the people who watch it and embrace it year after year.”\n\nJama joined Love Island UK in Season 9 (2023) after host Laura Whitmore stepped down. As host of the dating series, Jama also hosted companion series Love Island Aftersun and spinoffs Love Island Games and Love Island All Stars.\n\nFollowing the summer Love Island UK series, there were rumblings that she was eyeing an exit from hosting duties, and in an interview with Deadline, she addressed those rumors.\n\n“I never know,” Jama said about returning to host the series. “[The UK press] always do this. Every time I do a series — that’s happened for the last three years — they’ll say, ‘Maya is leaving.’ And I think they just throw it out there just in case. Then people grab onto it, and they’re like, ‘Oh, are you leaving?'”\n\nShe continued, “But I never decide if I’m doing the next series until the end of one. So it’s fake news that I’m leaving, but I always decide at the end of a series if I’m going to continue the next year. So we’ll find out.”\n\nJama is coming off of starring in BBC One’s The Celebrity Traitors Season 2, where she was a Traitor and made it to the finale, but was banished in the last roundtable. She also starred in the second season of Netflix’s The Gentlemen.\n\nIn her goodbye message to Love Island UK, Jama looked back at her hosting duties, saying, “I started hosting the show aged 28 and during the 9 incredible series met the most wonderful humans along the way. I’ve loved every slow-mo walk, fire pit and live show. I’ll forever be grateful for the experience.But I’ve always believed that to truly grow, you have to take a leap every now and then, and now is my time to throw myself into something new.”\n\n“While my own Love Island journey has come to an end, I wish the show and the team all the success in the world, I’ll be cheering you lot on from the sidelines forever,” she ended.",
       "images": [
         {
-          "url": "https://variety.com/wp-content/uploads/2026/11/Boxing-MVP-Alycia-Baumgardner-Getty-VR-Featured.jpg?w=1000&h=563&crop=1",
+          "url": "https://deadline.com/wp-content/uploads/2026/07/maya-jama-love-island-uk-host.jpg?w=1024",
           "alt": ""
         }
       ],
-      "length": 3015,
+      "length": 2714,
       "imageCount": 1
+    },
+    "gh-1450535261": {
+      "version": 4,
+      "url": "https://github.com/junior9283/dracula-x-pc",
+      "fetchedAt": "2026-11-08T19:39:22.435Z",
+      "title": "GitHub - junior9283/dracula-x-pc: Emulador dedicado de Akumajou Dracula X (Sega Saturn) para Linux, Windows e macOS, com menu, save states e galeria da trilha. Sem dados do jogo: use o seu próprio disco.",
+      "byline": "",
+      "siteName": "GitHub",
+      "content": "Emulador dedicado, para PC (Linux, Windows e macOS), do jogo de Sega Saturn Akumajou Dracula X – Gekka no Yasoukyoku\n(T-9527G v1.400), com um aplicativo completo em volta: janela, controles, menu, save states e galeria da trilha sonora.\nFunciona a partir da sua própria imagem de disco.\nO que é e o que não é. O que roda nativamente no PC é o emulador e o aplicativo. O jogo em si não é nativo: o programa original do Saturn\n(código de máquina SH-2 e driver de som 68000, lidos do seu disco) é interpretado por um núcleo escrito do zero em C++. Não é um port recompilado.\nConverter esse código em código de PC (recompilação estática) é a meta de longo prazo e ainda não foi feita.\nEste repositório contém apenas código e ferramentas originais. Nenhum dado do jogo é distribuído.\nAviso legal. Projeto independente e sem fins comerciais, não afiliado nem endossado pela Konami nem pela Sega. Castlevania, Akumajou Dracula X, Sega Saturn e demais nomes são marcas de seus donos. O repositório e os pacotes não incluem o jogo, a imagem do disco, o pacote gerado a partir dele nem nenhuma BIOS: é preciso ter o seu próprio disco (T-9527G v1.400) e usá-lo conforme a lei do seu país. A BIOS é substituída por uma implementação própria; o código foi escrito a partir de documentação pública e de observação do comportamento do jogo, sem copiar código de outros emuladores. Licença do código: MIT (LICENSE).\nPágina do projeto: https://junior9283.github.io/dracula-x-pc/ · Downloads: releases\nDesign: docs/superpowers/specs/. Plano atual: docs/superpowers/plans/.\nJogar\nCompile com cmake -S . -B build-release -G Ninja -DCMAKE_BUILD_TYPE=Release && cmake --build build-release (precisa do SDL3) e rode build-release/dracula-x.\nNa primeira execução ele pede o .cue do seu disco (ou dracula-x --install disco.cue), confere o SHA-256 dos setores do\nT-9527G V1.400 e gera o pacote local dracula-x.pak (formato DXPCPAK1, ~400 MB) na pasta de dados; depois disso o disco não é mais usado.\nSaves (dracula-x.bup), capturas e configurações ficam na mesma pasta. Detalhes em docs/analysis/08-port-pc.md.\nDurante o jogo: Esc (ou Back/Guide do controle) abre o menu do port — save states (8 slots), vídeo, áudio,\nremapeamento de teclado e controle, galeria da trilha sonora e sair. Atalhos: F5/F7 salva/carrega o estado, F6/F8 trocam o\nslot, F11 alterna tela cheia, F12 grava uma captura. As opções ficam em dracula-x.ini na pasta de dados.\nPacotes de distribuição (sem dados do jogo), em dist/:\n\nLinux: tools/package/build-linux.sh (tar.gz com a libSDL3 embutida) e tools/package/build-appimage.sh (Dracula-X-PC-x86_64.AppImage, arquivo único; baixa o appimagetool oficial para build-appimage/ na primeira vez).\nmacOS: tools/package/build-macos.sh (num Mac; gera Dracula-X-PC-macOS-{universal,x86_64,arm64}.dmg) ou .github/workflows/macos.yml (compilação no GitHub Actions). Não testado em Mac real: veja docs/analysis/08-port-pc.md.\nWindows: tools/package/build-windows.sh (zip portátil por cross-compilação mingw-w64; o SDL3 do Windows é baixado por fetch-sdl3-mingw.sh, sem root) e tools/package/build-windows-installer.sh (Dracula-X-PC-Setup-x64.exe, instalador NSIS; precisa do makensis).\n\nFerramentas (linha de comando)\nCompile com cmake -S . -B build-local -G Ninja && cmake --build build-local. Todas recebem o .cue do seu disco e recusam qualquer outro que não seja o T-9527G V1.400 completo.\n\nFerramenta\nFaz\n\ndxpc-extract <cue> <pasta> [--force]\nextrai os arquivos do disco para uma pasta local + manifest.txt\n\ndxpc-catalog <cue>\nlista e classifica os arquivos por tipo\n\ndxpc-overlays <cue>\nendereço de carga dos overlays .PRG e sobreposições\n\ndxpc-music-export <cue> <pasta>\ndecodifica as 49 faixas de música para .wav (≈1,1 GB)\n\nScripts de análise (tools/analysis/*.py) usam Python 3 com numpy e Pillow; os de tools/ghidra/ usam o Ghidra 12.2 (ver tools/ghidra/README.md). Resultados em docs/analysis/.",
+      "images": [],
+      "length": 3894,
+      "imageCount": 0
     },
     "1py1kw9": {
       "version": 4,
       "url": "https://variety.com/2026/film/box-office/heated-rivalry-theatrical-release-box-office-grosses-1236942444/",
-      "fetchedAt": "2026-11-08T19:37:27.045Z",
+      "fetchedAt": "2026-11-08T19:39:22.758Z",
       "title": "‘Heated Rivalry’ Theatrical Release Generates $1.4 Million",
       "byline": "Rebecca Rubin",
       "siteName": "Variety",
@@ -32102,22 +32147,27 @@
       "length": 3190,
       "imageCount": 1
     },
-    "gh-1450535261": {
+    "1xktqah": {
       "version": 4,
-      "url": "https://github.com/junior9283/dracula-x-pc",
-      "fetchedAt": "2026-11-08T19:37:27.123Z",
-      "title": "GitHub - junior9283/dracula-x-pc: Emulador dedicado de Akumajou Dracula X (Sega Saturn) para Linux, Windows e macOS, com menu, save states e galeria da trilha. Sem dados do jogo: use o seu próprio disco.",
-      "byline": "",
-      "siteName": "GitHub",
-      "content": "Emulador dedicado, para PC (Linux, Windows e macOS), do jogo de Sega Saturn Akumajou Dracula X – Gekka no Yasoukyoku\n(T-9527G v1.400), com um aplicativo completo em volta: janela, controles, menu, save states e galeria da trilha sonora.\nFunciona a partir da sua própria imagem de disco.\nO que é e o que não é. O que roda nativamente no PC é o emulador e o aplicativo. O jogo em si não é nativo: o programa original do Saturn\n(código de máquina SH-2 e driver de som 68000, lidos do seu disco) é interpretado por um núcleo escrito do zero em C++. Não é um port recompilado.\nConverter esse código em código de PC (recompilação estática) é a meta de longo prazo e ainda não foi feita.\nEste repositório contém apenas código e ferramentas originais. Nenhum dado do jogo é distribuído.\nAviso legal. Projeto independente e sem fins comerciais, não afiliado nem endossado pela Konami nem pela Sega. Castlevania, Akumajou Dracula X, Sega Saturn e demais nomes são marcas de seus donos. O repositório e os pacotes não incluem o jogo, a imagem do disco, o pacote gerado a partir dele nem nenhuma BIOS: é preciso ter o seu próprio disco (T-9527G v1.400) e usá-lo conforme a lei do seu país. A BIOS é substituída por uma implementação própria; o código foi escrito a partir de documentação pública e de observação do comportamento do jogo, sem copiar código de outros emuladores. Licença do código: MIT (LICENSE).\nPágina do projeto: https://junior9283.github.io/dracula-x-pc/ · Downloads: releases\nDesign: docs/superpowers/specs/. Plano atual: docs/superpowers/plans/.\nJogar\nCompile com cmake -S . -B build-release -G Ninja -DCMAKE_BUILD_TYPE=Release && cmake --build build-release (precisa do SDL3) e rode build-release/dracula-x.\nNa primeira execução ele pede o .cue do seu disco (ou dracula-x --install disco.cue), confere o SHA-256 dos setores do\nT-9527G V1.400 e gera o pacote local dracula-x.pak (formato DXPCPAK1, ~400 MB) na pasta de dados; depois disso o disco não é mais usado.\nSaves (dracula-x.bup), capturas e configurações ficam na mesma pasta. Detalhes em docs/analysis/08-port-pc.md.\nDurante o jogo: Esc (ou Back/Guide do controle) abre o menu do port — save states (8 slots), vídeo, áudio,\nremapeamento de teclado e controle, galeria da trilha sonora e sair. Atalhos: F5/F7 salva/carrega o estado, F6/F8 trocam o\nslot, F11 alterna tela cheia, F12 grava uma captura. As opções ficam em dracula-x.ini na pasta de dados.\nPacotes de distribuição (sem dados do jogo), em dist/:\n\nLinux: tools/package/build-linux.sh (tar.gz com a libSDL3 embutida) e tools/package/build-appimage.sh (Dracula-X-PC-x86_64.AppImage, arquivo único; baixa o appimagetool oficial para build-appimage/ na primeira vez).\nmacOS: tools/package/build-macos.sh (num Mac; gera Dracula-X-PC-macOS-{universal,x86_64,arm64}.dmg) ou .github/workflows/macos.yml (compilação no GitHub Actions). Não testado em Mac real: veja docs/analysis/08-port-pc.md.\nWindows: tools/package/build-windows.sh (zip portátil por cross-compilação mingw-w64; o SDL3 do Windows é baixado por fetch-sdl3-mingw.sh, sem root) e tools/package/build-windows-installer.sh (Dracula-X-PC-Setup-x64.exe, instalador NSIS; precisa do makensis).\n\nFerramentas (linha de comando)\nCompile com cmake -S . -B build-local -G Ninja && cmake --build build-local. Todas recebem o .cue do seu disco e recusam qualquer outro que não seja o T-9527G V1.400 completo.\n\nFerramenta\nFaz\n\ndxpc-extract <cue> <pasta> [--force]\nextrai os arquivos do disco para uma pasta local + manifest.txt\n\ndxpc-catalog <cue>\nlista e classifica os arquivos por tipo\n\ndxpc-overlays <cue>\nendereço de carga dos overlays .PRG e sobreposições\n\ndxpc-music-export <cue> <pasta>\ndecodifica as 49 faixas de música para .wav (≈1,1 GB)\n\nScripts de análise (tools/analysis/*.py) usam Python 3 com numpy e Pillow; os de tools/ghidra/ usam o Ghidra 12.2 (ver tools/ghidra/README.md). Resultados em docs/analysis/.",
-      "images": [],
-      "length": 3894,
-      "imageCount": 0
+      "url": "https://www.dw.com/ru/%D1%83%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B0-%D0%BF%D1%80%D0%B5%D0%B4%D0%BB%D0%BE%D0%B6%D0%B8%D0%BB%D0%B0-%D0%B8%D1%82%D0%B0%D0%BB%D0%B8%D0%B8-%D0%BF%D0%BE%D0%BC%D0%BE%D1%89%D1%8C-%D0%B2-%D0%BF%D1%80%D0%BE%D1%82%D0%B8%D0%B2%D0%BE%D0%B4%D0%B5%D0%B9%D1%81%D1%82%D0%B2%D0%B8%D0%B8-%D0%BA%D0%B8%D0%B1%D0%B5%D1%80%D0%B0%D1%82%D0%B0%D0%BA%D0%B0%D0%BC/a-79893219?maca=rus-rss-ru-all-1126-rdf",
+      "fetchedAt": "2026-11-08T19:39:22.831Z",
+      "title": "Украина предложила Италии опыт защиты от кибератак после угроз в адрес Таяни и его семьи",
+      "byline": "Жан Рофе",
+      "siteName": "Deutsche Welle",
+      "content": "Министр иностранных дел Украины Андрей Сибига выразил солидарность с итальянским коллегой Антонио Таяни в связи с кибератаками и угрозами, направленными против него и его семьи.  \"Киберугрозы и злонамеренные атаки не знают границ и требуют решительного, скоординированного ответа\", - написал он в соцсети Х в воскресенье, 8 ноября.\n\nСибига отметил, что Украина обладает значительным опытом противодействия таким угрозам и готова поделиться своими наработками с партнерами. \"Вместе мы сильнее в защите Европы, укреплении устойчивости наших обществ и обеспечении безопасности критической инфраструктуры и конфиденциальных данных\", - указал он.\n\nУкраинский министр также поддержал предложение Таяни обсудить проблему киберугроз на предстоящей встрече глав внешнеполитических ведомств стран G7 в Париже. В завершение Сибига поблагодарил Таяни, правительство Италии и итальянцев за поддержку Украины. \"Те, кто пытается нас запугать, лишь укрепляют нашу решимость держаться вместе\", - подчеркнул он.\n\nГлава МИД Италии заявил о кибератаках и угрозах из-за поддержки Украины\n\nНакануне министр иностранных дел Италии сообщил, что киберпреступники уже несколько дней распространяют его личные данные в даркнете и пытаются получить дополнительную информацию о нем и его семье. По мнению Антонио Таяни, он стал мишенью злоумышленников из-за поддержки Украины со стороны итальянских властей.\n\nПремьер-министр Италии Джорджа Мелони обвинила в произошедшем пророссийских хакеров. Она отметила, что попытки продажи конфиденциальных сведений о представителях государственной власти вызывают серьезную обеспокоенность и требуют решительного ответа.\n\nКомментариев российских властей по поводу инцидента пока не поступало. Москва ранее неоднократно отвергала обвинения в причастности к кибератакам за рубежом.",
+      "images": [
+        {
+          "url": "https://static.dw.com/image/79411830_6.jpg",
+          "alt": ""
+        }
+      ],
+      "length": 1789,
+      "imageCount": 1
     },
     "1eos61p": {
       "version": 4,
       "url": "https://deadline.com/2026/11/jennifer-welch-angie-sullivan-apologize-laughing-charlie-kirk-joke-1237216817/",
-      "fetchedAt": "2026-11-08T19:37:27.395Z",
+      "fetchedAt": "2026-11-08T19:39:23.205Z",
       "title": "Jennifer Welch & Angie Sullivan Apologize For Laughing At “Insensitive” Charlie Kirk Joke On Podcast: “We Regret It”",
       "byline": "Glenn Garner",
       "siteName": "Deadline",
@@ -32134,7 +32184,7 @@
     "o6g1y6": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/movies/movie-news/bill-skarsgard-pennywise-voice-kids-misbehave-1236750434/",
-      "fetchedAt": "2026-11-08T19:37:27.641Z",
+      "fetchedAt": "2026-11-08T19:39:23.509Z",
       "title": "Bill Skarsgard Jokes About Using Pennywise Voice When His Kids Misbehave: “Schizophrenic Daddy”",
       "byline": "Carly Thomas",
       "siteName": "The Hollywood Reporter",
@@ -32151,13 +32201,13 @@
     "qw4uh6": {
       "version": 4,
       "url": "https://phys.org/news/2026-11-space-weather-powers-auroras-sky.html",
-      "fetchedAt": "2026-11-08T19:37:27.722Z",
+      "fetchedAt": "2026-11-08T19:39:23.584Z",
       "error": "HTTP 403"
     },
     "4j9izb": {
       "version": 4,
       "url": "https://variety.com/2026/film/news/andy-serkis-motion-capture-gollum-1236942445/",
-      "fetchedAt": "2026-11-08T19:37:27.968Z",
+      "fetchedAt": "2026-11-08T19:39:23.905Z",
       "title": "'Lord of the Rings' Star Andy Serkis Says Gollum Tech is Misunderstood",
       "byline": "Payton Turkeltaub",
       "siteName": "Variety",
@@ -32174,7 +32224,7 @@
     "1hoy509": {
       "version": 4,
       "url": "https://www.playground.ru/heartopia/news/heartopia_poluchit_krossover_s_my_little_pony_s_obrazami_selestii_luny_i_mistmejn-1888931",
-      "fetchedAt": "2026-11-08T19:37:28.500Z",
+      "fetchedAt": "2026-11-08T19:39:24.523Z",
       "title": "Heartopia получит кроссовер с My Little Pony - с образами Селестии, Луны и Мистмейн",
       "byline": "RedDay13",
       "siteName": "Playground",
@@ -32191,7 +32241,7 @@
     "19cz4fj": {
       "version": 4,
       "url": "https://deadline.com/2026/11/benito-skinner-2016-millennial-hopecore-overcompensating-season-2-1237216771/",
-      "fetchedAt": "2026-11-08T19:37:28.929Z",
+      "fetchedAt": "2026-11-08T19:39:25.081Z",
       "title": "Benito Skinner Teases “2016 Millennial Hopecore” For ‘Overcompensating’ Season 2: “Sorry For The Wait”",
       "byline": "Glenn Garner",
       "siteName": "Deadline",
@@ -32208,7 +32258,7 @@
     "79fgia": {
       "version": 4,
       "url": "https://www.playground.ru/donkey_kong_bananza/news/entuziasty_zapustili_donkey_kong_bananza_s_nintendo_switch_2_na_pk_s_pomoschyu_staticheskoj_rekompilyatsii-1888927",
-      "fetchedAt": "2026-11-08T19:37:28.993Z",
+      "fetchedAt": "2026-11-08T19:39:25.160Z",
       "title": "Энтузиасты запустили Donkey Kong Bananza с Nintendo Switch 2 на ПК с помощью статической рекомпиляции",
       "byline": "Extor Menoger",
       "siteName": "Playground",
@@ -32225,7 +32275,7 @@
     "1g18d98": {
       "version": 4,
       "url": "https://3dnews.ru/1151024/zapusk-world-of-warcraft-forever-ustanovil-rekord-po-chislu-odnovremennih-igrokov-za-vsyu-istoriyu-wow",
-      "fetchedAt": "2026-11-08T19:37:29.128Z",
+      "fetchedAt": "2026-11-08T19:39:25.299Z",
       "title": "Запуск World of Warcraft: Forever установил рекорд по числу одновременных игроков за всю историю WoW",
       "byline": "Игнатий Колыско",
       "siteName": "3DNews",
@@ -32250,7 +32300,7 @@
     "1aabzwz": {
       "version": 4,
       "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-      "fetchedAt": "2026-11-08T19:37:29.427Z",
+      "fetchedAt": "2026-11-08T19:39:25.662Z",
       "title": "Goldman Sachs Is Pulling Claude Code From Its Bankers and Traders",
       "byline": "State of AI",
       "siteName": "State of AI",
@@ -32267,7 +32317,7 @@
     "6d1a43": {
       "version": 4,
       "url": "https://variety.com/2026/film/news/judi-dench-reveals-she-was-wooed-1236942417/",
-      "fetchedAt": "2026-11-08T19:37:29.764Z",
+      "fetchedAt": "2026-11-08T19:39:26.046Z",
       "title": "Judi Dench Reveals She Was Wooed Into Roles: ‘I’m Cheap as Chips’",
       "byline": "Isabelle Farina",
       "siteName": "Variety",
@@ -32281,52 +32331,10 @@
       "length": 1757,
       "imageCount": 1
     },
-    "1grewig": {
-      "version": 4,
-      "url": "https://www.playground.ru/legend_of_zelda_ocarina_of_time/news/remejk_ocarina_of_time_dlya_nintendo_switch_2_perenesli_na_pk_bez_emulyatorov_s_pomoschyu_proekta_hookshot-1888917",
-      "fetchedAt": "2026-11-08T19:37:29.830Z",
-      "title": "Ремейк Ocarina of Time для Nintendo Switch 2 перенесли на ПК без эмуляторов с помощью проекта Hookshot",
-      "byline": "Extor Menoger",
-      "siteName": "Playground",
-      "content": "Энтузиасты представили открытый проект Hookshot, предназначенный для нативного запуска версии The Legend of Zelda: Ocarina of Time для платформы Nintendo Switch 2 на персональных компьютерах под управлением Windows и Linux. В отличие от традиционных эмуляторов, программа не эмулирует архитектуру целевой системы в реальном времени, а выполняет статическую рекомпиляцию исполняемого кода ARM64 напрямую в инструкции языка C с последующей сборкой стандартного бинарного файла для целевой операционной системы. Низкоуровневые вызовы графического интерфейса NVN2 перенаправляются на графический конвейер Vulkan 1.3, а шейдеры микроархитектуры Ampere транслируются в формат SPIR-V.\nHookshot представляет собой статическую рекомпиляцию. Исходный код игры транслируется в C и компилируется в программу для Windows, системное программное обеспечение консоли реализуется заново, а графика Switch 2 перестраивается на базе Vulkan.- NotRexed, ведущий разработчик проекта Hookshot\nРепозиторий распространяется под свободной лицензией GPL-3.0 и строго соблюдает юридические границы, не включая в себя защищенные авторским правом файлы самой игры, цифровые ключи или готовые скомпилированные сборки. Для генерации исполняемого файла пользователю необходимо предоставить оригинальный образ игры в формате nup либо распакованные каталоги romfs и exefs определенной ревизии. Вся процедура распаковки, трансляции кода и компиляции шейдеров выполняется локально на компьютере игрока через инструмент Hookshot Builder, который поставляется со встроенным набором инструментов llvm-mingw и не требует установки пакетов Visual Studio.\nЗа последние дни проект получил масштабную серию обновлений, кульминацией которой стал выход релизов 2.0.0 и 2.0.2. Разработчики добавили встроенный лаунчер с функцией фонового обновления, позволяющей догружать только измененные компоненты и пересобирать проект за 3 минуты вместо начальных 40 минут. Кроме того, разделение очередей синхронизации для графического интерфейса NVN позволило поднять общую частоту кадров примерно на 45%. На тестовой конфигурации с процессором Ryzen 5 7600X и видеокартой GeForce RTX 4060 Ti в стартовой локации Kokiri Forest базовая производительность выросла с 33 до 47 кадров в секунду.\nСущественным доработкам подверглась визуальная составляющая. В проект добавили полноценный режим отображения для мониторов сверхширокого формата с пропорциями 21:9 и 32:9, при котором движок расширяет угол обзора и дорисовывает сцену по бокам, не растягивая центральные элементы интерфейса и видеовставки. Команде также удалось восстановить работу алгоритмов отсечения геометрии, благодаря чему в мир вернулись кроны деревьев, трава, падающие листья и зеленая гладь водоема, а также исчезли резкие однокадровые вспышки и чрезмерно плотный белый туман.\nСвежая версия 2.0.2 сосредоточилась на устранении критических проблем на графических чипах AMD и Intel. Из-за архитектурных различий блоки вычислений ранее уходили в бесконечные циклы сравнения и обмена данных, вызывая зависания видеокарт Radeon RX 6600 в локации Deku Tree. Разработчики жестко ограничили число попыток таких операций и добавили недостающие трансляторы для вычислительных программ. Для систем без специализированных матричных блоков реализовали альтернативный шейдерный путь масштабирования вступительных видеороликов вместо требовательных нейросетевых фильтров.\nВстроенное меню настроек, вызываемое клавишей Insert или центральной кнопкой геймпада, предлагает профили качества графики для видеокарт с памятью от 4 до 16 ГБ, алгоритмы апскейлинга, генерацию кадров до 4x и ручную привязку клавиш с поддержкой вибрации на геймпадах Xbox и DualSense. Версия для Linux оформилась в виде готового пакета AppImage со встроенными библиотеками рендеринга на базе Mesa или проприетарного стека NVIDIA с обязательной поддержкой меш-шейдеров.\nНа текущем этапе проект сохраняет статус экспериментального, а стабильное прохождение подтверждено преимущественно в пределах начальных локаций. Разработчики продолжают оптимизировать задержки при компиляции шейдеров во время первого посещения новых областей и готовятся к полномасштабным тестам на открытых пространствах Hyrule Field.",
-      "images": [
-        {
-          "url": "https://i.playground.ru/e/Eox8cb2VPriOn8Sh3BEg5Q.jpeg",
-          "alt": ""
-        }
-      ],
-      "length": 4170,
-      "imageCount": 1
-    },
-    "15wnwkz": {
-      "version": 4,
-      "url": "https://www.playground.ru/euro_truck_simulator_2/news/euro_truck_simulator_2_zapuskaet_ivent_cruising_iceland_s_nagradami_za_poezdki_po_vsem_gorodam-1888918",
-      "fetchedAt": "2026-11-08T19:37:29.911Z",
-      "title": "Euro Truck Simulator 2 запускает ивент Cruising Iceland - с наградами за поездки по всем городам",
-      "byline": "RedDay13",
-      "siteName": "Playground",
-      "content": "SCS Software объявила о старте нового события World of Trucks — Cruising Iceland, приуроченного к выходу одноимённого дополнения. Мероприятие начнётся 10 ноября и продлится до 3 января 2027 года.\nИгрокам предстоит доставлять грузы в любой город Исландии или из него. Общая цель сообщества — проехать 175 миллионов километров. Для выполнения личной цели нужно совершить доставку в каждый из 14 городов дополнения и из него. Минимальная длина каждого рейса должна составлять не менее 150 километров.\nЗа выполнение личной цели игроки получат достижение World of Trucks и эксклюзивную покраску для грузовика «Огонь и лёд». Если сообщество достигнет общей цели, участники с выполненной личной задачей получат подвесную фигурку Тролля.\nСобытие позволит прокатиться по знаменитой Кольцевой дороге, увидеть гейзер Строккюр, узкие мосты и столицу Рейкьявик. Для участия в ивенте необходимо использовать Внешние контракты или Внешний рынок, а отслеживать прогресс можно в личном кабинете World of Trucks.",
-      "images": [
-        {
-          "url": "https://i.playground.ru/e/49AH9oIJ7eai14VtOEiimA.png",
-          "alt": ""
-        },
-        {
-          "url": "https://i.playground.ru/p/49AH9oIJ7eai14VtOEiimA.png?760xauto",
-          "alt": ""
-        },
-        {
-          "url": "https://i.playground.ru/p/49AH9oIJ7eai14VtOEiimA.png.webp?420xauto",
-          "alt": ""
-        }
-      ],
-      "length": 994,
-      "imageCount": 3
-    },
     "1cap2ui": {
       "version": 4,
       "url": "https://www.playground.ru/call_of_duty_warzone/news/warzone_stala_besplatnoj_na_nintendo_switch_2_bez_pokupki_modern_warfare_4-1888925",
-      "fetchedAt": "2026-11-08T19:37:29.970Z",
+      "fetchedAt": "2026-11-08T19:39:26.117Z",
       "title": "Warzone стала бесплатной на Nintendo Switch 2 - без покупки Modern Warfare 4",
       "byline": "KoRnEr",
       "siteName": "Playground",
@@ -32348,10 +32356,52 @@
       "length": 1532,
       "imageCount": 3
     },
+    "15wnwkz": {
+      "version": 4,
+      "url": "https://www.playground.ru/euro_truck_simulator_2/news/euro_truck_simulator_2_zapuskaet_ivent_cruising_iceland_s_nagradami_za_poezdki_po_vsem_gorodam-1888918",
+      "fetchedAt": "2026-11-08T19:39:26.193Z",
+      "title": "Euro Truck Simulator 2 запускает ивент Cruising Iceland - с наградами за поездки по всем городам",
+      "byline": "RedDay13",
+      "siteName": "Playground",
+      "content": "SCS Software объявила о старте нового события World of Trucks — Cruising Iceland, приуроченного к выходу одноимённого дополнения. Мероприятие начнётся 10 ноября и продлится до 3 января 2027 года.\nИгрокам предстоит доставлять грузы в любой город Исландии или из него. Общая цель сообщества — проехать 175 миллионов километров. Для выполнения личной цели нужно совершить доставку в каждый из 14 городов дополнения и из него. Минимальная длина каждого рейса должна составлять не менее 150 километров.\nЗа выполнение личной цели игроки получат достижение World of Trucks и эксклюзивную покраску для грузовика «Огонь и лёд». Если сообщество достигнет общей цели, участники с выполненной личной задачей получат подвесную фигурку Тролля.\nСобытие позволит прокатиться по знаменитой Кольцевой дороге, увидеть гейзер Строккюр, узкие мосты и столицу Рейкьявик. Для участия в ивенте необходимо использовать Внешние контракты или Внешний рынок, а отслеживать прогресс можно в личном кабинете World of Trucks.",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/49AH9oIJ7eai14VtOEiimA.png",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/49AH9oIJ7eai14VtOEiimA.png?760xauto",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/49AH9oIJ7eai14VtOEiimA.png.webp?420xauto",
+          "alt": ""
+        }
+      ],
+      "length": 994,
+      "imageCount": 3
+    },
+    "1grewig": {
+      "version": 4,
+      "url": "https://www.playground.ru/legend_of_zelda_ocarina_of_time/news/remejk_ocarina_of_time_dlya_nintendo_switch_2_perenesli_na_pk_bez_emulyatorov_s_pomoschyu_proekta_hookshot-1888917",
+      "fetchedAt": "2026-11-08T19:39:26.270Z",
+      "title": "Ремейк Ocarina of Time для Nintendo Switch 2 перенесли на ПК без эмуляторов с помощью проекта Hookshot",
+      "byline": "Extor Menoger",
+      "siteName": "Playground",
+      "content": "Энтузиасты представили открытый проект Hookshot, предназначенный для нативного запуска версии The Legend of Zelda: Ocarina of Time для платформы Nintendo Switch 2 на персональных компьютерах под управлением Windows и Linux. В отличие от традиционных эмуляторов, программа не эмулирует архитектуру целевой системы в реальном времени, а выполняет статическую рекомпиляцию исполняемого кода ARM64 напрямую в инструкции языка C с последующей сборкой стандартного бинарного файла для целевой операционной системы. Низкоуровневые вызовы графического интерфейса NVN2 перенаправляются на графический конвейер Vulkan 1.3, а шейдеры микроархитектуры Ampere транслируются в формат SPIR-V.\nHookshot представляет собой статическую рекомпиляцию. Исходный код игры транслируется в C и компилируется в программу для Windows, системное программное обеспечение консоли реализуется заново, а графика Switch 2 перестраивается на базе Vulkan.- NotRexed, ведущий разработчик проекта Hookshot\nРепозиторий распространяется под свободной лицензией GPL-3.0 и строго соблюдает юридические границы, не включая в себя защищенные авторским правом файлы самой игры, цифровые ключи или готовые скомпилированные сборки. Для генерации исполняемого файла пользователю необходимо предоставить оригинальный образ игры в формате nup либо распакованные каталоги romfs и exefs определенной ревизии. Вся процедура распаковки, трансляции кода и компиляции шейдеров выполняется локально на компьютере игрока через инструмент Hookshot Builder, который поставляется со встроенным набором инструментов llvm-mingw и не требует установки пакетов Visual Studio.\nЗа последние дни проект получил масштабную серию обновлений, кульминацией которой стал выход релизов 2.0.0 и 2.0.2. Разработчики добавили встроенный лаунчер с функцией фонового обновления, позволяющей догружать только измененные компоненты и пересобирать проект за 3 минуты вместо начальных 40 минут. Кроме того, разделение очередей синхронизации для графического интерфейса NVN позволило поднять общую частоту кадров примерно на 45%. На тестовой конфигурации с процессором Ryzen 5 7600X и видеокартой GeForce RTX 4060 Ti в стартовой локации Kokiri Forest базовая производительность выросла с 33 до 47 кадров в секунду.\nСущественным доработкам подверглась визуальная составляющая. В проект добавили полноценный режим отображения для мониторов сверхширокого формата с пропорциями 21:9 и 32:9, при котором движок расширяет угол обзора и дорисовывает сцену по бокам, не растягивая центральные элементы интерфейса и видеовставки. Команде также удалось восстановить работу алгоритмов отсечения геометрии, благодаря чему в мир вернулись кроны деревьев, трава, падающие листья и зеленая гладь водоема, а также исчезли резкие однокадровые вспышки и чрезмерно плотный белый туман.\nСвежая версия 2.0.2 сосредоточилась на устранении критических проблем на графических чипах AMD и Intel. Из-за архитектурных различий блоки вычислений ранее уходили в бесконечные циклы сравнения и обмена данных, вызывая зависания видеокарт Radeon RX 6600 в локации Deku Tree. Разработчики жестко ограничили число попыток таких операций и добавили недостающие трансляторы для вычислительных программ. Для систем без специализированных матричных блоков реализовали альтернативный шейдерный путь масштабирования вступительных видеороликов вместо требовательных нейросетевых фильтров.\nВстроенное меню настроек, вызываемое клавишей Insert или центральной кнопкой геймпада, предлагает профили качества графики для видеокарт с памятью от 4 до 16 ГБ, алгоритмы апскейлинга, генерацию кадров до 4x и ручную привязку клавиш с поддержкой вибрации на геймпадах Xbox и DualSense. Версия для Linux оформилась в виде готового пакета AppImage со встроенными библиотеками рендеринга на базе Mesa или проприетарного стека NVIDIA с обязательной поддержкой меш-шейдеров.\nНа текущем этапе проект сохраняет статус экспериментального, а стабильное прохождение подтверждено преимущественно в пределах начальных локаций. Разработчики продолжают оптимизировать задержки при компиляции шейдеров во время первого посещения новых областей и готовятся к полномасштабным тестам на открытых пространствах Hyrule Field.",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/Eox8cb2VPriOn8Sh3BEg5Q.jpeg",
+          "alt": ""
+        }
+      ],
+      "length": 4170,
+      "imageCount": 1
+    },
     "vy99nz": {
       "version": 4,
       "url": "https://variety.com/2026/film/box-office/you-can-see-everything-second-highest-grossing-documentary-north-america-box-office-1236942385/",
-      "fetchedAt": "2026-11-08T19:37:30.098Z",
+      "fetchedAt": "2026-11-08T19:39:26.412Z",
       "title": "You Can See Everything Is Second-Highest Grossing Doc in North America",
       "byline": "Rebecca Rubin",
       "siteName": "Variety",
@@ -32368,7 +32418,7 @@
     "ewmlry": {
       "version": 4,
       "url": "https://www.caranddriver.com/features/a74263645/hungarian-vw-microbus-matchbox-the-movie/",
-      "fetchedAt": "2026-11-08T19:37:30.334Z",
+      "fetchedAt": "2026-11-08T19:39:26.675Z",
       "title": "Hungarian VW Bus Goes from ‘Matchbox: The Movie’ to Matchbox, the Toy Car",
       "byline": "Brendan McAleer",
       "siteName": "Car and Driver",
@@ -32385,7 +32435,7 @@
     "1og4iyd": {
       "version": 4,
       "url": "https://www.gematsu.com/2026/11/this-weeks-japanese-game-releases-prinny-party-going-overboard-pikmin-4-nintendo-switch-2-edition-dandori-academy-more",
-      "fetchedAt": "2026-11-08T19:37:30.425Z",
+      "fetchedAt": "2026-11-08T19:39:26.793Z",
       "title": "This Week’s Japanese Game Releases: Prinny Party: Going Overboard!, Pikmin 4 – Nintendo Switch 2 Edition + Dandori Academy, more",
       "byline": "Sal Romano",
       "siteName": "Gematsu",
@@ -32402,7 +32452,7 @@
     "1wo14pg": {
       "version": 4,
       "url": "https://www.eurogamer.net/zelda-ocarina-of-time-remake-master-quest-dlc-datamine",
-      "fetchedAt": "2026-11-08T19:37:30.615Z",
+      "fetchedAt": "2026-11-08T19:39:27.031Z",
       "title": "Ocarina of Time remake datamine suggests Master Quest is on the way",
       "byline": "Vikki Blake",
       "siteName": "Eurogamer.net",
@@ -32423,7 +32473,7 @@
     "hs4ls2": {
       "version": 4,
       "url": "https://variety.com/2026/film/global/cineplex-la-residencia-mariel-garcia-spooner-algo-azul-1236941270/",
-      "fetchedAt": "2026-11-08T19:37:30.972Z",
+      "fetchedAt": "2026-11-08T19:39:27.511Z",
       "title": "Cineplex Lands North, South American Rights to ‘La Residencia’",
       "byline": "Anna Marie de la Fuente",
       "siteName": "Variety",
@@ -32440,7 +32490,7 @@
     "to6dm9": {
       "version": 4,
       "url": "https://www.playground.ru/wardogs_2026/news/razrabotchiki_wardogs_prigrozili_banami_za_ispolzovanie_nizkih_nastroek_grafiki-1888910",
-      "fetchedAt": "2026-11-08T19:37:31.194Z",
+      "fetchedAt": "2026-11-08T19:39:27.588Z",
       "title": "Разработчики Wardogs пригрозили банами за использование низких настроек графики",
       "byline": "IKarasik",
       "siteName": "Playground",
@@ -32462,10 +32512,31 @@
       "length": 1848,
       "imageCount": 3
     },
+    "68eved": {
+      "version": 4,
+      "url": "https://www.zr.ru/content/news/988121-kitajskie-katera-protiv-nemetsk/",
+      "fetchedAt": "2026-11-08T19:39:27.767Z",
+      "title": "Рекордные убытки и планы по закрытию заводов: нынешняя реальность Volkswagen",
+      "byline": "Российская газета",
+      "siteName": "zr.ru",
+      "content": "Западные издания – Fortune, Euronews, Christian Science Monitor – вместе с отчетами GlobalData описывают Volkswagen как компанию в системном кризисе. Рекордные убытки, разговоры о закрытии заводов, угрозы масштабных забастовок: все это уже не прогнозы, а повседневная реальность концерна.Причина при этом кроется не только в геополитике или растущих тарифах. Провалилось прежде всего само руководство. Квартальный убыток в 5,8 млрд евро – не случайная просадка, а сигнал о том, что вся бизнес-модель работает плохо.Убыток 5,8 млрд и закрытие заводовОтвечать на это в Volkswagen решили беспрецедентной реструктуризацией. Она предполагает закрытие четырех заводов в Германии и сокращение от 50 до 120 тысяч рабочих мест уже к 2030 году. Сам процесс обойдется в 31 млрд евро.Два главных удара, подкосивших финансовые показатели, – провал продаж в Китае и очередные импортные пошлины от США. Именно они сильнее всего просадили выручку.На фоне таких планов в Германии звучат угрозы масштабных забастовок. Обстановка, прямо скажем, не располагает к спокойным переговорам с профсоюзами.Отставание в софте и батареяхАвтомобильный рынок за последние годы сильно переменился. Tesla и китайские бренды превратили машину в «компьютер на колесах» и перетянули на себя внимание автовладельцев, а у «немецкой тройки» внятного ответа тогда не нашлось.GlobalData указывает: Volkswagen до сих пор предлагает стандартные, уже устаревшие мультимедиасистемы и редкие обновления, за которыми зачастую приходится ехать к дилеру. BYD, Xiaomi и другие китайские марки действуют иначе – сверхбыстрые процессоры, огромные OLED-экраны, напоминающие телевизоры, ежемесячные апдейты, голосовые ассистенты. И все это по доступным ценам.Битву за аккумуляторы китайцы тоже выиграли. Пока Volkswagen зависел от сторонних поставщиков, тот же BYD создал собственные революционные батареи Blade Battery – электромобили стали дешевле, безопаснее и получили огромный запас хода. В отчете GlobalData приводится точная метафора: \"многолетние бюрократические процессы делают Volkswagen похожим на огромный танкер, которому требуются километры, чтобы повернуть. Китайские же стартапы – это юркие и быстроходные катера\".Доля в Китае упала с 25% до 12%Потерей КНР проблемы, впрочем, не ограничиваются – это лишь верхушка айсберга. Китай остается крупнейшим авторынком планеты, но доля немецких брендов там рухнула с 25% в 2020 году до 12% к 2026-му.Ценовая война, развязанная местными производителями, убивает маржинальность Volkswagen. Демпинговать концерн не может: расходы слишком высоки. Круг замкнулся.Страшнее другое. «Китайцы» пришли на домашний для немцев европейский рынок: за последние пять лет их доля в Европе выросла с 0,6% до 9%. Японцев они уже обогнали – просто потому, что китайские электромобили банально дешевле.Центр в Хэфэе и партнерство с XpengОпускать руки Volkswagen не торопится и ищет способы выжить. Например, вкладывает 3 млрд евро в исследовательский центр в Хэфэе.Показательный шаг – объединение с китайской Xpeng. Фактически это признание: «мы больше не умеем делать лучший софт и электрику сами».Стратегия «В Китае, для Китая», где Xpeng предоставляет архитектуру для новых автомобилей концерна, – трансформация болезненная. Зато она позволяет удержаться на рынке. Не провести ее – значит поставить под удар финансы и статус ведущего мирового автопроизводителя.О том, как китайские автомобили покоряют европейский рынок, «За рулем» уже подробно рассказывал.Понравилась публикация?Тогда добавьте «За рулем» в список интересных источников: 1. Откройте https://google.com... 2. Поставьте галочку напротив нашего изданияГотово – остаемся на связи! «За рулем» теперь можно смотреть на RuTube",
+      "images": [
+        {
+          "url": "https://www.zr.ru/d/story/d9/988121/pixnio-5872x3914-(2).jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.zr.ru/d/story/67/956775/111222.jpg",
+          "alt": ""
+        }
+      ],
+      "length": 3673,
+      "imageCount": 2
+    },
     "jqbmmg": {
       "version": 4,
       "url": "https://www.playground.ru/legend_of_zelda_ocarina_of_time/news/fanaty_zelda_otbivayut_ataku_revyu_bomberov_na_remejk_ocarina_of_time-1888909",
-      "fetchedAt": "2026-11-08T19:37:31.260Z",
+      "fetchedAt": "2026-11-08T19:39:27.839Z",
       "title": "Фанаты Zelda отбивают атаку ревью-бомберов на ремейк Ocarina of Time",
       "byline": "IKarasik",
       "siteName": "Playground",
@@ -32487,42 +32558,38 @@
       "length": 1567,
       "imageCount": 3
     },
-    "68eved": {
+    "zc726z": {
       "version": 4,
-      "url": "https://www.zr.ru/content/news/988121-kitajskie-katera-protiv-nemetsk/",
-      "fetchedAt": "2026-11-08T19:37:31.480Z",
-      "title": "Рекордные убытки и планы по закрытию заводов: нынешняя реальность Volkswagen",
-      "byline": "Российская газета",
-      "siteName": "zr.ru",
-      "content": "Западные издания – Fortune, Euronews, Christian Science Monitor – вместе с отчетами GlobalData описывают Volkswagen как компанию в системном кризисе. Рекордные убытки, разговоры о закрытии заводов, угрозы масштабных забастовок: все это уже не прогнозы, а повседневная реальность концерна.Причина при этом кроется не только в геополитике или растущих тарифах. Провалилось прежде всего само руководство. Квартальный убыток в 5,8 млрд евро – не случайная просадка, а сигнал о том, что вся бизнес-модель работает плохо.Убыток 5,8 млрд и закрытие заводовОтвечать на это в Volkswagen решили беспрецедентной реструктуризацией. Она предполагает закрытие четырех заводов в Германии и сокращение от 50 до 120 тысяч рабочих мест уже к 2030 году. Сам процесс обойдется в 31 млрд евро.Два главных удара, подкосивших финансовые показатели, – провал продаж в Китае и очередные импортные пошлины от США. Именно они сильнее всего просадили выручку.На фоне таких планов в Германии звучат угрозы масштабных забастовок. Обстановка, прямо скажем, не располагает к спокойным переговорам с профсоюзами.Отставание в софте и батареяхАвтомобильный рынок за последние годы сильно переменился. Tesla и китайские бренды превратили машину в «компьютер на колесах» и перетянули на себя внимание автовладельцев, а у «немецкой тройки» внятного ответа тогда не нашлось.GlobalData указывает: Volkswagen до сих пор предлагает стандартные, уже устаревшие мультимедиасистемы и редкие обновления, за которыми зачастую приходится ехать к дилеру. BYD, Xiaomi и другие китайские марки действуют иначе – сверхбыстрые процессоры, огромные OLED-экраны, напоминающие телевизоры, ежемесячные апдейты, голосовые ассистенты. И все это по доступным ценам.Битву за аккумуляторы китайцы тоже выиграли. Пока Volkswagen зависел от сторонних поставщиков, тот же BYD создал собственные революционные батареи Blade Battery – электромобили стали дешевле, безопаснее и получили огромный запас хода. В отчете GlobalData приводится точная метафора: \"многолетние бюрократические процессы делают Volkswagen похожим на огромный танкер, которому требуются километры, чтобы повернуть. Китайские же стартапы – это юркие и быстроходные катера\".Доля в Китае упала с 25% до 12%Потерей КНР проблемы, впрочем, не ограничиваются – это лишь верхушка айсберга. Китай остается крупнейшим авторынком планеты, но доля немецких брендов там рухнула с 25% в 2020 году до 12% к 2026-му.Ценовая война, развязанная местными производителями, убивает маржинальность Volkswagen. Демпинговать концерн не может: расходы слишком высоки. Круг замкнулся.Страшнее другое. «Китайцы» пришли на домашний для немцев европейский рынок: за последние пять лет их доля в Европе выросла с 0,6% до 9%. Японцев они уже обогнали – просто потому, что китайские электромобили банально дешевле.Центр в Хэфэе и партнерство с XpengОпускать руки Volkswagen не торопится и ищет способы выжить. Например, вкладывает 3 млрд евро в исследовательский центр в Хэфэе.Показательный шаг – объединение с китайской Xpeng. Фактически это признание: «мы больше не умеем делать лучший софт и электрику сами».Стратегия «В Китае, для Китая», где Xpeng предоставляет архитектуру для новых автомобилей концерна, – трансформация болезненная. Зато она позволяет удержаться на рынке. Не провести ее – значит поставить под удар финансы и статус ведущего мирового автопроизводителя.О том, как китайские автомобили покоряют европейский рынок, «За рулем» уже подробно рассказывал.Понравилась публикация?Тогда добавьте «За рулем» в список интересных источников: 1. Откройте https://google.com... 2. Поставьте галочку напротив нашего изданияГотово – остаемся на связи! «За рулем» теперь можно смотреть на RuTube",
+      "url": "https://www.dw.com/ru/ft-%D1%81%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%8F-%D0%B5%D0%B2%D1%80%D0%BE%D0%BF%D0%B0-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%81%D1%82-%D0%B2%D0%BE%D0%B5%D0%BD%D0%BD%D0%BE-%D0%BC%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B9-%D0%B0%D0%BB%D1%8C%D1%8F%D0%BD%D1%81-%D0%B4%D0%BB%D1%8F-%D1%81%D0%B4%D0%B5%D1%80%D0%B6%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D1%80%D1%84/a-79892832?maca=rus-rss-ru-all-1126-rdf",
+      "fetchedAt": "2026-11-08T19:39:28.194Z",
+      "title": "FT: Страны Северной Европы создадут военно-морской альянс для сдерживания российской агрессии",
+      "byline": "Роман Сулима",
+      "siteName": "Deutsche Welle",
+      "content": "Представители всех десяти стран Северной Европы, которые входят в Объединенные экспедиционные силы (Joint Expeditionary Force, JEF), 10 ноября подпишут соглашение о партнерстве своих военно-морских сил для сдерживания военной агрессии России в своем регионе. Об этом в воскресенье, 8 ноября, рассказал газете Financial Times (FT) главнокомандующий Вооруженными силами Великобритании, глава Генштаба страны Ричард Найтон.\n\nВ интервью FT Найтон также подчеркнул, что Лондону необходимо \"догнать наших европейских союзников\", в том числе тех, кто географически ближе к России и более остро ощущает угрозу со стороны России и последствия войны в Украине. \"Речь идет о целенаправленных убийствах, о диверсиях, о кибератаках. Это вполне реальные действия со стороны российского государства, доказательства которых у нас есть в Европе и, в некоторой степени, в Великобритании\", - пояснил британский главком.\n\nВ октябре Ричард Найтон призвал военнослужащих готовиться к возможной войне и предупредил их, что политические лидеры \"очень скоро\" начнут \"откровенный разговор\" с гражданами о том, как им следует готовиться к военному конфликту с Москвой. В интервью FT глава Генштаба повторил это послание, заявив: \"Чем сильнее мы будем, тем больше у нас шансов удержать Россию от попыток проверить нас на прочность\".JEF: от меморандумов и встреч к практическим действиям\n\nВ состав JEF входят Великобритания, Дания, Эстония, Финляндия, Исландия, Латвия, Литва, Нидерланды, Норвегия и Швеция. Ожидается, что соглашение между Объединенными экспедиционными силами будет подписано на борту авианосца Королевского флота HMS Prince of Wales в преддверии конференции Atlantic Future Forum, которая пройдет на этом военном корабле.\n\nПо словам Ричарда Найтона, благодаря подписанию договоренностей возглавляемые Великобританией страны JEF перейдут от \"меморандумов о взаимопонимании, обмена информацией и консультаций\" к практическим действиям. \"Одной из крайне важных задач является сдерживание (российских. - Ред.) подводных лодок, чтобы в военное время они не могли наносить удары по морскому судоходству или угрожать ему\", - отметил он, добавив, что такие действия помогут обеспечить безопасность не только Европы, но и восточного побережья США.\n\nСплоченность севера Европы состоялась в том числе благодаря действиям Трампа\n\nУсиление присутствия европейских стран в этом регионе рассматривается как ответ на призыв президента США Дональда Трампа к странам Северной Европы взять на себя большую ответственность за собственную оборону, учитывая, что \"через этот регион пролегают жизненно важные подводные кабели передачи данных\", пишет FT.\n\nКак отмечает газета, позиции Трампа ослабли после поражения республиканцев на промежуточных выборах в США. Однако Найтон подчеркнул, что смещение внешнеполитического внимания США от Европы к Индо-Тихоокеанского региону началось задолго до прихода нынешнего президента к власти и продолжается уже более 15 лет.",
       "images": [
         {
-          "url": "https://www.zr.ru/d/story/d9/988121/pixnio-5872x3914-(2).jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://www.zr.ru/d/story/67/956775/111222.jpg",
+          "url": "https://static.dw.com/image/75983546_6.jpg",
           "alt": ""
         }
       ],
-      "length": 3673,
-      "imageCount": 2
+      "length": 2930,
+      "imageCount": 1
     },
     "1tgrl8q": {
       "version": 4,
       "url": "https://dtf.ru/cinema/5400511-godzilla-minus-nol-uspeshnyy-start",
-      "fetchedAt": "2026-11-08T19:37:31.766Z",
+      "fetchedAt": "2026-11-08T19:39:28.432Z",
       "title": "«Годзилла минус ноль» стартовал с 63 миллионов долларов по всему миру — Кино и сериалы на DTF",
       "byline": "daniel",
       "siteName": "DTF",
-      "content": "Фильм про кайдзю уже окупился. Картина «Годзилла минус ноль» вышла в прокат 6 ноября и возглавила чарт США, собрав за уикенд в стране 31,6 миллиона долларов. Это один из лучших стартов для игрового зарубежного фильма в Северной Америке.Примечательно, что «Годзилла минус ноль» стала первой японской лентой, снятой для формата IMAX. На сборы этих залов пришлось 40% от кассы фильма за уикенд в США.Общие сборы картины о кайдзю составили 63 миллиона долларов при бюджете в 13 миллионов долларов. Таким образом, сиквел «Годзиллы минус один» уже вышел на окупаемость.Успеху явно помогли отзывы — фильм отлично оценили как критики, так и первые зрители, по версии которых лента получила оценку «A» от CinemaScore. Рейтинг одобрения аудитории на Rotten Tomatoes составляет внушительные 96%.Сборы «Глиноликого» достигли 109 миллионов долларов при бюджете в 40 миллионов. Боди-хоррор получил высокие зрительские оценки, но даже с ними ему, похоже, не удастся показать хорошую выдержку. Картина DC Studios не провалилась, но большого финансового успеха тоже не вышло.«Увидеть всё» подобрался к 80 миллионам долларов, и ему по итогам проката может покориться отметка в 100 миллионов, которой достигают в основном лишь документальные фильмы о природе или музыке. При этом бюджет ленты про мошенницу Элизабет Холмс составил всего семь миллионов долларов.Документальный фильм «Увидеть всё» стал лидером в прокате США, обойдя «Глиноликого» Новинок на текущей неделе не было.772211227766442211",
+      "content": "Фильм про кайдзю уже окупился. Картина «Годзилла минус ноль» вышла в прокат 6 ноября и возглавила чарт США, собрав за уикенд в стране 31,6 миллиона долларов. Это один из лучших стартов для игрового зарубежного фильма в Северной Америке.Примечательно, что «Годзилла минус ноль» стала первой японской лентой, снятой для формата IMAX. На сборы этих залов пришлось 40% от кассы фильма за уикенд в США.Общие сборы картины о кайдзю составили 63 миллиона долларов при бюджете в 13 миллионов долларов. Таким образом, сиквел «Годзиллы минус один» уже вышел на окупаемость.Успеху явно помогли отзывы — фильм отлично оценили как критики, так и первые зрители, по версии которых лента получила оценку «A» от CinemaScore. Рейтинг одобрения аудитории на Rotten Tomatoes составляет внушительные 96%.Сборы «Глиноликого» достигли 109 миллионов долларов при бюджете в 40 миллионов. Боди-хоррор получил высокие зрительские оценки, но даже с ними ему, похоже, не удастся показать хорошую выдержку. Картина DC Studios не провалилась, но большого финансового успеха тоже не вышло.«Увидеть всё» подобрался к 80 миллионам долларов, и ему по итогам проката может покориться отметка в 100 миллионов, которой достигают в основном лишь документальные фильмы о природе или музыке. При этом бюджет ленты про мошенницу Элизабет Холмс составил всего семь миллионов долларов.Документальный фильм «Увидеть всё» стал лидером в прокате США, обойдя «Глиноликого» Новинок на текущей неделе не было.774411227766442211",
       "images": [
         {
-          "url": "https://api.dtf.ru/v2.9/cover/fb/c/5400511/1794166651/cover.jpg",
+          "url": "https://api.dtf.ru/v2.9/cover/fb/c/5400511/1794166767/cover.jpg",
           "alt": ""
         },
         {
-          "url": "https://api.dtf.ru/v2.9/cover/tw/c/5400511/1794166651/cover.jpg",
+          "url": "https://api.dtf.ru/v2.9/cover/tw/c/5400511/1794166767/cover.jpg",
           "alt": ""
         }
       ],
@@ -32532,7 +32599,7 @@
     "wwei8i": {
       "version": 4,
       "url": "https://www.playground.ru/misc/news/amerikantsy_massovo_vystupili_protiv_stroitelstva_data_tsentrov_razvitie_ii_mozhet_zamedlitsya-1888906",
-      "fetchedAt": "2026-11-08T19:37:31.911Z",
+      "fetchedAt": "2026-11-08T19:39:28.500Z",
       "title": "Американцы массово выступили против строительства дата-центров - развитие ИИ может замедлиться",
       "byline": "IKarasik",
       "siteName": "Playground",
@@ -32554,10 +32621,35 @@
       "length": 2387,
       "imageCount": 3
     },
+    "dt2lef": {
+      "version": 4,
+      "url": "https://www.playground.ru/misc/news/amd_priznala_oshibku_v_drajverah_radeon_vyzyvayuschuyu_postoyannuyu_zapis_dannyh_na_ssd-1888904",
+      "fetchedAt": "2026-11-08T19:39:28.571Z",
+      "title": "AMD признала ошибку в драйверах Radeon, вызывающую постоянную запись данных на SSD",
+      "byline": "monk70",
+      "siteName": "Playground",
+      "content": "Некоторые пользователи видеокарт Radeon столкнулись с необычной ошибкой драйверов AMD Adrenalin, из-за которой SSD постоянно записывает данные даже в режиме простоя. Компания подтвердила наличие проблемы и уже работает над исправлением.\nИсточником избыточной дисковой активности, предположительно, является компонент AMD External Events Utility, а именно процесс atieclxx.exe. По сообщениям пользователей Reddit и форумов AMD, скорость записи может составлять от 0,3 до 5 МБ/с. Проблема проявляется на разных видеокартах Radeon и версиях драйверов, в том числе на Windows 10 и Windows 11.\nВ AMD подтвердили наличие ошибки ещё в октябре. Представитель компании AMD_Matt сообщил, что специалисты изучают проблему, а позднее другой сотрудник, AMD_Vik, отметил, что исправление, вероятно, уже подготовлено, но не успело попасть в ближайший выпуск драйвера.\nВпрочем, в вышедшем 30 октября драйвере Adrenalin Edition 26.10.2 соответствующее исправление не упоминается.\nОсобое беспокойство вызывает потенциальный объём записи. При постоянной скорости 5 МБ/с процесс теоретически может генерировать до 432 ГБ данных в сутки или почти 13 ТБ в месяц. Однако это не означает, что весь этот объём действительно записывается непосредственно в ячейки NAND-памяти SSD. Пока нет достаточных данных, чтобы оценить влияние ошибки на ресурс накопителей.\nКак проверить наличие проблемы\nВладельцы Radeon могут воспользоваться встроенным в Windows «Монитором ресурсов»:\n\nНажать Win + R и ввести resmon.\nПерейти на вкладку «Диск».\nОтсортировать процессы по активности записи.\nПроверить, не демонстрирует ли постоянную активность atieclxx.exe.\n\nНекоторые пользователи сообщают, что временное отключение службы AMD External Events Utility или функции Resizable BAR устраняет проблему. Однако первый вариант может нарушить работу FreeSync и горячих клавиш Adrenalin, а второй — отрицательно сказаться на производительности в играх.\nПоэтому AMD пока рекомендует дождаться официального исправления, если проблема не проявляется на конкретной системе.",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/fEdCRNIQ2nV_lBjmIGh8HQ.png",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/fEdCRNIQ2nV_lBjmIGh8HQ.png?760xauto",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/fEdCRNIQ2nV_lBjmIGh8HQ.png.webp?420xauto",
+          "alt": ""
+        }
+      ],
+      "length": 2022,
+      "imageCount": 3
+    },
     "b7obvh": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/movies/movie-news/thr-visionary-janusz-kaminski-five-visual-styles-1236750395/",
-      "fetchedAt": "2026-11-08T19:37:32.180Z",
+      "fetchedAt": "2026-11-08T19:39:28.832Z",
       "title": "THR Visionary: 5 Janusz Kaminski Shots",
       "byline": "Scott Roxborough",
       "siteName": "The Hollywood Reporter",
@@ -32591,64 +32683,22 @@
       "length": 3821,
       "imageCount": 6
     },
-    "dt2lef": {
-      "version": 4,
-      "url": "https://www.playground.ru/misc/news/amd_priznala_oshibku_v_drajverah_radeon_vyzyvayuschuyu_postoyannuyu_zapis_dannyh_na_ssd-1888904",
-      "fetchedAt": "2026-11-08T19:37:32.243Z",
-      "title": "AMD признала ошибку в драйверах Radeon, вызывающую постоянную запись данных на SSD",
-      "byline": "monk70",
-      "siteName": "Playground",
-      "content": "Некоторые пользователи видеокарт Radeon столкнулись с необычной ошибкой драйверов AMD Adrenalin, из-за которой SSD постоянно записывает данные даже в режиме простоя. Компания подтвердила наличие проблемы и уже работает над исправлением.\nИсточником избыточной дисковой активности, предположительно, является компонент AMD External Events Utility, а именно процесс atieclxx.exe. По сообщениям пользователей Reddit и форумов AMD, скорость записи может составлять от 0,3 до 5 МБ/с. Проблема проявляется на разных видеокартах Radeon и версиях драйверов, в том числе на Windows 10 и Windows 11.\nВ AMD подтвердили наличие ошибки ещё в октябре. Представитель компании AMD_Matt сообщил, что специалисты изучают проблему, а позднее другой сотрудник, AMD_Vik, отметил, что исправление, вероятно, уже подготовлено, но не успело попасть в ближайший выпуск драйвера.\nВпрочем, в вышедшем 30 октября драйвере Adrenalin Edition 26.10.2 соответствующее исправление не упоминается.\nОсобое беспокойство вызывает потенциальный объём записи. При постоянной скорости 5 МБ/с процесс теоретически может генерировать до 432 ГБ данных в сутки или почти 13 ТБ в месяц. Однако это не означает, что весь этот объём действительно записывается непосредственно в ячейки NAND-памяти SSD. Пока нет достаточных данных, чтобы оценить влияние ошибки на ресурс накопителей.\nКак проверить наличие проблемы\nВладельцы Radeon могут воспользоваться встроенным в Windows «Монитором ресурсов»:\n\nНажать Win + R и ввести resmon.\nПерейти на вкладку «Диск».\nОтсортировать процессы по активности записи.\nПроверить, не демонстрирует ли постоянную активность atieclxx.exe.\n\nНекоторые пользователи сообщают, что временное отключение службы AMD External Events Utility или функции Resizable BAR устраняет проблему. Однако первый вариант может нарушить работу FreeSync и горячих клавиш Adrenalin, а второй — отрицательно сказаться на производительности в играх.\nПоэтому AMD пока рекомендует дождаться официального исправления, если проблема не проявляется на конкретной системе.",
-      "images": [
-        {
-          "url": "https://i.playground.ru/e/fEdCRNIQ2nV_lBjmIGh8HQ.png",
-          "alt": ""
-        },
-        {
-          "url": "https://i.playground.ru/p/fEdCRNIQ2nV_lBjmIGh8HQ.png?760xauto",
-          "alt": ""
-        },
-        {
-          "url": "https://i.playground.ru/p/fEdCRNIQ2nV_lBjmIGh8HQ.png.webp?420xauto",
-          "alt": ""
-        }
-      ],
-      "length": 2022,
-      "imageCount": 3
-    },
     "z3qgzc": {
       "version": 4,
       "url": "https://phys.org/news/2026-11-buses-scientists-world-largest-coral.html",
-      "fetchedAt": "2026-11-08T19:37:32.376Z",
+      "fetchedAt": "2026-11-08T19:39:28.910Z",
       "error": "HTTP 403"
-    },
-    "h812qb": {
-      "version": 4,
-      "url": "https://www.themoscowtimes.com/2026/11/08/russia-says-hit-power-substations-in-ukraine-and-3-ships-in-black-sea-a94203",
-      "fetchedAt": "2026-11-08T19:37:32.463Z",
-      "title": "Russia Says Hit Power Substations in Ukraine and 3 Ships in Black Sea",
-      "byline": "Reuters",
-      "siteName": "The Moscow Times",
-      "content": "Russia said on Sunday overnight strikes by its forces had hit three cargo vessels that were carrying military goods for Ukraine and two electricity substations, which it said supplied power to the Ukrainian defense industry.\nThe Defense Ministry said Russian forces had struck a container ship delivering weapons and military equipment to the Black Sea port of Odesa, and another in the port of Chornomorsk, which is in the same southwestern region of Ukraine.\nAccording to the ministry, the second container ship had delivered dual-use cargo to Ukraine. It said a third vessel, a dry cargo ship hit southwest of Odesa, was carrying weapons and military equipment for Ukraine's armed forces.\nReuters could not independently verify the ministry’s claims. There was no immediate comment from Ukraine.\nThe ministry also said Russia had hit two power substations in Ukraine's Dnipropetrovsk and Zhytomyr regions, both of which it said powered military-industrial enterprises.\nUkrainian power company DTEK said a Russian overnight attack on energy facilities in Dnipropetrovsk had left more than 600,000 people without electricity.\n“Important energy facilities in the region were damaged in an overnight attack,” the company said on Telegram.\n\nA Message from The Moscow Times:\nDear readers,\nWe are facing unprecedented challenges. Russia's Prosecutor General's Office has designated The Moscow Times as an \"undesirable\" organization, criminalizing our work and putting our staff at risk of prosecution. This follows our earlier unjust labeling as a \"foreign agent.\"\nThese actions are direct attempts to silence independent journalism in Russia. The authorities claim our work \"discredits the decisions of the Russian leadership.\" We see things differently: we strive to provide accurate, unbiased reporting on Russia.\nWe, the journalists of The Moscow Times, refuse to be silenced. But to continue our work, we need your help.\nYour support, no matter how small, makes a world of difference. If you can, please support us monthly starting from just $2. It's quick to set up, and every contribution makes a significant impact.\nBy supporting The Moscow Times, you're defending open, independent journalism in the face of repression. Thank you for standing with us.\n\nOnce\n\nMonthly\n\nAnnual\n\nContinue\n\nNot ready to support today? Remind me later.",
-      "images": [
-        {
-          "url": "https://static.themoscowtimes.com/image/og/29/94203__2921eaf4bba4d2eeb04a843bbab9a8a7.jpg",
-          "alt": ""
-        }
-      ],
-      "length": 2335,
-      "imageCount": 1
     },
     "s24kjt": {
       "version": 4,
       "url": "https://www.motor1.com/news/814733/ford-ecoboost-v6-engine-failure-teardown/",
-      "fetchedAt": "2026-11-08T19:37:32.479Z",
+      "fetchedAt": "2026-11-08T19:39:28.921Z",
       "error": "HTTP 403"
     },
     "1mwius": {
       "version": 4,
       "url": "https://www.caranddriver.com/news/a74349397/genesis-gv60-louder-than-corvette-stingray-tested/",
-      "fetchedAt": "2026-11-08T19:37:32.731Z",
+      "fetchedAt": "2026-11-08T19:39:29.137Z",
       "title": "Tested: Electric Genesis GV60 Magma Is Louder Than a Corvette Stingray",
       "byline": "Jack Fitzgerald",
       "siteName": "Car and Driver",
@@ -32666,10 +32716,27 @@
       "length": 2538,
       "imageCount": 2
     },
+    "h812qb": {
+      "version": 4,
+      "url": "https://www.themoscowtimes.com/2026/11/08/russia-says-hit-power-substations-in-ukraine-and-3-ships-in-black-sea-a94203",
+      "fetchedAt": "2026-11-08T19:39:29.196Z",
+      "title": "Russia Says Hit Power Substations in Ukraine and 3 Ships in Black Sea",
+      "byline": "Reuters",
+      "siteName": "The Moscow Times",
+      "content": "Russia said on Sunday overnight strikes by its forces had hit three cargo vessels that were carrying military goods for Ukraine and two electricity substations, which it said supplied power to the Ukrainian defense industry.\nThe Defense Ministry said Russian forces had struck a container ship delivering weapons and military equipment to the Black Sea port of Odesa, and another in the port of Chornomorsk, which is in the same southwestern region of Ukraine.\nAccording to the ministry, the second container ship had delivered dual-use cargo to Ukraine. It said a third vessel, a dry cargo ship hit southwest of Odesa, was carrying weapons and military equipment for Ukraine's armed forces.\nReuters could not independently verify the ministry’s claims. There was no immediate comment from Ukraine.\nThe ministry also said Russia had hit two power substations in Ukraine's Dnipropetrovsk and Zhytomyr regions, both of which it said powered military-industrial enterprises.\nUkrainian power company DTEK said a Russian overnight attack on energy facilities in Dnipropetrovsk had left more than 600,000 people without electricity.\n“Important energy facilities in the region were damaged in an overnight attack,” the company said on Telegram.\n\nA Message from The Moscow Times:\nDear readers,\nWe are facing unprecedented challenges. Russia's Prosecutor General's Office has designated The Moscow Times as an \"undesirable\" organization, criminalizing our work and putting our staff at risk of prosecution. This follows our earlier unjust labeling as a \"foreign agent.\"\nThese actions are direct attempts to silence independent journalism in Russia. The authorities claim our work \"discredits the decisions of the Russian leadership.\" We see things differently: we strive to provide accurate, unbiased reporting on Russia.\nWe, the journalists of The Moscow Times, refuse to be silenced. But to continue our work, we need your help.\nYour support, no matter how small, makes a world of difference. If you can, please support us monthly starting from just $2. It's quick to set up, and every contribution makes a significant impact.\nBy supporting The Moscow Times, you're defending open, independent journalism in the face of repression. Thank you for standing with us.\n\nOnce\n\nMonthly\n\nAnnual\n\nContinue\n\nNot ready to support today? Remind me later.",
+      "images": [
+        {
+          "url": "https://static.themoscowtimes.com/image/og/29/94203__2921eaf4bba4d2eeb04a843bbab9a8a7.jpg",
+          "alt": ""
+        }
+      ],
+      "length": 2335,
+      "imageCount": 1
+    },
     "764py6": {
       "version": 4,
       "url": "https://www.eurogamer.net/phasmophobia-ghost-hunts-for-hearts-230000-american-heart-association",
-      "fetchedAt": "2026-11-08T19:37:32.845Z",
+      "fetchedAt": "2026-11-08T19:39:29.342Z",
       "title": "Phasmophobia players raise over $230,000 for heart charity, more than double last year's total",
       "byline": "Vikki Blake",
       "siteName": "Eurogamer.net",
@@ -32687,27 +32754,10 @@
       "length": 2471,
       "imageCount": 2
     },
-    "zc726z": {
-      "version": 4,
-      "url": "https://www.dw.com/ru/ft-%D1%81%D0%B5%D0%B2%D0%B5%D1%80%D0%BD%D0%B0%D1%8F-%D0%B5%D0%B2%D1%80%D0%BE%D0%BF%D0%B0-%D1%81%D0%BE%D0%B7%D0%B4%D0%B0%D1%81%D1%82-%D0%B2%D0%BE%D0%B5%D0%BD%D0%BD%D0%BE-%D0%BC%D0%BE%D1%80%D1%81%D0%BA%D0%BE%D0%B9-%D0%B0%D0%BB%D1%8C%D1%8F%D0%BD%D1%81-%D0%B4%D0%BB%D1%8F-%D1%81%D0%B4%D0%B5%D1%80%D0%B6%D0%B8%D0%B2%D0%B0%D0%BD%D0%B8%D1%8F-%D1%80%D1%84/a-79892832?maca=rus-rss-ru-all-1126-rdf",
-      "fetchedAt": "2026-11-08T19:37:32.899Z",
-      "title": "FT: Страны Северной Европы создадут военно-морской альянс для сдерживания российской агрессии",
-      "byline": "Роман Сулима",
-      "siteName": "Deutsche Welle",
-      "content": "Представители всех десяти стран Северной Европы, которые входят в Объединенные экспедиционные силы (Joint Expeditionary Force, JEF), 10 ноября подпишут соглашение о партнерстве своих военно-морских сил для сдерживания военной агрессии России в своем регионе. Об этом в воскресенье, 8 ноября, рассказал газете Financial Times (FT) главнокомандующий Вооруженными силами Великобритании, глава Генштаба страны Ричард Найтон.\n\nВ интервью FT Найтон также подчеркнул, что Лондону необходимо \"догнать наших европейских союзников\", в том числе тех, кто географически ближе к России и более остро ощущает угрозу со стороны России и последствия войны в Украине. \"Речь идет о целенаправленных убийствах, о диверсиях, о кибератаках. Это вполне реальные действия со стороны российского государства, доказательства которых у нас есть в Европе и, в некоторой степени, в Великобритании\", - пояснил британский главком.\n\nВ октябре Ричард Найтон призвал военнослужащих готовиться к возможной войне и предупредил их, что политические лидеры \"очень скоро\" начнут \"откровенный разговор\" с гражданами о том, как им следует готовиться к военному конфликту с Москвой. В интервью FT глава Генштаба повторил это послание, заявив: \"Чем сильнее мы будем, тем больше у нас шансов удержать Россию от попыток проверить нас на прочность\".JEF: от меморандумов и встреч к практическим действиям\n\nВ состав JEF входят Великобритания, Дания, Эстония, Финляндия, Исландия, Латвия, Литва, Нидерланды, Норвегия и Швеция. Ожидается, что соглашение между Объединенными экспедиционными силами будет подписано на борту авианосца Королевского флота HMS Prince of Wales в преддверии конференции Atlantic Future Forum, которая пройдет на этом военном корабле.\n\nПо словам Ричарда Найтона, благодаря подписанию договоренностей возглавляемые Великобританией страны JEF перейдут от \"меморандумов о взаимопонимании, обмена информацией и консультаций\" к практическим действиям. \"Одной из крайне важных задач является сдерживание (российских. - Ред.) подводных лодок, чтобы в военное время они не могли наносить удары по морскому судоходству или угрожать ему\", - отметил он, добавив, что такие действия помогут обеспечить безопасность не только Европы, но и восточного побережья США.\n\nСплоченность севера Европы состоялась в том числе благодаря действиям Трампа\n\nУсиление присутствия европейских стран в этом регионе рассматривается как ответ на призыв президента США Дональда Трампа к странам Северной Европы взять на себя большую ответственность за собственную оборону, учитывая, что \"через этот регион пролегают жизненно важные подводные кабели передачи данных\", пишет FT.\n\nКак отмечает газета, позиции Трампа ослабли после поражения республиканцев на промежуточных выборах в США. Однако Найтон подчеркнул, что смещение внешнеполитического внимания США от Европы к Индо-Тихоокеанского региону началось задолго до прихода нынешнего президента к власти и продолжается уже более 15 лет.",
-      "images": [
-        {
-          "url": "https://static.dw.com/image/75983546_6.jpg",
-          "alt": ""
-        }
-      ],
-      "length": 2930,
-      "imageCount": 1
-    },
     "1w6d1": {
       "version": 4,
       "url": "https://deadline.com/2026/11/snl-grok-epic-vulgar-roast-elon-musk-weekend-update-1237216693/",
-      "fetchedAt": "2026-11-08T19:37:33.353Z",
+      "fetchedAt": "2026-11-08T19:39:29.747Z",
       "title": "‘SNL’ Makes Grok Do “Epic Vulgar Roast” Of Elon Musk On ‘Weekend Update’: “The Worst Thing South Africa Has Ever Done”",
       "byline": "Glenn Garner",
       "siteName": "Deadline",
@@ -32724,7 +32774,7 @@
     "4r4u8d": {
       "version": 4,
       "url": "https://www.playground.ru/barnyard/news/entuziasty_perenesli_priklyuchencheskuyu_igru_barnyard_na_android_na_baze_pk_versii-1888898",
-      "fetchedAt": "2026-11-08T19:37:33.470Z",
+      "fetchedAt": "2026-11-08T19:39:29.927Z",
       "title": "Энтузиасты перенесли приключенческую игру Barnyard на Android на базе ПК-версии",
       "byline": "Extor Menoger",
       "siteName": "Playground",
@@ -32746,10 +32796,33 @@
       "length": 1863,
       "imageCount": 3
     },
+    "c2scv2": {
+      "version": 4,
+      "url": "https://phys.org/news/2026-11-species-ground-bird-largest-kind.html",
+      "fetchedAt": "2026-11-08T19:39:29.966Z",
+      "error": "HTTP 403"
+    },
+    "sksteb": {
+      "version": 4,
+      "url": "https://variety.com/2026/film/box-office/godzilla-minus-zero-box-office-opening-weekend-cat-in-the-hat-fizzles-1236942363/",
+      "fetchedAt": "2026-11-08T19:39:30.344Z",
+      "title": "Box Office: 'Godzilla Minus Zero' Starts Strong, Cat in the Hat' Fizzles",
+      "byline": "Rebecca Rubin",
+      "siteName": "Variety",
+      "content": "The Cat in the Hat was no match for the mighty Godzilla. “Godzilla Minus Zero” climbed to the top of box office charts with $31.6 million from 3,254 theaters, a roaring start for a foreign-language epic in North America. Meanwhile, “The Cat in the Hat” stumbled with $20 million from 4,003 locations, a weak debut for an animated movie that’s based on one of the most well-known children’s books of all time.\n\nTicket sales for “Godzilla Minus Zero” register as the largest opening for a live-action foreign-language film in North America, shattering the record set by China’s martial arts-inspired “Hero” with $17.8 million in 2002. The R-rated “Godzilla” sequel benefited from sterling reviews and strong audience scores (a 90% on Rotten Tomatoes and “A” grade on CinemaScore exit polls), as well as outsized interest from premium large formats. It’s the first Japanese production ever filmed for Imax, and the company’s bigger and brighter screens have contributed a huge $12.7 million, or 40% of domestic grosses. It wasn’t just Imax that appealed to audiences. PLFs, including Dolby, accounted for a staggering 74% of ticket sales. By comparison, “The Odyssey” collected 53% of opening weekend returns from PLFs.\n\n“We’re so happy to see audiences embrace ‘Godzilla Minus Zero’ at an unprecedented scale for an international film,” says Chance Huskey, VP of distribution for Gkids, which distributed the movie in the U.S. The movie was produced by Japan’s Toho. “This landmark release is the result of a thoughtful campaign by Gkids and Toho that emphasized the ‘must-see’ intensity of the theatrical experience.”\n\n“Godzilla Minus Zero” built on the success of the prior kaiju adventure, 2023’s “Godzilla Minus One.” That sci-fi epic secured a better-than-expected $11.4 million start and powered to $57 million in North America and $113 million globally, in addition to winning a visual effects Oscar. Directed by Takashi Yamazaki, the movie takes place two years after the previous installment as Godzilla regenerates and resurfaces to combat a new monster that’s tormenting postwar Japan.\n\n“‘Godzilla’ is a hit,” says David A. Gross, who publishes the box office newsletter FranchiseRe. “Critics’ reviews and audience scores are once again outstanding. This weekend’s opening takes the Japanese production to a new level.”\n\n“The Cat in the Hat” was well received by audiences, earning an “A” grade on CinemaScore, which could help in terms of box office longevity. Critics weren’t as kind, saddling the movie with a 45% on Rotten Tomatoes. Bill Hader voices the titular character in the cartooned version, which revolves around the shenanigans that occur after a mischievous cat (donning a hat) arrives to cheer up two siblings who move to a new town. Overseas, “The Cat in the Hat” collected just $10 million from 60 international markets for a global start of $30.5 million. Unless “The Cat in the Hat” rebounds in the coming weeks, the $92 million-budgeted movie will rank as another dud for Warner Bros. (Theater owners keep roughly 50% of ticket sales.) The studio, which recently merged with Paramount Skydance, has endured a brutal year at the box office with flops, including “Digger,” “The Bride!” and “Supergirl,” which have resulted in hundreds of millions in theatrical losses.\n\nThis is the second adaptation of the Dr. Seuss classic following 2003’s live-action comedy, starring Mike Myers as the Cat. That film opened to $38 million, not adjusted for inflation, and ran out of steam with $134 million, a disappointing result given the budget was above $100 million. More recently, Dr. Seuss adaptations like 2018’s “The Grinch” (which opened to $67 million) and 2012’s “The Lorax” (which opened to $70 million) were big hits for Universal and Illumination. Yes, the theatrical landscape has changed a lot since those films were released. But “The Cat in the Hat” is based on popular IP, and it didn’t have any competition. (Families with young kids haven’t had much to see since Universal’s “Forgotten Island” in September.) Even this spring’s “Hoppers,” an original offering from Disney and Pixar, managed to debut to $45 million.\n\n“This is a soft opening,” Gross says. “However, family animation does extremely well in ancillary windows, earning more in digital sales and rental, streaming and TV licensing than in theatrical. That is where the film should recover its costs.”\n\nOverall, this weekend reached $114 million across all films, up 86% from the same frame a year ago when “Predator: Badlands” was No. 1 at the box office. Meanwhile, year-to-date revenues hit $8.6 billion, 20% above the same point in 2025, according to Rentrak. Exhibitors are hoping the momentum continues through November, which sees the release of Paramount’s Christmas fantasy “Ebenezer,” starring Johnny Depp, Lionsgate’s “Hunger Games” prequel “Sunrise on the Reaping,” Universal’s comedy “Focker in Law,” with Ariana Grande joining Ben Stiller and Robert De Niro, and Disney’s animated “Hexed.”\n\n“It’s another encouraging sign as we head toward the all-important holiday movie season,” says Rentrak’s head of marketplace trends Paul Dergarabedian.\n\nAlso this weekend, Searchlight’s dark comedy “Wild Horse Nine,” starring John Malkovich and Sam Rockwell and directed by Martin McDonagh, opened at No. 8 with $6 million from 1,100 theaters. It’s a promising debut for the Oscar hopeful, which has a much larger initial footprint than McDonagh’s prior film, 2022’s “The Banshees of Inisherin.” After starting in limited release, “Banshees of Inisherin” became a slow and steady box office hit with $10.5 million domestically and $50 million globally. “Wild Horse Nine” follows Malkovich and Rockwell as CIA officers who are dispatched from Santiago to Easter Island shortly before a Chilean military coup.\n\nAnother newcomer, the Indian epic “Ramayana: Rise of a Legend,” earned $8.6 million over the traditional weekend and $12.1 million during its first four days in theaters. Sony is distributing “Ramayana: Rise of a Legend” in 1,300 theaters, marking the widest North American release for an Indian film. Nitesh Tiwari‘s two-part adaptation of the ancient Hindu epic are the most expensive Indian films ever made, costing a combined $500 million to bring to screens. Globally, the movie bowed to $55.7 million, led by India with $32 million followed by the United Kingdom with $3 million.\n\n“Indian epics do some business in English-speaking countries, but they can make a fortune in India,” says Gross. “It’s going to need to make a fortune there.”\n\n“Ramayana: Rise of a Legend” opened in fifth place behind of A24’s electric Elizabeth Holmes documentary “You Can See Everything.” The zeitgeist-capturing movie has earned $8.8 million from 2,473 theaters in its fourth weekend of release, boosting its domestic tally to a staggering $79.8 million. “You Can See Everything” will leave theaters as one of the biggest documentaries in decades. And it will be very profitable for A24, which produced the nearly three-hour movie for $7 million.\n\n“Drummer Boy,” a Christian musical from Angel Studios, landed at No. 3 with $9.3 million from 2,850 theaters. “Jimmy,” a faith-based biopic starring KJ Apa as the actor and military vet Jimmy Stewart, finished the weekend in 12th place with just $2.2 million from 1,470 theaters.\n\nElsewhere, A24’s heartwarming comedy “Club Kid” and Amazon MGM’s drama “I Play Rocky” scored in limited release. “Club Kid” earned $390,583 from six screens in New York and Los Angeles, translating to $65,097 per location. Jordan Firstman wrote, directed and stars in the film, which revolves around a hard-partying club promoter who finds out he has a 10-year-old son. “I Play Rocky” captured $345,000 from seven theaters, averaging $49,200 per location. Directed by Peter Farrelly, the movie depicts the real-life story of Sylvester Stallone bringing the 1976 classic “Rocky” to the big screen. Both films will expand nationwide around Thanksgiving.\n\n“We’re incredibly encouraged by the response to ‘I Play Rocky’ so far,” says Amazon MGM Studios head of domestic distribution Kevin Wilson. “The enthusiasm from audiences reinforces our belief that we have a film with both awards potential and commercial appeal.”",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/MCDGOMI_EC019.jpg?w=1000&h=563&crop=1",
+          "alt": ""
+        }
+      ],
+      "length": 8246,
+      "imageCount": 1
+    },
     "13zchys": {
       "version": 4,
       "url": "https://habr.com/ru/articles/1105162/",
-      "fetchedAt": "2026-11-08T19:37:33.543Z",
+      "fetchedAt": "2026-11-08T19:39:30.480Z",
       "title": "Акции ИИ-компаний рухнули: помешает ли это масштабированию медицинского ИИ в России",
       "byline": "Vladlen_Babkin2 часа назад",
       "siteName": "Habr",
@@ -32775,33 +32848,10 @@
       "length": 20000,
       "imageCount": 4
     },
-    "c2scv2": {
-      "version": 4,
-      "url": "https://phys.org/news/2026-11-species-ground-bird-largest-kind.html",
-      "fetchedAt": "2026-11-08T19:37:33.583Z",
-      "error": "HTTP 403"
-    },
-    "sksteb": {
-      "version": 4,
-      "url": "https://variety.com/2026/film/box-office/godzilla-minus-zero-box-office-opening-weekend-cat-in-the-hat-fizzles-1236942363/",
-      "fetchedAt": "2026-11-08T19:37:33.857Z",
-      "title": "Box Office: 'Godzilla Minus Zero' Starts Strong, Cat in the Hat' Fizzles",
-      "byline": "Rebecca Rubin",
-      "siteName": "Variety",
-      "content": "The Cat in the Hat was no match for the mighty Godzilla. “Godzilla Minus Zero” climbed to the top of box office charts with $31.6 million from 3,254 theaters, a roaring start for a foreign-language epic in North America. Meanwhile, “The Cat in the Hat” stumbled with $20 million from 4,003 locations, a weak debut for an animated movie that’s based on one of the most well-known children’s books of all time.\n\nTicket sales for “Godzilla Minus Zero” register as the largest opening for a live-action foreign-language film in North America, shattering the record set by China’s martial arts-inspired “Hero” with $17.8 million in 2002. The R-rated “Godzilla” sequel benefited from sterling reviews and strong audience scores (a 90% on Rotten Tomatoes and “A” grade on CinemaScore exit polls), as well as outsized interest from premium large formats. It’s the first Japanese production ever filmed for Imax, and the company’s bigger and brighter screens have contributed a huge $12.7 million, or 40% of domestic grosses. It wasn’t just Imax that appealed to audiences. PLFs, including Dolby, accounted for a staggering 74% of ticket sales. By comparison, “The Odyssey” collected 53% of opening weekend returns from PLFs.\n\n“We’re so happy to see audiences embrace ‘Godzilla Minus Zero’ at an unprecedented scale for an international film,” says Chance Huskey, VP of distribution for Gkids, which distributed the movie in the U.S. The movie was produced by Japan’s Toho. “This landmark release is the result of a thoughtful campaign by Gkids and Toho that emphasized the ‘must-see’ intensity of the theatrical experience.”\n\n“Godzilla Minus Zero” built on the success of the prior kaiju adventure, 2023’s “Godzilla Minus One.” That sci-fi epic secured a better-than-expected $11.4 million start and powered to $57 million in North America and $113 million globally, in addition to winning a visual effects Oscar. Directed by Takashi Yamazaki, the movie takes place two years after the previous installment as Godzilla regenerates and resurfaces to combat a new monster that’s tormenting postwar Japan.\n\n“‘Godzilla’ is a hit,” says David A. Gross, who publishes the box office newsletter FranchiseRe. “Critics’ reviews and audience scores are once again outstanding. This weekend’s opening takes the Japanese production to a new level.”\n\n“The Cat in the Hat” was well received by audiences, earning an “A” grade on CinemaScore, which could help in terms of box office longevity. Critics weren’t as kind, saddling the movie with a 45% on Rotten Tomatoes. Bill Hader voices the titular character in the cartooned version, which revolves around the shenanigans that occur after a mischievous cat (donning a hat) arrives to cheer up two siblings who move to a new town. Overseas, “The Cat in the Hat” collected just $10 million from 60 international markets for a global start of $30.5 million. Unless “The Cat in the Hat” rebounds in the coming weeks, the $92 million-budgeted movie will rank as another dud for Warner Bros. (Theater owners keep roughly 50% of ticket sales.) The studio, which recently merged with Paramount Skydance, has endured a brutal year at the box office with flops, including “Digger,” “The Bride!” and “Supergirl,” which have resulted in hundreds of millions in theatrical losses.\n\nThis is the second adaptation of the Dr. Seuss classic following 2003’s live-action comedy, starring Mike Myers as the Cat. That film opened to $38 million, not adjusted for inflation, and ran out of steam with $134 million, a disappointing result given the budget was above $100 million. More recently, Dr. Seuss adaptations like 2018’s “The Grinch” (which opened to $67 million) and 2012’s “The Lorax” (which opened to $70 million) were big hits for Universal and Illumination. Yes, the theatrical landscape has changed a lot since those films were released. But “The Cat in the Hat” is based on popular IP, and it didn’t have any competition. (Families with young kids haven’t had much to see since Universal’s “Forgotten Island” in September.) Even this spring’s “Hoppers,” an original offering from Disney and Pixar, managed to debut to $45 million.\n\n“This is a soft opening,” Gross says. “However, family animation does extremely well in ancillary windows, earning more in digital sales and rental, streaming and TV licensing than in theatrical. That is where the film should recover its costs.”\n\nOverall, this weekend reached $114 million across all films, up 86% from the same frame a year ago when “Predator: Badlands” was No. 1 at the box office. Meanwhile, year-to-date revenues hit $8.6 billion, 20% above the same point in 2025, according to Rentrak. Exhibitors are hoping the momentum continues through November, which sees the release of Paramount’s Christmas fantasy “Ebenezer,” starring Johnny Depp, Lionsgate’s “Hunger Games” prequel “Sunrise on the Reaping,” Universal’s comedy “Focker in Law,” with Ariana Grande joining Ben Stiller and Robert De Niro, and Disney’s animated “Hexed.”\n\n“It’s another encouraging sign as we head toward the all-important holiday movie season,” says Rentrak’s head of marketplace trends Paul Dergarabedian.\n\nAlso this weekend, Searchlight’s dark comedy “Wild Horse Nine,” starring John Malkovich and Sam Rockwell and directed by Martin McDonagh, opened at No. 8 with $6 million from 1,100 theaters. It’s a promising debut for the Oscar hopeful, which has a much larger initial footprint than McDonagh’s prior film, 2022’s “The Banshees of Inisherin.” After starting in limited release, “Banshees of Inisherin” became a slow and steady box office hit with $10.5 million domestically and $50 million globally. “Wild Horse Nine” follows Malkovich and Rockwell as CIA officers who are dispatched from Santiago to Easter Island shortly before a Chilean military coup.\n\nAnother newcomer, the Indian epic “Ramayana: Rise of a Legend,” earned $8.6 million over the traditional weekend and $12.1 million during its first four days in theaters. Sony is distributing “Ramayana: Rise of a Legend” in 1,300 theaters, marking the widest North American release for an Indian film. Nitesh Tiwari‘s two-part adaptation of the ancient Hindu epic are the most expensive Indian films ever made, costing a combined $500 million to bring to screens. Globally, the movie bowed to $55.7 million, led by India with $32 million followed by the United Kingdom with $3 million.\n\n“Indian epics do some business in English-speaking countries, but they can make a fortune in India,” says Gross. “It’s going to need to make a fortune there.”\n\n“Ramayana: Rise of a Legend” opened in fifth place behind of A24’s electric Elizabeth Holmes documentary “You Can See Everything.” The zeitgeist-capturing movie has earned $8.8 million from 2,473 theaters in its fourth weekend of release, boosting its domestic tally to a staggering $79.8 million. “You Can See Everything” will leave theaters as one of the biggest documentaries in decades. And it will be very profitable for A24, which produced the nearly three-hour movie for $7 million.\n\n“Drummer Boy,” a Christian musical from Angel Studios, landed at No. 3 with $9.3 million from 2,850 theaters. “Jimmy,” a faith-based biopic starring KJ Apa as the actor and military vet Jimmy Stewart, finished the weekend in 12th place with just $2.2 million from 1,470 theaters.\n\nElsewhere, A24’s heartwarming comedy “Club Kid” and Amazon MGM’s drama “I Play Rocky” scored in limited release. “Club Kid” earned $390,583 from six screens in New York and Los Angeles, translating to $65,097 per location. Jordan Firstman wrote, directed and stars in the film, which revolves around a hard-partying club promoter who finds out he has a 10-year-old son. “I Play Rocky” captured $345,000 from seven theaters, averaging $49,200 per location. Directed by Peter Farrelly, the movie depicts the real-life story of Sylvester Stallone bringing the 1976 classic “Rocky” to the big screen. Both films will expand nationwide around Thanksgiving.\n\n“We’re incredibly encouraged by the response to ‘I Play Rocky’ so far,” says Amazon MGM Studios head of domestic distribution Kevin Wilson. “The enthusiasm from audiences reinforces our belief that we have a film with both awards potential and commercial appeal.”",
-      "images": [
-        {
-          "url": "https://variety.com/wp-content/uploads/2026/11/MCDGOMI_EC019.jpg?w=1000&h=563&crop=1",
-          "alt": ""
-        }
-      ],
-      "length": 8246,
-      "imageCount": 1
-    },
     "1imgt04": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/tv/tv-news/watch-nascar-cup-series-championship-race-2026-free-stream-1236750096/",
-      "fetchedAt": "2026-11-08T19:37:34.079Z",
+      "fetchedAt": "2026-11-08T19:39:30.770Z",
       "title": "Where to Watch the 2026 NASCAR Cup Series Championship Race Live Online",
       "byline": "Erin Lassner",
       "siteName": "The Hollywood Reporter",
@@ -32819,10 +32869,31 @@
       "length": 4456,
       "imageCount": 2
     },
+    "1k33wv5": {
+      "version": 4,
+      "url": "https://www.ukrinform.ua/rubric-ato/4182707-rf-pid-prikrittam-gumanitarnoi-operacii-zavela-do-olesok-ta-navkolisnoi-gromadi-dodatkovi-sili-zelenskij.html",
+      "fetchedAt": "2026-11-08T19:39:30.875Z",
+      "title": "РФ під прикриттям гуманітарної операції завела до Олешок та навколишньої громади додаткові сили - Зеленський",
+      "byline": "Ukrinform",
+      "siteName": "Укрінформ",
+      "content": "Російські війська під прикриттям гуманітарної операції завели додаткові сили до тимчасово захоплених Олешок та навколишньої громади. Командування ЗСУ має представити пропозиції для додаткового захисту Херсона.\n\nПро це Президент Володимир Зеленський повідомив у Фейсбуці за підсумками наради з керівниками обласних адміністрацій, передає Укрінформ.\n\n«На жаль, під прикриттям гуманітарної операції в Олешках російська армія провела значну ротацію особового складу та техніки на Лівобережжі. В Олешки і в навколишню громаду були заведені додаткові сили окупанта. Командування ЗСУ має представити пропозиції для додаткового захисту життя в Херсоні від російського терору», – зазначив він.\n\nСтосовно Сумської області, глава держави заявив, що для Збройних сил України є окремі завдання щодо протидії російським операціям. Він подякував усім службам, працівникам комунальних підприємств, енергетичних компаній й обласному управлінню Державної служби з надзвичайних ситуацій.\n\nОкремі Президентові доповіли щодо Сум, Охтирки та Шостки.\n\nСеред заслуханих – також доповіді про план стійкості та підготовку критичної інфраструктури до зими в Харківській області, відновлення електропостачання після сьогоднішніх ударів по Дніпропетровщині.\n\nНа нараді детально обговорили й ситуацію в Житомирській області й виклики, які є для енергетичної системи, обʼєктів розподілу та передачі енергії. «Є окреме завдання щодо цього для Міністерства енергетики», – поінформував Президент.\n\nЗеленський заслухав доповідь і про ситуацію в Запоріжжі та забезпечення потреб регіону.\n\nТакож обговорили обстановку в Донецькій області, зокрема у Краматорську. Як зауважив глава держави, росіяни суттєво посилили удари по місту та навколишній громаді.\n\n«На Ставці визначимо заходи протидії. На урядовому рівні та з командою Офісу Президента пропрацьовані завдання щодо інших регіонів», – зазначив він.\n\nЗа словами Зеленського, формат такої регіональної наради буде тепер щотижневим\n\n«І важливо, щоб була реальна інформація з місць. Дякую усім, хто працює заради нашої держави і людей», – додав він.\n\n«І важливо, щоб була реальна інформація з місць. Дякую усім, хто працює заради нашої держави і людей», – додав він.\n\nЧитайте також: Росіяни можуть планувати нові спроби висадки десанту в районі Корабела у Херсоні - УВ «Південь»\n\nЯк повідомляв Укрінформ, днями Генштаб ЗСУ заявляв, що російські війська використали гуманітарну паузу в Олешках для укріплення своїх позицій.\n\nФото: ОП",
+      "images": [
+        {
+          "url": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1794154783-405.png",
+          "alt": ""
+        },
+        {
+          "url": "https://static.ukrinform.com/photos/2026_11/1794154809-665.jpeg",
+          "alt": ""
+        }
+      ],
+      "length": 2446,
+      "imageCount": 2
+    },
     "17f0v0s": {
       "version": 4,
       "url": "https://www.caranddriver.com/news/a74359416/1993-subaru-svx-bring-a-trailer-auction/",
-      "fetchedAt": "2026-11-08T19:37:34.258Z",
+      "fetchedAt": "2026-11-08T19:39:31.016Z",
       "title": "This Grand Touring Coupe Is a Subaru Like No Other",
       "byline": "Brendan McAleer",
       "siteName": "Car and Driver",
@@ -32839,7 +32910,7 @@
     "1kl6w0v": {
       "version": 4,
       "url": "https://www.gematsu.com/2026/11/el-shaddai-zero-nine-reversi-now-available-for-pc",
-      "fetchedAt": "2026-11-08T19:37:34.689Z",
+      "fetchedAt": "2026-11-08T19:39:31.337Z",
       "title": "El Shaddai: Zero Nine Reversi now available for PC",
       "byline": "Sal Romano",
       "siteName": "Gematsu",
@@ -32853,10 +32924,27 @@
       "length": 3197,
       "imageCount": 1
     },
+    "ob3fsr": {
+      "version": 4,
+      "url": "https://www.gematsu.com/2026/11/my-hero-ultra-rumble-mobile-teaser-trailer",
+      "fetchedAt": "2026-11-08T19:39:31.468Z",
+      "title": "My Hero Ultra Rumble Mobile teaser trailer",
+      "byline": "Sal Romano",
+      "siteName": "Gematsu",
+      "content": "Smartphone\n\nPre-registration now available.\nBandai Namco has released a teaser trailer for My Hero Ultra Rumble Mobile, its newly announced mobile version of the free-to-play battle royale coming. Pre-registration is available now for iOS via App Store and Android via Google Play. As previously detailed, the mobile version will operate as its own game, and will not support cross-play between the existing console and PC versions of My Hero Ultra Rumble. Cross-play between iOS and Android is supported.Here is an overview of the game, via its store pages:AboutMy Hero Ultra Rumble Mobile is finally here!Become your favorite My Hero Academia characters and fight to survive in an epic battle royale featuring eight teams of three players! Use your Quirks to team up with players online and fight your way to become the last team standing!\nWhat is My Hero Ultra Rumble Mobile?An online multiplayer action game where you battle as My Hero Academia characters in an epic 24-player battle royale!Take on a vast battlefield and unleash each character’s unique Quirk! Team up with players online and fight your way to becoming the last team standing!Every new season will add content, including characters and costumes! Dive into a battle where the tide can turn in an instant!Watch the trailer below. Visit the official website here.Teaser TrailerEnglishJapanese",
+      "images": [
+        {
+          "url": "https://www.gematsu.com/wp-content/uploads/2026/11/My-Hero-Ultra-Rumble-Mobile-Ann_11-08-26.jpg",
+          "alt": ""
+        }
+      ],
+      "length": 1360,
+      "imageCount": 1
+    },
     "3pg5p3": {
       "version": 4,
       "url": "https://stopgame.ru/newsdata/73420/sluhi_ubisoft_gotovit_assassins_creed_pro_drevniy_rim_a_razrabotka_hexe_buksuet",
-      "fetchedAt": "2026-11-08T19:37:34.821Z",
+      "fetchedAt": "2026-11-08T19:39:31.547Z",
       "title": "Слухи: Ubisoft готовит Assassin's Creed про Древний Рим, а разработка Hexe буксует",
       "byline": "Андрей Маковеев",
       "siteName": "StopGame",
@@ -32882,10 +32970,16 @@
       "length": 1377,
       "imageCount": 4
     },
+    "104fli8": {
+      "version": 4,
+      "url": "https://phys.org/news/2026-11-jwst-tracks-magnified-stellar-events.html",
+      "fetchedAt": "2026-11-08T19:39:31.548Z",
+      "error": "HTTP 403"
+    },
     "1b6lvp9": {
       "version": 4,
       "url": "https://www.dw.com/ru/%D1%84%D1%80%D0%B0%D0%BD%D1%86%D0%B8%D1%8F-%D0%B0%D0%BD%D0%BE%D0%BD%D1%81%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D0%BB%D0%B0-%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%B8%D0%B5-%D0%B5%D0%B2%D1%80%D0%BE%D0%BF%D0%B5%D0%B9%D1%86%D0%B5%D0%B2-%D0%B2-%D0%BF%D0%B5%D1%80%D0%B5%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%B0%D1%85-%D0%BF%D0%BE-%D1%83%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D0%B5-%D0%B2-%D0%BE%D0%B0%D1%8D/a-79891865?maca=rus-rss-ru-all-1126-rdf",
-      "fetchedAt": "2026-11-08T19:37:34.925Z",
+      "fetchedAt": "2026-11-08T19:39:31.656Z",
       "title": "МИД Франции: Европейцы примут участие в переговорах по Украине в ОАЭ",
       "byline": "Жан Рофе",
       "siteName": "Deutsche Welle",
@@ -32899,54 +32993,10 @@
       "length": 1534,
       "imageCount": 1
     },
-    "1k33wv5": {
-      "version": 4,
-      "url": "https://www.ukrinform.ua/rubric-ato/4182707-rf-pid-prikrittam-gumanitarnoi-operacii-zavela-do-olesok-ta-navkolisnoi-gromadi-dodatkovi-sili-zelenskij.html",
-      "fetchedAt": "2026-11-08T19:37:34.966Z",
-      "title": "РФ під прикриттям гуманітарної операції завела до Олешок та навколишньої громади додаткові сили - Зеленський",
-      "byline": "Ukrinform",
-      "siteName": "Укрінформ",
-      "content": "Російські війська під прикриттям гуманітарної операції завели додаткові сили до тимчасово захоплених Олешок та навколишньої громади. Командування ЗСУ має представити пропозиції для додаткового захисту Херсона.\n\nПро це Президент Володимир Зеленський повідомив у Фейсбуці за підсумками наради з керівниками обласних адміністрацій, передає Укрінформ.\n\n«На жаль, під прикриттям гуманітарної операції в Олешках російська армія провела значну ротацію особового складу та техніки на Лівобережжі. В Олешки і в навколишню громаду були заведені додаткові сили окупанта. Командування ЗСУ має представити пропозиції для додаткового захисту життя в Херсоні від російського терору», – зазначив він.\n\nСтосовно Сумської області, глава держави заявив, що для Збройних сил України є окремі завдання щодо протидії російським операціям. Він подякував усім службам, працівникам комунальних підприємств, енергетичних компаній й обласному управлінню Державної служби з надзвичайних ситуацій.\n\nОкремі Президентові доповіли щодо Сум, Охтирки та Шостки.\n\nСеред заслуханих – також доповіді про план стійкості та підготовку критичної інфраструктури до зими в Харківській області, відновлення електропостачання після сьогоднішніх ударів по Дніпропетровщині.\n\nНа нараді детально обговорили й ситуацію в Житомирській області й виклики, які є для енергетичної системи, обʼєктів розподілу та передачі енергії. «Є окреме завдання щодо цього для Міністерства енергетики», – поінформував Президент.\n\nЗеленський заслухав доповідь і про ситуацію в Запоріжжі та забезпечення потреб регіону.\n\nТакож обговорили обстановку в Донецькій області, зокрема у Краматорську. Як зауважив глава держави, росіяни суттєво посилили удари по місту та навколишній громаді.\n\n«На Ставці визначимо заходи протидії. На урядовому рівні та з командою Офісу Президента пропрацьовані завдання щодо інших регіонів», – зазначив він.\n\nЗа словами Зеленського, формат такої регіональної наради буде тепер щотижневим\n\n«І важливо, щоб була реальна інформація з місць. Дякую усім, хто працює заради нашої держави і людей», – додав він.\n\n«І важливо, щоб була реальна інформація з місць. Дякую усім, хто працює заради нашої держави і людей», – додав він.\n\nЧитайте також: Росіяни можуть планувати нові спроби висадки десанту в районі Корабела у Херсоні - УВ «Південь»\n\nЯк повідомляв Укрінформ, днями Генштаб ЗСУ заявляв, що російські війська використали гуманітарну паузу в Олешках для укріплення своїх позицій.\n\nФото: ОП",
-      "images": [
-        {
-          "url": "https://static.ukrinform.com/photos/2026_11/thumb_files/630_360_1794154783-405.png",
-          "alt": ""
-        },
-        {
-          "url": "https://static.ukrinform.com/photos/2026_11/1794154809-665.jpeg",
-          "alt": ""
-        }
-      ],
-      "length": 2446,
-      "imageCount": 2
-    },
-    "ob3fsr": {
-      "version": 4,
-      "url": "https://www.gematsu.com/2026/11/my-hero-ultra-rumble-mobile-teaser-trailer",
-      "fetchedAt": "2026-11-08T19:37:35.095Z",
-      "title": "My Hero Ultra Rumble Mobile teaser trailer",
-      "byline": "Sal Romano",
-      "siteName": "Gematsu",
-      "content": "Smartphone\n\nPre-registration now available.\nBandai Namco has released a teaser trailer for My Hero Ultra Rumble Mobile, its newly announced mobile version of the free-to-play battle royale coming. Pre-registration is available now for iOS via App Store and Android via Google Play. As previously detailed, the mobile version will operate as its own game, and will not support cross-play between the existing console and PC versions of My Hero Ultra Rumble. Cross-play between iOS and Android is supported.Here is an overview of the game, via its store pages:AboutMy Hero Ultra Rumble Mobile is finally here!Become your favorite My Hero Academia characters and fight to survive in an epic battle royale featuring eight teams of three players! Use your Quirks to team up with players online and fight your way to become the last team standing!\nWhat is My Hero Ultra Rumble Mobile?An online multiplayer action game where you battle as My Hero Academia characters in an epic 24-player battle royale!Take on a vast battlefield and unleash each character’s unique Quirk! Team up with players online and fight your way to becoming the last team standing!Every new season will add content, including characters and costumes! Dive into a battle where the tide can turn in an instant!Watch the trailer below. Visit the official website here.Teaser TrailerEnglishJapanese",
-      "images": [
-        {
-          "url": "https://www.gematsu.com/wp-content/uploads/2026/11/My-Hero-Ultra-Rumble-Mobile-Ann_11-08-26.jpg",
-          "alt": ""
-        }
-      ],
-      "length": 1360,
-      "imageCount": 1
-    },
-    "104fli8": {
-      "version": 4,
-      "url": "https://phys.org/news/2026-11-jwst-tracks-magnified-stellar-events.html",
-      "fetchedAt": "2026-11-08T19:37:35.098Z",
-      "error": "HTTP 403"
-    },
     "mkemau": {
       "version": 4,
       "url": "https://deadline.com/2026/11/still-standing-la-wildfires-documentary-pov-1237216814/",
-      "fetchedAt": "2026-11-08T19:37:35.400Z",
+      "fetchedAt": "2026-11-08T19:39:31.989Z",
       "title": "Toxic Homes, Terrible Dilemma: Oscar Contender ‘Still Standing’ Documents Homeowner Nightmare After LA Wildfires – SFFILM Doc Stories",
       "byline": "Matthew Carey",
       "siteName": "Deadline",
@@ -32968,27 +33018,10 @@
       "length": 3480,
       "imageCount": 3
     },
-    "eikha7": {
-      "version": 4,
-      "url": "https://www.theverge.com/ai-artificial-intelligence/1029552/apple-siri-ai-agentic",
-      "fetchedAt": "2026-11-08T19:37:35.506Z",
-      "title": "Apple is racing to make Siri more agentic",
-      "byline": "Terrence O'Brien",
-      "siteName": "The Verge",
-      "content": "Skip to main contentFuture versions of Siri will be able to control third-party apps and perform more complex tasks.Future versions of Siri will be able to control third-party apps and perform more complex tasks.by Terrence O'BrienNov 8, 2026, 7:18 PM UTCPhoto: David Imel / The VergeTerrence O'Brien is the Verge’s weekend editor. He’s covered the tech industry for over 18 years and knows a thing or two about synths.Bloomberg’s Mark Gurman says CEO John Ternus is pressuring AI czar Craig Federighi to accelerate the Siri roadmap and deliver a powerful AI agent that can compete with OpenAI’s Dots or Meta’s Muse. While Federighi has delivered a functional version of Siri AI on an incredibly short timeline, the company has no illusions that it’s keeping pace with its rivals.Two significant improvements are expected to be made to Siri in the coming months. One will give the assistant fine-grained control over Apple’s first-party apps, allowing it to do things like rotate and crop images in Photos and organize Safari tabs. Those capabilities are expected to land with iOS 27.3. The bigger change, integration with third-party apps, is likely to land later, in the Spring, according to Gurman. That would let Siri place an order through Grubhub or book a dinner reservation through OpenTable, for example.But that’s just the start. Apple is expected to push Siri to become more agentic and enable features that will allow it to perform ongoing tasks, not just one-offs. Gurman says:Dots, Muse and Grok can keep track of goals, determine what needs to happen next and continue pursuing objectives without the user initiating every individual step. Apple ultimately wants to go in this direction, I’m told, and I believe the company could make Siri more like an agent as early as next year — not that it has much of a choice, given current consumer and market demands.Follow topics and authors from this story to see more like this in your personalized homepage feed and to receive email updates.Terrence O'BrienThe Verge DailyA free daily digest of the news that matters most.Email (required)",
-      "images": [
-        {
-          "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/07/Siri-AI-Being-invoked-3.jpg?quality=90&strip=all&crop=0%2C10.727837220746%2C100%2C78.544325558509&w=1200",
-          "alt": ""
-        }
-      ],
-      "length": 2099,
-      "imageCount": 1
-    },
     "iq5w2y": {
       "version": 4,
       "url": "https://nintendoeverything.com/ocarina-of-time-remake-has-uks-second-biggest-zelda-launch-of-all-times-biggest-physical-game-launch-of-2026/",
-      "fetchedAt": "2026-11-08T19:37:35.585Z",
+      "fetchedAt": "2026-11-08T19:39:32.083Z",
       "title": "Ocarina of Time remake has UK’s second-biggest Zelda launch of all times, biggest physical game launch of 2026",
       "byline": "Brian",
       "siteName": "Nintendo Everything",
@@ -33009,7 +33042,7 @@
     "1t13eia": {
       "version": 4,
       "url": "https://www.slashfilm.com/2305903/the-hathaways-60s-sitcom-worst-show-ever-tv/",
-      "fetchedAt": "2026-11-08T19:37:35.623Z",
+      "fetchedAt": "2026-11-08T19:39:32.193Z",
       "title": "Was This Short-Lived '60s Sitcom Really The Worst Show To Ever Air On TV?",
       "byline": "Joe Roberts",
       "siteName": "SlashFilm",
@@ -33059,10 +33092,39 @@
       "length": 5122,
       "imageCount": 10
     },
+    "1ob7aev": {
+      "version": 4,
+      "url": "https://www.omgubuntu.co.uk/2026/11/gnome-extension-manager-0-7-released",
+      "fetchedAt": "2026-11-08T19:39:32.297Z",
+      "title": "Extension Manager 0.7 released with new (and fixed) features",
+      "byline": "Joey Sneddon",
+      "siteName": "OMG! Ubuntu",
+      "content": "A new version of Extension Manager, the desktop app that makes it easier to browse, install and manage GNOME Shell extension without a web browser, has been released.\n\nExtension Manager 0.7.0 includes a number of welcome improvements, new features and restores a few nifty bits that had stopped working in earlier versions.\n\nWith the new update, you can now find and open installed extension preferences from the Activities overview as the app now bundles a GNOME Search provider. Enable that (after installing this version) from Settings > Search, if it’s something you’d use.\n\nJump to extension prefers from the Overview\n\nExtension detail pages show more details, including things you’d previously need to visit a web page to see, like version and GNOME support. Installed extensions show an uninstall button and installed path location, with button to open it in Nautilus.\n\nSome extensions use animated GIFs to convey their chief gimmick or functionality, the app makes use of Glycin to render animated screenshots.\n\nMore information on app listings – including animated GIFs\n\nOn the list of installed extensions, a select mode allows you to bulk uninstall extensions in one swoop, and if an error occurs after enabling an extension, a new dialog shows error details (previously shown in a liner drop down).\n\nThe app once again defaults to only showing search results for extensions that support your current version of GNOME. There is an option to show all (i.e., unsupported) results if you need it.\n\nFiltering unsupported works again in v0.7.0\n\nThe app also planning to allow viewing extension author pages, which will list other extensions by that author. Some of the code needed to support lands here, but the actual ability itself was held back.\n\nExtension Manager is free, open-source software designed for GNOME. You can install the latest release from Flathub, which relies on the GNOME 51 runtime (so if you don’t have other apps using that, it’ll be pulled in too).\n\nAn older version of extension manager is available in the Ubuntu repositories, but to benefit from the changes mentioned here you will need install it from Flathub, or wait for Ubuntu 27.04 to roll around.\n\nGet Extension Manager on Flathub",
+      "images": [
+        {
+          "url": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/11/gnome-extension-puzzle-piece.webp",
+          "alt": ""
+        },
+        {
+          "url": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/11/extension-overview-edited.avif",
+          "alt": ""
+        },
+        {
+          "url": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/11/extension-manager.avif",
+          "alt": ""
+        },
+        {
+          "url": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/11/extension-manager-unsupported-filter-working.avif",
+          "alt": ""
+        }
+      ],
+      "length": 2220,
+      "imageCount": 4
+    },
     "iq99dj": {
       "version": 4,
       "url": "https://www.pcgamer.com/games/the-elder-scrolls/skyrim-lead-designer-bruce-nesmith-loved-that-baldurs-gate-3-closed-off-story-paths-based-on-your-decisions-but-defends-bethesdas-approach-they-were-both-fun-theyre-just-fun-in-different-ways/",
-      "fetchedAt": "2026-11-08T19:37:36.313Z",
+      "fetchedAt": "2026-11-08T19:39:33.016Z",
       "title": "Skyrim lead designer Bruce Nesmith loved that Baldur's Gate 3 closed off story paths based on your decisions, but defends Bethesda's approach: 'They were both fun, they're just fun in different ways'",
       "byline": "Ted Litchfield",
       "siteName": "PC Gamer",
@@ -33103,11 +33165,11 @@
     "6pc4m9": {
       "version": 4,
       "url": "https://habr.com/ru/articles/1105196/",
-      "fetchedAt": "2026-11-08T19:37:36.376Z",
+      "fetchedAt": "2026-11-08T19:39:33.094Z",
       "title": "Почему Claude Code нарушает правила из CLAUDE.md и почему вам точн онужны разрешения и хуки",
-      "byline": "ig_novvv42 минуты назад",
+      "byline": "ig_novvv44 минуты назад",
       "siteName": "Habr",
-      "content": "Уровень сложностиСреднийВремя на прочтение5 минОхват и читатели1.3KТуториалClaude Code читает CLAUDE.md в начале каждой сессии, но запрет из этого файла агент всё равно может нарушить. По словам автора issue #46779, Claude Code раз за разом удалял данные сверх запроса, хотя запреты в CLAUDE.md были написаны прямо. Мои агенты работают по файлу правил проекта и по проверкам кодом, и правила между ними я делю по цене нарушения. Если ошибка стоит минут, хватит строки в тексте. Если она стоит денег, раскрывает ключи или запускает работу без подтверждения, нужны разрешения, хук или проверка кодом. Правило, которое можно нарушить, со временем нарушается, поэтому важное я переношу из текста в код и разрешения.Правила Claude Code попадают в CLAUDE.md после второго одинакового сбояCLAUDE.md — файл правил проекта, который Claude Code загружает в начале каждой сессии. По руководству Anthropic, после сжатия диалога он перечитывает файл, поэтому текст правил из контекста не пропадает. Записывать туда стоит то, на чём агент уже ошибся. Справка Anthropic советует добавлять запись, когда Claude пришлось поправить в одном и том же второй раз: первый сбой обычно разовый. У меня каждая строка файла тоже появилась после конкретного сбоя.Правило проходит два сбоя и один вопрос о цене; только ответ на него решает, останется ли строка в тексте.Так в файле появился запрет автоматически повторять задачу, когда кончился лимит подписки. Поставил его владелец: повтор упирается в тот же лимит. С включёнными usage credits (дополнительным платным балансом, за счёт которого работа идёт сверх лимита подписки) повтор ещё и стоит денег: по справке о лимитах, с ними работа на лимите не останавливается и продолжается за счёт кредитов. Поэтому на вопрос, должен ли агент повторять задачу после лимита, мой ответ — нет.Вычищать файл приходится так же регулярно, как пополнять. По той же справке Anthropic, устаревшая запись вредит сильнее, чем её отсутствие. Anthropic советует держать CLAUDE.md короче 200 строк, назначить ему владельца и проверять правки как код.Почему агент перестаёт выполнять правило из CLAUDE.md в длинной сессииПравило из CLAUDE.md агент, скорее всего, помнит, но в какой-то момент перестаёт применять. Так вышло в бенчмарке StateTrack-Bench с конференции EMNLP 2026: 88,6% сбоев в длинных диалогах авторы отнесли к дрейфу поведения, когда ИИ-модель помнит ограничение, но больше ему не следует. Это почти девять сбоев из десяти, и перечитывание CLAUDE.md после сжатия диалога от них, скорее всего, не спасает: правило в контексте и так есть.Microsoft Research показала и общий спад: у всех протестированных топовых моделей качество в многоходовом диалоге ниже, чем в одноходовом, в среднем на 39% по шести задачам генерации. Anthropic пишет о своих правилах прямо: запрет вида никогда не делай X в CLAUDE.md не годится для того, что нельзя допустить ни разу. Claude выполняет такую инструкцию в большинстве случаев, но под давлением, в длинной сессии, в неоднозначной ситуации или из-за prompt injection может её нарушить. Prompt injection здесь значит чужую инструкцию в файле, который агент открыл по задаче.Какие правила нельзя оставлять только в тексте CLAUDE.mdТолько текстом нельзя держать правила, нарушение которых стоит денег, раскрывает ключи или запускает работу без подтверждения. Для них в Claude Code есть разрешения (permissions): правила allow, ask и deny задают, что агент делает сам, о чём спрашивает и что ему запрещено. Есть хуки (hooks): shell-команды, которые Claude Code запускает сам на событие сессии, например когда агент собирается записать файл или закончить ход. И есть отдельная проверка кодом перед запуском работы.ПравилоЧто идёт не так без негоГде живётНе повторять задачу после лимита подпискиповтор упирается в тот же лимит, с usage credits стоит денегтекст CLAUDE.mdНе запускать команду браузерного инструмента, которая тратит платные кредитыкоманда тратила платные кредитыdeny в разрешенияхБрать ключи и пароли только из окружения и .envключ оказывается в коде или выводеокружение и .envЗапускать работу только после подтверждённого планазапуск держался на договорённостипроверка кодом перед запускомНе заканчивать, пока работа не доведена до концаагент заканчивает ход, не доделав работухук на остановку (Stop)Запрет на повтор после лимита у меня стоит в тексте: без usage credits повтор только упирается в тот же лимит. С кредитами он стоит денег, и тогда одной строки в CLAUDE.md мало.Развилка идёт от цены ошибки к месту правила: дорогие уходят в код, дешёвые остаются строкой.Ключи и пароли агент берёт только из окружения и .env. Само по себе это не мешает ему прочитать секрет и вывести его или записать в код, поэтому запрет закрепляют кодом: правило deny на чтение .env закрывает агенту файл с ключами, а хук на запись файла отклоняет изменение, в котором есть ключ. Вывод секрета из окружения эти два правила не закрывают. Раскрытый ключ обратно не заберёшь, поэтому держать такое правило одним текстом нельзя; почему хук PreToolUse пропускает ключи в коммиты, я разбирал отдельно.Правило запускать работу только после подтверждённого плана было последней проверкой, которая держалась на договорённости. Теперь его проверяет код: скрипт запуска сначала ищет файл с моим подтверждением плана и без него завершается с ошибкой, так что работа не стартует.Как запретить агенту команду через permissions в настройках Claude CodeКоманду, которую агент не должен запускать ни при каких условиях, вносят в список deny в разрешениях. Так я закрыл команду браузерного инструмента, которая тратила платные кредиты: правилом в разрешениях, без просьбы в тексте. Общий .claude/settings.json проекта документация Claude Code советует коммитить в git, тогда правила получат все участники. Пример иллюстративный, точный синтаксис описан на странице Configure permissions, на которую ссылается та же документация.{\n\"permissions\": {\n\"deny\": [\"mcp__browser__paid_action\"]\n}\n}deny — список того, что агенту запрещено. По AgentVera, всё, чего не должно случиться никогда, переносят в deny-правила, хуки или песочницу: даже автоматический режим с классификатором рисков только оценивает действие и жёстким правилом не служит.mcp__browser__paid_action — условное имя команды браузерного инструмента, подключённого через MCP, протокол для внешних инструментов агента. Защита, которая смотрит только на команды Bash, такой вызов не увидит, на это указал комментатор к issue #65563. В самом issue автор пишет, что агента просили лишь расследовать баг с удалением, а он через автоматизацию браузера нажал удаление и подтверждение на реальной записи в продакшен-базе.Хук на остановку не даёт агенту бросить работу на серединеЧтобы агент не заканчивал ход, пока работа не доведена до конца, на событие Stop вешают хук. Claude Code запускает его, когда агент пытается закончить, и при коде выхода 2 возвращает к работе. JSON кладут в файл настроек Claude Code, скрипт check-done.sh — в корень проекта, и делают его исполняемым. Пример иллюстративный: вместо make check подставьте команду проверки своего проекта.{\n\"hooks\": {\n\"Stop\": [\n{ \"hooks\": [{ \"type\": \"command\", \"command\": \"./check-done.sh\" }] }\n]\n}\n}#!/bin/sh\n# пока проверка не проходит, закончить нельзя\nmake check >/dev/null 2>&1 || {\necho \"Работа не закончена: проверка не прошла\" >&2\nexit 2\n}exit 2 — блокирующая ошибка: по описанию хуков у Anthropic, действие отменяется, а текст из stderr агент получает как сообщение об ошибке.Код 1 без вывода действие не блокирует: так проверили в Caprock на версиях 2.1.289 и 2.1.299. С версии 2.1.295 опция onFailure: block блокирует действие и при сбое хука.После восьми блокировок подряд без вызова инструментов Claude Code всё равно завершает ход, по данным AgentVera. Порог поднимает переменная CLAUDE_CODE_STOP_HOOK_BLOCK_CAP, и на длинной задаче стоит проверить, не упирается ли хук в него.Что оставить в CLAUDE.md, а что перенести в разрешения и хуки Claude CodeФайл правил для агента — журнал сбоев, а не декларация: каждая строка в нём должна отвечать на случай, который уже произошёл. Если нарушение правила стоит денег, раскрывает секреты или запускает работу без подтверждения, правилу не место в тексте: его закрывают разрешениями, хуком или проверкой кодом. В CLAUDE.md остаётся то, что агент может иногда нарушить без потерь: устройство проекта, порядок работы, стиль. Интересно, какое правило вы первым вынесли из CLAUDE.md в настройки и после какого сбоя.",
+      "content": "Уровень сложностиСреднийВремя на прочтение5 минОхват и читатели1.4KТуториалClaude Code читает CLAUDE.md в начале каждой сессии, но запрет из этого файла агент всё равно может нарушить. По словам автора issue #46779, Claude Code раз за разом удалял данные сверх запроса, хотя запреты в CLAUDE.md были написаны прямо. Мои агенты работают по файлу правил проекта и по проверкам кодом, и правила между ними я делю по цене нарушения. Если ошибка стоит минут, хватит строки в тексте. Если она стоит денег, раскрывает ключи или запускает работу без подтверждения, нужны разрешения, хук или проверка кодом. Правило, которое можно нарушить, со временем нарушается, поэтому важное я переношу из текста в код и разрешения.Правила Claude Code попадают в CLAUDE.md после второго одинакового сбояCLAUDE.md — файл правил проекта, который Claude Code загружает в начале каждой сессии. По руководству Anthropic, после сжатия диалога он перечитывает файл, поэтому текст правил из контекста не пропадает. Записывать туда стоит то, на чём агент уже ошибся. Справка Anthropic советует добавлять запись, когда Claude пришлось поправить в одном и том же второй раз: первый сбой обычно разовый. У меня каждая строка файла тоже появилась после конкретного сбоя.Правило проходит два сбоя и один вопрос о цене; только ответ на него решает, останется ли строка в тексте.Так в файле появился запрет автоматически повторять задачу, когда кончился лимит подписки. Поставил его владелец: повтор упирается в тот же лимит. С включёнными usage credits (дополнительным платным балансом, за счёт которого работа идёт сверх лимита подписки) повтор ещё и стоит денег: по справке о лимитах, с ними работа на лимите не останавливается и продолжается за счёт кредитов. Поэтому на вопрос, должен ли агент повторять задачу после лимита, мой ответ — нет.Вычищать файл приходится так же регулярно, как пополнять. По той же справке Anthropic, устаревшая запись вредит сильнее, чем её отсутствие. Anthropic советует держать CLAUDE.md короче 200 строк, назначить ему владельца и проверять правки как код.Почему агент перестаёт выполнять правило из CLAUDE.md в длинной сессииПравило из CLAUDE.md агент, скорее всего, помнит, но в какой-то момент перестаёт применять. Так вышло в бенчмарке StateTrack-Bench с конференции EMNLP 2026: 88,6% сбоев в длинных диалогах авторы отнесли к дрейфу поведения, когда ИИ-модель помнит ограничение, но больше ему не следует. Это почти девять сбоев из десяти, и перечитывание CLAUDE.md после сжатия диалога от них, скорее всего, не спасает: правило в контексте и так есть.Microsoft Research показала и общий спад: у всех протестированных топовых моделей качество в многоходовом диалоге ниже, чем в одноходовом, в среднем на 39% по шести задачам генерации. Anthropic пишет о своих правилах прямо: запрет вида никогда не делай X в CLAUDE.md не годится для того, что нельзя допустить ни разу. Claude выполняет такую инструкцию в большинстве случаев, но под давлением, в длинной сессии, в неоднозначной ситуации или из-за prompt injection может её нарушить. Prompt injection здесь значит чужую инструкцию в файле, который агент открыл по задаче.Какие правила нельзя оставлять только в тексте CLAUDE.mdТолько текстом нельзя держать правила, нарушение которых стоит денег, раскрывает ключи или запускает работу без подтверждения. Для них в Claude Code есть разрешения (permissions): правила allow, ask и deny задают, что агент делает сам, о чём спрашивает и что ему запрещено. Есть хуки (hooks): shell-команды, которые Claude Code запускает сам на событие сессии, например когда агент собирается записать файл или закончить ход. И есть отдельная проверка кодом перед запуском работы.ПравилоЧто идёт не так без негоГде живётНе повторять задачу после лимита подпискиповтор упирается в тот же лимит, с usage credits стоит денегтекст CLAUDE.mdНе запускать команду браузерного инструмента, которая тратит платные кредитыкоманда тратила платные кредитыdeny в разрешенияхБрать ключи и пароли только из окружения и .envключ оказывается в коде или выводеокружение и .envЗапускать работу только после подтверждённого планазапуск держался на договорённостипроверка кодом перед запускомНе заканчивать, пока работа не доведена до концаагент заканчивает ход, не доделав работухук на остановку (Stop)Запрет на повтор после лимита у меня стоит в тексте: без usage credits повтор только упирается в тот же лимит. С кредитами он стоит денег, и тогда одной строки в CLAUDE.md мало.Развилка идёт от цены ошибки к месту правила: дорогие уходят в код, дешёвые остаются строкой.Ключи и пароли агент берёт только из окружения и .env. Само по себе это не мешает ему прочитать секрет и вывести его или записать в код, поэтому запрет закрепляют кодом: правило deny на чтение .env закрывает агенту файл с ключами, а хук на запись файла отклоняет изменение, в котором есть ключ. Вывод секрета из окружения эти два правила не закрывают. Раскрытый ключ обратно не заберёшь, поэтому держать такое правило одним текстом нельзя; почему хук PreToolUse пропускает ключи в коммиты, я разбирал отдельно.Правило запускать работу только после подтверждённого плана было последней проверкой, которая держалась на договорённости. Теперь его проверяет код: скрипт запуска сначала ищет файл с моим подтверждением плана и без него завершается с ошибкой, так что работа не стартует.Как запретить агенту команду через permissions в настройках Claude CodeКоманду, которую агент не должен запускать ни при каких условиях, вносят в список deny в разрешениях. Так я закрыл команду браузерного инструмента, которая тратила платные кредиты: правилом в разрешениях, без просьбы в тексте. Общий .claude/settings.json проекта документация Claude Code советует коммитить в git, тогда правила получат все участники. Пример иллюстративный, точный синтаксис описан на странице Configure permissions, на которую ссылается та же документация.{\n\"permissions\": {\n\"deny\": [\"mcp__browser__paid_action\"]\n}\n}deny — список того, что агенту запрещено. По AgentVera, всё, чего не должно случиться никогда, переносят в deny-правила, хуки или песочницу: даже автоматический режим с классификатором рисков только оценивает действие и жёстким правилом не служит.mcp__browser__paid_action — условное имя команды браузерного инструмента, подключённого через MCP, протокол для внешних инструментов агента. Защита, которая смотрит только на команды Bash, такой вызов не увидит, на это указал комментатор к issue #65563. В самом issue автор пишет, что агента просили лишь расследовать баг с удалением, а он через автоматизацию браузера нажал удаление и подтверждение на реальной записи в продакшен-базе.Хук на остановку не даёт агенту бросить работу на серединеЧтобы агент не заканчивал ход, пока работа не доведена до конца, на событие Stop вешают хук. Claude Code запускает его, когда агент пытается закончить, и при коде выхода 2 возвращает к работе. JSON кладут в файл настроек Claude Code, скрипт check-done.sh — в корень проекта, и делают его исполняемым. Пример иллюстративный: вместо make check подставьте команду проверки своего проекта.{\n\"hooks\": {\n\"Stop\": [\n{ \"hooks\": [{ \"type\": \"command\", \"command\": \"./check-done.sh\" }] }\n]\n}\n}#!/bin/sh\n# пока проверка не проходит, закончить нельзя\nmake check >/dev/null 2>&1 || {\necho \"Работа не закончена: проверка не прошла\" >&2\nexit 2\n}exit 2 — блокирующая ошибка: по описанию хуков у Anthropic, действие отменяется, а текст из stderr агент получает как сообщение об ошибке.Код 1 без вывода действие не блокирует: так проверили в Caprock на версиях 2.1.289 и 2.1.299. С версии 2.1.295 опция onFailure: block блокирует действие и при сбое хука.После восьми блокировок подряд без вызова инструментов Claude Code всё равно завершает ход, по данным AgentVera. Порог поднимает переменная CLAUDE_CODE_STOP_HOOK_BLOCK_CAP, и на длинной задаче стоит проверить, не упирается ли хук в него.Что оставить в CLAUDE.md, а что перенести в разрешения и хуки Claude CodeФайл правил для агента — журнал сбоев, а не декларация: каждая строка в нём должна отвечать на случай, который уже произошёл. Если нарушение правила стоит денег, раскрывает секреты или запускает работу без подтверждения, правилу не место в тексте: его закрывают разрешениями, хуком или проверкой кодом. В CLAUDE.md остаётся то, что агент может иногда нарушить без потерь: устройство проекта, порядок работы, стиль. Интересно, какое правило вы первым вынесли из CLAUDE.md в настройки и после какого сбоя.",
       "images": [
         {
           "url": "https://habrastorage.org/r/w1560/extt/84/27/cf/8427cf8db54904ddd99b560e8c74cbdf.png",
@@ -33119,77 +33181,6 @@
         }
       ],
       "length": 8406,
-      "imageCount": 2
-    },
-    "1ob7aev": {
-      "version": 4,
-      "url": "https://www.omgubuntu.co.uk/2026/11/gnome-extension-manager-0-7-released",
-      "fetchedAt": "2026-11-08T19:37:36.462Z",
-      "title": "Extension Manager 0.7 released with new (and fixed) features",
-      "byline": "Joey Sneddon",
-      "siteName": "OMG! Ubuntu",
-      "content": "A new version of Extension Manager, the desktop app that makes it easier to browse, install and manage GNOME Shell extension without a web browser, has been released.\n\nExtension Manager 0.7.0 includes a number of welcome improvements, new features and restores a few nifty bits that had stopped working in earlier versions.\n\nWith the new update, you can now find and open installed extension preferences from the Activities overview as the app now bundles a GNOME Search provider. Enable that (after installing this version) from Settings > Search, if it’s something you’d use.\n\nJump to extension prefers from the Overview\n\nExtension detail pages show more details, including things you’d previously need to visit a web page to see, like version and GNOME support. Installed extensions show an uninstall button and installed path location, with button to open it in Nautilus.\n\nSome extensions use animated GIFs to convey their chief gimmick or functionality, the app makes use of Glycin to render animated screenshots.\n\nMore information on app listings – including animated GIFs\n\nOn the list of installed extensions, a select mode allows you to bulk uninstall extensions in one swoop, and if an error occurs after enabling an extension, a new dialog shows error details (previously shown in a liner drop down).\n\nThe app once again defaults to only showing search results for extensions that support your current version of GNOME. There is an option to show all (i.e., unsupported) results if you need it.\n\nFiltering unsupported works again in v0.7.0\n\nThe app also planning to allow viewing extension author pages, which will list other extensions by that author. Some of the code needed to support lands here, but the actual ability itself was held back.\n\nExtension Manager is free, open-source software designed for GNOME. You can install the latest release from Flathub, which relies on the GNOME 51 runtime (so if you don’t have other apps using that, it’ll be pulled in too).\n\nAn older version of extension manager is available in the Ubuntu repositories, but to benefit from the changes mentioned here you will need install it from Flathub, or wait for Ubuntu 27.04 to roll around.\n\nGet Extension Manager on Flathub",
-      "images": [
-        {
-          "url": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/11/gnome-extension-puzzle-piece.webp",
-          "alt": ""
-        },
-        {
-          "url": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/11/extension-overview-edited.avif",
-          "alt": ""
-        },
-        {
-          "url": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/11/extension-manager.avif",
-          "alt": ""
-        },
-        {
-          "url": "https://www.omgubuntu.co.uk/wp-content/uploads/2026/11/extension-manager-unsupported-filter-working.avif",
-          "alt": ""
-        }
-      ],
-      "length": 2220,
-      "imageCount": 4
-    },
-    "1vsfe2m": {
-      "version": 4,
-      "url": "https://variety.com/2026/film/global/sanfic-prizes-monguen-narciso-sebastian-lelio-remembered-1236942162/",
-      "fetchedAt": "2026-11-08T19:37:36.692Z",
-      "title": "Sanfic Prizes: 'Monguen,' 'Narciso' Win, Sebastián Lelio Is Remembered",
-      "byline": "Anna Marie de la Fuente",
-      "siteName": "Variety",
-      "content": "The unexpected demise Nov. 6 of Chile’s Oscar-winning Sebastián Lelio (“A Fantastic Woman”) cast a pall over the closing ceremonies of both the festival and industry section of the Santiago Film Festival (Sanfic), which wraps Nov. 8.\n\nThe red carpet portions of the industry and festival ceremonies held Nov. 6 and 7, respectively, were cancelled. “We dedicate the rest of this festival to Sebastián,” said festival director Carlos Nuñez and Sanfic Industria head Gabriela Sandoval, both visibly bereft. “His films will remain as his legacy but his passing is incredibly painful, especially because he had been so close to the festival since its very beginning,” said Nuñez.\n\nLelio’s family announced that the Cineteca Nacional (National Film Library) would be open to all those who wished to pay their respects this weekend. Real life also reminded some festival goers of Lelio’s last film, musical “The Wave” (“La ola”), which dealt with Chile’s violent 2018 student protests, when tear gas met some panel participants as they stepped out of a university. The students were protesting the latest move by the right-wing government of President Kast, whose system-wide budget cuts include education. They also called for the resignation of Justice Minister Fernando Rabat to resign over his sentence reductions for child sex offenders and human rights violators.\n\nAmong the nine Chilean pics in competition, the Best Picture award went to documentary “Monguen” by the late Antonio Caro who also died suddenly while working on his film, which led his producer to take over. Lelio was filming an adaptation of Alejandro Zambra’s novel “Chilean Poet” for Fabula and was also in pre-production on “Voyagers,” featuring Andrew Garfield and Daisy Edgar-Jones.\n\n“I think this is a well-deserved recognition for ‘Monguen,’ a film that explores stories from the margins. It deals with a subject rarely addressed in Chilean cinema: Mapuche culture, the culture of the south and characters who don’t often get represented on screen. In this film, Antonio Caro brings those worlds to life and allows us to gain a deeper understanding of the culture of southern Chile,” Nuñez told Variety.\n\nBest Chilean Director honors went to Thomas Woodroffe for his debut feature “Erratics” (“Bloques erráticos”), a subtle film that features French actor Denis Lavant. Lavant playing filmmaker Lucien Castelnau’s ghost who has been released from a glacier after a century into a futuristic Patagonia where technological advances collide with overlooked histories.\n\n“He’s definitely a director to watch, and someone whose approach to cinema we find very compelling,” said Nuñez.\n\nA tearful Paulina Garcia, accepting the Best Actress award for her role in “Love is the Monster” paid tribute to Lelio, displaying the Berlin Silver Bear statuette that she won for her performance in his 2013 drama, “Gloria.”\n\nAmong the international pics in competition, Paraguayan Marcelo Martinessi’s historical drama “Narciso” won Best Feature. Based on the eponymous novel by Guido Rodríguez Alcalá, it relates the story of a Paraguayan LGBT rock star who is found dead at the peak of his career. Through the prism of music and art, the drama explores facets of Asunción society during the dictatorship of Alfredo Stroessner.\n\n‘Narciso’ Courtesy of Sanfic\n\n“Martinessi is one of the most interesting filmmakers to emerge from Paraguay in recent years,” said Nuñez, adding: “We felt it was an important Latin American film to include, particularly given how little cinema is produced in Paraguay. Martinessi is one of the country’s most compelling voices, so the award felt thoroughly deserved.”\n\nThe Best Short recognition. from the 21 shorts in contention, went to Ariel Amor’s “Reina de Puerto,” set in Valparaiso where a 60-year-old trans woman forms a bond with young drifter.\n\nThe good news for the festival was that it saw a 10%-15% uptick in attendance, with final figures hovering between 35,000 to 40,000. “It’s been a very lively week, with filmmakers, cast members, actors and actresses introducing their films and meeting audiences. There’s been a real buzz around the festival, and we’ve seen packed cinemas,” said Nuñez.\n\nSanfic Industria Prizes\n\nMeanwhile, Sanfic Industria unveiled a slew of awards, mostly in kind, to its over 100 participants in a variety of sections.\n\nSanfic Mórbido Lab\n\nHonors at the genre project competition were split pretty evenly between three titles: folk horror/urban realism mix “Tonalli,” set in Mexico City’s hard-scrabble district of Tepito; the sadistic “The Hostess,” the return of extreme horror helmer Roberto San Sebastian and “L4IK4,” a 2D, stop motion and pixilation virtual world odyssey set in an alternate Cold War universe which marks the feature debut of rising Chilean animation star Simon Bucher. Most notably perhaps, “Tonalli” scored a co-production prize from co-organizer Mórbido.\n\nWIP Iberoamericana\n\nAt WIP Iberoamericana, Sanfic Industria’s industry centerpiece, bearing out buzz “Hot Springs,” the feature debut of DP-turned-helmer Armin Marchesini Weihmuller, took swept three prizes, including the only cash prize on offer.\n\nProduced by Argentina’s Gema Films, the film weighs in as a touching hybrid portrait of Evangelina and brother Luis, both over 80, vacationing briefly at a hot springs hotel spa – an affecting vision of old age, its infirmities, bedrock relationships and a resilient zest for life.\n\nThe sophomore outing of Yull Núñez, Indigenous eco-thriller “The Cry of Serankwa,” where a mining project in Colombia’s highest mountains confronts two former best friends, also scored a trio of awards.\n\nWIP Iberoamericana also served recognition to Fernando Lavanderos’ “The Grass Along the Path,” an engaging but bittersweet teen love story set in 1990 which, thanks to the repeated on screen interruptions of the film’s crew, works as meta reflection of how Chile and film viewing have changed in the last 36 years.\n\nSantiago Lab, Fiction and Documentary\n\nKudos spread wide with an Egeda cash prize going to Nicolas Acuña’s “Skin,” a custody battle three-way co-production from ‘Besieged’ producer Promocine.\n\nRita Hostt’s debut feature, a summer romance fantasy, took home the Syncro Fiction award towards its musical supervisión. The 1930-set historical drama “The Girl” (“La Niña”) from Sergio Castro San Martín and cancer survival documentary “La fragilidad de los cangrejos” won two awards each.\n\nHere are some Highlights:\n\nAlex de la Iglesia Talks About First Shoot in Chile\n\nSpain’s Alex de la Iglesia visited the festival to talk about his absurdist comedy “The Misunderstanding” (“El Malentendido”) pointing out that it was his first time to shoot in Chile and thanked the festival for bringing him over last year for a Masterclass where he met his Chilean producer, Pablo Díaz of Rio Estudios (“Hidden Island”). “Sanfic set everything in motion and made all of this possible,” he said. The farce, which blends the Marx Brothers’ sardonic humor with the existential anguish of a war film, will be shooting in Santiago and its environs for the next four weeks, starting Nov. 9. “The Misundertanding” stars Benjamin Vicuña, who Iglesia worked with on his upcoming Netflix pic “Felicidades” in Buenos Aires.\n\nGrupo Mórbido’s Pablo Guisa, Sitges’ Monica Garcia and Docs Mx’s Arizbeth Becerril Discuss Bringing Projects to a Global Audience\n\nAmong the most popular panels in the festival, its overriding theme was the need to bridge artistic ambition and commercial realities. Grupo Mórbido’s Pablo Guisa stressed that industry platforms must focus on getting films made, not simply moving projects from one lab to another. He said: “I’m not interested in being a cultural travel agent.” He argued that projects need both artistic value and commercial potential to lure financing.\n\nThe panelists also questioned the growing influence of streaming platforms and algorithms, whose decision-making processes remain largely opaque. Guisa encouraged filmmakers to trust their creative instincts rather than chase trends, while Arizbeth Becerril of DocsMX reminded the audience: “We don’t have a fucking clue” what the algorithm wants.\n\nDespite the evolving changes in viewing habits, festivals remain essential spaces for discovery, networking and collective experiences, they pointed out. Sitges Film Fest director general Mónica García underscored their ability to offer something streaming cannot replicate: “Visibility and legitimacy,” stressing the importance of the theatrical experience and the sense of community they create.\n\nCineplex Boards Two WIP Titles\n\nAmong the first pickups at Sanfic Industria, Latin American distributor Cineplex boarded two projects at Sanfic’s pix-in-post section, WIP Iberoamericana: Panama-set “La Residencia,” written, directed and produced by Mariel García Spooner (“Algo azul”), and Indigenous eco-thriller “The Cry of Serankwa” by Yull Nuñez, whose three awards in kind will help him complete his lauded project.\n\nCineplex picked up both North and South American sales rights to “La Residencia,” which Cineplex managing partner Diana Dudek said “has the potential to resonate with international audiences.” “We immediately connected with the story of these three friends who, at a more mature stage of their lives, decide to reinvent themselves and move forward together.”\n\nFor “The Cry of Serankwa,” to which Cineplex acquired Colombian and Latin American rights, they said: “We felt a strong connection to its story and its portrayal of the sacred territories of Colombia’s Iku, Wiwa and Kogui communities in the Sierra Nevada de Santa Marta.”\n\nSANFIC FESTIVAL WINNERS\n\nCHILEAN COMPETITION\n\nBest Film\n\n“Monguen,” (Antonio Caro, Lemuntu Producciones, Totem Producciones, Chile)\n\nBest Director\n\nThomas Woodroffe, (Erratics,” La Belle Affaire Productions, Un Puma, Chile, France, Argentina)\n\nBest Performance\n\nSofía Paloma Gómez, (“Black Corp,” Carolina Adriazola and José Luis Sepúlveda, Iglo Cine, Chile)\n\nBest Short\n\n“Reina de Puerto,” Ariel Amor\n\nSpecial Metnions, Shorts\n\n“Ruidos molestos,” Felipe Salinas Kraljevic\n\n“Que no te alcancen los lobos,” Josefa Berenguela Araya.\n\nINTERNATIONAL COMPETITION\n\nBest Film\n\n“Narciso” (Marcelo Martinessi, La Babosa Cine, Guay Films, Bocacha Films, Pandora Film Produktion, BTeam Prods, Oublaum Filmes, Esquina Filmes, La Fábrica Nocturna Cinéma, Paraguay, Uruguay, Germany, Spain, Portugal, Brazil, France)\n\nBest Director\n\n“Coward” (Lukas Dhont, The Reunion, Versus Production, Lumen, Topkapi Films, Belgium, France, Netherlands)\n\nSpecial Mention, Best Director\n\n“Ashes” (Diego Luna, Inicia Films, La Corriente del Golfo, Animal de Luz Films, Perro Azul, Mexico, Spain)\n\nBest Performance\n\n“Love Is the Monster” (Neto Villalobos Brenes, La Sucia Centroamericana Producciones, Cine Infinito, Expansiva Cine, Clara Films, Avalancha Studio, Liminal Estudio, Costa Rica, Peru, Panama, Chile, Mexico)\n\nSpecial Mention for Best Performance\n\n“Coward” (Emmanuel Macchia and Valentin Campagne, The Reunion, Versus Production, Lumen, Topkapi Films, Belgium, France, Netherlands)\n\nSANFIC INDUSTRIA WINNERS:\n\nWORK IN PROGRESS IBEROAMERICANO\n\nRio Foundation\n\n“Hot Springs” (“Las Termas,” Armin Marchesini Weihmuller, Argentina)\n\nYagan Films Prize“Zambra“ (Paula Leonvendagar, Invercine, Fundación Inversión Cultural (FINC), Chile)\n\nChemistry Post Production\n\n“Hot Springs” (“Las Termas,” Armin Marchesini Weihmuller, Argentina)\n\nScript Sounding\n\n“The Cry of Serankwa,” (“El grito de Serankwa,” Yull Núñez, Cinequipos Producciones, Colombia)\n\nMowat\n\n“The Cry of Serankwa,” (“El grito de Serankwa,” Yull Núñez, Cinequipos Producciones, Colombia)\n\nMalaga Work In Progress, Mafiz\n\n“The Cry of Serankwa,” (“El grito de Serankwa,” Yull Núñez, Cinequipos Producciones, Colombia)\n\nLatAm Cinema\n\n“Hot Springs” (“Las Termas,” Armin Marchesini Weihmuller, Argentina)\n\nSANTIAGO LAB WINNERS: FICTION & DOCUMENTARY\n\nEGEDA Chile\n\n“Skin” (“Piel,” Nicolás Acuña, Promocine, Campocine, 3 Tabela Filmes, Chile, Argentina, Brazil)\n\nSYNCRO Fiction\n\n“Dedé,” (Rita Hostt, Oh My Gómez, Besos Contenidos, Argentina, Uruguay)\n\nSYNCRO Documentary\n\n“Cronica del oblivion,” Daniela de la Vega, Pulpo Films, Argentina\n\nMarketing Movie Runner\n\n“The Girl” (“La niña ) (Fiction) and “La fragilidad de loscangrejos “(Documentary)\n\nPablo Mondragón Music\n\n“The Girl” (“La niña ) (Fiction) and “La fragilidad de los cangrejos” (Documentary)\n\nMÓRBIDO LAB\n\nCoProduction\n\n“Tonalli,” (Jesus “Chiva” Rodriguez, Tirando Terror, Mexico)\n\nFantastic Pavilion Cannes\n\n“The Hostess,” (“La Anfitriona,” Roberto San Sebastián, Monndo,CSC Films, Plátanobolígrafo, Spain)\n\nFantastic Pavilion Cannes, Round Table Participation\n\n“L4IK4,” (Simón Bucher, Raimundo Bucher, La Mazmorra Studio, Chile)\n\nScriptSounding\n\n“Chupacu” (Antonia Baudouin, Carneiro VerdeFilmes, Brazil)\n\nMarketing Movie Runner\n\n“Spring Curse,” (“Maldición en primavera,” Pablo Vergara, Coruya Cine, Argentina)\n\n“The Hostess,” (“La Anfitriona,” Roberto San Sebastián, Monndo,CSC Films, Plátanobolígrafo, Spain)\n\nFIPCA – FORMA\n\n“The Hostess,” (“La Anfitriona,” Roberto San Sebastián, Monndo,CSC Films, Plátanobolígrafo, Spain)\n\n“L4IK4,” (Simón Bucher, Raimundo Bucher, La Mazmorra Studio, Chile)\n\nCali Film Festival 2027 Participation\n\n“Tonalli,” (Jesus “Chiva” Rodriguez, Tirando Terror, Mexico)\n\nFANTASTIC WIP\n\nSouth American Voices\n\n“Viviendo con los muertos” (Nicolás Zukerfeld, Matías Rivera Bacile, Corazón Producción, Argentina)\n\nManticora Distribución MX Award\n\n“Ruta al sol” (Jorge Leyva, Lilia Velazco, La Tuerca Films, Mexico)\n\nFantastic Pavilion – Fantastic Gala Award\n\n“Ruta al sol” (Jorge Leyva, Lilia Velazco, La Tuerca Films, Mexico).\n\nMórbido Fest Award – Direct Pass\n\n“Hiena” (Manuel Rodríguez, Panda Rojo Media, Mexico).\n\nSoundLab – Fantastic WIP\n\n“Extinción” (Frank Benitez Peña, Gustavo Espindola, Negrita Films, Colombia)\n\nWOMAN IN FAN\n\nCartagena de Indias Award – Woman in Fan LAB\n\n“Carnivora” (Julieta Morales, Ratelier, Chile).\n\nSERIES\n\nSeries Mania Award – Series Lab\n\n“The Wrath of the Butterflies” (“La ira de las mariposas”) (Erica Rozek, Luciana Lacorazza, Mil Grullas Cine, Argentina)\n\nConecta Fiction & Entertainment Award – Series Lab\n\n“I’ll Be There” (“Asistiré,” Mercedes Córdova, Florencia Percia, Valeria Forster, Brava Cine, Argentina)",
-      "images": [
-        {
-          "url": "https://variety.com/wp-content/uploads/2026/11/Monguen_Still-3-Mariella-Chavez.jpg?w=1000&h=563&crop=1",
-          "alt": ""
-        },
-        {
-          "url": "https://variety.com/wp-content/uploads/2026/11/Narciso-2.jpg",
-          "alt": ""
-        }
-      ],
-      "length": 14300,
-      "imageCount": 2
-    },
-    "7uzzp1": {
-      "version": 4,
-      "url": "https://gamingbolt.com/marvels-spider-man-series-sales-approximately-doubled-year-on-year-after-brand-new-day",
-      "fetchedAt": "2026-11-08T19:37:36.724Z",
-      "title": "Marvel’s Spider-Man Series Sales “Approximately” Doubled Year-on-Year After Brand New Day",
-      "byline": "Ravi Sinha",
-      "siteName": "GamingBolt",
-      "content": "Marvel’s Wolverine may not be living up to many fans’ expectations, with 2.4 million sold in almost two months, but Insomniac’s Spider-Man franchise has a new lease of life, thanks to Spider-Man: Brand New Day. The latter was released in theaters on July 30th, and for the fiscal quarter ending September 30th, Sony confirms that it led to unit sales for the games approximately doubling year-on-year. This includes Marvel’s Spider-Man 1 and 2 along with Marvel’s Spider-Man: Miles Morales. Sony didn’t reveal the quarterly sales in question, but it’s still impressive. After all, the first game launched in 2018, followed by Miles Morales in 2020 and Spider-Man 2 in 2023. All three were released on PC before the company reversed course on bringing its major single-player titles to the platform. Though there have been plenty of hints that Insomniac is working on a Wolverine sequel, including one that could include multiple playable X-Men, it wouldn’t be surprising if it’s prioritizing the next mainline Spider-Man title. Insomniac’s ransomware leaks indicated a 2028 release, but it also claimed the long-rumored Marvel’s Venom would launch in 2025. The latter is still reportedly in the works, so don’t be surprised if it pops up soon. Stay tuned for more updates in the meantime.",
-      "images": [
-        {
-          "url": "https://gamingbolt.com/wp-content/uploads/2023/07/marvels-spider-man-2-scaled.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://gamingbolt.com/wp-content/uploads/2023/07/marvels-spider-man-2-2048x1152.jpg",
-          "alt": "marvel's spider-man 2"
-        }
-      ],
-      "length": 1288,
       "imageCount": 2
     }
   }
