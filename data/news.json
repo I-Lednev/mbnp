@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-09T06:22:20.967Z",
-  "tookMs": 9087,
+  "generatedAt": "2026-11-09T06:52:25.920Z",
+  "tookMs": 11080,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -24,26 +24,26 @@
     "war": "Война"
   },
   "counts": {
-    "ai": 152,
-    "games": 185,
+    "ai": 155,
+    "games": 191,
     "announces": 20,
     "mobile": 10,
     "releases": 35,
     "rumors": 17,
     "software": 40,
     "science": 89,
-    "entertainment": 292,
-    "ports": 189,
+    "entertainment": 294,
+    "ports": 191,
     "pc": 61,
-    "consoles": 145,
+    "consoles": 146,
     "hardware": 56,
     "industry": 39,
     "updates": 21,
     "aimods": 3,
     "aisoft": 62,
-    "cars": 185,
-    "war": 171,
-    "total": 1772
+    "cars": 187,
+    "war": 173,
+    "total": 1790
   },
   "sourceCount": 89,
   "sources": [
@@ -673,6 +673,12 @@
   ],
   "errors": [
     {
+      "source": "Nature",
+      "url": "https://www.nature.com/nature.rss",
+      "error": "ответ не похож на RSS/Atom",
+      "reused": 10
+    },
+    {
       "source": "r/emulation",
       "url": "https://www.reddit.com/r/emulation/new/.rss",
       "error": "HTTP 429",
@@ -690,12 +696,363 @@
       "reused": 1
     },
     {
+      "source": "Radio Svoboda",
+      "url": "https://www.radiosvoboda.org/api/zrqiteuuir",
+      "error": "лента пуста",
+      "reused": 6
+    },
+    {
       "source": "Novaya Gazeta Europe",
       "url": "https://novayagazeta.eu/feed/",
       "error": "HTTP 521"
     }
   ],
   "items": [
+    {
+      "id": "gh-1431760220",
+      "title": "PateeerQ/FreedomUniteRecomp: AI Driven Project to Port Monster Hunter Freedom Unite Natively on PC and Android",
+      "url": "https://github.com/PateeerQ/FreedomUniteRecomp",
+      "excerpt": "AI Driven Project to Port Monster Hunter Freedom Unite Natively on PC and Android",
+      "image": "",
+      "publishedAt": "2026-11-09T06:45:34Z",
+      "addedAt": "2026-11-09T06:52:19.593Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1126491388",
+      "title": "doom-cross-port-collab/id24: The ID24 specification, documentation and resources",
+      "url": "https://github.com/doom-cross-port-collab/id24",
+      "excerpt": "The ID24 specification, documentation and resources",
+      "image": "",
+      "publishedAt": "2026-11-09T06:49:33Z",
+      "addedAt": "2026-11-09T06:52:19.016Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "5k4nzi",
+      "title": "Как спланировать инфраструктурную задачу и не сломать мозг: разбор на примере деплоя в AWS",
+      "url": "https://habr.com/ru/articles/1089206/",
+      "excerpt": "Задача звучит в одну строку: «развернуть новый веб-сервис в AWS и сделать джобы для деплоя». Внутри неё — сеть, контейнеры, база, секреты, CDN, два workflow и десятки мелких действий, которые инженер обычно держит в голове. Пока всё идёт по плану, это…",
+      "content": "Задача звучит в одну строку: «развернуть новый веб-сервис в AWS и сделать джобы для деплоя». Внутри неё — сеть, контейнеры, база, секреты, CDN, два workflow и десятки мелких действий, которые инженер обычно держит в голове. Пока всё идёт по плану, это работает. Но стоит отвлечься на созвон, и уже непонятно, проверили ли вы security group, а на вопрос «сколько займёт» остаётся честный ответ «день-два». В статье разберу, как опытный инженер раскладывает такую задачу на этапы, действия, проверки и откат, где этот процесс ломается и как заставить агента , от git clone до открытого в браузере сайта.\n\nЧитать далее",
+      "image": "https://habrastorage.org/getpro/habr/upload_files/abe/0b6/e11/abe0b6e11df3d4c24b13acf33aa24784.jpg",
+      "images": [
+        {
+          "url": "https://habrastorage.org/getpro/habr/upload_files/abe/0b6/e11/abe0b6e11df3d4c24b13acf33aa24784.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T06:50:52.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-09T06:52:14.840Z"
+    },
+    {
+      "id": "17we1iq",
+      "title": "Gran Turismo 6 адаптировали для ПК: 4K, 60 FPS, поддержка рулей, модов, LAN и онлайна",
+      "url": "https://www.playground.ru/gt_6/news/gran_turismo_6_adaptirovali_dlya_pk_4k_60_fps_podderzhka_rulej_modov_lan_i_onlajna-1889002",
+      "excerpt": "Энтузиаст под ником Mabec представил Gran Turismo 6 PC - специальную сборку эмулятора RPCS3, предназначенную для запуска гоночного симулятора с PlayStation 3 на компьютерах под управлением Windows и Linux. Проект предлагает упрощённую установку, улучшенную…",
+      "content": "Энтузиаст под ником Mabec представил Gran Turismo 6 PC - специальную сборку эмулятора RPCS3, предназначенную для запуска гоночного симулятора с PlayStation 3 на компьютерах под управлением Windows и Linux. Проект предлагает упрощённую установку, улучшенную графику...",
+      "image": "https://i.playground.ru/e/F-a3PDoznhXaJ0Ho2R44_w.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/F-a3PDoznhXaJ0Ho2R44_w.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T06:49:34.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-09T06:52:14.840Z"
+    },
+    {
+      "id": "1oznmco",
+      "title": "The Mustang Shelby GT350 Is Coming Back With An NA V8 And A Manual: Report",
+      "url": "https://www.motor1.com/news/814784/mustang-shelby-gt350-return-report/",
+      "excerpt": "It's expected to arrive in 2027 with over 600 horsepower.",
+      "content": "It's expected to arrive in 2027 with over 600 horsepower.",
+      "image": "https://cdn.motor1.com/images/mgl/XBbY42/s3/2026-ford-mustang-dark-horse-sc-first-drive-review.jpg",
+      "images": [
+        {
+          "url": "https://cdn.motor1.com/images/mgl/XBbY42/s3/2026-ford-mustang-dark-horse-sc-first-drive-review.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T06:46:02.000Z",
+      "sourceId": "motor1",
+      "source": "Motor1",
+      "category": "cars",
+      "lang": "en",
+      "addedAt": "2026-11-09T06:52:14.840Z"
+    },
+    {
+      "id": "a605ip",
+      "title": "В Steam набирает популярность криминальный боевик ROB RUN с войнами кланов - игра собрала 140 тысяч игроков",
+      "url": "https://www.playground.ru/rob_run/news/v_steam_nabiraet_populyarnost_kriminalnyj_boevik_rob_run_s_vojnami_klanov_igra_sobrala_140_tysyach_igrokov-1889001",
+      "excerpt": "В магазине Steam, кажется, появился новый инди-хит. Многопользовательская криминальная песочница ROB RUN в первые же выходные после появления в раннем доступе привлекла огромную аудиторию. Согласно данным SteamDB, пиковый онлайн проекта достиг 140 440…",
+      "content": "В магазине Steam, кажется, появился новый инди-хит. Многопользовательская криминальная песочница ROB RUN в первые же выходные после появления в раннем доступе привлекла огромную аудиторию. Согласно данным SteamDB, пиковый онлайн проекта достиг 140 440 одновременных пользователей...",
+      "image": "https://i.playground.ru/e/9kf2h3bYHmg1DCjzegoQDQ.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/9kf2h3bYHmg1DCjzegoQDQ.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T06:43:57.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-09T06:52:14.840Z"
+    },
+    {
+      "id": "r57oj6",
+      "title": "Большой обзор T3 Code: убийца Claude Desktop и Codex Desktop?",
+      "url": "https://habr.com/ru/articles/1105274/",
+      "excerpt": "На прошлой неделе тебя забанили в Cursor, на этой неделе в Claude. Завтра, быть может, очередь дойдёт и до Codex. Каждый раз переезжать в новое окружение, привыкать к интерфейсу и переносить контекст не очень приятно. А иногда хочется просто пользоваться…",
+      "content": "На прошлой неделе тебя забанили в Cursor, на этой неделе в Claude. Завтра, быть может, очередь дойдёт и до Codex. Каждый раз переезжать в новое окружение, привыкать к интерфейсу и переносить контекст не очень приятно. А иногда хочется просто пользоваться несколькими подписками в одном месте и выбирать агента под задачу.\n\nT3 Code собирает разных агентов в одном бесплатном приложении с открытым исходным кодом. Им можно поручать общие задачи, а следить за работой с компьютера или телефона.\n\nПроект делает команда Тео, разработчика и автора канала t3.gg . Первые месяцы T3 Code уступал приложениям OpenAI и Anthropic: подписки уже можно было собрать вместе, но \"фичи\" интерфейса приходилось терпеть. Затем команда взялась за то, чего ей самой не хватало в работе. Появились организация задач, удалённый доступ и взаимодействие агентов.\n\nСейчас у репозитория больше 51 тысячи звёзд.\n\nЧитать далее",
+      "image": "https://habrastorage.org/extt/5f/3a/15/5f3a15a80ad19db6b03c0b31bf51a023.jpg",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/5f/3a/15/5f3a15a80ad19db6b03c0b31bf51a023.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T06:42:59.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-09T06:52:14.840Z"
+    },
+    {
+      "id": "272wxd",
+      "title": "Вышел мод для Cyberpunk 2077, который делает Найт-Сити более \"живым\"",
+      "url": "https://www.playground.ru/cyberpunk_2077/news/vyshel_mod_dlya_cyberpunk_2077_kotoryj_delaet_najt_siti_bolee_zhivym-1889000",
+      "excerpt": "Для Cyberpunk 2077 вышло большое бесплатное дополнение, которое расширяет возможности взаимодействия с жителями Найт-Сити: теперь можно нанимать NPC в качестве союзников, вызывать случайных прохожих на бой или даже провоцировать столкновения с полицией.",
+      "content": "Для Cyberpunk 2077 вышло большое бесплатное дополнение, которое расширяет возможности взаимодействия с жителями Найт-Сити: теперь можно нанимать NPC в качестве союзников, вызывать случайных прохожих на бой или даже провоцировать столкновения с полицией.",
+      "image": "https://i.playground.ru/e/qQKkPqYHTCKvElrbCePfXA.webp",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/qQKkPqYHTCKvElrbCePfXA.webp",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T06:40:55.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-09T06:52:14.840Z"
+    },
+    {
+      "id": "rn4w01",
+      "title": "Lamborghini Creates Two One-Off Revuelto Supercars With A Distinctly Saudi Arabian Twist",
+      "url": "https://www.motor1.com/news/814786/lamborghini-revuelto-personam-saudi-desert/",
+      "excerpt": "Two Ad Personam KSA Edition Lamborghini Revuelto commissions share 1,015 horsepower hardware but diverge in paintwork, textures, and Arabic heritage details.",
+      "content": "Two Ad Personam KSA Edition Lamborghini Revuelto commissions share 1,015 horsepower hardware but diverge in paintwork, textures, and Arabic heritage details.",
+      "image": "https://cdn.motor1.com/images/mgl/0ep0B2/s3/lamborghini-revuelto-ad-personam-ksa-edition.jpg",
+      "images": [
+        {
+          "url": "https://cdn.motor1.com/images/mgl/0ep0B2/s3/lamborghini-revuelto-ad-personam-ksa-edition.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T06:40:21.000Z",
+      "sourceId": "motor1",
+      "source": "Motor1",
+      "category": "cars",
+      "lang": "en",
+      "addedAt": "2026-11-09T06:52:14.840Z"
+    },
+    {
+      "id": "ncuv2u",
+      "title": "В базе данных PSN нашли свежую информацию о версии GTA 6 на релизе - точный размер и системные функции PS5",
+      "url": "https://www.playground.ru/gta_6/news/v_baze_dannyh_psn_nashli_svezhuyu_informatsiyu_o_versii_gta_6_na_relize_tochnyj_razmer_i_sistemnye_funktsii_ps5-1888997",
+      "excerpt": "Авторитетный инсайдер под ником PlayStation Game Size, отслеживающий изменения в базе данных PlayStation Network, обнаружил свежие технические данные о релизной версии Grand Theft Auto 6. Хотя о внушительных требованиях боевика к свободному месту в 220...",
+      "content": "Авторитетный инсайдер под ником PlayStation Game Size, отслеживающий изменения в базе данных PlayStation Network, обнаружил свежие технические данные о релизной версии Grand Theft Auto 6. Хотя о внушительных требованиях боевика к свободному месту в 220...",
+      "image": "https://i.playground.ru/e/5h34A7dzwjnMHk9RlBa-TQ.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/5h34A7dzwjnMHk9RlBa-TQ.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T06:34:11.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-09T06:52:14.840Z"
+    },
+    {
+      "id": "15ghc7t",
+      "title": "Авторы Star Wars: Galactic Racer не собираются анонсировать обновления до того, пока не будут в них уверены",
+      "url": "https://dtf.ru/games/5401172-avtory-star-wars-galactic-racer-ne-sobirayutsya-anonsirovat-obnovleniya-do-togo-poka-ne-budut-v-nih-uvereny",
+      "excerpt": "Однако работа не стоит на месте.",
+      "content": "Однако работа не стоит на месте.",
+      "image": "https://leonardo.osnova.io/5d24335c-2d5a-5829-b8cb-a519b1f936f1/",
+      "images": [
+        {
+          "url": "https://leonardo.osnova.io/5d24335c-2d5a-5829-b8cb-a519b1f936f1/",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T06:33:49.000Z",
+      "sourceId": "dtf",
+      "source": "DTF",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-09T06:52:14.840Z"
+    },
+    {
+      "id": "12fvlwb",
+      "title": "На фронті за добу - 140 боєзіткнень, ворог атакував на семи напрямках",
+      "url": "https://www.ukrinform.ua/rubric-ato/4182783-na-fronti-za-dobu-140-boezitknen-vorog-atakuvav-na-semi-napramkah.html",
+      "excerpt": "На фронті минулої доби, 8 листопада, були зафіксовані 140 бойових зіткнень Сил оборони України з російськими загарбниками. Найбільше ворог атакував на Покровському та Костянтинівському напрямках.",
+      "content": "На фронті минулої доби, 8 листопада, були зафіксовані 140 бойових зіткнень Сил оборони України з російськими загарбниками. Найбільше ворог атакував на Покровському та Костянтинівському напрямках.",
+      "image": "https://static.ukrinform.com/photos/2022_12/thumb_files/630_360_1672160426-405.jpg",
+      "images": [
+        {
+          "url": "https://static.ukrinform.com/photos/2022_12/thumb_files/630_360_1672160426-405.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T06:32:21.000Z",
+      "sourceId": "ukrinform",
+      "source": "Ukrinform",
+      "category": "war",
+      "lang": "uk",
+      "addedAt": "2026-11-09T06:52:14.840Z"
+    },
+    {
+      "id": "11r00du",
+      "title": "Tate McRae and Doechii Choreographer Robbie Blue Among World Choreography Award Winners",
+      "url": "https://variety.com/2026/artisans/news/tate-mcrae-doechii-choreographer-world-choreography-award-1236941799/",
+      "excerpt": "Robbie Blue, the choreographer for pop and rap stars Tate McRae and Doechii, took home three World Choreography Awards at the 2026 ceremony. He and his associates were recognized for the intricate moves of McRae’s “Saturday Night Live” dance and Doechii’s…",
+      "content": "Robbie Blue, the choreographer for pop and rap stars Tate McRae and Doechii, took home three World Choreography Awards at the 2026 ceremony. He and his associates were recognized for the intricate moves of McRae’s “Saturday Night Live” dance and Doechii’s electric 67th Grammys performance. The 16th annual ceremony took place Nov. 8 at the […]",
+      "image": "https://variety.com/wp-content/uploads/2025/12/GF2_1273.jpg",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2025/12/GF2_1273.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T06:30:00.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-09T06:52:14.840Z"
+    },
+    {
+      "id": "szsvt1",
+      "title": "Трамп заявил, что после завершения войны Украина «примет немного другую форму»",
+      "url": "https://meduza.io/news/2026/11/09/tramp-zayavil-chto-posle-zaversheniya-voyny-ukraina-primet-nemnogo-druguyu-formu",
+      "excerpt": "Главным препятствием для завершения российско-украинской войны стала ненависть между Владимиром Путиным и Владимиром Зеленским, заявил президент США Дональд Трамп в интервью программе «60 Minutes» на CBS. На вопрос, кому из двух президентов он доверяет…",
+      "content": "Главным препятствием для завершения российско-украинской войны стала ненависть между Владимиром Путиным и Владимиром Зеленским, заявил президент США Дональд Трамп в интервью программе «60 Minutes» на CBS. \n\nНа вопрос, кому из двух президентов он доверяет больше, Трамп ответил: «Я бы предпочел не говорить об этом, но у меня хорошие отношения с обоими. Я верю, что эта война закончится и закончится скоро. И единственная причина, по которой она закончится — это благодаря мне. Между президентом Путиным и президентом Зеленским существует огромная ненависть». \n\nПо его словам, во время первой встречи Путина и Зеленского по отношению к России «проявили большое неуважение». Он не пояснил, что имеет в виду. \n\nТрамп считает, что война скоро будет завершена, но по ее итогам Украина «будет иметь немного другую форму». \n\nPresident Trump says he believes the war in Ukraine will end soon, adding that ultimately there could be changes to the country’s borders: “They're going to end up with a little bit different shape Ukraine.” https://t.co/KL9y0GUqWo pic.twitter.com/UgeoxsRnQy\n\n— 60 Minutes (@60Minutes) November 9, 2026\n\nДональд Трамп 5 ноября объявил , что ждет «большую прекрасную сделку» по Украине, которая «может затронуть вообще всю Европу». Никаких подробностей он не привел, заявив только, что «все будут просто в восторге». В Европе опасаются , что соглашение с Россией могут заключить в ущерб безопасности региона, и выступают против того, чтобы в рамках мирных переговоров по Украине обсуждали вопросы, касающиеся всего континента\n\n10-11 ноября в Абу-Даби пройдут трехсторонние переговоры России, Украины и США.\n\nЧитайте также\n\n• Война 1718-й день. Заявление Трампа о «большой прекрасной сделке» с Россией застало Европу врасплох. Европейские лидеры опасаются, что Москва лишь выиграет время для ударов",
+      "image": "https://meduza.io/imgly/share/1794205702/news/2026/11/09/tramp-zayavil-chto-posle-zaversheniya-voyny-ukraina-primet-nemnogo-druguyu-formu",
+      "images": [
+        {
+          "url": "https://meduza.io/imgly/share/1794205702/news/2026/11/09/tramp-zayavil-chto-posle-zaversheniya-voyny-ukraina-primet-nemnogo-druguyu-formu",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T06:28:22.000Z",
+      "sourceId": "meduza",
+      "source": "Meduza",
+      "category": "war",
+      "lang": "ru",
+      "addedAt": "2026-11-09T06:52:14.840Z"
+    },
+    {
+      "id": "ubyw32",
+      "title": "Как передать задачу от одного AI-агента другому и не потерять контекст",
+      "url": "https://habr.com/ru/articles/1105018/",
+      "excerpt": "Начать задачу с одним агентом, а продолжить с другим кажется простым делом. Можно скопировать последнее сообщение и отправить его новому агенту. Но в последнем ответе не обязательно есть цель задачи, принятые решения и список файлов, с которыми уже работали…",
+      "content": "Начать задачу с одним агентом, а продолжить с другим кажется простым делом. Можно скопировать последнее сообщение и отправить его новому агенту. Но в последнем ответе не обязательно есть цель задачи, принятые решения и список файлов, с которыми уже работали. Эти сведения остались в переписке, которую второй агент не видит.\n\nВ agent-hub я добавил для этого команду /handoff . Приложение запускает агентов на компьютере и позволяет работать с ними через темы Telegram-группы. Команда просит текущего агента составить сводку, показывает ее пользователю и после подтверждения запускает другого агента в новой теме.\n\nНа этот раз расскажу про передачу задачи: почему я остановился на сводке, что именно получает новый агент и какие проблемы возникли с подтверждением и созданием темы.\n\nЧитать далее",
+      "image": "https://habrastorage.org/extt/9f/fa/f5/9ffaf5afaddb4869a9e5902e81a926c5.jpg",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/9f/fa/f5/9ffaf5afaddb4869a9e5902e81a926c5.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T06:26:39.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-09T06:52:14.840Z"
+    },
+    {
+      "id": "nll0c0",
+      "title": "Genshin Impact уступила Wuthering Waves в октябрьском рейтинге гача-игр - доход упал почти вдвое",
+      "url": "https://www.playground.ru/wuthering_waves/news/genshin_impact_ustupila_wuthering_waves_v_oktyabrskom_rejtinge_gacha_igr_dohod_upal_pochti_vdvoe-1888995",
+      "excerpt": "Опубликованы оценки доходов мобильных гача-игр за октябрь 2026 года. Одним из главных изменений стало падение выручки Genshin Impact: проект HoYoverse заработал около 26 миллионов долларов против 50,23 миллиона в сентябре. Это позволило игре сохранить место...",
+      "content": "Опубликованы оценки доходов мобильных гача-игр за октябрь 2026 года. Одним из главных изменений стало падение выручки Genshin Impact: проект HoYoverse заработал около 26 миллионов долларов против 50,23 миллиона в сентябре. Это позволило игре сохранить место...",
+      "image": "https://i.playground.ru/e/rCNDQfW5kkoh0YX5UgUWLQ.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/rCNDQfW5kkoh0YX5UgUWLQ.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T06:26:06.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-09T06:52:14.840Z"
+    },
+    {
+      "id": "1ssfb8o",
+      "title": "Рецензия на мюзикл «Всё будет Челентано»: Nostalgia canaglia",
+      "url": "https://www.intermedia.ru/news/407899",
+      "excerpt": "Оценка: 8 из 10.Премьера мюзикла компании «Бродвей Москва» «Всё будет Челентано» (режиссёр-постановщик Нина Чусова) состоялась в театре...",
+      "content": "Оценка: 8 из 10.Премьера мюзикла компании «Бродвей Москва» «Всё будет Челентано» (режиссёр-постановщик Нина Чусова) состоялась в театре...",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-09T06:24:00.000Z",
+      "sourceId": "intermedia",
+      "source": "InterMedia",
+      "category": "entertainment",
+      "lang": "ru",
+      "addedAt": "2026-11-09T06:52:14.840Z"
+    },
+    {
+      "id": "13wx2gg",
+      "title": "Famitsu’s most wanted games – November 8, 2026 – Pokemon Winds / Waves on top following Zelda launch",
+      "url": "https://nintendoeverything.com/famitsus-most-wanted-games-november-8-2026/",
+      "excerpt": "It’s time for the latest Famitsu’s most wanted games chart outlining what Japanese gamers are looking forward to based on reader votes. This is for the week of November 8, 2026. The Legend of Zelda: Ocarina of Time had been #1 for a number of weeks, but the…",
+      "content": "It’s time for the latest Famitsu’s most wanted games chart outlining what Japanese gamers are looking forward to based on reader votes. This is for the week of November 8, 2026. The Legend of Zelda: Ocarina of Time had been #1 for a number of weeks, but the game has now launched. Following its release, Pokemon Winds and Waves are...\n\nNintendo Everything .",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Winds-Waves-2-150x84.jpg",
+      "images": [
+        {
+          "url": "https://nintendoeverything.com/wp-content/uploads/Winds-Waves-2-150x84.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://nintendoeverything.com/wp-content/uploads/Winds-Waves-2.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T04:50:45.000Z",
+      "sourceId": "nintendoeverything",
+      "source": "Nintendo Everything",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-09T06:52:14.840Z"
+    },
     {
       "id": "gh-1292780884",
       "title": "SirStig/NovaSwift: NovaSwift — an unofficial, faithful port of Escape Velocity Nova. Native Swift app for macOS, iOS, iPadOS and tvOS, plus a Godot build for Linux, Steam Deck and Windows. Bring your own game data.",
@@ -742,7 +1099,7 @@
           "alt": ""
         }
       ],
-      "publishedAt": "2026-11-09T06:17:16.000Z",
+      "publishedAt": "2026-11-09T06:17:00.000Z",
       "sourceId": "ukrinform",
       "source": "Ukrinform",
       "category": "war",
@@ -1047,8 +1404,8 @@
       "id": "1ipny4i",
       "title": "Другий за потужністю НПЗ у Росії атакували дрони: виникла пожежа",
       "url": "https://www.pravda.com.ua/news/2026/11/09/8061870/",
-      "excerpt": "Вночі 9 листопада безпілотники атакували \"Кіришінефтеоргсинтез\" у місті Кіриші Ленінградській області РФ – другий за потужністю НПЗ у Росії, який перебуває під міжнародними санкціями. Джерело: українські моніторингові Telegram-канали Exilenova+ , Dnipro Osint…",
-      "content": "Вночі 9 листопада безпілотники атакували \"Кіришінефтеоргсинтез\" у місті Кіриші Ленінградській області РФ – другий за потужністю НПЗ у Росії, який перебуває під міжнародними санкціями.\n\nДжерело: українські моніторингові Telegram-канали Exilenova+ , Dnipro Osint , Supernova+ , російське медіа ASTRA , губернатор Ленінградської області РФ Олександр Дрозденко\n\nДослівно ASTRA: \" У Ленінградській області горить Кіришський НПЗ на фоні атаки БпЛА. Це ключовий постачальник палива для Петербурга й авіаційного гасу для аеропорту Пулково\".\n\nДеталі: OSINT-аналітик ASTRA, вивчивши відео з Кіришів, підтвердив, що горить місцевий НПЗ. Дрозденко також повідомив, що протягом ночі над регіоном збили 113 БпЛА.\n\nПопередньо, внаслідок атаки загорілася одна з установок первиної переробки нафти \"ЕЛОУ-АВТ-2\", а також уражені установки \"ЕЛОУ-АВТ-6\" та \"ЕЛОУ-АТ-6\".\n\nРозташоване не далеко від Санкт-Петербургу підприємство входить до групи \"Сургутнафтогаз\" і має важливе значення для забезпечення нафтопродуктами Північного Заходу Росії.\n\nПроєктна потужність НПЗ становить близько 20-21 млн тонн нафти на рік. Завод виробляє бензин, дизельне паливо, авіаційний гас, мазут, бітум, скраплений газ і нафтохімічну продукцію.\n\nУ 2025 році США ввели санкції проти \"Сургутнафтогазу\" та пов'язаних з ним структур, зокрема й Кіришського НПЗ. Також санкції на компанію наклали ЄС і Велика Британія.\n\nПередісторія:\n\n•\nРаніше завод уже неодноразово зазнавав атак безпілотників. Зокрема, після обстрілу в березні НПЗ повністю зупиняв роботу.\n\n•\nВостаннє Сили оборони атакували підприємство в серпні.",
+      "excerpt": "Вночі 9 листопада безпілотники атакували \"Кіришінафтооргсинтез\" у місті Кіриші Ленінградській області РФ – другий за потужністю НПЗ у Росії, який перебуває під міжнародними санкціями. Джерело: українські моніторингові Telegram-канали Exilenova+ , Dnipro Osint…",
+      "content": "Вночі 9 листопада безпілотники атакували \"Кіришінафтооргсинтез\" у місті Кіриші Ленінградській області РФ – другий за потужністю НПЗ у Росії, який перебуває під міжнародними санкціями.\n\nДжерело: українські моніторингові Telegram-канали Exilenova+ , Dnipro Osint , Supernova+ , російське медіа ASTRA , губернатор Ленінградської області РФ Олександр Дрозденко\n\nДослівно ASTRA: \" У Ленінградській області горить Кіришський НПЗ на фоні атаки БпЛА. Це ключовий постачальник палива для Петербурга й авіаційного гасу для аеропорту Пулково\".\n\nДеталі: OSINT-аналітик ASTRA, вивчивши відео з Кіришів, підтвердив, що горить саме місцевий НПЗ. Дрозденко теж повідомив, що протягом ночі над регіоном збили 113 БпЛА.\n\nПопередньо, внаслідок атаки на заводі загорілася одна з установок первиної переробки нафти \"ЕЛОУ-АВТ-2\", а також уражені установки \"ЕЛОУ-АВТ-6\" та \"ЕЛОУ-АТ-6\".\n\nРозташоване не далеко від Санкт-Петербургу підприємство входить до групи \"Сургутнафтогаз\" і має важливе значення для забезпечення нафтопродуктами Північного Заходу Росії.\n\nПроєктна потужність НПЗ становить близько 20-21 млн тонн нафти на рік. Завод виробляє бензин, дизельне паливо, авіаційний гас, мазут, бітум, скраплений газ і нафтохімічну продукцію.\n\nУ 2025 році США ввели санкції проти \"Сургутнафтогазу\" та пов'язаних з ним структур, зокрема й Кіришського НПЗ. Також санкції на компанію наклали ЄС і Велика Британія.\n\nПередісторія:\n\n•\nРаніше завод уже неодноразово зазнавав атак безпілотників. Зокрема, після обстрілу в березні НПЗ повністю зупиняв роботу.\n\n•\nВостаннє Сили оборони атакували підприємство в серпні.",
       "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/f/f/953068/ffacd803404bcf035c373b087ddc580f.jpeg",
       "images": [
         {
@@ -1343,7 +1700,7 @@
       "url": "https://github.com/wireproof/Tiberian-Dawn",
       "excerpt": "Unofficial Tiberian Dawn port for iPhone and iPad with touch controls, Remastered graphics, Mod Workshop, and iCloud saves",
       "image": "",
-      "publishedAt": "2026-11-09T06:08:13Z",
+      "publishedAt": "2026-11-09T06:49:25Z",
       "addedAt": "2026-11-09T05:22:17.864Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -1661,8 +2018,8 @@
       "id": "18bdlbp",
       "title": "I'm not convinced the AI bubble exists",
       "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html",
-      "excerpt": "Article URL: https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists Comments URL: https://news.ycombinator.com/item?id=50418975 Points: 142 # Comments: 201",
-      "content": "Article URL: https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists\n\nComments URL: https://news.ycombinator.com/item?id=50418975\n\nPoints: 142\n\n# Comments: 201",
+      "excerpt": "Article URL: https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists Comments URL: https://news.ycombinator.com/item?id=50418975 Points: 160 # Comments: 213",
+      "content": "Article URL: https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists\n\nComments URL: https://news.ycombinator.com/item?id=50418975\n\nPoints: 160\n\n# Comments: 213",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T23:44:36.000Z",
@@ -1875,6 +2232,19 @@
       "addedAt": "2026-11-09T04:52:16.174Z"
     },
     {
+      "id": "gh-1402612798",
+      "title": "thefixinhixon/SplosionManRecomp: Native Linux & Windows ports of 'Splosion Man (Xbox 360 XBLA) — ReXGlue recomp with bespoke TP launchers. Bring your own game data.",
+      "url": "https://github.com/thefixinhixon/SplosionManRecomp",
+      "excerpt": "Native Linux & Windows ports of 'Splosion Man (Xbox 360 XBLA) — ReXGlue recomp with bespoke TP launchers. Bring your own game data.",
+      "image": "",
+      "publishedAt": "2026-11-09T06:42:12Z",
+      "addedAt": "2026-11-09T04:22:17.683Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
       "id": "gh-1450926019",
       "title": "SamiEnazi/infamous2-port: inFAMOUS 2 (PS3) as a native Windows program: Setup recompiles YOUR copy on your PC (ps3recomp, Vulkan). No game files included.",
       "url": "https://github.com/SamiEnazi/infamous2-port",
@@ -1894,19 +2264,6 @@
       "excerpt": "An custom advanced server base for Subrosa 0.24!",
       "image": "",
       "publishedAt": "2026-11-09T04:42:38Z",
-      "addedAt": "2026-11-09T04:22:17.683Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
-      "id": "gh-1402612798",
-      "title": "thefixinhixon/SplosionManRecomp: Native Linux & Windows ports of 'Splosion Man (Xbox 360 XBLA) — ReXGlue recomp with bespoke TP launchers. Bring your own game data.",
-      "url": "https://github.com/thefixinhixon/SplosionManRecomp",
-      "excerpt": "Native Linux & Windows ports of 'Splosion Man (Xbox 360 XBLA) — ReXGlue recomp with bespoke TP launchers. Bring your own game data.",
-      "image": "",
-      "publishedAt": "2026-11-09T04:34:30Z",
       "addedAt": "2026-11-09T04:22:17.683Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -4209,8 +4566,8 @@
       "id": "t8mbnr",
       "title": "How I Fight AI Brain Fry",
       "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
-      "excerpt": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry Comments URL: https://news.ycombinator.com/item?id=50416363 Points: 206 # Comments: 158",
-      "content": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry\n\nComments URL: https://news.ycombinator.com/item?id=50416363\n\nPoints: 206\n\n# Comments: 158",
+      "excerpt": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry Comments URL: https://news.ycombinator.com/item?id=50416363 Points: 213 # Comments: 161",
+      "content": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry\n\nComments URL: https://news.ycombinator.com/item?id=50416363\n\nPoints: 213\n\n# Comments: 161",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T19:37:42.000Z",
@@ -5246,8 +5603,8 @@
       "id": "1aabzwz",
       "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
       "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-      "excerpt": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 695 # Comments: 384",
-      "content": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers\n\nComments URL: https://news.ycombinator.com/item?id=50415628\n\nPoints: 695\n\n# Comments: 384",
+      "excerpt": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 704 # Comments: 390",
+      "content": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers\n\nComments URL: https://news.ycombinator.com/item?id=50415628\n\nPoints: 704\n\n# Comments: 390",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T18:16:07.000Z",
@@ -10788,8 +11145,8 @@
       "id": "vduo6c",
       "title": "Goodbye Claude, hello Pi",
       "url": "https://caleb.software/posts/claude-to-pi.html",
-      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 728 # Comments: 451",
-      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 728\n\n# Comments: 451",
+      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 732 # Comments: 451",
+      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 732\n\n# Comments: 451",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T03:11:48.000Z",
@@ -12643,7 +13000,7 @@
       "url": "https://github.com/vyanhursky/DefJamFFNY-recomp",
       "excerpt": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
       "image": "",
-      "publishedAt": "2026-11-08T12:31:51Z",
+      "publishedAt": "2026-11-09T05:24:49Z",
       "addedAt": "2026-11-07T23:10:10.266Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -17868,12 +18225,12 @@
       "addedAt": "2026-11-07T12:10:06.523Z"
     },
     {
-      "id": "gh-1433893244",
-      "title": "dalves408/nhlhitzpro-recomp: NHL Hitz Pro (Xbox, 2003) for Windows PC: a static recompilation with a Direct3D 11 renderer, 4-player controller support and an installer. Bring your own disc; no game content included.",
-      "url": "https://github.com/dalves408/nhlhitzpro-recomp",
-      "excerpt": "NHL Hitz Pro (Xbox, 2003) for Windows PC: a static recompilation with a Direct3D 11 renderer, 4-player controller support and an installer. Bring your own disc; no game content included.",
+      "id": "gh-1442210019",
+      "title": "AmarilloNL/ssx-recomp: Native PC port of SSX (2012) via Xbox 360 static recompilation. Bring your own ISO.",
+      "url": "https://github.com/AmarilloNL/ssx-recomp",
+      "excerpt": "Native PC port of SSX (2012) via Xbox 360 static recompilation. Bring your own ISO.",
       "image": "",
-      "publishedAt": "2026-11-07T11:29:19Z",
+      "publishedAt": "2026-11-09T06:47:53Z",
       "addedAt": "2026-11-07T11:40:10.586Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -17881,12 +18238,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1442210019",
-      "title": "AmarilloNL/ssx-recomp: Native PC port of SSX (2012) via Xbox 360 static recompilation. Bring your own ISO.",
-      "url": "https://github.com/AmarilloNL/ssx-recomp",
-      "excerpt": "Native PC port of SSX (2012) via Xbox 360 static recompilation. Bring your own ISO.",
+      "id": "gh-1433893244",
+      "title": "dalves408/nhlhitzpro-recomp: NHL Hitz Pro (Xbox, 2003) for Windows PC: a static recompilation with a Direct3D 11 renderer, 4-player controller support and an installer. Bring your own disc; no game content included.",
+      "url": "https://github.com/dalves408/nhlhitzpro-recomp",
+      "excerpt": "NHL Hitz Pro (Xbox, 2003) for Windows PC: a static recompilation with a Direct3D 11 renderer, 4-player controller support and an installer. Bring your own disc; no game content included.",
       "image": "",
-      "publishedAt": "2026-11-07T11:20:24Z",
+      "publishedAt": "2026-11-07T11:29:19Z",
       "addedAt": "2026-11-07T11:40:10.586Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -20757,12 +21114,12 @@
       "addedAt": "2026-11-07T06:16:14.418Z"
     },
     {
-      "id": "gh-1447268795",
-      "title": "vittau/top-gear-2-genesis-pc: Native PC port of Top Gear 2 (Sega Genesis) via static recompilation: widescreen, true 60 fps, music+SFX together. Bring your own ROM.",
-      "url": "https://github.com/vittau/top-gear-2-genesis-pc",
-      "excerpt": "Native PC port of Top Gear 2 (Sega Genesis) via static recompilation: widescreen, true 60 fps, music+SFX together. Bring your own ROM.",
+      "id": "gh-1354613114",
+      "title": "boburning/portcove: Local-first manager for decompilations, recompilations, and native PC ports.",
+      "url": "https://github.com/boburning/portcove",
+      "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
       "image": "",
-      "publishedAt": "2026-11-09T04:05:58Z",
+      "publishedAt": "2026-11-09T06:46:37Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -20770,12 +21127,25 @@
       "lang": "en"
     },
     {
-      "id": "gh-1354613114",
-      "title": "boburning/portcove: Local-first manager for decompilations, recompilations, and native PC ports.",
-      "url": "https://github.com/boburning/portcove",
-      "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
+      "id": "gh-1437594480",
+      "title": "alfaiotadev/recomp.party: Tracker for playable static recompilations and source ports of classic games",
+      "url": "https://github.com/alfaiotadev/recomp.party",
+      "excerpt": "Tracker for playable static recompilations and source ports of classic games",
       "image": "",
-      "publishedAt": "2026-11-09T03:47:52Z",
+      "publishedAt": "2026-11-09T06:37:46Z",
+      "addedAt": "2026-11-07T06:09:06.147Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1447268795",
+      "title": "vittau/top-gear-2-genesis-pc: Native PC port of Top Gear 2 (Sega Genesis) via static recompilation: widescreen, true 60 fps, music+SFX together. Bring your own ROM.",
+      "url": "https://github.com/vittau/top-gear-2-genesis-pc",
+      "excerpt": "Native PC port of Top Gear 2 (Sega Genesis) via static recompilation: widescreen, true 60 fps, music+SFX together. Bring your own ROM.",
+      "image": "",
+      "publishedAt": "2026-11-09T04:05:58Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -20815,19 +21185,6 @@
       "excerpt": "Championship Manager 01/02 rebuilt to run natively on Mac, Windows, Linux and Steam Deck. Unofficial fan port.",
       "image": "",
       "publishedAt": "2026-11-08T08:55:09Z",
-      "addedAt": "2026-11-07T06:09:06.147Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
-      "id": "gh-1437594480",
-      "title": "alfaiotadev/recomp.party: Tracker for playable static recompilations and source ports of classic games",
-      "url": "https://github.com/alfaiotadev/recomp.party",
-      "excerpt": "Tracker for playable static recompilations and source ports of classic games",
-      "image": "",
-      "publishedAt": "2026-11-08T06:08:17Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -22071,12 +22428,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1426124038",
-      "title": "NoRain211/doa2u-re: Native Windows port of Dead or Alive 2 Ultimate (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
-      "url": "https://github.com/NoRain211/doa2u-re",
-      "excerpt": "Native Windows port of Dead or Alive 2 Ultimate (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
+      "id": "gh-1441934743",
+      "title": "Lucas-blip-png/dkb-pc-recomp: Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Plays from the title screen through the first stage on an RTX 5060 Ti; still early, can crash. No game files included.",
+      "url": "https://github.com/Lucas-blip-png/dkb-pc-recomp",
+      "excerpt": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Plays from the title screen through the first stage on an RTX 5060 Ti; still early, can crash. No game files included.",
       "image": "",
-      "publishedAt": "2026-11-09T05:43:39Z",
+      "publishedAt": "2026-11-09T06:39:25Z",
       "addedAt": "2026-11-07T06:02:57.825Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -22084,12 +22441,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1441934743",
-      "title": "Lucas-blip-png/dkb-pc-recomp: Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Plays from the title screen through the first stage on an RTX 5060 Ti; still early, can crash. No game files included.",
-      "url": "https://github.com/Lucas-blip-png/dkb-pc-recomp",
-      "excerpt": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Plays from the title screen through the first stage on an RTX 5060 Ti; still early, can crash. No game files included.",
+      "id": "gh-1426124038",
+      "title": "NoRain211/doa2u-re: Native Windows port of Dead or Alive 2 Ultimate (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
+      "url": "https://github.com/NoRain211/doa2u-re",
+      "excerpt": "Native Windows port of Dead or Alive 2 Ultimate (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
       "image": "",
-      "publishedAt": "2026-11-09T05:16:06Z",
+      "publishedAt": "2026-11-09T05:43:39Z",
       "addedAt": "2026-11-07T06:02:57.825Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
