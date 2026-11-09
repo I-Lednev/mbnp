@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-09T05:52:23.672Z",
-  "tookMs": 9656,
+  "generatedAt": "2026-11-09T06:09:12.315Z",
+  "tookMs": 9579,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -24,15 +24,15 @@
     "war": "Война"
   },
   "counts": {
-    "ai": 149,
-    "games": 179,
+    "ai": 152,
+    "games": 180,
     "announces": 20,
     "mobile": 10,
     "releases": 35,
     "rumors": 17,
     "software": 40,
     "science": 88,
-    "entertainment": 289,
+    "entertainment": 291,
     "ports": 188,
     "pc": 61,
     "consoles": 145,
@@ -41,9 +41,9 @@
     "updates": 21,
     "aimods": 3,
     "aisoft": 62,
-    "cars": 183,
-    "war": 168,
-    "total": 1753
+    "cars": 185,
+    "war": 169,
+    "total": 1762
   },
   "sourceCount": 89,
   "sources": [
@@ -697,6 +697,193 @@
   ],
   "items": [
     {
+      "id": "aqvdus",
+      "title": "John Oliver Unleashes Withering Critique Of Pete Hegseth On ‘Last Week Tonight’",
+      "url": "https://deadline.com/2026/11/john-oliver-rips-pete-hegseth-last-week-tonight-1237217072/",
+      "excerpt": "While John Oliver opened his show by relishing the victories (and the defeats) attendant to Tuesday’s midterm elections, he quickly turned the full force of his weekly withering analysis on Pete Hegseth. Noting that the Secretary of War oversees an agency…",
+      "content": "While John Oliver opened his show by relishing the victories (and the defeats) attendant to Tuesday’s midterm elections, he quickly turned the full force of his weekly withering analysis on Pete Hegseth. Noting that the Secretary of War oversees an agency with a budget of more than $1T and employs 3.4M Americans, Oliver pointed out […]",
+      "image": "https://deadline.com/wp-content/uploads/2026/11/President-Trump-And-Melania-Trump-Host-Halloween-Event-At-The-White-House-1000.jpg",
+      "images": [
+        {
+          "url": "https://deadline.com/wp-content/uploads/2026/11/President-Trump-And-Melania-Trump-Host-Halloween-Event-At-The-White-House-1000.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T06:07:21.000Z",
+      "sourceId": "deadline",
+      "source": "Deadline",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-09T06:09:02.736Z"
+    },
+    {
+      "id": "rgkap4",
+      "title": "BMW сравнила новый X5 с Короллой из 90-х и получила волну насмешек в соцсетях",
+      "url": "https://www.zr.ru/content/news/988169-post-bmw-dolzhen-byl-podcherknut/",
+      "excerpt": "BMW сравнила дизайн Toyota Corolla 1991 года с новым X5 и получила волну критики",
+      "content": "BMW сравнила дизайн Toyota Corolla 1991 года с новым X5 и получила волну критики",
+      "image": "https://www.zr.ru/_ah/img/2e3UnwSb7KlAdAYIrZg61g",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/2e3UnwSb7KlAdAYIrZg61g",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T06:05:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-09T06:09:02.736Z"
+    },
+    {
+      "id": "1qxc4sx",
+      "title": "Рой ИИ‑агентов против настоящих целей: уязвимости в OAuth‑библиотеке и две машины HackTheBox",
+      "url": "https://habr.com/ru/articles/1104506/",
+      "excerpt": "В прошлой статье я показывал DreamTeam . Это опенсорс‑фреймворк на Python для роя ИИ‑агентов без начальника. Агентам дают цель, общую доску задач, общую git‑папку и право писать себе инструменты и скиллы. Дальше они сами раскладывают работу, разбирают задачи…",
+      "content": "В прошлой статье я показывал DreamTeam . Это опенсорс‑фреймворк на Python для роя ИИ‑агентов без начальника. Агентам дают цель, общую доску задач, общую git‑папку и право писать себе инструменты и скиллы. Дальше они сами раскладывают работу, разбирают задачи и проверяют друг друга. В той статье рой решал математические задачи и писал инструмент под скрытый бенчмарк.\n\nВ комментариях мне предложили проверить исходники DreamTeam силами самого роя — поискать майнеры и прочие закладки. Я попробовал: заложил в копию проекта 3 канарейки ради интереса и дал цель рою изучить их собственный код. Рой нашёл все три... и ещё 13 реальных проблем из 27 находок. Меня это вдохновило, поэтому я направил рой на две области, где обычно работают живые специалисты. Там результат нельзя подогнать под число. Первая — поиск уязвимостей в популярной OSS‑библиотеке с координированным раскрытием. Вторая — автономное прохождение машин HackTheBox. Некоторые результаты меня действительно удивили.\n\nЧитать далее?",
+      "image": "https://habrastorage.org/extt/9e/39/44/9e3944b123a62112de4516aa70d43715.png",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/9e/39/44/9e3944b123a62112de4516aa70d43715.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T06:02:38.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-09T06:09:02.736Z"
+    },
+    {
+      "id": "1qpoipt",
+      "title": "Я потратил $956 на ИИ-подписки, чтобы вы знали, на что пересесть вместо Claude Code",
+      "url": "https://habr.com/ru/articles/1105224/",
+      "excerpt": "После блокировки Claude я полторы недели гонял платные подписки Grok, Kimi, MiniMax и GLM на одной рабочей задаче. Рассказываю, где кончались лимиты, кто доводил код до запуска и на чём я в итоге остался. Читать далее",
+      "content": "После блокировки Claude я полторы недели гонял платные подписки Grok, Kimi, MiniMax и GLM на одной рабочей задаче. Рассказываю, где кончались лимиты, кто доводил код до запуска и на чём я в итоге остался.\n\nЧитать далее",
+      "image": "https://habrastorage.org/extt/2e/8b/ac/2e8bacf221738f0fc8c58ac7ddaa70df.png",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/2e/8b/ac/2e8bacf221738f0fc8c58ac7ddaa70df.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T06:00:37.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-09T06:09:02.736Z"
+    },
+    {
+      "id": "1xkxckf",
+      "title": "ИИ оставит человечество без работы. Или мы снова чего-то не учли? Часть 1",
+      "url": "https://habr.com/ru/articles/1104908/",
+      "excerpt": "ИИ уже пишет код, рекламу и отчеты быстрее человека. Значит ли это, что работы скоро не останется? Разбираемся, как станки, электричество, компьютеры и интернет уничтожали привычные профессии - и почему главный вопрос всегда был не в машине, а в новом спросе…",
+      "content": "ИИ уже пишет код, рекламу и отчеты быстрее человека. Значит ли это, что работы скоро не останется? Разбираемся, как станки, электричество, компьютеры и интернет уничтожали привычные профессии - и почему главный вопрос всегда был не в машине, а в новом спросе.\n\nЧитать далее",
+      "image": "https://habrastorage.org/extt/df/78/85/df7885d3f41347fb62e918f0a6f0f3d9.png",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/df/78/85/df7885d3f41347fb62e918f0a6f0f3d9.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T06:00:37.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-09T06:09:02.736Z"
+    },
+    {
+      "id": "rgy7ho",
+      "title": "‘A Photographer in Cannes’ Follows an Estonian Who Knows the World’s Red (and Black) Carpets – and Loved Getting a Vin Diesel Fist Bump",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/a-photographer-in-cannes-doc-film-poff-interview-vin-diesel-1236748349/",
+      "excerpt": "Erlend Staub, who is also the official photographer of the Tallinn Black Nights Film Fest, is in focus in the doc from Kullar Vilmne, which celebrates its premiere at Tallinn's 30th edition.",
+      "content": "Erlend Staub, who is also the official photographer of the Tallinn Black Nights Film Fest, is in focus in the doc from Kullar Vilmne, which celebrates its premiere at Tallinn's 30th edition.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-09T06:00:00.000Z",
+      "sourceId": "hollywoodreporter",
+      "source": "The Hollywood Reporter",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-09T06:09:02.736Z"
+    },
+    {
+      "id": "cdehpb",
+      "title": "Голос Карла \"CJ\" Джонсона из GTA: San Andreas опроверг слухи о конфликте с Rockstar из-за гонорара",
+      "url": "https://www.playground.ru/gta_san_andreas/news/golos_karla_cj_dzhonsona_iz_gta_san_andreas_oproverg_sluhi_o_konflikte_s_rockstar_iz_za_gonorara-1888991",
+      "excerpt": "Актёр Young Maylay, подаривший голос Карлу \"CJ\" Джонсону в GTA: San Andreas, опроверг многолетние слухи о том, что остался недоволен оплатой своей работы. По его словам, Rockstar выполнила условия контракта, а итоговое вознаграждение даже оказалось...",
+      "content": "Актёр Young Maylay, подаривший голос Карлу \"CJ\" Джонсону в GTA: San Andreas, опроверг многолетние слухи о том, что остался недоволен оплатой своей работы. По его словам, Rockstar выполнила условия контракта, а итоговое вознаграждение даже оказалось...",
+      "image": "https://i.playground.ru/e/0pxPgCFUX2P786tXP7CEnw.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/0pxPgCFUX2P786tXP7CEnw.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T05:51:58.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-09T06:09:02.736Z"
+    },
+    {
+      "id": "a7af3y",
+      "title": "Автохамы остаются безнаказанными: закон об опасном вождении снова забуксовал",
+      "url": "https://www.zr.ru/content/news/988130-avtokhamy-ostayutsya-beznakazanny/",
+      "excerpt": "«Ъ»: Госдума рекомендовала отклонить законопроект о наказании за опасное вождение",
+      "content": "«Ъ»: Госдума рекомендовала отклонить законопроект о наказании за опасное вождение",
+      "image": "https://www.zr.ru/_ah/img/69Uzm6_P4Hj4_Uz5O4SRDQ",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/69Uzm6_P4Hj4_Uz5O4SRDQ",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T05:50:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-09T06:09:02.736Z"
+    },
+    {
+      "id": "1ipny4i",
+      "title": "Другий за потужністю НПЗ у Росії атакували дрони: виникла пожежа",
+      "url": "https://www.pravda.com.ua/news/2026/11/09/8061870/",
+      "excerpt": "Вночі 9 листопада безпілотники атакували \"Кіришінефтеоргсинтез\" у місті Кіриші Ленінградській області РФ – другий за потужністю НПЗ у Росії, який перебуває під міжнародними санкціями. Джерело: українські моніторингові Telegram-канали Exilenova+ , Dnipro Osint…",
+      "content": "Вночі 9 листопада безпілотники атакували \"Кіришінефтеоргсинтез\" у місті Кіриші Ленінградській області РФ – другий за потужністю НПЗ у Росії, який перебуває під міжнародними санкціями.\n\nДжерело: українські моніторингові Telegram-канали Exilenova+ , Dnipro Osint , Supernova+ , російське медіа ASTRA , губернатор Ленінградської області РФ Олександр Дрозденко\n\nДослівно ASTRA: \" У Ленінградській області горить Кіришський НПЗ на фоні атаки БпЛА. Це ключовий постачальник палива для Петербурга й авіаційного гасу для аеропорту Пулково\".\n\nДеталі: OSINT-аналітик ASTRA, вивчивши відео з Кіришів, підтвердив, що горить місцевий НПЗ. Дрозденко також повідомив, що протягом ночі над регіоном збили 113 БпЛА.\n\nПопередньо, внаслідок атаки загорілася одна з установок первиної переробки нафти \"ЕЛОУ-АВТ-2\", а також уражені установки \"ЕЛОУ-АВТ-6\" та \"ЕЛОУ-АТ-6\".\n\nРозташоване не далеко від Санкт-Петербургу підприємство входить до групи \"Сургутнафтогаз\" і має важливе значення для забезпечення нафтопродуктами Північного Заходу Росії.\n\nПроєктна потужність НПЗ становить близько 20-21 млн тонн нафти на рік. Завод виробляє бензин, дизельне паливо, авіаційний гас, мазут, бітум, скраплений газ і нафтохімічну продукцію.\n\nУ 2025 році США ввели санкції проти \"Сургутнафтогазу\" та пов'язаних з ним структур, зокрема й Кіришського НПЗ. Також санкції на компанію наклали ЄС і Велика Британія.\n\nПередісторія:\n\n•\nРаніше завод уже неодноразово зазнавав атак безпілотників. Зокрема, після обстрілу в березні НПЗ повністю зупиняв роботу.\n\n•\nВостаннє Сили оборони атакували підприємство в серпні.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/f/f/953068/ffacd803404bcf035c373b087ddc580f.jpeg",
+      "images": [
+        {
+          "url": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/f/f/953068/ffacd803404bcf035c373b087ddc580f.jpeg",
+          "alt": ""
+        },
+        {
+          "url": "https://uimg.pravda.com.ua/buckets/upstatic/system/MediaPhoto/photo/2/d/953072/2d785bac2ea5ac4606af76742ae239f71794203820.jpg",
+          "alt": "Фото: Telegram-канал Exilenova+"
+        },
+        {
+          "url": "https://uimg.pravda.com.ua/buckets/upstatic/system/MediaPhoto/photo/5/d/953073/5dd0ff5a5d3cedbc36c31f5784eb03811794203898.jpg",
+          "alt": "Зображення: ASTRA"
+        },
+        {
+          "url": "https://uimg.pravda.com.ua/buckets/upstatic/system/MediaPhoto/photo/8/0/953071/802c6d4f278f62d94aa87c789e73a5af1794203755.jpg",
+          "alt": "Зображення: Dnipro Osint"
+        }
+      ],
+      "publishedAt": "2026-11-09T05:20:00.000Z",
+      "sourceId": "pravda",
+      "source": "Ukrainska Pravda",
+      "category": "war",
+      "lang": "uk",
+      "addedAt": "2026-11-09T06:09:02.736Z"
+    },
+    {
       "id": "5nxvwe",
       "title": "Embark объяснила, почему не спешит добавлять PvE в ARC Raiders: PvP остаётся частью главной идеи игры",
       "url": "https://www.playground.ru/arc_raiders/news/embark_obyasnila_pochemu_ne_speshit_dobavlyat_pve_v_arc_raiders_pvp_ostayotsya_chastyu_glavnoj_idei_igry-1888990",
@@ -964,7 +1151,7 @@
       "url": "https://github.com/wireproof/Tiberian-Dawn",
       "excerpt": "Unofficial Tiberian Dawn port for iPhone and iPad with touch controls, Remastered graphics, Mod Workshop, and iCloud saves",
       "image": "",
-      "publishedAt": "2026-11-09T05:50:59Z",
+      "publishedAt": "2026-11-09T06:08:13Z",
       "addedAt": "2026-11-09T05:22:17.864Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -1282,8 +1469,8 @@
       "id": "18bdlbp",
       "title": "I'm not convinced the AI bubble exists",
       "url": "https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html",
-      "excerpt": "Article URL: https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists Comments URL: https://news.ycombinator.com/item?id=50418975 Points: 126 # Comments: 176",
-      "content": "Article URL: https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists\n\nComments URL: https://news.ycombinator.com/item?id=50418975\n\nPoints: 126\n\n# Comments: 176",
+      "excerpt": "Article URL: https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists Comments URL: https://news.ycombinator.com/item?id=50418975 Points: 134 # Comments: 187",
+      "content": "Article URL: https://matteoraso.github.io/im-not-convinced-the-ai-bubble-exists.html#im-not-convinced-the-ai-bubble-exists\n\nComments URL: https://news.ycombinator.com/item?id=50418975\n\nPoints: 134\n\n# Comments: 187",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T23:44:36.000Z",
@@ -3830,8 +4017,8 @@
       "id": "t8mbnr",
       "title": "How I Fight AI Brain Fry",
       "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
-      "excerpt": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry Comments URL: https://news.ycombinator.com/item?id=50416363 Points: 198 # Comments: 158",
-      "content": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry\n\nComments URL: https://news.ycombinator.com/item?id=50416363\n\nPoints: 198\n\n# Comments: 158",
+      "excerpt": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry Comments URL: https://news.ycombinator.com/item?id=50416363 Points: 203 # Comments: 158",
+      "content": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry\n\nComments URL: https://news.ycombinator.com/item?id=50416363\n\nPoints: 203\n\n# Comments: 158",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T19:37:42.000Z",
@@ -4867,8 +5054,8 @@
       "id": "1aabzwz",
       "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
       "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-      "excerpt": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 684 # Comments: 384",
-      "content": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers\n\nComments URL: https://news.ycombinator.com/item?id=50415628\n\nPoints: 684\n\n# Comments: 384",
+      "excerpt": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 691 # Comments: 384",
+      "content": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers\n\nComments URL: https://news.ycombinator.com/item?id=50415628\n\nPoints: 691\n\n# Comments: 384",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T18:16:07.000Z",
@@ -6673,7 +6860,7 @@
       "url": "https://github.com/Dittobyte/Recompia",
       "excerpt": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows. With multiplayer support, modding, feature enhancements and more! Join the discord community as well",
       "image": "",
-      "publishedAt": "2026-11-09T05:51:12Z",
+      "publishedAt": "2026-11-09T06:04:46Z",
       "addedAt": "2026-11-08T15:04:03.044Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -10088,7 +10275,7 @@
       "url": "https://github.com/bradharding/doomretro",
       "excerpt": "The classic, refined DOOM source port. For Windows PC.",
       "image": "",
-      "publishedAt": "2026-11-09T05:50:57Z",
+      "publishedAt": "2026-11-09T06:08:40Z",
       "addedAt": "2026-11-08T07:10:11.604Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -10409,8 +10596,8 @@
       "id": "vduo6c",
       "title": "Goodbye Claude, hello Pi",
       "url": "https://caleb.software/posts/claude-to-pi.html",
-      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 724 # Comments: 447",
-      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 724\n\n# Comments: 447",
+      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 728 # Comments: 448",
+      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 728\n\n# Comments: 448",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T03:11:48.000Z",
@@ -11587,7 +11774,7 @@
       "url": "https://github.com/Destinity13/TimeSplitters-2-Native-Linux-Recomp",
       "excerpt": "TimeSplitters 2 (PS2, NTSC-U) statically recompiled to a native Linux executable – HD remaster: 60 FPS, real 16:9, up to 8x resolution, split-screen co-op, verified against PCSX2",
       "image": "",
-      "publishedAt": "2026-11-09T05:41:23Z",
+      "publishedAt": "2026-11-09T05:56:07Z",
       "addedAt": "2026-11-08T01:40:14.870Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -12616,7 +12803,7 @@
       "url": "https://github.com/timboat/demons-souls-recomp",
       "excerpt": "Native Windows port of Demon's Souls (PS3, BLUS-30443) via ps3recomp static recompilation. Bring your own disc image; no game files included.",
       "image": "",
-      "publishedAt": "2026-11-09T00:41:46Z",
+      "publishedAt": "2026-11-09T05:55:21Z",
       "addedAt": "2026-11-07T21:44:04.409Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -12655,7 +12842,7 @@
       "url": "https://github.com/gustavomorinaga/project-vekta",
       "excerpt": "Killzone HD // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
       "image": "",
-      "publishedAt": "2026-11-09T05:52:12Z",
+      "publishedAt": "2026-11-09T06:06:30Z",
       "addedAt": "2026-11-07T21:44:03.491Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -12668,7 +12855,7 @@
       "url": "https://github.com/spitzdano/AidynReChronicled",
       "excerpt": "Aidyn Chronicles: The First Mage (N64) as a native Linux and Windows game: HD and widescreen, newly painted art, smooth frame rates, quicksaves and Aidyn Patch / Aidyn Plus support. Bring your own ROM.",
       "image": "",
-      "publishedAt": "2026-11-09T05:51:47Z",
+      "publishedAt": "2026-11-09T06:04:54Z",
       "addedAt": "2026-11-07T21:44:03.491Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -19814,7 +20001,7 @@
       "url": "https://github.com/Jstar269/Nakagawa-Recomp",
       "excerpt": "Play PSP games you own as native Windows programs. A static recompiler: add your own disc, build, play. No game data included.",
       "image": "",
-      "publishedAt": "2026-11-09T05:22:14Z",
+      "publishedAt": "2026-11-09T06:09:04Z",
       "addedAt": "2026-11-07T06:50:19.174Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -19827,7 +20014,7 @@
       "url": "https://github.com/valentderah/totk-pc-recomp",
       "excerpt": "Static recompilation of The Legend of Zelda: Tears of the Kingdom to native Windows and Linux x86-64, with a Vulkan renderer. Game files not included.",
       "image": "",
-      "publishedAt": "2026-11-07T09:52:00Z",
+      "publishedAt": "2026-11-09T05:54:31Z",
       "addedAt": "2026-11-07T06:50:19.174Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -21588,6 +21775,19 @@
       "lang": "en"
     },
     {
+      "id": "gh-1149948783",
+      "title": "themuffinator/openQ4: The modern way to play QUAKE 4.",
+      "url": "https://github.com/themuffinator/openQ4",
+      "excerpt": "The modern way to play QUAKE 4.",
+      "image": "",
+      "publishedAt": "2026-11-09T06:00:47Z",
+      "addedAt": "2026-11-07T06:02:59.034Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
       "id": "gh-1400563069",
       "title": "kirklandsig/halo2-decompiled: Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
       "url": "https://github.com/kirklandsig/halo2-decompiled",
@@ -21620,19 +21820,6 @@
       "excerpt": "Underworld Exhumed: Ultima Underworld I and II as byte-matching source code and native ports for macOS, Windows and Linux",
       "image": "",
       "publishedAt": "2026-11-08T20:18:49Z",
-      "addedAt": "2026-11-07T06:02:59.034Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
-      "id": "gh-1149948783",
-      "title": "themuffinator/openQ4: The modern way to play QUAKE 4.",
-      "url": "https://github.com/themuffinator/openQ4",
-      "excerpt": "The modern way to play QUAKE 4.",
-      "image": "",
-      "publishedAt": "2026-11-08T18:19:19Z",
       "addedAt": "2026-11-07T06:02:59.034Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
