@@ -1,10 +1,62 @@
 {
-  "generatedAt": "2026-11-09T00:23:36.611Z",
+  "generatedAt": "2026-11-09T00:52:24.731Z",
   "key": "2026-W46",
   "start": "2026-11-09",
   "end": "2026-11-15",
-  "count": 39,
+  "count": 48,
   "items": [
+    {
+      "id": "gh-1450792659",
+      "title": "neurocontrarian/ofp-recomp: Arma: Cold War Assault / Operation Flashpoint 1.99 statically recompiled to a native Linux program (pcrecomp). Bring your own copy of the game.",
+      "url": "https://github.com/neurocontrarian/ofp-recomp",
+      "excerpt": "Arma: Cold War Assault / Operation Flashpoint 1.99 statically recompiled to a native Linux program (pcrecomp). Bring your own copy of the game.",
+      "image": "",
+      "addedAt": "2026-11-09T00:52:19.043Z",
+      "publishedAt": "2026-11-09T00:51:17Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "142c3ed",
+      "title": "Warhammer Blood Bowl has been delayed into early 2027",
+      "url": "https://www.pcgamer.com/games/sports/warhammer-blood-bowl-has-been-delayed-into-2027/",
+      "excerpt": "Though it didn't have a specific release date, Slitherine's refresh of the Warhammer-themed fantasy football game was scheduled for a full release in 2026. As of the announcement made at the Dominion Days showcase in Berlin, that's no longer the case. \"The…",
+      "image": "https://cdn.mos.cms.futurecdn.net/yYFgBZtpHgQ9MwUKngZ8tV-1920-80.jpg",
+      "addedAt": "2026-11-09T00:52:14.359Z",
+      "publishedAt": "2026-11-09T00:45:39.000Z",
+      "sourceId": "pcgamer",
+      "source": "PC Gamer",
+      "category": "pc",
+      "lang": "en"
+    },
+    {
+      "id": "xaffeq",
+      "title": "Уставшие глаза за рулем: почему это опасно",
+      "url": "https://www.zr.ru/content/news/988124-ustavshie-glaza-za-rulem-pochem/",
+      "excerpt": "Врач Акулова: усталость глаз за рулем влияет на безопасность движения",
+      "image": "https://www.zr.ru/_ah/img/aM6NzI0AP7kJGjTBfzwFcA",
+      "addedAt": "2026-11-09T00:52:14.359Z",
+      "publishedAt": "2026-11-09T00:40:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru"
+    },
+    {
+      "id": "dwy184",
+      "title": "Іран висунув США черговий ультиматум і дав два дні на роздуми",
+      "url": "https://www.ukrinform.ua/rubric-world/4182761-iran-visunuv-ssa-cergovij-ultimatum-i-dav-dva-dni-na-rozdumi.html",
+      "excerpt": "Міністр закордонних справ Ірану Аббас Арагчі закликав адміністрацію США скористатися пропозицією Тегерана щодо переговорів і припинення війни на всіх фронтах, попередивши про жорстку військову відповідь у разі продовження бойових дій.",
+      "image": "https://static.ukrinform.com/photos/2025_07/thumb_files/630_360_1753097962-633.jpg",
+      "addedAt": "2026-11-09T00:52:14.359Z",
+      "publishedAt": "2026-11-09T00:37:51.000Z",
+      "sourceId": "ukrinform",
+      "source": "Ukrinform",
+      "category": "war",
+      "lang": "uk"
+    },
     {
       "id": "gh-1449155687",
       "title": "looking-glassinsects/MagicalPopnRecomp: Static recompilation of the SNES game Magical Pop'n into a native Windows game, built from your own ROM. Motion smoothing, native widescreen.",
@@ -188,6 +240,32 @@
       "lang": "en"
     },
     {
+      "id": "gh-1440988244",
+      "title": "timboat/demons-souls-recomp: Native Windows port of Demon's Souls (PS3, BLUS-30443) via ps3recomp static recompilation. Bring your own disc image; no game files included.",
+      "url": "https://github.com/timboat/demons-souls-recomp",
+      "excerpt": "Native Windows port of Demon's Souls (PS3, BLUS-30443) via ps3recomp static recompilation. Bring your own disc image; no game files included.",
+      "image": "",
+      "addedAt": "2026-11-07T21:44:04.409Z",
+      "publishedAt": "2026-11-09T00:41:46Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1439286882",
+      "title": "gustavomorinaga/project-vekta: Killzone HD // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
+      "url": "https://github.com/gustavomorinaga/project-vekta",
+      "excerpt": "Killzone HD // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
+      "image": "",
+      "addedAt": "2026-11-07T21:44:03.491Z",
+      "publishedAt": "2026-11-09T00:37:21Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
       "id": "8bpn5y",
       "title": "Release: Gecko Gods",
       "url": "https://www.gog.com/pl/news/release_gecko_gods",
@@ -266,6 +344,19 @@
       "lang": "en"
     },
     {
+      "id": "gh-1439086805",
+      "title": "gamboozino/ng2recomp: Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
+      "url": "https://github.com/gamboozino/ng2recomp",
+      "excerpt": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
+      "image": "",
+      "addedAt": "2026-11-07T12:40:12.383Z",
+      "publishedAt": "2026-11-09T00:43:13Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
       "id": "gh-1412425732",
       "title": "YodaMMM/NightfirePort: Nightfire Rust: a native Windows PC port of 007: Nightfire (PS2), written in Rust",
       "url": "https://github.com/YodaMMM/NightfirePort",
@@ -273,6 +364,19 @@
       "image": "",
       "addedAt": "2026-11-07T09:10:09.502Z",
       "publishedAt": "2026-11-09T00:16:56Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1330183186",
+      "title": "Jstar269/Nakagawa-Recomp: Play PSP games you own as native Windows programs. A static recompiler: add your own disc, build, play. No game data included.",
+      "url": "https://github.com/Jstar269/Nakagawa-Recomp",
+      "excerpt": "Play PSP games you own as native Windows programs. A static recompiler: add your own disc, build, play. No game data included.",
+      "image": "",
+      "addedAt": "2026-11-07T06:50:19.174Z",
+      "publishedAt": "2026-11-09T00:49:52Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -406,6 +510,19 @@
       "sourceId": "gog-news",
       "source": "GOG",
       "category": "releases",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1359181981",
+      "title": "chrissotraidis/projectreach: Halo: Combat Evolved on iPhone, iPad and Mac. The Xbox edition with online matches of up to 128 players and the original campaign, plus Halo Custom Edition with its community servers. Bring your own game and build it on your Mac.",
+      "url": "https://github.com/chrissotraidis/projectreach",
+      "excerpt": "Halo: Combat Evolved on iPhone, iPad and Mac. The Xbox edition with online matches of up to 128 players and the original campaign, plus Halo Custom Edition with its community servers. Bring your own game and build it on your Mac.",
+      "image": "",
+      "addedAt": "2026-11-07T06:02:57.825Z",
+      "publishedAt": "2026-11-09T00:31:53Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
       "lang": "en"
     },
     {

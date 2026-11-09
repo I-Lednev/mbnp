@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-09T00:27:18.109Z",
-  "tookMs": 8276,
+  "generatedAt": "2026-11-09T00:52:24.731Z",
+  "tookMs": 10372,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -33,17 +33,17 @@
     "software": 40,
     "science": 83,
     "entertainment": 263,
-    "ports": 171,
-    "pc": 59,
-    "consoles": 141,
+    "ports": 172,
+    "pc": 60,
+    "consoles": 142,
     "hardware": 56,
     "industry": 39,
     "updates": 21,
     "aimods": 3,
     "aisoft": 58,
-    "cars": 166,
-    "war": 158,
-    "total": 1649
+    "cars": 167,
+    "war": 159,
+    "total": 1654
   },
   "sourceCount": 89,
   "sources": [
@@ -673,12 +673,6 @@
   ],
   "errors": [
     {
-      "source": "Nature",
-      "url": "https://www.nature.com/nature.rss",
-      "error": "ответ не похож на RSS/Atom",
-      "reused": 10
-    },
-    {
       "source": "r/emulation",
       "url": "https://www.reddit.com/r/emulation/new/.rss",
       "error": "HTTP 429",
@@ -709,6 +703,120 @@
   ],
   "items": [
     {
+      "id": "gh-1450792659",
+      "title": "neurocontrarian/ofp-recomp: Arma: Cold War Assault / Operation Flashpoint 1.99 statically recompiled to a native Linux program (pcrecomp). Bring your own copy of the game.",
+      "url": "https://github.com/neurocontrarian/ofp-recomp",
+      "excerpt": "Arma: Cold War Assault / Operation Flashpoint 1.99 statically recompiled to a native Linux program (pcrecomp). Bring your own copy of the game.",
+      "image": "",
+      "publishedAt": "2026-11-09T00:51:17Z",
+      "addedAt": "2026-11-09T00:52:19.043Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "142c3ed",
+      "title": "Warhammer Blood Bowl has been delayed into early 2027",
+      "url": "https://www.pcgamer.com/games/sports/warhammer-blood-bowl-has-been-delayed-into-2027/",
+      "excerpt": "Though it didn't have a specific release date, Slitherine's refresh of the Warhammer-themed fantasy football game was scheduled for a full release in 2026. As of the announcement made at the Dominion Days showcase in Berlin, that's no longer the case. \"The…",
+      "content": "Though it didn't have a specific release date, Slitherine's refresh of the Warhammer-themed fantasy football game was scheduled for a full release in 2026. As of the announcement made at the Dominion Days showcase in Berlin, that's no longer the case.\n\n\"The game's history and the feedback received during the latest playtest have reinforced the team's belief that the game needs to be as polished as possible,\" Slitherine said, \"as disappointing the fans is not an option.\"\n\nThat playtest is ongoing, and has just added an Arena mode where you try to make it through 10 matches in a row without losing a game or being forced to a draw more than twice. It's played in resurrection format, which means your team returns to its starting lineup at the end of each match, with no improvements or losses to carry over, so you better make sure your roster's a strong one from the off.\n\nSlitherine also confirmed that Warhammer Blood Bowl's two new factions, the Tomb Kings and Bretonnians, will be added to the base game for free. Everyone who owns Blood Bowl 3 will be upgraded to Warhammer Blood Bowl without cost, and will get to keep access to any teams and cosmetics they've already paid for.\n\nBest Warhammer games : Fantasy epics\nBest Warhammer 40K games : The complete ranking\nBest Warhammer TTRPGs : Across all three settings\nBest Warhammer 40K books : Grimdark novels",
+      "image": "https://cdn.mos.cms.futurecdn.net/yYFgBZtpHgQ9MwUKngZ8tV-1920-80.jpg",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/yYFgBZtpHgQ9MwUKngZ8tV-1920-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/ZXZ88ANaBGAsP7Fre6j5BN-1920-80.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T00:45:39.000Z",
+      "sourceId": "pcgamer",
+      "source": "PC Gamer",
+      "category": "pc",
+      "lang": "en",
+      "addedAt": "2026-11-09T00:52:14.359Z"
+    },
+    {
+      "id": "xaffeq",
+      "title": "Уставшие глаза за рулем: почему это опасно",
+      "url": "https://www.zr.ru/content/news/988124-ustavshie-glaza-za-rulem-pochem/",
+      "excerpt": "Врач Акулова: усталость глаз за рулем влияет на безопасность движения",
+      "content": "Врач Акулова: усталость глаз за рулем влияет на безопасность движения",
+      "image": "https://www.zr.ru/_ah/img/aM6NzI0AP7kJGjTBfzwFcA",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/aM6NzI0AP7kJGjTBfzwFcA",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T00:40:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-09T00:52:14.359Z"
+    },
+    {
+      "id": "dwy184",
+      "title": "Іран висунув США черговий ультиматум і дав два дні на роздуми",
+      "url": "https://www.ukrinform.ua/rubric-world/4182761-iran-visunuv-ssa-cergovij-ultimatum-i-dav-dva-dni-na-rozdumi.html",
+      "excerpt": "Міністр закордонних справ Ірану Аббас Арагчі закликав адміністрацію США скористатися пропозицією Тегерана щодо переговорів і припинення війни на всіх фронтах, попередивши про жорстку військову відповідь у разі продовження бойових дій.",
+      "content": "Міністр закордонних справ Ірану Аббас Арагчі закликав адміністрацію США скористатися пропозицією Тегерана щодо переговорів і припинення війни на всіх фронтах, попередивши про жорстку військову відповідь у разі продовження бойових дій.",
+      "image": "https://static.ukrinform.com/photos/2025_07/thumb_files/630_360_1753097962-633.jpg",
+      "images": [
+        {
+          "url": "https://static.ukrinform.com/photos/2025_07/thumb_files/630_360_1753097962-633.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T00:37:51.000Z",
+      "sourceId": "ukrinform",
+      "source": "Ukrinform",
+      "category": "war",
+      "lang": "uk",
+      "addedAt": "2026-11-09T00:52:14.359Z"
+    },
+    {
+      "id": "16k0lr4",
+      "title": "[Let’s Talk] Zelda: Ocarina of Time remake impressions",
+      "url": "https://nintendoeverything.com/lets-talk-zelda-ocarina-of-time-remake-impressions/",
+      "excerpt": "Nintendo’s remake of The Legend of Zelda: Ocarina of Time landed this week. Now that it’s here, we want to know what you think of it so far. This is undoubtedly one of the biggest games on Nintendo Switch 2 this year. Zelda: Ocarina of Time is beloved – fans…",
+      "content": "Nintendo’s remake of The Legend of Zelda: Ocarina of Time landed this week. Now that it’s here, we want to know what you think of it so far. This is undoubtedly one of the biggest games on Nintendo Switch 2 this year. Zelda: Ocarina of Time is beloved – fans adore it, and it’s one of the highest-rated titles of...\n\nNintendo Everything .",
+      "image": "https://nintendoeverything.com/wp-content/uploads/Lets-Talk-Zelda-Ocarina-of-Time-remake-impressions-150x84.webp",
+      "images": [
+        {
+          "url": "https://nintendoeverything.com/wp-content/uploads/Lets-Talk-Zelda-Ocarina-of-Time-remake-impressions-150x84.webp",
+          "alt": ""
+        },
+        {
+          "url": "https://nintendoeverything.com/wp-content/uploads/Lets-Talk-Zelda-Ocarina-of-Time-remake-impressions.webp",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-08T22:30:21.000Z",
+      "sourceId": "nintendoeverything",
+      "source": "Nintendo Everything",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-09T00:52:14.359Z"
+    },
+    {
+      "id": "gh-1450737422",
+      "title": "deadlynch/power-moon-recomp-k10: Power Moon Recomp (Super Mario Odyssey static recompilation) ported to AMD K10 CPUs (Phenom II, Athlon II) on Linux. Fork of gitlab.com/zzzarathustra-dev/power-moon-recomp. No game files included.",
+      "url": "https://github.com/deadlynch/power-moon-recomp-k10",
+      "excerpt": "Power Moon Recomp (Super Mario Odyssey static recompilation) ported to AMD K10 CPUs (Phenom II, Athlon II) on Linux. Fork of gitlab.com/zzzarathustra-dev/power-moon-recomp. No game files included.",
+      "image": "",
+      "publishedAt": "2026-11-09T00:47:29Z",
+      "addedAt": "2026-11-09T00:23:31.309Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
       "id": "gh-1449155687",
       "title": "looking-glassinsects/MagicalPopnRecomp: Static recompilation of the SNES game Magical Pop'n into a native Windows game, built from your own ROM. Motion smoothing, native widescreen.",
       "url": "https://github.com/looking-glassinsects/MagicalPopnRecomp",
@@ -728,19 +836,6 @@
       "excerpt": "Unofficial static recompilation of Afro Samurai (Xbox 360) to native Windows x64 with ReXGlue. Source only: bring your own disc.",
       "image": "",
       "publishedAt": "2026-11-09T00:15:57Z",
-      "addedAt": "2026-11-09T00:23:31.309Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
-      "id": "gh-1450737422",
-      "title": "deadlynch/power-moon-recomp-k10: Power Moon Recomp (Super Mario Odyssey static recompilation) ported to AMD K10 CPUs (Phenom II, Athlon II) on Linux. Fork of gitlab.com/zzzarathustra-dev/power-moon-recomp. No game files included.",
-      "url": "https://github.com/deadlynch/power-moon-recomp-k10",
-      "excerpt": "Power Moon Recomp (Super Mario Odyssey static recompilation) ported to AMD K10 CPUs (Phenom II, Athlon II) on Linux. Fork of gitlab.com/zzzarathustra-dev/power-moon-recomp. No game files included.",
-      "image": "",
-      "publishedAt": "2026-11-09T00:15:09Z",
       "addedAt": "2026-11-09T00:23:31.309Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -1791,8 +1886,8 @@
       "id": "t8mbnr",
       "title": "How I Fight AI Brain Fry",
       "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
-      "excerpt": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry Comments URL: https://news.ycombinator.com/item?id=50416363 Points: 133 # Comments: 119",
-      "content": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry\n\nComments URL: https://news.ycombinator.com/item?id=50416363\n\nPoints: 133\n\n# Comments: 119",
+      "excerpt": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry Comments URL: https://news.ycombinator.com/item?id=50416363 Points: 137 # Comments: 120",
+      "content": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry\n\nComments URL: https://news.ycombinator.com/item?id=50416363\n\nPoints: 137\n\n# Comments: 120",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T19:37:42.000Z",
@@ -2048,7 +2143,7 @@
       "url": "https://github.com/xPXavierx/bleach-soul-resurreccion-recomp",
       "excerpt": "A static recompilation of Bleach: Soul Resurrección (PS3, BLUS30769) for Windows.",
       "image": "",
-      "publishedAt": "2026-11-09T00:23:14Z",
+      "publishedAt": "2026-11-09T00:50:47Z",
       "addedAt": "2026-11-08T20:25:42.622Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -2828,8 +2923,8 @@
       "id": "1aabzwz",
       "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
       "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-      "excerpt": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 558 # Comments: 333",
-      "content": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers\n\nComments URL: https://news.ycombinator.com/item?id=50415628\n\nPoints: 558\n\n# Comments: 333",
+      "excerpt": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 566 # Comments: 339",
+      "content": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers\n\nComments URL: https://news.ycombinator.com/item?id=50415628\n\nPoints: 566\n\n# Comments: 339",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T18:16:07.000Z",
@@ -4604,8 +4699,8 @@
       "id": "10fltch",
       "title": "Agent memory needs its OpenTelemetry moment",
       "url": "https://www.lorekit.io/blog/open-agent-memory-format",
-      "excerpt": "Article URL: https://www.lorekit.io/blog/open-agent-memory-format Comments URL: https://news.ycombinator.com/item?id=50411467 Points: 170 # Comments: 102",
-      "content": "Article URL: https://www.lorekit.io/blog/open-agent-memory-format\n\nComments URL: https://news.ycombinator.com/item?id=50411467\n\nPoints: 170\n\n# Comments: 102",
+      "excerpt": "Article URL: https://www.lorekit.io/blog/open-agent-memory-format Comments URL: https://news.ycombinator.com/item?id=50411467 Points: 171 # Comments: 103",
+      "content": "Article URL: https://www.lorekit.io/blog/open-agent-memory-format\n\nComments URL: https://news.ycombinator.com/item?id=50411467\n\nPoints: 171\n\n# Comments: 103",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T08:40:23.000Z",
@@ -8370,8 +8465,8 @@
       "id": "vduo6c",
       "title": "Goodbye Claude, hello Pi",
       "url": "https://caleb.software/posts/claude-to-pi.html",
-      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 686 # Comments: 424",
-      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 686\n\n# Comments: 424",
+      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 689 # Comments: 424",
+      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 689\n\n# Comments: 424",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T03:11:48.000Z",
@@ -10068,8 +10163,8 @@
       "id": "zof7yv",
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 581 # Comments: 394",
-      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 581\n\n# Comments: 394",
+      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 582 # Comments: 394",
+      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 582\n\n# Comments: 394",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T20:45:32.000Z",
@@ -10577,7 +10672,7 @@
       "url": "https://github.com/timboat/demons-souls-recomp",
       "excerpt": "Native Windows port of Demon's Souls (PS3, BLUS-30443) via ps3recomp static recompilation. Bring your own disc image; no game files included.",
       "image": "",
-      "publishedAt": "2026-11-08T23:36:47Z",
+      "publishedAt": "2026-11-09T00:41:46Z",
       "addedAt": "2026-11-07T21:44:04.409Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -10611,12 +10706,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1421568804",
-      "title": "spitzdano/AidynReChronicled: Aidyn Chronicles: The First Mage (N64) as a native Linux and Windows game: HD and widescreen, newly painted art, smooth frame rates, quicksaves and Aidyn Patch / Aidyn Plus support. Bring your own ROM.",
-      "url": "https://github.com/spitzdano/AidynReChronicled",
-      "excerpt": "Aidyn Chronicles: The First Mage (N64) as a native Linux and Windows game: HD and widescreen, newly painted art, smooth frame rates, quicksaves and Aidyn Patch / Aidyn Plus support. Bring your own ROM.",
+      "id": "gh-1439286882",
+      "title": "gustavomorinaga/project-vekta: Killzone HD // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
+      "url": "https://github.com/gustavomorinaga/project-vekta",
+      "excerpt": "Killzone HD // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
       "image": "",
-      "publishedAt": "2026-11-08T23:19:28Z",
+      "publishedAt": "2026-11-09T00:37:21Z",
       "addedAt": "2026-11-07T21:44:03.491Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -10624,12 +10719,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1439286882",
-      "title": "gustavomorinaga/project-vekta: Killzone HD // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
-      "url": "https://github.com/gustavomorinaga/project-vekta",
-      "excerpt": "Killzone HD // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
+      "id": "gh-1421568804",
+      "title": "spitzdano/AidynReChronicled: Aidyn Chronicles: The First Mage (N64) as a native Linux and Windows game: HD and widescreen, newly painted art, smooth frame rates, quicksaves and Aidyn Patch / Aidyn Plus support. Bring your own ROM.",
+      "url": "https://github.com/spitzdano/AidynReChronicled",
+      "excerpt": "Aidyn Chronicles: The First Mage (N64) as a native Linux and Windows game: HD and widescreen, newly painted art, smooth frame rates, quicksaves and Aidyn Patch / Aidyn Plus support. Bring your own ROM.",
       "image": "",
-      "publishedAt": "2026-11-08T23:16:36Z",
+      "publishedAt": "2026-11-08T23:19:28Z",
       "addedAt": "2026-11-07T21:44:03.491Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -14924,12 +15019,12 @@
       "addedAt": "2026-11-07T12:52:47.414Z"
     },
     {
-      "id": "gh-1436168144",
-      "title": "victor-takai/rogue-galaxy-recomp: Rogue Galaxy (PS2) as a native Windows game: a static recompilation on PS2Recomp, built from your own disc.",
-      "url": "https://github.com/victor-takai/rogue-galaxy-recomp",
-      "excerpt": "Rogue Galaxy (PS2) as a native Windows game: a static recompilation on PS2Recomp, built from your own disc.",
+      "id": "gh-1439086805",
+      "title": "gamboozino/ng2recomp: Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
+      "url": "https://github.com/gamboozino/ng2recomp",
+      "excerpt": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
       "image": "",
-      "publishedAt": "2026-11-08T19:20:57Z",
+      "publishedAt": "2026-11-09T00:43:13Z",
       "addedAt": "2026-11-07T12:40:12.383Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -14937,12 +15032,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1439086805",
-      "title": "gamboozino/ng2recomp: Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
-      "url": "https://github.com/gamboozino/ng2recomp",
-      "excerpt": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
+      "id": "gh-1436168144",
+      "title": "victor-takai/rogue-galaxy-recomp: Rogue Galaxy (PS2) as a native Windows game: a static recompilation on PS2Recomp, built from your own disc.",
+      "url": "https://github.com/victor-takai/rogue-galaxy-recomp",
+      "excerpt": "Rogue Galaxy (PS2) as a native Windows game: a static recompilation on PS2Recomp, built from your own disc.",
       "image": "",
-      "publishedAt": "2026-11-08T14:58:04Z",
+      "publishedAt": "2026-11-08T19:20:57Z",
       "addedAt": "2026-11-07T12:40:12.383Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -16928,7 +17023,7 @@
       "url": "https://github.com/YodaMMM/NightfirePort",
       "excerpt": "Nightfire Rust: a native Windows PC port of 007: Nightfire (PS2), written in Rust",
       "image": "",
-      "publishedAt": "2026-11-09T00:26:43Z",
+      "publishedAt": "2026-11-09T00:47:31Z",
       "addedAt": "2026-11-07T09:10:09.502Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -17775,7 +17870,7 @@
       "url": "https://github.com/Jstar269/Nakagawa-Recomp",
       "excerpt": "Play PSP games you own as native Windows programs. A static recompiler: add your own disc, build, play. No game data included.",
       "image": "",
-      "publishedAt": "2026-11-08T12:11:52Z",
+      "publishedAt": "2026-11-09T00:49:52Z",
       "addedAt": "2026-11-07T06:50:19.174Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -19653,25 +19748,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1396842451",
-      "title": "ChupathingyCE/chupathingyce: Halo CE: Ported for Everyone. Windows, Mac, Linux, Steam Deck, Android and FreeBSD, with online games and stats. Bring your own copy of the game.",
-      "url": "https://github.com/ChupathingyCE/chupathingyce",
-      "excerpt": "Halo CE: Ported for Everyone. Windows, Mac, Linux, Steam Deck, Android and FreeBSD, with online games and stats. Bring your own copy of the game.",
-      "image": "",
-      "publishedAt": "2026-11-09T00:16:55Z",
-      "addedAt": "2026-11-07T06:02:57.825Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
       "id": "gh-1417252543",
       "title": "tmcleroy/cps2recomp: CPS-2 Recomp: unofficial native PC ports of Capcom CPS-2 arcade games (Street Fighter Alpha 2, Super Puzzle Fighter II Turbo, Vampire Savior) via static recompilation, with training modes, in one launcher: macOS, Linux, Steam Deck, Windows. Requires your own ROM sets. Beta.",
       "url": "https://github.com/tmcleroy/cps2recomp",
       "excerpt": "CPS-2 Recomp: unofficial native PC ports of Capcom CPS-2 arcade games (Street Fighter Alpha 2, Super Puzzle Fighter II Turbo, Vampire Savior) via static recompilation, with training modes, in one launcher: macOS, Linux, Steam Deck, Windows. Requires your own ROM sets. Beta.",
       "image": "",
-      "publishedAt": "2026-11-09T00:12:45Z",
+      "publishedAt": "2026-11-09T00:42:31Z",
       "addedAt": "2026-11-07T06:02:57.825Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -19684,7 +19766,20 @@
       "url": "https://github.com/chrissotraidis/projectreach",
       "excerpt": "Halo: Combat Evolved on iPhone, iPad and Mac. The Xbox edition with online matches of up to 128 players and the original campaign, plus Halo Custom Edition with its community servers. Bring your own game and build it on your Mac.",
       "image": "",
-      "publishedAt": "2026-11-08T15:44:29Z",
+      "publishedAt": "2026-11-09T00:31:53Z",
+      "addedAt": "2026-11-07T06:02:57.825Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1396842451",
+      "title": "ChupathingyCE/chupathingyce: Halo CE: Ported for Everyone. Windows, Mac, Linux, Steam Deck, Android and FreeBSD, with online games and stats. Bring your own copy of the game.",
+      "url": "https://github.com/ChupathingyCE/chupathingyce",
+      "excerpt": "Halo CE: Ported for Everyone. Windows, Mac, Linux, Steam Deck, Android and FreeBSD, with online games and stats. Bring your own copy of the game.",
+      "image": "",
+      "publishedAt": "2026-11-09T00:16:55Z",
       "addedAt": "2026-11-07T06:02:57.825Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
