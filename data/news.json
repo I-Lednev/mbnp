@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-09T02:22:23.396Z",
-  "tookMs": 10394,
+  "generatedAt": "2026-11-09T02:52:26.166Z",
+  "tookMs": 8188,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -32,8 +32,8 @@
     "rumors": 17,
     "software": 40,
     "science": 87,
-    "entertainment": 272,
-    "ports": 176,
+    "entertainment": 275,
+    "ports": 179,
     "pc": 60,
     "consoles": 143,
     "hardware": 56,
@@ -41,9 +41,9 @@
     "updates": 21,
     "aimods": 3,
     "aisoft": 58,
-    "cars": 168,
-    "war": 161,
-    "total": 1679
+    "cars": 169,
+    "war": 162,
+    "total": 1687
   },
   "sourceCount": 89,
   "sources": [
@@ -673,12 +673,6 @@
   ],
   "errors": [
     {
-      "source": "r/GamingLeaksAndRumours",
-      "url": "https://www.reddit.com/r/GamingLeaksAndRumours/new/.rss",
-      "error": "HTTP 429",
-      "reused": 10
-    },
-    {
       "source": "r/emulation",
       "url": "https://www.reddit.com/r/emulation/new/.rss",
       "error": "HTTP 429",
@@ -708,6 +702,140 @@
     }
   ],
   "items": [
+    {
+      "id": "gh-1445324246",
+      "title": "jp244btc/vs-smb-recomp: VS. Super Mario Bros. (arcade) as a native Windows, Linux, Steam Deck and Android program by static recompilation; bring your own dump",
+      "url": "https://github.com/jp244btc/vs-smb-recomp",
+      "excerpt": "VS. Super Mario Bros. (arcade) as a native Windows, Linux, Steam Deck and Android program by static recompilation; bring your own dump",
+      "image": "",
+      "publishedAt": "2026-11-09T02:40:41Z",
+      "addedAt": "2026-11-09T02:52:21.404Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1442537159",
+      "title": "thebabyhippo303/nimbus-recompilation-project: The Nimbus Recompilation Project (TNRP): nine native DBZ ports across GameCube, GBA, PSP and PS2 (Infinite World) with Linux/Windows/Android crossplay. Release distros only.",
+      "url": "https://github.com/thebabyhippo303/nimbus-recompilation-project",
+      "excerpt": "The Nimbus Recompilation Project (TNRP): nine native DBZ ports across GameCube, GBA, PSP and PS2 (Infinite World) with Linux/Windows/Android crossplay. Release distros only.",
+      "image": "",
+      "publishedAt": "2026-11-09T02:35:59Z",
+      "addedAt": "2026-11-09T02:52:21.404Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1450649563",
+      "title": "danfreitas97/turok-evolution-recomp: Turok: Evolution (original Xbox, USA/NTSC) recompiled into a native PC game. Bring your own disc: the installer builds it on your machine. Launcher with widescreen, high resolution, uncapped frame rate and cheats. Windows; Linux and macOS experimental.",
+      "url": "https://github.com/danfreitas97/turok-evolution-recomp",
+      "excerpt": "Turok: Evolution (original Xbox, USA/NTSC) recompiled into a native PC game. Bring your own disc: the installer builds it on your machine. Launcher with widescreen, high resolution, uncapped frame rate and cheats. Windows; Linux and macOS experimental.",
+      "image": "",
+      "publishedAt": "2026-11-09T02:39:15Z",
+      "addedAt": "2026-11-09T02:52:20.603Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "1m9ve9q",
+      "title": "Пять миллионов за «четверку»: что особенного в этих «Жигулях»",
+      "url": "https://www.zr.ru/content/news/988125-pyat-millionov-za-chetverku/",
+      "excerpt": "В Казани продают пикап ВАЗ-21043-33 1996 года за 4,7 млн рублей",
+      "content": "В Казани продают пикап ВАЗ-21043-33 1996 года за 4,7 млн рублей",
+      "image": "https://www.zr.ru/_ah/img/SVWMpPNGgtuxUGinwQooBQ",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/SVWMpPNGgtuxUGinwQooBQ",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T02:40:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-09T02:52:17.978Z"
+    },
+    {
+      "id": "t1n45k",
+      "title": "Taiwan and South Korea Join Forces on Musical Theater Co-Productions",
+      "url": "https://variety.com/2026/theater/markets-festivals/taiwan-south-korea-musical-theater-co-productions-1236942853/",
+      "excerpt": "The Taiwan Creative Content Agency (TAICCA) and the Korean Association of Musical Producers (KAMP) signed a memorandum of understanding at the Taiwan Creative Content Fest (TCCF) in Taipei to expand musical theater collaboration between Taiwan and South Korea…",
+      "content": "The Taiwan Creative Content Agency (TAICCA) and the Korean Association of Musical Producers (KAMP) signed a memorandum of understanding at the Taiwan Creative Content Fest (TCCF) in Taipei to expand musical theater collaboration between Taiwan and South Korea and open up new opportunities across Asia. TAICCA, the Ministry of Culture-backed body that promotes Taiwan’s content […]",
+      "image": "https://variety.com/wp-content/uploads/2026/11/Taiwan-Korea-MoU-TCCF.jpg",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/Taiwan-Korea-MoU-TCCF.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T02:36:56.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-09T02:52:17.978Z"
+    },
+    {
+      "id": "1n6bd9k",
+      "title": "‘You Can See Everything’ Sweeps Critics Choice Documentary Awards",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/2026-critics-choice-documentary-awards-winners-list-1236750661/",
+      "excerpt": "Ron Howard and Jehane Noujaim were honored at the 11th annual celebration of nonfiction filmmaking in New York.",
+      "content": "Ron Howard and Jehane Noujaim were honored at the 11th annual celebration of nonfiction filmmaking in New York.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-09T02:32:36.000Z",
+      "sourceId": "hollywoodreporter",
+      "source": "The Hollywood Reporter",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-09T02:52:17.978Z"
+    },
+    {
+      "id": "1018suw",
+      "title": "Andy Serkis Says Gollum Is Keeping Him Up At Night: “It Has Been Insane”",
+      "url": "https://deadline.com/2026/11/andy-serkis-playing-gollum-insane-1237216962/",
+      "excerpt": "Andy Serkis opened up recently about returning to the character that made him famous. Serkis not only plays Gollum again in the upcoming The Hunt for Gollum, he’s directing the film. In a new interview with the Times, he held forth on the challenge of…",
+      "content": "Andy Serkis opened up recently about returning to the character that made him famous. Serkis not only plays Gollum again in the upcoming The Hunt for Gollum, he’s directing the film. In a new interview with the Times, he held forth on the challenge of reviving his fan-favorite Lord of the Rings character, and the […]",
+      "image": "https://deadline.com/wp-content/uploads/2026/11/THE-LORD-OF-THE-RINGS-RETURN-OF-THE-KING-Gollum-2003-c-New-Linecourtesy-Everett-Collection-The-Lord-Of-The-Rings-The-War-Of-The-Rohirrim-World-Premiere-VIP-Arrivals-1000.jpg",
+      "images": [
+        {
+          "url": "https://deadline.com/wp-content/uploads/2026/11/THE-LORD-OF-THE-RINGS-RETURN-OF-THE-KING-Gollum-2003-c-New-Linecourtesy-Everett-Collection-The-Lord-Of-The-Rings-The-War-Of-The-Rohirrim-World-Premiere-VIP-Arrivals-1000.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T02:27:13.000Z",
+      "sourceId": "deadline",
+      "source": "Deadline",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-09T02:52:17.978Z"
+    },
+    {
+      "id": "fq3fut",
+      "title": "\"Оберіть війну і отримаєте пекло\": Іран пригрозив США та дав 2 дні на роздуми",
+      "url": "https://www.pravda.com.ua/news/2026/11/09/8061868/",
+      "excerpt": "На тлі завершення проміжних виборів до Конгресу США іранський міністр закордонних справ Аббас Арагчі в ультимативній формі закликав американців припинити воєнні дії на всіх фронтах упродовж 2 днів, інакше – Іран погрожує Штатам жорсткою війною. Джерело…",
+      "content": "На тлі завершення проміжних виборів до Конгресу США іранський міністр закордонних справ Аббас Арагчі в ультимативній формі закликав американців припинити воєнні дії на всіх фронтах упродовж 2 днів, інакше – Іран погрожує Штатам жорсткою війною.\n\nДжерело: Арагчі в соцмережі Х\n\nПряма мова: \"Наша дводенна пропозиція залишається в силі: виконайте вимоги, включно з припиненням війни на всіх фронтах, і ви побачите результат. Або оберіть війну і дивіться, як наші пильні та загартовані в боях воїни обрушать пекло\".\n\nДеталі: Арагчі додав, що оскільки американські виборці вже зробили свій вибір, настав час обирати Білому дому.\n\nПередісторія:\n\n•\nЗа даними Reuters, Іран вважає неприйнятними пропозиції, які катарські посередники представили Тегерану як новий проєкт угоди щодо припинення війни.\n\n•\nНапередодні проміжних виборів до Конгресу США видання Axios повідомляло , що Трамп розглядає три варіанти розвитку подій щодо війни з Іраном: укладання мирної угоди, відновлення бовойих дій або економічний тиск.\n\n•\nНещодавно Ізраїль поділився зі Штатами та країнами Перської затоки розвідданими про те, що Іран готується застосувати хімічну зброю проти ворогів у регіоні.\n\n•\n8 листопада Трамп заявив , що американські військові визначили 38 мостів в Ірані, які можуть знищити протягом години в разі відновлення бойових дій. Однак він наголосив, що волів би уникнути нових ударів по іранській інфраструктурі.\n\n•\nВодночас наприкінці жовтня Вашингтон нібито попередив кілька арабських країн Перської затоки про необхідність підготуватися до короткої та інтенсивної військової кампанії проти Ірану після проміжних виборів до Конгресу.\n\n•\nВперше після виборів американські збройні сили вдарили по Ірану 7 листопада, однак удари були націлені на іранську систему протиповітряної оборони.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/6/b/953013/6babed07110b20534cbfa1034f23b8a8.jpeg",
+      "images": [
+        {
+          "url": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/6/b/953013/6babed07110b20534cbfa1034f23b8a8.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T01:50:00.000Z",
+      "sourceId": "pravda",
+      "source": "Ukrainska Pravda",
+      "category": "war",
+      "lang": "uk",
+      "addedAt": "2026-11-09T02:52:17.978Z"
+    },
     {
       "id": "a39o1w",
       "title": "Microdrama Makers From Turkey and Japan Bet on Emotional Hooks and Infuriating Villains at Taiwan Creative Content Fest",
@@ -848,10 +976,14 @@
       "url": "https://deadline.com/2026/11/taylor-swift-karlie-kloss-chiefs-game-1237216947/",
       "excerpt": "Former Project Runway host Karlie Kloss and husband Joshua Kushner just made a deal to revive LIFE magazine and now, it seems, she’s living the life of a showgirl. Specifically, Kloss was spotted on Sunday seated next to Taylor Swift in the Life of a Showgirl…",
       "content": "Former Project Runway host Karlie Kloss and husband Joshua Kushner just made a deal to revive LIFE magazine and now, it seems, she’s living the life of a showgirl. Specifically, Kloss was spotted on Sunday seated next to Taylor Swift in the Life of a Showgirl superstar’s box at the Chiefs game. Kloss and Swift […]",
-      "image": "https://deadline.com/wp-content/uploads/2026/11/kloss-swift.png",
+      "image": "https://deadline.com/wp-content/uploads/2026/11/swift-kc.png",
       "images": [
         {
-          "url": "https://deadline.com/wp-content/uploads/2026/11/kloss-swift.png",
+          "url": "https://deadline.com/wp-content/uploads/2026/11/swift-kc.png",
+          "alt": ""
+        },
+        {
+          "url": "https://deadline.com/wp-content/uploads/2026/11/kloss-swift.png?w=1024&h=1000",
           "alt": ""
         },
         {
@@ -1301,7 +1433,7 @@
       "url": "https://github.com/deadlynch/power-moon-recomp-k10",
       "excerpt": "Power Moon Recomp (Super Mario Odyssey static recompilation) ported to AMD K10 CPUs (Phenom II, Athlon II) on Linux. Fork of gitlab.com/zzzarathustra-dev/power-moon-recomp. No game files included.",
       "image": "",
-      "publishedAt": "2026-11-09T02:09:02Z",
+      "publishedAt": "2026-11-09T02:40:29Z",
       "addedAt": "2026-11-09T00:23:31.309Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -1419,7 +1551,7 @@
       "url": "https://github.com/Glitxhhh/XenobladeChroniclesRecompiled",
       "excerpt": "Recompilations & PC Ports of the Xenoblade Chronicles Series",
       "image": "",
-      "publishedAt": "2026-11-09T01:34:09Z",
+      "publishedAt": "2026-11-09T02:50:11Z",
       "addedAt": "2026-11-08T23:59:29.746Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -2378,8 +2510,8 @@
       "id": "t8mbnr",
       "title": "How I Fight AI Brain Fry",
       "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
-      "excerpt": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry Comments URL: https://news.ycombinator.com/item?id=50416363 Points: 156 # Comments: 130",
-      "content": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry\n\nComments URL: https://news.ycombinator.com/item?id=50416363\n\nPoints: 156\n\n# Comments: 130",
+      "excerpt": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry Comments URL: https://news.ycombinator.com/item?id=50416363 Points: 165 # Comments: 131",
+      "content": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry\n\nComments URL: https://news.ycombinator.com/item?id=50416363\n\nPoints: 165\n\n# Comments: 131",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T19:37:42.000Z",
@@ -3415,8 +3547,8 @@
       "id": "1aabzwz",
       "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
       "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-      "excerpt": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 611 # Comments: 360",
-      "content": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers\n\nComments URL: https://news.ycombinator.com/item?id=50415628\n\nPoints: 611\n\n# Comments: 360",
+      "excerpt": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 626 # Comments: 362",
+      "content": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers\n\nComments URL: https://news.ycombinator.com/item?id=50415628\n\nPoints: 626\n\n# Comments: 362",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T18:16:07.000Z",
@@ -8957,8 +9089,8 @@
       "id": "vduo6c",
       "title": "Goodbye Claude, hello Pi",
       "url": "https://caleb.software/posts/claude-to-pi.html",
-      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 703 # Comments: 435",
-      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 703\n\n# Comments: 435",
+      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 707 # Comments: 437",
+      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 707\n\n# Comments: 437",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T03:11:48.000Z",
@@ -9175,7 +9307,7 @@
       "url": "https://github.com/7v0biscuit/OpenKai2",
       "excerpt": "A Native Windows Port of Dragon Ball Z: Budokai 2",
       "image": "",
-      "publishedAt": "2026-11-09T02:04:10Z",
+      "publishedAt": "2026-11-09T02:51:15Z",
       "addedAt": "2026-11-08T05:40:16.174Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -10023,7 +10155,7 @@
       "url": "https://github.com/Putrefacto669/Cry-Of-Fear-PortWeb",
       "excerpt": "Port web no oficial de Cry of Fear jugable en el navegador (WebAssembly + WebGL 2, Xash3D FWGS). Gratis y de código abierto, con permiso de su autor.",
       "image": "",
-      "publishedAt": "2026-11-09T01:36:46Z",
+      "publishedAt": "2026-11-09T02:50:47Z",
       "addedAt": "2026-11-08T02:10:12.970Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -10655,8 +10787,8 @@
       "id": "zof7yv",
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 590 # Comments: 398",
-      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 590\n\n# Comments: 398",
+      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 594 # Comments: 401",
+      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 594\n\n# Comments: 401",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T20:45:32.000Z",
@@ -17515,7 +17647,7 @@
       "url": "https://github.com/YodaMMM/NightfirePort",
       "excerpt": "Nightfire Rust: a native Windows PC port of 007: Nightfire (PS2), written in Rust",
       "image": "",
-      "publishedAt": "2026-11-09T02:22:08Z",
+      "publishedAt": "2026-11-09T02:32:43Z",
       "addedAt": "2026-11-07T09:10:09.502Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -18926,12 +19058,12 @@
       "addedAt": "2026-11-07T06:16:14.418Z"
     },
     {
-      "id": "gh-1447268795",
-      "title": "vittau/top-gear-2-genesis-pc: Native PC port of Top Gear 2 (Sega Genesis) via static recompilation: widescreen, true 60 fps, music+SFX together. Bring your own ROM.",
-      "url": "https://github.com/vittau/top-gear-2-genesis-pc",
-      "excerpt": "Native PC port of Top Gear 2 (Sega Genesis) via static recompilation: widescreen, true 60 fps, music+SFX together. Bring your own ROM.",
+      "id": "gh-1354613114",
+      "title": "boburning/portcove: Local-first manager for decompilations, recompilations, and native PC ports.",
+      "url": "https://github.com/boburning/portcove",
+      "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
       "image": "",
-      "publishedAt": "2026-11-09T02:09:03Z",
+      "publishedAt": "2026-11-09T02:47:23Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -18939,12 +19071,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1354613114",
-      "title": "boburning/portcove: Local-first manager for decompilations, recompilations, and native PC ports.",
-      "url": "https://github.com/boburning/portcove",
-      "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
+      "id": "gh-1447268795",
+      "title": "vittau/top-gear-2-genesis-pc: Native PC port of Top Gear 2 (Sega Genesis) via static recompilation: widescreen, true 60 fps, music+SFX together. Bring your own ROM.",
+      "url": "https://github.com/vittau/top-gear-2-genesis-pc",
+      "excerpt": "Native PC port of Top Gear 2 (Sega Genesis) via static recompilation: widescreen, true 60 fps, music+SFX together. Bring your own ROM.",
       "image": "",
-      "publishedAt": "2026-11-09T01:43:02Z",
+      "publishedAt": "2026-11-09T02:09:03Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -20245,7 +20377,7 @@
       "url": "https://github.com/tmcleroy/cps2recomp",
       "excerpt": "CPS-2 Recomp: unofficial native PC ports of Capcom CPS-2 arcade games (Street Fighter Alpha 2, Super Puzzle Fighter II Turbo, Vampire Savior) via static recompilation, with training modes, in one launcher: macOS, Linux, Steam Deck, Windows. Requires your own ROM sets. Beta.",
       "image": "",
-      "publishedAt": "2026-11-09T02:02:42Z",
+      "publishedAt": "2026-11-09T02:23:24Z",
       "addedAt": "2026-11-07T06:02:57.825Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
