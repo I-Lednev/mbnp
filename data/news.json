@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-09T00:25:56.476Z",
-  "tookMs": 7989,
+  "generatedAt": "2026-11-09T00:27:18.109Z",
+  "tookMs": 8276,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -672,6 +672,12 @@
     }
   ],
   "errors": [
+    {
+      "source": "Nature",
+      "url": "https://www.nature.com/nature.rss",
+      "error": "ответ не похож на RSS/Atom",
+      "reused": 10
+    },
     {
       "source": "r/emulation",
       "url": "https://www.reddit.com/r/emulation/new/.rss",
@@ -16922,7 +16928,7 @@
       "url": "https://github.com/YodaMMM/NightfirePort",
       "excerpt": "Nightfire Rust: a native Windows PC port of 007: Nightfire (PS2), written in Rust",
       "image": "",
-      "publishedAt": "2026-11-09T00:16:56Z",
+      "publishedAt": "2026-11-09T00:26:43Z",
       "addedAt": "2026-11-07T09:10:09.502Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
