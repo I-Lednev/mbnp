@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-08T23:59:35.080Z",
-  "tookMs": 9278,
+  "generatedAt": "2026-11-09T00:23:36.611Z",
+  "tookMs": 8935,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -31,9 +31,9 @@
     "releases": 35,
     "rumors": 17,
     "software": 40,
-    "science": 82,
-    "entertainment": 261,
-    "ports": 168,
+    "science": 83,
+    "entertainment": 263,
+    "ports": 171,
     "pc": 59,
     "consoles": 141,
     "hardware": 56,
@@ -42,8 +42,8 @@
     "aimods": 3,
     "aisoft": 58,
     "cars": 166,
-    "war": 157,
-    "total": 1642
+    "war": 158,
+    "total": 1649
   },
   "sourceCount": 89,
   "sources": [
@@ -673,6 +673,12 @@
   ],
   "errors": [
     {
+      "source": "Nature",
+      "url": "https://www.nature.com/nature.rss",
+      "error": "ответ не похож на RSS/Atom",
+      "reused": 10
+    },
+    {
       "source": "r/emulation",
       "url": "https://www.reddit.com/r/emulation/new/.rss",
       "error": "HTTP 429",
@@ -702,6 +708,124 @@
     }
   ],
   "items": [
+    {
+      "id": "gh-1449155687",
+      "title": "looking-glassinsects/MagicalPopnRecomp: Static recompilation of the SNES game Magical Pop'n into a native Windows game, built from your own ROM. Motion smoothing, native widescreen.",
+      "url": "https://github.com/looking-glassinsects/MagicalPopnRecomp",
+      "excerpt": "Static recompilation of the SNES game Magical Pop'n into a native Windows game, built from your own ROM. Motion smoothing, native widescreen.",
+      "image": "",
+      "publishedAt": "2026-11-09T00:20:04Z",
+      "addedAt": "2026-11-09T00:23:31.309Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1444998332",
+      "title": "LomoXSoft/AfroSamuraiRecomp: Unofficial static recompilation of Afro Samurai (Xbox 360) to native Windows x64 with ReXGlue. Source only: bring your own disc.",
+      "url": "https://github.com/LomoXSoft/AfroSamuraiRecomp",
+      "excerpt": "Unofficial static recompilation of Afro Samurai (Xbox 360) to native Windows x64 with ReXGlue. Source only: bring your own disc.",
+      "image": "",
+      "publishedAt": "2026-11-09T00:15:57Z",
+      "addedAt": "2026-11-09T00:23:31.309Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1450737422",
+      "title": "deadlynch/power-moon-recomp-k10: Power Moon Recomp (Super Mario Odyssey static recompilation) ported to AMD K10 CPUs (Phenom II, Athlon II) on Linux. Fork of gitlab.com/zzzarathustra-dev/power-moon-recomp. No game files included.",
+      "url": "https://github.com/deadlynch/power-moon-recomp-k10",
+      "excerpt": "Power Moon Recomp (Super Mario Odyssey static recompilation) ported to AMD K10 CPUs (Phenom II, Athlon II) on Linux. Fork of gitlab.com/zzzarathustra-dev/power-moon-recomp. No game files included.",
+      "image": "",
+      "publishedAt": "2026-11-09T00:15:09Z",
+      "addedAt": "2026-11-09T00:23:31.309Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "1e4afv5",
+      "title": "Small histone differences help shape gene regulation during sperm development",
+      "url": "https://phys.org/news/2026-11-small-histone-differences-gene-sperm.html",
+      "excerpt": "Researchers from Kyushu University have found that H3mm15, a histone H3.3 subvariant, contributes to normal sperm development in mice by helping regulate gene expression during spermatogenesis. The findings show that H3mm15 cannot be interchanged with…",
+      "content": "Researchers from Kyushu University have found that H3mm15, a histone H3.3 subvariant, contributes to normal sperm development in mice by helping regulate gene expression during spermatogenesis. The findings show that H3mm15 cannot be interchanged with conventional H3.3; although the proteins differ at only three amino acids, they behave differently in chromatin, the DNA-protein structure that packages genetic material.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/small-histone-differen.jpg",
+      "images": [
+        {
+          "url": "https://scx1.b-cdn.net/csz/news/tmb/2026/small-histone-differen.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T00:10:01.000Z",
+      "sourceId": "physorg",
+      "source": "Phys.org",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-09T00:23:27.676Z"
+    },
+    {
+      "id": "1kjzgk5",
+      "title": "В Польше начинаются первые военные учения \"коалиции желающих\" с участием 11 стран, включая ФРГ",
+      "url": "https://www.dw.com/ru/%D0%B2-%D0%BF%D0%BE%D0%BB%D1%8C%D1%88%D0%B5-%D0%BD%D0%B0%D1%87%D0%B8%D0%BD%D0%B0%D1%8E%D1%82%D1%81%D1%8F-%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%B5-%D0%B2%D0%BE%D0%B5%D0%BD%D0%BD%D1%8B%D0%B5-%D1%83%D1%87%D0%B5%D0%BD%D0%B8%D1%8F-%D0%BA%D0%BE%D0%B0%D0%BB%D0%B8%D1%86%D0%B8%D0%B8-%D0%B6%D0%B5%D0%BB%D0%B0%D1%8E%D1%89%D0%B8%D1%85-%D1%81-%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%B8%D0%B5%D0%BC-11-%D1%81%D1%82%D1%80%D0%B0%D0%BD-%D0%B2%D0%BA%D0%BB%D1%8E%D1%87%D0%B0%D1%8F-%D1%84%D1%80%D0%B3/a-79894769?maca=rus-rss-ru-all-1126-rdf",
+      "excerpt": "В Польше, примерно в 100 км от границы с Украиной, начинаются первые учения \"коалиции желающих\" с участием около 2800 военнослужащих из 11 стран. Командно-штабные элементы будут отрабатываться также во Франции и Турции.",
+      "content": "В Польше, примерно в 100 км от границы с Украиной, начинаются первые учения \"коалиции желающих\" с участием около 2800 военнослужащих из 11 стран. Командно-штабные элементы будут отрабатываться также во Франции и Турции.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-09T00:05:00.000Z",
+      "sourceId": "dw-ru",
+      "source": "DW Russian",
+      "category": "war",
+      "lang": "ru",
+      "addedAt": "2026-11-09T00:23:27.676Z"
+    },
+    {
+      "id": "14w3zr7",
+      "title": "‘Cheers,’ ‘Taxi’ Showrunner Ken Estin and Mentalist Banachek Take Psychic Fraud Series ‘Psychic Predators’ From Taiwan Creative Content Fest to American Film Market (EXCLUSIVE)",
+      "url": "https://variety.com/2026/tv/markets-festivals/cheers-showrunner-estin-banachek-psychic-predators-afm-1236941946/",
+      "excerpt": "Two-time Emmy winner Ken Estin, showrunner of “Taxi” and “Cheers,” is steering “Psychic Predators,” a paranormal dramatic comedy starring mentalist Banachek as himself. Organic Media Group (OMG) unveiled the series at Taiwan Creative Content Fest (TCCF) in…",
+      "content": "Two-time Emmy winner Ken Estin, showrunner of “Taxi” and “Cheers,” is steering “Psychic Predators,” a paranormal dramatic comedy starring mentalist Banachek as himself. Organic Media Group (OMG) unveiled the series at Taiwan Creative Content Fest (TCCF) in Taipei, and it is also heading to the American Film Market. Estin, whose resume also takes in “The […]",
+      "image": "https://variety.com/wp-content/uploads/2026/11/Psychic-Predators-Banacheck.jpg",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/Psychic-Predators-Banacheck.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-09T00:23:27.676Z"
+    },
+    {
+      "id": "119e10w",
+      "title": "Deadpool 2's Rob Delaney Debunks Popular X-Men Fan Theory About His Character Peter",
+      "url": "https://www.slashfilm.com/2306570/deadpool-2-rob-delaney-debunk-x-men-fan-theory-peter/",
+      "excerpt": "Rob Delaney, who plays Peter in the Deadpool film franchise, has thrown cold water on a popular fan theory about the true identity of the character he plays.",
+      "content": "Rob Delaney, who plays Peter in the Deadpool film franchise, has thrown cold water on a popular fan theory about the true identity of the character he plays.",
+      "image": "https://www.slashfilm.com/img/gallery/deadpool-2s-rob-delaney-debunks-popular-x-men-fan-theory-about-his-character-peter/l-intro-1793806969.jpg",
+      "images": [
+        {
+          "url": "https://www.slashfilm.com/img/gallery/deadpool-2s-rob-delaney-debunks-popular-x-men-fan-theory-about-his-character-peter/l-intro-1793806969.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.slashfilm.com/img/gallery/deadpool-2s-rob-delaney-debunks-popular-x-men-fan-theory-about-his-character-peter/intro-1793806969.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T00:00:00.000Z",
+      "sourceId": "slashfilm",
+      "source": "SlashFilm",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-09T00:23:27.676Z"
+    },
     {
       "id": "gh-1437063279",
       "title": "Glitxhhh/XenobladeChroniclesRecompiled: Recompilations & PC Ports of the Xenoblade Chronicles Series",
@@ -1667,8 +1791,8 @@
       "id": "t8mbnr",
       "title": "How I Fight AI Brain Fry",
       "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
-      "excerpt": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry Comments URL: https://news.ycombinator.com/item?id=50416363 Points: 125 # Comments: 111",
-      "content": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry\n\nComments URL: https://news.ycombinator.com/item?id=50416363\n\nPoints: 125\n\n# Comments: 111",
+      "excerpt": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry Comments URL: https://news.ycombinator.com/item?id=50416363 Points: 131 # Comments: 113",
+      "content": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry\n\nComments URL: https://news.ycombinator.com/item?id=50416363\n\nPoints: 131\n\n# Comments: 113",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T19:37:42.000Z",
@@ -1919,12 +2043,12 @@
       "addedAt": "2026-11-08T23:39:53.305Z"
     },
     {
-      "id": "gh-1450616223",
-      "title": "marciliofilho/KirbysDreamLand3Recomp: Native static recompilation of Kirby's Dream Land 3 (USA) for PC, built on snesrecomp and recomp-ui.",
-      "url": "https://github.com/marciliofilho/KirbysDreamLand3Recomp",
-      "excerpt": "Native static recompilation of Kirby's Dream Land 3 (USA) for PC, built on snesrecomp and recomp-ui.",
+      "id": "gh-1449832222",
+      "title": "xPXavierx/bleach-soul-resurreccion-recomp: A static recompilation of Bleach: Soul Resurrección (PS3, BLUS30769) for Windows.",
+      "url": "https://github.com/xPXavierx/bleach-soul-resurreccion-recomp",
+      "excerpt": "A static recompilation of Bleach: Soul Resurrección (PS3, BLUS30769) for Windows.",
       "image": "",
-      "publishedAt": "2026-11-08T20:20:05Z",
+      "publishedAt": "2026-11-09T00:23:14Z",
       "addedAt": "2026-11-08T20:25:42.622Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -1932,12 +2056,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1449832222",
-      "title": "xPXavierx/bleach-soul-resurreccion-recomp: A static recompilation of Bleach: Soul Resurrección (PS3, BLUS30769) for Windows.",
-      "url": "https://github.com/xPXavierx/bleach-soul-resurreccion-recomp",
-      "excerpt": "A static recompilation of Bleach: Soul Resurrección (PS3, BLUS30769) for Windows.",
+      "id": "gh-1450616223",
+      "title": "marciliofilho/KirbysDreamLand3Recomp: Native static recompilation of Kirby's Dream Land 3 (USA) for PC, built on snesrecomp and recomp-ui.",
+      "url": "https://github.com/marciliofilho/KirbysDreamLand3Recomp",
+      "excerpt": "Native static recompilation of Kirby's Dream Land 3 (USA) for PC, built on snesrecomp and recomp-ui.",
       "image": "",
-      "publishedAt": "2026-11-08T20:16:54Z",
+      "publishedAt": "2026-11-08T20:20:05Z",
       "addedAt": "2026-11-08T20:25:42.622Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -2704,8 +2828,8 @@
       "id": "1aabzwz",
       "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
       "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-      "excerpt": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 534 # Comments: 326",
-      "content": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers\n\nComments URL: https://news.ycombinator.com/item?id=50415628\n\nPoints: 534\n\n# Comments: 326",
+      "excerpt": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 550 # Comments: 328",
+      "content": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers\n\nComments URL: https://news.ycombinator.com/item?id=50415628\n\nPoints: 550\n\n# Comments: 328",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T18:16:07.000Z",
@@ -4480,8 +4604,8 @@
       "id": "10fltch",
       "title": "Agent memory needs its OpenTelemetry moment",
       "url": "https://www.lorekit.io/blog/open-agent-memory-format",
-      "excerpt": "Article URL: https://www.lorekit.io/blog/open-agent-memory-format Comments URL: https://news.ycombinator.com/item?id=50411467 Points: 164 # Comments: 102",
-      "content": "Article URL: https://www.lorekit.io/blog/open-agent-memory-format\n\nComments URL: https://news.ycombinator.com/item?id=50411467\n\nPoints: 164\n\n# Comments: 102",
+      "excerpt": "Article URL: https://www.lorekit.io/blog/open-agent-memory-format Comments URL: https://news.ycombinator.com/item?id=50411467 Points: 165 # Comments: 102",
+      "content": "Article URL: https://www.lorekit.io/blog/open-agent-memory-format\n\nComments URL: https://news.ycombinator.com/item?id=50411467\n\nPoints: 165\n\n# Comments: 102",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T08:40:23.000Z",
@@ -8246,8 +8370,8 @@
       "id": "vduo6c",
       "title": "Goodbye Claude, hello Pi",
       "url": "https://caleb.software/posts/claude-to-pi.html",
-      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 673 # Comments: 424",
-      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 673\n\n# Comments: 424",
+      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 677 # Comments: 424",
+      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 677\n\n# Comments: 424",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T03:11:48.000Z",
@@ -9944,8 +10068,8 @@
       "id": "zof7yv",
       "title": "Claude Code's \"Don't Ask Again\" exposes passwords in 1,122 public GitHub files",
       "url": "https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again",
-      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 576 # Comments: 390",
-      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 576\n\n# Comments: 390",
+      "excerpt": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again Comments URL: https://news.ycombinator.com/item?id=50407882 Points: 578 # Comments: 391",
+      "content": "Article URL: https://apiiro.com/blog/coding-agents-leaking-secrets-github-dont-ask-again\n\nComments URL: https://news.ycombinator.com/item?id=50407882\n\nPoints: 578\n\n# Comments: 391",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-07T20:45:32.000Z",
@@ -9961,7 +10085,7 @@
       "url": "https://github.com/Goldoire/fefw-recomp",
       "excerpt": "Native Windows PC port of Fire Emblem: Fortune's Weave by static recompilation. Bring your own dump; no game files included.",
       "image": "",
-      "publishedAt": "2026-11-08T11:08:41Z",
+      "publishedAt": "2026-11-09T00:14:04Z",
       "addedAt": "2026-11-07T23:40:20.285Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -12233,7 +12357,7 @@
       "url": "https://github.com/TheBozos/VP2S_Recomp",
       "excerpt": "Native PC port of Valkyrie Profile 2: Silmeria (USA, SLUS-21452) by static recompilation with PS2Recomp: native renderer and audio, no GS/VU1/SPU2 emulation. No game data or keys included.",
       "image": "",
-      "publishedAt": "2026-11-08T23:50:57Z",
+      "publishedAt": "2026-11-09T00:07:38Z",
       "addedAt": "2026-11-07T18:00:03.196Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -16804,7 +16928,7 @@
       "url": "https://github.com/YodaMMM/NightfirePort",
       "excerpt": "Nightfire Rust: a native Windows PC port of 007: Nightfire (PS2), written in Rust",
       "image": "",
-      "publishedAt": "2026-11-08T23:55:11Z",
+      "publishedAt": "2026-11-09T00:16:56Z",
       "addedAt": "2026-11-07T09:10:09.502Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -19529,12 +19653,25 @@
       "lang": "en"
     },
     {
+      "id": "gh-1396842451",
+      "title": "ChupathingyCE/chupathingyce: Halo CE: Ported for Everyone. Windows, Mac, Linux, Steam Deck, Android and FreeBSD, with online games and stats. Bring your own copy of the game.",
+      "url": "https://github.com/ChupathingyCE/chupathingyce",
+      "excerpt": "Halo CE: Ported for Everyone. Windows, Mac, Linux, Steam Deck, Android and FreeBSD, with online games and stats. Bring your own copy of the game.",
+      "image": "",
+      "publishedAt": "2026-11-09T00:16:55Z",
+      "addedAt": "2026-11-07T06:02:57.825Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
       "id": "gh-1417252543",
       "title": "tmcleroy/cps2recomp: CPS-2 Recomp: unofficial native PC ports of Capcom CPS-2 arcade games (Street Fighter Alpha 2, Super Puzzle Fighter II Turbo, Vampire Savior) via static recompilation, with training modes, in one launcher: macOS, Linux, Steam Deck, Windows. Requires your own ROM sets. Beta.",
       "url": "https://github.com/tmcleroy/cps2recomp",
       "excerpt": "CPS-2 Recomp: unofficial native PC ports of Capcom CPS-2 arcade games (Street Fighter Alpha 2, Super Puzzle Fighter II Turbo, Vampire Savior) via static recompilation, with training modes, in one launcher: macOS, Linux, Steam Deck, Windows. Requires your own ROM sets. Beta.",
       "image": "",
-      "publishedAt": "2026-11-08T19:41:58Z",
+      "publishedAt": "2026-11-09T00:12:45Z",
       "addedAt": "2026-11-07T06:02:57.825Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -19561,19 +19698,6 @@
       "excerpt": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows with Vulkan. Plays from the title screen through the first stage on an RTX 5060 Ti; still early, can crash. No game files included.",
       "image": "",
       "publishedAt": "2026-11-08T15:42:52Z",
-      "addedAt": "2026-11-07T06:02:57.825Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
-      "id": "gh-1396842451",
-      "title": "ChupathingyCE/chupathingyce: Halo CE: Ported for Everyone. Windows, Mac, Linux, Steam Deck, Android and FreeBSD, with online games and stats. Bring your own copy of the game.",
-      "url": "https://github.com/ChupathingyCE/chupathingyce",
-      "excerpt": "Halo CE: Ported for Everyone. Windows, Mac, Linux, Steam Deck, Android and FreeBSD, with online games and stats. Bring your own copy of the game.",
-      "image": "",
-      "publishedAt": "2026-11-08T02:15:47Z",
       "addedAt": "2026-11-07T06:02:57.825Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
