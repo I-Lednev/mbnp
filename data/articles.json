@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-09T04:22:26.977Z",
-  "count": 1495,
+  "generatedAt": "2026-11-09T04:52:30.258Z",
+  "count": 1505,
   "articles": {
     "1py56g3": {
       "version": 4,
@@ -37432,6 +37432,218 @@
       ],
       "length": 20000,
       "imageCount": 11
+    },
+    "vpfizo": {
+      "version": 4,
+      "url": "https://variety.com/2026/tv/news/john-oliver-midterms-losers-elon-musk-haley-stevens-last-week-tonight-1236942879/",
+      "fetchedAt": "2026-11-09T04:52:27.446Z",
+      "title": "John Oliver Dunks on Midterms Losers Elon Musk and Haley Stevens",
+      "byline": "Marlow Stern",
+      "siteName": "Variety",
+      "content": "After issuing an urgent warning prior to the midterms about the GOP’s increasingly troubling ties to neo-Nazis (with a little dig at Elizabeth Holmes and Billy Evans, of “You Can See Everything” infamy, thrown in for good measure), John Oliver returned to the “Last Week Tonight” desk on Sunday to bask in the Democrats’ blue tsunami that saw them wrest back control of Congress in imposing fashion.\n\n“It has been a busy week and, given the midterm results, a pretty good week, too!” Oliver exclaimed at the top of his HBO show. “Democrats won so big on Tuesday it was sometimes genuinely hard to take all the positive results in.”\n\nOliver opined how it was “genuinely hard to believe Texas had just turned blue,” adding it was “hard to process” all the wins, including 22 state trifectas, Chris Pappas becoming the first openly-gay man elected to U.S. Senate, Deb Haaland of New Mexico being the first Native American woman elected governor of a U.S. state, and Georgia’s Keisha Lance Bottoms elected the first Black woman governor of a U.S. state.\n\nThe comic also applauded how, “Abdul El-Sayed won in Michigan, meaning all the hateful shit thrown his way did not work, and also that this woman [Haley Stevens] imploded her own political career for nothing. Then, you realize Susan Collins lost too! A decade of having to listen to her express reservations about something before going ahead and doing it anyway are finally fucking over.”\n\nBut wait, there’s more: “Then it hits you that Elon Musk wasted so much money! The half a billion dollars he spent to try and buy the election just went up in flames faster than a parked Cybertruck. Speaking of which: we also learned this week he’s ending production of Cybertrucks, which isn’t an election result but kind of feels like one.”\n\nYes, Musk spent nearly $500 million during the midterm election cycle, including $200 million to (unsuccessfully) defeat Senator-elect James Talarico in Texas; while Stevens, a supposed Democrat, backed GOP candidate Mike Rogers over her primary rival (and eventual winner) El-Sayed.",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/Michigan-Democratic-Senate-Candidate-Haley-Stevens-Holds-Primary-Night-Event-In-Detroit-President-Trump-Holds-A-Cabinet-Meeting-At-The-White-House-1000.jpg?crop=0px%2C34px%2C1000px%2C562px&resize=1000%2C563",
+          "alt": ""
+        }
+      ],
+      "length": 2069,
+      "imageCount": 1
+    },
+    "gh-1432211997": {
+      "version": 4,
+      "url": "https://github.com/intermission88/SedotDeck",
+      "fetchedAt": "2026-11-09T04:52:27.681Z",
+      "title": "GitHub - intermission88/SedotDeck: Obtainium for Steam Deck: keep recomps, PC ports and emulators updated and in your Steam library",
+      "byline": "",
+      "siteName": "GitHub",
+      "content": "Obtainium for Steam Deck\nAdd a recomp, PC port or emulator once. SedotDeck keeps it updated and keeps it in your Steam library.\n\nImportantWritten by AI. Claude writes the code; intermission88 decides what it does, reviews every change and tests it on a Steam Deck.\n\nFeatures\n\nUpdate all in one click for releases on GitHub, GitLab, Codeberg, Gitea and Forgejo, pre-releases and nightlies too if you turn them on. SedotDeck picks the Linux file itself; a repo with only tags installs from the tag's source code.\nBrowse and add from Recomp Haven, Quiver, Recomp Launcher, unbaked.games, DecompBuddy, FanGamesDB and The Gaming Emporium, one catalog at a time and each in its own site's look, or search GitHub by the game's name.\nSave backups: pick a game's save folder once; SedotDeck zips it before every update and puts any backup back when you ask.\nSteam shortcuts keep working: paths never change on update. Works for AppImages, Flatpaks, zipped ports and Windows .exe through Proton.\nSafe: SHA-256 checks, Rollback, Uninstall to the Trash, running games left alone.\nMade for the controller: D-pad navigation with sound effects, and a Game Mode plugin for Decky.\nNo pip, no sudo: one Python file on SteamOS's own Python.\n\nInstall\nGet it from Releases:\n\nAppImage (Desktop Mode): mark SedotDeck-x86_64.AppImage as executable (right-click → Properties → Permissions), then open it.\nDecky plugin (Game Mode): in Decky settings, turn on Developer mode and use Install Plugin from ZIP File.\n\nThen press Add app, or Add in Browse, and Install. ⋯ → Add to Steam once, and Update all from then on.\nFAQ\n\nWhy not Quiver Launcher or Gear Lever?\nQuiver Launcher is a launcher you open to play; SedotDeck puts games in your Steam library and stays out of the way. Gear Lever puts desktop AppImages in your app menu; SedotDeck handles games, including zipped ports, .exe builds and Game Mode.\n\nIt picked the wrong file\n⋯ → Edit and set an Asset pattern (a regex), e.g. x86_64\\.AppImage$. Without one, SedotDeck prefers an AppImage for Linux x86_64, and a PGO build when two files are otherwise equal.\n\nWhy aren't recomphub.com and decomps.net in Browse?\nTheir robots.txt asks programs to stay out of their API, which is the only way to read their lists. They'll be added if their owners agree.\n\n\"GitHub rate limit hit\"\nPaste a read-only fine-grained GitHub token in Settings.\n\nWhy close Steam for \"Add to Steam\"?\nSteam overwrites shortcuts.vdf when it exits. In Game Mode the Decky plugin uses Steam's own API, so there's no need.\n\nWhere is my data?\nSettings in ~/.config/sedotdeck/, games in ~/Applications/, save backups in ~/Applications/Save backups/. No telemetry.\n\nBuilding it yourself\nLogic is in sedotdeck.py (stdlib only); desktop/ is the Tauri window, decky-plugin/ the Game Mode plugin. You can also run bash install.sh to use it from a browser.\n\nAppImage: cd desktop && npm ci && npm run build\nDecky plugin: decky-plugin/package.sh\nTests: python3 -I tests/test_sedotdeck.py sedotdeck.py\n\nCredit\n\nCode by Claude (Anthropic), commits marked Co-Authored-By: Claude. Not made or endorsed by Anthropic. Maintainer: intermission88.\nCatalogs: Recomp Haven by rikuwru (MIT, based on Recompendium), Quiver Launcher by Thomas Georgiadis, RecompLauncher, unbaked.games (its public API), DecompBuddy by Tanooki Studios (catalog data GPL-3.0, read at runtime, not bundled), FanGamesDB and The Gaming Emporium. Names, logos and box art belong to their owners.\nIdeas (no code) from Obtainium by ImranR98 and Gear Lever by mijorus.\nBuilt on Tauri, Decky Loader, Flatpak, Proton and Anti Slop (MIT).\n\nSteam, Steam Deck, SteamOS and Proton are trademarks of Valve Corporation. SedotDeck is fan-made and not affiliated with Valve or any project above. Something of yours not credited properly? Open an issue.\nLicense\nMIT for SedotDeck's own code, docs and logo. Catalog data, box art and the apps you install keep their own licenses.",
+      "images": [
+        {
+          "url": "https://github.com/intermission88/SedotDeck/raw/main/docs/screenshots/demo.gif",
+          "alt": "Demo: My apps with box art and Deck-tested picks, adding one, then Browse going through all seven catalogs in their own look, the Saves dialog, and Search GitHu"
+        }
+      ],
+      "length": 3912,
+      "imageCount": 1
+    },
+    "whlc72": {
+      "version": 4,
+      "url": "https://www.zr.ru/content/news/988127-gajka-oslabla-tormoznoj-put/",
+      "fetchedAt": "2026-11-09T04:52:27.819Z",
+      "title": "Toyota отзывает более 176 тыс. автомобилей: причины",
+      "byline": "Ушакова Ирина",
+      "siteName": "zr.ru",
+      "content": "Китайские владельцы сразу нескольких моделей Toyota отправятся в сервис – японский концерн запустил отзывную кампанию на 176 737 машин. Причина прозаичная: недочеты, которые так или иначе связаны с безопасностью. По данным CarNewsChina, в список попали электрокары bZ3X и bZ7, а вместе с ними внедорожники Land Cruiser Prado и Lexus GX 550h.Львиная доля отзыва приходится на электрический кроссовер bZ3X – 100 175 экземпляров, сошедших с конвейера с 27 февраля 2025 года по 26 марта 2026-го. Здесь недотянули крепеж переднего стабилизатора: гайки в процессе езды способны постепенно ослабнуть. Сначала появится посторонний шум, а в худшем случае детали и вовсе разъединятся – тогда управляемость машины станет хуже. GAC Toyota поменяет крепеж бесплатно, для владельцев это ничего не стоит.С седаном bZ7 история другая, и кампаний сразу две – под них ушли 21 085 электромобилей. У 18 130 машин нашлась ошибка в софте тормозной системы: при определенных условиях на малой скорости электроника ограничивает тормозное усилие, и тормозной путь растягивается. Оставшиеся 2 955 экземпляров страдают от сбоя прошивки камеры переднего обзора – во время обновления руль может самопроизвольно повернуться, если включена система помощи при движении по трассе. Обе проблемы лечатся бесплатным обновлением ПО, разбирать ничего не придется.Дальше по списку – гибриды. Отдельным блоком идут 47 347 Land Cruiser Prado китайской сборки и 8 130 импортированных Lexus GX 550h. В соединении топливопровода обнаружился дефект: если на фиксатор подействует внешняя сила, он сместится, и магистраль может отсоединиться. А это уже прямой риск утечки топлива. Дилеры осмотрят соединения, поставят защитные крышки, а где нужно – заменят топливопроводы целиком.О том, чем опасна езда зимой на летней резине, «За рулем» уже рассказывал.Понравилась публикация?Тогда добавьте «За рулем» в список интересных источников: 1. Откройте https://google.com... 2. Поставьте галочку напротив нашего изданияГотово – остаемся на связи! «За рулем» теперь можно смотреть на RuTube",
+      "images": [
+        {
+          "url": "https://www.zr.ru/d/story/df/988127/pixnio-5677x3762.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.zr.ru/d/story/67/956775/111222.jpg",
+          "alt": ""
+        }
+      ],
+      "length": 2036,
+      "imageCount": 2
+    },
+    "1pycmv1": {
+      "version": 4,
+      "url": "https://www.zr.ru/content/news/988187-avalon-nauchilsya-vyglyadet-kak/",
+      "fetchedAt": "2026-11-09T04:52:27.920Z",
+      "title": "На рынок вышел крупный седан Toyota чуть дороже 2 млн рублей",
+      "byline": "Лежнин Роман",
+      "siteName": "zr.ru",
+      "content": "Продажи обновленного Avalon стартовали – Toyota сообщила об этом официально. Сильнее всего перемены заметны в передней части кузова: ее переделали в духе последней версии Crown. Седан получил С-образные фары и массивную радиаторную решетку с вертикальными планками.Внутри тоже все иначе. Салон у новинки выглядит лаконичнее, чем у предшественника, а главный акцент сделан на крупном тачскрине.Toyota AvalonГабариты японской модели – 4990 мм в длину, хотя отдельные комплектации вытянуты до 5055 мм. Ширина достигает 1850 мм, высота – 1450 мм. Колесная база при этом равна 2870 мм.Базовым двигателем стал 2-литровый агрегат, выдающий до 173 л.с., – он трудится вместе с вариатором. В более дорогих версиях появляются гибридные установки. Первая из них объединяет 2,0-литровый ДВС и электромотор с отдачей до 152 и 113 л.с. соответственно; заявленный расход топлива – 4,31−4,54 литра. Вторая опирается на 2,5-литровый двигатель и электродвигатель, которые развивают до 185 и 136 л.с., а расход у такого варианта равен 4,57 литра.Интерьер Toyota AvalonИз оснащения стоит выделить 10,25-дюймовый сенсорный экран – опционально доступен 15,6-дюймовый, – а также 8,8-дюймовую цифровую приборную панель. Передние кресла получили массаж и подножки, аудиосистема может иметь 8 или 14 динамиков. Плюс проекционный дисплей, панорамная крыша с электрической шторкой и беспроводная зарядка.Комплекс безопасности тоже доработали: теперь в нем 10 подушек, а системы обнаружения препятствий работают эффективнее. Стоимость седана варьируется от 178 800 до 236 800 юаней (примерно от 2,2 до 2,9 миллиона рублей). Понравилась публикация?Тогда добавьте «За рулем» в список интересных источников: 1. Откройте https://google.com... 2. Поставьте галочку напротив нашего изданияГотово – остаемся на связи! «За рулем» можно смотреть на YouTube",
+      "images": [
+        {
+          "url": "https://www.zr.ru/d/story/1b/988187/mycollages-2026-11-06_15-06-48.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.zr.ru/d/story/67/956775/111222.jpg",
+          "alt": ""
+        }
+      ],
+      "length": 1818,
+      "imageCount": 2
+    },
+    "n8f7vi": {
+      "version": 4,
+      "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
+      "fetchedAt": "2026-11-09T04:52:28.044Z",
+      "title": "Comment: The Web Is More Than Enough, by Paul Ford",
+      "byline": "Simon Willison",
+      "siteName": "Simon Willison’s Weblog",
+      "content": "Comment My comment on The Web Is More Than Enough, by Paul Ford — Hacker News\n\nOK, this comment convinced me to give that a shot.\nHere's a thing I made in Three.js this morning - a Nudibranch themed Faberge Egg: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (77KB)\nI just asked Claude (Opus 5.5 Medium running in regular Claude Chat) to port that to Vanilla JS, in the same thread where it had built it, and got this: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (98KB)\nThey aren't identical - you can see what Claude said about that in the transcript (I don't fully understand why it differed): https://claude.ai/share/e56d163e-2793-4677-aa11-191d5058b414\nBut yeah, it turns out Claude Opus 5.5 is perfectly capable of 3D modeling in Vanilla JS + WebGL without Three.js.\nIn eyeballing the code I find the Three.js slightly easier to understand myself, but I rarely look at the code for these 3D projects so that isn't a particularly big deal.",
+      "images": [],
+      "length": 980,
+      "imageCount": 0
+    },
+    "1u07k0z": {
+      "version": 4,
+      "url": "https://www.zr.ru/content/news/988126-mashina-kuplena-davno-a-schet-z/",
+      "fetchedAt": "2026-11-09T04:52:28.128Z",
+      "title": "Автомобилистов хотят защитить от неожиданных платежей",
+      "byline": "Ушакова Ирина",
+      "siteName": "zr.ru",
+      "content": "Покупатели машин в России могут получить защиту от неожиданных требований доплатить утилизационный сбор за автомобиль, который уже оформлен на них. Обсуждается механизм, закрывающий такие ситуации: Федеральная таможенная служба (ФТС) находит нарушения при первичном ввозе – и выставляет счет нынешнему владельцу.Мораторий и реестр: что предлагаютДостается при этом и тем, кто приобрел машину через страны Евразийского экономического союза (ЕАЭС). Человек годами ездит, а потом узнает о претензиях: импортер применил льготный коэффициент неправомерно или допустил другую ошибку.По закону таможня вправе искать недоплату в течение трех лет с момента ввоза – срок немалый.Один из вариантов решения – мораторий на взыскание подобных сумм с конечных покупателей, которые ни о чем не знали. Плюс к этому предлагают завести единый реестр автомобилей с подтвержденной полной уплатой утильсбора: юридическую чистоту машины можно будет проверить еще до сделки.Есть и другие инициативы. ФТС, в частности, могла бы публиковать статистику доначислений – сколько требований выставили, на какую общую сумму, сколько из них обжаловали и отменили. Тем же автовладельцам, кто действительно обязан доплатить, хотят дать рассрочку или отсрочку.Позиция Госдумы по защите покупателейО подготовке обращения в Минпромторг рассказал первый заместитель председателя Комитета Госдумы по бюджету и налогам Каплан Панеш. Добросовестные покупатели, по его мнению, не должны отвечать за нарушения импортеров.«Ответственность должен нести тот, кто ввозил машину и занижал платежи, а не тот, кто купил ее впоследствии», – заявил депутат в беседе с Life.ru.Что касается самого платежа, то речь о разовом обязательном взносе при ввозе автомобиля в Россию или при его производстве внутри страны. Деньги идут на компенсацию будущих расходов на утилизацию машины после окончания срока службы, а плательщиками выступают импортеры, автопроизводители и физлица, которые ввозят авто из-за рубежа самостоятельно.С 1 января 2027 года этот сбор снова вырастет – вопрос лишь в том, насколько подорожают автомобили.О том, как финансовые и законодательные условия меняют авторынок, «За рулем» уже рассказывал.Понравилась публикация?Тогда добавьте «За рулем» в список интересных источников: 1. Откройте https://google.com... 2. Поставьте галочку напротив нашего изданияГотово – остаемся на связи! «За рулем» теперь можно смотреть на RuTube",
+      "images": [
+        {
+          "url": "https://www.zr.ru/d/story/de/988126/depositphotos_84627218_xl-(3).jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.zr.ru/d/story/67/956775/111222.jpg",
+          "alt": ""
+        }
+      ],
+      "length": 2390,
+      "imageCount": 2
+    },
+    "190ol1k": {
+      "version": 4,
+      "url": "https://simonwillison.net/2026/Nov/7/hn-50407316/",
+      "fetchedAt": "2026-11-09T04:52:28.157Z",
+      "title": "Comment: Terry Pratchett's Study",
+      "byline": "Simon Willison",
+      "siteName": "Simon Willison’s Weblog",
+      "content": "7th November 2026\n\nTerry Pratchett once wrote about the concept of \"horizontal wealth\". Vertical wealth is where you spend money on rich people stuff - yachts and suchlike. Horizontal wealth is where you spend more money on the things you liked before you got rich: https://chibuikeani.blogspot.com/2017/02/the-price-of-happin...\n\nBut horizontal wealth means not letting your increased income dictate your tastes. You like books and now you have money? Buy more books! Change those catenary bookshelves for good hardwood ones! In my case, build a library extension to your office. And, of course, you buy what will be useful for that most wonderful of pursuits, blind research, which is research without direction for the sheer joy of it.\n\n(Original source is his book A Slip of the Keyboard - this linked blog post quotes that bit.)",
+      "images": [],
+      "length": 833,
+      "imageCount": 0
+    },
+    "k4u98g": {
+      "version": 4,
+      "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+      "fetchedAt": "2026-11-09T04:52:28.306Z",
+      "title": "Hide your slop PR descriptions behind <details><summary>",
+      "byline": "Simon Willison",
+      "siteName": "Simon Willison’s Weblog",
+      "content": "9th November 2026\n\nMost of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work—I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today’s coding agents are great at writing PR descriptions.\nThey’re too good at describing the work\nThe problem is that they are too good. An agent-written PR description is accurate and comprehensive. It describes the problem, the detailed solution, and the steps taken to verify it. That’s a lot of information to absorb.\nIt’s not necessarily slop, but it reads like slop!\nIt’s very easy to spot an AI-written PR, and as with other forms of AI writing my instant reaction is best summarized as “I’m not reading all of that”. It doesn’t matter how accurate or useful the information is, I’m instantly put off by the thought that it will take me longer to read than it took the driving author to write... even when that driving author is me!\nI want human editorial judgement. I want someone to have thought just long enough about the PR to give me a human-approved introduction that helps me understand, at a high level, what the PR is for and whether it deserves more of my attention.\nI think I’ve found a low-effort way to do this that feels right.\nHide most of it in a details/summary\nThe HTML <details><summary> elements render as a collapsed heading (the summary) that can be expanded to view the larger piece of text. The code looks like this:\n<details>\n<summary>Claude Opus 5.5</summary>\n<h2>The hook</h2>\nPlugins implement <code>register_agent_reference_types(datasette)</code>...\n</details>\nWhen rendered, it looks like this:\n\nCrucially, <details><summary> is supported in GitHub Markdown. You can drop those tags directly into an issue comment or PR description and GitHub will hide the details and display just the summary plus an expansion arrow.\nI’ve started using this for my AI-generated pull requests.\nThe opening paragraph of my PRs will be carefully selected to act as a high-level explanation of what’s going on—the shortest text a human can read that will help get them up to speed.\nI’ll sometimes throw in a screenshot as well, since images are often the best way to quickly illustrate a new feature.\nThe full agent-written essay then follows in a <details><summary>. I use the model name and often the effort level as that summary, to make it abundantly clear what is going on—“Claude Opus 5.5 Medium” for example.\nMy PRs don’t feel nearly as sloppy now! The information is all still there, but a reader can glance at it and get the top, human-curated information without their eyes glazing over at multiple paragraphs of agent-written details.\nI don’t always write the introduction myself—sometimes the agent has given me what I need already, hidden away in the avalanche of other text. My promise to the reader is that the short opener will represent my human judgement as to what is definitely worth their time.\nHere are some recent examples where I’ve used this pattern, including the opener I used:\n\ndatasette PR #3052: Redesign row page as a vertical list of fields—\"The row page showed its single row as a one-row table. For wide tables, like a 46-column GitHub repos table, that scrolled far off to the right and left most of the page blank.\" (then a screenshot)\n\ndatasette PR #3043: Pagination bar showing which rows are on the current page—“Table pages that span more than one page now make it obvious where you are, and offer navigation at the top of the page as well as the bottom.” (plus screenshot)\n\ndatasette PR #3042: Load edit-tools.js on demand via a small loader—\"edit-tools.js (~220KB) was loaded on every table, row and database page, even for users who couldn’t edit anything. Now only load it for users who can edit when they first interact with an edit feature (including mouse over an edit link).\"\n\ndatasette-agent PR #51: register_agent_reference_types plugin hook—\"Lets plugins add their own kinds of item to the # tagging in the chat composer using a new register_agent_reference_types(datasette) plugin hook.\"—pictured above.\n\nllm PR #1838: Add llm openai endpoint add/list/remove/path commands—\"Adds commands for managing the records in extra-openai-models.yaml, so OpenAI-compatible endpoints can be saved from the command line instead of by hand-editing YAML.\"—then copied --help output.\n\nThe mnemonic\nI used to have trouble remembering the order of the tags—is it <details><summary> or <summary><details>?\nHere are two tricks that helped me.\nFirst, and most obviously, the <summary> is clearly the bit where you summarize the details. That’s the tag for your line of text that can be clicked to expand—the <details> element must then wrap everything else.\nAn even better trick is to always refer to these two tags as “details-summary”.\n“details-summary” is two syllables followed by three syllables. That rolls off the tongue more smoothly than the three-two punch of “summary-details”.\nSay “details-summary” out loud just a few times and you’ll never forget the order of the tags again.\n(I still wish GitHub would add a button to their Markdown editor for this—partly to save me painstakingly typing it on my mobile keyboard, and partly to help spread the word to more GitHub users that this feature exists.)",
+      "images": [
+        {
+          "url": "https://static.simonwillison.net/static/2026/details-summary-card.webp",
+          "alt": ""
+        },
+        {
+          "url": "https://static.simonwillison.net/static/2026/details-summary-pr.gif",
+          "alt": "Screenshot of a GitHub PR. The text \"Claude Opus 5.5\" sits next to a little black arrow. Clicking on that text expands a full description inside the PR body."
+        }
+      ],
+      "length": 5366,
+      "imageCount": 2
+    },
+    "1gn2j5s": {
+      "version": 4,
+      "url": "https://www.pcgamer.com/games/the-elder-scrolls/lead-designer-bruce-nesmith-says-skyrim-was-a-hit-because-it-was-built-on-institutional-knowledge-from-oblivion/",
+      "fetchedAt": "2026-11-09T04:52:29.133Z",
+      "title": "Lead designer Bruce Nesmith says Skyrim was a hit because it was built on institutional knowledge from Oblivion",
+      "byline": "Jody Macgregor",
+      "siteName": "PC Gamer",
+      "content": "(Image credit: Bethesda)\n\nI don't know about you, but I'm not a huge fan of the way YouTube encourages everything becoming a video that's over an hour long and doesn't have a text version available. There's a recent video putting the original Pool of Radiance into the greater context of the history of CRPGs that's almost 10 hours long, and the odds of me watching more than 10% of it are perishingly low.Fortunately for you, we're here to convert video to text for your edification, as with The Examined Game's comprehensive interview with Skyrim lead designer Bruce Nesmith. Asked how a game as successful as Skyrim came to be, Nesmith emphasized the importance of keeping the team together.\n\nThe Biggest Lesson Bethesda Learned From Skyrim | Bruce Nesmith - YouTube\n\nWatch On\n\nIf I had an actual blueprint on how to do it, I would be one rich son of a bitch. A lot of it comes down to we had the same team that had worked on Oblivion. The studio had not really changed dramatically. So we were able to deal with institutional knowledge at a high level that had been retained, which allows us to not make mistakes and build on successes. That was definitely key to it. I think also we gave a high priority to making sure that the world was full. There was nowhere that you went where there wasn't at least something fun to see if not something fun to do. And it and it can be just little things, it can be a little vignette on the side of the road. It doesn't have to be a huge big adventure, but the visual storytelling was fantastic. I go back to that sense of freedom once again, but we accelerated that in Skyrim compared to Oblivion. It makes the world feel rich when there's a variety of experiences. The same experience over and over and over again doesn't cut it. So you have a wealth of enemy types, you've got a lot of different treasure types and loot types, you're allowed to pick everything up in the world. When you go see the forests, they look like forests. Then you can see the mountains, they look like mountains. And you go to ice fields and they look like ice fields, so you get a variety of environmental experiences. Each of the cities had its own characters, so they felt very different. You felt like you're experiencing something new. And the characters, the characters all felt like they had some personality to them so that you weren't just seeing cookie cutter versions of people.\n\nI have to disagree with Nesmith on the characters, because memorable NPCs are one of Skyrim's weak spots—all those people with recycled voices and limited dialogue. But he's right that Skyrim feels full despite the absence of Ubisoft-style repeatable activities. At no point do you pick up a butterfly and get a notification that says \"1/100 butterflies collected\". The butterflies are just there, and you can grab them and turn them into potion ingredients if you want. Then while you're out harvesting ingredients you meet a thief or a dying orc or an NPC who points you to a sidequest, and you're off on a new journey. That's what Skyrim does well.Nesmith goes on to say depth like that was made possible, \"by having people who knew what they were doing and could hit the ground running. You didn't have to train people what it meant to make an Elder Scrolls game.\" Instead of laying off half the Oblivion team the moment it shipped, Bethesda kept them together. \"If you look at the history of AAA studios that do sequels, you'll see that repeated,\" Nesmith continues. \"You'll see the best game in a sequence frequently was able to maintain a particular percentage of the staff—was able to maintain a vision.\"\nKeep up to date with the most important stories and the best deals, as picked by the PC Gamer team.\n\nJody's first computer was a Commodore 64, so he remembers having to use a code wheel to play Pool of Radiance. A former music journalist who interviewed everyone from Giorgio Moroder to Trent Reznor, Jody also co-hosted Australia's first radio show about videogames, Zed Games. He's written for Rock Paper Shotgun, The Big Issue, GamesRadar, Zam, Glixel, Five Out of Ten Magazine, and Playboy.com, whose cheques with the bunny logo made for fun conversations at the bank. Jody's first article for PC Gamer was about the audio of Alien Isolation, published in 2015. Jody edited PC Gamer Indie from 2017 to 2018, and he eventually lived up to his promise to play every Warhammer videogame.",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/MyvfFsTsp3uiJPAp3NHRnB-1920-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/MyvfFsTsp3uiJPAp3NHRnB-1200-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.youtube.com/vi/10mvuCMbc9Y/maxresdefault.jpg",
+          "alt": "The Biggest Lesson Bethesda Learned From Skyrim | Bruce Nesmith - YouTube"
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/JPsR6eriCq8yiEMwoKNxoC-140-80.png",
+          "alt": "Skyrim lead designer Bruce Nesmith at home."
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/3SnLWZBtqUMSAffCn6DvAD-140-80.png",
+          "alt": "PC Gamer headshot - Jody MacGregor"
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/MyvfFsTsp3uiJPAp3NHRnB-1920-80.jpg.webp",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/JPsR6eriCq8yiEMwoKNxoC-140-80.png.webp",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/3SnLWZBtqUMSAffCn6DvAD-140-80.png.webp",
+          "alt": ""
+        }
+      ],
+      "length": 4414,
+      "imageCount": 8
+    },
+    "1t9mq30": {
+      "version": 4,
+      "url": "https://www.playground.ru/misc/news/horror_obitel_zla_zaka_kreggera_voshel_v_desyatku_samyh_kassovyh_filmov_uzhasov_xxi_veka-1888975",
+      "fetchedAt": "2026-11-09T04:52:30.138Z",
+      "title": "Хоррор \"Обитель зла\" Зака Креггера вошел в десятку самых кассовых фильмов ужасов XXI века",
+      "byline": "Gruz_",
+      "siteName": "Playground",
+      "content": "Фантастический хоррор «Обитель зла» режиссера Зака Креггера демонстрирует феноменальную стойкость в прокате. Несмотря на параллельный релиз на стриминговых платформах, лента от Sony Pictures сумела добиться исторического достижения.\nПо итогам прошедших выходных общемировые сборы картины достигли внушительной отметки в $409,7 млн. Этот результат позволил новой экранизации культовой франшизы выбить фильм «Закулисье реальности» из десятки самых кассовых фильмов ужасов XXI века.\nАктуальный топ-10 самых кассовых хорроров XXI века на данный момент:\n\nОно (2017) — $719 млн\nЯ — легенда (2007) — $585 млн\nВойна миров Z (2013) — $540 млн\nОбсессия (2026) — $525 млн\nЗаклятие 4: Последний ритуал (2025) — $499 млн\nОно 2 (2019) — $473 млн\nБитлджус Битлджус (2024) — $452 млн\nОбитель зла (2026) — $409,7 млн\nЗнаки (2002) — $408 млн\nПрометей (2012) — $403 млн\n\nВ центре сюжета новой «Обители зла» — история обычного курьера, доставляющего медицинские материалы, который оказывается в самом эпицентре зомби-апокалипсиса в ночь, когда Ракун-Сити заполняют ожившие мертвецы.\nКинотеатральный прокат ленты все еще продолжается.",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/Pe70vmqCPO73WuVaVEhaVQ.jpeg",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/Pe70vmqCPO73WuVaVEhaVQ.jpeg?760xauto",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/Pe70vmqCPO73WuVaVEhaVQ.jpeg.webp?420xauto",
+          "alt": ""
+        }
+      ],
+      "length": 1113,
+      "imageCount": 3
     }
   }
 }

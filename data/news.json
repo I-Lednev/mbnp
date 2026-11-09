@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-09T04:22:23.399Z",
-  "tookMs": 10343,
+  "generatedAt": "2026-11-09T04:52:25.831Z",
+  "tookMs": 9657,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -25,25 +25,25 @@
   },
   "counts": {
     "ai": 148,
-    "games": 166,
+    "games": 167,
     "announces": 20,
     "mobile": 10,
     "releases": 35,
     "rumors": 17,
     "software": 40,
     "science": 87,
-    "entertainment": 285,
-    "ports": 186,
-    "pc": 60,
+    "entertainment": 286,
+    "ports": 187,
+    "pc": 61,
     "consoles": 145,
     "hardware": 56,
     "industry": 39,
     "updates": 21,
     "aimods": 3,
-    "aisoft": 58,
-    "cars": 173,
+    "aisoft": 61,
+    "cars": 176,
     "war": 166,
-    "total": 1715
+    "total": 1725
   },
   "sourceCount": 89,
   "sources": [
@@ -697,17 +697,186 @@
   ],
   "items": [
     {
-      "id": "gh-1450926019",
-      "title": "SamiEnazi/infamous2-port: inFAMOUS 2 (PS3) as a native Windows program: Setup recompiles YOUR copy on your PC (ps3recomp, Vulkan). No game files included.",
-      "url": "https://github.com/SamiEnazi/infamous2-port",
-      "excerpt": "inFAMOUS 2 (PS3) as a native Windows program: Setup recompiles YOUR copy on your PC (ps3recomp, Vulkan). No game files included.",
+      "id": "gh-1432211997",
+      "title": "intermission88/SedotDeck: Obtainium for Steam Deck: keep recomps, PC ports and emulators updated and in your Steam library",
+      "url": "https://github.com/intermission88/SedotDeck",
+      "excerpt": "Obtainium for Steam Deck: keep recomps, PC ports and emulators updated and in your Steam library",
       "image": "",
-      "publishedAt": "2026-11-09T04:17:06Z",
-      "addedAt": "2026-11-09T04:22:17.683Z",
+      "publishedAt": "2026-11-09T04:47:01Z",
+      "addedAt": "2026-11-09T04:52:20.125Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
       "lang": "en"
+    },
+    {
+      "id": "1gn2j5s",
+      "title": "Lead designer Bruce Nesmith says Skyrim was a hit because it was built on institutional knowledge from Oblivion",
+      "url": "https://www.pcgamer.com/games/the-elder-scrolls/lead-designer-bruce-nesmith-says-skyrim-was-a-hit-because-it-was-built-on-institutional-knowledge-from-oblivion/",
+      "excerpt": "I don't know about you, but I'm not a huge fan of the way YouTube encourages everything becoming a video that's over an hour long and doesn't have a text version available. There's a recent video putting the original Pool of Radiance into the greater context…",
+      "content": "I don't know about you, but I'm not a huge fan of the way YouTube encourages everything becoming a video that's over an hour long and doesn't have a text version available. There's a recent video putting the original Pool of Radiance into the greater context of the history of CRPGs that's almost 10 hours long, and the odds of me watching more than 10% of it are perishingly low.\n\nFortunately for you, we're here to convert video to text for your edification, as with The Examined Game's comprehensive interview with Skyrim lead designer Bruce Nesmith. Asked how a game as successful as Skyrim came to be, Nesmith emphasized the importance of keeping the team together.\n\nFallout 4 cheats : Nuclear codes\nNew Vegas console commands : Stacked deck\nOblivion console commands : Crisis controls\nSkyrim console commands : Tune your Tamriel\nSkyrim Anniversary Edition : What it includes",
+      "image": "https://cdn.mos.cms.futurecdn.net/MyvfFsTsp3uiJPAp3NHRnB-1920-80.jpg",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/MyvfFsTsp3uiJPAp3NHRnB-1920-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/afZYAs9fTHP3qxTNcvkXcF-1920-80.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T04:45:28.000Z",
+      "sourceId": "pcgamer",
+      "source": "PC Gamer",
+      "category": "pc",
+      "lang": "en",
+      "addedAt": "2026-11-09T04:52:16.174Z"
+    },
+    {
+      "id": "whlc72",
+      "title": "Toyota отзывает более 176 тыс. автомобилей: причины",
+      "url": "https://www.zr.ru/content/news/988127-gajka-oslabla-tormoznoj-put/",
+      "excerpt": "Toyota отзывает в Китае 176 737 автомобилей из-за технических неисправностей",
+      "content": "Toyota отзывает в Китае 176 737 автомобилей из-за технических неисправностей",
+      "image": "https://www.zr.ru/_ah/img/CQ2bZnDvqv3p8KLYBFXntw",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/CQ2bZnDvqv3p8KLYBFXntw",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T04:40:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-09T04:52:16.174Z"
+    },
+    {
+      "id": "1pycmv1",
+      "title": "На рынок вышел крупный седан Toyota чуть дороже 2 млн рублей",
+      "url": "https://www.zr.ru/content/news/988187-avalon-nauchilsya-vyglyadet-kak/",
+      "excerpt": "Toyota начала продажи обновленного Avalon с ценой от 2,2 млн рублей",
+      "content": "Toyota начала продажи обновленного Avalon с ценой от 2,2 млн рублей",
+      "image": "https://www.zr.ru/_ah/img/bG-GYzRaoSGkWZdmCKFhJA",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/bG-GYzRaoSGkWZdmCKFhJA",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T04:35:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-09T04:52:16.174Z"
+    },
+    {
+      "id": "n8f7vi",
+      "title": "The Web Is More Than Enough, by Paul Ford",
+      "url": "https://simonwillison.net/2026/Nov/9/hn-50421091/",
+      "excerpt": "My comment on The Web Is More Than Enough, by Paul Ford &mdash; Hacker News. OK, this comment convinced me to give that a shot. Here's a thing I made in Three.js this morning - a Nudibranch themed Faberge Egg…",
+      "content": "My comment on The Web Is More Than Enough, by Paul Ford &mdash; Hacker News.\n\nOK, this comment convinced me to give that a shot.\n\nHere's a thing I made in Three.js this morning - a Nudibranch themed Faberge Egg: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (77KB)\n\nI just asked Claude (Opus 5.5 Medium running in regular Claude Chat) to port that to Vanilla JS, in the same thread where it had built it, and got this: https://static.simonwillison.net/static/2026/Hidden-Reef-Egg... (98KB)\n\nThey aren't identical - you can see what Claude said about that in the transcript (I don't fully understand why it differed): https://claude.ai/share/e56d163e-2793-4677-aa11-191d5058b414\n\nBut yeah, it turns out Claude Opus 5.5 is perfectly capable of 3D modeling in Vanilla JS + WebGL without Three.js.\n\nIn eyeballing the code I find the Three.js slightly easier to understand myself, but I rarely look at the code for these 3D projects so that isn't a particularly big deal.\n\nTags: hacker-news , javascript , ai , generative-ai , llms , claude , three-js",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-09T04:32:33.000Z",
+      "sourceId": "simonw",
+      "source": "Simon Willison",
+      "category": "aisoft",
+      "lang": "en",
+      "addedAt": "2026-11-09T04:52:16.174Z"
+    },
+    {
+      "id": "vpfizo",
+      "title": "John Oliver Dunks on Midterms Losers Elon Musk and Haley Stevens",
+      "url": "https://variety.com/2026/tv/news/john-oliver-midterms-losers-elon-musk-haley-stevens-last-week-tonight-1236942879/",
+      "excerpt": "After issuing an urgent warning prior to the midterms about the GOP’s increasingly troubling ties to neo-Nazis (with a little dig at Elizabeth Holmes and Billy Evans, of “You Can See Everything” infamy, thrown in for good measure), John Oliver returned to the…",
+      "content": "After issuing an urgent warning prior to the midterms about the GOP’s increasingly troubling ties to neo-Nazis (with a little dig at Elizabeth Holmes and Billy Evans, of “You Can See Everything” infamy, thrown in for good measure), John Oliver returned to the “Last Week Tonight” desk on Sunday to bask in the Democrats’ blue […]",
+      "image": "https://variety.com/wp-content/uploads/2026/11/Michigan-Democratic-Senate-Candidate-Haley-Stevens-Holds-Primary-Night-Event-In-Detroit-President-Trump-Holds-A-Cabinet-Meeting-At-The-White-House-1000.jpg",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/Michigan-Democratic-Senate-Candidate-Haley-Stevens-Holds-Primary-Night-Event-In-Detroit-President-Trump-Holds-A-Cabinet-Meeting-At-The-White-House-1000.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T04:28:32.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-09T04:52:16.174Z"
+    },
+    {
+      "id": "1t9mq30",
+      "title": "Хоррор \"Обитель зла\" Зака Креггера вошел в десятку самых кассовых фильмов ужасов XXI века",
+      "url": "https://www.playground.ru/misc/news/horror_obitel_zla_zaka_kreggera_voshel_v_desyatku_samyh_kassovyh_filmov_uzhasov_xxi_veka-1888975",
+      "excerpt": "Фантастический хоррор \"Обитель зла\" режиссера Зака Креггера демонстрирует феноменальную стойкость в прокате. Несмотря на параллельный релиз на стриминговых платформах, лента от Sony Pictures сумела добиться исторического достижения.",
+      "content": "Фантастический хоррор \"Обитель зла\" режиссера Зака Креггера демонстрирует феноменальную стойкость в прокате. Несмотря на параллельный релиз на стриминговых платформах, лента от Sony Pictures сумела добиться исторического достижения.",
+      "image": "https://i.playground.ru/e/Pe70vmqCPO73WuVaVEhaVQ.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/Pe70vmqCPO73WuVaVEhaVQ.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T04:27:09.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-09T04:52:16.174Z"
+    },
+    {
+      "id": "k4u98g",
+      "title": "Hide your slop PR descriptions behind",
+      "url": "https://simonwillison.net/2026/Nov/9/details-summary/",
+      "excerpt": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then…",
+      "content": "Most of the changes I make to my projects these days come in the form of PRs opened for me by Claude Code or Codex. The PR is my unit of work - I use them to bundle commits together, iterating on them until a feature is complete, document decisions and then merge the finished result. Today's coding agents are great at writing PR descriptions.\n\nThey're too good at describing the work\n\nThe problem is that they are too good. An agent-written PR description is accurate and comprehensive. It describes the problem, the detailed solution, and the steps taken to verify it. That's a lot of information to absorb.\n\nIt's not necessarily slop, but it reads like slop!\n\nIt's very easy to spot an AI-written PR, and as with other forms of AI writing my instant reaction is best summarized as \"I'm not reading all of that\". It doesn't matter how accurate or useful the information is, I'm instantly put off by the thought that it will take me longer to read than it took the driving author to write... even when that driving author is me!\n\nI want human editorial judgement. I want someone to have thought just long enough about the PR to give me a human-approved introduction that helps me understand, at a high level, what the PR is for and whether it deserves more of my attention.\n\nI think I've found a low-effort way to do this that feels right.\n\nHide most of it in a details/summary\n\nThe HTML &lt;details&gt;&lt;summary&gt; elements render as a collapsed heading (the summary) that can be expanded to view the larger piece of text. The code looks like this:\n\n&lt; details &gt;\n&lt; summary &gt; Claude Opus 5.5 &lt;/ summary &gt;\n&lt; h2 &gt; The hook &lt;/ h2 &gt;\nPlugins implement &lt; code &gt; register_agent_reference_types(datasette) &lt;/ code &gt; ...\n&lt;/ details &gt;\n\nWhen rendered, it looks like this :\n\nCrucially, &lt;details&gt;&lt;summary&gt; is supported in GitHub Markdown . You can drop those tags directly into an issue comment or PR description and GitHub will hide the details and display just the summary plus an expansion arrow.\n\nI've started using this for my AI-generated pull requests.\n\nThe opening paragraph of my PRs will be carefully selected to act as a high-level explanation of what's going on - the shortest text a human can read that will help get them up to speed.\n\nI'll sometimes throw in a screenshot as well, since images are often the best way to quickly illustrate a new feature.\n\nThe full agent-written essay then follows in a &lt;details&gt;&lt;summary&gt; . I use the model name and often the effort level as that summary, to make it abundantly clear what is going on - \"Claude Opus 5.5 Medium\" for example.\n\nMy PRs don't feel nearly as sloppy now! The information is all still there, but a reader can glance at it and get the top, human-curated information without their eyes glazing over at multiple paragraphs of agent-written details.\n\nI don't always write the introduction myself - sometimes the agent has given me what I need already, hidden away in the avalanche of other text. My promise to the reader is that the short opener will represent my human judgement as to what is definitely worth their time.\n\nHere are some recent examples where I've used this pattern, including the opener I used:\n\n•\ndatasette PR #3052: Redesign row page as a vertical list of fields - \"The row page showed its single row as a one-row table. For wide tables, like a 46-column GitHub repos table, that scrolled far off to the right and left most of the page blank.\" (then a screenshot)\n\n•\ndatasette PR #3043: Pagination bar showing which rows are on the current page - \"Table pages that span more than one page now make it obvious where you are, and offer navigation at the top of the page as well as the bottom.\" (plus screenshot)\n\n•\ndatasette PR #3042: Load edit-tools.js on demand via a small loader - \" edit-tools.js (~220KB) was loaded on every table, row and database page, even for users who couldn't edit anything. Now only load it for users who can edit when they first interact with an edit feature (including mouse over an edit link).\"\n\n•\ndatasette-agent PR #51: register_agent_reference_types plugin hook - \"Lets plugins add their own kinds of item to the # tagging in the chat composer using a new register_agent_reference_types(datasette) plugin hook.\" - pictured above.\n\n•\nllm PR #1838: Add llm openai endpoint add/list/remove/path commands - \"Adds commands for managing the records in extra-openai-models.yaml , so OpenAI-compatible endpoints can be saved from the command line instead of by hand-editing YAML.\" - then copied --help output.\n\nThe mnemonic\n\nI used to have trouble remembering the order of the tags - is it &lt;details&gt;&lt;summary&gt; or &lt;summary&gt;&lt;details&gt; ?\n\nHere are two tricks that helped me.\n\nFirst, and most obviously, the &lt;summary&gt; is clearly the bit where you summarize the details. That's the tag for your line of text that can be clicked to expand - the &lt;details&gt; element must then wrap everything else.\n\nAn even better trick is to always refer to these two tags as \"details-summary\".\n\n\"details-summary\" is two syllables followed by three syllables. That rolls off the tongue more smoothly than the three-two punch of \"summary-details\".\n\nSay \"details-summary\" out loud just a few times and you'll never forget the order of the tags again.\n\n(I still wish GitHub would add a button to their Markdown editor for this - partly to save me painstakingly typing it on my mobile keyboard, and partly to help spread the word to more GitHub users that this feature exists.)\n\nTags: github , html , markdown , ai , generative-ai , llms , ai-assisted-programming , coding-agents",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-09T04:25:05.000Z",
+      "sourceId": "simonw",
+      "source": "Simon Willison",
+      "category": "aisoft",
+      "lang": "en",
+      "addedAt": "2026-11-09T04:52:16.174Z"
+    },
+    {
+      "id": "1u07k0z",
+      "title": "Автомобилистов хотят защитить от неожиданных платежей",
+      "url": "https://www.zr.ru/content/news/988126-mashina-kuplena-davno-a-schet-z/",
+      "excerpt": "Депутат Панеш направит в Минпромторг обращение из-за доначислений утильсбора",
+      "content": "Депутат Панеш направит в Минпромторг обращение из-за доначислений утильсбора",
+      "image": "https://www.zr.ru/_ah/img/F3sw9YkWurWKv-HdvJcL_g",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/F3sw9YkWurWKv-HdvJcL_g",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T04:20:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-09T04:52:16.174Z"
+    },
+    {
+      "id": "190ol1k",
+      "title": "Terry Pratchett's Study",
+      "url": "https://simonwillison.net/2026/Nov/7/hn-50407316/",
+      "excerpt": "My comment on Terry Pratchett&#x27;s Study &mdash; Hacker News. Terry Pratchett once wrote about the concept of \"horizontal wealth\". Vertical wealth is where you spend money on rich people stuff - yachts and suchlike. Horizontal wealth is where you spend more…",
+      "content": "My comment on Terry Pratchett&#x27;s Study &mdash; Hacker News.\n\nTerry Pratchett once wrote about the concept of \"horizontal wealth\". Vertical wealth is where you spend money on rich people stuff - yachts and suchlike. Horizontal wealth is where you spend more money on the things you liked before you got rich: https://chibuikeani.blogspot.com/2017/02/the-price-of-happin...\n\nBut horizontal wealth means not letting your increased income dictate your tastes. You like books and now you have money? Buy more books! Change those catenary bookshelves for good hardwood ones! In my case, build a library extension to your office. And, of course, you buy what will be useful for that most wonderful of pursuits, blind research, which is research without direction for the sheer joy of it.\n\n(Original source is his book A Slip of the Keyboard - this linked blog post quotes that bit.)\n\nTags: hacker-news , terry-pratchett",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-07T19:34:24.000Z",
+      "sourceId": "simonw",
+      "source": "Simon Willison",
+      "category": "aisoft",
+      "lang": "en",
+      "addedAt": "2026-11-09T04:52:16.174Z"
     },
     {
       "id": "gh-1433523832",
@@ -715,7 +884,7 @@
       "url": "https://github.com/TheGreatVulpzin/SubVulpes",
       "excerpt": "An custom advanced server base for Subrosa 0.24!",
       "image": "",
-      "publishedAt": "2026-11-09T04:12:09Z",
+      "publishedAt": "2026-11-09T04:42:38Z",
       "addedAt": "2026-11-09T04:22:17.683Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -728,7 +897,20 @@
       "url": "https://github.com/thefixinhixon/SplosionManRecomp",
       "excerpt": "Native Linux & Windows ports of 'Splosion Man (Xbox 360 XBLA) — ReXGlue recomp with bespoke TP launchers. Bring your own game data.",
       "image": "",
-      "publishedAt": "2026-11-09T04:10:11Z",
+      "publishedAt": "2026-11-09T04:34:30Z",
+      "addedAt": "2026-11-09T04:22:17.683Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1450926019",
+      "title": "SamiEnazi/infamous2-port: inFAMOUS 2 (PS3) as a native Windows program: Setup recompiles YOUR copy on your PC (ps3recomp, Vulkan). No game files included.",
+      "url": "https://github.com/SamiEnazi/infamous2-port",
+      "excerpt": "inFAMOUS 2 (PS3) as a native Windows program: Setup recompiles YOUR copy on your PC (ps3recomp, Vulkan). No game files included.",
+      "image": "",
+      "publishedAt": "2026-11-09T04:24:00Z",
       "addedAt": "2026-11-09T04:22:17.683Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -957,7 +1139,7 @@
       "url": "https://github.com/sonicnext-dev/MarathonRecomp",
       "excerpt": "An unofficial PC port of the Xbox 360 version of Sonic the Hedgehog (2006) created through the process of static recompilation",
       "image": "",
-      "publishedAt": "2026-11-09T03:35:53Z",
+      "publishedAt": "2026-11-09T04:47:59Z",
       "addedAt": "2026-11-09T03:22:18.875Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -2072,7 +2254,7 @@
       "url": "https://github.com/Glitxhhh/XenobladeChroniclesRecompiled",
       "excerpt": "Recompilations & PC Ports of the Xenoblade Chronicles Series",
       "image": "",
-      "publishedAt": "2026-11-09T04:15:40Z",
+      "publishedAt": "2026-11-09T04:25:46Z",
       "addedAt": "2026-11-08T23:59:29.746Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -3031,8 +3213,8 @@
       "id": "t8mbnr",
       "title": "How I Fight AI Brain Fry",
       "url": "https://sergeykuhne.com/blog/fighting-ai-brain-fry",
-      "excerpt": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry Comments URL: https://news.ycombinator.com/item?id=50416363 Points: 186 # Comments: 145",
-      "content": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry\n\nComments URL: https://news.ycombinator.com/item?id=50416363\n\nPoints: 186\n\n# Comments: 145",
+      "excerpt": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry Comments URL: https://news.ycombinator.com/item?id=50416363 Points: 189 # Comments: 150",
+      "content": "Article URL: https://sergeykuhne.com/blog/fighting-ai-brain-fry\n\nComments URL: https://news.ycombinator.com/item?id=50416363\n\nPoints: 189\n\n# Comments: 150",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T19:37:42.000Z",
@@ -4068,8 +4250,8 @@
       "id": "1aabzwz",
       "title": "Goldman Sachs is pulling Claude Code from its bankers and traders",
       "url": "https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers",
-      "excerpt": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 663 # Comments: 381",
-      "content": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers\n\nComments URL: https://news.ycombinator.com/item?id=50415628\n\nPoints: 663\n\n# Comments: 381",
+      "excerpt": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers Comments URL: https://news.ycombinator.com/item?id=50415628 Points: 672 # Comments: 381",
+      "content": "Article URL: https://www.thestateofai.com/news/goldman-sachs-claude-code-traders-bankers\n\nComments URL: https://news.ycombinator.com/item?id=50415628\n\nPoints: 672\n\n# Comments: 381",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T18:16:07.000Z",
@@ -9289,7 +9471,7 @@
       "url": "https://github.com/bradharding/doomretro",
       "excerpt": "The classic, refined DOOM source port. For Windows PC.",
       "image": "",
-      "publishedAt": "2026-11-09T04:21:58Z",
+      "publishedAt": "2026-11-09T04:31:40Z",
       "addedAt": "2026-11-08T07:10:11.604Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -9610,8 +9792,8 @@
       "id": "vduo6c",
       "title": "Goodbye Claude, hello Pi",
       "url": "https://caleb.software/posts/claude-to-pi.html",
-      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 715 # Comments: 444",
-      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 715\n\n# Comments: 444",
+      "excerpt": "Article URL: https://caleb.software/posts/claude-to-pi.html Comments URL: https://news.ycombinator.com/item?id=50410107 Points: 717 # Comments: 445",
+      "content": "Article URL: https://caleb.software/posts/claude-to-pi.html\n\nComments URL: https://news.ycombinator.com/item?id=50410107\n\nPoints: 717\n\n# Comments: 445",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-08T03:11:48.000Z",
@@ -10788,7 +10970,7 @@
       "url": "https://github.com/Destinity13/TimeSplitters-2-Native-Linux-Recomp",
       "excerpt": "TimeSplitters 2 (PS2, NTSC-U) statically recompiled to a native Linux executable – HD remaster: 60 FPS, real 16:9, up to 8x resolution, split-screen co-op, verified against PCSX2",
       "image": "",
-      "publishedAt": "2026-11-09T04:20:49Z",
+      "publishedAt": "2026-11-09T04:47:44Z",
       "addedAt": "2026-11-08T01:40:14.870Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -11851,12 +12033,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1421568804",
-      "title": "spitzdano/AidynReChronicled: Aidyn Chronicles: The First Mage (N64) as a native Linux and Windows game: HD and widescreen, newly painted art, smooth frame rates, quicksaves and Aidyn Patch / Aidyn Plus support. Bring your own ROM.",
-      "url": "https://github.com/spitzdano/AidynReChronicled",
-      "excerpt": "Aidyn Chronicles: The First Mage (N64) as a native Linux and Windows game: HD and widescreen, newly painted art, smooth frame rates, quicksaves and Aidyn Patch / Aidyn Plus support. Bring your own ROM.",
+      "id": "gh-1439286882",
+      "title": "gustavomorinaga/project-vekta: Killzone HD // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
+      "url": "https://github.com/gustavomorinaga/project-vekta",
+      "excerpt": "Killzone HD // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
       "image": "",
-      "publishedAt": "2026-11-09T03:54:47Z",
+      "publishedAt": "2026-11-09T04:31:37Z",
       "addedAt": "2026-11-07T21:44:03.491Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -11864,12 +12046,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1439286882",
-      "title": "gustavomorinaga/project-vekta: Killzone HD // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
-      "url": "https://github.com/gustavomorinaga/project-vekta",
-      "excerpt": "Killzone HD // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
+      "id": "gh-1421568804",
+      "title": "spitzdano/AidynReChronicled: Aidyn Chronicles: The First Mage (N64) as a native Linux and Windows game: HD and widescreen, newly painted art, smooth frame rates, quicksaves and Aidyn Patch / Aidyn Plus support. Bring your own ROM.",
+      "url": "https://github.com/spitzdano/AidynReChronicled",
+      "excerpt": "Aidyn Chronicles: The First Mage (N64) as a native Linux and Windows game: HD and widescreen, newly painted art, smooth frame rates, quicksaves and Aidyn Patch / Aidyn Plus support. Bring your own ROM.",
       "image": "",
-      "publishedAt": "2026-11-09T03:26:57Z",
+      "publishedAt": "2026-11-09T03:54:47Z",
       "addedAt": "2026-11-07T21:44:03.491Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -35067,10 +35249,10 @@
     },
     {
       "id": "130ljkl",
-      "title": "Война в Украине: в Кременчуге дроны попали по жилому дому и гостинице; сообщения об ударе по НПЗ в Киришах Ленинградской области",
+      "title": "Война в Украине: Трамп предположил, что после войны «Украина будет выглядеть немного иначе»; сообщения об ударе по НПЗ в Киришах",
       "url": "https://www.bbc.co.uk/russian/live/cmjrwvyj4jy8t?at_medium=RSS&at_campaign=rss",
       "excerpt": "Последние новости, комментарии и видео о войне России против Украины.",
-      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eea0/live/993ba2c0-dbb2-11f1-a701-fddedf244c16.jpg",
+      "image": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a1dd/live/82740550-dbf8-11f1-be6e-213e9ea9ebbf.jpg",
       "publishedAt": null,
       "sourceId": "bbc-ru",
       "source": "BBC Russian",
@@ -35080,7 +35262,7 @@
       "content": "Последние новости, комментарии и видео о войне России против Украины.",
       "images": [
         {
-          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/eea0/live/993ba2c0-dbb2-11f1-a701-fddedf244c16.jpg",
+          "url": "https://ichef.bbci.co.uk/ace/standard/240/cpsprodpb/a1dd/live/82740550-dbf8-11f1-be6e-213e9ea9ebbf.jpg",
           "alt": ""
         }
       ]
