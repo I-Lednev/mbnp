@@ -1,0 +1,276 @@
+<!doctype html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="robots" content="noindex, nofollow" />
+    <title>MBNP — документация</title>
+    <style>
+      :root {
+        --bg: #0b0d13;
+        --surface: #11151d;
+        --surface-2: #171c26;
+        --border: #252b38;
+        --text: #e6e9f0;
+        --muted: #9aa3b2;
+        --accent: #7c5cff;
+        --accent-2: #22d3ee;
+      }
+      * { box-sizing: border-box; }
+      body {
+        margin: 0;
+        background: var(--bg);
+        color: var(--text);
+        font: 15px/1.65 "Segoe UI", system-ui, -apple-system, sans-serif;
+      }
+      .wrap { max-width: 920px; margin: 0 auto; padding: 32px 20px 80px; }
+      a { color: var(--accent-2); }
+      h1 { margin: 0 0 6px; font-size: 30px; letter-spacing: -0.03em; }
+      h2 { margin: 34px 0 10px; font-size: 21px; letter-spacing: -0.02em; }
+      h3 { margin: 22px 0 8px; font-size: 16px; }
+      p, li { color: #c9d0dc; }
+      .sub { color: var(--muted); margin: 0 0 24px; }
+      .card {
+        margin: 14px 0;
+        padding: 16px 18px;
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        background: var(--surface);
+      }
+      code {
+        padding: 1px 5px;
+        border-radius: 5px;
+        background: var(--surface-2);
+        color: #d9e2f2;
+        font-size: 0.92em;
+      }
+      pre {
+        overflow-x: auto;
+        padding: 14px 16px;
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        background: #0d1118;
+        color: #d9e2f2;
+        font-size: 13px;
+        line-height: 1.5;
+      }
+      ul, ol { padding-left: 22px; }
+      li { margin: 4px 0; }
+      .tag {
+        display: inline-block;
+        margin: 0 6px 6px 0;
+        padding: 2px 8px;
+        border: 1px solid var(--border);
+        border-radius: 999px;
+        color: var(--muted);
+        font-size: 11.5px;
+      }
+      .warn {
+        border-color: rgba(251, 191, 36, 0.35);
+        background: rgba(251, 191, 36, 0.07);
+      }
+      .ok {
+        border-color: rgba(52, 211, 153, 0.35);
+        background: rgba(52, 211, 153, 0.07);
+      }
+      table { width: 100%; border-collapse: collapse; margin: 12px 0; }
+      th, td { padding: 9px 10px; border-bottom: 1px solid var(--border); text-align: left; vertical-align: top; }
+      th { color: var(--muted); font-size: 12px; text-transform: uppercase; letter-spacing: 0.06em; }
+      .top { display: flex; flex-wrap: wrap; gap: 10px; align-items: center; margin-bottom: 22px; }
+      .back {
+        display: inline-flex;
+        padding: 8px 14px;
+        border: 1px solid var(--border);
+        border-radius: 9px;
+        background: var(--surface);
+        color: var(--text);
+        text-decoration: none;
+        font-weight: 600;
+      }
+      .back:hover { border-color: var(--accent); }
+    </style>
+  </head>
+  <body>
+    <div class="wrap">
+      <div class="top">
+        <a class="back" href="./">← Вернуться на сайт</a>
+        <a class="back" href="https://github.com/I-Lednev/mbnp">Репозиторий на GitHub</a>
+      </div>
+
+      <h1>MBNP — документация</h1>
+      <p class="sub">My Best NEWSpaper. Всё, что нужно, чтобы понять проект и продолжить работу с другой сессии или компьютера.</p>
+
+      <div class="card ok">
+        <strong>Коротко.</strong> Статический новостной агрегатор на GitHub Pages. Данные собираются GitHub Actions и лежат в JSON. Сайт закрыт входом по логину и паролю, есть приглашения и личный кабинет. MAX-бот умеет показывать сводку и выполнять задачи через OpenCode.
+      </div>
+
+      <h2>1. Быстрый доступ</h2>
+      <table>
+        <tr><th>Что</th><th>Где</th></tr>
+        <tr><td>Сайт</td><td><a href="https://i-lednev.github.io/mbnp/">i-lednev.github.io/mbnp</a></td></tr>
+        <tr><td>Репозиторий</td><td><a href="https://github.com/I-Lednev/mbnp">github.com/I-Lednev/mbnp</a></td></tr>
+        <tr><td>MAX-бот</td><td><code>@se14946657_bot</code></td></tr>
+        <tr><td>Вход на сайт</td><td>логин <code>i.lednev</code>, пароль задан владельцем</td></tr>
+        <tr><td>Личный кабинет</td><td>иконка человека в правом верхнем углу после входа</td></tr>
+      </table>
+
+      <h2>2. Архитектура</h2>
+      <ul>
+        <li><strong>GitHub Pages</strong> — раздаёт HTML, CSS, JS и JSON. Сервера и базы данных нет.</li>
+        <li><strong>GitHub Actions</strong> — каждые 30 минут собирает RSS, переводит и коммитит данные.</li>
+        <li><strong>Данные</strong> — <code>data/news.json</code>, <code>data/translations.json</code>, <code>data/articles.json</code>, <code>data/digest/</code>.</li>
+        <li><strong>Вход</strong> — клиентская проверка пароля по PBKDF2-хэшу, сессия в <code>localStorage</code>.</li>
+        <li><strong>Приглашения</strong> — ссылка с версией; отзыв всех приглашений меняет версию в <code>access/config.json</code>.</li>
+        <li><strong>MAX-бот</strong> — отдельный Node.js-процесс на ПК, long polling MAX Bot API.</li>
+      </ul>
+
+      <h2>3. Структура файлов</h2>
+      <pre>index.html                 разметка, экран входа, диалоги
+styles.css                 темы, карточки, адаптив
+app.js                     логика сайта, авторизация, кабинет
+auth-config.js             логин, соль и хэш пароля, версия приглашений
+access/config.json         текущая версия приглашений
+sw.js                      service worker, офлайн-кэш
+icons/fallback/*.svg       тематические заглушки категорий
+data/news.json             новости за 7 дней
+data/translations.json     переводы
+data/articles.json         полные тексты статей
+data/digest/*.json         недельный архив
+scripts/fetch-news.mjs     сбор RSS → news.json
+scripts/enrich-articles.mjs полный текст → articles.json
+scripts/translate-news.mjs переводы → translations.json
+scripts/serve.mjs          локальный сервер
+.github/workflows/         сборка и плановый запуск</pre>
+
+      <h2>4. Как обновляются новости</h2>
+      <p>Основной путь — GitHub Actions:</p>
+      <ol>
+        <li><code>update-news.yml</code> запускается по расписанию, вручную или после изменения скриптов.</li>
+        <li>Собирает RSS в <code>news.json</code>.</li>
+        <li>Достаёт полные тексты в <code>articles.json</code>.</li>
+        <li>Переводит новые материалы в <code>translations.json</code>.</li>
+        <li>Коммитит данные, GitHub Pages пересобирает сайт.</li>
+      </ol>
+      <p>Расписание GitHub работает не строго по часам: запуски могут задерживаться и иногда пропускаться. Для ручного запуска:</p>
+      <pre>gh workflow run update-news.yml -R I-Lednev/mbnp --ref main</pre>
+      <div class="card warn">
+        <strong>Важно.</strong> Раньше на ПК была задача «MBNP Update» — она запускала сборку каждые 30 минут. Если сайт должен обновляться без ПК, эту задачу нужно отключить, а полагаться на GitHub Actions и workflow «Плановый запуск».
+      </div>
+
+      <h2>5. Деплой вручную</h2>
+      <p>Git не установлен. Файлы заливаются через GitHub Contents API. Пример на Node.js:</p>
+      <pre>const api = 'https://api.github.com';
+const headers = {
+  authorization: `Bearer ${process.env.GH_TOKEN}`,
+  accept: 'application/vnd.github+json',
+  'x-github-api-version': '2022-11-28',
+  'user-agent': 'MBNP-Deploy',
+  'content-type': 'application/json',
+};
+
+const file = 'index.html';
+const bytes = await readFile(file);
+const current = await (await fetch(`${api}/repos/I-Lednev/mbnp/contents/${file}`, { headers })).json();
+await fetch(`${api}/repos/I-Lednev/mbnp/contents/${file}`, {
+  method: 'PUT',
+  headers,
+  body: JSON.stringify({
+    message: `deploy: ${file}`,
+    content: bytes.toString('base64'),
+    sha: current.sha,
+    branch: 'main',
+  }),
+});</pre>
+      <p>После изменения <code>app.js</code> или <code>styles.css</code> поднимайте версию в <code>index.html</code> (<code>?v=N</code>) и <code>CACHE_NAME</code> в <code>sw.js</code>, иначе браузер отдаст старую версию из кэша.</p>
+
+      <h2>6. Вход, приглашения и кабинет</h2>
+      <ul>
+        <li>Пароль хранится только как PBKDF2-хэш в <code>auth-config.js</code>. Открытого пароля в коде нет.</li>
+        <li>Сессия живёт 30 дней в <code>localStorage</code>.</li>
+        <li>Приглашение — ссылка <code>#invite=vN.код</code>. Версия сверяется с <code>access/config.json</code>.</li>
+        <li>Кнопка «Аннулировать все» увеличивает версию в <code>access/config.json</code>; старые ссылки перестают работать.</li>
+        <li>Для отзыва нужен GitHub fine-grained token с правом <strong>Contents: Read and write</strong>. Токен хранится только в браузере.</li>
+        <li>«Размер сайта» в кабинете считает файлы через GitHub API.</li>
+      </ul>
+      <h3>Сменить пароль</h3>
+      <pre>node scripts/make-password-hash.mjs "новый пароль"</pre>
+      <p>Полученные <code>salt</code> и <code>hash</code> вставьте в <code>auth-config.js</code> и задеплойте файл.</p>
+
+      <h2>7. MAX-бот</h2>
+      <p>Бот работает локально на ПК. Конфиг: <code>C:\Users\rolf9\.local\share\opencode\max-bot.json</code>, скрипт: <code>max-bot.mjs</code>. Запуск — при входе в Windows через ярлык в автозагрузке.</p>
+      <table>
+        <tr><th>Команда</th><th>Что делает</th></tr>
+        <tr><td><code>/widgets</code></td><td>баланс DeepSeek, дешёвое время, 100 ₽ в долларах, курс ЦБ</td></tr>
+        <tr><td><code>/status</code></td><td>бот онлайн, OpenCode запущен, последняя сессия</td></tr>
+        <tr><td><code>/balance</code></td><td>остаток DeepSeek API</td></tr>
+        <tr><td><code>/spent</code></td><td>расход текущей сессии и за сегодня в юанях</td></tr>
+        <tr><td><code>/context</code></td><td>общий контекст для всех сессий</td></tr>
+        <tr><td><code>/note текст</code></td><td>добавить заметку в общий контекст</td></tr>
+      </table>
+      <p>Любое сообщение без <code>/</code> — задача для OpenCode. Бот запускает агента, ждёт до 15 минут и присылает отчёт.</p>
+      <div class="card warn">
+        <strong>Секреты.</strong> Токен MAX-бота лежит только в локальном <code>max-bot.json</code>, не в репозитории. Не публикуйте его. Пароль сайта в открытом виде нигде не хранится.
+      </div>
+
+      <h2>8. Источники и категории</h2>
+      <p>Источники описаны массивом <code>FEEDS</code> в <code>scripts/fetch-news.mjs</code>. Чтобы добавить источник, добавьте объект:</p>
+      <pre>{ id: 'example', category: 'games', name: 'Example', lang: 'en', url: 'https://example.com/feed' }</pre>
+      <ul>
+        <li><code>keywords</code> — фильтр для общих лент.</li>
+        <li><code>type: 'github'</code> — поиск репозиториев GitHub.</li>
+        <li><code>type: 'substack'</code> — Substack API.</li>
+        <li><code>type: 'reddit'</code> — Reddit OAuth (нужны ключи).</li>
+      </ul>
+      <p>Категории: ИИ, Игры, Анонсы, Мобильные, Релизы, Слухи, Софт, Наука, Развлечения, Порты, ПК, Консоли, Железо, Индустрия, Обновления, ИИ-моды, ИИ-софт, Авто, Война.</p>
+
+      <h2>9. Переводы</h2>
+      <p><code>translate-news.mjs</code> переводит заголовки, анонсы и текст. По умолчанию Google Translate, до 300 материалов за запуск. Для рассылок лимит текста увеличен до 12 000 символов и разбивается на части.</p>
+      <p>Провайдеры: Google, DeepL (ключ), Ollama (локально). Настройки — переменные окружения в workflow.</p>
+
+      <h2>10. Дайджест</h2>
+      <p>Архив за 12 недель лежит в <code>data/digest/YYYY-Www.json</code>, открывается кнопкой «Дайджест». Внутри — метаданные и ссылки, полный текст остаётся в источниках.</p>
+
+      <h2>11. Ограничения и риски</h2>
+      <ul>
+        <li>GitHub Pages не умеет делать сайт приватным. Вход скрывает интерфейс, но JSON доступны по прямым ссылкам.</li>
+        <li>Репозиторий публичный: код и данные видны на GitHub.</li>
+        <li>Полные тексты статей и переводы — риск по авторским правам. Безопаснее заголовок + короткий анонс + ссылка.</li>
+        <li>Reddit блокирует датацентры (429), Substack — 403. Для них нужны API-ключи или прокси.</li>
+        <li>GitHub Actions может задерживать и пропускать расписание.</li>
+      </ul>
+
+      <h2>12. Если что-то сломалось</h2>
+      <ol>
+        <li>Откройте <a href="https://github.com/I-Lednev/mbnp/actions">Actions</a> и проверьте последний запуск.</li>
+        <li>Запустите вручную: <code>gh workflow run update-news.yml -R I-Lednev/mbnp --ref main</code>.</li>
+        <li>Проверьте <code>data/news.json</code> и <code>generatedAt</code>.</li>
+        <li>Если сайт не обновился — проверьте сборку Pages и версии <code>?v=</code> / <code>CACHE_NAME</code>.</li>
+        <li>Если не работает вход — проверьте <code>auth-config.js</code> и <code>access/config.json</code>.</li>
+        <li>Если молчит MAX-бот — проверьте процесс <code>max-bot.mjs</code> и лог <code>max-bot.log</code>.</li>
+      </ol>
+
+      <h2>13. История изменений</h2>
+      <ul>
+        <li>Новые разделы: ПК, Консоли, Железо, Индустрия, Обновления, Анонсы, Мобильные, Релизы, Слухи, Софт, Наука, Развлечения, Порты.</li>
+        <li>Один источник Playground без деления на подразделы.</li>
+        <li>Две даты на карточках: «В агрегаторе» и «Источник».</li>
+        <li>Сворачиваемое меню категорий, переключатель крупных/компактных карточек.</li>
+        <li>Вход по логину и паролю, приглашения, личный кабинет, размер сайта.</li>
+        <li>Тематические SVG-заглушки для всех категорий.</li>
+        <li>Исправлено автозаполнение поиска логином.</li>
+        <li>Убраны Reddit-раздел и пустые рассылки.</li>
+      </ul>
+
+      <h2>14. Где что лежит</h2>
+      <table>
+        <tr><th>Секрет</th><th>Где хранится</th></tr>
+        <tr><td>Пароль сайта</td><td>PBKDF2-хэш в <code>auth-config.js</code></td></tr>
+        <tr><td>GitHub token для приглашений</td><td>localStorage браузера владельца</td></tr>
+        <tr><td>Токен MAX-бота</td><td><code>C:\Users\rolf9\.local\share\opencode\max-bot.json</code></td></tr>
+        <tr><td>Ключи DeepL / Gemini / Groq</td><td>GitHub Secrets</td></tr>
+      </table>
+
+      <p class="sub" style="margin-top: 36px">Документация обновлена 9 ноября 2026. Если что-то изменилось — правьте <code>docs.html</code> и <code>docs/README.md</code> в репозитории.</p>
+    </div>
+  </body>
+</html>
