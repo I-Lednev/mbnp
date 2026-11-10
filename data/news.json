@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-10T00:40:19.076Z",
-  "tookMs": 15761,
+  "generatedAt": "2026-11-10T00:45:12.068Z",
+  "tookMs": 9545,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -32,7 +32,7 @@
     "rumors": 24,
     "software": 58,
     "science": 123,
-    "entertainment": 398,
+    "entertainment": 399,
     "ports": 204,
     "pc": 88,
     "consoles": 216,
@@ -43,7 +43,7 @@
     "aisoft": 77,
     "cars": 262,
     "war": 226,
-    "total": 2427
+    "total": 2428
   },
   "sourceCount": 89,
   "sources": [
@@ -703,13 +703,26 @@
   ],
   "items": [
     {
+      "id": "gh-1439719759",
+      "title": "Korvonordico/shadow-of-rome-recompiled: Unofficial PC port of Shadow of Rome (PS2), made by static recompilation with PS2Recomp. Drawn by the video card with PCSX2's GS: up to 4x, 60 FPS, 16:9 and 21:9. Not played to the end yet.",
+      "url": "https://github.com/Korvonordico/shadow-of-rome-recompiled",
+      "excerpt": "Unofficial PC port of Shadow of Rome (PS2), made by static recompilation with PS2Recomp. Drawn by the video card with PCSX2's GS: up to 4x, 60 FPS, 16:9 and 21:9. Not played to the end yet.",
+      "image": "",
+      "publishedAt": "2026-11-10T00:41:34Z",
+      "addedAt": "2026-11-10T00:45:06.873Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
       "id": "gh-1426337498",
       "title": "undecuple/qwarks-awakening: Qwark's Awakening: Ratchet & Clank (PS3) // Unofficial PC Port (static recompilation). Early work: in our tests Tools of Destruction plays its first levels; not playable yet.",
       "url": "https://github.com/undecuple/qwarks-awakening",
       "excerpt": "Qwark's Awakening: Ratchet & Clank (PS3) // Unofficial PC Port (static recompilation). Early work: in our tests Tools of Destruction plays its first levels; not playable yet.",
       "image": "",
-      "publishedAt": "2026-11-10T00:38:59Z",
-      "addedAt": "2026-11-10T00:40:06.404Z",
+      "publishedAt": "2026-11-10T00:44:50Z",
+      "addedAt": "2026-11-10T00:45:05.737Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -722,7 +735,7 @@
       "excerpt": "GTA2 (PC, 1999) statically recompiled to native arm64 for Apple Silicon Macs, on Metal and Apple frameworks only. Bring your own game files.",
       "image": "",
       "publishedAt": "2026-11-10T00:35:15Z",
-      "addedAt": "2026-11-10T00:40:06.404Z",
+      "addedAt": "2026-11-10T00:45:05.737Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -735,7 +748,7 @@
       "excerpt": "River Raid (Atari 800, 1982) investigation and C++ port for Windows, Linux and macOS: logic and sound match the original 1:1. Bring your own ROM.",
       "image": "",
       "publishedAt": "2026-11-10T00:08:59Z",
-      "addedAt": "2026-11-10T00:40:06.404Z",
+      "addedAt": "2026-11-10T00:45:05.737Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -748,24 +761,95 @@
       "excerpt": "Unofficial static recompilation of the Xbox 360 version of Need for Speed: Carbon (2006): a native port for Steam Deck, Steam Machine, Steam Frame, Linux and Mac, plus a Windows beta (iPhone/iPad: sideload the experimental IPA or build it yourself). Bring your own disc: no game files included. Not affiliated with EA or Valve.",
       "image": "",
       "publishedAt": "2026-11-09T23:25:30Z",
-      "addedAt": "2026-11-10T00:40:06.404Z",
+      "addedAt": "2026-11-10T00:45:05.737Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
       "lang": "en"
     },
     {
-      "id": "gh-1432769925",
-      "title": "Vnnc1/gow-native-pc: Native Windows PC port of God of War (PS2), built by statically recompiling MIPS R5900 code to C++ with PS2Recomp. Includes an installer launcher, one-click build, fan-translation support and a 60 fps target. No game files included: you need your own copy.",
-      "url": "https://github.com/Vnnc1/gow-native-pc",
-      "excerpt": "Native Windows PC port of God of War (PS2), built by statically recompiling MIPS R5900 code to C++ with PS2Recomp. Includes an installer launcher, one-click build, fan-translation support and a 60 fps target. No game files included: you need your own copy.",
-      "image": "",
-      "publishedAt": "2026-11-09T23:23:13Z",
-      "addedAt": "2026-11-10T00:40:06.404Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
+      "id": "16nhy7g",
+      "title": "40th Australian International Documentary Conference Announces First Group Of Speakers: Poh Si Teng, Tamara Kotevska, Basil Tsiokos & More",
+      "url": "https://deadline.com/2026/11/australian-international-documentary-conference-speakers-1237218083/",
+      "excerpt": "The Australian International Documentary Conference (AIDC) will be welcoming some of the top talents in the documentary field to its upcoming 40th edition. Among the first speakers to be announced: Poh Si Teng, director of Oscar contender American Doctor and…",
+      "content": "The Australian International Documentary Conference (AIDC) will be welcoming some of the top talents in the documentary field to its upcoming 40th edition. Among the first speakers to be announced: Poh Si Teng, director of Oscar contender American Doctor and founder of Tiny Boxer Films; Oscar-nominated filmmaker Tamara Kotevska (The Tale of Silyan, Honeyland); Basil […]",
+      "image": "https://deadline.com/wp-content/uploads/2026/11/AIDC-2027-KEY-ART-LANDSCAPE.jpg",
+      "images": [
+        {
+          "url": "https://deadline.com/wp-content/uploads/2026/11/AIDC-2027-KEY-ART-LANDSCAPE.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-10T00:43:35.000Z",
+      "sourceId": "deadline",
+      "source": "Deadline",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-10T00:45:02.523Z"
+    },
+    {
+      "id": "1qgaq0y",
+      "title": "Tina Knowles’ WACO Theater Center Sets Grand Reopening Celebration for South L.A.’s Historic Vision Theatre",
+      "url": "https://variety.com/2026/scene/news/tina-knowles-waco-theater-center-vision-theatre-south-la-reopening-1236943581/",
+      "excerpt": "The Vision Theatre Performing Arts Center in South L.A. is reopening following 15 years of extensive renovations and a $40 million investment. To celebrate the historic theater’s return, WACO Theater Center, led by founder & artistic director Tina Knowles and…",
+      "content": "The Vision Theatre Performing Arts Center in South L.A. is reopening following 15 years of extensive renovations and a $40 million investment. To celebrate the historic theater’s return, WACO Theater Center, led by founder & artistic director Tina Knowles and executive director Shay Wafer, is hosting a grand reopening celebration in Leimert Park. “The reopening […]",
+      "image": "https://variety.com/wp-content/uploads/2026/11/tina-knowles-waco-vision-theatre.jpg",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/tina-knowles-waco-vision-theatre.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/shay-wafer-waco-vision-theatre.jpg?h=1000",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-10T00:41:39.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-10T00:45:02.523Z"
+    },
+    {
+      "id": "1pawfer",
+      "title": "Skydance Games Hit By Layoffs",
+      "url": "https://deadline.com/2026/11/skydance-games-layoffs-1237217870/",
+      "excerpt": "Skydance Games has lost a number of staffers over the last few days, making it the latest division to be slimmed down and restructured after the merger with Warner Bros. Discovery. “As part of our ongoing efforts to position Skydance Games for long-term…",
+      "content": "Skydance Games has lost a number of staffers over the last few days, making it the latest division to be slimmed down and restructured after the merger with Warner Bros. Discovery. “As part of our ongoing efforts to position Skydance Games for long-term growth and success, we are implementing reorganization and operational shifts across a […]",
+      "image": "https://deadline.com/wp-content/uploads/2025/10/GettyImages-1410882222.jpg",
+      "images": [
+        {
+          "url": "https://deadline.com/wp-content/uploads/2025/10/GettyImages-1410882222.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-10T00:40:43.000Z",
+      "sourceId": "deadline",
+      "source": "Deadline",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-10T00:45:02.523Z"
+    },
+    {
+      "id": "122azeo",
+      "title": "Gatineau Park foliage reveals local Cold War nuclear testing legacy",
+      "url": "https://phys.org/news/2026-11-gatineau-foliage-reveals-local-cold.html",
+      "excerpt": "For more than six decades, local scientists have collected sugar maple leaves from Gatineau Park to measure their radiocarbon levels, creating the longest continuous record of its kind. Now, a study of those leaves led by the André E. Lalonde National…",
+      "content": "For more than six decades, local scientists have collected sugar maple leaves from Gatineau Park to measure their radiocarbon levels, creating the longest continuous record of its kind. Now, a study of those leaves led by the André E. Lalonde National Facility for Accelerator Mass Spectrometry (AEL-AMS) located at the University of Ottawa shows that the effects of Cold War–era nuclear weapons testing have only recently disappeared from the local biosphere. The study, titled \"Stored carbohydrates buffer Bomb and Suess radiocarbon effects in maple leaves across a 65-year Ottawa region record,\" was published in Scientific Reports.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/gatineau-park.jpg",
+      "images": [
+        {
+          "url": "https://scx1.b-cdn.net/csz/news/tmb/2026/gatineau-park.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-10T00:40:08.000Z",
+      "sourceId": "physorg",
+      "source": "Phys.org",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1o3mdpc",
@@ -785,7 +869,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1bfkiav",
@@ -805,7 +889,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "npa4ab",
@@ -825,14 +909,34 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
+    },
+    {
+      "id": "6j11k",
+      "title": "David Ellison says AI could be the ‘biggest creative unlock in modern history’",
+      "url": "https://www.theverge.com/entertainment/1030510/paramount-skydance-david-ellison-ai",
+      "excerpt": "During Paramount Skydance's latest earnings call , CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, Ellison said: \"I think when you zoom…",
+      "content": "During Paramount Skydance's latest earnings call , CEO David Ellison said \"it's hard to imagine\" AI won't have a bigger impact on the film industry than CGI. In response to a question about the company's outlook for AI, Ellison said:\n\n\"I think when you zoom out and look at production, AI really has the potential to be the biggest creative unlock in modern history. The last time we saw anything close to this was really the, you know, advent of CGI and digital composites in the early 90s. That technology gave birth to amazing stories like Jurassic Park and Terminator 2 , and it's hard to imagine that AI is not going to have a more significant i …",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2274329497.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "images": [
+        {
+          "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/gettyimages-2274329497.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-10T00:28:49.000Z",
+      "sourceId": "verge-ai",
+      "source": "The Verge AI",
+      "category": "ai",
+      "lang": "en",
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "58c4k2",
       "title": "'The experiences on console and PC tend to be roughly the same,' says Take-Two CEO in response to question about GTA roleplaying",
       "url": "https://www.pcgamer.com/games/grand-theft-auto/the-experiences-on-console-and-pc-tend-to-be-roughly-the-same-says-take-two-ceo-in-response-to-question-about-gta-roleplaying/",
       "excerpt": "On a call with investors today , Take-Two CEO Strauss Zelnick pushed back on the idea that PC players have a different relationship with the Grand Theft Auto series than console players. \"Your PC players seem to engage with GTA a bit differently than…",
-      "content": "On a call with investors today , Take-Two CEO Strauss Zelnick pushed back on the idea that PC players have a different relationship with the Grand Theft Auto series than console players.\n\n\"Your PC players seem to engage with GTA a bit differently than console,\" said Oppenheimer & Co analyst Martin Yang during a Q&A session. \"There are roleplay options. Over time, do you think you want to close the player experience gap between console and PC, or do you view the two platforms as more independent because of their respective technical capabilities?\"\n\nZelnick responded with acknowledgement that series like Civilization started on PC and expanded onto consoles, but said that \"generally speaking, the experiences on console and PC tend to be roughly the same\" and that, in general, \"the capabilities of the PC platform today aren't different materially from console capabilities.\"\n\nConsoles are basically specialized PCs these days, but Zelnick didn't quite address what the questioner was getting at, if you ask me. The GTA Online experience is the same for console and PC players, except that the console versions don't have the mods that have helped keep GTA 5 relevant for 13 years. Take-Two of course knows that: It acquired the FiveM GTA 5 multiplayer mod behind so many RP servers.\n\nAnswering a related question about console jailbreaking, modding, and monetization opportunities, Zelnick said later that \"the FiveM business is a profitable business,\" but then turned back to one of his stock lines.\n\n\"The mission of this company is to create the best entertainment on earth and bring it to consumers around the world,\" said the Take-Two CEO. \"If we do that right, the monetization takes care of itself.\"\n\nTake-Two has consistently declined to reveal anything about its plans GTA 6 on PC or the future of GTA Online, and I didn't have high hopes that it would change tack with the console launch just over a week away, but props to the savvy investment analysts who asked about the topics anyway.\n\nAs I think the questioner from Oppenheimer was getting at, it's sensible to wonder whether the custom servers and roleplaying features made popular by GTA 5 modders and streamers on PC will come stock in the next GTA Online iteration, including on consoles. Zelnick didn't sound particularly enthused about modding in his responses today—he said that Take-Two \"isn't religious on the topic\"—but I'm not reading much into it.\n\nFor now, Grand Theft Auto 6 is launching on November 19 as a singleplayer-only console game, with no PC release date announced, and no known plans to launch a new version of GTA Online set in Vice City and its surroundings, though we expect both of those things to happen eventually.\n\nGrand Theft Auto 6 GTA 6 guide : Everything we know\nGTA 6 cars : The garage lineup\nGTA 6 characters : Your anti-hero cast\nGTA 6 map : Confirmed Vice City locales\nGTA 6 PC release : When's it going to happen?",
+      "content": "On a call with investors today , Take-Two CEO Strauss Zelnick pushed back on the idea that PC players have a different relationship with the Grand Theft Auto series than console players.\n\n\"Your PC players seem to engage with GTA a bit differently than console,\" said Oppenheimer & Co analyst Martin Yang during a Q&A session. \"There are roleplay options. Over time, do you think you want to close the player experience gap between console and PC, or do you view the two platforms as more independent because of their respective technical capabilities?\"\n\nZelnick responded with acknowledgement that series like Civilization started on PC and expanded onto consoles, but said that \"generally speaking, the experiences on console and PC tend to be roughly the same\" and that, in general, \"the capabilities of the PC platform today aren't different materially from console capabilities.\"\n\nConsoles are basically specialized PCs these days, but Zelnick didn't quite address what the questioner was getting at, if you ask me. The GTA Online experience is the same for console and PC players, except that the console versions don't have the mods that have helped keep GTA 5 relevant for 13 years. Take-Two of course knows that: It acquired the FiveM GTA 5 multiplayer mod behind so many RP servers.\n\nAnswering a related question about console jailbreaking, modding, and monetization opportunities, Zelnick said later that \"the FiveM business is a profitable business,\" but then turned back to one of his stock lines.\n\n\"The mission of this company is to create the best entertainment on earth and bring it to consumers around the world,\" said the Take-Two CEO. \"If we do that right, the monetization takes care of itself.\"\n\nTake-Two has consistently declined to reveal anything about its plans for GTA 6 on PC or the future of GTA Online, and I didn't have high hopes that it would change tack with the console launch just over a week away, but props to the savvy investment analysts who asked about the topics anyway.\n\nAs I think the questioner from Oppenheimer was getting at, it's sensible to wonder whether the custom servers and roleplaying features made popular by GTA 5 modders and streamers on PC will come stock in the next GTA Online iteration, including on consoles. Zelnick didn't sound particularly enthused about modding in his responses today—he said that Take-Two \"isn't religious on the topic\"—but I'm not reading much into it.\n\nFor now, Grand Theft Auto 6 is launching on November 19 as a singleplayer-only console game, with no PC release date announced, and no known plans to launch a new version of GTA Online set in Vice City and its surroundings, though we expect both of those things to happen eventually.\n\nGrand Theft Auto 6 GTA 6 guide : Everything we know\nGTA 6 cars : The garage lineup\nGTA 6 characters : Your anti-hero cast\nGTA 6 map : Confirmed Vice City locales\nGTA 6 PC release : When's it going to happen?",
       "image": "https://cdn.mos.cms.futurecdn.net/Er7sxeh8RRbBBp8GXXPfsC-1920-80.jpg",
       "images": [
         {
@@ -849,7 +953,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "r0njs0",
@@ -869,7 +973,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1fbb2gy",
@@ -889,7 +993,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1xyrfga",
@@ -909,7 +1013,7 @@
       "source": "Ukrinform",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1dl5gd4",
@@ -929,7 +1033,7 @@
       "source": "WIRED AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "fd2dg9",
@@ -953,7 +1057,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1w1fjb9",
@@ -973,7 +1077,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "wq4ktj",
@@ -997,7 +1101,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1wvb80e",
@@ -1017,7 +1121,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1hzmzk3",
@@ -1037,7 +1141,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1d75dd8",
@@ -1052,7 +1156,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "izlazq",
@@ -1072,7 +1176,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "13q4k2h",
@@ -1092,7 +1196,7 @@
       "source": "Tom's Hardware",
       "category": "hardware",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1ye1jhw",
@@ -1112,7 +1216,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "6g4wx2",
@@ -1132,7 +1236,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1bsy2wr",
@@ -1156,7 +1260,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "i460q1",
@@ -1180,7 +1284,7 @@
       "source": "Push Square",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "qp8tt2",
@@ -1195,7 +1299,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "4x2sn6",
@@ -1215,7 +1319,7 @@
       "source": "OMG! Ubuntu",
       "category": "software",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1m2axpf",
@@ -1230,7 +1334,7 @@
       "source": "Simon Willison",
       "category": "aisoft",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1educmr",
@@ -1245,7 +1349,7 @@
       "source": "Simon Willison",
       "category": "aisoft",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1o5kgbe",
@@ -1265,7 +1369,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "9ujb55",
@@ -1285,7 +1389,7 @@
       "source": "The Verge AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1hzxyuk",
@@ -1305,7 +1409,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1ls3jva",
@@ -1325,7 +1429,7 @@
       "source": "The Verge AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "147miof",
@@ -1345,7 +1449,7 @@
       "source": "IGN",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "mqdzes",
@@ -1365,27 +1469,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
-    },
-    {
-      "id": "1a1pi0n",
-      "title": "Endangered leatherbacks find new nesting beaches in Ecuador as Pacific Ocean warms",
-      "url": "https://phys.org/news/2026-11-endangered-leatherbacks-beaches-ecuador-pacific.html",
-      "excerpt": "A hopeful story for the world's largest, critically endangered sea turtle may be playing out along the sandy beaches of Ecuador.",
-      "content": "A hopeful story for the world's largest, critically endangered sea turtle may be playing out along the sandy beaches of Ecuador.",
-      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/endangered-leatherback.jpg",
-      "images": [
-        {
-          "url": "https://scx1.b-cdn.net/csz/news/tmb/2026/endangered-leatherback.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-09T23:40:01.000Z",
-      "sourceId": "physorg",
-      "source": "Phys.org",
-      "category": "science",
-      "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1pl9nv7",
@@ -1405,7 +1489,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1rxm2r6",
@@ -1429,7 +1513,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "16v3k5p",
@@ -1449,7 +1533,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "8mjp4c",
@@ -1464,7 +1548,7 @@
       "source": "TechCrunch AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "dnopdl",
@@ -1484,7 +1568,7 @@
       "source": "IGN",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "s5shkh",
@@ -1504,7 +1588,7 @@
       "source": "IGN",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1nw01ea",
@@ -1524,7 +1608,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "hut9kl",
@@ -1544,7 +1628,7 @@
       "source": "The Verge AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "87zyd",
@@ -1564,7 +1648,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1ormn6y",
@@ -1584,7 +1668,7 @@
       "source": "MacRumors",
       "category": "software",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "3k0bsr",
@@ -1604,7 +1688,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1wrl64d",
@@ -1624,7 +1708,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "to142w",
@@ -1644,7 +1728,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "2x8i4j",
@@ -1668,7 +1752,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "hmplea",
@@ -1688,7 +1772,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "15zl2gm",
@@ -1708,7 +1792,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "3kjiud",
@@ -1728,7 +1812,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "qyc4t2",
@@ -1748,7 +1832,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "b63sz3",
@@ -1768,7 +1852,7 @@
       "source": "Eurogamer",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "7918pw",
@@ -1783,7 +1867,7 @@
       "source": "TechCrunch AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "17bjirk",
@@ -1807,7 +1891,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1ayjpdh",
@@ -1827,7 +1911,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "10vvg6u",
@@ -1847,7 +1931,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "hazzt4",
@@ -1867,7 +1951,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "10rg1ef",
@@ -1891,7 +1975,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "noz22b",
@@ -1906,7 +1990,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "rf47k0",
@@ -1930,7 +2014,7 @@
       "source": "Push Square",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "ddf5dx",
@@ -1945,55 +2029,7 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
-    },
-    {
-      "id": "1kly1gk",
-      "title": "XTR Joins Oscar Contender ‘Y Vân: The Lost Sounds of Saigon,’ Award-Winning Documentary About “The Quincy Jones of Saigon”",
-      "url": "https://deadline.com/2026/11/y-van-the-lost-sounds-of-saigon-xtr-announcement-1237217771/",
-      "excerpt": "EXCLUSIVE: Global nonfiction entertainment studio XTR is coming on board Y Vân: The Lost Sounds of Saigon as the award-winning documentary ramps up its campaign for Oscar recognition. That bid was strengthened over the weekend as the film directed by Khoa Hà…",
-      "content": "EXCLUSIVE: Global nonfiction entertainment studio XTR is coming on board Y Vân: The Lost Sounds of Saigon as the award-winning documentary ramps up its campaign for Oscar recognition. That bid was strengthened over the weekend as the film directed by Khoa Hà and Victor Velle won the Audience Award at the New Orleans Film Festival. […]",
-      "image": "https://deadline.com/wp-content/uploads/2026/11/Y-Van-graphic.jpeg",
-      "images": [
-        {
-          "url": "https://deadline.com/wp-content/uploads/2026/11/Y-Van-graphic.jpeg",
-          "alt": ""
-        },
-        {
-          "url": "https://deadline.com/wp-content/uploads/2026/11/Y-Van-still4.png?h=1000",
-          "alt": ""
-        },
-        {
-          "url": "https://deadline.com/wp-content/uploads/2026/11/Y-Van-still2.png?h=1000",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-09T22:28:07.000Z",
-      "sourceId": "deadline",
-      "source": "Deadline",
-      "category": "entertainment",
-      "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
-    },
-    {
-      "id": "1osw3ef",
-      "title": "HBO Max-Paramount+ Bundle Set To Launch In Early 2027, David Ellison Confirms",
-      "url": "https://deadline.com/2026/11/hbo-max-paramount-bundle-launching-2027-skydance-david-ellison-1237217635/",
-      "excerpt": "UPDATED with earnings call comments. An HBO Max-Paramount+ bundle will launch in early 2027, Skydance CEO David Ellison confirmed in a letter to shareholders on Monday. The bundle has been promoted but not the timing of its launch, which was revealed along…",
-      "content": "UPDATED with earnings call comments. An HBO Max-Paramount+ bundle will launch in early 2027, Skydance CEO David Ellison confirmed in a letter to shareholders on Monday. The bundle has been promoted but not the timing of its launch, which was revealed along with a range of results from the third quarter. Pricing remains an open […]",
-      "image": "https://deadline.com/wp-content/uploads/2026/10/Paramount-and-HBO-MAX-logo.jpg",
-      "images": [
-        {
-          "url": "https://deadline.com/wp-content/uploads/2026/10/Paramount-and-HBO-MAX-logo.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-09T22:28:00.000Z",
-      "sourceId": "deadline",
-      "source": "Deadline",
-      "category": "entertainment",
-      "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1sqbuwm",
@@ -2008,7 +2044,7 @@
       "source": "TechCrunch AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "l1ffkr",
@@ -2028,7 +2064,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1cematf",
@@ -2048,7 +2084,7 @@
       "source": "Ukrainska Pravda",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "ths4um",
@@ -2068,7 +2104,7 @@
       "source": "Car and Driver",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1lhtokk",
@@ -2088,7 +2124,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1jgj3m7",
@@ -2108,7 +2144,7 @@
       "source": "Car and Driver",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "j7ct90",
@@ -2128,7 +2164,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1kg0dx4",
@@ -2148,7 +2184,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "f5fa19",
@@ -2172,7 +2208,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "4ru5kl",
@@ -2192,7 +2228,7 @@
       "source": "9to5Google",
       "category": "software",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1276hkq",
@@ -2212,7 +2248,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1d36uq8",
@@ -2232,7 +2268,7 @@
       "source": "Eurogamer",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1ulo79m",
@@ -2252,7 +2288,7 @@
       "source": "3DNews Железо",
       "category": "hardware",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1gtkc6f",
@@ -2272,7 +2308,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "gooslf",
@@ -2292,7 +2328,7 @@
       "source": "DTF",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1ozhdir",
@@ -2316,7 +2352,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1p67x5f",
@@ -2336,7 +2372,7 @@
       "source": "Motor1",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1w4ap7m",
@@ -2356,7 +2392,7 @@
       "source": "IGN",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "shhrow",
@@ -2371,7 +2407,7 @@
       "source": "Hacker News",
       "category": "aisoft",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "9yr6le",
@@ -2391,7 +2427,7 @@
       "source": "MacRumors",
       "category": "software",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "tep616",
@@ -2411,7 +2447,7 @@
       "source": "GamesRadar+",
       "category": "aimods",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "10je6n7",
@@ -2431,7 +2467,7 @@
       "source": "IGN",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1o0norv",
@@ -2451,7 +2487,7 @@
       "source": "3DNews Игры",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1y9pix9",
@@ -2471,7 +2507,7 @@
       "source": "IGN",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1e5cq2u",
@@ -2491,7 +2527,7 @@
       "source": "IGN",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "r09d2x",
@@ -2511,7 +2547,7 @@
       "source": "GamesIndustry.biz",
       "category": "industry",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "16ce6ca",
@@ -2531,7 +2567,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "vfbwmn",
@@ -2551,7 +2587,7 @@
       "source": "InsideEVs",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "htfm5w",
@@ -2571,7 +2607,7 @@
       "source": "IGN",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1srmf8l",
@@ -2595,7 +2631,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "j0ay0a",
@@ -2615,7 +2651,7 @@
       "source": "Ukrainska Pravda",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "ybam8a",
@@ -2635,7 +2671,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1qzq7r0",
@@ -2655,7 +2691,7 @@
       "source": "3DNews Железо",
       "category": "hardware",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "pvy00n",
@@ -2675,7 +2711,7 @@
       "source": "GamesIndustry.biz",
       "category": "industry",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "t4ulh5",
@@ -2690,7 +2726,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "lqk8p7",
@@ -2710,27 +2746,7 @@
       "source": "IGN",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
-    },
-    {
-      "id": "7soime",
-      "title": "‘GTA 6’ Presales ‘Far in Excess’ of Expectations Ahead of Next Week’s Launch, Take-Two CEO Says",
-      "url": "https://variety.com/2026/gaming/news/gta-6-preorders-expectations-launch-1236943278/",
-      "excerpt": "Rockstar Games’ “Grand Theft Auto VI” presales are “running far in excess of our expectations,” Take-Two Interactive CEO Strauss Zelnick said Monday. “That’s a good thing. That said, we never claim success before it occurs,” Zelnick told Variety in an…",
-      "content": "Rockstar Games’ “Grand Theft Auto VI” presales are “running far in excess of our expectations,” Take-Two Interactive CEO Strauss Zelnick said Monday. “That’s a good thing. That said, we never claim success before it occurs,” Zelnick told Variety in an interview ahead of the company’s earnings release. “So we’re just days away from from beginning […]",
-      "image": "https://variety.com/wp-content/uploads/2026/08/GTA-6.jpg",
-      "images": [
-        {
-          "url": "https://variety.com/wp-content/uploads/2026/08/GTA-6.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-09T21:15:33.000Z",
-      "sourceId": "variety",
-      "source": "Variety",
-      "category": "entertainment",
-      "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1qib8zd",
@@ -2754,7 +2770,7 @@
       "source": "The A.V. Club",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "12mu2wy",
@@ -2769,7 +2785,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "7wf262",
@@ -2789,7 +2805,7 @@
       "source": "9to5Google",
       "category": "software",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "rvjelq",
@@ -2809,7 +2825,7 @@
       "source": "Ukrainska Pravda",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1c1tcof",
@@ -2833,7 +2849,7 @@
       "source": "Nintendo Everything",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1r9zhqp",
@@ -2848,7 +2864,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1pvlhz6",
@@ -2872,7 +2888,7 @@
       "source": "3DNews Железо",
       "category": "hardware",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1bso600",
@@ -2896,7 +2912,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "15536tl",
@@ -2916,7 +2932,7 @@
       "source": "Radio Svoboda",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1unzp1m",
@@ -2936,7 +2952,7 @@
       "source": "IGN",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "rljyny",
@@ -2951,7 +2967,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1eem9c9",
@@ -2971,7 +2987,7 @@
       "source": "Car and Driver",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1f7y11i",
@@ -2995,7 +3011,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1sxnflt",
@@ -3015,7 +3031,7 @@
       "source": "3DNews Железо",
       "category": "hardware",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "y1tuwx",
@@ -3039,7 +3055,7 @@
       "source": "The A.V. Club",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1jzw5rr",
@@ -3063,7 +3079,7 @@
       "source": "Kolesa.ru",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "3vkqv4",
@@ -3083,7 +3099,7 @@
       "source": "Kolesa.ru",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "h02pzp",
@@ -3103,7 +3119,7 @@
       "source": "StopGame",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "iwjeu2",
@@ -3123,7 +3139,7 @@
       "source": "Motor1",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1totj07",
@@ -3143,7 +3159,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1j6b39q",
@@ -3163,7 +3179,7 @@
       "source": "MacRumors",
       "category": "software",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1740rhp",
@@ -3178,7 +3194,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1ory8fi",
@@ -3202,7 +3218,7 @@
       "source": "The A.V. Club",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "vhe5rj",
@@ -3222,7 +3238,7 @@
       "source": "Ukrinform",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1fklil7",
@@ -3242,7 +3258,7 @@
       "source": "Eurogamer",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "u5mu2y",
@@ -3257,7 +3273,7 @@
       "source": "TechCrunch AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "zg38b",
@@ -3272,7 +3288,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1x35228",
@@ -3287,7 +3303,7 @@
       "source": "Hacker News",
       "category": "aisoft",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "qigeno",
@@ -3302,7 +3318,7 @@
       "source": "r/GamingLeaksAndRumours",
       "category": "rumors",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1umb238",
@@ -3322,7 +3338,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1o2fi80",
@@ -3342,7 +3358,7 @@
       "source": "DTF",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "10j0ncc",
@@ -3357,7 +3373,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "qs3mrd",
@@ -3381,7 +3397,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1b910y6",
@@ -3396,7 +3412,7 @@
       "source": "Ukrainska Pravda",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "otwtnr",
@@ -3411,7 +3427,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "b4b95p",
@@ -3431,7 +3447,7 @@
       "source": "Ukrinform",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1rdmkaj",
@@ -3451,7 +3467,7 @@
       "source": "Ukrainska Pravda",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "soki77",
@@ -3466,7 +3482,7 @@
       "source": "Al Jazeera",
       "category": "war",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "extxg4",
@@ -3486,7 +3502,7 @@
       "source": "Car and Driver",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "akx4ip",
@@ -3510,7 +3526,7 @@
       "source": "The A.V. Club",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "13odcmr",
@@ -3530,7 +3546,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "oo5w63",
@@ -3550,7 +3566,7 @@
       "source": "StopGame",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1a83kiq",
@@ -3574,7 +3590,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1e38h6z",
@@ -3594,7 +3610,7 @@
       "source": "GamesIndustry.biz",
       "category": "industry",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "h8lmwv",
@@ -3609,7 +3625,7 @@
       "source": "GamingBolt",
       "category": "announces",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "9oodh3",
@@ -3624,7 +3640,7 @@
       "source": "MIT Technology Review",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "sz3uvm",
@@ -3639,7 +3655,7 @@
       "source": "InterMedia",
       "category": "entertainment",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "ol9qsk",
@@ -3667,7 +3683,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "e1uveh",
@@ -3687,7 +3703,7 @@
       "source": "Ukrinform",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "g62t4n",
@@ -3711,7 +3727,7 @@
       "source": "Push Square",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1a3ljjm",
@@ -3726,7 +3742,7 @@
       "source": "TechCrunch AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "ikwxle",
@@ -3746,7 +3762,7 @@
       "source": "DTF",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "uhsilg",
@@ -3766,7 +3782,7 @@
       "source": "3DNews Игры",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1lv0dae",
@@ -3781,7 +3797,7 @@
       "source": "GamingBolt",
       "category": "announces",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "d4z2tu",
@@ -3796,7 +3812,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1391hpy",
@@ -3820,7 +3836,7 @@
       "source": "Push Square",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "zs31ku",
@@ -3840,7 +3856,7 @@
       "source": "InsideEVs",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "rey52n",
@@ -3860,7 +3876,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1ktbfkw",
@@ -3880,7 +3896,7 @@
       "source": "The Verge AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1nqniyf",
@@ -3904,7 +3920,7 @@
       "source": "Ars Technica Science",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1h6rci7",
@@ -3919,7 +3935,7 @@
       "source": "Al Jazeera",
       "category": "war",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "ecnjwl",
@@ -3939,7 +3955,7 @@
       "source": "Eurogamer",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1euctdd",
@@ -3959,7 +3975,7 @@
       "source": "The Verge AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1j780ja",
@@ -3974,7 +3990,7 @@
       "source": "OpenAI News",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "4tne1r",
@@ -3989,7 +4005,7 @@
       "source": "Siliconera",
       "category": "announces",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "pbp7sw",
@@ -4013,7 +4029,7 @@
       "source": "Time Extension",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "umen05",
@@ -4033,7 +4049,7 @@
       "source": "9to5Google",
       "category": "software",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "48p388",
@@ -4048,7 +4064,7 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "3lory2",
@@ -4063,7 +4079,7 @@
       "source": "Hacker News",
       "category": "aisoft",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "98y9dp",
@@ -4083,7 +4099,7 @@
       "source": "Car and Driver",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1g7fujg",
@@ -4103,7 +4119,7 @@
       "source": "Игромания",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1va9eiz",
@@ -4123,7 +4139,7 @@
       "source": "InsideEVs",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1xq9nwv",
@@ -4147,7 +4163,7 @@
       "source": "The A.V. Club",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "nco3ea",
@@ -4167,7 +4183,7 @@
       "source": "Tom's Hardware",
       "category": "hardware",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1afaz",
@@ -4191,7 +4207,7 @@
       "source": "The A.V. Club",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "sxv5fo",
@@ -4211,7 +4227,7 @@
       "source": "Meduza",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "13qqh9j",
@@ -4231,7 +4247,7 @@
       "source": "DTF",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "10oodnp",
@@ -4246,7 +4262,7 @@
       "source": "GamingBolt",
       "category": "announces",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "ygeqiq",
@@ -4278,7 +4294,7 @@
       "source": "Kolesa.ru",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "neape5",
@@ -4298,7 +4314,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "wb28p9",
@@ -4313,7 +4329,7 @@
       "source": "InterMedia",
       "category": "entertainment",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "zv4jui",
@@ -4328,7 +4344,7 @@
       "source": "Hacker News",
       "category": "aisoft",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "yq1bxs",
@@ -4348,7 +4364,7 @@
       "source": "StopGame",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "j8wgps",
@@ -4372,7 +4388,7 @@
       "source": "Nintendo Everything",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1mb5lr3",
@@ -4396,7 +4412,7 @@
       "source": "DTF",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1cdf1li",
@@ -4416,7 +4432,7 @@
       "source": "Gematsu",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "18wlmp",
@@ -4436,7 +4452,7 @@
       "source": "MacRumors",
       "category": "software",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1kzc121",
@@ -4456,7 +4472,7 @@
       "source": "3DNews Игры",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "18ee8jh",
@@ -4476,7 +4492,7 @@
       "source": "MacRumors",
       "category": "software",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "nozboz",
@@ -4491,7 +4507,7 @@
       "source": "TechCrunch AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "ec6m9s",
@@ -4515,7 +4531,7 @@
       "source": "Nintendo Everything",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "obbynr",
@@ -4535,7 +4551,7 @@
       "source": "MacRumors",
       "category": "software",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "cj8yl5",
@@ -4555,7 +4571,7 @@
       "source": "The Verge AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1po3blw",
@@ -4575,7 +4591,7 @@
       "source": "Gematsu",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1vk8hv8",
@@ -4595,7 +4611,7 @@
       "source": "Motor1",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1qllxj7",
@@ -4615,7 +4631,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1eylstu",
@@ -4630,7 +4646,7 @@
       "source": "TechCrunch AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "nlwk97",
@@ -4670,7 +4686,7 @@
       "source": "Siliconera",
       "category": "announces",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1kw2tqf",
@@ -4694,7 +4710,7 @@
       "source": "Nintendo Life",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1dh9za9",
@@ -4718,7 +4734,7 @@
       "source": "Pure Xbox",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1jek978",
@@ -4742,7 +4758,7 @@
       "source": "Time Extension",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1xv8q14",
@@ -4757,7 +4773,7 @@
       "source": "Hacker News",
       "category": "aisoft",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1h2u952",
@@ -4781,7 +4797,7 @@
       "source": "Nintendo Everything",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "fkrbq2",
@@ -4796,7 +4812,7 @@
       "source": "gHacks",
       "category": "software",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "11vmeqv",
@@ -4816,7 +4832,7 @@
       "source": "Eurogamer",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "hwpclx",
@@ -4831,7 +4847,7 @@
       "source": "gHacks",
       "category": "software",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "r599rk",
@@ -4846,7 +4862,7 @@
       "source": "GamingBolt",
       "category": "announces",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "vch9jt",
@@ -4866,7 +4882,7 @@
       "source": "Tom's Hardware",
       "category": "hardware",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "8ic7b7",
@@ -4886,7 +4902,7 @@
       "source": "3DNews Игры",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1cq3feu",
@@ -4906,7 +4922,7 @@
       "source": "Meduza",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1x4mt5b",
@@ -4926,7 +4942,7 @@
       "source": "The Verge Entertainment",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "7w7fv2",
@@ -4946,7 +4962,7 @@
       "source": "GamesIndustry.biz",
       "category": "industry",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1tdrv8l",
@@ -4970,7 +4986,7 @@
       "source": "The A.V. Club",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "11u236m",
@@ -4990,7 +5006,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1koe9bv",
@@ -5010,7 +5026,7 @@
       "source": "The Verge AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "hse5qa",
@@ -5042,7 +5058,7 @@
       "source": "5 колесо",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1mclwdu",
@@ -5062,7 +5078,7 @@
       "source": "Rock Paper Shotgun",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1j8seyf",
@@ -5086,7 +5102,7 @@
       "source": "Nintendo Everything",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "10sruw9",
@@ -5106,7 +5122,7 @@
       "source": "GamesRadar+",
       "category": "aimods",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "gr1840",
@@ -5121,7 +5137,7 @@
       "source": "DTF",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "78d2ax",
@@ -5136,7 +5152,7 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1ab0ftx",
@@ -5156,7 +5172,7 @@
       "source": "StopGame",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "lhxvqb",
@@ -5176,7 +5192,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1o3dbg2",
@@ -5196,7 +5212,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1cqc7hn",
@@ -5220,7 +5236,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "4j6wds",
@@ -5235,7 +5251,7 @@
       "source": "MIT Technology Review",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1ul5c3y",
@@ -5255,7 +5271,7 @@
       "source": "Rock Paper Shotgun",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "14bo8mg",
@@ -5275,7 +5291,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1nd4cvb",
@@ -5290,7 +5306,7 @@
       "source": "r/GamingLeaksAndRumours",
       "category": "rumors",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1g5hbp1",
@@ -5310,7 +5326,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "3brqse",
@@ -5346,7 +5362,7 @@
       "source": "5 колесо",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "gn4pib",
@@ -5361,7 +5377,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "4hnaim",
@@ -5385,7 +5401,7 @@
       "source": "The A.V. Club",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1z0xq2x",
@@ -5429,7 +5445,7 @@
       "source": "Siliconera",
       "category": "announces",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1yrvh2u",
@@ -5453,7 +5469,7 @@
       "source": "Pure Xbox",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "16gre7x",
@@ -5473,7 +5489,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "8ni2xq",
@@ -5488,7 +5504,7 @@
       "source": "SteamDeckHQ",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "d5mesy",
@@ -5512,7 +5528,7 @@
       "source": "The A.V. Club",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "yc10t0",
@@ -5532,7 +5548,7 @@
       "source": "Газета.Ru Авто",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "teeh1e",
@@ -5547,7 +5563,7 @@
       "source": "TechCrunch AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "nu2x1u",
@@ -5591,7 +5607,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1jp6kcr",
@@ -5606,7 +5622,7 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1pa920z",
@@ -5621,7 +5637,7 @@
       "source": "PlayStation Universe",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "6rbk2u",
@@ -5641,7 +5657,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1n9m36z",
@@ -5661,7 +5677,7 @@
       "source": "StopGame",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1095xxw",
@@ -5681,7 +5697,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "16k061h",
@@ -5696,7 +5712,7 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "y039yz",
@@ -5711,7 +5727,7 @@
       "source": "DTF",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1cy1h98",
@@ -5735,7 +5751,7 @@
       "source": "Nintendo Everything",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "s3oqik",
@@ -5779,7 +5795,7 @@
       "source": "Kolesa.ru",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "103hl6s",
@@ -5803,7 +5819,7 @@
       "source": "The A.V. Club",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "inrp81",
@@ -5823,7 +5839,7 @@
       "source": "StopGame",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "pjjj7g",
@@ -5843,7 +5859,7 @@
       "source": "3DNews Железо",
       "category": "hardware",
       "lang": "ru",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "ucc7a2",
@@ -5858,7 +5874,7 @@
       "source": "OpenAI News",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1dtbewo",
@@ -5873,7 +5889,7 @@
       "source": "OpenAI News",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "2ffah9",
@@ -5888,7 +5904,7 @@
       "source": "OpenAI News",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "elsdj2",
@@ -5903,7 +5919,7 @@
       "source": "Nature",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "guclr",
@@ -5918,7 +5934,7 @@
       "source": "Nature",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1ivampq",
@@ -5933,7 +5949,7 @@
       "source": "Nature",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "8oo15z",
@@ -5948,7 +5964,7 @@
       "source": "Nature",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "1g1rj3q",
@@ -5963,7 +5979,7 @@
       "source": "Nature",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "19662o3",
@@ -5978,7 +5994,7 @@
       "source": "Nature",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "o80t2n",
@@ -5993,7 +6009,7 @@
       "source": "Nature",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "10r4ync",
@@ -6008,7 +6024,7 @@
       "source": "Nature",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "15nowdv",
@@ -6023,12 +6039,12 @@
       "source": "r/GamingLeaksAndRumours",
       "category": "rumors",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
-      "id": "mxafrd",
+      "id": "1715ss6",
       "title": "Release: Moldwasher",
-      "url": "https://www.gog.com/fr/news/release_moldwasher",
+      "url": "https://www.gog.com/de/news/release_moldwasher",
       "excerpt": "Moldwasher is a simulation arcade game – and it's now available on GOG! Open the door to a long-forgotten fridge and become a true sanitation hero! In this chilli mold-cleaning arcade, you control a guy (nigiri?!) with a pressure stream to clean off mold that…",
       "content": "Moldwasher is a simulation arcade game – and it's now available on GOG!\n\nOpen the door to a long-forgotten fridge and become a true sanitation hero! In this chilli mold-cleaning arcade, you control a guy (nigiri?!) with a pressure stream to clean off mold that has taken over food, shelves, drawers and even the freezer.\n\nNow on GOG!",
       "image": "",
@@ -6038,12 +6054,12 @@
       "source": "GOG",
       "category": "releases",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
-      "id": "gb4tlq",
+      "id": "sp4vi1",
       "title": "Release: Rail Route - Expect Delays",
-      "url": "https://www.gog.com/fr/news/release_rail_route_expect_delays",
+      "url": "https://www.gog.com/de/news/release_rail_route_expect_delays",
       "excerpt": "Expand your Rail Route experiences with Rail Route - Expect Delays – now available on GOG! The DLC brings wear, breakdowns and disruptions to your railway, and gives you the trains, buildings and upgrades to handle them. Now on GOG!",
       "content": "Expand your Rail Route experiences with Rail Route - Expect Delays – now available on GOG!\n\nThe DLC brings wear, breakdowns and disruptions to your railway, and gives you the trains, buildings and upgrades to handle them.\n\nNow on GOG!",
       "image": "",
@@ -6053,12 +6069,12 @@
       "source": "GOG",
       "category": "releases",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
-      "id": "x2dyd7",
+      "id": "usv816",
       "title": "Release: Dwarf Eats Mountain",
-      "url": "https://www.gog.com/fr/news/release_dwarf_eats_mountain",
+      "url": "https://www.gog.com/de/news/release_dwarf_eats_mountain",
       "excerpt": "Dwarf Eats Mountain is a strategic incremental game about devouring mountains for gold – and it's now available on GOG! Hire dwarves, deploy war machines, and collect powerful artifacts to build absurd synergies and grow faster each run. Hurting the mountain…",
       "content": "Dwarf Eats Mountain is a strategic incremental game about devouring mountains for gold – and it's now available on GOG!\n\nHire dwarves, deploy war machines, and collect powerful artifacts to build absurd synergies and grow faster each run. Hurting the mountain physically (and emotionally) is only half the battle—you still have to safely haul the gold home.\n\nNow on GOG!",
       "image": "",
@@ -6068,7 +6084,7 @@
       "source": "GOG",
       "category": "releases",
       "lang": "en",
-      "addedAt": "2026-11-10T00:40:03.315Z"
+      "addedAt": "2026-11-10T00:45:02.523Z"
     },
     {
       "id": "gh-1439087973",
@@ -6123,12 +6139,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1397232590",
-      "title": "chrissotraidis/tribespad: The original Tribes 2 and Starsiege: Tribes, native on iPad, iPhone and Mac: x86 translated ahead of time to ARM64, Metal rendering, touch and controller support.",
-      "url": "https://github.com/chrissotraidis/tribespad",
-      "excerpt": "The original Tribes 2 and Starsiege: Tribes, native on iPad, iPhone and Mac: x86 translated ahead of time to ARM64, Metal rendering, touch and controller support.",
+      "id": "gh-1451352448",
+      "title": "DivxPlays/stilwater-recompiled: Saints Row (Xbox 360, 2006) as a native PC port, by static recompilation with ReXGlue. Bring your own disc: the launcher builds it. No game data included. Made with the help of AI.",
+      "url": "https://github.com/DivxPlays/stilwater-recompiled",
+      "excerpt": "Saints Row (Xbox 360, 2006) as a native PC port, by static recompilation with ReXGlue. Bring your own disc: the launcher builds it. No game data included. Made with the help of AI.",
       "image": "",
-      "publishedAt": "2026-11-09T15:33:20Z",
+      "publishedAt": "2026-11-10T00:42:34Z",
       "addedAt": "2026-11-09T16:54:32.155Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -6136,12 +6152,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1451352448",
-      "title": "DivxPlays/stilwater-recompiled: Saints Row (Xbox 360, 2006) as a native PC port, by static recompilation with ReXGlue. Bring your own disc: the launcher builds it. No game data included. Made with the help of AI.",
-      "url": "https://github.com/DivxPlays/stilwater-recompiled",
-      "excerpt": "Saints Row (Xbox 360, 2006) as a native PC port, by static recompilation with ReXGlue. Bring your own disc: the launcher builds it. No game data included. Made with the help of AI.",
+      "id": "gh-1397232590",
+      "title": "chrissotraidis/tribespad: The original Tribes 2 and Starsiege: Tribes, native on iPad, iPhone and Mac: x86 translated ahead of time to ARM64, Metal rendering, touch and controller support.",
+      "url": "https://github.com/chrissotraidis/tribespad",
+      "excerpt": "The original Tribes 2 and Starsiege: Tribes, native on iPad, iPhone and Mac: x86 translated ahead of time to ARM64, Metal rendering, touch and controller support.",
       "image": "",
-      "publishedAt": "2026-11-09T15:06:22Z",
+      "publishedAt": "2026-11-09T15:33:20Z",
       "addedAt": "2026-11-09T16:54:32.155Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -7984,6 +8000,26 @@
       "addedAt": "2026-11-09T16:54:28.656Z"
     },
     {
+      "id": "16ohyzl",
+      "title": "‘Even if Someone Does Get It Running on PC, That’s Not Going To Be a Good Experience’ – Why AI Cloning Won’t Sink GTA 6’s Launch, but Could Reshape Game Development",
+      "url": "https://www.ign.com/articles/even-if-someone-does-get-it-running-on-pc-thats-not-going-to-be-a-good-experience-why-ai-cloning-wont-sink-gta-6s-launch-but-could-reshape-game-development",
+      "excerpt": "Something new is happening in the world of video games. On that much at least, we can mostly agree. A new generation of agentic AI coding tools has unleashed a tsunami of mash-ups and ports and reverse-engineered remakes that have been generating nonstop…",
+      "content": "Something new is happening in the world of video games. On that much at least, we can mostly agree.\n\nA new generation of agentic AI coding tools has unleashed a tsunami of mash-ups and ports and reverse-engineered remakes that have been generating nonstop headlines over the past six weeks. You know the ones: Halo playable in a browser . Minecraft playable inside Twitter . Insomniac's Spider-Man web-slinging through Rocksteady's Arkham City .\n\nWhat we seem much less able to agree on is what this all means, whether it's good or bad, and what might come next. For some, this is a huge technological breakthrough, while for others it's the dawn of a slop era for gaming.\n\nThis uncertainty is made more tense by the fact that these stories poke at some of the most raw and sensitive spots in gaming discourse: AI ethics, game preservation, the games industry labour market and its endless cycles of layoffs, and the end of disc-based game ownership. Depending on which lens you're looking through, you might see a story about an AI port as part of a much larger narrative about environmentally ruinous datacenters, a new era of game preservation, or a welcome middle finger to a platform holder that wants to sell you a code in a box.\n\nThe result is that everyone's wound up, but for very different reasons. So, to try to figure out what's going on, where it might go from here, and whether the launch of Grand Theft Auto 6 is about to be torpedoed by it all, I spent hours talking with a host of smart and well-placed people representing a range of perspectives on this story.\n\n\"How many cease and desist letters do we need to send out?\"\n\nAs the head of Nightdive Studios, Stephen Kick knows a thing or two about ports and reverse engineering. Since 2012, he and his colleagues have produced dozens of high-profile remasters, including System Shock 2, Star Wars: Dark Forces, and the upcoming Thief: The Dark Project Remastered. \"Yeah, AI has definitely been the topic of conversation,\" Kick explains.\n\nFor Nightdive, there's clear utility in a tool that can take the opaque, machine-readable code of an existing game and reverse-engineer it into something you can edit and enhance and tinker with. This is exactly what models like Anthropic's Opus 5.5 seem to be really quite good at, and it's how vibe-coders have been creating eye-catching clips of Mario clobbering Margit The Fell Omen . While Kick stresses that \"for the past year or so we've not been using it\", he does see the technology as a promising accelerant for the kind of work his teams do.\n\nI foresee that game developers will no longer be actually giving you a copy of the game. You'll have to stream.\n\nKick suspects that those vibe-coded remakes, ports, and mash-ups, however, will be generating some serious anxiety for bigger players in the industry right now. \"I can't even imagine what the lawyers are going through right now with all the major publishers.\" He imagines a flurry of panic: \"What do we do? How many cease and desist letters do we need to send out? How can we capitalize on this? How can we integrate this into our own business model right now?\"\n\nAnd he suspects that the scope of the impending clampdown may be much more far-reaching than a few takedown notices – it could represent yet another attempt to redefine what game ownership looks like. \"One of the things that I foresee is that game developers will no longer be actually giving you a copy of the game,\" Kick says. \"You'll have to stream the game now because they don't want any of those files out at all because anybody anywhere can take them and reverse engineer them in a matter of hours.\"\n\n\"The bottom line for Grand Theft Auto 6\"\n\nSo what does all this mean for the biggest game of the year, Grand Theft Auto 6? A succession of breathless commentators have predicted GTA 6 will be one of the biggest entertainment launches of all time , so it's fair to say that Rockstar and parent company Take-Two Interactive have a lot at stake. You might imagine they'd be pretty concerned about launching a console exclusive during a period where that exclusivity now means nothing to those with access to AI. That’s certainly on the mind of Obbe Vermeij, former Rockstar North technical director.\n\n“I think I would be concerned, if I was Rockstar, that somebody would just take the PS5 version and get AI to change it to PC, which won't be won't be as good as their effort, but it could still also hurt their sales,” he told Rock Paper Shotgun in a recent interview.\n\nVermeij’s concerns aren’t based on nothing. “People are playing Demon’s Souls on PC and it’s a PlayStation 5 exclusive,” explained Digital Foundry’s Richard Leadbetter during an interview with The Games Business . “It’s choppy, it looks horrible, but Marvel’s Wolverine is running on a PC. So there’s all of that to contend with.”\n\nLeadbetter noted that Anthropic recently attempted to put a stop to vibe-coded clones through a server-side “block” update to its Claude AI agent , potentially after facing legal pressure.\n\n“But let’s be clear here: the genie’s out of the bottle,” he said. “And Anthropic isn’t the only player in the game. They might have issues with all of this stuff, but let’s say the Chinese models are eight months away from doing the same thing. What’s going to stop them? OpenAI, what’s going on there? I’d say it’s problematic.”\n\nAll that considered, I chatted with James McWhirter and Liam Deane, a pair of senior analysts in the games division at market research and intelligence firm Omdia. They've both been tracking the development of these technologies, so I asked them directly: will vibe-coders ultimately bring GTA 6 to PC before the official port?\n\nIf GTA 6 was launching a year from now, the picture might be quite different.\n\nAccording to the analysts: nah, probably not. \"The bottom line for Grand Theft Auto 6 is that it's too early for this technology to seriously disrupt the game's launch,\" says Deane. \"Even if someone does get the PS5 version running on PC, in the short term that's not going to be a good experience. It's going to be an interesting tech demo for some people if it does happen, but I think realistically it's not going to be a way of playing a game that will be attractive to 99% of players.\"\n\n\"If GTA 6 was launching a year from now, the picture might be quite different. But it's just about getting out in time.\"\n\nIf all that's true, you might wonder why reports currently point to GTA 6 launching for PC as early as the first quarter of 2027. That would be a pretty speedy turnaround, given that GTA 5 took more than 18 months to launch on PC. Has Take-Two moved that date forward, as some have speculated, in a bid to beat AI ports to the punch?\n\nAgain, the analysts are dubious. \"It was probably a reaction to the memory crisis more than anything,\" explains McWhirter. \"GTA 6 was meant to be the game that would help drive sales of PS5 and Xbox Series X and S, but instead those consoles have become supply constrained because of shortages of key components – namely memory and storage. That means that Rockstar needs to look at ways of expanding their audience, which means the PC release suddenly becomes a lot more important in terms of broadening the addressable market for the game.\"\n\nIn other words, Rockstar already has a whole host of reasons to bring GTA 6 to PC pretty darn fast. If that does come to pass (and it's worth remembering that a PC release hasn't even been announced yet) it isn't necessarily a symptom of AI heebie-jeebies.\n\n\"What can an indie developer do?\"\n\nSo everything is actually fine and dandy and everybody is getting worked up over nothing? Not quite. Because while agentic AI might not be able to get GTA 6 running on PC right now, it can certainly clone an indie game in record time, and even beat a small studio to market based on their own prerelease demo. This issue has turned Steam Next Fest – which usually features thousands of playable demos from unreleased games – into a huge risk for independent developers.\n\nTo find out more about how AI is affecting small studios, I reached out to Rami Ismail. As well as working as a consultant and speaker, he's perhaps best known as the co-founder of Vlambeer, the two-person studio that was responsible for Nuclear Throne, Ridiculous Fishing, and Luftrausers. I wondered whether the threat of cloning might be affecting how indies think about showcasing their games. His answer is a firm yes.\n\n\"Developers are arguing about whether we can still do the thing that players want us to do, which is to post about our games early,\" Ismail tells me. \"Because there are now companies that have AI agents that are scouring social media. These people aren't even doing it themselves – their AI agents are scouring social media, searching for games that are gaining momentum. If they find one, the AI will ask itself whether it can clone it well, and if the answer is yes it will clone the game.\"\n\n\"What are we supposed to do on our end? What can an indie developer do?\"\n\nAI agents are scouring social media, searching for games that are gaining momentum. If they find one, the AI will ask itself whether it can clone it well, and if the answer is yes it will clone the game.\n\nYou might argue that indie developers could make use of generative AI themselves to develop their own games more quickly and with less financial risk. It's certainly true that it's hard for tiny studios to turn down tools that might give them any kind of advantage. And as the use of gen-AI becomes more widespread, it will take more and more conviction to remain committed to AI-free workflows in an ultra-competitive (and increasingly clone-filled) market. But on the other hand, Ismail tells me, indies that make use of generative AI will be profoundly vulnerable to changes in the cost and availability of those tools.\n\nHe asks me to imagine an indie dev who uses an AI coding tool to build a feature for their game. The resulting code is hard to parse and extremely long, but it works. \"That isn't much of a problem because right now tokens are subsidized, and people can pay something like $99 for a Claude or OpenAI subscription,\" Ismail explains. \"But now, imagine there's a bug, and you need to fix it. And imagine the AI company goes, okay, now the $99 subscription is no longer there. That's now a $1,400 subscription, and you pay X amount of money per token.\" Big studios with corporate backing might be able to soak up the cost or negotiate bespoke pricing, but indies would be in a much more precarious position.\n\nAnd if your game's codebase is sprawling and no longer especially human-readable, you're left with little choice but to suck it up and pay the extra money. Or fold.\n\nIf you've read Cory Doctorow's writing on the subject – or just used the internet at any point in the last decade – you might recognise the scenario Ismail's describing as a textbook example of 'enshittification' , the process by which a service goes from prioritising the needs of its users to ever more aggressively prioritising shareholder value at the expense of all else. \"So this is all an incredible replication of the rideshare model, where you just undercut the taxis until the taxis are gone, and then you enshittify your product,\" Ismail says. \"But it's being speedrun at a scale I've never seen before.\"\n\n\"Do you want to sell your codebase?\"\n\nAs for what comes next, there's uncertainty and disagreement here, too.\n\nAt the start of this piece, I explained that Stephen Kick foresaw a future where cloud streaming is the only way to access your games. When I put this idea to Omdia, I find they're sceptical. \"Cloud may not necessarily be the end-goal for publishers as it remains unproven as a delivery vehicle for premium triple-A console and PC games,\" says McWhirter. \"But platform holders and publishers will take game security more seriously. For instance, it's highly likely PlayStation is using cutting-edge frontier AI models to identify vulnerabilities in i",
+      "image": "https://assets-prd.ignimgs.com/2026/11/09/gta6-launch-ai-blogroll-1794222934628.jpg",
+      "images": [
+        {
+          "url": "https://assets-prd.ignimgs.com/2026/11/09/gta6-launch-ai-blogroll-1794222934628.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-09T15:30:00.000Z",
+      "sourceId": "ign",
+      "source": "IGN",
+      "category": "games",
+      "lang": "en",
+      "addedAt": "2026-11-09T16:54:28.656Z"
+    },
+    {
       "id": "2ql1q4",
       "title": "Hold up — I had a great time talking to the RIAA guy",
       "url": "https://www.theverge.com/podcast/1029684/riaa-mitch-glazier-napster-ai-labels-music",
@@ -8001,29 +8037,9 @@
         }
       ],
       "publishedAt": "2026-11-09T15:30:00.000Z",
-      "sourceId": "verge-ai",
-      "source": "The Verge AI",
-      "category": "ai",
-      "lang": "en",
-      "addedAt": "2026-11-09T16:54:28.656Z"
-    },
-    {
-      "id": "16ohyzl",
-      "title": "‘Even if Someone Does Get It Running on PC, That’s Not Going To Be a Good Experience’ – Why AI Cloning Won’t Sink GTA 6’s Launch, but Could Reshape Game Development",
-      "url": "https://www.ign.com/articles/even-if-someone-does-get-it-running-on-pc-thats-not-going-to-be-a-good-experience-why-ai-cloning-wont-sink-gta-6s-launch-but-could-reshape-game-development",
-      "excerpt": "Something new is happening in the world of video games. On that much at least, we can mostly agree. A new generation of agentic AI coding tools has unleashed a tsunami of mash-ups and ports and reverse-engineered remakes that have been generating nonstop…",
-      "content": "Something new is happening in the world of video games. On that much at least, we can mostly agree.\n\nA new generation of agentic AI coding tools has unleashed a tsunami of mash-ups and ports and reverse-engineered remakes that have been generating nonstop headlines over the past six weeks. You know the ones: Halo playable in a browser . Minecraft playable inside Twitter . Insomniac's Spider-Man web-slinging through Rocksteady's Arkham City .\n\nWhat we seem much less able to agree on is what this all means, whether it's good or bad, and what might come next. For some, this is a huge technological breakthrough, while for others it's the dawn of a slop era for gaming.\n\nThis uncertainty is made more tense by the fact that these stories poke at some of the most raw and sensitive spots in gaming discourse: AI ethics, game preservation, the games industry labour market and its endless cycles of layoffs, and the end of disc-based game ownership. Depending on which lens you're looking through, you might see a story about an AI port as part of a much larger narrative about environmentally ruinous datacenters, a new era of game preservation, or a welcome middle finger to a platform holder that wants to sell you a code in a box.\n\nThe result is that everyone's wound up, but for very different reasons. So, to try to figure out what's going on, where it might go from here, and whether the launch of Grand Theft Auto 6 is about to be torpedoed by it all, I spent hours talking with a host of smart and well-placed people representing a range of perspectives on this story.\n\n\"How many cease and desist letters do we need to send out?\"\n\nAs the head of Nightdive Studios, Stephen Kick knows a thing or two about ports and reverse engineering. Since 2012, he and his colleagues have produced dozens of high-profile remasters, including System Shock 2, Star Wars: Dark Forces, and the upcoming Thief: The Dark Project Remastered. \"Yeah, AI has definitely been the topic of conversation,\" Kick explains.\n\nFor Nightdive, there's clear utility in a tool that can take the opaque, machine-readable code of an existing game and reverse-engineer it into something you can edit and enhance and tinker with. This is exactly what models like Anthropic's Opus 5.5 seem to be really quite good at, and it's how vibe-coders have been creating eye-catching clips of Mario clobbering Margit The Fell Omen . While Kick stresses that \"for the past year or so we've not been using it\", he does see the technology as a promising accelerant for the kind of work his teams do.\n\nI foresee that game developers will no longer be actually giving you a copy of the game. You'll have to stream.\n\nKick suspects that those vibe-coded remakes, ports, and mash-ups, however, will be generating some serious anxiety for bigger players in the industry right now. \"I can't even imagine what the lawyers are going through right now with all the major publishers.\" He imagines a flurry of panic: \"What do we do? How many cease and desist letters do we need to send out? How can we capitalize on this? How can we integrate this into our own business model right now?\"\n\nAnd he suspects that the scope of the impending clampdown may be much more far-reaching than a few takedown notices – it could represent yet another attempt to redefine what game ownership looks like. \"One of the things that I foresee is that game developers will no longer be actually giving you a copy of the game,\" Kick says. \"You'll have to stream the game now because they don't want any of those files out at all because anybody anywhere can take them and reverse engineer them in a matter of hours.\"\n\n\"The bottom line for Grand Theft Auto 6\"\n\nSo what does all this mean for the biggest game of the year, Grand Theft Auto 6? A succession of breathless commentators have predicted GTA 6 will be one of the biggest entertainment launches of all time , so it's fair to say that Rockstar and parent company Take-Two Interactive have a lot at stake. You might imagine they'd be pretty concerned about launching a console exclusive during a period where that exclusivity now means nothing to those with access to AI. That’s certainly on the mind of Obbe Vermeij, former Rockstar North technical director.\n\n“I think I would be concerned, if I was Rockstar, that somebody would just take the PS5 version and get AI to change it to PC, which won't be won't be as good as their effort, but it could still also hurt their sales,” he told Rock Paper Shotgun in a recent interview.\n\nVermeij’s concerns aren’t based on nothing. “People are playing Demon’s Souls on PC and it’s a PlayStation 5 exclusive,” explained Digital Foundry’s Richard Leadbetter during an interview with The Games Business . “It’s choppy, it looks horrible, but Marvel’s Wolverine is running on a PC. So there’s all of that to contend with.”\n\nLeadbetter noted that Anthropic recently attempted to put a stop to vibe-coded clones through a server-side “block” update to its Claude AI agent , potentially after facing legal pressure.\n\n“But let’s be clear here: the genie’s out of the bottle,” he said. “And Anthropic isn’t the only player in the game. They might have issues with all of this stuff, but let’s say the Chinese models are eight months away from doing the same thing. What’s going to stop them? OpenAI, what’s going on there? I’d say it’s problematic.”\n\nAll that considered, I chatted with James McWhirter and Liam Deane, a pair of senior analysts in the games division at market research and intelligence firm Omdia. They've both been tracking the development of these technologies, so I asked them directly: will vibe-coders ultimately bring GTA 6 to PC before the official port?\n\nIf GTA 6 was launching a year from now, the picture might be quite different.\n\nAccording to the analysts: nah, probably not. \"The bottom line for Grand Theft Auto 6 is that it's too early for this technology to seriously disrupt the game's launch,\" says Deane. \"Even if someone does get the PS5 version running on PC, in the short term that's not going to be a good experience. It's going to be an interesting tech demo for some people if it does happen, but I think realistically it's not going to be a way of playing a game that will be attractive to 99% of players.\"\n\n\"If GTA 6 was launching a year from now, the picture might be quite different. But it's just about getting out in time.\"\n\nIf all that's true, you might wonder why reports currently point to GTA 6 launching for PC as early as the first quarter of 2027. That would be a pretty speedy turnaround, given that GTA 5 took more than 18 months to launch on PC. Has Take-Two moved that date forward, as some have speculated, in a bid to beat AI ports to the punch?\n\nAgain, the analysts are dubious. \"It was probably a reaction to the memory crisis more than anything,\" explains McWhirter. \"GTA 6 was meant to be the game that would help drive sales of PS5 and Xbox Series X and S, but instead those consoles have become supply constrained because of shortages of key components – namely memory and storage. That means that Rockstar needs to look at ways of expanding their audience, which means the PC release suddenly becomes a lot more important in terms of broadening the addressable market for the game.\"\n\nIn other words, Rockstar already has a whole host of reasons to bring GTA 6 to PC pretty darn fast. If that does come to pass (and it's worth remembering that a PC release hasn't even been announced yet) it isn't necessarily a symptom of AI heebie-jeebies.\n\n\"What can an indie developer do?\"\n\nSo everything is actually fine and dandy and everybody is getting worked up over nothing? Not quite. Because while agentic AI might not be able to get GTA 6 running on PC right now, it can certainly clone an indie game in record time, and even beat a small studio to market based on their own prerelease demo. This issue has turned Steam Next Fest – which usually features thousands of playable demos from unreleased games – into a huge risk for independent developers.\n\nTo find out more about how AI is affecting small studios, I reached out to Rami Ismail. As well as working as a consultant and speaker, he's perhaps best known as the co-founder of Vlambeer, the two-person studio that was responsible for Nuclear Throne, Ridiculous Fishing, and Luftrausers. I wondered whether the threat of cloning might be affecting how indies think about showcasing their games. His answer is a firm yes.\n\n\"Developers are arguing about whether we can still do the thing that players want us to do, which is to post about our games early,\" Ismail tells me. \"Because there are now companies that have AI agents that are scouring social media. These people aren't even doing it themselves – their AI agents are scouring social media, searching for games that are gaining momentum. If they find one, the AI will ask itself whether it can clone it well, and if the answer is yes it will clone the game.\"\n\n\"What are we supposed to do on our end? What can an indie developer do?\"\n\nAI agents are scouring social media, searching for games that are gaining momentum. If they find one, the AI will ask itself whether it can clone it well, and if the answer is yes it will clone the game.\n\nYou might argue that indie developers could make use of generative AI themselves to develop their own games more quickly and with less financial risk. It's certainly true that it's hard for tiny studios to turn down tools that might give them any kind of advantage. And as the use of gen-AI becomes more widespread, it will take more and more conviction to remain committed to AI-free workflows in an ultra-competitive (and increasingly clone-filled) market. But on the other hand, Ismail tells me, indies that make use of generative AI will be profoundly vulnerable to changes in the cost and availability of those tools.\n\nHe asks me to imagine an indie dev who uses an AI coding tool to build a feature for their game. The resulting code is hard to parse and extremely long, but it works. \"That isn't much of a problem because right now tokens are subsidized, and people can pay something like $99 for a Claude or OpenAI subscription,\" Ismail explains. \"But now, imagine there's a bug, and you need to fix it. And imagine the AI company goes, okay, now the $99 subscription is no longer there. That's now a $1,400 subscription, and you pay X amount of money per token.\" Big studios with corporate backing might be able to soak up the cost or negotiate bespoke pricing, but indies would be in a much more precarious position.\n\nAnd if your game's codebase is sprawling and no longer especially human-readable, you're left with little choice but to suck it up and pay the extra money. Or fold.\n\nIf you've read Cory Doctorow's writing on the subject – or just used the internet at any point in the last decade – you might recognise the scenario Ismail's describing as a textbook example of 'enshittification' , the process by which a service goes from prioritising the needs of its users to ever more aggressively prioritising shareholder value at the expense of all else. \"So this is all an incredible replication of the rideshare model, where you just undercut the taxis until the taxis are gone, and then you enshittify your product,\" Ismail says. \"But it's being speedrun at a scale I've never seen before.\"\n\n\"Do you want to sell your codebase?\"\n\nAs for what comes next, there's uncertainty and disagreement here, too.\n\nAt the start of this piece, I explained that Stephen Kick foresaw a future where cloud streaming is the only way to access your games. When I put this idea to Omdia, I find they're sceptical. \"Cloud may not necessarily be the end-goal for publishers as it remains unproven as a delivery vehicle for premium triple-A console and PC games,\" says McWhirter. \"But platform holders and publishers will take game security more seriously. For instance, it's highly likely PlayStation is using cutting-edge frontier AI models to identify vulnerabilities in i",
-      "image": "https://assets-prd.ignimgs.com/2026/11/09/gta6-launch-ai-blogroll-1794222934628.jpg",
-      "images": [
-        {
-          "url": "https://assets-prd.ignimgs.com/2026/11/09/gta6-launch-ai-blogroll-1794222934628.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-09T15:30:00.000Z",
-      "sourceId": "ign",
-      "source": "IGN",
-      "category": "games",
+      "sourceId": "verge-ent",
+      "source": "The Verge Entertainment",
+      "category": "entertainment",
       "lang": "en",
       "addedAt": "2026-11-09T16:54:28.656Z"
     },
@@ -25779,7 +25795,7 @@
       "url": "https://github.com/Goldoire/fefw-recomp",
       "excerpt": "Native Windows PC port of Fire Emblem: Fortune's Weave by static recompilation. Bring your own dump; no game files included.",
       "image": "",
-      "publishedAt": "2026-11-10T00:17:48Z",
+      "publishedAt": "2026-11-09T00:14:04Z",
       "addedAt": "2026-11-07T23:40:20.285Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -34038,7 +34054,7 @@
       "url": "https://github.com/boburning/portcove",
       "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
       "image": "",
-      "publishedAt": "2026-11-10T00:36:52Z",
+      "publishedAt": "2026-11-10T00:43:32Z",
       "addedAt": "2026-11-07T06:09:06.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -35352,7 +35368,7 @@
       "url": "https://github.com/ChupathingyCE/chupathingyce",
       "excerpt": "Halo CE: Ported for Everyone. Windows, Mac, Linux, Steam Deck, Android and FreeBSD, with online games and stats. Bring your own copy of the game.",
       "image": "",
-      "publishedAt": "2026-11-10T00:26:57Z",
+      "publishedAt": "2026-11-10T00:43:39Z",
       "addedAt": "2026-11-07T06:02:57.825Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
