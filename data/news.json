@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-11T09:16:25.111Z",
-  "tookMs": 10639,
+  "generatedAt": "2026-11-11T09:18:26.252Z",
+  "tookMs": 8139,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -28,11 +28,11 @@
     "games": 472,
     "announces": 44,
     "mobile": 10,
-    "releases": 56,
+    "releases": 52,
     "rumors": 26,
     "software": 78,
     "science": 184,
-    "entertainment": 597,
+    "entertainment": 598,
     "ports": 221,
     "pc": 127,
     "consoles": 338,
@@ -43,7 +43,7 @@
     "aisoft": 96,
     "cars": 371,
     "war": 331,
-    "total": 3468
+    "total": 3465
   },
   "sourceCount": 89,
   "sources": [
@@ -673,6 +673,12 @@
   ],
   "errors": [
     {
+      "source": "Nature",
+      "url": "https://www.nature.com/nature.rss",
+      "error": "ответ не похож на RSS/Atom",
+      "reused": 10
+    },
+    {
       "source": "r/emulation",
       "url": "https://www.reddit.com/r/emulation/new/.rss",
       "error": "HTTP 429",
@@ -709,7 +715,7 @@
       "excerpt": "Drop-in SNES hardware for your static recompilation project.",
       "image": "",
       "publishedAt": "2026-11-11T08:49:16Z",
-      "addedAt": "2026-11-11T09:16:19.362Z",
+      "addedAt": "2026-11-11T09:18:21.902Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -722,11 +728,26 @@
       "excerpt": "Native macOS port of Black & White (2001) for Apple silicon. No game files included: bring your own disc.",
       "image": "",
       "publishedAt": "2026-11-11T08:44:06Z",
-      "addedAt": "2026-11-11T09:16:18.287Z",
+      "addedAt": "2026-11-11T09:18:20.825Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
       "lang": "en"
+    },
+    {
+      "id": "rluv2m",
+      "title": "123 миллиона параметров и один микрофон. На что способна маленькая модель распознавания речи?",
+      "url": "https://habr.com/ru/articles/1106442/",
+      "excerpt": "Запустил Moonshine Voice локально на Windows, подключил микрофон и выяснил насколько хорошо она справляется с потоковым распознаванием речи на обычном компьютере. Читать далее",
+      "content": "Запустил Moonshine Voice локально на Windows, подключил микрофон и выяснил насколько хорошо она справляется с потоковым распознаванием речи на обычном компьютере.\n\nЧитать далее",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-11T09:16:50.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "f5i2v3",
@@ -746,7 +767,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "mwuef9",
@@ -761,7 +782,7 @@
       "source": "Ukrainska Pravda",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1rgu6ht",
@@ -781,7 +802,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1vcazj5",
@@ -801,7 +822,22 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
+    },
+    {
+      "id": "1vj8y72",
+      "title": "Девятый сезон «Невского» с Антоном Васильевым и Дмитрием Паламарчуком снимает НТВ",
+      "url": "https://www.intermedia.ru/news/408041",
+      "excerpt": "Работа над девятым сезоном сериала НТВ «Невский» с Антоном Васильевым и Дмитрием Паламарчуком в главных ролях продолжается в...",
+      "content": "Работа над девятым сезоном сериала НТВ «Невский» с Антоном Васильевым и Дмитрием Паламарчуком в главных ролях продолжается в...",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-11T09:12:00.000Z",
+      "sourceId": "intermedia",
+      "source": "InterMedia",
+      "category": "entertainment",
+      "lang": "ru",
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1bl66n4",
@@ -821,7 +857,7 @@
       "source": "Игромания",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "odiq26",
@@ -841,7 +877,7 @@
       "source": "GamesIndustry.biz",
       "category": "industry",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1tg46xr",
@@ -861,7 +897,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "zfq7lh",
@@ -881,7 +917,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "owz3ul",
@@ -901,7 +937,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "83dfxj",
@@ -921,7 +957,7 @@
       "source": "3DNews Игры",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1iuf3c6",
@@ -949,7 +985,7 @@
       "source": "The Guardian",
       "category": "war",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1ewzj1l",
@@ -969,7 +1005,7 @@
       "source": "Ukrinform",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1j5j9qs",
@@ -989,7 +1025,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "by3j1w",
@@ -1009,7 +1045,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1fql7qs",
@@ -1049,7 +1085,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1ossiz7",
@@ -1069,7 +1105,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "swfz5s",
@@ -1084,7 +1120,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1ld371s",
@@ -1104,7 +1140,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "nsxlt",
@@ -1124,7 +1160,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1sykgmc",
@@ -1144,7 +1180,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "hspujf",
@@ -1164,7 +1200,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1pgo6ck",
@@ -1179,7 +1215,7 @@
       "source": "The Moscow Times",
       "category": "war",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "q0fd9s",
@@ -1199,7 +1235,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "oioqe5",
@@ -1219,7 +1255,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1rdz36t",
@@ -1239,7 +1275,7 @@
       "source": "DTF",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1xmpmpp",
@@ -1259,7 +1295,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "wv4ll6",
@@ -1274,7 +1310,7 @@
       "source": "InterMedia",
       "category": "entertainment",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "q915e7",
@@ -1289,7 +1325,7 @@
       "source": "Al Jazeera",
       "category": "war",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "t6ipwt",
@@ -1309,7 +1345,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1q080l",
@@ -1329,7 +1365,7 @@
       "source": "Meduza",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1a2zpqv",
@@ -1349,7 +1385,7 @@
       "source": "Игромания",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "y4znbz",
@@ -1377,7 +1413,7 @@
       "source": "5 колесо",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1mvggpx",
@@ -1392,7 +1428,7 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1nksdv5",
@@ -1412,7 +1448,7 @@
       "source": "DTF",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "2ix2w",
@@ -1432,7 +1468,7 @@
       "source": "Ukrinform",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "ndfifi",
@@ -1452,7 +1488,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1soqyjx",
@@ -1472,7 +1508,7 @@
       "source": "Motor1",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1crfkx",
@@ -1492,7 +1528,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "urkc3x",
@@ -1512,7 +1548,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "4igeo2",
@@ -1532,7 +1568,7 @@
       "source": "Motor1",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1ta3rxh",
@@ -1552,7 +1588,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1rg4lgc",
@@ -1572,7 +1608,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "l5zk6q",
@@ -1592,7 +1628,7 @@
       "source": "Radio Svoboda",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1mlcmuw",
@@ -1612,7 +1648,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "13ntcr0",
@@ -1627,7 +1663,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1redwt7",
@@ -1647,7 +1683,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1b76t3l",
@@ -1662,7 +1698,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1vfddur",
@@ -1682,7 +1718,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1b9iz6e",
@@ -1702,27 +1738,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
-    },
-    {
-      "id": "w2oj8a",
-      "title": "OpenAI заявила об опровержении ETH, Anthropic подала на IPO: что происходит с ИИ",
-      "url": "https://habr.com/ru/companies/selectel/articles/1106194/",
-      "excerpt": "Модели начали выдавать результаты, которые человек не может быстро перепроверить: доказательства на десятки страниц, анализ тысяч генных экспериментов за полчаса, отчеты агентов о том, что они сделали в инфраструктуре. И почти в каждой крупной новости месяца…",
-      "content": "Модели начали выдавать результаты, которые человек не может быстро перепроверить: доказательства на десятки страниц, анализ тысяч генных экспериментов за полчаса, отчеты агентов о том, что они сделали в инфраструктуре. И почти в каждой крупной новости месяца звучит вопрос: кто подтвердит, что это правда.\n\nБольше всего в октябре спорили о науке, с нее и начнем. Разбираемся, что именно произошло на стыке математики и нейросетей, как ИИ попытался перевернуть теорию вычислительной сложности и что значит история с доказательствами для индустрии.\n\nЧитать далее",
-      "image": "https://habrastorage.org/extt/0d/48/5e/0d485ee90a3897f0b13be82b88fab37d.jpg",
-      "images": [
-        {
-          "url": "https://habrastorage.org/extt/0d/48/5e/0d485ee90a3897f0b13be82b88fab37d.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-11T08:00:19.000Z",
-      "sourceId": "habr-ai",
-      "source": "Habr AI",
-      "category": "ai",
-      "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "dvoqik",
@@ -1737,7 +1753,7 @@
       "source": "OpenAI News",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "73lcnl",
@@ -1757,7 +1773,7 @@
       "source": "Игромания",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "80bp39",
@@ -1777,7 +1793,7 @@
       "source": "Игромания",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "iw7mp5",
@@ -1797,7 +1813,7 @@
       "source": "Motor1",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "ta55xg",
@@ -1817,7 +1833,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "y0x8g3",
@@ -1837,7 +1853,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "w15si9",
@@ -1852,7 +1868,7 @@
       "source": "InterMedia",
       "category": "entertainment",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1rifbqb",
@@ -1872,7 +1888,7 @@
       "source": "Ukrainska Pravda",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "sl9572",
@@ -1892,7 +1908,7 @@
       "source": "Motor1",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1vt1l34",
@@ -1912,7 +1928,7 @@
       "source": "Radio Svoboda",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "jlb8pb",
@@ -1932,7 +1948,7 @@
       "source": "3DNews Железо",
       "category": "hardware",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "5td3dq",
@@ -1947,7 +1963,7 @@
       "source": "TechCrunch AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "11uv79y",
@@ -1967,7 +1983,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "yh4w1r",
@@ -1991,7 +2007,7 @@
       "source": "Nintendo Life",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1835qki",
@@ -2031,7 +2047,7 @@
       "source": "5 колесо",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "aik356",
@@ -2051,7 +2067,7 @@
       "source": "Игромания",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "zftrrl",
@@ -2071,7 +2087,7 @@
       "source": "Meduza",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "12r4869",
@@ -2086,7 +2102,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1cdbkjw",
@@ -2106,7 +2122,7 @@
       "source": "Meduza",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1c9k81x",
@@ -2126,7 +2142,7 @@
       "source": "Motor1",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "7rwu0x",
@@ -2162,7 +2178,7 @@
       "source": "5 колесо",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "69f9vw",
@@ -2182,7 +2198,7 @@
       "source": "DTF",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "kjje45",
@@ -2202,7 +2218,7 @@
       "source": "Игромания",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1uzkxsi",
@@ -2222,7 +2238,7 @@
       "source": "DTF",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "urpzov",
@@ -2242,7 +2258,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1xlzpst",
@@ -2262,7 +2278,7 @@
       "source": "Meduza",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "100pt3r",
@@ -2286,7 +2302,7 @@
       "source": "Nintendo Life",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "i7d88g",
@@ -2306,7 +2322,7 @@
       "source": "3DNews Железо",
       "category": "hardware",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "115l4cw",
@@ -2326,7 +2342,7 @@
       "source": "Ukrinform",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "pwtajt",
@@ -2350,7 +2366,7 @@
       "source": "Nintendo Everything",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1bf3j35",
@@ -2365,7 +2381,7 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "113fmsq",
@@ -2389,7 +2405,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "18puxe5",
@@ -2409,7 +2425,7 @@
       "source": "Игромания",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "197x1qz",
@@ -2429,7 +2445,7 @@
       "source": "3DNews Игры",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "oyac2c",
@@ -2449,7 +2465,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1wgckc",
@@ -2469,7 +2485,7 @@
       "source": "DTF",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1hwz93u",
@@ -2489,7 +2505,7 @@
       "source": "Meduza",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "hp8v39",
@@ -2504,7 +2520,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1lzte1y",
@@ -2519,7 +2535,7 @@
       "source": "InterMedia",
       "category": "entertainment",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "ww9fw4",
@@ -2539,7 +2555,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1bg8ged",
@@ -2559,7 +2575,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "jzgmto",
@@ -2579,7 +2595,7 @@
       "source": "Meduza",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1osdp39",
@@ -2594,7 +2610,7 @@
       "source": "InterMedia",
       "category": "entertainment",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1bloote",
@@ -2614,7 +2630,7 @@
       "source": "Игромания",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1snsyah",
@@ -2634,7 +2650,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "wl0bux",
@@ -2662,7 +2678,7 @@
       "source": "The Guardian",
       "category": "war",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "19n1yqg",
@@ -2682,7 +2698,7 @@
       "source": "Meduza",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "iwc5m4",
@@ -2702,7 +2718,7 @@
       "source": "Gematsu",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "11biqhr",
@@ -2722,7 +2738,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "i9hyqt",
@@ -2742,7 +2758,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1rubwia",
@@ -2762,7 +2778,7 @@
       "source": "StopGame",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "dthwlo",
@@ -2777,7 +2793,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "jyw3tl",
@@ -2792,7 +2808,7 @@
       "source": "Hugging Face",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "19x7gf2",
@@ -2820,7 +2836,7 @@
       "source": "The Guardian",
       "category": "war",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "pkov3f",
@@ -2848,7 +2864,7 @@
       "source": "Meduza",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "c0azi5",
@@ -2868,7 +2884,7 @@
       "source": "Игромания",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "17g0i9e",
@@ -2883,7 +2899,7 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "18z3g0w",
@@ -2907,7 +2923,7 @@
       "source": "Nintendo Life",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "ezsurt",
@@ -2927,7 +2943,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "quotfk",
@@ -2942,7 +2958,7 @@
       "source": "Al Jazeera",
       "category": "war",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1asnxq3",
@@ -2962,7 +2978,7 @@
       "source": "Игромания",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "ylmm73",
@@ -2986,7 +3002,7 @@
       "source": "Nintendo Everything",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1m9v3v0",
@@ -3006,7 +3022,7 @@
       "source": "Gematsu",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "nkkb4j",
@@ -3021,7 +3037,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1ha6zoh",
@@ -3041,7 +3057,7 @@
       "source": "OMG! Ubuntu",
       "category": "software",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "at9kj5",
@@ -3061,7 +3077,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1kxas30",
@@ -3081,7 +3097,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "100s997",
@@ -3105,7 +3121,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "185e0zu",
@@ -3125,7 +3141,7 @@
       "source": "Ukrainska Pravda",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1qu5onz",
@@ -3140,7 +3156,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1eteu33",
@@ -3160,7 +3176,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "trfmel",
@@ -3184,7 +3200,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "kme4ez",
@@ -3208,7 +3224,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "qr488",
@@ -3232,7 +3248,7 @@
       "source": "Nintendo Life",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "75ampn",
@@ -3252,7 +3268,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1qfj53r",
@@ -3272,7 +3288,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "q25wit",
@@ -3292,7 +3308,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1xbnzu2",
@@ -3312,7 +3328,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "ba324e",
@@ -3332,7 +3348,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "112apuw",
@@ -3356,7 +3372,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "8wzo3m",
@@ -3376,7 +3392,7 @@
       "source": "Gematsu",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "143q5x4",
@@ -3400,7 +3416,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "ovho6p",
@@ -3415,7 +3431,7 @@
       "source": "ScienceDaily",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1osuqq7",
@@ -3439,7 +3455,7 @@
       "source": "Nintendo Life",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "nv81sn",
@@ -3454,7 +3470,7 @@
       "source": "ScienceDaily",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1dg9vc6",
@@ -3469,7 +3485,7 @@
       "source": "ScienceDaily",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1wzydos",
@@ -3484,7 +3500,7 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "sc9v27",
@@ -3499,7 +3515,7 @@
       "source": "Hacker News",
       "category": "aisoft",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1xw60js",
@@ -3514,7 +3530,7 @@
       "source": "OpenAI News",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "xh5xmi",
@@ -3529,7 +3545,7 @@
       "source": "ScienceDaily",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "1aw1e4q",
@@ -3544,7 +3560,7 @@
       "source": "ScienceDaily",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "exwryi",
@@ -3559,12 +3575,12 @@
       "source": "OpenAI News",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
-      "id": "1diagfe",
+      "id": "sepfhj",
       "title": "Release: Diplomacy is Not an Option: Fog of War",
-      "url": "https://www.gog.com/pl/news/release_diplomacy_is_not_an_option_fog_of_war",
+      "url": "https://www.gog.com/en/news/release_diplomacy_is_not_an_option_fog_of_war",
       "excerpt": "The newest DLC to Diplomacy is Not an Option is here – Fog of War is now available on GOG! NOW, WHERE DID IT ALL GO WRONG? This was precisely the question the new King of Samreignia was asking himself when suddenly two states declared war on him. After all…",
       "content": "The newest DLC to Diplomacy is Not an Option is here – Fog of War is now available on GOG!\n\nNOW, WHERE DID IT ALL GO WRONG? This was precisely the question the new King of Samreignia was asking himself when suddenly two states declared war on him. After all, upon coming to power, he worked to establish peaceful relations with his neighbours and to foster science and culture. He even looked after his people properly.\n\nNow on GOG!",
       "image": "",
@@ -3574,67 +3590,7 @@
       "source": "GOG",
       "category": "releases",
       "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
-    },
-    {
-      "id": "15ihee0",
-      "title": "Release: Vampire: The Masquerade - Oaths & Ashes",
-      "url": "https://www.gog.com/pl/news/release_vampire_the_masquerade_oaths_amp_ashes",
-      "excerpt": "Claw your way to power and leave your bitemarks on Berlin's underworld – Vampire: The Masquerade - Oaths & Ashes is now available on GOG! Beneath the city's gleaming façade, the clashing vampire factions have carved Berlin into a chessboard of blood and…",
-      "content": "Claw your way to power and leave your bitemarks on Berlin's underworld – Vampire: The Masquerade - Oaths & Ashes is now available on GOG!\n\nBeneath the city's gleaming façade, the clashing vampire factions have carved Berlin into a chessboard of blood and influence. The balance of power needs to be disrupted if the old order enforced by the Ivory Tower is to prevail. And you are the disruption. Sent by her Camarilla masters, Alice must navigate the intricacies of the politics at play to destabilise the region and sow discord, ensuring no one faction claims ultimate dominion.\n\nNow on GOG!",
-      "image": "",
-      "images": [],
-      "publishedAt": null,
-      "sourceId": "gog-news",
-      "source": "GOG",
-      "category": "releases",
-      "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
-    },
-    {
-      "id": "sw90f3",
-      "title": "Release: After the Wane",
-      "url": "https://www.gog.com/pl/news/release_after_the_wane",
-      "excerpt": "After the Wane is an interactive graphic novel by the creators of Along the Edge and Across the Grooves – and it's now available on GOG! Lena is a starry-eyed young dancer with big dreams, but as soon as she sets foot in the capital, she finds herself at the…",
-      "content": "After the Wane is an interactive graphic novel by the creators of Along the Edge and Across the Grooves – and it's now available on GOG!\n\nLena is a starry-eyed young dancer with big dreams, but as soon as she sets foot in the capital, she finds herself at the nexus of a lifelong quarrel between Fernand, the elusive director of a community center, and Deborah, who's leading the troupe of a strange and exclusive theatre.\n\nNow on GOG!",
-      "image": "",
-      "images": [],
-      "publishedAt": null,
-      "sourceId": "gog-news",
-      "source": "GOG",
-      "category": "releases",
-      "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
-    },
-    {
-      "id": "uvikio",
-      "title": "Release: The seven days I spent with you",
-      "url": "https://www.gog.com/pl/news/release_the_seven_days_i_spent_with_you",
-      "excerpt": "The seven days I spent with you is a classic anime-inspired story where you make choices based on your preferences to advance the plot – and it's now available on GOG! Awakening with lost memories,you found myself imprisoned in an unfamiliar room. And before…",
-      "content": "The seven days I spent with you is a classic anime-inspired story where you make choices based on your preferences to advance the plot – and it's now available on GOG!\n\nAwakening with lost memories,you found myself imprisoned in an unfamiliar room. And before you appeared—a peculiar girl. She declared you her most important person, insisting this room was your sanctuary.\n\nNow on GOG!",
-      "image": "",
-      "images": [],
-      "publishedAt": null,
-      "sourceId": "gog-news",
-      "source": "GOG",
-      "category": "releases",
-      "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
-    },
-    {
-      "id": "oe30y7",
-      "title": "Release: Warhammer Survivors",
-      "url": "https://www.gog.com/pl/news/release_warhammer_survivors",
-      "excerpt": "The addictive bullet-heaven action of the survivors genre comes to the 41st Millennium and the Mortal Realms – Warhammer Survivors is now available on GOG! It's the official grim and dark bullet-heaven game from the developers of Warhammer 40,000 Boltgun…",
-      "content": "The addictive bullet-heaven action of the survivors genre comes to the 41st Millennium and the Mortal Realms – Warhammer Survivors is now available on GOG!\n\nIt's the official grim and dark bullet-heaven game from the developers of Warhammer 40,000 Boltgun . Play as over 40 iconic champions from the Warhammer 40,000 and Warhammer Age of Sigmar universes and obliterate those who champion death and destruction.\n\nNow on GOG!",
-      "image": "",
-      "images": [],
-      "publishedAt": null,
-      "sourceId": "gog-news",
-      "source": "GOG",
-      "category": "releases",
-      "lang": "en",
-      "addedAt": "2026-11-11T09:16:14.472Z"
+      "addedAt": "2026-11-11T09:18:18.113Z"
     },
     {
       "id": "gh-1447818596",
@@ -41738,7 +41694,7 @@
       "url": "https://github.com/Dittobyte/Recompia",
       "excerpt": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows with Linux/Handheld support. Multiplayer included, modding, feature enhancements and more! Join the discord community as well",
       "image": "",
-      "publishedAt": "2026-11-11T08:58:38Z",
+      "publishedAt": "2026-11-11T09:17:01Z",
       "addedAt": "2026-11-08T15:04:03.044Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -56762,7 +56718,7 @@
       "url": "https://github.com/ChupathingyCE/chupathingyce",
       "excerpt": "Halo CE: Ported for Everyone. Windows, Mac, Linux, Steam Deck, Android and FreeBSD, with online games and stats. Bring your own copy of the game.",
       "image": "",
-      "publishedAt": "2026-11-11T09:10:10Z",
+      "publishedAt": "2026-11-11T09:17:27Z",
       "addedAt": "2026-11-07T06:02:57.825Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
