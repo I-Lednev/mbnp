@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-13T02:53:46.704Z",
+  "generatedAt": "2026-11-13T02:56:16.280Z",
   "count": 1900,
   "articles": {
     "1243266": {
@@ -45060,13 +45060,13 @@
     "1egxxgo": {
       "version": 4,
       "url": "https://phys.org/news/2026-11-online-networking-skills-startup-ambitions.html",
-      "fetchedAt": "2026-11-13T02:53:36.023Z",
+      "fetchedAt": "2026-11-13T02:56:05.038Z",
       "error": "HTTP 403"
     },
     "tfhq8r": {
       "version": 4,
       "url": "https://deadline.com/2026/11/alanis-morissette-dogma-ben-affleck-lead-with-my-sexuality-1237222468/",
-      "fetchedAt": "2026-11-13T02:53:36.834Z",
+      "fetchedAt": "2026-11-13T02:56:05.726Z",
       "title": "Alanis Morissette Recalls ‘Dogma’ Co-Star Ben Affleck Asking Her Why She Didn’t “Lead With My Sexuality”",
       "byline": "Glenn Garner",
       "siteName": "Deadline",
@@ -45084,35 +45084,10 @@
       "length": 1127,
       "imageCount": 2
     },
-    "gh-1432912012": {
-      "version": 4,
-      "url": "https://github.com/otavix010/saints-row-pc",
-      "fetchedAt": "2026-11-13T02:53:37.028Z",
-      "title": "GitHub - otavix010/saints-row-pc: Saints Row (Xbox 360) — port nativo para PC por recompilação estática (ReXGlue). Gera a partir da sua .iso.",
-      "byline": "",
-      "siteName": "GitHub",
-      "content": "Saints Row (Xbox 360) — port nativo para PC por recompilação estática (Otavix Engine 360). Gera a partir da sua .iso.\n\nO que o port acrescenta ·\nEstado dos testes ·\nPlataformas ·\nRequisitos ·\nDesempenho ·\nPerguntas frequentes ·\nGerar à mão (sem o launcher) ·\nOpções ·\nComo funciona\n\nImportantPara jogar, baixe o Otavix Launcher. Ele baixa este port, pede a sua .iso, gera o jogo no seu PC e o mantém atualizado. Para relatar um problema ou pedir algo, use \"Reportar problema\" na página do jogo no launcher: o relatório já vai com o log e as configurações, e é por ele que as correções saem mais rápido.\nTo play, download the Otavix Launcher. It downloads this port, asks for your .iso, makes the game on your PC and keeps it updated. To report a problem or ask for something, use \"Report a problem\" on the game's page in the launcher: the report carries the log and the settings, and that is how fixes come out fastest.\n\nPort do Saints Row (Xbox 360) por recompilação estática: o código PowerPC do jogo é traduzido para C++ e compilado como um programa de Windows. Não há emulador de CPU rodando o jogo. A parte gráfica usa o runtime da Otavix Engine 360, derivado do ReXGlue e do Xenia (veja os Créditos).\nNada do jogo vem neste repositório. O port é gerado no seu PC a partir da sua própria cópia (a imagem .iso do disco). O código traduzido também é gerado aí e nunca é distribuído.\nO runtime é a Otavix Engine 360 1.0.0 (privada): o gerador baixa o pacote pronto do servidor do launcher e confere o SHA-256. Ela descende do ReXGlue e do Xenia (BSD-3, veja os Créditos) e traz o AMD FidelityFX e as correções do port; os avisos de licença vão no pacote.\nO jeito mais fácil de jogar é pelo Otavix Launcher, que baixa este port, pede a sua .iso, gera tudo e cuida das opções.\n\nO que o port acrescenta\n\nXbox 360\nPort\n\nTaxa de quadros\n30 fps\n30 ou 60 fps (quadros reais)\n\nResolução interna\n720p\n720p, 1440p ou 4K\n\nAmpliação para a tela\n—\nAMD FSR 1, AMD CAS, FSR 3 temporal (experimental) ou bilinear, com nitidez ajustável\n\nAnti-aliasing\no do jogo\no do jogo, mais FXAA opcional\n\nFiltro anisotrópico\no do jogo\naté 16x\n\nContador de fps\n—\nopcional, no canto da tela\n\nDLSS e XeSS não entram: os dois precisam de vetores de movimento, que os jogos de Xbox 360 não fornecem. O ganho de nitidez vem da resolução interna (supersampling de verdade), e a fluidez vem dos fps reais.\n\nTela de carregamento\nOs Saints\n\nEstado dos testes\n\nJogo livre logo depois da criação do personagem, na engine 1.0.1: 4 minutos andando e correndo pelas ruas, a 60 fps em 2x (média 61,1; mínimo 59; GPU em 31%). A velocidade do personagem a pé é a mesma a 30 e a 60.\n120 fps não entra: o jogo seguiria a velocidade certa (a caminhada percorre a mesma distância a 60 e a 120), mas não passa de uns 70 fps, porque a thread do runtime que traduz os comandos de GPU do Xbox 360 fica a 98% de um núcleo com a quantidade de desenhos da cidade.\nSom funcionando, com o volume do port testado (25% dá 1/16 da potência, como previsto).\n\nPlataformas\n\nWindows\nLinux / SteamOS\n\nSituação\nfunciona (este port)\nnão suportado e não testado\n\nVídeo\nDirect3D 12 (o Agility SDK vai ao lado do exe)\no runtime só tem o caminho D3D12 no Windows\n\nComo jogar\npelo launcher, ou gerar.ps1 e jogar.cmd\nsó o port de God of War: Ascension tem versão Linux (beta) por enquanto\n\nRequisitos\n\nWindows 10/11 64 bits e GPU com Direct3D 12.\nCPU x86-64 com SSE4.1. AVX não é obrigatório: o gerador compila no seu PC com -march=native e usa o que o processador tiver.\nVisual Studio 2022 Build Tools com \"Desenvolvimento para desktop com C++\" e \"C++ CMake tools for Windows\" (o launcher confere).\nA sua .iso do Saints Row (Saints Row).\nMemória: o mínimo exato não foi medido. Um cuidado medido: a compilação completa com 16 jobs chegou a ~35 GB de memória comprometida; o gerador limita os jobs (-Jobs 4 é seguro).\nDisco: não medido com precisão: a .iso, mais as ferramentas (a engine, ~14 MB, e o Clang portátil) e a pasta de compilação.\n\nDesempenho medido\nFPS de jogo. Só colocamos o que foi medido, e com um jogo só rodando (com outra carga junto, o desempenho pode cair bastante). Os números de 2x são da engine 1.0.1 (a saída da GPU é idêntica quadro a quadro à da 1.0.0 nos 4 ports); o que veio do runtime anterior está indicado como tal.\n\nMáquina\nCPU\nGPU\nFPS\n\nPC 1\nRyzen 7 9800X3D\nRTX 5080\n2x (1440p): 60 do início ao jogo livre (média 61,1 nas ruas, mínimo 59, GPU em 31%) na engine 1.0.1. 120 não entra: o próprio jogo limita a física a 1/60 e o runtime não passa de ~70 na cidade (medido no runtime anterior)\n\nPC 2\nCore i5-11400F\nRX 9060 XT\nnão medido\n\nNotebook\nCore i5-10300H (4/8)\nGTX 1650\nnão medido\n\nPortátil\nLegion Go S (Linux)\nRadeon 780M\nnão suportado\n\nDLSS e XeSS não existem para estes jogos (o Xbox 360 não fornece vetores de movimento); o FSR e o CAS atuam só na saída.\nProblemas conhecidos\n\nSó 30 e 60 FPS (sem 120, pelo motivo acima).\n\nGerar à mão (sem o launcher)\nPrecisa do Visual Studio 2022 Build Tools com \"Desenvolvimento para desktop com C++\" e \"C++ CMake tools for Windows\". O gerador baixa o resto: a Otavix Engine 360 e o Clang (LLVM) portátil, numa pasta _ferramentas ao lado do port.\n.\\gerar.ps1 -Iso \"D:\\Jogos\\Saints Row (World).iso\"\n.\\jogar.cmd\nO port foi feito a partir do Saints Row (World). O gerador confere o default.xex da sua .iso (SHA-1 c2646093ff3926141fcf4fd630e876873d1caece) e avisa se for outra versão.\nOpções\nFicam em saintsrow.toml ao lado do executável, ou no arquivo indicado pela variável PORT_OPCOES. O launcher grava em opcoes.toml. Cada uma também vale na linha de comando (--fps 120) ou como variável de ambiente (REX_FPS=120).\n\nOpção\nValores\nPadrão\n\nfps\n30, 60\n60\n\nresolution_scale\n1 (720p), 2 (1440p), 3 (4K)\n2\n\nfiltro\nfsr, cas, fsr3 (temporal, experimental), bilinear\nfsr\n\nnitidez\n0 a 100\n70\n\nswap_post_effect\nnone, fxaa, fxaa_extreme\nnone\n\nanisotropic_override\n-1 (o do jogo), 3 (4x), 4 (8x), 5 (16x)\n5\n\nfullscreen\ntrue, false\ntrue\n\nmonitor\n0 (padrão), 1, 2...\n0\n\nmostrar_fps\ntrue, false\nfalse\n\nvolume\n0 a 100\n100\n\nalvos\nauto, rov, rtv: como a EDRAM é imitada; auto usa o caminho medido melhor para o jogo\nauto\n\nvibration\ntrue, false\ntrue\n\nzona_morta_esquerda, zona_morta_direita\n0 a 50 (%)\n0\n\nuser_language\n1 inglês, 3 alemão, 4 francês, 5 espanhol, 6 italiano\n1\n\niso\ncaminho da .iso\n—\n\nPerguntas frequentes\nEste repositório tem o jogo? Não. Você precisa da sua cópia (a imagem .iso do disco); o gerador monta o port no seu PC.\nRoda no Linux ou no SteamOS? Ainda não: só o port de God of War: Ascension tem versão Linux (beta). Este roda no Windows.\nSaiu atualização. O que acontece com o jogo e os saves? Atualize pelo launcher: ele refaz a tradução e a compilação uma vez (o gerador guarda a versão do runtime em out\\gerar\\sdk.txt). O jogo e os saves ficam.\nA .iso está danificada ou cortada. O port agora recusa a imagem e diz o motivo no log, em vez de fechar.\nOnde relato um problema? No launcher, em \"Reportar problema\" na página do jogo.\nComo funciona\n\nconfig/funcoes.toml: as funções que a análise estática não acha sozinha: chamadas só por ponteiro (nos dados ou com o endereço montado no código) ou fora do alcance da análise. config/ganchos.toml: os ganchos no código do jogo. config/jogo.txt: a versão do jogo que o gerador confere.\nsrc/saintsrow_app.h: a taxa de quadros. O jogo (de uma XDK antiga) apresenta um quadro a cada 2 vblanks e mede o jogo pelo relógio, não pelos quadros: o port acelera o vblank do console para o dobro do fps escolhido (60 fps = vblank a 120 Hz). Conferido: uma caminhada de 3 s chega ao mesmo ponto a 30 e a 60 fps, e a abertura segue no mesmo tempo.\nsrc/port/audio_guard.h (base comum): na abertura, o áudio do jogo mandava um quadro para um cliente que ele mesmo tinha acabado de desregistrar, e o runtime caía; agora o quadro é descartado.\nsrc/port/: a base comum dos ports de Xbox 360 (a mesma em todos): opções de imagem, contador de fps, leitura da .iso, a trava que corrige uma corrida na entrada de controles do runtime, falha.log com a pilha em caso de falha.\n\nPara desenvolver: build.cmd compila; scripts/rodar.py roda numa janela com prints, o fps de cada segundo e um controle roteirizado (PORT_PAD; para começar um jogo novo: --pad 18:A,22:A,26:A,32:Y,36:A,40-240@4:A); scripts/tecla.py aperta botões no jogo em execução; scripts/varrer_ponteiros.py e scripts/desmontar.py ajudam a achar funções.\nCréditos\n\nReXGlue SDK: recompilador estático e runtime de Xbox 360 (BSD-3).\nXenia: o emulador em que o runtime se baseia (BSD-3).\n\nSaints Row é marca da Deep Silver. Este projeto não tem relação com ela nem com a Microsoft.\nLicença\nO código deste repositório está sob a licença MIT (LICENSE). O SDK e o runtime têm a licença própria deles (BSD-3).",
-      "images": [
-        {
-          "url": "https://github.com/otavix010/saints-row-pc/raw/main/docs/jogo.jpg",
-          "alt": "Stilwater"
-        },
-        {
-          "url": "https://github.com/otavix010/saints-row-pc/raw/main/docs/cena1.jpg",
-          "alt": "Tela de carregamento"
-        },
-        {
-          "url": "https://github.com/otavix010/saints-row-pc/raw/main/docs/cena2.jpg",
-          "alt": "Os Saints"
-        }
-      ],
-      "length": 8693,
-      "imageCount": 3
-    },
     "118dq9o": {
       "version": 4,
       "url": "https://www.zr.ru/content/news/988393-deshevle-ne-vyjdet-pochemu-ehlek/",
-      "fetchedAt": "2026-11-13T02:53:37.112Z",
+      "fetchedAt": "2026-11-13T02:56:05.829Z",
       "title": "Дешевле не выйдет: почему электромобиль в России пока проигрывает машине с ДВС",
       "byline": "Российская газета",
       "siteName": "zr.ru",
@@ -45129,7 +45104,7 @@
     "1f8jyjp": {
       "version": 4,
       "url": "https://www.omgubuntu.co.uk/2026/11/mate-wayland-compositor-polo",
-      "fetchedAt": "2026-11-13T02:53:37.531Z",
+      "fetchedAt": "2026-11-13T02:56:06.155Z",
       "title": "Polo is a Wayland compositor for the MATE desktop",
       "byline": "Joey Sneddon",
       "siteName": "OMG! Ubuntu",
@@ -45151,10 +45126,35 @@
       "length": 1897,
       "imageCount": 3
     },
+    "gh-1432912012": {
+      "version": 4,
+      "url": "https://github.com/otavix010/saints-row-pc",
+      "fetchedAt": "2026-11-13T02:56:06.534Z",
+      "title": "GitHub - otavix010/saints-row-pc: Saints Row (Xbox 360) — port nativo para PC por recompilação estática (ReXGlue). Gera a partir da sua .iso.",
+      "byline": "",
+      "siteName": "GitHub",
+      "content": "Saints Row (Xbox 360) — port nativo para PC por recompilação estática (Otavix Engine 360). Gera a partir da sua .iso.\n\nO que o port acrescenta ·\nEstado dos testes ·\nPlataformas ·\nRequisitos ·\nDesempenho ·\nPerguntas frequentes ·\nGerar à mão (sem o launcher) ·\nOpções ·\nComo funciona\n\nImportantPara jogar, baixe o Otavix Launcher. Ele baixa este port, pede a sua .iso, gera o jogo no seu PC e o mantém atualizado. Para relatar um problema ou pedir algo, use \"Reportar problema\" na página do jogo no launcher: o relatório já vai com o log e as configurações, e é por ele que as correções saem mais rápido.\nTo play, download the Otavix Launcher. It downloads this port, asks for your .iso, makes the game on your PC and keeps it updated. To report a problem or ask for something, use \"Report a problem\" on the game's page in the launcher: the report carries the log and the settings, and that is how fixes come out fastest.\n\nPort do Saints Row (Xbox 360) por recompilação estática: o código PowerPC do jogo é traduzido para C++ e compilado como um programa de Windows. Não há emulador de CPU rodando o jogo. A parte gráfica usa o runtime da Otavix Engine 360, derivado do ReXGlue e do Xenia (veja os Créditos).\nNada do jogo vem neste repositório. O port é gerado no seu PC a partir da sua própria cópia (a imagem .iso do disco). O código traduzido também é gerado aí e nunca é distribuído.\nO runtime é a Otavix Engine 360 1.0.0 (privada): o gerador baixa o pacote pronto do servidor do launcher e confere o SHA-256. Ela descende do ReXGlue e do Xenia (BSD-3, veja os Créditos) e traz o AMD FidelityFX e as correções do port; os avisos de licença vão no pacote.\nO jeito mais fácil de jogar é pelo Otavix Launcher, que baixa este port, pede a sua .iso, gera tudo e cuida das opções.\n\nO que o port acrescenta\n\nXbox 360\nPort\n\nTaxa de quadros\n30 fps\n30 ou 60 fps (quadros reais)\n\nResolução interna\n720p\n720p, 1440p ou 4K\n\nAmpliação para a tela\n—\nAMD FSR 1, AMD CAS, FSR 3 temporal (experimental) ou bilinear, com nitidez ajustável\n\nAnti-aliasing\no do jogo\no do jogo, mais FXAA opcional\n\nFiltro anisotrópico\no do jogo\naté 16x\n\nContador de fps\n—\nopcional, no canto da tela\n\nDLSS e XeSS não entram: os dois precisam de vetores de movimento, que os jogos de Xbox 360 não fornecem. O ganho de nitidez vem da resolução interna (supersampling de verdade), e a fluidez vem dos fps reais.\n\nTela de carregamento\nOs Saints\n\nEstado dos testes\n\nJogo livre logo depois da criação do personagem, na engine 1.0.1: 4 minutos andando e correndo pelas ruas, a 60 fps em 2x (média 61,1; mínimo 59; GPU em 31%). A velocidade do personagem a pé é a mesma a 30 e a 60.\n120 fps não entra: o jogo seguiria a velocidade certa (a caminhada percorre a mesma distância a 60 e a 120), mas não passa de uns 70 fps, porque a thread do runtime que traduz os comandos de GPU do Xbox 360 fica a 98% de um núcleo com a quantidade de desenhos da cidade.\nSom funcionando, com o volume do port testado (25% dá 1/16 da potência, como previsto).\n\nPlataformas\n\nWindows\nLinux / SteamOS\n\nSituação\nfunciona (este port)\nnão suportado e não testado\n\nVídeo\nDirect3D 12 (o Agility SDK vai ao lado do exe)\no runtime só tem o caminho D3D12 no Windows\n\nComo jogar\npelo launcher, ou gerar.ps1 e jogar.cmd\nsó o port de God of War: Ascension tem versão Linux (beta) por enquanto\n\nRequisitos\n\nWindows 10/11 64 bits e GPU com Direct3D 12.\nCPU x86-64 com SSE4.1. AVX não é obrigatório: o gerador compila no seu PC com -march=native e usa o que o processador tiver.\nVisual Studio 2022 Build Tools com \"Desenvolvimento para desktop com C++\" e \"C++ CMake tools for Windows\" (o launcher confere).\nA sua .iso do Saints Row (Saints Row).\nMemória: o mínimo exato não foi medido. Um cuidado medido: a compilação completa com 16 jobs chegou a ~35 GB de memória comprometida; o gerador limita os jobs (-Jobs 4 é seguro).\nDisco: não medido com precisão: a .iso, mais as ferramentas (a engine, ~14 MB, e o Clang portátil) e a pasta de compilação.\n\nDesempenho medido\nFPS de jogo. Só colocamos o que foi medido, e com um jogo só rodando (com outra carga junto, o desempenho pode cair bastante). Os números de 2x são da engine 1.0.1 (a saída da GPU é idêntica quadro a quadro à da 1.0.0 nos 4 ports); o que veio do runtime anterior está indicado como tal.\n\nMáquina\nCPU\nGPU\nFPS\n\nPC 1\nRyzen 7 9800X3D\nRTX 5080\n2x (1440p): 60 do início ao jogo livre (média 61,1 nas ruas, mínimo 59, GPU em 31%) na engine 1.0.1. 120 não entra: o próprio jogo limita a física a 1/60 e o runtime não passa de ~70 na cidade (medido no runtime anterior)\n\nPC 2\nCore i5-11400F\nRX 9060 XT\nnão medido\n\nNotebook\nCore i5-10300H (4/8)\nGTX 1650\nnão medido\n\nPortátil\nLegion Go S (Linux)\nRadeon 780M\nnão suportado\n\nDLSS e XeSS não existem para estes jogos (o Xbox 360 não fornece vetores de movimento); o FSR e o CAS atuam só na saída.\nProblemas conhecidos\n\nSó 30 e 60 FPS (sem 120, pelo motivo acima).\n\nGerar à mão (sem o launcher)\nPrecisa do Visual Studio 2022 Build Tools com \"Desenvolvimento para desktop com C++\" e \"C++ CMake tools for Windows\". O gerador baixa o resto: a Otavix Engine 360 e o Clang (LLVM) portátil, numa pasta _ferramentas ao lado do port.\n.\\gerar.ps1 -Iso \"D:\\Jogos\\Saints Row (World).iso\"\n.\\jogar.cmd\nO port foi feito a partir do Saints Row (World). O gerador confere o default.xex da sua .iso (SHA-1 c2646093ff3926141fcf4fd630e876873d1caece) e avisa se for outra versão.\nOpções\nFicam em saintsrow.toml ao lado do executável, ou no arquivo indicado pela variável PORT_OPCOES. O launcher grava em opcoes.toml. Cada uma também vale na linha de comando (--fps 120) ou como variável de ambiente (REX_FPS=120).\n\nOpção\nValores\nPadrão\n\nfps\n30, 60\n60\n\nresolution_scale\n1 (720p), 2 (1440p), 3 (4K)\n2\n\nfiltro\nfsr, cas, fsr3 (temporal, experimental), bilinear\nfsr\n\nnitidez\n0 a 100\n70\n\nswap_post_effect\nnone, fxaa, fxaa_extreme\nnone\n\nanisotropic_override\n-1 (o do jogo), 3 (4x), 4 (8x), 5 (16x)\n5\n\nfullscreen\ntrue, false\ntrue\n\nmonitor\n0 (padrão), 1, 2...\n0\n\nmostrar_fps\ntrue, false\nfalse\n\nvolume\n0 a 100\n100\n\nalvos\nauto, rov, rtv: como a EDRAM é imitada; auto usa o caminho medido melhor para o jogo\nauto\n\nvibration\ntrue, false\ntrue\n\nzona_morta_esquerda, zona_morta_direita\n0 a 50 (%)\n0\n\nuser_language\n1 inglês, 3 alemão, 4 francês, 5 espanhol, 6 italiano\n1\n\niso\ncaminho da .iso\n—\n\nPerguntas frequentes\nEste repositório tem o jogo? Não. Você precisa da sua cópia (a imagem .iso do disco); o gerador monta o port no seu PC.\nRoda no Linux ou no SteamOS? Ainda não: só o port de God of War: Ascension tem versão Linux (beta). Este roda no Windows.\nSaiu atualização. O que acontece com o jogo e os saves? Atualize pelo launcher: ele refaz a tradução e a compilação uma vez (o gerador guarda a versão do runtime em out\\gerar\\sdk.txt). O jogo e os saves ficam.\nA .iso está danificada ou cortada. O port agora recusa a imagem e diz o motivo no log, em vez de fechar.\nOnde relato um problema? No launcher, em \"Reportar problema\" na página do jogo.\nComo funciona\n\nconfig/funcoes.toml: as funções que a análise estática não acha sozinha: chamadas só por ponteiro (nos dados ou com o endereço montado no código) ou fora do alcance da análise. config/ganchos.toml: os ganchos no código do jogo. config/jogo.txt: a versão do jogo que o gerador confere.\nsrc/saintsrow_app.h: a taxa de quadros. O jogo (de uma XDK antiga) apresenta um quadro a cada 2 vblanks e mede o jogo pelo relógio, não pelos quadros: o port acelera o vblank do console para o dobro do fps escolhido (60 fps = vblank a 120 Hz). Conferido: uma caminhada de 3 s chega ao mesmo ponto a 30 e a 60 fps, e a abertura segue no mesmo tempo.\nsrc/port/audio_guard.h (base comum): na abertura, o áudio do jogo mandava um quadro para um cliente que ele mesmo tinha acabado de desregistrar, e o runtime caía; agora o quadro é descartado.\nsrc/port/: a base comum dos ports de Xbox 360 (a mesma em todos): opções de imagem, contador de fps, leitura da .iso, a trava que corrige uma corrida na entrada de controles do runtime, falha.log com a pilha em caso de falha.\n\nPara desenvolver: build.cmd compila; scripts/rodar.py roda numa janela com prints, o fps de cada segundo e um controle roteirizado (PORT_PAD; para começar um jogo novo: --pad 18:A,22:A,26:A,32:Y,36:A,40-240@4:A); scripts/tecla.py aperta botões no jogo em execução; scripts/varrer_ponteiros.py e scripts/desmontar.py ajudam a achar funções.\nCréditos\n\nReXGlue SDK: recompilador estático e runtime de Xbox 360 (BSD-3).\nXenia: o emulador em que o runtime se baseia (BSD-3).\n\nSaints Row é marca da Deep Silver. Este projeto não tem relação com ela nem com a Microsoft.\nLicença\nO código deste repositório está sob a licença MIT (LICENSE). O SDK e o runtime têm a licença própria deles (BSD-3).",
+      "images": [
+        {
+          "url": "https://github.com/otavix010/saints-row-pc/raw/main/docs/jogo.jpg",
+          "alt": "Stilwater"
+        },
+        {
+          "url": "https://github.com/otavix010/saints-row-pc/raw/main/docs/cena1.jpg",
+          "alt": "Tela de carregamento"
+        },
+        {
+          "url": "https://github.com/otavix010/saints-row-pc/raw/main/docs/cena2.jpg",
+          "alt": "Os Saints"
+        }
+      ],
+      "length": 8693,
+      "imageCount": 3
+    },
     "gh-1456064884": {
       "version": 4,
       "url": "https://github.com/LomoXSoft/ZoidsAssaultRecomp",
-      "fetchedAt": "2026-11-13T02:53:37.651Z",
+      "fetchedAt": "2026-11-13T02:56:06.622Z",
       "title": "GitHub - LomoXSoft/ZoidsAssaultRecomp: Unofficial static recompilation of Zoids Assault (Xbox 360) to native Windows x64 with ReXGlue. Source only: bring your own disc.",
       "byline": "",
       "siteName": "GitHub",
@@ -45163,10 +45163,33 @@
       "length": 4496,
       "imageCount": 0
     },
+    "czm1ro": {
+      "version": 4,
+      "url": "https://phys.org/news/2026-11-vision-interferometry-calibration-large-monolithic.html",
+      "fetchedAt": "2026-11-13T02:56:06.779Z",
+      "error": "HTTP 403"
+    },
+    "1w8d01i": {
+      "version": 4,
+      "url": "https://www.igromania.ru/news/169892/doom-the-dark-ages-revelations-poluchit-rezhim-bojnya-16-noyabrya-id-software-vzyalas-za-novuyu-igru/",
+      "fetchedAt": "2026-11-13T02:56:06.896Z",
+      "title": "DOOM: The Dark Ages — Revelations получит режим «Бойня» 16 ноября, id Software взялась за новую игру",
+      "byline": "Екатерина Кравецкая",
+      "siteName": "igromania.ru",
+      "content": "Bethesda Softworks и id Software объявили, что обещанное обновление для DOOM: The Dark Ages - Revelations с режимом Slaughter Mode выйдет 16 ноября.\nИгроки смогут проверить свои навыки истребления демонов на пределе возможностей в новом бесконечном испытании. Slaughter Mode (режим бойни) столкнёт с волнами демонов и боссами на различных аренах с возрастающим уровнем сложности.\nВо время прохождения можно зарабатывать косметические предметы, принимать участие в еженедельных испытаниях и устанавливать личные рекорды по количеству завершённых раундов и набранным очкам.\nSlaughter Mode будет бесплатным для всех владельцев дополнения Revelations, обладателей издания DOOM: The Dark Ages Premium Edition или комплекта Premium Upgrade для DOOM: The Dark Ages.\nГлава Xbox Аша Шарма также подтвердила, что id Software уже занимается следующей игрой. В самой студии уточнили, что над новинкой трудятся команды в Техасе и Франкфурте, а руководителем разработки вновь выступает Хьюго Мартин (геймдиректор The Dark Ages).«До того момента, как мы сможем поделиться подробностями [об игре], пройдёт ещё некоторое время, но нам не терпится показать вам, над чем мы работаем», — id Software.Летом прошёл слух, что id Software уже занимается новой DOOM.Обзор Doom: The Dark Ages — Revelations — шаг назад, рывок вперёд",
+      "images": [
+        {
+          "url": "https://newcdn.igromania.ru/sharepics/2026/11/13/51f69206-3b3c-452d-8298-268ff6b5d097.jpg",
+          "alt": ""
+        }
+      ],
+      "length": 1306,
+      "imageCount": 1
+    },
     "gh-1450030691": {
       "version": 4,
       "url": "https://github.com/XiONDiGiTaL/EmblemWeave",
-      "fetchedAt": "2026-11-13T02:53:37.796Z",
+      "fetchedAt": "2026-11-13T02:56:07.188Z",
       "title": "GitHub - XiONDiGiTaL/EmblemWeave: Native Windows recompilation of Fire Emblem: Fortune's Weave: play from your own dump with no emulator, with save editing, mods, cheats and an in-game menu. AI-assisted development.",
       "byline": "",
       "siteName": "GitHub",
@@ -45208,75 +45231,10 @@
       "length": 19036,
       "imageCount": 8
     },
-    "czm1ro": {
-      "version": 4,
-      "url": "https://phys.org/news/2026-11-vision-interferometry-calibration-large-monolithic.html",
-      "fetchedAt": "2026-11-13T02:53:37.845Z",
-      "error": "HTTP 403"
-    },
-    "1w8d01i": {
-      "version": 4,
-      "url": "https://www.igromania.ru/news/169892/doom-the-dark-ages-revelations-poluchit-rezhim-bojnya-16-noyabrya-id-software-vzyalas-za-novuyu-igru/",
-      "fetchedAt": "2026-11-13T02:53:37.953Z",
-      "title": "DOOM: The Dark Ages — Revelations получит режим «Бойня» 16 ноября, id Software взялась за новую игру",
-      "byline": "Екатерина Кравецкая",
-      "siteName": "igromania.ru",
-      "content": "Bethesda Softworks и id Software объявили, что обещанное обновление для DOOM: The Dark Ages - Revelations с режимом Slaughter Mode выйдет 16 ноября.\nИгроки смогут проверить свои навыки истребления демонов на пределе возможностей в новом бесконечном испытании. Slaughter Mode (режим бойни) столкнёт с волнами демонов и боссами на различных аренах с возрастающим уровнем сложности.\nВо время прохождения можно зарабатывать косметические предметы, принимать участие в еженедельных испытаниях и устанавливать личные рекорды по количеству завершённых раундов и набранным очкам.\nSlaughter Mode будет бесплатным для всех владельцев дополнения Revelations, обладателей издания DOOM: The Dark Ages Premium Edition или комплекта Premium Upgrade для DOOM: The Dark Ages.\nГлава Xbox Аша Шарма также подтвердила, что id Software уже занимается следующей игрой. В самой студии уточнили, что над новинкой трудятся команды в Техасе и Франкфурте, а руководителем разработки вновь выступает Хьюго Мартин (геймдиректор The Dark Ages).«До того момента, как мы сможем поделиться подробностями [об игре], пройдёт ещё некоторое время, но нам не терпится показать вам, над чем мы работаем», — id Software.Летом прошёл слух, что id Software уже занимается новой DOOM.Обзор Doom: The Dark Ages — Revelations — шаг назад, рывок вперёд",
-      "images": [
-        {
-          "url": "https://newcdn.igromania.ru/sharepics/2026/11/13/51f69206-3b3c-452d-8298-268ff6b5d097.jpg",
-          "alt": ""
-        }
-      ],
-      "length": 1306,
-      "imageCount": 1
-    },
-    "gh-1432911948": {
-      "version": 4,
-      "url": "https://github.com/otavix010/dirt-2-pc",
-      "fetchedAt": "2026-11-13T02:53:38.377Z",
-      "title": "GitHub - otavix010/dirt-2-pc: DiRT 2 (Xbox 360) — port nativo para PC por recompilação estática (ReXGlue). Gera a partir da sua .iso.",
-      "byline": "",
-      "siteName": "GitHub",
-      "content": "DiRT 2 (Xbox 360) — port nativo para PC por recompilação estática (Otavix Engine 360). Gera a partir da sua .iso.\n\nO que o port acrescenta ·\nEstado dos testes ·\nPlataformas ·\nRequisitos ·\nDesempenho ·\nPerguntas frequentes ·\nGerar à mão (sem o launcher) ·\nOpções ·\nComo funciona\n\nImportantPara jogar, baixe o Otavix Launcher. Ele baixa este port, pede a sua .iso, gera o jogo no seu PC e o mantém atualizado. Para relatar um problema ou pedir algo, use \"Reportar problema\" na página do jogo no launcher: o relatório já vai com o log e as configurações, e é por ele que as correções saem mais rápido.\nTo play, download the Otavix Launcher. It downloads this port, asks for your .iso, makes the game on your PC and keeps it updated. To report a problem or ask for something, use \"Report a problem\" on the game's page in the launcher: the report carries the log and the settings, and that is how fixes come out fastest.\n\nPort do DiRT 2 (Xbox 360) por recompilação estática: o código PowerPC do jogo é traduzido para C++ e compilado como um programa de Windows. Não há emulador de CPU rodando o jogo. A parte gráfica usa o runtime da Otavix Engine 360, derivado do ReXGlue e do Xenia (veja os Créditos).\nNada do jogo vem neste repositório. O port é gerado no seu PC a partir da sua própria cópia (a imagem .iso do disco). O código traduzido também é gerado aí e nunca é distribuído.\nO runtime é a Otavix Engine 360 1.0.0 (privada): o gerador baixa o pacote pronto do servidor do launcher e confere o SHA-256. Ela descende do ReXGlue e do Xenia (BSD-3, veja os Créditos) e traz o AMD FidelityFX e as correções do port; os avisos de licença vão no pacote.\nO jeito mais fácil de jogar é pelo Otavix Launcher, que baixa este port, pede a sua .iso, gera tudo e cuida das opções.\n\nO que o port acrescenta\n\nXbox 360\nPort\n\nTaxa de quadros\n30 fps\n60 ou 120 fps (quadros reais)\n\nResolução interna\n720p\n720p, 1440p ou 4K\n\nAmpliação para a tela\n—\nAMD FSR 1, AMD CAS, FSR 3 temporal (experimental) ou bilinear, com nitidez ajustável\n\nAnti-aliasing\no do jogo\no do jogo, mais FXAA opcional\n\nFiltro anisotrópico\no do jogo\naté 16x\n\nContador de fps\n—\nopcional, no canto da tela\n\nDLSS e XeSS não entram: os dois precisam de vetores de movimento, que os jogos de Xbox 360 não fornecem. O ganho de nitidez vem da resolução interna (supersampling de verdade), e a fluidez vem dos fps reais.\n\nLondres\nRallycross\n\nEstado dos testes\n\nCorrida da carreira (Battersea, rallycross) a 60 fps em 2x, na engine 1.0.1: 3 minutos acelerando, batendo e com dano no carro, média de 60,5 e mínimo de 58 (GPU em 62%).\n120 fps: o cronômetro da corrida segue o tempo real (5,15 s de corrida em 5,20 s medidos) e a física não muda com a taxa: na mesma arrancada, a velocidade nos mesmos instantes da corrida é a mesma a 60 e a 120 (25 mph a 0,9 s, 58 a 2,6 s, 69 a 3,8 s, 84 a 5,6 s). O motor do jogo (EGO) é o mesmo da versão de PC, que já roda sem trava de quadros. Em 1x a corrida fica entre 100 e 120.\nBrilho certo (com o readback rápido), som em 5.1, replays e flashbacks (unidade de cache).\n\nPlataformas\n\nWindows\nLinux / SteamOS\n\nSituação\nfunciona (este port)\nnão suportado e não testado\n\nVídeo\nDirect3D 12 (o Agility SDK vai ao lado do exe)\no runtime só tem o caminho D3D12 no Windows\n\nComo jogar\npelo launcher, ou gerar.ps1 e jogar.cmd\nsó o port de God of War: Ascension tem versão Linux (beta) por enquanto\n\nRequisitos\n\nWindows 10/11 64 bits e GPU com Direct3D 12.\nCPU x86-64 com SSE4.1. AVX não é obrigatório: o gerador compila no seu PC com -march=native e usa o que o processador tiver.\nVisual Studio 2022 Build Tools com \"Desenvolvimento para desktop com C++\" e \"C++ CMake tools for Windows\" (o launcher confere).\nA sua .iso do DiRT 2 (DiRT 2).\nMemória: o mínimo exato não foi medido. Um cuidado medido: a compilação completa com 16 jobs chegou a ~35 GB de memória comprometida; o gerador limita os jobs (-Jobs 4 é seguro).\nDisco: não medido com precisão: a .iso, mais as ferramentas (a engine, ~14 MB, e o Clang portátil) e a pasta de compilação.\n\nDesempenho medido\nFPS de jogo. Só colocamos o que foi medido, e com um jogo só rodando (com outra carga junto, o desempenho pode cair bastante). Os números de 2x são da engine 1.0.1 (a saída da GPU é idêntica quadro a quadro à da 1.0.0 nos 4 ports); o que veio do runtime anterior está indicado como tal.\n\nMáquina\nCPU\nGPU\nFPS\n\nPC 1\nRyzen 7 9800X3D\nRTX 5080\n2x: corrida (Battersea, rallycross) média 60,5, mínimo 58 (engine 1.0.1); a 1x a corrida fica entre 100 e 120 e o 120 foi validado (mesma física a 60 e a 120), medidos no runtime anterior\n\nPC 2\nCore i5-11400F\nRX 9060 XT\nnão medido\n\nNotebook\nCore i5-10300H (4/8)\nGTX 1650\nnão medido\n\nPortátil\nLegion Go S (Linux)\nRadeon 780M\nnão suportado\n\nDLSS e XeSS não existem para estes jogos (o Xbox 360 não fornece vetores de movimento); o FSR e o CAS atuam só na saída.\nProblemas conhecidos\n\nNenhum problema aberto conhecido hoje.\nCom readback_resolve=full em 2x o jogo fica em 52–54; o padrão (fast) dá 60.\n\nGerar à mão (sem o launcher)\nPrecisa do Visual Studio 2022 Build Tools com \"Desenvolvimento para desktop com C++\" e \"C++ CMake tools for Windows\". O gerador baixa o resto: a Otavix Engine 360 e o Clang (LLVM) portátil, numa pasta _ferramentas ao lado do port.\n.\\gerar.ps1 -Iso \"D:\\Jogos\\Dirt 2 (USA, Europe).iso\"\n.\\jogar.cmd\nO port foi feito a partir do DiRT 2 (USA, Europe). O gerador confere o default.xex da sua .iso (SHA-1 cdcbe29702fbf18e3e63002096d94d081cbf488f) e avisa se for outra versão.\nOpções\nFicam em dirt2.toml ao lado do executável, ou no arquivo indicado pela variável PORT_OPCOES. O launcher grava em opcoes.toml. Cada uma também vale na linha de comando (--fps 120) ou como variável de ambiente (REX_FPS=120).\n\nOpção\nValores\nPadrão\n\nfps\n30, 60, 120\n60\n\nresolution_scale\n1 (720p), 2 (1440p), 3 (4K)\n2\n\nfiltro\nfsr, cas, fsr3 (temporal, experimental), bilinear\nfsr\n\nnitidez\n0 a 100\n70\n\nswap_post_effect\nnone, fxaa, fxaa_extreme\nnone\n\nanisotropic_override\n-1 (o do jogo), 3 (4x), 4 (8x), 5 (16x)\n5\n\nfullscreen\ntrue, false\ntrue\n\nmonitor\n0 (padrão), 1, 2...\n0\n\nmostrar_fps\ntrue, false\nfalse\n\nvolume\n0 a 100\n100\n\nalvos\nauto, rov, rtv: como a EDRAM é imitada; auto usa o caminho medido melhor para o jogo\nauto\n\nvibration\ntrue, false\ntrue\n\nzona_morta_esquerda, zona_morta_direita\n0 a 50 (%)\n0\n\nuser_language\n1 inglês, 3 alemão, 4 francês, 5 espanhol, 6 italiano\n1\n\niso\ncaminho da .iso\n—\n\nPerguntas frequentes\nEste repositório tem o jogo? Não. Você precisa da sua cópia (a imagem .iso do disco); o gerador monta o port no seu PC.\nRoda no Linux ou no SteamOS? Ainda não: só o port de God of War: Ascension tem versão Linux (beta). Este roda no Windows.\nSaiu atualização. O que acontece com o jogo e os saves? Atualize pelo launcher: ele refaz a tradução e a compilação uma vez (o gerador guarda a versão do runtime em out\\gerar\\sdk.txt). O jogo e os saves ficam.\nA .iso está danificada ou cortada. O port agora recusa a imagem e diz o motivo no log, em vez de fechar.\nOnde relato um problema? No launcher, em \"Reportar problema\" na página do jogo.\nComo funciona\n\nconfig/funcoes.toml: as funções que a análise estática não acha sozinha: chamadas só por ponteiro (nos dados ou com o endereço montado no código) ou fora do alcance da análise. config/ganchos.toml: os ganchos no código do jogo. config/jogo.txt: a versão do jogo que o gerador confere.\nsrc/dirt2_app.h: a unidade de cache (cache:) numa pasta ao lado dos saves, onde o jogo guarda replays e flashbacks: o XMountUtilityDrive do jogo é trocado por uma versão que monta a pasta (a ReXGlue responde às partições de cache com um dispositivo nulo, e a montagem original desistia).\nconfig/ganchos.toml: o intervalo de apresentação de 2 vblanks (30 fps) vira 1 a 60 fps; o cronômetro das corridas segue o tempo real.\nO brilho: o jogo mede a exposição lendo pela CPU a imagem que acabou de desenhar. Sem essa leitura, que o runtime deixa desligada por padrão, todas as cenas e menus saíam escuros. O port liga a leitura do quadro anterior (readback_resolve = fast, como as notas de compatibilidade do Xenia indicam), que dá o brilho certo a 60 fps.\nsrc/port/: a base comum dos ports de Xbox 360 (a mesma em todos): opções de imagem, contador de fps, leitura da .iso, a trava que corrige uma corrida na entrada de controles do runtime, falha.log com a pilha em caso de falha.\n\nPara desenvolver: build.cmd compila; scripts/rodar.py roda numa janela com prints, o fps de cada segundo e um controle roteirizado (PORT_PAD; para começar um jogo novo: --pad 12:START,20:START,25-150@3:A); scripts/tecla.py aperta botões no jogo em execução; scripts/varrer_ponteiros.py e scripts/desmontar.py ajudam a achar funções.\nCréditos\n\nReXGlue SDK: recompilador estático e runtime de Xbox 360 (BSD-3).\nXenia: o emulador em que o runtime se baseia (BSD-3).\n\nDiRT 2 é marca da Codemasters. Este projeto não tem relação com ela nem com a Microsoft.\nLicença\nO código deste repositório está sob a licença MIT (LICENSE). O SDK e o runtime têm a licença própria deles (BSD-3).",
-      "images": [
-        {
-          "url": "https://github.com/otavix010/dirt-2-pc/raw/main/docs/jogo.jpg",
-          "alt": "Largada do rallycross em Londres"
-        },
-        {
-          "url": "https://github.com/otavix010/dirt-2-pc/raw/main/docs/cena1.jpg",
-          "alt": "Londres"
-        },
-        {
-          "url": "https://github.com/otavix010/dirt-2-pc/raw/main/docs/cena2.jpg",
-          "alt": "Rallycross"
-        }
-      ],
-      "length": 8983,
-      "imageCount": 3
-    },
-    "pij80d": {
-      "version": 4,
-      "url": "https://www.gematsu.com/2026/11/girls-und-panzer-all-star-tank-carnival-adds-ps5-and-pc-versions-launches-march-25-2027-in-japan",
-      "fetchedAt": "2026-11-13T02:53:38.479Z",
-      "title": "Girls und Panzer: All-Star Tank Carnival adds PS5 and PC versions, launches March 25, 2027 in Japan",
-      "byline": "Sal Romano",
-      "siteName": "Gematsu",
-      "content": "PCPS5Switch 2\n\nAvailable both physically and digitally.\nTank battle action Girls und Panzer: All-Star Tank Carnival will launch for PlayStation 5, Switch 2, and PC via Steam on March 25, 2027 in Japan for 6,980 yen, D3 Publisher announced. A limited edition will also be available for 14,080 yen. The PlayStation 5 and Switch 2 versions will be available physically, with the Switch 2 version shipping on a game-key card. The PlayStation 5 and PC versions are newly announced. Here is an overview of the game, via our previous coverage:An Even More Evolved and Exhilarating Tank Action Experience from the Team Behind Girls und Panzer: Dream Tank MatchA fully-featured tank action game where you pilot tanks in combat!Enjoy intense tank battles from the team that brought you the well-received Girls und Panzer: Dream Tank Match for PlayStation 4 and Switch.The fast-paced action that fans loved in Girls und Panzer: Dream Tank Match returns for this game. Whether it’s close-quarters combat while drifting, angling your armor, or targeting tank treads to immobilize them, players will be able to enjoy authentic, Girls und Panzer-esque tank combat.\nThe graphics and presentation have also been improved. The reactions of the tank commanders peeking out of their tanks, along with their lively dialogue, add to the excitement of each match.Explore Oarai with MihoExplore Oarai, where the story of Girls und Panzer is set! Tour the streets virtually, taking in familiar sights one by one for a sightseeing experience that feels just like exploring Oarai!Of course, you can also drive the Panzer IV around town.Talk to friends scattered across Oarai to trigger game-original story quests (matches). The game progresses as you explore the town.Intense Online Battles Against Rivals Across the NationBattle against players across the nation anytime in real-time tank combat! Use your favorite tank and crew combination in online battles with up to 10 players. Engage in intense tankery battles with rivals from across the nation online!Watch a new trailer below.Release Date Trailer",
-      "images": [
-        {
-          "url": "https://www.gematsu.com/wp-content/uploads/2026/11/GuP-Tank-Match_11-13-26.jpg",
-          "alt": ""
-        }
-      ],
-      "length": 2078,
-      "imageCount": 1
-    },
     "gh-1432860924": {
       "version": 4,
       "url": "https://github.com/otavix010/dantes-inferno-pc",
-      "fetchedAt": "2026-11-13T02:53:38.596Z",
+      "fetchedAt": "2026-11-13T02:56:07.391Z",
       "title": "GitHub - otavix010/dantes-inferno-pc: Dante's Inferno (Xbox 360) — port nativo para PC por recompilação estática (ReXGlue). Gera a partir da sua .iso.",
       "byline": "",
       "siteName": "GitHub",
@@ -45298,27 +45256,35 @@
       "length": 9044,
       "imageCount": 3
     },
-    "1v4hzxm": {
+    "gh-1432911948": {
       "version": 4,
-      "url": "https://www.aljazeera.com/news/2026/11/13/albanias-pm-says-2027-nato-summit-will-not-be-held-in-tirana?traffic_source=rss",
-      "fetchedAt": "2026-11-13T02:53:38.763Z",
-      "title": "Albania’s PM says 2027 NATO summit will not be held in Tirana",
-      "byline": "Al Jazeera Staff",
-      "siteName": "Al Jazeera",
-      "content": "Albania has faced criticism over low defence spending, as Rama is also under pressure at home after months of protests.NATO will not be holding a summit in Albania next year as planned, Prime Minister Edi Rama has said, as his government faces criticism over its defence spending and protests at home.Speaking in Dublin on Thursday ahead of a gathering of European leaders, Rama said there was “not yet [a] common position on when the summit will happen, for sure not in 2027”.Recommended Stories list of 3 itemslist 1 of 3European Union backtracks on Canada becoming ‘associate member’list 2 of 3US envoys and Putin agree to continue Russia-Ukraine peace talkslist 3 of 3Regional security dominates European talks in Dublin amid hybrid attacksend of listHe added: “And in 2028, if it will be a summit, it will be in Tirana.”A NATO official said the next summit “will be held in Albania”, with a decision on the date yet to be made.Summit doubtsReuters reported in June that plans for a summit in Albania had been thrown into doubt by resistance from the administration of US President Donald Trump and dissatisfaction among NATO members with Tirana’s low defence spending.NATO leaders said in a declaration at their June 2025 summit in The Hague that they looked forward to meeting in Turkiye in 2026, “followed by a meeting in Albania”. But the declaration from the July summit in Ankara made no mention of a time or place for the next meeting.NATO has been considering ending its recent practice of holding annual summits, which could avoid a potentially tense encounter with Trump later in his term.Diplomats say the alliance could still hold a summit at short notice this year, but not in Tirana, Reuters said.Domestic pressureRama, who has been in office for 13 years, has faced months of protests.They began in May after he gave preliminary approval to a luxury resort backed by Jared Kushner, Trump’s son-in-law, in the protected Vjosa-Narta wetland at Zvernec, on Albania’s southern coast, and on nearby Sazan Island.Dubbed the “Flamingo Revolution”, they grew into wider anti-government protests demanding Rama’s resignation over alleged corruption, and into violent student protests in October over conditions at universities.Opposition lawmakers led by Sali Berisha disrupted a session of parliament with flares and smoke bombs on October 29 in support of the protesters.Rama has refused to resign and says the resort complies with Albanian and European Union law. His government has dismissed the protests as orchestrated by political rivals.",
+      "url": "https://github.com/otavix010/dirt-2-pc",
+      "fetchedAt": "2026-11-13T02:56:07.518Z",
+      "title": "GitHub - otavix010/dirt-2-pc: DiRT 2 (Xbox 360) — port nativo para PC por recompilação estática (ReXGlue). Gera a partir da sua .iso.",
+      "byline": "",
+      "siteName": "GitHub",
+      "content": "DiRT 2 (Xbox 360) — port nativo para PC por recompilação estática (Otavix Engine 360). Gera a partir da sua .iso.\n\nO que o port acrescenta ·\nEstado dos testes ·\nPlataformas ·\nRequisitos ·\nDesempenho ·\nPerguntas frequentes ·\nGerar à mão (sem o launcher) ·\nOpções ·\nComo funciona\n\nImportantPara jogar, baixe o Otavix Launcher. Ele baixa este port, pede a sua .iso, gera o jogo no seu PC e o mantém atualizado. Para relatar um problema ou pedir algo, use \"Reportar problema\" na página do jogo no launcher: o relatório já vai com o log e as configurações, e é por ele que as correções saem mais rápido.\nTo play, download the Otavix Launcher. It downloads this port, asks for your .iso, makes the game on your PC and keeps it updated. To report a problem or ask for something, use \"Report a problem\" on the game's page in the launcher: the report carries the log and the settings, and that is how fixes come out fastest.\n\nPort do DiRT 2 (Xbox 360) por recompilação estática: o código PowerPC do jogo é traduzido para C++ e compilado como um programa de Windows. Não há emulador de CPU rodando o jogo. A parte gráfica usa o runtime da Otavix Engine 360, derivado do ReXGlue e do Xenia (veja os Créditos).\nNada do jogo vem neste repositório. O port é gerado no seu PC a partir da sua própria cópia (a imagem .iso do disco). O código traduzido também é gerado aí e nunca é distribuído.\nO runtime é a Otavix Engine 360 1.0.0 (privada): o gerador baixa o pacote pronto do servidor do launcher e confere o SHA-256. Ela descende do ReXGlue e do Xenia (BSD-3, veja os Créditos) e traz o AMD FidelityFX e as correções do port; os avisos de licença vão no pacote.\nO jeito mais fácil de jogar é pelo Otavix Launcher, que baixa este port, pede a sua .iso, gera tudo e cuida das opções.\n\nO que o port acrescenta\n\nXbox 360\nPort\n\nTaxa de quadros\n30 fps\n60 ou 120 fps (quadros reais)\n\nResolução interna\n720p\n720p, 1440p ou 4K\n\nAmpliação para a tela\n—\nAMD FSR 1, AMD CAS, FSR 3 temporal (experimental) ou bilinear, com nitidez ajustável\n\nAnti-aliasing\no do jogo\no do jogo, mais FXAA opcional\n\nFiltro anisotrópico\no do jogo\naté 16x\n\nContador de fps\n—\nopcional, no canto da tela\n\nDLSS e XeSS não entram: os dois precisam de vetores de movimento, que os jogos de Xbox 360 não fornecem. O ganho de nitidez vem da resolução interna (supersampling de verdade), e a fluidez vem dos fps reais.\n\nLondres\nRallycross\n\nEstado dos testes\n\nCorrida da carreira (Battersea, rallycross) a 60 fps em 2x, na engine 1.0.1: 3 minutos acelerando, batendo e com dano no carro, média de 60,5 e mínimo de 58 (GPU em 62%).\n120 fps: o cronômetro da corrida segue o tempo real (5,15 s de corrida em 5,20 s medidos) e a física não muda com a taxa: na mesma arrancada, a velocidade nos mesmos instantes da corrida é a mesma a 60 e a 120 (25 mph a 0,9 s, 58 a 2,6 s, 69 a 3,8 s, 84 a 5,6 s). O motor do jogo (EGO) é o mesmo da versão de PC, que já roda sem trava de quadros. Em 1x a corrida fica entre 100 e 120.\nBrilho certo (com o readback rápido), som em 5.1, replays e flashbacks (unidade de cache).\n\nPlataformas\n\nWindows\nLinux / SteamOS\n\nSituação\nfunciona (este port)\nnão suportado e não testado\n\nVídeo\nDirect3D 12 (o Agility SDK vai ao lado do exe)\no runtime só tem o caminho D3D12 no Windows\n\nComo jogar\npelo launcher, ou gerar.ps1 e jogar.cmd\nsó o port de God of War: Ascension tem versão Linux (beta) por enquanto\n\nRequisitos\n\nWindows 10/11 64 bits e GPU com Direct3D 12.\nCPU x86-64 com SSE4.1. AVX não é obrigatório: o gerador compila no seu PC com -march=native e usa o que o processador tiver.\nVisual Studio 2022 Build Tools com \"Desenvolvimento para desktop com C++\" e \"C++ CMake tools for Windows\" (o launcher confere).\nA sua .iso do DiRT 2 (DiRT 2).\nMemória: o mínimo exato não foi medido. Um cuidado medido: a compilação completa com 16 jobs chegou a ~35 GB de memória comprometida; o gerador limita os jobs (-Jobs 4 é seguro).\nDisco: não medido com precisão: a .iso, mais as ferramentas (a engine, ~14 MB, e o Clang portátil) e a pasta de compilação.\n\nDesempenho medido\nFPS de jogo. Só colocamos o que foi medido, e com um jogo só rodando (com outra carga junto, o desempenho pode cair bastante). Os números de 2x são da engine 1.0.1 (a saída da GPU é idêntica quadro a quadro à da 1.0.0 nos 4 ports); o que veio do runtime anterior está indicado como tal.\n\nMáquina\nCPU\nGPU\nFPS\n\nPC 1\nRyzen 7 9800X3D\nRTX 5080\n2x: corrida (Battersea, rallycross) média 60,5, mínimo 58 (engine 1.0.1); a 1x a corrida fica entre 100 e 120 e o 120 foi validado (mesma física a 60 e a 120), medidos no runtime anterior\n\nPC 2\nCore i5-11400F\nRX 9060 XT\nnão medido\n\nNotebook\nCore i5-10300H (4/8)\nGTX 1650\nnão medido\n\nPortátil\nLegion Go S (Linux)\nRadeon 780M\nnão suportado\n\nDLSS e XeSS não existem para estes jogos (o Xbox 360 não fornece vetores de movimento); o FSR e o CAS atuam só na saída.\nProblemas conhecidos\n\nNenhum problema aberto conhecido hoje.\nCom readback_resolve=full em 2x o jogo fica em 52–54; o padrão (fast) dá 60.\n\nGerar à mão (sem o launcher)\nPrecisa do Visual Studio 2022 Build Tools com \"Desenvolvimento para desktop com C++\" e \"C++ CMake tools for Windows\". O gerador baixa o resto: a Otavix Engine 360 e o Clang (LLVM) portátil, numa pasta _ferramentas ao lado do port.\n.\\gerar.ps1 -Iso \"D:\\Jogos\\Dirt 2 (USA, Europe).iso\"\n.\\jogar.cmd\nO port foi feito a partir do DiRT 2 (USA, Europe). O gerador confere o default.xex da sua .iso (SHA-1 cdcbe29702fbf18e3e63002096d94d081cbf488f) e avisa se for outra versão.\nOpções\nFicam em dirt2.toml ao lado do executável, ou no arquivo indicado pela variável PORT_OPCOES. O launcher grava em opcoes.toml. Cada uma também vale na linha de comando (--fps 120) ou como variável de ambiente (REX_FPS=120).\n\nOpção\nValores\nPadrão\n\nfps\n30, 60, 120\n60\n\nresolution_scale\n1 (720p), 2 (1440p), 3 (4K)\n2\n\nfiltro\nfsr, cas, fsr3 (temporal, experimental), bilinear\nfsr\n\nnitidez\n0 a 100\n70\n\nswap_post_effect\nnone, fxaa, fxaa_extreme\nnone\n\nanisotropic_override\n-1 (o do jogo), 3 (4x), 4 (8x), 5 (16x)\n5\n\nfullscreen\ntrue, false\ntrue\n\nmonitor\n0 (padrão), 1, 2...\n0\n\nmostrar_fps\ntrue, false\nfalse\n\nvolume\n0 a 100\n100\n\nalvos\nauto, rov, rtv: como a EDRAM é imitada; auto usa o caminho medido melhor para o jogo\nauto\n\nvibration\ntrue, false\ntrue\n\nzona_morta_esquerda, zona_morta_direita\n0 a 50 (%)\n0\n\nuser_language\n1 inglês, 3 alemão, 4 francês, 5 espanhol, 6 italiano\n1\n\niso\ncaminho da .iso\n—\n\nPerguntas frequentes\nEste repositório tem o jogo? Não. Você precisa da sua cópia (a imagem .iso do disco); o gerador monta o port no seu PC.\nRoda no Linux ou no SteamOS? Ainda não: só o port de God of War: Ascension tem versão Linux (beta). Este roda no Windows.\nSaiu atualização. O que acontece com o jogo e os saves? Atualize pelo launcher: ele refaz a tradução e a compilação uma vez (o gerador guarda a versão do runtime em out\\gerar\\sdk.txt). O jogo e os saves ficam.\nA .iso está danificada ou cortada. O port agora recusa a imagem e diz o motivo no log, em vez de fechar.\nOnde relato um problema? No launcher, em \"Reportar problema\" na página do jogo.\nComo funciona\n\nconfig/funcoes.toml: as funções que a análise estática não acha sozinha: chamadas só por ponteiro (nos dados ou com o endereço montado no código) ou fora do alcance da análise. config/ganchos.toml: os ganchos no código do jogo. config/jogo.txt: a versão do jogo que o gerador confere.\nsrc/dirt2_app.h: a unidade de cache (cache:) numa pasta ao lado dos saves, onde o jogo guarda replays e flashbacks: o XMountUtilityDrive do jogo é trocado por uma versão que monta a pasta (a ReXGlue responde às partições de cache com um dispositivo nulo, e a montagem original desistia).\nconfig/ganchos.toml: o intervalo de apresentação de 2 vblanks (30 fps) vira 1 a 60 fps; o cronômetro das corridas segue o tempo real.\nO brilho: o jogo mede a exposição lendo pela CPU a imagem que acabou de desenhar. Sem essa leitura, que o runtime deixa desligada por padrão, todas as cenas e menus saíam escuros. O port liga a leitura do quadro anterior (readback_resolve = fast, como as notas de compatibilidade do Xenia indicam), que dá o brilho certo a 60 fps.\nsrc/port/: a base comum dos ports de Xbox 360 (a mesma em todos): opções de imagem, contador de fps, leitura da .iso, a trava que corrige uma corrida na entrada de controles do runtime, falha.log com a pilha em caso de falha.\n\nPara desenvolver: build.cmd compila; scripts/rodar.py roda numa janela com prints, o fps de cada segundo e um controle roteirizado (PORT_PAD; para começar um jogo novo: --pad 12:START,20:START,25-150@3:A); scripts/tecla.py aperta botões no jogo em execução; scripts/varrer_ponteiros.py e scripts/desmontar.py ajudam a achar funções.\nCréditos\n\nReXGlue SDK: recompilador estático e runtime de Xbox 360 (BSD-3).\nXenia: o emulador em que o runtime se baseia (BSD-3).\n\nDiRT 2 é marca da Codemasters. Este projeto não tem relação com ela nem com a Microsoft.\nLicença\nO código deste repositório está sob a licença MIT (LICENSE). O SDK e o runtime têm a licença própria deles (BSD-3).",
       "images": [
         {
-          "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6af649b5-1794525621.jpg?resize=1920%2C1440",
-          "alt": ""
+          "url": "https://github.com/otavix010/dirt-2-pc/raw/main/docs/jogo.jpg",
+          "alt": "Largada do rallycross em Londres"
+        },
+        {
+          "url": "https://github.com/otavix010/dirt-2-pc/raw/main/docs/cena1.jpg",
+          "alt": "Londres"
+        },
+        {
+          "url": "https://github.com/otavix010/dirt-2-pc/raw/main/docs/cena2.jpg",
+          "alt": "Rallycross"
         }
       ],
-      "length": 2555,
-      "imageCount": 1
+      "length": 8983,
+      "imageCount": 3
     },
     "3p3lz": {
       "version": 4,
       "url": "https://variety.com/2026/film/global/wildwood-passes-60-million-worldwide-box-office-1236946750/",
-      "fetchedAt": "2026-11-13T02:53:39.019Z",
+      "fetchedAt": "2026-11-13T02:56:07.863Z",
       "title": "Laika's Wildwood Passes $60 Million Worldwide",
       "byline": "Alex Ritman",
       "siteName": "Variety",
@@ -45332,10 +45298,44 @@
       "length": 2851,
       "imageCount": 1
     },
+    "pij80d": {
+      "version": 4,
+      "url": "https://www.gematsu.com/2026/11/girls-und-panzer-all-star-tank-carnival-adds-ps5-and-pc-versions-launches-march-25-2027-in-japan",
+      "fetchedAt": "2026-11-13T02:56:07.959Z",
+      "title": "Girls und Panzer: All-Star Tank Carnival adds PS5 and PC versions, launches March 25, 2027 in Japan",
+      "byline": "Sal Romano",
+      "siteName": "Gematsu",
+      "content": "PCPS5Switch 2\n\nAvailable both physically and digitally.\nTank battle action Girls und Panzer: All-Star Tank Carnival will launch for PlayStation 5, Switch 2, and PC via Steam on March 25, 2027 in Japan for 6,980 yen, D3 Publisher announced. A limited edition will also be available for 14,080 yen. The PlayStation 5 and Switch 2 versions will be available physically, with the Switch 2 version shipping on a game-key card. The PlayStation 5 and PC versions are newly announced. Here is an overview of the game, via our previous coverage:An Even More Evolved and Exhilarating Tank Action Experience from the Team Behind Girls und Panzer: Dream Tank MatchA fully-featured tank action game where you pilot tanks in combat!Enjoy intense tank battles from the team that brought you the well-received Girls und Panzer: Dream Tank Match for PlayStation 4 and Switch.The fast-paced action that fans loved in Girls und Panzer: Dream Tank Match returns for this game. Whether it’s close-quarters combat while drifting, angling your armor, or targeting tank treads to immobilize them, players will be able to enjoy authentic, Girls und Panzer-esque tank combat.\nThe graphics and presentation have also been improved. The reactions of the tank commanders peeking out of their tanks, along with their lively dialogue, add to the excitement of each match.Explore Oarai with MihoExplore Oarai, where the story of Girls und Panzer is set! Tour the streets virtually, taking in familiar sights one by one for a sightseeing experience that feels just like exploring Oarai!Of course, you can also drive the Panzer IV around town.Talk to friends scattered across Oarai to trigger game-original story quests (matches). The game progresses as you explore the town.Intense Online Battles Against Rivals Across the NationBattle against players across the nation anytime in real-time tank combat! Use your favorite tank and crew combination in online battles with up to 10 players. Engage in intense tankery battles with rivals from across the nation online!Watch a new trailer below.Release Date Trailer",
+      "images": [
+        {
+          "url": "https://www.gematsu.com/wp-content/uploads/2026/11/GuP-Tank-Match_11-13-26.jpg",
+          "alt": ""
+        }
+      ],
+      "length": 2078,
+      "imageCount": 1
+    },
+    "1v4hzxm": {
+      "version": 4,
+      "url": "https://www.aljazeera.com/news/2026/11/13/albanias-pm-says-2027-nato-summit-will-not-be-held-in-tirana?traffic_source=rss",
+      "fetchedAt": "2026-11-13T02:56:08.060Z",
+      "title": "Albania’s PM says 2027 NATO summit will not be held in Tirana",
+      "byline": "Al Jazeera Staff",
+      "siteName": "Al Jazeera",
+      "content": "Albania has faced criticism over low defence spending, as Rama is also under pressure at home after months of protests.NATO will not be holding a summit in Albania next year as planned, Prime Minister Edi Rama has said, as his government faces criticism over its defence spending and protests at home.Speaking in Dublin on Thursday ahead of a gathering of European leaders, Rama said there was “not yet [a] common position on when the summit will happen, for sure not in 2027”.Recommended Stories list of 3 itemslist 1 of 3European Union backtracks on Canada becoming ‘associate member’list 2 of 3US envoys and Putin agree to continue Russia-Ukraine peace talkslist 3 of 3Regional security dominates European talks in Dublin amid hybrid attacksend of listHe added: “And in 2028, if it will be a summit, it will be in Tirana.”A NATO official said the next summit “will be held in Albania”, with a decision on the date yet to be made.Summit doubtsReuters reported in June that plans for a summit in Albania had been thrown into doubt by resistance from the administration of US President Donald Trump and dissatisfaction among NATO members with Tirana’s low defence spending.NATO leaders said in a declaration at their June 2025 summit in The Hague that they looked forward to meeting in Turkiye in 2026, “followed by a meeting in Albania”. But the declaration from the July summit in Ankara made no mention of a time or place for the next meeting.NATO has been considering ending its recent practice of holding annual summits, which could avoid a potentially tense encounter with Trump later in his term.Diplomats say the alliance could still hold a summit at short notice this year, but not in Tirana, Reuters said.Domestic pressureRama, who has been in office for 13 years, has faced months of protests.They began in May after he gave preliminary approval to a luxury resort backed by Jared Kushner, Trump’s son-in-law, in the protected Vjosa-Narta wetland at Zvernec, on Albania’s southern coast, and on nearby Sazan Island.Dubbed the “Flamingo Revolution”, they grew into wider anti-government protests demanding Rama’s resignation over alleged corruption, and into violent student protests in October over conditions at universities.Opposition lawmakers led by Sali Berisha disrupted a session of parliament with flares and smoke bombs on October 29 in support of the protesters.Rama has refused to resign and says the resort complies with Albanian and European Union law. His government has dismissed the protests as orchestrated by political rivals.",
+      "images": [
+        {
+          "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/reuters_6af649b5-1794525621.jpg?resize=1920%2C1440",
+          "alt": ""
+        }
+      ],
+      "length": 2555,
+      "imageCount": 1
+    },
     "5ogfg1": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/movies/movie-news/quentin-tarantino-fired-melanie-laurent-isabelle-huppert-inglourious-basterds-1236754336/",
-      "fetchedAt": "2026-11-13T02:53:39.276Z",
+      "fetchedAt": "2026-11-13T02:56:08.314Z",
       "title": "Why Quentin Tarantino Initially Fired Mélanie Laurent and Isabelle Huppert From ‘Inglourious Basterds’",
       "byline": "Carly Thomas",
       "siteName": "The Hollywood Reporter",
@@ -45352,25 +45352,19 @@
     "vqb61d": {
       "version": 4,
       "url": "https://phys.org/news/2026-11-climate-consequences-health-women-men.html",
-      "fetchedAt": "2026-11-13T02:53:39.278Z",
+      "fetchedAt": "2026-11-13T02:56:08.353Z",
       "error": "HTTP 403"
-    },
-    "dvytpk": {
-      "version": 4,
-      "url": "https://www.igromania.ru/news/169891/wolfenstein-3-nahoditsya-v-razrabotke-podtverdila-glava-xbox-asha-sharma/",
-      "fetchedAt": "2026-11-13T02:53:39.288Z",
-      "error": "не удалось выделить основной текст"
     },
     "704zhc": {
       "version": 4,
       "url": "https://phys.org/news/2026-11-black-rhinos-loners-species.html",
-      "fetchedAt": "2026-11-13T02:53:39.397Z",
+      "fetchedAt": "2026-11-13T02:56:08.375Z",
       "error": "HTTP 403"
     },
     "voagvi": {
       "version": 4,
       "url": "https://www.gematsu.com/2026/11/attack-on-titan-3-character-interactions-and-expeditions-beyond-the-walls-gameplay",
-      "fetchedAt": "2026-11-13T02:53:39.669Z",
+      "fetchedAt": "2026-11-13T02:56:08.774Z",
       "title": "Attack on Titan 3 ‘Character Interactions and Expeditions Beyond the Walls’ gameplay",
       "byline": "Sal Romano",
       "siteName": "Gematsu",
@@ -45388,10 +45382,16 @@
       "length": 396,
       "imageCount": 2
     },
+    "dvytpk": {
+      "version": 4,
+      "url": "https://www.igromania.ru/news/169891/wolfenstein-3-nahoditsya-v-razrabotke-podtverdila-glava-xbox-asha-sharma/",
+      "fetchedAt": "2026-11-13T02:56:08.792Z",
+      "error": "не удалось выделить основной текст"
+    },
     "1id8dq7": {
       "version": 4,
       "url": "https://deadline.com/2026/11/frankie-muniz-speaks-out-after-nascar-crash-1237222430/",
-      "fetchedAt": "2026-11-13T02:53:40.116Z",
+      "fetchedAt": "2026-11-13T02:56:09.225Z",
       "title": "Frankie Muniz Posts Health Update After NASCAR Crash: “I’m Grateful To Be Walking Right Now”",
       "byline": "Tom Tapp",
       "siteName": "Deadline",
@@ -45412,7 +45412,7 @@
     "1199m8t": {
       "version": 4,
       "url": "https://variety.com/2026/film/global/freya-allan-horror-movie-system-joachim-ronning-1236946732/",
-      "fetchedAt": "2026-11-13T02:53:40.470Z",
+      "fetchedAt": "2026-11-13T02:56:09.564Z",
       "title": "Freya Allan to Lead Joachim Rønning’s Horror Movie System",
       "byline": "Alex Ritman",
       "siteName": "Variety",
@@ -45429,7 +45429,7 @@
     "1dbceq4": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/movies/movie-news/mike-myers-shrek-spinoff-donkey-austin-powers-4-1236754333/",
-      "fetchedAt": "2026-11-13T02:53:40.835Z",
+      "fetchedAt": "2026-11-13T02:56:09.892Z",
       "title": "Mike Myers Says He “Might” Be in ‘Shrek’ Spinoff ‘Donkey,’ Calls Film “Long Overdue”",
       "byline": "Lexi Carson",
       "siteName": "The Hollywood Reporter",
@@ -45443,10 +45443,16 @@
       "length": 2420,
       "imageCount": 1
     },
+    "49u3mx": {
+      "version": 4,
+      "url": "https://phys.org/news/2026-11-early-stock-instability-traders.html",
+      "fetchedAt": "2026-11-13T02:56:10.050Z",
+      "error": "HTTP 403"
+    },
     "1omrxt8": {
       "version": 4,
       "url": "https://www.dw.com/ru/%D1%84%D0%B8%D0%BD%D0%BB%D1%8F%D0%BD%D0%B4%D0%B8%D1%8F-%D0%B8-%D0%BD%D0%BE%D1%80%D0%B2%D0%B5%D0%B3%D0%B8%D1%8F-%D0%B7%D0%B0%D0%BA%D1%80%D1%8B%D0%BB%D0%B8-%D0%B2%D1%8A%D0%B5%D0%B7%D0%B4-%D1%81%D0%BF%D0%BE%D1%80%D1%82%D1%81%D0%BC%D0%B5%D0%BD%D0%B0%D0%BC-%D1%80%D1%84-%D0%B4%D0%BE-%D0%BA%D0%BE%D0%BD%D1%86%D0%B0-%D0%B2%D0%BE%D0%B9%D0%BD%D1%8B/a-79935898?maca=rus-rss-ru-all-1126-rdf",
-      "fetchedAt": "2026-11-13T02:53:41.047Z",
+      "fetchedAt": "2026-11-13T02:56:10.274Z",
       "title": "Финляндия и Норвегия запретили въезд спортсменам РФ до окончания войны против Украины",
       "byline": "Кристиан Таль",
       "siteName": "Deutsche Welle",
@@ -45460,16 +45466,31 @@
       "length": 3976,
       "imageCount": 1
     },
-    "49u3mx": {
+    "1h77xai": {
       "version": 4,
-      "url": "https://phys.org/news/2026-11-early-stock-instability-traders.html",
-      "fetchedAt": "2026-11-13T02:53:41.051Z",
-      "error": "HTTP 403"
+      "url": "https://www.zr.ru/content/news/988422-benzin-dizel-ili-ehlektromoto/",
+      "fetchedAt": "2026-11-13T02:56:10.410Z",
+      "title": "Chery привезет в Россию суровый современный рамник: что об этом известно?",
+      "byline": "Лежнин Роман",
+      "siteName": "zr.ru",
+      "content": "Рамный пикап Rely R08 может добраться до России: такой сценарий сейчас прорабатывает коммерческое подразделение Chery.Речь пока не о старте продаж, а об оценке перспектив. В Chery Commercial Vehicles изучают, как устроен спрос в этом сегменте, и параллельно ведут переговоры с возможными партнерами.К премьере модель рассматривают сразу в трех исполнениях – с бензиновым и дизельным ДВС, а также с полностью электрической силовой установкой.По сути, для компании это попытка попробовать силы в новом для себя сегменте российского рынка.Как продвигать новинку в нашей стране, в Chery еще не определились: то ли самостоятельная дистрибуция, то ли независимый российский участник рынка. Точные сроки начала сертификации пикапа в РФ по этой причине тоже не обозначены.Сам Rely – коммерческий суббренд Chery. Впервые вывести его на мировой рынок компания попыталась в 2019 году, однако затем процесс приостановила; перезапуск случился в начале 2025-го, и первой моделью проекта как раз стал рамный пикап Rely R08.На Шанхайском автосалоне-2025 в Chery объявили, что пикапы Rely за пределами Китая будут продаваться под маркой Himla. Как машину назовут в России, пока неясно, но марки Chery в ее имени точно не будет.С нуля автомобиль не создавали. За основу взят пикап ZX Weishi 1986 от китайского производителя ZX Auto – причем на той же модели построен и недавно представленный рамный пикап GAC Smilodon.Длина Rely R08 – 5330 мм, ширина – 1920 мм, высота – 1890 мм, колесная база – 3230 мм. По длине он сопоставим с популярным в России JAC T9. Размеры кузова: 1530 х 1620 х 515 мм.Есть и длиннобазная версия – на 280 мм длиннее (5610 мм) и с увеличенной колесной базой 3510 мм. Правда, для российского рынка такой вариант, насколько известно, сейчас не рассматривают.Конструкция – рамная, на задней оси – рессорная подвеска. Углы въезда и съезда составляют 33 и 24 градуса соответственно. Салон в любом случае пятиместный: в зависимости от версии в кабине стоит сенсорный монитор диагональю 12,3 либо 15,6 дюйма, а на центральном тоннеле предусмотрены беспроводная зарядка для смартфона, рычаг коробки передач, пара подстаканников и круглый селектор выбора режимов движения.Базовая версия для Китая – 2,4-литровый атмосферный бензиновый двигатель, который развивает 160 лошадиных сил и 230 Нм крутящего момента. Трансмиссия только 5-ступенчатая механическая, привод – задний или полный.Второй вариант оснащен 2,3-литровым дизельным турбомотором мощностью 163 л.с. и крутящим моментом 420 Нм. В начальных комплектациях он работает с 6-ступенчатой механикой, в более дорогих – с 8-ступенчатым автоматом; привод также задний либо полный.Полностью электрический Rely R08 EV комплектуется одним задним электродвигателем на 204 л.с. и 350 Нм, а в полноприводных модификациях – двумя моторами (передним и задним) суммарной мощностью 408 л.с. и 540 Нм. Литий-железо-фосфатная тяговая батарея доступна в двух вариантах емкости – 66,5 и 88 кВт·ч, запас хода по циклу CLTC составляет от 405 до 510 км.Сколько стоит в КитаеБензиновый Rely R08 там оценивают в 88,8-139,8 тысячи юаней, что соответствует примерно 1,1-1,73 млн рублей.У дизельной версии ценовой диапазон шире: от 94,8 до 185,8 тысячи юаней (1,17-2,3 млн рублей).Самый большой разброс – у электрической модификации: от 132,8 до 299,8 тысячи юаней, то есть от 1,64 до 3,71 млн рублей.О том, что ждет бензиновые двигатели в России, «За рулем» уже рассказывал.Понравилась публикация?Тогда добавьте «За рулем» в список интересных источников: 1. Откройте https://google.com... 2. Поставьте галочку напротив нашего изданияГотово – остаемся на связи! «За рулем» можно читать и в MAX",
+      "images": [
+        {
+          "url": "https://www.zr.ru/d/story/06/988422/mycollages-2026-11-12_15-43-37.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.zr.ru/d/story/67/956775/111222.jpg",
+          "alt": ""
+        }
+      ],
+      "length": 3621,
+      "imageCount": 2
     },
     "q063sw": {
       "version": 4,
       "url": "https://variety.com/2026/film/awards/you-can-see-everything-documentary-oscars-history-1236946588/",
-      "fetchedAt": "2026-11-13T02:53:41.432Z",
+      "fetchedAt": "2026-11-13T02:56:10.639Z",
       "title": "Documentaries Breaking Out at the Oscars Data and You Can See Everything",
       "byline": "Clayton Davis",
       "siteName": "Variety",
@@ -45483,35 +45504,60 @@
       "length": 11563,
       "imageCount": 1
     },
-    "1m2mkg4": {
+    "cmfi5y": {
       "version": 4,
-      "url": "https://www.playground.ru/misc/news/kevin_fajgi_oproverg_teoriyu_o_tom_chto_doktor_dum_v_mstitelyah_sudnyj_den_variant_toni_starka-1890236",
-      "fetchedAt": "2026-11-13T02:53:41.498Z",
-      "title": "Кевин Файги опроверг теорию о том, что Доктор Дум в \"Мстителях: Судный день\" - вариант Тони Старка",
-      "byline": "IKarasik",
-      "siteName": "Playground",
-      "content": "Глава Marvel Studios Кевин Файги подтвердил, что Доктор Дум в фильме «Мстители: Судный день» не является альтернативной версией Тони Старка из другой вселенной. Таким образом, он опроверг популярную фанатскую теорию, возникшую после объявления о том, что Роберт Дауни-младший сыграет обоих персонажей.\nВ интервью журналу Empire Файги напомнил, что Marvel уже использовала концепцию вариантов персонажей в мультивселенной, в том числе для объяснения появления разных Человеков-пауков, Росомахи и Локи. Однако в случае с Думом никакой подобной связи со Старком нет.\n«Стив Роджерс — это вариант Джонни Шторма? Люди задавались вопросом: “Дум — просто вариант другого персонажа? Это короткий путь к возвращению кого-то из старых героев?” Ответ — нет. Он Виктор фон Дум», — заявил Файги.\nРежиссёры картины братья Руссо также рассказали о характере нового злодея. По их словам, Дум пережил потерю ребёнка, стал жертвой психологической травмы и обладает ещё более раздутым эго, чем Танос. Джо Руссо описал его как готического персонажа, владеющего тёмной магией и готового даже продать душу ради достижения своих целей.\n«Он говорит: “Ад подчиняется мне”, — и он не шутит. Это очень могущественный персонаж с тёмной магией. Его действительно стоит бояться», — отметил режиссёр.\nСам Дауни-младший признался, что ему интересно впервые всерьёз сыграть злодея в киновселенной Marvel. Актёр также намекнул, что планы Дума гораздо масштабнее, чем можно предположить: «Мне нравится оставлять после себя выжженную землю. Всё, что вы думаете о его намерениях, умножьте на десять — и, возможно, приблизитесь к правде».\n«Мстители: Судный день» выйдут в кинотеатрах 18 декабря. Ранее Marvel подтвердила возвращение Алой Ведьмы, а сведения с сайта Гильдии сценаристов США о работе Хью Джекмана и Райана Рейнольдса над сценарием породили предположения о появлении в фильме Росомахи и Дэдпула.",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/tyrese-gibson-star-under-the-boards-scott-rosenfelt-1236754448/",
+      "fetchedAt": "2026-11-13T02:56:10.967Z",
+      "title": "Tyrese Gibson to Star in Sports Drama ‘Under the Boards’ From ‘Home Alone’ Producer Scott Rosenfelt (Exclusive)",
+      "byline": "Ryan Gajewski",
+      "siteName": "The Hollywood Reporter",
+      "content": "Tyrese Gibson is looking to bring an inspirational story of high school basketball triumph to the big screen.\n\nThe actor, known for the Fast and Furious franchise, is set to star in writer-director Scott Rosenfelt’s sports drama Under the Boards, The Hollywood Reporter has learned. The indie film is expected to begin production in February.\n\nUnder the Boards is inspired by real-life events experienced by the Atlantic City High School’s basketball team from 2003 to 2013 as the squad won its first New Jersey state championships. The film centers on larger-than-life head coach Gene Allen (Gibson) and Jim Schafer, the math teacher with a passion for strategy who becomes the assistant coach. Under the Boards looks to celebrate the athletes, families, teachers and community members who supported the team’s unlikely success.\n\nRosenfelt, who helms the movie from his own script, serves as producer alongside Salomé Breziner. Schafer, Gibson and T’Shaun Barrett serve as executive producers, while Debby Schafer co-produces. Jim Schafer, whose path helped inspire the project, is married to Rosenfelt’s cousin, and the casting process is underway to cast the actor who will portray Schafer.\n\n“This film belongs to Atlantic City,” says Rosenfelt. “Tyrese understands that a coach like Gene is part preacher, part politician and part father to every kid on that bench. He is going to bring that whole community to life.”\n\nAdds Breziner, “It is an honor to bring Jim Schafer’s story to life and to celebrate a community that never stopped believing. I am so excited to be working with Tyrese again, and to be back alongside Scott on a film this close to his heart.”\n\nRosenfelt’s producing credits include Home Alone, Mystic Pizza, Teen Wolf, Critical Thinking and Smoke Signals, and he directed the film Family Prayers. Breziner wrote and directed Tollbooth and Fast Sofa, and she is currently producing the Billy Zane-led Danger Island alongside Rosenfelt.\n\nGibson is represented by Kris Heller at IAG and Mona Scott-Young at Monami Management.",
       "images": [
         {
-          "url": "https://i.playground.ru/e/kjzSR3kCJQpzoXqFJraZfQ.png",
-          "alt": ""
-        },
-        {
-          "url": "https://i.playground.ru/p/kjzSR3kCJQpzoXqFJraZfQ.png?760xauto",
-          "alt": ""
-        },
-        {
-          "url": "https://i.playground.ru/p/kjzSR3kCJQpzoXqFJraZfQ.png.webp?420xauto",
+          "url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/TYRESE-GIBSON-credit-Christine-Morden-H-2026.jpg?w=1296&h=730&crop=1",
           "alt": ""
         }
       ],
-      "length": 1869,
-      "imageCount": 3
+      "length": 2045,
+      "imageCount": 1
+    },
+    "qj21bk": {
+      "version": 4,
+      "url": "https://phys.org/news/2026-11-magnetic-nanoparticles-adhesive-hours-laboratory.html",
+      "fetchedAt": "2026-11-13T02:56:11.124Z",
+      "error": "HTTP 403"
+    },
+    "1izpnft": {
+      "version": 4,
+      "url": "https://phys.org/news/2026-11-robotic-tools-hidden-microbial-world.html",
+      "fetchedAt": "2026-11-13T02:56:11.263Z",
+      "error": "HTTP 403"
+    },
+    "k83paq": {
+      "version": 4,
+      "url": "https://www.zr.ru/content/news/988392-spros-vyros-pochti-vdvoe-za-mes/",
+      "fetchedAt": "2026-11-13T02:56:11.478Z",
+      "title": "В России резко вырос спрос на кроссоверы возрожденной российской марки",
+      "byline": "Ушакова Ирина",
+      "siteName": "zr.ru",
+      "content": "Интерес к кроссоверам Volga K50, построенным на базе Geely Monjaro, в России резко подскочил. Выяснило это издание «Китайские автомобили».По информации компании «Автостат Инфо», в октябре на учет поставили 1045 таких машин. Месяцем раньше цифра была куда скромнее – 583 автомобиля.Благодаря такому рывку Volga K50 обошла в октябрьском рейтинге ряд соперников, среди которых, к примеру, Jetour T1 и Haval Dargo. Хотя «донор» по-прежнему впереди: у Geely Monjaro 1947 единиц.Цены и старт продаж Volga K50На рынок все три модели Volga – C50, K40 и K50 – вышли 19 июня.Сколько за них просят: кроссовер Volga K50 стоит от 4 344 900 рублей, Volga K40 обойдется от 2 849 000 рублей, а седан Volga C50 – минимум в 2 999 000 рублей.Volga K50О том, что набирающий популярность в РФ кроссовер скоро получит полный привод, «За рулем» рассказывал ранее.Понравилась публикация?Тогда добавьте «За рулем» в список интересных источников: 1. Откройте https://google.com... 2. Поставьте галочку напротив нашего изданияГотово – остаемся на связи! «За рулем» можно читать и в MAX",
+      "images": [
+        {
+          "url": "https://www.zr.ru/d/story/e8/988392/nominant-volga.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.zr.ru/d/story/67/956775/111222.jpg",
+          "alt": ""
+        }
+      ],
+      "length": 1058,
+      "imageCount": 2
     },
     "1lthvyx": {
       "version": 4,
       "url": "https://www.playground.ru/misc/news/hyu_dzhekman_i_rajan_rejnolds_zasvetilis_v_stsenarnyh_titrah_mstitelej_sudnyj_den-1890235",
-      "fetchedAt": "2026-11-13T02:53:41.660Z",
+      "fetchedAt": "2026-11-13T02:56:11.657Z",
       "title": "Хью Джекман и Райан Рейнольдс засветились в сценарных титрах \"Мстителей: Судный день\"",
       "byline": "IKarasik",
       "siteName": "Playground",
@@ -45533,77 +45579,10 @@
       "length": 2016,
       "imageCount": 3
     },
-    "1h77xai": {
-      "version": 4,
-      "url": "https://www.zr.ru/content/news/988422-benzin-dizel-ili-ehlektromoto/",
-      "fetchedAt": "2026-11-13T02:53:41.722Z",
-      "title": "Chery привезет в Россию суровый современный рамник: что об этом известно?",
-      "byline": "Лежнин Роман",
-      "siteName": "zr.ru",
-      "content": "Рамный пикап Rely R08 может добраться до России: такой сценарий сейчас прорабатывает коммерческое подразделение Chery.Речь пока не о старте продаж, а об оценке перспектив. В Chery Commercial Vehicles изучают, как устроен спрос в этом сегменте, и параллельно ведут переговоры с возможными партнерами.К премьере модель рассматривают сразу в трех исполнениях – с бензиновым и дизельным ДВС, а также с полностью электрической силовой установкой.По сути, для компании это попытка попробовать силы в новом для себя сегменте российского рынка.Как продвигать новинку в нашей стране, в Chery еще не определились: то ли самостоятельная дистрибуция, то ли независимый российский участник рынка. Точные сроки начала сертификации пикапа в РФ по этой причине тоже не обозначены.Сам Rely – коммерческий суббренд Chery. Впервые вывести его на мировой рынок компания попыталась в 2019 году, однако затем процесс приостановила; перезапуск случился в начале 2025-го, и первой моделью проекта как раз стал рамный пикап Rely R08.На Шанхайском автосалоне-2025 в Chery объявили, что пикапы Rely за пределами Китая будут продаваться под маркой Himla. Как машину назовут в России, пока неясно, но марки Chery в ее имени точно не будет.С нуля автомобиль не создавали. За основу взят пикап ZX Weishi 1986 от китайского производителя ZX Auto – причем на той же модели построен и недавно представленный рамный пикап GAC Smilodon.Длина Rely R08 – 5330 мм, ширина – 1920 мм, высота – 1890 мм, колесная база – 3230 мм. По длине он сопоставим с популярным в России JAC T9. Размеры кузова: 1530 х 1620 х 515 мм.Есть и длиннобазная версия – на 280 мм длиннее (5610 мм) и с увеличенной колесной базой 3510 мм. Правда, для российского рынка такой вариант, насколько известно, сейчас не рассматривают.Конструкция – рамная, на задней оси – рессорная подвеска. Углы въезда и съезда составляют 33 и 24 градуса соответственно. Салон в любом случае пятиместный: в зависимости от версии в кабине стоит сенсорный монитор диагональю 12,3 либо 15,6 дюйма, а на центральном тоннеле предусмотрены беспроводная зарядка для смартфона, рычаг коробки передач, пара подстаканников и круглый селектор выбора режимов движения.Базовая версия для Китая – 2,4-литровый атмосферный бензиновый двигатель, который развивает 160 лошадиных сил и 230 Нм крутящего момента. Трансмиссия только 5-ступенчатая механическая, привод – задний или полный.Второй вариант оснащен 2,3-литровым дизельным турбомотором мощностью 163 л.с. и крутящим моментом 420 Нм. В начальных комплектациях он работает с 6-ступенчатой механикой, в более дорогих – с 8-ступенчатым автоматом; привод также задний либо полный.Полностью электрический Rely R08 EV комплектуется одним задним электродвигателем на 204 л.с. и 350 Нм, а в полноприводных модификациях – двумя моторами (передним и задним) суммарной мощностью 408 л.с. и 540 Нм. Литий-железо-фосфатная тяговая батарея доступна в двух вариантах емкости – 66,5 и 88 кВт·ч, запас хода по циклу CLTC составляет от 405 до 510 км.Сколько стоит в КитаеБензиновый Rely R08 там оценивают в 88,8-139,8 тысячи юаней, что соответствует примерно 1,1-1,73 млн рублей.У дизельной версии ценовой диапазон шире: от 94,8 до 185,8 тысячи юаней (1,17-2,3 млн рублей).Самый большой разброс – у электрической модификации: от 132,8 до 299,8 тысячи юаней, то есть от 1,64 до 3,71 млн рублей.О том, что ждет бензиновые двигатели в России, «За рулем» уже рассказывал.Понравилась публикация?Тогда добавьте «За рулем» в список интересных источников: 1. Откройте https://google.com... 2. Поставьте галочку напротив нашего изданияГотово – остаемся на связи! «За рулем» можно читать и в MAX",
-      "images": [
-        {
-          "url": "https://www.zr.ru/d/story/06/988422/mycollages-2026-11-12_15-43-37.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://www.zr.ru/d/story/67/956775/111222.jpg",
-          "alt": ""
-        }
-      ],
-      "length": 3621,
-      "imageCount": 2
-    },
-    "cmfi5y": {
-      "version": 4,
-      "url": "https://www.hollywoodreporter.com/movies/movie-news/tyrese-gibson-star-under-the-boards-scott-rosenfelt-1236754448/",
-      "fetchedAt": "2026-11-13T02:53:41.909Z",
-      "title": "Tyrese Gibson to Star in Sports Drama ‘Under the Boards’ From ‘Home Alone’ Producer Scott Rosenfelt (Exclusive)",
-      "byline": "Ryan Gajewski",
-      "siteName": "The Hollywood Reporter",
-      "content": "Tyrese Gibson is looking to bring an inspirational story of high school basketball triumph to the big screen.\n\nThe actor, known for the Fast and Furious franchise, is set to star in writer-director Scott Rosenfelt’s sports drama Under the Boards, The Hollywood Reporter has learned. The indie film is expected to begin production in February.\n\nUnder the Boards is inspired by real-life events experienced by the Atlantic City High School’s basketball team from 2003 to 2013 as the squad won its first New Jersey state championships. The film centers on larger-than-life head coach Gene Allen (Gibson) and Jim Schafer, the math teacher with a passion for strategy who becomes the assistant coach. Under the Boards looks to celebrate the athletes, families, teachers and community members who supported the team’s unlikely success.\n\nRosenfelt, who helms the movie from his own script, serves as producer alongside Salomé Breziner. Schafer, Gibson and T’Shaun Barrett serve as executive producers, while Debby Schafer co-produces. Jim Schafer, whose path helped inspire the project, is married to Rosenfelt’s cousin, and the casting process is underway to cast the actor who will portray Schafer.\n\n“This film belongs to Atlantic City,” says Rosenfelt. “Tyrese understands that a coach like Gene is part preacher, part politician and part father to every kid on that bench. He is going to bring that whole community to life.”\n\nAdds Breziner, “It is an honor to bring Jim Schafer’s story to life and to celebrate a community that never stopped believing. I am so excited to be working with Tyrese again, and to be back alongside Scott on a film this close to his heart.”\n\nRosenfelt’s producing credits include Home Alone, Mystic Pizza, Teen Wolf, Critical Thinking and Smoke Signals, and he directed the film Family Prayers. Breziner wrote and directed Tollbooth and Fast Sofa, and she is currently producing the Billy Zane-led Danger Island alongside Rosenfelt.\n\nGibson is represented by Kris Heller at IAG and Mona Scott-Young at Monami Management.",
-      "images": [
-        {
-          "url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/TYRESE-GIBSON-credit-Christine-Morden-H-2026.jpg?w=1296&h=730&crop=1",
-          "alt": ""
-        }
-      ],
-      "length": 2045,
-      "imageCount": 1
-    },
-    "qj21bk": {
-      "version": 4,
-      "url": "https://phys.org/news/2026-11-magnetic-nanoparticles-adhesive-hours-laboratory.html",
-      "fetchedAt": "2026-11-13T02:53:41.958Z",
-      "error": "HTTP 403"
-    },
-    "1izpnft": {
-      "version": 4,
-      "url": "https://phys.org/news/2026-11-robotic-tools-hidden-microbial-world.html",
-      "fetchedAt": "2026-11-13T02:53:42.005Z",
-      "error": "HTTP 403"
-    },
-    "a600p9": {
-      "version": 4,
-      "url": "https://www.playground.ru/slots__daggers/news/v_slots_and_slaughter_stala_dostupna_demoversiya_roglajt_dekbildera-1890234",
-      "fetchedAt": "2026-11-13T02:53:42.097Z",
-      "title": "В Slots and Slaughter стала доступна демоверсия роглайт-декбилдера",
-      "byline": "GameTrailers",
-      "siteName": "Playground",
-      "content": "Для Slots and Slaughter выпустили демоверсию роглайт-декбилдера о гладиаторе, чьё снаряжение скрыто в игровом автомате. Ролик демонстрирует сражения, вращения барабанов, смену экипировки и рискованные перебросы.\nГерой начинает путь без денег и должен выиграть свободу на арене. Каждый поворот автомата определяет доступное оружие и предметы, а повторная попытка может как усилить бойца, так и оставить его без нужной экипировки.\nДемоверсия уже доступна на ПК в Steam.",
-      "images": [
-        {
-          "url": "https://i.playground.ru/e/i89cIPo0KP2RFSY7juaU4g.jpeg",
-          "alt": ""
-        }
-      ],
-      "length": 467,
-      "imageCount": 1
-    },
     "1e5thbn": {
       "version": 4,
       "url": "https://deadline.com/2026/11/savannah-guthrie-today-contract-1237222260/",
-      "fetchedAt": "2026-11-13T02:53:42.399Z",
+      "fetchedAt": "2026-11-13T02:56:11.930Z",
       "title": "‘Today’ Co-Host Savannah Guthrie Extends NBC News Contract",
       "byline": "Ted Johnson",
       "siteName": "Deadline",
@@ -45621,31 +45600,35 @@
       "length": 1312,
       "imageCount": 2
     },
-    "k83paq": {
+    "1m2mkg4": {
       "version": 4,
-      "url": "https://www.zr.ru/content/news/988392-spros-vyros-pochti-vdvoe-za-mes/",
-      "fetchedAt": "2026-11-13T02:53:42.450Z",
-      "title": "В России резко вырос спрос на кроссоверы возрожденной российской марки",
-      "byline": "Ушакова Ирина",
-      "siteName": "zr.ru",
-      "content": "Интерес к кроссоверам Volga K50, построенным на базе Geely Monjaro, в России резко подскочил. Выяснило это издание «Китайские автомобили».По информации компании «Автостат Инфо», в октябре на учет поставили 1045 таких машин. Месяцем раньше цифра была куда скромнее – 583 автомобиля.Благодаря такому рывку Volga K50 обошла в октябрьском рейтинге ряд соперников, среди которых, к примеру, Jetour T1 и Haval Dargo. Хотя «донор» по-прежнему впереди: у Geely Monjaro 1947 единиц.Цены и старт продаж Volga K50На рынок все три модели Volga – C50, K40 и K50 – вышли 19 июня.Сколько за них просят: кроссовер Volga K50 стоит от 4 344 900 рублей, Volga K40 обойдется от 2 849 000 рублей, а седан Volga C50 – минимум в 2 999 000 рублей.Volga K50О том, что набирающий популярность в РФ кроссовер скоро получит полный привод, «За рулем» рассказывал ранее.Понравилась публикация?Тогда добавьте «За рулем» в список интересных источников: 1. Откройте https://google.com... 2. Поставьте галочку напротив нашего изданияГотово – остаемся на связи! «За рулем» можно читать и в MAX",
+      "url": "https://www.playground.ru/misc/news/kevin_fajgi_oproverg_teoriyu_o_tom_chto_doktor_dum_v_mstitelyah_sudnyj_den_variant_toni_starka-1890236",
+      "fetchedAt": "2026-11-13T02:56:11.989Z",
+      "title": "Кевин Файги опроверг теорию о том, что Доктор Дум в \"Мстителях: Судный день\" - вариант Тони Старка",
+      "byline": "IKarasik",
+      "siteName": "Playground",
+      "content": "Глава Marvel Studios Кевин Файги подтвердил, что Доктор Дум в фильме «Мстители: Судный день» не является альтернативной версией Тони Старка из другой вселенной. Таким образом, он опроверг популярную фанатскую теорию, возникшую после объявления о том, что Роберт Дауни-младший сыграет обоих персонажей.\nВ интервью журналу Empire Файги напомнил, что Marvel уже использовала концепцию вариантов персонажей в мультивселенной, в том числе для объяснения появления разных Человеков-пауков, Росомахи и Локи. Однако в случае с Думом никакой подобной связи со Старком нет.\n«Стив Роджерс — это вариант Джонни Шторма? Люди задавались вопросом: “Дум — просто вариант другого персонажа? Это короткий путь к возвращению кого-то из старых героев?” Ответ — нет. Он Виктор фон Дум», — заявил Файги.\nРежиссёры картины братья Руссо также рассказали о характере нового злодея. По их словам, Дум пережил потерю ребёнка, стал жертвой психологической травмы и обладает ещё более раздутым эго, чем Танос. Джо Руссо описал его как готического персонажа, владеющего тёмной магией и готового даже продать душу ради достижения своих целей.\n«Он говорит: “Ад подчиняется мне”, — и он не шутит. Это очень могущественный персонаж с тёмной магией. Его действительно стоит бояться», — отметил режиссёр.\nСам Дауни-младший признался, что ему интересно впервые всерьёз сыграть злодея в киновселенной Marvel. Актёр также намекнул, что планы Дума гораздо масштабнее, чем можно предположить: «Мне нравится оставлять после себя выжженную землю. Всё, что вы думаете о его намерениях, умножьте на десять — и, возможно, приблизитесь к правде».\n«Мстители: Судный день» выйдут в кинотеатрах 18 декабря. Ранее Marvel подтвердила возвращение Алой Ведьмы, а сведения с сайта Гильдии сценаристов США о работе Хью Джекмана и Райана Рейнольдса над сценарием породили предположения о появлении в фильме Росомахи и Дэдпула.",
       "images": [
         {
-          "url": "https://www.zr.ru/d/story/e8/988392/nominant-volga.jpg",
+          "url": "https://i.playground.ru/e/kjzSR3kCJQpzoXqFJraZfQ.png",
           "alt": ""
         },
         {
-          "url": "https://www.zr.ru/d/story/67/956775/111222.jpg",
+          "url": "https://i.playground.ru/p/kjzSR3kCJQpzoXqFJraZfQ.png?760xauto",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/kjzSR3kCJQpzoXqFJraZfQ.png.webp?420xauto",
           "alt": ""
         }
       ],
-      "length": 1058,
-      "imageCount": 2
+      "length": 1869,
+      "imageCount": 3
     },
     "3bkeu9": {
       "version": 4,
       "url": "https://variety.com/2026/film/global/chase-infiniti-movie-the-julia-set-sells-out-hanway-1236946566/",
-      "fetchedAt": "2026-11-13T02:53:42.635Z",
+      "fetchedAt": "2026-11-13T02:56:12.245Z",
       "title": "Chase Infiniti Coming-of-Age Drama The Julia Set Sells Out for HanWay",
       "byline": "Alex Ritman",
       "siteName": "Variety",
@@ -45659,10 +45642,44 @@
       "length": 3364,
       "imageCount": 1
     },
+    "a600p9": {
+      "version": 4,
+      "url": "https://www.playground.ru/slots__daggers/news/v_slots_and_slaughter_stala_dostupna_demoversiya_roglajt_dekbildera-1890234",
+      "fetchedAt": "2026-11-13T02:56:12.296Z",
+      "title": "В Slots and Slaughter стала доступна демоверсия роглайт-декбилдера",
+      "byline": "GameTrailers",
+      "siteName": "Playground",
+      "content": "Для Slots and Slaughter выпустили демоверсию роглайт-декбилдера о гладиаторе, чьё снаряжение скрыто в игровом автомате. Ролик демонстрирует сражения, вращения барабанов, смену экипировки и рискованные перебросы.\nГерой начинает путь без денег и должен выиграть свободу на арене. Каждый поворот автомата определяет доступное оружие и предметы, а повторная попытка может как усилить бойца, так и оставить его без нужной экипировки.\nДемоверсия уже доступна на ПК в Steam.",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/i89cIPo0KP2RFSY7juaU4g.jpeg",
+          "alt": ""
+        }
+      ],
+      "length": 467,
+      "imageCount": 1
+    },
+    "17q8zd6": {
+      "version": 4,
+      "url": "https://variety.com/2026/gaming/news/wolfenstein-3-game-xbox-1236946715/",
+      "fetchedAt": "2026-11-13T02:56:12.449Z",
+      "title": "'Wolfenstein 3 Game Set at Xbox's Machine Games",
+      "byline": "Jennifer Maas",
+      "siteName": "Variety",
+      "content": "“Wolfenstein 3″ is in the works at Xbox‘s Machine Games.\n\nXbox CEO Asha Sharma announced the news Thursday amid Xbox’s 25th anniversary celebration, sharing on X: “Wolfenstein 3 is officially in production at @MachineGames. One of gaming’s most important franchises, and a team that has done remarkable work bringing it forward. Looking forward to sharing more.”\n\nSharma also shared a photo featuring a portion of a script for the project:\n\nFirst launched in 1981 by Muse Software and later id Software, the “Wolfenstein” video game franchise is set in an alternate history World War II that largely follow U.S. Army captain William “B.J.” Blazkowicz in his fight against the Nazis. There are more than a dozen games in the series with the two most recent installments being reboots developed by MachineGames in partnership with publisher Bethesda Softworks: 2014’s “Wolfenstein: The New Order” and 2017’s “Wolfenstein II: The New Colossus.”\n\n“Wolfenstein 3” will mark the first game in the franchise to be developed by MachineGames under Xbox ownership following Microsoft’s acquisition of parent company ZeniMax Media in March 2021.\n\nMore to come…",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/Wolfenstein.png?w=1000&h=563&crop=1",
+          "alt": ""
+        }
+      ],
+      "length": 1149,
+      "imageCount": 1
+    },
     "1lz9xkk": {
       "version": 4,
       "url": "https://www.playground.ru/tomb_raider/news/amazon_games_udalila_upominanie_nintendo_switch_2_iz_opisaniya_tomb_raider_catalyst-1890233",
-      "fetchedAt": "2026-11-13T02:53:42.705Z",
+      "fetchedAt": "2026-11-13T02:56:12.497Z",
       "title": "Amazon Games удалила упоминание Nintendo Switch 2 из описания Tomb Raider Catalyst",
       "byline": "monk70",
       "siteName": "Playground",
@@ -45687,36 +45704,19 @@
     "s37s82": {
       "version": 4,
       "url": "https://phys.org/news/2026-11-ai-bioplastics.html",
-      "fetchedAt": "2026-11-13T02:53:42.706Z",
+      "fetchedAt": "2026-11-13T02:56:12.500Z",
       "error": "HTTP 403"
-    },
-    "17q8zd6": {
-      "version": 4,
-      "url": "https://variety.com/2026/gaming/news/wolfenstein-3-game-xbox-1236946715/",
-      "fetchedAt": "2026-11-13T02:53:42.832Z",
-      "title": "'Wolfenstein 3 Game Set at Xbox's Machine Games",
-      "byline": "Jennifer Maas",
-      "siteName": "Variety",
-      "content": "“Wolfenstein 3″ is in the works at Xbox‘s Machine Games.\n\nXbox CEO Asha Sharma announced the news Thursday amid Xbox’s 25th anniversary celebration, sharing on X: “Wolfenstein 3 is officially in production at @MachineGames. One of gaming’s most important franchises, and a team that has done remarkable work bringing it forward. Looking forward to sharing more.”\n\nSharma also shared a photo featuring a portion of a script for the project:\n\nFirst launched in 1981 by Muse Software and later id Software, the “Wolfenstein” video game franchise is set in an alternate history World War II that largely follow U.S. Army captain William “B.J.” Blazkowicz in his fight against the Nazis. There are more than a dozen games in the series with the two most recent installments being reboots developed by MachineGames in partnership with publisher Bethesda Softworks: 2014’s “Wolfenstein: The New Order” and 2017’s “Wolfenstein II: The New Colossus.”\n\n“Wolfenstein 3” will mark the first game in the franchise to be developed by MachineGames under Xbox ownership following Microsoft’s acquisition of parent company ZeniMax Media in March 2021.\n\nMore to come…",
-      "images": [
-        {
-          "url": "https://variety.com/wp-content/uploads/2026/11/Wolfenstein.png?w=1000&h=563&crop=1",
-          "alt": ""
-        }
-      ],
-      "length": 1149,
-      "imageCount": 1
     },
     "mmkikq": {
       "version": 4,
       "url": "https://phys.org/news/2026-11-earth-orbital-asymmetries-recurring-rhythms.html",
-      "fetchedAt": "2026-11-13T02:53:42.858Z",
+      "fetchedAt": "2026-11-13T02:56:12.541Z",
       "error": "HTTP 403"
     },
     "x8dlyr": {
       "version": 4,
       "url": "https://www.gematsu.com/2026/11/wolfenstein-3-announced",
-      "fetchedAt": "2026-11-13T02:53:43.245Z",
+      "fetchedAt": "2026-11-13T02:56:12.959Z",
       "title": "Wolfenstein 3 announced",
       "byline": "Sal Romano",
       "siteName": "Gematsu",
@@ -45738,47 +45738,10 @@
       "length": 909,
       "imageCount": 3
     },
-    "gh-1433604942": {
-      "version": 4,
-      "url": "https://github.com/xXNukem/bstone-3ds",
-      "fetchedAt": "2026-11-13T02:53:43.458Z",
-      "title": "GitHub - xXNukem/bstone-3ds: Native Blake Stone source port for New Nintendo 3DS",
-      "byline": "",
-      "siteName": "GitHub",
-      "content": "Blake Stone: Aliens of Gold and Planet Strike on New Nintendo 3DS.\n\n☕ Support the project\nIf you enjoy the port and want to buy me a coffee, you can do it here. Every bit helps with future updates and projects. No pressure, of course.\n\nko-fi.com/xxnukem\n\nWhat is Blake Stone 3DS?\nBlake Stone 3DS is an unofficial homebrew port of Blake Stone: Aliens of Gold and Blake Stone: Planet Strike, based on BStone by Boris I. Bendovsky.\nBoth games run from a single executable, with a game selector at startup. The port adapts the original gameplay to the 3DS's two screens, controls and stereoscopic display.\nFeatures\n\nBoth Blake Stone games in one executable, including the shareware and full editions of Aliens of Gold.\nStereoscopic 3D, adjusted with the console's 3D slider.\nFull-screen gameplay on the upper screen, with the original status information moved to the lower screen.\nLower-screen HUD and live automap, showing health, ammo, weapons, score, access cards and an animated ECG monitor.\nRedesigned menus and loading screens, with green phosphor and CRT effects.\nThree control layouts: Classic, Modern and Modern + C-Stick.\nOptional weapon bobbing, widescreen or centered 4:3 presentation, and the original game audio.\nSeparate profiles for the supported game editions.\n\nDownload and installation\nDownload the latest bstone.3dsx release and place it on your SD card:\nsdmc:/3ds/bstone/\nbstone.3dsx\ngames/\naog/\nps/\nprofiles/\n\nPut your original Aliens of Gold files in games/aog/ and Planet Strike files in games/ps/. Launch the application through the Homebrew Launcher.\nYou must provide your own original game files. They are not included with this port. The free Aliens of Gold shareware edition is supported.\nRequired game files\n\nAliens of Gold — Shareware (.BS1)\nAUDIOHED.BS1\nAUDIOT.BS1\nIANIM.BS1\nMAPHEAD.BS1\nMAPTEMP.BS1\nSANIM.BS1\nVGADICT.BS1\nVGAGRAPH.BS1\nVGAHEAD.BS1\nVSWAP.BS1\n\nAliens of Gold — Full version (.BS6)\nAUDIOHED.BS6\nAUDIOT.BS6\nEANIM.BS6\nGANIM.BS6\nIANIM.BS6\nMAPHEAD.BS6\nMAPTEMP.BS6\nSANIM.BS6\nVGADICT.BS6\nVGAGRAPH.BS6\nVGAHEAD.BS6\nVSWAP.BS6\n\nPlanet Strike — Full version (.VSI)\nAUDIOHED.VSI\nAUDIOT.VSI\nEANIM.VSI\nIANIM.VSI\nMAPHEAD.VSI\nMAPTEMP.VSI\nVGADICT.VSI\nVGAGRAPH.VSI\nVGAHEAD.VSI\nVSWAP.VSI\n\nDo not mix data from different editions or releases. The startup selector checks the installed files against known SHA-1 signatures and reports missing or unsupported data before launching the game.\nGame selector\n\nButton\nAction\n\nD-Pad / Circle Pad\nSelect game\n\nLeft / Right\nSwitch between available Aliens of Gold editions\n\nA\nVerify and launch\n\nX\nRescan game files\n\nB\nExit confirmation\n\nThe selected game stays active until you close the application.\nUpdating an existing installation\nReplace bstone.3dsx with the newer release. Leave your original game data in place.\nNew saves and settings are kept in separate folders:\nsdmc:/3ds/bstone/profiles/aog_sw/\nsdmc:/3ds/bstone/profiles/aog_full/\nsdmc:/3ds/bstone/profiles/ps/\n\nOlder installations with Aliens of Gold data directly inside sdmc:/3ds/bstone/ are still recognized through the legacy compatibility mechanism.\nBack up your saves before updating.\nControls\nYou can switch between three layouts in Control Settings. Press BUTTON GUIDE in the game to see the current layout.\nClassic\n\nButton\nAction\n\nCircle Pad / D-Pad ↑ ↓\nMove forward / backward\n\nCircle Pad / D-Pad ← →\nTurn\n\nL / R\nStrafe left / right\n\nA\nFire\n\nB\nInteract / open doors\n\nZL / ZR\nNext / previous weapon\n\nX\nToggle automap\n\nSTART\nGame menu\n\nSTART + SELECT\nExit to Homebrew Launcher\n\nModern\n\nButton\nAction\n\nCircle Pad ↑ ↓\nMove forward / backward\n\nCircle Pad ← →\nStrafe left / right\n\nY / A\nTurn left / right\n\nR\nFire\n\nB\nInteract / open doors\n\nD-Pad ← →\nPrevious / next weapon\n\nX\nToggle automap\n\nSTART\nGame menu\n\nSTART + SELECT\nExit to Homebrew Launcher\n\nModern + C-Stick\nUses the Modern layout, with the C-Stick available for horizontal turning. Y and A still work for turning as well. There is no vertical freelook.\nIn menus, A confirms and B goes back. The selected control layout is saved in the game preferences.\nScreens and 3D\nThe upper screen is used for the first-person view. The original DOS status bar has moved to the lower screen, alongside a live automap and the animated health monitor.\nThe stereo renderer uses a separate viewpoint for each eye for walls, actors, objects and weapons. Depth is controlled using the console's physical 3D slider. The menus also have a subtler stereoscopic effect.\nVideo options include widescreen or centered 4:3 gameplay and a CRT effect for the menus. Audio retains the original BStone sound systems, including OPL emulation and game sound effects.\nCompatibility\nTested and working on New Nintendo 3DS XL.\nOther models in the Nintendo 3DS family haven't been tested yet. You'll need a console capable of running homebrew through the Homebrew Launcher.\nKnown limitations:\n\nNo touchscreen control layout.\nThe C-Stick only controls horizontal turning.\nModified or unsupported game-data sets may fail integrity checks.\nNot every historical version or original save file has been tested.\nPerformance can vary between scenes, especially with stereoscopic 3D enabled.\n\nFound a bug? Open an issue and mention the game edition, what happened and whether 3D was enabled.\nBuilding from source\nYou'll need:\n\ndevkitPro / devkitARM, with libctru, Citro2D and Citro3D.\nCMake 3.18 or newer.\n3dsxtool and smdhtool.\nA separately built Nintendo 3DS static SDL2 installation providing SDL2::SDL2-static.\n\nA desktop SDL2 installation won't work for this target.\nexport DEVKITPRO=/opt/devkitpro\n\ncmake -S . -B build/3ds-release \\\n-DCMAKE_TOOLCHAIN_FILE=\"$DEVKITPRO/cmake/3DS.cmake\" \\\n-DSDL2_DIR=/path/to/SDL2-install-3ds/lib/cmake/SDL2 \\\n-DBSTONE_ENABLE_AI_WEAPONS=OFF \\\n-DCMAKE_BUILD_TYPE=Release\n\ncmake --build build/3ds-release --parallel 4\nOutput: build/3ds-release/src/bstone/bstone.3dsx.\nKeep the generated ELF if you need to investigate ARM11 crashes. The docs/, tests/ and tools/ folders contain further development material.\nExperimental artwork and AI use\nThere are experiments with alternative, AI-assisted weapon designs, textures and sprites. These aren't part of the standard release. The original game artwork remains the default.\nAI tools were also used during development to inspect the BStone code, investigate bugs, assist with implementation, refactoring, testing and documentation. I made the design decisions, reviewed the work and tested the port on actual hardware.\nCredits\nNintendo 3DS port: Carlos de la Barrera Pérez (xXNukem).\nOriginal games and engine:\n\nJAM Productions — Aliens of Gold and Planet Strike.\nApogee Software — original publisher.\nid Software — Wolfenstein 3D engine heritage.\nBoris I. Bendovsky and BStone contributors — BStone.\n\nTools and libraries: devkitPro, libctru, Citro2D, Citro3D, SDL, DOSBox/DBOPL, Nuked OPL3, stb and their contributors.\nThis is an independent, unofficial homebrew project, not affiliated with Nintendo or the games' rights holders.\nLicense and game data\nSource code retains the applicable BStone licenses and attributions, including GPL-2.0-or-later for the relevant code. Some bundled libraries and independently developed components have separate licenses.\nSee LICENSE.txt, README_UPSTREAM.md, SDL2's license and the repository's other license notices.\nOriginal game assets are not included. They remain the property of their respective rights holders.",
-      "images": [],
-      "length": 7374,
-      "imageCount": 0
-    },
-    "r9iw7m": {
-      "version": 4,
-      "url": "https://www.playground.ru/wolfenstein_3/news/ofitsialno_podtverzhdena_razrabotka_wolfenstein_3_v_studii_machinegames-1890232",
-      "fetchedAt": "2026-11-13T02:53:43.568Z",
-      "title": "Официально подтверждена разработка Wolfenstein 3 в студии MachineGames",
-      "byline": "monk70",
-      "siteName": "Playground",
-      "content": "Сегодня в Сиэтле, в рамках празднования 25-летия Xbox на мероприятии Xbox Fanfest, студия-разработчик MachineGames и создатели серии id Software подтвердили то, о чем ходили давние слухи: Wolfenstein 3 находится в разработке.\nЗа создание игры вновь отвечает команда MachineGames. Предыдущая часть, Wolfenstein 2: The New Colossus, вышла в 2017 году и получила восторженные отзывы, однако затем MachineGames взяла паузу в работе над серией, чтобы заняться проектом Indiana Jones and the Great Circle — великолепной игрой, вышедшей в 2024 году. Теперь же Wolfenstein снова стала приоритетным направлением для шведской студии.\nГлава Xbox Аша Шарма подтвердила в социальной сети X:\nWolfenstein 3 официально находится в производстве в MachineGames. Это одна из важнейших игровых франшиз, а команда проделала выдающуюся работу по её развитию. С нетерпением жду возможности поделиться новыми подробностями.\nПредставители id Software и MachineGames дополнили публикацию Шармы (к которой была приложена страница сценария Wolfenstein 3) лаконичным комментарием: «Репутация опережает его» — отсылка к действию, описанному на этой странице. «Wolfenstein 3 в разработке». Разработчики также подтвердили, что к своим ролям вернутся актёры Брайан Блум (в образе Би Джея Бласковица) и Дебра Уилсон (в образе Грейс Уокер) — это стало ясно благодаря фотографии, сделанной в студии захвата движений.",
-      "images": [
-        {
-          "url": "https://i.playground.ru/e/4s3s9lQ_WxpWPNVUbmmPAg.png",
-          "alt": ""
-        },
-        {
-          "url": "https://i.playground.ru/p/4s3s9lQ_WxpWPNVUbmmPAg.png?760xauto",
-          "alt": ""
-        },
-        {
-          "url": "https://i.playground.ru/p/4s3s9lQ_WxpWPNVUbmmPAg.png.webp?420xauto",
-          "alt": ""
-        }
-      ],
-      "length": 1380,
-      "imageCount": 3
-    },
     "11p0whc": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/movies/movie-news/johnny-depp-ebenezer-box-office-career-comeback-paramount-1236754032/",
-      "fetchedAt": "2026-11-13T02:53:43.771Z",
+      "fetchedAt": "2026-11-13T02:56:13.281Z",
       "title": "Are Audiences Ready for a Johnny Depp Career Comeback?",
       "byline": "Ryan Gajewski",
       "siteName": "The Hollywood Reporter",
@@ -45800,10 +45763,47 @@
       "length": 7270,
       "imageCount": 3
     },
+    "r9iw7m": {
+      "version": 4,
+      "url": "https://www.playground.ru/wolfenstein_3/news/ofitsialno_podtverzhdena_razrabotka_wolfenstein_3_v_studii_machinegames-1890232",
+      "fetchedAt": "2026-11-13T02:56:13.333Z",
+      "title": "Официально подтверждена разработка Wolfenstein 3 в студии MachineGames",
+      "byline": "monk70",
+      "siteName": "Playground",
+      "content": "Сегодня в Сиэтле, в рамках празднования 25-летия Xbox на мероприятии Xbox Fanfest, студия-разработчик MachineGames и создатели серии id Software подтвердили то, о чем ходили давние слухи: Wolfenstein 3 находится в разработке.\nЗа создание игры вновь отвечает команда MachineGames. Предыдущая часть, Wolfenstein 2: The New Colossus, вышла в 2017 году и получила восторженные отзывы, однако затем MachineGames взяла паузу в работе над серией, чтобы заняться проектом Indiana Jones and the Great Circle — великолепной игрой, вышедшей в 2024 году. Теперь же Wolfenstein снова стала приоритетным направлением для шведской студии.\nГлава Xbox Аша Шарма подтвердила в социальной сети X:\nWolfenstein 3 официально находится в производстве в MachineGames. Это одна из важнейших игровых франшиз, а команда проделала выдающуюся работу по её развитию. С нетерпением жду возможности поделиться новыми подробностями.\nПредставители id Software и MachineGames дополнили публикацию Шармы (к которой была приложена страница сценария Wolfenstein 3) лаконичным комментарием: «Репутация опережает его» — отсылка к действию, описанному на этой странице. «Wolfenstein 3 в разработке». Разработчики также подтвердили, что к своим ролям вернутся актёры Брайан Блум (в образе Би Джея Бласковица) и Дебра Уилсон (в образе Грейс Уокер) — это стало ясно благодаря фотографии, сделанной в студии захвата движений.",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/4s3s9lQ_WxpWPNVUbmmPAg.png",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/4s3s9lQ_WxpWPNVUbmmPAg.png?760xauto",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/4s3s9lQ_WxpWPNVUbmmPAg.png.webp?420xauto",
+          "alt": ""
+        }
+      ],
+      "length": 1380,
+      "imageCount": 3
+    },
+    "gh-1433604942": {
+      "version": 4,
+      "url": "https://github.com/xXNukem/bstone-3ds",
+      "fetchedAt": "2026-11-13T02:56:13.429Z",
+      "title": "GitHub - xXNukem/bstone-3ds: Native Blake Stone source port for New Nintendo 3DS",
+      "byline": "",
+      "siteName": "GitHub",
+      "content": "Blake Stone: Aliens of Gold and Planet Strike on New Nintendo 3DS.\n\n☕ Support the project\nIf you enjoy the port and want to buy me a coffee, you can do it here. Every bit helps with future updates and projects. No pressure, of course.\n\nko-fi.com/xxnukem\n\nWhat is Blake Stone 3DS?\nBlake Stone 3DS is an unofficial homebrew port of Blake Stone: Aliens of Gold and Blake Stone: Planet Strike, based on BStone by Boris I. Bendovsky.\nBoth games run from a single executable, with a game selector at startup. The port adapts the original gameplay to the 3DS's two screens, controls and stereoscopic display.\nFeatures\n\nBoth Blake Stone games in one executable, including the shareware and full editions of Aliens of Gold.\nStereoscopic 3D, adjusted with the console's 3D slider.\nFull-screen gameplay on the upper screen, with the original status information moved to the lower screen.\nLower-screen HUD and live automap, showing health, ammo, weapons, score, access cards and an animated ECG monitor.\nRedesigned menus and loading screens, with green phosphor and CRT effects.\nThree control layouts: Classic, Modern and Modern + C-Stick.\nOptional weapon bobbing, widescreen or centered 4:3 presentation, and the original game audio.\nSeparate profiles for the supported game editions.\n\nDownload and installation\nDownload the latest bstone.3dsx release and place it on your SD card:\nsdmc:/3ds/bstone/\nbstone.3dsx\ngames/\naog/\nps/\nprofiles/\n\nPut your original Aliens of Gold files in games/aog/ and Planet Strike files in games/ps/. Launch the application through the Homebrew Launcher.\nYou must provide your own original game files. They are not included with this port. The free Aliens of Gold shareware edition is supported.\nRequired game files\n\nAliens of Gold — Shareware (.BS1)\nAUDIOHED.BS1\nAUDIOT.BS1\nIANIM.BS1\nMAPHEAD.BS1\nMAPTEMP.BS1\nSANIM.BS1\nVGADICT.BS1\nVGAGRAPH.BS1\nVGAHEAD.BS1\nVSWAP.BS1\n\nAliens of Gold — Full version (.BS6)\nAUDIOHED.BS6\nAUDIOT.BS6\nEANIM.BS6\nGANIM.BS6\nIANIM.BS6\nMAPHEAD.BS6\nMAPTEMP.BS6\nSANIM.BS6\nVGADICT.BS6\nVGAGRAPH.BS6\nVGAHEAD.BS6\nVSWAP.BS6\n\nPlanet Strike — Full version (.VSI)\nAUDIOHED.VSI\nAUDIOT.VSI\nEANIM.VSI\nIANIM.VSI\nMAPHEAD.VSI\nMAPTEMP.VSI\nVGADICT.VSI\nVGAGRAPH.VSI\nVGAHEAD.VSI\nVSWAP.VSI\n\nDo not mix data from different editions or releases. The startup selector checks the installed files against known SHA-1 signatures and reports missing or unsupported data before launching the game.\nGame selector\n\nButton\nAction\n\nD-Pad / Circle Pad\nSelect game\n\nLeft / Right\nSwitch between available Aliens of Gold editions\n\nA\nVerify and launch\n\nX\nRescan game files\n\nB\nExit confirmation\n\nThe selected game stays active until you close the application.\nUpdating an existing installation\nReplace bstone.3dsx with the newer release. Leave your original game data in place.\nNew saves and settings are kept in separate folders:\nsdmc:/3ds/bstone/profiles/aog_sw/\nsdmc:/3ds/bstone/profiles/aog_full/\nsdmc:/3ds/bstone/profiles/ps/\n\nOlder installations with Aliens of Gold data directly inside sdmc:/3ds/bstone/ are still recognized through the legacy compatibility mechanism.\nBack up your saves before updating.\nControls\nYou can switch between three layouts in Control Settings. Press BUTTON GUIDE in the game to see the current layout.\nClassic\n\nButton\nAction\n\nCircle Pad / D-Pad ↑ ↓\nMove forward / backward\n\nCircle Pad / D-Pad ← →\nTurn\n\nL / R\nStrafe left / right\n\nA\nFire\n\nB\nInteract / open doors\n\nZL / ZR\nNext / previous weapon\n\nX\nToggle automap\n\nSTART\nGame menu\n\nSTART + SELECT\nExit to Homebrew Launcher\n\nModern\n\nButton\nAction\n\nCircle Pad ↑ ↓\nMove forward / backward\n\nCircle Pad ← →\nStrafe left / right\n\nY / A\nTurn left / right\n\nR\nFire\n\nB\nInteract / open doors\n\nD-Pad ← →\nPrevious / next weapon\n\nX\nToggle automap\n\nSTART\nGame menu\n\nSTART + SELECT\nExit to Homebrew Launcher\n\nModern + C-Stick\nUses the Modern layout, with the C-Stick available for horizontal turning. Y and A still work for turning as well. There is no vertical freelook.\nIn menus, A confirms and B goes back. The selected control layout is saved in the game preferences.\nScreens and 3D\nThe upper screen is used for the first-person view. The original DOS status bar has moved to the lower screen, alongside a live automap and the animated health monitor.\nThe stereo renderer uses a separate viewpoint for each eye for walls, actors, objects and weapons. Depth is controlled using the console's physical 3D slider. The menus also have a subtler stereoscopic effect.\nVideo options include widescreen or centered 4:3 gameplay and a CRT effect for the menus. Audio retains the original BStone sound systems, including OPL emulation and game sound effects.\nCompatibility\nTested and working on New Nintendo 3DS XL.\nOther models in the Nintendo 3DS family haven't been tested yet. You'll need a console capable of running homebrew through the Homebrew Launcher.\nKnown limitations:\n\nNo touchscreen control layout.\nThe C-Stick only controls horizontal turning.\nModified or unsupported game-data sets may fail integrity checks.\nNot every historical version or original save file has been tested.\nPerformance can vary between scenes, especially with stereoscopic 3D enabled.\n\nFound a bug? Open an issue and mention the game edition, what happened and whether 3D was enabled.\nBuilding from source\nYou'll need:\n\ndevkitPro / devkitARM, with libctru, Citro2D and Citro3D.\nCMake 3.18 or newer.\n3dsxtool and smdhtool.\nA separately built Nintendo 3DS static SDL2 installation providing SDL2::SDL2-static.\n\nA desktop SDL2 installation won't work for this target.\nexport DEVKITPRO=/opt/devkitpro\n\ncmake -S . -B build/3ds-release \\\n-DCMAKE_TOOLCHAIN_FILE=\"$DEVKITPRO/cmake/3DS.cmake\" \\\n-DSDL2_DIR=/path/to/SDL2-install-3ds/lib/cmake/SDL2 \\\n-DBSTONE_ENABLE_AI_WEAPONS=OFF \\\n-DCMAKE_BUILD_TYPE=Release\n\ncmake --build build/3ds-release --parallel 4\nOutput: build/3ds-release/src/bstone/bstone.3dsx.\nKeep the generated ELF if you need to investigate ARM11 crashes. The docs/, tests/ and tools/ folders contain further development material.\nExperimental artwork and AI use\nThere are experiments with alternative, AI-assisted weapon designs, textures and sprites. These aren't part of the standard release. The original game artwork remains the default.\nAI tools were also used during development to inspect the BStone code, investigate bugs, assist with implementation, refactoring, testing and documentation. I made the design decisions, reviewed the work and tested the port on actual hardware.\nCredits\nNintendo 3DS port: Carlos de la Barrera Pérez (xXNukem).\nOriginal games and engine:\n\nJAM Productions — Aliens of Gold and Planet Strike.\nApogee Software — original publisher.\nid Software — Wolfenstein 3D engine heritage.\nBoris I. Bendovsky and BStone contributors — BStone.\n\nTools and libraries: devkitPro, libctru, Citro2D, Citro3D, SDL, DOSBox/DBOPL, Nuked OPL3, stb and their contributors.\nThis is an independent, unofficial homebrew project, not affiliated with Nintendo or the games' rights holders.\nLicense and game data\nSource code retains the applicable BStone licenses and attributions, including GPL-2.0-or-later for the relevant code. Some bundled libraries and independently developed components have separate licenses.\nSee LICENSE.txt, README_UPSTREAM.md, SDL2's license and the repository's other license notices.\nOriginal game assets are not included. They remain the property of their respective rights holders.",
+      "images": [],
+      "length": 7374,
+      "imageCount": 0
+    },
     "1qfum7l": {
       "version": 4,
       "url": "https://variety.com/2026/tv/news/savannah-guthrie-extends-contract-today-nbc-news-1236946710/",
-      "fetchedAt": "2026-11-13T02:53:44.025Z",
+      "fetchedAt": "2026-11-13T02:56:13.634Z",
       "title": "Savannah Guthrie Extends Contract With NBC News",
       "byline": "Brian Steinberg",
       "siteName": "Variety",
@@ -45817,16 +45817,10 @@
       "length": 5200,
       "imageCount": 1
     },
-    "1s6hbx9": {
-      "version": 4,
-      "url": "https://news.xbox.com/en-us/2026/11/12/bethesda-celebrates-xbox-25-with-id-software-machinegames-news/",
-      "fetchedAt": "2026-11-13T02:53:44.111Z",
-      "error": "не удалось выделить основной текст"
-    },
     "4m63fr": {
       "version": 4,
       "url": "https://deadline.com/2026/11/rick-cosnett-richard-kind-tammy-blanchard-cast-the-long-run-1237222148/",
-      "fetchedAt": "2026-11-13T02:53:44.366Z",
+      "fetchedAt": "2026-11-13T02:56:13.877Z",
       "title": "Rick Cosnett, Richard Kind & Tammy Blanchard Join Alice Eve In Indie ‘The Long Run’",
       "byline": "Denise Petski",
       "siteName": "Deadline",
@@ -45840,10 +45834,16 @@
       "length": 1945,
       "imageCount": 1
     },
+    "1s6hbx9": {
+      "version": 4,
+      "url": "https://news.xbox.com/en-us/2026/11/12/bethesda-celebrates-xbox-25-with-id-software-machinegames-news/",
+      "fetchedAt": "2026-11-13T02:56:14.046Z",
+      "error": "не удалось выделить основной текст"
+    },
     "1tjnbu8": {
       "version": 4,
       "url": "https://www.dw.com/ru/%D1%83%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D1%81%D0%BA%D0%B8%D0%B5-%D0%B4%D1%80%D0%BE%D0%BD%D1%8B-%D0%B2%D0%B5%D1%80%D0%BE%D1%8F%D1%82%D0%BD%D0%BE-%D0%B2%D0%BD%D0%BE%D0%B2%D1%8C-%D0%B0%D1%82%D0%B0%D0%BA%D0%BE%D0%B2%D0%B0%D0%BB%D0%B8-%D0%B2%D0%BE%D0%BB%D0%B3%D0%BE%D0%B3%D1%80%D0%B0%D0%B4%D1%81%D0%BA%D0%B8%D0%B9-%D0%BD%D0%BF%D0%B7/a-79935813?maca=rus-rss-ru-all-1126-rdf",
-      "fetchedAt": "2026-11-13T02:53:44.414Z",
+      "fetchedAt": "2026-11-13T02:56:14.203Z",
       "title": "В Волгограде после атаки дронов произошел пожар, под удар мог попасть НПЗ \"Лукойла\"",
       "byline": "Кристиан Таль",
       "siteName": "Deutsche Welle",
@@ -45860,7 +45860,7 @@
     "49yynj": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/lifestyle/shopping/best-luggage-brands-1235235781/",
-      "fetchedAt": "2026-11-13T02:53:44.803Z",
+      "fetchedAt": "2026-11-13T02:56:14.546Z",
       "title": "The 10 Best Luggage Brands For Your Next Adventure",
       "byline": "Natalie Alcala, Danielle Directo-Meston, Erin Lassner",
       "siteName": "The Hollywood Reporter",
@@ -45917,7 +45917,7 @@
     "duluo6": {
       "version": 4,
       "url": "https://www.playground.ru/misc/news/xbox_otmechaet_25_letie_razdachej_nabora_iz_25_igr_v_spiske_halo_gears_of_war_i_skyrim-1890231",
-      "fetchedAt": "2026-11-13T02:53:44.924Z",
+      "fetchedAt": "2026-11-13T02:56:14.597Z",
       "title": "Xbox отмечает 25-летие раздачей набора из 25 игр - в списке Halo, Gears of War и Skyrim",
       "byline": "GameTrailers",
       "siteName": "Playground",
@@ -45931,27 +45931,10 @@
       "length": 710,
       "imageCount": 1
     },
-    "1flk1zd": {
-      "version": 4,
-      "url": "https://variety.com/2026/tv/news/michael-john-roberts-dead-bojack-horseman-1236946676/",
-      "fetchedAt": "2026-11-13T02:53:45.148Z",
-      "title": "Michael John Roberts Dead: Director on 'Bojack Horseman' Was 48",
-      "byline": "Pat Saperstein",
-      "siteName": "Variety",
-      "content": "Michael John Roberts, an animator, producer and director who worked on shows including “Bojack Horseman,” died Wednesday in Los Angeles of glioblastoma. He was 46.\n\nHis family’s statement said, “Michael saw the world a little differently. A gifted artist with an extraordinary talent, he could find something worth exploring in what others might overlook. His creativity was not limited to what he put on paper; it shaped the way he thought, questioned, and understood the world around him.\n\n“He was drawn to things with character, substance, and a story beneath the surface,” the statement continued. “For Michael, the most interesting part of anything was often what you discovered by looking a little closer. He never needed to be the center of attention, though he could command it when the moment suited him. More often, he was content observing with a quiet curiosity and an artist’s eye. When he chose to join in, it might be with a thoughtful challenge or a perfectly timed observation, delivered with a clever, understated wit.”\n\nRoberts was known for directing the title sequence and two episodes of Netflix’s popular animated series “Bojack Horseman.” He also directed 28 episodes of Comedy Central’s “Triptank.”\n\nAmong his other directing credits were “F Is for Family,” “Final Space,” “Strange Planet” and “MrBeast Lab.” He created the YouTube Red series “Dallas & Robo” with John Cena and Kat Dennings, which premiered in 2018.\n\nRoberts was raised in Toronto and graduated from Canada’s Sheridan College, moving on to become a junior animator, then storyboard artist and director. He also directed commercials for Honda, Burger King, ABC Television and Pulse Electric Scooters and music videos for The Sadies and The Pack AD.\n\nHe is survived by his wife, the actress Bree Williamson, a son, McGreggor, his parents and a sister.",
-      "images": [
-        {
-          "url": "https://variety.com/wp-content/uploads/2026/11/Michael-John-Roberts.jpg?crop=0px%2C0px%2C672px%2C378px&resize=1000%2C563",
-          "alt": ""
-        }
-      ],
-      "length": 1841,
-      "imageCount": 1
-    },
     "1lkubth": {
       "version": 4,
       "url": "https://www.playground.ru/misc/news/anonsirovana_neobychnaya_moba_manum_s_boyami_4_na_4_s_zahvatom_tochek_i_svobodoj_ot_linij-1890230",
-      "fetchedAt": "2026-11-13T02:53:45.199Z",
+      "fetchedAt": "2026-11-13T02:56:14.652Z",
       "title": "Анонсирована необычная MOBA Manum с боями 4 на 4 с захватом точек и свободой от линий",
       "byline": "GameTrailers",
       "siteName": "Playground",
@@ -45965,10 +45948,44 @@
       "length": 994,
       "imageCount": 1
     },
+    "1flk1zd": {
+      "version": 4,
+      "url": "https://variety.com/2026/tv/news/michael-john-roberts-dead-bojack-horseman-1236946676/",
+      "fetchedAt": "2026-11-13T02:56:14.854Z",
+      "title": "Michael John Roberts Dead: Director on 'Bojack Horseman' Was 48",
+      "byline": "Pat Saperstein",
+      "siteName": "Variety",
+      "content": "Michael John Roberts, an animator, producer and director who worked on shows including “Bojack Horseman,” died Wednesday in Los Angeles of glioblastoma. He was 46.\n\nHis family’s statement said, “Michael saw the world a little differently. A gifted artist with an extraordinary talent, he could find something worth exploring in what others might overlook. His creativity was not limited to what he put on paper; it shaped the way he thought, questioned, and understood the world around him.\n\n“He was drawn to things with character, substance, and a story beneath the surface,” the statement continued. “For Michael, the most interesting part of anything was often what you discovered by looking a little closer. He never needed to be the center of attention, though he could command it when the moment suited him. More often, he was content observing with a quiet curiosity and an artist’s eye. When he chose to join in, it might be with a thoughtful challenge or a perfectly timed observation, delivered with a clever, understated wit.”\n\nRoberts was known for directing the title sequence and two episodes of Netflix’s popular animated series “Bojack Horseman.” He also directed 28 episodes of Comedy Central’s “Triptank.”\n\nAmong his other directing credits were “F Is for Family,” “Final Space,” “Strange Planet” and “MrBeast Lab.” He created the YouTube Red series “Dallas & Robo” with John Cena and Kat Dennings, which premiered in 2018.\n\nRoberts was raised in Toronto and graduated from Canada’s Sheridan College, moving on to become a junior animator, then storyboard artist and director. He also directed commercials for Honda, Burger King, ABC Television and Pulse Electric Scooters and music videos for The Sadies and The Pack AD.\n\nHe is survived by his wife, the actress Bree Williamson, a son, McGreggor, his parents and a sister.",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/Michael-John-Roberts.jpg?crop=0px%2C0px%2C672px%2C378px&resize=1000%2C563",
+          "alt": ""
+        }
+      ],
+      "length": 1841,
+      "imageCount": 1
+    },
+    "k25cxs": {
+      "version": 4,
+      "url": "https://www.playground.ru/ground_branch/news/ground_branch_poluchila_glavu_s_missiyami_v_persidskom_zalive-1890229",
+      "fetchedAt": "2026-11-13T02:56:14.901Z",
+      "title": "Ground Branch получила главу с миссиями в Персидском заливе",
+      "byline": "GameTrailers",
+      "siteName": "Playground",
+      "content": "BlackFoot Studios выпустила обновление с первой главой для тактического шутера Ground Branch. Оно демонстрирует миссии в Персидском заливе, новые цели, расширенный арсенал и возможности настройки бойцов.\nГлава добавляет задания в новом регионе, где игрокам предстоит планировать операции, продумывать действия и выполнять поставленные цели.\nАвторы также расширили выбор оружия и персонализацию персонажей — ключевые элементы шутера, созданного разработчиком оригинальных Rainbow Six и Ghost Recon.\nОбновление уже доступно в Steam.",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/TZTENG9hSbbJ1_TfvVmFmA.jpeg",
+          "alt": ""
+        }
+      ],
+      "length": 530,
+      "imageCount": 1
+    },
     "kpz1hn": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/movies/movie-news/amanda-seyfried-awards-eligibility-you-can-see-everything-1236753138/",
-      "fetchedAt": "2026-11-13T02:53:45.402Z",
+      "fetchedAt": "2026-11-13T02:56:15.078Z",
       "title": "Amanda Seyfried Eager to Campaign for ‘You Can See Everything’ as Awards Eligibility Comes Into Focus (Exclusive)",
       "byline": "Scott Feinberg",
       "siteName": "The Hollywood Reporter",
@@ -45985,7 +46002,7 @@
     "lvkekc": {
       "version": 4,
       "url": "https://deadline.com/2026/11/microsoft-outlook-is-down-email-365-1237221945/",
-      "fetchedAt": "2026-11-13T02:53:45.686Z",
+      "fetchedAt": "2026-11-13T02:56:15.319Z",
       "title": "Microsoft Outlook Still Down In 365 Outage As Company Investigates Possible Cause",
       "byline": "Dade Hayes",
       "siteName": "Deadline",
@@ -46002,7 +46019,7 @@
     "181vaxo": {
       "version": 4,
       "url": "https://deadline.com/2026/11/chris-colfer-conversation-glee-reboot-1237222143/",
-      "fetchedAt": "2026-11-13T02:53:45.878Z",
+      "fetchedAt": "2026-11-13T02:56:15.463Z",
       "title": "Chris Colfer In “Conversation” About ‘Glee’ Reboot, Jokes He’ll Return If Mr. Schue & Sue Perform “WAP”",
       "byline": "Glenn Garner",
       "siteName": "Deadline",
@@ -46016,44 +46033,10 @@
       "length": 2523,
       "imageCount": 1
     },
-    "13jmxry": {
-      "version": 4,
-      "url": "https://www.aljazeera.com/news/2026/11/12/russian-court-jails-rights-lawyer-for-12-years-on-treason-charge?traffic_source=rss",
-      "fetchedAt": "2026-11-13T02:53:45.912Z",
-      "title": "Russian court jails rights lawyer for 12 years on treason charge",
-      "byline": "Al Jazeera Staff",
-      "siteName": "Al Jazeera",
-      "content": "Prosecutors say the woman shared security details with Ukraine, while her lawyers argue the information wasn’t secret.A court in Russia’s Baltic exclave of Kaliningrad has sentenced a 66-year-old rights lawyer to 12 years in prison for treason, after prosecutors accused her of passing sensitive information to Ukraine.The court imposed the sentence on Thursday on Maria Bontsler, according to the rights group Slovo Zashchite, which said she had worked with a number of defendants accused of political offences in Kaliningrad.Recommended Stories list of 3 itemslist 1 of 3‘No concession’: What to expect from Russia-US-Ukraine talks in Abu Dhabilist 2 of 3What is northern Europe’s new drone and warship plan to counter Russia?list 3 of 3US soldier arrested for Russia spying: What we knowend of listThe territory sits on the Baltic Sea between Lithuania and Poland.A court statement posted on Telegram did not name her, but said she had been detained by the FSB intelligence agency on allegations of passing information to Ukraine beginning in 2024 about security officers in Kaliningrad.Prosecutors also alleged she gave Ukraine information on criminal cases in the exclave that were of interest to Kyiv, the statement said.She was also given an extra year of restrictions on her activity. Prosecutors had sought 15 years, according to Slovo Zashchite.Closed trialSlovo Zashchite said the trial was held behind closed doors, with Bontsler and her lawyers prevented from attending, and that she was allowed only to make a closing statement. It said her lawyers argued that none of the information cited by prosecutors was secret, and that she had been in ill health in detention.Since Russia’s full-scale invasion of Ukraine in February 2022, parliament has approved laws that make public actions aimed at “discrediting” the army illegal and ban the spread of “fake news” about the armed forces.Russian courts have also jailed lawyers who took on politically sensitive cases. In January 2025, a court sentenced three lawyers of the late opposition leader Alexey Navalny to between three and a half and five and a half years on “extremism” charges, in a case widely seen as an effort to discourage defence lawyers from taking political cases.",
-      "images": [
-        {
-          "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6af6411ddfabf-1794523421.jpg?resize=1920%2C1440",
-          "alt": ""
-        }
-      ],
-      "length": 2243,
-      "imageCount": 1
-    },
-    "k25cxs": {
-      "version": 4,
-      "url": "https://www.playground.ru/ground_branch/news/ground_branch_poluchila_glavu_s_missiyami_v_persidskom_zalive-1890229",
-      "fetchedAt": "2026-11-13T02:53:45.969Z",
-      "title": "Ground Branch получила главу с миссиями в Персидском заливе",
-      "byline": "GameTrailers",
-      "siteName": "Playground",
-      "content": "BlackFoot Studios выпустила обновление с первой главой для тактического шутера Ground Branch. Оно демонстрирует миссии в Персидском заливе, новые цели, расширенный арсенал и возможности настройки бойцов.\nГлава добавляет задания в новом регионе, где игрокам предстоит планировать операции, продумывать действия и выполнять поставленные цели.\nАвторы также расширили выбор оружия и персонализацию персонажей — ключевые элементы шутера, созданного разработчиком оригинальных Rainbow Six и Ghost Recon.\nОбновление уже доступно в Steam.",
-      "images": [
-        {
-          "url": "https://i.playground.ru/e/TZTENG9hSbbJ1_TfvVmFmA.jpeg",
-          "alt": ""
-        }
-      ],
-      "length": 530,
-      "imageCount": 1
-    },
     "4f4aey": {
       "version": 4,
       "url": "https://variety.com/2026/shopping/news/how-to-watch-southern-charm-season-12-online-free-1236946634/",
-      "fetchedAt": "2026-11-13T02:53:46.143Z",
+      "fetchedAt": "2026-11-13T02:56:15.652Z",
       "title": "How to Watch Southern Charm Season 12 Online",
       "byline": "Anna Tingley",
       "siteName": "Variety",
@@ -46067,27 +46050,27 @@
       "length": 1904,
       "imageCount": 1
     },
-    "1sw1o6v": {
+    "13jmxry": {
       "version": 4,
-      "url": "https://variety.com/2026/film/news/verve-hollywood-horror-1236946379/",
-      "fetchedAt": "2026-11-13T02:53:46.299Z",
-      "title": "How Verve Became Hollywood's Home for Horror Creators",
-      "byline": "Matt Donnelly",
-      "siteName": "Variety",
-      "content": "When the box office grosses started rolling in this summer from Curry Barker’s “Obsession” and Kane Parsons’ “Backrooms,” social media wags predicted what Hollywood would do next: raid every Reddit thread and low-budget YouTube channel for the next big digital creator turned auteur.\n\nIn rapid succession, the major studio players greenlit splashy genre projects based on internet lore and the fables that kept Gen Z awake at night as kids. The leadership at Verve, a talent and literary firm that has given its three-letter rivals a run for their money for almost 20 years, couldn’t help laughing.\n\n“We joke about it sometimes, how novel it became to activate fan bases and appreciate good, artistic horror this year,” says David Boxerbaum, a partner and motion picture lit agent at Verve. “But for us, it’s always been cool. It’s always been an area of specialization and really intense focus for our business.”\n\nThey’re dead serious. Co-founders Adam Levine and Bryan Besser, along with agent Michael Bitar (formerly head of development at Sony’s Screen Gems), have quietly stacked a deep roster of spooky superstars — negotiating dozens of deals and media rights sales in 2026 alone. The founders disclosethat transactions around horror for writing, producing, directing and acting clients have helped growrevenue nearly 20% for a second consecutive year.\n\nMost prominent was the heated auction for the film and TV adaptive licenses to the “Texas Chainsaw Massacre” franchise. Representing the rights holders, Verve fielded offers from 101 Studios, Amazon MGM, Blumhouse, Neon, Netflix, Paramount, Sony and Universal. Indie studio A24 defeated them all, attaching “Obsession” helmer Barker to direct a film and Glen Powell to produce a TV series inspired by the “Chainsaw” serial killer Leatherface.\n\nClients Zach Lipovsky and Adam B. Stein shot to fame in 2025 for co-directing “Final Destination: Bloodlines” — a revival that cost $50 million for New Line and netted almost $320 million at the worldwide box office. Verve has set up 12 development projects for Lipovsky and Stein across town (including “Gremlins 3” at Warner Bros. and “Metal Gear Solid” at Sony, where the pair now enjoy a first-look deal courtesy of their agents). Canadian illustrator and world-builder Trevor Henderson, a Verve client, was one of the first creatives to benefit from the “Backrooms” boom. That was in July, when Henderson’s macabre digital-first story “Siren Head” sold to Warner Bros. as a feature film to be co-written by “Weapons” mastermind Zach Cregger.\n\nMeanwhile, Verve talent agent Josh Rahm rebooted the career of “Scream” favorite Matthew Lillard, carving a new path for the star via the “Five Nights at Freddy’s” franchise and Amazon’s hit series reboot of “Carrie” from Mike Flanagan. Screenwriter Guy Busick penned “Scream 7,” the highest-earning film in that franchise, as well as Searchlight’s “Ready or Not 2: Here I come.” Boxerbaum also helped producer Scott Glassgold establish 12:01 Films, a company dedicated to creator content; 12:01 has been a leader in the booming market for short stories adaptable to film and TV. Glassgold even has a specialty imprint at Simon & Schuster, adding publishing to 12:01’s robust pipeline.\n\nThe secret, top Verve brass say, is embracing their adoration for horror (and other genres too; the agency has a similar foothold in the animation space). It’s also having the foresight to know that their multi-hyphenate clients aren’t just genre stars — they’re versatile storytellers who can take on any quadrant they please.\n\n“An ongoing theme for years in the horror business is that these projects are concept driven, not star driven,” says Bitar. “These filmmakers are becoming the stars more so than the faces in front of the camera.” Verve’s agents devote just as much energy to growing with their talent, lest they lose them to the corporate agencies promising crossover abundance. Disloyalty, after all, is an agent’s true horror story.",
+      "url": "https://www.aljazeera.com/news/2026/11/12/russian-court-jails-rights-lawyer-for-12-years-on-treason-charge?traffic_source=rss",
+      "fetchedAt": "2026-11-13T02:56:15.688Z",
+      "title": "Russian court jails rights lawyer for 12 years on treason charge",
+      "byline": "Al Jazeera Staff",
+      "siteName": "Al Jazeera",
+      "content": "Prosecutors say the woman shared security details with Ukraine, while her lawyers argue the information wasn’t secret.A court in Russia’s Baltic exclave of Kaliningrad has sentenced a 66-year-old rights lawyer to 12 years in prison for treason, after prosecutors accused her of passing sensitive information to Ukraine.The court imposed the sentence on Thursday on Maria Bontsler, according to the rights group Slovo Zashchite, which said she had worked with a number of defendants accused of political offences in Kaliningrad.Recommended Stories list of 3 itemslist 1 of 3‘No concession’: What to expect from Russia-US-Ukraine talks in Abu Dhabilist 2 of 3What is northern Europe’s new drone and warship plan to counter Russia?list 3 of 3US soldier arrested for Russia spying: What we knowend of listThe territory sits on the Baltic Sea between Lithuania and Poland.A court statement posted on Telegram did not name her, but said she had been detained by the FSB intelligence agency on allegations of passing information to Ukraine beginning in 2024 about security officers in Kaliningrad.Prosecutors also alleged she gave Ukraine information on criminal cases in the exclave that were of interest to Kyiv, the statement said.She was also given an extra year of restrictions on her activity. Prosecutors had sought 15 years, according to Slovo Zashchite.Closed trialSlovo Zashchite said the trial was held behind closed doors, with Bontsler and her lawyers prevented from attending, and that she was allowed only to make a closing statement. It said her lawyers argued that none of the information cited by prosecutors was secret, and that she had been in ill health in detention.Since Russia’s full-scale invasion of Ukraine in February 2022, parliament has approved laws that make public actions aimed at “discrediting” the army illegal and ban the spread of “fake news” about the armed forces.Russian courts have also jailed lawyers who took on politically sensitive cases. In January 2025, a court sentenced three lawyers of the late opposition leader Alexey Navalny to between three and a half and five and a half years on “extremism” charges, in a case widely seen as an effort to discourage defence lawyers from taking political cases.",
       "images": [
         {
-          "url": "https://variety.com/wp-content/uploads/2026/11/Verve-Bryan-Besser-David-Boxerbaum-Michael-Bitar.jpg?crop=0px%2C0px%2C1200px%2C675px&resize=1000%2C563",
+          "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6af6411ddfabf-1794523421.jpg?resize=1920%2C1440",
           "alt": ""
         }
       ],
-      "length": 3986,
+      "length": 2243,
       "imageCount": 1
     },
     "13lw2ls": {
       "version": 4,
       "url": "https://deadline.com/2026/11/dexter-fletcher-signs-range-media-partners-1237219391/",
-      "fetchedAt": "2026-11-13T02:53:46.534Z",
+      "fetchedAt": "2026-11-13T02:56:15.918Z",
       "title": "Range Media Partners Signs Filmmaker Dexter Fletcher",
       "byline": "Matt Grobar",
       "siteName": "Deadline",
@@ -46101,10 +46084,27 @@
       "length": 2235,
       "imageCount": 1
     },
+    "1sw1o6v": {
+      "version": 4,
+      "url": "https://variety.com/2026/film/news/verve-hollywood-horror-1236946379/",
+      "fetchedAt": "2026-11-13T02:56:16.108Z",
+      "title": "How Verve Became Hollywood's Home for Horror Creators",
+      "byline": "Matt Donnelly",
+      "siteName": "Variety",
+      "content": "When the box office grosses started rolling in this summer from Curry Barker’s “Obsession” and Kane Parsons’ “Backrooms,” social media wags predicted what Hollywood would do next: raid every Reddit thread and low-budget YouTube channel for the next big digital creator turned auteur.\n\nIn rapid succession, the major studio players greenlit splashy genre projects based on internet lore and the fables that kept Gen Z awake at night as kids. The leadership at Verve, a talent and literary firm that has given its three-letter rivals a run for their money for almost 20 years, couldn’t help laughing.\n\n“We joke about it sometimes, how novel it became to activate fan bases and appreciate good, artistic horror this year,” says David Boxerbaum, a partner and motion picture lit agent at Verve. “But for us, it’s always been cool. It’s always been an area of specialization and really intense focus for our business.”\n\nThey’re dead serious. Co-founders Adam Levine and Bryan Besser, along with agent Michael Bitar (formerly head of development at Sony’s Screen Gems), have quietly stacked a deep roster of spooky superstars — negotiating dozens of deals and media rights sales in 2026 alone. The founders disclosethat transactions around horror for writing, producing, directing and acting clients have helped growrevenue nearly 20% for a second consecutive year.\n\nMost prominent was the heated auction for the film and TV adaptive licenses to the “Texas Chainsaw Massacre” franchise. Representing the rights holders, Verve fielded offers from 101 Studios, Amazon MGM, Blumhouse, Neon, Netflix, Paramount, Sony and Universal. Indie studio A24 defeated them all, attaching “Obsession” helmer Barker to direct a film and Glen Powell to produce a TV series inspired by the “Chainsaw” serial killer Leatherface.\n\nClients Zach Lipovsky and Adam B. Stein shot to fame in 2025 for co-directing “Final Destination: Bloodlines” — a revival that cost $50 million for New Line and netted almost $320 million at the worldwide box office. Verve has set up 12 development projects for Lipovsky and Stein across town (including “Gremlins 3” at Warner Bros. and “Metal Gear Solid” at Sony, where the pair now enjoy a first-look deal courtesy of their agents). Canadian illustrator and world-builder Trevor Henderson, a Verve client, was one of the first creatives to benefit from the “Backrooms” boom. That was in July, when Henderson’s macabre digital-first story “Siren Head” sold to Warner Bros. as a feature film to be co-written by “Weapons” mastermind Zach Cregger.\n\nMeanwhile, Verve talent agent Josh Rahm rebooted the career of “Scream” favorite Matthew Lillard, carving a new path for the star via the “Five Nights at Freddy’s” franchise and Amazon’s hit series reboot of “Carrie” from Mike Flanagan. Screenwriter Guy Busick penned “Scream 7,” the highest-earning film in that franchise, as well as Searchlight’s “Ready or Not 2: Here I come.” Boxerbaum also helped producer Scott Glassgold establish 12:01 Films, a company dedicated to creator content; 12:01 has been a leader in the booming market for short stories adaptable to film and TV. Glassgold even has a specialty imprint at Simon & Schuster, adding publishing to 12:01’s robust pipeline.\n\nThe secret, top Verve brass say, is embracing their adoration for horror (and other genres too; the agency has a similar foothold in the animation space). It’s also having the foresight to know that their multi-hyphenate clients aren’t just genre stars — they’re versatile storytellers who can take on any quadrant they please.\n\n“An ongoing theme for years in the horror business is that these projects are concept driven, not star driven,” says Bitar. “These filmmakers are becoming the stars more so than the faces in front of the camera.” Verve’s agents devote just as much energy to growing with their talent, lest they lose them to the corporate agencies promising crossover abundance. Disloyalty, after all, is an agent’s true horror story.",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/Verve-Bryan-Besser-David-Boxerbaum-Michael-Bitar.jpg?crop=0px%2C0px%2C1200px%2C675px&resize=1000%2C563",
+          "alt": ""
+        }
+      ],
+      "length": 3986,
+      "imageCount": 1
+    },
     "1lepgyl": {
       "version": 4,
       "url": "https://www.zr.ru/content/news/988416-fizicheskie-knopki-vozvrashchayutsya/",
-      "fetchedAt": "2026-11-13T02:53:46.585Z",
+      "fetchedAt": "2026-11-13T02:56:16.160Z",
       "title": "Совершенно новый Сандеро готовится к выходу на рынок: что о нем известно?",
       "byline": "Лежнин Роман",
       "siteName": "zr.ru",
