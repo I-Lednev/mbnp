@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-14T19:05:49.938Z",
-  "count": 1377,
+  "generatedAt": "2026-11-14T19:08:10.192Z",
+  "count": 1371,
   "articles": {
     "1243266": {
       "version": 4,
@@ -12450,18 +12450,6 @@
       ],
       "length": 4034,
       "imageCount": 6
-    },
-    "16fyouc": {
-      "version": 4,
-      "url": "https://www.hollywoodreporter.com/business/business-news/grand-theft-auto-vi-gta-6-xbox-cloud-gaming-xbox-one-1236751742/",
-      "fetchedAt": "2026-11-10T16:41:50.736Z",
-      "title": "Don’t Have 210 Spare GBs? ‘GTA VI’ Is Coming to Xbox Cloud Gaming (and the Xbox One) at Launch",
-      "byline": "Tony Maglio",
-      "siteName": "The Hollywood Reporter",
-      "content": "Grand Theft Auto VI is coming to Xbox Cloud Gaming at launch (Nov. 19), and will be playable on both the current-generation consoles (Xbox Series X|S) and the prior one (Xbox One). You read that right: Xbox One.\n\nXbox said on Tuesday that GTA VI is “the most pre-ordered title of all time on the Microsoft Store.” The console-maker “encourage(s) everyone to begin pre-loading as soon as possible to ensure you’re prepared for launch day.”\n\nGTA VI is so massive (210 gbs) that it will take at least 10 hours to download. Many players will have to delete a number of other games from their library just to fit Grand Theft Auto VI. (You don’t lose ownership of the game, but you will lose progress and have to re-install it to play again.)\n\nOr… don’t use a console at all! Grand Theft Auto VI will be playable on day one via Cloud Gaming at 1 a.m. ET. The game uses Xbox Series S graphics settings when cloud-streamed. (So actually downloading the game will still present the best-looking option for those with an Xbox Series X.)\n\nTo cloud play, which allows for play away from your primary console, one still must purchase the game.\n\nPlayStation players do not (currently) have the cloud-play option, though the PlayStation 5 Pro still provides the single-best GTA VI playing experience possible. Win some, lose some.\n\nHere is a handy, Xbox-provided guide to how and when you can play Grand Theft Auto VI on or through its consoles:\n\nXBOX Series X: Play natively with the best XBOX console experience, available now to pre-install.\n\nXBOX Series S: The most affordable way to play GTA VI natively on XBOX, available now to pre-install.\n\nXBOX One: Stream Grand Theft Auto VI through XBOX Cloud Gaming on the XBOX One.\n\nYou’ll need one of those three devices — smart TVs, browsers and devices like Amazon Fire sticks won’t cut it (for now). Other Rockstar Games like Grand Theft Auto V and Red Dead Redemption 2 are coming to Xbox Cloud Gaming “in the coming months,” Xbox said.\n\nAdditionally, starting Wednesday, players in 29 supported markets can “buy cloud playtime to stream supported games without a Game Pass subscription,” per Xbox. (For 10 hours: $3.99, for 25 hours: $7.99, for 50 hours: $11.99.)",
-      "images": [],
-      "length": 2201,
-      "imageCount": 0
     },
     "vhsck2": {
       "version": 4,
@@ -31059,10 +31047,135 @@
       "length": 3130,
       "imageCount": 2
     },
+    "gh-1442390491": {
+      "version": 4,
+      "url": "https://github.com/thefixinhixon/woohoo-flight-school",
+      "fetchedAt": "2026-11-14T19:07:57.076Z",
+      "title": "GitHub - thefixinhixon/woohoo-flight-school: Unofficial native PC port of Pilotwings Resort (3DS) by static recompilation. Bring your own game dump; no game data included.",
+      "byline": "",
+      "siteName": "GitHub",
+      "content": "Play your own copy of Pilotwings Resort (3DS, USA) as a native PC program. The tools here translate the game's code\nfrom your dump into C (static recompilation), build it with your compiler, and run it. Nothing from the game is\nincluded in this repository. How it works: docs/architecture.md.\n\nScreenshots: 4x 3D resolution, 16x anisotropic filtering, sharp bilinear scaling, large screen layout.\n\nDisclaimer. Woohoo! Flight School is an unofficial fan project. It is not affiliated with, endorsed or sponsored by Nintendo or\nMonster Games. Pilotwings, Pilotwings Resort, Nintendo 3DS and Mii are trademarks of Nintendo. The\nrepository contains no game code, graphics, sound or other game data and no decryption keys. You need your own,\nlegally obtained copy of the game, dumped from your own console. Please don't ask for ROMs or built binaries: a\nbuilt pwr contains code translated from the game and must not be shared.\n\nStatus\nWorks: the title intro, Mii sign-up, the trial flights with all three vehicles (plane, rocket belt, hang glider),\nMission Flight and Free Flight as far as they have been played, saving, sound, keyboard, mouse and gamepad. Tested on\nLinux and Windows, at 60 fps, also at 4x resolution.\nAdded for the PC (all optional, see Display settings):\n\n3D resolution up to 4x;\nanisotropic filtering;\nAMD FSR 1, FXAA and sharp bilinear scaling;\nscreen layouts, including one that switches automatically between menus and flight;\nlonger draw distance;\nfree look on the right stick;\na settings overlay (F1).\n\nKnown issues and limits:\n\nThe whole game has not been played through yet. Later missions may still hit untested code; please report crashes\nwith the terminal output.\nBuilding on Windows itself (the build kit or MSYS2) is newer than the Windows port: it has been tested under Wine and\nby GitHub Actions so far. Reports from Windows players are welcome.\nNo macOS build.\nTouch-screen input needs the mouse, also when you play with a gamepad (the signature at sign-up, some menus).\nNo stereoscopic 3D: the game is shown in 2D.\nFree look knows where the sea is, but not the island's ground: flying low over land, the camera can go through a\nhillside.\nThe first run of a scene compiles shaders, which can cause a short hitch. They are kept for the next run.\n\nWhat you need\n\nA decrypted dump of Pilotwings Resort (USA), title 0004000000031C00, as .cia, .3ds/.cci or .cxi.\nEncrypted dumps are refused.\n\nLinux on x86-64, or Windows 10/11 on x86-64 (see Windows).\n\nA GPU with Vulkan 1.3 and the build tools:\n\nPython 3.8+ with Tk (python3-tk);\nCMake 3.16+;\nGCC or Clang;\nglslc (shaderc or the Vulkan SDK);\nSDL2 and Vulkan development files;\noptionally Ninja.\n\nOn Debian/Ubuntu: sudo apt install python3-tk cmake gcc ninja-build glslc libsdl2-dev libvulkan-dev.\n\nQuick start\nEasiest on Linux: the build kit AppImage. Download WoohooFlightSchool-Linux-kit-x86_64.AppImage from the\nlatest release, make it executable and start it\n(chmod +x WoohooFlightSchool-Linux-kit-x86_64.AppImage, then double-click it or run it). It holds the launcher, Python,\na C compiler and the build tools (about 140 MB), so you only need a Vulkan driver and SDL2, which most desktop and gaming\nsystems already have (glibc 2.29 or newer: Ubuntu 20.04+, Debian 11+, Fedora, Arch, SteamOS). The game it builds goes to\nthe same install folder as below. Windows players: see Windows.\nFrom the source (with the build tools listed above):\npython3 launcher/pwr_launcher.py\n\nThe first start opens Setup:\n\nGame dump: Browse to your dump. It is verified straight away (container and encryption, title, game-code hash).\nBuild: recompiles and compiles into the install folder (default ~/.local/share/pwr-port), with the five stages\nshown as it goes. One to two minutes on a multi-core machine. Missing build tools are listed under the Build button.\nPlay: press PLAY at the top right. The profile picker next to it switches, creates and deletes profiles\n(each has its own saves and settings).\n\nDisplay, Graphics and Gameplay & audio hold the profile's settings; they are saved as you change them, and the\nin-game F1 overlay changes the same file. Log shows the build output and, while the game runs, its messages\n(pwr.log in the profile folder). While the game runs, the PLAY button becomes STOP.\nWithout the GUI:\npython3 tools/pipeline.py check # build tools present?\npython3 tools/pipeline.py verify \"My Dump.cia\"\npython3 tools/pipeline.py build \"My Dump.cia\"\npython3 tools/pipeline.py run --profile default\npython3 tools/pipeline.py profiles create alice\nSaving\nThe game saves nothing during the first trial flights. To keep your pilot, end the trial-flight period: pause, choose\nReturn to Office, answer No to trying another aircraft and Yes to ending the trial-flight period. The\ninstructor then explains the save icon and your profile is saved. If you quit before that, you sign up again next time,\nas on the console.\nSaves and settings belong to the launcher profile:\n\nLinux\nWindows\n\nSave data\n~/.local/share/pwr-port/profiles/<name>/save/\n%LOCALAPPDATA%\\pwr-port\\profiles\\<name>\\save\\\n\nSettings\n~/.local/share/pwr-port/profiles/<name>/settings.json\n%LOCALAPPDATA%\\pwr-port\\profiles\\<name>\\settings.json\n\nCopy the save folder to back up your progress.\nWindows\nEasiest: the Windows build kit. Download WoohooFlightSchool-Windows-kit.zip from the\nlatest release, unzip it and double-click\nWoohoo! Flight School.bat. The kit holds the launcher, Python, a C compiler and the libraries (about 200 MB to\ndownload), so there is nothing to install. Then continue with the Quick start steps: pick your dump, Build,\nLaunch. The kit contains no game code or data. It is assembled and tested on Windows by GitHub Actions for every release\n(tools/make_windows_kit.py).\nOr with MSYS2. Build and play from an MSYS2 MINGW64 shell, which supplies the\ncompiler and libraries:\npacman -S --needed mingw-w64-x86_64-gcc mingw-w64-x86_64-cmake mingw-w64-x86_64-ninja mingw-w64-x86_64-SDL2 \\\nmingw-w64-x86_64-vulkan-headers mingw-w64-x86_64-vulkan-loader mingw-w64-x86_64-shaderc \\\nmingw-w64-x86_64-python mingw-w64-x86_64-tk git\npython launcher/pwr_launcher.py\n\nThe install folder is %LOCALAPPDATA%\\pwr-port. bin\\ holds pwr.exe and the DLLs it needs, so after building\nyou can start pwr.exe without MSYS2.\nThe GPU driver provides Vulkan (vulkan-1.dll). Keep the driver up to date.\nStarted from the launcher, the game opens no console window; its messages go to pwr.log in the profile folder (as on Linux).\nVisual Studio's compiler cannot build the generated code. Ninja is required so that CMake does not pick it.\n\nControls\n\n3DS\nKeyboard\nGamepad\n\nCircle pad\nArrow keys\nLeft stick\n\nD-pad\nI / J / K / L\nD-pad\n\nA / B / X / Y\nX / Z / S / A\nEast / South / North / West (position)\n\nL / R\nQ / W\nShoulders or triggers\n\nStart\nReturn\nStart\n\nSelect\nBackspace\nBack/Select, if set to \"3DS Select\" (see below)\n\nTouch screen\nLeft mouse button on the bottom screen\n(use the mouse)\n\nFree look (optional)\n\nRight stick\n\nThe gamepad's buttons follow their position, as on the 3DS: the right-hand button is A, the bottom one B.\nBy default the gamepad's Back/Select button switches the screen layout instead of pressing the 3DS Select button,\nbecause the game hardly uses Select. To give it back to the game, turn off \"Pad Back/Select: next layout\" in the\nlauncher or set \"Pad Back/Select\" to \"3DS Select\" in the F1 overlay. Backspace on the keyboard is always 3DS Select.\n\nHotkey\n\nF1\nSettings overlay (arrows or D-pad to change, Escape/B/F1 to close; saved to the profile)\n\nF11 or Alt+Enter\nFullscreen on/off\n\nF9 (or the gamepad's Back/Select, see above)\nNext screen layout\n\nDisplay settings\nAll of these are in the launcher's profile settings and the F1 overlay:\n\nSetting\nValues\n\nScreen layout\nstacked, side, large (big top + small bottom), top, bottom, auto (stacked in menus, large top while flying)\n\nAuto layout in flight\nlarge (bottom screen small) or top (bottom screen hidden)\n\nAspect ratio\nkeep, integer, stretch\n\nFullscreen\noff, borderless, exclusive\n\nScaling filter\nnearest, linear, sharp (sharp bilinear), fsr (AMD FSR 1), fxaa\n\nFSR sharpness\n0 (sharpest) to 2\n\n3D resolution\n1x (native 400x240) to 4x\n\nAnisotropic filter\noff, 2x, 4x, 8x, 16x\n\nFrame counter\non / off\n\nPad Back/Select\nnext screen layout (default) or 3DS Select\n\nDraw distance\n1x (original) to 4x: the island's cars and boats are shown from further away, and information points, rings and their labels fade in from further away (these from the next flight).\n\nFree look\noff / on: the gamepad's right stick orbits the camera around your vehicle; let go and it eases back. Not in the original game; flight chase camera only.\n\nSound can be muted in the launcher.\nTroubleshooting\n\n\"the NCCH is encrypted\": decrypt your dump first. This tool does not decrypt.\n\"the game code differs from the supported version\": another revision or region, or a modified dump. Only the\nUSA release with the listed code hash is supported.\nBuild fails in the compile stage: run python3 tools/pipeline.py check; CMake reports missing SDL2/Vulkan\ndevelopment files.\nIt asks me to sign up every time: see Saving.\nThe gamepad's Select button does nothing in the game: it switches the screen layout by default; see\nControls.\nThe terminal prints pwr: audio ring fill ..., underruns N: a rising N means audio dropouts; please report it.\nReporting a crash: every run writes the game's messages to pwr.log in the profile folder (the launcher's\nOpen log folder button opens it; see Saving for where profiles live). The run before is kept as\npwr.log.1, so the log of a crash survives starting the game again. Attach the log, or its last 30 lines, to your\nreport.\n\nLicence\nThis project is free software under the GNU General Public License, version 3 or later (GPL-3.0-or-later).\nThe licence covers the project's own files: the translator, runtime, tools and launcher. It does not cover\nPilotwings Resort, its data or the C code generated from it. Those stay the property of their owners, are not part\nof this repository and must not be distributed.\nThird-party parts keep their own licences (details in\ndocs/architecture.md):\n\nAMD FidelityFX FSR 1 (MIT, recomp/runtime/shaders/fsr/);\na font rendered from DejaVu Sans Mono (Bitstream Vera licence).\n\nThe screenshots show the game running in this port; the game's graphics in them are © Nintendo.",
+      "images": [
+        {
+          "url": "https://github.com/thefixinhixon/woohoo-flight-school/raw/main/docs/screenshots/title.jpg",
+          "alt": "Title screen at 4x resolution"
+        },
+        {
+          "url": "https://github.com/thefixinhixon/woohoo-flight-school/raw/main/docs/screenshots/intro.jpg",
+          "alt": "The intro's biplane fly-by"
+        },
+        {
+          "url": "https://github.com/thefixinhixon/woohoo-flight-school/raw/main/docs/screenshots/mission-menu.jpg",
+          "alt": "Mission menu, large layout"
+        },
+        {
+          "url": "https://github.com/thefixinhixon/woohoo-flight-school/raw/main/docs/screenshots/flight-large-layout.jpg",
+          "alt": "Ring Run-Through in the large layout: top screen big, map on the small bottom screen"
+        },
+        {
+          "url": "https://github.com/thefixinhixon/woohoo-flight-school/raw/main/docs/screenshots/launcher.png",
+          "alt": "The launcher"
+        }
+      ],
+      "length": 10321,
+      "imageCount": 5
+    },
+    "gh-1445065415": {
+      "version": 4,
+      "url": "https://github.com/RodoLy/HMMMGC",
+      "fetchedAt": "2026-11-14T19:07:57.323Z",
+      "title": "GitHub - RodoLy/HMMMGC",
+      "byline": "",
+      "siteName": "GitHub",
+      "content": "Harvest Moon: Magical Melody – PC recompilation\n\nEnglish · Español\nA native PC version of Harvest Moon: Magical Melody for the GameCube. The\ngame's own code is translated ahead of time into C++ and compiled into a\nWindows program that runs on your processor, Intel, AMD or ARM, with no\nemulator in between. It plays in widescreen, at your screen's resolution and\nat 60 or 120 frames a second, with a launcher, an options menu inside the game\nand mods, among them one that lets the game go on after marrying Jamie.\nThe game is not included: you need your own disc. The launcher makes the game\nfrom it, on your computer, the first time you play.\nNoteVersion 0.1.0, the first playable version. The game starts, plays,\nsaves and loads, and it has been played on a Windows laptop with a\nSnapdragon X. It has not been played from start to finish yet, which is what\n1.0 will mean. Expect bugs, and keep a copy of your saves.\n\nWhat's in it\nScreenshots\nPlaying\nHow it works\nWhat comes next\nFor developers\nCredits\nLicense\n\nWhat's in it\nThe game, running natively\n\nNo emulator. Every function of the game is translated to C++ and runs\nas native code, on x64 or ARM64. What the GameCube's hardware did is done\nby a runtime written for this game (runtime/).\nGraphics with aurora, which\ndraws the GameCube's graphics with WebGPU: Direct3D 12 on Windows, Vulkan on\nLinux.\nSound with the console's sound program (the DSP's AX) rewritten in C++\nafter Dolphin's high-level emulation, and played through SDL.\nControllers: the ones SDL knows (Xbox, PlayStation, Nintendo, GameCube\nadapters), mapped automatically; without one, the keyboard.\nSaves on a memory card that is a folder of .gci files, as in Dolphin,\nso a save can be brought over.\nLoading straight from the disc image, with no drive to wait for.\n\nPicture, speed and sound\n\nOption\nWhat it does\n\nInternal resolution\nAs the window, 480p, 720p, 1080p or 1440p.\n\nWidescreen\nThe 3D shows more at the sides. For now the menus and the text are stretched.\n\nFrames per second\n30, as the game, or 60 and 120: the game draws 30 and the rest are made in between.\n\nPull the camera back\nOutdoors, from 0% (the game's camera) to 100% (much more of the farm in view). Rooms and scenes keep the game's camera.\n\nLanguage\nOne for the game and the launcher: English, Spanish, French, German or Italian, the ones the disc has. The launcher and the F10 menu are only in Spanish and English. In the game the dialogues change. The menus and the names of the items stay in English.\n\nTurbo\nNot an option: hold Tab in the game and it goes at 300%.\n\nFull screen\nAlso with Alt+Enter while playing.\n\nFrame counter and volume\nThe frames per second over the game, and the volume from 0 to 100%.\n\nThe launcher\nHarvestMoonMM.exe prepares the game from your disc and starts it. Its four\ntabs are Game (prepare, play, change the disc, open the log), Options\n(the table above), Mods and Controls (it shows the mapping and what\neach button of your controller is on the GameCube's). It speaks English and\nSpanish, and is used with the mouse, the keyboard or a controller. If\nsomething fails it says why in plain words (another game, another version of\nit, an image it could not read) and offers to open the log.\n\nOptions inside the game\nF10, or the controller's Select, opens the same options without\nleaving the game, in a plain bar at the top with drop-down menus: the\nresolution, Picture, Controller settings, Volume and Mods. The options change\nat once and are kept for the next time; the mods can be turned on or off there\ntoo: the two of the character's speed change at once, and Marry Jamie the next\ntime the game is opened. While the menu is open the game does not get\nthe controller.\n\nMods\n\nMod\nWhat it does\n\nMarry Jamie (0.8.0)\nIn the original game, the wedding with Jamie is the ending. With this mod the wedding plays and the game goes on: Jamie lives in the house as your spouse and talks as your spouse, with new lines in the five languages of the disc, has a birthday (the 22nd of Winter), and there are the pregnancy, the birth and the special days of the marriage, as with the other partners.\n\nFaster character (0.1.0)\nThe character walks and runs faster, from 25% to 300% of the original speed (150% by default), only while you control it.\n\nNo slowdown when carrying (0.1.0)\nIn the original game, with something in the hands the character can only walk. With this mod, with the stick fully pushed it moves at running speed.\n\nAll come off, like the original game; you turn them on in the Mods tab. How to make one:\nmods/README.md.\nMarry Jamie, working in the game\n\nThe wedding anniversary, in the morning…\n…and the dinner, when you remembered\n\nThe pregnancy, with its Musical Note\nThe child's birthday\n\nPlaying as the girl, on the anniversary\n\nScreenshots\n\nWidescreen, with the game's camera\nThe same moment, with the camera pulled back to 100%\n\n4:3, as on the GameCube\nThe house in the morning\n\nThe launcher's mods\nThe launcher's options\n\nPlaying\nWhat you need\n\nWindows 10 (version 1903 or newer) or Windows 11, with an Intel or AMD\nprocessor (the x64 package) or an ARM one such as the Snapdragon (the\narm64 package).\nA graphics card with Direct3D 12.\nYour disc of Harvest Moon: Magical Melody for the USA (G4AEE9), as an\nimage: .iso, .gcm or .rvz (Dolphin's compressed format). The launcher\nchecks that it is that game and that version.\nAbout 2 GB free: an .rvz image is converted to .iso, and the prepared\ngame takes about 100 MB.\n\nSteps\n\nDownload the zip for your processor from\nReleases.\nBefore unzipping it, right-click it → Properties → tick Unblock →\nOK. Otherwise Windows may stop the tools that prepare the game.\nUnzip all of it into a folder and open HarvestMoonMM.exe. The program is\nnot signed, so Windows may say that it does not know the publisher:\nMore info → Run anyway.\nChoose Prepare the game and pick your disc image (or drop it on the\nwindow). The first time, the game is made for your computer: it takes a\nfew minutes, and then never again until the next update.\nPress Play.\n\nControls\nThe first controller you connect plays, mapped automatically. Without one,\nthe keyboard plays, with the same keys as Dolphin by default. You can change\nthem in the game: F10, then Controller settings. Pick a part of the GameCube\ncontroller and press the key (or a mouse button) or, for a controller, the\nbutton that should play it; the changes are kept by themselves, each controller\nhas its own, and Restore defaults goes back to the automatic mapping.\n(A controller's sticks always follow the controller's own.)\n\nGameCube\nKeyboard\n\nControl Stick\nArrow keys\n\nC Stick\nI, J, K, L\n\nD-Pad\nT, F, G, H\n\nA, B, X, Y\nX, Z, C, S\n\nZ\nD\n\nL, R\nQ, W\n\nSTART\nEnter\n\nAlso: F10 opens the options, holding Tab speeds the game up, and\nAlt+Enter switches to full screen.\nYour saves\nThey are in %LOCALAPPDATA%\\HarvestMoonMM\\Native\\USA\\Card A, one .gci file\nfor each file on the memory card. To bring a save from Dolphin, when it keeps\nthe memory card as a GCI folder, or from the earlier ModernGekko version,\ncopy its E9-G4AE-HARVESTMOON.gci there. Your choices are in\n%LOCALAPPDATA%\\HarvestMoonMM\\settings.json, and the logs, prepare.log and\nnative.log, in the Native folder.\nIf something fails, open an issue\nwith the log.\nHow it works\nyour disc image (.iso, .gcm or .rvz)\n│ nodtool turns an .rvz into an .iso; the launcher checks the game and its version\n▼\nmain.dol: the game's code, for the GameCube's PowerPC processor\n│ WiiCompiled's translator\n▼\nC++: each function of the game, as a C++ function\n│ clang (llvm-mingw), with the runtime kit, on your computer\n▼\nhmmm-native.exe: the game, as a program for your PC\n\nThe GameCube's processor is a PowerPC, so its code cannot run on a PC as it\nis. The translator of WiiCompiled,\nthe recompilation of Mario Kart Wii, turns each function of the game into\nC++, and that C++ is compiled together with a runtime that gives it what it\nexpects from the console: memory, the processor's special registers, the\noperating system's threads, alarms and interrupts, the disc, the memory card,\nthe controllers, the graphics and the sound.\nThe translated C++ is the game, so it cannot be handed out. The download\nbrings everything else: the runtime already compiled (the runtime kit), the\ntranslator, a C++ compiler (llvm-mingw) and Python. The launcher makes the\nprogram on your computer from your disc, and nothing in the package comes\nfrom the disc. The mods are compiled into the program, and the places where\nthey act are marked in the translated code.\nMore: docs/NATIVE_PACKAGE.md (the package and the\npreparation), runtime/README.md and\ndocs/NATIVE_RUNTIME.md (the runtime),\ndocs/PLAN.md (the whole plan).\nBefore the native version, the recompiled game ran with\nDolRecomp on\nModernGekko, which keeps\nDolphin's core for the hardware. That package is still in the repository\n(packaging/windows/README.md), and it was the\ntest bench of the Jamie mod.\nWhat comes next\n\n1.0: the game played from start to finish.\nThe menus and the text at 4:3 in widescreen, instead of stretched.\nThe game in Spanish, French, German or Italian: the American disc carries\nthe translations of a European release that never came out.\nMore mods: cheats, and fast-forwarding the scenes.\nUpdating from the launcher, a signed program, and a package for Linux.\nLater, the two Wii versions of the game on the same runtime.\n\nFor developers\n\nThe native runtime on Linux: scripts/build_native_runtime.sh\n(runtime/README.md). It needs your disc extracted in\norig/G4AEE9.\nThe launcher and the Windows package, which GitHub Actions builds when a\nversion is published: docs/NATIVE_PACKAGE.md.\nHow the game was analysed: docs/DISC_ANALYSIS.md,\ndocs/FUNCTION_MAP.md (4,486 functions, checked\nagainst CodeWarrior's exception index) and\ndocs/VALIDATION.md (the recompiled code compared with\nDolphin's interpreter, during play and instruction by instruction).\n\nTarget binary: Harvest Moon: Magical Melody (USA), ID G4AEE9,\nrevision 0. sys/main.dol SHA-1 5977972cd798d60ecfcf5c1f26a86dcecc36446f.\nThe analysis tools need Python 3.11 or newer, and Rust to install nodtool:\n# 1. Tools\ncargo install nodtool # reads ISO/GCM/RVZ\npython3 -m pip install -r requirements-dev.txt # capstone, pytest, ruff\n\n# 2. Extract your disc to orig/G4AEE9 and check it is the right binary\npython3 tools/extract_disc.py path/to/your/disc.rvz\npython3 tools/check_disc.py\n\n# 3. Regenerate and check the function map\npython3 tools/analyze.py\nHM_MM_DOL=orig/G4AEE9/sys/main.dol python3 -m pytest\n\n# 4. Read any function\npython3 tools/disasm.py main\nOn Windows:\n\nInstall the x64 Python from python.org,\neven if your PC has an ARM processor: capstone ships no prebuilt package\n(wheel) for Windows ARM64, and x64 Python runs there through Windows 11's\nemulation. (With Visual Studio and its C++ tools for ARM64, ARM64 Python\nworks too: pip builds capstone from source, as the GitHub workflow does.)\n\nUse py instead of python3. In PowerShell, set the tests' variable like\nthis:\n$env:HM_MM_DOL = \"orig/G4AEE9/sys/main.dol\"\npy -m pytest\n\nIf you already use Dolphin you need neither Rust nor nodtool: right-click\nthe game → Properties → Filesystem tab → right-click the disc →\nExtract Entire Disc..., and pick the orig\\G4AEE9 folder. Then\npy tools/check_disc.py confirms it came out right.\n\nRead CONTRIBUTING.md before contributing.\nCredits\n\nWiiCompiled: the translator, and\nthe example of a recompilation that runs without an emulator.\naurora: the GameCube's graphics,\ncontrollers and memory card, on Dawn\n(WebGPU).\nDolphin: the reference for the hardware; the\nsound program is ported from its high-level emulation.\nDolRecomp and\nModernGekko: the first\nplayable recompilation of the game.\nSDL, Dear ImGui,\nnod,\nllvm-mingw and the fonts Baloo 2,\nDosis, M PLUS Rounded 1c and DejaVu Sans. The whole list, with the\nlicenses, is in\npackaging/native/THIRD_PARTY_NOTICES.txt.\n\nLicense\nGNU General Public License, version 3 or later (GPL-3.0-or-later); the text\nis in LICENSE. It is the license of WiiCompiled and ModernGekko and\nis compatible with those of DolRecomp and Dolphin. The patches in patches/\nmodify files derived from Dolphin that are GPL-2.0-or-later and are offered\nunder those same terms.\nThis is a fan project, not affiliated with Natsume, Marvelous or Nintendo.\nHarvest Moon: Magical Melody was developed by Marvelous Interactive and\npublished by Natsume. No part of the game is in this repository or in its\ndownloads.",
+      "images": [
+        {
+          "url": "https://github.com/RodoLy/HMMMGC/raw/main/docs/images/intro.jpg",
+          "alt": "The farm of the game's opening, in widescreen, drawn by the native version"
+        },
+        {
+          "url": "https://github.com/RodoLy/HMMMGC/raw/main/docs/images/launcher-game-en.png",
+          "alt": "The launcher's Game tab, with the game ready to play"
+        },
+        {
+          "url": "https://github.com/RodoLy/HMMMGC/raw/main/docs/images/in-game-menu-en.jpg",
+          "alt": "The options menu inside the game, over the farm"
+        },
+        {
+          "url": "https://github.com/RodoLy/HMMMGC/raw/main/docs/images/jamie-anniversary-morning.jpg",
+          "alt": "Jamie at home on the morning of the wedding anniversary: Hey. Come home early tonight, got it?"
+        },
+        {
+          "url": "https://github.com/RodoLy/HMMMGC/raw/main/docs/images/jamie-anniversary-dinner.jpg",
+          "alt": "Jamie that night: I made dinner. Sit down before it gets cold."
+        },
+        {
+          "url": "https://github.com/RodoLy/HMMMGC/raw/main/docs/images/jamie-pregnancy.jpg",
+          "alt": "Jamie in bed at the clinic, and the Musical Note for the pregnancy"
+        },
+        {
+          "url": "https://github.com/RodoLy/HMMMGC/raw/main/docs/images/jamie-child-birthday.jpg",
+          "alt": "Jamie on the child's birthday: I used to think birthdays were nothing to celebrate."
+        },
+        {
+          "url": "https://github.com/RodoLy/HMMMGC/raw/main/docs/images/jamie-girl-anniversary.jpg",
+          "alt": "Jamie with the girl on the anniversary: ...You remembered. Humph. Not bad."
+        },
+        {
+          "url": "https://github.com/RodoLy/HMMMGC/raw/main/docs/images/farm-widescreen.jpg",
+          "alt": "The farm in widescreen, with the game's camera"
+        },
+        {
+          "url": "https://github.com/RodoLy/HMMMGC/raw/main/docs/images/farm-zoomed-out.jpg",
+          "alt": "The same place with the camera pulled back to 100%"
+        },
+        {
+          "url": "https://github.com/RodoLy/HMMMGC/raw/main/docs/images/farm-4x3.jpg",
+          "alt": "The farm in 4:3, as on the GameCube"
+        },
+        {
+          "url": "https://github.com/RodoLy/HMMMGC/raw/main/docs/images/house.jpg",
+          "alt": "The player's house in the morning, in widescreen"
+        },
+        {
+          "url": "https://github.com/RodoLy/HMMMGC/raw/main/docs/images/launcher-mods-en.png",
+          "alt": "The launcher's Mods tab, with Marry Jamie chosen"
+        },
+        {
+          "url": "https://github.com/RodoLy/HMMMGC/raw/main/docs/images/launcher-options-en.png",
+          "alt": "The launcher's Options tab"
+        }
+      ],
+      "length": 12401,
+      "imageCount": 14
+    },
+    "1h1ykoa": {
+      "version": 4,
+      "url": "https://variety.com/2026/music/news/journey-drummer-deen-castronovo-exits-band-health-scare-1236947754/",
+      "fetchedAt": "2026-11-14T19:07:57.849Z",
+      "title": "Journey Drummer Deen Castronovo Leaves Band, After Second Mid-Show Exit",
+      "byline": "Chris Willman",
+      "siteName": "Variety",
+      "content": "Journey drummer Deen Castronovo is out of the band, the group announced Friday, due to health issues that caused him to have to drop out of two shows early in the space of just over a month, the latest of which was Tuesday night in Boston.\n\nAfter he was replaced by a fill-in mid-show Tuesday, the band performed Thursday night in Cleveland with a new drummer, Steve Murphy. On Friday, the group finally addressed the issue in a statement and said that Murphy would be stepping into Castronovo’s shoes going forward.\n\nThe band’s social media post read: “Dear Friends… After careful consideration and an extensive year of touring, our talented, longtime drummer Deen Castronovo has decided to step away to focus on personal health matters that require his attention. He has our full support during this time and extends his heartfelt thanks to the fans for the love, encouragement, and kindness he has received. Native New Yorker Steve Murphy, who comes to us from working with bands such as Alan Parsons Project, Trans Siberian Orchestra, Christopher Cross and Jack Bruce, will be joining us for the remainder of November. We look forward to continuing to share unforgettable nights of music with all of you.”\n\nThe post did not include any photos of Castronovo, but did include shots of Murphy celebrating his first show with the band Thursday.\n\nThe message was also shared on Castronovo’s personal Facebook page. The drummer did not offer any additional comment of his own beyond the band’s statement, but none might have been expected, as he has previously noted he leaves it to someone else to oversee his social media accounts.\n\nCastronovo, who joined Journey in 1998, had to leave Tuesday’s show in Boston 12 songs into the show, according to reports posted on Setlists.fm. He was replaced for the rest of the truncated set by a fill-in, his drum tech, Steve Toomey, just as he had been a month earlier under similar circumstances in Tulsa. The length of Tuesday’s show was cut down from the usual 29 or so songs to 20, with eight songs following Castronovo’s stage departure.\n\nOn Oct. 8 in Oklahoma, he left the stage after just two songs and was hospitalized; Toomey also completed the show that night. Whatever was ailing Castronovo was not explained to the public. But at that time the band said publicly that he quickly bounced back and was in fighting trim to resume the tour. Castronovo indeed played their next show on Oct. 10 without incident, as he did all the subsequent shows through Nov. 7, before apparently falling ill again mid-show Tuesday.\n\nCastronovo joined Journey in 1998 to replace original drummer Steve Smith. He was forced out of the group in 2015 after being charged with assaulting a woman, and was replaced at that time by Omar Hakim. He subsequently had nine charges dismissed and pleaded guilty to six others, receiving a suspended sentence. He came back to rejoin the Journey lineup in 2021, after performing with Schon on a side-project tour in 2019.\n\nIn 2023, he explained his perseonal journey in and out of Journey — and back in — in an interview with Ultimate Classic Rock. “I had to take some time off and, pardon my language, get my shit together. I was a mess, and it was horrible what happened. But today, I’m doing great, clean and sober, working hard, doing what I need to do – and I put God first, family second. My job is third, where before it was all the other way around: ‘I want to be a rocker, I want to play music and I want to party,’ and everything was on the back burner – everything else, which is really sad. … I was so wrapped up in drugs and alcohol; family was way down the line. That was heartbreaking. But here I am today, and family is most important, and my job is great. I love what I do with Journey and I love what I do with Revolution Saints, but the beautiful thing is what I learned the most, being in treatment, is that if it all went away, you know what? I’m still all right. … I love playing, but if it was all to go away tomorrow, God bless, man. Life goes on, and I’m OK with myself. I’m comfortable in my skin.”\n\nThere are eight shows left on Journey’s 2026 tour, including a Saturday night stop in Greenville, before the band wraps up the touring year Nov. 28 in San Francisco. Journey had previously announced this as part of a farewell tour, but Schon said recently that the long goodbye was going so well, they had plans to proceed indefinitely.",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/10/GettyImages-1247424881.jpg?w=1000&h=563&crop=1",
+          "alt": ""
+        }
+      ],
+      "length": 4428,
+      "imageCount": 1
+    },
+    "1f7wqzm": {
+      "version": 4,
+      "url": "https://phys.org/news/2026-11-culture-art-eyetracking-sudan-revealed.html",
+      "fetchedAt": "2026-11-14T19:07:57.926Z",
+      "error": "HTTP 403"
+    },
     "qrdc9a": {
       "version": 4,
       "url": "https://deadline.com/2026/11/only-living-pickpocket-in-new-york-john-turturro-tatiana-maslany-1237223855/",
-      "fetchedAt": "2026-11-14T19:05:37.580Z",
+      "fetchedAt": "2026-11-14T19:07:58.508Z",
       "title": "John Turturro, Tatiana Maslany Created Raw Estrangement In ‘The Only Living Pickpocket In New York’ – Contenders L.A.",
       "byline": "Fred Topel",
       "siteName": "Deadline",
@@ -31076,43 +31189,22 @@
       "length": 2931,
       "imageCount": 1
     },
-    "1f7wqzm": {
+    "gh-1453980256": {
       "version": 4,
-      "url": "https://phys.org/news/2026-11-culture-art-eyetracking-sudan-revealed.html",
-      "fetchedAt": "2026-11-14T19:05:37.771Z",
-      "title": "Does your culture shape how you look at art? What an eye‑tracking study in Sudan revealed",
-      "byline": "Tomasz Michalik",
-      "siteName": "Phys.org",
-      "content": "The glasses are connected to a portable recording device that is monitored on a computer tablet. Credit: Adrian Chlebowski/PCMA UW\n\nToday, Old Dongola is an abandoned settlement on the banks of the Nile in northern Sudan. Hundreds of years ago, however, this place looked very different.\n\nDuring the Middle Ages, Old Dongola was the capital of the Kingdom of Makuria, which adopted Christianity in the sixth century. Nearly 700 years after the fall of the kingdom, many medieval buildings have survived beneath the desert, including the remains of churches and monasteries. Their walls still preserve paintings of archangels or biblical scenes or local rulers and dignitaries.\nThere have been several studies of these paintings to learn about the religious life, politics and art of medieval Nubians. But, as a team of psychologists, cognitive scientists, archaeologists and heritage managers from European and Sudanese institutions, we decided to ask a different question: How does the culture we come from influence the way we look at them?\nResearchers have used eye-tracking to investigate cross-cultural differences in the way we perceive things since the early 2000s, but most studies have been in laboratory settings. Our team wanted to explore how culture shapes the way people engage with visual art in its original historical context.\nOur \"research laboratory\" was a medieval monastery at Kom H in Old Dongola. The team (me, Marwa Satti, Mohammed Hassan Siedahmed and Tobiasz Trawinski) invited both Sudanese and Western participants to the site and gave them eye-tracking devices to wear in the form of special glasses. As they observed the medieval paintings, we mapped where their eyes fell, for how long and in which order.\nWe found that the two groups differed in the way they directed their attention to particular elements of the paintings. Westerners focused more on human figures, particularly faces and bodies, before turning their attention to attributes like objects or clothing or symbols. Sudanese participants initially focused on attributes, later looking more at faces and the surrounding context, suggesting a broader way of viewing the paintings.\nWe believe a study like this may help us develop more culturally adapted approaches to promoting heritage like this.\n\nWhat shapes the way we see objects?\nWhen we stand in front of a painting, our natural instinct is to try to understand what's happening in it. As humans, we're sensitive to differences in brightness, color intensity and orientation. These features can guide our eyes.\nBut looking is also about who we are. Psychology studies suggest our individual characteristics, experiences, goals and cultural background influence how we explore visual scenes.\nAnother cross-cultural eye-tracking study, for example, showed that American participants tended to focus more strongly on a focal object like an airplane in the sky, while Chinese participants often paid greater attention to the context or bigger picture. This may reflect broader cultural tendencies. Individualistic cultures may place more emphasis on individuals while collectivistic cultures may place more emphasis on the wider group.\nEye-trackers are equipped with small cameras that record gaze patterns. We gave participants eye-tracking glasses connected to a small computer attached to their bodies. Gaze focus is generally associated with directing attention to a particular element, revealing how visual attention is distributed.\nWhat we know can also shape what we look at. Cultural knowledge can make certain elements of an image more familiar, aesthetically appealing or meaningful, guiding our attention toward them. Religious knowledge, for example, can help us recognize symbols and understand their meaning, potentially influencing which parts of a religious painting we will look at.\nOld Dongola provides a unique setting in which to explore these influences. The site is significant to both local communities and Western visitors, who may differ not only in their cultural backgrounds but also their familiarity with Christianity.\n\nWhat we found\nOur study included 48 Sudanese living in areas around Old Dongola and 19 participants from Western cultural backgrounds. For most, this was their first visit to the monastery. They were aged 18–68, and most had limited to moderate knowledge of Christian Nubian art. However, the Western group included more participants with higher education and heritage-related backgrounds.\nParticipants were simply asked to look at the paintings as if they were visiting a museum exhibition. In our analysis, we focused on four elements of the paintings: faces, bodies, attributes (such as a key in the hand of St. Peter or scrolls in the hands of apostles) and context (such as the setting of biblical events depicted, inscriptions and backgrounds).\nThe eye-tracking data reveal that Sudanese and Western participants ultimately spent a similar amount of time looking at faces, bodies, attributes and context, but they arrived there by taking different visual routes.\nAt the beginning, Sudanese participants paid more attention to the attributes of the characters in the paintings. They then shifted to faces before exploring the wider context. Western participants, however, first focused more strongly on bodies and then moved toward faces and attributes, skipping an in-depth exploration of the background during the first 20 seconds of viewing.\nIf we looked only at the total amount of time spent on each element, we might conclude that the two groups looked at the paintings in much the same way. But our analysis showed something more subtle: similar amounts of looking time can emerge through very different viewing strategies.\nThese differences potentially reflect what people from different backgrounds consider more meaningful or relevant when interpreting images. For example, in post-study interviews, Sudanese participants often commented on attributes representing objects they also encountered in everyday life (like a key). Participants from Western cultures familiar with Christian iconography, in contrast, may have been more likely to recognize the biblical figures by their faces.\n\nWhy this matters\nFor many years, archaeology in Africa was dominated by Western perspectives. This is changing, with local communities becoming more involved in the research, interpretation and management of their cultural heritage.\nOur findings suggest that Sudanese and Westerners engage with medieval Nubian paintings in different ways. This insight could be used to develop heritage narratives that are more responsive to different ways of looking.\nFor example, if particular attributes attract the gaze of visitors from Sudan, a heritage presentation could introduce a painting or display through these elements.\nUnderstanding how people look at heritage can help us move from presenting the past in a single, predetermined way toward creating narratives that recognize the different ways people encounter and make sense of it.\n\nWho's behind this story?\n\nLisa Lock\n\nBA art history, MA material culture. Former museum editor, paramedic, and transplant coordinator. Editing for Science X since 2021.\n\nFull profile →\n\nAndrew Zinin\n\nMaster's in physics with research experience. Long-time science news enthusiast. Plays key role in Science X's editorial success.\n\nFull profile →\n\nThis article is republished from The Conversation under a Creative Commons license. Read the original article.\n\nCitation:\nDoes your culture shape how you look at art? What an eye‑tracking study in Sudan revealed (2026, November 14)\nretrieved 14 November 2026\nfrom https://phys.org/news/2026-11-culture-art-eyetracking-sudan-revealed.html\n\nThis document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no\npart may be reproduced without the written permission. The content is provided for information purposes only.",
-      "images": [
-        {
-          "url": "https://scx2.b-cdn.net/gfx/news/hires/2026/two-men-stand-in-profi.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://scx2.b-cdn.net/gfx/news/2026/two-men-stand-in-profi.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://scx1.b-cdn.net/csz/news/800a/2026/two-men-stand-in-profi.jpg",
-          "alt": "Two men stand in profile in a room with ancient painted walls, one wears black-rimmed glasses, another holds a computer tablet."
-        },
-        {
-          "url": "https://scx1.b-cdn.net/gfx/profiles/8ce6367c74b3ddb6.png",
-          "alt": "Lisa Lock"
-        },
-        {
-          "url": "https://scx1.b-cdn.net/gfx/profiles/2fa26e993b2d1988.png",
-          "alt": "Andrew Zinin"
-        }
-      ],
-      "length": 7943,
-      "imageCount": 5
+      "url": "https://github.com/StarlingK/extinction",
+      "fetchedAt": "2026-11-14T19:07:58.914Z",
+      "title": "GitHub - StarlingK/extinction: AVP: Extinction PC port",
+      "byline": "",
+      "siteName": "GitHub",
+      "content": "Aliens vs Predator: Extinction PC Port\n\nThis is an unofficial fan project. It is not affiliated with or endorsed by 20th Century Studios, Disney, Zono, Electronic Arts or Microsoft. Aliens, Predator and Aliens versus Predator are trademarks of their respective owners. You must provide your own dump of the Xbox version.\n\nThis project should run natively, it has Direct3D rendering. Mouse and Keyboard support as well as an as of now unfinished Co-Op Campaign.\n\nControls:\nZ or Left Click select.\nX or Right Click order. / Shift Right Click attack move.\nE for context ability, holding 1 shows alternate context.\nEnter start.\nBackspace back.\nQ / E White and Black respectively.\n1 / 3 Left, right trigger.\nArrows keys, D-pad.\nShift/Ctrl left and right stick click.",
+      "images": [],
+      "length": 761,
+      "imageCount": 0
     },
     "fr75bd": {
       "version": 4,
       "url": "https://www.dw.com/ru/%D1%8D%D0%BA%D1%81-%D0%B3%D0%BB%D0%B0%D0%B2%D0%B0-%D0%BC%D0%BE%D0%BA-%D0%B1%D0%B0%D1%85-%D1%80%D0%BE%D1%81%D1%81%D0%B8%D1%8F-%D0%B4%D0%BE%D0%BB%D0%B6%D0%BD%D0%B0-%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%B2%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-%D0%B2-%D1%87%D0%B5%D0%BC%D0%BF%D0%B8%D0%BE%D0%BD%D0%B0%D1%82%D0%B5-%D0%BC%D0%B8%D1%80%D0%B0-%D0%BF%D0%BE-%D1%85%D0%BE%D0%BA%D0%BA%D0%B5%D1%8E-%D0%B2-%D0%B3%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D0%B8/a-79949600?maca=rus-rss-ru-all-1126-rdf",
-      "fetchedAt": "2026-11-14T19:05:38.226Z",
+      "fetchedAt": "2026-11-14T19:07:59.077Z",
       "title": "Экс-глава МОК Бах: Россия должна участвовать в чемпионате мира по хоккею в Германии",
       "byline": "Ася Локина",
       "siteName": "Deutsche Welle",
@@ -31126,22 +31218,10 @@
       "length": 2713,
       "imageCount": 1
     },
-    "gh-1453980256": {
-      "version": 4,
-      "url": "https://github.com/StarlingK/extinction",
-      "fetchedAt": "2026-11-14T19:05:38.401Z",
-      "title": "GitHub - StarlingK/extinction: AVP: Extinction PC port",
-      "byline": "",
-      "siteName": "GitHub",
-      "content": "Aliens vs Predator: Extinction PC Port\n\nThis is an unofficial fan project. It is not affiliated with or endorsed by 20th Century Studios, Disney, Zono, Electronic Arts or Microsoft. Aliens, Predator and Aliens versus Predator are trademarks of their respective owners. You must provide your own dump of the Xbox version.\n\nThis project should run natively, it has Direct3D rendering. Mouse and Keyboard support as well as an as of now unfinished Co-Op Campaign.\n\nControls:\nZ or Left Click select.\nX or Right Click order. / Shift Right Click attack move.\nE for context ability, holding 1 shows alternate context.\nEnter start.\nBackspace back.\nQ / E White and Black respectively.\n1 / 3 Left, right trigger.\nArrows keys, D-pad.\nShift/Ctrl left and right stick click.",
-      "images": [],
-      "length": 761,
-      "imageCount": 0
-    },
     "1pqyon8": {
       "version": 4,
       "url": "https://www.playground.ru/misc/news/dlya_modulnogo_gejmpada_beitong_pangu_vyshli_v_prodazhu_smennye_ruli_i_tachpad-1890701",
-      "fetchedAt": "2026-11-14T19:05:38.598Z",
+      "fetchedAt": "2026-11-14T19:07:59.375Z",
       "title": "Для модульного геймпада BEITONG PanGu вышли в продажу сменные рули и тачпад",
       "byline": "Extor Menoger",
       "siteName": "Playground",
@@ -31158,7 +31238,7 @@
     "gh-1424470601": {
       "version": 4,
       "url": "https://github.com/elipp/ctr-rs",
-      "fetchedAt": "2026-11-14T19:05:38.921Z",
+      "fetchedAt": "2026-11-14T19:07:59.500Z",
       "title": "GitHub - elipp/ctr-rs: An online-oriented Rust reimplementation of the CTR Native project (PS1, 1999)",
       "byline": "",
       "siteName": "GitHub",
@@ -31167,39 +31247,10 @@
       "length": 5889,
       "imageCount": 0
     },
-    "qhrbu2": {
-      "version": 4,
-      "url": "https://www.playground.ru/misc/news/petitsiya_za_vozvraschenie_dzhensena_huanga_v_nvidia_sobrala_100_tysyach_podpisej_eyo_podderzhali_mask_i_glava_epic_games-1890694",
-      "fetchedAt": "2026-11-14T19:05:39.101Z",
-      "title": "Петиция за возвращение Дженсена Хуанга в Nvidia собрала 100 тысяч подписей - её поддержали Маск и глава Epic Games",
-      "byline": "Legend_of_the_Hero",
-      "siteName": "Playground",
-      "content": "Онлайн-кампания Stand with Jensen («Поддержим Дженсена»), участники которой требуют вернуть Дженсена Хуанга на должность генерального директора Nvidia, преодолела отметку в 100 тысяч подписей. Инициатива появилась после отставки Хуанга 12 ноября, завершившей его 33-летнее руководство компанией, одним из основателей которой он является. Среди подписантов числятся действующие и бывшие сотрудники Nvidia, акционеры и руководители технологических компаний.\nОрганизаторы опубликовали открытое письмо совету директоров Nvidia под лозунгом «Тридцать три года заслуживают ответа». Они требуют восстановить Хуанга в должности на время проведения независимого расследования обстоятельств его ухода. Авторы обращения также настаивают на справедливом разбирательстве и публичном объяснении решения совета директоров, включая то, каким образом были учтены интересы сотрудников и акционеров компании.\n\nСреди известных представителей технологической индустрии, чьи имена присутствуют в списке подписантов, оказались Илон Маск, генеральный директор Epic Games Тим Суини, руководитель Replit Амджад Масад, глава Y Combinator Гарри Тан, сооснователь Cohere Айдан Гомес и управляющий партнёр Atreides Management Гэвин Бейкер. Также в перечне фигурируют Марк Андриссен, сооснователь Serve Robotics Али Кашани и генеральный директор Palo Alto Networks Никеш Арора.\n\nВ кампании участвуют и многочисленные действующие и бывшие сотрудники Nvidia. В списке указаны ведущий инженер Эрвин Куманс, бывший старший директор по разработке аппаратного обеспечения Цзюэ У, вышедший на пенсию вице-президент по инженерным разработкам Роберт Хуанг и главный инженер-конструктор Дэн Робинсон. Куманс считает, что Дженсен Хуанг заслуживает справедливого отношения, даже если его действия действительно нарушали внутренние правила компании. Другие подписанты выражают обеспокоенность будущим Nvidia без её многолетнего руководителя.\n\nРанее организаторы сообщали о тысячах подписей от людей, представляющихся действующими или бывшими сотрудниками Nvidia, а также о десятках тысяч подписавшихся акционеров. При этом авторы инициативы отдельно предупреждают, что имена, должности и сведения о принадлежности к компаниям указываются самими участниками и не проходят независимую проверку. Таким образом, присутствие известных предпринимателей в списке ещё не является подтверждением того, что каждый из них лично подписал обращение.\nStand with Jensen позиционирует себя как независимую добровольческую инициативу, официально не связанную ни с Nvidia, ни с самим Дженсеном Хуангом. Сбор подписей продолжается, а их актуальное количество отображается на сайте кампании. Пока неизвестно, собирается ли совет директоров Nvidia отвечать на открытое письмо или пересматривать решение об отставке своего бывшего генерального директора.",
-      "images": [
-        {
-          "url": "https://i.playground.ru/e/wThNzypOdR7XXZGeCm3b_Q.webp",
-          "alt": ""
-        },
-        {
-          "url": "https://i.playground.ru/p/wThNzypOdR7XXZGeCm3b_Q.webp?760xauto",
-          "alt": ""
-        },
-        {
-          "url": "https://i.playground.ru/p/J5CSQT17_JcGIFNU2tLvqw.webp?760xauto",
-          "alt": ""
-        },
-        {
-          "url": "https://i.playground.ru/p/b8H7rszgBQQ3bT5FWPmUNA.webp?760xauto",
-          "alt": ""
-        }
-      ],
-      "length": 2788,
-      "imageCount": 4
-    },
     "gh-1335797829": {
       "version": 4,
       "url": "https://github.com/NoRain211/doaxvb-re",
-      "fetchedAt": "2026-11-14T19:05:39.348Z",
+      "fetchedAt": "2026-11-14T19:08:00.025Z",
       "title": "GitHub - NoRain211/doaxvb-re: Native Windows port of Dead or Alive Xtreme Beach Volleyball (Xbox), built by static recompilation with a hand-written runtime. Requires your own copy of the game.",
       "byline": "",
       "siteName": "GitHub",
@@ -31217,43 +31268,10 @@
       "length": 8050,
       "imageCount": 2
     },
-    "yq5kyb": {
-      "version": 4,
-      "url": "https://phys.org/news/2026-11-nasa-voyager-day-interstellar-space.html",
-      "fetchedAt": "2026-11-14T19:05:39.490Z",
-      "title": "NASA's Voyager 1 closes in on a light-day in interstellar space for a new distance record",
-      "byline": "Marcia Dunn",
-      "siteName": "Phys.org",
-      "content": "This image provided by NASA/JPL-Caltech shows John Casani, Voyager project manager in 1977, holding a small Dacron flag that was folded and sewed into the thermal blankets of the Voyager spacecraft before they launched. Below him lie the Golden Record, left, and its cover, right. In the background stands Voyager 2 before it headed to the launch pad in Cape Canaveral, Fla., Aug. 4, 1977. Credit: NASA/JPL-Caltech via AP\n\nNASA's Voyager 1 is about to become humanity's first object to reach one light-day from Earth as it pushes ever deeper into interstellar space.\n\nThat's a mind-blowing distance of more than 16 billion miles (26 billion kilometers) for the spacecraft launched 49 years ago.\nWhen Voyager 1 reaches that remarkable milestone on Wednesday, its radio signals will take precisely 24 hours traveling at the speed of light to reach Earth—in other words, one light-day. NASA is looking at another 18,000 years before the spacecraft achieves a full light-year and more than double that before it comes near another star.\nProject manager Suzanne Dodd sees Voyager 1 as Earth's ambassador hurtling between stars while providing a \"sense of wonder\" on the home front.\n\"It's a national treasure,\" she told The Associated Press. \"Really extraordinary.\"\nTo celebrate this moment, NASA is urging people from all corners to grab their phone or a flashlight to create a wave of golden light after sunset Tuesday, using Morse code to spell the letters V-G-R, Voyager's call sign, into the night sky.\n\nThis image, provided by NASA/JPL-Caltech and taken on April 27, 1977, shows one of the Voyagers in the 25-Foot Space Simulator thermal vacuum chamber at NASA's Jet Propulsion Laboratory in Southern California. Credit: NASA/JPL-Caltech via AP\n\nDespite sporadic problems typical of old age, Voyager 1 and its twin Voyager 2 continue to send back science and engineering data as they zoom toward different points in space at 38,000 mph (61,000 kph). Although launched two weeks before its sibling in 1977, Voyager 2 won't reach the one-light-day mark until 2035.\nVoyager 1 swept past Jupiter and Saturn to scientists' delight in 1979 and 1980, respectively, before exiting the solar system. It reached what NASA defines as interstellar space—the expansive region between star systems—in 2012. Voyager 2 visited those two planets plus Uranus and Neptune, also sending back stunning photos, before entering interstellar space in 2018.\n\nAlmost every day, the Voyagers beam back details about their never-before-explored environment: the strength and direction of the magnetic field as well as tidbits about the surrounding pressure, dust and galactic cosmic rays. They're a bit like weather satellites, according to Dodd, who's worked with the Voyagers since 1984.\nThe skeleton flight control team at NASA's Jet Propulsion Laboratory in Pasadena, California, sends commands about once a week. The operation ramps up when spacecraft problems arise, with help sometimes coming from a couple of retirees who once worked on the project.\n\nIn this image provided by NASA/JPL-Caltech, NASA's Voyager 1 spacecraft launched atop its Titan/Centaur-6 launch vehicle from the Kennedy Space Center Launch Complex, Merritt Island, Fla., on Sept. 5, 1977, at 8:56 a.m. local time. Credit: NASA/JPL-Caltech via AP\n\nIn September, controllers completed the latest power-conserving effort for the plutonium-powered spacecraft, then in October briefly lost contact with it. They're still trying to figure out why communication was disrupted.\nAll this expertise and love have kept Voyager 1 chugging along like \"the little engine that could,\" according to Dodd, while racking up entries in Guinness World Records. Besides venturing farther than any other human-made object, Voyager 1 in 1990 snapped the most distant picture of Earth: the iconic \"Pale Blue Dot\" as seen from beyond Neptune.\n\"On that blue dot, that's where everyone you know and everyone you ever heard of and every human being who ever lived, lived out their lives. It's a very small stage in a great cosmic arena,\" Cornell University astronomer Carl Sagan, part of the imaging team, said as he introduced the picture to the world in 1990.\n\nWhile the majority of people alive today were not yet born when the Voyagers launched, \"all of us—everyone on Earth—have been touched by these missions,\" the Planetary Society's Bill Nye said in a statement. The society was co-founded in 1980 by Sagan, who died in 1996.\nThe Golden Record also resulted from Sagan's effort.\nEach Voyager carries a 12-inch (30-centimeter) gold-plated phonographic record containing greetings in 55 languages as well as images and diagrams. Sagan included the voice of his son Nick, then 6: \"Hello from the children on planet Earth.\" He added a stylus and instructions for any finders-keepers out there.\n\"It's a time capsule of life on Earth from 1977,\" Dodd said. \"I hope something, someone, finds it maybe 1,000 years from now.\"\n\nKey concepts\nSpace probes\n\nWho's behind this story?\n\nAndrew Zinin\n\nMaster's in physics with research experience. Long-time science news enthusiast. Plays key role in Science X's editorial success.\n\nFull profile →\n\n© 2026 The Associated Press. All rights reserved. This material may not be published, broadcast, rewritten or redistributed without permission.\n\nCitation:\nNASA's Voyager 1 closes in on a light-day in interstellar space for a new distance record (2026, November 14)\nretrieved 14 November 2026\nfrom https://phys.org/news/2026-11-nasa-voyager-day-interstellar-space.html\n\nThis document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no\npart may be reproduced without the written permission. The content is provided for information purposes only.",
-      "images": [
-        {
-          "url": "https://scx2.b-cdn.net/gfx/news/2026/nasa-voyager-1.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://scx1.b-cdn.net/csz/news/800a/2026/nasa-voyager-1.jpg",
-          "alt": "NASA Voyager"
-        },
-        {
-          "url": "https://scx1.b-cdn.net/csz/news/800a/2026/nasa-voyager.jpg",
-          "alt": "NASA Voyager"
-        },
-        {
-          "url": "https://scx1.b-cdn.net/csz/news/800a/2026/nasa-voyager-2.jpg",
-          "alt": "NASA Voyager"
-        },
-        {
-          "url": "https://scx1.b-cdn.net/gfx/profiles/2fa26e993b2d1988.png",
-          "alt": "Andrew Zinin"
-        }
-      ],
-      "length": 5755,
-      "imageCount": 5
-    },
     "gh-1358365242": {
       "version": 4,
       "url": "https://github.com/JackandBeans/Snap64Recomp",
-      "fetchedAt": "2026-11-14T19:05:39.805Z",
+      "fetchedAt": "2026-11-14T19:08:00.232Z",
       "title": "GitHub - JackandBeans/Snap64Recomp: Native Windows, Linux, macOS and Android (beta) port of Pokémon Snap (N64) by static recompilation. Plays like the cartridge by default; every enhancement is opt-in. Bring your own dump; no game data is included.",
       "byline": "",
       "siteName": "GitHub",
@@ -31267,35 +31285,16 @@
       "length": 20000,
       "imageCount": 1
     },
-    "gh-1454209716": {
+    "yq5kyb": {
       "version": 4,
-      "url": "https://github.com/kxrxh/lollipop-chainsaw-recomp",
-      "fetchedAt": "2026-11-14T19:05:39.958Z",
-      "title": "GitHub - kxrxh/lollipop-chainsaw-recomp: Xbox 360 to Windows x64 recompilation kit for Lollipop Chainsaw, built with ReXGlue. Bring your own disc dump.",
-      "byline": "",
-      "siteName": "GitHub",
-      "content": "The original Xbox 360 game, recompiled for Windows. Requires your own game copy;\ngame files are not included.\nGetting started\nDownload the latest launcher\nand run it. Requires Windows x64, internet for setup, and an ISO of the\nsupported Xbox 360 disc.\nThe launcher checks for stable releases on startup and shows an in-app notice when\na newer release is available. Select the notice for release notes, then use\nUpdates → Update launcher. Apply game updates from\nManage game → Apply launcher build / Repair. Saves and settings are kept.\nLauncher\n\nGraphics settings and updates\n\nKnown issues\nA full playthrough is unverified. See\ncompatibility and troubleshooting for tested scenes,\nshader coverage and known limitations.\nDocs\nBuild from source (optional) ·\nUpdate / repair ·\nDevelopment · Changelog\nContributing\nEveryone is welcome to contribute. Open an issue or pull request, and see the\ndevelopment guide to get started.\nCredits\nBy kxrxh. Built with\nReXGlue and Xenia.\nBSD-3-Clause · Credits and artwork notices.",
-      "images": [
-        {
-          "url": "https://github.com/kxrxh/lollipop-chainsaw-recomp/raw/main/docs/screenshots/launcher-home.png",
-          "alt": "Launcher overview with the game ready to play"
-        },
-        {
-          "url": "https://github.com/kxrxh/lollipop-chainsaw-recomp/raw/main/docs/screenshots/launcher-settings.png",
-          "alt": "Launcher display and graphics settings"
-        },
-        {
-          "url": "https://github.com/kxrxh/lollipop-chainsaw-recomp/raw/main/docs/screenshots/launcher-updates.png",
-          "alt": "Launcher versions and Markdown release notes"
-        }
-      ],
-      "length": 1014,
-      "imageCount": 3
+      "url": "https://phys.org/news/2026-11-nasa-voyager-day-interstellar-space.html",
+      "fetchedAt": "2026-11-14T19:08:00.329Z",
+      "error": "HTTP 403"
     },
     "gh-1412425732": {
       "version": 4,
       "url": "https://github.com/YodaMMM/NightfirePort",
-      "fetchedAt": "2026-11-14T19:05:40.380Z",
+      "fetchedAt": "2026-11-14T19:08:00.885Z",
       "title": "GitHub - YodaMMM/NightfirePort: Nightfire Rust: a native Windows PC port of 007: Nightfire (PS2), written in Rust",
       "byline": "",
       "siteName": "GitHub",
@@ -31345,10 +31344,39 @@
       "length": 13362,
       "imageCount": 10
     },
+    "qhrbu2": {
+      "version": 4,
+      "url": "https://www.playground.ru/misc/news/petitsiya_za_vozvraschenie_dzhensena_huanga_v_nvidia_sobrala_100_tysyach_podpisej_eyo_podderzhali_mask_i_glava_epic_games-1890694",
+      "fetchedAt": "2026-11-14T19:08:00.998Z",
+      "title": "Петиция за возвращение Дженсена Хуанга в Nvidia собрала 100 тысяч подписей - её поддержали Маск и глава Epic Games",
+      "byline": "Legend_of_the_Hero",
+      "siteName": "Playground",
+      "content": "Онлайн-кампания Stand with Jensen («Поддержим Дженсена»), участники которой требуют вернуть Дженсена Хуанга на должность генерального директора Nvidia, преодолела отметку в 100 тысяч подписей. Инициатива появилась после отставки Хуанга 12 ноября, завершившей его 33-летнее руководство компанией, одним из основателей которой он является. Среди подписантов числятся действующие и бывшие сотрудники Nvidia, акционеры и руководители технологических компаний.\nОрганизаторы опубликовали открытое письмо совету директоров Nvidia под лозунгом «Тридцать три года заслуживают ответа». Они требуют восстановить Хуанга в должности на время проведения независимого расследования обстоятельств его ухода. Авторы обращения также настаивают на справедливом разбирательстве и публичном объяснении решения совета директоров, включая то, каким образом были учтены интересы сотрудников и акционеров компании.\n\nСреди известных представителей технологической индустрии, чьи имена присутствуют в списке подписантов, оказались Илон Маск, генеральный директор Epic Games Тим Суини, руководитель Replit Амджад Масад, глава Y Combinator Гарри Тан, сооснователь Cohere Айдан Гомес и управляющий партнёр Atreides Management Гэвин Бейкер. Также в перечне фигурируют Марк Андриссен, сооснователь Serve Robotics Али Кашани и генеральный директор Palo Alto Networks Никеш Арора.\n\nВ кампании участвуют и многочисленные действующие и бывшие сотрудники Nvidia. В списке указаны ведущий инженер Эрвин Куманс, бывший старший директор по разработке аппаратного обеспечения Цзюэ У, вышедший на пенсию вице-президент по инженерным разработкам Роберт Хуанг и главный инженер-конструктор Дэн Робинсон. Куманс считает, что Дженсен Хуанг заслуживает справедливого отношения, даже если его действия действительно нарушали внутренние правила компании. Другие подписанты выражают обеспокоенность будущим Nvidia без её многолетнего руководителя.\n\nРанее организаторы сообщали о тысячах подписей от людей, представляющихся действующими или бывшими сотрудниками Nvidia, а также о десятках тысяч подписавшихся акционеров. При этом авторы инициативы отдельно предупреждают, что имена, должности и сведения о принадлежности к компаниям указываются самими участниками и не проходят независимую проверку. Таким образом, присутствие известных предпринимателей в списке ещё не является подтверждением того, что каждый из них лично подписал обращение.\nStand with Jensen позиционирует себя как независимую добровольческую инициативу, официально не связанную ни с Nvidia, ни с самим Дженсеном Хуангом. Сбор подписей продолжается, а их актуальное количество отображается на сайте кампании. Пока неизвестно, собирается ли совет директоров Nvidia отвечать на открытое письмо или пересматривать решение об отставке своего бывшего генерального директора.",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/wThNzypOdR7XXZGeCm3b_Q.webp",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/wThNzypOdR7XXZGeCm3b_Q.webp?760xauto",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/J5CSQT17_JcGIFNU2tLvqw.webp?760xauto",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/b8H7rszgBQQ3bT5FWPmUNA.webp?760xauto",
+          "alt": ""
+        }
+      ],
+      "length": 2788,
+      "imageCount": 4
+    },
     "1kd68s9": {
       "version": 4,
       "url": "https://www.playground.ru/heroes_of_might_magic_olden_era/news/dlya_heroes_of_might_and_magic_olden_era_vyshel_patch_0_82_09_s_balansnymi_pravkami-1890693",
-      "fetchedAt": "2026-11-14T19:05:40.450Z",
+      "fetchedAt": "2026-11-14T19:08:01.085Z",
       "title": "Для Heroes of Might and Magic: Olden Era вышел патч 0.82.09 с балансными правками",
       "byline": "AceTheKing",
       "siteName": "Playground",
@@ -31373,48 +31401,13 @@
     "e56afh": {
       "version": 4,
       "url": "https://phys.org/news/2026-11-cosmic-magnifying-glass-reveal-supernova.html",
-      "fetchedAt": "2026-11-14T19:05:40.644Z",
-      "title": "A cosmic magnifying glass could reveal the same supernova two more times in roughly 70 years",
-      "byline": "Shreejaya Karantha",
-      "siteName": "Phys.org",
-      "content": "Color image of MACS J0308.9+2645 showing the detection of SN Ares in its multiply imaged host galaxy. A label describing the filters that contribute to each color channel is shown on the upper left, while orientation and scale of the image are shown on the bottom right. Cutouts are provided for the three images of the SN Ares host galaxy, with the predicted time delays to images 1.1 and 1.2 labeled. Image 1.3 contains the discovered image of SN Ares, highlighting its large star-forming host and the bright, nearby foreground star. Credit: Conor Larison et al., arXiv (2026). DOI: https://doi.org/10.48550/arXiv.2610.33161\n\nThanks to the gravitational lensing caused by a massive galaxy cluster and high-resolution images from the James Webb Space Telescope (JWST), astronomers discovered an exploding star when the universe was 4.9 billion years old. The discovery paper, posted to the arXiv preprint server on Oct. 23, presents a prediction for when the rest of the distorted images of SN Ares will arrive.\n\nGravity bends light\nWhen a massive galaxy cluster sits between us and a distant galaxy, the galaxy cluster's gravity acts like a natural lens, bending and magnifying the light coming from the background galaxy. This is called gravitational lensing, and it can result in the creation of multiple images of the same galaxy. When different light rays take slightly different paths, the images arrive at different times, sometimes hours apart and sometimes decades apart. Some of the famous examples of multiple-image lensing include Einstein Cross, Molten Ring and Smiley Face.\nIn this study, astronomers led by Conor Larison of the Space Telescope Science Institute report the discovery of a supernova that occurred around 8.8 billion years ago. They spotted SN Ares in August 2025 in the JWST's near-infrared images taken of the field of the galaxy cluster MACS J0308.9+2645.\nJWST spectroscopy revealed helium and hydrogen features, which are telltale signs of a star losing most of its outer hydrogen layer before exploding—a category called the Type IIb supernova. Researchers say it is \"the highest-redshift member of its class spectroscopically identified.\"\n\nDiscovery-epoch JWST imaging of SN Ares, with the science images shown at the top, template images in the middle, and differences on the bottom. Credit: arXiv (2026). DOI: 10.48550/arxiv.2610.33161\n\nTwo are yet to arrive\nFor now, astronomers are seeing only one magnified image of Ares. But their analysis using three lens models revealed that two more images of this supernova are yet to reach us. The predictions say that they will appear in about 73 and 76 years, respectively. At an assumed timeline of 70 years, \"the SN Ares system has by far the highest predicted delays of any discovered lensed SN system so far,\" the team writes in its paper.\n\nThe delay in the arrival of these images depends on the geometry of space. But space is also expanding, with galaxies moving away from us and light getting stretched. So measuring the delay between when the images arrive also helps pin down the Hubble constant, the universe's expansion rate.\n\"Due to the direct relationship between these delays and geometric distance, a measurement of the offset in image arrival times leads to constraints on cosmological parameters such as the local expansion rate of the universe, H0,\" researchers explain.\nIf, in 70 years, astronomers can catch the return, the delay could be timed extremely precisely. That could give one of the most precise single measurements of the universe's expansion rate.\nThe team plans to conduct additional spectroscopic redshift measurements in early 2027. This will help researchers better understand the lens properties and improve delay predictions.\nThe study also offers a rare opportunity to watch gravitational lensing play out over generations. Researchers say that they cannot predict what the science of the universe will look like in 70 years, but are sure that the reappearance of SN Ares will be a scientifically rich event, worth looking forward to.\n\nWritten for you by our author Shreejaya Karantha, edited by Gaby Clark, and fact-checked and reviewed by Robert Egan—this article is the result of careful human work. We rely on readers like you to keep independent science journalism alive.\nIf this reporting matters to you, please consider a donation (especially monthly). You'll get an ad-free account as a thank-you.\n\nPublication details\nConor Larison et al., SN Ares: A Strongly Lensed Type IIb Supernova at z=1.276 with a Predicted 70-Year Time Delay, arXiv (2026). DOI: 10.48550/arxiv.2610.33161\n\nJournal information:\narXiv\n\nWho's behind this story?\n\nShreejaya Karantha\n\nShreejaya Karantha is a science writer and astronomy communicator based in India, with a focus on astrophysics and the early universe.\n\nFull profile →\n\nGaby Clark\n\nMA in English, copy editor since 2021 with experience in higher education and health content. Dedicated to trustworthy science news.\n\nFull profile →\n\nRobert Egan\n\nBachelor's in mathematical biology, Master's in creative writing. Well-traveled with unique perspectives on science and language.\n\nFull profile →\n\n© 2026 Science X Network\n\nCitation:\nA cosmic magnifying glass could reveal the same supernova two more times in roughly 70 years (2026, November 14)\nretrieved 14 November 2026\nfrom https://phys.org/news/2026-11-cosmic-magnifying-glass-reveal-supernova.html\n\nThis document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no\npart may be reproduced without the written permission. The content is provided for information purposes only.",
-      "images": [
-        {
-          "url": "https://scx2.b-cdn.net/gfx/news/hires/2026/a-cosmic-magnifying-gl.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://scx2.b-cdn.net/gfx/news/2026/a-cosmic-magnifying-gl.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://scx1.b-cdn.net/csz/news/800a/2026/a-cosmic-magnifying-gl.jpg",
-          "alt": "A cosmic magnifying glass could reveal the same supernova again in roughly 70 years"
-        },
-        {
-          "url": "https://scx1.b-cdn.net/csz/news/800a/2026/a-cosmic-magnifying-gl-1.jpg",
-          "alt": "A cosmic magnifying glass could reveal the same supernova again in roughly 70 years"
-        },
-        {
-          "url": "https://scx1.b-cdn.net/gfx/profiles/6d1fa912f0a9344f.png",
-          "alt": "Shreejaya Karantha"
-        },
-        {
-          "url": "https://scx1.b-cdn.net/gfx/profiles/58445787ab38cfb6.png",
-          "alt": "Gaby Clark"
-        },
-        {
-          "url": "https://scx1.b-cdn.net/gfx/profiles/b3013a0f7fc5c4a0.png",
-          "alt": "Robert Egan"
-        }
-      ],
-      "length": 5643,
-      "imageCount": 7
+      "fetchedAt": "2026-11-14T19:08:01.166Z",
+      "error": "HTTP 403"
     },
     "1j7y806": {
       "version": 4,
       "url": "https://www.playground.ru/gta_6/news/playstation_predlagaet_arendovat_ps5_i_gta_6_za_18_funtov_v_mesyats_no_za_tri_goda_pridetsya_pereplatit_za_konsol-1890697",
-      "fetchedAt": "2026-11-14T19:05:40.727Z",
+      "fetchedAt": "2026-11-14T19:08:01.369Z",
       "title": "PlayStation предлагает арендовать PS5 и GTA 6 за 18 фунтов в месяц, но за три года придется переплатить за консоль",
       "byline": "IKarasik",
       "siteName": "Playground",
@@ -31439,7 +31432,7 @@
     "pslgzp": {
       "version": 4,
       "url": "https://variety.com/2026/tv/news/skip-hinnant-dead-electric-company-fritz-the-cat-bakshi-1236947741/",
-      "fetchedAt": "2026-11-14T19:05:41.168Z",
+      "fetchedAt": "2026-11-14T19:08:01.683Z",
       "title": "Skip Hinnant Dead: 'Electric Company,' 'Fritz the Cat' Star was 86",
       "byline": "Cynthia Littleton",
       "siteName": "Variety",
@@ -31456,11 +31449,11 @@
     "jnvrbo": {
       "version": 4,
       "url": "https://www.playground.ru/dark_souls/news/sovokupnye_prodazhi_serii_dark_souls_dostigli_41_8_milliona_kopij-1890691",
-      "fetchedAt": "2026-11-14T19:05:41.245Z",
+      "fetchedAt": "2026-11-14T19:08:01.817Z",
       "title": "Совокупные продажи серии Dark Souls достигли 41,8 миллиона копий",
       "byline": "Gruz_",
       "siteName": "Playground",
-      "content": "Компания Bandai Namco представила новый финансовый отчёт, в котором раскрыла актуальные показатели продаж культовой экшен-RPG серии Dark Souls, разработанной студией FromSoftware.\nСогласно опубликованным данным, совокупный тираж франшизы с момента её запуска достиг отметки в 41,8 миллиона проданных копий по всему миру. В эту статистику вошли три основные номерные игры серии, а также их последующие переиздания.\nРелиз всех проектов линейки Dark Souls состоялся до выхода следующего масштабного хита студии — ролевого экшена Elden Ring. При этом сама оригинальная Elden Ring, ставшая идейным продолжением серии, показала не менее впечатляющий коммерческий результат, разойдясь тиражом свыше 20 миллионов копий.",
+      "content": "Gruz_\n\n52 минуты назад\n\nКомпания Bandai Namco представила новый финансовый отчёт, в котором раскрыла актуальные показатели продаж культовой экшен-RPG серии Dark Souls, разработанной студией FromSoftware.\nСогласно опубликованным данным, совокупный тираж франшизы с момента её запуска достиг отметки в 41,8 миллиона проданных копий по всему миру. В эту статистику вошли три основные номерные игры серии, а также их последующие переиздания.\nРелиз всех проектов линейки Dark Souls состоялся до выхода следующего масштабного хита студии — ролевого экшена Elden Ring. При этом сама оригинальная Elden Ring, ставшая идейным продолжением серии, показала не менее впечатляющий коммерческий результат, разойдясь тиражом свыше 20 миллионов копий.",
       "images": [
         {
           "url": "https://i.playground.ru/e/zAMdkHzecFEqBYVD2Pp0dw.jpeg",
@@ -31475,13 +31468,13 @@
           "alt": ""
         }
       ],
-      "length": 711,
+      "length": 735,
       "imageCount": 3
     },
     "1a3i03k": {
       "version": 4,
       "url": "https://www.playground.ru/misc/news/operator_prizrachnogo_gonschika_linus_sandgren_rasskazal_o_syomkah_i_vizualnom_stile_perezapuska-1890688",
-      "fetchedAt": "2026-11-14T19:05:41.734Z",
+      "fetchedAt": "2026-11-14T19:08:02.206Z",
       "title": "Оператор \"Призрачного гонщика\" Линус Сандгрен рассказал о съёмках и визуальном стиле перезапуска",
       "byline": "Gruz_",
       "siteName": "Playground",
@@ -31499,31 +31492,10 @@
       "length": 1378,
       "imageCount": 2
     },
-    "1yizmb2": {
-      "version": 4,
-      "url": "https://www.playground.ru/cyberpunk_2077/news/dlya_cyberpunk_2077_vyshel_mod_torrent_s_realistichnym_3d_dozhdyom_dinamicheskimi_grozami_molniyami_i_pogodnymi_effektami-1890690",
-      "fetchedAt": "2026-11-14T19:05:41.880Z",
-      "title": "Для Cyberpunk 2077 вышел мод Torrent с реалистичным 3D-дождём, динамическими грозами, молниями и погодными эффектами",
-      "byline": "Legend_of_the_Hero",
-      "siteName": "Playground",
-      "content": "Моддер CyanideX выпустил для Cyberpunk 2077 новую модификацию Torrent, значительно перерабатывающую систему дождя и погодных эффектов. Вместо стандартных плоских эффектов осадков мод добавляет полноценные трёхмерные капли, каждая из которых обладает собственным размером и скоростью падения. Они сохраняют положение в игровом мире при движении камеры, благодаря чему дождь приобретает дополнительную глубину и выглядит значительно реалистичнее.\nОсобое внимание уделено взаимодействию осадков с движением персонажа и транспорта. Во время быстрой езды капли устремляются навстречу лобовому стеклу, ветер отклоняет их в стороны, а бег персонажа также влияет на направление падения. Дождь реагирует на окружающее освещение, включая уличные фонари, неоновые вывески и автомобильные фары. В плотных потоках осадков становятся заметны световые лучи и красные отблески задних фонарей машин. Эти эффекты работают при любой скорости передвижения как от первого, так и от третьего лица.\n\nTorrent учитывает особенности игрового окружения: дождь прекращается там, где его отключает стандартная погодная система Cyberpunk 2077, поэтому капли не проходят сквозь стены и не появляются внутри помещений. Под крышами персонаж защищён от осадков, хотя сильный ветер способен заносить дождь под мосты и в другие открытые укрытия. При соприкосновении с землёй и крышами капли образуют брызги, мелкую водяную взвесь и круги на поверхности, а сильный ливень сопровождается туманом вдали.\nМодификация поддерживает несколько погодных условий, включая Rain, Light Rain, Toxic Rain и Rainy Night, а также совместима с дождливой погодой из Nova City 2 и других погодных модов. Интенсивность осадков плавно изменяется вместе с погодой: от локальной мелкой мороси до мощных ливней. Направление капель зависит от ветра, а во время штормов порывы могут создавать целые завесы дождя. Все эффекты синхронизированы с игровым временем — они замедляются при включении замедленного движения и полностью останавливаются во время паузы.\nДля пользователей Nova City 2 предусмотрены дополнительные штормовые эффекты. Во время непогоды туман распространяется вдоль улиц под воздействием ветра, усиливается при порывах и постепенно приближается к игроку. Мелкая водяная взвесь перемещается у самой земли и может устремляться навстречу автомобилю во время движения. При необходимости штормовой туман можно отключить через меню настроек модификации.\nЕщё одним крупным нововведением стала собственная система молний. Каждый разряд формирует уникальную разветвлённую структуру, которая сначала едва заметно проявляется в облаках, затем ярко вспыхивает, мерцает и постепенно исчезает. Молнии освещают небо, облака, дождь и удалённый туман. Близкие разряды имеют яркое голубовато-белое свечение, тогда как далёкие приобретают более мягкий розоватый оттенок.\nВо время штормов молнии могут появляться примерно каждые 15 минут игрового времени в промежутке между 21:00 и 02:00, тогда как днём они встречаются реже. Иногда разряды следуют друг за другом с интервалом в несколько секунд или возникают практически одновременно. Пользователям доступна настройка Lightning Frequency с десятью уровнями интенсивности, причём третий установлен по умолчанию. Система также способна работать без Nova City 2: параметр All Rain позволяет включить молнии для стандартных дождливых погодных условий игры. Кроме того, игрок может назначить клавишу для принудительного вызова разряда во время дождя.\nЗвуковое сопровождение грома реализовано через мод AudioXL. Задержка между вспышкой молнии и звуком зависит от расстояния до разряда: близкие удары сопровождаются громким треском, а удалённые — приглушённым раскатистым гулом. Звук распространяется со стороны удара и дополнительно приглушается, когда персонаж находится внутри автомобиля.\nРазработчик предусмотрел настройки для пользователей, чувствительных к ярким вспышкам. Функция Reduce Flashes уменьшает яркость молний, заменяет быстрое мерцание одним плавным свечением, вдвое снижает частоту разрядов и исключает одновременное появление двух молний. При желании электрические разряды можно полностью отключить.\nДополнительно Torrent улучшает взаимодействие автомобилей с мокрыми дорогами. Колёса выбрасывают капли воды и мелкие брызги, формируя за машиной шлейф тумана, который постепенно рассеивается под воздействием ветра. Чем выше скорость автомобиля, тем интенсивнее эффект. Аналогичные брызги появляются и у шести ближайших движущихся автомобилей.",
-      "images": [
-        {
-          "url": "https://i.playground.ru/e/d27yYKnv9ZbFYVywjpaZgA.webp",
-          "alt": ""
-        },
-        {
-          "url": "https://i.playground.ru/p/d27yYKnv9ZbFYVywjpaZgA.webp?760xauto",
-          "alt": ""
-        }
-      ],
-      "length": 4442,
-      "imageCount": 2
-    },
     "gh-1445853209": {
       "version": 4,
       "url": "https://github.com/VibePorter/Lazarus",
-      "fetchedAt": "2026-11-14T19:05:42.104Z",
+      "fetchedAt": "2026-11-14T19:08:02.475Z",
       "title": "GitHub - VibePorter/Lazarus: Mass Effect 2 (Xbox 360, Title Update 2) statically recompiled for the PC & Nintendo Switch, with a native deko3d renderer. Bring your own game files.",
       "byline": "",
       "siteName": "GitHub",
@@ -31565,10 +31537,31 @@
       "length": 17287,
       "imageCount": 8
     },
+    "1yizmb2": {
+      "version": 4,
+      "url": "https://www.playground.ru/cyberpunk_2077/news/dlya_cyberpunk_2077_vyshel_mod_torrent_s_realistichnym_3d_dozhdyom_dinamicheskimi_grozami_molniyami_i_pogodnymi_effektami-1890690",
+      "fetchedAt": "2026-11-14T19:08:02.582Z",
+      "title": "Для Cyberpunk 2077 вышел мод Torrent с реалистичным 3D-дождём, динамическими грозами, молниями и погодными эффектами",
+      "byline": "Legend_of_the_Hero",
+      "siteName": "Playground",
+      "content": "Моддер CyanideX выпустил для Cyberpunk 2077 новую модификацию Torrent, значительно перерабатывающую систему дождя и погодных эффектов. Вместо стандартных плоских эффектов осадков мод добавляет полноценные трёхмерные капли, каждая из которых обладает собственным размером и скоростью падения. Они сохраняют положение в игровом мире при движении камеры, благодаря чему дождь приобретает дополнительную глубину и выглядит значительно реалистичнее.\nОсобое внимание уделено взаимодействию осадков с движением персонажа и транспорта. Во время быстрой езды капли устремляются навстречу лобовому стеклу, ветер отклоняет их в стороны, а бег персонажа также влияет на направление падения. Дождь реагирует на окружающее освещение, включая уличные фонари, неоновые вывески и автомобильные фары. В плотных потоках осадков становятся заметны световые лучи и красные отблески задних фонарей машин. Эти эффекты работают при любой скорости передвижения как от первого, так и от третьего лица.\n\nTorrent учитывает особенности игрового окружения: дождь прекращается там, где его отключает стандартная погодная система Cyberpunk 2077, поэтому капли не проходят сквозь стены и не появляются внутри помещений. Под крышами персонаж защищён от осадков, хотя сильный ветер способен заносить дождь под мосты и в другие открытые укрытия. При соприкосновении с землёй и крышами капли образуют брызги, мелкую водяную взвесь и круги на поверхности, а сильный ливень сопровождается туманом вдали.\nМодификация поддерживает несколько погодных условий, включая Rain, Light Rain, Toxic Rain и Rainy Night, а также совместима с дождливой погодой из Nova City 2 и других погодных модов. Интенсивность осадков плавно изменяется вместе с погодой: от локальной мелкой мороси до мощных ливней. Направление капель зависит от ветра, а во время штормов порывы могут создавать целые завесы дождя. Все эффекты синхронизированы с игровым временем — они замедляются при включении замедленного движения и полностью останавливаются во время паузы.\nДля пользователей Nova City 2 предусмотрены дополнительные штормовые эффекты. Во время непогоды туман распространяется вдоль улиц под воздействием ветра, усиливается при порывах и постепенно приближается к игроку. Мелкая водяная взвесь перемещается у самой земли и может устремляться навстречу автомобилю во время движения. При необходимости штормовой туман можно отключить через меню настроек модификации.\nЕщё одним крупным нововведением стала собственная система молний. Каждый разряд формирует уникальную разветвлённую структуру, которая сначала едва заметно проявляется в облаках, затем ярко вспыхивает, мерцает и постепенно исчезает. Молнии освещают небо, облака, дождь и удалённый туман. Близкие разряды имеют яркое голубовато-белое свечение, тогда как далёкие приобретают более мягкий розоватый оттенок.\nВо время штормов молнии могут появляться примерно каждые 15 минут игрового времени в промежутке между 21:00 и 02:00, тогда как днём они встречаются реже. Иногда разряды следуют друг за другом с интервалом в несколько секунд или возникают практически одновременно. Пользователям доступна настройка Lightning Frequency с десятью уровнями интенсивности, причём третий установлен по умолчанию. Система также способна работать без Nova City 2: параметр All Rain позволяет включить молнии для стандартных дождливых погодных условий игры. Кроме того, игрок может назначить клавишу для принудительного вызова разряда во время дождя.\nЗвуковое сопровождение грома реализовано через мод AudioXL. Задержка между вспышкой молнии и звуком зависит от расстояния до разряда: близкие удары сопровождаются громким треском, а удалённые — приглушённым раскатистым гулом. Звук распространяется со стороны удара и дополнительно приглушается, когда персонаж находится внутри автомобиля.\nРазработчик предусмотрел настройки для пользователей, чувствительных к ярким вспышкам. Функция Reduce Flashes уменьшает яркость молний, заменяет быстрое мерцание одним плавным свечением, вдвое снижает частоту разрядов и исключает одновременное появление двух молний. При желании электрические разряды можно полностью отключить.\nДополнительно Torrent улучшает взаимодействие автомобилей с мокрыми дорогами. Колёса выбрасывают капли воды и мелкие брызги, формируя за машиной шлейф тумана, который постепенно рассеивается под воздействием ветра. Чем выше скорость автомобиля, тем интенсивнее эффект. Аналогичные брызги появляются и у шести ближайших движущихся автомобилей.",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/d27yYKnv9ZbFYVywjpaZgA.webp",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/d27yYKnv9ZbFYVywjpaZgA.webp?760xauto",
+          "alt": ""
+        }
+      ],
+      "length": 4442,
+      "imageCount": 2
+    },
     "1y6b1x": {
       "version": 4,
       "url": "https://variety.com/2026/shopping/news/how-to-watch-ufc-334-gane-vs-hokit-live-online-free-1236945089/",
-      "fetchedAt": "2026-11-14T19:05:42.272Z",
+      "fetchedAt": "2026-11-14T19:08:02.712Z",
       "title": "UFC 334 Live: How to Watch Ciryl Gane vs. Josh Hokit Live Online Free",
       "byline": "Rudie Obias",
       "siteName": "Variety",
@@ -31582,16 +31575,10 @@
       "length": 3675,
       "imageCount": 1
     },
-    "1wd9qq": {
-      "version": 4,
-      "url": "https://www.motor1.com/news/815462/corvette-eray-massive-depreciation-auction/",
-      "fetchedAt": "2026-11-14T19:05:42.288Z",
-      "error": "HTTP 403"
-    },
     "18rhdkp": {
       "version": 4,
       "url": "https://www.rockpapershotgun.com/from-2d-to-3d-and-back-to-2d-again-the-original-platforming-classic-super-meat-boy-returns-with-a-slick-remaster-complete-with-new-levels-and-too-many-old-saws",
-      "fetchedAt": "2026-11-14T19:05:42.491Z",
+      "fetchedAt": "2026-11-14T19:08:02.886Z",
       "title": "From 2D to 3D and back to 2D again, the original platforming classic Super Meat Boy returns with a slick remaster complete with new levels and too many old saws",
       "byline": "Oisin Kuhnke",
       "siteName": "Rock Paper Shotgun",
@@ -31608,7 +31595,7 @@
     "yenhyi": {
       "version": 4,
       "url": "https://www.playground.ru/gta_6/news/glava_take_two_ne_schitaet_ii_klony_gta_6_ugrozoj_dohodam_no_opasaetsya_za_tvorchestvo_rockstar_i_zaschitu_avtorskih_prav-1890692",
-      "fetchedAt": "2026-11-14T19:05:42.587Z",
+      "fetchedAt": "2026-11-14T19:08:02.984Z",
       "title": "Глава Take-Two не считает ИИ-клоны GTA 6 угрозой доходам, но опасается за творчество Rockstar и защиту авторских прав",
       "byline": "Legend_of_the_Hero",
       "siteName": "Playground",
@@ -31630,10 +31617,16 @@
       "length": 1881,
       "imageCount": 3
     },
+    "1wd9qq": {
+      "version": 4,
+      "url": "https://www.motor1.com/news/815462/corvette-eray-massive-depreciation-auction/",
+      "fetchedAt": "2026-11-14T19:08:03.007Z",
+      "error": "HTTP 403"
+    },
     "1vurw6c": {
       "version": 4,
       "url": "https://techcrunch.com/2026/11/14/the-ai-graveyard-a-running-list-of-projects-and-startups-that-didnt-make-it/",
-      "fetchedAt": "2026-11-14T19:05:42.759Z",
+      "fetchedAt": "2026-11-14T19:08:03.185Z",
       "title": "The AI graveyard: a running list of projects and startups that didn’t make it",
       "byline": "Lauren Forristal",
       "siteName": "TechCrunch",
@@ -31679,10 +31672,31 @@
       "length": 9589,
       "imageCount": 9
     },
+    "1pwh6va": {
+      "version": 4,
+      "url": "https://www.caranddriver.com/news/a74427363/1979-ss-monte-mino-2026-hot-wheels-legends-tour-winner/",
+      "fetchedAt": "2026-11-14T19:08:03.507Z",
+      "title": "Hot Wheels Crowns a 1979 ‘SS Monte Mino’ as the 2026 Legends Winner",
+      "byline": "Alayna Wilkening",
+      "siteName": "Car and Driver",
+      "content": "The 2026 Hot Wheels Legends Tour winner is a custom 1979 Chevrolet El Camino from Florida.Matt McEntegart’s “SS Monte Mino” is built from a Corvette chassis, an El Camino body, and a custom Monte Carlo–inspired wide-body mold.The SS Monte Mino beat out thousands of entries from around the world and will become an official 1:64-scale Hot Wheels die-cast car.Every year since its 50th anniversary in 2018, Hot Wheels has embarked on a worldwide journey to find the ultimate custom car worthy of becoming set in die-cast immortality. The Legends Tour is no joke, and this year’s finalists included a 1961 Morris Minivan transformed into a pickup truck, a custom 1990 NA wide-body Miata, and a bespoke 1992 Chevrolet Salaya SP.MattelBut above the exotic and the absurd, Matt McEntegart’s custom 1979 Chevrolet El Camino, named the “SS Monte Mino,” brings the trophy home. McEntegart, a Florida native, spent thousands of hours designing and fabricating the build. While the SS Monte Mino wears an El Camino shell, it’s anything but stock, taking parts and inspiration from Corvettes and Monte Carlos.For Sale Near YouSee all results for near 60525The SS Monte Mino rides on a modified sixth-generation Corvette chassis. McEntegart stretched the El Camino’s wheelbase by 12 inches and crafted a custom Monte Carlo–inspired wide-body kit using foam prototypes and molds.MattelThe Frankenstein car is powered by a modified Chevy V-8 engine, complete with exposed velocity stacks and performance upgrades. The car practically sits on top of its 22-inch gold wheels thanks to a custom air suspension system.McEntegart’s low-slung custom ute is a sight to behold, and it truly looks like it was born to speed down a bright orange Hot Wheels track. The exterior is painted in a dark maroon color and uses red-tinted forged carbon-fiber panels to bring out the details along the bodywork.MattelInside, the car is all-out retro, with a custom red leather interior to match the exterior red accents. The seats feature a red, black, and gray plaid pattern, and the center console seamlessly blends a few bits of modern tech with the car’s vintage-styled interior.The SS Monte Mino will be transformed into a 1:64-scale die-cast Hot Wheels car and join the brand’s Garage of Legends, where it’ll sit among past global winners. The scale model will eventually be available to buy worldwide.➡️ Skip the lot. Let Car and Driver help you find your next car.Alayna Wilkening grew up reading motorsport magazines and following her grandpa around his Chevrolet dealership's showroom floor. In true Hoosier fashion, her first car was a hot pink custom cardboard \"Fiero-vette\" for her kindergarten Kindy 500 race. She now autocrosses a 1994 Miata with her dad, which she learned to drive the night before her first event. Alayna went to Indiana University and graduated with a degree in journalism and a minor in graphic design. As a testament to her great taste in cars, her first real one was a metallic orange 2007 Chevy HHR, which she lovingly called \"The Dumptruck.\"",
+      "images": [
+        {
+          "url": "https://hips.hearstapps.com/hmg-prod/images/2479e4b5-6032-4676-8198-fbe71e7e1871.jpeg?crop=1xw:0.75xh;0xw,0.126xh&resize=1200:*",
+          "alt": ""
+        },
+        {
+          "url": "https://hips.hearstapps.com/rover/profile_photos/c5790f45-c839-4318-afb4-34e1475d3ab7_1784212195.file?fill=1:1&resize=120:*",
+          "alt": "Headshot of Alayna Wilkening"
+        }
+      ],
+      "length": 3048,
+      "imageCount": 2
+    },
     "q94jo5": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/tv/tv-news/shane-gillis-addresses-snl-monologue-backlash-1236755428/",
-      "fetchedAt": "2026-11-14T19:05:43.107Z",
+      "fetchedAt": "2026-11-14T19:08:03.832Z",
       "title": "Shane Gillis Addresses ‘SNL’ Monologue Backlash, Says He Promised the Show There Would Be “No Controversy”",
       "byline": "Lexi Carson",
       "siteName": "The Hollywood Reporter",
@@ -31699,7 +31713,7 @@
     "1z0ph0i": {
       "version": 4,
       "url": "https://www.playground.ru/misc/news/spustya_pochti_20_let_videokarty_amd_radeon_hd_2000_i_hd_3000_poluchat_ispravlenie_dekodirovaniya_video_v_linux_7_5-1890683",
-      "fetchedAt": "2026-11-14T19:05:43.197Z",
+      "fetchedAt": "2026-11-14T19:08:03.904Z",
       "title": "Спустя почти 20 лет видеокарты AMD Radeon HD 2000 и HD 3000 получат исправление декодирования видео в Linux 7.5",
       "byline": "Legend_of_the_Hero",
       "siteName": "Playground",
@@ -31725,31 +31739,10 @@
       "length": 2136,
       "imageCount": 4
     },
-    "1pwh6va": {
-      "version": 4,
-      "url": "https://www.caranddriver.com/news/a74427363/1979-ss-monte-mino-2026-hot-wheels-legends-tour-winner/",
-      "fetchedAt": "2026-11-14T19:05:43.395Z",
-      "title": "Hot Wheels Crowns a 1979 ‘SS Monte Mino’ as the 2026 Legends Winner",
-      "byline": "Alayna Wilkening",
-      "siteName": "Car and Driver",
-      "content": "The 2026 Hot Wheels Legends Tour winner is a custom 1979 Chevrolet El Camino from Florida.Matt McEntegart’s “SS Monte Mino” is built from a Corvette chassis, an El Camino body, and a custom Monte Carlo–inspired wide-body mold.The SS Monte Mino beat out thousands of entries from around the world and will become an official 1:64-scale Hot Wheels die-cast car.Every year since its 50th anniversary in 2018, Hot Wheels has embarked on a worldwide journey to find the ultimate custom car worthy of becoming set in die-cast immortality. The Legends Tour is no joke, and this year’s finalists included a 1961 Morris Minivan transformed into a pickup truck, a custom 1990 NA wide-body Miata, and a bespoke 1992 Chevrolet Salaya SP.MattelBut above the exotic and the absurd, Matt McEntegart’s custom 1979 Chevrolet El Camino, named the “SS Monte Mino,” brings the trophy home. McEntegart, a Florida native, spent thousands of hours designing and fabricating the build. While the SS Monte Mino wears an El Camino shell, it’s anything but stock, taking parts and inspiration from Corvettes and Monte Carlos.For Sale Near YouSee all results for near 60525The SS Monte Mino rides on a modified sixth-generation Corvette chassis. McEntegart stretched the El Camino’s wheelbase by 12 inches and crafted a custom Monte Carlo–inspired wide-body kit using foam prototypes and molds.MattelThe Frankenstein car is powered by a modified Chevy V-8 engine, complete with exposed velocity stacks and performance upgrades. The car practically sits on top of its 22-inch gold wheels thanks to a custom air suspension system.McEntegart’s low-slung custom ute is a sight to behold, and it truly looks like it was born to speed down a bright orange Hot Wheels track. The exterior is painted in a dark maroon color and uses red-tinted forged carbon-fiber panels to bring out the details along the bodywork.MattelInside, the car is all-out retro, with a custom red leather interior to match the exterior red accents. The seats feature a red, black, and gray plaid pattern, and the center console seamlessly blends a few bits of modern tech with the car’s vintage-styled interior.The SS Monte Mino will be transformed into a 1:64-scale die-cast Hot Wheels car and join the brand’s Garage of Legends, where it’ll sit among past global winners. The scale model will eventually be available to buy worldwide.➡️ Skip the lot. Let Car and Driver help you find your next car.Alayna Wilkening grew up reading motorsport magazines and following her grandpa around his Chevrolet dealership's showroom floor. In true Hoosier fashion, her first car was a hot pink custom cardboard \"Fiero-vette\" for her kindergarten Kindy 500 race. She now autocrosses a 1994 Miata with her dad, which she learned to drive the night before her first event. Alayna went to Indiana University and graduated with a degree in journalism and a minor in graphic design. As a testament to her great taste in cars, her first real one was a metallic orange 2007 Chevy HHR, which she lovingly called \"The Dumptruck.\"",
-      "images": [
-        {
-          "url": "https://hips.hearstapps.com/hmg-prod/images/2479e4b5-6032-4676-8198-fbe71e7e1871.jpeg?crop=1xw:0.75xh;0xw,0.126xh&resize=1200:*",
-          "alt": ""
-        },
-        {
-          "url": "https://hips.hearstapps.com/rover/profile_photos/c5790f45-c839-4318-afb4-34e1475d3ab7_1784212195.file?fill=1:1&resize=120:*",
-          "alt": "Headshot of Alayna Wilkening"
-        }
-      ],
-      "length": 3048,
-      "imageCount": 2
-    },
     "1ug1r22": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/tv/tv-news/boston-college-notre-dame-football-game-free-stream-online-1236754220/",
-      "fetchedAt": "2026-11-14T19:05:43.589Z",
+      "fetchedAt": "2026-11-14T19:08:04.125Z",
       "title": "Boston College vs. Notre Dame Livestream: Where to Watch the College Football Game Online for Free",
       "byline": "Tim Chan",
       "siteName": "The Hollywood Reporter",
@@ -31770,7 +31763,7 @@
     "1pnoa0x": {
       "version": 4,
       "url": "https://www.dexerto.com/entertainment/tiktok-streamer-arrested-after-allegedly-killing-wild-opossum-on-livestream-3428214/",
-      "fetchedAt": "2026-11-14T19:05:43.676Z",
+      "fetchedAt": "2026-11-14T19:08:04.279Z",
       "title": "TikTok streamer arrested after allegedly killing wild opossum on livestream",
       "byline": "Matthew Benson",
       "siteName": "Dexerto",
@@ -31791,7 +31784,7 @@
     "1vmiemd": {
       "version": 4,
       "url": "https://www.bleepingcomputer.com/news/security/cursor-confirms-security-breach-led-to-malicious-claude-code-extension/",
-      "fetchedAt": "2026-11-14T19:05:43.743Z",
+      "fetchedAt": "2026-11-14T19:08:04.410Z",
       "title": "Cursor confirms security breach led to malicious Claude Code extension",
       "byline": "Lawrence Abrams",
       "siteName": "BleepingComputer",
@@ -31816,7 +31809,7 @@
     "g016r2": {
       "version": 4,
       "url": "https://steamdeckhq.com/news/proton-experimental-fixes-archeage-chronicles/",
-      "fetchedAt": "2026-11-14T19:05:43.982Z",
+      "fetchedAt": "2026-11-14T19:08:04.571Z",
       "title": "New Proton Experimental Update Makes ArcheAge Chronicles Playable on Steam Deck - Steam Deck HQ",
       "byline": "Noah Kupetsky",
       "siteName": "Steam Deck HQ",
@@ -31834,10 +31827,27 @@
       "length": 1468,
       "imageCount": 2
     },
+    "1aasuox": {
+      "version": 4,
+      "url": "https://www.playground.ru/gta_5/news/dlya_gta_v_legacy_vyshel_vr_mod_gtavxr_s_nativnym_stereorenderingom_i_otslezhivaniem_dvizhenij-1890681",
+      "fetchedAt": "2026-11-14T19:08:04.770Z",
+      "title": "Для GTA V Legacy вышел VR-мод GTAVXR с нативным стереорендерингом и отслеживанием движений",
+      "byline": "Extor Menoger",
+      "siteName": "Playground",
+      "content": "Разработчик под ником LVLtheEngineer выпустил версию 1.0 модификации GTAVXR для Grand Theft Auto V Legacy. Проект превращает классическое ПК-издание экшена в полноценную игру для виртуальной реальности с нативным стереоскопическим рендерингом, отслеживанием головы по 6 степеням свободы и поддержкой контроллеров движений. Ранее единственным известным способом запустить Лос-Сантос в шлеме считался мод R.E.A.L. VR от Люка Росса, который не поддерживал управление руками, использовал поочередный рендеринг для каждого глаза и был закрыт после претензий со стороны Take-Two Interactive.\nНа опубликованных кадрах геймплея с гарнитуры Meta Quest 3 через Virtual Desktop видно, насколько глубоко переработано взаимодействие с миром. Игроки могут доставать оружие из-за плеча через виртуальное колесо выбора, целиться через штатные прицелы, вручную вынимать пустые магазины, передергивать затвор, взводить помповый дробовик и заряжать гранатомет RPG. Гранаты бросаются физическим движением руки после выдергивания чеки, а для работы со смартфоном персонажа используется виртуальный палец, которым приходится нажимать на кнопки экрана для набора номеров и чит-кодов.\nТранспортная система в GTAVXR также переведена на физическое управление. В автомобилях, грузовиках и на мотоциклах руки персонажа с системой инверсной кинематики всего тела напрямую хватаются за руль, позволяя осматривать салон, зеркала и дорогу вокруг. При посадке в частный самолет в аэропорту Лос-Сантоса штурвал также реагирует на движения контроллеров, а обзор позволяет свободно заглянуть в пассажирский салон прямо во время полета. На системе с видеокартой NVIDIA GeForce RTX 4080 Super в режиме VDXR модификация выдает от 75 до 90 кадров в секунду при высоком качестве графики и разрешении рендеринга 2496 на 2608 пикселей.\nВнутри игры доступно подробное VR-меню и встроенный трейнер с калибровкой роста и положения рук, настройкой чувствительности техники, режимами отображения тела, параметров прицела снайперской винтовки и поддержкой апскейлинга DLSS Super Resolution вместе с технологией Neural Rendering. Для работы нейросетевых функций пользователям потребуется самостоятельно добавить совместимые библиотеки NVIDIA под свою видеокарту, а без них доступен базовый пресет Native. При этом модификация поддерживает исключительно 64-битную Windows и легальную копию Grand Theft Auto V Legacy сборки 1.0.3889.0, оставляя в стороне обновленное издание Enhanced.\nВерсия 1.0 ориентирована на исследование открытого мира в виртуальной реальности. Сюжетные миссии также можно пройти, хотя в отдельных эпизодах может потребоваться корректировка или временное переключение на стандартное управление.- LVLtheEngineer, создатель модификации GTAVXR\nИз-за особенностей движка в сюжетной кампании все еще встречаются технические шероховатости. Кат-сцены сохраняют оригинальную постановку камеры, что способно вызывать дискомфорт, а после завершения миссий или резких переходов точка обзора иногда смещается под карту. Кроме того, в прологе в Северном Янктоне сбой контроллеров движений блокирует стартовое переключение с Майкла на Тревора. Для таких ситуаций автор добавил горячую клавишу F10, мгновенно возвращающую игру в плоский режим для прохождения проблемного эпизода с геймпада или клавиатуры, а также функцию центрирования камеры Recenter.\nОтдельно разработчик прокомментировал установку и ложные срабатывания антивирусов. Инсталлятор GTAVXR.exe проверяет файлы установленной игры и патчит исполняемый файл локально на ПК пользователя, из-за чего Microsoft Defender у части игроков начал помечать программу как подозрительную. Автор опубликовал контрольные суммы SHA-256 и отметил, что собственная проверка через Microsoft Defender угроз не выявила. Пользователи на Reddit и в сообществе Flat2VR уже оценили глубину настроек доступности и назвали проект модом для GTA V, которого все так ждали, однако указали на шероховатости в кат-сценах, высокие требования к производительности и нехватку опционального лазерного целеуказателя для более удобного прицеливания.",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/wTjzChVuQz-MGMvSLcPpjA.jpeg",
+          "alt": ""
+        }
+      ],
+      "length": 4030,
+      "imageCount": 1
+    },
     "a3mnfh": {
       "version": 4,
       "url": "https://deadline.com/2026/11/c-w-morgan-cause-of-death-1237223783/",
-      "fetchedAt": "2026-11-14T19:05:44.406Z",
+      "fetchedAt": "2026-11-14T19:08:05.153Z",
       "title": "‘Scream’ Actor C.W. Morgan’s Cause Of Death Revealed",
       "byline": "Greg Evans",
       "siteName": "Deadline",
@@ -31855,27 +31865,10 @@
       "length": 1119,
       "imageCount": 2
     },
-    "1aasuox": {
-      "version": 4,
-      "url": "https://www.playground.ru/gta_5/news/dlya_gta_v_legacy_vyshel_vr_mod_gtavxr_s_nativnym_stereorenderingom_i_otslezhivaniem_dvizhenij-1890681",
-      "fetchedAt": "2026-11-14T19:05:44.488Z",
-      "title": "Для GTA V Legacy вышел VR-мод GTAVXR с нативным стереорендерингом и отслеживанием движений",
-      "byline": "Extor Menoger",
-      "siteName": "Playground",
-      "content": "Разработчик под ником LVLtheEngineer выпустил версию 1.0 модификации GTAVXR для Grand Theft Auto V Legacy. Проект превращает классическое ПК-издание экшена в полноценную игру для виртуальной реальности с нативным стереоскопическим рендерингом, отслеживанием головы по 6 степеням свободы и поддержкой контроллеров движений. Ранее единственным известным способом запустить Лос-Сантос в шлеме считался мод R.E.A.L. VR от Люка Росса, который не поддерживал управление руками, использовал поочередный рендеринг для каждого глаза и был закрыт после претензий со стороны Take-Two Interactive.\nНа опубликованных кадрах геймплея с гарнитуры Meta Quest 3 через Virtual Desktop видно, насколько глубоко переработано взаимодействие с миром. Игроки могут доставать оружие из-за плеча через виртуальное колесо выбора, целиться через штатные прицелы, вручную вынимать пустые магазины, передергивать затвор, взводить помповый дробовик и заряжать гранатомет RPG. Гранаты бросаются физическим движением руки после выдергивания чеки, а для работы со смартфоном персонажа используется виртуальный палец, которым приходится нажимать на кнопки экрана для набора номеров и чит-кодов.\nТранспортная система в GTAVXR также переведена на физическое управление. В автомобилях, грузовиках и на мотоциклах руки персонажа с системой инверсной кинематики всего тела напрямую хватаются за руль, позволяя осматривать салон, зеркала и дорогу вокруг. При посадке в частный самолет в аэропорту Лос-Сантоса штурвал также реагирует на движения контроллеров, а обзор позволяет свободно заглянуть в пассажирский салон прямо во время полета. На системе с видеокартой NVIDIA GeForce RTX 4080 Super в режиме VDXR модификация выдает от 75 до 90 кадров в секунду при высоком качестве графики и разрешении рендеринга 2496 на 2608 пикселей.\nВнутри игры доступно подробное VR-меню и встроенный трейнер с калибровкой роста и положения рук, настройкой чувствительности техники, режимами отображения тела, параметров прицела снайперской винтовки и поддержкой апскейлинга DLSS Super Resolution вместе с технологией Neural Rendering. Для работы нейросетевых функций пользователям потребуется самостоятельно добавить совместимые библиотеки NVIDIA под свою видеокарту, а без них доступен базовый пресет Native. При этом модификация поддерживает исключительно 64-битную Windows и легальную копию Grand Theft Auto V Legacy сборки 1.0.3889.0, оставляя в стороне обновленное издание Enhanced.\nВерсия 1.0 ориентирована на исследование открытого мира в виртуальной реальности. Сюжетные миссии также можно пройти, хотя в отдельных эпизодах может потребоваться корректировка или временное переключение на стандартное управление.- LVLtheEngineer, создатель модификации GTAVXR\nИз-за особенностей движка в сюжетной кампании все еще встречаются технические шероховатости. Кат-сцены сохраняют оригинальную постановку камеры, что способно вызывать дискомфорт, а после завершения миссий или резких переходов точка обзора иногда смещается под карту. Кроме того, в прологе в Северном Янктоне сбой контроллеров движений блокирует стартовое переключение с Майкла на Тревора. Для таких ситуаций автор добавил горячую клавишу F10, мгновенно возвращающую игру в плоский режим для прохождения проблемного эпизода с геймпада или клавиатуры, а также функцию центрирования камеры Recenter.\nОтдельно разработчик прокомментировал установку и ложные срабатывания антивирусов. Инсталлятор GTAVXR.exe проверяет файлы установленной игры и патчит исполняемый файл локально на ПК пользователя, из-за чего Microsoft Defender у части игроков начал помечать программу как подозрительную. Автор опубликовал контрольные суммы SHA-256 и отметил, что собственная проверка через Microsoft Defender угроз не выявила. Пользователи на Reddit и в сообществе Flat2VR уже оценили глубину настроек доступности и назвали проект модом для GTA V, которого все так ждали, однако указали на шероховатости в кат-сценах, высокие требования к производительности и нехватку опционального лазерного целеуказателя для более удобного прицеливания.",
-      "images": [
-        {
-          "url": "https://i.playground.ru/e/wTjzChVuQz-MGMvSLcPpjA.jpeg",
-          "alt": ""
-        }
-      ],
-      "length": 4030,
-      "imageCount": 1
-    },
     "1i0vy8t": {
       "version": 4,
       "url": "https://www.zr.ru/content/news/988505-rul-sprava-ili-sleva-kak-kup/",
-      "fetchedAt": "2026-11-14T19:05:44.734Z",
+      "fetchedAt": "2026-11-14T19:08:05.314Z",
       "title": "Новый надежный кроссовер Honda появился в России с ценой дешевых «китайцев»",
       "byline": "Лежнин Роман",
       "siteName": "zr.ru",
@@ -31896,52 +31889,13 @@
     "k2obul": {
       "version": 4,
       "url": "https://phys.org/news/2026-11-oldest-earth-early-history.html",
-      "fetchedAt": "2026-11-14T19:05:44.820Z",
-      "title": "Some of the oldest rocks ever discovered shed light on Earth's early history",
-      "byline": "Paul Arnold",
-      "siteName": "Phys.org",
-      "content": "Field photographs and photomicrographs of the 3.95-Gyr-old trondhjemitic gneiss. Credit: Nature (2026). DOI: 10.1038/s41586-026-11280-2\n\nEarth is approximately 4.5 billion years old, according to estimates. However, rocks dating back to the planet's earliest days are extremely rare. Hence the excitement over the discovery in northern China of some of the oldest known rocks on Earth, dating back 3.95 billion years. And one of the reasons for all the attention is that they're revealing new clues about how Earth's crust formed and evolved.\n\nResearchers found the rocks in the Shimen Complex in Hebei province and collected three samples for detailed analysis. Scientists have been searching for rocks older than 3.8 billion years in China for decades.\nDating ancient rocks\nThe team, led by Hangqiang Xie of the Chinese Academy of Geological Sciences in Beijing, dated the rocks by analyzing tiny zircon crystals trapped inside them. These contain uranium, which slowly decays into lead at a known rate.\nBut the researchers wanted to know more than just the rocks' age.\nMore specifically, they were interested in how the rocks had formed and what they could reveal about the geological processes taking place on Earth nearly 4 billion years ago.\nTo find out, they analyzed their chemical composition, including different forms of oxygen and hafnium in zircon crystals. The researchers also used computer models to investigate the conditions under which the rocks formed.\nThe results, published in the journal Nature, suggest that a process similar to modern-day plate tectonics may have been taking place in at least one part of Earth nearly 4 billion years ago. A Research Briefing in the same edition provides further insights into the findings.\n\nGeological maps of the study area. Credit: Nature (2026). DOI: 10.1038/s41586-026-11280-2\n\nInternal zircon structures and SHRIMP U–Pb data for the 3.95-Gyr-old trondhjemitic gneiss. Credit: Nature (2026). DOI: 10.1038/s41586-026-11280-2\n\nDeep beneath the surface\nThe analysis revealed that the rocks had originally formed from material that had been in contact with water at or near Earth's surface. Meanwhile, computer models suggested this material was then carried more than 50 kilometers (31 miles) below Earth's surface, where intense heat and pressure caused it to melt partially.\nThe researchers believe this could have happened through a process called subduction. In plate tectonics, this is where one section of the Earth's crust sinks beneath another, as they wrote in their paper. \"We propose that this rapid burial was most likely achieved through a transient subduction event.\"\nAnalysis of hafnium isotopes in the zircon crystals also suggested that the process of separating material from Earth's mantle to form new crust had begun more than 4.3 billion years ago.\nThis was hundreds of millions of years before the rocks in China formed, suggesting that Earth's crust was already evolving very early in the planet's history.\n\nWritten for you by our author Paul Arnold, edited by Gaby Clark, and fact-checked and reviewed by Robert Egan—this article is the result of careful human work. We rely on readers like you to keep independent science journalism alive.\nIf this reporting matters to you, please consider a donation (especially monthly). You'll get an ad-free account as a thank-you.\n\nPublication details\nHangqiang Xie et al., Hadean mantle depletion and 3.95-Gyr subduction implied by North China rocks, Nature (2026). DOI: 10.1038/s41586-026-11280-2\n\nJournal information:\nNature\n\nWho's behind this story?\n\nPaul Arnold\n\nBSc Biology from University of London. BBC documentary producer with world travel experience. Freelances from southern Spain.\n\nFull profile →\n\nGaby Clark\n\nMA in English, copy editor since 2021 with experience in higher education and health content. Dedicated to trustworthy science news.\n\nFull profile →\n\nRobert Egan\n\nBachelor's in mathematical biology, Master's in creative writing. Well-traveled with unique perspectives on science and language.\n\nFull profile →\n\n© 2026 Science X Network\n\nCitation:\nSome of the oldest rocks ever discovered shed light on Earth's early history (2026, November 14)\nretrieved 14 November 2026\nfrom https://phys.org/news/2026-11-oldest-earth-early-history.html\n\nThis document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no\npart may be reproduced without the written permission. The content is provided for information purposes only.",
-      "images": [
-        {
-          "url": "https://scx2.b-cdn.net/gfx/news/hires/2026/some-of-the-oldest-roc-1.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://scx2.b-cdn.net/gfx/news/2026/some-of-the-oldest-roc-1.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://scx1.b-cdn.net/csz/news/800a/2026/some-of-the-oldest-roc-1.jpg",
-          "alt": "Some of the oldest rocks ever discovered shed light on Earth's early history"
-        },
-        {
-          "url": "https://scx1.b-cdn.net/csz/news/800/2026/some-of-the-oldest-roc.jpg",
-          "alt": "Some of the oldest rocks ever discovered shed light on Earth's early history"
-        },
-        {
-          "url": "https://scx1.b-cdn.net/csz/news/800/2026/some-of-the-oldest-roc-2.jpg",
-          "alt": "Some of the oldest rocks ever discovered shed light on Earth's early history"
-        },
-        {
-          "url": "https://scx1.b-cdn.net/gfx/profiles/32d1b3863f6e235e.png",
-          "alt": "Paul Arnold"
-        },
-        {
-          "url": "https://scx1.b-cdn.net/gfx/profiles/58445787ab38cfb6.png",
-          "alt": "Gaby Clark"
-        },
-        {
-          "url": "https://scx1.b-cdn.net/gfx/profiles/b3013a0f7fc5c4a0.png",
-          "alt": "Robert Egan"
-        }
-      ],
-      "length": 4510,
-      "imageCount": 8
+      "fetchedAt": "2026-11-14T19:08:05.393Z",
+      "error": "HTTP 403"
     },
     "i9tk4p": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/los-angeles-french-chef-ludo-lefebvre-comeback-1236753231/",
-      "fetchedAt": "2026-11-14T19:05:45.143Z",
+      "fetchedAt": "2026-11-14T19:08:05.769Z",
       "title": "L.A.’s Most Celebrated French Chef Is Staging a Comeback",
       "byline": "Gary Baum",
       "siteName": "The Hollywood Reporter",
@@ -31962,11 +31916,11 @@
     "1hscdmo": {
       "version": 4,
       "url": "https://habr.com/ru/articles/1107906/",
-      "fetchedAt": "2026-11-14T19:05:45.262Z",
+      "fetchedAt": "2026-11-14T19:08:05.856Z",
       "title": "Достаточно «Искры» одной…",
       "byline": "AlexCRAZY741 час назад",
       "siteName": "Habr",
-      "content": "Достаточно «Искры» одной…Время на прочтение4 минОхват и читатели2.7KПочему я начал делать эту штуку? От жадности и от лени.Нам начали упорно на работе пропихивать модную игрушку (чтобы мы же её и оплачивали). Ну, как бы, не трудно было заметить, что эта драная обёртка в 10 раз больше цены, чем те модели искусственного интеллекта, которые там реально работают. Ну и к тому же интерфейс с вырвиглазной цветовой схемой не для моего зрения. Главное, конечно, от жадности — не хочется оплачивать «воздух» наглым халявщикам, — чувствуешь себя лохом.Лень — двигатель прогрессаПочему от лени? Ну потому что ИИ я активно пользовался, конечно браузерными разными, но это работа копипастером. Закинь файл, напиши задание. Или закинь кусок кода, напиши задание. Закинь файл или кусок кода, который он попросит, потом копируй это из чата, вставляй в живой код. В общем, это довольно-таки быстро надоедает, и невольно задумываешься о том, чтобы как-то не быть прокладкой между блокнотом и чатом в браузере.Первая мысль же, естественно, была — REST API, автоматизировать это дело. Кое-что сделал на PHP, благо, что куча виртуальных серверов на компьютере крутится, и что-то за полчаса там сделать для меня проблем не было. Но это как бы тоже неинтересно, это всё равно оставался копипастером. Поэтому и обратил свой взгляд на свой обычный рабочий инструмент — NetBeans, к которому, в общем-то, вполне можно делать и плагины. Поэтому как бы тему «дай файл, скопируй код» — так это, ребята, договаривайтесь между собой сами: «вот тебе ведро, вот тебе корова».Глаз да глазНу, сказано — сделано. Замутил сперва чат… Ну, там со своими смешариками, конечно, — не без этого.Естественно, одного чата стало мало. Решил ограничиться точечными патчами, потому что знаю я фокусы ИИ уже: «Плавали — знаем». Это обязательно деградирующий с каждой правкой код сделает, накидает там кучу мусора, ещё умудрится половину полезного выбросить при этом. Так что надо внимательно следить за LLM, что она там делает, проверять код. Ну и, естественно, за всем не уследишь, поэтому автоматический бэкап на каждый чих. Ну так вот.План — наше всёНу, естественно, этого стало мало. Поскольку я активно пользуюсь ментальными картами, чтобы планировать свою работу, разумеется, возникло естественное желание пользоваться всем этим в едином инструменте. И чтобы тот же ИИ-ассистент видел эту карту и мог туда что-то вносить, менять, вмешиваться, главным образом — смотреть.По ходу работы выяснилось, что это очень большое подспорье для самой LLM. Заметил, что модель постоянно дёргает эту карту. И как я заметил, работая в контексте всего проекта, в рамках конкретной задачи, конкретного задания, модель ведёт себя значительно умнее. Ну поэтому просто грешно уже было не развивать эту тему дальше.Лекарство от склерозаНу и само собой — долгосрочная память. В браузерных чатах ИИ несколько утомляют своим регулярным склерозом. Материть приходится за одно и то же по нескольку раз. Ну, придумал кое-какие файлы-напоминалки: «Напоминаю то, напоминаю сё». То есть хранишь его на диске, и когда модель затупила, бросаешь ему: «Напоминаю тебе всё это, скотина ты такая тупая».Ну поэтому сам Бог велел ту же систему автоматически встроить и в свою программулину. Ну и чтобы самому не писать, пускай искусственный интеллект эти заметки сам ведёт — за что его обругали, что можно делать, что нельзя делать или за что его похвалили. Общий локальный дневник по самому пользователю. Ну и по каждому проекту, соответственно, тоже автоматические заметки.Разовый инструктажНу и опять-таки — куча файлов-тренеров, витрина, список: какой от чего, в каком случае модель должна дёргать, смотреть инструкцию. Это опять-таки всё же от той же лени — то есть настроил окружение, настроил документацию, ну и потом работа происходит так: «Сделай-ка мне вот эту вот хероту» — и пошёл курить, или чай пить, или спать. То есть искусственный интеллект и IDE цикличными итерациями друг с другом сами договариваются. LLM смотрит, что есть, если что-то не хватает — смотрит, чего ещё есть, запрашивает списки файлов, запрашивает тренера. В общем, общаются они с IDE до тех пор, пока моё вмешательство не понадобится, только тогда это всё останавливается. Ну или уже ответ готовый — прийти, посмотреть, проверить код, нажать кнопку применить правки. Такая вот я ленивая жопа.Коллективный разумСобственно, ещё на крайней работе была такая идея: как синхронизировать отдел разработки по задачам без каких-то там дорогостоящих игрушек. Банально через Git, которым мы постоянно пользовались. Те же файлы-тренеры переносить через Git. Это, надо сказать, тоже искусственный интеллект подсказал идею — хранить задачи в плоском списке, чтобы оно через Git как текст синхронизировалось: какая задача у кого, в каком она состоянии. Ну, на работе эту идею не оценили…А для себя в программе, в общем-то, так и сделал. Идея была ещё в чём: более сильные программисты, ну или тот, кто пользуется какими-то дорогостоящими умными моделями — неважно, разработчики этих тренеров… Мысль такая: каждому новому программисту объяснять, что да как, чего делать нельзя, чего можно, — задалбывает. Дело не в том, слабый он или сильный, просто пришёл новый, который не в курсе системы, и ему надо всё объяснять каждый раз по каждой задаче, отвечать на вопросы. А так у тебя список инструкций: чего не вкуриваешь — спроси у LLM, найдёт и ответит. Снова-таки лень-матушка. Ну и природная вредность, конечно, и язвительность.Ну и ещё как бы была мысль, которая пока что не реализована, так осталась заглушкой в виде идеи — лежит пустой функцией, — чтобы модель сама двигала задачи по канбану. При этом настраивать через REST API с какими-нибудь CRM-службами — тот же Битрикс или Amo, да в общем-то любая херня, у которой REST API есть, просто настроить команды, что куда двигать. То есть работаешь с задачей, что-то там отработал, меняешь ей статус — IDE сама пинает, где её ещё двинуть в канбане. В общем, такая мысль была, но пока она не реализована.Что дальшеПока что буду двигаться в сторону усовершенствования ментальной карты и работы с задачами. Сам собой просится какой-то список перед глазами, с чем ты сейчас работаешь по разным проектам. Ну и более детальная работа по задачам — то есть чат, привязанный не только к проекту, но и к конкретной задаче, чтобы по ней делалось, чтобы по ней обсуждалось, возможно, даже не одним программистом. При коллективной работе в отделе довольно-таки распространённая тема, когда между разработчиками задачи перепрыгивают: что-то срочнее, срочнее срочного, суперсрочно, ну и так, технические моменты. Ну вести, наверное, какой-то архив по задачам — что там обсуждалось, что там было сделано. То есть пока что мысль двигаться в этом направлении.Посмотреть и пощупать:GitHub: github.com/alexCRAZY74/SparkyГотовый .nbm пакет лежит в Releases (ставить через Tools → Plugins → Downloaded, требуется JDK 21 с JavaFX/WebView, например Liberica JDK Full).",
+      "content": "Достаточно «Искры» одной…Время на прочтение4 минОхват и читатели2.8KПочему я начал делать эту штуку? От жадности и от лени.Нам начали упорно на работе пропихивать модную игрушку (чтобы мы же её и оплачивали). Ну, как бы, не трудно было заметить, что эта драная обёртка в 10 раз больше цены, чем те модели искусственного интеллекта, которые там реально работают. Ну и к тому же интерфейс с вырвиглазной цветовой схемой не для моего зрения. Главное, конечно, от жадности — не хочется оплачивать «воздух» наглым халявщикам, — чувствуешь себя лохом.Лень — двигатель прогрессаПочему от лени? Ну потому что ИИ я активно пользовался, конечно браузерными разными, но это работа копипастером. Закинь файл, напиши задание. Или закинь кусок кода, напиши задание. Закинь файл или кусок кода, который он попросит, потом копируй это из чата, вставляй в живой код. В общем, это довольно-таки быстро надоедает, и невольно задумываешься о том, чтобы как-то не быть прокладкой между блокнотом и чатом в браузере.Первая мысль же, естественно, была — REST API, автоматизировать это дело. Кое-что сделал на PHP, благо, что куча виртуальных серверов на компьютере крутится, и что-то за полчаса там сделать для меня проблем не было. Но это как бы тоже неинтересно, это всё равно оставался копипастером. Поэтому и обратил свой взгляд на свой обычный рабочий инструмент — NetBeans, к которому, в общем-то, вполне можно делать и плагины. Поэтому как бы тему «дай файл, скопируй код» — так это, ребята, договаривайтесь между собой сами: «вот тебе ведро, вот тебе корова».Глаз да глазНу, сказано — сделано. Замутил сперва чат… Ну, там со своими смешариками, конечно, — не без этого.Естественно, одного чата стало мало. Решил ограничиться точечными патчами, потому что знаю я фокусы ИИ уже: «Плавали — знаем». Это обязательно деградирующий с каждой правкой код сделает, накидает там кучу мусора, ещё умудрится половину полезного выбросить при этом. Так что надо внимательно следить за LLM, что она там делает, проверять код. Ну и, естественно, за всем не уследишь, поэтому автоматический бэкап на каждый чих. Ну так вот.План — наше всёНу, естественно, этого стало мало. Поскольку я активно пользуюсь ментальными картами, чтобы планировать свою работу, разумеется, возникло естественное желание пользоваться всем этим в едином инструменте. И чтобы тот же ИИ-ассистент видел эту карту и мог туда что-то вносить, менять, вмешиваться, главным образом — смотреть.По ходу работы выяснилось, что это очень большое подспорье для самой LLM. Заметил, что модель постоянно дёргает эту карту. И как я заметил, работая в контексте всего проекта, в рамках конкретной задачи, конкретного задания, модель ведёт себя значительно умнее. Ну поэтому просто грешно уже было не развивать эту тему дальше.Лекарство от склерозаНу и само собой — долгосрочная память. В браузерных чатах ИИ несколько утомляют своим регулярным склерозом. Материть приходится за одно и то же по нескольку раз. Ну, придумал кое-какие файлы-напоминалки: «Напоминаю то, напоминаю сё». То есть хранишь его на диске, и когда модель затупила, бросаешь ему: «Напоминаю тебе всё это, скотина ты такая тупая».Ну поэтому сам Бог велел ту же систему автоматически встроить и в свою программулину. Ну и чтобы самому не писать, пускай искусственный интеллект эти заметки сам ведёт — за что его обругали, что можно делать, что нельзя делать или за что его похвалили. Общий локальный дневник по самому пользователю. Ну и по каждому проекту, соответственно, тоже автоматические заметки.Разовый инструктажНу и опять-таки — куча файлов-тренеров, витрина, список: какой от чего, в каком случае модель должна дёргать, смотреть инструкцию. Это опять-таки всё же от той же лени — то есть настроил окружение, настроил документацию, ну и потом работа происходит так: «Сделай-ка мне вот эту вот хероту» — и пошёл курить, или чай пить, или спать. То есть искусственный интеллект и IDE цикличными итерациями друг с другом сами договариваются. LLM смотрит, что есть, если что-то не хватает — смотрит, чего ещё есть, запрашивает списки файлов, запрашивает тренера. В общем, общаются они с IDE до тех пор, пока моё вмешательство не понадобится, только тогда это всё останавливается. Ну или уже ответ готовый — прийти, посмотреть, проверить код, нажать кнопку применить правки. Такая вот я ленивая жопа.Коллективный разумСобственно, ещё на крайней работе была такая идея: как синхронизировать отдел разработки по задачам без каких-то там дорогостоящих игрушек. Банально через Git, которым мы постоянно пользовались. Те же файлы-тренеры переносить через Git. Это, надо сказать, тоже искусственный интеллект подсказал идею — хранить задачи в плоском списке, чтобы оно через Git как текст синхронизировалось: какая задача у кого, в каком она состоянии. Ну, на работе эту идею не оценили…А для себя в программе, в общем-то, так и сделал. Идея была ещё в чём: более сильные программисты, ну или тот, кто пользуется какими-то дорогостоящими умными моделями — неважно, разработчики этих тренеров… Мысль такая: каждому новому программисту объяснять, что да как, чего делать нельзя, чего можно, — задалбывает. Дело не в том, слабый он или сильный, просто пришёл новый, который не в курсе системы, и ему надо всё объяснять каждый раз по каждой задаче, отвечать на вопросы. А так у тебя список инструкций: чего не вкуриваешь — спроси у LLM, найдёт и ответит. Снова-таки лень-матушка. Ну и природная вредность, конечно, и язвительность.Ну и ещё как бы была мысль, которая пока что не реализована, так осталась заглушкой в виде идеи — лежит пустой функцией, — чтобы модель сама двигала задачи по канбану. При этом настраивать через REST API с какими-нибудь CRM-службами — тот же Битрикс или Amo, да в общем-то любая херня, у которой REST API есть, просто настроить команды, что куда двигать. То есть работаешь с задачей, что-то там отработал, меняешь ей статус — IDE сама пинает, где её ещё двинуть в канбане. В общем, такая мысль была, но пока она не реализована.Что дальшеПока что буду двигаться в сторону усовершенствования ментальной карты и работы с задачами. Сам собой просится какой-то список перед глазами, с чем ты сейчас работаешь по разным проектам. Ну и более детальная работа по задачам — то есть чат, привязанный не только к проекту, но и к конкретной задаче, чтобы по ней делалось, чтобы по ней обсуждалось, возможно, даже не одним программистом. При коллективной работе в отделе довольно-таки распространённая тема, когда между разработчиками задачи перепрыгивают: что-то срочнее, срочнее срочного, суперсрочно, ну и так, технические моменты. Ну вести, наверное, какой-то архив по задачам — что там обсуждалось, что там было сделано. То есть пока что мысль двигаться в этом направлении.Посмотреть и пощупать:GitHub: github.com/alexCRAZY74/SparkyГотовый .nbm пакет лежит в Releases (ставить через Tools → Plugins → Downloaded, требуется JDK 21 с JavaFX/WebView, например Liberica JDK Full).",
       "images": [
         {
           "url": "https://habrastorage.org/r/w1560/extt/b5/c7/7e/b5c77e2eaef1648fd04c27512b3c40fb.png",
@@ -31995,7 +31949,7 @@
     "qwjz8c": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/tv/tv-news/florence-pugh-nervous-release-east-of-eden-reviews-1236755447/",
-      "fetchedAt": "2026-11-14T19:05:45.412Z",
+      "fetchedAt": "2026-11-14T19:08:06.005Z",
       "title": "Florence Pugh Was “So Nervous” to Release ‘East of Eden’ and Still Hasn’t Read the Reviews: “It Was Too Much With This One”",
       "byline": "Kirsten Chuba",
       "siteName": "The Hollywood Reporter",
@@ -32009,27 +31963,27 @@
       "length": 2111,
       "imageCount": 1
     },
-    "1n2wjpp": {
+    "1klxk24": {
       "version": 4,
-      "url": "https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato?traffic_source=rss",
-      "fetchedAt": "2026-11-14T19:05:45.477Z",
-      "title": "US suggested Ukraine cede parts of Donbas to Russia to become part of NATO",
-      "byline": "Al Jazeera Staff",
-      "siteName": "Al Jazeera",
-      "content": "Zelenskyy rejected the possibility of Ukraine committing to neutrality and said he refused to cede territory to Russia.US negotiators have floated the idea that Ukraine should cede parts of eastern Donbas in exchange for NATO membership, Ukraine’s President Volodymyr Zelenskyy has said, after the latest rounds ⁠of Russia-Ukraine peace talks in Abu Dhabi and Ireland.This is the first time the question of linking NATO membership to territorial concessions has been raised, Zelenskyy told reporters in remarks released by his office on Saturday.Recommended Stories list of 4 itemslist 1 of 4Russia and Ukraine report overnight attacks amid US diplomatic pushlist 2 of 4Why is Ukraine attacking Russian warships in the Baltic Sea amid talks?list 3 of 4Ukraine claims record 3,000 Russian casualties in one day as war drags onlist 4 of 4Three killed in Russia as Ukraine claims US floated NATO membership optionend of list“The Americans raised a question: ‘What if Ukraine joins NATO? Would Ukraine withdraw from ⁠Donbas?” he said. “That is why I believe NATO is back on the agenda.”Zelenskyy said the parts of the Donbas region in eastern Ukraine the US asked about were areas Russia does not control. The Ukrainian president said he refused to cede territory.“[Russian President Vladimir] Putin’s desire to change borders in Europe is a fact. I am sure this is part of his concept of revising security guarantees in Europe,” he said. “This is dangerous because, in my view, it is precisely things like this that lead to wars or escalations.”Putin has long said that Ukrainian membership of NATO is a red line for Moscow, citing the issue as one reason for launching Russia’s full-blown invasion in 2022.Zelenskyy did say that if Ukraine received a comprehensive package, including security guarantees, military and reconstruction funds, and a recovery plan from the US and other partners, he would put the question about ceding parts of Donbas to a national referendum.“If the American side confirms precisely this to us, together with other NATO partners, then I will ask our Ukrainian society what it thinks: do we accept it or not?” Zelenskyy said.He stressed that any arrangement would not involve recognising occupied territories as Russian. Zelenskyy also rejected the possibility of Ukraine committing to neutrality, saying that would require changing the country’s constitution.“If Putin expects Ukraine’s neutrality to be enshrined, that’s not going to happen,” he said. “We’re not in NATO right now anyway.”Despite the diplomatic push to end the conflict, Russia and Ukraine reported numerous overnight attacks. Russian officials reported on Friday that about 1,200 Ukrainian drones were fired at the country, with oil infrastructure among the targets, while Ukraine reported attacks on a hospital and the port of Odesa.At the summit in Ireland over recent days, EU leaders agreed that Europe’s team for any Ukraine peace talks would comprise five major military powers – non-EU member Britain plus France, Germany, Italy and Poland – as well as EU officials. They would hold talks ‌with ‌US and Ukrainian officials, but not with Russia.",
+      "url": "https://3dnews.ru/1151311/to-ge-myaso-no-sochnee-brutalniy-platformer-super-meat-boy-poluchit-remaster-s-uluchshennoy-grafikoy-i-novimi-sekretami",
+      "fetchedAt": "2026-11-14T19:08:06.178Z",
+      "title": "То же мясо, но сочнее: брутальный платформер Super Meat Boy получит ремастер с улучшенной графикой и новыми секретами",
+      "byline": "Игнатий Колыско",
+      "siteName": "3DNews",
+      "content": "Опрос\n\n3DNews Новости Software Платформер То же мясо, но сочнее: брутальный платфо...\n\nреклама\n\nНовости Software\n\nСамое интересное в обзорах\n\n14.11.2026 [20:07],\n\nРазработчики из Team Meat представили обновлённую версию своего хардкорного платформера Super Meat Boy, который получил название Super Meat Boy Again+. По случаю анонса был представлен геймплейный трейлер.\nИсточник изображения: Team Meat\n\nОбновлённая версия платформера, изначально вышедшего в 2010 году, получит улучшенную графику и музыку, а также заново нарисованные сюжетные вставки. А специально для игроков, которые досконально изучили оригинал, авторы подготовили новый набор секретов.\nSuper Meat Boy Again+ сможет предложить к изучению более 300 «увлекательных, но очень тяжёлых» уровней, саундтрек от оригинального композитора Дэнни Би (Danny B) и многое другое. Все подробности авторы намеренно не хотят раскрывать, объясняя это так: «Пусть для вас всё останется сюрпризом, как в самый первый раз».\n\nНапомним, в Super Meat Boy геймер управляет живым мясным кубиком (он же Meat Boy). Герой хочет спасти свою возлюбленную, Девочку-пластырь (Bandage Girl), из лап Доктора Фетуса (Dr. Fetus) — эмбриона в пробирке, носящего цилиндр и монокль.\n\nSuper Meat Boy Again+ должна выйти на PC (Steam), заявлен текстовый перевод на русский язык.\n\nИсточники:\n\nЕсли вы заметили ошибку — выделите ее мышью и нажмите CTRL+ENTER.\n\nМатериалы по теме\n\nМатериалы по теме",
       "images": [
         {
-          "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6af8821db843-1794671133.jpg?resize=1920%2C1440",
+          "url": "https://cdn.3dnews.ru/assets/external/illustrations/2026/11/14/1151311/sm.smba_title.800.jpg",
           "alt": ""
         }
       ],
-      "length": 3148,
+      "length": 1422,
       "imageCount": 1
     },
     "15q3okh": {
       "version": 4,
       "url": "https://www.rockpapershotgun.com/missed-something-on-your-first-go-around-the-blood-of-dawnwalker-ive-got-good-news-as-next-weeks-update-adds-in-new-game-plus",
-      "fetchedAt": "2026-11-14T19:05:45.637Z",
+      "fetchedAt": "2026-11-14T19:08:06.397Z",
       "title": "Missed something on your first go around The Blood of Dawnwalker? I've got good news, as next week's update adds in new game plus",
       "byline": "Oisin Kuhnke",
       "siteName": "Rock Paper Shotgun",
@@ -32046,7 +32000,7 @@
     "1ouqawv": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/tv/tv-news/skip-hinnant-dead-electric-company-fritz-the-cat-1236755456/",
-      "fetchedAt": "2026-11-14T19:05:45.804Z",
+      "fetchedAt": "2026-11-14T19:08:06.560Z",
       "title": "Skip Hinnant, Actor on ‘The Electric Company’ and Voice of Fritz the Cat, Dies at 86",
       "byline": "Mike Barnes",
       "siteName": "The Hollywood Reporter",
@@ -32067,7 +32021,7 @@
     "1uct9zf": {
       "version": 4,
       "url": "https://techcrunch.com/2026/11/14/asian-governments-react-to-nvidia-ceo-jensen-huangs-exit/",
-      "fetchedAt": "2026-11-14T19:05:45.909Z",
+      "fetchedAt": "2026-11-14T19:08:06.662Z",
       "title": "Asian governments react to Nvidia CEO Jensen Huang’s exit",
       "byline": "Kate Park",
       "siteName": "TechCrunch",
@@ -32081,10 +32035,27 @@
       "length": 4591,
       "imageCount": 1
     },
+    "1n2wjpp": {
+      "version": 4,
+      "url": "https://www.aljazeera.com/news/2026/11/14/us-suggested-ukraine-cede-parts-of-donbas-to-russia-to-become-part-of-nato?traffic_source=rss",
+      "fetchedAt": "2026-11-14T19:08:06.717Z",
+      "title": "US suggested Ukraine cede parts of Donbas to Russia to become part of NATO",
+      "byline": "Al Jazeera Staff",
+      "siteName": "Al Jazeera",
+      "content": "Zelenskyy rejected the possibility of Ukraine committing to neutrality and said he refused to cede territory to Russia.US negotiators have floated the idea that Ukraine should cede parts of eastern Donbas in exchange for NATO membership, Ukraine’s President Volodymyr Zelenskyy has said, after the latest rounds ⁠of Russia-Ukraine peace talks in Abu Dhabi and Ireland.This is the first time the question of linking NATO membership to territorial concessions has been raised, Zelenskyy told reporters in remarks released by his office on Saturday.Recommended Stories list of 4 itemslist 1 of 4Russia and Ukraine report overnight attacks amid US diplomatic pushlist 2 of 4Why is Ukraine attacking Russian warships in the Baltic Sea amid talks?list 3 of 4Ukraine claims record 3,000 Russian casualties in one day as war drags onlist 4 of 4Three killed in Russia as Ukraine claims US floated NATO membership optionend of list“The Americans raised a question: ‘What if Ukraine joins NATO? Would Ukraine withdraw from ⁠Donbas?” he said. “That is why I believe NATO is back on the agenda.”Zelenskyy said the parts of the Donbas region in eastern Ukraine the US asked about were areas Russia does not control. The Ukrainian president said he refused to cede territory.“[Russian President Vladimir] Putin’s desire to change borders in Europe is a fact. I am sure this is part of his concept of revising security guarantees in Europe,” he said. “This is dangerous because, in my view, it is precisely things like this that lead to wars or escalations.”Putin has long said that Ukrainian membership of NATO is a red line for Moscow, citing the issue as one reason for launching Russia’s full-blown invasion in 2022.Zelenskyy did say that if Ukraine received a comprehensive package, including security guarantees, military and reconstruction funds, and a recovery plan from the US and other partners, he would put the question about ceding parts of Donbas to a national referendum.“If the American side confirms precisely this to us, together with other NATO partners, then I will ask our Ukrainian society what it thinks: do we accept it or not?” Zelenskyy said.He stressed that any arrangement would not involve recognising occupied territories as Russian. Zelenskyy also rejected the possibility of Ukraine committing to neutrality, saying that would require changing the country’s constitution.“If Putin expects Ukraine’s neutrality to be enshrined, that’s not going to happen,” he said. “We’re not in NATO right now anyway.”Despite the diplomatic push to end the conflict, Russia and Ukraine reported numerous overnight attacks. Russian officials reported on Friday that about 1,200 Ukrainian drones were fired at the country, with oil infrastructure among the targets, while Ukraine reported attacks on a hospital and the port of Odesa.At the summit in Ireland over recent days, EU leaders agreed that Europe’s team for any Ukraine peace talks would comprise five major military powers – non-EU member Britain plus France, Germany, Italy and Poland – as well as EU officials. They would hold talks ‌with ‌US and Ukrainian officials, but not with Russia.",
+      "images": [
+        {
+          "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/afp_6af8821db843-1794671133.jpg?resize=1920%2C1440",
+          "alt": ""
+        }
+      ],
+      "length": 3148,
+      "imageCount": 1
+    },
     "h8qj5u": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/movies/movie-news/johnny-depp-ebenezer-box-office-opening-how-to-rob-bank-1236755417/",
-      "fetchedAt": "2026-11-14T19:05:46.076Z",
+      "fetchedAt": "2026-11-14T19:08:06.883Z",
       "title": "Johnny Depp’s ‘Ebenezer’ Conjuring Up Box Office Victory in Star’s Return to Studio Fare",
       "byline": "Ryan Gajewski",
       "siteName": "The Hollywood Reporter",
@@ -32105,7 +32076,7 @@
     "1269tum": {
       "version": 4,
       "url": "https://www.dexerto.com/gta/gta-6-album-leak-reveals-34-song-tracklist-featuring-travis-scott-dua-lipa-morgan-wallen-and-more-3428203/",
-      "fetchedAt": "2026-11-14T19:05:46.231Z",
+      "fetchedAt": "2026-11-14T19:08:07.062Z",
       "title": "GTA 6 album leak reveals 34-song tracklist featuring Travis Scott, Dua Lipa, Morgan Wallen and more",
       "byline": "Matthew Benson",
       "siteName": "Dexerto",
@@ -32122,7 +32093,7 @@
     "1xo6n8l": {
       "version": 4,
       "url": "https://variety.com/2026/film/box-office/ebenezer-box-office-johnny-depp-opening-day-1236947684/",
-      "fetchedAt": "2026-11-14T19:05:46.525Z",
+      "fetchedAt": "2026-11-14T19:08:07.332Z",
       "title": "Ebenezer Box Office: Johnny Depp Movie Leads on Opening Day",
       "byline": "Rebecca Rubin",
       "siteName": "Variety",
@@ -32136,27 +32107,10 @@
       "length": 3194,
       "imageCount": 1
     },
-    "dqotvg": {
-      "version": 4,
-      "url": "https://variety.com/2026/film/news/adam-driver-disney-hunt-for-ben-solo-criminal-1236947685/",
-      "fetchedAt": "2026-11-14T19:05:46.678Z",
-      "title": "Adam Driver: Disney Killing 'The Hunt for Ben Solo' Felt 'Criminal'",
-      "byline": "Zack Sharf",
-      "siteName": "Variety",
-      "content": "Adam Driver continues to express his dissatisfaction with Disney over the decision to kill his “Star Wars” sequel movie “The Hunt for Ben Solo,” which he spent two-and-a-half years developing with director Steven Soderbergh. In a new interview with The Associated Press on his “Paper Tiger” press tour, the Oscar nominee said he was surprised Soderbergh’s involvement alone didn’t have the studio jumping at the chance to make the movie.\n\n“For me it was: Steven Soderbergh wants to make a ‘Star Wars’ film. What are we debating?” Driver said. “It’s what it is. It’s criminal. Or it felt criminal. We’re all moving on. On to the next. And Steven already has something else that’s one of the best things he’s ever written.”\n\nDriver revealed the existence of “The Hunt for Ben Solo” in an Oct. 2025 interview with The Associated Press, explaining how Disney executives pulled the plug on the project because they couldn’t wrap their heads around the character coming back after he presumably died in 2019’s “Star Wars: The Rise of Skywalker.”\n\n“I always was interested in doing another ‘Star Wars,’” Driver said at the time. “I had been talking about doing another one since 2021. Kathleen [Kennedy] had reached out. I always said: ‘With a great director and a great story, I’d be there in a second.’ I loved that character and loved playing him.”\n\nThe mere existence of “The Hunt for Ben Solo” instantly mobilized “Star Wars” fans on social media into calling for Disney to reverse its decision and put the “Star Wars” project back in development. A group of “Star Wars” fans even paid for a plane to fly a banner reading “Save ‘The Hunt for Ben Solo’” over Walt Disney Studios in Burbank, Calif. Even Daisy Ridley, who starred opposite Driver as Rey in the most “Star Wars” sequel trilogy, championed fans for their support of “The Hunt for Ben Solo.”\n\n“I was blown away by the response to it,” Driver told the AP in his latest interview. “In no way did I think there would be billboards in Times Square. It’s so moving. It did feel like we were all at the bar having a conversation about the films we wanted to see.”\n\nEarlier in his “Paper Tiger” press tour, Driver said on “The Rich Eisen Show” that his time playing Kylo Ren/Ben Solo is officially over now that “The Hunt for Ben Solo” is dead and gone. The actor said: “If they wanted to, fine. But we’re not … It’s not our call. I think the ship has sailed though.”",
-      "images": [
-        {
-          "url": "https://variety.com/wp-content/uploads/2026/11/MCDSTWA_WD027.jpg?w=1000&h=563&crop=1",
-          "alt": ""
-        }
-      ],
-      "length": 2419,
-      "imageCount": 1
-    },
     "pz79nt": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/movies/movie-news/christopher-abbott-you-can-see-everything-billy-evans-1236755390/",
-      "fetchedAt": "2026-11-14T19:05:46.934Z",
+      "fetchedAt": "2026-11-14T19:08:07.600Z",
       "title": "Christopher Abbott Reveals How His ‘You Can See Everything’ Moment Came to Be",
       "byline": "Kirsten Chuba",
       "siteName": "The Hollywood Reporter",
@@ -32170,10 +32124,27 @@
       "length": 2446,
       "imageCount": 1
     },
+    "dqotvg": {
+      "version": 4,
+      "url": "https://variety.com/2026/film/news/adam-driver-disney-hunt-for-ben-solo-criminal-1236947685/",
+      "fetchedAt": "2026-11-14T19:08:07.841Z",
+      "title": "Adam Driver: Disney Killing 'The Hunt for Ben Solo' Felt 'Criminal'",
+      "byline": "Zack Sharf",
+      "siteName": "Variety",
+      "content": "Adam Driver continues to express his dissatisfaction with Disney over the decision to kill his “Star Wars” sequel movie “The Hunt for Ben Solo,” which he spent two-and-a-half years developing with director Steven Soderbergh. In a new interview with The Associated Press on his “Paper Tiger” press tour, the Oscar nominee said he was surprised Soderbergh’s involvement alone didn’t have the studio jumping at the chance to make the movie.\n\n“For me it was: Steven Soderbergh wants to make a ‘Star Wars’ film. What are we debating?” Driver said. “It’s what it is. It’s criminal. Or it felt criminal. We’re all moving on. On to the next. And Steven already has something else that’s one of the best things he’s ever written.”\n\nDriver revealed the existence of “The Hunt for Ben Solo” in an Oct. 2025 interview with The Associated Press, explaining how Disney executives pulled the plug on the project because they couldn’t wrap their heads around the character coming back after he presumably died in 2019’s “Star Wars: The Rise of Skywalker.”\n\n“I always was interested in doing another ‘Star Wars,’” Driver said at the time. “I had been talking about doing another one since 2021. Kathleen [Kennedy] had reached out. I always said: ‘With a great director and a great story, I’d be there in a second.’ I loved that character and loved playing him.”\n\nThe mere existence of “The Hunt for Ben Solo” instantly mobilized “Star Wars” fans on social media into calling for Disney to reverse its decision and put the “Star Wars” project back in development. A group of “Star Wars” fans even paid for a plane to fly a banner reading “Save ‘The Hunt for Ben Solo’” over Walt Disney Studios in Burbank, Calif. Even Daisy Ridley, who starred opposite Driver as Rey in the most “Star Wars” sequel trilogy, championed fans for their support of “The Hunt for Ben Solo.”\n\n“I was blown away by the response to it,” Driver told the AP in his latest interview. “In no way did I think there would be billboards in Times Square. It’s so moving. It did feel like we were all at the bar having a conversation about the films we wanted to see.”\n\nEarlier in his “Paper Tiger” press tour, Driver said on “The Rich Eisen Show” that his time playing Kylo Ren/Ben Solo is officially over now that “The Hunt for Ben Solo” is dead and gone. The actor said: “If they wanted to, fine. But we’re not … It’s not our call. I think the ship has sailed though.”",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/MCDSTWA_WD027.jpg?w=1000&h=563&crop=1",
+          "alt": ""
+        }
+      ],
+      "length": 2419,
+      "imageCount": 1
+    },
     "1qvek0s": {
       "version": 4,
       "url": "https://www.caranddriver.com/news/a74416276/1986-yugo-bring-a-trailer-auction/",
-      "fetchedAt": "2026-11-14T19:05:47.168Z",
+      "fetchedAt": "2026-11-14T19:08:08.093Z",
       "title": "If You Missed Out Last Time, Here’s Your Chance to Buy a Brand-New 1986 Yugo",
       "byline": "Brendan McAleer",
       "siteName": "Car and Driver",
@@ -32187,10 +32158,33 @@
       "length": 4120,
       "imageCount": 1
     },
+    "14ufbqt": {
+      "version": 4,
+      "url": "https://variety.com/2026/tv/news/shane-gillis-snl-monologue-backlash-whores-joke-1236947671/",
+      "fetchedAt": "2026-11-14T19:08:08.255Z",
+      "title": "Shane Gillis Explains ‘SNL’ Monologue Backlash and 'Whores' Joke",
+      "byline": "William Earl",
+      "siteName": "Variety",
+      "content": "Shane Gillis is reflecting on his “Saturday Night Live” monologue about women’s gym attire that drew controversy.\n\nOn the Oct. 10 episode this season, the comedian’s opening monologue included jokes about how women “dress like whores now” at the gym, which inspired a wave of criticism on social media. Gillis revealed on the Nov. 13 episode of the “Joe Rogan Experience” that he was surprised by the blowback.\n\n“The funniest part was, I was going in going — they were like, ‘What’s going on with the monologue?’ And I was like, ‘It’s not great, but I don’t say anything bad,’” he said. “The whole time, I was like, ‘Fellas, I’m giving you a solid C minus of a monologue, but I promise there’s no controversy. I’m calling myself fat for fucking 10 minutes. That’s it.’”\n\nHe also said that he thinks the reaction “obviously had a lot to do with the climate” and, with regard to the gym attire, “for the record, [I] don’t have a problem with it.”\n\nGillis also clarified that “Saturday Night Live” gave no feedback about the joke ahead of time.\n\n“Not to defend ‘SNL,’ they don’t approve it. I mean, they could shut it down,” he said to Rogan. “They could, but you don’t write your set and give it to them. Unless you’re not a comedian. I’m sure non-comics, they write the set for them. They have writers that write the monologue for them.”\n\nThe original joke ignited criticism online and even a response from Inde Navarrette during her “SNL” monologue.\n\n“I haven’t been to the gym in so long, I didn’t know women just dress like whores now?” Gillis said in the monologue. “Look, I’m sorry, there’s no other way to describe it. Have you seen it? I’ve seen it. The shorts. Have you seen the shorts? Those neon, they’re like artificial bait-colored. And the wrinkles go around the cheeks and all combined at the butthole. And don’t look, you’re not allowed to look. For real, don’t look because they are filming. I’m in the background of like 10 TikToks right now.”\n\nWatch Gillis talk about the controversy on Rogan’s show below.",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/P101UW5U.jpg?w=1000&h=563&crop=1",
+          "alt": ""
+        }
+      ],
+      "length": 2023,
+      "imageCount": 1
+    },
+    "1cdfs6u": {
+      "version": 4,
+      "url": "https://phys.org/news/2026-11-world-largest-freshwater-lake-recovering.html",
+      "fetchedAt": "2026-11-14T19:08:08.352Z",
+      "error": "HTTP 403"
+    },
     "114qztw": {
       "version": 4,
       "url": "https://www.intermedia.ru/news/408124",
-      "fetchedAt": "2026-11-14T19:05:47.328Z",
+      "fetchedAt": "2026-11-14T19:08:08.553Z",
       "title": "Уитни Пик, Маккенна Грейс и Дженнифер Лоуренс записали песни для фильма «Голодные игр: Рассвет жатвы»",
       "byline": "",
       "siteName": "",
@@ -32208,68 +32202,10 @@
       "length": 1991,
       "imageCount": 2
     },
-    "14ufbqt": {
-      "version": 4,
-      "url": "https://variety.com/2026/tv/news/shane-gillis-snl-monologue-backlash-whores-joke-1236947671/",
-      "fetchedAt": "2026-11-14T19:05:47.600Z",
-      "title": "Shane Gillis Explains ‘SNL’ Monologue Backlash and 'Whores' Joke",
-      "byline": "William Earl",
-      "siteName": "Variety",
-      "content": "Shane Gillis is reflecting on his “Saturday Night Live” monologue about women’s gym attire that drew controversy.\n\nOn the Oct. 10 episode this season, the comedian’s opening monologue included jokes about how women “dress like whores now” at the gym, which inspired a wave of criticism on social media. Gillis revealed on the Nov. 13 episode of the “Joe Rogan Experience” that he was surprised by the blowback.\n\n“The funniest part was, I was going in going — they were like, ‘What’s going on with the monologue?’ And I was like, ‘It’s not great, but I don’t say anything bad,’” he said. “The whole time, I was like, ‘Fellas, I’m giving you a solid C minus of a monologue, but I promise there’s no controversy. I’m calling myself fat for fucking 10 minutes. That’s it.’”\n\nHe also said that he thinks the reaction “obviously had a lot to do with the climate” and, with regard to the gym attire, “for the record, [I] don’t have a problem with it.”\n\nGillis also clarified that “Saturday Night Live” gave no feedback about the joke ahead of time.\n\n“Not to defend ‘SNL,’ they don’t approve it. I mean, they could shut it down,” he said to Rogan. “They could, but you don’t write your set and give it to them. Unless you’re not a comedian. I’m sure non-comics, they write the set for them. They have writers that write the monologue for them.”\n\nThe original joke ignited criticism online and even a response from Inde Navarrette during her “SNL” monologue.\n\n“I haven’t been to the gym in so long, I didn’t know women just dress like whores now?” Gillis said in the monologue. “Look, I’m sorry, there’s no other way to describe it. Have you seen it? I’ve seen it. The shorts. Have you seen the shorts? Those neon, they’re like artificial bait-colored. And the wrinkles go around the cheeks and all combined at the butthole. And don’t look, you’re not allowed to look. For real, don’t look because they are filming. I’m in the background of like 10 TikToks right now.”\n\nWatch Gillis talk about the controversy on Rogan’s show below.",
-      "images": [
-        {
-          "url": "https://variety.com/wp-content/uploads/2026/11/P101UW5U.jpg?w=1000&h=563&crop=1",
-          "alt": ""
-        }
-      ],
-      "length": 2023,
-      "imageCount": 1
-    },
-    "1cdfs6u": {
-      "version": 4,
-      "url": "https://phys.org/news/2026-11-world-largest-freshwater-lake-recovering.html",
-      "fetchedAt": "2026-11-14T19:05:47.731Z",
-      "title": "World's largest freshwater lake is recovering after decades of decline",
-      "byline": "Hannah Bird",
-      "siteName": "Phys.org",
-      "content": "Lake Baikal, Siberia. Credit: Pexels/Nadezhda Moryak\n\nLake Baikal in Siberia holds around 20% of the world's surface freshwater, making it the most voluminous freshwater lake (Lake Superior on the United States–Canada border is the largest by surface area). This makes the lake one of the most important environments for biodiversity—in fact, it was designated a UNESCO World Heritage site in 1996 because of this. Yet it has shown considerable decline over the last century, with aridification spreading across East Asia.\n\nAs the lake has dried out, there have been increasing concerns over water security for the local environment, as well as the human populations who rely on it for drinking water, agriculture and hydroelectric power. However, a new study published in Geophysical Research Letters offers hope that the pattern may be starting to change.\nTides of change\nDoctoral researcher Shijie Wang, of Yunnan University, and colleagues turned to trees to help them understand the transformation. Trees growing near to a lake environment can be used as an indicator of how lake levels have fluctuated over time. The science, known as dendrochronology, uses the rings in tree trunks as the clue: wider rings indicate wet or warm years while narrower rings suggest there was drought, cold or severe stress.\nThe scientists took small cores from the trunks of pine trees surrounding the lake, as well as using information stored in the International Tree-Ring Data Bank. By analyzing tree rings in the area from the past 343 years, the team reconstructed reduced flow from the Selenga River into the lake throughout the 20th century. They found that streamflow was reduced by up to 90% in the most severe periods, with approximately half of the years with extreme drought occurring since 1900.\nBut since 2017, that trend has reversed, flipping to a 145% increase in streamflow above the long-term average. Other signs of improvement in the landscape include rising lake levels and enhanced vegetation growth. Such periods of increased streamflow tend to be abrupt and short, whereas hydrological decline tends to be gradual but persistent.\n\nStreamflow changes in response to sea surface temperature and sea ice cover in neighboring seas from 1983–2022 (a–b); differences in streamflow in the last decade compared to 1983–2014 (c–d); schematic diagram of local environmental recovery around Lake Baikal (e). Credit: Wang et al., 2026.\n\nClimatic cold blobs\nThe researchers say these changes in streamflow are not affected by local land temperature or potential evaporation (the amount of water that could evaporate from plants or the ground); instead, they are strongly linked to measures of moisture, like precipitation, drought severity, soil wetness, snowmelt and the balance of water supply and demand in the river basin.\nThere is also a correlation with lower sea surface temperatures and higher sea ice cover in the neighboring North Pacific and Arctic oceans leading to increased streamflow.\nThey suggest changing weather patterns are the main factor driving this regeneration of Lake Baikal, with increased moisture coming from the Nordic and Siberian shelf seas. This may also be supported by a slowdown in regional Arctic warming, which has led to reduced sea ice loss in the Bering, Chukchi and Okhotsk seas. However, the researchers are keen to stress this change in Arctic warming is due to natural climate variability rather than a significant shift in global warming.\nThis is not an isolated occurrence either, as a similar \"cold blob\" has formed in the North Atlantic, where an area of 2.5 million square kilometers (965,000 square miles) south of Greenland has cooled by up to 1°C over the last century, against the background warming seen across Earth's oceans.\n\nPlanning for the future\nThe study highlights the importance of understanding how hydrological systems continue to change as they impact projections of lake levels and regional aridification. With dry spells becoming more prolonged and wet events more intense, being adaptable to water resource changes and having appropriate systems in place to safeguard water security are becoming increasingly vital.\nThis can include improving water storage facilities to save water for domestic and agricultural use during dry periods, identifying rocks underground that \"recharge\" during rain events and from which water can be safely extracted (known as aquifers), as well as improving wastewater infrastructure so sewage systems are not overloaded. Additionally, restoration of the Selenge River Delta wetlands would boost ecological benefits as they can store water for lengthy periods and slowly release it during drier months.\nBy understanding the nuance of changing weather patterns and their impacts on the local environment, scientists can better prepare for a more sustainable future.\n\nWritten for you by our author Hannah Bird, edited by Sadie Harley, and fact-checked and reviewed by Robert Egan—this article is the result of careful human work. We rely on readers like you to keep independent science journalism alive.\nIf this reporting matters to you, please consider a donation (especially monthly). You'll get an ad-free account as a thank-you.\n\nPublication details\nShijie Wang et al., Recent Slowing Arctic‐Amplified Warming Drives an Unprecedented Water Recovery in the World's Most Voluminous Freshwater Lake, Geophysical Research Letters (2026). DOI: 10.1029/2026gl124400\n\nWho's behind this story?\n\nHannah Bird\n\nPhD Earth Sciences in oceanography and paleontology. 10+ years translating complex science for mainstream media audiences.\n\nFull profile →\n\nSadie Harley\n\nBSc Life Sciences & Ecology. Microbiology lab background with pharmaceutical news experience in oil, gas, and renewable industries.\n\nFull profile →\n\nRobert Egan\n\nBachelor's in mathematical biology, Master's in creative writing. Well-traveled with unique perspectives on science and language.\n\nFull profile →\n\n© 2026 Science X Network\n\nCitation:\nWorld's largest freshwater lake is recovering after decades of decline (2026, November 14)\nretrieved 14 November 2026\nfrom https://phys.org/news/2026-11-world-largest-freshwater-lake-recovering.html\n\nThis document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no\npart may be reproduced without the written permission. The content is provided for information purposes only.",
-      "images": [
-        {
-          "url": "https://scx2.b-cdn.net/gfx/news/hires/2026/the-worlds-largest-fre-2.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://scx2.b-cdn.net/gfx/news/2026/the-worlds-largest-fre-2.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://scx1.b-cdn.net/csz/news/800a/2026/the-worlds-largest-fre-2.jpg",
-          "alt": "The world's largest freshwater lake is recovering after decades of decline"
-        },
-        {
-          "url": "https://scx1.b-cdn.net/csz/news/800a/2026/the-worlds-largest-fre-1.jpg",
-          "alt": "The world's largest freshwater lake is recovering after decades of decline"
-        },
-        {
-          "url": "https://scx1.b-cdn.net/gfx/profiles/75d4288bca925e98.png",
-          "alt": "Hannah Bird"
-        },
-        {
-          "url": "https://scx1.b-cdn.net/gfx/profiles/fe53210362eba160.png",
-          "alt": "Sadie Harley"
-        },
-        {
-          "url": "https://scx1.b-cdn.net/gfx/profiles/b3013a0f7fc5c4a0.png",
-          "alt": "Robert Egan"
-        }
-      ],
-      "length": 6425,
-      "imageCount": 7
-    },
     "1ejfp60": {
       "version": 4,
       "url": "https://www.dw.com/ru/%D0%B3%D1%83%D0%B1%D0%B5%D1%80%D0%BD%D0%B0%D1%82%D0%BE%D1%80%D0%BE%D0%BC-%D0%B0%D0%BB%D1%8F%D1%81%D0%BA%D0%B8-%D0%B2%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%B5-%D1%81-1998-%D0%B3%D0%BE%D0%B4%D0%B0-%D0%B8%D0%B7%D0%B1%D1%80%D0%B0%D0%BD-%D0%B4%D0%B5%D0%BC%D0%BE%D0%BA%D1%80%D0%B0%D1%82/a-79948971?maca=rus-rss-ru-all-1126-rdf",
-      "fetchedAt": "2026-11-14T19:05:47.921Z",
+      "fetchedAt": "2026-11-14T19:08:08.615Z",
       "title": "Выборы в США: демократ впервые за 28 лет станет губернатором Аляски",
       "byline": "Евгений Жуков",
       "siteName": "Deutsche Welle",
@@ -32287,27 +32223,27 @@
       "length": 1660,
       "imageCount": 2
     },
-    "1klxk24": {
+    "18yhayy": {
       "version": 4,
-      "url": "https://3dnews.ru/1151311/to-ge-myaso-no-sochnee-brutalniy-platformer-super-meat-boy-poluchit-remaster-s-uluchshennoy-grafikoy-i-novimi-sekretami",
-      "fetchedAt": "2026-11-14T19:05:48.082Z",
-      "title": "То же мясо, но сочнее: брутальный платформер Super Meat Boy получит ремастер с улучшенной графикой и новыми секретами",
-      "byline": "Игнатий Колыско",
-      "siteName": "3DNews",
-      "content": "Опрос\n\n3DNews Новости Software Платформер То же мясо, но сочнее: брутальный платфо...\n\nреклама\n\nНовости Software\n\nСамое интересное в обзорах\n\n14.11.2026 [20:07],\n\nРазработчики из Team Meat представили обновлённую версию своего хардкорного платформера Super Meat Boy, который получил название Super Meat Boy Again+. По случаю анонса был представлен геймплейный трейлер.\nИсточник изображения: Team Meat\n\nОбновлённая версия платформера, изначально вышедшего в 2010 году, получит улучшенную графику и музыку, а также заново нарисованные сюжетные вставки. А специально для игроков, которые досконально изучили оригинал, авторы подготовили новый набор секретов.\nSuper Meat Boy Again+ сможет предложить к изучению более 300 «увлекательных, но очень тяжёлых» уровней, саундтрек от оригинального композитора Дэнни Би (Danny B) и многое другое. Все подробности авторы намеренно не хотят раскрывать, объясняя это так: «Пусть для вас всё останется сюрпризом, как в самый первый раз».\n\nНапомним, в Super Meat Boy геймер управляет живым мясным кубиком (он же Meat Boy). Герой хочет спасти свою возлюбленную, Девочку-пластырь (Bandage Girl), из лап Доктора Фетуса (Dr. Fetus) — эмбриона в пробирке, носящего цилиндр и монокль.\n\nSuper Meat Boy Again+ должна выйти на PC (Steam), заявлен текстовый перевод на русский язык.\n\nИсточники:\n\nЕсли вы заметили ошибку — выделите ее мышью и нажмите CTRL+ENTER.\n\nМатериалы по теме\n\nМатериалы по теме",
+      "url": "https://www.hollywoodreporter.com/business/business-news/ufc-bruce-buffer-bud-light-ad-chef-1236755180/",
+      "fetchedAt": "2026-11-14T19:08:08.972Z",
+      "title": "Why Bruce Buffer Traded the Octagon for the Steakhouse in New Bud Light Campaign",
+      "byline": "Alex Weprin",
+      "siteName": "The Hollywood Reporter",
+      "content": "As the UFC returns to Madison Square Garden Saturday night, UFC ring announcer Bruce Buffer is trading the octagon for a steakhouse in a new Bud Light spot.\n\nThe campaign sees Buffer swap places with a steakhouse server so they can watch the big UFC fight, leaving him to serve the customers.\n\nWatch:\n\n“I love when I perform or even when I’m doing commercials to be self-deprecating,” Buffer tells The Hollywood Reporter about the spot. “I like making fun of myself and just having fun for comedy purposes, and the creative people at Bud Light, you know, when they send me the storyboards, I go, ‘This is going to be awesome.’ So I totally dug my teeth into it. I loved it.”\n\nThe Bud Light spot was released ahead of UFC 334, which will take place tonight at Madison Square Garden in New York City. Bud Light is an official sponsor of UFC, with its spots typically running during the broadcast both for viewers and those in the arena.\n\n“Bud Light’s creative team is just really fantastic at what they do, and looking at that, I trust them to come up with what they came up with, and they also give me the freedom to give feedback,” says Buffer. “It’s really, really cool, and it’s great when you work with people that are that comfortable to work with and respect the fact that they’re not damaging your brand, but yet enhancing it.”\n\nIn addition to the spot, Bud Light is partnering with UFC and Omaha Steaks on a “Fight Night Feast” package, which will bundle tomahawk steaks, Bud Light beer money, a Paramount+ gift card and UFC training gloves for $99.\n\n“We know the best part of fight night is getting together with friends over an ice-cold Bud Light and some great food,” said Todd Allen, senior VP of marketing for Bud Light at Anheuser-Busch. “And with UFC 335 set to close out the year, we wanted to create something for UFC fans that makes fight night easy to enjoy. Fight Night Feast delivers everything needed for an unforgettable night of UFC action directly to fans’ doorsteps.”\n\nBut it’s also a testament to how far UFC has come. What was once an outcast sport now counts America’s biggest beer brand as a sponsor.\n\n“When I started with the UFC 30 years ago, we were a spectacle. We weren’t what I would consider a sport,” Buffer recalls. “It was like a blood sport, like the movie. It was what style is the best? It grew with the rules and became mixed martial arts seven or eight years into its evolutionary process, to now where it’s a mainstream sport, to where we’re accepted by the Paramount networks and all the other big networks of this world, and to get to the point now where we’re working with Bud Light and mainstream sponsors that work with the other major sports in the world, it shows that UFC is truly the biggest fighting event in the world and is a mainstream sport. It’s like we made it. It’s a clarification that we’re there.”",
       "images": [
         {
-          "url": "https://cdn.3dnews.ru/assets/external/illustrations/2026/11/14/1151311/sm.smba_title.800.jpg",
+          "url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/Chef-PR-KV-16x9-1.png?crop=0px%2C4px%2C1920px%2C1074px&resize=1440%2C810",
           "alt": ""
         }
       ],
-      "length": 1422,
+      "length": 2862,
       "imageCount": 1
     },
     "1yfvijq": {
       "version": 4,
       "url": "https://www.zr.ru/content/news/988506-matovyj-bel-air-s-rozetkoj-vme/",
-      "fetchedAt": "2026-11-14T19:05:48.160Z",
+      "fetchedAt": "2026-11-14T19:08:09.037Z",
       "title": "Тюнеры превратили культовый Chevrolet из 50-х в электрокар с начинкой от Tesla",
       "byline": "Лежнин Роман",
       "siteName": "zr.ru",
@@ -32325,27 +32261,10 @@
       "length": 2328,
       "imageCount": 2
     },
-    "18yhayy": {
-      "version": 4,
-      "url": "https://www.hollywoodreporter.com/business/business-news/ufc-bruce-buffer-bud-light-ad-chef-1236755180/",
-      "fetchedAt": "2026-11-14T19:05:48.438Z",
-      "title": "Why Bruce Buffer Traded the Octagon for the Steakhouse in New Bud Light Campaign",
-      "byline": "Alex Weprin",
-      "siteName": "The Hollywood Reporter",
-      "content": "As the UFC returns to Madison Square Garden Saturday night, UFC ring announcer Bruce Buffer is trading the octagon for a steakhouse in a new Bud Light spot.\n\nThe campaign sees Buffer swap places with a steakhouse server so they can watch the big UFC fight, leaving him to serve the customers.\n\nWatch:\n\n“I love when I perform or even when I’m doing commercials to be self-deprecating,” Buffer tells The Hollywood Reporter about the spot. “I like making fun of myself and just having fun for comedy purposes, and the creative people at Bud Light, you know, when they send me the storyboards, I go, ‘This is going to be awesome.’ So I totally dug my teeth into it. I loved it.”\n\nThe Bud Light spot was released ahead of UFC 334, which will take place tonight at Madison Square Garden in New York City. Bud Light is an official sponsor of UFC, with its spots typically running during the broadcast both for viewers and those in the arena.\n\n“Bud Light’s creative team is just really fantastic at what they do, and looking at that, I trust them to come up with what they came up with, and they also give me the freedom to give feedback,” says Buffer. “It’s really, really cool, and it’s great when you work with people that are that comfortable to work with and respect the fact that they’re not damaging your brand, but yet enhancing it.”\n\nIn addition to the spot, Bud Light is partnering with UFC and Omaha Steaks on a “Fight Night Feast” package, which will bundle tomahawk steaks, Bud Light beer money, a Paramount+ gift card and UFC training gloves for $99.\n\n“We know the best part of fight night is getting together with friends over an ice-cold Bud Light and some great food,” said Todd Allen, senior VP of marketing for Bud Light at Anheuser-Busch. “And with UFC 335 set to close out the year, we wanted to create something for UFC fans that makes fight night easy to enjoy. Fight Night Feast delivers everything needed for an unforgettable night of UFC action directly to fans’ doorsteps.”\n\nBut it’s also a testament to how far UFC has come. What was once an outcast sport now counts America’s biggest beer brand as a sponsor.\n\n“When I started with the UFC 30 years ago, we were a spectacle. We weren’t what I would consider a sport,” Buffer recalls. “It was like a blood sport, like the movie. It was what style is the best? It grew with the rules and became mixed martial arts seven or eight years into its evolutionary process, to now where it’s a mainstream sport, to where we’re accepted by the Paramount networks and all the other big networks of this world, and to get to the point now where we’re working with Bud Light and mainstream sponsors that work with the other major sports in the world, it shows that UFC is truly the biggest fighting event in the world and is a mainstream sport. It’s like we made it. It’s a clarification that we’re there.”",
-      "images": [
-        {
-          "url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/Chef-PR-KV-16x9-1.png?crop=0px%2C4px%2C1920px%2C1074px&resize=1440%2C810",
-          "alt": ""
-        }
-      ],
-      "length": 2862,
-      "imageCount": 1
-    },
     "rtgx8i": {
       "version": 4,
       "url": "https://www.dw.com/ru/%D0%B2-%D0%BA%D0%B0%D0%B7%D0%B0%D0%BD%D0%B8-%D0%BD%D0%B0-%D0%B2%D0%BE%D0%BA%D0%B7%D0%B0%D0%BB%D0%B5-%D0%B7%D0%B0%D0%B4%D0%B5%D1%80%D0%B6%D0%B0%D0%BB%D0%B8-%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B9%D1%81%D0%BA%D0%BE%D0%B3%D0%BE-%D0%BE%D0%BF%D0%BF%D0%BE%D0%B7%D0%B8%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D0%BE%D0%B3%D0%BE-%D0%BF%D0%BE%D0%BB%D0%B8%D1%82%D0%B8%D0%BA%D0%B0-%D1%8E%D0%BB%D0%B8%D1%8E-%D0%B3%D0%B0%D0%BB%D1%8F%D0%BC%D0%B8%D0%BD%D1%83-%D1%8F%D0%BA%D0%BE%D0%B1%D1%8B-%D0%B7%D0%B0-%D0%BE%D1%82%D0%BA%D0%B0%D0%B7-%D1%80%D0%B0%D0%B7%D0%B1%D0%BB%D0%BE%D0%BA%D0%B8%D1%80%D0%BE%D0%B2%D0%B0%D1%82%D1%8C-%D1%82%D0%B5%D0%BB%D0%B5%D1%84%D0%BE%D0%BD/a-79948596?maca=rus-rss-ru-all-1126-rdf",
-      "fetchedAt": "2026-11-14T19:05:48.837Z",
+      "fetchedAt": "2026-11-14T19:08:09.693Z",
       "title": "В Казани на вокзале задержали российского оппозиционного политика Юлию Галямину",
       "byline": "Ася Локина",
       "siteName": "Deutsche Welle",
@@ -32359,44 +32278,10 @@
       "length": 1584,
       "imageCount": 1
     },
-    "k15fdy": {
-      "version": 4,
-      "url": "https://www.themoscowtimes.com/2026/11/14/zelensky-a94262",
-      "fetchedAt": "2026-11-14T19:05:48.930Z",
-      "title": "Zelensky Escalates Criticism of SpaceX Over Speed Caps",
-      "byline": "Reuters",
-      "siteName": "The Moscow Times",
-      "content": "Ukraine's President Volodymyr Zelensky escalated his criticism of SpaceX on Saturday, saying speed restrictions on its military-grade Starshield satellite terminals had dangerous political implications and undermined critical air defenses.\nZelensky said Starshield terminals operating in temporarily Russian-occupied territories of Ukraine had been limited to a maximum speed of 161 kph for the past five days, hampering Ukraine's military capabilities.\nThe Ukrainian Defense Ministry has raised the issue with SpaceX at the institutional level, Zelensky said.\n\"The restrictions have now been in place for five days. They say it is some kind of technical issue. We do not believe that is the case,\" Zelensky told reporters in remarks released by his office on Saturday.\n\"If you impose restrictions there, you are already partially recognising the temporarily occupied territories as not ours. And that is why I believe we have the right to raise this issue and restore the speed — so that there are no restrictions at all.\"\nZelensky said the speed restrictions made it more difficult for Ukrainian air defense units to intercept Russian jet-powered drones and made Ukrainian cities more vulnerable. He said he had ordered his top military and Foreign Ministry officials to address the issue and seek clarification.\nSpaceX has pushed back against the allegations, denying that it introduced new restrictions or made any changes to its satellite operations.\nIt is the second such outage in recent weeks. In mid-October, Ukrainian officials said that SpaceX limited the speed of Starlink and its Starshield communication systems to about 160 kph (100 mph) amid tensions with U.S. President Donald Trump's administration over Ukrainian attacks on Russian oil refineries. Service was then restored on Oct. 24.\n\nA Message from The Moscow Times:\nDear readers,\nWe are facing unprecedented challenges. Russia's Prosecutor General's Office has designated The Moscow Times as an \"undesirable\" organization, criminalizing our work and putting our staff at risk of prosecution. This follows our earlier unjust labeling as a \"foreign agent.\"\nThese actions are direct attempts to silence independent journalism in Russia. The authorities claim our work \"discredits the decisions of the Russian leadership.\" We see things differently: we strive to provide accurate, unbiased reporting on Russia.\nWe, the journalists of The Moscow Times, refuse to be silenced. But to continue our work, we need your help.\nYour support, no matter how small, makes a world of difference. If you can, please support us monthly starting from just $2. It's quick to set up, and every contribution makes a significant impact.\nBy supporting The Moscow Times, you're defending open, independent journalism in the face of repression. Thank you for standing with us.\n\nOnce\n\nMonthly\n\nAnnual\n\nContinue\n\nNot ready to support today? Remind me later.",
-      "images": [
-        {
-          "url": "https://static.themoscowtimes.com/image/og/b7/94262__b7dc317b4a3bf2937941b23e5840661d.jpg",
-          "alt": ""
-        }
-      ],
-      "length": 2902,
-      "imageCount": 1
-    },
-    "7qskda": {
-      "version": 4,
-      "url": "https://deadline.com/2026/11/oklahoma-athletic-director-roger-denny-slams-ground-stop-delay-of-sooners-ole-miss-college-football-game-this-decision-isnt-fair-1237223734/",
-      "fetchedAt": "2026-11-14T19:05:49.360Z",
-      "title": "Oklahoma Athletic Director Roger Denny Slams Ground Stop Delay Of Sooners-Ole Miss College Football Game: “This Decision Isn’t Fair”",
-      "byline": "Greg Evans",
-      "siteName": "Deadline",
-      "content": "Traveler frustration during the last 24 hours has been as widespread as the FAA‘s ground stop order, and perhaps no one was more peeved than Roger Denny, the University of Oklahoma athletic director who took to X last night to slam the one-day postponement of the college football showdown between his Sooners and the Ole Miss Rebels.\n\nWhile writing that the Sooners “recognize the extraordinary circumstances” that caused the massive four-hour flight shutdown yesterday and the “challenges” it created for traveling athletic teams across the country, Denny wasn’t happy – to put it mildly – with the postponement of his team’s Saturday game to Sunday.\n\n“I understand that difficult decisions sometimes must be made under extraordinary circumstances,” Denny wrote in his lengthy X post after 1 a.m. ET today. “But those decisions must also consider the impact on everyone involved. Put simply, this decision isn’t fair to our athletes, our institution or to Sooner Nation.”\n\nRead the entire statement below.\n\nMore than 1,000 flights today remain delayed, with more than 3,000 today canceled, according to CNN.\n\nThe Sooners-Rebels game had originally been set for today, Saturday, at 4 p.m./ET but was rescheduled last night for Sunday at 1 p.m./ET. The showdown is a home game for the Sooners, taking place at the Memorial Stadium on Oklahoma’s Norman campus.\n\nThe game was postponed because the Rebels could leave Mississippi Friday due to the flight shutdowns.\n\n“As soon as we learned of Ole Miss’ travel issues,” Denny writes, “we immediately began communicating with their staff and our conference leadership. We were told that Ole Miss explored every avenue to travel to Norman and play on Saturday as planned. But, unlike every other team traveling for competition tomorrow, they were unable to find a solution.\n\n“After multiple conversations with the league office,” he continued, “Commissioner (Greg) Sankey informed us of his decision to move our game to Sunday, over our strong objection. After continued discussions, he further informed us that our failure to play on Sunday at the directed time would result in a forfeit.”\n\nDenny wrote that his team is “obligated to play the game when directed,” but that they “remain steadfast in our belief that the wrong outcome was reached this evening.”\n\nThe AD said additional information of “game logistics and fan appreciations measures” would be announced today (Saturday). He closed the message with, “Boomer Sooner, Roger”.\n\nOther college games rescheduled by the ground stop were same-day (Saturday) delays (check local listings for television coverage of the games). The game disruptions include:\n\nAuburn-Mississippi State: Moved from 12 p.m./ET to 4:15 p.m./ET;Washington-Michigan State: Moved from 4:15 p.m./ET to 5:30 p.m./ET Arizona State-UCF: Moved from 3:30 p.m./ET to 5:30 p.m./ETKansas-West Virginia: Moved from 5:30 p.m./ET to 3:30 p.m./ET Baylor-BYU: Moved from 3:30 p.m./ET to 7:00 p.m./ETUtah-Arizona: Moved from 7:30 p.m./ET to 10:30 p.m./ET Tulane-Rice: Moved from 2 p.m./ET to 4:30 p.m./ET FAU-Tulsa: Moved from 3:30 p.m./ET to 7:15 p.m. ET",
-      "images": [
-        {
-          "url": "https://deadline.com/wp-content/uploads/2026/11/GettyImages-2304062256.jpg?w=1024",
-          "alt": ""
-        }
-      ],
-      "length": 3114,
-      "imageCount": 1
-    },
     "1wo3r9b": {
       "version": 4,
       "url": "https://3dnews.ru/1151308",
-      "fetchedAt": "2026-11-14T19:05:49.817Z",
+      "fetchedAt": "2026-11-14T19:08:10.072Z",
       "title": "Отказ Nvidia от кругового финансирования ИИ по схеме Хуанга не вернёт дешёвые видеокарты в 2027 году",
       "byline": "Павел Котов",
       "siteName": "3DNews",
