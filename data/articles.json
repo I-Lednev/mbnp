@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-15T21:43:37.330Z",
-  "count": 1320,
+  "generatedAt": "2026-11-15T21:45:48.951Z",
+  "count": 1322,
   "articles": {
     "1243266": {
       "version": 4,
@@ -29751,7 +29751,7 @@
     "1cu546o": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/music/music-news/rock-and-roll-hall-of-fame-2026-ceremony-recap-1236755715/",
-      "fetchedAt": "2026-11-15T21:43:24.347Z",
+      "fetchedAt": "2026-11-15T21:45:37.390Z",
       "title": "Billy Idol Rebels, Phil Collins Gets Emotional and Rick Rubin Clones Invade the Rock Hall Induction Ceremony",
       "byline": "Ada Guerin",
       "siteName": "The Hollywood Reporter",
@@ -29788,7 +29788,7 @@
     "5ck8kl": {
       "version": 4,
       "url": "https://deadline.com/2026/11/olivia-cooke-slow-horses-season-8-last-1237224533/",
-      "fetchedAt": "2026-11-15T21:43:24.839Z",
+      "fetchedAt": "2026-11-15T21:45:37.920Z",
       "title": "Olivia Cooke Calls ‘Slow Horses’ Season 8 The “Last Season”: “That’s What We’ve Been Told”",
       "byline": "Glenn Garner",
       "siteName": "Deadline",
@@ -29805,7 +29805,7 @@
     "gh-1416453328": {
       "version": 4,
       "url": "https://github.com/elripalda/RecompStore",
-      "fetchedAt": "2026-11-15T21:43:25.016Z",
+      "fetchedAt": "2026-11-15T21:45:38.097Z",
       "title": "GitHub - elripalda/RecompStore: RecompStore: the free homebrew app store for jailbroken PS5. Installs and updates recompiled game ports, emulators, apps and tools from the console. Bring your own disc.",
       "byline": "",
       "siteName": "GitHub",
@@ -29817,7 +29817,7 @@
     "1gojm8d": {
       "version": 4,
       "url": "https://deadline.com/2026/11/indie-film-box-office-club-kid-expands-paper-tiger-james-gray-1237224498/",
-      "fetchedAt": "2026-11-15T21:43:25.226Z",
+      "fetchedAt": "2026-11-15T21:45:38.327Z",
       "title": "‘Club Kid’ Rocks Limited Expansion As ‘Paper Tiger’ Scores James Gray’s Best Per-Screen Debut — Specialty Box Office",
       "byline": "Jill Goldsmith",
       "siteName": "Deadline",
@@ -29834,7 +29834,7 @@
     "b6vx4m": {
       "version": 4,
       "url": "https://variety.com/2026/tv/news/russell-brand-rape-trial-sentencing-1236948233/",
-      "fetchedAt": "2026-11-15T21:43:25.621Z",
+      "fetchedAt": "2026-11-15T21:45:38.682Z",
       "title": "Russell Brand's Wife Speaks on His Rape Conviction",
       "byline": "Payton Turkeltaub",
       "siteName": "Variety",
@@ -29848,10 +29848,22 @@
       "length": 1811,
       "imageCount": 1
     },
+    "gh-1380918033": {
+      "version": 4,
+      "url": "https://github.com/xfynx/prsche-disasm",
+      "fetchedAt": "2026-11-15T21:45:38.800Z",
+      "title": "GitHub - xfynx/prsche-disasm: Reverse engineering and C/C++ source recovery of Need for Speed: Porsche Unleashed / Porsche 2000 (NFS5, PC 2000), with original-binary indexes, native differential tests and Rust port research.",
+      "byline": "",
+      "siteName": "GitHub",
+      "content": "Reverse engineering and C/C++ reconstruction of Need for Speed: Porsche Unleashed\n(PC, 2000), also released as Need for Speed: Porsche 2000 and commonly called\nNFS5. The goal is to recover the original game's behavior from its Windows x86\nbinaries, build a working game, document its architecture, then use that foundation\nfor a Rust port to modern native and web platforms.\nWork in progress: the recovered C++ game does not yet link into a playable executable.\nThe repository contains verified subsystems, experimental compilation tools and an\nolder Rust/WebGPU prototype. These have separate acceptance criteria.\nCurrent status ? Roadmap ? Binary index ?\nBuild instructions ? Contributing\nWhat is being recovered\nThe target is the original driving and game experience: vehicle physics and damage,\nAI opponents and traffic, Quick Race, Evolution and Factory Driver careers, used-car\npurchases, progression, saves, menus, rendering and audio.\nAlgorithms come from disassembly, decompiler analysis and original resource consumers.\nRecovered functions are checked against original x86 behavior using recorded inputs,\nintermediate state, outputs and ABI checks. Compilation alone is not fidelity proof.\nUnresolved algorithms and unsupported domains remain explicit; a plausible substitute\nis not accepted as original behavior.\nProject tracks\n\nActive C/C++ recovery: v2 / 001-original-recovery.\nThe active plan owns subsystem scope,\nproof artifacts and the next dependency work. STATUS.md records the latest\nmeasured build and its limitations.\nRun578\nadds five partial texture allocation/transfer originals.\nThe shared build has 128 unresolved names across 323 TUs.\nExperimental Rust/WebGPU prototype: 012-campaign-fidelity.\nPR #25 intake adds original-code\nrecorders and vehicle, AI, audio and interface work.\nPR #26 intake extends the\nevidence and fixes integration defects; unproved compositions require an opt-in.\nThe prototype remains unfinished. Snapshots 001?011 are preserved.\n\nThe plan after a functional recovered baseline is an architecture map of the game,\nfollowed by the Rust native/web port. There is no completion-date estimate.\nBuild the recovered modules\nUse Windows x64 with Visual Studio 2022 Build Tools, the C++ x86/x64 workload,\na Windows SDK, CMake and Python 3. From the repository root:\n./scripts/build-v2.ps1\nThis builds Win32 recovery modules and verification programs under\nlocal/builds/v2/001-original-recovery/; it does not produce a complete playable game.\nSee building.md for setup and the current full game-link check.\nSupply your own original game files under local/game/. They are read-only inputs\nand are not distributed with this project. Original installation provenance\nexplains the reference copy and known patch boundaries. Generated builds, caches and\nlocal experiments stay outside Git.\nFind code and evidence\n\nBinary index: start here for original modules,\naddresses, strings, imports, function references and coverage gaps.\nRecovered source registry:\naccepted function owners and explicit partial/unresolved boundaries.\nRecovery runs: immutable per-batch sources,\nmanifests, validation receipts and concise handoffs.\nShared proof manifests: reusable input hashes.\nValidation backlog: outstanding original,\nintegration, platform and visual checks.\nDocumentation index: formats, tools, build setup and recovery notes.\n\nExperimental x86-to-C++ lowering and compile candidates are research tools. Their\ncoverage counts are separate from accepted game functions and playable-game progress.\nContributing\nOriginal-code findings, reproducible fixtures, resource-format research and focused\nfixes are welcome. Include the binary/resource identity, relevant addresses and the\ncomparison that supports a behavior change. Keep approximations and unverified claims\nclearly identified. See CONTRIBUTING.md and AGENTS.md.\nLicense and game assets\nProject-owned original contributions use the MIT License, subject to\nLICENSING.md. Original game binaries, resources, reproduced game\nmaterial and third-party contributions are not automatically relicensed. You need\nyour own copy of the game. This is an unofficial project, unaffiliated with Electronic\nArts, Eden Games or Porsche AG.\nRelated work and acknowledgements\nResource research has benefited from Denis Auroux's CRP/FSH tools,\nOpenNFS / LibOpenNFS and\ndima424658 / LibOpenNFS.\nOpen-Unleashed is a separate Rust\nreimplementation; evaluating it does not establish original-game fidelity or change\nthis project's licensing scope.",
+      "images": [],
+      "length": 4508,
+      "imageCount": 0
+    },
     "l0jm1f": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/movies/movie-news/billy-evans-reacts-amanda-seyfried-portrayal-elizabeth-holmes-1236755698/",
-      "fetchedAt": "2026-11-15T21:43:26.002Z",
+      "fetchedAt": "2026-11-15T21:45:39.069Z",
       "title": "Billy Evans Reacts to Amanda Seyfried’s Portrayal of Elizabeth Holmes in ‘You Can See Everything’",
       "byline": "Carly Thomas",
       "siteName": "The Hollywood Reporter",
@@ -29865,31 +29877,14 @@
       "length": 2747,
       "imageCount": 1
     },
-    "9hf4dt": {
-      "version": 4,
-      "url": "https://www.radiosvoboda.org/a/news-genshtab-zsu-vechirne-zvedennja/33899103.html",
-      "fetchedAt": "2026-11-15T21:43:26.088Z",
-      "title": "На фронті відбулося 130 боїв з початку доби – Генштаб ЗСУ",
-      "byline": "Антон Шульга",
-      "siteName": "Радіо Свобода",
-      "content": "Від початку доби 15 листопада на фронті відбулося 130 бойових зіткнень, повідомляє Генеральний штаб ЗСУ.«Противник завдав 55 авіаційних ударів, скинув 174 керовані авіабомби. Крім того, залучив для ураження 5837 дронів-камікадзе та здійснив 1824 обстріли населених пунктів і позицій наших військ», – ідеться у вечірньому зведенні.Найбільше боїв зафіксовано на Костянтинівському напрямку на Донеччині.«На Костянтинівському напрямку Сили оборони відбивали 18 ворожих штурмів: у районах населених пунктів Новодмитрівка, Костянтинівка, Довга Балка, Вільне та у бік Молочарки, Кіндратівки, Миколайпілля. Одне боєзіткнення триває», – вказано в повідомленні.Бої також тривали на Південно-Слобожанському, Лиманському, Слов’янському, Покровському, Гуляйпільському та Оріхівському напрямках.\n\nРосійські війська посилюють наступальні дії на напрямках Добропілля та Костянтинівки. Про це йдеться у звіті американського Інституту вивчення війни (ISW).Аналітики вважають, що така концентрація атак свідчить про «пріоритетність» цього сектору для російського військового командування.Про інтенсивність боїв свідчать cпроби російських військ просунутися за допомогою бронетехніки. Зокрема, 13 листопада армія РФ здійснила механізований штурм у напрямку Грузького на північний схід від Добропілля. За інформацією українського військового джерела та OSINT-каналу, у ньому брали участь три танки, три бойові машини піхоти та понад десять легких транспортних засобів.В ISW зазначають, що російські війська намагаються скористатися осінніми погодними умовами – туманом, сильним вітром і дощами, які ускладнюють роботу українських розвідувальних та ударних безпілотників.Водночас українські військові знищують російську техніку ще на підступах до передової. Зокрема, під час штурму в напрямку Дружківки 11 листопада кілька російських БМП були уражені поблизу Нової Полтавки – приблизно за 10 км від російського ближнього тилу на південний захід від Костянтинівки, наголосили аналітики.",
-      "images": [
-        {
-          "url": "https://gdb.rferl.org/e64e7f86-9bd0-4bef-eb32-08df13afe2a0_w1200_h630.jpg",
-          "alt": ""
-        }
-      ],
-      "length": 1963,
-      "imageCount": 1
-    },
     "pizk51": {
       "version": 4,
       "url": "https://www.playground.ru/euro_truck_simulator_2/news/euro_truck_simulator_2_ustanovila_novyj_rekord_onlajna_bolee_100_tysyach_igrokov_odnovremenno-1891014",
-      "fetchedAt": "2026-11-15T21:43:26.171Z",
+      "fetchedAt": "2026-11-15T21:45:39.153Z",
       "title": "Euro Truck Simulator 2 установила новый рекорд онлайна - более 100 тысяч игроков одновременно",
       "byline": "RedDay13",
       "siteName": "Playground",
-      "content": "Euro Truck Simulator 2 продолжает бить рекорды спустя 14 лет после релиза. 15 ноября игра достигла нового исторического пика онлайна в Steam — одновременно в неё играли 101 783 человека. Этот показатель стал абсолютным рекордом за всё время существования игры.\nРезкий скачок онлайна совпал с выходом крупного дополнения Coaches, которое позволило игрокам пересесть за руль автобусов.\n\nEuro Truck Simulator 2 вышла 18 октября 2012 года и за это время получила более 110 DLC. Игра поддерживается на Windows, macOS и Linux и имеет рейтинг 96,56% на основе почти миллиона обзоров в Steam.",
+      "content": "Euro Truck Simulator 2 продолжает бить рекорды спустя 14 лет после релиза. 15 ноября игра достигла нового исторического пика онлайна в Steam — одновременно в неё играли 101 783 человека. Этот показатель стал абсолютным рекордом за всё время существования игры. Прошлый рекорд онлайна был зафиксирован на отметке 73,887 игроков в феврале 2026 года.\nРезкий скачок онлайна совпал с выходом крупного дополнения Coaches, которое позволило игрокам пересесть за руль автобусов.\n\nEuro Truck Simulator 2 вышла 18 октября 2012 года и за это время получила более 110 DLC. Игра поддерживается на Windows, macOS и Linux и имеет рейтинг 96,56% на основе почти миллиона обзоров в Steam.",
       "images": [
         {
           "url": "https://i.playground.ru/e/QPUyJilruwsfCyKOv0WuNQ.png",
@@ -29904,13 +29899,30 @@
           "alt": ""
         }
       ],
-      "length": 584,
+      "length": 671,
       "imageCount": 3
+    },
+    "9hf4dt": {
+      "version": 4,
+      "url": "https://www.radiosvoboda.org/a/news-genshtab-zsu-vechirne-zvedennja/33899103.html",
+      "fetchedAt": "2026-11-15T21:45:39.227Z",
+      "title": "На фронті відбулося 130 боїв з початку доби – Генштаб ЗСУ",
+      "byline": "Антон Шульга",
+      "siteName": "Радіо Свобода",
+      "content": "Від початку доби 15 листопада на фронті відбулося 130 бойових зіткнень, повідомляє Генеральний штаб ЗСУ.«Противник завдав 55 авіаційних ударів, скинув 174 керовані авіабомби. Крім того, залучив для ураження 5837 дронів-камікадзе та здійснив 1824 обстріли населених пунктів і позицій наших військ», – ідеться у вечірньому зведенні.Найбільше боїв зафіксовано на Костянтинівському напрямку на Донеччині.«На Костянтинівському напрямку Сили оборони відбивали 18 ворожих штурмів: у районах населених пунктів Новодмитрівка, Костянтинівка, Довга Балка, Вільне та у бік Молочарки, Кіндратівки, Миколайпілля. Одне боєзіткнення триває», – вказано в повідомленні.Бої також тривали на Південно-Слобожанському, Лиманському, Слов’янському, Покровському, Гуляйпільському та Оріхівському напрямках.\n\nРосійські війська посилюють наступальні дії на напрямках Добропілля та Костянтинівки. Про це йдеться у звіті американського Інституту вивчення війни (ISW).Аналітики вважають, що така концентрація атак свідчить про «пріоритетність» цього сектору для російського військового командування.Про інтенсивність боїв свідчать cпроби російських військ просунутися за допомогою бронетехніки. Зокрема, 13 листопада армія РФ здійснила механізований штурм у напрямку Грузького на північний схід від Добропілля. За інформацією українського військового джерела та OSINT-каналу, у ньому брали участь три танки, три бойові машини піхоти та понад десять легких транспортних засобів.В ISW зазначають, що російські війська намагаються скористатися осінніми погодними умовами – туманом, сильним вітром і дощами, які ускладнюють роботу українських розвідувальних та ударних безпілотників.Водночас українські військові знищують російську техніку ще на підступах до передової. Зокрема, під час штурму в напрямку Дружківки 11 листопада кілька російських БМП були уражені поблизу Нової Полтавки – приблизно за 10 км від російського ближнього тилу на південний захід від Костянтинівки, наголосили аналітики.",
+      "images": [
+        {
+          "url": "https://gdb.rferl.org/e64e7f86-9bd0-4bef-eb32-08df13afe2a0_w1200_h630.jpg",
+          "alt": ""
+        }
+      ],
+      "length": 1963,
+      "imageCount": 1
     },
     "h75oay": {
       "version": 4,
       "url": "https://deadline.com/2026/11/the-good-daughter-author-thinking-about-sequel-1237224525/",
-      "fetchedAt": "2026-11-15T21:43:26.551Z",
+      "fetchedAt": "2026-11-15T21:45:39.588Z",
       "title": "‘The Good Daughter’ Author Is “Thinking About” Short Story Sequel",
       "byline": "Glenn Garner",
       "siteName": "Deadline",
@@ -29927,13 +29939,13 @@
     "1l6f3ib": {
       "version": 4,
       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/estonia-to-close-border-crossings-with-russia-after-alleged-arson-attack?traffic_source=rss",
-      "fetchedAt": "2026-11-15T21:43:26.656Z",
+      "fetchedAt": "2026-11-15T21:45:39.715Z",
       "error": "не удалось выделить основной текст"
     },
     "wtl82y": {
       "version": 4,
       "url": "https://techcrunch.com/2026/11/15/snl-gathers-all-the-tech-tycoons-for-a-lesson-in-dating-and-spycraft/",
-      "fetchedAt": "2026-11-15T21:43:26.826Z",
+      "fetchedAt": "2026-11-15T21:45:39.874Z",
       "title": "SNL gathers all the tech tycoons for a lesson in dating and spycraft",
       "byline": "Anthony Ha",
       "siteName": "TechCrunch",
@@ -29950,7 +29962,7 @@
     "1v84m7r": {
       "version": 4,
       "url": "https://variety.com/2026/film/news/ben-affleck-robert-pattinson-the-odyssey-1236948199/",
-      "fetchedAt": "2026-11-15T21:43:27.209Z",
+      "fetchedAt": "2026-11-15T21:45:40.142Z",
       "title": "Ben Affleck Raved About Robert Pattinson’s ‘The Odyssey’ Performance",
       "byline": "Isabelle Farina",
       "siteName": "Variety",
@@ -29964,28 +29976,35 @@
       "length": 1596,
       "imageCount": 1
     },
-    "gh-1380918033": {
-      "version": 4,
-      "url": "https://github.com/xfynx/prsche-disasm",
-      "fetchedAt": "2026-11-15T21:43:27.788Z",
-      "title": "GitHub - xfynx/prsche-disasm: Reverse engineering and C/C++ source recovery of Need for Speed: Porsche Unleashed / Porsche 2000 (NFS5, PC 2000), with original-binary indexes, native differential tests and Rust port research.",
-      "byline": "",
-      "siteName": "GitHub",
-      "content": "Reverse engineering and C/C++ reconstruction of Need for Speed: Porsche Unleashed\n(PC, 2000), also released as Need for Speed: Porsche 2000 and commonly called\nNFS5. The goal is to recover the original game's behavior from its Windows x86\nbinaries, build a working game, document its architecture, then use that foundation\nfor a Rust port to modern native and web platforms.\nWork in progress: the recovered C++ game does not yet link into a playable executable.\nThe repository contains verified subsystems, experimental compilation tools and an\nolder Rust/WebGPU prototype. These have separate acceptance criteria.\nCurrent status ? Roadmap ? Binary index ?\nBuild instructions ? Contributing\nWhat is being recovered\nThe target is the original driving and game experience: vehicle physics and damage,\nAI opponents and traffic, Quick Race, Evolution and Factory Driver careers, used-car\npurchases, progression, saves, menus, rendering and audio.\nAlgorithms come from disassembly, decompiler analysis and original resource consumers.\nRecovered functions are checked against original x86 behavior using recorded inputs,\nintermediate state, outputs and ABI checks. Compilation alone is not fidelity proof.\nUnresolved algorithms and unsupported domains remain explicit; a plausible substitute\nis not accepted as original behavior.\nProject tracks\n\nActive C/C++ recovery: v2 / 001-original-recovery.\nThe active plan owns subsystem scope,\nproof artifacts and the next dependency work. STATUS.md records the latest\nmeasured build and its limitations.\nRun578\nadds five partial texture allocation/transfer originals.\nThe shared build has 128 unresolved names across 323 TUs.\nExperimental Rust/WebGPU prototype: 012-campaign-fidelity.\nPR #25 intake adds original-code\nrecorders and vehicle, AI, audio and interface work.\nPR #26 intake extends the\nevidence and fixes integration defects; unproved compositions require an opt-in.\nThe prototype remains unfinished. Snapshots 001?011 are preserved.\n\nThe plan after a functional recovered baseline is an architecture map of the game,\nfollowed by the Rust native/web port. There is no completion-date estimate.\nBuild the recovered modules\nUse Windows x64 with Visual Studio 2022 Build Tools, the C++ x86/x64 workload,\na Windows SDK, CMake and Python 3. From the repository root:\n./scripts/build-v2.ps1\nThis builds Win32 recovery modules and verification programs under\nlocal/builds/v2/001-original-recovery/; it does not produce a complete playable game.\nSee building.md for setup and the current full game-link check.\nSupply your own original game files under local/game/. They are read-only inputs\nand are not distributed with this project. Original installation provenance\nexplains the reference copy and known patch boundaries. Generated builds, caches and\nlocal experiments stay outside Git.\nFind code and evidence\n\nBinary index: start here for original modules,\naddresses, strings, imports, function references and coverage gaps.\nRecovered source registry:\naccepted function owners and explicit partial/unresolved boundaries.\nRecovery runs: immutable per-batch sources,\nmanifests, validation receipts and concise handoffs.\nShared proof manifests: reusable input hashes.\nValidation backlog: outstanding original,\nintegration, platform and visual checks.\nDocumentation index: formats, tools, build setup and recovery notes.\n\nExperimental x86-to-C++ lowering and compile candidates are research tools. Their\ncoverage counts are separate from accepted game functions and playable-game progress.\nContributing\nOriginal-code findings, reproducible fixtures, resource-format research and focused\nfixes are welcome. Include the binary/resource identity, relevant addresses and the\ncomparison that supports a behavior change. Keep approximations and unverified claims\nclearly identified. See CONTRIBUTING.md and AGENTS.md.\nLicense and game assets\nProject-owned original contributions use the MIT License, subject to\nLICENSING.md. Original game binaries, resources, reproduced game\nmaterial and third-party contributions are not automatically relicensed. You need\nyour own copy of the game. This is an unofficial project, unaffiliated with Electronic\nArts, Eden Games or Porsche AG.\nRelated work and acknowledgements\nResource research has benefited from Denis Auroux's CRP/FSH tools,\nOpenNFS / LibOpenNFS and\ndima424658 / LibOpenNFS.\nOpen-Unleashed is a separate Rust\nreimplementation; evaluating it does not establish original-game fidelity or change\nthis project's licensing scope.",
-      "images": [],
-      "length": 4508,
-      "imageCount": 0
-    },
     "iaq2eh": {
       "version": 4,
       "url": "https://phys.org/news/2026-11-dark-matterhunting-satellite-euclid-reveals.html",
-      "fetchedAt": "2026-11-15T21:43:27.967Z",
-      "error": "HTTP 403"
+      "fetchedAt": "2026-11-15T21:45:40.420Z",
+      "title": "Dark matter–hunting satellite Euclid reveals record number of cosmic 'magnifying glasses'",
+      "byline": "University of British Columbia",
+      "siteName": "Phys.org",
+      "content": "Disk of M81, feat. Holmberg IX dwarf. Credit: ESA/Euclid/Euclid Consortium/NASA, image processing by J.-C. Cuillandre and E. Bertin CC BY-SA 3.0 IGO\n\nUBC researchers have helped uncover 15,000 new potential strong gravitational lenses—the largest collection of these cosmic tools that help astronomers investigate dark matter.\n\nThe first major release of data from the European Space Agency's Euclid space telescope comprises 1.7 million gigabytes of data. Analysis by a global consortium of more than 2,000 scientists, including more than 30 Canadians, revealed more than 900 million galaxies and 60 million quasars—the brilliant cores of distant galaxies—across almost 5% of the entire night sky from 13 months of observation.\n\"Strong lenses have been difficult to find—the odds were about 1 in 10,000,\" said co-author Hrishabh Srivastava, a doctoral student in the UBC department of physics and astronomy (PHAS). \"Before Euclid, we had fewer than 1,000 confirmed strong lenses. Now we have 15,000 new candidates.\"\nDark universe hunter\nThe Euclid satellite launched in 2023 at a cost of more than $1 billion with the aim of mapping more than one-third of the sky to build a 3D map of the universe, which would help scientists determine the properties of dark energy and dark matter on a universal scale.\nDark energy and dark matter remain two of the greatest mysteries of modern physics despite making up about 95% of the universe. Dark energy is an unknown force pushing the universe apart and observed only by the accelerating expansion of galactic objects away from each other in all directions.\nDark matter is some form of invisible, unknown matter that we can only detect through its gravitational effects—including the bending or \"lensing\" of light.\n\"It turns out, the stuff humans are made of is relatively rare in the universe,\" said co-author Dr. Douglas Scott, PHAS professor and a member of the Euclid collaboration. \"And what dominates—dark matter and dark energy—is invisible so we're not used to dealing with it. But it makes the universe what it is; it drives how the universe expands and what the past and future of the universe will be. Where did these things come from? What properties do they have? Euclid's data give us the potential to answer those questions.\"\nCanadian organizations involved in the Euclid mission include UBC, University of Waterloo, NRC's Herzberg Astronomy and Astrophysics Research Center, the Canada-France-Hawaii Telescope and many others.\n\nNature's magnifying glasses\nGravitational lensing occurs when the light from one galaxy is bent by a foreground galaxy acting as a lens. The light from the more distant galaxy appears, in a perfect example, as a ring of light around the foreground galaxy, known as an Einstein ring thanks to his prediction of the phenomenon back in 1936. The composition and distribution of matter in the foreground, including dark matter, are revealed by how the light is bent.\n\"I like to call these gravitational lenses 'nature's own magnifying glasses' to probe the dark matter distribution of our universe,\" said Srivastava.\n\"It took many decades to verify Einstein's prediction of gravitational lenses, but if he had the Euclid data it would have been easy to confirm, since they're all over the sky,\" added Scott.\nGravitational lenses can also be used to investigate dark energy by plugging their parameters into the current cosmological model and seeing if the numbers match. They also magnify the background galaxy for a clearer picture.\nSrivastava was part of the team finding gravitational lens candidates. This four-part process involves machine learning to initially parse the huge amount of data for likely lenses. Then, thousands of citizen scientists pore over the AI-sorted data to further refine the candidate pool. Third, experts including Srivastava check the citizen scientists' work, looking at about 6,000 to 10,000 galaxies each. The final step involves verifying that the candidates are indeed lenses using follow-up data with other telescopes.\nThe new catalog is larger than all previous collections of strong gravitational lenses combined. Because the observations were gathered by the same telescope and analyzed using the same methods, researchers can compare them more reliably than ever before.\nSrivastava will attempt to estimate the dark matter distribution of the universe. He also aims to build a machine-learning model strong enough to identify strong lenses without verification.\n\nA universal map\nUnlike ground-based telescopes, Euclid operates above Earth's atmosphere, which blurs astronomical images. That allows Euclid to spot faint and distant features that would otherwise be difficult or impossible to detect.\nThe data release, described in 26 papers submitted to the journal Astronomy & Astrophysics today, also includes spectra from more than 160 million sources. A spectrum is the data obtained by splitting the light from galaxies into 'rainbows,' including distance and sometimes the elemental composition of the emission source.\nScientists can use the dataset to determine distances to galaxies and place them into the 3D structure of the universe, building a giant map. The current dataset covers about 14% of the total sky area Euclid will survey in its six years of service.\n\nWho's behind this story?\n\nLisa Lock\n\nBA art history, MA material culture. Former museum editor, paramedic, and transplant coordinator. Editing for Science X since 2021.\n\nFull profile →\n\nRobert Egan\n\nBachelor's in mathematical biology, Master's in creative writing. Well-traveled with unique perspectives on science and language.\n\nFull profile →\n\nCitation:\nDark matter–hunting satellite Euclid reveals record number of cosmic 'magnifying glasses' (2026, November 15)\nretrieved 15 November 2026\nfrom https://phys.org/news/2026-11-dark-matterhunting-satellite-euclid-reveals.html\n\nThis document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no\npart may be reproduced without the written permission. The content is provided for information purposes only.",
+      "images": [
+        {
+          "url": "https://scx2.b-cdn.net/gfx/news/hires/2026/disc-of-m81-feat-holmb.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://scx2.b-cdn.net/gfx/news/2026/disc-of-m81-feat-holmb.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://scx1.b-cdn.net/csz/news/800a/2026/disc-of-m81-feat-holmb.jpg",
+          "alt": "Disc of M81, feat. Holmberg IX dwarf"
+        }
+      ],
+      "length": 6102,
+      "imageCount": 3
     },
     "15ka37i": {
       "version": 4,
       "url": "https://www.ukrinform.ua/rubric-ato/4184975-na-fronti-130-zitknen-kostantinivskij-napramok-najgaracisij.html",
-      "fetchedAt": "2026-11-15T21:43:28.050Z",
+      "fetchedAt": "2026-11-15T21:45:40.698Z",
       "title": "На фронті 130 зіткнень, Костянтинівський напрямок найгарячіший",
       "byline": "Ukrinform",
       "siteName": "Укрінформ",
@@ -30002,7 +30021,7 @@
     "10x0v5z": {
       "version": 4,
       "url": "https://www.playground.ru/misc/news/xbox_vozvraschaet_originalnye_animatsii_zapuska_konsolej_xbox_i_xbox_360_v_chest_25_letiya_brenda-1891003",
-      "fetchedAt": "2026-11-15T21:43:28.487Z",
+      "fetchedAt": "2026-11-15T21:45:40.896Z",
       "title": "Xbox возвращает оригинальные анимации запуска консолей Xbox и Xbox 360 в честь 25-летия бренда",
       "byline": "monk70",
       "siteName": "Playground",
@@ -30027,7 +30046,7 @@
     "5zseu5": {
       "version": 4,
       "url": "https://www.playground.ru/gta_6/news/rockstar_vypuskaet_nebolshoe_obnovlenie_dlya_gta_vi_v_magazine_xbox_v_preddverii_daty_vyhoda-1891006",
-      "fetchedAt": "2026-11-15T21:43:28.560Z",
+      "fetchedAt": "2026-11-15T21:45:41.250Z",
       "title": "Rockstar выпускает небольшое обновление для GTA VI в магазине Xbox в преддверии даты выхода",
       "byline": "monk70",
       "siteName": "Playground",
@@ -30052,7 +30071,7 @@
     "1rl3zvh": {
       "version": 4,
       "url": "https://www.infoq.com/news/2026/11/uber-secure-ai-framework/",
-      "fetchedAt": "2026-11-15T21:43:28.667Z",
+      "fetchedAt": "2026-11-15T21:45:41.349Z",
       "title": "Uber's Secure AI Framework Governs Autonomous AI Agents Across Their Lifecycle",
       "byline": "Sergio De Simone",
       "siteName": "InfoQ",
@@ -30074,31 +30093,10 @@
       "length": 4246,
       "imageCount": 3
     },
-    "15qm3w": {
-      "version": 4,
-      "url": "https://www.playground.ru/misc/news/microsoft_rasschityvaet_sdelat_project_helix_dostupnee_s_pomoschyu_nejronnogo_renderinga_na_fone_podorozhaniya_komplektuyuschih-1891002",
-      "fetchedAt": "2026-11-15T21:43:29.127Z",
-      "title": "Microsoft рассчитывает сделать Project Helix доступнее с помощью нейронного рендеринга на фоне подорожания комплектующих",
-      "byline": "Legend_of_the_Hero",
-      "siteName": "Playground",
-      "content": "Microsoft рассматривает нейронный рендеринг как одну из ключевых технологий, способных сдержать стоимость консоли следующего поколения Xbox Project Helix. На фоне глобального дефицита комплектующих, стремительного подорожания оперативной памяти и растущих затрат на производство оборудования компания вынуждена искать новые способы повышения производительности без пропорционального увеличения вычислительной мощности. Об этом рассказал вице-президент Microsoft по разработке устройств следующего поколения Джейсон Рональд в специальном журнале, посвящённом 25-летию Xbox.\n\nПо словам Рональда, нынешний кризис полупроводниковой отрасли стал неожиданной проблемой, которую разработчики Project Helix не могли предвидеть на ранних этапах создания консоли. Исторически игровые приставки оставались одним из наиболее доступных способов познакомиться с современными видеоиграми, однако сейчас рост стоимости компонентов затрагивает практически всю электронику. В результате сохранение приемлемой цены стало одним из важнейших факторов, определяющих технологическое развитие нового Xbox.\nСейчас определённо непростое время, но для разработчиков систем и платформ это также один из самых интересных периодов. Нам приходится изобретать совершенно новые технологии, чтобы продолжать двигаться вперёд, одновременно сохраняя доступность устройств,\n— объяснил Рональд.\nОдним из таких решений Microsoft считает нейронный рендеринг, позволяющий формировать изображения с помощью технологий искусственного интеллекта без необходимости постоянно наращивать вычислительную мощность и объём оперативной памяти. По словам Рональда, именно поэтому компания уделяет столь большое внимание развитию подобных методов. Он также прогнозирует, что в ближайшие три-пять лет игровая индустрия увидит больше технологических инноваций, чем за предыдущее десятилетие.\nВпрочем, насколько подобные технологии действительно помогут снизить производственные затраты на Project Helix, пока неизвестно. Ранее появлялись сообщения о том, что производство PlayStation 6 якобы может обходиться приблизительно на $200 дешевле, чем создание конкурирующей консоли Microsoft. Однако эти оценки остаются неподтверждёнными, а официальную стоимость Project Helix компания ещё не раскрыла. Таким образом, нейронный рендеринг рассматривается прежде всего как способ уменьшить зависимость будущей Xbox от дорогого оборудования, а не как гарантия доступной розничной цены.",
-      "images": [
-        {
-          "url": "https://i.playground.ru/e/lAQlvS-CMavQoN13eP4sRg.webp",
-          "alt": ""
-        },
-        {
-          "url": "https://i.playground.ru/p/lAQlvS-CMavQoN13eP4sRg.webp?760xauto",
-          "alt": ""
-        }
-      ],
-      "length": 2421,
-      "imageCount": 2
-    },
     "1wrh2a9": {
       "version": 4,
       "url": "https://www.playground.ru/misc/news/dzhonni_depp_vernulsya_na_vershinu_mirovogo_prokata_skrudzh_sobral_42_mln_za_pervyj_uik_end_pri_byudzhete_38_mln-1890999",
-      "fetchedAt": "2026-11-15T21:43:29.197Z",
+      "fetchedAt": "2026-11-15T21:45:41.493Z",
       "title": "Джонни Депп вернулся на вершину мирового проката: \"Скрудж\" собрал $42 млн за первый уик-энд при бюджете $38 млн",
       "byline": "Legend_of_the_Hero",
       "siteName": "Playground",
@@ -30120,27 +30118,10 @@
       "length": 1787,
       "imageCount": 3
     },
-    "1q18y9b": {
-      "version": 4,
-      "url": "https://www.playground.ru/rainbow_six_siege/news/rainbow_six_siege_poluchit_krossover_s_doom_pererabotku_doka_i_novoe_oruzhie-1890997",
-      "fetchedAt": "2026-11-15T21:43:29.315Z",
-      "title": "Rainbow Six Siege получит кроссовер с DOOM, переработку Дока и новое оружие",
-      "byline": "monk70",
-      "siteName": "Playground",
-      "content": "Ubisoft раскрыла подробности следующего сезона Rainbow Six Siege — Year 11 Season 4: Operation Vital Signal. Обновление выйдет 1 декабря на всех платформах и принесёт масштабные изменения баланса, переработку Дока, обновление карты «Банк» и неожиданный кроссовер с DOOM.\nГлавным изменением станет полная переработка Дока: его привычный Stim Pistol заменят на новое устройство E-Heal Monitor. С его помощью оперативник сможет видеть полоски здоровья союзников по всей карте, лечить их и даже поднимать раненых сквозь стены и другие препятствия. Ограничения по дальности у гаджета не будет. При этом Док по-прежнему сможет лечить самого себя. Противодействовать новому устройству сможет Тэтчер.\nИзменения затронут и Гром: её гаджет Kona Station получит сразу четыре размещаемые станции вместо прежнего количества, а время перезарядки сократится до 10 секунд. Кроме лечения, станции теперь смогут снимать эффекты оглушения и контузии.\nВ арсенале Егеря, Уордена и Гром появится новый пистолет-пулемёт MBZ-19 с магазином на 64 патрона, уроном 33 единицы за выстрел и скорострельностью 750 выстрелов в минуту.\nТакже Ubisoft обновит карту «Банк»: появится новая точка входа для атакующих, дополнительное укрытие снаружи и улучшения оборонительных позиций на втором этаже.\nОтдельно разработчики протестируют новый тип укреплений — Half-Reinforcements. Как следует из названия, они будут защищать лишь половину стены от пуль и взрывчатки, открывая дополнительные возможности для создания оборонительных позиций. Тестирование пройдёт в режиме Testing Grounds с 19 января по 2 февраля.\nИзменения коснутся и рейтинговых матчей. Игрокам предложат два отдельных режима: Solo/Duo для одиночек и пар, а также Ranked Flex для групп из одного, двух, трёх или пяти человек. Возможность играть впятером в новом формате сохранится, а отрядов из четырёх игроков не будет. По словам Ubisoft, это должно сделать подбор соперников более справедливым и защитить одиночных игроков от полностью скоординированных команд.\nКроме того, в Rainbow Six Siege появится новая социальная система с общим списком друзей и возможностью собирать группы между платформами PlayStation, Xbox и ПК.\nНаконец, Ubisoft подтвердила скорый кроссовер со вселенной DOOM от Microsoft и Bethesda. В опубликованном тизере показан облик Палача Рока, который, судя по всему, предназначен для Тачанки.",
-      "images": [
-        {
-          "url": "https://i.playground.ru/e/1CKJTT970XxwuYk5_zHgsA.jpeg",
-          "alt": ""
-        }
-      ],
-      "length": 2344,
-      "imageCount": 1
-    },
     "19afd2j": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/baby2baby-gala-demi-moore-raises-20-million-1236755662/",
-      "fetchedAt": "2026-11-15T21:43:29.587Z",
+      "fetchedAt": "2026-11-15T21:45:41.881Z",
       "title": "Baby2Baby Gala Fetes Demi Moore and Raises Over $20M for the Cause",
       "byline": "Kirsten Chuba",
       "siteName": "The Hollywood Reporter",
@@ -30177,7 +30158,7 @@
     "brnr9r": {
       "version": 4,
       "url": "https://www.playground.ru/misc/news/intel_razor_lake_poluchit_12_p_yader_coyote_cove_i_kesh_bllc_na_tehprotsesse_18a_p_neobychnaya_versiya_dlya_nastolnyh_pk-1890996",
-      "fetchedAt": "2026-11-15T21:43:29.699Z",
+      "fetchedAt": "2026-11-15T21:45:41.946Z",
       "title": "Intel Razor Lake получит 12 P-ядер Coyote Cove и кеш bLLC на техпроцессе 18A-P - необычная версия для настольных ПК",
       "byline": "Legend_of_the_Hero",
       "siteName": "Playground",
@@ -30195,10 +30176,48 @@
       "length": 2311,
       "imageCount": 2
     },
+    "1q18y9b": {
+      "version": 4,
+      "url": "https://www.playground.ru/rainbow_six_siege/news/rainbow_six_siege_poluchit_krossover_s_doom_pererabotku_doka_i_novoe_oruzhie-1890997",
+      "fetchedAt": "2026-11-15T21:45:42.022Z",
+      "title": "Rainbow Six Siege получит кроссовер с DOOM, переработку Дока и новое оружие",
+      "byline": "monk70",
+      "siteName": "Playground",
+      "content": "Ubisoft раскрыла подробности следующего сезона Rainbow Six Siege — Year 11 Season 4: Operation Vital Signal. Обновление выйдет 1 декабря на всех платформах и принесёт масштабные изменения баланса, переработку Дока, обновление карты «Банк» и неожиданный кроссовер с DOOM.\nГлавным изменением станет полная переработка Дока: его привычный Stim Pistol заменят на новое устройство E-Heal Monitor. С его помощью оперативник сможет видеть полоски здоровья союзников по всей карте, лечить их и даже поднимать раненых сквозь стены и другие препятствия. Ограничения по дальности у гаджета не будет. При этом Док по-прежнему сможет лечить самого себя. Противодействовать новому устройству сможет Тэтчер.\nИзменения затронут и Гром: её гаджет Kona Station получит сразу четыре размещаемые станции вместо прежнего количества, а время перезарядки сократится до 10 секунд. Кроме лечения, станции теперь смогут снимать эффекты оглушения и контузии.\nВ арсенале Егеря, Уордена и Гром появится новый пистолет-пулемёт MBZ-19 с магазином на 64 патрона, уроном 33 единицы за выстрел и скорострельностью 750 выстрелов в минуту.\nТакже Ubisoft обновит карту «Банк»: появится новая точка входа для атакующих, дополнительное укрытие снаружи и улучшения оборонительных позиций на втором этаже.\nОтдельно разработчики протестируют новый тип укреплений — Half-Reinforcements. Как следует из названия, они будут защищать лишь половину стены от пуль и взрывчатки, открывая дополнительные возможности для создания оборонительных позиций. Тестирование пройдёт в режиме Testing Grounds с 19 января по 2 февраля.\nИзменения коснутся и рейтинговых матчей. Игрокам предложат два отдельных режима: Solo/Duo для одиночек и пар, а также Ranked Flex для групп из одного, двух, трёх или пяти человек. Возможность играть впятером в новом формате сохранится, а отрядов из четырёх игроков не будет. По словам Ubisoft, это должно сделать подбор соперников более справедливым и защитить одиночных игроков от полностью скоординированных команд.\nКроме того, в Rainbow Six Siege появится новая социальная система с общим списком друзей и возможностью собирать группы между платформами PlayStation, Xbox и ПК.\nНаконец, Ubisoft подтвердила скорый кроссовер со вселенной DOOM от Microsoft и Bethesda. В опубликованном тизере показан облик Палача Рока, который, судя по всему, предназначен для Тачанки.",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/1CKJTT970XxwuYk5_zHgsA.jpeg",
+          "alt": ""
+        }
+      ],
+      "length": 2344,
+      "imageCount": 1
+    },
+    "15qm3w": {
+      "version": 4,
+      "url": "https://www.playground.ru/misc/news/microsoft_rasschityvaet_sdelat_project_helix_dostupnee_s_pomoschyu_nejronnogo_renderinga_na_fone_podorozhaniya_komplektuyuschih-1891002",
+      "fetchedAt": "2026-11-15T21:45:42.085Z",
+      "title": "Microsoft рассчитывает сделать Project Helix доступнее с помощью нейронного рендеринга на фоне подорожания комплектующих",
+      "byline": "Legend_of_the_Hero",
+      "siteName": "Playground",
+      "content": "Microsoft рассматривает нейронный рендеринг как одну из ключевых технологий, способных сдержать стоимость консоли следующего поколения Xbox Project Helix. На фоне глобального дефицита комплектующих, стремительного подорожания оперативной памяти и растущих затрат на производство оборудования компания вынуждена искать новые способы повышения производительности без пропорционального увеличения вычислительной мощности. Об этом рассказал вице-президент Microsoft по разработке устройств следующего поколения Джейсон Рональд в специальном журнале, посвящённом 25-летию Xbox.\n\nПо словам Рональда, нынешний кризис полупроводниковой отрасли стал неожиданной проблемой, которую разработчики Project Helix не могли предвидеть на ранних этапах создания консоли. Исторически игровые приставки оставались одним из наиболее доступных способов познакомиться с современными видеоиграми, однако сейчас рост стоимости компонентов затрагивает практически всю электронику. В результате сохранение приемлемой цены стало одним из важнейших факторов, определяющих технологическое развитие нового Xbox.\nСейчас определённо непростое время, но для разработчиков систем и платформ это также один из самых интересных периодов. Нам приходится изобретать совершенно новые технологии, чтобы продолжать двигаться вперёд, одновременно сохраняя доступность устройств,\n— объяснил Рональд.\nОдним из таких решений Microsoft считает нейронный рендеринг, позволяющий формировать изображения с помощью технологий искусственного интеллекта без необходимости постоянно наращивать вычислительную мощность и объём оперативной памяти. По словам Рональда, именно поэтому компания уделяет столь большое внимание развитию подобных методов. Он также прогнозирует, что в ближайшие три-пять лет игровая индустрия увидит больше технологических инноваций, чем за предыдущее десятилетие.\nВпрочем, насколько подобные технологии действительно помогут снизить производственные затраты на Project Helix, пока неизвестно. Ранее появлялись сообщения о том, что производство PlayStation 6 якобы может обходиться приблизительно на $200 дешевле, чем создание конкурирующей консоли Microsoft. Однако эти оценки остаются неподтверждёнными, а официальную стоимость Project Helix компания ещё не раскрыла. Таким образом, нейронный рендеринг рассматривается прежде всего как способ уменьшить зависимость будущей Xbox от дорогого оборудования, а не как гарантия доступной розничной цены.",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/lAQlvS-CMavQoN13eP4sRg.webp",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/lAQlvS-CMavQoN13eP4sRg.webp?760xauto",
+          "alt": ""
+        }
+      ],
+      "length": 2421,
+      "imageCount": 2
+    },
     "1lpk1lc": {
       "version": 4,
       "url": "https://deadline.com/2026/11/kevin-feige-x-men-avengerss-fun-way-celebrate-25-years-1237224515/",
-      "fetchedAt": "2026-11-15T21:43:30.186Z",
+      "fetchedAt": "2026-11-15T21:45:42.556Z",
       "title": "Kevin Feige Felt Bringing X-Men Into ‘Avengers’ Franchise Was “Fun Way” To Celebrate 25 Years",
       "byline": "Glenn Garner",
       "siteName": "Deadline",
@@ -30215,7 +30234,7 @@
     "1qer31n": {
       "version": 4,
       "url": "https://www.playground.ru/misc/news/dzhensen_huang_obsuzhdaet_vozvraschenie_v_nvidia_na_fone_krizisa_rukovodstva-1890995",
-      "fetchedAt": "2026-11-15T21:43:30.275Z",
+      "fetchedAt": "2026-11-15T21:45:42.630Z",
       "title": "Дженсен Хуанг обсуждает возвращение в Nvidia на фоне кризиса руководства",
       "byline": "IKarasik",
       "siteName": "Playground",
@@ -30240,7 +30259,7 @@
     "14gipk6": {
       "version": 4,
       "url": "https://www.playground.ru/songs_of_silence/news/bolshe_nikakih_dopolnenij_ili_obnovlenij_songs_of_silence_podderzhka_strategii_s_elementami_rpg_prekraschaetsya-1890994",
-      "fetchedAt": "2026-11-15T21:43:30.347Z",
+      "fetchedAt": "2026-11-15T21:45:42.712Z",
       "title": "Больше никаких дополнений или обновлений Songs of Silence - поддержка стратегии с элементами RPG прекращается",
       "byline": "monk70",
       "siteName": "Playground",
@@ -30265,13 +30284,13 @@
     "1r5z332": {
       "version": 4,
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/comments/1xx46on/half_life_2s_entire_dev_repo_was_leaked_on_4chan/",
-      "fetchedAt": "2026-11-15T21:43:30.394Z",
+      "fetchedAt": "2026-11-15T21:45:42.729Z",
       "error": "HTTP 403"
     },
     "1fllzxe": {
       "version": 4,
       "url": "https://variety.com/2026/music/news/phil-collins-rock-roll-hall-of-fame-induction-health-1236948171/",
-      "fetchedAt": "2026-11-15T21:43:30.653Z",
+      "fetchedAt": "2026-11-15T21:45:42.997Z",
       "title": "Phil Collins Addresses Health Concerns and Furture Performances",
       "byline": "Isabelle Farina",
       "siteName": "Variety",
@@ -30288,7 +30307,7 @@
     "t0ku1e": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/movies/movie-news/tallinn-film-satire-when-i-existed-uruguay-pensioner-dead-1236753960/",
-      "fetchedAt": "2026-11-15T21:43:30.914Z",
+      "fetchedAt": "2026-11-15T21:45:43.267Z",
       "title": "A Man Has Just Retired, But the Government Insists He Is Dead. Welcome to ‘When I Existed’! (Exclusive Trailer, Plus Chat With the Directors)",
       "byline": "Georg Szalai",
       "siteName": "The Hollywood Reporter",
@@ -30302,27 +30321,10 @@
       "length": 6453,
       "imageCount": 1
     },
-    "h9bwer": {
-      "version": 4,
-      "url": "https://variety.com/2026/film/box-office/box-office-domestic-ticket-sales-increase-hunger-games-dune-3-avengers-doomsday-1236948160/",
-      "fetchedAt": "2026-11-15T21:43:31.152Z",
-      "title": "Domestic Ticket Sales Up 20% From 2025 Before Hunger Games, Dune, Avengers",
-      "byline": "Rebecca Rubin",
-      "siteName": "Variety",
-      "content": "It’s been a triumphant year for movie theater owners, who are basking in the long-awaited box office rebound. Domestic ticket sales are already 20% above the same point in 2025, and that’s before a “Hunger Games” prequel, a third “Dune” and another “Avengers” installment hit the big screen.\n\nWith revenues at $8.76 billion through Nov. 15, according to Rentrak, the industry is poised to exceed $10 billion in North America for the first time since the pandemic upended the theatrical business. Prior to COVID, yearly ticket sales were regularly nearing or surpassing the $11 million mark. In the past half-decade, though, revenues have stalled below $9 billion, with receipts tapping out at $8.87 billion in 2025 and $8.7 billion in 2024 and $8.91 billion in 2023. This year, returns eclipsed $8 billion by October, a milestone the industry didn’t reach until December last year.\n\nDespite the popularity of premium large formats like Imax, which have higher prices, attendance has yet to return to pre-pandemic levels. North American revenues remain 9% behind 2019, the last “normal” period at the box office.\n\n“While we’re still working to close the gap with the pre-pandemic marketplace, we’re now less than 10% behind 2019 at the same point on the calendar,” says Rentrak’s head of marketplace trends Paul Dergarabedian. “That’s pretty significant, particularly given how much the theatrical marketplace has changed over the past seven years.”\n\nHoliday offerings like Lionsgate’s “The Hunger Games: Sunrise on the Reaping,” which is expected to debut above $100 million prior to Thanksgiving, as well as a pair of Christmas tentpoles in Warner Bros. sequel “Dune Part Three” and Disney’s Marvel epic “Avengers: Doomsday,” should help to shrink the deficit. Other potential hits on the calendar include Universal’s starry comedy “Focker in Law” and Sony’s action threequel “Jumanji: Open World.”\n\n“With ‘Hunger Games,’ along with the Thanksgiving corridor and a very important December still ahead, there’s a real opportunity to continue building on that momentum,” Dergarabedian adds.\n\nThis year has been defined by unexpected triumphs, including Amazon MGM’s space epic “Project Hail Mary,” Lionsgate’s musical biopic “Michael,” A24’s psychological thriller “Backrooms” and the Focus Features horror film “Obsession.” Meanwhile, the anticipated blockbusters like Christopher Nolan’s Homer adaptation “The Odyssey” and Sony’s Marvel adventure “Spider-Man: Brand New Day” far exceeded projections, with $1.8 billion and $2.5 billion, respectively. After a record-breaking summer, the fall was comparatively light. However, the season has managed to field some unlikely winners, most notably A24’s electric Elizabeth Holmes documentary “You Can See Everything” with $89 million domestically to date. Those victories have offset the misses, including Tom Cruise’s satire “Digger,” Disney’s live-action “Moana” and Amazon MGM’s toy-inspired “Masters of the Universe.”\n\n“It’s the movies and the marketing that matter more than anything to general audiences,” Dergarabedian says. “And this year has demonstrated what can happen when audiences have an eclectic mix of films to see on the big screen.”",
-      "images": [
-        {
-          "url": "https://variety.com/wp-content/uploads/2026/11/MCDHUGA_LG049.jpg?w=1000&h=563&crop=1",
-          "alt": ""
-        }
-      ],
-      "length": 3198,
-      "imageCount": 1
-    },
     "nznkor": {
       "version": 4,
       "url": "https://www.dw.com/ru/iihf-%D1%81%D0%B1%D0%BE%D1%80%D0%BD%D0%B0%D1%8F-%D1%80%D0%BE%D1%81%D1%81%D0%B8%D0%B8-%D0%BD%D0%B5-%D0%BF%D1%80%D0%B8%D0%BC%D0%B5%D1%82-%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%B8%D0%B5-%D0%B2-%D0%BC%D0%BE%D0%BB%D0%BE%D0%B4%D0%B5%D0%B6%D0%BD%D0%BE%D0%BC-%D1%87%D0%BC-%D0%BF%D0%BE-%D1%85%D0%BE%D0%BA%D0%BA%D0%B5%D1%8E-%D0%B2-%D0%BA%D0%B0%D0%BD%D0%B0%D0%B4%D0%B5/a-79953438?maca=rus-rss-ru-all-1126-rdf",
-      "fetchedAt": "2026-11-15T21:43:31.215Z",
+      "fetchedAt": "2026-11-15T21:45:43.336Z",
       "title": "IIHF: Сборная России не примет участие в молодежном ЧМ по хоккею в Канаде",
       "byline": "Ася Локина",
       "siteName": "Deutsche Welle",
@@ -30339,7 +30341,7 @@
     "gh-1278436771": {
       "version": 4,
       "url": "https://github.com/themuffinator/FnQL",
-      "fetchedAt": "2026-11-15T21:43:31.382Z",
+      "fetchedAt": "2026-11-15T21:45:43.467Z",
       "title": "GitHub - themuffinator/FnQL: FnQL • Fappin' QUAKE LIVE • Modernized sourceport for QUAKE LIVE • Clean room implementation",
       "byline": "",
       "siteName": "GitHub",
@@ -30348,16 +30350,48 @@
       "length": 9849,
       "imageCount": 0
     },
+    "h9bwer": {
+      "version": 4,
+      "url": "https://variety.com/2026/film/box-office/box-office-domestic-ticket-sales-increase-hunger-games-dune-3-avengers-doomsday-1236948160/",
+      "fetchedAt": "2026-11-15T21:45:43.746Z",
+      "title": "Domestic Ticket Sales Up 20% From 2025 Before Hunger Games, Dune, Avengers",
+      "byline": "Rebecca Rubin",
+      "siteName": "Variety",
+      "content": "It’s been a triumphant year for movie theater owners, who are basking in the long-awaited box office rebound. Domestic ticket sales are already 20% above the same point in 2025, and that’s before a “Hunger Games” prequel, a third “Dune” and another “Avengers” installment hit the big screen.\n\nWith revenues at $8.76 billion through Nov. 15, according to Rentrak, the industry is poised to exceed $10 billion in North America for the first time since the pandemic upended the theatrical business. Prior to COVID, yearly ticket sales were regularly nearing or surpassing the $11 million mark. In the past half-decade, though, revenues have stalled below $9 billion, with receipts tapping out at $8.87 billion in 2025 and $8.7 billion in 2024 and $8.91 billion in 2023. This year, returns eclipsed $8 billion by October, a milestone the industry didn’t reach until December last year.\n\nDespite the popularity of premium large formats like Imax, which have higher prices, attendance has yet to return to pre-pandemic levels. North American revenues remain 9% behind 2019, the last “normal” period at the box office.\n\n“While we’re still working to close the gap with the pre-pandemic marketplace, we’re now less than 10% behind 2019 at the same point on the calendar,” says Rentrak’s head of marketplace trends Paul Dergarabedian. “That’s pretty significant, particularly given how much the theatrical marketplace has changed over the past seven years.”\n\nHoliday offerings like Lionsgate’s “The Hunger Games: Sunrise on the Reaping,” which is expected to debut above $100 million prior to Thanksgiving, as well as a pair of Christmas tentpoles in Warner Bros. sequel “Dune Part Three” and Disney’s Marvel epic “Avengers: Doomsday,” should help to shrink the deficit. Other potential hits on the calendar include Universal’s starry comedy “Focker in Law” and Sony’s action threequel “Jumanji: Open World.”\n\n“With ‘Hunger Games,’ along with the Thanksgiving corridor and a very important December still ahead, there’s a real opportunity to continue building on that momentum,” Dergarabedian adds.\n\nThis year has been defined by unexpected triumphs, including Amazon MGM’s space epic “Project Hail Mary,” Lionsgate’s musical biopic “Michael,” A24’s psychological thriller “Backrooms” and the Focus Features horror film “Obsession.” Meanwhile, the anticipated blockbusters like Christopher Nolan’s Homer adaptation “The Odyssey” and Sony’s Marvel adventure “Spider-Man: Brand New Day” far exceeded projections, with $1.8 billion and $2.5 billion, respectively. After a record-breaking summer, the fall was comparatively light. However, the season has managed to field some unlikely winners, most notably A24’s electric Elizabeth Holmes documentary “You Can See Everything” with $89 million domestically to date. Those victories have offset the misses, including Tom Cruise’s satire “Digger,” Disney’s live-action “Moana” and Amazon MGM’s toy-inspired “Masters of the Universe.”\n\n“It’s the movies and the marketing that matter more than anything to general audiences,” Dergarabedian says. “And this year has demonstrated what can happen when audiences have an eclectic mix of films to see on the big screen.”",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/MCDHUGA_LG049.jpg?w=1000&h=563&crop=1",
+          "alt": ""
+        }
+      ],
+      "length": 3198,
+      "imageCount": 1
+    },
     "tlb1h4": {
       "version": 4,
       "url": "https://phys.org/news/2026-11-volcanic-tsunamis.html",
-      "fetchedAt": "2026-11-15T21:43:31.383Z",
-      "error": "HTTP 403"
+      "fetchedAt": "2026-11-15T21:45:43.880Z",
+      "title": "The experiments improving our understanding of volcanic tsunamis",
+      "byline": "Saima May Sidik",
+      "siteName": "Phys.org",
+      "content": "A pyroclastic density current enters the sea along the Sciara del Fuoco, Stromboli, Italy, on 3 July 2019. Credit: LBZ visible camera, LGS\n\nTsunamis triggered by volcanic eruptions are poorly understood because of the complex dynamics governing how falling rocks and ash interact with seawater to generate waves. As a result, it is difficult to anticipate whether a volcanic flow will trigger a tsunami and, if so, how big it will be. Researchers have used laboratory experiments to study this process, but little is known about how well these models mimic reality.\n\nIn their article published in the Journal of Geophysical Research: Oceans, A. Bougouin and colleagues addressed these uncertainties by comparing results from lab experiments to observations from a real volcano: Stromboli Island, Italy. Why Stromboli? The volcano erupts nearly constantly, and volcanic flows frequently enter the sea and form tsunamis. These events are recorded by a unique monitoring system made up of land-based cameras and offshore wave gauges—making Stromboli a sort of laboratory in the field.\nThe researchers focused on three Stromboli eruptions that triggered tsunamis between 2019 and 2021, comparing observations from Stromboli with results from both existing and newly conducted laboratory experiments.\nIn the lab, the team used a 7-meter-long, 20-centimeter-wide channel filled with water. They then released a mass of polystyrene beads (small spheres used in applications such as beanbag filling and product packaging) down a slope designed to replicate Stromboli's flank, sending the beads tumbling into the water. These lightweight beads were used to represent Stromboli's pyroclastic flows because the flows were expected to be predominantly less dense than water. Despite their buoyancy, these flows can still generate substantial waves.\nThe researchers found that lab experiments cannot be directly scaled up to predict real-world events and that most models based on these experiments overestimate the size of tsunamis in the field. The new experiments, however, helped bridge this gap, although some limitations remain. They reproduced key features observed at Stromboli, including a three-wave pattern, and broadly captured the energy transfer from the flow to the resulting wave train.\nResearchers conducted the first direct comparison between lab experiments and field observations, providing an initial step toward improving volcanic tsunami hazard assessment.\n\nPublication details\nA. Bougouin et al., Forecasting of Volcanic–Flow Tsunamis Through Integrated Data From Laboratory Experiments and the 2019–2021 Stromboli Events, Italy, Journal of Geophysical Research: Oceans (2026). DOI: 10.1029/2026jc024008\n\nWho's behind this story?\n\nLisa Lock\n\nBA art history, MA material culture. Former museum editor, paramedic, and transplant coordinator. Editing for Science X since 2021.\n\nFull profile →\n\nAndrew Zinin\n\nMaster's in physics with research experience. Long-time science news enthusiast. Plays key role in Science X's editorial success.\n\nFull profile →\n\nThis story is republished courtesy of Eos, hosted by the American Geophysical Union. Read the original story here.\n\nCitation:\nThe experiments improving our understanding of volcanic tsunamis (2026, November 15)\nretrieved 15 November 2026\nfrom https://phys.org/news/2026-11-volcanic-tsunamis.html\n\nThis document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no\npart may be reproduced without the written permission. The content is provided for information purposes only.",
+      "images": [
+        {
+          "url": "https://scx2.b-cdn.net/gfx/news/2026/the-experiments-improv.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://scx1.b-cdn.net/csz/news/800a/2026/the-experiments-improv.jpg",
+          "alt": "The experiments improving our understanding of volcanic tsunamis"
+        }
+      ],
+      "length": 3585,
+      "imageCount": 2
     },
     "1uzot7g": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/lifestyle/lifestyle-news/soho-house-creator-nick-jones-new-london-hotel-st-clement-1236753229/",
-      "fetchedAt": "2026-11-15T21:43:31.689Z",
+      "fetchedAt": "2026-11-15T21:45:44.140Z",
       "title": "Soho House Creator Nick Jones Is Reinventing the Hotel — Again",
       "byline": "Sam Parker",
       "siteName": "The Hollywood Reporter",
@@ -30394,7 +30428,7 @@
     "gh-1459137710": {
       "version": 4,
       "url": "https://github.com/AOJ222/BlackAndWhite-macOS",
-      "fetchedAt": "2026-11-15T21:43:31.888Z",
+      "fetchedAt": "2026-11-15T21:45:44.241Z",
       "title": "GitHub - AOJ222/BlackAndWhite-macOS: Native macOS port of Black & White (2001) for Apple silicon. Needs your own copy of the game.",
       "byline": "",
       "siteName": "GitHub",
@@ -30403,27 +30437,10 @@
       "length": 8544,
       "imageCount": 0
     },
-    "1d74s8q": {
-      "version": 4,
-      "url": "https://www.aljazeera.com/news/2026/11/15/estonia-to-close-border-crossings-with-russia-after-attack-on-drone-maker?traffic_source=rss",
-      "fetchedAt": "2026-11-15T21:43:32.117Z",
-      "title": "Estonia to close border crossings with Russia after attack on drone maker",
-      "byline": "Al Jazeera Staff",
-      "siteName": "Al Jazeera",
-      "content": "Eight arrests made in connection with an attempted arson, which Tallinn says was ordered by Russian intelligence.Estonia will close its border crossings with Russia, after an attack on an Estonian defence company that Tallinn blames on Moscow.The foreign minister made the announcement on Sunday, after eight people were detained overnight in connection with an attempted arson attack on drone maker Threod Systems.Recommended Stories list of 4 itemslist 1 of 4Estonia accuses Russia of arson attack on defence firm supplying Ukrainelist 2 of 4Finland seeking one million land mines as it eyes Russian threatlist 3 of 4Ireland fears undersea cables face growing threat from ‘malign actors’list 4 of 4What is northern Europe’s new drone and warship plan to counter Russia?end of listEstonian authorities said the attacks had been ordered by Russia’s GRU military intelligence.Foreign Minister Margus Tsahkna wrote on X, “Russia must understand that hostile actions against Estonia come with consequences. Attempts to intimidate, destabilise, or undermine our security will not go unanswered.“Closing the border crossings will reduce Russia’s ability to conduct hostile activities in Estonia and strengthen our efforts to prevent sanctions circumvention.”He did not specify how long the border closure would last.A Russian foreign ministry spokeswoman told state news agency TASS that the plans were “yet another bout of aggressive and unrestrained Russophobia.”Latvia’s Interior Minister Janis Dombrava thanked Estonia’s Internal Security Service on X, saying that several “Latvian citizens and non-citizens” were arrested.“Since the collapse of the USSR, there have been people among us who are willing to commit serious crimes in Russia’s interests. We will continue our work to ensure that such people cannot endanger the lives of those who love Latvia and want to live in safety,” Dombrava wrote.‘Shadow war’Estonia, a European Union and NATO member state and a strong ally of Ukraine, currently has three open border crossings with Russia at Narva, Luhamaa and Koidula.Marko Mihkelson, chairman of the Estonian Parliament’s Foreign Affairs Committee, told Al Jazeera that the arrests demonstrated that Estonia was “prepared to respond swiftly to such attacks.”“It is essential that Russia’s state-sponsored campaign of terror does not remain merely a matter of diplomatic protests, either in Estonia or among our allies elsewhere,” Mihkelson said.“Russia is waging a shadow war to divide Europe and undermine support for Ukraine. European countries must respond with asymmetric measures of their own. Closing borders with Russia is one such measure.”",
-      "images": [
-        {
-          "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/getty_6af9e9dedd-1794763230.jpg?resize=1920%2C1440",
-          "alt": ""
-        }
-      ],
-      "length": 2654,
-      "imageCount": 1
-    },
     "onkih7": {
       "version": 4,
       "url": "https://www.playground.ru/once_human/news/v_once_human_pokazali_gejmplej_sezona_dissonant_resonance-1890988",
-      "fetchedAt": "2026-11-15T21:43:32.215Z",
+      "fetchedAt": "2026-11-15T21:45:44.319Z",
       "title": "В Once Human показали геймплей сезона Dissonant Resonance",
       "byline": "GameTrailers",
       "siteName": "Playground",
@@ -30437,10 +30454,52 @@
       "length": 965,
       "imageCount": 1
     },
+    "1d74s8q": {
+      "version": 4,
+      "url": "https://www.aljazeera.com/news/2026/11/15/estonia-to-close-border-crossings-with-russia-after-attack-on-drone-maker?traffic_source=rss",
+      "fetchedAt": "2026-11-15T21:45:44.436Z",
+      "title": "Estonia to close border crossings with Russia after attack on drone maker",
+      "byline": "Al Jazeera Staff",
+      "siteName": "Al Jazeera",
+      "content": "Eight arrests made in connection with an attempted arson, which Tallinn says was ordered by Russian intelligence.Estonia will close its border crossings with Russia, after an attack on an Estonian defence company that Tallinn blames on Moscow.The foreign minister made the announcement on Sunday, after eight people were detained overnight in connection with an attempted arson attack on drone maker Threod Systems.Recommended Stories list of 4 itemslist 1 of 4Estonia accuses Russia of arson attack on defence firm supplying Ukrainelist 2 of 4Finland seeking one million land mines as it eyes Russian threatlist 3 of 4Ireland fears undersea cables face growing threat from ‘malign actors’list 4 of 4What is northern Europe’s new drone and warship plan to counter Russia?end of listEstonian authorities said the attacks had been ordered by Russia’s GRU military intelligence.Foreign Minister Margus Tsahkna wrote on X, “Russia must understand that hostile actions against Estonia come with consequences. Attempts to intimidate, destabilise, or undermine our security will not go unanswered.“Closing the border crossings will reduce Russia’s ability to conduct hostile activities in Estonia and strengthen our efforts to prevent sanctions circumvention.”He did not specify how long the border closure would last.A Russian foreign ministry spokeswoman told state news agency TASS that the plans were “yet another bout of aggressive and unrestrained Russophobia.”Latvia’s Interior Minister Janis Dombrava thanked Estonia’s Internal Security Service on X, saying that several “Latvian citizens and non-citizens” were arrested.“Since the collapse of the USSR, there have been people among us who are willing to commit serious crimes in Russia’s interests. We will continue our work to ensure that such people cannot endanger the lives of those who love Latvia and want to live in safety,” Dombrava wrote.‘Shadow war’Estonia, a European Union and NATO member state and a strong ally of Ukraine, currently has three open border crossings with Russia at Narva, Luhamaa and Koidula.Marko Mihkelson, chairman of the Estonian Parliament’s Foreign Affairs Committee, told Al Jazeera that the arrests demonstrated that Estonia was “prepared to respond swiftly to such attacks.”“It is essential that Russia’s state-sponsored campaign of terror does not remain merely a matter of diplomatic protests, either in Estonia or among our allies elsewhere,” Mihkelson said.“Russia is waging a shadow war to divide Europe and undermine support for Ukraine. European countries must respond with asymmetric measures of their own. Closing borders with Russia is one such measure.”",
+      "images": [
+        {
+          "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/getty_6af9e9dedd-1794763230.jpg?resize=1920%2C1440",
+          "alt": ""
+        }
+      ],
+      "length": 2654,
+      "imageCount": 1
+    },
+    "19nvybc": {
+      "version": 4,
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+      "fetchedAt": "2026-11-15T21:45:44.518Z",
+      "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+      "byline": "Lawrence Abrams",
+      "siteName": "BleepingComputer",
+      "content": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments.\n\nIn a FLASH advisory released Friday, the agency said multiple threat actors have weaponized the open-source framework since at least August 2026 to target organizations across the financial, government, technology, defense, healthcare, and other sectors.\n\n\"ARTEX significantly reduces the time required to chain attack techniques, with some intrusions progressing from initial targeting to privileged access in under three hours,\" reads the FBI advisory.\n\n\"The framework enables threat actors with minimal technical expertise to conduct complex, multi-target operations simultaneously, fundamentally accelerating attack velocity and expanding operational scale.\"\n\nARTEX is an autonomous penetration testing framework written in Go that uses artificial intelligence agents to perform reconnaissance, discover vulnerabilities, exploit systems, escalate privileges, and steal data with little human intervention.\n\nRather than using its own AI model, the framework integrates with external large language models (LLMs), including Anthropic Claude, OpenAI GPT, DeepSeek, GLM, Grok, and Kimi.\n\nAttackers provide their goals and tasks to ARTEX, which converts them into commands executed by specialized AI agents. This allows them to automate intrusion activities and target multiple organizations simultaneously.\n\nThe FBI says the framework is particularly effective at identifying vulnerabilities in overlooked systems, including partner portals, employee applications, legacy services, and third-party integrations.\n\nWhile these automated attacks can generate large volumes of suspicious traffic that trigger security alerts, their speed can leave defenders with little time to respond before attackers breach a system.\n\nARTEX was originally released on GitHub in July 2026 by a developer known as Autumn-27, who removed the repository on October 8 after reports emerged that threat actors were abusing the framework.\n\nHowever, the FBI says the framework remains available through community forks, archived copies, localized versions, and a commercial edition called ARTEX PRO.\n\nAs of early November, researchers had identified more than 1,600 publicly exposed ARTEX consoles, with the actual number of deployments believed to be significantly higher.\n\nThe FBI's 13-page advisory includes indicators of compromise associated with known ARTEX campaigns, including IP addresses, command-and-control infrastructure, and suspicious network activity.\n\nSeparately, cybersecurity researcher MalwareMustDie released an open-source ARTEX detection signature pack on Friday to help defenders identify attacks involving the framework.\n\nThe detection pack includes rules and indicators for various security monitoring and threat detection tools, covering suspicious network requests, identity abuse, cloud activity, malicious files, and automated attack patterns.\n\nThe researcher also published a detection playbook that categorizes indicators by confidence level, warning that IP addresses and other infrastructure indicators can become outdated or generate false positives.\n\nOrganizations are urged to secure internet-facing applications, restrict access to cloud administration interfaces, review application permissions and authentication logs, and implement rate limits on sensitive APIs.\n\nThe bureau also recommends monitoring for unusual bursts of automated requests, suspicious cloud activity, unexpected credential or privilege changes, and large data transfers.\n\nThe FBI cautions that IP addresses listed in the IOCs may have changed since the attacks occurred.\n\nOrganizations that identify suspicious activity associated with ARTEX are encouraged to report their findings to the FBI or its Internet Crime Complaint Center (IC3).\n\nKnown Artex-linked attacks\n\nThe advisory highlights several previously reported cyberattacks involving ARTEX, including the October ConnectWise Cloud Backup supply-chain attack that allowed hackers to gain unauthorized access to Microsoft 365 customer environments.\n\nThe attack compromised application identities used by ConnectWise's cloud backup service, formerly known as SkyKick Cloud Backup, allowing attackers to authenticate to customer tenants using permissions previously granted to the applications.\n\nAt the time, cybersecurity firm Huntress reported identifying at least 162 compromised tenants.\n\nIn an investigation published in October, Microsoft attributed the campaign to a China-state-aligned threat actor tracked as Storm-0940, which used ARTEX to accelerate reconnaissance, password spraying, and abuse of cloud application permissions.\n\nAfter compromising ConnectWise application identities, the attackers used ARTEX to attempt authentication against more than 2,250 downstream Microsoft 365 tenants, with some intrusions progressing to credential modifications and attempts to establish persistent access.\n\nThe FBI also referenced attacks against South Korean financial institutions that exposed personal information belonging to approximately 67,000 people.\n\nIn that campaign, a Chinese-speaking threat actor combined ARTEX with Claude Code agents to attack multiple banks, including Shinhan Bank, KB Kookmin Bank, and Hana Bank.\n\nResearchers at CrowdStrike discovered the attacker's exposed infrastructure, which contained ARTEX configuration files, Claude Code session histories, and other records documenting the intrusions.\n\nIn a separate investigation, South Korean police arrested seven suspects linked to attacks against more than 90 organizations, with ARTEX reportedly used in most of the intrusions.\n\nAuthorities said the gang stole approximately 8.2 million data records from organizations including hospitals, educational institutions, and businesses.\n\nMore recently, CrowdStrike reported that a Chinese cyberespionage group tracked as Vapor Panda used ARTEX in automated attacks targeting more than 200 organizations across 14 countries.\n\nThe campaign compromised at least nine organizations, with AI agents performing reconnaissance, exploiting vulnerabilities, deploying web shells, stealing credentials, and pursuing different attack paths when initial attempts failed.\n\nUncover email threats your existing defenses may miss.\n\nAdaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.\nStart your free email security scan.",
+      "images": [
+        {
+          "url": "https://www.bleepstatic.com/content/hl-images/2025/10/23/AI-2.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.bleepstatic.com/c/w/AI-Agents-101.jpg",
+          "alt": "image"
+        },
+        {
+          "url": "https://www.bleepstatic.com/c/a/deploy-email-security-agent.jpg",
+          "alt": "article image"
+        }
+      ],
+      "length": 6742,
+      "imageCount": 3
+    },
     "bzgj25": {
       "version": 4,
       "url": "https://variety.com/2026/shopping/news/kpop-demon-criterion-blu-ray-buy-online-1236759288/",
-      "fetchedAt": "2026-11-15T21:43:32.450Z",
+      "fetchedAt": "2026-11-15T21:45:44.768Z",
       "title": "Kpop Demon Hunters Criterion Blu-ray Release: Buy Two-Disc Set Online",
       "byline": "Anna Tingley",
       "siteName": "Variety",
@@ -30462,35 +30521,10 @@
       "length": 2565,
       "imageCount": 3
     },
-    "19nvybc": {
-      "version": 4,
-      "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
-      "fetchedAt": "2026-11-15T21:43:32.510Z",
-      "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
-      "byline": "Lawrence Abrams",
-      "siteName": "BleepingComputer",
-      "content": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments.\n\nIn a FLASH advisory released Friday, the agency said multiple threat actors have weaponized the open-source framework since at least August 2026 to target organizations across the financial, government, technology, defense, healthcare, and other sectors.\n\n\"ARTEX significantly reduces the time required to chain attack techniques, with some intrusions progressing from initial targeting to privileged access in under three hours,\" reads the FBI advisory.\n\n\"The framework enables threat actors with minimal technical expertise to conduct complex, multi-target operations simultaneously, fundamentally accelerating attack velocity and expanding operational scale.\"\n\nARTEX is an autonomous penetration testing framework written in Go that uses artificial intelligence agents to perform reconnaissance, discover vulnerabilities, exploit systems, escalate privileges, and steal data with little human intervention.\n\nRather than using its own AI model, the framework integrates with external large language models (LLMs), including Anthropic Claude, OpenAI GPT, DeepSeek, GLM, Grok, and Kimi.\n\nAttackers provide their goals and tasks to ARTEX, which converts them into commands executed by specialized AI agents. This allows them to automate intrusion activities and target multiple organizations simultaneously.\n\nThe FBI says the framework is particularly effective at identifying vulnerabilities in overlooked systems, including partner portals, employee applications, legacy services, and third-party integrations.\n\nWhile these automated attacks can generate large volumes of suspicious traffic that trigger security alerts, their speed can leave defenders with little time to respond before attackers breach a system.\n\nARTEX was originally released on GitHub in July 2026 by a developer known as Autumn-27, who removed the repository on October 8 after reports emerged that threat actors were abusing the framework.\n\nHowever, the FBI says the framework remains available through community forks, archived copies, localized versions, and a commercial edition called ARTEX PRO.\n\nAs of early November, researchers had identified more than 1,600 publicly exposed ARTEX consoles, with the actual number of deployments believed to be significantly higher.\n\nThe FBI's 13-page advisory includes indicators of compromise associated with known ARTEX campaigns, including IP addresses, command-and-control infrastructure, and suspicious network activity.\n\nSeparately, cybersecurity researcher MalwareMustDie released an open-source ARTEX detection signature pack on Friday to help defenders identify attacks involving the framework.\n\nThe detection pack includes rules and indicators for various security monitoring and threat detection tools, covering suspicious network requests, identity abuse, cloud activity, malicious files, and automated attack patterns.\n\nThe researcher also published a detection playbook that categorizes indicators by confidence level, warning that IP addresses and other infrastructure indicators can become outdated or generate false positives.\n\nOrganizations are urged to secure internet-facing applications, restrict access to cloud administration interfaces, review application permissions and authentication logs, and implement rate limits on sensitive APIs.\n\nThe bureau also recommends monitoring for unusual bursts of automated requests, suspicious cloud activity, unexpected credential or privilege changes, and large data transfers.\n\nThe FBI cautions that IP addresses listed in the IOCs may have changed since the attacks occurred.\n\nOrganizations that identify suspicious activity associated with ARTEX are encouraged to report their findings to the FBI or its Internet Crime Complaint Center (IC3).\n\nKnown Artex-linked attacks\n\nThe advisory highlights several previously reported cyberattacks involving ARTEX, including the October ConnectWise Cloud Backup supply-chain attack that allowed hackers to gain unauthorized access to Microsoft 365 customer environments.\n\nThe attack compromised application identities used by ConnectWise's cloud backup service, formerly known as SkyKick Cloud Backup, allowing attackers to authenticate to customer tenants using permissions previously granted to the applications.\n\nAt the time, cybersecurity firm Huntress reported identifying at least 162 compromised tenants.\n\nIn an investigation published in October, Microsoft attributed the campaign to a China-state-aligned threat actor tracked as Storm-0940, which used ARTEX to accelerate reconnaissance, password spraying, and abuse of cloud application permissions.\n\nAfter compromising ConnectWise application identities, the attackers used ARTEX to attempt authentication against more than 2,250 downstream Microsoft 365 tenants, with some intrusions progressing to credential modifications and attempts to establish persistent access.\n\nThe FBI also referenced attacks against South Korean financial institutions that exposed personal information belonging to approximately 67,000 people.\n\nIn that campaign, a Chinese-speaking threat actor combined ARTEX with Claude Code agents to attack multiple banks, including Shinhan Bank, KB Kookmin Bank, and Hana Bank.\n\nResearchers at CrowdStrike discovered the attacker's exposed infrastructure, which contained ARTEX configuration files, Claude Code session histories, and other records documenting the intrusions.\n\nIn a separate investigation, South Korean police arrested seven suspects linked to attacks against more than 90 organizations, with ARTEX reportedly used in most of the intrusions.\n\nAuthorities said the gang stole approximately 8.2 million data records from organizations including hospitals, educational institutions, and businesses.\n\nMore recently, CrowdStrike reported that a Chinese cyberespionage group tracked as Vapor Panda used ARTEX in automated attacks targeting more than 200 organizations across 14 countries.\n\nThe campaign compromised at least nine organizations, with AI agents performing reconnaissance, exploiting vulnerabilities, deploying web shells, stealing credentials, and pursuing different attack paths when initial attempts failed.\n\nUncover email threats your existing defenses may miss.\n\nAdaptive Security's AI agents analyze email intent, context, and behavior to uncover phishing, business email compromise, and invoice fraud.See what's getting through with a 14-day read-only scan of Microsoft 365 or Google Workspace, with no MX changes.\nStart your free email security scan.",
-      "images": [
-        {
-          "url": "https://www.bleepstatic.com/content/hl-images/2025/10/23/AI-2.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://www.bleepstatic.com/c/w/AI-Security-Bundle.jpg",
-          "alt": "image"
-        },
-        {
-          "url": "https://www.bleepstatic.com/c/a/deploy-email-security-agent.jpg",
-          "alt": "article image"
-        }
-      ],
-      "length": 6742,
-      "imageCount": 3
-    },
     "13p22fm": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/music/music-features/best-music-schools-world-1236752338/",
-      "fetchedAt": "2026-11-15T21:43:32.757Z",
+      "fetchedAt": "2026-11-15T21:45:45.070Z",
       "title": "Pitch Perfect: The 20 Best Music Schools in the World",
       "byline": "Jeff Bond",
       "siteName": "The Hollywood Reporter",
@@ -30523,7 +30557,7 @@
     "ljtnq9": {
       "version": 4,
       "url": "https://www.eurogamer.net/inxile-office-shooting-tustin-suspect-arrested",
-      "fetchedAt": "2026-11-15T21:43:32.946Z",
+      "fetchedAt": "2026-11-15T21:45:45.242Z",
       "title": "Police arrest suspect after drive-by shooting at office campus housing Xbox studio inXile",
       "byline": "Vikki Blake",
       "siteName": "Eurogamer.net",
@@ -30544,7 +30578,7 @@
     "wbgdll": {
       "version": 4,
       "url": "https://deadline.com/2026/11/david-tennant-only-murders-in-the-building-doctor-who-future-1237224368/",
-      "fetchedAt": "2026-11-15T21:43:33.282Z",
+      "fetchedAt": "2026-11-15T21:45:45.605Z",
       "title": "David Tennant Teases “Very Small Part” In ‘Only Murders In The Building”, Addresses Future Of ‘Doctor Who’: “It Deserves To Run Forever”",
       "byline": "Nellie Andreeva",
       "siteName": "Deadline",
@@ -30558,10 +30592,27 @@
       "length": 3173,
       "imageCount": 1
     },
+    "1hm9exf": {
+      "version": 4,
+      "url": "https://3dnews.ru/1151331/gta-v-zapustili-na-nintendo-switch-2-igra-ne-tolko-zagrugaetsya-no-i-zapuskaet-igrovie-missii",
+      "fetchedAt": "2026-11-15T21:45:45.768Z",
+      "title": "GTA V запустили на Nintendo Switch 2: игра не только загружается, но и запускает миссии",
+      "byline": "Анжелла Марина",
+      "siteName": "3DNews",
+      "content": "Опрос\n\n3DNews Новости Software игры GTA V запустили на Nintendo Switch 2: иг...\n\nреклама\n\nНовости Software\n\nСамое интересное в обзорах\n\n15.11.2026 [20:57],\n\nИзвестный разработчик и моддер @PLK показал рекомпиляцию игры GTA V от Rockstar, работающую на новейшей портативной консоли Nintendo. В эксперименте была использована среда kaiHEN, позволяющая запускать сторонние приложения на консолях Switch 2.\nИсточник изображения: @PLK, videocardz.com\n\nGTA V удалось запустить непосредственно на Nintendo Switch 2, без облачной трансляции или потоковой передачи с другого устройства. Пока проект находится на ранней стадии разработки, однако @PLK уже добился загрузки игры и запуска начального эпизода в Северном Янктоне (North Yankton), где разворачиваются события, связанные по сюжету с ограблением банка.\nОтдельной задачей стала корректная обработка графики. На начальном этапе возникали проблемы с шейдерами, из-за которых изображение отображалось с ошибками. Моддер сообщил, что ему удалось решить эту проблему и пообещал в ближайшее время опубликовать инструкцию по сборке проекта. При этом пока нет информации о частоте кадров, разрешении и стабильности работы, поэтому оценить производительность консоли в GTA V ещё невозможно. Также неизвестно, удастся ли запустить все игровые миссии.\n\nОтметим, это не первая попытка адаптировать GTA V для портативных консолей Nintendo. Ранее разработчик M0jso из Paralympics Productions продемонстрировал работу игры на оригинальной Switch с процессором Tegra X1. После разгона консоли производительность достигала примерно 30 FPS, при этом результат зависел от игровой сцены. Впоследствии компания Take-Two Interactive потребовала прекратить разработку и M0jso отказался от проекта, включая запланированную версию для Android.\n\nНапомним, что релиз GTA VI запланирован на 19 ноября 2026 года для консолей PlayStation 5 и Xbox Series X/S (версия для ПК ожидается в начале 2027 года).\n\nИсточник:\n\nЕсли вы заметили ошибку — выделите ее мышью и нажмите CTRL+ENTER.\n\nМатериалы по теме\n\nМатериалы по теме",
+      "images": [
+        {
+          "url": "https://cdn.3dnews.ru/assets/external/illustrations/2026/11/15/1151331/657454.jpg",
+          "alt": ""
+        }
+      ],
+      "length": 2037,
+      "imageCount": 1
+    },
     "123fmzi": {
       "version": 4,
       "url": "https://www.eurogamer.net/cyberpunk-2077-torrent-rain-weather-mod",
-      "fetchedAt": "2026-11-15T21:43:33.427Z",
+      "fetchedAt": "2026-11-15T21:45:45.916Z",
       "title": "Cyberpunk 2077 mod Torrent adds 3D rain, lightning storms, and tyre spray to Night City",
       "byline": "Vikki Blake",
       "siteName": "Eurogamer.net",
@@ -30582,7 +30633,7 @@
     "xqgxvi": {
       "version": 4,
       "url": "https://variety.com/2026/film/news/billy-evans-amanda-seyfried-elizabeth-holmes-portrayal-1236948144/",
-      "fetchedAt": "2026-11-15T21:43:33.672Z",
+      "fetchedAt": "2026-11-15T21:45:46.173Z",
       "title": "Billy Evans Addresses Amanda Seyfried’s Elizabeth Holmes Portrayal",
       "byline": "Payton Turkeltaub",
       "siteName": "Variety",
@@ -30599,7 +30650,7 @@
     "2q9mx3": {
       "version": 4,
       "url": "https://www.intermedia.ru/news/408136",
-      "fetchedAt": "2026-11-15T21:43:33.762Z",
+      "fetchedAt": "2026-11-15T21:45:46.260Z",
       "title": "Юлия Ковальчук родила сына",
       "byline": "",
       "siteName": "",
@@ -30632,7 +30683,7 @@
     "80qgot": {
       "version": 4,
       "url": "https://www.dexerto.com/gaming/gta-6-players-furious-as-physical-copies-reportedly-arrive-with-missing-or-already-used-codes-3428334/",
-      "fetchedAt": "2026-11-15T21:43:34.008Z",
+      "fetchedAt": "2026-11-15T21:45:46.437Z",
       "title": "GTA 6 players furious as physical copies reportedly arrive with missing or already-used codes",
       "byline": "Matthew Benson",
       "siteName": "Dexerto",
@@ -30646,27 +30697,10 @@
       "length": 2103,
       "imageCount": 1
     },
-    "1hm9exf": {
-      "version": 4,
-      "url": "https://3dnews.ru/1151331/gta-v-zapustili-na-nintendo-switch-2-igra-ne-tolko-zagrugaetsya-no-i-zapuskaet-igrovie-missii",
-      "fetchedAt": "2026-11-15T21:43:34.148Z",
-      "title": "GTA V запустили на Nintendo Switch 2: игра не только загружается, но и запускает миссии",
-      "byline": "Анжелла Марина",
-      "siteName": "3DNews",
-      "content": "Опрос\n\n3DNews Новости Software игры GTA V запустили на Nintendo Switch 2: иг...\n\nреклама\n\nНовости Software\n\nСамое интересное в обзорах\n\n15.11.2026 [20:57],\n\nИзвестный разработчик и моддер @PLK показал рекомпиляцию игры GTA V от Rockstar, работающую на новейшей портативной консоли Nintendo. В эксперименте была использована среда kaiHEN, позволяющая запускать сторонние приложения на консолях Switch 2.\nИсточник изображения: @PLK, videocardz.com\n\nGTA V удалось запустить непосредственно на Nintendo Switch 2, без облачной трансляции или потоковой передачи с другого устройства. Пока проект находится на ранней стадии разработки, однако @PLK уже добился загрузки игры и запуска начального эпизода в Северном Янктоне (North Yankton), где разворачиваются события, связанные по сюжету с ограблением банка.\nОтдельной задачей стала корректная обработка графики. На начальном этапе возникали проблемы с шейдерами, из-за которых изображение отображалось с ошибками. Моддер сообщил, что ему удалось решить эту проблему и пообещал в ближайшее время опубликовать инструкцию по сборке проекта. При этом пока нет информации о частоте кадров, разрешении и стабильности работы, поэтому оценить производительность консоли в GTA V ещё невозможно. Также неизвестно, удастся ли запустить все игровые миссии.\n\nОтметим, это не первая попытка адаптировать GTA V для портативных консолей Nintendo. Ранее разработчик M0jso из Paralympics Productions продемонстрировал работу игры на оригинальной Switch с процессором Tegra X1. После разгона консоли производительность достигала примерно 30 FPS, при этом результат зависел от игровой сцены. Впоследствии компания Take-Two Interactive потребовала прекратить разработку и M0jso отказался от проекта, включая запланированную версию для Android.\n\nНапомним, что релиз GTA VI запланирован на 19 ноября 2026 года для консолей PlayStation 5 и Xbox Series X/S (версия для ПК ожидается в начале 2027 года).\n\nИсточник:\n\nЕсли вы заметили ошибку — выделите ее мышью и нажмите CTRL+ENTER.\n\nМатериалы по теме\n\nМатериалы по теме",
-      "images": [
-        {
-          "url": "https://cdn.3dnews.ru/assets/external/illustrations/2026/11/15/1151331/657454.jpg",
-          "alt": ""
-        }
-      ],
-      "length": 2037,
-      "imageCount": 1
-    },
     "abbnjh": {
       "version": 4,
       "url": "https://www.zr.ru/content/news/988471-alfa-romeo-spider-vozrastom-za/",
-      "fetchedAt": "2026-11-15T21:43:34.223Z",
+      "fetchedAt": "2026-11-15T21:45:46.540Z",
       "title": "Какие коллекционные авто чаще всего везут в Россию",
       "byline": "телеграм-канал Сергея Целикова",
       "siteName": "zr.ru",
@@ -30680,27 +30714,10 @@
       "length": 2421,
       "imageCount": 1
     },
-    "8x24b7": {
-      "version": 4,
-      "url": "https://www.gematsu.com/2026/11/dragon-ball-fighterz-balance-update-announced",
-      "fetchedAt": "2026-11-15T21:43:34.590Z",
-      "title": "Dragon Ball FighterZ balance update announced",
-      "byline": "Sal Romano",
-      "siteName": "Gematsu",
-      "content": "Publisher Bandai Namco and developer Arc System Works will release a new balance update for Dragon Ball FighterZ, the companies announced. Further details, including a release date, was not announced.Dragon Ball FighterZ is available now for PlayStation 5, Xbox Series, PlayStation 4, Xbox One, Switch, and PC via Steam. Watch a new trailer below.Balance Update Announce TrailerEnglish\nJapanese",
-      "images": [
-        {
-          "url": "https://www.gematsu.com/wp-content/uploads/2026/11/Dragon-Ball-FighterZ-Update_11-15-26.jpg",
-          "alt": ""
-        }
-      ],
-      "length": 394,
-      "imageCount": 1
-    },
     "qvgbqy": {
       "version": 4,
       "url": "https://habr.com/ru/companies/globalsign/articles/1108102/",
-      "fetchedAt": "2026-11-15T21:43:34.672Z",
+      "fetchedAt": "2026-11-15T21:45:46.618Z",
       "title": "Массовая декомпиляция игр и ПО",
       "byline": "GlobalSign_admin4 часа назад",
       "siteName": "Habr",
@@ -30730,27 +30747,27 @@
       "length": 7436,
       "imageCount": 5
     },
-    "1d86hdz": {
+    "8x24b7": {
       "version": 4,
-      "url": "https://www.wired.com/story/ai-djs-completely-kill-my-groove/",
-      "fetchedAt": "2026-11-15T21:43:35.215Z",
-      "title": "AI DJs Completely Kill My Groove",
-      "byline": "Reece Rogers",
-      "siteName": "WIRED",
-      "content": "I usually can’t pinpoint the moment I stop using a software feature, with most tools drifting out of fashion without an expiration date. That’s not the case with YouTube Music’s “Beyond the Beat,” an AI-generated DJ that explains songs to you.YouTube Music is my music-streaming service of choice. And since I’m a software reporter, I always enable the beta features available through YouTube Labs, which include Beyond the Beat. YouTube’s AI DJ randomly interjects for about 30 seconds between songs, teeing up the vibe shift and providing context about the next track.More listeners are encountering synthetic commentary built into their music streaming apps. While YouTube launched this experimental AI DJ in 2025, Spotify first introduced a similar tool back in 2023. It doubled down on its AI DJ efforts in November, expanding the different personalities available to users and adding more controls over the commentary.These AI DJs aren’t just annoying. Their attempts to provide helpful context and mimic human candor ultimately fall flat. Lucky for me, both features are optional and avoidable.After months of leaving it enabled, a bad experience with Beyond the Beat this week pushed me to swear off AI DJs altogether. I was listening to a pop divas playlist as part of my morning workout and got slapped with 30 seconds of exposition after a Slayyyter track:“Hey Boy delivers that high-energy surge perfectly, but we're shifting our focus to a sharper, more visceral reality. In Rock Music, Charli XXC [sic] weaves in a biting, dark sense of humor regarding the physical toll of her relentless 2024 and 2025 touring. She turns the genuine nerve damage she sustained on the road into a strange sort of battle scar, reclaiming the exhaustion of a weary party girl as a badge of honor. It's an unflinching look at the cost behind the spectacle, where the grind of the industry becomes the actual subject matter. Here is Rock Music by Charli XXC [sic].”What a lengthy paragraph of platitudes with little substance. That’s not even mentioning how the AI DJ butchered the pronunciation of a little-known, indie act called Charli XCX. This flub reflected my overall experience with YouTube Music’s AI DJ. It took me out of the groove and didn’t feel additive.In another example, it went in-depth on the meaning of Olivia Rodrigo’s Expectations remix featuring Chappell Roan, calling it a \"structural interpretation” that unpacks the “nuances of queer dating.” Then YouTube Music played the original track, sans Roan; so much for the queer yearning.Curious how Spotify’s AI DJ experience would compare, I upgraded my account to the premium tier for access to that beta software. One of the biggest recent changes to Spotify’s AI DJ was adding new voices to the lineup, so I went into my settings and played the introduction clips for each of the eight English-language voices.Maybe I was already a bit miffed from my YouTube Music experience because these voices immediately started to frustrate me. Multiple voices leaned into filler words such as “you know” and “like,” as the AI described the next songs it would play. Knowing an AI voice is being trained to use filler words to sound more human gave me the uncanny-valley ick.Spotify’s AI DJ was fairly different from YouTube Music’s version. On Spotify, the AI DJ is also an algorithmically guided experience that picks songs for you based on past listening habits and song requests. Overall, Spotify’s synthetic commentary felt tighter and more tolerable than YouTube’s blabbering DJ. That said, neither software experience was enjoyable enough for me to return.Although Spotify claims it has “80 percent of listeners coming back to DJ week after week,” according to the company’s launch blog, I won’t be one of them. My rejection of AI DJs isn’t based on how they audibly sound. The voices, from both companies, are decent and sound convincingly human. The content of their commentary is what truly turns me off. Whether it’s empty platitudes or mimicking human mistakes, I’ve heard enough.",
+      "url": "https://www.gematsu.com/2026/11/dragon-ball-fighterz-balance-update-announced",
+      "fetchedAt": "2026-11-15T21:45:46.844Z",
+      "title": "Dragon Ball FighterZ balance update announced",
+      "byline": "Sal Romano",
+      "siteName": "Gematsu",
+      "content": "Publisher Bandai Namco and developer Arc System Works will release a new balance update for Dragon Ball FighterZ, the companies announced. Further details, including a release date, was not announced.Dragon Ball FighterZ is available now for PlayStation 5, Xbox Series, PlayStation 4, Xbox One, Switch, and PC via Steam. Watch a new trailer below.Balance Update Announce TrailerEnglish\nJapanese",
       "images": [
         {
-          "url": "https://media.wired.com/photos/6af7840bd2837972f5ddf4f3/191:100/w_1280,c_limit/Untitled-1.jpg",
+          "url": "https://www.gematsu.com/wp-content/uploads/2026/11/Dragon-Ball-FighterZ-Update_11-15-26.jpg",
           "alt": ""
         }
       ],
-      "length": 4048,
+      "length": 394,
       "imageCount": 1
     },
     "1gh2gx": {
       "version": 4,
       "url": "https://www.zr.ru/content/news/988468-kemper-na-baze-mercedes-sprint/",
-      "fetchedAt": "2026-11-15T21:43:35.280Z",
+      "fetchedAt": "2026-11-15T21:45:47.047Z",
       "title": "Кемпер на базе Mercedes Sprinter получил туалет без воды, но с дизельной печью",
       "byline": "Алексеева Елена",
       "siteName": "zr.ru",
@@ -30768,31 +30785,27 @@
       "length": 2087,
       "imageCount": 2
     },
-    "bgxhve": {
+    "1d86hdz": {
       "version": 4,
-      "url": "https://dtf.ru/cinema/5414271-skruzj-s-dzhonni-deppom-sobral-42-milliona-dollarov",
-      "fetchedAt": "2026-11-15T21:43:35.482Z",
-      "title": "«Скрудж» с Джонни Деппом собрал 42 миллиона долларов за дебютный уикенд в мировом прокате — Кино и сериалы на DTF",
-      "byline": "DMa",
-      "siteName": "DTF",
-      "content": "Гонорар актёра — 5 миллионов.13 ноября начался зарубежный прокат «Скруджа» — адаптации повести «Рождественская песнь» Чарльза Диккенса, главную роль в которой исполнил Джонни Депп. Фильм стартовал с 42 миллионами долларов в мировом прокате, из которых 19 миллионов пришлось на США.Производственный бюджет «Скруджа» составил порядка 38 миллионов долларов — без учёта затрат на маркетинг. Для Деппа лента стала первым голливудским релизом с 2018 года. Гонорар актёра составил 5 миллионов, но он подразумевает и дополнительные выплаты в зависимости от сборов.Другой новинкой проката оказался комедийный боевик «Как ограбить банк» Дэвида Литча. При бюджете более 40 миллионов долларов сборы ленты в США составили 5 миллионов.Ещё один боевик, «Призрачный солдат» с Джимом Кэвизелом в главной роли, собрал за дебютный уикенд 5,2 миллиона долларов. Бюджет ленты составил 18 миллионов.«Годзилла минус ноль» тем временем добрала ещё 8,31 миллиона долларов за прошедшую неделю. Сборы в США упали на 75%, но картина всё равно стала хитом на рынке, заработав 48,1 миллиона.Аналитики отметили, что прошедший уикенд показал сдержанные сборы, поскольку зрители готовятся к прокату фильма «Голодные игры: Рассвет жатвы». Ему прогнозируют старт в районе 100 миллионов долларов.«Годзилла минус ноль» стартовал с 63 миллионов долларов по всему миру Фильм про кайдзю уже окупился. 770044111177554433222211",
+      "url": "https://www.wired.com/story/ai-djs-completely-kill-my-groove/",
+      "fetchedAt": "2026-11-15T21:45:47.407Z",
+      "title": "AI DJs Completely Kill My Groove",
+      "byline": "Reece Rogers",
+      "siteName": "WIRED",
+      "content": "I usually can’t pinpoint the moment I stop using a software feature, with most tools drifting out of fashion without an expiration date. That’s not the case with YouTube Music’s “Beyond the Beat,” an AI-generated DJ that explains songs to you.YouTube Music is my music-streaming service of choice. And since I’m a software reporter, I always enable the beta features available through YouTube Labs, which include Beyond the Beat. YouTube’s AI DJ randomly interjects for about 30 seconds between songs, teeing up the vibe shift and providing context about the next track.More listeners are encountering synthetic commentary built into their music streaming apps. While YouTube launched this experimental AI DJ in 2025, Spotify first introduced a similar tool back in 2023. It doubled down on its AI DJ efforts in November, expanding the different personalities available to users and adding more controls over the commentary.These AI DJs aren’t just annoying. Their attempts to provide helpful context and mimic human candor ultimately fall flat. Lucky for me, both features are optional and avoidable.After months of leaving it enabled, a bad experience with Beyond the Beat this week pushed me to swear off AI DJs altogether. I was listening to a pop divas playlist as part of my morning workout and got slapped with 30 seconds of exposition after a Slayyyter track:“Hey Boy delivers that high-energy surge perfectly, but we're shifting our focus to a sharper, more visceral reality. In Rock Music, Charli XXC [sic] weaves in a biting, dark sense of humor regarding the physical toll of her relentless 2024 and 2025 touring. She turns the genuine nerve damage she sustained on the road into a strange sort of battle scar, reclaiming the exhaustion of a weary party girl as a badge of honor. It's an unflinching look at the cost behind the spectacle, where the grind of the industry becomes the actual subject matter. Here is Rock Music by Charli XXC [sic].”What a lengthy paragraph of platitudes with little substance. That’s not even mentioning how the AI DJ butchered the pronunciation of a little-known, indie act called Charli XCX. This flub reflected my overall experience with YouTube Music’s AI DJ. It took me out of the groove and didn’t feel additive.In another example, it went in-depth on the meaning of Olivia Rodrigo’s Expectations remix featuring Chappell Roan, calling it a \"structural interpretation” that unpacks the “nuances of queer dating.” Then YouTube Music played the original track, sans Roan; so much for the queer yearning.Curious how Spotify’s AI DJ experience would compare, I upgraded my account to the premium tier for access to that beta software. One of the biggest recent changes to Spotify’s AI DJ was adding new voices to the lineup, so I went into my settings and played the introduction clips for each of the eight English-language voices.Maybe I was already a bit miffed from my YouTube Music experience because these voices immediately started to frustrate me. Multiple voices leaned into filler words such as “you know” and “like,” as the AI described the next songs it would play. Knowing an AI voice is being trained to use filler words to sound more human gave me the uncanny-valley ick.Spotify’s AI DJ was fairly different from YouTube Music’s version. On Spotify, the AI DJ is also an algorithmically guided experience that picks songs for you based on past listening habits and song requests. Overall, Spotify’s synthetic commentary felt tighter and more tolerable than YouTube’s blabbering DJ. That said, neither software experience was enjoyable enough for me to return.Although Spotify claims it has “80 percent of listeners coming back to DJ week after week,” according to the company’s launch blog, I won’t be one of them. My rejection of AI DJs isn’t based on how they audibly sound. The voices, from both companies, are decent and sound convincingly human. The content of their commentary is what truly turns me off. Whether it’s empty platitudes or mimicking human mistakes, I’ve heard enough.",
       "images": [
         {
-          "url": "https://api.dtf.ru/v2.9/cover/fb/c/5414271/1794779014/cover.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://api.dtf.ru/v2.9/cover/tw/c/5414271/1794779014/cover.jpg",
+          "url": "https://media.wired.com/photos/6af7840bd2837972f5ddf4f3/191:100/w_1280,c_limit/Untitled-1.jpg",
           "alt": ""
         }
       ],
-      "length": 1385,
-      "imageCount": 2
+      "length": 4048,
+      "imageCount": 1
     },
     "aiftkd": {
       "version": 4,
       "url": "https://www.pravda.com.ua/news/2026/11/15/8062952/",
-      "fetchedAt": "2026-11-15T21:43:35.573Z",
+      "fetchedAt": "2026-11-15T21:45:47.543Z",
       "title": "Чому Херсон змінює День міста: переосмислення історії, пам'яті та міських традицій",
       "byline": "15 листопада, 13:57",
       "siteName": "Українська правда",
@@ -30806,10 +30819,31 @@
       "length": 5416,
       "imageCount": 1
     },
+    "bgxhve": {
+      "version": 4,
+      "url": "https://dtf.ru/cinema/5414271-skruzj-s-dzhonni-deppom-sobral-42-milliona-dollarov",
+      "fetchedAt": "2026-11-15T21:45:47.630Z",
+      "title": "«Скрудж» с Джонни Деппом собрал 42 миллиона долларов за дебютный уикенд в мировом прокате — Кино и сериалы на DTF",
+      "byline": "DMa",
+      "siteName": "DTF",
+      "content": "Гонорар актёра — 5 миллионов.13 ноября начался зарубежный прокат «Скруджа» — адаптации повести «Рождественская песнь» Чарльза Диккенса, главную роль в которой исполнил Джонни Депп. Фильм стартовал с 42 миллионами долларов в мировом прокате, из которых 19 миллионов пришлось на США.Производственный бюджет «Скруджа» составил порядка 38 миллионов долларов — без учёта затрат на маркетинг. Для Деппа лента стала первым голливудским релизом с 2018 года. Гонорар актёра составил 5 миллионов, но он подразумевает и дополнительные выплаты в зависимости от сборов.Другой новинкой проката оказался комедийный боевик «Как ограбить банк» Дэвида Литча. При бюджете более 40 миллионов долларов сборы ленты в США составили 5 миллионов.Ещё один боевик, «Призрачный солдат» с Джимом Кэвизелом в главной роли, собрал за дебютный уикенд 5,2 миллиона долларов. Бюджет ленты составил 18 миллионов.«Годзилла минус ноль» тем временем добрала ещё 8,31 миллиона долларов за прошедшую неделю. Сборы в США упали на 75%, но картина всё равно стала хитом на рынке, заработав 48,1 миллиона.Аналитики отметили, что прошедший уикенд показал сдержанные сборы, поскольку зрители готовятся к прокату фильма «Голодные игры: Рассвет жатвы». Ему прогнозируют старт в районе 100 миллионов долларов.«Годзилла минус ноль» стартовал с 63 миллионов долларов по всему миру Фильм про кайдзю уже окупился. 770044111177554433222211",
+      "images": [
+        {
+          "url": "https://api.dtf.ru/v2.9/cover/fb/c/5414271/1794779147/cover.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://api.dtf.ru/v2.9/cover/tw/c/5414271/1794779147/cover.jpg",
+          "alt": ""
+        }
+      ],
+      "length": 1385,
+      "imageCount": 2
+    },
     "1jijztb": {
       "version": 4,
       "url": "https://www.bbc.com/russian/articles/cmdx1vzppngro?at_medium=RSS&at_campaign=rss",
-      "fetchedAt": "2026-11-15T21:43:36.001Z",
+      "fetchedAt": "2026-11-15T21:45:47.885Z",
       "title": "Как Москва украинизировала Россию",
       "byline": "Станислав Цалик",
       "siteName": "BBC News Русская служба",
@@ -30898,7 +30932,7 @@
     "fnrd9d": {
       "version": 4,
       "url": "https://www.igromania.ru/news/169957/remejk-the-legend-of-zelda-majoras-mask-tochno-vyijdet-schitayut-byivshie-sotrudniki-nintendo/",
-      "fetchedAt": "2026-11-15T21:43:36.049Z",
+      "fetchedAt": "2026-11-15T21:45:47.953Z",
       "title": "Ремейк The Legend of Zelda: Majoraʼs Mask точно выйдет, считают бывшие сотрудники Nintendo",
       "byline": "Николай Семак",
       "siteName": "igromania.ru",
@@ -30912,31 +30946,10 @@
       "length": 741,
       "imageCount": 1
     },
-    "dxrhak": {
-      "version": 4,
-      "url": "https://www.zr.ru/content/news/988520-gta-vi-na-podkhode-kak-kupit/",
-      "fetchedAt": "2026-11-15T21:43:36.114Z",
-      "title": "GTA VI на подходе: как купить игру и не отдать деньги мошенникам",
-      "byline": "Лежнин Роман",
-      "siteName": "zr.ru",
-      "content": "Релиз Grand Theft Auto VI запланирован на 19 ноября 2026 года – игра появится на PlayStation 5 и Xbox Series X|S. Предзаказ уже открыт, а предзагрузка начнется 10 ноября. Для установки потребуется до 212 ГБ свободного места на диске.С покупкой в России все сложнее. Take-Two Interactive, которой принадлежит Rockstar Games, приостановила продажи игр в стране в 2022 году. Цифровые магазины PlayStation и Xbox, принадлежащие Sony и Microsoft, для российских пользователей тоже закрыты, а оплатить покупку российской банковской картой напрямую не выйдет.Эксперт по PR в видеоигровой индустрии Петр Пантюшкин рассказал, что после ухода ключевых зарубежных издателей и отключения российских карт от международных платежных систем игровое сообщество построило параллельную инфраструктуру.«Некоторые эксперты считают ее серой, пограничной, но, по-моему мнению, это всего лишь способ обход ограничений и, что важно, не является пиратством игр», – отметил он.В эту систему входят смена региона аккаунта, подарочные сертификаты, посредники и площадки по аренде игровых аккаунтов. Пантюшкин предупредил: стоимость игр и комиссии за пополнение могут сильно меняться, поэтому предложения стоит сравнивать. Звучит несложно, однако детали решают многое.PlayStation 5: зарубежный аккаунт и ценыВладельцам PS5 безопаснее всего завести собственный аккаунт зарубежного региона, где GTA VI есть в PlayStation Store. Понадобится новый профиль PlayStation Network, зарегистрированный в стране продажи. Уже существующий российский аккаунт на другую страну не переключить.Главный редактор «Игромании» Виктаний Волков называет самыми популярными и выгодными Турцию и Индию. По его мнению, там GTA VI стоит недорого, а баланс можно пополнить через проверенные онлайн-площадки без особых сложностей. Оплачивать игру лучше иностранной картой, желательно из региона аккаунта: российская карта для кошелька PSN не подойдет.В турецком PlayStation Store Standard Edition стоит 3999 турецких лир (около 6500 руб.), Ultimate Edition – 4999 лир (около 8200 руб.). В индийском магазине стандартное издание обойдется в 5999 индийских рупий (около 5200 руб.), расширенное – в 7499 рупий (около 6500 руб.).Еще один вариант – подарочные карты пополнения PSN. Цифровой код для нужного региона покупают на российских маркетплейсах или у проверенных продавцов-посредников, активируют на собственном зарубежном аккаунте PSN, а затем оплачивают игру с баланса кошелька. Карта должна строго соответствовать региону аккаунта: турецкая не сработает на американском и наоборот, подчеркнул Пантюшкин.«Можно обратиться и к онлайн-посредникам, которые сделают все за вас, но здесь нужно внимательно читать условия предложения. За привлекательной ценой может скрываться не покупка GTA VI на ваш аккаунт, а предоставление доступа к чужому профилю. Шерить аккаунты проверенных продавцов не страшно, но риск всегда есть. Нужно понимать, что здесь придется заплатить комиссию за работу посредников», – предупредил Волков.Xbox Series X и S: Аргентина и кодыНа Xbox Series X и Series S для покупки нужен зарубежный аккаунт в подходящем регионе и достаточная сумма на балансе Microsoft Store. Пантюшкин видит у консоли Microsoft два плюса по сравнению с PlayStation: регион аккаунта разрешено менять раз в три месяца (баланс при этом не переносится), а коды активации из коробочных изданий обычно не привязаны к региону.Волков советует владельцам Xbox экономить через аргентинский аккаунт. «Всю процедуру создания нового аккаунта в другом регионе берут на себя посредники – главное, изучать отзывы и количество покупателей. Либо можно активировать игру на собственном аккаунте через этих же посредников – это обойдется дороже, зато аккаунт останется вашим, прежним», – добавил он.В Microsoft Store Аргентины Standard Edition стоит 113 299 аргентинских песо (около 6000 руб.), Ultimate Edition – 141 990 песо (около 7500 руб.).Другой путь – покупка кода активации на сторонних площадках. Нужно найти ключ, проверить регион, сменить регион учетной записи и активировать игру через консоль, ПК или смартфон. После успешной активации подменять IP-адрес уже не требуется. Главный риск здесь – мошенничество. Пантюшкин советует брать ключи только у продавцов с хорошей репутацией и ни при каких обстоятельствах не передавать пароль от аккаунта Microsoft третьим лицам: «В целом при покупке ключей на площадках всегда проверяйте продавца и площадку – это базовое правило цифровой безопасности российского геймера».Диски и коробки: что важно проверитьНа дисках GTA VI выпускать не будут. Физические коробки все же появятся в продаже, но внутри окажется код для цифровой загрузки.По мнению Волкова, такие издания можно будет купить и в крупных российских магазинах техники и видеоигр.При покупке коробочного издания стоит проверить содержимое и убедиться, что код загрузки на месте, не поврежден и не был использован. «Существует риск нарваться на уже активированный код в коробке», – подчеркнул главный редактор «Игромании».ПК: сроки и риски скачиванияОфициальная дата выхода GTA VI на персональных компьютерах пока не анонсирована. Обычно ПК-версия появляется вслед за консольной, но в случае с GTA VI геймерам не стоит рассчитывать на релиз раньше 2027 года, полагает Пантюшкин.По его словам, после выхода ПК-версию от Rockstar Games можно будет купить в Steam. В России есть два способа: сменить регион (например, на Турцию или Казахстан) либо приобрести ключ или подарочную карту на российский аккаунт Steam через сторонние торговые площадки.Российские банковские карты в Steam не работают, но кошелек можно пополнить через специализированные магазины, сервисы российских банков или провайдеров.Собеседники РБК призвали не поддаваться предложениям скачать GTA VI в интернете. «Версия для ПК пока не анонсирована, хотя слухи о следующей весне и ходят. Не стоит вестись на кликбейтные ссылки с предложениями купить заветную шестую часть в Steam в ближайшие месяцы», – предупредил Волков.«Не поддавайтесь на соблазнительные предложения «скачать ПК версию GTA 6» в этом году – это будет стопроцентный скам и мошенничество», – добавил Пантюшкин.О похожих схемах развода автомобилистов «За рулем» уже рассказал.Понравилась публикация?Тогда добавьте «За рулем» в список интересных источников: 1. Откройте https://google.com... 2. Поставьте галочку напротив нашего изданияГотово – остаемся на связи! «За рулем» можно читать в ОдноклассникахИсточник:  РБК",
-      "images": [
-        {
-          "url": "https://www.zr.ru/d/story/68/988520/mycollages-2026-11-13_14-37-08.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://www.zr.ru/d/story/67/956775/111222.jpg",
-          "alt": ""
-        }
-      ],
-      "length": 6383,
-      "imageCount": 2
-    },
     "y2vd77": {
       "version": 4,
       "url": "https://www.intermedia.ru/news/408129",
-      "fetchedAt": "2026-11-15T21:43:36.348Z",
+      "fetchedAt": "2026-11-15T21:45:48.186Z",
       "title": "Новый «Человек-паук» и группа BTS стали триумфаторами Kids` Choice Awards",
       "byline": "",
       "siteName": "",
@@ -30957,7 +30970,7 @@
     "15voy7w": {
       "version": 4,
       "url": "https://www.zr.ru/content/news/988519-prospat-zelenyj-bolshe-ne-vyj/",
-      "fetchedAt": "2026-11-15T21:43:36.559Z",
+      "fetchedAt": "2026-11-15T21:45:48.247Z",
       "title": "Mercedes-Benz научит свои машины самостоятельно стартовать со светофора",
       "byline": "Лежнин Роман",
       "siteName": "zr.ru",
@@ -30975,10 +30988,31 @@
       "length": 1635,
       "imageCount": 2
     },
+    "dxrhak": {
+      "version": 4,
+      "url": "https://www.zr.ru/content/news/988520-gta-vi-na-podkhode-kak-kupit/",
+      "fetchedAt": "2026-11-15T21:45:48.649Z",
+      "title": "GTA VI на подходе: как купить игру и не отдать деньги мошенникам",
+      "byline": "Лежнин Роман",
+      "siteName": "zr.ru",
+      "content": "Релиз Grand Theft Auto VI запланирован на 19 ноября 2026 года – игра появится на PlayStation 5 и Xbox Series X|S. Предзаказ уже открыт, а предзагрузка начнется 10 ноября. Для установки потребуется до 212 ГБ свободного места на диске.С покупкой в России все сложнее. Take-Two Interactive, которой принадлежит Rockstar Games, приостановила продажи игр в стране в 2022 году. Цифровые магазины PlayStation и Xbox, принадлежащие Sony и Microsoft, для российских пользователей тоже закрыты, а оплатить покупку российской банковской картой напрямую не выйдет.Эксперт по PR в видеоигровой индустрии Петр Пантюшкин рассказал, что после ухода ключевых зарубежных издателей и отключения российских карт от международных платежных систем игровое сообщество построило параллельную инфраструктуру.«Некоторые эксперты считают ее серой, пограничной, но, по-моему мнению, это всего лишь способ обход ограничений и, что важно, не является пиратством игр», – отметил он.В эту систему входят смена региона аккаунта, подарочные сертификаты, посредники и площадки по аренде игровых аккаунтов. Пантюшкин предупредил: стоимость игр и комиссии за пополнение могут сильно меняться, поэтому предложения стоит сравнивать. Звучит несложно, однако детали решают многое.PlayStation 5: зарубежный аккаунт и ценыВладельцам PS5 безопаснее всего завести собственный аккаунт зарубежного региона, где GTA VI есть в PlayStation Store. Понадобится новый профиль PlayStation Network, зарегистрированный в стране продажи. Уже существующий российский аккаунт на другую страну не переключить.Главный редактор «Игромании» Виктаний Волков называет самыми популярными и выгодными Турцию и Индию. По его мнению, там GTA VI стоит недорого, а баланс можно пополнить через проверенные онлайн-площадки без особых сложностей. Оплачивать игру лучше иностранной картой, желательно из региона аккаунта: российская карта для кошелька PSN не подойдет.В турецком PlayStation Store Standard Edition стоит 3999 турецких лир (около 6500 руб.), Ultimate Edition – 4999 лир (около 8200 руб.). В индийском магазине стандартное издание обойдется в 5999 индийских рупий (около 5200 руб.), расширенное – в 7499 рупий (около 6500 руб.).Еще один вариант – подарочные карты пополнения PSN. Цифровой код для нужного региона покупают на российских маркетплейсах или у проверенных продавцов-посредников, активируют на собственном зарубежном аккаунте PSN, а затем оплачивают игру с баланса кошелька. Карта должна строго соответствовать региону аккаунта: турецкая не сработает на американском и наоборот, подчеркнул Пантюшкин.«Можно обратиться и к онлайн-посредникам, которые сделают все за вас, но здесь нужно внимательно читать условия предложения. За привлекательной ценой может скрываться не покупка GTA VI на ваш аккаунт, а предоставление доступа к чужому профилю. Шерить аккаунты проверенных продавцов не страшно, но риск всегда есть. Нужно понимать, что здесь придется заплатить комиссию за работу посредников», – предупредил Волков.Xbox Series X и S: Аргентина и кодыНа Xbox Series X и Series S для покупки нужен зарубежный аккаунт в подходящем регионе и достаточная сумма на балансе Microsoft Store. Пантюшкин видит у консоли Microsoft два плюса по сравнению с PlayStation: регион аккаунта разрешено менять раз в три месяца (баланс при этом не переносится), а коды активации из коробочных изданий обычно не привязаны к региону.Волков советует владельцам Xbox экономить через аргентинский аккаунт. «Всю процедуру создания нового аккаунта в другом регионе берут на себя посредники – главное, изучать отзывы и количество покупателей. Либо можно активировать игру на собственном аккаунте через этих же посредников – это обойдется дороже, зато аккаунт останется вашим, прежним», – добавил он.В Microsoft Store Аргентины Standard Edition стоит 113 299 аргентинских песо (около 6000 руб.), Ultimate Edition – 141 990 песо (около 7500 руб.).Другой путь – покупка кода активации на сторонних площадках. Нужно найти ключ, проверить регион, сменить регион учетной записи и активировать игру через консоль, ПК или смартфон. После успешной активации подменять IP-адрес уже не требуется. Главный риск здесь – мошенничество. Пантюшкин советует брать ключи только у продавцов с хорошей репутацией и ни при каких обстоятельствах не передавать пароль от аккаунта Microsoft третьим лицам: «В целом при покупке ключей на площадках всегда проверяйте продавца и площадку – это базовое правило цифровой безопасности российского геймера».Диски и коробки: что важно проверитьНа дисках GTA VI выпускать не будут. Физические коробки все же появятся в продаже, но внутри окажется код для цифровой загрузки.По мнению Волкова, такие издания можно будет купить и в крупных российских магазинах техники и видеоигр.При покупке коробочного издания стоит проверить содержимое и убедиться, что код загрузки на месте, не поврежден и не был использован. «Существует риск нарваться на уже активированный код в коробке», – подчеркнул главный редактор «Игромании».ПК: сроки и риски скачиванияОфициальная дата выхода GTA VI на персональных компьютерах пока не анонсирована. Обычно ПК-версия появляется вслед за консольной, но в случае с GTA VI геймерам не стоит рассчитывать на релиз раньше 2027 года, полагает Пантюшкин.По его словам, после выхода ПК-версию от Rockstar Games можно будет купить в Steam. В России есть два способа: сменить регион (например, на Турцию или Казахстан) либо приобрести ключ или подарочную карту на российский аккаунт Steam через сторонние торговые площадки.Российские банковские карты в Steam не работают, но кошелек можно пополнить через специализированные магазины, сервисы российских банков или провайдеров.Собеседники РБК призвали не поддаваться предложениям скачать GTA VI в интернете. «Версия для ПК пока не анонсирована, хотя слухи о следующей весне и ходят. Не стоит вестись на кликбейтные ссылки с предложениями купить заветную шестую часть в Steam в ближайшие месяцы», – предупредил Волков.«Не поддавайтесь на соблазнительные предложения «скачать ПК версию GTA 6» в этом году – это будет стопроцентный скам и мошенничество», – добавил Пантюшкин.О похожих схемах развода автомобилистов «За рулем» уже рассказал.Понравилась публикация?Тогда добавьте «За рулем» в список интересных источников: 1. Откройте https://google.com... 2. Поставьте галочку напротив нашего изданияГотово – остаемся на связи! «За рулем» можно читать в ОдноклассникахИсточник:  РБК",
+      "images": [
+        {
+          "url": "https://www.zr.ru/d/story/68/988520/mycollages-2026-11-13_14-37-08.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.zr.ru/d/story/67/956775/111222.jpg",
+          "alt": ""
+        }
+      ],
+      "length": 6383,
+      "imageCount": 2
+    },
     "7vight": {
       "version": 4,
       "url": "https://www.igromania.ru/news/169956/realistichnyij-shuter-bodycam-poluchil-obnovlenie-s-kooperativnyim-zombi-rezhimom/",
-      "fetchedAt": "2026-11-15T21:43:37.209Z",
+      "fetchedAt": "2026-11-15T21:45:48.830Z",
       "error": "не удалось выделить основной текст"
     }
   }
