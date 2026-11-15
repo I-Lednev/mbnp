@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-15T02:35:38.728Z",
-  "tookMs": 62116,
+  "generatedAt": "2026-11-15T02:38:38.528Z",
+  "tookMs": 15154,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -28,7 +28,7 @@
     "games": 600,
     "announces": 62,
     "mobile": 10,
-    "releases": 51,
+    "releases": 47,
     "rumors": 29,
     "software": 96,
     "science": 276,
@@ -43,7 +43,7 @@
     "aisoft": 107,
     "cars": 520,
     "war": 521,
-    "total": 4496
+    "total": 4492
   },
   "sourceCount": 89,
   "sources": [
@@ -673,21 +673,9 @@
   ],
   "errors": [
     {
-      "source": "Playground",
-      "url": "https://www.playground.ru/rss/news.xml",
-      "error": "таймаут",
-      "reused": 10
-    },
-    {
       "source": "r/emulation",
       "url": "https://www.reddit.com/r/emulation/new/.rss",
       "error": "HTTP 429",
-      "reused": 10
-    },
-    {
-      "source": "PlayStation Universe",
-      "url": "https://www.psu.com/feed/",
-      "error": "HTTP 403",
       "reused": 10
     },
     {
@@ -703,26 +691,26 @@
   ],
   "items": [
     {
-      "id": "gh-1439086805",
-      "title": "gamboozino/ng2recomp: Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
-      "url": "https://github.com/gamboozino/ng2recomp",
-      "excerpt": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
+      "id": "gh-1457527742",
+      "title": "jaylikesbunda/MindOverMutant-Wiicompiled: Static recompilation of Crash: Mind over Mutant (Wii) for Windows.",
+      "url": "https://github.com/jaylikesbunda/MindOverMutant-Wiicompiled",
+      "excerpt": "Static recompilation of Crash: Mind over Mutant (Wii) for Windows.",
       "image": "",
-      "publishedAt": "2026-11-15T02:31:51Z",
-      "addedAt": "2026-11-15T02:34:39.249Z",
+      "publishedAt": "2026-11-15T02:37:38Z",
+      "addedAt": "2026-11-15T02:38:27.179Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
       "lang": "en"
     },
     {
-      "id": "gh-1451727988",
-      "title": "eliasm4r/WondersBeyondRecomp: WondersBeyondRecomp: PokéPark 2: Wonders Beyond running natively on PC (static recompilation of the Wii game, up to 240 fps, 21:9, HD textures)",
-      "url": "https://github.com/eliasm4r/WondersBeyondRecomp",
-      "excerpt": "WondersBeyondRecomp: PokéPark 2: Wonders Beyond running natively on PC (static recompilation of the Wii game, up to 240 fps, 21:9, HD textures)",
+      "id": "gh-1439086805",
+      "title": "gamboozino/ng2recomp: Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
+      "url": "https://github.com/gamboozino/ng2recomp",
+      "excerpt": "Ninja Gaiden II (Xbox 360, 2008) statically recompiled into native Linux and Windows builds, drawn by its own Vulkan renderer. A steady 60 fps, up to 8x render scale, widescreen and ultrawide, keyboard and mouse, mods, Steam Deck ready. Bring your own copy of the game.",
       "image": "",
-      "publishedAt": "2026-11-15T02:19:41Z",
-      "addedAt": "2026-11-15T02:34:39.249Z",
+      "publishedAt": "2026-11-15T02:31:51Z",
+      "addedAt": "2026-11-15T02:38:27.179Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -735,7 +723,7 @@
       "excerpt": "In Extremis (1993) PC game source port in development.",
       "image": "",
       "publishedAt": "2026-11-14T20:21:30Z",
-      "addedAt": "2026-11-15T02:34:38.843Z",
+      "addedAt": "2026-11-15T02:38:26.799Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -748,7 +736,20 @@
       "excerpt": "A faithful, source-informed HTML5 restoration of Nokia's classic Bounce Tales. Preserving original J2ME assets and gameplay while bringing it to modern browsers with responsive touch controls and PWA support.",
       "image": "",
       "publishedAt": "2026-11-15T02:14:02Z",
-      "addedAt": "2026-11-15T02:34:38.382Z",
+      "addedAt": "2026-11-15T02:38:26.381Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1423433613",
+      "title": "skuza-oss/downhill-revived: A PC port of Downhill Domination (PS2), built on a matching decompilation. Bring your own disc.",
+      "url": "https://github.com/skuza-oss/downhill-revived",
+      "excerpt": "A PC port of Downhill Domination (PS2), built on a matching decompilation. Bring your own disc.",
+      "image": "",
+      "publishedAt": "2026-11-15T01:34:58Z",
+      "addedAt": "2026-11-15T02:38:26.381Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -761,7 +762,7 @@
       "excerpt": "Halo: Combat Evolved on iPhone, iPad and Mac. The Xbox edition with online matches of up to 128 players and the original campaign, plus Halo Custom Edition with its community servers. Bring your own game and build it on your Mac.",
       "image": "",
       "publishedAt": "2026-11-15T01:03:11Z",
-      "addedAt": "2026-11-15T02:34:38.382Z",
+      "addedAt": "2026-11-15T02:38:26.381Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -774,20 +775,7 @@
       "excerpt": "Killzone 2 // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
       "image": "",
       "publishedAt": "2026-11-15T00:03:06Z",
-      "addedAt": "2026-11-15T02:34:38.382Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
-      "id": "gh-1455097716",
-      "title": "AngeloGalav/sh3-vita: Experimental recompilation of the PC version of Silent Hill 3 for the PS Vita ",
-      "url": "https://github.com/AngeloGalav/sh3-vita",
-      "excerpt": "Experimental recompilation of the PC version of Silent Hill 3 for the PS Vita ",
-      "image": "",
-      "publishedAt": "2026-11-14T23:44:08Z",
-      "addedAt": "2026-11-15T02:34:38.382Z",
+      "addedAt": "2026-11-15T02:38:26.381Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -806,7 +794,7 @@
       "source": "gHacks",
       "category": "software",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "106h5lv",
@@ -821,7 +809,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "1gkjstg",
@@ -841,7 +829,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "tbcla0",
@@ -856,7 +844,7 @@
       "source": "gHacks",
       "category": "software",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "125un1w",
@@ -876,7 +864,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "1c3x0d6",
@@ -896,7 +884,7 @@
       "source": "OMG! Ubuntu",
       "category": "software",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "1s2x6w0",
@@ -916,7 +904,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "wwjlu0",
@@ -936,7 +924,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "1ud15ox",
@@ -956,7 +944,27 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
+    },
+    {
+      "id": "1ueacyd",
+      "title": "Бывшие разработчики Halo раскритиковали главу Xbox за поздравление с юбилеем на фоне массовых увольнений",
+      "url": "https://www.playground.ru/halo_combat_evolved/news/byvshie_razrabotchiki_halo_raskritikovali_glavu_xbox_za_pozdravlenie_s_yubileem_na_fone_massovyh_uvolnenij-1890768",
+      "excerpt": "Xbox отмечает 25-летие, однако праздничные поздравления руководства Microsoft вызвали недовольство бывших сотрудников Halo Studios. Глава игрового подразделения Xbox по контенту Мэтт Бути опубликовал сообщение в честь юбилея бренда, но вместо поздравлений…",
+      "content": "Xbox отмечает 25-летие, однако праздничные поздравления руководства Microsoft вызвали недовольство бывших сотрудников Halo Studios. Глава игрового подразделения Xbox по контенту Мэтт Бути опубликовал сообщение в честь юбилея бренда, но вместо поздравлений получил напоминания о недавних...",
+      "image": "https://i.playground.ru/e/QK7zrnmrN6X70iSwWIZ8mA.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/QK7zrnmrN6X70iSwWIZ8mA.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-15T01:25:42.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "q0f47",
@@ -976,7 +984,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "1loww86",
@@ -996,7 +1004,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "q70zu4",
@@ -1016,7 +1024,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "t2j26o",
@@ -1036,7 +1044,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "eenb6e",
@@ -1051,7 +1059,7 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "qe2x7x",
@@ -1071,7 +1079,27 @@
       "source": "Ukrainska Pravda",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
+    },
+    {
+      "id": "1eaniz9",
+      "title": "В офисе разработчиков Wasteland и Clockwork Revolution произошла стрельба",
+      "url": "https://www.playground.ru/clockwork_revolution/news/v_ofise_razrabotchikov_wasteland_i_clockwork_revolution_proizoshla_strelba-1890764",
+      "excerpt": "В офисе студии inXile Entertainment в городе Тастин, штат Калифорния, произошла стрельба. Несколько пуль попали в здание, однако никто из сотрудников не пострадал. В Microsoft подтвердили, что поддерживают команду разработчиков и взаимодействуют с…",
+      "content": "В офисе студии inXile Entertainment в городе Тастин, штат Калифорния, произошла стрельба. Несколько пуль попали в здание, однако никто из сотрудников не пострадал. В Microsoft подтвердили, что поддерживают команду разработчиков и взаимодействуют с правоохранительными органами.",
+      "image": "https://i.playground.ru/e/eOafjHNQms1DqOzUddoydA.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/eOafjHNQms1DqOzUddoydA.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-15T00:39:36.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "1aj44gv",
@@ -1086,7 +1114,27 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
+    },
+    {
+      "id": "1ffsmps",
+      "title": "В сеть утек полный список песен из саундтрека GTA 6 за несколько дней до релиза",
+      "url": "https://www.playground.ru/gta_6/news/v_set_utek_polnyj_spisok_pesen_iz_saundtreka_gta_6_za_neskolko_dnej_do_reliza-1890762",
+      "excerpt": "Всего за несколько дней до выхода Grand Theft Auto 6 в сеть попал предположительно полный трек-лист официального альбома Grand Theft Auto VI: The Album. Утечка появилась после публикации видео в социальных сетях, на котором показана...",
+      "content": "Всего за несколько дней до выхода Grand Theft Auto 6 в сеть попал предположительно полный трек-лист официального альбома Grand Theft Auto VI: The Album. Утечка появилась после публикации видео в социальных сетях, на котором показана...",
+      "image": "https://i.playground.ru/e/wA-99CZCTSUfnYc-ZHDgpg.webp",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/wA-99CZCTSUfnYc-ZHDgpg.webp",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-15T00:34:00.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "8abm5r",
@@ -1106,7 +1154,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "t6r8hj",
@@ -1121,7 +1169,7 @@
       "source": "TechCrunch AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "1jwlxzi",
@@ -1141,7 +1189,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "1v8ifjn",
@@ -1165,7 +1213,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "1eug656",
@@ -1189,7 +1237,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "k31gul",
@@ -1213,7 +1261,7 @@
       "source": "Push Square",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "1vn5jh4",
@@ -1228,7 +1276,7 @@
       "source": "Simon Willison",
       "category": "aisoft",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "yl1jzi",
@@ -1248,7 +1296,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "18youve",
@@ -1272,7 +1320,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "12byltn",
@@ -1287,7 +1335,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "cpx5f3",
@@ -1307,7 +1355,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "11q7xxy",
@@ -1322,7 +1370,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "10gj2w7",
@@ -1342,7 +1390,7 @@
       "source": "IGN",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "1lnv1mk",
@@ -1366,7 +1414,7 @@
       "source": "Nintendo Everything",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "1hbwhxi",
@@ -1386,7 +1434,7 @@
       "source": "IGN",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "180dsdu",
@@ -1410,7 +1458,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "16phwtl",
@@ -1434,7 +1482,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "47a29a",
@@ -1458,7 +1506,7 @@
       "source": "Nintendo Everything",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "58yn06",
@@ -1473,7 +1521,7 @@
       "source": "Simon Willison",
       "category": "aisoft",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "1xi2kc8",
@@ -1493,7 +1541,7 @@
       "source": "3DNews Железо",
       "category": "hardware",
       "lang": "ru",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "1yi6c33",
@@ -1513,7 +1561,7 @@
       "source": "The Verge Entertainment",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "1fjqpig",
@@ -1533,7 +1581,7 @@
       "source": "The Verge Entertainment",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "gz11oe",
@@ -1553,67 +1601,7 @@
       "source": "The Verge Entertainment",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
-    },
-    {
-      "id": "1bz0dzr",
-      "title": "Release: DERELIKT",
-      "url": "https://www.gog.com/fr/news/release_derelikt",
-      "excerpt": "DERELIKT is an old-school survival horror – and it's now available on GOG! Inspired by the mood and structure of System Shock 2, Alien Resurrection, Doom 3, and, DERELIKT leans into the dread of being under-equipped, out of your depth, and very far from help…",
-      "content": "DERELIKT is an old-school survival horror – and it's now available on GOG!\n\nInspired by the mood and structure of System Shock 2, Alien Resurrection, Doom 3, and, DERELIKT leans into the dread of being under-equipped, out of your depth, and very far from help. Von Neumann Outpost is a remote research station built into a derelict asteroid in Saturn’s orbit.\n\nNow on GOG!",
-      "image": "",
-      "images": [],
-      "publishedAt": null,
-      "sourceId": "gog-news",
-      "source": "GOG",
-      "category": "releases",
-      "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
-    },
-    {
-      "id": "b68hmk",
-      "title": "Release: Ward Off Evil",
-      "url": "https://www.gog.com/fr/news/release_ward_off_evil",
-      "excerpt": "Ward Off Evil is an open world strategy RPG – and it's now available on GOG! As the Cycle draws to a close, the last bastion of humanity overflows with survivors loyal to their ancient empires. Each tribe envisions a new future for mankind, oblivious to the…",
-      "content": "Ward Off Evil is an open world strategy RPG – and it's now available on GOG!\n\nAs the Cycle draws to a close, the last bastion of humanity overflows with survivors loyal to their ancient empires. Each tribe envisions a new future for mankind, oblivious to the conspiracy that led them all here in the first place. Though many cling to their crumbling cities and dwindling civilizations, this dying world's fate is not set in stone.\n\nNow on GOG!",
-      "image": "",
-      "images": [],
-      "publishedAt": null,
-      "sourceId": "gog-news",
-      "source": "GOG",
-      "category": "releases",
-      "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
-    },
-    {
-      "id": "1a0tuc7",
-      "title": "Release: Nocturne",
-      "url": "https://www.gog.com/fr/news/release_nocturne",
-      "excerpt": "Nocturne is a fantasy adventure RPG – and it's now available on GOG! Humanity is gone. Only the Digital Afterlife remains, silent for a thousand years. Until now. Nocturne’s rich narrative will leave you questioning what it means to be alive, while you…",
-      "content": "Nocturne is a fantasy adventure RPG – and it's now available on GOG!\n\nHumanity is gone. Only the Digital Afterlife remains, silent for a thousand years. Until now. Nocturne’s rich narrative will leave you questioning what it means to be alive, while you traverse a beautiful world that’s falling apart around you.\n\nNow on GOG!",
-      "image": "",
-      "images": [],
-      "publishedAt": null,
-      "sourceId": "gog-news",
-      "source": "GOG",
-      "category": "releases",
-      "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
-    },
-    {
-      "id": "rcjtnj",
-      "title": "Release: Imperial Grace",
-      "url": "https://www.gog.com/fr/news/release_imperial_grace",
-      "excerpt": "Imperial Grace is a narrative visual-novel game – and it's now available on GOG! Imperial Grace is a visual novel focusing on politics and romance in an imaginary medieval world. As the new Empress of Calidya your choices will determine your future and your…",
-      "content": "Imperial Grace is a narrative visual-novel game – and it's now available on GOG!\n\nImperial Grace is a visual novel focusing on politics and romance in an imaginary medieval world. As the new Empress of Calidya your choices will determine your future and your kingdom's, so rule wisely. Play as a strong and ambitious woman, and hold an entire country in the palm of your hand.\n\nNow on GOG!",
-      "image": "",
-      "images": [],
-      "publishedAt": null,
-      "sourceId": "gog-news",
-      "source": "GOG",
-      "category": "releases",
-      "lang": "en",
-      "addedAt": "2026-11-15T02:34:36.612Z"
+      "addedAt": "2026-11-15T02:38:23.374Z"
     },
     {
       "id": "gh-1458088674",
@@ -3067,7 +3055,7 @@
       "title": "Show HN: A terminal-native idle factory game, written in Rust with ratatui",
       "url": "https://gitlab.com/snipedbywifi/terminactory",
       "excerpt": "Hey HN readers! I'm snipedbywifi ( https://gitlab.com/snipedbywifi ), and i've been working on terminactory. Please try it out if you'd like to play a cozy factory game while waiting for long agent tasks to finish! The game is a factory game (overused niche…",
-      "content": "Hey HN readers! I'm snipedbywifi ( https://gitlab.com/snipedbywifi ), and i've been working on terminactory. Please try it out if you'd like to play a cozy factory game while waiting for long agent tasks to finish! The game is a factory game (overused niche, i know xD), but runs in your terminal. Reason i built it? glad you asked: So basically, it started off with me wanting a terminal-native factory game. Me and the modern 5.5 claude models made a base for the game that I liked, and then i went ham adding features / fixing some minor flaws (like adding claude code hooks so you recieve \"telegrams\" [the agent's responses], so you can review progress directly in-game). (yes, I had heavy AI assistance, disclaimer!!!) Right now, the game has basic factory features you'd expect from a game like this (build stuff, delete stuff, measure how much you're earning, basic selection tools), along with a few more.. \"unexpected\" features. This includes a fake in-game browser that has a wiki, fake forums, some fun bits of lore, some more lore, a LOT more lore, and a research graph that shows how many items or how much RP (research points) you'd need to unlock something, and some more QOL features. If anyone actually has this issue / want of a terminal-based game that runs alongside your agents so you don't doomscroll, do you have any suggestions, or additional ideas I could add? It's hosted on GitLab, soo, that's one additional thing i'd like to mention Thanks for reading!! snipedbywifi (p.s. first HN post lol)\n(p.s. p.s. there's a lot of hidden lore in the game, so.. lore-divers? you might like it?)\n\nComments URL: https://news.ycombinator.com/item?id=50497132\n\nPoints: 139\n\n# Comments: 28",
+      "content": "Hey HN readers! I'm snipedbywifi ( https://gitlab.com/snipedbywifi ), and i've been working on terminactory. Please try it out if you'd like to play a cozy factory game while waiting for long agent tasks to finish! The game is a factory game (overused niche, i know xD), but runs in your terminal. Reason i built it? glad you asked: So basically, it started off with me wanting a terminal-native factory game. Me and the modern 5.5 claude models made a base for the game that I liked, and then i went ham adding features / fixing some minor flaws (like adding claude code hooks so you recieve \"telegrams\" [the agent's responses], so you can review progress directly in-game). (yes, I had heavy AI assistance, disclaimer!!!) Right now, the game has basic factory features you'd expect from a game like this (build stuff, delete stuff, measure how much you're earning, basic selection tools), along with a few more.. \"unexpected\" features. This includes a fake in-game browser that has a wiki, fake forums, some fun bits of lore, some more lore, a LOT more lore, and a research graph that shows how many items or how much RP (research points) you'd need to unlock something, and some more QOL features. If anyone actually has this issue / want of a terminal-based game that runs alongside your agents so you don't doomscroll, do you have any suggestions, or additional ideas I could add? It's hosted on GitLab, soo, that's one additional thing i'd like to mention Thanks for reading!! snipedbywifi (p.s. first HN post lol)\n(p.s. p.s. there's a lot of hidden lore in the game, so.. lore-divers? you might like it?)\n\nComments URL: https://news.ycombinator.com/item?id=50497132\n\nPoints: 140\n\n# Comments: 28",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-14T14:05:54.000Z",
@@ -3146,7 +3134,7 @@
       "url": "https://github.com/RodoLy/HMMMGC",
       "excerpt": "",
       "image": "",
-      "publishedAt": "2026-11-15T02:32:02Z",
+      "publishedAt": "2026-11-14T22:44:41Z",
       "addedAt": "2026-11-14T19:07:49.383Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -3198,7 +3186,7 @@
       "url": "https://github.com/YodaMMM/NightfirePort",
       "excerpt": "Nightfire Rust: a native Windows PC port of 007: Nightfire (PS2), written in Rust",
       "image": "",
-      "publishedAt": "2026-11-15T02:34:31Z",
+      "publishedAt": "2026-11-15T02:38:18Z",
       "addedAt": "2026-11-14T19:07:48.509Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -5851,8 +5839,8 @@
       "id": "16579m9",
       "title": "Generative AI uses more energy on non-English text",
       "url": "https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text/",
-      "excerpt": "Article URL: https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text/ Comments URL: https://news.ycombinator.com/item?id=50441444 Points: 182 # Comments: 98",
-      "content": "Article URL: https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text/\n\nComments URL: https://news.ycombinator.com/item?id=50441444\n\nPoints: 182\n\n# Comments: 98",
+      "excerpt": "Article URL: https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text/ Comments URL: https://news.ycombinator.com/item?id=50441444 Points: 185 # Comments: 98",
+      "content": "Article URL: https://news.umich.edu/generative-ai-uses-more-energy-on-non-english-text/\n\nComments URL: https://news.ycombinator.com/item?id=50441444\n\nPoints: 185\n\n# Comments: 98",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-10T15:07:28.000Z",
@@ -28699,8 +28687,8 @@
       "id": "3pji80",
       "title": "Chinese frontier AI models carry the fingerprint of export-controlled GPUs",
       "url": "https://unemploymentlabs.com/checkpoint-forensics",
-      "excerpt": "https://twitter.com/willdepue/status/2120992457630326841 Comments URL: https://news.ycombinator.com/item?id=50474883 Points: 379 # Comments: 162",
-      "content": "https://twitter.com/willdepue/status/2120992457630326841\n\nComments URL: https://news.ycombinator.com/item?id=50474883\n\nPoints: 379\n\n# Comments: 162",
+      "excerpt": "https://twitter.com/willdepue/status/2120992457630326841 Comments URL: https://news.ycombinator.com/item?id=50474883 Points: 381 # Comments: 165",
+      "content": "https://twitter.com/willdepue/status/2120992457630326841\n\nComments URL: https://news.ycombinator.com/item?id=50474883\n\nPoints: 381\n\n# Comments: 165",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-12T21:56:11.000Z",
@@ -74883,26 +74871,6 @@
       "addedAt": "2026-11-10T08:23:09.672Z"
     },
     {
-      "id": "5q38f4",
-      "title": "Количество подписчиков модели, сыгравшей Еву в рекламе Stellar Blade для Switch 2, за пару дней выросло в 7 раз",
-      "url": "https://www.playground.ru/stellar_blade/news/kolichestvo_podpischikov_modeli_sygravshej_evu_v_reklame_stellar_blade_dlya_switch_2_za_paru_dnej_vyroslo_v_7_raz-1889334",
-      "excerpt": "Модель Джейд Мин (jademin_kr), сыгравшая Еву в живом рекламном ролике Stellar Blade для Nintendo Switch 2, набрала более 12 тысяч подписчиков в своих соцсетях. До выхода трейлера у нее было 1.7 тысяч подписчиков. Теперь счетчик...",
-      "content": "Модель Джейд Мин (jademin_kr), сыгравшая Еву в живом рекламном ролике Stellar Blade для Nintendo Switch 2, набрала более 12 тысяч подписчиков в своих соцсетях. До выхода трейлера у нее было 1.7 тысяч подписчиков. Теперь счетчик...",
-      "image": "https://i.playground.ru/e/MAC3pefCPBXz8yFd3VUq4Q.jpeg",
-      "images": [
-        {
-          "url": "https://i.playground.ru/e/MAC3pefCPBXz8yFd3VUq4Q.jpeg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-10T07:53:35.000Z",
-      "sourceId": "playground",
-      "source": "Playground",
-      "category": "games",
-      "lang": "ru",
-      "addedAt": "2026-11-10T08:23:09.672Z"
-    },
-    {
       "id": "tcjc6q",
       "title": "TokenRouter: непрерывная маршрутизация LLM по токенам",
       "url": "https://habr.com/ru/companies/ru_mts/articles/1105396/",
@@ -74919,46 +74887,6 @@
       "sourceId": "habr-ai",
       "source": "Habr AI",
       "category": "ai",
-      "lang": "ru",
-      "addedAt": "2026-11-10T08:23:09.672Z"
-    },
-    {
-      "id": "1lq3ftt",
-      "title": "Digital Foundry не видит смысла спешить с выходом PS6 и новым Xbox - нынешние консоли ещё способны на большее",
-      "url": "https://www.playground.ru/misc/news/digital_foundry_ne_vidit_smysla_speshit_s_vyhodom_ps6_i_novym_xbox_nyneshnie_konsoli_eschyo_sposobny_na_bolshee-1889333",
-      "excerpt": "Нынешнее поколение консолей пока не нуждается в преемниках: PS5 и Xbox Series ещё способны удивлять графикой и производительностью. Так считает глава Digital Foundry Ричард Лидбеттер. В интервью The Game Business он заявил, что современные приставки...",
-      "content": "Нынешнее поколение консолей пока не нуждается в преемниках: PS5 и Xbox Series ещё способны удивлять графикой и производительностью. Так считает глава Digital Foundry Ричард Лидбеттер. В интервью The Game Business он заявил, что современные приставки...",
-      "image": "https://i.playground.ru/e/3QiSq2L92gOogg6hJ5wCEA.png",
-      "images": [
-        {
-          "url": "https://i.playground.ru/e/3QiSq2L92gOogg6hJ5wCEA.png",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-10T07:50:23.000Z",
-      "sourceId": "playground",
-      "source": "Playground",
-      "category": "games",
-      "lang": "ru",
-      "addedAt": "2026-11-10T08:23:09.672Z"
-    },
-    {
-      "id": "zhwie2",
-      "title": "Встречайте нового персонажа в ZZZ — Севериан!",
-      "url": "https://www.igromania.ru/news/169813/vstrechajte-novogo-personazha-v-zzz-severian/",
-      "excerpt": "11 ноября в Zenless Zone Zero выйдет вторая половина версии 3.3, а с ней в игре появится Севериан — новый персонаж S-ранга специальности «Нападение» с атрибутом ветра.",
-      "content": "11 ноября в Zenless Zone Zero выйдет вторая половина версии 3.3, а с ней в игре появится Севериан — новый персонаж S-ранга специальности «Нападение» с атрибутом ветра.",
-      "image": "https://newcdn.igromania.ru//r/05bd00154a2233d636dfd1778ef81ba9/510x-/newcdn.igromania.ru/articles/pics/tmp/images/2026/11/9/540c1106-1495-44c0-889e-ae4000ccf7d8.jpg",
-      "images": [
-        {
-          "url": "https://newcdn.igromania.ru//r/05bd00154a2233d636dfd1778ef81ba9/510x-/newcdn.igromania.ru/articles/pics/tmp/images/2026/11/9/540c1106-1495-44c0-889e-ae4000ccf7d8.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-10T07:50:00.000Z",
-      "sourceId": "igromania",
-      "source": "Игромания",
-      "category": "games",
       "lang": "ru",
       "addedAt": "2026-11-10T08:23:09.672Z"
     },
@@ -88820,11 +88748,11 @@
     },
     {
       "id": "gh-1443519371",
-      "title": "Dittobyte/Recompia: Pokémon Pokopia (Switch 2) recompiled to run natively on Windows with Linux/Handheld support. Multiplayer included, modding, feature enhancements and more! Join the discord community as well",
+      "title": "Dittobyte/Recompia: Pokémon Pokopia (Switch 2) recompiled to run natively on Windows with Linux/Handheld support. Multiplayer included, modding, feature enhancements and more! Join the discord community as well - https://discord.recompia.com",
       "url": "https://github.com/Dittobyte/Recompia",
-      "excerpt": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows with Linux/Handheld support. Multiplayer included, modding, feature enhancements and more! Join the discord community as well",
+      "excerpt": "Pokémon Pokopia (Switch 2) recompiled to run natively on Windows with Linux/Handheld support. Multiplayer included, modding, feature enhancements and more! Join the discord community as well - https://discord.recompia.com",
       "image": "",
-      "publishedAt": "2026-11-12T21:53:54Z",
+      "publishedAt": "2026-11-15T02:34:28Z",
       "addedAt": "2026-11-08T15:04:03.044Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
