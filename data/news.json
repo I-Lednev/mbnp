@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-15T17:00:23.523Z",
-  "tookMs": 11120,
+  "generatedAt": "2026-11-15T17:02:42.776Z",
+  "tookMs": 8953,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -33,17 +33,17 @@
     "software": 94,
     "science": 285,
     "entertainment": 600,
-    "ports": 194,
+    "ports": 195,
     "pc": 186,
     "consoles": 544,
     "hardware": 145,
     "industry": 93,
-    "updates": 32,
+    "updates": 33,
     "aimods": 26,
     "aisoft": 109,
     "cars": 514,
     "war": 524,
-    "total": 4462
+    "total": 4464
   },
   "sourceCount": 89,
   "sources": [
@@ -709,7 +709,7 @@
       "excerpt": "Turns a PS2 disc image into a native PC program by static recompilation; builds on ps2-web-recomp (MIT). Work in progress. Bring your own disc.",
       "image": "",
       "publishedAt": "2026-11-15T16:38:49Z",
-      "addedAt": "2026-11-15T17:00:17.512Z",
+      "addedAt": "2026-11-15T17:02:37.615Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -722,7 +722,7 @@
       "excerpt": "CatacombGL is a source port with OpenGL graphics for Catacomb 3D (1991), The Catacomb Abyss (1992), The Catacomb Armageddon (1992) and The Catacomb Apocalypse (1993).",
       "image": "",
       "publishedAt": "2026-11-15T14:18:31Z",
-      "addedAt": "2026-11-15T17:00:17.086Z",
+      "addedAt": "2026-11-15T17:02:37.226Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -735,7 +735,7 @@
       "excerpt": "Underworld Exhumed: Ultima Underworld I and II as byte-matching source code and native ports for macOS, Windows and Linux",
       "image": "",
       "publishedAt": "2026-11-15T13:48:47Z",
-      "addedAt": "2026-11-15T17:00:17.086Z",
+      "addedAt": "2026-11-15T17:02:37.226Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -748,20 +748,7 @@
       "excerpt": "Native SDL3 port of Colin McRae Rally 2.0 built from the CMR2Decomp decompilation. No game data included.",
       "image": "",
       "publishedAt": "2026-11-15T13:26:52Z",
-      "addedAt": "2026-11-15T17:00:17.086Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
-      "id": "gh-1439790250",
-      "title": "Putrefacto669/Cry-Of-Fear-PortWeb: Port web no oficial de Cry of Fear jugable en el navegador (WebAssembly + WebGL 2, Xash3D FWGS). Gratis y de código abierto, con permiso de su autor.",
-      "url": "https://github.com/Putrefacto669/Cry-Of-Fear-PortWeb",
-      "excerpt": "Port web no oficial de Cry of Fear jugable en el navegador (WebAssembly + WebGL 2, Xash3D FWGS). Gratis y de código abierto, con permiso de su autor.",
-      "image": "",
-      "publishedAt": "2026-11-15T16:29:05Z",
-      "addedAt": "2026-11-15T17:00:16.658Z",
+      "addedAt": "2026-11-15T17:02:37.226Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -774,7 +761,20 @@
       "excerpt": "Project Sunburn – Holiday Island (1996) for modern systems: Windows, macOS, Linux, Steam Deck and the browser. Bring your own CD. Moddable",
       "image": "",
       "publishedAt": "2026-11-15T16:23:21Z",
-      "addedAt": "2026-11-15T17:00:16.658Z",
+      "addedAt": "2026-11-15T17:02:36.813Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1404706030",
+      "title": "vyanhursky/DefJamFFNY-recomp: Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
+      "url": "https://github.com/vyanhursky/DefJamFFNY-recomp",
+      "excerpt": "Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
+      "image": "",
+      "publishedAt": "2026-11-15T16:01:07Z",
+      "addedAt": "2026-11-15T17:02:36.813Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -787,7 +787,7 @@
       "excerpt": "CPS-2 Recomp: unofficial native PC ports of Capcom CPS-2 arcade games (Street Fighter Alpha 2, Super Puzzle Fighter II Turbo, Vampire Savior) via static recompilation, with training modes, in one launcher: macOS, Linux, Steam Deck, Windows. Requires your own ROM sets. Beta.",
       "image": "",
       "publishedAt": "2026-11-15T15:59:25Z",
-      "addedAt": "2026-11-15T17:00:16.658Z",
+      "addedAt": "2026-11-15T17:02:36.813Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -800,11 +800,39 @@
       "excerpt": "Native PC port and static recompilation of Majin and the Forsaken Kingdom (Xbox 360) for Windows x64. Direct3D 12, locked 60 FPS, and 4K support.",
       "image": "",
       "publishedAt": "2026-11-15T15:09:28Z",
-      "addedAt": "2026-11-15T17:00:16.658Z",
+      "addedAt": "2026-11-15T17:02:36.813Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
       "lang": "en"
+    },
+    {
+      "id": "gh-1439790250",
+      "title": "Putrefacto669/Cry-Of-Fear-PortWeb: Port web no oficial de Cry of Fear jugable en el navegador (WebAssembly + WebGL 2, Xash3D FWGS). Gratis y de código abierto, con permiso de su autor.",
+      "url": "https://github.com/Putrefacto669/Cry-Of-Fear-PortWeb",
+      "excerpt": "Port web no oficial de Cry of Fear jugable en el navegador (WebAssembly + WebGL 2, Xash3D FWGS). Gratis y de código abierto, con permiso de su autor.",
+      "image": "",
+      "publishedAt": "2026-11-15T16:29:05Z",
+      "addedAt": "2026-11-15T17:02:36.812Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "1yu3ve2",
+      "title": "XBOX 25th Anniversary Magazine: Explore 25 Years of Games, Stories, and Memories",
+      "url": "https://news.xbox.com/en-us/2026/11/15/xbox-25th-anniversary-the-magazine/",
+      "excerpt": "The 25th Anniversary of XBOX has given fans much to celebrate: the milestones, the memories , and a whole slate of fun news for our players. We know that many of our longtime fans first learned about the original XBOX by reading about it in a magazine back in…",
+      "content": "The 25th Anniversary of XBOX has given fans much to celebrate: the milestones, the memories , and a whole slate of fun news for our players.  \n\nWe know that many of our longtime fans first learned about the original XBOX by reading about it in a magazine back in the day. For you, we created XBOX – The 25th Anniversary Magazine, a special publication designed not only to look back at 25 years of play, but also to celebrate the present and future of XBOX. We printed copies to share with community members at XBOX FanFest in Seattle this past week, and today, it’s available for all to read right here: \n\nProtip: you can go full screen for easier reading by clicking the arrows in the lower right of the player.\n\nThe magazine explores games, hardware, and moments, past and present, told through the teams who are building them. You’ll revisit memories from your favorite franchises, learn some lore about XBOX’s storied history, and read new details about games that haven’t yet released; want to know more about Fable’s capital city of Bowerstone? Turn to page 38! \n\nWe hope you enjoy this decidedly analog celebration of the last quarter century and a first look at what’s ahead.  XBOX’s story has always been written alongside our players. Thanks for reading, and for being part of what comes next. \n\nXBOX Wire .",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-15T17:01:00.000Z",
+      "sourceId": "xbox-wire",
+      "source": "Xbox Wire",
+      "category": "updates",
+      "lang": "en",
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "iasmcl",
@@ -824,7 +852,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "142piuj",
@@ -839,7 +867,31 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
+    },
+    {
+      "id": "1vye53p",
+      "title": "Nvidia RTX 5090 stock returns to Newegg with 21 models",
+      "url": "https://www.tomshardware.com/pc-components/gpus/nvidia-rtx-5090-stock-returns-to-newegg-with-21-models-but-scarcity-pricing-keeps-the-cheapest-air-cooled-cards-at-least-three-times-msrp",
+      "excerpt": "After rumors of Nvidia GeForce RTX 5090 graphics cards being withdrawn from the consumer retail channel, it is pleasing to see major U.S. e-tailers like Newegg stuffed with stock today. Checking out this popular online electronics retailer, we note that there…",
+      "content": "After rumors of Nvidia GeForce RTX 5090 graphics cards being withdrawn from the consumer retail channel, it is pleasing to see major U.S. e-tailers like Newegg stuffed with stock today. Checking out this popular online electronics retailer, we note that there are 21 RTX 5090 SKUs available , and 11 are sold by and shipped by Newegg. Sadly, pricing remains in 3xMSRP+ territory at the time of writing. Remember, you can sift through pricing trends in our comprehensive GPU price tracking 2026 feature to see that Nvidia's Blackwell flagship was once available at its fabled sub-$2,000 price.\n\nDespite what looks on the surface like an ample supply (but there are order limits of one per customer), prices for RTX 5090s remain extremely high. The best prices we can see at Newegg are $6,599, but this price applies only to a water-cooled Aorus model and another sold inside a Gigabyte AI BOX eGPU . They might still appeal to you, depending on your setup, though.\n\nFor a ‘standard’ air-cooled graphics card, albeit a very nice Aorus RTX 5090 Master , you’ll need to squeeze at least $6,659 out of your savings. A bonus with this card, alongside several others from the Gigabyte stables now purchasable from Newegg, is that it comes with a free motherboard. Many of these Gigabyte Aorus designs are being bundled with a full-ATX-sized X870 Aorus Elite WIFI7 AM5 motherboard , purportedly worth $319. Please note that the same motherboard is available to purchase outside this bundle for a more reasonable $249.\n\nIf you have money to burn, there are plenty of even more expensive SKUs to pick from. There are no opulent Golden Dhabab models on Newegg, sadly, but you’ll still be asked to part with $11,896 for the Asus ROG Astral GeForce RTX 5090 Edition 20 (sold by a Newegg marketplace partner). Perhaps surprisingly, given recent trending pricing news, that’s the only model above $10K, but there are still many models that are almost $10,000 from Asus, MSI, and Zotac. Even an Nvidia Founders Edition RTX 5090 refurb is priced at $8,899.\n\nIn context, these RTX 5090s are still at astronomical prices for consumer gaming PC add-in hardware. But they are now purchasable from a big retailer with fast delivery, rather than off a random scalper. It was only a month ago that rumors swirled about the RTX 5090 and the RTX 5080 being withdrawn from retail. That seemed to trigger crazy levels of price inflation, and reports of $10,000+ prices for the flagship card seemed to become the norm.\n\nOne can only hope that stock continues to flow to Newegg and other outlets, and RTX 5090 / RTX 5080 prices will settle lower as a result.",
+      "image": "https://cdn.mos.cms.futurecdn.net/jzKCnT5TDpoxxFHV85FXgk-1920-80.jpg",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/jzKCnT5TDpoxxFHV85FXgk-1920-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/dEo68vKHBzmhHAKc8axnpk-1920-80.jpg",
+          "alt": "RTX 5090 listings"
+        }
+      ],
+      "publishedAt": "2026-11-15T17:00:00.000Z",
+      "sourceId": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "hardware",
+      "lang": "en",
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "tupl3y",
@@ -859,7 +911,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "aomhbg",
@@ -879,7 +931,7 @@
       "source": "OMG! Ubuntu",
       "category": "software",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "62fiso",
@@ -899,7 +951,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "7oiqq8",
@@ -919,7 +971,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1nuvuw6",
@@ -939,7 +991,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1xfi7gk",
@@ -959,7 +1011,7 @@
       "source": "Tom's Hardware",
       "category": "hardware",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "pn9xxc",
@@ -979,7 +1031,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1fv61x1",
@@ -994,7 +1046,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "qi43",
@@ -1014,7 +1066,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1l7oqmb",
@@ -1034,7 +1086,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "101fxu6",
@@ -1058,7 +1110,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1fexuoi",
@@ -1078,7 +1130,7 @@
       "source": "The Verge Entertainment",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "sqfbxi",
@@ -1102,7 +1154,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "127lwyp",
@@ -1134,7 +1186,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "iwsrb8",
@@ -1158,7 +1210,7 @@
       "source": "Pure Xbox",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "13opt4u",
@@ -1182,7 +1234,7 @@
       "source": "Time Extension",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1cjzaxd",
@@ -1214,7 +1266,7 @@
       "source": "Tom's Hardware",
       "category": "hardware",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "wl52zp",
@@ -1234,7 +1286,7 @@
       "source": "Car and Driver",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1e8h35r",
@@ -1254,7 +1306,7 @@
       "source": "Meduza",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "9uo8h2",
@@ -1269,7 +1321,7 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "kh0bgp",
@@ -1293,7 +1345,7 @@
       "source": "Tom's Hardware",
       "category": "hardware",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "ulogbm",
@@ -1313,7 +1365,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "gn0ezv",
@@ -1333,7 +1385,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1a3xztb",
@@ -1353,7 +1405,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1c7adhu",
@@ -1368,7 +1420,7 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1p4uysx",
@@ -1388,7 +1440,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1l22eft",
@@ -1408,7 +1460,7 @@
       "source": "IGN",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1tnbyml",
@@ -1428,7 +1480,7 @@
       "source": "Eurogamer",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1cvrwog",
@@ -1452,7 +1504,7 @@
       "source": "Tom's Hardware",
       "category": "hardware",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "4msxo9",
@@ -1472,7 +1524,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1glge89",
@@ -1496,7 +1548,7 @@
       "source": "Nintendo Everything",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "f2u384",
@@ -1516,7 +1568,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1h29fpg",
@@ -1540,7 +1592,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "16vf3ra",
@@ -1580,7 +1632,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "4zcd6m",
@@ -1600,7 +1652,7 @@
       "source": "Tom's Hardware",
       "category": "hardware",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "uimcsh",
@@ -1615,7 +1667,7 @@
       "source": "r/GamingLeaksAndRumours",
       "category": "rumors",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "170fbd1",
@@ -1635,7 +1687,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "8a9nig",
@@ -1655,7 +1707,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1smfnm1",
@@ -1679,7 +1731,7 @@
       "source": "Meduza",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "3hlmo",
@@ -1699,7 +1751,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "8lkyj9",
@@ -1719,7 +1771,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1dwmpgo",
@@ -1734,7 +1786,7 @@
       "source": "Hacker News",
       "category": "aisoft",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "kduicb",
@@ -1754,7 +1806,7 @@
       "source": "Eurogamer",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "hqns1i",
@@ -1774,7 +1826,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "14tsgbf",
@@ -1789,7 +1841,7 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "d3vgkx",
@@ -1809,7 +1861,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "eefmez",
@@ -1833,7 +1885,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1nee5vs",
@@ -1853,7 +1905,7 @@
       "source": "Tom's Hardware",
       "category": "hardware",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1i7pz69",
@@ -1873,7 +1925,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "50lxzt",
@@ -1893,7 +1945,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "5z2chz",
@@ -1913,7 +1965,7 @@
       "source": "Tom's Hardware",
       "category": "hardware",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1di2svm",
@@ -1937,7 +1989,7 @@
       "source": "Meduza",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "hohfwe",
@@ -1952,7 +2004,7 @@
       "source": "ScienceDaily",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "s60wtv",
@@ -1972,7 +2024,7 @@
       "source": "Eurogamer",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "hvcll",
@@ -1987,7 +2039,7 @@
       "source": "ScienceDaily",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "jkkhqu",
@@ -2007,7 +2059,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "12m6bqm",
@@ -2031,7 +2083,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1100rls",
@@ -2055,7 +2107,7 @@
       "source": "Pure Xbox",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1t8iedm",
@@ -2079,7 +2131,7 @@
       "source": "Time Extension",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1es4uaw",
@@ -2099,7 +2151,7 @@
       "source": "Tom's Hardware",
       "category": "hardware",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1wu160z",
@@ -2131,7 +2183,7 @@
       "source": "GamesRadar+",
       "category": "aimods",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "dp6yhr",
@@ -2151,7 +2203,7 @@
       "source": "Motor1",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "a9zoiv",
@@ -2171,7 +2223,7 @@
       "source": "Car and Driver",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "13l7kbx",
@@ -2191,7 +2243,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "u1nlxr",
@@ -2211,7 +2263,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "7jjt63",
@@ -2226,7 +2278,7 @@
       "source": "ScienceDaily",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1mlhcl",
@@ -2246,7 +2298,7 @@
       "source": "Tom's Hardware",
       "category": "hardware",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1p65np1",
@@ -2266,7 +2318,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "17gdti2",
@@ -2281,47 +2333,7 @@
       "source": "Al Jazeera",
       "category": "war",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
-    },
-    {
-      "id": "17ngdq",
-      "title": "Intel reclaims overall CPU market share for the first time since 2025",
-      "url": "https://www.tomshardware.com/pc-components/cpus/intel-reclaims-overall-cpu-market-share-for-the-first-time-since-2025-massive-desktop-gains-offset-amds-record-server-and-mobile-growth",
-      "excerpt": "Shipments of x86 CPUs declined quarter-over-quarter and year-over-year in the third quarter as demand for client processors dropped sharply due to high component prices, while server CPU unit sales grew by a whopping 20% year-over-year, according to the…",
-      "content": "Shipments of x86 CPUs declined quarter-over-quarter and year-over-year in the third quarter as demand for client processors dropped sharply due to high component prices, while server CPU unit sales grew by a whopping 20% year-over-year, according to the latest report from Mercury Research. Intel regained overall CPU market share from AMD for the first time since Q2 2025, largely due to surprisingly strong performance in desktop PCs. Meanwhile, AMD continued to set new records in the mobile and server CPU segments, the report claims. In total, the industry supplied 68.93 million x86 CPUs, Jon Peddie Research reports .\n\nOverall x86 CPU market shares Segment\n\nAMD Q3 2026\n\nIntel Q3 2026\n\nAMD QoQ gain\n\nAMD Q3 2025\n\nIntel Q3 2025\n\nAMD YoY gain\n\nOverall x86\n\n30.10%\n\n69.90%\n\n−0.7%\n\n25.60%\n\n74.40%\n\n4.50%\n\nClient\n\n29.30%\n\n70.70%\n\n−0.9%\n\n25.40%\n\n74.60%\n\n4.00%\n\nDesktop\n\n29.90%\n\n70.10%\n\n−5.1%\n\n33.60%\n\n66.40%\n\n−3.7%\n\nMobile\n\n29.20%\n\n70.80%\n\n0.20%\n\n21.90%\n\n78.10%\n\n7.20%\n\nServer\n\n35.50%\n\n64.50%\n\n1.00%\n\n27.80%\n\n72.20%\n\n7.70%\n\nAll CPUs, including IoT and SoCs\n\n33.90%\n\n66.10%\n\n−0.2%\n\n30.90%\n\n69.10%\n\n3.00%\n\nCPU unit sales head south, set to get worse\n\nThe overall CPU market contracted both sequentially and year-over-year in unit shipments in Q3 2026, after a much stronger-than-expected second quarter, according to Mercury Research. AMD and Intel shipped 60.8 million client CPUs and 8.13 million data center processors during the quarter. One thing to keep in mind about the reports from JPR and Mercury Research is that they count CPU shipments, which happen months before those CPUs are sold in actual systems.\n\n\"After a far better than expected second quarter market for client processors, the third quarter PC CPU market declined far more than expected, entirely due to a downturn in mobile CPUs — this was the same segment that was unexpectedly higher last quarter, hinting that part of the downturn may have been due to CPU demand pulling in sales from the third quarter,\" said Dean McCarron, principal analyst at Mercury Research.\n\n\"Both Intel and AMD indicated in their earnings results that there was a rapid softening in PC demand late in the third quarter that impacted client processor shipments and that the outlook for client CPUs in the fourth quarter will be a decline in excess of 20%. Unlike client CPUs, however, server processors continued to grow strongly in the past quarter, as did embedded CPUs.\"\n\nQuarter over quarter, the decline was driven primarily by significantly lower demand for mobile processors, as 86 notebook CPU shipments dropped by more than 10%. By contrast, desktop CPU shipments recovered, largely thanks to Intel, while server and embedded CPU shipments continued to grow strongly. Excluding IoT, semi-custom SoCs, and embedded products, both AMD and Intel shipped fewer x86 processors than in the previous quarter, though AMD's decline was larger than Intel's.\n\nCompared with the third quarter of 2025, CPU shipments declined across all major market segments except servers. Desktop and notebook CPU shipments decreased due to weaker PC demand amid rising component costs, particularly memory prices. Embedded processor and semi-custom SoC shipments also declined, primarily due to AMD's shrinking game console business. By contrast, fueled by the ongoing buildout of AI infrastructure, server CPU shipments increased by more than 20% YoY, their highest annual growth rate in nearly five years.\n\n\"Client CPU shipments softened in Q3 as OEMs kept inventories lean and the DIY channel remained weak,\" said Dr. Jon Peddie, president of Jon Peddie Research. \"Server CPUs continued growing, with AMD gaining share and AI-related demand supporting the market. We expect PC conditions to remain difficult into the first half of 2027.\"\n\nDue to weakness in the client PC space, AMD's overall x86 market share (excluding embedded and semi-custom SoC) declined by 0.6% QoQ for the first time in years, but still grew by a significant 4.5% YoY, according to Mercury Research.\n\nClient CPUs: AMD loses share for the first time since 2022\n\nIn the x86 client PC segment, Intel regained some ground on AMD in Q3 2026 as overall client CPU shipments declined more sharply than expected, according to both Jon Peddie Research and Mercury Research. JPR estimates that AMD and Intel shipped 60.8 million client processors in Q3 2026, down from 62.93 million a quarter before and roughly 65 million in Q3 2025.\n\nAMD's client CPU unit share dropped to 29.3%, down from a record 30.3% in Q2, but still notably higher than the 25.4% it commanded a year earlier. Meanwhile, Intel increased its share to 70.7%, though its position remained considerably weaker than in Q3 2025, when it controlled 74.6% of the market.\n\nIntel's sequential market share gains were driven entirely by a substantial increase in desktop CPU shipments, while AMD continued to gain ground in notebooks, albeit at a much slower pace than in previous quarters. Mercury Research believes that weaker demand for mobile CPUs may have enabled Intel to allocate more silicon to desktop processors, a market that the company had undersupplied for some time.\n\nHowever, the outlook for both companies' client CPU businesses is rather gloomy, as rising component costs (especially DRAM and 3D NAND prices) are weighing on PC demand. Both AMD and Intel anticipate a sequential decline in client CPU shipments of more than 20% in the fourth quarter and further declines in the year to come. Meanwhile, one has to keep in mind that CPUs sold in Q4 are meant for systems to be shipped in Q1, which is traditionally weak. Hence, while the 20% YoY decline is extraordinary, a substantial part of that decline is seasonal.\n\nDesktop CPUs: Intel is bringing vengeance\n\nIn the desktop PC segment, Intel made a spectacular comeback in Q3 2026, reclaiming 5% of the market in one quarter. Intel's desktop CPU unit share climbed to 70.1%, up 5% sequentially and 3.7% in the same quarter a year ago. By contrast, AMD's share dropped to 29.9%, down from 34.9% in Q2 2026 and 33.6% in Q3 2025, meaning the company wiped out its market share gains over the past year.\n\nMercury Research speculates that weaker demand for notebook processors enabled Intel to allocate more silicon to mainstream desktop CPUs, a market that both companies have underserved for some time. Another factor behind AMD's poor performance was its greater exposure to the gaming PC market, which suffered from limited availability of gaming graphics cards and unusually high costs for other components, such as memory modules and SSDs.\n\nYet, desktops became the only major x86 CPU market segment where AMD lost unit share both sequentially and year-over-year.\n\nMobile CPUs: AMD gains amid market declines\n\nIn the mobile PC segment, both AMD and Intel saw a substantial decline in CPU shipments in Q3 2026 as the market contracted more than 10% sequentially, according to Mercury Research. However, AMD's shipments declined slightly less than Intel's, which enabled the company to increase its mobile CPU unit share to a record 29.2%, up from 28.9% in Q2 2026 and 21.9% in Q3 2025. Intel remained the dominant supplier with a 70.8% share, down from 71.1% in the previous quarter and 78.1% a year earlier.\n\nAlthough AMD's sequential market share gain of 0.2% was negligible, its 7.2% YoY gain was impressive, especially given Intel's historically strong position in the notebook market. Mercury Research attributes the sharp sequential decline in mobile CPU shipments partly to PC makers pulling forward their CPU procurements into the unusually strong second quarter.\n\nUnfortunately for both AMD and Intel, the outlook for the fourth quarter is gloomy, as rising memory and other component prices drive up notebook prices and reduce end-user demand.\n\nServer CPUs: Best quarter ever?\n\nUnlike the bleak client CPU market, server CPUs are thriving, with shipments of data center processors reaching 8.13 million units in Q3 2026, according to Jon Peddie Research. The market again grew 20% year-over-year, the highest annual growth rate in nearly five years, according to Mercury Research.\n\nIn the server CPU segment, AMD continued its winning spree as its unit share reached a record 35.5%, up from 34.5% in Q2 2026 and 27.8% in Q3 2025. Intel remained the dominant supplier with a 64.5% share, down 1% sequentially and 7.7% year-over-year.\n\nInterestingly, Intel managed to slow AMD's advance in the core data center CPU market by apparently substantially increasing shipments of its Xeon SP processors, McCarron believes. When the comparison is limited to AMD's EPYC and Intel's Xeon SP processors, AMD's unit share reached 46.8%, up just 0.4% sequentially, which represents AMD's smallest sequential gain over the past year, as the company's quarterly share gains by this metric averaged 3% over the preceding three quarters.\n\nUnlike the client CPU market, the outlook for the server processor market remains particularly favorable for both AMD and Intel. The ongoing buildout of AI infrastructure drives demand not only for conventional data center-grade processors, but also for workstation-class CPUs used in smaller departmental AI servers.\n\nSummary\n\nShipments of x86 CPUs declined both sequentially and year-over-year in Q3 2026 to 68.93 million units as rising component prices weighed on client PC demand, while server CPU shipments grew more than 20% year-over-year.\n\nIntel regained overall x86 CPU market share from AMD for the first time since Q2 2025, largely thanks to a spectacular comeback in the desktop CPU segment, where its share reached 70.1%. Meanwhile, AMD gained 0.3% of the mobile CPU market, now commanding 29.2%, its highest share ever. Furthermore, AMD reached a record unit share in the server CPU segment, where it now commands 35.5%.\n\nBoth companies expect client CPU shipments to drop by more than 20% sequentially in Q4, whereas demand for server processors continues to grow due to the ongoing buildout of AI infrastructure.",
-      "image": "https://cdn.mos.cms.futurecdn.net/rJxxS7q3AYGHBSBZtSxtvS-1920-80.png",
-      "images": [
-        {
-          "url": "https://cdn.mos.cms.futurecdn.net/rJxxS7q3AYGHBSBZtSxtvS-1920-80.png",
-          "alt": ""
-        },
-        {
-          "url": "https://cdn.mos.cms.futurecdn.net/9sBxLERwdgSvUdBmjrBbL4-1920-80.png",
-          "alt": "Mercury Research"
-        },
-        {
-          "url": "https://cdn.mos.cms.futurecdn.net/K3eBczjRVorBMCP7Rebda4-1920-80.png",
-          "alt": "Mercury Research"
-        },
-        {
-          "url": "https://cdn.mos.cms.futurecdn.net/JYGiNLTcjXF6GDkjTxaKb4-1920-80.png",
-          "alt": "Mercury Research"
-        },
-        {
-          "url": "https://cdn.mos.cms.futurecdn.net/8sDqRL67exDCw3h2vSkTW4-1920-80.png",
-          "alt": "Mercury Research"
-        },
-        {
-          "url": "https://cdn.mos.cms.futurecdn.net/nKTkmn6sxcddjcD4ipMGa4-1920-80.png",
-          "alt": "Mercury Research"
-        }
-      ],
-      "publishedAt": "2026-11-15T13:30:00.000Z",
-      "sourceId": "tomshardware",
-      "source": "Tom's Hardware",
-      "category": "hardware",
-      "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1v7yhbu",
@@ -2373,7 +2385,7 @@
       "source": "Meduza",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1iwnok",
@@ -2393,7 +2405,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1xbxi82",
@@ -2413,7 +2425,7 @@
       "source": "Игромания",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "hfn70n",
@@ -2433,7 +2445,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "5wtaqz",
@@ -2448,7 +2460,7 @@
       "source": "ScienceDaily",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1gh6zv8",
@@ -2472,7 +2484,7 @@
       "source": "Nintendo Everything",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1t7fce8",
@@ -2492,7 +2504,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "2uxqf",
@@ -2512,7 +2524,7 @@
       "source": "The Verge AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "i3kkzq",
@@ -2536,7 +2548,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "101avmu",
@@ -2556,7 +2568,7 @@
       "source": "Rock Paper Shotgun",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "kdc8uw",
@@ -2580,7 +2592,7 @@
       "source": "Push Square",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1ix0y1i",
@@ -2600,7 +2612,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1xj6tg2",
@@ -2615,7 +2627,7 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "2gdprk",
@@ -2635,7 +2647,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1b1zeum",
@@ -2655,7 +2667,7 @@
       "source": "DTF",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1i50v6i",
@@ -2675,7 +2687,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1y26bud",
@@ -2690,7 +2702,7 @@
       "source": "ScienceDaily",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1fnb57j",
@@ -2714,7 +2726,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "16s2cql",
@@ -2729,7 +2741,7 @@
       "source": "The Moscow Times",
       "category": "war",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "uv97dq",
@@ -2753,7 +2765,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "13k8ipc",
@@ -2768,7 +2780,7 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1i5766g",
@@ -2788,7 +2800,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "19bqnqx",
@@ -2803,7 +2815,7 @@
       "source": "r/GamingLeaksAndRumours",
       "category": "rumors",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "21pg4y",
@@ -2823,7 +2835,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "pjmmlp",
@@ -2843,7 +2855,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1mvov8",
@@ -2863,7 +2875,7 @@
       "source": "Ukrainska Pravda",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "fnrd9d",
@@ -2883,7 +2895,7 @@
       "source": "Игромания",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "3z59ah",
@@ -2907,7 +2919,7 @@
       "source": "Push Square",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1gh2gx",
@@ -2927,7 +2939,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1yalvbv",
@@ -2947,7 +2959,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "rfn6nd",
@@ -2971,7 +2983,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "11nc7ov",
@@ -2995,7 +3007,7 @@
       "source": "Ars Technica Science",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "tq6lrk",
@@ -3023,7 +3035,7 @@
       "source": "The Guardian",
       "category": "war",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1d86hdz",
@@ -3043,7 +3055,7 @@
       "source": "WIRED AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "sjf0k2",
@@ -3067,7 +3079,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "14qwn50",
@@ -3091,7 +3103,7 @@
       "source": "Pure Xbox",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1rx5qql",
@@ -3115,7 +3127,7 @@
       "source": "Time Extension",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1m2lthe",
@@ -3135,7 +3147,7 @@
       "source": "5 колесо",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "aiftkd",
@@ -3150,7 +3162,7 @@
       "source": "Ukrainska Pravda",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "zd8pqb",
@@ -3165,7 +3177,7 @@
       "source": "Ukrainska Pravda",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1jijztb",
@@ -3185,7 +3197,7 @@
       "source": "BBC Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "y2vd77",
@@ -3200,7 +3212,7 @@
       "source": "InterMedia",
       "category": "entertainment",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1vawwxd",
@@ -3220,7 +3232,7 @@
       "source": "Ukrainska Pravda",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "dxrhak",
@@ -3240,7 +3252,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "16s75wa",
@@ -3264,7 +3276,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "13ld6j9",
@@ -3288,7 +3300,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "15voy7w",
@@ -3308,7 +3320,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "7vight",
@@ -3328,7 +3340,7 @@
       "source": "Игромания",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "jdj73t",
@@ -3348,7 +3360,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1ri8oa",
@@ -3368,7 +3380,7 @@
       "source": "WIRED AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1ticxyo",
@@ -3388,7 +3400,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "10cqks7",
@@ -3408,7 +3420,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1hn8z3r",
@@ -3428,7 +3440,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1l5me7l",
@@ -3448,7 +3460,7 @@
       "source": "DTF",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "u3gou8",
@@ -3468,7 +3480,7 @@
       "source": "3DNews Железо",
       "category": "hardware",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "17aun1q",
@@ -3488,7 +3500,7 @@
       "source": "Игромания",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "uvbo6u",
@@ -3508,7 +3520,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "uf5ela",
@@ -3528,7 +3540,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "ekod9t",
@@ -3543,7 +3555,7 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1tmaqv8",
@@ -3563,7 +3575,7 @@
       "source": "Игромания",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "unfw86",
@@ -3583,7 +3595,7 @@
       "source": "3DNews Железо",
       "category": "hardware",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1u20cgq",
@@ -3603,7 +3615,7 @@
       "source": "3DNews Игры",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "vohurt",
@@ -3623,7 +3635,7 @@
       "source": "Eurogamer",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "qv4z2o",
@@ -3647,7 +3659,7 @@
       "source": "Nintendo Life",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1vi2m6s",
@@ -3671,7 +3683,7 @@
       "source": "5 колесо",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "jle9y",
@@ -3686,7 +3698,7 @@
       "source": "InfoQ AI/ML",
       "category": "aisoft",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "194hed4",
@@ -3706,7 +3718,7 @@
       "source": "Meduza",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "znpq8s",
@@ -3730,7 +3742,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1h00pl",
@@ -3754,7 +3766,7 @@
       "source": "Nintendo Everything",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "9cw2kg",
@@ -3778,7 +3790,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "1jqohfu",
@@ -3802,7 +3814,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "4yc7s3",
@@ -3826,7 +3838,7 @@
       "source": "Time Extension",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "kuyytw",
@@ -3841,7 +3853,7 @@
       "source": "The Moscow Times",
       "category": "war",
       "lang": "en",
-      "addedAt": "2026-11-15T17:00:12.403Z"
+      "addedAt": "2026-11-15T17:02:33.823Z"
     },
     {
       "id": "gh-15365681",
@@ -14142,7 +14154,7 @@
       "url": "https://github.com/ChupathingyCE/chupathingyce",
       "excerpt": "Halo CE: Ported for Everyone. Windows, Mac, Linux, Steam Deck, Android and FreeBSD, with online play and stats. Bring your own copy of the game.",
       "image": "",
-      "publishedAt": "2026-11-15T15:09:24Z",
+      "publishedAt": "2026-11-15T01:28:56Z",
       "addedAt": "2026-11-14T06:10:48.459Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
