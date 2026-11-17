@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-17T02:53:38.767Z",
-  "count": 1346,
+  "generatedAt": "2026-11-17T02:57:20.210Z",
+  "count": 1345,
   "articles": {
     "1243266": {
       "version": 4,
@@ -30228,7 +30228,7 @@
     "15rvqzi": {
       "version": 4,
       "url": "https://www.zr.ru/content/news/988539-mashina-iz-za-granitsy-chislitsya/",
-      "fetchedAt": "2026-11-17T02:53:29.911Z",
+      "fetchedAt": "2026-11-17T02:57:09.059Z",
       "title": "Машина из-за границы числится в розыске Интерпола — как ее отстоять",
       "byline": "Ушакова Ирина",
       "siteName": "zr.ru",
@@ -30249,7 +30249,7 @@
     "gh-1460793150": {
       "version": 4,
       "url": "https://github.com/Berny23/slingshot-animals-recomp",
-      "fetchedAt": "2026-11-17T02:53:30.088Z",
+      "fetchedAt": "2026-11-17T02:57:09.296Z",
       "title": "GitHub - Berny23/slingshot-animals-recomp: Unofficial static recompilation of Rovio's old Angry Birds games. Classic, Seasons, Rio, Space, Star Wars, Star Wars 2, Stella.",
       "byline": "",
       "siteName": "GitHub",
@@ -30263,31 +30263,14 @@
       "length": 7777,
       "imageCount": 1
     },
-    "1ndqa5j": {
-      "version": 4,
-      "url": "https://variety.com/2026/film/news/zendaya-tom-holland-the-odyssey-1236949899/",
-      "fetchedAt": "2026-11-17T02:53:30.688Z",
-      "title": "Zendaya Credits Tom Holland for Supporting Her During 'The Odyssey'",
-      "byline": "Payton Turkeltaub",
-      "siteName": "Variety",
-      "content": "Zendaya might be one of Gen Z’s definitive leading ladies, but even she was “incredibly nervous” while playing Athena in Christopher Nolan’s “The Odyssey.”\n\n“I felt overwhelmed, to say the least,” said the star during a recent Q&A held at Los Angeles’s Academy Museum of Motion Pictures. “It was interesting because I was on a night shoot, and I remember I came in and I was like, ‘This is like, a pinch-me moment’…. I’m in front of these people who I’ve admired, but I’m just like, ‘I don’t want to mess this up.’”\n\nShe continued: “I was incredibly nervous, which I guess is helpful for the scene, but there are so many other background actors as well who are performing their hearts out — so many — stunt performers who are performing and giving the most beautiful performances.”\n\nShe credits Tom Holland, her husband and co-star (he played Telemachus, the son of Odysseus and Penelope), for easing her on-set nerves: “It helped that Tom came to set that day, and he was, like, in the corner like, ‘You got this, you’re doing good.’”\n\nAll her worry was for naught, though, as Nolan told Fandango that the “Dune” actress was “always perfect.”\n\nZendaya and Holland tied the knot in early 2026, according to the actress’ long-time stylist Law Roach. On the red carpet at the Actor Awards, Law told Access Hollywood that “the wedding has already happened. You missed it.” Rumors of their engagement first circulated when Zendaya was spotted at the 2025 Golden Globes ceremony wearing what appeared to be an engagement ring. Holland confirmed they were engaged later that year.\n\nBut “The Odyssey” isn’t the first film set they’ve shared. The couple first met on the set of Marvel’s “Spider-Man: Homecoming,” and continued to co-star in “Spider-Man: Far From Home,” “Spider-Man: No Way Home” and “Spider-Man: Brand New Day.” In May, Zendaya told Elle that working on the films felt like a “family affair.” “I get to go to work every day with my best friend, the person that I love,” she said. “We bring our dogs to work; it’s like a family affair. We grew up on those movies! It’s like coming home.”",
-      "images": [
-        {
-          "url": "https://variety.com/wp-content/uploads/2026/06/GettyImages-2281239992.jpg?w=1000&h=563&crop=1",
-          "alt": ""
-        }
-      ],
-      "length": 2095,
-      "imageCount": 1
-    },
     "gh-1167940088": {
       "version": 4,
       "url": "https://github.com/jasonij/JetSetRusty",
-      "fetchedAt": "2026-11-17T02:53:30.804Z",
+      "fetchedAt": "2026-11-17T02:57:09.440Z",
       "title": "GitHub - jasonij/JetSetRusty: Jet Set Willy (1984) — 100% Rust/SDL3, ported from C just for fun",
       "byline": "",
       "siteName": "GitHub",
-      "content": "Some rando on the internet is porting fawtytoo's C version of JetSetWilly into\nRust. This is that port.\nNote about the rewrite: the zlib LICENCE (clause 2) requires\naltered versions to be plainly marked as such. This is a modified port, not\nthe original software (see Licence below).\nA Rust port of Jet Set Willy, the 1984 ZX Spectrum game by Matthew Smith\n(Software Projects). It is ported from\nfawtytoo/JetSetWilly, Steve Clark's\nC/SDL2 reimplementation. The game is now 100% Rust, with no C compiled, and\ngameplay is meant to be identical to the C version.\nThe reference implementation in C lives surprisingly in the\nreference/c-original/ — directory. More commit have\nbeen made to the original since I started this and I haven't ported them over\nquite yet.\nYou can see the original README.md here\n\nWhat carries over from the C version\nThese are all features of fawtytoo's version, preserved in the port:\n\nGameplay identical to the original, minus a few original bugs that were\nfixed, such as landing at the end of a jump into a solid wall.\nPer-pixel colouring, so there is no colour clash, with a 16-colour palette.\nTwo replacement character-set fonts, one small and one large.\nPolyphonic title and in-game music, plus approximate original sound\neffects with stereo panning. All sound comes from a square-wave synth\nfor that retro \"beepy\" sound.\n\nControls\n\nKey\nAction\n\n← / →\nWalk\n\nSpace\nJump\n\nTab or Pause\nPause\n\nAlt\nMusic on/off\n\nEsc\nQuit to title\n\nCheat mode\nType the cheat code just like in the original. Once it's active, hold a level\nkey and press Enter: 1–0 select levels 1–10, A–T select levels 11–30,\nand holding Shift moves those to 31–60. See ROOMS.md for the\nfull room list.\nCopy protection\nThe original shipped with a \"code card\" you had to consult after loading. To\nskip entering codes, press any key during the \"JetSet Willy Loading\" sequence.\n\nBuilding\nYou need a Rust toolchain (edition 2024), a C compiler, and cmake. SDL3 is\nbuilt from source by the sdl3 crate and linked statically, so no system SDL\npackage is required:\nsudo apt install build-essential cmake # Debian/Ubuntu\ncargo run --release # the first build compiles SDL3 itself; takes a few minutes\nOnly Linux is tested at the moment.\nFresh clones need git config core.hooksPath .githooks once to enable the\nrepo's hooks — pre-commit runs cargo build and blocks the commit if the\nbuild fails.\n\nThe original C\nThe C implementation this was ported from is kept, buildable, in\nreference/c-original/. It includes upstream's\noriginal README, and\nPROVENANCE.md explains where it came\nfrom. Cargo does not compile it.\nLicence\nzlib licence; see LICENCE. Copyright © 2021–2026 Steve Clark and\n© 1984 Matthew Smith (Software Projects). In keeping with the licence, this is\nan altered version: a Rust port, not the original software.",
+      "content": "Some rando on the internet is porting fawtytoo's C version of JetSetWilly into\nRust. This is that port.\nA Rust port of Jet Set Willy, the 1984 ZX Spectrum game by Matthew Smith\n(Software Projects). It is ported from\nfawtytoo/JetSetWilly, Steve Clark's\nC/SDL2 reimplementation. The game is now 100% Rust, with no C compiled, and\ngameplay is meant to be identical to the C version.\nThe reference implementation in C lives surprisingly in the\nreference/c-original/ — directory. More commits have\nbeen made to the original since I started this and I haven't ported them over\nquite yet.\nNote the zlib LICENCE (clause 2) requires altered versions to\nbe plainly marked as such. So, this is a modified port, not the original\nsoftware (see Licence below), although the C original in included for\nreference (in a directory by that very name).\nYou can see the original README.md here\n\nWhat carries over from the C version\nThese are all features of fawtytoo's version, preserved in the port:\n\nGameplay identical to the original, minus a few original bugs that were\nfixed, such as landing at the end of a jump into a solid wall.\nPer-pixel colouring, so there is no colour clash, with a 16-colour palette.\nTwo replacement character-set fonts, one small and one large.\nPolyphonic title and in-game music, plus approximate original sound\neffects with stereo panning. All sound comes from a square-wave synth\nfor that retro \"beepy\" sound.\n\nControls\n\nKey\nAction\n\n← / →\nWalk\n\nSpace\nJump\n\nTab or Pause\nPause\n\nAlt\nMusic on/off\n\nEsc\nQuit to title\n\nCheat mode\nType the cheat code just like in the original. Once it's active, hold a level\nkey and press Enter: 1–0 select levels 1–10, A–T select levels 11–30,\nand holding Shift moves those to 31–60. See ROOMS.md for the\nfull room list.\nCopy protection\nThe original shipped with a \"code card\" you had to consult after loading. To\nskip entering codes, press any key during the \"JetSet Willy Loading\" sequence.\n\nBuilding\nYou need a Rust toolchain (edition 2024), a C compiler, and cmake. SDL3 is\nbuilt from source by the sdl3 crate and linked statically, so no system SDL\npackage is required:\nsudo apt install build-essential cmake # Debian/Ubuntu\ncargo run --release # the first build compiles SDL3 itself; takes a few minutes\nOnly Linux is tested at the moment.\nFresh clones need git config core.hooksPath .githooks once to enable the\nrepo's hooks — pre-commit runs cargo build and blocks the commit if the\nbuild fails.\n\nThe original C\nThe C implementation this was ported from is kept, buildable, in\nreference/c-original/. It includes upstream's\noriginal README, and\nPROVENANCE.md explains where it came\nfrom. Cargo does not compile it.\nLicence\nzlib licence; see LICENCE. Copyright © 2021–2026 Steve Clark and\n© 1984 Matthew Smith (Software Projects). In keeping with the licence, this is\nan altered version: a Rust port, not the original software.",
       "images": [
         {
           "url": "https://github.com/jasonij/JetSetRusty/raw/main/images/JetSetWilly.gif",
@@ -30306,54 +30289,95 @@
           "alt": "JetSet Willy level 1"
         }
       ],
-      "length": 2802,
+      "length": 2874,
       "imageCount": 4
     },
-    "48u1xx": {
+    "gh-1430129207": {
       "version": 4,
-      "url": "https://www.igromania.ru/news/169981/kak-tam-pogodka-v-gta-6-rockstar-i-the-weather-channel-pokazali-vpechatlyayuschie-skrinshotyi-igryi/",
-      "fetchedAt": "2026-11-17T02:53:30.863Z",
-      "title": "Как там погодка в GTA 6? — Rockstar и The Weather Channel показали впечатляющие скриншоты игры",
-      "byline": "Екатерина Кравецкая",
-      "siteName": "igromania.ru",
-      "content": "Rockstar и телеканал The Weather Channel представили новые скриншоты Grand Theft Auto VI, которые демонстрируют систему погоды. В новой части серии её полностью переработали, сделав более локальной, устойчивой и динамичной.\nОблачные массы, которые перемещаются по карте, обеспечивают широкое разнообразие погодных условий. А обновлённая система ветра учитывает бризы, конвекционные потоки и другие явления. Ветер также воздействует на волосы, мелкий мусор (например, на крышах), воду (создавать рябь), траву (например, пригибать её на болотах) и т. д.\n«Из-за сильного дождя в воздухе скапливается много влаги, что во многих местах на островах Флорида-Кис значительно ухудшает видимость. К счастью, местные власти установили на некоторых дорогах светоотражатели, облегчающие движение (а если с фарами что-то не так — лучше заехать в Coastal Auto Care)».Источник: скриншот игры Grand Theft Auto 6«Сегодня, пожалуй, не лучшая идея пробираться через болота в Pelican Valley: вода там и в лучшее время мутная, а из-за этого шторма разглядеть крупных зубастиков практически невозможно!»Источник: скриншот игры Grand Theft Auto 6«Если на сегодняшнее утро у вас забронирован номер в отеле South Ocean Beach, то ваш дорогостоящий вид может оказаться скрыт за стеной морского тумана, надвигающегося со стороны океана».Источник: скриншот игры Grand Theft Auto 6«Если вы собираетесь выпить в Rusty Anchor, возможно, вам сегодня понадобится лодка побольше: из-за тропического шторма на воде сейчас очень сильное волнение».Источник: скриншот игры Grand Theft Auto 6«Из-за высокой влажности воды в Gambit Bay покроются низким туманом — охотничий сезон начнётся в спокойной обстановке!»Источник: скриншот игры Grand Theft Auto 6«Из-за усилившихся дождя и ветра путь из Key Lento сегодня утром стал довольно непростым!»Источник: скриншот игры Grand Theft Auto 6GTA 6 выйдет 19 ноября на Xbox Series и PS5. Предзагрузка уже стартовала, а количество предзаказов, по данным аналитиков, приблизилось к 15 млн. Игра также успела получить два патча ещё до релиза.",
+      "url": "https://github.com/teclilla18/sonic-riders-recomp",
+      "fetchedAt": "2026-11-17T02:57:09.647Z",
+      "title": "GitHub - teclilla18/sonic-riders-recomp: Native port of Sonic Riders (GameCube) via static recompilation for Windows, Linux / Steam Deck, Nintendo Switch, Android and iPhone / iPad. Easy launchers build it from your own disc image; contains no game data.",
+      "byline": "",
+      "siteName": "GitHub",
+      "content": "REGULAR UPDATES PAUSED UNTIL 11/19 Enjoy!! (working on online play)\n\n☕ Enjoying the port? Support it on Ko-fi: every coffee helps keep updates coming.\nVote: what comes next? Online play or custom characters and stages: cast your vote in the poll\nAlpha testers needed: Sonic Heroes native port\nNew here? Easy-read install guide: step by step for Switch, PC,\nAndroid, Linux / Steam Deck and iPhone / iPad. An .iso or Dolphin's .rvz both work (v0.8.4 converts RVZ by itself).\nUpdating got revamped in v0.8.3. Once you're on v0.8.3, every future update is one press: UPDATE NOW in\nthe app downloads, rebuilds and installs it by itself, usually in under a minute. Switch players can update\nwithout taking the SD card out (hekate's USB mode). Easy-read update guide · How to update\n\nPlay Sonic Riders (GameCube, USA) natively, with no emulator, on a modded Nintendo Switch, a\nWindows PC, an Android phone, Linux / Steam Deck (new, untested on a Deck), or an iPhone / iPad (new, built on a Mac). The game is rebuilt on your own PC from your own disc image; this project contains\nno game files.\nRiders Plus: Sonic Riders, turned up\n\nRiders Plus is our own take on the game's racing. It's built into this port and on by default. Every\ntrack, character and gear stays the same; the limits are what change. You get more rings, two more gear levels,\nand you keep your speed instead of losing it. Turn it off any time in Settings > Gameplay > Riders Plus for\nthe original GameCube rules. Riders Plus and online play are the two parts of this project\nwe'll keep building on.\n\nOriginal game\nRiders Plus\n\nRing limit\n100\n999 (a hit or a fall still costs 100)\n\nGear levels\nLv. 1-3\nLv. 4 at 200 rings, Lv. 5 at 300\n\nGold 100-ring capsule\nGone once taken\nComes back after 25 seconds\n\nDash panels\nSet you to the panel's speed, even if you were faster\nThe panel's speed, or your speed + 25 km/h\n\nSpeed Shoes\nSet you to 200 km/h\nYour speed + 80 km/h (at least 200)\n\nCharging a jump\nSlows you down at once\nKeeps your speed for 0.75 s\n\nLEVEL UP!! to Lv. 4 at 200 rings, and to Lv. 5 at 300\n\nLv. 4 and Lv. 5\nCollect 200 rings for Lv. 4 and 300 for Lv. 5. You get the game's own LEVEL UP!! (sparkle, sound and a full air\ntank), and the HUD shows \"Lv. 4\" or \"Lv. 5\" in the game's own digits. Each gear keeps its own Lv. 1-3 stats and\nbuilds on its Lv. 3 numbers. Sonic's Blue Star goes from 180 / 250 km/h (top speed / boost) at Lv. 3 to 200 / 275\nat Lv. 4 and 215 / 300 at Lv. 5.\n\nMore rings, more speed\n\n1st place, 402 rings, 298 km/h, with the gold 100-ring capsule back on the track\n\nLv. 5 boosts at 293 and 294 km/h, and a Rank SS trick. All shots: a real race on PC, 21:9 (3440 x 1440)\n\nWhat's next\nRiders Plus gets new additions with each release. Next up: extra character slots for mod characters, custom music\n(#17) and a right-stick camera. Have an idea for\nit? Tell us in Discussions.\nRiders Plus banner: made by the project owner with ChatGPT. Race shots: this port on PC. Charts: our own, from\nmeasured PC races.\nOriginal (4:3)\n\nThis port (PC, 21:9)\n\nOriginal (4:3)\n\nThis port (PC, 21:9)\n\nImportantSwitch: no overclock needed for a steady 30 fps: at stock clocks races run at 30 fps, and\nthe 60 fps setting gives 60 in lighter parts of a race and 30 in the busiest ones. A steady 60 still\nneeds an overclock (tested at CPU 1785 MHz / GPU 1152 MHz / memory 2133 MHz on an OLED; overclock at\nyour own risk).\n\nGet it\n\nI want to play on...\nDownload from the latest release\nGuide\n\na Windows PC\nSonicRiders-PC-Setup-<version>.zip\nInstall on PC\n\na modded Nintendo Switch\nSonicRiders-Switch-Setup-<version>.zip\nInstall on Switch\n\nan Android phone (64-bit, Android 11+)\nSonicRiders-Android-Setup-<version>.zip\nInstall on Android\n\nLinux or a Steam Deck (new, test version)\nSonicRiders-Linux-Setup-<version>.zip from the Linux test pre-release\nInstall on Linux / Steam Deck\n\nan iPhone or iPad (new; built on a Mac)\nSonicRiders-iOS-Setup-<version>.zip\nInstall on iPhone / iPad\n\nIn short: extract the zip, double-click the Install Sonic Riders file, pick your disc image, and\nwait 10–30 minutes the first time (Android: 20–40, then it installs over a USB cable). Every version is\nbuilt on a Windows 10/11 PC, except Linux / Steam Deck, which builds on the Linux machine itself\n(no compiler or root rights needed), and iPhone / iPad, which builds on a Mac with Xcode.\nYou need: your own Sonic Riders (USA) disc image (GXEE8P: a full 1.4 GB .iso, or Dolphin's .rvz, which the setup converts to .iso by itself) and a\n64-bit Windows 10 (1803+) or 11 PC with internet the first time. Switch: custom firmware with the\nHomebrew Menu. PC: a graphics card with OpenGL 3.3. Android: USB debugging turned on, about 2 GB free on\nthe phone. All requirements\nPlaying\n\nSwitch\nPC keyboard\nPC gamepad\n\nMove\nLeft stick\nW A S D\nLeft stick\n\nA / B / X / Y\nA / B / X / Y\nJ / K / L / I\nA / B / X / Y\n\nSTART\n+\nEnter\nStart\n\nSettings menu\nhold −\nhold F1\nhold Back\n\nAndroid: touch controls on screen (top-left button = settings menu) or any controller. Up to 4 players on\nSwitch and PC, 2 on one phone: connect more controllers. Full controls, settings and multiplayer\nHD texture packs (PC and Switch)\nTexture packs made for Dolphin work as they are: .png or .dds, in a .zip, .7z or .rar, or\nalready unpacked. Download the pack yourself (we don't host packs), then:\nOn PC\n\nOpen the Sonic Riders launcher and go to the Mods page.\nPress Add texture pack... and pick the file you downloaded (or Add a pack folder... for an\nunpacked one).\nWait for Installed (a big pack takes about 10 seconds), then press PLAY.\n\nOn Switch\n\nOpen Install Sonic Riders (Switch).exe on your PC and connect the SD card as usual.\nUnder 4. Texture packs (optional), press Add texture pack... and pick the file you downloaded.\nPress BUILD AND INSTALL (or UPDATE NOW). The pack is copied to the SD card with the game\n(a few minutes the first time for a big pack; later only what changed).\n\nGood to know\n\nTurn a pack off or on, or change the order, on the launcher's Mods page (or in game: settings\nmenu, Mods). When two packs change the same texture, the lower one wins.\nOn the Switch, HD textures are shown at up to 512 x 512 so they fit in the console's memory; the PC\nshows them at full size.\nA pack made for a different version or a mod of the game only changes the textures that match yours.\nThat's normal.\nMaking your own pack, and the details: docs/MODDING.md.\n\nStatus\n\nWhat v1.0 means, and what each bar still needs\nv1.0 = the whole game plays like the GameCube original on every supported platform, Switch races hold their\nframe rate, and you can race friends online. The overall number is a weighted average (game 25 %, the\nrest 15 % each), judged by hand at each release; tools/make_progress.py draws the card.\n\nArea\nDone\nLeft for v1.0\n\nWhole game playable\n90 %\nGrand Prix freeze after character select (#18), rare \"Now Loading\" hang (#6)\n\nGraphics match the GameCube\n80 %\nLens flare (#7), story cutscene monitor (#4), stronger speed blur (#3)\n\nSwitch performance\n70 %\n60 fps at stock clocks (#1), 3-4 player races at 60 with an overclock (#2) (done on main: heavy 1P views hold 60 at 1.5x with picture options, overclocked)\n\nPlatforms\n85 %\nLinux / Steam Deck out of test, Switch Lite / original / docked reports (#9)\n\nOnline play\n55 %\nPC-PC, PC-Switch and Switch-Switch races stay in sync (tested over home networks); each player keeps their own screen shape; still to do: internet play (lobby server with room codes), a room-wide 30 fps switch for slow consoles, phones, 3-4 players, ping and delay settings\n\nFeatures and polish\n67 %\nCustom music, right-stick camera, code mods, new characters from mods (done: the \"Riders Plus\" set in v0.8.2; one-press in-app updates in v0.8.3, its download step not yet run for real; Dolphin-format texture packs and easier stat mods on main, tested on PC)\n\nPlayable from boot to races, story mode and 4-player Free Race, with sound, on both platforms.\n\nPC: 60 fps on the test PC (RTX 3060), 4 players included.\nSwitch (stock clocks): a steady 30 fps in races (1 player tested); 60 fps in lighter scenes with\nthe 60 fps setting.\nAndroid (new in v0.4.0): 60 fps races on a Galaxy S23 Ultra (other phones untested).\nScreen recording is not supported on Android: recording the screen during a race makes the phone's\ngraphics driver reset the game again and again until it closes. Record with a capture card or play\nwithout recording.\niPhone / iPad (new): 60 fps races on an iPhone 17 Pro, iPad Pro 11\" (M1) and iPad (A16) (a short stutter\nthe first time a new effect appears); the iPad 7th generation (2019) plays with small dips on busy tracks.\nSwitch (overclocked): 1–2 players mostly 60 fps; 3 players mostly 60 with dips in the busiest\nmoments; 4 players about 30 fps.\nKnown issues are tracked in Issues; what changed in each version is in the\nCHANGELOG.\n\nMore\n\nInstalling, updating, troubleshooting\nRequirements, step-by-step setup, fixes for common problems\n\nPlaying\nControls, settings menu, multiplayer, debug options\n\nReporting bugs\nWhat to include, logs, screenshots\n\nModding\nSwapping characters, changing stats, custom tracks (PC, in progress)\n\nBuilding from source\nFor developers\n\nContributing\nHelp is welcome from players and developers; coding agents can use CLAUDE.md\n\nSupport development\nEnjoying Sonic Riders Recompiled? Consider supporting continued development!\n☕ Support the project on Ko-fi\nDonations are completely optional and do not grant ownership or rights to any Sonic Riders intellectual property.\nHow it works\nThe game's PowerPC code (main.dol + _Main.rel) is translated to C ahead of time on your PC\n(static recompilation), and the GameCube hardware (graphics, disc, audio, memory card,\ncontrollers) is reimplemented natively: deko3d on the Switch, OpenGL 3.3 on PC. The approach follows\nSwitchWakerHD and\nZeldaWWHDRecomp, whose PowerPC→C translator this\nproject forks. Current status is in STATE.md; design notes in docs/REFERENCE.md and docs/HISTORY.md.\nLegal\n\nA fan project, not affiliated with, endorsed or sponsored by SEGA or Nintendo. \"Sonic Riders\"\nand \"Nintendo Switch\" are trademarks of their owners, used only to describe what this works with.\nThis repository and its releases contain no game code, assets, data or console keys. You need\nyour own disc image of Sonic Riders (USA), made from a disc you own. Everything derived from the\ngame is generated locally on your PC by the setup tool.\nNever share your built .nro, .exe or .nsp, or your disc image. Issues and pull requests\nthat contain game files are deleted.\n\nLicensed under the Mozilla Public License 2.0, like the ZeldaWWHDRecomp translator it\nforks (third_party/LICENSE-MPL-2.0).\nCredits\n\nSwitchWakerHD and\nZeldaWWHDRecomp: the approach, and the\nPowerPC→C translator this project forks (MPL-2.0).\nDolphin: hardware documentation and behaviour reference (no Dolphin\ncode is included).\ndecomp-toolkit: analysis of the game's executables.\ndevkitPro, libnx and\ndeko3d: the Switch toolchain and graphics API.\nnx-hbloader (ISC) and\nhacBrewPack: the optional forwarder NSP.\nSDL2 and llvm-mingw: the PC version.\nDear ImGui (MIT): the settings menu; its layout follows SwitchWakerHD's settings overlay.\nAMD FidelityFX Super Resolution 1 (MIT): the\nsharpening and upscaling (EASU, RCAS), ported to GLSL in runtime/src/platform/host/fsr1_gl.h and\nruntime/shaders/vk_easu.frag / vk_rcas.frag.\ngamemasterplc's 16:9 Gecko code: the idea behind the widescreen option.\nBanner image: fan art by an unknown artist. If it's yours, open an issue and we'll credit you or remove it.\nGame icon (setup/icon.png): fan-made Sonic Riders icon by cedry2kio on\nDeviantArt, used with credit. cedry2kio, if you'd like it changed or removed, open an issue and we'll do it right away.\n\nSonic Riders is © SEGA. This project is not affiliated with SEGA.",
       "images": [
         {
-          "url": "https://newcdn.igromania.ru/sharepics/2026/11/17/4cbbc8c5-60ad-44e0-a64a-5baec0d42f8b.jpg",
-          "alt": ""
+          "url": "https://github.com/teclilla18/sonic-riders-recomp/raw/main/docs/images/riders-plus/lv4-level-up.jpg",
+          "alt": "LEVEL UP!! to Lv. 4 at 203 rings, Metal City, 250 km/h"
         },
         {
-          "url": "https://newcdn.igromania.ru/editor/images/41/ec72cf31-0d39-42aa-8728-ae6424ff16bb.jpg",
-          "alt": "Источник: скриншот игры Grand Theft Auto 6"
+          "url": "https://github.com/teclilla18/sonic-riders-recomp/raw/main/docs/images/riders-plus/lv5-level-up.jpg",
+          "alt": "LEVEL UP!! to Lv. 5, Metal City"
         },
         {
-          "url": "https://newcdn.igromania.ru/editor/images/14/c0e34db8-fc2c-48a3-a46c-f1f06170f269.jpg",
-          "alt": "Источник: скриншот игры Grand Theft Auto 6"
+          "url": "https://github.com/teclilla18/sonic-riders-recomp/raw/main/docs/images/gear-levels-chart.svg",
+          "alt": "Chart: Blue Star top speed and boost from Lv. 1 to Lv. 5"
         },
         {
-          "url": "https://newcdn.igromania.ru/editor/images/19/309f7e71-56ae-4519-864d-6302c2309a6a.jpg",
-          "alt": "Источник: скриншот игры Grand Theft Auto 6"
+          "url": "https://github.com/teclilla18/sonic-riders-recomp/raw/main/docs/images/v0.8.2/charge-jump-chart.svg",
+          "alt": "Chart: speed while charging a jump, original vs Riders Plus"
         },
         {
-          "url": "https://newcdn.igromania.ru/editor/images/95/9fb07d3f-4153-47da-885e-e2c2c178bdd0.jpg",
-          "alt": "Источник: скриншот игры Grand Theft Auto 6"
+          "url": "https://github.com/teclilla18/sonic-riders-recomp/raw/main/docs/images/riders-plus/gold-capsule-298.jpg",
+          "alt": "1st place at Lv. 5 with 402 rings, 298 km/h, a gold 100-ring capsule beside the track"
         },
         {
-          "url": "https://newcdn.igromania.ru/editor/images/16/f4159b50-0282-4bb4-9efe-20d1869c0e69.jpg",
-          "alt": "Источник: скриншот игры Grand Theft Auto 6"
+          "url": "https://github.com/teclilla18/sonic-riders-recomp/raw/main/docs/images/riders-plus/lv5-boost.jpg",
+          "alt": "Boosting at Lv. 5 with 433 rings, 293 km/h"
         },
         {
-          "url": "https://newcdn.igromania.ru/editor/images/51/6fd9bb1d-71ee-4c59-86f9-2ca0d9a3ae1f.jpg",
-          "alt": "Источник: скриншот игры Grand Theft Auto 6"
+          "url": "https://github.com/teclilla18/sonic-riders-recomp/raw/main/docs/images/riders-plus/tunnel-294.jpg",
+          "alt": "Metal City tunnel at 294 km/h"
+        },
+        {
+          "url": "https://github.com/teclilla18/sonic-riders-recomp/raw/main/docs/images/riders-plus/trick-rank-ss.jpg",
+          "alt": "Rank SS trick in Metal City"
+        },
+        {
+          "url": "https://github.com/teclilla18/sonic-riders-recomp/raw/main/docs/images/compare/original-1.jpg",
+          "alt": "Metal City race start in the original game, 4:3 with black bars, 30 fps"
+        },
+        {
+          "url": "https://github.com/teclilla18/sonic-riders-recomp/raw/main/docs/images/compare/recomp-1.jpg",
+          "alt": "The same race start in this port, ultrawide"
+        },
+        {
+          "url": "https://github.com/teclilla18/sonic-riders-recomp/raw/main/docs/images/compare/original-2.jpg",
+          "alt": "Metal City stage intro in the original game, 4:3"
+        },
+        {
+          "url": "https://github.com/teclilla18/sonic-riders-recomp/raw/main/docs/images/compare/recomp-2.jpg",
+          "alt": "The same Metal City intro in this port, ultrawide"
+        },
+        {
+          "url": "https://github.com/teclilla18/sonic-riders-recomp/raw/main/docs/images/progress.svg",
+          "alt": "Road to v1.0: 70% done"
         }
       ],
-      "length": 2040,
-      "imageCount": 7
+      "length": 11780,
+      "imageCount": 13
+    },
+    "1ndqa5j": {
+      "version": 4,
+      "url": "https://variety.com/2026/film/news/zendaya-tom-holland-the-odyssey-1236949899/",
+      "fetchedAt": "2026-11-17T02:57:10.216Z",
+      "title": "Zendaya Credits Tom Holland for Supporting Her During 'The Odyssey'",
+      "byline": "Payton Turkeltaub",
+      "siteName": "Variety",
+      "content": "Zendaya might be one of Gen Z’s definitive leading ladies, but even she was “incredibly nervous” while playing Athena in Christopher Nolan’s “The Odyssey.”\n\n“I felt overwhelmed, to say the least,” said the star during a recent Q&A held at Los Angeles’s Academy Museum of Motion Pictures. “It was interesting because I was on a night shoot, and I remember I came in and I was like, ‘This is like, a pinch-me moment’…. I’m in front of these people who I’ve admired, but I’m just like, ‘I don’t want to mess this up.’”\n\nShe continued: “I was incredibly nervous, which I guess is helpful for the scene, but there are so many other background actors as well who are performing their hearts out — so many — stunt performers who are performing and giving the most beautiful performances.”\n\nShe credits Tom Holland, her husband and co-star (he played Telemachus, the son of Odysseus and Penelope), for easing her on-set nerves: “It helped that Tom came to set that day, and he was, like, in the corner like, ‘You got this, you’re doing good.’”\n\nAll her worry was for naught, though, as Nolan told Fandango that the “Dune” actress was “always perfect.”\n\nZendaya and Holland tied the knot in early 2026, according to the actress’ long-time stylist Law Roach. On the red carpet at the Actor Awards, Law told Access Hollywood that “the wedding has already happened. You missed it.” Rumors of their engagement first circulated when Zendaya was spotted at the 2025 Golden Globes ceremony wearing what appeared to be an engagement ring. Holland confirmed they were engaged later that year.\n\nBut “The Odyssey” isn’t the first film set they’ve shared. The couple first met on the set of Marvel’s “Spider-Man: Homecoming,” and continued to co-star in “Spider-Man: Far From Home,” “Spider-Man: No Way Home” and “Spider-Man: Brand New Day.” In May, Zendaya told Elle that working on the films felt like a “family affair.” “I get to go to work every day with my best friend, the person that I love,” she said. “We bring our dogs to work; it’s like a family affair. We grew up on those movies! It’s like coming home.”",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/06/GettyImages-2281239992.jpg?w=1000&h=563&crop=1",
+          "alt": ""
+        }
+      ],
+      "length": 2095,
+      "imageCount": 1
     },
     "50q7gf": {
       "version": 4,
       "url": "https://phys.org/news/2026-11-weathering-carbon-capture.html",
-      "fetchedAt": "2026-11-17T02:53:31.086Z",
+      "fetchedAt": "2026-11-17T02:57:10.676Z",
       "title": "How enhanced rock weathering can speed up carbon capture",
       "byline": "Greg Watry",
       "siteName": "Phys.org",
@@ -30395,51 +30419,10 @@
       "length": 13654,
       "imageCount": 8
     },
-    "1gi8qe1": {
-      "version": 4,
-      "url": "https://www.playground.ru/misc/news/po_mneniyu_razrabotchikov_nintendo_switch_2_interesnee_chem_ps5_i_xbox_pk_na_pervom_meste_s_bolshim_otryvom-1891338",
-      "fetchedAt": "2026-11-17T02:53:31.150Z",
-      "title": "По мнению разработчиков, Nintendo Switch 2 интереснее, чем PS5 и Xbox - ПК на первом месте с большим отрывом",
-      "byline": "monk70",
-      "siteName": "Playground",
-      "content": "В ходе GDC Festival of Gaming был представлен отчёт, согласно которому разработчики проявляют к Nintendo Switch 2 больший интерес, чем к PS5 или Xbox Series X|S. Японская гибридная платформа заняла в этом рейтинге второе место, уступив лишь ПК.\nДокумент содержит результаты опроса более 2600 профессионалов игровой индустрии со всего мира и дает представление о текущих тенденциях, а также о платформах, которые специалисты считают наиболее привлекательными для создания будущих проектов.\nНа вопрос «Для каких платформ вам было бы интересно разрабатывать игры?» 81% респондентов ответили — для ПК. Далее следуют Nintendo Switch 2 (46%) и PS5 (или PS5 Pro) (42%) — при этом участники могли выбрать несколько вариантов ответа.\nПримечательно, что Xbox Series X|S в этом списке находится не сразу следом: интерес к консолям Microsoft, согласно отчету, составляет 26%. Это ниже показателей Steam Deck (38%), Steam Machine (29%) и следующей модели PlayStation (27%).\n\nХотя Nintendo Switch 2 (с показателем в 26,35 млн распространённых устройств) привлекает наибольшее число разработчиков, желающих создавать для неё игры, отчёт указывает на расхождение с текущей реальностью. Если взглянуть на ответы на другой вопрос — «На какой платформе выйдет ваша следующая игра?» — то первая десятка выглядит уже по-другому. Здесь также лидирует ПК, за ним следуют PS5 (45%) и Xbox Series X|S (37%). Nintendo Switch 2 занимает пятое место с 29% голосов — расположившись между Steam Deck и Steam Machine, — что подтверждает: определённые факторы (прежде всего, ключевой показатель размера установленной базы) имеют гораздо больший вес, чем просто личные предпочтения.\n\nНа самом деле, существует ещё один фактор, который мог повлиять на такие результаты: многие студии до сих пор испытывают трудности с получением комплектов для разработки под Nintendo Switch 2. Это неизбежно создаёт препятствия для тех, кто в противном случае, возможно, хотел бы выпустить свою игру на этой гибридной консоли.",
-      "images": [
-        {
-          "url": "https://i.playground.ru/e/CwJD8QWRtRF3gCbJiKiVYQ.png",
-          "alt": ""
-        },
-        {
-          "url": "https://i.playground.ru/p/CwJD8QWRtRF3gCbJiKiVYQ.png?760xauto",
-          "alt": ""
-        },
-        {
-          "url": "https://i.playground.ru/p/slTonO1Jcn01uIoyad4Fxw.png?760xauto",
-          "alt": ""
-        },
-        {
-          "url": "https://i.playground.ru/p/Mp2eqLNPjVJ2gZVMMWalag.png?760xauto",
-          "alt": ""
-        },
-        {
-          "url": "https://i.playground.ru/p/CwJD8QWRtRF3gCbJiKiVYQ.png.webp?420xauto",
-          "alt": ""
-        },
-        {
-          "url": "https://i.playground.ru/p/slTonO1Jcn01uIoyad4Fxw.png.webp?420xauto",
-          "alt": ""
-        },
-        {
-          "url": "https://i.playground.ru/p/Mp2eqLNPjVJ2gZVMMWalag.png.webp?420xauto",
-          "alt": ""
-        }
-      ],
-      "length": 1976,
-      "imageCount": 7
-    },
     "gh-1428228424": {
       "version": 4,
       "url": "https://github.com/ILFforever/YW4Recomp",
-      "fetchedAt": "2026-11-17T02:53:31.434Z",
+      "fetchedAt": "2026-11-17T02:57:10.989Z",
       "title": "GitHub - ILFforever/YW4Recomp: Fan static recompilation of Yokai Watch 4++ (Switch) to native Windows/Linux. ARM64 → C, NVN on Vulkan.",
       "byline": "",
       "siteName": "GitHub",
@@ -30529,69 +30512,92 @@
       "length": 20000,
       "imageCount": 20
     },
-    "gh-1431548549": {
+    "48u1xx": {
       "version": 4,
-      "url": "https://github.com/ReRevvedRecomp/rerevved",
-      "fetchedAt": "2026-11-17T02:53:31.555Z",
-      "title": "GitHub - ReRevvedRecomp/rerevved: A static recomp of Civilization Revolution.",
-      "byline": "",
-      "siteName": "GitHub",
-      "content": "Static recompilation of Civilization Revolution for Xbox 360.\n\nInstall\nDownload the latest release,\nunzip it, and run rerevved.exe. Select your game ISO or\nextracted content folder, then supply the version 1.3 update when\nprompted. Getting started covers content setup and\ncontrols.\nSystem requirements\n\nWindows 10 or 11 x64 with a Direct3D 12 capable GPU.\nGame files: your own legally obtained Xbox 360 copy of Civilization\nRevolution and its version 1.3 update.\nLinux x64: requires a Vulkan capable GPU.\nmacOS arm64: requires Apple Silicon, a Vulkan capable GPU and macOS\n13.3 or newer. See first launch.\n\nDocumentation\n\nGetting started: install and first run\nConfiguration: settings, file locations, and backups\nTroubleshooting: content, display, and startup help\nOnline play: host or join through a self hosted relay\nMods: enable the bundled Lua mods or install a custom package\nDevelopment: prerequisites, builds, checks, and tests\nDocumentation index: player guides and developer reference\n\nSupport\nAsk for help and report problems on Discord.\nSupport lists what to include in a report and how to find\nyour log.\nAcknowledgements\n\nReXGlue\nXelu's FREE Controller & Key Prompts (CC0), the keyboard button icons\n\nLicense\n\nReRevved contains no game assets. It is built with the\nReRevved SDK, a BSD-3-Clause\nfork of ReXGlue.\nReRevved is an unofficial project and is not affiliated with or endorsed by\nFiraxis Games, 2K or Take-Two Interactive.",
+      "url": "https://www.igromania.ru/news/169981/kak-tam-pogodka-v-gta-6-rockstar-i-the-weather-channel-pokazali-vpechatlyayuschie-skrinshotyi-igryi/",
+      "fetchedAt": "2026-11-17T02:57:11.053Z",
+      "title": "Как там погодка в GTA 6? — Rockstar и The Weather Channel показали впечатляющие скриншоты игры",
+      "byline": "Екатерина Кравецкая",
+      "siteName": "igromania.ru",
+      "content": "Rockstar и телеканал The Weather Channel представили новые скриншоты Grand Theft Auto VI, которые демонстрируют систему погоды. В новой части серии её полностью переработали, сделав более локальной, устойчивой и динамичной.\nОблачные массы, которые перемещаются по карте, обеспечивают широкое разнообразие погодных условий. А обновлённая система ветра учитывает бризы, конвекционные потоки и другие явления. Ветер также воздействует на волосы, мелкий мусор (например, на крышах), воду (создавать рябь), траву (например, пригибать её на болотах) и т. д.\n«Из-за сильного дождя в воздухе скапливается много влаги, что во многих местах на островах Флорида-Кис значительно ухудшает видимость. К счастью, местные власти установили на некоторых дорогах светоотражатели, облегчающие движение (а если с фарами что-то не так — лучше заехать в Coastal Auto Care)».Источник: скриншот игры Grand Theft Auto 6«Сегодня, пожалуй, не лучшая идея пробираться через болота в Pelican Valley: вода там и в лучшее время мутная, а из-за этого шторма разглядеть крупных зубастиков практически невозможно!»Источник: скриншот игры Grand Theft Auto 6«Если на сегодняшнее утро у вас забронирован номер в отеле South Ocean Beach, то ваш дорогостоящий вид может оказаться скрыт за стеной морского тумана, надвигающегося со стороны океана».Источник: скриншот игры Grand Theft Auto 6«Если вы собираетесь выпить в Rusty Anchor, возможно, вам сегодня понадобится лодка побольше: из-за тропического шторма на воде сейчас очень сильное волнение».Источник: скриншот игры Grand Theft Auto 6«Из-за высокой влажности воды в Gambit Bay покроются низким туманом — охотничий сезон начнётся в спокойной обстановке!»Источник: скриншот игры Grand Theft Auto 6«Из-за усилившихся дождя и ветра путь из Key Lento сегодня утром стал довольно непростым!»Источник: скриншот игры Grand Theft Auto 6GTA 6 выйдет 19 ноября на Xbox Series и PS5. Предзагрузка уже стартовала, а количество предзаказов, по данным аналитиков, приблизилось к 15 млн. Игра также успела получить два патча ещё до релиза.",
       "images": [
         {
-          "url": "https://github.com/ReRevvedRecomp/rerevved/actions/workflows/checks.yml/badge.svg",
-          "alt": "Checks"
-        }
-      ],
-      "length": 1443,
-      "imageCount": 1
-    },
-    "sixou1": {
-      "version": 4,
-      "url": "https://www.hollywoodreporter.com/tv/tv-news/elon-musk-criticizes-jeremy-culhane-snl-impression-1236756733/",
-      "fetchedAt": "2026-11-17T02:53:31.796Z",
-      "title": "Elon Musk Thinks Jeremy Culhane Needs to “Try Harder” With His ‘SNL’ Impression",
-      "byline": "Carly Thomas",
-      "siteName": "The Hollywood Reporter",
-      "content": "Logo text\n\nElon Musk isn’t laughing at Jeremy Culhane’s impression of him on Saturday Night Live.\n\nDuring the cold open for the most recent episode of the NBC sketch comedy program, a CIA officer, played by host John Mulaney, gathers the nation’s most prominent tech billionaires to test their national security training. The sketch references the resignation of former Nvidia CEO Jensen Huang, who stepped down following revelations of an affair with an alleged Chinese spy.\n\nAmong the tech billionaires spoofed in the skit were Musk (Culhane), Mark Zuckerberg (Andrew Dismukes, Sam Altman (Ben Marshall), Peter Thiel (James Austin Johnson), Dario Amodei (Jane Wickline) and Huang (Bowen Yang).\n\nFollowing the episode, a user on X shared their personal scores of the SNL castmembers’ impressions, giving Culhane’s impersonation a 7/10.\n\nHowever, Musk disagreed. The Tesla CEO replied to the tweet with his own score, writing, “I’d give them maybe 5/10 for me. They need to try harder.”\n\nIn another X post, Musk replied to SNL‘s post of the sketch with a Venn diagram with “HUMOR” written in one circle and “SNL” written in the other. “The good sketches” was written in the small overlap.\n\nSaturday night wasn’t the first time Culhane had spoofed the SpaceX founder. During the Nov. 7 episode, hosted by Druski, Culhane played the mogul on “Weekend Update” with Colin Jost.\n\nDuring the skit, which took place a few days after Democrats won big in the 2026 Midterms despite Musk’s major campaign investments, Jost said to the actor, “You’re in the news because you wasted half a billion dollars on the midterms… almost all the candidates you backed lost.”\n\nIn an attempt to change the subject, much like the billionaire has done in real-life interviews, Culhane’s Musk replied in an enthusiastic tone, “I’m in the news because my car did a flip… it was like a freaking Hot Wheel.”\n\nPrior to Culhane joining SNL during season 51, Mike Myers previously portrayed Musk in 2025. The X owner also hosted the show in 2021.",
-      "images": [
-        {
-          "url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/Elon-Musk-Jeremy-Culhane-getty-publicity-H-2026.png?w=1296&h=730&crop=1",
+          "url": "https://newcdn.igromania.ru/sharepics/2026/11/17/4cbbc8c5-60ad-44e0-a64a-5baec0d42f8b.jpg",
           "alt": ""
+        },
+        {
+          "url": "https://newcdn.igromania.ru/editor/images/41/ec72cf31-0d39-42aa-8728-ae6424ff16bb.jpg",
+          "alt": "Источник: скриншот игры Grand Theft Auto 6"
+        },
+        {
+          "url": "https://newcdn.igromania.ru/editor/images/14/c0e34db8-fc2c-48a3-a46c-f1f06170f269.jpg",
+          "alt": "Источник: скриншот игры Grand Theft Auto 6"
+        },
+        {
+          "url": "https://newcdn.igromania.ru/editor/images/19/309f7e71-56ae-4519-864d-6302c2309a6a.jpg",
+          "alt": "Источник: скриншот игры Grand Theft Auto 6"
+        },
+        {
+          "url": "https://newcdn.igromania.ru/editor/images/95/9fb07d3f-4153-47da-885e-e2c2c178bdd0.jpg",
+          "alt": "Источник: скриншот игры Grand Theft Auto 6"
+        },
+        {
+          "url": "https://newcdn.igromania.ru/editor/images/16/f4159b50-0282-4bb4-9efe-20d1869c0e69.jpg",
+          "alt": "Источник: скриншот игры Grand Theft Auto 6"
+        },
+        {
+          "url": "https://newcdn.igromania.ru/editor/images/51/6fd9bb1d-71ee-4c59-86f9-2ca0d9a3ae1f.jpg",
+          "alt": "Источник: скриншот игры Grand Theft Auto 6"
         }
       ],
-      "length": 2015,
-      "imageCount": 1
+      "length": 2040,
+      "imageCount": 7
     },
-    "n9fqqr": {
+    "1gi8qe1": {
       "version": 4,
-      "url": "https://www.playground.ru/black_mesa/news/dlya_black_mesa_vyshlo_krupnoe_obnovlenie_anomalous_improvements_s_uluchshennoj_grafikoj_i_optimizatsiej-1891334",
-      "fetchedAt": "2026-11-17T02:53:31.853Z",
-      "title": "Для Black Mesa вышло крупное обновление Anomalous Improvements с улучшенной графикой и оптимизацией",
+      "url": "https://www.playground.ru/misc/news/po_mneniyu_razrabotchikov_nintendo_switch_2_interesnee_chem_ps5_i_xbox_pk_na_pervom_meste_s_bolshim_otryvom-1891338",
+      "fetchedAt": "2026-11-17T02:57:11.277Z",
+      "title": "По мнению разработчиков, Nintendo Switch 2 интереснее, чем PS5 и Xbox - ПК на первом месте с большим отрывом",
       "byline": "monk70",
       "siteName": "Playground",
-      "content": "Разработчики Black Mesa выпустили крупное обновление Anomalous Improvements, которое затронуло производительность, освещение, отражения, интерфейс и поддержку модификаций. Кроме того, игра получила статус Steam Deck Verified.\nОсновные изменения:\n\nОптимизация: разработчики доработали движок, повысив производительность и стабильность во всех главах, включая локации в Зене.\nУлучшенные отражения: добавлены Parallax Corrected Cubemaps (PCCs), обеспечивающие более реалистичные отражения с учётом геометрии помещений. Изменения затронули как исследовательский комплекс Black Mesa, так и Зен.\nОбновлённое освещение: улучшены непрямое освещение и отражённый свет, добавлено освещение на основе изображений для открытых пространств, повышена точность вершинного освещения и световых карт. Также доработано прохождение света через стекло и другие полупрозрачные поверхности.\nНовый интерфейс: меню полностью переработали, сделав его более быстрым и удобным. Добавлена полноценная поддержка контроллеров Xbox, PlayStation и Steam, включая соответствующие обозначения кнопок. Также появилась возможность устанавливать альтернативные интерфейсы через Steam Workshop — например, классическое меню в стиле оригинальной Half-Life.\nПоддержка модификаций: исправлены вылеты при запуске модов из меню, улучшена система подписок и добавлен выбор кампаний и отдельных глав прямо в разделе дополнений. Масштабные модификации теперь можно запускать непосредственно из интерфейса без ручной установки файлов.\n\nРазработчики предупреждают, что некоторые существующие модификации могут потребовать обновления для совместимости с новой версией игры.\nОдновременно H.E.C.U. Collective выпустила обновление для Black Mesa: Blue Shift. Оно обеспечивает совместимость с актуальной версией основной игры, упрощает установку и добавляет улучшенное освещение с Parallax Corrected Cubemaps.",
+      "content": "В ходе GDC Festival of Gaming был представлен отчёт, согласно которому разработчики проявляют к Nintendo Switch 2 больший интерес, чем к PS5 или Xbox Series X|S. Японская гибридная платформа заняла в этом рейтинге второе место, уступив лишь ПК.\nДокумент содержит результаты опроса более 2600 профессионалов игровой индустрии со всего мира и дает представление о текущих тенденциях, а также о платформах, которые специалисты считают наиболее привлекательными для создания будущих проектов.\nНа вопрос «Для каких платформ вам было бы интересно разрабатывать игры?» 81% респондентов ответили — для ПК. Далее следуют Nintendo Switch 2 (46%) и PS5 (или PS5 Pro) (42%) — при этом участники могли выбрать несколько вариантов ответа.\nПримечательно, что Xbox Series X|S в этом списке находится не сразу следом: интерес к консолям Microsoft, согласно отчету, составляет 26%. Это ниже показателей Steam Deck (38%), Steam Machine (29%) и следующей модели PlayStation (27%).\n\nХотя Nintendo Switch 2 (с показателем в 26,35 млн распространённых устройств) привлекает наибольшее число разработчиков, желающих создавать для неё игры, отчёт указывает на расхождение с текущей реальностью. Если взглянуть на ответы на другой вопрос — «На какой платформе выйдет ваша следующая игра?» — то первая десятка выглядит уже по-другому. Здесь также лидирует ПК, за ним следуют PS5 (45%) и Xbox Series X|S (37%). Nintendo Switch 2 занимает пятое место с 29% голосов — расположившись между Steam Deck и Steam Machine, — что подтверждает: определённые факторы (прежде всего, ключевой показатель размера установленной базы) имеют гораздо больший вес, чем просто личные предпочтения.\n\nНа самом деле, существует ещё один фактор, который мог повлиять на такие результаты: многие студии до сих пор испытывают трудности с получением комплектов для разработки под Nintendo Switch 2. Это неизбежно создаёт препятствия для тех, кто в противном случае, возможно, хотел бы выпустить свою игру на этой гибридной консоли.",
       "images": [
         {
-          "url": "https://i.playground.ru/e/ISgCt8pp7gHdaxyUuT1Mtw.png",
+          "url": "https://i.playground.ru/e/CwJD8QWRtRF3gCbJiKiVYQ.png",
           "alt": ""
         },
         {
-          "url": "https://i.playground.ru/p/ISgCt8pp7gHdaxyUuT1Mtw.png?760xauto",
+          "url": "https://i.playground.ru/p/CwJD8QWRtRF3gCbJiKiVYQ.png?760xauto",
           "alt": ""
         },
         {
-          "url": "https://i.playground.ru/p/ISgCt8pp7gHdaxyUuT1Mtw.png.webp?420xauto",
+          "url": "https://i.playground.ru/p/slTonO1Jcn01uIoyad4Fxw.png?760xauto",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/Mp2eqLNPjVJ2gZVMMWalag.png?760xauto",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/CwJD8QWRtRF3gCbJiKiVYQ.png.webp?420xauto",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/slTonO1Jcn01uIoyad4Fxw.png.webp?420xauto",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/Mp2eqLNPjVJ2gZVMMWalag.png.webp?420xauto",
           "alt": ""
         }
       ],
-      "length": 1856,
-      "imageCount": 3
+      "length": 1976,
+      "imageCount": 7
     },
     "316zgc": {
       "version": 4,
       "url": "https://www.gematsu.com/2026/11/danganronpa-2x2-details-akimbo-consensus-system-refined-returning-systems",
-      "fetchedAt": "2026-11-17T02:53:31.984Z",
+      "fetchedAt": "2026-11-17T02:57:11.491Z",
       "title": "Danganronpa 2×2 details Akimbo Consensus system, refined returning systems",
       "byline": "Sal Romano",
       "siteName": "Gematsu",
@@ -30641,75 +30647,33 @@
       "length": 2398,
       "imageCount": 10
     },
+    "sixou1": {
+      "version": 4,
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/elon-musk-criticizes-jeremy-culhane-snl-impression-1236756733/",
+      "fetchedAt": "2026-11-17T02:57:11.790Z",
+      "title": "Elon Musk Thinks Jeremy Culhane Needs to “Try Harder” With His ‘SNL’ Impression",
+      "byline": "Carly Thomas",
+      "siteName": "The Hollywood Reporter",
+      "content": "Logo text\n\nElon Musk isn’t laughing at Jeremy Culhane’s impression of him on Saturday Night Live.\n\nDuring the cold open for the most recent episode of the NBC sketch comedy program, a CIA officer, played by host John Mulaney, gathers the nation’s most prominent tech billionaires to test their national security training. The sketch references the resignation of former Nvidia CEO Jensen Huang, who stepped down following revelations of an affair with an alleged Chinese spy.\n\nAmong the tech billionaires spoofed in the skit were Musk (Culhane), Mark Zuckerberg (Andrew Dismukes, Sam Altman (Ben Marshall), Peter Thiel (James Austin Johnson), Dario Amodei (Jane Wickline) and Huang (Bowen Yang).\n\nFollowing the episode, a user on X shared their personal scores of the SNL castmembers’ impressions, giving Culhane’s impersonation a 7/10.\n\nHowever, Musk disagreed. The Tesla CEO replied to the tweet with his own score, writing, “I’d give them maybe 5/10 for me. They need to try harder.”\n\nIn another X post, Musk replied to SNL‘s post of the sketch with a Venn diagram with “HUMOR” written in one circle and “SNL” written in the other. “The good sketches” was written in the small overlap.\n\nSaturday night wasn’t the first time Culhane had spoofed the SpaceX founder. During the Nov. 7 episode, hosted by Druski, Culhane played the mogul on “Weekend Update” with Colin Jost.\n\nDuring the skit, which took place a few days after Democrats won big in the 2026 Midterms despite Musk’s major campaign investments, Jost said to the actor, “You’re in the news because you wasted half a billion dollars on the midterms… almost all the candidates you backed lost.”\n\nIn an attempt to change the subject, much like the billionaire has done in real-life interviews, Culhane’s Musk replied in an enthusiastic tone, “I’m in the news because my car did a flip… it was like a freaking Hot Wheel.”\n\nPrior to Culhane joining SNL during season 51, Mike Myers previously portrayed Musk in 2025. The X owner also hosted the show in 2021.",
+      "images": [
+        {
+          "url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/Elon-Musk-Jeremy-Culhane-getty-publicity-H-2026.png?w=1296&h=730&crop=1",
+          "alt": ""
+        }
+      ],
+      "length": 2015,
+      "imageCount": 1
+    },
     "1dg43p2": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/lifestyle/shopping/oprahs-favorite-things-list-2026-celeb-products-shop-online-1236756439/",
-      "fetchedAt": "2026-11-17T02:53:32.175Z",
-      "title": "Oprah’s Favorite Things 30th Anniversary List Includes Actor-Owned Apparel, Celeb-Approved Skin Care and More",
-      "byline": "Alison Abbey Hudak",
-      "siteName": "The Hollywood Reporter",
-      "content": "If you purchase an independently reviewed product or service through a link on our website, The Hollywood Reporter may receive an affiliate commission.\n\nThe year was 1996. Bill Clinton won his second presidential election. Dolly the sheep became the first barnyard clone. Hotmail launched (and worked). And Oprah Winfrey, host of The Oprah Winfrey Show, and arguably the biggest star on daytime television, introduced her first-ever “Favorite Things” segment.\n\nIt all happened by accident. A producer on the show gave the host a pair of Karen Neuburger pajamas. Oprah loved them so much that she bought them for her entire staff. Then, she decided to gift them to her entire audience. On Nov. 27, 1996, Oprah came onstage in her red-and-white checkered PJs, dancing to “My Favorite Things” from The Sound of Music, and told everyone in the crowd that they’d be taking their own pair home. And with that, history was made (as were household names).\n\nOprah’s Favorite Things became a way for the star to introduce her viewers to new or lesser-known brands. Many, including Spanx, Ugg and Tory Burch, attribute their early success to their inclusion on Oprah’s annual list.\n\nThis year, Oprah celebrates 30 years of her Favorite Things with a roundup that includes must-haves from both well-known brands (Shark and Ninja) and under-the-radar names (Maison Wheat and McEvoy Ranch). The TV host’s picks include skin care saviors, home accessories, kitchen gadgets and stylish accessories. Even better: all of them are available to purchase online on Amazon, so you can save yourself the trip (and line up) at the mall.\n\nWhether you’re starting your holiday gift shopping or just looking for yourself, here are a few of our favorite things from Oprah’s Favorite Things.\n\nAmazon BEST HOLIDAY GIFT UGG Women’s, Sheepskin UGGbraid Glove Uggs aren’t just for your feet. These stunning Sheepskin UGGbraid Gloves are an elevated way to stay warm all winter long. Not only are they made from genuine sheepskin to keep your hands toasty, they’re also touchscreen-friendly, so you don’t have to take them off every time you text.\n\nPlus, they’re available in black, chestnut, and anchor grey, so there’s a pair to match every style. Cozy, tech-savvy, and chic? Sign us up.\n\nBEST LOUNGEWEAR GIFT Maison Wheat Helena Long Sleeve $102.40 $128 20% off Maison Wheat made the list for the second year, with Oprah selecting the brand’s Helena Long Sleeve and Hampton Jogger as two of her favorite loungewear pieces.In fact, the talk show host said she wore these pieces for days on end because they were so soft and comfortable.\n\nAmazon BEST COZY GIFT Maison Wheat Hampton Jogger $118.40 $148 20% off Maison Wheat co-founder and Pretty Little Liars actor Huw Collins says it was “a great honor” to have the TV legend’s stamp of approval. “Oprah’s word is gold, and someone whose impact reaches far beyond the TV screen. Her love of Maison Wheat last year led to a slew of new fans for the brand, so naturally we’re thrilled to have been selected by her for a second year in a row. Nothing makes us happier that she feels as comfy in her pieces as thousands of other people do in theirs.”\n\nAmazon BEST SKIN-CARE GIFT Noël Jolié Velours Voile de Cachemire Silken Body Cream Oprah discovered Black-owned beauty brand Noël Jolié while appearing on Keke Palmer’s podcast, and she quickly became a fan. Started by Kela Nabors and named after her youngest daughter, the wellness brand focuses on products that nourish your skin and well-being. This body cream has a creamy, whipped texture and a formula that leaves your skin feeling soft and smooth.\n\nSTYLISH ACCESSORY PICK Echo Half And Half Oversized 50″ Silk Square Inspired by the stylish women she saw in Paris, Oprah loves these Echo Half and Half Oversized 50″ Silk Squares. Available in two colorways, the 100 percent silk scarves are just as versatile as they are luxurious. Their generous size means they can be worn around the waist, shoulders, neck, and more. Oprah calls them “so chic,” and we agree.\n\nBEST R&R GIFT BADESOFA Luxury Bathtub Pillow Is there anything more relaxing than a long, hot bath? Oprah thinks not. She says that bathing is her hobby, so she knows what she’s talking about when she says this BADESOFA Back Bath Pillow is a must-have.\n\nNot only does it provide ergonomic head, neck, and back support in the tub, it also has so-called “CleanDry+ Technology,” which prevents it from soaking up the water (I.e. it dries fast). Available in three sizes, this smart pillow fits in any tub, and it comes in a wide range of soothing colors to up any bathroom’s aesthetic appeal.\n\nAmazon FESTIVAL MUST-HAVE Shark ChillPill 3-in-1 Fan, Mist and Cooling Plate The Shark ChillPill 3-in-1 Fan, Mist and Cooling Plate is perfect for your “hotflashing friends” (Oprah’s words, not ours). Drop 16 degrees in seconds with this flexible little gadget, which can be worn, attached, or twisted for hands-free tabletop mode.\n\nThe personal cooling fan has ten speeds and an option to “dry-touch” mist without soaking your clothes or hair. With an 11-hour battery and USB-C charger, it’s a wearable, portable, packable must-have for anyone who runs hot.\n\nOprah isn’t the only celebrity fan of the ChillPill — Justin Bieber dropped an orange-colored version in conjunction with his SKYLRK brand during Coachella this year.\n\nAmazon GREAT HOUSEWARMING GIFT Mackenzie-Childs Electric Salt and Pepper Grinder Set Who knew Oprah was a Mackenzie-Childs girlie? She chose the brand’s Electric Salt and Pepper Grinder set for this year’s list. The ceramic grinders can be adjusted to match your meal (think coarse salt on your avocado toast and powdery salt on your popcorn) and are crafted from sturdy stainless steel.\n\nWhile the set is available in four colorways, our pick is the iconic black and white check. It’s a great way to add a little whimsy—and a little flavor—to your kitchen.\n\nBEST FOODIE GIFT McEvoy Ranch 2026 Artisan Olive Oil Gift Set The Artisan Olive Oil Gift Set from McEvoy Ranch, a family-owned, 550-acre working farm in Petaluma, California, known for the world’s best estate-produced extra virgin olive oil, might just be the ultimate hostess gift from the ultimate (talk show) host.\n\nComplete with fig bruschetta, savory fig jam, fig vinegar, and organic extra virgin olive oil, it’s a delicious way to say happy holidays.\n\nAmazon BEST FOR COFFEE LOVERS Terra Kaffe Demi Compact Fully Automatic Espresso Machine The coffee lover in your life deserves the best brew, and this Terra Kafe Demi is the way to make it. This intuitive espresso machine (which also makes Americano, lungo, and drip) serves up barista-quality coffee in three easy steps. Just grind the beans, choose your preferred beverage, and let it brew its thing. Not only does it make delicious coffee, it serves looks on the counter. Available in four stylish shades (Oprah has “dune” in her kitchen, seen here), it looks just as good as the coffee tastes.\n\nAmazon BEST FOR HOME CHEFS Ninja Crispi DualZone Glass Countertop Air Fryer Oprah is a busy woman. She doesn’t have time to be running two cycles in the air fryer. That’s why she loves the Ninja Crispi DualZone Glass Air Fryer. The double-basket style allows home cooks (or their private chefs) to cook two foods two ways and finish at the same time. Each side has a four-quart capacity, allowing room to cook meat and veggies or dinner and dessert simultaneously. The baskets even double as storage containers, so leftovers don’t have to go to waste.\n\nAmazon BEST WELLNESS GIFT WITHINGS Body Scan Smart Scale $369 $499.95 26% off Oprah has always been open about her fitness journey, so it’s no wonder she’s a fan of the Withings Body Scan Scale. More than just a way to track your weight, it’s a whole-body checking device that tracks your health and wellness in one compact place.\n\nCapture your essential health biomarkers; see a breakdown of your fat and muscle across five body zones, monitor your heart with a 6-lead ECG, and track your electrodermal activity for cues on how your body handles stress and recovery. The scale even pairs with smartphones to connect users to medical professionals, turn data into a health plan, optimize sleep, and so much more. It’s no wonder Oprah calls it an “ingenious machine.”",
-      "images": [
-        {
-          "url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/Oprahs-Favorite-Things-30th-Anniversary-List-MAIN.jpg?w=1296&h=730&crop=1",
-          "alt": ""
-        },
-        {
-          "url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/ugg-gloves.jpg",
-          "alt": "UGG Women's, Sheepskin UGGbraid Glove,"
-        },
-        {
-          "url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/helena-white-boutique.jpg",
-          "alt": "Maison Wheat Helena Long Sleeve"
-        },
-        {
-          "url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/maison-wheat-jogger.jpg",
-          "alt": "Maison Wheat Hampton Jogger"
-        },
-        {
-          "url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/noel-jolie-cream-oprah.jpg",
-          "alt": "NOËL JOLIÉ Velours Voile de Cachemire Silken Body Cream"
-        },
-        {
-          "url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/echo-silk-scarf.jpg",
-          "alt": "Echo Half And Half Oversized 50\" Silk Square, Multicolor"
-        },
-        {
-          "url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/BADESOFA-Luxury-Bathtub-Pillow.jpg",
-          "alt": "BADESOFA Luxury Bathtub Pillow"
-        },
-        {
-          "url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/shark-chillpill.jpg",
-          "alt": "Shark ChillPill 3-in-1 Fan, Mist and Cooling Plate"
-        },
-        {
-          "url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/mackenzie-childs-grinder.jpg",
-          "alt": "MACKENZIE-CHILDS Electric Salt and Pepper Grinder Set"
-        },
-        {
-          "url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/oprah-olive-oil.jpg",
-          "alt": "Artisan Olive Oil Gift Set"
-        },
-        {
-          "url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/terra-kaffe-demi-oprah.jpg",
-          "alt": "Terra Kaffe Demi Compact Fully Automatic Espresso Machine"
-        },
-        {
-          "url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/ninja-fryer.jpg",
-          "alt": "Ninja Crispi DualZone Glass Countertop Air Fryer"
-        },
-        {
-          "url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/withings-body-scan.jpg",
-          "alt": "WITHINGS Body Scan Smart Scale"
-        }
-      ],
-      "length": 8290,
-      "imageCount": 13
+      "fetchedAt": "2026-11-17T02:57:11.793Z",
+      "error": "UND_ERR_CONNECT_TIMEOUT"
     },
     "h70kqf": {
       "version": 4,
       "url": "https://phys.org/news/2026-11-personality-affecting-social-media.html",
-      "fetchedAt": "2026-11-17T02:53:32.247Z",
+      "fetchedAt": "2026-11-17T02:57:11.981Z",
       "title": "Could your personality be affecting how you feel about social media?",
       "byline": "Claire Hart, Carmen Șurariu, Kathy Carnelley",
       "siteName": "Phys.org",
@@ -30734,7 +30698,7 @@
     "nlg81w": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/music/music-industry-news/hybe-caa-form-strategic-partnership-1236756762/",
-      "fetchedAt": "2026-11-17T02:53:32.361Z",
+      "fetchedAt": "2026-11-17T02:57:12.135Z",
       "title": "Korean Entertainment Hybe and CAA Form Strategic Partnership",
       "byline": "Nicole Fell",
       "siteName": "The Hollywood Reporter",
@@ -30751,7 +30715,7 @@
     "190fbp6": {
       "version": 4,
       "url": "https://www.gematsu.com/2026/11/splatoon-3-version-12-0-0-update-launches-november-17",
-      "fetchedAt": "2026-11-17T02:53:32.546Z",
+      "fetchedAt": "2026-11-17T02:57:12.410Z",
       "title": "Splatoon 3 version 12.0.0 update launches November 17",
       "byline": "Sal Romano",
       "siteName": "Gematsu",
@@ -30765,35 +30729,10 @@
       "length": 8856,
       "imageCount": 1
     },
-    "1dnr7q3": {
-      "version": 4,
-      "url": "https://phys.org/news/2026-11-baby-spacex-starship-orbit.html",
-      "fetchedAt": "2026-11-17T02:53:32.669Z",
-      "title": "Baby, she's back: SpaceX catches a Starship from orbit for first time",
-      "byline": "Alan Boyle",
-      "siteName": "Phys.org",
-      "content": "The Starship rocket's second stage, known as Ship 42, hangs from a set of giant mechanical arms on the launch tower at SpaceX's Starbase launch pad in Texas. Credit: SpaceX via X\n\nSpaceX brought back its Starship rocket's second stage today for a first-ever midair capture at its launch pad, capping a record-setting orbital flight test.\n\nThe 171-foot-tall (52-meter) space vehicle, known as Ship 42, settled between a giant pair of mechanical arms extended from the South Texas launch tower where its journey began 22.5 hours earlier. The arm-capture system, nicknamed \"Mechazilla,\" had been used three times previously to capture Starship Super Heavy boosters during suborbital flight tests, but this was the first time for a second stage coming in hot from orbit.\n\"Mechazilla has caught the Starship—we've been waiting to hear that for a long time,\" SpaceX launch commentator Dan Huot said.\nIn addition to the first orbital catch, this week's test marked the longest Starship flight to date, besting a three-hour orbital flight in September.\nYears of development—including 15 full-scale flight tests since 2023—led up to today's orbital catch, which Huot called \"the Holy Grail of spaceflight.\" The achievement took the sting out of the previous day's aborted effort to catch the rocket's booster using the same system, minutes after liftoff. SpaceX said the booster was diverted when its onboard system detected a fuel-system alarm. The root cause of the alarm is under investigation.\n\nStarship first catch. Credit: SciNews\nSpaceX plans to use the launch-pad arms to recover Starship's boosters and second stages on a routine basis, achieving company founder Elon Musk's goal of creating a fully reusable, orbital-class launch system.\nThis 15th flight test proceeded almost in textbook fashion, aside from the booster's offshore splashdown on launch day. During the first hours of its 14-orbit flight, Starship deployed 26 more next-generation satellites for SpaceX's Starlink broadband internet network. All of the satellites were in good health and beginning to raise their orbits to operational altitude, the company said.\n\nAt the end of the trip, the second stage fired a single engine for roughly 10 seconds to start its descent through the atmosphere. As the temperatures rose, a bright glow surrounded Ship 42's leading edges. The craft executed a bellyflop maneuver to maximize its deceleration. Then it righted itself and fired its engines a final time to sink into Mechazilla's arms.\nSpaceX employees around the country and hundreds of onlookers near the Texas launch site cheered, while \"Baby, Come Back\" played on the soundtrack for the webcast. \"Baby, she's back,\" Huot joked.\nBringing Starship into full operation is expected to speed up deployment of Starlink satellites. More importantly, Starship is slated to serve as a landing system for NASA's crewed moon missions starting as early as 2028. Starship and Blue Origin's Blue Moon landing system are scheduled for testing in low Earth orbit next year during NASA's Artemis III mission.\nIn a post to X, NASA Administrator Jared Isaacman congratulated Musk and the SpaceX team on today's successful catch. \"It was almost magic ... Making more believers by the day,\" he wrote. Using emojis, Isaacman said the achievement brought the United States \"one step closer\" to putting an American flag once more on the moon.\n\nSpaceX's team will analyze the data gathered about Starship's performance, including the ability of Ship 42's heat shield to stand up to the rigors of atmospheric reentry. The company is gearing up to expand Starship operations to NASA's Kennedy Space Center in Florida, and yet another Starship launch site is in the works for Louisiana.\nIn the long term, Musk envisions creating a fleet of Starships that could offer point-to-point rocket travel on Earth, as well as mass transit to Mars and other off-Earth destinations. Cryptocurrency investor Chun Wang has already announced his intention to take Starship trips around the moon and Mars.\n\"I don't think you guys understand,\" a software engineer named Will DePue wrote in a post to X. \"You will get the chance to go to space in your lifetime. New era.\"\n\"Yes,\" Musk replied.\n\nWho's behind this story?\n\nGaby Clark\n\nMA in English, copy editor since 2021 with experience in higher education and health content. Dedicated to trustworthy science news.\n\nFull profile →\n\nAndrew Zinin\n\nMaster's in physics with research experience. Long-time science news enthusiast. Plays key role in Science X's editorial success.\n\nFull profile →\n\nCitation:\nBaby, she's back: SpaceX catches a Starship from orbit for first time (2026, November 16)\nretrieved 16 November 2026\nfrom https://phys.org/news/2026-11-baby-spacex-starship-orbit.html\n\nThis document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no\npart may be reproduced without the written permission. The content is provided for information purposes only.",
-      "images": [
-        {
-          "url": "https://scx2.b-cdn.net/gfx/news/hires/2026/baby-shes-back-spacex.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://scx2.b-cdn.net/gfx/news/2026/baby-shes-back-spacex.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://scx1.b-cdn.net/csz/news/800a/2026/baby-shes-back-spacex.jpg",
-          "alt": "Baby, She's Back! SpaceX Catches a Starship From Orbit for First Time"
-        }
-      ],
-      "length": 4984,
-      "imageCount": 3
-    },
     "3h5tmu": {
       "version": 4,
       "url": "https://www.playground.ru/misc/news/shest_evropejskih_profsoyuzov_prizvali_igrokov_podderzhivat_igry_sozdannye_bez_generativnogo_ii-1891328",
-      "fetchedAt": "2026-11-17T02:53:32.725Z",
+      "fetchedAt": "2026-11-17T02:57:12.466Z",
       "title": "Шесть европейских профсоюзов призвали игроков поддерживать игры, созданные без генеративного ИИ",
       "byline": "monk70",
       "siteName": "Playground",
@@ -30815,10 +30754,60 @@
       "length": 1525,
       "imageCount": 3
     },
+    "n9fqqr": {
+      "version": 4,
+      "url": "https://www.playground.ru/black_mesa/news/dlya_black_mesa_vyshlo_krupnoe_obnovlenie_anomalous_improvements_s_uluchshennoj_grafikoj_i_optimizatsiej-1891334",
+      "fetchedAt": "2026-11-17T02:57:12.537Z",
+      "title": "Для Black Mesa вышло крупное обновление Anomalous Improvements с улучшенной графикой и оптимизацией",
+      "byline": "monk70",
+      "siteName": "Playground",
+      "content": "Разработчики Black Mesa выпустили крупное обновление Anomalous Improvements, которое затронуло производительность, освещение, отражения, интерфейс и поддержку модификаций. Кроме того, игра получила статус Steam Deck Verified.\nОсновные изменения:\n\nОптимизация: разработчики доработали движок, повысив производительность и стабильность во всех главах, включая локации в Зене.\nУлучшенные отражения: добавлены Parallax Corrected Cubemaps (PCCs), обеспечивающие более реалистичные отражения с учётом геометрии помещений. Изменения затронули как исследовательский комплекс Black Mesa, так и Зен.\nОбновлённое освещение: улучшены непрямое освещение и отражённый свет, добавлено освещение на основе изображений для открытых пространств, повышена точность вершинного освещения и световых карт. Также доработано прохождение света через стекло и другие полупрозрачные поверхности.\nНовый интерфейс: меню полностью переработали, сделав его более быстрым и удобным. Добавлена полноценная поддержка контроллеров Xbox, PlayStation и Steam, включая соответствующие обозначения кнопок. Также появилась возможность устанавливать альтернативные интерфейсы через Steam Workshop — например, классическое меню в стиле оригинальной Half-Life.\nПоддержка модификаций: исправлены вылеты при запуске модов из меню, улучшена система подписок и добавлен выбор кампаний и отдельных глав прямо в разделе дополнений. Масштабные модификации теперь можно запускать непосредственно из интерфейса без ручной установки файлов.\n\nРазработчики предупреждают, что некоторые существующие модификации могут потребовать обновления для совместимости с новой версией игры.\nОдновременно H.E.C.U. Collective выпустила обновление для Black Mesa: Blue Shift. Оно обеспечивает совместимость с актуальной версией основной игры, упрощает установку и добавляет улучшенное освещение с Parallax Corrected Cubemaps.",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/ISgCt8pp7gHdaxyUuT1Mtw.png",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/ISgCt8pp7gHdaxyUuT1Mtw.png?760xauto",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/ISgCt8pp7gHdaxyUuT1Mtw.png.webp?420xauto",
+          "alt": ""
+        }
+      ],
+      "length": 1856,
+      "imageCount": 3
+    },
+    "1dnr7q3": {
+      "version": 4,
+      "url": "https://phys.org/news/2026-11-baby-spacex-starship-orbit.html",
+      "fetchedAt": "2026-11-17T02:57:12.739Z",
+      "title": "Baby, she's back: SpaceX catches a Starship from orbit for first time",
+      "byline": "Alan Boyle",
+      "siteName": "Phys.org",
+      "content": "The Starship rocket's second stage, known as Ship 42, hangs from a set of giant mechanical arms on the launch tower at SpaceX's Starbase launch pad in Texas. Credit: SpaceX via X\n\nSpaceX brought back its Starship rocket's second stage today for a first-ever midair capture at its launch pad, capping a record-setting orbital flight test.\n\nThe 171-foot-tall (52-meter) space vehicle, known as Ship 42, settled between a giant pair of mechanical arms extended from the South Texas launch tower where its journey began 22.5 hours earlier. The arm-capture system, nicknamed \"Mechazilla,\" had been used three times previously to capture Starship Super Heavy boosters during suborbital flight tests, but this was the first time for a second stage coming in hot from orbit.\n\"Mechazilla has caught the Starship—we've been waiting to hear that for a long time,\" SpaceX launch commentator Dan Huot said.\nIn addition to the first orbital catch, this week's test marked the longest Starship flight to date, besting a three-hour orbital flight in September.\nYears of development—including 15 full-scale flight tests since 2023—led up to today's orbital catch, which Huot called \"the Holy Grail of spaceflight.\" The achievement took the sting out of the previous day's aborted effort to catch the rocket's booster using the same system, minutes after liftoff. SpaceX said the booster was diverted when its onboard system detected a fuel-system alarm. The root cause of the alarm is under investigation.\n\nStarship first catch. Credit: SciNews\nSpaceX plans to use the launch-pad arms to recover Starship's boosters and second stages on a routine basis, achieving company founder Elon Musk's goal of creating a fully reusable, orbital-class launch system.\nThis 15th flight test proceeded almost in textbook fashion, aside from the booster's offshore splashdown on launch day. During the first hours of its 14-orbit flight, Starship deployed 26 more next-generation satellites for SpaceX's Starlink broadband internet network. All of the satellites were in good health and beginning to raise their orbits to operational altitude, the company said.\n\nAt the end of the trip, the second stage fired a single engine for roughly 10 seconds to start its descent through the atmosphere. As the temperatures rose, a bright glow surrounded Ship 42's leading edges. The craft executed a bellyflop maneuver to maximize its deceleration. Then it righted itself and fired its engines a final time to sink into Mechazilla's arms.\nSpaceX employees around the country and hundreds of onlookers near the Texas launch site cheered, while \"Baby, Come Back\" played on the soundtrack for the webcast. \"Baby, she's back,\" Huot joked.\nBringing Starship into full operation is expected to speed up deployment of Starlink satellites. More importantly, Starship is slated to serve as a landing system for NASA's crewed moon missions starting as early as 2028. Starship and Blue Origin's Blue Moon landing system are scheduled for testing in low Earth orbit next year during NASA's Artemis III mission.\nIn a post to X, NASA Administrator Jared Isaacman congratulated Musk and the SpaceX team on today's successful catch. \"It was almost magic ... Making more believers by the day,\" he wrote. Using emojis, Isaacman said the achievement brought the United States \"one step closer\" to putting an American flag once more on the moon.\n\nSpaceX's team will analyze the data gathered about Starship's performance, including the ability of Ship 42's heat shield to stand up to the rigors of atmospheric reentry. The company is gearing up to expand Starship operations to NASA's Kennedy Space Center in Florida, and yet another Starship launch site is in the works for Louisiana.\nIn the long term, Musk envisions creating a fleet of Starships that could offer point-to-point rocket travel on Earth, as well as mass transit to Mars and other off-Earth destinations. Cryptocurrency investor Chun Wang has already announced his intention to take Starship trips around the moon and Mars.\n\"I don't think you guys understand,\" a software engineer named Will DePue wrote in a post to X. \"You will get the chance to go to space in your lifetime. New era.\"\n\"Yes,\" Musk replied.\n\nWho's behind this story?\n\nGaby Clark\n\nMA in English, copy editor since 2021 with experience in higher education and health content. Dedicated to trustworthy science news.\n\nFull profile →\n\nAndrew Zinin\n\nMaster's in physics with research experience. Long-time science news enthusiast. Plays key role in Science X's editorial success.\n\nFull profile →\n\nCitation:\nBaby, she's back: SpaceX catches a Starship from orbit for first time (2026, November 16)\nretrieved 16 November 2026\nfrom https://phys.org/news/2026-11-baby-spacex-starship-orbit.html\n\nThis document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no\npart may be reproduced without the written permission. The content is provided for information purposes only.",
+      "images": [
+        {
+          "url": "https://scx2.b-cdn.net/gfx/news/hires/2026/baby-shes-back-spacex.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://scx2.b-cdn.net/gfx/news/2026/baby-shes-back-spacex.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://scx1.b-cdn.net/csz/news/800a/2026/baby-shes-back-spacex.jpg",
+          "alt": "Baby, She's Back! SpaceX Catches a Starship From Orbit for First Time"
+        }
+      ],
+      "length": 4984,
+      "imageCount": 3
+    },
     "12mnfdf": {
       "version": 4,
       "url": "https://www.gematsu.com/2026/11/splatoon-raiders-demo-now-available",
-      "fetchedAt": "2026-11-17T02:53:32.823Z",
+      "fetchedAt": "2026-11-17T02:57:12.842Z",
       "title": "Splatoon Raiders demo now available",
       "byline": "Sal Romano",
       "siteName": "Gematsu",
@@ -30835,7 +30824,7 @@
     "l8c60u": {
       "version": 4,
       "url": "https://variety.com/2026/film/news/ray-tintori-dead-filmmaker-beasts-southern-wild-1236949816/",
-      "fetchedAt": "2026-11-17T02:53:33.070Z",
+      "fetchedAt": "2026-11-17T02:57:13.195Z",
       "title": "Ray Tintori Dead: Filmmaker Worked on 'Beasts of the Southern Wild'",
       "byline": "Pat Saperstein",
       "siteName": "Variety",
@@ -30849,27 +30838,10 @@
       "length": 2339,
       "imageCount": 1
     },
-    "1k9tccw": {
-      "version": 4,
-      "url": "https://variety.com/2026/biz/news/caa-hybe-strategic-partnership-1236949852/",
-      "fetchedAt": "2026-11-17T02:53:33.193Z",
-      "title": "CAA and Hybe Launch Strategic Partnership",
-      "byline": "Tanya Fedak",
-      "siteName": "Variety",
-      "content": "Entertainment and sports agency Creative Artists Agency and music behemoth/lifestyle platform Hybe launched a partnership to grow Hybe’s creative and commercial opportunities.\n\nThrough Hybe’s artist network and CAA’s global reach, the companies will collaborate across content, brand partnerships, sports, live experiences and licensing and merchandising to expand Hybe’s growth in its content, brands and global IP.\n\n“This partnership with CAA marks an important step in expanding creative possibilities for Hybe’s artists,” said Hybe CEO Jason Jaesang Lee in a statement. “By bringing together our complementary strengths and global networks, we aim to extend the reach and value of our artists and their IP across content, brands and live experiences. Together, we will explore new creative opportunities that transcend borders and formats, bringing audiences closer to our artists through more immersive and meaningful experiences.”\n\nThe partnership also aims to accelerate strategic and commercial initiatives across Hybe’s key markets, which includes Korea, Japan, the Americas, China and India.\n\n“Hybe has created a cultural movement,” said Bryan Lourd, the CEO and co-chairman of CAA. “Hybe artists do not just entertain; they connect with audiences in extraordinary and innovative ways that define the future of our industry and the intersection of art, influence and fandom. We are honored to help carry that forward, building on CAA’s experience and relationships across the region, to show the world what is possible when two organizations that believe in creative talent come together.”\n\nEarlier this month, BTS’ world tour pushed Hybe to its highest quarterly revenue and operating profit in its history. Revenue for the third quarter totaled $1.13 billion with an operating profit of $140.2 million.\n\nThis reps an expansion of CAA’s presence in South Korea; the tenpercentary has an office in Seoul and reps many artists and athletes from the region, including artists Rosé, aespa, NCT 127, Red Velvet, RIIZE, Suho, SHINee, Hearts2Hearts, EXO and TVXQ!; actors Gang Dong-won, Lee Jung-jae, HoYeon Jung, Youn Yuh-jung, Choi Woo-shik,and Teo Yoo; filmmakers Hwang Dong-hyuk and Kim Jee-woon; and athletes Son Heung-min, Kim Hyeseong, Faker and T1 Entertainment & Sports, among others.",
-      "images": [
-        {
-          "url": "https://variety.com/wp-content/uploads/2025/12/1405689461.jpg?crop=0px%2C629px%2C5754px%2C3237px&resize=1000%2C563",
-          "alt": ""
-        }
-      ],
-      "length": 2297,
-      "imageCount": 1
-    },
     "wzhee6": {
       "version": 4,
       "url": "https://www.playground.ru/monster_hunter_outlanders/news/vyruchka_mobilnoj_monster_hunter_outlanders_prevysila_10_millionov_dollarov_vsego_za_dve_nedeli-1891326",
-      "fetchedAt": "2026-11-17T02:53:33.249Z",
+      "fetchedAt": "2026-11-17T02:57:13.260Z",
       "title": "Выручка мобильной Monster Hunter: Outlanders превысила 10 миллионов долларов всего за две недели",
       "byline": "monk70",
       "siteName": "Playground",
@@ -30894,7 +30866,7 @@
     "816rcs": {
       "version": 4,
       "url": "https://phys.org/news/2026-11-flat-optics-roadmap-path-smaller.html",
-      "fetchedAt": "2026-11-17T02:53:33.319Z",
+      "fetchedAt": "2026-11-17T02:57:13.498Z",
       "title": "Flat optics roadmap charts path toward smaller imaging and sensing systems",
       "byline": "SPIE",
       "siteName": "Phys.org",
@@ -30920,31 +30892,27 @@
       "length": 5203,
       "imageCount": 4
     },
-    "121wg4v": {
+    "1k9tccw": {
       "version": 4,
-      "url": "https://phys.org/news/2026-11-early-black-holes-grown-productive.html",
-      "fetchedAt": "2026-11-17T02:53:33.544Z",
-      "title": "Early black holes may have grown through productive chaos",
-      "byline": "Kastytis Zubovas",
-      "siteName": "Phys.org",
-      "content": "Relation between the average growth timescale and required seed mass for selected SMBHs with z > 7.5, assuming seed formation at t = 100 Myr (z = 30). Credit: Astronomy & Astrophysics (2026). DOI: 10.1051/0004-6361/202558523\n\nWhen the universe was less than 700 million years old, the supermassive black hole powering a quasar called J0313-1806 had already grown to about 3 billion times the mass of the sun. It is one of the most extreme examples of a puzzle that has occupied astrophysicists for two decades: How did supermassive black holes grow so big so quickly?\n\nAt its core, the puzzle is a speed limit. A black hole grows by swallowing, or accreting, gas, but the infalling matter heats up and shines, and the radiation pushes on the gas still arriving. At the so-called Eddington limit, radiation pressure balances gravity and infall cannot speed up further. Because this limit scales with the black hole's mass, growth is exponential. If, as usually assumed, about 10% of the infalling mass is converted to radiation, the mass grows by a factor of e (about 2.7) every 45 million years.\nA stellar-mass black hole of about a hundred solar masses would need about 17 such steps, roughly 770 million years, to reach 3 billion solar masses. When you account for the time it took for the stellar black holes to form, the universe had less than 600 million years available.\nThere are two popular ways out. One is to start with a \"heavy seed\" of at least 10,000 solar masses, formed by the direct collapse of enormous gas clouds. This would skip the slowest part of the climb. The other is to break the Eddington limit: If the energy released by infalling gas is removed in ways other than radiation, the black hole can grow far faster. Both options have caveats: Direct collapse requires a rare combination of conditions, and it is uncertain whether real accretion flows can stay super-Eddington for hundreds of millions of years.\nIn a new paper with my colleague Matas Tartėnas, published in Astronomy & Astrophysics, we ask whether a third, older and simpler idea survives confrontation with the latest data. It is called chaotic accretion, and it needs neither a heavy seed nor a broken speed limit.\n\nWhy a spinning-down black hole grows faster\nThe \"chaos\" in our model comes from how gas reaches the black hole. We consider a slowly rotating dark matter halo, so that gas falls in from essentially random directions. Each stream forms a small disk, tilted randomly relative to the black hole's spin, feeds it briefly and is quickly followed by another, tilted differently. Some episodes spin the black hole up; others, where the disk counter-rotates, spin it down. Spin-down is rarer but more efficient per unit of mass, so over time the spin stays low.\nThat matters because a slowly spinning black hole converts less of the infalling mass into light: It radiates away only about 6 to 7.5% of the mass it swallows, rather than 10%. This may seem like a small difference, but it shortens the growth timescale from 45 to roughly 27–32 million years, and the time required to grow J0313-1806 from 770 to 550 million years.\nIn this scenario, the gas supply on large scales can exceed the rate necessary for the Eddington limit. What matters, though, is how much material reaches the event horizon, and that stays near the Eddington rate, while most of the rest is removed along the way. The large gas reservoir, however, ensures that the black hole may be fed nearly continuously.\nWhat the data say\nWe compared this prediction with mass estimates for all known supermassive black holes at redshifts above seven. The most reliable (virial) estimates, out to redshift 10.6 and including J0313-1806, can all be explained by a seed of about 100 solar masses or smaller, formed around 100 million years after the Big Bang, growing on a timescale of about 32 million years. This requires almost continuous feeding at least 85% of the time at the Eddington rate, or all the time at 85% of it.\nThis shows that the scenario works, not that the alternatives fail. Our scenario cannot explain several existing mass estimates, but those are made using methods that rely on more assumptions about the accretion flow. For example, for the galaxy GN-z11, the virial estimate is about seven times lower than the less robust one. Several more distant black holes lack robust masses and would make excellent near-future observation targets.\n\nHow to tell the scenarios apart\nWe also propose ways to distinguish the three explanations. Chaotic accretion predicts slow spins for the most massive early black holes, while sustained super-Eddington growth should leave them spinning rapidly. Spin can be measured from the shape of X-ray emission lines, but current measurements are at lower redshifts and ambiguous. ESA's planned NewAthena observatory is best suited to the task, but it won't launch until at least 2037.\nIn our scenario, the maximum black hole mass should rise very rapidly until redshift 7.5 and then nearly plateau. Current data hint at this but cover too little volume to be conclusive; wide-area surveys such as Euclid and Roman should find enough black holes to test it. In particular, a robustly measured black hole of more than a billion solar masses at redshift 9.1 or higher would falsify our model.\nFinally, once a rapidly growing black hole reaches 100,000 to 10 million solar masses, depending on its halo, its accretion energy can drive large-scale outflows that clear the surrounding gas and make it visible, possibly as a \"little red dot,\" a compact and bright source of the kind discovered by the James Webb Space Telescope. The inferred little red dot masses fall in this range, although what powers them is still debated.\nFor now, our conclusion is modest. Ordinary stellar-mass seeds growing near the Eddington limit with low spin can explain the earliest known supermassive black holes, without invoking massive seeds or super-Eddington growth. Whether that is what actually happened is a question the next generation of telescopes can answer.\nThis story is part of Science X Dialog, where researchers can report findings from their published research articles. Visit this page for information about Science X Dialog and how to participate.\n\nPublication details\nK. Zubovas et al., Chaotic accretion can (still) explain early supermassive black hole growth, Astronomy & Astrophysics (2026). DOI: 10.1051/0004-6361/202558523\n\nWho's behind this story?\n\nLisa Lock\n\nBA art history, MA material culture. Former museum editor, paramedic, and transplant coordinator. Editing for Science X since 2021.\n\nFull profile →\n\nRobert Egan\n\nBachelor's in mathematical biology, Master's in creative writing. Well-traveled with unique perspectives on science and language.\n\nFull profile →\n\nDr Kastytis Zubovas is a theoretical astrophysicist at the Center for Physical Sciences and Technology in Vilnius, Lithuania. He studies how supermassive black holes affect their host galaxies, primarily through the large-scale outflows they launch during active phases.\nDr Matas Tartėnas is also a theoretical astrophysicist at the Center for Physical Sciences and Technology. He uses numerical hydrodynamical simulations to study supermassive black hole feeding and feedback.\n\nCitation:\nEarly black holes may have grown through productive chaos (2026, November 16)\nretrieved 16 November 2026\nfrom https://phys.org/news/2026-11-early-black-holes-grown-productive.html\n\nThis document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no\npart may be reproduced without the written permission. The content is provided for information purposes only.",
+      "url": "https://variety.com/2026/biz/news/caa-hybe-strategic-partnership-1236949852/",
+      "fetchedAt": "2026-11-17T02:57:13.831Z",
+      "title": "CAA and Hybe Launch Strategic Partnership",
+      "byline": "Tanya Fedak",
+      "siteName": "Variety",
+      "content": "Entertainment and sports agency Creative Artists Agency and music behemoth/lifestyle platform Hybe launched a partnership to grow Hybe’s creative and commercial opportunities.\n\nThrough Hybe’s artist network and CAA’s global reach, the companies will collaborate across content, brand partnerships, sports, live experiences and licensing and merchandising to expand Hybe’s growth in its content, brands and global IP.\n\n“This partnership with CAA marks an important step in expanding creative possibilities for Hybe’s artists,” said Hybe CEO Jason Jaesang Lee in a statement. “By bringing together our complementary strengths and global networks, we aim to extend the reach and value of our artists and their IP across content, brands and live experiences. Together, we will explore new creative opportunities that transcend borders and formats, bringing audiences closer to our artists through more immersive and meaningful experiences.”\n\nThe partnership also aims to accelerate strategic and commercial initiatives across Hybe’s key markets, which includes Korea, Japan, the Americas, China and India.\n\n“Hybe has created a cultural movement,” said Bryan Lourd, the CEO and co-chairman of CAA. “Hybe artists do not just entertain; they connect with audiences in extraordinary and innovative ways that define the future of our industry and the intersection of art, influence and fandom. We are honored to help carry that forward, building on CAA’s experience and relationships across the region, to show the world what is possible when two organizations that believe in creative talent come together.”\n\nEarlier this month, BTS’ world tour pushed Hybe to its highest quarterly revenue and operating profit in its history. Revenue for the third quarter totaled $1.13 billion with an operating profit of $140.2 million.\n\nThis reps an expansion of CAA’s presence in South Korea; the tenpercentary has an office in Seoul and reps many artists and athletes from the region, including artists Rosé, aespa, NCT 127, Red Velvet, RIIZE, Suho, SHINee, Hearts2Hearts, EXO and TVXQ!; actors Gang Dong-won, Lee Jung-jae, HoYeon Jung, Youn Yuh-jung, Choi Woo-shik,and Teo Yoo; filmmakers Hwang Dong-hyuk and Kim Jee-woon; and athletes Son Heung-min, Kim Hyeseong, Faker and T1 Entertainment & Sports, among others.",
       "images": [
         {
-          "url": "https://scx2.b-cdn.net/gfx/news/2026/early-black-holes-may.jpg",
+          "url": "https://variety.com/wp-content/uploads/2025/12/1405689461.jpg?crop=0px%2C629px%2C5754px%2C3237px&resize=1000%2C563",
           "alt": ""
-        },
-        {
-          "url": "https://scx1.b-cdn.net/csz/news/800a/2026/early-black-holes-may.jpg",
-          "alt": "Early black holes may have grown through productive chaos"
         }
       ],
-      "length": 7682,
-      "imageCount": 2
+      "length": 2297,
+      "imageCount": 1
     },
     "xaau6y": {
       "version": 4,
       "url": "https://www.playground.ru/misc/news/obratnaya_sovmestimost_stanet_odnim_iz_klyuchevyh_elementov_xbox_project_helix-1891327",
-      "fetchedAt": "2026-11-17T02:53:33.695Z",
+      "fetchedAt": "2026-11-17T02:57:13.887Z",
       "title": "Обратная совместимость станет одним из ключевых элементов Xbox Project Helix",
       "byline": "monk70",
       "siteName": "Playground",
@@ -30966,31 +30934,10 @@
       "length": 2014,
       "imageCount": 3
     },
-    "1mol79h": {
-      "version": 4,
-      "url": "https://phys.org/news/2026-11-buffer-spaces-workplace.html",
-      "fetchedAt": "2026-11-17T02:53:33.800Z",
-      "title": "'Buffer spaces' may help resolve workplace concerns",
-      "byline": "Emily Cerf",
-      "siteName": "Phys.org",
-      "content": "Reporting Process Drawn by HR. Credit: Proceedings of the ACM on Human-Computer Interaction (2026). DOI: 10.1145/3816937\n\nNearly every person will run into conflict in their workplace at some point in their career, but it can be difficult to know when or how to report these concerns.\n\nA study by researchers at the University of California, Santa Cruz, explores how workers use technology to report workplace concerns and finds there is a lot of gray space between informal conversations and formal reporting. In a paper published in the Proceedings of the ACM on Human-Computer Interaction, the scholars introduce the concept of buffer spaces, which sit between informal and formal workplace conflict resolution and can offer a path toward resolution.\nThe study won a best paper award at the 2026 ACM Conference on Computer-Supported Cooperative Work and Social Computing.\n\"When workplace concerns don't get reported, they don't just disappear,\" said Peiyao Liu, a doctoral student in computational media and the study's lead author. \"They build up, and people get burned out. Understanding how people actually decide whether to speak up matters for everyone, not just the person with the problem.\"\nDigging into issues with concern reporting\nLiu carried out this research with associate professor of computational media Norman Su, who leads the Authentic User Experience Lab at the Baskin School of Engineering, and associate professor Lynn Dombrowski at Georgia Tech's School of Interactive Computing. Su's group studies the relationship of technology with subcultures, using methods like interviews and surveys to better understand people's pain points with technology in everyday life and offer design guidelines.\n\n\"We want to offer some direction for future researchers to think about why current channels or technology don't work, and how we can design the tools to support them,\" Liu said.\nSu and Liu are interested in workplace concern reporting because it's a widespread and often painful issue, but one that can be particularly challenging for people with marginalized identities.\n\"The people who stay quiet are always the ones who need help the most—women in male-dominated teams, LGBTQ employees, people of color or people with disabilities,\" Liu said. \"For them, speaking up can feel riskier.\"\nThe researchers, who are based at the UC Santa Cruz Silicon Valley Campus, set out to better understand how employees and HR professionals use formal systems, backchannel conversations and everything in between to resolve issues. They partnered with the Bay Area Human Resources Executives Council, which holds meetings at the Silicon Valley Campus, to learn and get feedback on their work.\nPast research on workplace reporting tends to focus on the two far ends of the reporting spectrum: staying silent and filing formal complaints. But in interviews with 22 participants, including 10 employees from various industries and 12 HR professionals, the researchers found people's real experiences tend to fall somewhere in between.\nPeople may turn to conversations in person, on messaging platforms like Slack or on social media for comfort, validation and support, but this may not always lead to real solutions. Meanwhile, formal reporting resources can be seen as untrustworthy, difficult to use and ultimately ineffective, and workers may fear retribution.\n\nBuffer spaces can offer a path forward\nThis space in between informal conversations and formal reporting is what the researchers call buffer spaces. What they look like might vary in different workplaces, but they might be a dedicated Slack workspace, technology administered by an employee resource group (ERG) or even a specially trained chatbot.\nWhatever the format, in order to be effective, the researchers say buffer spaces should provide a setting for workers to slow down and deliberate, and have low-pressure entry points. They should also provide a pathway for workers to move their complaints toward individual or collective action, if needed. Making these decisions earlier can help prevent problems from spiraling into an issue that is impossible to resolve.\n\"The question is, how might we support the transition period from informal talk to action?\" Su said. \"Buffer spaces could give people that door to say, 'I think it's not a big deal, or I can deal with it by talking with people,' or, 'I should move it to a formal action and report something.'\"\nAdditionally, buffer spaces must be built on a foundation of trust and privacy, Liu said, to effectively resolve issues. This would influence how technology like surveys or AI systems are developed and used—an area of future research for the scholars.\n\"I think there are a lot of really interesting challenges in how you would implement buffer space and have technologies help along that process,\" Su said. \"There are huge privacy implications and trust ones, but I think that's what makes it an interesting research problem.\"\nThese buffer spaces can also support HR professionals, who often must walk a tricky line between supporting employees and representing their employer. Buffer spaces can offer the opportunity to build trust and hear complaints earlier, when there might be more potential for a successful resolution.\n\nMore information\nPeiyao Liu et al., From Mediation to Escalation: Buffer Spaces for Workplace Concern Reporting, Proceedings of the ACM on Human-Computer Interaction (2026). DOI: 10.1145/3816937\n\nWho's behind this story?\n\nGaby Clark\n\nMA in English, copy editor since 2021 with experience in higher education and health content. Dedicated to trustworthy science news.\n\nFull profile →\n\nRobert Egan\n\nBachelor's in mathematical biology, Master's in creative writing. Well-traveled with unique perspectives on science and language.\n\nFull profile →\n\nCitation:\n'Buffer spaces' may help resolve workplace concerns (2026, November 16)\nretrieved 16 November 2026\nfrom https://phys.org/news/2026-11-buffer-spaces-workplace.html\n\nThis document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no\npart may be reproduced without the written permission. The content is provided for information purposes only.",
-      "images": [
-        {
-          "url": "https://scx2.b-cdn.net/gfx/news/2026/buffer-spaces-may-help.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://scx1.b-cdn.net/csz/news/800a/2026/buffer-spaces-may-help.jpg",
-          "alt": "'Buffer spaces' may help resolve workplace concerns"
-        }
-      ],
-      "length": 6204,
-      "imageCount": 2
-    },
     "15amuu7": {
       "version": 4,
       "url": "https://www.playground.ru/misc/news/chelovek_pauk_novyj_den_vernyotsya_v_kinoteatry_s_dopolnitelnymi_stsenami_uzhe_4_dekabrya-1891325",
-      "fetchedAt": "2026-11-17T02:53:33.858Z",
+      "fetchedAt": "2026-11-17T02:57:13.981Z",
       "title": "\"Человек-паук: Новый день\" вернётся в кинотеатры с дополнительными сценами уже 4 декабря",
       "byline": "IKarasik",
       "siteName": "Playground",
@@ -31012,27 +30959,69 @@
       "length": 1441,
       "imageCount": 3
     },
-    "qfmg42": {
+    "121wg4v": {
       "version": 4,
-      "url": "https://deadline.com/2026/11/hybe-caa-artist-representation-1237226005/",
-      "fetchedAt": "2026-11-17T02:53:34.240Z",
-      "title": "CAA Inks With Hybe To Rep Korean Firm’s Artists, IP & Brands",
-      "byline": "Erik Pedersen",
-      "siteName": "Deadline",
-      "content": "CAA has signed Hybe to rep its artist roster including K-Pop behemoth BTS, along with the South Korean giant’s IP and brands. The companies will collaborate across content, brand partnerships, sports, licensing, merchandising and live experiences.\n\nHybe’s acts also include such groups as Katseye, Tomorrow X Together, Seventeen and many more.\n\n“This partnership with CAA marks an important step in expanding creative possibilities for Hybe’s artists,” Hybe CEO Jason Jaesang Lee said in a statement. “By bringing together our complementary strengths and global networks, we aim to extend the reach and value of our artists and their IP across content, brands, and live experiences. Together, we will explore new creative opportunities that transcend borders and formats, bringing audiences closer to our artists through more immersive and meaningful experiences.”\n\nRELATED: 11 Music Biopics About Iconic Singers: Elvis, Whitney, Michael, Tina & More\n\nAdded CAA CEO and co-chair Bryan Lourd: “Hybe has created a cultural movement. Hybe artists do not just entertain; they connect with audiences in extraordinary and innovative ways that define the future of our industry and the intersection of art, influence and fandom. We are honored to help carry that forward, building on CAA’s experience and relationships across the region, to show the world what is possible when two organizations that believe in creative talent come together.”\n\nHybe, which rebranded from Big Machine Entertainment in 2021, is a global entertainment lifestyle platform company built on music and technology. With operations across Korea, Japan, the U.S., Mexico, China, and India, it runs numerous record labels including Bighit Music, Belift Lab, Source Music, Pledis Entertainment, Koz Entertainment. Hybe America is behind Blue Highway Records, music publisher Big Machine Music and Quality Control Music, along with Hybe’s labels in Latin America and the U.S. Hispanic market.\n\nBeyond music, Hybe continues to expand across concerts, video content, gaming, original stories, retail, and fan platforms.\n\nRELATED: Katseye Postpones Chicago & Minneapolis Concerts As Megan Skiendiel Recovers From Concussion\n\nRELATED: The 65 Movies That Have Made More Than $1 Billion At The Global Box Office",
+      "url": "https://phys.org/news/2026-11-early-black-holes-grown-productive.html",
+      "fetchedAt": "2026-11-17T02:57:14.169Z",
+      "title": "Early black holes may have grown through productive chaos",
+      "byline": "Kastytis Zubovas",
+      "siteName": "Phys.org",
+      "content": "Relation between the average growth timescale and required seed mass for selected SMBHs with z > 7.5, assuming seed formation at t = 100 Myr (z = 30). Credit: Astronomy & Astrophysics (2026). DOI: 10.1051/0004-6361/202558523\n\nWhen the universe was less than 700 million years old, the supermassive black hole powering a quasar called J0313-1806 had already grown to about 3 billion times the mass of the sun. It is one of the most extreme examples of a puzzle that has occupied astrophysicists for two decades: How did supermassive black holes grow so big so quickly?\n\nAt its core, the puzzle is a speed limit. A black hole grows by swallowing, or accreting, gas, but the infalling matter heats up and shines, and the radiation pushes on the gas still arriving. At the so-called Eddington limit, radiation pressure balances gravity and infall cannot speed up further. Because this limit scales with the black hole's mass, growth is exponential. If, as usually assumed, about 10% of the infalling mass is converted to radiation, the mass grows by a factor of e (about 2.7) every 45 million years.\nA stellar-mass black hole of about a hundred solar masses would need about 17 such steps, roughly 770 million years, to reach 3 billion solar masses. When you account for the time it took for the stellar black holes to form, the universe had less than 600 million years available.\nThere are two popular ways out. One is to start with a \"heavy seed\" of at least 10,000 solar masses, formed by the direct collapse of enormous gas clouds. This would skip the slowest part of the climb. The other is to break the Eddington limit: If the energy released by infalling gas is removed in ways other than radiation, the black hole can grow far faster. Both options have caveats: Direct collapse requires a rare combination of conditions, and it is uncertain whether real accretion flows can stay super-Eddington for hundreds of millions of years.\nIn a new paper with my colleague Matas Tartėnas, published in Astronomy & Astrophysics, we ask whether a third, older and simpler idea survives confrontation with the latest data. It is called chaotic accretion, and it needs neither a heavy seed nor a broken speed limit.\n\nWhy a spinning-down black hole grows faster\nThe \"chaos\" in our model comes from how gas reaches the black hole. We consider a slowly rotating dark matter halo, so that gas falls in from essentially random directions. Each stream forms a small disk, tilted randomly relative to the black hole's spin, feeds it briefly and is quickly followed by another, tilted differently. Some episodes spin the black hole up; others, where the disk counter-rotates, spin it down. Spin-down is rarer but more efficient per unit of mass, so over time the spin stays low.\nThat matters because a slowly spinning black hole converts less of the infalling mass into light: It radiates away only about 6 to 7.5% of the mass it swallows, rather than 10%. This may seem like a small difference, but it shortens the growth timescale from 45 to roughly 27–32 million years, and the time required to grow J0313-1806 from 770 to 550 million years.\nIn this scenario, the gas supply on large scales can exceed the rate necessary for the Eddington limit. What matters, though, is how much material reaches the event horizon, and that stays near the Eddington rate, while most of the rest is removed along the way. The large gas reservoir, however, ensures that the black hole may be fed nearly continuously.\nWhat the data say\nWe compared this prediction with mass estimates for all known supermassive black holes at redshifts above seven. The most reliable (virial) estimates, out to redshift 10.6 and including J0313-1806, can all be explained by a seed of about 100 solar masses or smaller, formed around 100 million years after the Big Bang, growing on a timescale of about 32 million years. This requires almost continuous feeding at least 85% of the time at the Eddington rate, or all the time at 85% of it.\nThis shows that the scenario works, not that the alternatives fail. Our scenario cannot explain several existing mass estimates, but those are made using methods that rely on more assumptions about the accretion flow. For example, for the galaxy GN-z11, the virial estimate is about seven times lower than the less robust one. Several more distant black holes lack robust masses and would make excellent near-future observation targets.\n\nHow to tell the scenarios apart\nWe also propose ways to distinguish the three explanations. Chaotic accretion predicts slow spins for the most massive early black holes, while sustained super-Eddington growth should leave them spinning rapidly. Spin can be measured from the shape of X-ray emission lines, but current measurements are at lower redshifts and ambiguous. ESA's planned NewAthena observatory is best suited to the task, but it won't launch until at least 2037.\nIn our scenario, the maximum black hole mass should rise very rapidly until redshift 7.5 and then nearly plateau. Current data hint at this but cover too little volume to be conclusive; wide-area surveys such as Euclid and Roman should find enough black holes to test it. In particular, a robustly measured black hole of more than a billion solar masses at redshift 9.1 or higher would falsify our model.\nFinally, once a rapidly growing black hole reaches 100,000 to 10 million solar masses, depending on its halo, its accretion energy can drive large-scale outflows that clear the surrounding gas and make it visible, possibly as a \"little red dot,\" a compact and bright source of the kind discovered by the James Webb Space Telescope. The inferred little red dot masses fall in this range, although what powers them is still debated.\nFor now, our conclusion is modest. Ordinary stellar-mass seeds growing near the Eddington limit with low spin can explain the earliest known supermassive black holes, without invoking massive seeds or super-Eddington growth. Whether that is what actually happened is a question the next generation of telescopes can answer.\nThis story is part of Science X Dialog, where researchers can report findings from their published research articles. Visit this page for information about Science X Dialog and how to participate.\n\nPublication details\nK. Zubovas et al., Chaotic accretion can (still) explain early supermassive black hole growth, Astronomy & Astrophysics (2026). DOI: 10.1051/0004-6361/202558523\n\nWho's behind this story?\n\nLisa Lock\n\nBA art history, MA material culture. Former museum editor, paramedic, and transplant coordinator. Editing for Science X since 2021.\n\nFull profile →\n\nRobert Egan\n\nBachelor's in mathematical biology, Master's in creative writing. Well-traveled with unique perspectives on science and language.\n\nFull profile →\n\nDr Kastytis Zubovas is a theoretical astrophysicist at the Center for Physical Sciences and Technology in Vilnius, Lithuania. He studies how supermassive black holes affect their host galaxies, primarily through the large-scale outflows they launch during active phases.\nDr Matas Tartėnas is also a theoretical astrophysicist at the Center for Physical Sciences and Technology. He uses numerical hydrodynamical simulations to study supermassive black hole feeding and feedback.\n\nCitation:\nEarly black holes may have grown through productive chaos (2026, November 16)\nretrieved 16 November 2026\nfrom https://phys.org/news/2026-11-early-black-holes-grown-productive.html\n\nThis document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no\npart may be reproduced without the written permission. The content is provided for information purposes only.",
       "images": [
         {
-          "url": "https://deadline.com/wp-content/uploads/2026/11/BTS-Katseye-CAA.jpg?w=1024",
+          "url": "https://scx2.b-cdn.net/gfx/news/2026/early-black-holes-may.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://scx1.b-cdn.net/csz/news/800a/2026/early-black-holes-may.jpg",
+          "alt": "Early black holes may have grown through productive chaos"
+        }
+      ],
+      "length": 7682,
+      "imageCount": 2
+    },
+    "1mol79h": {
+      "version": 4,
+      "url": "https://phys.org/news/2026-11-buffer-spaces-workplace.html",
+      "fetchedAt": "2026-11-17T02:57:14.276Z",
+      "title": "'Buffer spaces' may help resolve workplace concerns",
+      "byline": "Emily Cerf",
+      "siteName": "Phys.org",
+      "content": "Reporting Process Drawn by HR. Credit: Proceedings of the ACM on Human-Computer Interaction (2026). DOI: 10.1145/3816937\n\nNearly every person will run into conflict in their workplace at some point in their career, but it can be difficult to know when or how to report these concerns.\n\nA study by researchers at the University of California, Santa Cruz, explores how workers use technology to report workplace concerns and finds there is a lot of gray space between informal conversations and formal reporting. In a paper published in the Proceedings of the ACM on Human-Computer Interaction, the scholars introduce the concept of buffer spaces, which sit between informal and formal workplace conflict resolution and can offer a path toward resolution.\nThe study won a best paper award at the 2026 ACM Conference on Computer-Supported Cooperative Work and Social Computing.\n\"When workplace concerns don't get reported, they don't just disappear,\" said Peiyao Liu, a doctoral student in computational media and the study's lead author. \"They build up, and people get burned out. Understanding how people actually decide whether to speak up matters for everyone, not just the person with the problem.\"\nDigging into issues with concern reporting\nLiu carried out this research with associate professor of computational media Norman Su, who leads the Authentic User Experience Lab at the Baskin School of Engineering, and associate professor Lynn Dombrowski at Georgia Tech's School of Interactive Computing. Su's group studies the relationship of technology with subcultures, using methods like interviews and surveys to better understand people's pain points with technology in everyday life and offer design guidelines.\n\n\"We want to offer some direction for future researchers to think about why current channels or technology don't work, and how we can design the tools to support them,\" Liu said.\nSu and Liu are interested in workplace concern reporting because it's a widespread and often painful issue, but one that can be particularly challenging for people with marginalized identities.\n\"The people who stay quiet are always the ones who need help the most—women in male-dominated teams, LGBTQ employees, people of color or people with disabilities,\" Liu said. \"For them, speaking up can feel riskier.\"\nThe researchers, who are based at the UC Santa Cruz Silicon Valley Campus, set out to better understand how employees and HR professionals use formal systems, backchannel conversations and everything in between to resolve issues. They partnered with the Bay Area Human Resources Executives Council, which holds meetings at the Silicon Valley Campus, to learn and get feedback on their work.\nPast research on workplace reporting tends to focus on the two far ends of the reporting spectrum: staying silent and filing formal complaints. But in interviews with 22 participants, including 10 employees from various industries and 12 HR professionals, the researchers found people's real experiences tend to fall somewhere in between.\nPeople may turn to conversations in person, on messaging platforms like Slack or on social media for comfort, validation and support, but this may not always lead to real solutions. Meanwhile, formal reporting resources can be seen as untrustworthy, difficult to use and ultimately ineffective, and workers may fear retribution.\n\nBuffer spaces can offer a path forward\nThis space in between informal conversations and formal reporting is what the researchers call buffer spaces. What they look like might vary in different workplaces, but they might be a dedicated Slack workspace, technology administered by an employee resource group (ERG) or even a specially trained chatbot.\nWhatever the format, in order to be effective, the researchers say buffer spaces should provide a setting for workers to slow down and deliberate, and have low-pressure entry points. They should also provide a pathway for workers to move their complaints toward individual or collective action, if needed. Making these decisions earlier can help prevent problems from spiraling into an issue that is impossible to resolve.\n\"The question is, how might we support the transition period from informal talk to action?\" Su said. \"Buffer spaces could give people that door to say, 'I think it's not a big deal, or I can deal with it by talking with people,' or, 'I should move it to a formal action and report something.'\"\nAdditionally, buffer spaces must be built on a foundation of trust and privacy, Liu said, to effectively resolve issues. This would influence how technology like surveys or AI systems are developed and used—an area of future research for the scholars.\n\"I think there are a lot of really interesting challenges in how you would implement buffer space and have technologies help along that process,\" Su said. \"There are huge privacy implications and trust ones, but I think that's what makes it an interesting research problem.\"\nThese buffer spaces can also support HR professionals, who often must walk a tricky line between supporting employees and representing their employer. Buffer spaces can offer the opportunity to build trust and hear complaints earlier, when there might be more potential for a successful resolution.\n\nMore information\nPeiyao Liu et al., From Mediation to Escalation: Buffer Spaces for Workplace Concern Reporting, Proceedings of the ACM on Human-Computer Interaction (2026). DOI: 10.1145/3816937\n\nWho's behind this story?\n\nGaby Clark\n\nMA in English, copy editor since 2021 with experience in higher education and health content. Dedicated to trustworthy science news.\n\nFull profile →\n\nRobert Egan\n\nBachelor's in mathematical biology, Master's in creative writing. Well-traveled with unique perspectives on science and language.\n\nFull profile →\n\nCitation:\n'Buffer spaces' may help resolve workplace concerns (2026, November 16)\nretrieved 16 November 2026\nfrom https://phys.org/news/2026-11-buffer-spaces-workplace.html\n\nThis document is subject to copyright. Apart from any fair dealing for the purpose of private study or research, no\npart may be reproduced without the written permission. The content is provided for information purposes only.",
+      "images": [
+        {
+          "url": "https://scx2.b-cdn.net/gfx/news/2026/buffer-spaces-may-help.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://scx1.b-cdn.net/csz/news/800a/2026/buffer-spaces-may-help.jpg",
+          "alt": "'Buffer spaces' may help resolve workplace concerns"
+        }
+      ],
+      "length": 6204,
+      "imageCount": 2
+    },
+    "1v49d3x": {
+      "version": 4,
+      "url": "https://www.playground.ru/misc/news/gejb_nyuell_udivil_poklonnikov_superyaht_neobychnym_otnosheniem_k_ekipazhu_takogo_v_nashej_industrii_eschyo_ne_videli-1891324",
+      "fetchedAt": "2026-11-17T02:57:14.338Z",
+      "title": "Гейб Ньюэлл удивил поклонников суперъяхт необычным отношением к экипажу: \"Такого в нашей индустрии ещё не видели\"",
+      "byline": "monk70",
+      "siteName": "Playground",
+      "content": "Суперъяхта Leviathan длиной 111 метров, принадлежащая сооснователю Valve Гейбу Ньюэллу, отличается множеством необычных особенностей. На борту есть бассейн для испытаний снаряжения для подводного плавания, баскетбольная площадка стандартов NBA, а на вертолётной площадке припаркован Aston Martin. Вместо традиционной тиковой палубы используется синтетическое покрытие, которое проще содержать в чистоте.\nОднако экспертов издания Superyacht Times, недавно выпустивших подробный видеообзор судна, больше всего удивило не оснащение яхты, а отношение её владельца к экипажу.\nВместо традиционного гостевого салона Ньюэлл решил разместить на главной палубе просторную столовую для команды. Более того, предприниматель ежедневно обедает вместе с членами экипажа, что, по словам главного редактора Superyacht Times Франчески Уэбстер, совершенно нетипично для индустрии роскошных яхт.\nВсё дело в совместном времяпрепровождении на борту его судов. Такого в нашей индустрии мы практически никогда не встречали.\nНе менее необычным оказалось и устройство личной палубы владельца. Одна из роскошных VIP-кают, по задумке Ньюэлла, также предназначена для отдыха членов экипажа. Дизайнеры из Mark Bryman Design поначалу восприняли эту идею как серьёзный вызов, поскольку она требовала совершенно иначе взглянуть на привычную организацию пространства суперъяхт.\nНа борту также оборудован игровой центр с 15 компьютерами, которыми могут пользоваться как сам Ньюэлл, так и гости и члены команды.\nНеобычный подход владельца, судя по всему, приносит результаты. По данным Superyacht Times, сотрудники суперъяхт обычно остаются на одном судне от шести до девяти месяцев. На Leviathan средний срок службы членов экипажа составляет около четырёх с половиной лет.\nТаким образом, Ньюэлл не только создал плавучий дворец с впечатляющим оснащением, но и сумел обеспечить условия, благодаря которым команда не спешит покидать судно.",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/6abxlZQMl3CrR3yalpSR5w.jpeg",
           "alt": ""
         }
       ],
-      "length": 2269,
+      "length": 1902,
       "imageCount": 1
     },
     "w9tznz": {
       "version": 4,
       "url": "https://deadline.com/2026/11/microdrama-writers-dramawave-unionize-wga-west-1237225626/",
-      "fetchedAt": "2026-11-17T02:53:34.374Z",
+      "fetchedAt": "2026-11-17T02:57:14.657Z",
       "title": "Microdrama Writers At DramaWave Unionize With WGA West",
       "byline": "Katie Campione",
       "siteName": "Deadline",
@@ -31046,10 +31035,27 @@
       "length": 1484,
       "imageCount": 1
     },
+    "qfmg42": {
+      "version": 4,
+      "url": "https://deadline.com/2026/11/hybe-caa-artist-representation-1237226005/",
+      "fetchedAt": "2026-11-17T02:57:14.811Z",
+      "title": "CAA Inks With Hybe To Rep Korean Firm’s Artists, IP & Brands",
+      "byline": "Erik Pedersen",
+      "siteName": "Deadline",
+      "content": "CAA has signed Hybe to rep its artist roster including K-Pop behemoth BTS, along with the South Korean giant’s IP and brands. The companies will collaborate across content, brand partnerships, sports, licensing, merchandising and live experiences.\n\nHybe’s acts also include such groups as Katseye, Tomorrow X Together, Seventeen and many more.\n\n“This partnership with CAA marks an important step in expanding creative possibilities for Hybe’s artists,” Hybe CEO Jason Jaesang Lee said in a statement. “By bringing together our complementary strengths and global networks, we aim to extend the reach and value of our artists and their IP across content, brands, and live experiences. Together, we will explore new creative opportunities that transcend borders and formats, bringing audiences closer to our artists through more immersive and meaningful experiences.”\n\nRELATED: 11 Music Biopics About Iconic Singers: Elvis, Whitney, Michael, Tina & More\n\nAdded CAA CEO and co-chair Bryan Lourd: “Hybe has created a cultural movement. Hybe artists do not just entertain; they connect with audiences in extraordinary and innovative ways that define the future of our industry and the intersection of art, influence and fandom. We are honored to help carry that forward, building on CAA’s experience and relationships across the region, to show the world what is possible when two organizations that believe in creative talent come together.”\n\nHybe, which rebranded from Big Machine Entertainment in 2021, is a global entertainment lifestyle platform company built on music and technology. With operations across Korea, Japan, the U.S., Mexico, China, and India, it runs numerous record labels including Bighit Music, Belift Lab, Source Music, Pledis Entertainment, Koz Entertainment. Hybe America is behind Blue Highway Records, music publisher Big Machine Music and Quality Control Music, along with Hybe’s labels in Latin America and the U.S. Hispanic market.\n\nBeyond music, Hybe continues to expand across concerts, video content, gaming, original stories, retail, and fan platforms.\n\nRELATED: Katseye Postpones Chicago & Minneapolis Concerts As Megan Skiendiel Recovers From Concussion\n\nRELATED: The 65 Movies That Have Made More Than $1 Billion At The Global Box Office",
+      "images": [
+        {
+          "url": "https://deadline.com/wp-content/uploads/2026/11/BTS-Katseye-CAA.jpg?w=1024",
+          "alt": ""
+        }
+      ],
+      "length": 2269,
+      "imageCount": 1
+    },
     "6ul1vt": {
       "version": 4,
       "url": "https://www.gamesindustry.biz/sensor-tower-gta-6-pre-orders-exceed-14bn-with-87-for-the-ultimate-edition",
-      "fetchedAt": "2026-11-17T02:53:34.545Z",
+      "fetchedAt": "2026-11-17T02:57:15.020Z",
       "title": "Sensor Tower: GTA 6 pre-orders exceed $1.4bn, with 87% for the Ultimate Edition",
       "byline": "Sophie McEvoy",
       "siteName": "GamesIndustry.biz",
@@ -31070,7 +31076,7 @@
     "nk3u3w": {
       "version": 4,
       "url": "https://www.zr.ru/content/news/988564-planirovali-kupit-rox-01-vne/",
-      "fetchedAt": "2026-11-17T02:53:34.621Z",
+      "fetchedAt": "2026-11-17T02:57:15.097Z",
       "title": "В России сильно изменились цены на известный внедорожник отечественной сборки",
       "byline": "Лежнин Роман",
       "siteName": "zr.ru",
@@ -31091,7 +31097,7 @@
     "1oct7dx": {
       "version": 4,
       "url": "https://9to5google.com/2026/11/16/november-2026-google-system-updates/",
-      "fetchedAt": "2026-11-17T02:53:34.729Z",
+      "fetchedAt": "2026-11-17T02:57:15.204Z",
       "title": "What’s new in Android’s November 2026 Google System Updates [U: Pixel virtual gamepad]",
       "byline": "Abner Li",
       "siteName": "9to5Google",
@@ -31121,27 +31127,10 @@
       "length": 5770,
       "imageCount": 5
     },
-    "1v49d3x": {
-      "version": 4,
-      "url": "https://www.playground.ru/misc/news/gejb_nyuell_udivil_poklonnikov_superyaht_neobychnym_otnosheniem_k_ekipazhu_takogo_v_nashej_industrii_eschyo_ne_videli-1891324",
-      "fetchedAt": "2026-11-17T02:53:34.793Z",
-      "title": "Гейб Ньюэлл удивил поклонников суперъяхт необычным отношением к экипажу: \"Такого в нашей индустрии ещё не видели\"",
-      "byline": "monk70",
-      "siteName": "Playground",
-      "content": "Суперъяхта Leviathan длиной 111 метров, принадлежащая сооснователю Valve Гейбу Ньюэллу, отличается множеством необычных особенностей. На борту есть бассейн для испытаний снаряжения для подводного плавания, баскетбольная площадка стандартов NBA, а на вертолётной площадке припаркован Aston Martin. Вместо традиционной тиковой палубы используется синтетическое покрытие, которое проще содержать в чистоте.\nОднако экспертов издания Superyacht Times, недавно выпустивших подробный видеообзор судна, больше всего удивило не оснащение яхты, а отношение её владельца к экипажу.\nВместо традиционного гостевого салона Ньюэлл решил разместить на главной палубе просторную столовую для команды. Более того, предприниматель ежедневно обедает вместе с членами экипажа, что, по словам главного редактора Superyacht Times Франчески Уэбстер, совершенно нетипично для индустрии роскошных яхт.\nВсё дело в совместном времяпрепровождении на борту его судов. Такого в нашей индустрии мы практически никогда не встречали.\nНе менее необычным оказалось и устройство личной палубы владельца. Одна из роскошных VIP-кают, по задумке Ньюэлла, также предназначена для отдыха членов экипажа. Дизайнеры из Mark Bryman Design поначалу восприняли эту идею как серьёзный вызов, поскольку она требовала совершенно иначе взглянуть на привычную организацию пространства суперъяхт.\nНа борту также оборудован игровой центр с 15 компьютерами, которыми могут пользоваться как сам Ньюэлл, так и гости и члены команды.\nНеобычный подход владельца, судя по всему, приносит результаты. По данным Superyacht Times, сотрудники суперъяхт обычно остаются на одном судне от шести до девяти месяцев. На Leviathan средний срок службы членов экипажа составляет около четырёх с половиной лет.\nТаким образом, Ньюэлл не только создал плавучий дворец с впечатляющим оснащением, но и сумел обеспечить условия, благодаря которым команда не спешит покидать судно.",
-      "images": [
-        {
-          "url": "https://i.playground.ru/e/6abxlZQMl3CrR3yalpSR5w.jpeg",
-          "alt": ""
-        }
-      ],
-      "length": 1902,
-      "imageCount": 1
-    },
     "1mlr3yr": {
       "version": 4,
       "url": "https://phys.org/news/2026-11-ai-ethics.html",
-      "fetchedAt": "2026-11-17T02:53:34.860Z",
+      "fetchedAt": "2026-11-17T02:57:15.272Z",
       "title": "AI could help speed up research ethics approvals",
       "byline": "University of Bristol",
       "siteName": "Phys.org",
@@ -31162,7 +31151,7 @@
     "1y0hs3x": {
       "version": 4,
       "url": "https://phys.org/news/2026-11-flip-side-upside-atomic-layers.html",
-      "fetchedAt": "2026-11-17T02:53:34.969Z",
+      "fetchedAt": "2026-11-17T02:57:15.391Z",
       "title": "Flip side: Upside-down atomic layers could steer heat in stacked computer chips",
       "byline": "University of Tokyo",
       "siteName": "Phys.org",
@@ -31183,7 +31172,7 @@
     "n4ht6d": {
       "version": 4,
       "url": "https://phys.org/news/2026-11-tigers-zebras-quantum-dots-nanoparticles.html",
-      "fetchedAt": "2026-11-17T02:53:35.030Z",
+      "fetchedAt": "2026-11-17T02:57:15.515Z",
       "title": "Tigers, zebras, quantum dots: Nanoparticles assemble into patterns",
       "byline": "David Nutt",
       "siteName": "Phys.org",
@@ -31208,7 +31197,7 @@
     "4qq7ri": {
       "version": 4,
       "url": "https://www.zr.ru/content/news/988538-pozharnaya-opasnost-zastavila-b/",
-      "fetchedAt": "2026-11-17T02:53:35.080Z",
+      "fetchedAt": "2026-11-17T02:57:15.568Z",
       "title": "Опасность возгорания заставила BMW отозвать сотни тысяч машин",
       "byline": "Ушакова Ирина",
       "siteName": "zr.ru",
@@ -31229,13 +31218,13 @@
     "18ini4x": {
       "version": 4,
       "url": "https://www.motor1.com/news/815651/novitec-ferrari-12cilindri-body-kit/",
-      "fetchedAt": "2026-11-17T02:53:35.093Z",
+      "fetchedAt": "2026-11-17T02:57:15.600Z",
       "error": "HTTP 403"
     },
     "17je9st": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/movies/movie-news/robert-pattinson-manifested-james-bond-casting-2012-1236756679/",
-      "fetchedAt": "2026-11-17T02:53:35.379Z",
+      "fetchedAt": "2026-11-17T02:57:15.899Z",
       "title": "Robert Pattinson Manifested His James Bond Casting 14 Years Ago",
       "byline": "Carly Thomas",
       "siteName": "The Hollywood Reporter",
@@ -31252,7 +31241,7 @@
     "kzbhic": {
       "version": 4,
       "url": "https://9to5google.com/2026/11/16/chrome-157-googlebook/",
-      "fetchedAt": "2026-11-17T02:53:35.507Z",
+      "fetchedAt": "2026-11-17T02:57:16.003Z",
       "title": "Chrome 157 for Googlebook rolling out with 27 new features, improvements",
       "byline": "Abner Li",
       "siteName": "9to5Google",
@@ -31281,7 +31270,7 @@
     "61bfwp": {
       "version": 4,
       "url": "https://www.playground.ru/misc/news/pochinit_vetryanuyu_turbinu_posredi_shtorma_i_ne_sorvatsya_vniz_horror_below_the_blades_vyshel_v_steam-1891319",
-      "fetchedAt": "2026-11-17T02:53:35.559Z",
+      "fetchedAt": "2026-11-17T02:57:16.064Z",
       "title": "Починить ветряную турбину посреди шторма и не сорваться вниз - хоррор Below the Blades вышел в Steam",
       "byline": "GameTrailers",
       "siteName": "Playground",
@@ -31298,7 +31287,7 @@
     "1xte2ti": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/music/music-news/john-summit-tour-bus-involved-deadly-crash-1236756628/",
-      "fetchedAt": "2026-11-17T02:53:35.680Z",
+      "fetchedAt": "2026-11-17T02:57:16.217Z",
       "title": "John Summit’s Tour Bus Involved in Deadly Crash in Florida",
       "byline": "Carly Thomas",
       "siteName": "The Hollywood Reporter",
@@ -31312,31 +31301,10 @@
       "length": 1928,
       "imageCount": 1
     },
-    "1swkoa3": {
-      "version": 4,
-      "url": "https://www.omgubuntu.co.uk/2026/11/discord-linux-app-wayland-updates",
-      "fetchedAt": "2026-11-17T02:53:35.757Z",
-      "title": "Discord’s Linux app sure did improve a lot this year",
-      "byline": "Joey Sneddon",
-      "siteName": "OMG! Ubuntu",
-      "content": "Discord recently shared a potted roundup of improvements made to its Linux app this year, including smarter updating, better screen sharing on Wayland and working push-to-talk.\n\nTheir Discord <3 Linux: A Year of Upgrades blog post also reveals that per-app audio sharing is finally coming to Wayland-based desktops, though it’s not ready for testing just yet.\n\nAs I don’t personally use Discord that often, the roundup was an interesting read for me.\n\nNotable, Discord’s Linux installer was made a lot smaller. The new Deb package I downloaded is ~4.6 MB, while a (much) older release I found a link to is roughly 100 MB – a big difference!\n\nThe installer also installs a bit differently, launching a bootstrapped tool that unpacks the app in your home directory. Delta updates are used to reduce the amount of data fetched for subsequent releases, saving time and bandwidth – and don’t require sudo.\n\nDiscord’s Wayland support improved\n\nOfficial announcement video\n\nScreen sharing on Discord under Wayland has been patchy for ages, but thanks to work done with Igalia, the open source consultancy company, it’s in a much better state. Window sharing permissions get requested and granted via the XDG Desktop Portal.\n\nDiscord’s push-to-talk feature, which lets you hold a key to transmit your voice even when another app (like a game) is in focus, now works under Wayland too. The feature was implemented via the GlobalShortcuts portal.\n\nWayland is now default on most major Linux distributions, so Discord says it’s “the future we built for”. Video encoding now works on more supported GPUs, and its Go Live feature now works on Valve’s Linux-powered Steam Deck handheld.\n\nPer-app audio sharing in Discord Linux\n\nRight now, you can only share all of your system’s audio to Discord when running under Wayland or none of it. If you’re streaming a game but listening to music at the same time, you have to share both – not ideal.\n\nDiscord says it’s working with Igalia to add per-app audio sharing in xdg-desktop-portal so that you can choose which app (or game) sound passes through. It even says it is writing the relevant GNOME and KDE parts itself ‘to get it to users faster’.\n\nWhen? Well, it won’t be super-duper soon as the relevant pieces need to land upstream and then be adopted and added to Linux distributions. Discord say the work is a ‘long term investment’ at making a great Linux screensharing experience.\n\nNot just for their app, either. The changes will benefit any software that wants to securely access, record to share screens and audio on Linux desktops under Wayland.\n\nInstalling Discord on Ubuntu\n\nThe official snap remains the easiest way to install Discord on Ubuntu (and stay updated). Find it in the App Center or run sudo snap install discord from your preferred terminal emulator (which is Ghostty, right?).\n\nIf you prefer traditional packages, download the new(er, smaller) Debian package from the Discord website. If you get stuck with any of that, I have a guide to installing Discord on Ubuntu walking through those.\n\nHas Discord got better for you on Ubuntu? Does push-to-talk work on Wayland? Let me know in the comments.",
-      "images": [
-        {
-          "url": "https://www.omgubuntu.co.uk/wp-content/uploads/2024/11/discord-linux-no-watermark.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2024/11/discord-linux.jpg?w=1920&ssl=1",
-          "alt": ""
-        }
-      ],
-      "length": 3154,
-      "imageCount": 2
-    },
     "w41b0x": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/movies/movie-news/robert-pattinson-looks-like-james-bond-ian-fleming-sketch-1236756573/",
-      "fetchedAt": "2026-11-17T02:53:35.881Z",
+      "fetchedAt": "2026-11-17T02:57:16.380Z",
       "title": "At Least Robert Pattinson Looks the Part…According to Ian Fleming",
       "byline": "Benjamin Svetkey",
       "siteName": "The Hollywood Reporter",
@@ -31354,27 +31322,31 @@
       "length": 2133,
       "imageCount": 2
     },
-    "bmkk0p": {
+    "1swkoa3": {
       "version": 4,
-      "url": "https://deadline.com/2026/11/chris-long-direct-first-episode-katie-greaves-edie-falco-1237225773/",
-      "fetchedAt": "2026-11-17T02:53:36.153Z",
-      "title": "Chris Long To Direct First Episode Of Fox Legal Drama ‘Katie Greaves’ Starring Edie Falco",
-      "byline": "Denise Petski",
-      "siteName": "Deadline",
-      "content": "EXCLUSIVE: Two-time Emmy nominee Chris Long (The Americans) has been tapped to direct and executive produce the initial episode of Fox‘s upcoming legal drama Katie Greaves (working title), starring Edie Falco. The series, which will premiere during the 2027-28 season, comes from playwright and TV writer Sharr White (Apple TV’s Presumed Innocent), Scott Free Productions (FX’s Alien: Earth) and Fox Entertainment Studios.\n\nThe series centers on a whip-smart, fiercely committed attorney (Falco) who stepped away from the New Hampshire Public Defender’s office following a devastating personal tragedy. Now raising her two young granddaughters with her husband and trying to piece together a life she never expected, Katie is drawn back to the work that once defined her. Each case tests Katie’s instincts, wit, and deeply held belief that everyone deserves a second chance…and someone to fight for them.\n\nKatie Greaves (wt) is executive produced by White, Falco and Scott Fee’s Ridley Scott and David W. Zucker. Fox Entertainment Studios produces with worldwide distribution by Fox Entertainment Global.\n\nWidely known for his work on The Americans, Long recently served as executive producer and primary director of FX’s limited series The Patient, starring Steve Carrell and Domhall Gleeson. On the film side, he most recently finished directing Chicago-based thriller The Up and Comer, based Howard Roughan’s novel. The film stars Nate Mann, Shay Mitchell, Andrew Burnap, Rebecca De Mornay, Noah Emmerich, Sarah Bolger, Kunal Nayyar, and is slated for release in 2027. Long is currently in development with Wolf Entertainment and long-time collaborators Ken Woodruff and Erin Donovan on an international crime drama set in Marseille. He is represented by WME and Rain Management.",
+      "url": "https://www.omgubuntu.co.uk/2026/11/discord-linux-app-wayland-updates",
+      "fetchedAt": "2026-11-17T02:57:16.485Z",
+      "title": "Discord’s Linux app sure did improve a lot this year",
+      "byline": "Joey Sneddon",
+      "siteName": "OMG! Ubuntu",
+      "content": "Discord recently shared a potted roundup of improvements made to its Linux app this year, including smarter updating, better screen sharing on Wayland and working push-to-talk.\n\nTheir Discord <3 Linux: A Year of Upgrades blog post also reveals that per-app audio sharing is finally coming to Wayland-based desktops, though it’s not ready for testing just yet.\n\nAs I don’t personally use Discord that often, the roundup was an interesting read for me.\n\nNotable, Discord’s Linux installer was made a lot smaller. The new Deb package I downloaded is ~4.6 MB, while a (much) older release I found a link to is roughly 100 MB – a big difference!\n\nThe installer also installs a bit differently, launching a bootstrapped tool that unpacks the app in your home directory. Delta updates are used to reduce the amount of data fetched for subsequent releases, saving time and bandwidth – and don’t require sudo.\n\nDiscord’s Wayland support improved\n\nOfficial announcement video\n\nScreen sharing on Discord under Wayland has been patchy for ages, but thanks to work done with Igalia, the open source consultancy company, it’s in a much better state. Window sharing permissions get requested and granted via the XDG Desktop Portal.\n\nDiscord’s push-to-talk feature, which lets you hold a key to transmit your voice even when another app (like a game) is in focus, now works under Wayland too. The feature was implemented via the GlobalShortcuts portal.\n\nWayland is now default on most major Linux distributions, so Discord says it’s “the future we built for”. Video encoding now works on more supported GPUs, and its Go Live feature now works on Valve’s Linux-powered Steam Deck handheld.\n\nPer-app audio sharing in Discord Linux\n\nRight now, you can only share all of your system’s audio to Discord when running under Wayland or none of it. If you’re streaming a game but listening to music at the same time, you have to share both – not ideal.\n\nDiscord says it’s working with Igalia to add per-app audio sharing in xdg-desktop-portal so that you can choose which app (or game) sound passes through. It even says it is writing the relevant GNOME and KDE parts itself ‘to get it to users faster’.\n\nWhen? Well, it won’t be super-duper soon as the relevant pieces need to land upstream and then be adopted and added to Linux distributions. Discord say the work is a ‘long term investment’ at making a great Linux screensharing experience.\n\nNot just for their app, either. The changes will benefit any software that wants to securely access, record to share screens and audio on Linux desktops under Wayland.\n\nInstalling Discord on Ubuntu\n\nThe official snap remains the easiest way to install Discord on Ubuntu (and stay updated). Find it in the App Center or run sudo snap install discord from your preferred terminal emulator (which is Ghostty, right?).\n\nIf you prefer traditional packages, download the new(er, smaller) Debian package from the Discord website. If you get stuck with any of that, I have a guide to installing Discord on Ubuntu walking through those.\n\nHas Discord got better for you on Ubuntu? Does push-to-talk work on Wayland? Let me know in the comments.",
       "images": [
         {
-          "url": "https://deadline.com/wp-content/uploads/2026/11/Chris-Long-Fox.jpg?w=1000",
+          "url": "https://www.omgubuntu.co.uk/wp-content/uploads/2024/11/discord-linux-no-watermark.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://i0.wp.com/www.omgubuntu.co.uk/wp-content/uploads/2024/11/discord-linux.jpg?w=1920&ssl=1",
           "alt": ""
         }
       ],
-      "length": 1782,
-      "imageCount": 1
+      "length": 3154,
+      "imageCount": 2
     },
     "165j7o": {
       "version": 4,
       "url": "https://www.aljazeera.com/video/newsfeed/2026/11/16/trump-departs-for-asean-on-summit-with-xi-and-putin?traffic_source=rss",
-      "fetchedAt": "2026-11-17T02:53:36.238Z",
+      "fetchedAt": "2026-11-17T02:57:16.588Z",
       "title": "Trump departs for ASEAN on summit with Xi and Putin",
       "byline": "",
       "siteName": "Al Jazeera",
@@ -31388,31 +31360,27 @@
       "length": 361,
       "imageCount": 1
     },
-    "117o5bn": {
+    "bmkk0p": {
       "version": 4,
-      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
-      "fetchedAt": "2026-11-17T02:53:36.319Z",
-      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
-      "byline": "Julie Bort",
-      "siteName": "TechCrunch",
-      "content": "Three months after introducing its product, AI cybersecurity startup Corma has raised a $125 million Series A round at a $1 billion valuation led by NEA, the company said. Corma offers AI models and agents trained for cybersecurity defense. It has now raised a total of $185 million from backers, including Sequoia Capital, Khosla Ventures, and Coatue.\n\nThe startup came out of stealth in August. Interest in its product skyrocketed after a series of security incidents sent chief information security officers scrambling on October 21 when a critical flaw was found in PHP, a popular web programming language. Another flaw was found in Node.js, the open source JavaScript runtime environment. Popular open source tool LiteLLM, a proxy for routing requests to multiple LLM providers, also disclosed a security incident. Other incidents were disclosed that day, too. The day showcased the kind of onslaught on security that AI has enabled.\n\nCorma isn’t the only company using AI to play defense. Other examples include Kevin Mandia’s new startup Armadin, as well as Anthropic, OpenAI, Microsoft, and other established players, and too many other startups to count. Still, it’s a young market and a necessary one. Corma says it stands out from the crowd by being a frontier AI research lab focused on protection.\n\nTopics\n\nSubscribe for the industry’s biggest tech news\n\nLatest in Startups",
+      "url": "https://deadline.com/2026/11/chris-long-direct-first-episode-katie-greaves-edie-falco-1237225773/",
+      "fetchedAt": "2026-11-17T02:57:16.909Z",
+      "title": "Chris Long To Direct First Episode Of Fox Legal Drama ‘Katie Greaves’ Starring Edie Falco",
+      "byline": "Denise Petski",
+      "siteName": "Deadline",
+      "content": "EXCLUSIVE: Two-time Emmy nominee Chris Long (The Americans) has been tapped to direct and executive produce the initial episode of Fox‘s upcoming legal drama Katie Greaves (working title), starring Edie Falco. The series, which will premiere during the 2027-28 season, comes from playwright and TV writer Sharr White (Apple TV’s Presumed Innocent), Scott Free Productions (FX’s Alien: Earth) and Fox Entertainment Studios.\n\nThe series centers on a whip-smart, fiercely committed attorney (Falco) who stepped away from the New Hampshire Public Defender’s office following a devastating personal tragedy. Now raising her two young granddaughters with her husband and trying to piece together a life she never expected, Katie is drawn back to the work that once defined her. Each case tests Katie’s instincts, wit, and deeply held belief that everyone deserves a second chance…and someone to fight for them.\n\nKatie Greaves (wt) is executive produced by White, Falco and Scott Fee’s Ridley Scott and David W. Zucker. Fox Entertainment Studios produces with worldwide distribution by Fox Entertainment Global.\n\nWidely known for his work on The Americans, Long recently served as executive producer and primary director of FX’s limited series The Patient, starring Steve Carrell and Domhall Gleeson. On the film side, he most recently finished directing Chicago-based thriller The Up and Comer, based Howard Roughan’s novel. The film stars Nate Mann, Shay Mitchell, Andrew Burnap, Rebecca De Mornay, Noah Emmerich, Sarah Bolger, Kunal Nayyar, and is slated for release in 2027. Long is currently in development with Wolf Entertainment and long-time collaborators Ken Woodruff and Erin Donovan on an international crime drama set in Marseille. He is represented by WME and Rain Management.",
       "images": [
         {
-          "url": "https://techcrunch.com/wp-content/uploads/2026/10/Networked-AI-swarm-with-glowing-nodes.png?resize=1200,600",
+          "url": "https://deadline.com/wp-content/uploads/2026/11/Chris-Long-Fox.jpg?w=1000",
           "alt": ""
-        },
-        {
-          "url": "https://techcrunch.com/wp-content/uploads/2025/08/julie-bort-disrupt.jpg",
-          "alt": "Julie Bort"
         }
       ],
-      "length": 1386,
-      "imageCount": 2
+      "length": 1782,
+      "imageCount": 1
     },
     "2myhpj": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/news/general-news/john-oliver-tom-papa-michael-j-fox-gala-faa-ground-stop-1236756623/",
-      "fetchedAt": "2026-11-17T02:53:36.519Z",
+      "fetchedAt": "2026-11-17T02:57:17.177Z",
       "title": "John Oliver Fills in for Tom Papa at Michael J. Fox Foundation Gala After FAA Ground Stop",
       "byline": "Hilary Lewis",
       "siteName": "The Hollywood Reporter",
@@ -31426,27 +31394,10 @@
       "length": 4908,
       "imageCount": 1
     },
-    "9t442c": {
-      "version": 4,
-      "url": "https://www.gematsu.com/2026/11/high-roller-penny-launches-january-12-2027",
-      "fetchedAt": "2026-11-17T02:53:36.645Z",
-      "title": "High Roller Penny launches January 12, 2027",
-      "byline": "Sal Romano",
-      "siteName": "Gematsu",
-      "content": "PC\n\nPachinko-inspired roguelike game dated.\nPachinko-inspired roguelike game High Roller Penny, a pachinko-inspired roguelike game, will launch for PC via Steam on January 12, 2027, developer Kniv Studio announced. Here is an overview of the game, via its Steam page:AboutHigh Roller Penny is a pachinko-inspired roguelike about creating big numbers for your freedom and the happiness of your Bunny Girl.Drop a ball down your pegboard and watch it fly, with every peg hit adding points to your score. Overcome the quota, and you’ll live to see another round. But strike out, and you’re literally dead!Procure powerful pegs, create cascading combos, and see your score soar—then do it all over again with new pegs and balls to go even further!\nKey FeaturesHypnotic ball physics and dopamine hits with every peg you pop!Win tickets and purchase powerful pegs and balls for better builds and synergies.Everything comes at a price. You can sell off everything you own, your tickets, your pegs, even your precious balls.. just be sure you can recoup them!A seedy casino teeming with debt-addled individuals to bet against, each with their own special tricks.Bouncy bunny girls. Boing!BackgroundEnter Yami-Pachi, a shady, underground organization that runs illegal, life-or-death gambling games—using their debtors as the players. With immense control over most casinos and money beyond your imagination, it’s the corrupted, beating heart that pumps dirty money through the undercity.You are a pathetic debtor who was beaten over the head by Penny, a Bunny Girl and debtor handler who abducted you to Yami-Pachi. Unfortunately for you, Penny’s not like the other Bunny Girls—she’s a lunatic who cares for nothing but the High Roller.Penny is invoking the High Roller Rule! Under Yami-pachi’s watch, a High Roller game pits two bunny girls against each other.Man does your luck suck.As the challenger, your goal is to defeat all other bunny girls and rise to the top of the ranks! If you win, Penny claims her glory and your debts are fully repaid. If you lose… well, it’s best not to think about it.Either way, you don’t have much of a choice. Go big… or get executed on the spot!Watch a new trailer below.Release Date TrailerEnglishJapaneseKoreanSimplified Chinese",
-      "images": [
-        {
-          "url": "https://www.gematsu.com/wp-content/uploads/2026/11/High-Roller-Penny-Date_11-16-26.jpg",
-          "alt": ""
-        }
-      ],
-      "length": 2259,
-      "imageCount": 1
-    },
     "zhmsmg": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/movies/movie-features/rob-riggle-saw-nickels-comedy-1236753351/",
-      "fetchedAt": "2026-11-17T02:53:36.764Z",
+      "fetchedAt": "2026-11-17T02:57:17.340Z",
       "title": "Rob Riggle Saw ‘Nickels’ As a Way to Branch Out from Comedy",
       "byline": "Aaron Couch",
       "siteName": "The Hollywood Reporter",
@@ -31464,10 +31415,48 @@
       "length": 4914,
       "imageCount": 2
     },
+    "9t442c": {
+      "version": 4,
+      "url": "https://www.gematsu.com/2026/11/high-roller-penny-launches-january-12-2027",
+      "fetchedAt": "2026-11-17T02:57:17.493Z",
+      "title": "High Roller Penny launches January 12, 2027",
+      "byline": "Sal Romano",
+      "siteName": "Gematsu",
+      "content": "PC\n\nPachinko-inspired roguelike game dated.\nPachinko-inspired roguelike game High Roller Penny, a pachinko-inspired roguelike game, will launch for PC via Steam on January 12, 2027, developer Kniv Studio announced. Here is an overview of the game, via its Steam page:AboutHigh Roller Penny is a pachinko-inspired roguelike about creating big numbers for your freedom and the happiness of your Bunny Girl.Drop a ball down your pegboard and watch it fly, with every peg hit adding points to your score. Overcome the quota, and you’ll live to see another round. But strike out, and you’re literally dead!Procure powerful pegs, create cascading combos, and see your score soar—then do it all over again with new pegs and balls to go even further!\nKey FeaturesHypnotic ball physics and dopamine hits with every peg you pop!Win tickets and purchase powerful pegs and balls for better builds and synergies.Everything comes at a price. You can sell off everything you own, your tickets, your pegs, even your precious balls.. just be sure you can recoup them!A seedy casino teeming with debt-addled individuals to bet against, each with their own special tricks.Bouncy bunny girls. Boing!BackgroundEnter Yami-Pachi, a shady, underground organization that runs illegal, life-or-death gambling games—using their debtors as the players. With immense control over most casinos and money beyond your imagination, it’s the corrupted, beating heart that pumps dirty money through the undercity.You are a pathetic debtor who was beaten over the head by Penny, a Bunny Girl and debtor handler who abducted you to Yami-Pachi. Unfortunately for you, Penny’s not like the other Bunny Girls—she’s a lunatic who cares for nothing but the High Roller.Penny is invoking the High Roller Rule! Under Yami-pachi’s watch, a High Roller game pits two bunny girls against each other.Man does your luck suck.As the challenger, your goal is to defeat all other bunny girls and rise to the top of the ranks! If you win, Penny claims her glory and your debts are fully repaid. If you lose… well, it’s best not to think about it.Either way, you don’t have much of a choice. Go big… or get executed on the spot!Watch a new trailer below.Release Date TrailerEnglishJapaneseKoreanSimplified Chinese",
+      "images": [
+        {
+          "url": "https://www.gematsu.com/wp-content/uploads/2026/11/High-Roller-Penny-Date_11-16-26.jpg",
+          "alt": ""
+        }
+      ],
+      "length": 2259,
+      "imageCount": 1
+    },
+    "117o5bn": {
+      "version": 4,
+      "url": "https://techcrunch.com/2026/11/16/cybersecurity-ai-startup-corma-reaches-1b-valuation-in-about-3-months/",
+      "fetchedAt": "2026-11-17T02:57:17.646Z",
+      "title": "Cybersecurity AI startup Corma reaches $1B valuation in about 3 months",
+      "byline": "Julie Bort",
+      "siteName": "TechCrunch",
+      "content": "Three months after introducing its product, AI cybersecurity startup Corma has raised a $125 million Series A round at a $1 billion valuation led by NEA, the company said. Corma offers AI models and agents trained for cybersecurity defense. It has now raised a total of $185 million from backers, including Sequoia Capital, Khosla Ventures, and Coatue.\n\nThe startup came out of stealth in August. Interest in its product skyrocketed after a series of security incidents sent chief information security officers scrambling on October 21 when a critical flaw was found in PHP, a popular web programming language. Another flaw was found in Node.js, the open source JavaScript runtime environment. Popular open source tool LiteLLM, a proxy for routing requests to multiple LLM providers, also disclosed a security incident. Other incidents were disclosed that day, too. The day showcased the kind of onslaught on security that AI has enabled.\n\nCorma isn’t the only company using AI to play defense. Other examples include Kevin Mandia’s new startup Armadin, as well as Anthropic, OpenAI, Microsoft, and other established players, and too many other startups to count. Still, it’s a young market and a necessary one. Corma says it stands out from the crowd by being a frontier AI research lab focused on protection.\n\nTopics\n\nSubscribe for the industry’s biggest tech news\n\nLatest in Startups",
+      "images": [
+        {
+          "url": "https://techcrunch.com/wp-content/uploads/2026/10/Networked-AI-swarm-with-glowing-nodes.png?resize=1200,600",
+          "alt": ""
+        },
+        {
+          "url": "https://techcrunch.com/wp-content/uploads/2025/08/julie-bort-disrupt.jpg",
+          "alt": "Julie Bort"
+        }
+      ],
+      "length": 1386,
+      "imageCount": 2
+    },
     "ni6siw": {
       "version": 4,
       "url": "https://deadline.com/2026/11/nicolas-cage-chris-pine-american-epic-series-bj-novak-a24-1237222431/",
-      "fetchedAt": "2026-11-17T02:53:37.011Z",
+      "fetchedAt": "2026-11-17T02:57:17.968Z",
       "title": "Nicolas Cage & Chris Pine To Star In Vegas Drama Series ‘American Epic’ From B.J. Novak & A24",
       "byline": "Nellie Andreeva",
       "siteName": "Deadline",
@@ -31484,7 +31473,7 @@
     "1ao295l": {
       "version": 4,
       "url": "https://variety.com/2026/film/news/spider-man-brand-new-day-extended-cut-release-date-1236949654/",
-      "fetchedAt": "2026-11-17T02:53:37.203Z",
+      "fetchedAt": "2026-11-17T02:57:18.323Z",
       "title": "'Spider-Man: Brand New Day' Extended Cut Sets December Release Date",
       "byline": "Jack Dunn",
       "siteName": "Variety",
@@ -31498,31 +31487,10 @@
       "length": 2626,
       "imageCount": 1
     },
-    "188wy6p": {
-      "version": 4,
-      "url": "https://www.caranddriver.com/photos/a74412141/2027-bmw-m3-prototype-drive-gallery/",
-      "fetchedAt": "2026-11-17T02:53:37.375Z",
-      "title": "View Photos of the 2027 BMW M3 Prototype",
-      "byline": "Jennifer Misaros",
-      "siteName": "Car and Driver",
-      "content": "BMWEach wheel gets its own motor, but rear-drive-style antics are still possible.1BMWTotal output is estimated at 838 horsepower.Advertisement - Continue Reading Below2BMWIn normal driving, the M3 operates strictly in rear-wheel drive.3BMWThe M3 has wider bodywork than the i3 sedan.Advertisement - Continue Reading Below4BMWKeep scrolling to see more pictures of the 2027 BMW M3.5BMWAdvertisement - Continue Reading Below6BMW7BMWAdvertisement - Continue Reading Below8BMW9BMWAdvertisement - Continue Reading Below10BMW11BMWAdvertisement - Continue Reading Below12BMW13BMWAdvertisement - Continue Reading Below14BMW15BMWAdvertisement - Continue Reading Below16BMW17BMWAdvertisement - Continue Reading Below18BMW19BMWFor Sale Near YouSee all results for near 34746",
-      "images": [
-        {
-          "url": "https://hips.hearstapps.com/hmg-prod/images/6ef12c64-0cfb-494d-9e64-9bd7dadec8b0.jpg?crop=0.776xw:0.582xh;0.079xw,0.311xh&resize=1200:*",
-          "alt": ""
-        },
-        {
-          "url": "https://www.caranddriver.com/photos/a74412141/2027-bmw-m3-prototype-drive-gallery/top",
-          "alt": "Sporty car with bold red, blue, and white camouflage design skidding on a racetrack under a clear blue sky."
-        }
-      ],
-      "length": 763,
-      "imageCount": 2
-    },
     "jat4xn": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/movies/movie-news/spider-man-brand-new-day-rerelease-theaters-rosario-dawson-1236756620/",
-      "fetchedAt": "2026-11-17T02:53:37.568Z",
+      "fetchedAt": "2026-11-17T02:57:18.583Z",
       "title": "‘Spider-Man: Brand New Day’ Set for December Rerelease With New Scenes",
       "byline": "Ryan Gajewski",
       "siteName": "The Hollywood Reporter",
@@ -31540,31 +31508,31 @@
       "length": 2970,
       "imageCount": 2
     },
-    "1pi82c": {
+    "188wy6p": {
       "version": 4,
-      "url": "https://www.caranddriver.com/reviews/a74412329/2027-bmw-m3-prototype-drive/",
-      "fetchedAt": "2026-11-17T02:53:37.678Z",
-      "title": "M3 Goes EV! We Drive a Prototype as the M Car Undergoes a Monumental Change",
-      "byline": "",
+      "url": "https://www.caranddriver.com/photos/a74412141/2027-bmw-m3-prototype-drive-gallery/",
+      "fetchedAt": "2026-11-17T02:57:18.817Z",
+      "title": "View Photos of the 2027 BMW M3 Prototype",
+      "byline": "Jennifer Misaros",
       "siteName": "Car and Driver",
-      "content": "Most BMW fans cannot help falling all over themselves when a new M3 is launched, but this time they might get well and truly tripped up. That’s because what BMW is calling “the fastest and most powerful BMW M3 of all time” is 100 percent electric. There’s no mention of a gasoline version and no special EV designation tagged onto the name, just “here’s the new 2027 BMW M3, and we hope you like it,” or words to that effect.After driving a camouflaged prototype and hearing all the dirty details at BMW’s Miramas test center in southern France, we most certainly do.This machine has four electrically excited synchronous motors, one for each wheel. The pair at each axle is not quite what you expect, with one motor situated ahead of the other and a reduction gear for one of them on each side of the shared housing. The front-axle motors make approximately 644 horsepower and 398 pound-feet of torque, while the pair on the rear axle is good for about 751 horsepower and 738 pound-feet. Combined output is likewise still subject to an asterisk at this pre-production stage, but total power is at least 838 horsepower, and torque is an axle-twisting 885 pound-feet. If you’re thinking the sum total is less than the two axles, you are absolutely correct. The surplus is there to allow for serious torque vectoring, both front to rear and side to side. In normal driving, the car operates strictly in rear-wheel drive, with the front axle brought in whenever there’s acceleration, if the situation demands front-axle recuperation, or if you have the drivetrain set to Sport mode.BMWFour motors require precise and rapid control during acceleration and braking, but they also play an outsize role in cornering. It all operates much more smoothly and immediately than any electronically controlled differential or transfer case ever could, so you absolutely get what you request. The so-called Heart of Joy (essentially another name for the M Dynamic Performance Control module) is the single ECU that oversees everything in the powertrain and driving dynamics arena. It’s the brain that seamlessly decides what motor is required for whatever demands you place on the car by looking at steering position, accelerator input, and braking demands, with a nod toward the basic settings that you have dialed in.The battery that powers all of this is specific to the M3, even though it fits in a similarly sized case as the one in the i3. It’s designed to give higher peak and sustained power output and is capable of higher energy recuperation (up to 540 kilowatts) and faster charging (420 kilowatts), which means it has a higher level of cooling. The battery capacity is slightly lower for all this, currently sitting at about 100 kWh. Estimated EPA range is currently 300 miles or so, but all of these numbers are subject to change. As for the difference between how this battery pack is installed versus the i3’s, the M3 gains a direct connection to the front and rear axle subframes for enhanced torsional rigidity for more precise handling.Whatever the underlying mumbo jumbo, we can say that it really works, and the result is simply epic. We first went out in the default mode, with the drivetrain, chassis, steering, and brakes set to Comfort and energy recovery set to Mid, just to get a feel of the track. Once we knew where we were going, we let fly with the M1 button, and that brought everything to Sport mode but left the energy recovery in Mid and, crucially, left the DSC stability control setting in On. We pressed the car hard, and the M3 absolutely responded, and our pace built immensely. But that eventually resulted in a bit too much understeer as speeds climbed, which led to a brief off-track excursion, as they say in the business. We kept on going, but the car was imposing a limit on our fun.We did what you would do at that point and duly selected the M2 button. That setting was programmed by our hosts to bring the drivetrain and chassis up to Sport+ and raised the recuperation to Max. It also put the DSC in a more permissive state, otherwise known as MDM, and all of that was the magic bullet. The car now dived toward apexes and slithered nicely out of corners. The front end was quite pointy, and the rear now had permission to loosen up. Our lap times fell, and our grin widened. This car felt alive. It really did feel like an M3, just like no other before it. Through it all, the braking response felt entirely natural, probably because on the track there was a strong base level of recuperation, overlaid with a thin veneer of friction braking for a precise feel of what is happening underfoot.Interestingly, there is a sound accompanying all of this, although BMW says it’s not modeled on any particular car. We drove it with the eDrive set to Auto, which delivers the augmented sound of six gears known as “stages.” You don’t have to shift in this mode, and there’s no real interruption of power, but the interior sound level rises and falls as the car progresses up and down through each stage. There’s extra emphasis on powertrain load and aggression, too, so when you’re driving the M3 hard, it really does give you the auditory cues that you miss when you drive an otherwise-quiet EV. If you want a manual-like experience, you can set the eDrive accordingly, and then you’ll get shift lights, and it’ll even cut power if you don’t upshift at the right time. In the time we had, this setting was not particularly fun. We’ll table this issue for now, probably until we can get our own M3 to soak in. You can also turn the eDrive to Off, in which setting the car will just quietly amble along like any other EV, but what’s the fun in that?The prototype’s camouflage didn’t do much to cover up the exterior of the new M3, as it was formfitting. That said, you couldn’t really get a sense of the exterior look of the car, although it was still clear that every panel below the greenhouse was different from the i3. The body is distinctly pulled out to cover the wide Michelin Pilot Sport S 6 tires. Also clear to see were the M Yellow DRLs and the track lights below them, as well as many of the carbon-fiber bits, such as the hood vents, the rockers, and the mirror housings.It was even more difficult to see what was going on inside, as much of the interior was obscured. But you could still see some things, such as the steering wheel and its extra buttons. The top of the “wings” (because the spokes are lower down in typical Neue Klasse parlance) has two extra red buttons per side. There are the M1 and M2 buttons, but there’s also the M Setup button you use in conjunction with the touchscreen to program each one. The fourth button is interesting; press it twice to deactivate the ADAS active-safety minders. For track work, it’s nice to have one button that will do all that. The 17.9-inch central screen was obvious, but BMW had it covered much of the time, except to show the new screens that had to do with setting up the M buttons. The Panoramic Vision screen at the base of the windshield was mostly visible and mostly the same apart from fonts and the like, but for some reason the central section was blocked off.As for what it’s called, the car’s official name is just 2027 BMW M3. Like we said, there’s no EV or Electric nomenclature tagged onto the end. As for the unofficial model code that you may be wondering about, that is ZA0. More will be divulged as we get closer to its summer 2027 launch date, including the price. We have a $90,000 placeholder, but that is subject to change. As for an ICE version, there is no official word from BMW. Stay tuned.➡️ Skip the lot. Let Car and Driver help you find your next car.Dan Edmunds was born into the world of automobiles, but not how you might think. His father was a retired racing driver who opened Autoresearch, a race-car-building shop, where Dan cut his teeth as a metal fabricator. Engineering school followed, then SCCA Showroom Stock racing, and that combination landed him suspension development jobs at two different automakers. His writing career began when he was picked up by Edmunds.com (no relation) to build a testing department.",
+      "content": "BMWEach wheel gets its own motor, but rear-drive-style antics are still possible.1BMWTotal output is estimated at 838 horsepower.Advertisement - Continue Reading Below2BMWIn normal driving, the M3 operates strictly in rear-wheel drive.3BMWThe M3 has wider bodywork than the i3 sedan.Advertisement - Continue Reading Below4BMWKeep scrolling to see more pictures of the 2027 BMW M3.5BMWAdvertisement - Continue Reading Below6BMW7BMWAdvertisement - Continue Reading Below8BMW9BMWAdvertisement - Continue Reading Below10BMW11BMWAdvertisement - Continue Reading Below12BMW13BMWAdvertisement - Continue Reading Below14BMW15BMWAdvertisement - Continue Reading Below16BMW17BMWAdvertisement - Continue Reading Below18BMW19BMWFor Sale Near YouSee all results for near 34746",
       "images": [
         {
-          "url": "https://hips.hearstapps.com/hmg-prod/images/4aec8c16-234f-4135-9220-9ddc55eb9c1d.jpg?crop=0.827xw:0.62xh;0.066xw,0.117xh&resize=1200:*",
+          "url": "https://hips.hearstapps.com/hmg-prod/images/6ef12c64-0cfb-494d-9e64-9bd7dadec8b0.jpg?crop=0.776xw:0.582xh;0.079xw,0.311xh&resize=1200:*",
           "alt": ""
         },
         {
-          "url": "https://hips.hearstapps.com/rover/profile_photos/d7648292-7b58-45b9-ab5b-00d2255dd46b_1775487037.file?fill=1:1&resize=120:*",
-          "alt": "Headshot of Dan Edmunds"
+          "url": "https://www.caranddriver.com/photos/a74412141/2027-bmw-m3-prototype-drive-gallery/top",
+          "alt": "Sporty car with bold red, blue, and white camouflage design skidding on a racetrack under a clear blue sky."
         }
       ],
-      "length": 8149,
+      "length": 763,
       "imageCount": 2
     },
     "jnnz9t": {
       "version": 4,
       "url": "https://www.zr.ru/content/news/988563-audi-mozhet-doverit-a8-huawei/",
-      "fetchedAt": "2026-11-17T02:53:37.732Z",
+      "fetchedAt": "2026-11-17T02:57:18.890Z",
       "title": "Audi A8 следующего поколения может быть построена на китайской платформе",
       "byline": "Лежнин Роман",
       "siteName": "zr.ru",
@@ -31582,10 +31550,31 @@
       "length": 1647,
       "imageCount": 2
     },
+    "1pi82c": {
+      "version": 4,
+      "url": "https://www.caranddriver.com/reviews/a74412329/2027-bmw-m3-prototype-drive/",
+      "fetchedAt": "2026-11-17T02:57:19.055Z",
+      "title": "M3 Goes EV! We Drive a Prototype as the M Car Undergoes a Monumental Change",
+      "byline": "",
+      "siteName": "Car and Driver",
+      "content": "Most BMW fans cannot help falling all over themselves when a new M3 is launched, but this time they might get well and truly tripped up. That’s because what BMW is calling “the fastest and most powerful BMW M3 of all time” is 100 percent electric. There’s no mention of a gasoline version and no special EV designation tagged onto the name, just “here’s the new 2027 BMW M3, and we hope you like it,” or words to that effect.After driving a camouflaged prototype and hearing all the dirty details at BMW’s Miramas test center in southern France, we most certainly do.This machine has four electrically excited synchronous motors, one for each wheel. The pair at each axle is not quite what you expect, with one motor situated ahead of the other and a reduction gear for one of them on each side of the shared housing. The front-axle motors make approximately 644 horsepower and 398 pound-feet of torque, while the pair on the rear axle is good for about 751 horsepower and 738 pound-feet. Combined output is likewise still subject to an asterisk at this pre-production stage, but total power is at least 838 horsepower, and torque is an axle-twisting 885 pound-feet. If you’re thinking the sum total is less than the two axles, you are absolutely correct. The surplus is there to allow for serious torque vectoring, both front to rear and side to side. In normal driving, the car operates strictly in rear-wheel drive, with the front axle brought in whenever there’s acceleration, if the situation demands front-axle recuperation, or if you have the drivetrain set to Sport mode.BMWFour motors require precise and rapid control during acceleration and braking, but they also play an outsize role in cornering. It all operates much more smoothly and immediately than any electronically controlled differential or transfer case ever could, so you absolutely get what you request. The so-called Heart of Joy (essentially another name for the M Dynamic Performance Control module) is the single ECU that oversees everything in the powertrain and driving dynamics arena. It’s the brain that seamlessly decides what motor is required for whatever demands you place on the car by looking at steering position, accelerator input, and braking demands, with a nod toward the basic settings that you have dialed in.The battery that powers all of this is specific to the M3, even though it fits in a similarly sized case as the one in the i3. It’s designed to give higher peak and sustained power output and is capable of higher energy recuperation (up to 540 kilowatts) and faster charging (420 kilowatts), which means it has a higher level of cooling. The battery capacity is slightly lower for all this, currently sitting at about 100 kWh. Estimated EPA range is currently 300 miles or so, but all of these numbers are subject to change. As for the difference between how this battery pack is installed versus the i3’s, the M3 gains a direct connection to the front and rear axle subframes for enhanced torsional rigidity for more precise handling.Whatever the underlying mumbo jumbo, we can say that it really works, and the result is simply epic. We first went out in the default mode, with the drivetrain, chassis, steering, and brakes set to Comfort and energy recovery set to Mid, just to get a feel of the track. Once we knew where we were going, we let fly with the M1 button, and that brought everything to Sport mode but left the energy recovery in Mid and, crucially, left the DSC stability control setting in On. We pressed the car hard, and the M3 absolutely responded, and our pace built immensely. But that eventually resulted in a bit too much understeer as speeds climbed, which led to a brief off-track excursion, as they say in the business. We kept on going, but the car was imposing a limit on our fun.We did what you would do at that point and duly selected the M2 button. That setting was programmed by our hosts to bring the drivetrain and chassis up to Sport+ and raised the recuperation to Max. It also put the DSC in a more permissive state, otherwise known as MDM, and all of that was the magic bullet. The car now dived toward apexes and slithered nicely out of corners. The front end was quite pointy, and the rear now had permission to loosen up. Our lap times fell, and our grin widened. This car felt alive. It really did feel like an M3, just like no other before it. Through it all, the braking response felt entirely natural, probably because on the track there was a strong base level of recuperation, overlaid with a thin veneer of friction braking for a precise feel of what is happening underfoot.Interestingly, there is a sound accompanying all of this, although BMW says it’s not modeled on any particular car. We drove it with the eDrive set to Auto, which delivers the augmented sound of six gears known as “stages.” You don’t have to shift in this mode, and there’s no real interruption of power, but the interior sound level rises and falls as the car progresses up and down through each stage. There’s extra emphasis on powertrain load and aggression, too, so when you’re driving the M3 hard, it really does give you the auditory cues that you miss when you drive an otherwise-quiet EV. If you want a manual-like experience, you can set the eDrive accordingly, and then you’ll get shift lights, and it’ll even cut power if you don’t upshift at the right time. In the time we had, this setting was not particularly fun. We’ll table this issue for now, probably until we can get our own M3 to soak in. You can also turn the eDrive to Off, in which setting the car will just quietly amble along like any other EV, but what’s the fun in that?The prototype’s camouflage didn’t do much to cover up the exterior of the new M3, as it was formfitting. That said, you couldn’t really get a sense of the exterior look of the car, although it was still clear that every panel below the greenhouse was different from the i3. The body is distinctly pulled out to cover the wide Michelin Pilot Sport S 6 tires. Also clear to see were the M Yellow DRLs and the track lights below them, as well as many of the carbon-fiber bits, such as the hood vents, the rockers, and the mirror housings.It was even more difficult to see what was going on inside, as much of the interior was obscured. But you could still see some things, such as the steering wheel and its extra buttons. The top of the “wings” (because the spokes are lower down in typical Neue Klasse parlance) has two extra red buttons per side. There are the M1 and M2 buttons, but there’s also the M Setup button you use in conjunction with the touchscreen to program each one. The fourth button is interesting; press it twice to deactivate the ADAS active-safety minders. For track work, it’s nice to have one button that will do all that. The 17.9-inch central screen was obvious, but BMW had it covered much of the time, except to show the new screens that had to do with setting up the M buttons. The Panoramic Vision screen at the base of the windshield was mostly visible and mostly the same apart from fonts and the like, but for some reason the central section was blocked off.As for what it’s called, the car’s official name is just 2027 BMW M3. Like we said, there’s no EV or Electric nomenclature tagged onto the end. As for the unofficial model code that you may be wondering about, that is ZA0. More will be divulged as we get closer to its summer 2027 launch date, including the price. We have a $90,000 placeholder, but that is subject to change. As for an ICE version, there is no official word from BMW. Stay tuned.➡️ Skip the lot. Let Car and Driver help you find your next car.Dan Edmunds was born into the world of automobiles, but not how you might think. His father was a retired racing driver who opened Autoresearch, a race-car-building shop, where Dan cut his teeth as a metal fabricator. Engineering school followed, then SCCA Showroom Stock racing, and that combination landed him suspension development jobs at two different automakers. His writing career began when he was picked up by Edmunds.com (no relation) to build a testing department.",
+      "images": [
+        {
+          "url": "https://hips.hearstapps.com/hmg-prod/images/4aec8c16-234f-4135-9220-9ddc55eb9c1d.jpg?crop=0.827xw:0.62xh;0.066xw,0.117xh&resize=1200:*",
+          "alt": ""
+        },
+        {
+          "url": "https://hips.hearstapps.com/rover/profile_photos/d7648292-7b58-45b9-ab5b-00d2255dd46b_1775487037.file?fill=1:1&resize=120:*",
+          "alt": "Headshot of Dan Edmunds"
+        }
+      ],
+      "length": 8149,
+      "imageCount": 2
+    },
     "7vtbip": {
       "version": 4,
       "url": "https://xusheng.dev/posts/windows-coding-agent-telemetry/",
-      "fetchedAt": "2026-11-17T02:53:37.784Z",
+      "fetchedAt": "2026-11-17T02:57:19.168Z",
       "title": "Windows 11 Is Collecting Data on Which Coding Agents and Developer Tools You Use",
       "byline": "",
       "siteName": "Xusheng Li",
@@ -31610,7 +31599,7 @@
     "rj8i33": {
       "version": 4,
       "url": "https://www.bleepingcomputer.com/news/security/gemini-ai-agents-repeatedly-bypassed-safeguards-to-attack-real-website/",
-      "fetchedAt": "2026-11-17T02:53:38.020Z",
+      "fetchedAt": "2026-11-17T02:57:19.454Z",
       "title": "Gemini AI agents repeatedly bypassed safeguards to attack real website",
       "byline": "Lawrence Abrams",
       "siteName": "BleepingComputer",
@@ -31621,7 +31610,7 @@
           "alt": ""
         },
         {
-          "url": "https://www.bleepstatic.com/c/w/AI-Security-Bundle.jpg",
+          "url": "https://www.bleepstatic.com/c/w/AITR-Playbook.jpg",
           "alt": "image"
         },
         {
@@ -31635,7 +31624,7 @@
     "8h57bp": {
       "version": 4,
       "url": "https://www.playground.ru/misc/news/polyoty_na_grani_smerti_anonsirovan_ekstremalnyj_simulyator_wingsuit_simulator-1891309",
-      "fetchedAt": "2026-11-17T02:53:38.258Z",
+      "fetchedAt": "2026-11-17T02:57:19.685Z",
       "title": "Полёты на грани смерти - анонсирован экстремальный симулятор Wingsuit Simulator",
       "byline": "GameTrailers",
       "siteName": "Playground",
@@ -31652,7 +31641,7 @@
     "6874cy": {
       "version": 4,
       "url": "https://www.dw.com/ru/%D0%BF%D0%B5%D1%80%D0%B5%D0%B3%D0%BE%D0%B2%D0%BE%D1%80%D0%BD%D0%B0%D1%8F-%D0%BA%D0%BE%D0%BC%D0%B0%D0%BD%D0%B4%D0%B0-%D0%B5%D1%81-%D0%B2%D0%BF%D0%B5%D1%80%D0%B2%D1%8B%D0%B5-%D0%BF%D0%BE%D1%83%D1%87%D0%B0%D1%81%D1%82%D0%B2%D0%BE%D0%B2%D0%B0%D0%BB%D0%B0-%D0%B2-%D0%B4%D0%B8%D0%B0%D0%BB%D0%BE%D0%B3%D0%B5-%D1%81%D1%88%D0%B0-%D0%B8-%D1%83%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D1%8B/a-79964352?maca=rus-rss-ru-all-1126-rdf",
-      "fetchedAt": "2026-11-17T02:53:38.647Z",
+      "fetchedAt": "2026-11-17T02:57:20.090Z",
       "title": "Европейская команда переговорщиков впервые поучаствовала в переговорах Киева и США о мире",
       "byline": "Антон Орлов",
       "siteName": "Deutsche Welle",
