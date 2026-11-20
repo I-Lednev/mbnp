@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-20T09:07:56.718Z",
-  "tookMs": 8415,
+  "generatedAt": "2026-11-20T09:10:01.859Z",
+  "tookMs": 9230,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -28,7 +28,7 @@
     "games": 600,
     "announces": 32,
     "mobile": 10,
-    "releases": 38,
+    "releases": 39,
     "rumors": 24,
     "software": 93,
     "science": 284,
@@ -43,7 +43,7 @@
     "aisoft": 111,
     "cars": 523,
     "war": 600,
-    "total": 4451
+    "total": 4452
   },
   "sourceCount": 89,
   "sources": [
@@ -690,12 +690,6 @@
       "error": "HTTP 429"
     },
     {
-      "source": "PlayStation Universe",
-      "url": "https://www.psu.com/feed/",
-      "error": "ответ не похож на RSS/Atom",
-      "reused": 10
-    },
-    {
       "source": "Kyiv Independent",
       "url": "https://kyivindependent.com/feed/",
       "error": "HTTP 404"
@@ -714,7 +708,7 @@
       "excerpt": "🤴🏼 Clean-room reimplementation of Emperor: Rise of the Middle Kingdom in C++20 and SDL3. Built for modern systems, starting with Apple Silicon macOS. Early development; original game data required.",
       "image": "",
       "publishedAt": "2026-11-20T08:59:33Z",
-      "addedAt": "2026-11-20T09:07:51.967Z",
+      "addedAt": "2026-11-20T09:09:56.655Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -727,7 +721,7 @@
       "excerpt": "Metropolismania PC: a native PC port of Metropolismania (PS2) by static recompilation with PS2Recomp. Bring your own disc.",
       "image": "",
       "publishedAt": "2026-11-20T08:16:29Z",
-      "addedAt": "2026-11-20T09:07:51.967Z",
+      "addedAt": "2026-11-20T09:09:56.655Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -740,7 +734,7 @@
       "excerpt": "A true 1:1 C++20 source decompliation and modernization of the original Little Fighter 2 (lf2.exe, version 1.9c / 2.0a, x86-32 MSVC++).",
       "image": "",
       "publishedAt": "2026-11-20T03:11:30Z",
-      "addedAt": "2026-11-20T09:07:51.514Z",
+      "addedAt": "2026-11-20T09:09:56.249Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -753,7 +747,7 @@
       "excerpt": "Native Apple Silicon port of Rocksmith 2014, recompiled from your own copy of the game. Mac and Learn & Play editions, offline, no game files included.",
       "image": "",
       "publishedAt": "2026-11-20T09:01:55Z",
-      "addedAt": "2026-11-20T09:07:50.975Z",
+      "addedAt": "2026-11-20T09:09:55.762Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -766,7 +760,7 @@
       "excerpt": "OpenPark: Bullfrog's Theme Park (1994) as native code — a static recompilation of your own copy, with a native host, widescreen, zoom and extras from other editions. macOS first; Windows and Linux next.",
       "image": "",
       "publishedAt": "2026-11-20T07:05:41Z",
-      "addedAt": "2026-11-20T09:07:50.975Z",
+      "addedAt": "2026-11-20T09:09:55.762Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -779,7 +773,7 @@
       "excerpt": "The Sims Legacy Collection (Steam) natively on Apple Silicon and Linux: a static recompilation of your own copy, Vulkan via MoltenVK (work in progress)",
       "image": "",
       "publishedAt": "2026-11-20T07:05:39Z",
-      "addedAt": "2026-11-20T09:07:50.975Z",
+      "addedAt": "2026-11-20T09:09:55.762Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -792,7 +786,7 @@
       "excerpt": "",
       "image": "",
       "publishedAt": "2026-11-20T07:05:36Z",
-      "addedAt": "2026-11-20T09:07:50.975Z",
+      "addedAt": "2026-11-20T09:09:55.762Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -805,11 +799,31 @@
       "excerpt": "Tom Clancy's Rainbow Six (GOG 1.04) statically recompiled from your own copy into native Apple Silicon macOS (Metal) and Linux apps, with cross-OS co-op (work in progress)",
       "image": "",
       "publishedAt": "2026-11-20T07:05:32Z",
-      "addedAt": "2026-11-20T09:07:50.975Z",
+      "addedAt": "2026-11-20T09:09:55.762Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
       "lang": "en"
+    },
+    {
+      "id": "78l2ui",
+      "title": "Низкий расход и богатое оснащение: совершенно новый Haval Jolion вышел на рынок",
+      "url": "https://www.zr.ru/content/news/988781-jolion-s-rozetkoj-za-285-mln/",
+      "excerpt": "Гибридный Haval Jolion Max PHEV начали продавать в ЮАР с ценой 2,85 млн рублей",
+      "content": "Гибридный Haval Jolion Max PHEV начали продавать в ЮАР с ценой 2,85 млн рублей",
+      "image": "https://www.zr.ru/_ah/img/W5we2WpDseuqNMj92EQBNQ",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/W5we2WpDseuqNMj92EQBNQ",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-20T09:08:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "eezi78",
@@ -829,7 +843,7 @@
       "source": "Ukrinform",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "zq3zg4",
@@ -849,7 +863,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "15hj4gy",
@@ -869,7 +883,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1pkprto",
@@ -889,7 +903,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "sjbelq",
@@ -909,7 +923,7 @@
       "source": "Motor1",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "6zw15t",
@@ -924,22 +938,7 @@
       "source": "InterMedia",
       "category": "entertainment",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
-    },
-    {
-      "id": "now4uf",
-      "title": "Russia’s day-long attack on Kyiv damages embassies",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/20/russias-day-long-attack-on-kyiv-damages-embassies?traffic_source=rss",
-      "excerpt": "",
-      "content": "",
-      "image": "",
-      "images": [],
-      "publishedAt": "2026-11-20T08:56:08.000Z",
-      "sourceId": "aljazeera",
-      "source": "Al Jazeera",
-      "category": "war",
-      "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "h5uvnx",
@@ -963,7 +962,7 @@
       "source": "DTF",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1uhnadz",
@@ -983,7 +982,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "6ljtws",
@@ -1003,7 +1002,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1n5d3d5",
@@ -1023,7 +1022,7 @@
       "source": "Игромания",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1xqii4i",
@@ -1043,7 +1042,7 @@
       "source": "StopGame",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "13gg67t",
@@ -1058,7 +1057,7 @@
       "source": "InterMedia",
       "category": "entertainment",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1v8m0me",
@@ -1078,7 +1077,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "2tycxv",
@@ -1098,7 +1097,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "cuij1g",
@@ -1118,7 +1117,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1yhoqnc",
@@ -1138,7 +1137,7 @@
       "source": "Игромания",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1eme3sj",
@@ -1153,7 +1152,7 @@
       "source": "Stack Overflow",
       "category": "aisoft",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "w2f05p",
@@ -1173,7 +1172,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "13qfrws",
@@ -1188,7 +1187,7 @@
       "source": "InterMedia",
       "category": "entertainment",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "16fr4av",
@@ -1208,7 +1207,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1y7a4n7",
@@ -1228,7 +1227,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1mb72rq",
@@ -1248,7 +1247,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1ked5n4",
@@ -1268,7 +1267,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "19f3k86",
@@ -1288,7 +1287,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "480083",
@@ -1303,7 +1302,7 @@
       "source": "InterMedia",
       "category": "entertainment",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "z93xch",
@@ -1318,7 +1317,7 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1t1fbux",
@@ -1333,7 +1332,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "2rcon0",
@@ -1353,7 +1352,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1uiomg6",
@@ -1373,7 +1372,7 @@
       "source": "3DNews Игры",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "y68zud",
@@ -1393,7 +1392,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "obvfi8",
@@ -1413,7 +1412,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1vwue5",
@@ -1433,7 +1432,7 @@
       "source": "Motor1",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1wa3di0",
@@ -1453,7 +1452,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1i1979a",
@@ -1473,7 +1472,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "136gkiu",
@@ -1488,7 +1487,7 @@
       "source": "InterMedia",
       "category": "entertainment",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1q5msyn",
@@ -1508,7 +1507,7 @@
       "source": "DTF",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "14an3hi",
@@ -1528,7 +1527,7 @@
       "source": "3DNews Железо",
       "category": "hardware",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "pdqpct",
@@ -1548,7 +1547,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1k7r3s5",
@@ -1568,7 +1567,7 @@
       "source": "BBC Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "140fdlr",
@@ -1583,7 +1582,7 @@
       "source": "InterMedia",
       "category": "entertainment",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1k3qc3b",
@@ -1603,7 +1602,7 @@
       "source": "Игромания",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1aj835u",
@@ -1623,7 +1622,7 @@
       "source": "Игромания",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "u3eqf0",
@@ -1643,7 +1642,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1lsg16m",
@@ -1663,7 +1662,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "l869tk",
@@ -1683,7 +1682,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1wv0n7h",
@@ -1703,7 +1702,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "6gmvas",
@@ -1723,7 +1722,7 @@
       "source": "Motor1",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1ci3pnq",
@@ -1743,7 +1742,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1mjei84",
@@ -1763,7 +1762,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1nfa1le",
@@ -1787,7 +1786,7 @@
       "source": "Meduza",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "qru5rp",
@@ -1807,7 +1806,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "cc7z3w",
@@ -1822,7 +1821,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "3y0ej4",
@@ -1837,7 +1836,7 @@
       "source": "InterMedia",
       "category": "entertainment",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "b3b8gl",
@@ -1857,7 +1856,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "152ou2e",
@@ -1877,7 +1876,7 @@
       "source": "Motor1",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1i15u7m",
@@ -1897,7 +1896,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "7sisl8",
@@ -1917,7 +1916,7 @@
       "source": "Radio Svoboda",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "wk0rgj",
@@ -1937,7 +1936,7 @@
       "source": "Ukrinform",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "sho8ms",
@@ -1957,7 +1956,7 @@
       "source": "DTF",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "83ufxp",
@@ -1972,7 +1971,7 @@
       "source": "InterMedia",
       "category": "entertainment",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "hh9ljv",
@@ -1992,7 +1991,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "i3bple",
@@ -2012,7 +2011,7 @@
       "source": "Игромания",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "17nw1ak",
@@ -2076,7 +2075,7 @@
       "source": "5 колесо",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "mzehwf",
@@ -2096,7 +2095,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "jkxugc",
@@ -2116,7 +2115,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "14kekzp",
@@ -2131,7 +2130,7 @@
       "source": "InterMedia",
       "category": "entertainment",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1w9osvk",
@@ -2151,7 +2150,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "zzci7t",
@@ -2171,7 +2170,7 @@
       "source": "Игромания",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "79vmus",
@@ -2186,7 +2185,7 @@
       "source": "InterMedia",
       "category": "entertainment",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "kwwz7z",
@@ -2206,7 +2205,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1jfhpaw",
@@ -2226,7 +2225,7 @@
       "source": "DTF",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "19jg5zk",
@@ -2246,7 +2245,7 @@
       "source": "Ukrinform",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "12dbggq",
@@ -2266,7 +2265,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1xkqrgx",
@@ -2286,7 +2285,7 @@
       "source": "WIRED AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "byaqn8",
@@ -2306,7 +2305,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "21nmj4",
@@ -2326,7 +2325,7 @@
       "source": "Meduza",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1jlcejv",
@@ -2341,7 +2340,7 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "t5daft",
@@ -2373,7 +2372,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1faaelv",
@@ -2393,7 +2392,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1ah5p53",
@@ -2408,7 +2407,7 @@
       "source": "InfoQ AI/ML",
       "category": "aisoft",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1640w3f",
@@ -2423,27 +2422,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
-    },
-    {
-      "id": "seu02o",
-      "title": "5 секунд до сотни и режим дрифта: Volkswagen показал T-Roc R",
-      "url": "https://www.zr.ru/content/news/988747-pyat-sekund-do-sotni-i-rezhim-d/",
-      "excerpt": "Volkswagen представил кроссовер T-Roc R с мотором мощностью 333 л. с.",
-      "content": "Volkswagen представил кроссовер T-Roc R с мотором мощностью 333 л. с.",
-      "image": "https://www.zr.ru/_ah/img/8NVO8Ps_b_s4kfpHNntbYw",
-      "images": [
-        {
-          "url": "https://www.zr.ru/_ah/img/8NVO8Ps_b_s4kfpHNntbYw",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-20T06:50:00.000Z",
-      "sourceId": "zr",
-      "source": "За рулём",
-      "category": "cars",
-      "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "16b187s",
@@ -2463,7 +2442,7 @@
       "source": "Игромания",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "lwsy9p",
@@ -2483,7 +2462,7 @@
       "source": "Motor1",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "8b7iva",
@@ -2503,7 +2482,7 @@
       "source": "Motor1",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "10eakg5",
@@ -2523,7 +2502,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "stxwjd",
@@ -2547,7 +2526,7 @@
       "source": "Meduza",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "16tvt4o",
@@ -2562,7 +2541,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1pi32pz",
@@ -2582,7 +2561,7 @@
       "source": "3DNews Игры",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "ozekj3",
@@ -2597,7 +2576,7 @@
       "source": "Ukrainska Pravda",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1lbymo0",
@@ -2617,7 +2596,7 @@
       "source": "Игромания",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "132aumu",
@@ -2637,7 +2616,7 @@
       "source": "DTF",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "h78jak",
@@ -2657,7 +2636,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "45ge3m",
@@ -2677,7 +2656,7 @@
       "source": "Meduza",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "ect4b2",
@@ -2701,7 +2680,7 @@
       "source": "Nintendo Everything",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "kac0i7",
@@ -2716,7 +2695,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "c0jzk6",
@@ -2736,7 +2715,7 @@
       "source": "Игромания",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1idizee",
@@ -2756,7 +2735,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "cnt46c",
@@ -2771,7 +2750,7 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1lu5izh",
@@ -2791,7 +2770,7 @@
       "source": "Meduza",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1pgeh6w",
@@ -2811,7 +2790,7 @@
       "source": "Игромания",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1pmlwok",
@@ -2831,7 +2810,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1cmqo6a",
@@ -2851,7 +2830,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1x5soy9",
@@ -2875,7 +2854,7 @@
       "source": "Nintendo Life",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "3glr77",
@@ -2895,7 +2874,7 @@
       "source": "Meduza",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "tinfdj",
@@ -2931,7 +2910,7 @@
       "source": "Meduza",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1milo8s",
@@ -2951,7 +2930,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "ul9vud",
@@ -2971,7 +2950,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "170tojt",
@@ -2991,7 +2970,7 @@
       "source": "The New York Times",
       "category": "war",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1lrnysz",
@@ -3055,7 +3034,7 @@
       "source": "5 колесо",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "svwwh7",
@@ -3075,7 +3054,7 @@
       "source": "Gematsu",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "dko7zu",
@@ -3090,7 +3069,7 @@
       "source": "Al Jazeera",
       "category": "war",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "uw0kcp",
@@ -3110,7 +3089,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "66ou7i",
@@ -3138,7 +3117,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "99jnb6",
@@ -3153,7 +3132,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1403jp8",
@@ -3168,7 +3147,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1olfy3e",
@@ -3188,7 +3167,7 @@
       "source": "Gematsu",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "4h0pxc",
@@ -3208,7 +3187,7 @@
       "source": "Gematsu",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "iugxmy",
@@ -3228,7 +3207,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1kny7c5",
@@ -3248,7 +3227,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1imedby",
@@ -3263,7 +3242,7 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1e268tr",
@@ -3283,7 +3262,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "79gorw",
@@ -3307,7 +3286,7 @@
       "source": "Nintendo Life",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "35t4sk",
@@ -3331,7 +3310,7 @@
       "source": "Nintendo Everything",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "m4pam4",
@@ -3346,7 +3325,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1lk3swa",
@@ -3366,7 +3345,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "137ausb",
@@ -3398,7 +3377,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "s5rfil",
@@ -3442,7 +3421,7 @@
       "source": "Kolesa.ru",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1udc4w3",
@@ -3457,7 +3436,7 @@
       "source": "Simon Willison",
       "category": "aisoft",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "40zoy8",
@@ -3477,7 +3456,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "h5xufl",
@@ -3497,7 +3476,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "wjg3g7",
@@ -3521,7 +3500,7 @@
       "source": "Nintendo Life",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "ek2yel",
@@ -3541,7 +3520,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "uq0v50",
@@ -3565,7 +3544,7 @@
       "source": "Nintendo Everything",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "11feeqo",
@@ -3589,7 +3568,7 @@
       "source": "Push Square",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "benxj6",
@@ -3604,7 +3583,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1741um0",
@@ -3632,7 +3611,7 @@
       "source": "5 колесо",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "u3ud0g",
@@ -3656,7 +3635,7 @@
       "source": "5 колесо",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1siwzyv",
@@ -3680,7 +3659,7 @@
       "source": "Nintendo Everything",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1x006lu",
@@ -3708,7 +3687,7 @@
       "source": "The Guardian",
       "category": "war",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1qncfjp",
@@ -3728,7 +3707,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1pprs3g",
@@ -3748,7 +3727,7 @@
       "source": "Gematsu",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "14on9ba",
@@ -3772,7 +3751,7 @@
       "source": "Nintendo Life",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1lezmwj",
@@ -3792,7 +3771,7 @@
       "source": "Gematsu",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "7zov3m",
@@ -3816,7 +3795,7 @@
       "source": "Nintendo Everything",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "piprby",
@@ -3831,14 +3810,14 @@
       "source": "Nature",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "su63vb",
       "title": "Should governments slow frontier AI? Jacob Coxon and Robin Hanson debate [video]",
       "url": "https://www.youtube.com/watch?v=lwfewYL7X0o",
-      "excerpt": "Article URL: https://www.youtube.com/watch?v=lwfewYL7X0o Comments URL: https://news.ycombinator.com/item?id=50564366 Points: 102 # Comments: 204",
-      "content": "Article URL: https://www.youtube.com/watch?v=lwfewYL7X0o\n\nComments URL: https://news.ycombinator.com/item?id=50564366\n\nPoints: 102\n\n# Comments: 204",
+      "excerpt": "Article URL: https://www.youtube.com/watch?v=lwfewYL7X0o Comments URL: https://news.ycombinator.com/item?id=50564366 Points: 103 # Comments: 204",
+      "content": "Article URL: https://www.youtube.com/watch?v=lwfewYL7X0o\n\nComments URL: https://news.ycombinator.com/item?id=50564366\n\nPoints: 103\n\n# Comments: 204",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-19T18:47:16.000Z",
@@ -3846,7 +3825,7 @@
       "source": "Hacker News",
       "category": "aisoft",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1igy3rn",
@@ -3861,7 +3840,7 @@
       "source": "Hacker News",
       "category": "aisoft",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1v0vwho",
@@ -3876,7 +3855,7 @@
       "source": "MIT Technology Review",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "hhv3mi",
@@ -3896,7 +3875,7 @@
       "source": "Quanta Magazine",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "1td1z6g",
@@ -3911,7 +3890,7 @@
       "source": "Hugging Face",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "11okrn8",
@@ -3931,12 +3910,12 @@
       "source": "Quanta Magazine",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
-      "id": "w2sukf",
+      "id": "1y4b71i",
       "title": "Release: Roguecraft DX",
-      "url": "https://www.gog.com/en/news/release_roguecraft_dx",
+      "url": "https://www.gog.com/fr/news/release_roguecraft_dx",
       "excerpt": "Roguecraft DX is a strategy roguelike game – and it's now available on GOG! Pick one of three heroes and descend into the dungeon, fighting your way down one floor at a time. Every level is generated fresh, so no two attempts play the same. When you die, you…",
       "content": "Roguecraft DX is a strategy roguelike game – and it's now available on GOG!\n\nPick one of three heroes and descend into the dungeon, fighting your way down one floor at a time. Every level is generated fresh, so no two attempts play the same. When you die, you start over from the top. This game takes about five minutes to learn. Getting good at it takes rather longer. The critically acclaimed modern Amiga classic, now on PC.\n\nNow on GOG!",
       "image": "",
@@ -3946,12 +3925,12 @@
       "source": "GOG",
       "category": "releases",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
-      "id": "19pvgxd",
+      "id": "1d2nyq8",
       "title": "BRAZILIAN DRUG DEALER 3 brings hell with an exclusive level and SUPREMO EDITION!",
-      "url": "https://www.gog.com/en/news/brazilian_drug_dealer_3_brings_hell_with_an_exclusive_level_and_supremo_edition",
+      "url": "https://www.gog.com/fr/news/brazilian_drug_dealer_3_brings_hell_with_an_exclusive_level_and_supremo_edition",
       "excerpt": "BRAZILIAN DRUG DEALER 3: I OPENED A PORTAL TO HELL IN THE FAVELA TRYING TO REVIVE MIT AIA I NEED TO CLOSE IT GAME OF THE YEAR SUPREMO EDITION is now available on GOG, bringing its explosive blend of old-school FPS action, Brazilian culture, and gloriously…",
       "content": "BRAZILIAN DRUG DEALER 3: I OPENED A PORTAL TO HELL IN THE FAVELA TRYING TO REVIVE MIT AIA I NEED TO CLOSE IT GAME OF THE YEAR SUPREMO EDITION is now available on GOG, bringing its explosive blend of old-school FPS action, Brazilian culture, and gloriously unpredictable chaos.\n\nThe GOG release comes with a special SUPREMO EDITION, featuring plenty of extras:\n\n• BRAZILIAN DRUG DEALER 3\n\n• BRAZILIAN DRUG DEALER 0\n\n• Original Soundtrack\n\n• Printable digital goodies\n\n• Dedicated GOG level, accessible directly from the single-player menu\n\nWant to see the madness in action? Celebrate the release with a special stream featuring streamer Kilg0re_Tr0ut and game creator Joeveno, starting today, November 19th, at 9 PM CET on the GOG Twitch channel.",
       "image": "",
@@ -3961,12 +3940,12 @@
       "source": "GOG",
       "category": "releases",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
-      "id": "swc3zo",
+      "id": "1tpfoq5",
       "title": "Release: Gently Packed",
-      "url": "https://www.gog.com/en/news/release_gently_packed",
+      "url": "https://www.gog.com/fr/news/release_gently_packed",
       "excerpt": "Gently Packed is a relaxing simulation game – and it's now available on GOG! Step into the shoes of a cashier working in a charming, cartoon-style store! Your main task is to scan and pack products efficiently, fitting as many items as possible into each bag…",
       "content": "Gently Packed is a relaxing simulation game – and it's now available on GOG!\n\nStep into the shoes of a cashier working in a charming, cartoon-style store! Your main task is to scan and pack products efficiently, fitting as many items as possible into each bag while maintaining both quality and speed. The better you perform, the bigger the tips you’ll receive from satisfied customers.\n\nNow on GOG!",
       "image": "",
@@ -3976,7 +3955,22 @@
       "source": "GOG",
       "category": "releases",
       "lang": "en",
-      "addedAt": "2026-11-20T09:07:48.303Z"
+      "addedAt": "2026-11-20T09:09:52.629Z"
+    },
+    {
+      "id": "a5x8im",
+      "title": "Release: Space Station Designer",
+      "url": "https://www.gog.com/fr/news/release_space_station_designer",
+      "excerpt": "Space Station Designer is a construction and management game – and it's now available on GOG! Become the CEO of a private aerospace company, in charge of creating and operating a thriving network of orbital outposts. Begin with a single core module in Low…",
+      "content": "Space Station Designer is a construction and management game – and it's now available on GOG!\n\nBecome the CEO of a private aerospace company, in charge of creating and operating a thriving network of orbital outposts. Begin with a single core module in Low Earth orbit and gradually extend your operations into higher Earth and Lunar orbits.\n\nNow on GOG!",
+      "image": "",
+      "images": [],
+      "publishedAt": null,
+      "sourceId": "gog-news",
+      "source": "GOG",
+      "category": "releases",
+      "lang": "en",
+      "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
       "id": "gh-1418144848",
@@ -12298,8 +12292,8 @@
       "id": "v3oqpn",
       "title": "Pete warden on local AI, open models, voice interfaces, the future of hardware",
       "url": "https://thedataexchange.media/pete-warden-moonshine/",
-      "excerpt": "Article URL: https://thedataexchange.media/pete-warden-moonshine/ Comments URL: https://news.ycombinator.com/item?id=50561508 Points: 237 # Comments: 212",
-      "content": "Article URL: https://thedataexchange.media/pete-warden-moonshine/\n\nComments URL: https://news.ycombinator.com/item?id=50561508\n\nPoints: 237\n\n# Comments: 212",
+      "excerpt": "Article URL: https://thedataexchange.media/pete-warden-moonshine/ Comments URL: https://news.ycombinator.com/item?id=50561508 Points: 238 # Comments: 212",
+      "content": "Article URL: https://thedataexchange.media/pete-warden-moonshine/\n\nComments URL: https://news.ycombinator.com/item?id=50561508\n\nPoints: 238\n\n# Comments: 212",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-19T15:38:12.000Z",
@@ -31343,7 +31337,7 @@
       "url": "https://github.com/MatyMeatBoy/SaturnTaisen",
       "excerpt": "Static SH-2 recompilation of Sakura Wars / Sakura Taisen (Sega Saturn) for Windows x64, with an optional HD mod. v0.2.0-alpha: first public release.",
       "image": "",
-      "publishedAt": "2026-11-20T09:07:45Z",
+      "publishedAt": "2026-11-20T09:08:16Z",
       "addedAt": "2026-11-18T11:33:25.836Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -80467,7 +80461,7 @@
       "url": "https://github.com/kirklandsig/halo2-decompiled",
       "excerpt": "Halo 2 decompilation (decomp) for the original Xbox: a matching decompilation of the retail game into C/C++ source, rebuilt byte for byte, toward native PC, Linux and handheld ports. Contributors welcome. Source only; bring your own disc.",
       "image": "",
-      "publishedAt": "2026-11-20T08:03:30Z",
+      "publishedAt": "2026-11-20T09:08:30Z",
       "addedAt": "2026-11-14T06:10:49.034Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -91201,6 +91195,70 @@
         }
       ],
       "publishedAt": "2026-11-13T06:01:51.000Z",
+      "sourceId": "meduza",
+      "source": "Meduza",
+      "category": "war",
+      "lang": "ru",
+      "addedAt": "2026-11-13T10:53:25.754Z"
+    },
+    {
+      "id": "t0oo4r",
+      "title": "Аэропорты в России превратились в лимб, откуда невозможно выбраться, — из-за атак украинских дронов. Рейсы непредсказуемо переносятся, получить информацию невозможно, мест не хватает. Вот история одного плана «Ковер»",
+      "url": "https://meduza.io/feature/2026/11/13/aeroporty-v-rossii-prevratilis-v-limb-otkuda-nevozmozhno-vybratsya-iz-za-atak-ukrainskih-dronov",
+      "excerpt": "Работа российских аэропортов парализована атаками украинских дронов. План «Ковер», запрещающий полеты, вводится в российских регионах почти каждый день. Это приводит к отменам и переносам рейсов — как правило, ни пассажиры, ни сотрудники аэропортов не могут…",
+      "content": "Работа российских аэропортов парализована атаками украинских дронов. План «Ковер», запрещающий полеты, вводится в российских регионах почти каждый день. Это приводит к отменам и переносам рейсов — как правило, ни пассажиры, ни сотрудники аэропортов не могут предсказать, сколько они продлятся. Люди, попавшие в такую ситуацию перед вылетом, остаются наедине со своими проблемами: их планы нарушены, работники не дают понятных инструкций, а авиакомпании стараются сэкономить на компенсациях. В то же время сами аэропорты при проектировании не были рассчитаны на то, что там одновременно застрянут пассажиры десятков рейсов.\n\nВ этом материале читательница «Медузы» рассказывает, с чем ей пришлось столкнуться в Шереметьеве, где план «Ковер» в начале ноября вводили на целую ночь. Мы проиллюстрировали ее рассказ фотографиями из четырех московских аэропортов, сделанных в дни, когда в регионе вводили план «Ковер».\n\nЯ уже была в Шереметьеве, прошла регистрацию и подошла к выходу на посадку, когда пришло СМС о том, что мой рейс перенесен с часу ночи на 6:30 утра. В этот же момент информация о переносе появилась на табло. \n\nМимо прошла толпа пассажиров, которых вернули со взлетного поля. Их самолет уже разворачивался, чтобы выехать на взлетную полосу, но остановился. Спустя два часа ожидания на летном поле людей вернули в аэропорт, не сказав ни слова о причинах. Предполагается, что причины все понимают и так. \n\nТакже не последовало информации, что мне делать и полагается ли мне хоть что-то за задержку. Google сообщил, что, если рейс откладывается на два часа, мне должны дать воды. Если на четыре — горячей еды. Задержка ночного рейса на шесть часов означает, что мне положена гостиница. Но мой задержали на пять с половиной. Я все равно решила спросить.\n\nВокруг информационной стойки, где сидела всего одна сотрудница аэропорта, моментально образовалась толпа. Эта девушка никому ничем не могла помочь, она лишь выписывала справки, что рейс действительно отменен.\n\nВ толпе было сразу видно людей, которые уже бывали в такой ситуации: они старались получить эту справку. Другие совершенно не понимали, как действовать. Пожилые люди спрашивали: «А куда нам идти? А почему нас высадили?» Некоторые просто вставали в очередь к стойке на всякий случай — не понимая, зачем они стоят и что им могут сказать.\n\nНаконец подошла сотрудница «Аэрофлота» и стала отвечать на вопросы. Пассажиры разделились на две категории: те, у кого рейс отменили, и те, у кого перенесли. \n\nПервым необходимо было выйти из зоны посадки, получить свой багаж, а затем встать в очередь, чтобы получить возврат за билет или обменять его. Для пассажиров, чей рейс перенесли, была другая очередь — на получение гостиницы.\n\nЯ стала смотреть доступное жилье поблизости. Цены в отелях начинались с 8–10 тысяч за номер. Мне оставалось только пристроиться на ночлег где-то в аэропорту. Но расположиться было практически негде: люди сидели и лежали везде, где можно было приклонить голову.\n\nПо QR-коду на посадочном билете открывался список кафе, куда можно было подойти, чтобы воспользоваться компенсацией на еду — 950 рублей. Я отправилась в «Шоколадницу». На всех диванах там спали дети. Компенсации не хватило даже на одно горячее блюдо и кофе — пришлось добавлять из своих.\n\nОкончательно устав к двум часам ночи, я направилась в бизнес-зал. На входе, прежде чем купить билет за 4,5 тысячи рублей, поинтересовалась, найду ли себе свободное место. Сотрудница предложила мне сначала посмотреть, а потом оплатить. Я заглянула. Люди лежали везде. Они соединяли кресла и накрывались одеждой. Во втором зале было так же.\n\nВ четыре пришло новое СМС: рейс перенесли на 10 утра. Решив, что теперь мне точно положена гостиница, я отправилась в очередь и вышла из предполетной зоны. Вестибюль аэропорта был украшен декоративными клумбами с искусственными березами. Среди берез, на искусственной траве, спали люди.\n\nЕще там была стойка, на которой рекламировали несколько азиатских направлений. У нее можно было отправить почтой открытки куда-нибудь или снять трубку бутафорского телефона и послушать «звуки отдыха» в разных странах. На рекламном дисплее без конца крутилась реклама «Отдых начинается уже в самолете». \n\nТабло краснели отметками об отменах и переносах. Несколько человек громко жаловались на условия. Но большинство покорно стояло в очередях или пыталось уснуть.\n\nОчереди на получение гостиницы, компенсаций или новых билетов были гигантскими и почти не двигались.\n\nСотрудники аэропорта подвезли на тележке бутылки с бесплатной водой — их смогли получить все. Я спросила у мужчины, который только что отстоял очередь за гостиницей, дали ли ему место. Он ответил, что номера закончились. Но сотрудники «Аэрофлота» ничего не объявляли, и люди продолжали стоять и чего-то ждать.\n\nРядом со мной стояли люди, которые ехали на похороны — и не успели. Музыканты из той же очереди рассказывали: «Нам в Абакан, у нас завтра вечером концерт». Кто-то уже несколько дней пытался улететь в Сургут. Больше всего мне запомнился молодой человек, который из-за отмен и переносов уже неделю не мог улететь во Владивосток.\n\nЛюди в очереди делились опытом и пересказывали информацию, которую откуда-то получили (часто неправильную). Кто-то думал, что гостиница и компенсации положены, только если рейс задерживается по вине авиакомпании. Другие жаловались, что ближайшая гостиница, которую им предложили, расположена возле аэропорта Внуково — в 50 километрах от Шереметьева.\n\nПассажиры, которые должны были лететь во Вьетнам, рассказали, что их посадили в самолет в девять вечера. До полуночи они просидели на взлетной полосе, и только потом их отправили обратно в аэропорт.\n\nОбсуждали историю, что для каких-то пассажиров из Шереметьева нашли гостиницу где-то около Домодедова. Их привезли туда, но тут же оказалось, что мест нет, — и людей повезли обратно.\n\nЯ мысленно пыталась сориентироваться. Вылет в 10. Я простою в очереди, которая еле движется, часа два. Потом буду ждать трансфер. К тому моменту, когда я доеду до гостиницы, мне надо будет возвращаться в аэропорт.\n\nПоэтому я решила получить компенсацию. К семи утра моя очередь до окна «Аэрофлота» так и не дошла, но я подошла к сотруднице, чтобы попросить компенсацию за жилье. А затем стало происходить что-то странное.\n\nСотрудники кому-то звонили, что-то выясняли, переговаривались. Простояв 40 минут у окна, я повторила, что мне нужна компенсация. Сотрудница, с которой я говорила, ответила: «Так может быть, я вам еще найду гостиницу». Я ответила: «По времени я уже должна выезжать в аэропорт из отеля. Мне не поможет, если вы сейчас что-то найдете».\n\nНаконец мне сделали бумажку о компенсации — в шесть тысяч рублей. То есть на гостиницу рядом с Шереметьевом этого точно не хватило бы. Оказалось, чтобы получить эти деньги, нужно отстоять еще в одной очереди. Но достоять в ней я уже не смогла — заболели ноги.\n\nВсе места были заняты. Я все-таки нашла свободное, но свет лупил прямо в глаза, а рядом орал громкоговоритель. Я уступила его.\n\nНаконец я увидела пустой стул и поспешила его занять. Вокруг меня расположились женщины, летевшие в Якутию. С ними было семеро детей — в Москву они прилетели на школьные каникулы. Дети сели на бетонный пол, поставив рядом коробку с тортом, и тут же заснули.\n\nВ 10 утра пассажиры моего рейса собрались у выхода на посадку. Представители «Аэрофлота» у нашего выхода так и не появились. Информация — тоже. Мне стало казаться, что я в лимбе: это никогда не закончится и отсюда невозможно выбраться.\n\nА затем пришло СМС, что вылет перенесен на 10:40.\n\nЧто делать, если вы оказались в такой ситуации\n\n• Из-за дронов в России отменяют десятки рейсов в месяц. Как быть, если вы застряли в аэропорту? И на какую компенсацию можно рассчитывать? Инструкция, полезная в сезон отпусков — и не только\n\n«Медуза»",
+      "image": "https://meduza.io/image/attachments/images/012/936/218/small/4HAYftt92eKtQtI8efXN-g",
+      "images": [
+        {
+          "url": "https://meduza.io/image/attachments/images/012/936/218/small/4HAYftt92eKtQtI8efXN-g",
+          "alt": ""
+        },
+        {
+          "url": "https://meduza.io/image/attachments/images/012/936/299/small/hgt2H6HN-pynh_c11ZwzHQ",
+          "alt": ""
+        },
+        {
+          "url": "https://meduza.io/image/attachments/images/012/936/307/small/GRU23rfYcBKOBpRnZGjfuw",
+          "alt": ""
+        },
+        {
+          "url": "https://meduza.io/image/attachments/images/012/962/436/small/lEAOyfT8JaxJISbfk2PvGQ",
+          "alt": ""
+        },
+        {
+          "url": "https://meduza.io/image/attachments/images/012/936/339/small/667cyWrP30SzDpvBZujhPw",
+          "alt": ""
+        },
+        {
+          "url": "https://meduza.io/image/attachments/images/012/936/331/small/KbEY52yY-zK8jZIo6lk4ow",
+          "alt": ""
+        },
+        {
+          "url": "https://meduza.io/image/attachments/images/012/936/347/small/bKNYqzXYxrf1wWbY9wSrvw",
+          "alt": ""
+        },
+        {
+          "url": "https://meduza.io/image/attachments/images/012/936/323/small/5BTcCH-rFkFrF6BgayKFtg",
+          "alt": ""
+        },
+        {
+          "url": "https://meduza.io/image/attachments/images/012/936/438/small/exSE4YnRDdA_ojW9Mfk3oA",
+          "alt": ""
+        },
+        {
+          "url": "https://meduza.io/image/attachments/images/012/936/315/small/N-hqgj_4IeTn57otRokNNQ",
+          "alt": ""
+        },
+        {
+          "url": "https://meduza.io/image/attachments/images/012/936/371/small/an0JWlVNMJeNKvALTKlAew",
+          "alt": ""
+        },
+        {
+          "url": "https://meduza.io/image/attachments/images/012/936/363/small/eA1VcQFNarAM4G7rTUoTgw",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-13T06:01:24.000Z",
       "sourceId": "meduza",
       "source": "Meduza",
       "category": "war",
