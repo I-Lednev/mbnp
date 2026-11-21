@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-20T23:57:22.424Z",
-  "tookMs": 24944,
+  "generatedAt": "2026-11-21T00:01:13.777Z",
+  "tookMs": 24283,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -28,7 +28,7 @@
     "games": 600,
     "announces": 30,
     "mobile": 10,
-    "releases": 36,
+    "releases": 37,
     "rumors": 21,
     "software": 98,
     "science": 284,
@@ -43,7 +43,7 @@
     "aisoft": 111,
     "cars": 511,
     "war": 587,
-    "total": 4408
+    "total": 4409
   },
   "sourceCount": 89,
   "sources": [
@@ -685,9 +685,15 @@
       "reused": 8
     },
     {
+      "source": "The A.V. Club",
+      "url": "https://www.avclub.com/rss",
+      "error": "HTTP 500",
+      "reused": 10
+    },
+    {
       "source": "r/emulation",
       "url": "https://www.reddit.com/r/emulation/new/.rss",
-      "error": "HTTP 404"
+      "error": "HTTP 429"
     },
     {
       "source": "Kyiv Independent",
@@ -708,7 +714,7 @@
       "excerpt": "Unofficial native Windows port of Skylanders: Imaginators (Xbox 360). Works with your real Portal of Power and figures, or without them. Recompiled with ReXGlue.",
       "image": "",
       "publishedAt": "2026-11-20T23:38:11Z",
-      "addedAt": "2026-11-20T23:57:02.089Z",
+      "addedAt": "2026-11-21T00:00:53.275Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -721,7 +727,7 @@
       "excerpt": "Unofficial native Windows port of Skylanders: SuperChargers (Xbox 360). Works with your real Portal of Power and figures, or without them. Recompiled with ReXGlue.",
       "image": "",
       "publishedAt": "2026-11-20T23:38:01Z",
-      "addedAt": "2026-11-20T23:57:02.089Z",
+      "addedAt": "2026-11-21T00:00:53.275Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -734,7 +740,7 @@
       "excerpt": "Unofficial native Windows port of Skylanders: Trap Team (Xbox 360). Works with your real Portal of Power and figures, or without them. Recompiled with ReXGlue.",
       "image": "",
       "publishedAt": "2026-11-20T23:35:21Z",
-      "addedAt": "2026-11-20T23:57:02.089Z",
+      "addedAt": "2026-11-21T00:00:53.275Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -747,7 +753,7 @@
       "excerpt": "openD3: DOOM 3 on the openQ4 engine. A source port that is GPL end to end, engine and game code alike, running the original 2004 game from your retail files with OpenGL or Vulkan rendering. Early development; Windows x64 only so far.",
       "image": "",
       "publishedAt": "2026-11-20T20:30:39Z",
-      "addedAt": "2026-11-20T23:57:01.602Z",
+      "addedAt": "2026-11-21T00:00:52.776Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -760,7 +766,7 @@
       "excerpt": "Bit-exact deterministic Rust port of the Zero Hour (SAGE) 30 Hz game logic engine across macOS, Linux, and Windows, verified frame-for-frame via replay XferCRC.",
       "image": "",
       "publishedAt": "2026-11-20T20:20:17Z",
-      "addedAt": "2026-11-20T23:57:01.602Z",
+      "addedAt": "2026-11-21T00:00:52.776Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -773,7 +779,7 @@
       "excerpt": "Anarch, the public domain Doom-style raycasting shooter, as standalone ESP-IDF firmware for the CircuitMess Bit (ESP32-S3): HD textures, mods, DMA display, buzzer SFX, persistent quicksave",
       "image": "",
       "publishedAt": "2026-11-20T23:50:55Z",
-      "addedAt": "2026-11-20T23:57:00.804Z",
+      "addedAt": "2026-11-21T00:00:52.243Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -786,7 +792,7 @@
       "excerpt": "Unofficial PS Vita port of Five Nights at Freddy's using data from the Android 2.0.7 release.",
       "image": "",
       "publishedAt": "2026-11-20T23:07:11Z",
-      "addedAt": "2026-11-20T23:57:00.804Z",
+      "addedAt": "2026-11-21T00:00:52.243Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -799,7 +805,7 @@
       "excerpt": "Castlevania: Lament of Innocence (PS2, NTSC-U SLUS-20733): port nativo para PC por recompilação estática (PS2Recomp). Em desenvolvimento (o port ainda vai começar).",
       "image": "",
       "publishedAt": "2026-11-20T22:36:32Z",
-      "addedAt": "2026-11-20T23:57:00.804Z",
+      "addedAt": "2026-11-21T00:00:52.243Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -812,7 +818,7 @@
       "excerpt": "Castlevania: Curse of Darkness (PS2, PAL SLES-53755): port nativo para PC por recompilação estática (PS2Recomp). Em desenvolvimento (o port ainda vai começar).",
       "image": "",
       "publishedAt": "2026-11-20T22:36:29Z",
-      "addedAt": "2026-11-20T23:57:00.804Z",
+      "addedAt": "2026-11-21T00:00:52.243Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -825,7 +831,7 @@
       "excerpt": "Dragon Ball Z: Budokai 3 HD for Nintendo Switch (homebrew). Xbox 360 static recompilation with ReXGlue and Deko3D. Build from your own USA/Japan disc dump.",
       "image": "",
       "publishedAt": "2026-11-20T22:28:11Z",
-      "addedAt": "2026-11-20T23:57:00.804Z",
+      "addedAt": "2026-11-21T00:00:52.243Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -849,7 +855,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1q5kgko",
@@ -864,7 +870,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "nbmhik",
@@ -884,7 +890,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "o36xo6",
@@ -908,7 +914,7 @@
       "source": "Push Square",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1q9d25u",
@@ -928,7 +934,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1ltpi00",
@@ -948,7 +954,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "wu3tt8",
@@ -968,7 +974,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1qvhai6",
@@ -988,11 +994,11 @@
       "source": "WIRED AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "yfpt3e",
-      "title": "CMA Awards See a 55% Ratings Bump in Key Adults Demo With Taylor Swift’s Return to the Show",
+      "title": "CMA Awards See a 55% Ratings Bump in Key Adult Demo With Taylor Swift’s Return to the Show",
       "url": "https://variety.com/2026/music/news/cma-awards-taylor-swift-big-ratings-increase-1236954677/",
       "excerpt": "The CMA Awards’ producers knew it; they knew her. What they undoubtedly knew was that a performance by Taylor Swift would bring a ratings bonanza to the 60th annual telecast, with the only question being how big a boost. It was a substantial one, as ratings…",
       "content": "The CMA Awards’ producers knew it; they knew her. What they undoubtedly knew was that a performance by Taylor Swift would bring a ratings bonanza to the 60th annual telecast, with the only question being how big a boost. It was a substantial one, as ratings released Friday showed the 2026 show being up 26% […]",
@@ -1008,7 +1014,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "10n9fy7",
@@ -1028,7 +1034,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "dqxc4t",
@@ -1048,7 +1054,7 @@
       "source": "VGC",
       "category": "industry",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "xwc9oq",
@@ -1068,7 +1074,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "ula30m",
@@ -1083,7 +1089,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "18glpxc",
@@ -1103,7 +1109,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "ywbpd3",
@@ -1127,7 +1133,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "sbhtag",
@@ -1147,7 +1153,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "5cig9c",
@@ -1167,7 +1173,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1hgfn9z",
@@ -1191,7 +1197,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "hs4yq6",
@@ -1211,7 +1217,7 @@
       "source": "VGC",
       "category": "industry",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1oghamr",
@@ -1231,7 +1237,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1dk8no0",
@@ -1251,7 +1257,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "r22llq",
@@ -1266,7 +1272,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "186bs4",
@@ -1286,7 +1292,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1rfb4xk",
@@ -1310,7 +1316,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "jx6vzl",
@@ -1330,7 +1336,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1egu49r",
@@ -1350,7 +1356,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "2cwm9q",
@@ -1370,7 +1376,7 @@
       "source": "VGC",
       "category": "industry",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "yi1fon",
@@ -1390,7 +1396,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1d3vbx3",
@@ -1410,7 +1416,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "i8w5lh",
@@ -1430,7 +1436,7 @@
       "source": "IGN",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1dwmaro",
@@ -1450,7 +1456,7 @@
       "source": "The New York Times",
       "category": "war",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1lcjrrf",
@@ -1470,7 +1476,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "o4920p",
@@ -1485,7 +1491,7 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "mkynoa",
@@ -1505,7 +1511,7 @@
       "source": "Ukrinform",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1re6gma",
@@ -1525,7 +1531,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1j7o3pz",
@@ -1540,7 +1546,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1mkj1s8",
@@ -1560,7 +1566,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1pnaxwb",
@@ -1580,7 +1586,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "v7t5c",
@@ -1604,7 +1610,7 @@
       "source": "Pure Xbox",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "z4npt4",
@@ -1628,7 +1634,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1vaoy3f",
@@ -1648,7 +1654,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1wxbsvb",
@@ -1684,7 +1690,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "9fet8x",
@@ -1699,7 +1705,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "17g1go4",
@@ -1723,7 +1729,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1oq1xd1",
@@ -1743,7 +1749,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "6nmqiv",
@@ -1767,7 +1773,7 @@
       "source": "Nintendo Everything",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "ygpoxy",
@@ -1787,7 +1793,27 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
+    },
+    {
+      "id": "7lpz1f",
+      "title": "Экшен-RPG Stupid Never Dies вышла - настало время зомби бросить вызов королю монстров!",
+      "url": "https://www.playground.ru/stupid_never_dies/news/ekshen_rpg_stupid_never_dies_vyshla_nastalo_vremya_zombi_brosit_vyzov_korolyu_monstrov-1892570",
+      "excerpt": "Создатели Stupid Never Dies выпустили динамичную action RPG о робком зомби Дэви. Финальный трейлер демонстрирует финального босса, сражение с Королём монстров, кражу способностей и необычные улучшения тела.",
+      "content": "Создатели Stupid Never Dies выпустили динамичную action RPG о робком зомби Дэви. Финальный трейлер демонстрирует финального босса, сражение с Королём монстров, кражу способностей и необычные улучшения тела.",
+      "image": "https://i.playground.ru/e/3vUy34Kar104Yo3j6FaCKg.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/3vUy34Kar104Yo3j6FaCKg.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-20T21:55:12.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "lmykyg",
@@ -1807,7 +1833,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1ghavy2",
@@ -1827,7 +1853,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "a82r2f",
@@ -1847,7 +1873,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1yl0yse",
@@ -1867,7 +1893,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "h6lk6q",
@@ -1895,7 +1921,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "qspbyz",
@@ -1919,7 +1945,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "eaenja",
@@ -1939,7 +1965,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "xn092e",
@@ -1959,7 +1985,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1bulfel",
@@ -1979,7 +2005,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "utpr4p",
@@ -1994,7 +2020,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "j8o3t5",
@@ -2014,7 +2040,7 @@
       "source": "Игромания",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1m2rpaq",
@@ -2034,7 +2060,7 @@
       "source": "3DNews Железо",
       "category": "hardware",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1xy1hre",
@@ -2054,7 +2080,7 @@
       "source": "Car and Driver",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1kuoqn5",
@@ -2074,7 +2100,7 @@
       "source": "StopGame",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "7saeq5",
@@ -2094,7 +2120,7 @@
       "source": "IGN",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "kb319b",
@@ -2114,7 +2140,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1tip2p6",
@@ -2134,7 +2160,7 @@
       "source": "Car and Driver",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "rcdqnq",
@@ -2154,7 +2180,7 @@
       "source": "Car and Driver",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1vagnyh",
@@ -2174,7 +2200,7 @@
       "source": "VGC",
       "category": "industry",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "c1cttc",
@@ -2194,7 +2220,7 @@
       "source": "Car and Driver",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "nrjy4l",
@@ -2214,7 +2240,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1xen6yr",
@@ -2234,7 +2260,7 @@
       "source": "Gematsu",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "11wowz4",
@@ -2254,7 +2280,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1kinwu1",
@@ -2274,7 +2300,7 @@
       "source": "StopGame",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "bt4l5a",
@@ -2289,7 +2315,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1k7pb4l",
@@ -2309,7 +2335,7 @@
       "source": "Gematsu",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "95wimy",
@@ -2329,7 +2355,7 @@
       "source": "Gematsu",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "8k35i4",
@@ -2344,7 +2370,7 @@
       "source": "Al Jazeera",
       "category": "war",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1gcrms0",
@@ -2364,7 +2390,7 @@
       "source": "Gematsu",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1xrwgmz",
@@ -2384,7 +2410,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "gzyjrh",
@@ -2404,7 +2430,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "niygiy",
@@ -2424,7 +2450,7 @@
       "source": "3DNews Игры",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1bjr8nb",
@@ -2439,7 +2465,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1utp8qf",
@@ -2459,7 +2485,7 @@
       "source": "Tom's Hardware",
       "category": "hardware",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "f98or2",
@@ -2479,7 +2505,7 @@
       "source": "Ukrainska Pravda",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "ts1uf8",
@@ -2503,7 +2529,7 @@
       "source": "Ars Technica Tech",
       "category": "aisoft",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "183j1lf",
@@ -2523,7 +2549,7 @@
       "source": "80.lv",
       "category": "aimods",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "6tsg3z",
@@ -2543,7 +2569,7 @@
       "source": "VGC",
       "category": "industry",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "8t4lmc",
@@ -2563,27 +2589,7 @@
       "source": "Radio Svoboda",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-20T23:56:57.480Z"
-    },
-    {
-      "id": "1g0hpzq",
-      "title": "Анонсирован японский хоррор о вере, безумии и экзорцизме Ugly Within",
-      "url": "https://www.playground.ru/misc/news/anonsirovan_yaponskij_horror_o_vere_bezumii_i_ekzortsizme_ugly_within-1892555",
-      "excerpt": "Serafini Productions анонсировала японский survival horror Ugly Within | . Игра расскажет о тайнах прошлого, грани между верой и безумием, расследовании истории семьи Камата и противостоянии сверхъестественной сущности.",
-      "content": "Serafini Productions анонсировала японский survival horror Ugly Within | . Игра расскажет о тайнах прошлого, грани между верой и безумием, расследовании истории семьи Камата и противостоянии сверхъестественной сущности.",
-      "image": "https://i.playground.ru/e/kPo0kMPivlcdl7iS_S1iAQ.jpeg",
-      "images": [
-        {
-          "url": "https://i.playground.ru/e/kPo0kMPivlcdl7iS_S1iAQ.jpeg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-20T20:50:09.000Z",
-      "sourceId": "playground",
-      "source": "Playground",
-      "category": "games",
-      "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "x8yfd6",
@@ -2603,7 +2609,7 @@
       "source": "3DNews Игры",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "nh3xnv",
@@ -2623,7 +2629,7 @@
       "source": "IGN",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "19vz91m",
@@ -2638,7 +2644,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1h8vbfg",
@@ -2666,7 +2672,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "vqzros",
@@ -2690,7 +2696,7 @@
       "source": "Ars Technica Science",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "vd823k",
@@ -2710,7 +2716,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1r83yrm",
@@ -2730,7 +2736,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "3knfgm",
@@ -2750,7 +2756,7 @@
       "source": "Gematsu",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "z55zdt",
@@ -2770,7 +2776,7 @@
       "source": "Игромания",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1tvcwxk",
@@ -2806,7 +2812,7 @@
       "source": "Kolesa.ru",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "gn08fn",
@@ -2821,7 +2827,7 @@
       "source": "Al Jazeera",
       "category": "war",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1p892dm",
@@ -2841,7 +2847,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "w28i4a",
@@ -2861,7 +2867,7 @@
       "source": "Car and Driver",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1hir71w",
@@ -2876,7 +2882,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1fjry9t",
@@ -2900,31 +2906,7 @@
       "source": "Ars Technica Science",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
-    },
-    {
-      "id": "fqdp59",
-      "title": "Macaulay Culkin to abandon his children for a change in Home Alone legacy sequel",
-      "url": "https://www.avclub.com/home-alone-sequel-macaulay-culkin-seth-rogen-evan-goldberg",
-      "excerpt": "The McCallisters are preparing to continue to their long-standing family tradition of abandoning their children on Christmas. Per Puck , Macaulay Culkin will return for a sixth installment in the Home Alone saga, reprising his most famous role as Kevin…",
-      "content": "The McCallisters are preparing to continue to their long-standing family tradition of abandoning their children on Christmas. Per Puck , Macaulay Culkin will return for a sixth installment in the Home Alone saga, reprising his most famous role as Kevin McCallister. He won’t be alone. Seth Rogen and Evan Goldberg have reportedly closed a deal to produce the film and are working with Culkin on the screenplay. The first two Home Alone movies were written by the late John Hughes and directed by Chris Columbus, who is currently working on a legacy sequel for his other holiday hit, Gremlins 3 .\n\nCulkin and Columbus left the franchise after the first sequel, Lost In New York , but Hughes returned to receive a sole writing credit on Home Alone 3 . Since then, Home Alone has been relegated to made-for-television sequels. 2002’s Home Alone 4 recast the lead roles of Kevin (Mike Weinberg) and Marv (French Stewart, taking over for Daniel Stern). Two more swings of the paint can followed: 2012’s Home Alone: The Holiday Heist and 2021’s Home Sweet Home Alone , which went straight to Disney+.\n\nCulkin has spent the last decade reacquainting himself with Kevin in commercials for Google , the in-home care service Home Instead , and McDonald’s . Earlier this month, Culkin starred as Kevin in ads for McDonald’s culinarily confused pizza-focused Home Alone menu. Limited-time offerings, aimed at making McDonald’s taste more like pizza, include Medium Little Nero’s Pizza McShaker Fries and Lovely Cheese Pizza Dipping Sauce. The dessert menu, inspired by Kevin’s ice cream habits, features the Everything Sundae McFlurry, which makes a little more sense and doesn’t rely on dehydrated cheese and garlic powder to capture that Home Alone magic.",
-      "image": "https://www.avclub.com/wp-content/uploads/2026/11/20/Screenshot-2026-11-20-at-12.11.02-PM.jpg",
-      "images": [
-        {
-          "url": "https://www.avclub.com/wp-content/uploads/2026/11/20/Screenshot-2026-11-20-at-12.11.02-PM.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/20151348/home-alone-lead.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-20T20:26:04.000Z",
-      "sourceId": "avclub",
-      "source": "The A.V. Club",
-      "category": "entertainment",
-      "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "c0zmc6",
@@ -2944,7 +2926,7 @@
       "source": "GamesIndustry.biz",
       "category": "industry",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1uvpmrv",
@@ -2964,7 +2946,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "8v7c2v",
@@ -2984,7 +2966,7 @@
       "source": "Ukrinform",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "9ea24v",
@@ -3004,7 +2986,7 @@
       "source": "Gematsu",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "vv9mwh",
@@ -3024,7 +3006,7 @@
       "source": "VGC",
       "category": "industry",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "8ia5cj",
@@ -3039,7 +3021,7 @@
       "source": "Hacker News",
       "category": "aisoft",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1tdxyaw",
@@ -3063,7 +3045,7 @@
       "source": "Nintendo Everything",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "ajlhqr",
@@ -3083,7 +3065,7 @@
       "source": "Car and Driver",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "11x40mh",
@@ -3147,7 +3129,7 @@
       "source": "Tom's Hardware",
       "category": "hardware",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "qo17l1",
@@ -3171,7 +3153,7 @@
       "source": "Nintendo Everything",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "15ijv34",
@@ -3191,7 +3173,7 @@
       "source": "Eurogamer",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1cs2gub",
@@ -3211,7 +3193,7 @@
       "source": "Motor1",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "ac3ul1",
@@ -3231,7 +3213,7 @@
       "source": "Meduza",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "7jkqht",
@@ -3251,7 +3233,7 @@
       "source": "DTF",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1axx7oi",
@@ -3266,7 +3248,7 @@
       "source": "TechCrunch AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "e8etqi",
@@ -3286,7 +3268,7 @@
       "source": "WIRED AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "k4mfsn",
@@ -3310,7 +3292,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1069q3o",
@@ -3325,7 +3307,7 @@
       "source": "GamingBolt",
       "category": "announces",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1tkjzma",
@@ -3345,7 +3327,7 @@
       "source": "Gematsu",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "16u8rvq",
@@ -3360,7 +3342,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "kvq2uw",
@@ -3380,7 +3362,7 @@
       "source": "VGC",
       "category": "industry",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "11a9sah",
@@ -3400,7 +3382,7 @@
       "source": "BBC Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1y4kvxc",
@@ -3420,7 +3402,7 @@
       "source": "IGN",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "9ingbo",
@@ -3444,7 +3426,7 @@
       "source": "Nintendo Everything",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1tcorth",
@@ -3459,7 +3441,7 @@
       "source": "gHacks",
       "category": "software",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "3nkbow",
@@ -3479,14 +3461,14 @@
       "source": "Gematsu",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "eg36i9",
       "title": "Rockstar says GTA VI made $3.79 billion in its first day",
       "url": "https://www.theverge.com/games/1036279/gta-vi-sales",
-      "excerpt": "GTA VI earned $3.79 billion in its first day of sales, which set \"a new record for entertainment across any medium,\" according to an announcement from Rockstar Games . The game also sold 32.5 million in pre-orders. \"It is with immense gratitude that we enter…",
-      "content": "GTA VI earned $3.79 billion in its first day of sales, which set \"a new record for entertainment across any medium,\" according to an announcement from Rockstar Games . The game also sold 32.5 million in pre-orders.\n\n\"It is with immense gratitude that we enter a new chapter of Rockstar Games with the release of Grand Theft Auto VI ,\" Sam Houser, Rockstar's president and founder. said in a statement \"We are incredibly humbled by the response from players around the world and we couldn't be more excited to share this moment with you.\" Rockstar claims that the game's release, which happened Thursday, was \"the biggest entertainment launch in histor …",
+      "excerpt": "GTA VI earned $3.79 billion in its first day of sales, which set \"a new record for entertainment across any medium,\" according to an announcement from Rockstar Games . The game also sold 32.5 million preorder copies. \"It is with immense gratitude that we…",
+      "content": "GTA VI earned $3.79 billion in its first day of sales, which set \"a new record for entertainment across any medium,\" according to an announcement from Rockstar Games . The game also sold 32.5 million preorder copies.\n\n\"It is with immense gratitude that we enter a new chapter of Rockstar Games with the release of Grand Theft Auto VI ,\" Sam Houser, Rockstar's president and founder, said in a statement. \"We are incredibly humbled by the response from players around the world and we couldn't be more excited to share this moment with you.\" Rockstar claims that the game's release, which happened Thursday, was \"the biggest entertainment launch in his …",
       "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/STKS540_GTA_VI_2_D.jpg?quality=90&strip=all&crop=0,0,100,100",
       "images": [
         {
@@ -3499,7 +3481,7 @@
       "source": "The Verge Entertainment",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1h8x879",
@@ -3523,7 +3505,7 @@
       "source": "Nintendo Everything",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "iz254l",
@@ -3538,7 +3520,7 @@
       "source": "TechCrunch AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1cto6a",
@@ -3562,7 +3544,7 @@
       "source": "Push Square",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "15r7p0j",
@@ -3577,7 +3559,7 @@
       "source": "SteamDeckHQ",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "rxf1ib",
@@ -3592,7 +3574,7 @@
       "source": "gHacks",
       "category": "software",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1lj4b2g",
@@ -3607,7 +3589,7 @@
       "source": "gHacks",
       "category": "software",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1q3kyu3",
@@ -3627,7 +3609,7 @@
       "source": "Meduza",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1aispkt",
@@ -3647,7 +3629,7 @@
       "source": "Eurogamer",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "2sjoab",
@@ -3671,7 +3653,7 @@
       "source": "Ars Technica Science",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "nq4ml6",
@@ -3686,7 +3668,7 @@
       "source": "Simon Willison",
       "category": "aisoft",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1w5krjf",
@@ -3710,7 +3692,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "97vvbp",
@@ -3730,7 +3712,7 @@
       "source": "InsideEVs",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "13lorfa",
@@ -3754,7 +3736,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "a6ce5b",
@@ -3774,7 +3756,7 @@
       "source": "9to5Google",
       "category": "software",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "13eeglp",
@@ -3794,7 +3776,7 @@
       "source": "3DNews Игры",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1egzvnv",
@@ -3814,7 +3796,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1fzroz8",
@@ -3834,31 +3816,7 @@
       "source": "Gematsu",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
-    },
-    {
-      "id": "13o7fhy",
-      "title": "David Fincher's openness to AI isn't helping the Cliff Booth AI accusations",
-      "url": "https://www.avclub.com/david-fincher-netflix-cliff-booth-ai-accusations-allegations",
-      "excerpt": "As you may or may not have heard, David Fincher has a new movie out, The Further Mis-Adventures Of Cliff Booth , a sequel to Once Upon A Time… In Hollywood , written by Quentin Tarantino and starring Brad Pitt, who reprises his Oscar-winning role as the…",
-      "content": "As you may or may not have heard, David Fincher has a new movie out, The Further Mis-Adventures Of Cliff Booth , a sequel to Once Upon A Time… In Hollywood , written by Quentin Tarantino and starring Brad Pitt, who reprises his Oscar-winning role as the psychotic stuntman. Cliff does his own stunts; David Fincher may not. What’s becoming a regular occurrence in Netflix-produced films, early viewers and critics are accusing the film of using generative AI. The A.V. Club has reached out to Netflix for comment. However, Fincher has been open about his willingness to use the controversial technology. In a Los Angeles Times interview published yesterday , the director admits an openness to working with AI, saying, “I’m not a Luddite, so I don’t fear the unknown.” He continues:\n\n“Is everyone satisfied that we have figured this art form out enough that what we really need to do is go back to celluloid? How long have people painted? 40,000 years? We’re talking about a thing that’s a hundred years old and everyone’s going, ‘Stop. Pencils down. No more iterating. It’s not necessary to have at your fingertips the ability to change the color of that person’s eyes.’ Well, it exists. Should we not use it?'”\n\nWe suppose the obvious counter to that argument is “how far should we go before we’re no longer iterating and just allowing the computer to iterate for us?” But we digress. Fincher, who got his start at ILM on Return Of The Jedi and Indiana Jones And The Temple Of Doom , has long been an early adopter of new technology, like Steven Soderbergh, who also used AI in a John Lennon documentary earlier this year . Soderbergh’s results were lambasted at Cannes, and it’s unclear when the movie will ever be made available. In today’s parlance, it made so little cultural impact that John Lennon: The Last Interview doesn’t even have a Wikipedia page. Cliff Booth may have a release date (two of them: Theatrical and streaming, separated by a month), but it’s facing the same critiques as Soderbergh’s documentary.\n\nPer Kotaku , indie filmmaker and influencer Patrick Tomasso posted on X , “I walked out of Cliff Booth completely gutted” because “what could have been a really great sequel is overshadowed by some of the most blatant and egregious AI use I’ve ever seen in a studio film.” Similarly, Next Best Picture dinged the movie for “noticeably distracting […] use of generative AI in key moments of the film, which is nothing but an eyesore,” and the film credits a “ generative consultant .” A Bloomberg piece from March reported Ben Affleck’s AI “ethical” company, InterPositive, for which Netflix paid $600 million, helped produce “an upcoming film starring Brad Pitt.”\n\nLast month, Netflix announced that as many as 300 productions used the technology, an announcement that coincided with news that no one opens Netflix anymore . But it’s not just cheapo true crime documentaries using AI. Cliff Booth is one of many films from A-list directors taking heat for offloading artistic integrity to large language models. Earlier this year, Oscar-winning filmmakers Affleck and Danny Boyle admitted to using the technology for their respective new releases, Animals and Ink . So, too, did Academy Award nominee Ava DuVernay, who defended using AI to animate photographs in her new documentary about the 14th Amendment, 14th . “We actually animated some photos that are in the public domain, and from what we’ve been hearing from people, it does bring people closer to that time in history, which was our goal,” DuVernay said in October . “So people have to see it and check it out for themselves and make their decisions about how they feel.” Boyle used it for a similar effect in Ink and confirmed , “There’s about 30 seconds of it in our movie where we animate a couple of old photographs.” Considering Booth also reportedly uses the tech to animate fake issues of TV Guide , there is some sinister irony in Netflix movies specifically using AI to gussy up otherwise analog tech.",
-      "image": "https://www.avclub.com/wp-content/uploads/2026/11/03/cliff-booth-feature-1.jpg",
-      "images": [
-        {
-          "url": "https://www.avclub.com/wp-content/uploads/2026/11/03/cliff-booth-feature-1.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/03134434/cliff-booth-lead.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-20T19:07:42.000Z",
-      "sourceId": "avclub",
-      "source": "The A.V. Club",
-      "category": "entertainment",
-      "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "14nmi0l",
@@ -3878,31 +3836,7 @@
       "source": "DTF",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
-    },
-    {
-      "id": "1x7nhyl",
-      "title": "The Hunting Wives' May Cobb on her first sequel novel and favorite soapy thrillers",
-      "url": "https://www.avclub.com/the-hunting-wives-author-may-cobb-favorite-soapy-thrillers",
-      "excerpt": "With Reading List , The A.V. Club asks one of our favorite pop-culture creators to describe a list of reading materials that are tied together by a singular theme. Many people probably know the name May Cobb because of the popular Netflix series The Hunting…",
-      "content": "With Reading List , The A.V. Club asks one of our favorite pop-culture creators to describe a list of reading materials that are tied together by a singular theme.\n\nMany people probably know the name May Cobb because of the popular Netflix series The Hunting Wives , a deliciously soapy drama about an East Coast transplant who gets drawn into a clique of wealthy Texas women and a murder investigation. The show is based on Cobb’s second novel, which hit shelves in 2021. Since then, she’s written five more books and firmly established herself as a must-read author of female-focused domestic thrillers. Her seventh novel, All The Little Secrets, debuted this week, a sequel to her earlier 2026 release, All The Little Houses , and continues the first’s story of murder, infidelity, and sharp social sniping.\n\nThe A.V. Club sat down with Cobb to talk about her just-released new novel, writing her first sequel, and some of her favorite soapy thrillers.\n\nThe A.V. Club: Tell our readers a little bit about All The Little Secrets , which is a first for you—it’s a sequel.\n\nMay Cobb: It is a duology, and All The Little Secrets is the second book in the series. All The Little Houses was the first, and the cliffhanger was a murder, and the plot engine of Secrets is: Is the guilty person going to get away with the murder? Is the innocent person going to go down for the murder? That’s the thrust of it. Layer in all the other East Texas wildness and banana daiquiris and margaritas and everything, it’s a lot.\n\nAVC: Was it strange doing a sequel or harder for you as a writer? Did the story just feel too big for one book? I didn’t know it was a duology when I read the first one, and I was shocked.\n\nMC: Yeah, you and everybody else. [ Laughs. ] I feel like it should have come with a warning. But when I got to about the halfway point of writing All The Little Houses , I was like, “Oh Jesus, this is way too much for one book.”\n\nI knew at that point what the ending was going to be. So I did try to engineer it so that readers were left on a cliffhanger because, damn it, those books are inspired by 1980s nighttime soaps like Dynasty and Dallas . I wanted to have that “Who Shot J.R.?” vibe. And then, thank God, Sourcebooks, in their wisdom, decided to put the sequel out this year, so we’re not leaving readers hanging for too long to find out the answer to what happens.\n\nAVC: Let’s talk about East Texas, because I think all of your books except for The Hollywood Assistant are set there. And I think people kind of have a better feel for what that vibe is now that they’ve seen The Hunting Wives and all that entails. But what is it about this location that just keeps you coming back to it as a storyteller?\n\nMC: It’s really interesting, this place. And I feel like it’s a little bit of an underrepresented region of Texas. It’s in the northeast corner. It’s almost Louisiana. My hometown is 30 miles from the border of Louisiana, so it kind of feels like True Blood country. There’s a deep pine forest, and we do have some Spanish moss, and there’s a party, lots-of-drinking kind of vibe. Attica Locke and Joe Lansdale and Nick Wade have all portrayed it in this beautiful way, so I’m just trying to coast behind them in this kind of East Texas noir lane.\n\nIt’s a creepy place. It’s very eerie, and it’s very isolated. It’s two hours east of Dallas, an hour west of Shreveport. So it really is tucked into, we call it, the Pine Curtain. Growing up there, it felt like a 1980s Stephen King novel in a lot of ways. Longview had an oil boom in the 1920s, so there is still a lot of enormous oil wealth. You have these old guard generational wealth type families, and then you have the rest of us milling around the town. And I would get invited to the rich girl slumber parties and stuff, and it was just really interesting.\n\nAVC: Now that this duology’s done, what are you working on next? I know there’s another TV show happening.\n\nMC: Yes, it’s super exciting. All The Little Houses is at Apple, and I’m working with an incredible team. So that’s in the works and chugging along. And then I’m on deadline right now for my eighth book, which feels so weird to even say, but I’ll be handing that in soon. It’s a Dallas set soapy thriller, which, you know, is new territory for me. [ Laughs. ]\n\nAVC: What do you think are the key ingredients for a really good soapy thriller? Obviously, everyone responds to them in different ways and for different reasons, but I think we all read them for certain similar elements.\n\nMC: I feel like having an ensemble cast is one of those ingredients. Twisty family dynamics are important. Definitely people having secrets and lying and backstabbing. A dead body is always terrific. I think sometimes, too, it’s fun to have an aspirational setting. It’s not always necessary, but I think I do sort of skew towards the rich people behaving badly.\n\nAVC: We love “a rich people behaving badly” story. Let’s face it, we all watched Succession .\n\nMC: That’s true—and they were pretty awful! I think, on some level, we want to see them taken down a bit.\n\nGirls And Their Horses by Eliza Jane Brazier\n\nAVC: All right, let’s get into your recommendations. And I have to say that I love that you brought notes.\n\nMC: I had to! So, my favorite, if I have to pick one favorite, is Eliza Jane Brazier’s Girls And Their Horses .\n\nAVC: I love that book! I read a lot of The Saddle Club as a kid, and that one really does feel like a Saddle Club for grown-ups, just with a lot more adult behavior.\n\nMC: A thousand percent! I just love that it’s set in the cutthroat world of the horse world. Mean girls and their meaner moms. A rich enclave in Southern California. And Brazier, I find, just has this very strong grasp of black comedy. She has me just cackling in places with her lines.\n\nThey’re so razor-sharp and skewering. And talk about skewering rich people! She’s the queen of it in my mind. I loved her complicated female characters. I love the setting. I love the mystery in it and the teens that felt so realistic. I felt like it delivered on all the levels.\n\nAVC: Another thing I think is really unique about these sorts of books is that it’s not just rich people behaving badly, it’s often rich people in some sort of bizarre bubble. Horse people are such a unique circle, and it’s a group that can feel kind of alien and weird if you’re unfamiliar with it. There’s something really delicious about that.\n\nMC: Absolutely! It kind of transports you into something, a world that we don’t know much about. It’s extra exotic if you will.\n\nThe War Of The Roses by Warren Adler\n\nAVC: What’s your second pick?\n\nMC: The OG. The War Of The Roses . And just go ahead and put me in the earth because I got to do a blurb for it when they re-released it with the latest movie. I’ve never been so honored.\n\nAVC: That feels like a strong recommendation. What did your blurb say?\n\nMC: “One of the OG classics of domestic noir remains as sharp as a thorn and as deliciously dark as when it first arrived decades ago.”\n\nAVC: So true!\n\nMC: So that’s definitely number two for me: the Roses going at it and swinging from the chandelier and all the other antics they got up to. It’s so good.\n\nThe Magnificent Ruins by Nayantara Roy\n\nMC: I am cheating a little with the third one. The Magnificent Ruins by Nayantara Roy. It’s technically not a true thriller. But it does have a body drop in it. So I’m putting it on this list because it reads propulsively like a thriller. And it’s got all the family soapiness that you could ever want.\n\nSo our main character, she’s an editor in New York, and she gets the call that the family patriarch back in Calcutta has passed away, and she is the one who inherits the estate. So she has to go back home and deal with all the family drama that surrounds an inheritance. It is just glittering, sumptuous, propulsive. I mean, it truly does read like a thriller, and it’s just so good.\n\nAVC: I’m going to take your word for it, and I’m going to put it on my Goodreads right now.\n\nMC: You’re going to love it! And I don’t.\n\nPerfect Wives, Perfect Lies: A Novel by Jennifer Anne Gordon\n\nMC: This one is definitely a thriller, and technically I’m cheating a little again here because I haven’t read it yet, but it’s at the very top of my TBR pile, and I wanted to give it a shoutout.\n\nI don’t want to spoil anything about it, but the tagline is “A woman in mourning finds renewed purpose in her fake persona for an online mom group, but membership comes at a killer cost.”\n\nAVC: I have to admit I love this new trend in publishing that’s all about people and their weird internet fixations. They’re scammers or trad wives or catfishing someone.\n\nMC: That’s a whole genre. And I can’t wait to read them all.\n\nParty Of Liars And Pretty Dead Things by Kelsey Cox\n\nAVC: Anything with “liars” in the title is almost always a huge win.\n\nMC : It is . It’s set in the Texas Hill Country; it’s got rich people, and it’s centered around a 16th birthday party that’s happening that turns into a [locked room] murder mystery.\n\nAVC: Oh! Now I remember the name of the Kelsey Cox book I read: Pretty Dead Things !\n\nMC: I read that just a month ago, and honestly it could also be a pick for this. So I’ll say both, maybe. The pageant world is so crazy. Pretty Dead Things , I couldn’t put it down. It’s so messy, and Kelsey so brilliantly gets in there and just really makes hay with it all.\n\nAVC: One of the things I think is really interesting in a lot of these books is the commentary on—and you see this a lot in The Hunting Wives for those who’ve watched the show—the complex relationships between the women in them. Because these kinds of stories usually are about women to some degree or another, and I wonder what it is about them that speaks to us as readers.\n\nMC : I love that question. I feel like for me, and maybe this is just [having experienced] middle school, I’m very attuned to and interested in complex female friendship dynamics and also family dynamics. But particularly female, because I feel like women, I don’t know, by design, I just feel like they’re more cutthroat in many ways, and there can be a level of manipulation that men don’t [engage in]. Their drama is their fantasy football team drama; it’s very different than what women can get up to. And there’s the social hierarchy and the getting on top, and it can get wild, especially in the South.\n\nBut the thriller crime fiction genre is endlessly expansive, expanding into new worlds, new voices, new twists. And I’m constantly fascinated by how it continues to grow. And yeah, it’s one of those genres where, I don’t know, I think it’s going to live until the robots come and take it away from us.\n\nThis interview has been edited for length and clarity.",
-      "image": "https://www.avclub.com/wp-content/uploads/2026/11/20/MixCollage-20-Nov-2026-01-15-PM-3131.jpg",
-      "images": [
-        {
-          "url": "https://www.avclub.com/wp-content/uploads/2026/11/20/MixCollage-20-Nov-2026-01-15-PM-3131.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/20132240/MixCollage-20-Nov-2026-01-17-PM-9238.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-20T19:03:53.000Z",
-      "sourceId": "avclub",
-      "source": "The A.V. Club",
-      "category": "entertainment",
-      "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "10hoxmh",
@@ -3922,7 +3856,7 @@
       "source": "Ukrainska Pravda",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1kh0rs0",
@@ -3946,7 +3880,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "13vnb0l",
@@ -3966,7 +3900,7 @@
       "source": "9to5Google",
       "category": "software",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "qrpqoz",
@@ -3986,7 +3920,7 @@
       "source": "IGN",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "u3zbgv",
@@ -4010,7 +3944,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1bian9z",
@@ -4034,7 +3968,7 @@
       "source": "Time Extension",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1m465m1",
@@ -4074,7 +4008,7 @@
       "source": "Ukrainska Pravda",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "16bjmnm",
@@ -4089,7 +4023,7 @@
       "source": "BleepingComputer",
       "category": "aisoft",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1nm6ykn",
@@ -4109,7 +4043,7 @@
       "source": "The Verge AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1c6uqbx",
@@ -4133,7 +4067,7 @@
       "source": "Nintendo Everything",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1cgymaf",
@@ -4153,7 +4087,7 @@
       "source": "9to5Google",
       "category": "software",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "100wke0",
@@ -4173,7 +4107,7 @@
       "source": "VGC",
       "category": "industry",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "eihkkk",
@@ -4188,7 +4122,7 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1dq83n",
@@ -4203,7 +4137,7 @@
       "source": "Al Jazeera",
       "category": "war",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "101jmhy",
@@ -4223,7 +4157,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "gu9xal",
@@ -4247,7 +4181,7 @@
       "source": "PlayStation Blog",
       "category": "updates",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "7didnc",
@@ -4283,7 +4217,7 @@
       "source": "MacRumors",
       "category": "software",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "mu1f8",
@@ -4298,7 +4232,7 @@
       "source": "GamingBolt",
       "category": "announces",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "z0bugh",
@@ -4313,7 +4247,7 @@
       "source": "SteamDeckHQ",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1omb5r9",
@@ -4333,7 +4267,7 @@
       "source": "Meduza",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "wpjn8t",
@@ -4353,7 +4287,7 @@
       "source": "Ukrainska Pravda",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1lfjgqc",
@@ -4373,7 +4307,7 @@
       "source": "Eurogamer",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "15paej0",
@@ -4401,7 +4335,7 @@
       "source": "The Guardian",
       "category": "war",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1s3l3vs",
@@ -4416,31 +4350,7 @@
       "source": "MIT Technology Review",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
-    },
-    {
-      "id": "9snsts",
-      "title": "Teenage Sex And Death At Camp Miasma is getting a “pan-and-scan” VHS release",
-      "url": "https://www.avclub.com/teenage-sex-and-death-at-camp-miasma-vhs-release-pan-and-scan-mubi",
-      "excerpt": "If you, like this news writer, are old enough to have worked at a video store before the internet all but swallowed the brick-and-mortar video rental experience whole, you’ll recall how good it felt when DVD helped make the widescreen format more ubiquitous…",
-      "content": "If you, like this news writer, are old enough to have worked at a video store before the internet all but swallowed the brick-and-mortar video rental experience whole, you’ll recall how good it felt when DVD helped make the widescreen format more ubiquitous than ever. You’ll recall the conflicting emotions/impotent rage you felt when a customer complained that these discs only showed “half the picture” on their TV sets and asked, “Don’t you have any of those tapes that fill up the screen?” Yet none of us can deny that the pan-and-scan, or “full-screen,” VHS and DVD format was indeed an integral part of the peak home video era. Sitting through a movie like Friday The 13th meant watching as the frame of the already dimly lit slasher movie smeared left and right to see what’s doing on the parts of the image our boxy 4:3 sets couldn’t see—at least, not without the magic of widescreen, but good luck explaining that to your customer.\n\nMuch has transpired since the fall of the video store. Yet nostalgia for it and the VHS tapes it held—coupled with resentment at the ever-growing number of films receiving digital-only streaming releases—has sparked renewed interest in VHS and, apparently, pan-and-scan as an “aesthetic.” Director Jane Schoenbrun, whose Teenage Sex And Death At Camp Miasma has been praised for its fidelity to the grit and grain of low-budget horror movies, is joining a small but growing club of filmmakers releasing their films on VHS—and MUBI’s VHS release of Camp Miasma , believe it or not, will include a pan-and-scan version. It’s available in clamshell, too!\n\nThis home video release ( per IndieWire ) follows a “VHS Tour” theatrical run for Camp Miasma throughout October , with VHS screenings at Beyond Fest, video stores in Los Angeles, Boston, and Portland (among others), and a coffee shop in Chicago. For Schoenbrun, Miasma landing on VHS is a dream come true. “I make movies I wish existed when I was a kid,” they said in a 2025 statement when the film was first announced. “ Teenage Sex and Death at Camp Miasma is my best attempt at the ‘sleepover classic,’ an insane yet cozy midnight odyssey that beckons to unsuspecting viewers from the horror section at the local video store.” You can pre-order Teenage Sex And Death At Camp Miasma on VHS—including pan-and-scan versions for PAL and NTSC—on the Made By Mutant webstore , with prices ranging from $40 to $50. Fun novelty throwback or format fetishism run amok? You be the judge!",
-      "image": "https://www.avclub.com/wp-content/uploads/2026/11/20/miasma-header.jpg",
-      "images": [
-        {
-          "url": "https://www.avclub.com/wp-content/uploads/2026/11/20/miasma-header.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/20125712/miasma-lead.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-20T18:13:22.000Z",
-      "sourceId": "avclub",
-      "source": "The A.V. Club",
-      "category": "entertainment",
-      "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "z0vn9q",
@@ -4464,7 +4374,7 @@
       "source": "Kolesa.ru",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1wtvvf5",
@@ -4484,7 +4394,7 @@
       "source": "IGN",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "yg25mi",
@@ -4508,7 +4418,7 @@
       "source": "Push Square",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1mclpl9",
@@ -4532,7 +4442,7 @@
       "source": "Pure Xbox",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1e7yite",
@@ -4552,7 +4462,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "ih2zmn",
@@ -4572,7 +4482,7 @@
       "source": "Ukrainska Pravda",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1g84cjm",
@@ -4592,7 +4502,7 @@
       "source": "IGN",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "17qcrhl",
@@ -4616,7 +4526,7 @@
       "source": "Nintendo Everything",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "zol5a6",
@@ -4640,7 +4550,7 @@
       "source": "Kolesa.ru",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1k48hzo",
@@ -4660,7 +4570,7 @@
       "source": "IGN",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "bqi5t6",
@@ -4680,7 +4590,7 @@
       "source": "IGN",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1keqxmx",
@@ -4700,55 +4610,7 @@
       "source": "3DNews Железо",
       "category": "hardware",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
-    },
-    {
-      "id": "14qi7ke",
-      "title": "Apple TV charts return of anthology Presumed Innocent after nearly 3-year break",
-      "url": "https://www.avclub.com/presumed-innocent-season-2-first-look",
-      "excerpt": "After an Emmy win for Widow’s Bay , Matthew Rhys will be back on Apple TV sooner rather than later. This morning, the streamer released the first look at the second season of its legal anthology Presumed Innocent . If you’re sitting here hearing “second…",
-      "content": "After an Emmy win for Widow’s Bay , Matthew Rhys will be back on Apple TV sooner rather than later. This morning, the streamer released the first look at the second season of its legal anthology Presumed Innocent . If you’re sitting here hearing “second season” and wondering when the first was, it was certainly a while ago (and was perhaps less-than-memorable). The first season, which ran in mid 2024, starred Jake Gyllenhaal and Ruth Negga and was based on the 1987 novel (and subsequent 1990 film adaptation) of the same name. At the time, we called it “a perfectly adequate watch.”\n\nBut the second season is going in a definitively different direction, adapting Jo Murray’s novel Dissection Of A Murder . The season, which co-stars Rachel Brosnahan as an up-and-coming defense attorney called Leila Reynolds, who “faces off against her district attorney husband (Rhys) in a murder case that threatens to destroy both their careers and their marriage,” according to a logline. Apple TV also released a first-look teaser which doesn’t reveal too much beyond the fact that, yup, this is absolutely a legal thriller on a streaming service.\n\nThe second season of Presumed Innocent also stars Courtney B. Vance, Fiona Shaw, Jack Reynor, and Lesley-Ann Brandt, will Judith Light billed as a special guest star. The first two episodes debut on Apple TV on February 19, 2027, with new episodes following every Friday through April 2.",
-      "image": "https://www.avclub.com/wp-content/uploads/2026/11/20/MixCollage-20-Nov-2026-12-02-PM-8896.jpg",
-      "images": [
-        {
-          "url": "https://www.avclub.com/wp-content/uploads/2026/11/20/MixCollage-20-Nov-2026-12-02-PM-8896.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/20120635/MixCollage-20-Nov-2026-12-05-PM-5029.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-20T17:07:23.000Z",
-      "sourceId": "avclub",
-      "source": "The A.V. Club",
-      "category": "entertainment",
-      "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
-    },
-    {
-      "id": "4coeqp",
-      "title": "Robert Pattinson is weird enough for 007's source material",
-      "url": "https://www.avclub.com/robert-pattinson-weird-enough-james-bond-for-007-source-material-ian-fleming",
-      "excerpt": "With one social media blast, Amazon has wiped out everything we thought we knew about the future of the James Bond franchise. A snippet of video and a single still dropped on Instagram ( and in London’s Piccadilly Circus ) announcing that the quite famous…",
-      "content": "With one social media blast, Amazon has wiped out everything we thought we knew about the future of the James Bond franchise. A snippet of video and a single still dropped on Instagram ( and in London’s Piccadilly Circus ) announcing that the quite famous Robert Pattinson will be playing 007 in Bond 26 made Amazon’s statement clear: Forget what’s come before; we’re doing things differently now. A movie star debuting as Bond is truly uncharted waters, but it does provide hints as to what we should and shouldn’t expect from the upcoming film.\n\nAfter an extended period of inactivity for the Bond franchise, things moved quickly. The news that Jack Lowden, Callum Turner, and Josh O’Connor had screen-tested for the role was an exciting development, with each fella getting his moment in the Sun (and The Daily Mail , and other tabloids) as the “sure thing.” All nonsense, and all very much business as usual for the 64-year-old film series. Lots of known-but-not-too-famous blokes have tried out for the role. And over the years, six not-too-famous blokes have won that role. We accepted this because that’s how it’s always been. The Bond franchise has rules, and one of those rules is that Bond makes the actor, not the other way around. So, hearing that it’s down to three names that you kinda know from this movie or that TV show? That’s just how Bond works!\n\nBut it is no longer how Bond works. Amazon’s casting of Pattinson is, among other things, a declarative statement. This will be a new era for the property, and they will not be making them like they used to. (In what was perhaps a bit of over-messaging on this front, the 007 Instagram wiped its entire account of all pre-existing posts before announcing Pattinson.) Typical swaggering behavior from corporate bros, perhaps, but for the Bond 26 creative team, it’s planting quite the flag.\n\nThe ripple effect of this break from tradition will be something to behold, and the casting of a household name is seismic. Pattinson reportedly already received preferential treatment during the audition process (reports claim he was paid $1 million simply to screen test, and where his peers were asked to commit to four films, Pattinson was afforded a three-picture-deal), and one can assume the power dynamic will only shift further in his favor as his tenure unfolds. Will his status as an ambassador to watch brand Jaeger LeCouture topple Omega’s 31-year relationship with 007? Will Pattinson be hand-picking his co-stars, collaborators, and theme-song singers? This new approach to casting has made the future of the franchise much harder to forecast, which is exciting for an IP that’s almost 70 years old.\n\nThis must all seem very silly to anyone not deeply invested in this franchise. But the 007 franchise is a cinematic unicorn, defined for 60 years by a single family who made every great, terrible, weird creative choice with the films. There’s no analog to be had in the medium except George Lucas and pre-Disney Star Wars . As Daniel Craig noted of the role he occupied for the past 20 years, more men have walked on the moon than have played James Bond. It’s rarefied air (does any other casting announcement get an official congratulations from the Royal Family?), well and far beyond being the ninth guy to play Batman.\n\nAnd yes, one thing at least seems clear: Pattinson’s stint as Batman is over. A big part of the Bond casting was folks online asking “How can he be Bond and Batman?” While it’s true that, say, Henry Cavill going from a decade of playing Superman to jumping into 007’s tux might have hit weird, Pattinson’s Caped Crusader is simply the latest in a very long line of guys to don the Batsuit. And with only one film on the shelf so far, he’s not indelibly Batman the way Michael Keaton or Christian Bale or even Ben Affleck are. Weirdly enough, Pattinson’s not even the first Batman to be considered for the Bond gig; Adam West was offered the role in 1970, declining due to his (correct) assertion that James Bond should be British, something Bond’s own producers seemed unsure of over a decade later .\n\nBut in addition to this all but confirming that Skydance’s Batplans do not include Pattinson’s version beyond the next film, it offers an interesting wrinkle: The Batman Part II is currently being completed by Steven Soderbergh, whose love of On Her Majesty’s Secret Service is well-documented . Should Pattinson hang around longer than Bond 26 director Denis Villeneuve, there’s a greater-than-zero chance we’ll get a Soderbergh-directed 007 film in the next few years.\n\nThis casting also indicates a few things about what directions Bond 26 will and won’t take. When the rumor mill claimed the Bond 26 producers were seeking out an actor in his 20s, fans fretted we’d be getting yet another origin-heavy reboot. That would have been strange; Casino Royale did it about as well as possible, and the recent game 007 First Light did it again. It was a relief when the three initial contenders all turned out to be 36—had Amazon gone younger, it would have meant that millennials were the first generation since the creation of the character to not have a James Bond their own age—and the 40-year-old Pattinson winning the role seems to confirm we won’t be getting another wet-behind-the-ears “Bond begins” tale.\n\nIt also seems to confirm that we won’t be getting a lighthearted take on 007. Edgar Wright once correctly observed that the Bond franchise needs to pivot its casting from dark to light to keep things fresh. It worked for 60 years: from Sean Connery to Roger Moore (Lazenby remains a delightfully gonzo outlier), from Moore to Timothy Dalton, Dalton to Pierce Brosnan, and Brosnan to Craig. Oldheads might have wanted or even expected a shift to a lighter flavor of Bond after Craig’s ultra-grounded run.\n\nBut if hopes for a lighter Bond began to wobble with the hiring of Villeneuve, they’ve evaporated with the hiring of Pattinson. It’s possible we could see Pattinson defusing a bomb in full circus-clown drag, but I wouldn’t run to Kalshi with that one. No, it’s highly likely this team is going to give us Deeply Serious Cinema. Yet, Pattinson might not do “light,” but he often does “weird,” and people tend to forget that Ian Fleming’s Bond stories were often really weird—just a few degrees from over-the-top “men’s adventure” style pulp yarns in which Bond fought giant octopuses, and faced villains who had metal pincers for hands or who grew poisonous gardens for people to kill themselves in. There was sex and drink and globetrotting on his pages, but there were also henchmen who ate cats and psychopaths who turned evil when their childhood pet elephant was killed. Fleming’s Bond once had his secretary run out to pick him up powdered amphetamines, which he mixed with champagne and gulped down in order to more effectively beat a Nazi in a game of bridge. One can’t picture Roger Moore doing that, but you could see the star of The Lighthouse and Good Time gravitating to this bizarre and kinky world that filmmakers have mostly left in the books. Pattinson’s hiring might have coddled the bean counters, but he’s also a thoroughly unpredictable choice for the role. Bond 26 might be dark, but there’s also a good chance it’s bonkers.\n\nThat won’t outweigh its ambitions, though. Eon chased prestige throughout the Craig era, but with Villeneuve at the helm, Steven Knight writing, and Pattinson starring, what we’re poised to get is starting to look like less of a reinvention and something closer to the Darwinian ideal of what Eon had been attempting for the last decade and change. Ironically, taking the Broccoli family out of the equation might be what paves the way for the very thing they’d been clamoring for since at least 2012, or possibly 2006. Their own self-imposed guardrails about how the films are made and who gets to make them kept the Nolans, the Villeneuves, and the household names with large price tags away from their franchise. (When they initially snared Danny Boyle for what would become No Time To Die , the house style sent the acclaimed director packing.) The franchise is now available to a tier of talent that might have previously considered itself ineligible for one reason or another; whether that talent will have the freedom under Amazon to take the property to new heights is the next question.",
-      "image": "https://www.avclub.com/wp-content/uploads/2026/11/19/pattinson-bond-header.jpg",
-      "images": [
-        {
-          "url": "https://www.avclub.com/wp-content/uploads/2026/11/19/pattinson-bond-header.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/19130312/pattinson-bond-squared.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-20T17:00:58.000Z",
-      "sourceId": "avclub",
-      "source": "The A.V. Club",
-      "category": "entertainment",
-      "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "20i6pj",
@@ -4772,115 +4634,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
-    },
-    {
-      "id": "1leegmg",
-      "title": "Guillermo del Toro isn’t planning a Marvel or Star Wars career pit stop any time soon",
-      "url": "https://www.avclub.com/guillermo-del-toro-debunks-star-wars-marvel-rumors",
-      "excerpt": "When you’re a director out there making movies like Blade II and Pacific Rim , it has to be a pain to have fans constantly asking when you’re going to make a new Marvel or Star Wars movie, as though making entertaining genre movies were the extent of your…",
-      "content": "When you’re a director out there making movies like Blade II and Pacific Rim , it has to be a pain to have fans constantly asking when you’re going to make a new Marvel or Star Wars movie, as though making entertaining genre movies were the extent of your ambitions. But since we’re talking about genre-meister and very good director Guillermo del Toro here, who has indeed attempted entries into cinematic universes like DC and Star Wars in the past, it’s only natural to daydream about the Pan’s Labyrinth director one day making a movie about, say, Jabba The Hutt, Jason Blood/The Demon, or, hell, Fin Fang Foom. (The guy loves monsters!) However, even though these nice daydreams have taken on the maligned form of online rumors (as they so often do), don’t expect to see the filmmaker hopping on the Marvel Studios or Lucasfilm trains any time soon.\n\n“Just some facts (some will take this denial as confirmation, I know) I am not in talks with any Star Wars, Marvel properties in any capacity. At all,” del Toro posted on his X account on Thursday ( per The Wrap . ). “I am involved in writing a screenplay, prepping my stop motion movie at Shadwomachine, producing a few things for others and that’s it.” (Del Toro’s next project is an adaptation of Kazuo Ishiguro’s The Buried Giant for Netflix. )\n\nOf course, it’s not like del Toro has never been interested in working on a new Star Wars movie or comic book adaptation. Del Toro wrote a screenplay for Warner Bros.’ Justice League Dark , but the project was eventually scrapped. And since everyone’s brought it up, the director quickly reminded people on X that he was once set to make a Star War of his very own, The Rise And Fall of Jabba The Hutt , with a screenplay by his Blade II writer David S. Goyer. Yet, as with many ill-fated Star Wars movie projects at Disney, Jabba eventually got the axe—but it got far enough into development that del Toro could see his vision take shape before the opportunity to realize it had been taken away. “We had The Rise And Fall Of Jabba the Hutt , so I was super happy,” del Toro told Collider in 2023. “We were doing a lot of stuff, and then it’s not my property, it’s not my money, and then it’s one of those thirty screenplays that goes away. Sometimes I’m bitter, sometimes I’m not. I always turn to my team and say, ‘Good practice, guys. Good practice. We designed a great world. We designed great stuff. We learned.'”\n\nDel Toro had expressed his interest in making a Jabba The Hutt movie as far back as the lead-up to the release of J.J. Abrams’ Star Wars: The Force Awakens in 2015. During an interview with Yahoo Movies in July of that year , the director put it out into the universe that he’d been sitting on a Jabba The Hutt story for some time, and even likened the dramatic stakes of his concept to that of Francis Ford Coppola’s The Godfather . “This is not real, this is me as a fat geek just geeking out and talking about it,” he said. “I would do the sort of Godfather saga that Jabba The Hutt had to go through to gain control. One, because it’s the character that looks the most like me, and I like him. I love the idea of a Hutt-type of mafia, a very complex coup. I just love the character.”",
-      "image": "https://www.avclub.com/wp-content/uploads/2026/11/20/del-toro-header.jpg",
-      "images": [
-        {
-          "url": "https://www.avclub.com/wp-content/uploads/2026/11/20/del-toro-header.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/20111127/del-toro-lead.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-20T16:22:32.000Z",
-      "sourceId": "avclub",
-      "source": "The A.V. Club",
-      "category": "entertainment",
-      "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
-    },
-    {
-      "id": "jrxi3",
-      "title": "Kieran Culkin's got another Jesse Armstrong project in the works",
-      "url": "https://www.avclub.com/kieran-culkin-jesse-armstrong-movie-in-development",
-      "excerpt": "Kieran Culkin is currently making the film promotion rounds for his role in the latest Hunger Games prequel, Sunrise On The Reaping , in which he plays the younger version of Stanley Tucci’s Caesar Flickerman. While Reaping is Culkin’s first foray into the…",
-      "content": "Kieran Culkin is currently making the film promotion rounds for his role in the latest Hunger Games prequel, Sunrise On The Reaping , in which he plays the younger version of Stanley Tucci’s Caesar Flickerman. While Reaping is Culkin’s first foray into the Hunger Games (and, while we’re at it, first into any kind of massive IP-based film franchise), he’s apparently got something a bit more familiar coming down the pike. During a recent appearance on the radio station Heart ( per Deadline ), Culkin said, “I’m about to work with — I don’t know if I’m allowed to talk about — I’m about to work with Jesse [Armstrong] on a movie. He wrote something.”\n\nThis is, needless to say, quite vague. Armstrong, of course, created Succession , which yielded an Emmy for Culkin. Armstrong has written quite a bit else over the years, creating Peep Show and writing for The Thick Of It . Last year, he made his feature directorial debut with Mountainhead , which certainly received a more tepid reception than the rapturous one Succession received for four seasons. Should he want to direct another, it would make some sense to reunite with an actor he’s already achieved greatness with.\n\nThat being said, Culkin was clear that he thinks a Succession follow-up or sequel “would be a terrible idea,” asking, “What are you hoping for? Cousin Greg: The Sitcom ?” (Now that you mention it, it would be a decent enough premise for an SNL sketch.) That said, he clearly still values his time on the show. “It was a lot of fun because I decided early on, this is a guy who’s never had to suffer consequences in his life,” Culkin said of playing Roman Roy. “He can just talk his way in and out of any situation, like how fun is that to play? Completely unhinged.” Hopefully whatever he and Armstrong have coming next is just as unhinged.",
-      "image": "https://www.avclub.com/wp-content/uploads/2026/11/20/MixCollage-20-Nov-2026-11-00-AM-56.jpg",
-      "images": [
-        {
-          "url": "https://www.avclub.com/wp-content/uploads/2026/11/20/MixCollage-20-Nov-2026-11-00-AM-56.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/20110146/MixCollage-20-Nov-2026-11-01-AM-9946.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-20T16:03:18.000Z",
-      "sourceId": "avclub",
-      "source": "The A.V. Club",
-      "category": "entertainment",
-      "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
-    },
-    {
-      "id": "1jbwj5h",
-      "title": "Yellowjackets’ final season is pressed for time—but at least the premiere’s good",
-      "url": "https://www.avclub.com/yellowjackets-recap-season-4-episode-1-hivemind",
-      "excerpt": "“Previously on Yellowjackets ” is less a recap than a reminder of just how many murders, mutilations, and acts of cannibalism this show has normalized. It’s all a whirl of child deaths, adult knife fights, and the demise of Coach Ben, which remains the…",
-      "content": "“Previously on Yellowjackets ” is less a recap than a reminder of just how many murders, mutilations, and acts of cannibalism this show has normalized. It’s all a whirl of child deaths, adult knife fights, and the demise of Coach Ben, which remains the grimmest thing this brutal show ever concocted. There’s Shauna going full nightmare fuel during the hunt for Mari, Natalie scaling a snowy peak to save her fellow survivors, and Hilary Swank appearing in a backwards cap in the hope we’ll believe she’s a teenage Melissa grown up. The latter remains Yellowjackets ‘ greatest demand on our suspension of disbelief.\n\nBut first, our dear, sweet himbo Jeff, swoop-haired and getting stoned on a plaid sofa outside a suburban furniture warehouse, is being prototypical 1998 in 1998. It’s been 19 months since the disappearance of his high-school sweetheart and pregnant side piece, so he’s understandably moved on. Unfortunately, before he can secure a date with a hot customer, a nearby wall of televisions delivers some inconvenient news. The Yellowjackets have been found.\n\nThis raises pressing questions about the timeline. We know Nat, Shauna, Van, Lottie, Tai, Misty, and Travis survive, but when Natalie contacts rescue, there are considerably more people still breathing. The inclusion of “last one standing” in the recap montage will encourage the Reddit theory that, Highlander -style, there can be only one. What in the fast-paced bloodbath are we about to witness during rescue week? Forensic science wasn’t quite what it is today in 1998, but surely the authorities will have questions about the litany of fresh corpses. Even poor Coach Ben can only have been dead a week or so.\n\nIn the present, Melissa has considerably more immediate problems, chief among them being that she’s played by Hilary Swank. An actress of considerable pedigree, Swank has arrived in Yellowjackets with all the congruity of a surprise cameo on SNL , her performance seemingly consisting of wearing a backwards cap regardless of the weather. She begins by explaining her murderous past to her wife, raising the question of what exactly this long-married couple have been discussing all these years. You can practically hear the writers’ room giving up on deciding what these two might reasonably know about one another. Are we seriously expected to believe that “the Yellowjackets were in the Rockies with my mom when she was researching frogs just before she died” never came up over dinner?\n\nHer wife is understandably unimpressed, although not enough to wisely flee the cheap motel, leaving a Kool-Aid Man-shaped hole in the wall. Introduced at the 11th hour and retroactively woven into the show’s mythology, Melissa feels less like a long-lost Yellowjacket than an act of desperation. It’s particularly galling when the series has spent years carefully establishing its survivors, only to plonk a conspicuous Hollywood star into their midst and expect wardrobe to compensate for three seasons of character development.\n\nElsewhere, Taissa and Misty are dealing with the aftermath of Van’s death. Her terminal cancer diagnosis has conveniently precluded an investigation or autopsy, leaving Tai in possession of her remains. Misty, meanwhile, reveals that her million-dollar business ideas include “Uber for bathrooms” and trousers with refrigerated pockets for chocolate bars. If Christina Ricci’s delightful sociopath doesn’t survive until the finale, I will personally march upon Paramount+.\n\nRicci’s demonic doll of a character is also imagining violent solutions involving Shauna, Jeff, or both. Whether these are serious plans or simply how Misty habitually approaches problem-solving is unclear. The latter would certainly explain why she’s so good in a crisis. One can only hope her twin flame Walter returns soon enough to appreciate her ingenuity.\n\nBack in 1998, a quick scan of the survivors’ hospital room offers a pointed glimpse of Akilah, whose fate I’d somehow convinced myself was already sealed. If this is creative retconning, it’s welcome, given how compelling the character became last season. Her presence also adds another name to the increasingly complicated arithmetic of who gets rescued and who doesn’t.\n\nThe girls are handed their first “real food”, plastic-wrapped sandwiches that predictably provoke memories of cannibalism. It’s a slightly heavy-handed bit of narrative shorthand, but the reunion with their families is far more affecting. Yellowjackets , always quick to snatch devastation from the jaws of joy, interrupts the celebrations with Natalie’s realization that nobody has come to collect her.\n\nSophie Thatcher, arguably the show’s biggest breakout star, communicates the enormity of this rejection by taking a long drag on a cigarette, coughing violently and immediately taking another. It’s a beautifully economical piece of acting, conveying the self-destructive impulses that will define her adult life. After 19 months of surviving against impossible odds, Nat’s first instinct upon returning to civilization is to poison herself with whatever toxic substance is available.\n\nShauna’s trauma manifests differently. In the hospital she refuses to acknowledge to her doctor that she’s given birth, burying her grief beneath rage. In the present she’s threatening a private investigator who has failed to locate Melissa and, to Jeff’s considerable dismay, has Mean Girls -ed all his shirts. This is the moment Shauna may become irredeemable. Has this sweet, dumb man, whose own criminal enterprises look positively wholesome alongside his wife’s, not suffered enough?\n\nOne of the great strengths of Yellowjackets is how its timelines allow us to witness the same psychological damage at different stages of development. The teenage survivors are only beginning to discover how impossible it will be to return to their former lives, while their adult counterparts have spent decades demonstrating precisely how poorly that experiment went.\n\nThis makes Lottie’s scenes particularly uncomfortable. Knowing what awaits her—brutal psychiatric treatments, failed cult leadership, and a spectacularly underwhelming death—makes it difficult not to wish her a better future. Courtney Eaton has been so consistently brilliant in the role that the knowledge of how little dignity lies ahead feels particularly cruel.\n\nIn the present, Taissa’s ill-advised shrine and spooky prayer suggest that Van’s death has done nothing to loosen the wilderness’ grip. It’s brief but deeply ominous, particularly given how thoroughly Tai has spent her adult life attempting to reconcile her respectable public identity with the considerably less respectable activities of her other self.\n\nMeanwhile, Melissa has moved in next door to Shauna, which, given that this is a woman who married her murder victim’s daughter, represents roughly the level of sophisticated forward planning we’ve come to expect from her. Whether it’s the incongruity of Swank’s celebrity or the clumsiness with which Melissa has been inserted into an already crowded mythology, every appearance feels like an interruption from a different, considerably worse, television program.\n\nFar more satisfying is the episode’s final jolt, courtesy of Sophie Nélisse, whose simple, “What the fuck?” is a shot of adrenaline straight to the heart.\n\nThe question hanging over this premiere is one of pacing. Originally conceived as a five-season story, Yellowjackets now has just 10 episodes to resolve its sprawling mythology, competing timelines and ever-expanding body count. That’s a formidable challenge, particularly with a fandom as detail-oriented, bloodthirsty, and spectacularly unforgiving as this show’s.\n\nYellowjackets is at its finest when it has the unrelenting, methodical momentum and lightly chaotic edge of its first season. This premiere is a promising return to form, not lingering on the inconsequential while finding room for genuine tenderness and the occasional Jeff-related punchline. How everything will be resolved remains anybody’s guess. And while Hilary Swank is like water for the chocolate that was Juliette Lewis, there’s enough here to inspire faith that, after four seasons of spectacular turbulence, Yellowjackets might just land the hell out of this plane.\n\nStray observations\n\n• • Hello everyone! I’m Leila Latif and I am thrilled to be recapping Yellowjackets’ final season. Those of you with long memories may recall that I covered season one too. Many thanks to the wonderful Jen Lennon for enduring the highs and lows of season three, that was truly some brilliant writing on some questionable plot developments.\n\n• • RIP Van I will never forgive or forget.",
-      "image": "https://www.avclub.com/wp-content/uploads/2026/11/19/MixCollage-19-Nov-2026-04-41-PM-2553.jpg",
-      "images": [
-        {
-          "url": "https://www.avclub.com/wp-content/uploads/2026/11/19/MixCollage-19-Nov-2026-04-41-PM-2553.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/19174656/Yellowjackets_401_DS_0413_0047_RT.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-20T15:30:19.000Z",
-      "sourceId": "avclub",
-      "source": "The A.V. Club",
-      "category": "entertainment",
-      "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
-    },
-    {
-      "id": "qwlzpx",
-      "title": "For the Slam Frank team, messaging is beside the point",
-      "url": "https://www.avclub.com/slam-frank-latina-anne-frank-musical-joel-sinensky-andrew-fox",
-      "excerpt": "What if a misguidedly progressive regional theater company staged a musical about Anne Frank in which she and most of the other people hiding in that attic were “reimagined” with new races and/or sexuality, Hamilton- style? That’s the puckish premise of Slam…",
-      "content": "What if a misguidedly progressive regional theater company staged a musical about Anne Frank in which she and most of the other people hiding in that attic were “reimagined” with new races and/or sexuality, Hamilton- style? That’s the puckish premise of Slam Frank , and through that lens, the musical takes ideas around colorblind casting and historical reinterpretation in theater to satirical extremes.\n\nThe show has courted controversy since long before it began a developmental run at Asylum NYC last year, with creator Andrew Fox spending years posting updates on its progress via social media , drawing criticism and confusion from those not in on the joke. Conservative influencer Oli London provided a characteristic example, failing to read the irony and blasting the show for “ mocking Anne Frank while reinventing her as pansexual hip hop artist .”\n\nIn September, the musical officially debuted at the Orpheum Theatre, where it’s proved successful, with its run recently extended into next year. Slam Frank has drawn plaudits , condemnation , and general debate . Various critics and audience members have derided or praised it as “anti-woke,” as antisemitic, as Zionist or anti-Zionist, and much more.\n\nShortly after Slam Frank ’s run at the Orpheum was extended, we sat down with Fox and co-writer Joel Sinensky over Zoom to discuss the show, the controversy, diversity efforts in theater, and more.\n\nThe AV Club: The show’s promotional material heavily features a tweet from 2022 . Were you following that controversy at the time, or did you find it later?\n\nAndrew Fox: That’s kind of a convenient half-truth of marketing. We needed a shorthand to communicate the tone and intention of the musical, and the Twitter thread was the easiest thing to latch onto. It was more a series of things in the ether. There was that thread. There was a production of a play about antisemitism that got shut down by the Black Student Alliance at a liberal arts college in the northeast. There was this company in the U.K. that announced a production of Romeo And Juliet where the Montagues were Nazis and the Capulets were Jews. All these things where the rules of identity politics would get strange when applied to Jews. Because Jews are the exception to this rule, they provide a great test case for interrogating how we approach identity and how we tell stories through that lens. The source of that tweet isn’t necessarily what interested me. What interested me was all of the responses to it.\n\nAVC: Do you think that’s similar to the sentiment that undergirds the dynamics of colorblind or diverse casting in theater?\n\nAF: It’s tough to say, because Slam Frank is built to be three-dimensional. It’s not really a message piece. There’s this David Baddiel book, Jews Don’t Count , and sometimes critics of that book will hear that our show is in dialogue with it and think we 100% agree with it. Baddiel’s premise is that the trouble with identity politics is that when it comes to Jews, progressives forget to apply those rules. I think that’s half true, but in our show, we also interrogate the opposite side, which is that sometimes when people try to apply these rules to Jews, they suddenly realize, oh, that’s a dumb rule.\n\nJoel Sinensky: I think a lot of people look at our show and think it’s a message piece, or that it’s projecting a certain political belief, or that we’re attacking Hamilton and that kind of casting. And we both love Hamilton . I saw it a second time last year and sobbed for the whole second act. They think we’re taking a black-and-white position, but the show really is designed to not do that.\n\nAF: I think…[ laughs ] this is going to be the douchiest answer, but there’s this concept in ayahuasca medicine work where you’re interrogating your own story and get inside of it and get reminded that it’s just a story. And that allows you to crack it open and get a new idea, but then that idea itself turns into another story, and you’re constantly turning over these stories, trying to get to some sort of truth as if there is a single truth. Structurally, our play is trying to do the same thing. It’ll take an idea and say, “Well, this is ridiculous,” then we turn it over and go, “But what if it’s not ridiculous?” Then we push it a little further and it becomes a new idea.\n\nAlex Lewis, Jaz Zepatos, Olivia Bernábe, Rocky Paterra, Austen Horne in Slam Frank (Photo: Shawn Salley Photography)\n\nAVC: What’s an example of how this plays out?\n\nAF: There’s this sprawling sequence where Anne Frank is struggling with her identity, and her abuela pulls her into a flashback to her childhood in the barrios of Frankfurt. She relives her family’s struggles in the barrio and then their journey through the German jungles to become immigrants in Amsterdam, the assimilation process, and the erasure of her identity. One of the big ingredients we’re playing with is how ridiculously stupid these historical reimaginings can be. We’re looking at what’s clearly a gas station in Texas, and this guy says in a thick Texas drawl, “Hello thar, this here’s the Netherlands! You best speak Netherland here!”\n\nBut in making a farce out of how ridiculous it is to compare living through the Holocaust with being a Latino immigrant in the American Southwest, the necessities of storytelling require us to take the journey of this character seriously. And we end up having this sequence that is incredibly moving that ties the experience of the Frank family to the experience of Ellis Island immigrants and Latinos in the Southwest. It ends up becoming an emotional, moving portion of a ridiculous sequence. As we were writing it, the play constantly asked us to take something we were ready to make fun of and actually take it seriously, to ask ourselves, “Was I correct to judge that the way that I did?”\n\nAVC: Have you been able to see the production of The Diary of Anne Frank in L.A. with a mostly Latinx cast ?\n\nAF: I haven’t. When Stan Zimmerman announced that remounting, the internet tried to pit us against each other, and I was like, “Oh, hell no.” I sent him an olive branch, and we ended up corresponding and found that our experiences of putting on these plays were so similar. I think that’s something a lot of our fans don’t necessarily understand. Whether it’s with this or Midnight , they’ll be like, “How can you be friends with the creator of a show that is aesthetically and ideologically so different from yours?” Well, Putin and Zelenskyy have more in common with each other than with their own people. When you’ve created a work of art, when you’ve had to carry it across the finish line, dealing with death threats and institutional barriers and people misunderstanding you, when you look across the aisle at somebody who’s been through the same thing, you can’t be like, “You’re doing something different than me, so I hate you.” It’s “Man, it’s tough out there. Am I right?” We love Stan, and he’s been such a supporter of ours. He’s seen our show twice now.\n\nAVC: It’s interesting to hear you describe it this way. If, in making fun of the idea of reimagining a text with different identity markers, you then see actual resonances, does that make you question the project? You’ve affirmed there’s no overriding message, but does it make you rethink the jokes, your standpoint, or your approach?\n\nJS: I don’t think it does, because these layers are inherent to the piece. Like Andrew said, there are sections where we are pushing to create real emotional resonance within this absurd satirical context. To me, that doesn’t undercut the absurdity. It all grows on top of itself. One doesn’t negate the other.\n\nAF: Perhaps this is an incorrect assumption, but I think that had we written a non-musical play, people would recognize that it’s a playground, an experiment. I think because it’s a musical, people expect it to have a prepackaged message. I think musicals are seen—often correctly—as a reductive, two-dimensional art form. If I wanted to get a single message out, I wouldn’t write a play; I would write a tweet or essay, and that would be it. A play is an experience. The experience of Slam Frank is part roller-coaster, part dominatrix session, part acid trip of: How do we tell stories? How do we contextualize history? What is identity? And what the f–k b-llsh-t have we been doing for the past 15 years?\n\nJS: Andrew and I came at this material from different experiences. Often, when people are writing about a subject, they’re trying to figure out what they think about it. Andrew and I don’t always think the same way about different subjects. The show is an interrogation of these subjects and in many ways our own positions, and our feelings evolved as we wrote it.\n\nAF: My incredibly informed, correct views would interact with his wildly ignorant, I would say stupid, views about the world, and they arrive at a synthesis.\n\nAVC: What’s an example of this synthesis in the show?\n\nAF: I would have these big, heavy ideas that were difficult to convey or I was wildly unskilled at conveying. When trying to explain how I wanted the play to be set, I’d say, “It’s now, but it’s not now. It’s then, and they’re in the present, but they’re in the past.” It would be enormously frustrating for him. Then he would get high and write a scene where the characters themselves are trying to figure out what the f–k I was saying. And that’s where we got the recurring gag of the characters trying to have a conversation with the audience and getting confused—“Which today are you talking about?”\n\nJS: There was a certain incoherence to some of the concepts we were dealing with, and it became a theme of the show: the incongruence of the way theater can recontextualize history. The characters themselves get confused about the context of their own reality, which adds to the acid trip energy of the show.\n\nAF: Additionally, I’m a fluent native speaker of woke, and Joel is not. So sometimes I would feed in those kinds of lines, and Joel would have to interact with them. I think the most blatant example in the script is when Mrs. Van Daan becomes a feminist, an academic Judith Butler type, and she says, “Sure, the Allies may defeat the Nazis, but through what assemblage of counter-hegemonic labor shall the scaffolding of our interlocking systems of oppression be rendered obsolete?” And then Joel’s line is Otto’s response: “I don’t understand anything you just said, but you’re right.”\n\nCast of Slam Frank (Photo: Shawn Salley Photography)\n\nAVC: Circling back to the show reacting to, as you put it, “What the f–k b-llsh-t have we been doing for the past 15 years?” You mentioned a Black student group protesting a play about antisemitism. What college and show was this? And what other shows, or events, or things you’ve seen working in theater influenced the show?\n\nFox : I don’t remember the specific play, and at this point, with so much time between now and then, I’d be wary of misremembering and misreporting. There were a lot of strange, strange stories. For example, The Marvelous Ms. Maisel was a very Jewish show. And every season, they had more dictates from on high to get more diversity in the writers’ room. And in practice, that meant they had to keep firing Jews and replacing them, on a show all about Jews. Now, I’m not out here saying we need our special stuff too. It was just an interesting irony.\n\nThe things in theater, particularly … I remember a Jewish actress I worked with was told, “Well, you had your moment with the Holocaust” by a very progressive person. I would witness people saying to someone whose parents had immigrated as Jewish refugees from the collapse of the U.S.S.R., “You have no idea the generational wealth of your white privilege.” There are also a lot of stories people in the industry have told me that I can’t tell, because it’d be clear who it was.\n\n[ Note: We emailed Fox via his representative prior to publication of this piece to ask for verification of the claims about the Black St",
-      "image": "https://www.avclub.com/wp-content/uploads/2026/11/19/MixCollage-19-Nov-2026-04-51-PM-2878.jpg",
-      "images": [
-        {
-          "url": "https://www.avclub.com/wp-content/uploads/2026/11/19/MixCollage-19-Nov-2026-04-51-PM-2878.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/19180205/MixCollage-19-Nov-2026-04-51-PM-1108.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/19180344/MixCollage-19-Nov-2026-04-54-PM-6709.jpg",
-          "alt": "Alex Lewis, Jaz Zepatos, Olivia Bernábe, Rocky Paterra, Austen Horne in Slam Frank (Photo: Shawn Salley Photography)"
-        },
-        {
-          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/19180440/MixCollage-19-Nov-2026-04-55-PM-764.jpg",
-          "alt": "Cast of Slam Frank (Photo: Shawn Salley Photography)"
-        },
-        {
-          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/19180536/MixCollage-19-Nov-2026-04-55-PM-3478.jpg",
-          "alt": "Amelia Louis Barr and the cast of Slam Frank (Photo: Shawn Salley Photography)"
-        }
-      ],
-      "publishedAt": "2026-11-20T15:00:19.000Z",
-      "sourceId": "avclub",
-      "source": "The A.V. Club",
-      "category": "entertainment",
-      "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1ew01dv",
@@ -4900,7 +4654,7 @@
       "source": "UN News",
       "category": "war",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1q6864l",
@@ -4915,7 +4669,7 @@
       "source": "OpenAI News",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "og5kbd",
@@ -4930,7 +4684,7 @@
       "source": "OpenAI News",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1jx00df",
@@ -4945,7 +4699,7 @@
       "source": "OpenAI News",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "ci8c57",
@@ -4960,7 +4714,7 @@
       "source": "Hugging Face",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "tewobz",
@@ -4975,7 +4729,7 @@
       "source": "Nature",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1uc7ivm",
@@ -4990,7 +4744,7 @@
       "source": "Nature",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1fxn5is",
@@ -5005,7 +4759,7 @@
       "source": "Nature",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "wu8bvb",
@@ -5025,7 +4779,7 @@
       "source": "UN News",
       "category": "war",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "8f0jhu",
@@ -5045,7 +4799,7 @@
       "source": "Газета.Ru Авто",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "1w4reqi",
@@ -5060,7 +4814,22 @@
       "source": "Stack Overflow",
       "category": "aisoft",
       "lang": "en",
-      "addedAt": "2026-11-20T23:56:57.480Z"
+      "addedAt": "2026-11-21T00:00:49.494Z"
+    },
+    {
+      "id": "th0aql",
+      "title": "Release: Akuma Rise",
+      "url": "https://www.gog.com/de/news/release_akuma_rise",
+      "excerpt": "Akuma Rise is a story-driven JRPG – and it's now available on GOG! Set in the demon realm of Adribune, this game follows Kaine, a demon who awakens with no memories after washing ashore on a remote island. With the Overlord gone, rival nations clash and…",
+      "content": "Akuma Rise is a story-driven JRPG – and it's now available on GOG!\n\nSet in the demon realm of Adribune, this game follows Kaine, a demon who awakens with no memories after washing ashore on a remote island. With the Overlord gone, rival nations clash and heroes from the Radiant Realm invade, seeking to dominate the Shadow Realm. Joined by three demon princesses and a strange mascot, Kaine searches for fragments of his lost past while fighting to protect a world on the brink of collapse.\n\nNow on GOG!",
+      "image": "",
+      "images": [],
+      "publishedAt": null,
+      "sourceId": "gog-news",
+      "source": "GOG",
+      "category": "releases",
+      "lang": "en",
+      "addedAt": "2026-11-21T00:00:49.494Z"
     },
     {
       "id": "gh-1435983892",
@@ -48373,7 +48142,7 @@
       "url": "https://github.com/MatyMeatBoy/DynaBroCollection",
       "excerpt": "DynaBroCollection - Dyna Brothers 1 + 2: native Windows x64 recompilation and English fan translation (alpha)",
       "image": "",
-      "publishedAt": "2026-11-20T02:53:53Z",
+      "publishedAt": "2026-11-20T23:58:15Z",
       "addedAt": "2026-11-18T02:54:44.657Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -68724,6 +68493,30 @@
       "addedAt": "2026-11-17T02:56:57.990Z"
     },
     {
+      "id": "1txvwqg",
+      "title": "Paul Thomas Anderson makes you feel like you were there with Cameron Winter At Carnegie Hall",
+      "url": "https://www.avclub.com/cameron-winter-at-carnegie-hall-review-geese-concert-film-paul-thomas-anderson",
+      "excerpt": "If you’re on the fence about a musician everyone else loves, the best thing you can do for yourself is to see them in concert. There’s no guarantee that the live show will change your mind, but it does ensure that you’ll experience the artist in the most…",
+      "content": "If you’re on the fence about a musician everyone else loves, the best thing you can do for yourself is to see them in concert. There’s no guarantee that the live show will change your mind, but it does ensure that you’ll experience the artist in the most ideal setting, fully immersed in the music and surrounded by an adoring audience in tune with every word. Even if you remain unconvinced, perhaps at last you’ll understand the appeal. And who knows: Maybe begrudging respect might transform into admiration over the course of one magical night.\n\nPlenty of people will be excited about Cameron Winter At Carnegie Hall , the concert film from the frontman for Geese , one of American indie rock’s most celebrated rising bands. But even skeptics—including those of us who consider Winter’s voice an unwieldy mixture of eccentric and distracting—may find themselves transfixed by a movie that offers a riveting new perspective on a songwriter who knows how to command a stage, despite the fact that, for most of Carnegie Hall , he’s playing a piano with his back to the crowd. Geese naysayers who have long resisted the hype might be tempted to credit the film’s greatness to Paul Thomas Anderson, who directed Carnegie Hall in the midst of Oscar campaigning for One Battle After Another . But even so, Anderson’s principal achievement is recognizing how to turn an intimate show into something unexpectedly transcendent. That means putting the focus on Winter’s exceptional talent.\n\nThe film captures Winter’s December 11, 2025 performance at the fabled New York venue, and Anderson wastes little time getting on with the show. A smattering of shots of fans excitedly entering Carnegie Hall start the movie, and soon Winter is walking toward his Steinway & Sons as the lights dim. The bulk of Cameron Winter At Carnegie Hall ‘s songs are taken from his 2024 solo album Heavy Metal , where the tunes were stripped down, accented by acoustic guitars, spare drums, keyboards, and a little bit of French horn. But on this tour, Winter emphasized the “solo” in “solo album”—it’s just him and a piano.\n\nThe desired effect is familiar to anyone who has been alive since MTV’s Unplugged series popularized the notion of the world’s biggest artists paring back their instrumentation in order to showcase their “true” artistry. Sure, the trend quickly became a gimmick, but with Carnegie Hall , Winter doesn’t simply bury the Heavy Metal versions but cements the case that Geese diehards have been making for a while about his wizardly stage presence. Rarely interacting with the audience, quietly and quickly moving from song to song, he embodies the compositions’ pain, vulnerability, and mystery so completely that, like Anderson’s camera, you can’t take your eyes off of him. Staring into the middle distance, intoning the lyrics with stunning intensity, Winter barely moves, and yet the performance is volcanic.\n\nAnderson is no newbie to music movies. Whether shooting videos for Haim and Radiohead, masterminding Thom Yorke’s short film Anima, or directing the 2015 documentary Junun , he approaches the job with an appealing modesty, allowing the musicians to shine. In this way, he pays homage to one of his heroes, Jonathan Demme, whose Stop Making Sense set the standard for how to convey the electricity and immediacy of live performance.\n\nFilming in 35mm, Anderson takes on a daunting task considering that, unlike most concert movies that feature full bands, Winter’s setup doesn’t allow for dynamic cutaways or myriad visual treats. Much of Carnegie Hall consists of shots of Winter singing and tickling the keys, and it’s to Anderson’s credit that he resists cutting around a lot to create an artificial sense of energy. As was true with Demme, he understands the power of a sustained take, his camera holding on an arresting moment so that we observe Winter giving himself over to the material, falling into a trance with his eyes open.\n\nThe lack of jittery edits also allows us to concentrate on the lyrics, which add to the spell. From the relatively jaunty “Love Takes Miles” to the wistful “Cancer Of The Skull,” the words express just enough to push across the tracks’ themes, but concreteness remains bewitchingly out of reach. “I came up here to sleep in your infamous kitchen” is but one of many lines that, like Anderson’s camera on occasion, slips out of focus, then suddenly snaps back into dazzling sharpness.\n\nBut Carnegie Hall ‘s unfussy elegance most accentuates Winter’s operatic voice. With Geese and on his solo work, it can come across as needlessly showy—nothing more than a self-indulgent mannerism undercutting his material’s sincerity. But such quibbles vanish as Winter abandons the flourishes for something far more galvanizing and emotional. Drawing comparisons to Rufus Wainwright’s soaring tenor—albeit with extra bite—or a young Bob Dylan pouring his heart out through his larynx, Winter simply opens his mouth and a flood of longing crashes through the screen. Anderson infrequently incorporates moving cameras to give Carnegie Hall a bit of propulsion, but more often he knows that Winter is all he needs. Now 24, not a quicksilver prodigy nor a tortured genius, he is both revealed and still fascinatingly opaque.\n\nRunning only 75 minutes, Carnegie Hall overwhelms you then fades away. But fragments remain. The way the mournful “$0” lightly mirrors the melody of “Christmas Time Is Here.” The incredible shot Anderson snags of Winter’s silhouette projected high on the wall, an instant bit of mythmaking you just want to stare at forever. There’s an accompanying album, Live At Carnegie Hall , which came out last month. You may be surprised to discover that the record doesn’t quite replicate the experience of the movie, and it’s not just the immense pleasure of seeing Winter articulate these songs on stage that’s missing. It’s the cozy, bewitching atmosphere Anderson conjures up out of thin air. With live records, the standard complaint is that, really, you had to be there to understand what made the show so special. With Cameron Winter At Carnegie Hall , you feel like you were.\n\nDirector: Paul Thomas Anderson\n\nRelease Date: November 20, 2026",
+      "image": "https://www.avclub.com/wp-content/uploads/2026/11/13/Cameron-Winter-at-Carnegie-Hall-header.jpg",
+      "images": [
+        {
+          "url": "https://www.avclub.com/wp-content/uploads/2026/11/13/Cameron-Winter-at-Carnegie-Hall-header.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/13101134/Cameron-Winter-at-Carnegie-Hall-squared.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-16T17:00:15.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-17T02:56:57.990Z"
+    },
+    {
       "id": "u05y5z",
       "title": "God Of War: Sons Of Sparta Is Out Now For PS4 Alongside New Update For Extra Content",
       "url": "https://www.psu.com/news/god-of-war-sons-of-sparta-is-out-now-for-ps4-alongside-new-update-for-extra-content/",
@@ -68735,6 +68528,54 @@
       "sourceId": "psu",
       "source": "PlayStation Universe",
       "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-17T02:56:57.990Z"
+    },
+    {
+      "id": "lmmliw",
+      "title": "Kathy Griffin says her only mistake with infamous Trump photo was apologizing for it",
+      "url": "https://www.avclub.com/kathy-griffin-trump-photo-apology-mistake",
+      "excerpt": "Back in 2017, Kathy Griffin posted a photo that showed her posing with a prop resembling the bloody, decapitated head of President Donald Trump. The backlash against her was swift , and, within days, she shared a public apology. Though she retracted the…",
+      "content": "Back in 2017, Kathy Griffin posted a photo that showed her posing with a prop resembling the bloody, decapitated head of President Donald Trump. The backlash against her was swift , and, within days, she shared a public apology. Though she retracted the apology later in 2017 , she still regrets issuing it in the first place.\n\n“I know it’s hard to believe it now, because it’s been nine freaking years, but it was seismic,” says Griffin in a new episode of Ziwe posted to YouTube last night. “I had members of Congress calling me at home that day, I had agencies and networks that I didn’t even know calling me to let me know, ‘You’ve ruined your career and your life, just so you know.'” Adds Griffin when prompted about cancel culture, “I think if you did something wrong, you should apologize. I actually didn’t do anything wrong but I did an apology because I was such a wreck. I mean, they were telling me American service members were going to be beheaded in my name and they were going to be making videos holding up American heads going, ‘This is ’cause of you, Kathy Griffin.’ So when you get that call… I got some bad advice from a bad publicist. I shouldn’t say ‘bad publicist,’ I should say, ‘Cindi Berger is just not someone I love.’ Anyway, saying, ‘Make an apology video right now and make sure you’re crying.’ And I was like, ‘Well, I’m crying anyway.'” Griffin concludes her recollection with: “That was the only mistake I made, was the apologizing.”\n\nGriffin retracted her apology a few months after issuing it, saying, “The whole outrage was B.S…. stop acting like my little picture is more important than the actual atrocities the President of the United States is committing.” It’s certainly a stance that seems only more reasonable in the President’s second term, when not only are there still atrocities going on, but Trump himself is able to generate and share whatever sick image he wants with AI . We can be pretty sure he’ll never apologize for those, either.",
+      "image": "https://www.avclub.com/wp-content/uploads/2026/11/16/MixCollage-16-Nov-2026-11-09-AM-3770.jpg",
+      "images": [
+        {
+          "url": "https://www.avclub.com/wp-content/uploads/2026/11/16/MixCollage-16-Nov-2026-11-09-AM-3770.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/16112012/MixCollage-16-Nov-2026-11-08-AM-290.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-16T16:21:26.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-17T02:56:57.990Z"
+    },
+    {
+      "id": "1j12p61",
+      "title": "John Malkovich lost his entire life savings to Bernie Madoff in 2008",
+      "url": "https://www.avclub.com/john-malkovich-60-minutes-bernie-madoff",
+      "excerpt": "The list of famous people hoodwinked by infamous Ponzi schemer Bernie Madoff is long and notable , with names like Steven Spielberg, Jeffrey Katzenberg, Elie Wiesel, Sandy Koufax, Larry King, Kevin Bacon and Kyra Sedgwick and even Zsa Zsa Gabor waking up one…",
+      "content": "The list of famous people hoodwinked by infamous Ponzi schemer Bernie Madoff is long and notable , with names like Steven Spielberg, Jeffrey Katzenberg, Elie Wiesel, Sandy Koufax, Larry King, Kevin Bacon and Kyra Sedgwick and even Zsa Zsa Gabor waking up one December day in 2008 to find that their trusted financial advisor had stolen untold millions. On Sunday’s 60 Minutes , actor John Malkovich, long reported as a Madoff victim, finally shared the extent of the damage that resulted from his trust in the disgraced Madoff, who died in prison in 2021.\n\n“I had directed a play in Mexico City and then I got home from that and I saw this photograph of Bernie Madoff in handcuffs and I thought, ‘Oh. Well, that—that could prove interesting.'” As Malkovich told 60 Minutes interviewer Ariel Levy, “And I went in and said to my wife, ‘You know, I’m just gonna go around the corner, buy a pack of cigarettes.’ I said, ‘We have a little problem, Bernie Madoff just got arrested.'” Malkovich confirmed to Levy that he had quit smoking at that time, with the walk giving the Being John Malkovich star an opportunity to pull himself together. “That was pretty much everything I’d ever made,” Malkovich told Levy, his eyes visibly watery at the thought.\n\nStill, the veteran actor is, at least in retrospect, relatively sanguine about the devastating experience, telling Levy, “And, you know, you look to blame. You’re gonna do this and that. And then, you realize that, ‘Look. Why don’t you shut up? Whatever you lost, most people who were ever born will never have a tenth of that, no matter what they do, no matter what they do. Get on with your life.’ And that’s it.” Malkovich, currently garnering Oscar buzz for his turn as a conflicted CIA operative in Martin McDonagh’s Wild Horse Nine , indeed went right back to work, appearing in seven feature films in 2008 alone before continuing to keep a prolific pace in films and theater since.",
+      "image": "https://www.avclub.com/wp-content/uploads/2026/11/16/JM-feature.jpg",
+      "images": [
+        {
+          "url": "https://www.avclub.com/wp-content/uploads/2026/11/16/JM-feature.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://img.pastemagazine.com/wp-content/avuploads/2026/11/16111529/JM-151.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-16T16:21:10.000Z",
+      "sourceId": "avclub",
+      "source": "The A.V. Club",
+      "category": "entertainment",
       "lang": "en",
       "addedAt": "2026-11-17T02:56:57.990Z"
     },
@@ -69334,6 +69175,21 @@
       "addedAt": "2026-11-16T19:57:08.828Z"
     },
     {
+      "id": "1kyg9y7",
+      "title": "How ‘Twilight’ Predicted Robert Pattinson’s James Bond Casting",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/twilight-predicted-robert-pattinson-james-bond-casting-1236756443/",
+      "excerpt": "In 2008, Pattinson debuted his skin of a killer. Nearly two decades later, he's gotten his license to kill.",
+      "content": "In 2008, Pattinson debuted his skin of a killer. Nearly two decades later, he's gotten his license to kill.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-16T19:33:42.000Z",
+      "sourceId": "hollywoodreporter",
+      "source": "The Hollywood Reporter",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-16T19:57:08.828Z"
+    },
+    {
       "id": "55652n",
       "title": "Кушнер заявив про підготовку до багатосторонньої зустрічі щодо війни в Україні",
       "url": "https://www.pravda.com.ua/news/2026/11/16/8063172/",
@@ -69398,6 +69254,21 @@
       "addedAt": "2026-11-16T19:57:08.828Z"
     },
     {
+      "id": "wdhwav",
+      "title": "‘Spirit of the Photobooth’ Doc Highlights the Invention’s Democratic Origins and Its Gen-Z Resurgence",
+      "url": "https://www.hollywoodreporter.com/lifestyle/arts/spirit-of-the-photobooth-doc-gen-z-resurgence-1236756460/",
+      "excerpt": "The documentary played at the International Center of Photography as part of Art Week.",
+      "content": "The documentary played at the International Center of Photography as part of Art Week.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-16T19:26:40.000Z",
+      "sourceId": "hollywoodreporter",
+      "source": "The Hollywood Reporter",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-16T19:57:08.828Z"
+    },
+    {
       "id": "1wxf2up",
       "title": "Nvidia представила Rubin HPC — у него почти в 2,5 раза больше ядер CUDA, чем у GeForce RTX 5090",
       "url": "https://3dnews.ru/1151373",
@@ -69415,6 +69286,21 @@
       "source": "3DNews Железо",
       "category": "hardware",
       "lang": "ru",
+      "addedAt": "2026-11-16T19:57:08.828Z"
+    },
+    {
+      "id": "ehvzba",
+      "title": "Ella Langley Brings Country Into The Grammys’ General Field With Seven Nominations",
+      "url": "https://www.hollywoodreporter.com/music/music-news/ella-langley-2027-grammys-7-nominations-1236756225/",
+      "excerpt": "The \"Choosin' Texas\" singer is the third-most nominated singer this year, with nods in album, song and record of the year, along with best new artist.",
+      "content": "The \"Choosin' Texas\" singer is the third-most nominated singer this year, with nods in album, song and record of the year, along with best new artist.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-16T19:25:52.000Z",
+      "sourceId": "hollywoodreporter",
+      "source": "The Hollywood Reporter",
+      "category": "entertainment",
+      "lang": "en",
       "addedAt": "2026-11-16T19:57:08.828Z"
     },
     {
@@ -69474,6 +69360,26 @@
       "sourceId": "verge-ai",
       "source": "The Verge AI",
       "category": "ai",
+      "lang": "en",
+      "addedAt": "2026-11-16T19:57:08.828Z"
+    },
+    {
+      "id": "13tdrv9",
+      "title": "Gwen Stefani Will Celebrate Orange County Roots by Performing at Grand Opening of OCVIBE’s 5,000-Seat Concert Hall This Spring",
+      "url": "https://variety.com/2026/music/news/gwen-stefani-ocvibe-concert-hall-anaheim-grand-opening-1236949277/",
+      "excerpt": "Gwen Stefani used part of her induction speech for Billy Idol at the Rock & Roll Hall of Fame ceremony Saturday night to recall how she used to listen to the rocker on the bus on the way to Huntington Beach. She’ll be returning to Orange County to do what…",
+      "content": "Gwen Stefani used part of her induction speech for Billy Idol at the Rock & Roll Hall of Fame ceremony Saturday night to recall how she used to listen to the rocker on the bus on the way to Huntington Beach. She’ll be returning to Orange County to do what counts as a hometown show […]",
+      "image": "https://variety.com/wp-content/uploads/2026/11/GettyImages-2304654910.jpg",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/GettyImages-2304654910.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-16T19:22:35.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
       "lang": "en",
       "addedAt": "2026-11-16T19:57:08.828Z"
     },
@@ -69538,6 +69444,26 @@
       "addedAt": "2026-11-16T19:57:08.828Z"
     },
     {
+      "id": "jhl22n",
+      "title": "Justin Long & Kate Bosworth To Headline Indie Comedy Series ‘The Renovation’",
+      "url": "https://deadline.com/2026/11/justin-long-kate-bosworth-indie-comedy-the-renovation-1237225426/",
+      "excerpt": "EXCLUSIVE: The resurgence of independent television series continues to grow with Justin Long (Barbarian, You Deserve Each Other) and Kate Bosworth (Still Alice, Along for the Ride) starring in The Renovation, a fully-financed indie comedy series. It hails…",
+      "content": "EXCLUSIVE: The resurgence of independent television series continues to grow with Justin Long (Barbarian, You Deserve Each Other) and Kate Bosworth (Still Alice, Along for the Ride) starring in The Renovation, a fully-financed indie comedy series. It hails from Lucas Carter (Summer of ’69), Nick Kreiss (Punk’d) who directs all episodes, Intrigue, Script2Screen and Hammerstone […]",
+      "image": "https://deadline.com/wp-content/uploads/2026/11/Justin-Long-Kate-Bosworth.jpg",
+      "images": [
+        {
+          "url": "https://deadline.com/wp-content/uploads/2026/11/Justin-Long-Kate-Bosworth.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-16T19:18:00.000Z",
+      "sourceId": "deadline",
+      "source": "Deadline",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-16T19:57:08.828Z"
+    },
+    {
       "id": "1ajzvzm",
       "title": "Кровавый трейлер психологического хоррор-шутера Flesh & Wire от создателей Postal напомнил фанатам о The Darkness и F.E.A.R.",
       "url": "https://3dnews.ru/1151370/krovaviy-treyler-psihologicheskogo-horrorshutera-flesh-wire-ot-sozdateley-postal-napomnil-fanatam-o-the-darkness-i-fear",
@@ -69555,6 +69481,21 @@
       "source": "3DNews Игры",
       "category": "games",
       "lang": "ru",
+      "addedAt": "2026-11-16T19:57:08.828Z"
+    },
+    {
+      "id": "ra6sdv",
+      "title": "Grammy Nominations Snubs and Surprises: Harry Styles, Madonna, Noah Kahan Miss Top Nods as Raye, Rosalía Overperform",
+      "url": "https://www.hollywoodreporter.com/music/music-news/grammys-2027-snubs-surprises-harry-styles-noah-kahan-1236756402/",
+      "excerpt": "Styles, who won album of the year with 'Harry's House' back in 2023, was completely shut out of the Grammy race this time, one of the most notable snubs this season.",
+      "content": "Styles, who won album of the year with 'Harry's House' back in 2023, was completely shut out of the Grammy race this time, one of the most notable snubs this season.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-16T19:16:29.000Z",
+      "sourceId": "hollywoodreporter",
+      "source": "The Hollywood Reporter",
+      "category": "entertainment",
+      "lang": "en",
       "addedAt": "2026-11-16T19:57:08.828Z"
     },
     {
@@ -69613,6 +69554,21 @@
       "sourceId": "techcrunch-ai",
       "source": "TechCrunch AI",
       "category": "ai",
+      "lang": "en",
+      "addedAt": "2026-11-16T19:57:08.828Z"
+    },
+    {
+      "id": "cmhwm9",
+      "title": "Louis Carr Exits as BET President",
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/bet-president-exits-louis-carr-1236756448/",
+      "excerpt": "Carr was named president in December 2025.",
+      "content": "Carr was named president in December 2025.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-16T19:11:41.000Z",
+      "sourceId": "hollywoodreporter",
+      "source": "The Hollywood Reporter",
+      "category": "entertainment",
       "lang": "en",
       "addedAt": "2026-11-16T19:57:08.828Z"
     },
