@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-21T21:05:16.547Z",
-  "tookMs": 9119,
+  "generatedAt": "2026-11-21T21:08:16.506Z",
+  "tookMs": 9477,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -24,7 +24,7 @@
     "war": "Война"
   },
   "counts": {
-    "ai": 369,
+    "ai": 370,
     "games": 600,
     "announces": 30,
     "mobile": 10,
@@ -43,7 +43,7 @@
     "aisoft": 100,
     "cars": 515,
     "war": 595,
-    "total": 4437
+    "total": 4438
   },
   "sourceCount": 89,
   "sources": [
@@ -708,7 +708,7 @@
       "excerpt": "Console games statically recompiled into native Android, macOS and Linux apps. No emulator, bring your own games.",
       "image": "",
       "publishedAt": "2026-11-21T20:52:04Z",
-      "addedAt": "2026-11-21T21:05:11.562Z",
+      "addedAt": "2026-11-21T21:08:11.293Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -721,7 +721,7 @@
       "excerpt": "Recompilation of Phobia II originally published by WAH Software (1997). Targets macOS",
       "image": "",
       "publishedAt": "2026-11-21T20:49:27Z",
-      "addedAt": "2026-11-21T21:05:11.562Z",
+      "addedAt": "2026-11-21T21:08:11.293Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -734,7 +734,7 @@
       "excerpt": "openQ4: the modern way to play QUAKE 4. An open-source Quake4 source port on a modernized idTech4 engine, with Vulkan and OpenGL renderers, for Windows, Linux, Steam Deck and macOS.",
       "image": "",
       "publishedAt": "2026-11-21T20:20:31Z",
-      "addedAt": "2026-11-21T21:05:11.116Z",
+      "addedAt": "2026-11-21T21:08:10.833Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -747,7 +747,7 @@
       "excerpt": "Alien Trilogy: Remastered - a native Windows port of Alien Trilogy (1996) with new modes. Bring your own PS1 disc; no game files included.",
       "image": "",
       "publishedAt": "2026-11-21T18:33:16Z",
-      "addedAt": "2026-11-21T21:05:11.116Z",
+      "addedAt": "2026-11-21T21:08:10.833Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -760,7 +760,7 @@
       "excerpt": "Native Windows port of Pokémon: Let's Go, Eevee! (Switch v1.0.0) by static recompilation, built on LAS Recomp. No game files included.",
       "image": "",
       "publishedAt": "2026-11-21T21:02:31Z",
-      "addedAt": "2026-11-21T21:05:10.654Z",
+      "addedAt": "2026-11-21T21:08:10.372Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -773,7 +773,7 @@
       "excerpt": "Pilotwings 64 as a native PC game for Windows and Linux: widescreen, 144+ FPS, gamepads, multiplayer! Bring your own ROM, no emulator.",
       "image": "",
       "publishedAt": "2026-11-21T20:59:48Z",
-      "addedAt": "2026-11-21T21:05:10.654Z",
+      "addedAt": "2026-11-21T21:08:10.372Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -786,7 +786,7 @@
       "excerpt": "محرك Reforged 4.0.0 الحقيقي كاملًا على أندرويد — Zero Hour بتحكّم لمسي كامل وعربي كامل ورسوم الويندوز على الهواتف القوية | The full Reforged 4.0.0 engine, native on Android",
       "image": "",
       "publishedAt": "2026-11-21T20:03:07Z",
-      "addedAt": "2026-11-21T21:05:10.654Z",
+      "addedAt": "2026-11-21T21:08:10.372Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -799,7 +799,7 @@
       "excerpt": "Static recompilation of Donkey Kong Bananza (Switch 2) to native Windows and Linux with Vulkan. 0.5.1 out: NVIDIA shader cache fix, player 2 rumble; one-file Windows launcher, presets, local co-op, 16:10, Thai. Requirements: docs/requirements.md. Roadmap: #10. No game files included.",
       "image": "",
       "publishedAt": "2026-11-21T19:51:02Z",
-      "addedAt": "2026-11-21T21:05:10.654Z",
+      "addedAt": "2026-11-21T21:08:10.372Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -812,7 +812,7 @@
       "excerpt": "Halo CE: Ported for Everyone. Windows, Mac, Linux, Steam Deck, Android and FreeBSD, with online play and stats. Bring your own copy of the game.",
       "image": "",
       "publishedAt": "2026-11-21T19:50:59Z",
-      "addedAt": "2026-11-21T21:05:10.654Z",
+      "addedAt": "2026-11-21T21:08:10.372Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
@@ -825,11 +825,26 @@
       "excerpt": "Port of MDK (Shiny Entertainment, 1997) to C# and SDL3, based on reverse engineering: stereo 3D, VR viewer (Cardboard) on Android and desktop, gamepads - work in progress",
       "image": "",
       "publishedAt": "2026-11-21T18:42:37Z",
-      "addedAt": "2026-11-21T21:05:10.654Z",
+      "addedAt": "2026-11-21T21:08:10.372Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
       "category": "ports",
       "lang": "en"
+    },
+    {
+      "id": "k4fs4w",
+      "title": "A tale of two Nvidias",
+      "url": "https://techcrunch.com/2026/11/21/a-tale-of-two-nvidias/",
+      "excerpt": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+      "content": "We got two very different pictures of Nvidia — the company’s latest earnings report vs. the tech executives loudly calling for Jensen Huang’s return.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-21T21:07:42.000Z",
+      "sourceId": "techcrunch-ai",
+      "source": "TechCrunch AI",
+      "category": "ai",
+      "lang": "en",
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1nyii85",
@@ -849,7 +864,7 @@
       "source": "3DNews Игры",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1rskkzv",
@@ -869,7 +884,7 @@
       "source": "Ukrainska Pravda",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "ymrhdk",
@@ -889,7 +904,7 @@
       "source": "9to5Google",
       "category": "software",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1fh5uhy",
@@ -909,7 +924,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "a1mtk6",
@@ -933,7 +948,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "4o7fyk",
@@ -953,7 +968,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "g5yjil",
@@ -973,7 +988,7 @@
       "source": "VGC",
       "category": "industry",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "18k0jx8",
@@ -993,7 +1008,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "kz54zi",
@@ -1013,7 +1028,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1f1yxuj",
@@ -1028,7 +1043,7 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1dgg8z4",
@@ -1048,7 +1063,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "y7vkc5",
@@ -1068,7 +1083,7 @@
       "source": "Ukrinform",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1730cg",
@@ -1088,7 +1103,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "exsrri",
@@ -1108,7 +1123,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1626bzv",
@@ -1128,7 +1143,7 @@
       "source": "VGC",
       "category": "industry",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "eigvkj",
@@ -1148,7 +1163,7 @@
       "source": "The Verge AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "12bte3j",
@@ -1168,7 +1183,7 @@
       "source": "VGC",
       "category": "industry",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "x0jrw7",
@@ -1204,7 +1219,7 @@
       "source": "Tom's Hardware",
       "category": "hardware",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "7emklh",
@@ -1224,7 +1239,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "11qslk5",
@@ -1239,7 +1254,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1rwtf6h",
@@ -1259,7 +1274,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "12izgoj",
@@ -1274,7 +1289,7 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1yd1poe",
@@ -1294,7 +1309,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "9qjepf",
@@ -1314,7 +1329,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1dg18bj",
@@ -1334,7 +1349,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "3mqy8d",
@@ -1354,7 +1369,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "hc47tl",
@@ -1374,7 +1389,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1defyua",
@@ -1394,7 +1409,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "13pqv47",
@@ -1418,7 +1433,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "6pb7fu",
@@ -1438,7 +1453,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "sahfb2",
@@ -1458,7 +1473,7 @@
       "source": "Ukrainska Pravda",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "dxii6s",
@@ -1478,7 +1493,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1iu2ywv",
@@ -1498,7 +1513,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "14ryzx6",
@@ -1518,7 +1533,7 @@
       "source": "InsideEVs",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "113dsjz",
@@ -1546,7 +1561,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "98mmn",
@@ -1561,7 +1576,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "sv8byi",
@@ -1585,7 +1600,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1ed1occ",
@@ -1605,7 +1620,7 @@
       "source": "Rock Paper Shotgun",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "n8g7j7",
@@ -1625,7 +1640,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1amibda",
@@ -1649,7 +1664,7 @@
       "source": "Tom's Hardware",
       "category": "hardware",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "ow55bt",
@@ -1669,7 +1684,7 @@
       "source": "StopGame",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "3ue4ax",
@@ -1689,7 +1704,7 @@
       "source": "IGN",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1h3o0w9",
@@ -1704,7 +1719,7 @@
       "source": "Al Jazeera",
       "category": "war",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1kprxtw",
@@ -1724,7 +1739,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "kxqwtz",
@@ -1756,7 +1771,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "f4i51e",
@@ -1771,7 +1786,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "179q10p",
@@ -1791,7 +1806,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "6ff7re",
@@ -1811,7 +1826,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1h3lbae",
@@ -1835,7 +1850,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1xerycy",
@@ -1859,7 +1874,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1770qtp",
@@ -1874,7 +1889,7 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1jhjo15",
@@ -1889,7 +1904,7 @@
       "source": "gHacks",
       "category": "software",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "szc82",
@@ -1904,7 +1919,7 @@
       "source": "gHacks",
       "category": "software",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "wz1y9w",
@@ -1928,7 +1943,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1a0fx94",
@@ -1952,7 +1967,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "9b28f4",
@@ -1976,7 +1991,7 @@
       "source": "Time Extension",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "bbn259",
@@ -1991,7 +2006,7 @@
       "source": "gHacks",
       "category": "software",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "uizlxy",
@@ -2011,7 +2026,7 @@
       "source": "Rock Paper Shotgun",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "14ss744",
@@ -2031,7 +2046,7 @@
       "source": "VGC",
       "category": "industry",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1r0p0q4",
@@ -2051,7 +2066,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1krjgib",
@@ -2066,7 +2081,7 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "11eocws",
@@ -2086,7 +2101,7 @@
       "source": "StopGame",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "ldztde",
@@ -2106,7 +2121,7 @@
       "source": "VGC",
       "category": "industry",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "sjx3hg",
@@ -2130,7 +2145,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1iu6cwz",
@@ -2154,7 +2169,7 @@
       "source": "Nintendo Everything",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "b0tdsa",
@@ -2174,7 +2189,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "y3ackm",
@@ -2189,7 +2204,7 @@
       "source": "Al Jazeera",
       "category": "war",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "w1scuj",
@@ -2209,7 +2224,7 @@
       "source": "Eurogamer",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "100u5o4",
@@ -2229,7 +2244,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1d6yn2b",
@@ -2249,7 +2264,7 @@
       "source": "Meduza",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "abq7wd",
@@ -2269,7 +2284,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "6q3e8s",
@@ -2284,7 +2299,7 @@
       "source": "SteamDeckHQ",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "tjmk7o",
@@ -2304,7 +2319,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "g6w4pq",
@@ -2328,7 +2343,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1h7i7n",
@@ -2348,7 +2363,7 @@
       "source": "Variety",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "qwemem",
@@ -2368,7 +2383,7 @@
       "source": "Playground",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "zce0j4",
@@ -2383,7 +2398,7 @@
       "source": "TechCrunch AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "k4crfz",
@@ -2407,7 +2422,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "qx5kh6",
@@ -2435,7 +2450,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "jxcp0f",
@@ -2455,7 +2470,7 @@
       "source": "Car and Driver",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "eyb1jr",
@@ -2475,7 +2490,7 @@
       "source": "StopGame",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1ln6uur",
@@ -2495,7 +2510,7 @@
       "source": "Rock Paper Shotgun",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "vrahsd",
@@ -2515,7 +2530,7 @@
       "source": "Ukrainska Pravda",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1qc4w6u",
@@ -2579,7 +2594,7 @@
       "source": "Tom's Hardware",
       "category": "hardware",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "rv20zu",
@@ -2603,7 +2618,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "fzpjj1",
@@ -2623,7 +2638,7 @@
       "source": "VGC",
       "category": "industry",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1ftsak5",
@@ -2659,7 +2674,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "ogh4sj",
@@ -2679,7 +2694,7 @@
       "source": "Deadline",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1ozz8z6",
@@ -2703,7 +2718,7 @@
       "source": "Tom's Hardware",
       "category": "hardware",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "m0aetg",
@@ -2735,7 +2750,7 @@
       "source": "5 колесо",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "16wof9n",
@@ -2755,7 +2770,7 @@
       "source": "StopGame",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1aylif9",
@@ -2795,7 +2810,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1kt8zkq",
@@ -2810,7 +2825,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "5nzufk",
@@ -2830,7 +2845,7 @@
       "source": "Meduza",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "6rzlt0",
@@ -2845,7 +2860,7 @@
       "source": "The Hollywood Reporter",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "saqnu5",
@@ -2860,7 +2875,7 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1mb5kdj",
@@ -2880,7 +2895,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1tx0i23",
@@ -2904,7 +2919,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "l1907a",
@@ -2919,7 +2934,7 @@
       "source": "TechCrunch AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1v7pbm4",
@@ -2939,7 +2954,7 @@
       "source": "The Verge Entertainment",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "10buqly",
@@ -2963,7 +2978,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "193z34p",
@@ -3011,7 +3026,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1v2rin9",
@@ -3035,7 +3050,7 @@
       "source": "Nintendo Life",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "2s3a0k",
@@ -3059,7 +3074,7 @@
       "source": "Pure Xbox",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "k3u735",
@@ -3083,7 +3098,7 @@
       "source": "Time Extension",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1fa4397",
@@ -3119,7 +3134,7 @@
       "source": "Tom's Hardware",
       "category": "hardware",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "x2rzsa",
@@ -3139,7 +3154,7 @@
       "source": "Car and Driver",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "qdjn99",
@@ -3159,7 +3174,7 @@
       "source": "Eurogamer",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "tt645n",
@@ -3223,7 +3238,7 @@
       "source": "PC Gamer",
       "category": "pc",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "ooevmg",
@@ -3251,7 +3266,7 @@
       "source": "Meduza",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1ivir3g",
@@ -3271,7 +3286,7 @@
       "source": "Habr AI",
       "category": "ai",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "14o7501",
@@ -3291,7 +3306,7 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "975ib3",
@@ -3311,7 +3326,7 @@
       "source": "StopGame",
       "category": "games",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "4u06eo",
@@ -3331,7 +3346,7 @@
       "source": "Tom's Hardware",
       "category": "hardware",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "kzr8n0",
@@ -3355,7 +3370,7 @@
       "source": "SlashFilm",
       "category": "entertainment",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1f071dq",
@@ -3387,7 +3402,7 @@
       "source": "Tom's Hardware",
       "category": "hardware",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1b4686j",
@@ -3407,7 +3422,7 @@
       "source": "VGC",
       "category": "industry",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "jswugk",
@@ -3427,7 +3442,7 @@
       "source": "За рулём",
       "category": "cars",
       "lang": "ru",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1imithw",
@@ -3447,7 +3462,7 @@
       "source": "Ukrainska Pravda",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "iw3ard",
@@ -3471,7 +3486,7 @@
       "source": "Nintendo Everything",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1g0gc2g",
@@ -3486,7 +3501,7 @@
       "source": "ScienceDaily",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "48ss9z",
@@ -3510,7 +3525,7 @@
       "source": "The Verge AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1a23ihe",
@@ -3525,7 +3540,7 @@
       "source": "ScienceDaily",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1sbcgpr",
@@ -3540,7 +3555,7 @@
       "source": "ScienceDaily",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1qjfi7w",
@@ -3555,7 +3570,7 @@
       "source": "ScienceDaily",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1z0z2kv",
@@ -3575,7 +3590,7 @@
       "source": "Motor1",
       "category": "cars",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1fopk4",
@@ -3590,7 +3605,7 @@
       "source": "ScienceDaily",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "qiedzw",
@@ -3614,7 +3629,7 @@
       "source": "Nintendo Life",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "usff71",
@@ -3629,7 +3644,7 @@
       "source": "Nature",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "w2x4ut",
@@ -3657,7 +3672,7 @@
       "source": "PlayStation Universe",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1ux4sgb",
@@ -3681,7 +3696,7 @@
       "source": "PlayStation Universe",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "9abzc3",
@@ -3696,7 +3711,7 @@
       "source": "Simon Willison",
       "category": "aisoft",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "1w0n8ze",
@@ -3720,7 +3735,7 @@
       "source": "Ars Technica Gaming",
       "category": "games",
       "lang": "en",
-      "addedAt": "2026-11-21T21:05:07.428Z"
+      "addedAt": "2026-11-21T21:08:07.029Z"
     },
     {
       "id": "gh-1439719759",
@@ -53457,7 +53472,7 @@
       "url": "https://github.com/MatyMeatBoy/SaturnTaisen",
       "excerpt": "Static SH-2 recompilation of Sakura Wars / Sakura Taisen (Sega Saturn) for Windows x64, with an optional HD mod. v0.2.0-alpha: first public release.",
       "image": "",
-      "publishedAt": "2026-11-21T21:03:37Z",
+      "publishedAt": "2026-11-21T21:06:21Z",
       "addedAt": "2026-11-18T11:33:25.836Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
