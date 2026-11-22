@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-22T01:13:32.082Z",
-  "tookMs": 10360,
+  "generatedAt": "2026-11-22T01:17:49.570Z",
+  "tookMs": 7384,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -33,7 +33,7 @@
     "software": 102,
     "science": 284,
     "entertainment": 600,
-    "ports": 169,
+    "ports": 170,
     "pc": 188,
     "consoles": 492,
     "hardware": 148,
@@ -43,7 +43,7 @@
     "aisoft": 100,
     "cars": 516,
     "war": 592,
-    "total": 4441
+    "total": 4442
   },
   "sourceCount": 89,
   "sources": [
@@ -701,6 +701,19 @@
     }
   ],
   "items": [
+    {
+      "id": "gh-1174059600",
+      "title": "SlickAmogus/silent-hill-decomp: Multiplatform and Feature-rich Port based on PSX decompilation of Silent Hill 1 made with Claude and Psycross. Still in beta and is in active development.",
+      "url": "https://github.com/SlickAmogus/silent-hill-decomp",
+      "excerpt": "Multiplatform and Feature-rich Port based on PSX decompilation of Silent Hill 1 made with Claude and Psycross. Still in beta and is in active development.",
+      "image": "",
+      "publishedAt": "2026-11-21T23:21:09Z",
+      "addedAt": "2026-11-22T01:17:44.527Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
     {
       "id": "gh-1354613114",
       "title": "boburning/portcove: Local-first manager for decompilations, recompilations, and native PC ports.",
@@ -5161,7 +5174,7 @@
       "url": "https://github.com/Korvonordico/shadow-of-rome-recompiled",
       "excerpt": "Unofficial PC port of Shadow of Rome (PS2), statically recompiled with PS2Recomp. Drawn by the video card with PCSX2's GS, VU1 by PCSX2's microVU: smooth 60 FPS, up to 8x, 16:9 and 21:9, wider field of view, a cleaner picture without blur and grain. The whole game played to the end. Discs: European (5 languages), its Russian translation, American.",
       "image": "",
-      "publishedAt": "2026-11-21T15:11:10Z",
+      "publishedAt": "2026-11-22T01:15:17Z",
       "addedAt": "2026-11-21T15:19:54.277Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -10036,7 +10049,7 @@
       "url": "https://github.com/dlprentice/onslaught-ce",
       "excerpt": "Onslaught CE: a native Linux and Windows port of Battle Engine Aquila (2003), built from its source. Bring your own copy of the game.",
       "image": "",
-      "publishedAt": "2026-11-21T23:55:20Z",
+      "publishedAt": "2026-11-22T01:15:08Z",
       "addedAt": "2026-11-21T06:58:28.454Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -43321,7 +43334,7 @@
       "url": "https://github.com/Dimi42FR/OcaDim",
       "excerpt": "Récompilation native d'Ocarina of Time sur PC, depuis ta propre copie du jeu. Fork de Longshot : frame generation AMD (FSR) dans le jeu, correctifs au-delà de 60 fps, leviers CPU mesurés, Setup qui compile chez le joueur. Windows x64 · GPL-3.0 · aucune donnée de jeu.",
       "image": "",
-      "publishedAt": "2026-11-19T01:29:00Z",
+      "publishedAt": "2026-11-22T01:16:36Z",
       "addedAt": "2026-11-19T01:31:46.916Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -59865,7 +59878,7 @@
       "url": "https://github.com/ly05010419/MacNativeGames",
       "excerpt": "Play your own Tears of the Kingdom and Breath of the Wild natively on Apple silicon Mac, iPhone and iPad. Not an emulator: the game's ARM64 code runs directly, NVN rebuilt on Metal. Bring your own game.",
       "image": "",
-      "publishedAt": "2026-11-22T00:54:38Z",
+      "publishedAt": "2026-11-22T01:14:07Z",
       "addedAt": "2026-11-18T02:54:44.220Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -78330,6 +78343,19 @@
       "lang": "en"
     },
     {
+      "id": "gh-1427240681",
+      "title": "MnkyArts/ProjectAvalanche: A native PC port of SSX (2012), decoded from the Xbox 360 disc and rebuilt in Rust on Bevy.",
+      "url": "https://github.com/MnkyArts/ProjectAvalanche",
+      "excerpt": "A native PC port of SSX (2012), decoded from the Xbox 360 disc and rebuilt in Rust on Bevy.",
+      "image": "",
+      "publishedAt": "2026-11-22T01:14:52Z",
+      "addedAt": "2026-11-16T19:57:10.789Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
       "id": "gh-1460339810",
       "title": "lswtcs-nx/lswtcs-nx: Native Nintendo Switch port of LEGO Star Wars: The Complete Saga, statically recompiled from the Xbox 360 version. Bring your own game files. Two-player co-op included.",
       "url": "https://github.com/lswtcs-nx/lswtcs-nx",
@@ -78362,19 +78388,6 @@
       "excerpt": "FIFA Street 2 (Xbox) recompilado para rodar nativo no PC: 120 fps, widescreen, 4K, DLSS/FSR/XeSS e mods. Traga a sua cópia do jogo.",
       "image": "",
       "publishedAt": "2026-11-16T19:44:44Z",
-      "addedAt": "2026-11-16T19:57:10.789Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
-      "id": "gh-1427240681",
-      "title": "MnkyArts/ProjectAvalanche: A native PC port of SSX (2012), decoded with help from Claude from the Xbox 360 disc and rebuilt in Rust on Bevy.",
-      "url": "https://github.com/MnkyArts/ProjectAvalanche",
-      "excerpt": "A native PC port of SSX (2012), decoded with help from Claude from the Xbox 360 disc and rebuilt in Rust on Bevy.",
-      "image": "",
-      "publishedAt": "2026-11-16T18:49:19Z",
       "addedAt": "2026-11-16T19:57:10.789Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
