@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-23T12:21:11.907Z",
-  "tookMs": 62020,
+  "generatedAt": "2026-11-23T12:29:39.164Z",
+  "tookMs": 10285,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -31,19 +31,19 @@
     "releases": 35,
     "rumors": 13,
     "software": 104,
-    "science": 281,
+    "science": 283,
     "entertainment": 600,
     "ports": 165,
     "pc": 200,
-    "consoles": 491,
+    "consoles": 496,
     "hardware": 158,
-    "industry": 157,
+    "industry": 158,
     "updates": 28,
     "aimods": 22,
-    "aisoft": 101,
-    "cars": 533,
-    "war": 598,
-    "total": 4487
+    "aisoft": 102,
+    "cars": 536,
+    "war": 600,
+    "total": 4501
   },
   "sourceCount": 89,
   "sources": [
@@ -673,12 +673,6 @@
   ],
   "errors": [
     {
-      "source": "Playground",
-      "url": "https://www.playground.ru/rss/news.xml",
-      "error": "таймаут",
-      "reused": 10
-    },
-    {
       "source": "Siliconera",
       "url": "https://www.siliconera.com/feed/",
       "error": "HTTP 403",
@@ -691,32 +685,14 @@
       "reused": 2
     },
     {
-      "source": "Nature",
-      "url": "https://www.nature.com/nature.rss",
-      "error": "ответ не похож на RSS/Atom",
-      "reused": 10
-    },
-    {
       "source": "r/emulation",
       "url": "https://www.reddit.com/r/emulation/new/.rss",
       "error": "HTTP 429"
     },
     {
-      "source": "PlayStation Universe",
-      "url": "https://www.psu.com/feed/",
-      "error": "HTTP 403",
-      "reused": 10
-    },
-    {
       "source": "Kyiv Independent",
       "url": "https://kyivindependent.com/feed/",
       "error": "HTTP 404"
-    },
-    {
-      "source": "Radio Svoboda",
-      "url": "https://www.radiosvoboda.org/api/zrqiteuuir",
-      "error": "лента пуста",
-      "reused": 10
     },
     {
       "source": "Novaya Gazeta Europe",
@@ -726,17 +702,566 @@
   ],
   "items": [
     {
-      "id": "gh-1468686895",
-      "title": "EliasM108/guardian-of-the-globe: Native PC recompilation tooling for Ben 10: Protector of Earth (PS2). Bring your own disc.",
-      "url": "https://github.com/EliasM108/guardian-of-the-globe",
-      "excerpt": "Native PC recompilation tooling for Ben 10: Protector of Earth (PS2). Bring your own disc.",
+      "id": "wi6p57",
+      "title": "First GTA 6 PS5 Patch Live Now, Get All the Details Here",
+      "url": "https://www.pushsquare.com/news/2026/11/first-gta-6-ps5-patch-live-now-get-all-the-details-here",
+      "excerpt": "Rolling launch across PS5 consoles. Rockstar Games has today published the first GTA 6 post-launch update on PS5, bringing its open worlder up to version number 01.002.002. It's a small 603.8MB patch on PS5, and a 1.6GB download on Xbox Series X|S consoles…",
+      "content": "Rolling launch across PS5 consoles.\n\nRockstar Games has today published the first GTA 6 post-launch update on PS5, bringing its open worlder up to version number 01.002.002.\n\nIt's a small 603.8MB patch on PS5, and a 1.6GB download on Xbox Series X|S consoles. However, you might not be able to download it right away on PS5. It appears the developer is utilising a rollout system where owners of the game receive the patch in waves.\n\nRead the full article on pushsquare.com",
+      "image": "https://images.pushsquare.com/14a4f224ce77e/small.jpg",
+      "images": [
+        {
+          "url": "https://images.pushsquare.com/14a4f224ce77e/small.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://images.pushsquare.com/14a4f224ce77e/large.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-23T12:30:00.000Z",
+      "sourceId": "pushsquare",
+      "source": "Push Square",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-23T12:29:28.879Z"
+    },
+    {
+      "id": "pi4h5d",
+      "title": "CAA Signs ‘Sister Wives’ and ‘The Intimacy Coordinator’ Filmmaker and Actress Louisa Connolly-Burnham (EXCLUSIVE)",
+      "url": "https://variety.com/2026/film/global/caa-signs-louisa-connolly-burnham-sister-wives-1236955764/",
+      "excerpt": "British filmmaker and actress Louise Connelly-Burnham has signed with CAA. Connolly-Burnham wrote, directed and produced “The Intimacy Coordinator,” an erotic thriller currently on the international festival circuit and qualified for both the Oscars and…",
+      "content": "British filmmaker and actress Louise Connelly-Burnham has signed with CAA. Connolly-Burnham wrote, directed and produced “The Intimacy Coordinator,” an erotic thriller currently on the international festival circuit and qualified for both the Oscars and BAFTAs. The short film, which won best director at HollyShorts, best actress at FilmQuest and the Women in Film Award at […]",
+      "image": "https://variety.com/wp-content/uploads/2026/11/Headshot-Louisa-Connoll-Burnham-2026-1.jpg",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/Headshot-Louisa-Connoll-Burnham-2026-1.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-23T12:27:01.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-23T12:29:28.879Z"
+    },
+    {
+      "id": "1hwoekj",
+      "title": "Россия потратит 47 миллиардов рублей на паромы до Калининградской области. Власти опасаются «транспортной блокады»",
+      "url": "https://meduza.io/news/2026/11/23/rossiya-potratit-47-milliardov-rubley-na-paromy-do-kaliningradskoy-oblasti-vlasti-opasayutsya-transportnoy-blokady",
+      "excerpt": "Российские власти построят два железнодорожных парома для снабжения Калининградской области на случай транспортной блокады, заявил премьер-министр Михаил Мишустин. По его словам, паромы построят на отечественной верфи по российскому проекту. Их запустят между…",
+      "content": "Российские власти построят два железнодорожных парома для снабжения Калининградской области на случай транспортной блокады, заявил премьер-министр Михаил Мишустин.\n\nПо его словам, паромы построят на отечественной верфи по российскому проекту. Их запустят между портами Усть-Луга в Ленинградской области и Балтийск в Калининградской области. \n\nСогласно распоряжению правительства, которое Мишустин подписал в начале ноября, стоимость проекта составит 47 миллиардов рублей. Мишустин допустил, что бюджет проекта может достичь 50 миллиардов.\n\nПравительство рассчитывает, что новые суда позволят увеличить объем перевозок и сократить расходы бизнеса на доставку грузов. Завершить проект планируется к 2030 году.\n\nВ конце сентября Россия пригрозила применить ядерное оружие в случае попытки НАТО заблокировать Калининградскую область. Заявление опубликовало российское посольство в Ирландии. Агентство Reuters сообщило, что власти России направили альянсу аналогичное предупреждение. \n\nВ октябре главком НАТО в Европе Алексус Гринкевич представил стратегию «быстрой победы» на случай российского нападения. По данным The Wall Street Journal, она предусматривает в том числе ракетные удары по российским командным пунктам и системам ПВО в Калининградской области, в районе Санкт-Петербурга и в Беларуси.\n\nЧитайте также\n\n• Главком сил НАТО в Европе представил «теорию победы» в случае нападения России — с ударами по Санкт-Петербургу и Калининграду «Любая атака на любого из союзников окажется совершенно бессмысленной»",
+      "image": "https://meduza.io/imgly/share/1795436758/news/2026/11/23/rossiya-potratit-47-milliardov-rubley-na-paromy-do-kaliningradskoy-oblasti-vlasti-opasayutsya-transportnoy-blokady",
+      "images": [
+        {
+          "url": "https://meduza.io/imgly/share/1795436758/news/2026/11/23/rossiya-potratit-47-milliardov-rubley-na-paromy-do-kaliningradskoy-oblasti-vlasti-opasayutsya-transportnoy-blokady",
+          "alt": ""
+        },
+        {
+          "url": "https://meduza.io/image/attachments/images/013/007/000/small/0oGpLnp2krlso5kj46nLIg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-23T12:25:58.000Z",
+      "sourceId": "meduza",
+      "source": "Meduza",
+      "category": "war",
+      "lang": "ru",
+      "addedAt": "2026-11-23T12:29:28.879Z"
+    },
+    {
+      "id": "h7t7y1",
+      "title": "Тираж GTA 6 превысил отметку в 44,9 млн копий — аналитики",
+      "url": "https://www.igromania.ru/news/170157/tirazh-gta-6-prevyisil-otmetku-v-449-mln-kopij-analitiki/",
+      "excerpt": "Продажи Grand Theft Auto VI превысили отметку в 44,9 млн копий за четыре дня. Игра принесла создателям свыше 4 млрд долларов, заявили эксперты Alinea Analytics.",
+      "content": "Продажи Grand Theft Auto VI превысили отметку в 44,9 млн копий за четыре дня. Игра принесла создателям свыше 4 млрд долларов, заявили эксперты Alinea Analytics.",
+      "image": "https://newcdn.igromania.ru//r/71b6d39984a67d41b0e395196152bd35/510x-/newcdn.igromania.ru/articles/pics/tmp/images/2026/11/23/347bc044-6363-444b-af8f-ccd1fb57b8f8.jpg",
+      "images": [
+        {
+          "url": "https://newcdn.igromania.ru//r/71b6d39984a67d41b0e395196152bd35/510x-/newcdn.igromania.ru/articles/pics/tmp/images/2026/11/23/347bc044-6363-444b-af8f-ccd1fb57b8f8.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-23T12:25:33.000Z",
+      "sourceId": "igromania",
+      "source": "Игромания",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-23T12:29:28.879Z"
+    },
+    {
+      "id": "1rgadw3",
+      "title": "Стартовало производство самой дешевой модели Volkswagen: подробности",
+      "url": "https://www.zr.ru/content/news/988891-samaya-deshevaya-model-volkswage/",
+      "excerpt": "Volkswagen собрал первые предсерийные ID.1 на заводе Autoeuropa в Палмела",
+      "content": "Volkswagen собрал первые предсерийные ID.1 на заводе Autoeuropa в Палмела",
+      "image": "https://www.zr.ru/_ah/img/NpNmyhjWRS0KuPxhkrqPYA",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/NpNmyhjWRS0KuPxhkrqPYA",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-23T12:25:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-23T12:29:28.879Z"
+    },
+    {
+      "id": "uuwd0t",
+      "title": "CD Projekt RED подтвердила выход физического издания The Witcher 4, но не гарантирует наличие диска",
+      "url": "https://www.playground.ru/witcher_4/news/cd_projekt_red_podtverdila_vyhod_fizicheskogo_izdaniya_the_witcher_4_no_ne_garantiruet_nalichie_diska-1893194",
+      "excerpt": "Ролевая игра The Witcher 4 гарантированно выйдет в розницу в виде коробочного издания, однако привычного физического диска внутри покупатели могут не найти. Такими планами в беседе с журналистами The Game Business поделился один из руководителей...",
+      "content": "Ролевая игра The Witcher 4 гарантированно выйдет в розницу в виде коробочного издания, однако привычного физического диска внутри покупатели могут не найти. Такими планами в беседе с журналистами The Game Business поделился один из руководителей...",
+      "image": "https://i.playground.ru/e/nUX_YEkV34K_FbTpzj-qyg.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/nUX_YEkV34K_FbTpzj-qyg.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-23T12:23:24.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-23T12:29:28.879Z"
+    },
+    {
+      "id": "cldypc",
+      "title": "GTA 6: Recover Jason’s stash from Key Lento in Grand Theft Auto 6",
+      "url": "https://www.videogameschronicle.com/guide/gta-6-recover-jasons-stash-grand-theft-auto/",
+      "excerpt": "How to recover Jason's Key Lento Rainy-Day Fund stash in Grand Theft Auto 6… Source",
+      "content": "How to recover Jason's Key Lento Rainy-Day Fund stash in Grand Theft Auto 6…\n\nSource",
+      "image": "https://www.videogameschronicle.com/files/2026/11/GTA-6-Recover-Jasons-stash-from-Key-Lento-in-Grand-Theft-Auto-6-5.jpg",
+      "images": [
+        {
+          "url": "https://www.videogameschronicle.com/files/2026/11/GTA-6-Recover-Jasons-stash-from-Key-Lento-in-Grand-Theft-Auto-6-5.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-23T12:23:24.000Z",
+      "sourceId": "vgc",
+      "source": "VGC",
+      "category": "industry",
+      "lang": "en",
+      "addedAt": "2026-11-23T12:29:28.879Z"
+    },
+    {
+      "id": "175gnws",
+      "title": "Открытая альтернатива DLSS впечатляет, несмотря на то, что разработана одним человеком",
+      "url": "https://www.playground.ru/misc/news/otkrytaya_alternativa_dlss_vpechatlyaet_nesmotrya_na_to_chto_razrabotana_odnim_chelovekom-1893193",
+      "excerpt": "Apex Neural Rendering (ANR) от Apex Compute - это грядущая открытая альтернатива NVIDIA DLSS, объединяющая генерацию кадров, суперразрешение и реконструкцию лучей. Сейчас в бете доступна только генерация кадров. Она поддерживает мультипокадровую генерацию на…",
+      "content": "Apex Neural Rendering (ANR) от Apex Compute - это грядущая открытая альтернатива NVIDIA DLSS, объединяющая генерацию кадров, суперразрешение и реконструкцию лучей. Сейчас в бете доступна только генерация кадров. Она поддерживает мультипокадровую генерацию на видеокартах NVIDIA...",
+      "image": "https://i.playground.ru/e/IwiB_Fw6hPLhaakCqm4KEA.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/IwiB_Fw6hPLhaakCqm4KEA.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-23T12:23:17.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-23T12:29:28.879Z"
+    },
+    {
+      "id": "1qyjean",
+      "title": "Rare Ferrari 499P Modificata Rear-Ends Schumacher-Era F1 Car",
+      "url": "https://www.motor1.com/news/816459/ferrari-499p-modificata-f2004-crash/",
+      "excerpt": "Finali Mondiali at Barcelona mixed the 499P Modificata with an F2004, highlighting both track risks and the Schumacher car’s legacy.",
+      "content": "Finali Mondiali at Barcelona mixed the 499P Modificata with an F2004, highlighting both track risks and the Schumacher car’s legacy.",
+      "image": "https://cdn.motor1.com/images/mgl/y21YoG/s3/ferrari-499p-modificata-crashes-into-schumacher-s-f2004-f1-car.jpg",
+      "images": [
+        {
+          "url": "https://cdn.motor1.com/images/mgl/y21YoG/s3/ferrari-499p-modificata-crashes-into-schumacher-s-f2004-f1-car.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-23T12:21:14.000Z",
+      "sourceId": "motor1",
+      "source": "Motor1",
+      "category": "cars",
+      "lang": "en",
+      "addedAt": "2026-11-23T12:29:28.879Z"
+    },
+    {
+      "id": "1iguc7i",
+      "title": "Промисловий сектор збільшив виробництво молока - профільна асоціація",
+      "url": "https://www.ukrinform.ua/rubric-economy/4187665-promislovij-sektor-zbilsiv-virobnictvo-moloka-profilna-asociacia.html",
+      "excerpt": "В Україні посилюється концентрація виробництва молока-сировини на промислових фермах, а виробничі потужності переміщуються із прифронтових областей сходу та півдня до центральних і західних регіонів.",
+      "content": "В Україні посилюється концентрація виробництва молока-сировини на промислових фермах, а виробничі потужності переміщуються із прифронтових областей сходу та півдня до центральних і західних регіонів.",
+      "image": "https://static.ukrinform.com/photos/2025_08/thumb_files/630_360_1754307727-376.jpg",
+      "images": [
+        {
+          "url": "https://static.ukrinform.com/photos/2025_08/thumb_files/630_360_1754307727-376.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-23T12:20:45.000Z",
+      "sourceId": "ukrinform",
+      "source": "Ukrinform",
+      "category": "war",
+      "lang": "uk",
+      "addedAt": "2026-11-23T12:29:28.879Z"
+    },
+    {
+      "id": "l8yr49",
+      "title": "New toolkit enhances mineral sands understanding",
+      "url": "https://phys.org/news/2026-11-toolkit-mineral-sands.html",
+      "excerpt": "Researchers from Curtin University's Timescales of Mineral Systems Group at the Curtin Frontier Institute for Geoscience Solutions (CFIGS) have developed a suite of analytical tools to improve understanding of Australia's heavy mineral deposits, paving the…",
+      "content": "Researchers from Curtin University's Timescales of Mineral Systems Group at the Curtin Frontier Institute for Geoscience Solutions (CFIGS) have developed a suite of analytical tools to improve understanding of Australia's heavy mineral deposits, paving the way for more efficient mineral sands exploration.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-toolkit-enhances-m.jpg",
+      "images": [
+        {
+          "url": "https://scx1.b-cdn.net/csz/news/tmb/2026/new-toolkit-enhances-m.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-23T12:20:10.000Z",
+      "sourceId": "physorg",
+      "source": "Phys.org",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-23T12:29:28.879Z"
+    },
+    {
+      "id": "1bfh7o3",
+      "title": "Claude Code Adds Experimental Code Mode to Orchestrate Tool Calls with JavaScript",
+      "url": "https://www.infoq.com/news/2026/11/claude-code-mode/",
+      "excerpt": "Anthropic's experimental Code Mode lets Claude Code write JavaScript that chains, parallelizes, and filters Bash, Read, and Edit calls, with changes to how auto mode and hooks review those calls. By Daniel Dominguez",
+      "content": "Anthropic's experimental Code Mode lets Claude Code write JavaScript that chains, parallelizes, and filters Bash, Read, and Edit calls, with changes to how auto mode and hooks review those calls.\n\nBy Daniel Dominguez",
       "image": "",
-      "publishedAt": "2026-11-23T12:16:02Z",
-      "addedAt": "2026-11-23T12:20:12.610Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
+      "images": [],
+      "publishedAt": "2026-11-23T12:17:00.000Z",
+      "sourceId": "infoq-ai",
+      "source": "InfoQ AI/ML",
+      "category": "aisoft",
+      "lang": "en",
+      "addedAt": "2026-11-23T12:29:28.879Z"
+    },
+    {
+      "id": "12wf85v",
+      "title": "Хмара: У жовтні Росія запустила по Україні понад 4 тисячі реактивних дронів і 153 балістичні ракети",
+      "url": "https://www.pravda.com.ua/news/2026/11/23/8064201/",
+      "excerpt": "Міністр оборони України Євгеній Хмара повідомив, що в жовтні Росія запустила по Україні понад 4 тисячі реактивних дронів і 153 балістичні ракети. Джерело: Хмари на засіданні Парламентської асамблеї НАТО Пряма мова Хмари: \"На початку року росія запускала менш…",
+      "content": "Міністр оборони України Євгеній Хмара повідомив, що в жовтні Росія запустила по Україні понад 4 тисячі реактивних дронів і 153 балістичні ракети.\n\nДжерело: Хмари на засіданні Парламентської асамблеї НАТО\n\nПряма мова Хмари: \"На початку року росія запускала менш як 300 реактивних дронів на місяць. У жовтні - вже понад 4000\".\n\nДеталі: За словами Хмари, росіяни також посилюють удари по Україні балістичними й крилатими ракетами. У жовтні РФ запустила 153 балістичні ракети.\n\nХмара додав, що Росія виробляє одну балістичну ракету кожні п'ять годин і продовжує нарощувати темпи виробництва.\n\nЩо передувало:\n\nУ ніч на 23 листопада російські загарбники атакували 153 ударними БпЛА типу Shahed, 60 із них реактивні, \"Гербера\", дронами-імітаторами типу \"Пародія\".",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/e/4/962589/e47f9d67daae6f0803641ac322e1dd61.jpeg",
+      "images": [
+        {
+          "url": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/e/4/962589/e47f9d67daae6f0803641ac322e1dd61.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-23T12:16:00.000Z",
+      "sourceId": "pravda",
+      "source": "Ukrainska Pravda",
+      "category": "war",
+      "lang": "uk",
+      "addedAt": "2026-11-23T12:29:28.879Z"
+    },
+    {
+      "id": "174dl4c",
+      "title": "Рютте сказав, що думає про членство України й повернення до кордонів НАТО 1997 року",
+      "url": "https://www.radiosvoboda.org/a/news-rutte-nato-ukraina/33904067.html",
+      "excerpt": "За словами Рютте, питання членства України знову опинилося в центрі уваги через переговори про завершення російсько-української війни, які ведуть США в тісній координації з європейцями",
+      "content": "За словами Рютте, питання членства України знову опинилося в центрі уваги через переговори про завершення російсько-української війни, які ведуть США в тісній координації з європейцями",
+      "image": "https://gdb.rferl.org/e1c78a4c-c670-47fb-9efd-269c0af26644_w800_h450.jpg",
+      "images": [
+        {
+          "url": "https://gdb.rferl.org/e1c78a4c-c670-47fb-9efd-269c0af26644_w800_h450.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-23T12:11:32.000Z",
+      "sourceId": "radiosvoboda",
+      "source": "Radio Svoboda",
+      "category": "war",
+      "lang": "uk",
+      "addedAt": "2026-11-23T12:29:28.879Z"
+    },
+    {
+      "id": "146206t",
+      "title": "В GTA 6 обнаружили отсылку к культовому арту GTA: Vice City",
+      "url": "https://www.playground.ru/gta_6/news/v_gta_6_obnaruzhili_otsylku_k_kultovomu_artu_gta_vice_city-1893189",
+      "excerpt": "В GTA 6 обнаружили ещё одну отсылку к предыдущим играм Rockstar Games. В углу квартиры главных героев находится постер с изображением девушки, держащей бокал мартини. Это знакомый поклонникам образ из GTA: Vice City, ставший одним...",
+      "content": "В GTA 6 обнаружили ещё одну отсылку к предыдущим играм Rockstar Games. В углу квартиры главных героев находится постер с изображением девушки, держащей бокал мартини. Это знакомый поклонникам образ из GTA: Vice City, ставший одним...",
+      "image": "https://i.playground.ru/e/7IVjDsV9DpTxRIUDq_S8Cw.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/7IVjDsV9DpTxRIUDq_S8Cw.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-23T12:04:23.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-23T12:29:28.879Z"
+    },
+    {
+      "id": "1aoisnj",
+      "title": "Продюсер Final Fantasy 7 Remake хотел сделать игру гораздо менее похожей на оригинал",
+      "url": "https://www.playground.ru/final_fantasy_7/news/prodyuser_final_fantasy_7_remake_hotel_sdelat_igru_gorazdo_menee_pohozhej_na_original-1893188",
+      "excerpt": "Продюсер серии Final Fantasy Ёсинори Китасэ изначально планировал сделать Final Fantasy 7 Remake гораздо более радикальным отступлением от оригинала, однако геймдиректор Наоки Хамагути настоял на сохранении духа и ключевых элементов классики.",
+      "content": "Продюсер серии Final Fantasy Ёсинори Китасэ изначально планировал сделать Final Fantasy 7 Remake гораздо более радикальным отступлением от оригинала, однако геймдиректор Наоки Хамагути настоял на сохранении духа и ключевых элементов классики.",
+      "image": "https://i.playground.ru/e/HeS2PnM3nQGyRi0IuAEecg.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/HeS2PnM3nQGyRi0IuAEecg.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-23T12:04:06.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-23T12:29:28.879Z"
+    },
+    {
+      "id": "1kictv5",
+      "title": "Бесплатный бонус за предзаказ GTA 6 стал платным дополнением: набор Vintage Vice City продают за $4,99 на PS5 и Xbox",
+      "url": "https://www.playground.ru/gta_6/news/besplatnyj_bonus_za_predzakaz_gta_6_stal_platnym_dopolneniem_nabor_vintage_vice_city_prodayut_za_4_99_na_ps5_i_xbox-1893183",
+      "excerpt": "Бонус Vintage Vice City, предназначавшийся исключительно для оформивших предзаказ GTA 6, теперь доступен и другим игрокам - но уже за отдельную плату.",
+      "content": "Бонус Vintage Vice City, предназначавшийся исключительно для оформивших предзаказ GTA 6, теперь доступен и другим игрокам - но уже за отдельную плату.",
+      "image": "https://i.playground.ru/e/o4KHjDTwf8Ii37JdMUupxw.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/o4KHjDTwf8Ii37JdMUupxw.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-23T11:40:15.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-23T12:29:28.879Z"
+    },
+    {
+      "id": "29lggq",
+      "title": "В World of Warcraft: Forever нашли эксплойт, позволяющий разбойникам зарабатывать тысячи золота",
+      "url": "https://www.playground.ru/world_of_warcraft/news/v_world_of_warcraft_forever_nashli_eksplojt_pozvolyayuschij_razbojnikam_zarabatyvat_tysyachi_zolota-1893182",
+      "excerpt": "В World of Warcraft: Forever обнаружили новый эксплойт, позволяющий разбойникам получать большое количество золота и ценных предметов из запертых сундуков. Благодаря ошибке игроки могут повторно менять содержимое ларцов, перебирая награды в поисках наиболее…",
+      "content": "В World of Warcraft: Forever обнаружили новый эксплойт, позволяющий разбойникам получать большое количество золота и ценных предметов из запертых сундуков. Благодаря ошибке игроки могут повторно менять содержимое ларцов, перебирая награды в поисках наиболее выгодных. Однако...",
+      "image": "https://i.playground.ru/e/-R2Y6LTALazI8ciHznV_TA.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/-R2Y6LTALazI8ciHznV_TA.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-23T11:36:52.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-23T12:29:28.879Z"
+    },
+    {
+      "id": "wulyep",
+      "title": "Глава Shopify Тоби Лютке: Дженсен Хуанг мог заработать ещё больше, но отказывался от прибыли ради небольших ИИ-стартапов",
+      "url": "https://www.playground.ru/misc/news/glava_shopify_tobi_lyutke_dzhensen_huang_mog_zarabotat_eschyo_bolshe_no_otkazyvalsya_ot_pribyli_radi_nebolshih_ii_startapov-1893181",
+      "excerpt": "Несмотря на ожесточённую глобальную конкуренцию за ИИ-ускорители, бывший генеральный директор NVIDIA Дженсен Хуанг, как сообщается, лично контролировал распределение графических процессоров, чтобы не допустить скупки всех доступных поставок крупнейшими…",
+      "content": "Несмотря на ожесточённую глобальную конкуренцию за ИИ-ускорители, бывший генеральный директор NVIDIA Дженсен Хуанг, как сообщается, лично контролировал распределение графических процессоров, чтобы не допустить скупки всех доступных поставок крупнейшими облачными компаниями. В одном из интервью основатель...",
+      "image": "https://i.playground.ru/e/2CdGXJm8ix0CFYT0K0V1Gw.webp",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/2CdGXJm8ix0CFYT0K0V1Gw.webp",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-23T11:34:08.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-23T12:29:28.879Z"
+    },
+    {
+      "id": "ytjjmc",
+      "title": "Бывший художник Rockstar считает, что реки в Red Dead Redemption 2 выглядят лучше, чем в GTA 6",
+      "url": "https://www.playground.ru/gta_6/news/byvshij_hudozhnik_rockstar_schitaet_chto_reki_v_red_dead_redemption_2_vyglyadyat_luchshe_chem_v_gta_6-1893180",
+      "excerpt": "Несмотря на впечатляющую детализацию мира Grand Theft Auto VI, бывший сотрудник Rockstar Games считает, что в одной из областей Red Dead Redemption 2 превосходит новинку студии. Речь идёт о водоёмах и, в частности, реках, которые...",
+      "content": "Несмотря на впечатляющую детализацию мира Grand Theft Auto VI, бывший сотрудник Rockstar Games считает, что в одной из областей Red Dead Redemption 2 превосходит новинку студии. Речь идёт о водоёмах и, в частности, реках, которые...",
+      "image": "https://i.playground.ru/e/mbj58dZcy9eImZ568UI4Bw.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/mbj58dZcy9eImZ568UI4Bw.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-23T11:31:48.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-23T12:29:28.879Z"
+    },
+    {
+      "id": "3drkwq",
+      "title": "Grand Theft Auto VI Is Wowing Developers Including Naughty Dog With Its Technical Wizardry",
+      "url": "https://www.psu.com/news/grand-theft-auto-vi-is-wowing-developers-including-naughty-dog-with-its-technical-wizardry/",
+      "excerpt": "Naughty Dog is one of a number of developers who have heaped praise of Rockstar’s Grand Theft Auto VI , with Michael Barclay, who worked on the likes of Uncharted: The Last Legacy and The Last of Us Part II, making his thoughts clear in post on X. “ I’ve made…",
+      "content": "Naughty Dog is one of a number of developers who have heaped praise of Rockstar’s Grand Theft Auto VI , with Michael Barclay, who worked on the likes of Uncharted: The Last Legacy and The Last of Us Part II, making his thoughts clear in post on X.\n\n“ I’ve made video games for 19 years and GTA VI appears to me as a Bugatti Veyron would to a nervous Victorian child ,” said Barclay. “ I’m always astonished that their environmental lighting is mostly dynamic and looks as good if not better than most baked lighting .”\n\nMeanwhile, Tim Soret of The Last Night developer Odd Tales is equally perplexed at how Rockstar has managed to cram so much into GTA VI, noting “ they have so many draw calls (individual parts) & materials in view ,” and well as “ so many hair situations running at once ” and “ volumetric lights casting soft bokeh shadows .” Soret also highlighted “ full raytraced reflections ” and the fact that “ they render this all at native 1440p, no dynamic resolution .”\n\n“ It’s a monumental achievement, a lesson for any gamedev, like Red Dead Redemption 2 was & still is. That’s what the hardware is capable of. That’s the bar ,” concluded Soret.\n\nGrand Theft Auto VI launched for PS5 and Xbox Series X/S on November 19, 2026. You can read our full verdict here . Rockstar Games announced that the open-world crime caper pulled in $3.79 billion in just one day , becoming the biggest entertainment launch in history.\n\n[Source – Michael Barclay , Tim Socret on X via PushSquare ]\n\nPlayStation Universe .",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-23T11:29:35.000Z",
+      "sourceId": "psu",
+      "source": "PlayStation Universe",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-23T12:29:28.879Z"
+    },
+    {
+      "id": "1koxmwv",
+      "title": "В GTA 6 нашли отсылку к культовой девушке с леденцом из GTA 4",
+      "url": "https://www.playground.ru/gta_6/news/v_gta_6_nashli_otsylku_k_kultovoj_devushke_s_ledentsom_iz_gta_4-1893178",
+      "excerpt": "В Grand Theft Auto VI обнаружили пасхалку, посвящённую одной из узнаваемых иллюстраций GTA 4 - девушке с леденцом, также известной как Lollipop Girl. Отсылку можно найти уже в первой главе игры, однако её легко пропустить...",
+      "content": "В Grand Theft Auto VI обнаружили пасхалку, посвящённую одной из узнаваемых иллюстраций GTA 4 - девушке с леденцом, также известной как Lollipop Girl. Отсылку можно найти уже в первой главе игры, однако её легко пропустить...",
+      "image": "https://i.playground.ru/e/QxY53fC8tV1HM8WtAOOStg.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/QxY53fC8tV1HM8WtAOOStg.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-23T11:26:17.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-23T12:29:28.879Z"
+    },
+    {
+      "id": "y32czn",
+      "title": "Komodo Smart Technology представила Borslon - игровую мышь, которая крепится на указательный палец",
+      "url": "https://www.playground.ru/misc/news/komodo_smart_technology_predstavila_borslon_igrovuyu_mysh_kotoraya_krepitsya_na_ukazatelnyj_palets-1893174",
+      "excerpt": "Komodo Smart Technology анонсировала игровую мышь Borslon, надеваемую на указательный палец правой руки. Управление курсором происходит не за счёт перемещения ладони, а за счёт движения пальца: оптический сенсор под подушечкой отслеживает его положение. По…",
+      "content": "Komodo Smart Technology анонсировала игровую мышь Borslon, надеваемую на указательный палец правой руки. Управление курсором происходит не за счёт перемещения ладони, а за счёт движения пальца: оптический сенсор под подушечкой отслеживает его положение. По замыслу...",
+      "image": "https://i.playground.ru/e/nkFjeSlMbCYQL-WspuGqyw.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/nkFjeSlMbCYQL-WspuGqyw.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-23T11:09:33.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-23T12:29:28.879Z"
+    },
+    {
+      "id": "5h0poq",
+      "title": "The Witcher IV Physical Release Will Happen, But CDPR Isn’t Sure If There Will Be An Actual Disc",
+      "url": "https://www.psu.com/news/the-witcher-iv-physical-release-will-happen-but-cdpr-isnt-sure-if-there-will-be-an-actual-disc/",
+      "excerpt": "CD Projekt RED’s joint-CEO Michal Nowakowski has revealed during an interview with The Game Business that The Witcher IV will receive a physical release, although he isn’t sure at this point if that means we’ll be getting an actual disc or not. Nowakowski…",
+      "content": "CD Projekt RED’s joint-CEO Michal Nowakowski has revealed during an interview with The Game Business that The Witcher IV will receive a physical release, although he isn’t sure at this point if that means we’ll be getting an actual disc or not.\n\nNowakowski noted that CDPR doesn’t have any influence over Sony’s manufacturing decisions, but at the very least The Witcher IV will have a boxed release of some description.\n\nWe’re big fans of people having access to tangible collectible things. We’re nerds ourselves, and we like that. We always supported that. So, whatever is the case, we’re going to be for sure having a box. We’re going to have a box that’s going to have some feelies in it. Something you’re going to be wanting to open up and enjoy.\n\nWe know what PlayStation has announced. And we have no influence on the policies of the first parties. The discs for the first parties, including PlayStation, have to be manufactured in their own factories. So, if they stop manufacturing indeed by 2028, then yes [we won’t have a disc].\n\nSony announced back in July that it will be ending production of game discs for PlayStation hardware in January 2028. CDPR has previously confirmed that it is targeting a 2028 release for The Witcher IV, although an exact release date has yet to be announced. The studio revealed back in March that it has taken on over 220 staff in the past year , with a large portion of them working on The Witcher IV.\n\n[Source – The Game Business via Polygon ]\n\nPlayStation Universe .",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-23T10:57:59.000Z",
+      "sourceId": "psu",
+      "source": "PlayStation Universe",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-23T12:29:28.879Z"
+    },
+    {
+      "id": "1ixjmxv",
+      "title": "Nioh 3 Complete Edition Rated In Korea",
+      "url": "https://www.psu.com/news/nioh-3-complete-edition-rated-in-korea/",
+      "excerpt": "The Korean ratings board has posted up a listing for the as-yet unannounced Nioh 3 Complete Edition, indicating a release isn’t too far off and will presumably include all previously released DLC and updates. While Koei Tecmo has yet to make an official…",
+      "content": "The Korean ratings board has posted up a listing for the as-yet unannounced Nioh 3 Complete Edition, indicating a release isn’t too far off and will presumably include all previously released DLC and updates.\n\nWhile Koei Tecmo has yet to make an official announcement, it’s worth pointing out that Nioh 2 also received a complete edition, so it’s not hard to imagine Nioh 3 will follow. Nioh 2’s complete edition followed roughly one year, so assuming Koei Tecmo is following a similar strategy with Nioh 3, we can expect this re-release to launch in early 2027.\n\nNioh 3 has received one expansion so far in the form of the Hell Rising DLC, which arrived in August 19 adding a new stage, weapons and other content. The second DLC, Bloody Insurrection, is slated to arrive in February 2027, so the Complete Edition could arrive around the same time as an incentive for newcomers.\n\nNioh 3 launched for PS5 and PC on February 6, 2026 and you can read our full review here .\n\nPlayStation Universe .",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-23T10:15:36.000Z",
+      "sourceId": "psu",
+      "source": "PlayStation Universe",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-23T12:29:28.879Z"
+    },
+    {
+      "id": "e42n9e",
+      "title": "Grand Theft Auto VI Officially Becomes The Biggest Entertainment Launch In History With $3.79 Billion Earned In One Day",
+      "url": "https://www.psu.com/news/grand-theft-auto-vi-officially-becomes-the-biggest-entertainment-launch-in-history-with-3-79-billion-earned-in-one-day/",
+      "excerpt": "Rockstar Games ha revealed that Grand Theft Auto VI has become the biggest entertainment launch in history, with the critically acclaimed open-world title generating $3.79 billion in day one retail sales, “setting a new record for entertainment across any…",
+      "content": "Rockstar Games ha revealed that Grand Theft Auto VI has become the biggest entertainment launch in history, with the critically acclaimed open-world title generating $3.79 billion in day one retail sales, “setting a new record for entertainment across any media, and becoming the biggest entertainment launch in history.”\n\nSam Houser, President and Founder of Rockstar Games, commented:\n\nIt is with immense gratitude that we enter a new chapter of Rockstar Games with the release of Grand Theft Auto VI. We are incredibly humbled by the response from players around the world and we couldn’t be more excited to share this moment with you.\n\nAs reported last week, Sensor Tower estimated that GTA VI had pulled in $2.36 billion revenue and sold 24.58 million copies worldwide by the end of its first day. Elsewhere, Rockstar North’s Rob Nelson explained the reason why the game doesn’t feature some of the series’ classic minigames such as darts or bowling, and Warren Spector said he hopes GTA VI is the last of its kind due to its massive development budget.\n\nGrand Theft Auto VI launched on PS5 and Xbox Series X/S on November 19, 2026 and you can read our full verdict here .\n\nPlayStation Universe .",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-23T09:42:40.000Z",
+      "sourceId": "psu",
+      "source": "PlayStation Universe",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-23T12:29:28.879Z"
+    },
+    {
+      "id": "1ouwy11",
+      "title": "Build for the future climate — or waste trillions of dollars",
+      "url": "https://www.nature.com/articles/d41586-026-03722-8",
+      "excerpt": "Nature, Published online: 23 November 2026; doi:10.1038/d41586-026-03722-8 Development planning needs a permanent system that connects climate projections to the decisions that shape what infrastructure gets built.",
+      "content": "Nature, Published online: 23 November 2026; doi:10.1038/d41586-026-03722-8\n\nDevelopment planning needs a permanent system that connects climate projections to the decisions that shape what infrastructure gets built.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-23T00:00:00.000Z",
+      "sourceId": "nature",
+      "source": "Nature",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-23T12:29:28.879Z"
+    },
+    {
+      "id": "13ryjrj",
+      "title": "Сырая технология: гибрид Esteo россиянина не смог ехать со скоростью потока на платной трассе",
+      "url": "https://www.gazeta.ru/auto/2026/11/16/long-23849191.shtml",
+      "excerpt": "Владелец Esteo Exlantix ET8 с последовательной гибридной силовой установкой пожаловался на невозможность проехать по скоростной трассе \"Нева\" из Санкт-Петербурга в Москву с максимальной разрешенной скоростью: при 130 км/ч мощности генератора не хватало, чтобы…",
+      "content": "Владелец Esteo Exlantix ET8 с последовательной гибридной силовой установкой пожаловался на невозможность проехать по скоростной трассе \"Нева\" из Санкт-Петербурга в Москву с максимальной разрешенной скоростью: при 130 км/ч мощности генератора не хватало, чтобы заряжать батарею. На проблемы с запасом хода и экономичностью в трассовых режимах обращают внимание и владельцы других последовательных гибридов – в частности Li Auto и GAC. Невозможность долго ехать быстро – конструктивная особенность таких машин, объясняют эксперты.",
+      "image": "https://img.gazeta.ru/files3/747/23851747/image-pic905-895x505-49112.jpg",
+      "images": [
+        {
+          "url": "https://img.gazeta.ru/files3/747/23851747/image-pic905-895x505-49112.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-16T07:29:47.000Z",
+      "sourceId": "gazeta-auto",
+      "source": "Газета.Ru Авто",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-23T12:29:28.879Z"
+    },
+    {
+      "id": "1vqjla",
+      "title": "Big Walk used AI to fix a bug. Now the indie gaming world is having a reckoning.",
+      "url": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
+      "excerpt": "The last few years have seen significant debate over the widespread use of AI-powered tools in game development and the responsible disclosure of that usage to players. That debate has exploded into a full-blown controversy in the indie game development space…",
+      "content": "The last few years have seen significant debate over the widespread use of AI-powered tools in game development and the responsible disclosure of that usage to players. That debate has exploded into a full-blown controversy in the indie game development space this week, as Big Walk developer House House has publicly and belatedly disclosed minimal AI use in its popular co-operative puzzle exploration game.\n\nThis particular controversy has been brewing behind the scenes for months, as judges and jury members for the prestigious Independent Games Festival Awards discussed the issue in private discussion groups. But the debate started to break into public view on Monday when 19 members of the 50-plus-member jury released a signed statement outlining a stance \"declining to vote for any game that uses generative AI in any capacity.\"\n\nNoting \"a significant increase in the number of submitted games developer with generative AI tools,\" the group of jurors called out AI's ecological, economic, psychological, and labor harms in rejecting tools whose use, they said, is still \"not a foregone conclusion in our industry.\"\n\nRead full article\n\nComments",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/bigwalkdebate-1152x648.png",
+      "images": [
+        {
+          "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/bigwalkdebate-1152x648.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/bigwalkdebate-500x500.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-11T17:37:32.000Z",
+      "sourceId": "ars-gaming",
+      "source": "Ars Technica Gaming",
+      "category": "games",
+      "lang": "en",
+      "addedAt": "2026-11-23T12:29:28.879Z"
     },
     {
       "id": "gh-1451727988",
@@ -744,7 +1269,20 @@
       "url": "https://github.com/eliasm4r/WondersBeyondRecomp",
       "excerpt": "WondersBeyondRecomp: PokéPark 2: Wonders Beyond running natively on PC (static recompilation of the Wii game, up to 240 fps, 21:9, HD textures)",
       "image": "",
-      "publishedAt": "2026-11-23T11:57:13Z",
+      "publishedAt": "2026-11-23T12:28:13Z",
+      "addedAt": "2026-11-23T12:20:12.610Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1468686895",
+      "title": "EliasM108/guardian-of-the-globe: Native PC recompilation tooling for Ben 10: Protector of Earth (PS2). Bring your own disc.",
+      "url": "https://github.com/EliasM108/guardian-of-the-globe",
+      "excerpt": "Native PC recompilation tooling for Ben 10: Protector of Earth (PS2). Bring your own disc.",
+      "image": "",
+      "publishedAt": "2026-11-23T12:16:02Z",
       "addedAt": "2026-11-23T12:20:12.610Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -783,7 +1321,7 @@
       "url": "https://github.com/udarmolota/OxyDroid",
       "excerpt": "OxyDroid brings Oxygen Not Included to mobile: play the full PC game on Android, natively, with your own copy from Steam.",
       "image": "",
-      "publishedAt": "2026-11-23T12:16:17Z",
+      "publishedAt": "2026-11-23T12:25:50Z",
       "addedAt": "2026-11-23T12:20:11.607Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -2997,8 +3535,8 @@
       "id": "dxxvgc",
       "title": "GLM-5.4: Toward Generalized Coding with Our First Loop Transformer",
       "url": "https://z.ai/blog/glm-5.4",
-      "excerpt": "Article URL: https://z.ai/blog/glm-5.4 Comments URL: https://news.ycombinator.com/item?id=50609685 Points: 185 # Comments: 84",
-      "content": "Article URL: https://z.ai/blog/glm-5.4\n\nComments URL: https://news.ycombinator.com/item?id=50609685\n\nPoints: 185\n\n# Comments: 84",
+      "excerpt": "Article URL: https://z.ai/blog/glm-5.4 Comments URL: https://news.ycombinator.com/item?id=50609685 Points: 213 # Comments: 95",
+      "content": "Article URL: https://z.ai/blog/glm-5.4\n\nComments URL: https://news.ycombinator.com/item?id=50609685\n\nPoints: 213\n\n# Comments: 95",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-23T10:06:43.000Z",
@@ -5829,8 +6367,8 @@
       "id": "yt86fw",
       "title": "A Beginner's Guide to Local AI with Inkling, Qwen, and Unsloth",
       "url": "https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth",
-      "excerpt": "Article URL: https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth Comments URL: https://news.ycombinator.com/item?id=50603845 Points: 560 # Comments: 235",
-      "content": "Article URL: https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth\n\nComments URL: https://news.ycombinator.com/item?id=50603845\n\nPoints: 560\n\n# Comments: 235",
+      "excerpt": "Article URL: https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth Comments URL: https://news.ycombinator.com/item?id=50603845 Points: 566 # Comments: 236",
+      "content": "Article URL: https://www.gpupartner.com/blog/beginners-guide-local-ai-inkling-qwen-unsloth\n\nComments URL: https://news.ycombinator.com/item?id=50603845\n\nPoints: 566\n\n# Comments: 236",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-22T21:01:16.000Z",
@@ -14836,7 +15374,7 @@
       "url": "https://github.com/louay0khaled/zero-hour-reforged-android-mod",
       "excerpt": "محرك Reforged 4.0.0 الحقيقي كاملًا على أندرويد — Zero Hour بتحكّم لمسي كامل وعربي كامل ورسوم الويندوز على الهواتف القوية | The full Reforged 4.0.0 engine, native on Android",
       "image": "",
-      "publishedAt": "2026-11-23T02:24:00Z",
+      "publishedAt": "2026-11-23T12:16:39Z",
       "addedAt": "2026-11-21T21:08:10.372Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -65908,21 +66446,6 @@
       "addedAt": "2026-11-18T19:39:00.881Z"
     },
     {
-      "id": "rrago",
-      "title": "Ежегодная «viju ночь эмоций» раскроет секреты человеческих манипуляций на примерах их кино",
-      "url": "https://www.intermedia.ru/news/408191",
-      "excerpt": "Четвертая ежегодная «viju ночь эмоций» состоится 24 ноября 2026 года в московском кинотеатре «Иллюзион». В этом году встреча будет посвящена...",
-      "content": "Четвертая ежегодная «viju ночь эмоций» состоится 24 ноября 2026 года в московском кинотеатре «Иллюзион». В этом году встреча будет посвящена...",
-      "image": "",
-      "images": [],
-      "publishedAt": "2026-11-18T13:44:00.000Z",
-      "sourceId": "intermedia",
-      "source": "InterMedia",
-      "category": "entertainment",
-      "lang": "ru",
-      "addedAt": "2026-11-18T19:39:00.881Z"
-    },
-    {
       "id": "1iu90wt",
       "title": "Грузия ужесточила контроль за мигрантами. Чего опасаются россияне",
       "url": "https://www.dw.com/ru/%D0%B3%D1%80%D1%83%D0%B7%D0%B8%D1%8F-%D1%83%D0%B6%D0%B5%D1%81%D1%82%D0%BE%D1%87%D0%B8%D0%BB%D0%B0-%D0%BA%D0%BE%D0%BD%D1%82%D1%80%D0%BE%D0%BB%D1%8C-%D0%B7%D0%B0-%D0%BC%D0%B8%D0%B3%D1%80%D0%B0%D0%BD%D1%82%D0%B0%D0%BC%D0%B8-%D1%87%D0%B5%D0%B3%D0%BE-%D0%BE%D0%BF%D0%B0%D1%81%D0%B0%D1%8E%D1%82%D1%81%D1%8F-%D1%80%D0%BE%D1%81%D1%81%D0%B8%D1%8F%D0%BD%D0%B5/a-79981349?maca=rus-rss-ru-all-1126-rdf",
@@ -77127,26 +77650,6 @@
       "addedAt": "2026-11-17T20:53:26.270Z"
     },
     {
-      "id": "gc74u9",
-      "title": "Суд не признал монополию PlayStation на рынке цифровых игр",
-      "url": "https://stopgame.ru/newsdata/73541/sud_ne_priznal_monopoliyu_playstation_na_rynke_cifrovyh_igr",
-      "excerpt": "Суд по делам о конкуренции в Лондоне отклонил коллективный иск против PlayStation, связанный с ценами на игры в PS Store. Истцы требовали от Sony компенсацию в размере 2,6 млрд долларов и обвиняли компанию в злоупотреблении своим положением на рынке.… […]",
-      "content": "Суд по делам о конкуренции в Лондоне отклонил коллективный иск против PlayStation, связанный с ценами на игры в PS Store. Истцы требовали от Sony компенсацию в размере 2,6 млрд долларов и обвиняли компанию в злоупотреблении своим положением на рынке.… […]",
-      "image": "https://images.stopgame.ru/news/2026/11/17/QDh7ftz6l.jpg",
-      "images": [
-        {
-          "url": "https://images.stopgame.ru/news/2026/11/17/QDh7ftz6l.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-17T17:22:10.000Z",
-      "sourceId": "stopgame",
-      "source": "StopGame",
-      "category": "games",
-      "lang": "ru",
-      "addedAt": "2026-11-17T20:53:26.270Z"
-    },
-    {
       "id": "dzeffm",
       "title": "AI models can be tricked into identifying civilians as military targets by telling them it’s a game",
       "url": "https://techcrunch.com/2026/11/17/ai-models-can-be-tricked-into-identifying-civilians-as-military-targets-by-telling-them-its-a-game/",
@@ -77159,26 +77662,6 @@
       "source": "TechCrunch AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-17T20:53:26.270Z"
-    },
-    {
-      "id": "16wemne",
-      "title": "Шрайер: Firaxis сокращает треть штата. Разработка новой XCOM отстаёт от плана",
-      "url": "https://stopgame.ru/newsdata/73540/shrayer_firaxis_sokraschaet_tret_shtata_razrabotka_novoy_xcom_otstaet_ot_plana",
-      "excerpt": "Студия Firaxis Games, ответственная за серии XCOM и Civilization, увольняет около 60 человек — это примерно треть персонала. Информацию сообщает репортёр Bloomberg Джейсон Шрайер (Jason Schreier).… […]",
-      "content": "Студия Firaxis Games, ответственная за серии XCOM и Civilization, увольняет около 60 человек — это примерно треть персонала. Информацию сообщает репортёр Bloomberg Джейсон Шрайер (Jason Schreier).… […]",
-      "image": "https://images.stopgame.ru/news/2026/11/17/PodtltLj.jpg",
-      "images": [
-        {
-          "url": "https://images.stopgame.ru/news/2026/11/17/PodtltLj.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-17T17:20:02.000Z",
-      "sourceId": "stopgame",
-      "source": "StopGame",
-      "category": "games",
-      "lang": "ru",
       "addedAt": "2026-11-17T20:53:26.270Z"
     },
     {
@@ -77374,26 +77857,6 @@
       "sourceId": "purexbox",
       "source": "Pure Xbox",
       "category": "consoles",
-      "lang": "en",
-      "addedAt": "2026-11-17T20:53:26.270Z"
-    },
-    {
-      "id": "6h8ph1",
-      "title": "Grand Theft Auto 6 Lucia Actress Finally Revealed — And Yes, It's Who You Probably Suspected",
-      "url": "https://www.ign.com/articles/grand-theft-auto-6-lucia-actress-finally-revealed-and-yes-its-who-you-probably-suspected",
-      "excerpt": "On the eve of launching GTA 6 , we finally now know who portrays main character Lucia Caminos. Today's big reveal came via a blink-and-you'll miss it moment during The Game Awards' nominations livestream, where Manni L. Perez was nominated for her role in GTA…",
-      "content": "On the eve of launching GTA 6 , we finally now know who portrays main character Lucia Caminos.\n\nToday's big reveal came via a blink-and-you'll miss it moment during The Game Awards' nominations livestream, where Manni L. Perez was nominated for her role in GTA 6. Unfortunately, we still don't know who is playing her co-star Jason Duval, as his actor did not get nominated. Ouch.\n\nThe announcement comes after months of speculation around who is bringing Grand Theft Auto's first ever playable couple to life, and some very careful social media livestreams from the long-rumored Lucia actress where Perez dodged constant comments about her part in perhaps the most anticipated video game of all time.\n\nSomewhat incredibly, Rockstar is still to officially announce GTA 6's voice cast — and the only reason we're getting the confirmation of Perez today is because of her award nomination.\n\nPerez is an actress with a smattering of credits to her acting resume, including TV guest roles in Jessica Jones, Chicago P.D. and Law & Order: Special Victims Unit. While she hasn't been up to much else over the past few years, it's perhaps easy to now know why — it's likely she has been kept very busy working GTA 6 instead.\n\nFun fact: this won't actually be Perez's first GTA role. In GTA 5, Perez portrays the background character of \"Clubber #2,\" while in GTA Online she voices a blackjack dealer.\n\nLast month, the actors behind GTA 5's Franklin, Michael, and Trevor shared their advice for GTA 6's cast in a bid to ready them for the kind of fame few video game actors achieve.\n\nGTA 6 is expected to be the biggest entertainment launch of all time, and some companies have even given staff bonus time off to play it . We've got plenty more on GTA 6 ahead of its November 19 launch, including details on the New Zealand trick people are using to play early, Gangland Tales From the Frontline of Rockstar's Real-Life Grand Theft Auto Research , and How Gaming's Top Content Creators Are Preparing for GTA 6's Launch and Beyond .",
-      "image": "https://assets-prd.ignimgs.com/2026/11/17/vintage-vice-city-pack-exclusive-looks-02-1794936472961.jpg",
-      "images": [
-        {
-          "url": "https://assets-prd.ignimgs.com/2026/11/17/vintage-vice-city-pack-exclusive-looks-02-1794936472961.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-17T17:07:50.000Z",
-      "sourceId": "ign",
-      "source": "IGN",
-      "category": "games",
       "lang": "en",
       "addedAt": "2026-11-17T20:53:26.270Z"
     },
@@ -77632,26 +78095,6 @@
       "addedAt": "2026-11-17T20:53:26.270Z"
     },
     {
-      "id": "6cahde",
-      "title": "Дженсен Хуанг выразил готовность вернуться на должность главы NVIDIA",
-      "url": "https://dtf.ru/gameindustry/5418293-dzhensen-huang-gotov-vernutsya-v-nvidia",
-      "excerpt": "Акции компании уже успели немного подрасти.",
-      "content": "Акции компании уже успели немного подрасти.",
-      "image": "https://leonardo.osnova.io/5a792b1c-45e9-5bd6-897c-29dc211a5e2c/",
-      "images": [
-        {
-          "url": "https://leonardo.osnova.io/5a792b1c-45e9-5bd6-897c-29dc211a5e2c/",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-17T16:50:24.000Z",
-      "sourceId": "dtf",
-      "source": "DTF",
-      "category": "games",
-      "lang": "ru",
-      "addedAt": "2026-11-17T20:53:26.270Z"
-    },
-    {
       "id": "f4t3u4",
       "title": "Running the full server-side Datasette Python app in the browser with service workers and Pyodide",
       "url": "https://simonwillison.net/2026/Nov/17/datasette-lite/",
@@ -77741,26 +78184,6 @@
       "addedAt": "2026-11-17T20:53:26.270Z"
     },
     {
-      "id": "m7xfww",
-      "title": "В Firaxis Games сократили треть сотрудников — глава студии уйдёт со своего поста",
-      "url": "https://dtf.ru/gameindustry/5418304-sokrashcheniya-v-firaxis-games-i-ukhod-glavy-studii",
-      "excerpt": "По данным Джейсона Шрайера, новая XCOM столкнулась с производственными проблемами.",
-      "content": "По данным Джейсона Шрайера, новая XCOM столкнулась с производственными проблемами.",
-      "image": "https://leonardo.osnova.io/306595f7-ad52-5119-bc11-f2802bad43dc/",
-      "images": [
-        {
-          "url": "https://leonardo.osnova.io/306595f7-ad52-5119-bc11-f2802bad43dc/",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-17T16:41:00.000Z",
-      "sourceId": "dtf",
-      "source": "DTF",
-      "category": "games",
-      "lang": "ru",
-      "addedAt": "2026-11-17T20:53:26.270Z"
-    },
-    {
       "id": "9m1b9x",
       "title": "‘They were keeping it for a rainy day’: Ukraine’s Kerch bridge attack is proof Kyiv still has cards to play",
       "url": "https://www.theguardian.com/world/2026/nov/17/ukraine-kerch-bridge-attack-russia-crimea-analysis",
@@ -77786,26 +78209,6 @@
       "source": "The Guardian",
       "category": "war",
       "lang": "en",
-      "addedAt": "2026-11-17T20:53:26.270Z"
-    },
-    {
-      "id": "rudyp3",
-      "title": "Теперь и перепройти можно: ролевой боевик The Blood of Dawnwalker от ветеранов The Witcher 3 и Cyberpunk 2077 получил патч 1.2 с «Новой игрой +»",
-      "url": "https://3dnews.ru/1151422/teper-i-pereproyti-mogno-rolevoy-boevik-the-blood-of-dawnwalker-ot-veteranov-the-witcher-3-i-cyberpunk-2077-poluchil-patch-12-s-novoy-igroy-",
-      "excerpt": "Вампирский ролевой боевик The Blood of Dawnwalker от основанной ведущими разработчиками The Witcher 3 и Cyberpunk 2077 польской студии Rebel Wolves получил обновление с одной из самых востребованных в сообществе функций.",
-      "content": "Вампирский ролевой боевик The Blood of Dawnwalker от основанной ведущими разработчиками The Witcher 3 и Cyberpunk 2077 польской студии Rebel Wolves получил обновление с одной из самых востребованных в сообществе функций.",
-      "image": "https://cdn.3dnews.ru/assets/external/illustrations/2026/11/17/1151422/00.jpg",
-      "images": [
-        {
-          "url": "https://cdn.3dnews.ru/assets/external/illustrations/2026/11/17/1151422/00.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-17T16:40:00.000Z",
-      "sourceId": "3dnews-games",
-      "source": "3DNews Игры",
-      "category": "games",
-      "lang": "ru",
       "addedAt": "2026-11-17T20:53:26.270Z"
     },
     {
@@ -77972,30 +78375,6 @@
       "addedAt": "2026-11-17T20:53:26.270Z"
     },
     {
-      "id": "8wnkjk",
-      "title": "The Macro Is World of Warcraft: Forever’s Accessibility Secret Weapon",
-      "url": "https://www.ign.com/articles/the-macro-is-world-of-warcraft-forevers-accessibility-secret-weapon",
-      "excerpt": "It’s rare that I can confidently say I’ve never played a specific game or series. Grand Theft Auto, Fire Emblem, The Last of Us Part 2, and, until very recently , World of Warcraft either never piqued my interest or were simply too inaccessible for me to…",
-      "content": "It’s rare that I can confidently say I’ve never played a specific game or series. Grand Theft Auto, Fire Emblem, The Last of Us Part 2, and, until very recently , World of Warcraft either never piqued my interest or were simply too inaccessible for me to enjoy. With World of Warcraft: Forever , I’m finding it to be one of my favorite gaming experiences of 2026.\n\nI’m no stranger to the MMO genre. I’ve played Final Fantasy 14, Star Wars: The Old Republic, DC Universe Online, Guild Wars 2, and continue to maintain a RuneScape subscription. I’ve always enjoyed the ease of access and design practices of MMOs, but want to acknowledge that older games in the genre tend to suffer the most in terms of inaccessibility. Yet, since creating my first WoW character during Forever’s launch, I’ve been enamored with its overall accessibility. For this Access Designed , let’s explore what I look for in MMO accessibility, and how Forever mostly succeeds.\n\nThe Highs and Lows of MMO Accessibility\n\nFor approximately 20 years, I’ve enjoyed MMOs in varying ways. Whether endlessly grinding skills on RuneScape, actively running dungeons and slaying world bosses in Guild Wars 2, or heavily investing in my Jedi’s story in SWTOR, MMOs are my second favorite genre, immediately behind turn-based RPGs. In a sense, like RPGs, MMOs have generally been accessible with their options and designs. And as my disease progressed, and my range of motion and energy levels diminished, I was able to find unique ways to continue playing.\n\nEvery MMO I’ve played has offered some iteration of customizable controls. When I was younger, I had the capability to reach further across my keyboard, meaning I only needed to customize keybinds for actions beyond the ‘G’ key. Now, with the current progression of my disability, I rely heavily on putting as many functions as possible on my Logitech G903 Lightspeed mouse , since I’m only able to use around three keyboard keys. Thankfully, MMOs, at least those I’ve played, allow you to click each ability on your hot bar.\n\nIn Old School RuneScape, every action can be completed through the mouse with the use of a virtual keyboard.\n\nOld School RuneScape is entirely different, posing its own unique challenges. Every action can be completed through the mouse with the use of a virtual keyboard. This is beneficial for my energy and strength because most actions only require one click, even if it’s leveling combat or skilling around the map. Growing up, RuneScape was by far the most accessible MMO, and remained that way for years, until Jagex released Old School RuneScape in 2013.\n\nOld School RuneScape is essentially RuneScape 2 before Jagex redefined the game with its Evolution of Combat update, also in 2013. I never particularly enjoyed RuneScape 3 because it transformed the relatively easy and accessible vibe of the series into a more traditional MMO with hotkeys and extensive moves. With Old School, the traditional mechanics return, albeit with an emphasis on rapidly clicking for newly added bosses and raids. To properly complete these activities, players are expected to swap between their prayers, as well as gear, to effectively mitigate damage. If my energy levels are low, quickly swapping between my inventory and prayer tabs, switching prayers, and equipping new gear, all while simultaneously clicking to avoid area-based attacks is essentially a hard barrier, often resulting in me dying numerous times.\n\nForever and Accessibility\n\nSo, where does Forever compare to other MMOs I’ve played? As a WoW first timer, I’m finding my gameplay experience akin to SWTOR and Final Fantasy 14. Hot bars are crucial, and players are expected to dodge or ‘kite’ attacks, especially if enemies use area of effect abilities. The combat is familiar enough where I can confidently engage with the system, but through in-game settings and accessibility options, Forever is quickly becoming one of the most accessible MMOs I’ve played.\n\nFully customizable controls, settings like auto-run and action-targeting, which assist with selecting enemies based on camera positioning, all make completing quests, exploring the world, and conquering dungeons far easier. And because I’m playing a mage, my character can quickly burst enemies before I’m overwhelmed – although I admittedly still frequently die when swarmed by two or more monsters. Yet, these relatively traditional accessibility tools aren’t what makes Forever so accessible. Instead, I’ve become enamored with WoW’s acceptance of macros.\n\nMacros save me so much energy just by reducing how many keys or clicks I need to play.\n\nAt the most basic definition, macros are in-game scripts that apply to varying commands. Movement, skilling, and especially combat can all be modified to simplify gameplay or create a unique rotation that ultimately benefits the player. SWTOR outright bans their use, and Final Fantasy 14 allows macros, though I stopped playing before learning about their use, meaning that Forever is my first proper introduction of this feature. For my mage, I created two macros – one that combines three spells into a single rotation on my ‘F’ key, and one that allows me to cast ‘polymorph’ just by hovering my mouse over an enemy, rather than specifically targeting them. By themselves, these two macros save me so much energy just by reducing how many keys or clicks I need to play. And as I level and unlock more spells and skills, I’m sure I will add more macros to my repertoire.\n\nBeyond the options and design practices I use for my character, I’m just really enjoying playing with my friends. An often-unexplored accessibility concept is playing with others. For me, with my physical disability, questing, exploring, and finishing dungeons is vastly easier when done with a group that understands my limitations and needs. If a quest requires specific loot from an enemy, my friends don’t mind killing the monsters for me, with me looting the bodies afterward. If I’m tired of navigating the map, my friends are always happy to let me automatically follow them to our next destination. With dungeons, I need to perform my role as DPS, but if I die from being too tired or not reacting fast enough, there’s never any conflict. These experiences make navigating Forever so enjoyable. While I love playing solo, I’m always excited to hop on with friends.\n\nForever is by no means the most accessible game of 2026. In fact, I would argue it’s not the most accessible game of the past five years. Yet, in an industry that constantly tries to outperform each game with flashy new settings or designs, Forever’s success comes from its simplicity. No option is new or groundbreaking, just perfected within the MMO environment. Could Forever use more settings or designs? Absolutely. Will its lack of innovation prevent me from reaching max level and exploring endgame content? Absolutely not.\n\nGrant Stoner is a disabled journalist covering accessibility and the disabled perspective in video games. When not writing, he is usually screaming about Pokémon or his cat, Goomba on Twitter.",
-      "image": "https://assets-prd.ignimgs.com/2026/11/17/wow-forever-column-blogroll-1794921121824.jpg",
-      "images": [
-        {
-          "url": "https://assets-prd.ignimgs.com/2026/11/17/wow-forever-column-blogroll-1794921121824.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://assets-prd.ignimgs.com/2026/11/04/wow-forever-blogroll-1793833617221.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-17T16:30:00.000Z",
-      "sourceId": "ign",
-      "source": "IGN",
-      "category": "games",
-      "lang": "en",
-      "addedAt": "2026-11-17T20:53:26.270Z"
-    },
-    {
       "id": "13338ks",
       "title": "Sony defeat $2.6 billion UK class action lawsuit which argued PlayStation's dominant market position fuels \"excessive and unfair\" game prices",
       "url": "https://www.rockpapershotgun.com/sony-defeat-26-billion-uk-class-action-lawsuit-which-argued-playstations-dominant-market-position-fuels-excessive-and-unfair-game-prices",
@@ -78104,26 +78483,6 @@
       "addedAt": "2026-11-17T20:53:26.270Z"
     },
     {
-      "id": "ss4e5a",
-      "title": "PlayStation defeats £2 billion UK lawsuit that alleged Sony forced consumers into \"excessive and unfair prices\"",
-      "url": "https://www.eurogamer.net/playstation-store-pricing-uk-class-action-lawsuit-result",
-      "excerpt": "Sony has defeated a major £2 billion UK class action lawsuit concerning the price of games on the PlayStation Store (thanks, TheGameBusiness ). The judgment came after a 30-day Competition Appeal Tribunal that took place in London, where PlayStation users…",
-      "content": "Sony has defeated a major £2 billion UK class action lawsuit concerning the price of games on the PlayStation Store (thanks, TheGameBusiness ). The judgment came after a 30-day Competition Appeal Tribunal that took place in London, where PlayStation users claimed Sony had removed \"all actual and potential competition\" in relation to selling digital games on the console.\n\nRead more",
-      "image": "https://assetsio.gnwcdn.com/playstation-tribunal.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "images": [
-        {
-          "url": "https://assetsio.gnwcdn.com/playstation-tribunal.jpg?width=690&quality=85&format=jpg&auto=webp",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-17T16:25:20.000Z",
-      "sourceId": "eurogamer",
-      "source": "Eurogamer",
-      "category": "games",
-      "lang": "en",
-      "addedAt": "2026-11-17T20:53:26.270Z"
-    },
-    {
       "id": "1mewrkf",
       "title": "Sony San Diego Studio Announces MLB The Show 27, Confirms Tech Test",
       "url": "https://www.psu.com/news/sony-san-diego-studio-announces-mlb-the-show-27-confirms-tech-test/",
@@ -78174,26 +78533,6 @@
       "addedAt": "2026-11-17T20:53:26.270Z"
     },
     {
-      "id": "6paxw2",
-      "title": "GTA 5 Fans Make One Last Emotional Ride Through Los Santos Before Heading to Vice City",
-      "url": "https://www.ign.com/articles/gta-5-fans-make-one-last-emotional-ride-through-los-santos-before-heading-to-vice-city",
-      "excerpt": "Today, gamers around the world are saying their goodbyes to GTA 5 , a game that has been with them for as long as 13 years. Its initial release was a massive moment for many; not only was it yet another exciting new, ambitious entry into one of gaming’s most…",
-      "content": "Today, gamers around the world are saying their goodbyes to GTA 5 , a game that has been with them for as long as 13 years. Its initial release was a massive moment for many; not only was it yet another exciting new, ambitious entry into one of gaming’s most beloved franchises, but it would also be a catalyst for so much more for millions of people.\n\nFor me, I was just 12 years old. It was an inappropriate age to be playing such a game, but after following the pre-release hype for months and playing it myself, it had a massive impact on me. It set me on the path that I am on today and inspired me to pursue a career in games media, partially so I could cover GTA 6 when it came out.\n\nAnd now, we’re here. I have spent literally half of my life chasing this moment. It was a journey of all kinds of ups and downs, but I am hardly alone in that journey. Millions of GTA 5 fans have forged friendships, lost loved ones, and experienced life-altering changes during the game's undeterred longevity.\n\nTake GTA YouTuber TGG as an example . He has 2.32 million subscribers, and his story largely traces back to GTA 5. Although he had dabbled in other GTA games prior to this, 5 was the game that really hooked him. In 9th grade, his dad bought him the game and essentially unlocked a whole new world for him. The sandbox elements within GTA Online were immediately captivating for a young teenager, leading to memories he still holds dearly to this day.\n\n“It was freedom,” he said in reference to what made GTA Online special in its earliest days. “No other game would just drop people in an open world and say, 'Do whatever the f**k you want.'\"\n\nBut it wasn’t just about blowing stuff up or mowing down NPCs for him. When things weren’t going well at home or in his personal life, GTA Online offered an escape, but one that wasn’t overly-isolating. It was like a virtual third space where he could hang out with people from school and find common ground, allowing him to make new friends with kids he may not have otherwise been able to connect with.\n\n“I think one of the reasons those memories are so special to me was because it helped [me make friends]. Racing with people from school, you end up with a full lobby of 16 people. Maybe you only know three or four of them very well, but that's 10 new people from your school that you're racing with that you can build friendships with. And being able to talk about whatever happened in a race or whatever happened in a mission that you were grinding out together, and having an icebreaker with people at school the next day really helped. I don't want to say [it] helped [me] get through school necessarily, but [it] helped expand my circle.\n\n\"And to me, as someone who was always a more quiet kid and wasn't the most popular kid in school, those [moments] were very important to me. And I think looking at it a bit deeper, that's probably the reason that those memories are more special to me because they helped me expand my circle at school when it was probably pretty small.”\n\nTGG eventually spun his love and encyclopedic knowledge of GTA Online into a career. He launched a YouTube channel while he was still in school and took inspiration from another creator known as TmarTn for the kinds of videos he wanted to make. After making over a thousand videos, TGG has become a leading source for GTA news, partially because he is the one breaking it himself. He was invited to Rockstar North earlier this year and given the opportunity to preview the game, allowing him to bring a bunch of exclusive info back to his viewers. It’s a surreal moment.\n\nTmarTn, whose real name is Trevor Martin, is still making GTA videos. He has over 5.69 million subscribers on his most active channel and has made countless videos about the franchise. GTA 6’s launch is a sort of full circle moment for him, as his journey with the franchise largely began with the original Vice City.\n\n“The first one I had was Vice City on PS2. So it's kind of cool because it's this full moment. I was a little kid playing this, worried about the loading screens that were popping up and things like that, trying to hide it from my mom. And now I'm back in Vice City and I'm a grown mid-thirties man and I'm still... It's kind of the same vibe. You know what I mean? It's still just as exciting.”\n\nTGG and TmarTn aren’t the only ones whose love for GTA 5 led to fruitful careers. 31-year-old Adam Butterworth was a fan of the game since day one and it became a staple of his life. Every December, Rockstar adds snow to GTA Online and a bunch of holiday festivities, and experiencing this became a holiday tradition for Butterworth.\n\n“Every Christmas Day me and a few mates would load the game [up], [drive] to the parking lot in the city center, go to the roof, and just chat while trying to push each other off the roof or break the car. It was stupid but it was a good time and as we got older and game time became harder to get among us it became something we would be excited for on Christmas… besides the ungodly amount of food and presents.”\n\nEventually, his love for GTA 5 turned into something more: a job at Rockstar Games. After bearing the elements in a historic UK snowstorm to attend a job interview, Butterworth scored a gig working in the developer’s QA department. In the lead-up to his first day at the company, he immersed himself even further into GTA 5’s world.\n\n“While waiting for my start date, every day I would do the drive around the map and just think that in a few weeks I would get to work with the team that made this game, a game that meant so much to me.”\n\nA Rockstar community member named Josh, AKA Vinewood Motors, has also managed to turn GTA Online into something more than just a game. After building a sizable social media presence sharing content, Josh began to use his following for good. He has raised over $40,000 for charity as part of a series of GTA-centric Gameblast streams over the years. The annual charity streams have become so significant that Rockstar Games has also supported them.\n\nStill, some people don’t have grand ambitions for GTA Online. Some of them just want somewhere they can spend their time and be social. A 22-year-old GTA 5 fan named Harry told me that he spent over 4,300 hours in the game over the last decade. Not unlike others, it has become a source of core memories with his friends.\n\n“Over the last 11 years, I’ve had so many fond memories doing heists, races, adversary modes, and just running around in freemode. I still remember the rush my friends and I felt after finally completing the Doomsday Heist finale for the first time, after many attempts and a lot of arguing.”\n\nAll of those memories have culminated in a special event that players are dubbing “The Last Ride.” This isn’t an official in-game event from Rockstar, it’s one created by the community. Players will drive around San Andreas by looping around its highway before ending up at the airport. They then plan to board a jet and fly off into the east toward Vice City while the sun sets behind them. It’s a way to say goodbye to a place they’ve called home for years.\n\n“My plan for GTA 6 launch night is to drive around Los Santos with my friends and talk about some of our favourite memories,” said Harry. “We’re gonna take our favourite cars, say goodbye to landmarks like the casino, our yachts, apartments, and nightclubs. Then, as soon as the clock strikes midnight, we’re opening GTA 6.”\n\n“I’ll say goodbye to a game that has seen me go from university, to Rockstar, to Remedy [Entertainment], to being a home owner, getting married and becoming a dad,” said Butterworth. “13 years of enjoyment and memories.”\n\nLike many others I spoke to for this story, 22-year-old Brian Berkman got GTA fever at a young age and had to wear down his mom so she’d buy the game for him. Now, as he prepares to leave GTA 5 behind, he’s driving through Los Santos like he’s leaving his hometown behind.\n\n“It sounds a little corny on paper but this is the one singular video game that has stuck around for what feels like my entire life; some people have that with Minecraft but I was admittedly never as big a Minecraft guy as others,” said Berkman. “It’s always been GTA 5 for me even before I owned the game myself, sometimes it feels like I know the in-game map better than my own real-life neighborhood sometimes.\n\n“Even when I’d have nothing to do in the game itself I’d find myself driving around Los Santos blasting Non-Stop-Pop FM feeling like I had my own home away from home, while simultaneously in the comfort of my own home. Everytime I’d think this game was getting too old, Mike Posner 'Cooler Than Me' would come on and all of that would wash away, and I’d feel like I was playing the coolest game in the world. Hearing that come on the radio one last time will have me unreasonably emotional on November 18.”\n\nThis will also be a moment for some fans to honor those who didn’t make it to GTA 6. 28-year-old Tobias Johnson plans to use this send off to GTA Online as a way to remember his friend, Noah, who passed away almost a decade ago.\n\n“[This] will be a chance to relive the memories I was able to have with my friends, especially Noah, who I lost at 19 years old in 2017,” said Johnson. “I think about him every day and some of the best memories I have of him are from playing whatever random game mode or race on GTA Online together. The last ride will be symbolic for me as this is kinda just taking that next step in life.\n\n“I’m almost 30 now and while I can always go back to GTA 5, this will be a nice little bit of closure on that time of my life and it will be incredibly cathartic to drive around Los Santos and really soak in those memories of Noah and I one last time.”\n\nWhile some people will write all of this off as “just a game,” it can’t be stressed enough that it’s not really about that. GTA 5 has been sort of a companion for the last decade and a half. It’s about people having one constant thing during a long period in their lives where they experienced a lot of change. It was something they could routinely come back to because GTA Online is more accessible for casual play than some other games. You can fire up the game one evening and never fire a gun or commit a major felony.\n\nSometimes, all you want to do is cruise around in a flashy sports car while a radio station that feels like it’s frozen in the early 2010s scores your drive. Maybe you want to go hang out at the casino and gamble fake money away. It’s something you can do by yourself, or with a group of friends. It’s a place where your mind can be free. There’s no skill-based matchmaking to ruin your adrenaline rush. There’s no timer or score limit that brings an end to your fun. As TGG said, it’s freedom to do whatever the f**k you want.\n\nGTA 5 has followed me through half my life. From 7th grade to writing for IGN at 26 years old, this game has been there every step of the way. Every crush, every girlfriend, every break up, every pet, every major life decision. I graduated school, got laid off, made stupid choices, and learned from those stupid choices. GTA 5 was there every time I needed a late night drive or something to blow up. It was there when my friends and I had nothing to play, but wanted to do something passive so we could talk.\n\nFinal drive complete. Goodbye Los Santos. We're headed to Vice City. https://t.co/SInvpzyxVb\n\n— TGG (@TGGonYT) November 16, 2026\n\nAs some fans step on to these virtual planes to head to Vice City, they’re not just headed to a new game. They’re embarking on a new chapter of their life. New relationships will be discovered, old ones will be strengthened. Would-be creatives will be inspired to create. Maybe it’s also a chance to feel like a kid again. It’s an opportunity to go back to that time where everything was right in their world, when things were simple and there was a way to escape in a different world. In the unruly chaos of a GTA game, people have found peace ",
-      "image": "https://assets-prd.ignimgs.com/2026/11/17/gta-5-1794932324419.jpg",
-      "images": [
-        {
-          "url": "https://assets-prd.ignimgs.com/2026/11/17/gta-5-1794932324419.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-17T16:20:20.000Z",
-      "sourceId": "ign",
-      "source": "IGN",
-      "category": "games",
-      "lang": "en",
-      "addedAt": "2026-11-17T20:53:26.270Z"
-    },
-    {
       "id": "12d50rp",
       "title": "The DOJ says it’s investigating Megaspeed",
       "url": "https://www.theverge.com/policy/1035410/doj-megaspeed-nvidia-investigation-update",
@@ -78211,26 +78550,6 @@
       "source": "The Verge AI",
       "category": "ai",
       "lang": "en",
-      "addedAt": "2026-11-17T20:53:26.270Z"
-    },
-    {
-      "id": "jfujvn",
-      "title": "Новую демонстрацию Exodus посвятили женской версии протагониста",
-      "url": "https://stopgame.ru/newsdata/73539/novuyu_demonstraciyu_exodus_posvyatili_zhenskoy_versii_protagonista",
-      "excerpt": "Студия Archetype Entertainment опубликовала новую демонстрацию своей научно-фантастической экшен-RPG Exodus. Ролик условно разделён на две части — сперва авторы показали трейлер женской версии главного героя, а затем поведали, как именно действия и…",
-      "content": "Студия Archetype Entertainment опубликовала новую демонстрацию своей научно-фантастической экшен-RPG Exodus. Ролик условно разделён на две части — сперва авторы показали трейлер женской версии главного героя, а затем поведали, как именно действия и способности протагониста повлияют на внутриигровой мир.… […]",
-      "image": "https://images.stopgame.ru/news/2026/11/17/9rlKU5ryp.jpg",
-      "images": [
-        {
-          "url": "https://images.stopgame.ru/news/2026/11/17/9rlKU5ryp.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-17T16:18:59.000Z",
-      "sourceId": "stopgame",
-      "source": "StopGame",
-      "category": "games",
-      "lang": "ru",
       "addedAt": "2026-11-17T20:53:26.270Z"
     },
     {
@@ -78341,26 +78660,6 @@
       "source": "VGC",
       "category": "industry",
       "lang": "en",
-      "addedAt": "2026-11-17T20:53:26.270Z"
-    },
-    {
-      "id": "15gve6a",
-      "title": "Создатели Exodus в духе Mass Effect показали новый геймплей и женскую версию главного героя",
-      "url": "https://www.igromania.ru/news/170012/sozdateli-exodus-v-duhe-mass-effect-pokazali-novyij-gejmplej-i-zhenskuyu-versiyu-glavnogo-geroya/",
-      "excerpt": "Создатели Exodus (2027) провели обещанную демонстрацию фантастической ролевой игры — свежий геймплейный ролик посвятили женской версии главного героя по имени Джун.",
-      "content": "Создатели Exodus (2027) провели обещанную демонстрацию фантастической ролевой игры — свежий геймплейный ролик посвятили женской версии главного героя по имени Джун.",
-      "image": "https://newcdn.igromania.ru//r/ffb462a9a67a44cfc1e3a77fb5637540/510x-/newcdn.igromania.ru/articles/pics/tmp/images/2026/11/17/1cea574e-353a-4ead-a81f-f957fd04214d.jpg",
-      "images": [
-        {
-          "url": "https://newcdn.igromania.ru//r/ffb462a9a67a44cfc1e3a77fb5637540/510x-/newcdn.igromania.ru/articles/pics/tmp/images/2026/11/17/1cea574e-353a-4ead-a81f-f957fd04214d.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-17T16:08:00.000Z",
-      "sourceId": "igromania",
-      "source": "Игромания",
-      "category": "games",
-      "lang": "ru",
       "addedAt": "2026-11-17T20:53:26.270Z"
     },
     {
@@ -78713,26 +79012,6 @@
       "sourceId": "9to5google",
       "source": "9to5Google",
       "category": "software",
-      "lang": "en",
-      "addedAt": "2026-11-17T20:53:26.270Z"
-    },
-    {
-      "id": "nm0kek",
-      "title": "Exodus Reveals Female Protagonist and Voice Actor, Shown in New Trailer for Upcoming Mass Effect-Like RPG",
-      "url": "https://www.ign.com/articles/exodus-reveals-female-protagonist-and-voice-actor-shown-in-new-trailer-for-upcoming-mass-effect-like-rpg",
-      "excerpt": "We've seen the upcoming spacefaring sci-fi RPG Exodus from many angles already and even had an extensive hands-on preview where I got to play through an entire mission. Everything from its blend of shooter and RPG combat to the kinds of choices you'll make at…",
-      "content": "We've seen the upcoming spacefaring sci-fi RPG Exodus from many angles already and even had an extensive hands-on preview where I got to play through an entire mission. Everything from its blend of shooter and RPG combat to the kinds of choices you'll make at pivotal moments as lead protagonist Jun Aslan. But two major things that've been kept under wraps until now were the character model and voice of female Jun – like Mass Effect, players can choose to play as a male or female version of the main character. Through a new story trailer, we finally saw and heard female Jun in action for the first time who is being voiced by actor Carina Conti.\n\nConti has appeared in shows such as Good Trouble on Hulu and Winning Time on HBO, as well as the Sundance award-winning comedy-drama Junk (previously titled Little Death). She also had a leading role in Mafia: The Old Country as the character Isabella Torrisi, and now she'll be our scrappy salvager turned space traveler Jun Aslan in Exodus.\n\nMale Jun is being portrayed by actor Stephen Oyoung who has made appearances in movies such as Mission: Impossible – The Final Reckoning, The Wrecking Crew, and Twisters. And he has video game credits as Mister Negative in Marvel's Spider-Man and Spider-Man 2 and Red Hood in Gotham Knights. We've been able to hear his version of Jun throughout all previous content in Exodus, and more recently, developer Archetype Entertainment tweaked the face model of male Jun based on audience feedback.\n\nAs previously stated in our preview and interview with Archetype, regardless of which version of Jun players choose, the dialogue, story, and romance options remain the same even if the performances will be different. In a conversation with both Conti and Oyoung, they jokingly mentioned that recording romance scenes were both traumatic and hilarious, but they also spoke to embodying Jun as a character.\n\n\"I love her [female Jun], I'm a little bit obsessed with her! She embodies qualities that I really envision for my future self,\" Conti said. \"Getting to practice those [qualities] within her over the course of six months was such a luxury. It was like, what if you already got to play this version of yourself where you are powerful, confident, and courageous, and a leader of men where you really have your ducks in a row.\"\n\nExodus is set to launch on April 7, 2027 for PlayStation 5, Xbox Series X|S, and PC. Be sure to check out my last hands-on preview with Exodus covering the mission on the ship colony of Khonsu where we saved a species of intelligent frogs from control from an evil faction and made a game-changing decision about their fate. You can also read my interview with narrative director Drew Karphysyn (known for writing Star Wars: Knights of the Old Republic and Mass Effect) where he explained choice and consequence in Exodus and how his time at BioWare shaped his upcoming work. Speaking of Mass Effect, I also interviewed Jennifer Hale and Mark Meer , the voices of Commander Shepard, to talk about the closure of BioWare and what Mass Effect meant to them.",
-      "image": "https://assets-prd.ignimgs.com/2026/11/17/female-jun-1-1794928969400.jpg",
-      "images": [
-        {
-          "url": "https://assets-prd.ignimgs.com/2026/11/17/female-jun-1-1794928969400.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-17T15:45:52.000Z",
-      "sourceId": "ign",
-      "source": "IGN",
-      "category": "games",
       "lang": "en",
       "addedAt": "2026-11-17T20:53:26.270Z"
     },
@@ -92684,21 +92963,6 @@
       "addedAt": "2026-11-16T19:57:08.828Z"
     },
     {
-      "id": "c0ifgi",
-      "title": "Kremlin Tells United Russia Lawmakers to Prepare for ‘Victory’ in Ukraine",
-      "url": "https://www.themoscowtimes.com/2026/11/16/kremlin-tells-united-russia-lawmakers-to-prepare-for-victory-in-ukraine-a94270",
-      "excerpt": "“They said everyone should be ready for victory, when those who took part in the fighting return all at once,” one source told Vedomosti.",
-      "content": "“They said everyone should be ready for victory, when those who took part in the fighting return all at once,” one source told Vedomosti.",
-      "image": "",
-      "images": [],
-      "publishedAt": "2026-11-16T10:14:56.000Z",
-      "sourceId": "moscowtimes",
-      "source": "The Moscow Times",
-      "category": "war",
-      "lang": "en",
-      "addedAt": "2026-11-16T19:57:08.828Z"
-    },
-    {
       "id": "1xf8gr2",
       "title": "28 Zero-Day Findings in Under Two Days. Is Robotics Security Keeping Pace?",
       "url": "https://spectrum.ieee.org/zero-day-robotics-vulnerabilities-vicone-security",
@@ -92768,21 +93032,6 @@
       "source": "3DNews Железо",
       "category": "hardware",
       "lang": "ru",
-      "addedAt": "2026-11-16T19:57:08.828Z"
-    },
-    {
-      "id": "15em6dd",
-      "title": "Russian Junior Hockey Team to Miss Worlds Over Canada Restrictions, IIHF Confirms",
-      "url": "https://www.themoscowtimes.com/2026/11/16/russian-junior-hockey-team-to-miss-worlds-over-canada-restrictions-iihf-confirms-a94267",
-      "excerpt": "The Russian Ice Hockey Federation called the IIHF's decision “unacceptable and unlawful” and said it would appeal to the International Olympic Committee to resolve the situation.",
-      "content": "The Russian Ice Hockey Federation called the IIHF's decision “unacceptable and unlawful” and said it would appeal to the International Olympic Committee to resolve the situation.",
-      "image": "",
-      "images": [],
-      "publishedAt": "2026-11-16T09:45:02.000Z",
-      "sourceId": "moscowtimes",
-      "source": "The Moscow Times",
-      "category": "war",
-      "lang": "en",
       "addedAt": "2026-11-16T19:57:08.828Z"
     },
     {
