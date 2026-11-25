@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-25T14:15:01.553Z",
-  "tookMs": 7988,
+  "generatedAt": "2026-11-25T14:55:44.019Z",
+  "tookMs": 9709,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -24,26 +24,26 @@
     "war": "Война"
   },
   "counts": {
-    "ai": 343,
+    "ai": 348,
     "games": 600,
     "announces": 25,
     "mobile": 10,
-    "releases": 34,
+    "releases": 38,
     "rumors": 7,
     "software": 89,
-    "science": 285,
+    "science": 296,
     "entertainment": 600,
-    "ports": 163,
-    "pc": 189,
-    "consoles": 487,
-    "hardware": 159,
-    "industry": 165,
+    "ports": 165,
+    "pc": 192,
+    "consoles": 491,
+    "hardware": 160,
+    "industry": 166,
     "updates": 23,
     "aimods": 23,
-    "aisoft": 97,
-    "cars": 523,
-    "war": 588,
-    "total": 4410
+    "aisoft": 99,
+    "cars": 529,
+    "war": 594,
+    "total": 4455
   },
   "sourceCount": 89,
   "sources": [
@@ -707,6 +707,1147 @@
   ],
   "items": [
     {
+      "id": "gh-1162134967",
+      "title": "themuffinator/openPR06: openPR06: the modern way to play PREY. An open-source PREY (2006) source port on a modernized idTech4 engine, with Vulkan and OpenGL renderers, for Windows, Linux, Steam Deck and macOS.",
+      "url": "https://github.com/themuffinator/openPR06",
+      "excerpt": "openPR06: the modern way to play PREY. An open-source PREY (2006) source port on a modernized idTech4 engine, with Vulkan and OpenGL renderers, for Windows, Linux, Steam Deck and macOS.",
+      "image": "",
+      "publishedAt": "2026-11-25T14:50:57Z",
+      "addedAt": "2026-11-25T14:55:38.662Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1434613489",
+      "title": "rigaz29/Ascension-R: God of War: Ascension PC port: an unofficial, native Windows port of the PS3 game by static recompilation, no emulator. No game files included: you build it from your own copy.",
+      "url": "https://github.com/rigaz29/Ascension-R",
+      "excerpt": "God of War: Ascension PC port: an unofficial, native Windows port of the PS3 game by static recompilation, no emulator. No game files included: you build it from your own copy.",
+      "image": "",
+      "publishedAt": "2026-11-25T13:57:28Z",
+      "addedAt": "2026-11-25T14:55:38.168Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "1wqhlnj",
+      "title": "Обновление 7.15 для No Man's Sky добавляет масштабирование AMD FSR и исправляет проблемы с Corvette и Colossus",
+      "url": "https://www.playground.ru/no_mans_sky/news/obnovlenie_7_15_dlya_no_mans_sky_dobavlyaet_masshtabirovanie_amd_fsr_i_ispravlyaet_problemy_s_corvette_i_colossus-1893803",
+      "excerpt": "Компания Hello Games выпустила обновление No Man's Sky 7.15, добавляющее поддержку масштабирования AMD FSR на ПК, а также множество графических и геймплейных исправлений. Обновление устраняет проблему, из-за которой технологии Corvette перестраивались или…",
+      "content": "Компания Hello Games выпустила обновление No Man's Sky 7.15, добавляющее поддержку масштабирования AMD FSR на ПК, а также множество графических и геймплейных исправлений. Обновление устраняет проблему, из-за которой технологии Corvette перестраивались или исчезали при перемещении...",
+      "image": "https://i.playground.ru/e/VV9QAx84hgQxhV5TE7Oo9Q.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/VV9QAx84hgQxhV5TE7Oo9Q.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:53:27.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "x5ipmw",
+      "title": "Оживляем картинки: тест аватаров от Kandinsky, Wan, InfiniteTalk и FantasyTalking",
+      "url": "https://habr.com/ru/articles/1112328/",
+      "excerpt": "Одно изображение, одна русская реплика и пять секунд видео. Задача — оживить картинку так, чтобы персонаж произнес заранее озвученную мной реплику. Для этого модели нужно воспроизвести артикуляцию, синхронизировать её с аудио и при этом сохранить узнаваемость…",
+      "content": "Одно изображение, одна русская реплика и пять секунд видео. Задача — оживить картинку так, чтобы персонаж произнес заранее озвученную мной реплику. Для этого модели нужно воспроизвести артикуляцию, синхронизировать её с аудио и при этом сохранить узнаваемость персонажа.\n\nЯ решил потестировать опенсорсные генераторы говорящих аватаров, но проделать это на персонажах русского культурного кода. А чтоб было еще забавнее — на былинных или сказочных персонажах. Потому что у скульптуры лицо высечено в камне, у богатырей пышная борода, а у Серый Волк просто волк. Без интересностей не обошлось!\n\nОдна H200, 4 модели и 10 персонажей — погнали!\n\nЧитать далее",
+      "image": "https://habrastorage.org/extt/72/74/a8/7274a82a9cc8ec2b3200f7450fd0c178.jpeg",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/72/74/a8/7274a82a9cc8ec2b3200f7450fd0c178.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:52:29.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "xq3xtq",
+      "title": "GeForce RTX 5070 подорожала в Японии на 44% всего за четыре месяца, а большинство моделей стоят уже более $1100",
+      "url": "https://www.playground.ru/misc/news/geforce_rtx_5070_podorozhala_v_yaponii_na_44_vsego_za_chetyre_mesyatsa_a_bolshinstvo_modelej_stoyat_uzhe_bolee_1100-1893802",
+      "excerpt": "В результате последних повышений цен видеокарта среднего ценового сегмента уже преодолела отметку в $1000, а с учётом недавних сообщений о сокращении поставок её стоимость может продолжить стремительно расти.",
+      "content": "В результате последних повышений цен видеокарта среднего ценового сегмента уже преодолела отметку в $1000, а с учётом недавних сообщений о сокращении поставок её стоимость может продолжить стремительно расти.",
+      "image": "https://i.playground.ru/e/Y-srm6t2iSmf06nYktukUQ.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/Y-srm6t2iSmf06nYktukUQ.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:52:26.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "18q6apk",
+      "title": "Вышел 3DMark CPU Rumble - новый бенчмарк для тестирования производительности процессоров в играх на Android и iOS",
+      "url": "https://www.playground.ru/misc/news/vyshel_3dmark_cpu_rumble_novyj_benchmark_dlya_testirovaniya_proizvoditelnosti_protsessorov_v_igrah_na_android_i_ios-1893801",
+      "excerpt": "Компания UL Solutions представила 3DMark CPU Rumble - первый из двух разрабатываемых процессорных бенчмарков, ориентированный на игровые нагрузки. Тест уже доступен в качестве бесплатного обновления для устройств под управлением Android и iOS.",
+      "content": "Компания UL Solutions представила 3DMark CPU Rumble - первый из двух разрабатываемых процессорных бенчмарков, ориентированный на игровые нагрузки. Тест уже доступен в качестве бесплатного обновления для устройств под управлением Android и iOS.",
+      "image": "https://i.playground.ru/e/EWsMIwtTupWcFPjtWLpYwA.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/EWsMIwtTupWcFPjtWLpYwA.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:51:05.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "vva0ea",
+      "title": "Мои родные погибли на Донбассе. Мама винила в их гибели армию Зеленского, но правда оказалась сложнее",
+      "url": "https://www.bbc.com/russian/articles/cmzxveplrxe7o?at_medium=RSS&at_campaign=rss",
+      "excerpt": "Журналистка Би-би-си Анастасия Грибанова попыталась в ходе собственного расследования выяснить, кто убил ее отца, бабушку и дедушку в ее родном селе на Донбассе.",
+      "content": "Журналистка Би-би-си Анастасия Грибанова попыталась в ходе собственного расследования выяснить, кто убил ее отца, бабушку и дедушку в ее родном селе на Донбассе.",
+      "image": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/237f/live/ca6c5b60-e82c-11f1-a094-5fdc692f3e33.jpg",
+      "images": [
+        {
+          "url": "https://ichef.bbci.co.uk/ace/ws/240/cpsprodpb/237f/live/ca6c5b60-e82c-11f1-a094-5fdc692f3e33.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:50:38.000Z",
+      "sourceId": "bbc-ru",
+      "source": "BBC Russian",
+      "category": "war",
+      "lang": "ru",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "1171ydi",
+      "title": "Ban AI, lose Google Search: Schools face tough choice over students' access",
+      "url": "https://phys.org/news/2026-11-ai-google-schools-tough-choice.html",
+      "excerpt": "Three major school districts in the United States are contemplating moving away from Google search engines, so students are not forced to use artificial intelligence (AI) in their daily schoolwork.",
+      "content": "Three major school districts in the United States are contemplating moving away from Google search engines, so students are not forced to use artificial intelligence (AI) in their daily schoolwork.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/laptops-in-school.jpg",
+      "images": [
+        {
+          "url": "https://scx1.b-cdn.net/csz/news/tmb/2026/laptops-in-school.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:50:01.000Z",
+      "sourceId": "physorg",
+      "source": "Phys.org",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "1jhr864",
+      "title": "Mangmi Reveals Specs for Air X Pro Handheld Inc. Qualcomm SD865 Processor & 5.5-Inch IPS Touchscreen",
+      "url": "https://www.timeextension.com/news/2026/11/mangmi-reveals-specs-for-air-x-pro-handheld-inc-qualcomm-sd865-processor-and-5-5-inch-ips-touchscreen",
+      "excerpt": "Back in Black. Tech manufacturer Mangmi has announced the coming of its next handheld emulator. The Mangmi Air X Pro was revealed on the company's social media pages today , along with an obscured render of the sleek-looking device. Aside from the initial…",
+      "content": "Back in Black.\n\nTech manufacturer Mangmi has announced the coming of its next handheld emulator. The Mangmi Air X Pro was revealed on the company's social media pages today , along with an obscured render of the sleek-looking device.\n\nAside from the initial announcement, Mangmi was extremely tight-lipped about the new product, only noting that images and details would be \"coming soon\". We can see from the image that the console will not be taking great strides away from the design of the Mangmi Air X, which launched back in October of last year (following initial delays)\n\nRead the full article on timeextension.com",
+      "image": "https://images.timeextension.com/0be3690f95b1b/small.jpg",
+      "images": [
+        {
+          "url": "https://images.timeextension.com/0be3690f95b1b/small.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://images.timeextension.com/0be3690f95b1b/large.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:50:00.000Z",
+      "sourceId": "timeextension",
+      "source": "Time Extension",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "d4mjib",
+      "title": "Gilles Villeneuve Biopic ‘The Rise of a Legend’ Gives Racing Genre a Grungier Spin: It’s the ‘Anti-“F1”’",
+      "url": "https://variety.com/2026/film/festivals/gilles-villeneuve-biopic-the-rise-of-a-legend-1236957807/",
+      "excerpt": "“Villeneuve: The Rise of a Legend” director Yan Lanouette Turgeon doesn’t mince his words, saying his 1970s-set biopic of Formula 1 racer Gilles Villeneuve is the antithesis of Joseph Kosinski’s “F1,” starring Brad Pitt. His film closes Torino Film Festival…",
+      "content": "“Villeneuve: The Rise of a Legend” director Yan Lanouette Turgeon doesn’t mince his words, saying his 1970s-set biopic of Formula 1 racer Gilles Villeneuve is the antithesis of Joseph Kosinski’s “F1,” starring Brad Pitt. His film closes Torino Film Festival next week before a wider international rollout. “We’re the anti-‘F1,'” he says. “We’re so far […]",
+      "image": "https://variety.com/wp-content/uploads/2026/11/MixCollage-25-Nov-2026-09-47-AM-2476.jpg",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/MixCollage-25-Nov-2026-09-47-AM-2476.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/MixCollage-25-Nov-2026-09-45-AM-7745.jpg?w=1024&h=1000",
+          "alt": ""
+        },
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/MixCollage-25-Nov-2026-09-40-AM-5418.jpg?w=1024&h=1000",
+          "alt": ""
+        },
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/MixCollage-25-Nov-2026-09-41-AM-682.jpg?w=1024&h=1000",
+          "alt": ""
+        },
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/MixCollage-25-Nov-2026-09-46-AM-1374.jpg?w=1024&h=1000",
+          "alt": ""
+        },
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/MixCollage-25-Nov-2026-09-48-AM-888.jpg?w=1024&h=1000",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:46:56.000Z",
+      "sourceId": "variety",
+      "source": "Variety",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "b2qz9w",
+      "title": "Yooka-Laylee And The Impossible Lair Is Getting A Definitive Edition On Switch 2",
+      "url": "https://www.nintendolife.com/news/2026/11/yooka-laylee-and-the-impossible-lair-is-getting-a-definitive-edition-on-switch-2",
+      "excerpt": "And it's out next month! Publisher Playtonic is bringing Yooka-Laylee and the Impossible Lair: Definitive Edition to the Switch 2 on 15th December 2026 . While the original release was already critically-acclaimed for its Donkey Kong -inspired platforming…",
+      "content": "And it's out next month!\n\nPublisher Playtonic is bringing Yooka-Laylee and the Impossible Lair: Definitive Edition to the Switch 2 on 15th December 2026 .\n\nWhile the original release was already critically-acclaimed for its Donkey Kong -inspired platforming, the Switch 2 version will boast improved visuals in both docked and handheld modes. For those who value high performance, a 120fps mode will also be included.\n\nRead the full article on nintendolife.com",
+      "image": "https://images.nintendolife.com/633db6b5f6cf2/small.jpg",
+      "images": [
+        {
+          "url": "https://images.nintendolife.com/633db6b5f6cf2/small.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://images.nintendolife.com/633db6b5f6cf2/large.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:45:00.000Z",
+      "sourceId": "nintendolife",
+      "source": "Nintendo Life",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "poj64a",
+      "title": "DoorDash Scales Dispatch 10x While Maintaining 99.99% Peak Availability",
+      "url": "https://www.infoq.com/news/2026/11/doordash-dispatch-redesign/",
+      "excerpt": "DoorDash has redesigned its real-time dispatch platform, replacing a monolithic optimization engine with a distributed architecture that separates coordination from computation. The new system delivers 10x higher throughput and more than 99.99% peak…",
+      "content": "DoorDash has redesigned its real-time dispatch platform, replacing a monolithic optimization engine with a distributed architecture that separates coordination from computation. The new system delivers 10x higher throughput and more than 99.99% peak availability. It also supports hybrid machine learning inference and multi-agent reinforcement learning to dynamically optimize delivery assignments.\n\nBy Leela Kumili",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-25T14:44:00.000Z",
+      "sourceId": "infoq-ai",
+      "source": "InfoQ AI/ML",
+      "category": "aisoft",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "1272yz4",
+      "title": "Letter from the Editor(s) #21: That game everyone is and isn't playing, and how we report on AI",
+      "url": "https://www.rockpapershotgun.com/letter-from-the-editors-21-that-game-everyone-is-and-isnt-playing-and-how-we-report-on-ai",
+      "excerpt": "Hello and welcome to an unusually not-Supporter exclusive ed letter, its paywall laying unbuilt so we can exchange some Real Talk with as many RPS readers as possible. Read more",
+      "content": "Hello and welcome to an unusually not-Supporter exclusive ed letter, its paywall laying unbuilt so we can exchange some Real Talk with as many RPS readers as possible.\n\nRead more",
+      "image": "https://assetsio.gnwcdn.com/Mahoney-Oliver-Twist.jpg?width=690&quality=85&format=jpg&auto=webp",
+      "images": [
+        {
+          "url": "https://assetsio.gnwcdn.com/Mahoney-Oliver-Twist.jpg?width=690&quality=85&format=jpg&auto=webp",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:41:50.000Z",
+      "sourceId": "rps",
+      "source": "Rock Paper Shotgun",
+      "category": "pc",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "118owf6",
+      "title": "Webb discovers farthest 'little red dot' from universe's first 500 million years",
+      "url": "https://phys.org/news/2026-11-webb-farthest-red-dot-universe.html",
+      "excerpt": "Following the discovery of faint supermassive black holes called little red dots (LRDs) in the early universe in 2022, an international team of researchers has found the farthest little red dot to date, reports a new study in The Astrophysical Journal Letters.",
+      "content": "Following the discovery of faint supermassive black holes called little red dots (LRDs) in the early universe in 2022, an international team of researchers has found the farthest little red dot to date, reports a new study in The Astrophysical Journal Letters.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/researchers-uncover-th-2.jpg",
+      "images": [
+        {
+          "url": "https://scx1.b-cdn.net/csz/news/tmb/2026/researchers-uncover-th-2.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:40:04.000Z",
+      "sourceId": "physorg",
+      "source": "Phys.org",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "17k3cdu",
+      "title": "Праворульки из Японии набирают обороты на фоне общего спада импорта. Список популярных марок",
+      "url": "https://www.zr.ru/content/news/989024-pravorulki-iz-yaponii-nabirayut/",
+      "excerpt": "Целиков: ввоз подержанных авто упал на 4%, а праворульных машин – вырос на 19,2%",
+      "content": "Целиков: ввоз подержанных авто упал на 4%, а праворульных машин – вырос на 19,2%",
+      "image": "https://www.zr.ru/_ah/img/ria_DtCld7ht07ekT3BSSA",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/ria_DtCld7ht07ekT3BSSA",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:40:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "1550c1m",
+      "title": "Arcade Archives Dirt Dash Brings Namco’s 1995 Racer To PS5 & PS4 On Nov. 26",
+      "url": "https://www.psu.com/news/arcade-archives-dirt-dash-brings-namcos-1995-racer-to-ps5-ps4-on-nov-26/",
+      "excerpt": "Hamster has announced that classic racer Dirt Dash will launch for PS5, Nintendo Switch 2, and Xbox Series X/S on November 26, 2026 as part of Arcade Archives Dirt Dash. Meanwhile, Arcade Archives Dirt Dash will arrive on the same day for PS4 and Nintendo…",
+      "content": "Hamster has announced that classic racer Dirt Dash will launch for PS5, Nintendo Switch 2, and Xbox Series X/S on November 26, 2026 as part of Arcade Archives Dirt Dash. Meanwhile, Arcade Archives Dirt Dash will arrive on the same day for PS4 and Nintendo Switch.\n\nOriginally released in 1995, Dirt Dash is seen as a rival to Sega Rally and offers off-road racing across a diverse set of environments, from ski slopes, mountain ranges, cities and more. The Arcade Archives 2 version includes the all-new Time Attack Mode, as well as the Original Mode, Hi Score Mode, and Caravan Mode from Arcade Archives. Furthermore, Variable Refresh Rate (VRR) has been implemented, bringing the gameplay closer to the original arcade experience.\n\nThe Arcade Archives series is developed with the concept of faithfully reproducing classic arcade games. It also includes convenient features such as difficulty and screen settings, rewind, rapid-fire, and multiple save slots. In addition, players can compete for the best scores with players around the world through online rankings.\n\nDirt Dash was only released in arcades so this release will mark the first time the game has been available on home consoles.\n\nPlayStation Universe .",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-25T14:37:38.000Z",
+      "sourceId": "psu",
+      "source": "PlayStation Universe",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "trccgz",
+      "title": "Разработчики skate. откажутся от сезонной модели поддержки игры",
+      "url": "https://dtf.ru/games/5435424-razrabotchiki-skate-izmenyat-model-podderzhki-igry",
+      "excerpt": "Последний из них закончится 1 декабря.",
+      "content": "Последний из них закончится 1 декабря.",
+      "image": "https://leonardo.osnova.io/7e89bad3-ce19-5ca9-b8f0-8befabe349c6/",
+      "images": [
+        {
+          "url": "https://leonardo.osnova.io/7e89bad3-ce19-5ca9-b8f0-8befabe349c6/",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:37:34.000Z",
+      "sourceId": "dtf",
+      "source": "DTF",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "1mrq0qe",
+      "title": "[Перевод] Где исполняется ваш ИИ-агент?",
+      "url": "https://habr.com/ru/companies/spring_aio/articles/1112322/",
+      "excerpt": "Илья Кучмин, автор курса \" Разработка ПО с AI‑агентами \" поднимает мысль, о которой в повседневной жизни сложно задуматься: А где на самом деле выполняется код, который пишет ваш агент? За год песочницы для агентов выросли из простых сред для запуска…",
+      "content": "Илья Кучмин, автор курса \" Разработка ПО с AI‑агентами \" поднимает мысль, о которой в повседневной жизни сложно задуматься:\n\nА где на самом деле выполняется код, который пишет ваш агент?\n\nЗа год песочницы для агентов выросли из простых сред для запуска подозрительного кода в полноценную инфраструктуру. В них есть снапшоты, пауза и возобновление, ветвления и даже собственный браузер. Но появился и обратный тренд, что многим агентам целый компьютер вообще не нужен.\n\nЕсли вы об этом ещё не задумывались, сейчас самое время посмотреть, куда движется индустрия.\n\nЧитать далее",
+      "image": "https://habrastorage.org/extt/a0/c3/98/a0c3986a816126bef0334686378583a6.png",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/a0/c3/98/a0c3986a816126bef0334686378583a6.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:35:19.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "pf6gt8",
+      "title": "CD Projekt Red нашла способ ускорить выпуск будущих RPG и рассказала о прогрессе Cyberpunk 2",
+      "url": "https://3dnews.ru/1151798/cd-projekt-red-nashla-sposob-uskorit-vipusk-budushchih-rpg-i-rasskazala-o-progresse-cyberpunk-2",
+      "excerpt": "С релиза нашумевшего ролевого боевика Cyberpunk 2077 от CD Projekt Red прошло почти шесть лет, а The Witcher 4 лишь замаячила на горизонте. В польской студии это понимают и уже работают над ускорением выпуска своих блокбастеров.",
+      "content": "С релиза нашумевшего ролевого боевика Cyberpunk 2077 от CD Projekt Red прошло почти шесть лет, а The Witcher 4 лишь замаячила на горизонте. В польской студии это понимают и уже работают над ускорением выпуска своих блокбастеров.",
+      "image": "https://cdn.3dnews.ru/assets/external/illustrations/2026/11/25/1151798/00.jpg",
+      "images": [
+        {
+          "url": "https://cdn.3dnews.ru/assets/external/illustrations/2026/11/25/1151798/00.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:34:00.000Z",
+      "sourceId": "3dnews-games",
+      "source": "3DNews Игры",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "sras0e",
+      "title": "Минтранс РФ опубликовал инструкцию, как теперь попасть в Крым. Мост на полуостров на ней изображен с одной аркой (а не с двумя)",
+      "url": "https://meduza.io/news/2026/11/25/mintrans-rf-opublikoval-instruktsiyu-kak-teper-popast-v-krym-most-na-poluostrov-na-ney-izobrazhen-s-odnoy-arkoy-a-ne-s-dvumya",
+      "excerpt": "В официальном телеграм-канале Минтранса РФ появилась инструкция, как теперь можно добраться из России до Крыма. На ней Крымский мост изображен только с одной аркой. Ранее в аналогичных информационных сообщениях о ситуации с движением по мосту в телеграме…",
+      "content": "В официальном телеграм-канале Минтранса РФ появилась инструкция, как теперь можно добраться из России до Крыма. На ней Крымский мост изображен только с одной аркой.\n\nРанее в аналогичных информационных сообщениях о ситуации с движением по мосту в телеграме Минтранса он  изображался с  двумя арками (в последний раз — 19 ноября).\n\nУкраина в ноябре нанесла серию ударов по Крымскому мосту. В результате одна из двух его арок в ночь на 17 ноября обрушилась. Независимые эксперты считают, что в условиях продолжающейся войны восстановить ее будет невозможно.\n\nВласти РФ пытались преуменьшить масштаб полученных мостом повреждений. Государственные и лояльные властям СМИ писали о повреждениях лишь в общем, не указывая, что одна из арок рухнула.\n\nВладимир Путин заявлял, что после ударов по мосту Россия больше не намерена рассматривать предложения о прекращении огня.\n\nЧитайте также\n\n• Удары по Крымскому мосту — это послание Зеленского для Путина, Трампа и Си? Или в этих атаках есть и военный смысл? Объясняет Дмитрий Кузнец\n\n• «Со своим делаем все, что захотим». За время большой войны Украина уже несколько раз атаковала Крымский мост. Вот последствия этих ударов",
+      "image": "https://meduza.io/imgly/share/1795617135/news/2026/11/25/mintrans-rf-opublikoval-instruktsiyu-kak-teper-popast-v-krym-most-na-poluostrov-na-ney-izobrazhen-s-odnoy-arkoy-a-ne-s-dvumya",
+      "images": [
+        {
+          "url": "https://meduza.io/imgly/share/1795617135/news/2026/11/25/mintrans-rf-opublikoval-instruktsiyu-kak-teper-popast-v-krym-most-na-poluostrov-na-ney-izobrazhen-s-odnoy-arkoy-a-ne-s-dvumya",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:32:15.000Z",
+      "sourceId": "meduza",
+      "source": "Meduza",
+      "category": "war",
+      "lang": "ru",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "pn3hbl",
+      "title": "Мерц о бюджете: Германия больше не может позволить себе все",
+      "url": "https://www.dw.com/ru/%D0%BC%D0%B5%D1%80%D1%86-%D0%BE-%D0%B1%D1%8E%D0%B4%D0%B6%D0%B5%D1%82%D0%B5-%D0%B3%D0%B5%D1%80%D0%BC%D0%B0%D0%BD%D0%B8%D1%8F-%D0%B1%D0%BE%D0%BB%D1%8C%D1%88%D0%B5-%D0%BD%D0%B5-%D0%BC%D0%BE%D0%B6%D0%B5%D1%82-%D0%BF%D0%BE%D0%B7%D0%B2%D0%BE%D0%BB%D0%B8%D1%82%D1%8C-%D1%81%D0%B5%D0%B1%D0%B5-%D0%B2%D1%81%D0%B5/a-80051247?maca=rus-rss-ru-all-1126-rdf",
+      "excerpt": "Канцлер ФРГ Фридрих Мерц выступил в защиту проекта бюджета с рекордными расходами и новыми долгами. Он признал, что Германии придется расставлять приоритеты, но предостерег от ослабления поддержки Украины.",
+      "content": "Канцлер ФРГ Фридрих Мерц выступил в защиту проекта бюджета с рекордными расходами и новыми долгами. Он признал, что Германии придется расставлять приоритеты, но предостерег от ослабления поддержки Украины.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-25T14:32:00.000Z",
+      "sourceId": "dw-ru",
+      "source": "DW Russian",
+      "category": "war",
+      "lang": "ru",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "1xmdttp",
+      "title": "Для Expeditions: Samurai вышло второе крупное обновление раннего доступа - в игре появился второй акт с городом Осака",
+      "url": "https://www.playground.ru/expeditions_samurai/news/dlya_expeditions_samurai_vyshlo_vtoroe_krupnoe_obnovlenie_rannego_dostupa_v_igre_poyavilsya_vtoroj_akt_s_gorodom_osaka-1893795",
+      "excerpt": "Разработчики из Campfire Cabal выпустили второе крупное обновление раннего доступа Expeditions: Samurai. Главным нововведением стал полноценный второй акт сюжетной кампании, который уже доступен всем владельцам игры.",
+      "content": "Разработчики из Campfire Cabal выпустили второе крупное обновление раннего доступа Expeditions: Samurai. Главным нововведением стал полноценный второй акт сюжетной кампании, который уже доступен всем владельцам игры.",
+      "image": "https://i.playground.ru/e/ihVXsglUR6VpFojfZZGWYA.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/ihVXsglUR6VpFojfZZGWYA.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:31:28.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "14unjaj",
+      "title": "Купил иномарку — получил счет: кому грозит доплата утильсбора",
+      "url": "https://www.zr.ru/content/news/988994-kupil-inomarku-poluchil-schet/",
+      "excerpt": "Генпрокуратура: за недоплаченный утиль с покупателей иномарок взыщут ₽284 млн",
+      "content": "Генпрокуратура: за недоплаченный утиль с покупателей иномарок взыщут ₽284 млн",
+      "image": "https://www.zr.ru/_ah/img/xv1brAY1mhwz_wkiLSWxVQ",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/xv1brAY1mhwz_wkiLSWxVQ",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:30:56.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "v1ecbc",
+      "title": "Why Quentin Tarantino Didn't Direct Brad Pitt's Cliff Booth Movie",
+      "url": "https://www.slashfilm.com/2327942/why-quentin-tarantino-not-direct-brad-pitt-cliff-booth-movie/",
+      "excerpt": "David Fincher helmed the Brad Pitt-led Cliff Booth spin-off film based on Quentin Tarantino's script, but why didn't QT direct it himself? Here's what we know.",
+      "content": "David Fincher helmed the Brad Pitt-led Cliff Booth spin-off film based on Quentin Tarantino's script, but why didn't QT direct it himself? Here's what we know.",
+      "image": "https://www.slashfilm.com/img/gallery/why-quentin-tarantino-didnt-direct-brad-pitts-cliff-booth-movie/l-intro-1795616724.jpg",
+      "images": [
+        {
+          "url": "https://www.slashfilm.com/img/gallery/why-quentin-tarantino-didnt-direct-brad-pitts-cliff-booth-movie/l-intro-1795616724.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.slashfilm.com/img/gallery/why-quentin-tarantino-didnt-direct-brad-pitts-cliff-booth-movie/intro-1795616724.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:30:55.000Z",
+      "sourceId": "slashfilm",
+      "source": "SlashFilm",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "1ikxgho",
+      "title": "Разработка в эпоху ИИ: часть 1",
+      "url": "https://habr.com/ru/companies/naumen/articles/1112318/",
+      "excerpt": "Разработку без ИИ уже представить сложно. Он помогает быстрее проверять идеи, разбираться в незнакомом коде и справляться с рутиной: от написания тестов до подготовки документации. Поговорили с разработчиками Naumen Ильей и Димой о том, какие задачи они уже…",
+      "content": "Разработку без ИИ уже представить сложно. Он помогает быстрее проверять идеи, разбираться в незнакомом коде и справляться с рутиной: от написания тестов до подготовки документации.\n\nПоговорили с разработчиками Naumen Ильей и Димой о том, какие задачи они уже делегируют ИИ и как проверяют его работу.\n\nЧитать далее",
+      "image": "https://habrastorage.org/extt/21/4e/03/214e03f92566be7ce1e27df39a6dab9e.png",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/21/4e/03/214e03f92566be7ce1e27df39a6dab9e.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:30:40.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "1d8p8kg",
+      "title": "Kremlin Dismisses Leaked Data on Russian Troop Losses",
+      "url": "https://www.themoscowtimes.com/2026/11/25/kremlin-dismisses-leaked-data-on-russian-troop-losses-a812368",
+      "excerpt": "Russia has not released an official military death toll since September 2022, when it acknowledged that nearly 6,000 soldiers had been killed.",
+      "content": "Russia has not released an official military death toll since September 2022, when it acknowledged that nearly 6,000 soldiers had been killed.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-25T14:30:28.000Z",
+      "sourceId": "moscowtimes",
+      "source": "The Moscow Times",
+      "category": "war",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "1r94vtf",
+      "title": "70+ Songs Now Confirmed For Stage Tour Ahead Of December Xbox Release",
+      "url": "https://www.purexbox.com/news/2026/11/70plus-songs-now-confirmed-for-stage-tour-ahead-of-december-xbox-release",
+      "excerpt": "Including RHCP, Fall Out Boy, Metallica & more! We've got quite a few interesting Xbox releases still to come in December, and one of them that we've been keeping a close eye on is Stage Tour , which is a new Guitar Hero / Rock Band style game launching on…",
+      "content": "Including RHCP, Fall Out Boy, Metallica & more!\n\nWe've got quite a few interesting Xbox releases still to come in December, and one of them that we've been keeping a close eye on is Stage Tour , which is a new Guitar Hero / Rock Band style game launching on December 10th.\n\nThey're not messing around with this one either, having snagged loads of famous bands for the tracklist, which now stands at well over 70 songs. There are going to be 90+ by the time we get to release, so there's more to come.\n\nRead the full article on purexbox.com",
+      "image": "https://images.purexbox.com/a167d159a837c/small.jpg",
+      "images": [
+        {
+          "url": "https://images.purexbox.com/a167d159a837c/small.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://images.purexbox.com/a167d159a837c/large.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:30:00.000Z",
+      "sourceId": "purexbox",
+      "source": "Pure Xbox",
+      "category": "consoles",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "19e127a",
+      "title": "Best Cars for Snow",
+      "url": "https://www.caranddriver.com/features/a74466080/best-cars-for-snow/",
+      "excerpt": "Snow performance is all about tires and clearance, so we selected the top-rated new vehicles that come from the factory with snow-rated rubber.",
+      "content": "Snow performance is all about tires and clearance, so we selected the top-rated new vehicles that come from the factory with snow-rated rubber.",
+      "image": "https://hips.hearstapps.com/hmg-prod/images/2026-subaru-outback-wilderness-109-6995ed51949d5.jpg",
+      "images": [
+        {
+          "url": "https://hips.hearstapps.com/hmg-prod/images/2026-subaru-outback-wilderness-109-6995ed51949d5.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:29:08.000Z",
+      "sourceId": "caranddriver",
+      "source": "Car and Driver",
+      "category": "cars",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "19rzkmi",
+      "title": "How to steal an ATM and get a winched vehicle in GTA 6",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/gta-6-atm-winched-vehicle/",
+      "excerpt": "Stealing an ATM in GTA 6 requires a few different things: a winched vehicle to haul it out of the wall and drive off, plus the dye pack jammer that stops marked bills from exploding pink all over your lovely cash. There are two ways to get a winched truck…",
+      "content": "Stealing an ATM in GTA 6 requires a few different things: a winched vehicle to haul it out of the wall and drive off, plus the dye pack jammer that stops marked bills from exploding pink all over your lovely cash.\n\nThere are two ways to get a winched truck. The video above shows a location at the crop duster landing strip in Frogswater where you can steal one, but you can also mod any truck at a mod shop to add a winch.\n\nIf you don't have a truck to mod, there's a unique one you can steal from the Kolt & Associates June Warehouse robbery in Port Gellhorn, just south of Sarena's Bargain Store, which you could then register with Moses and mod at Wasteland Off-Road in the north of the town.\n\nYou'll also need the dye pack jammer, which you get in the Chapter 3 main mission, Credit Check, for Raul. Once you have both of these, you're ready to rob an ATM. If you complete all three of Yasmani's jewelry thefts (also in Chapter 3), he'll call a little later and offer tips about full ATMs, giving you three for free that you have a 24 hour window to hit. Here's how to steal them\n\n• Reverse the winched vehicle into the ATM and lower the hook with the stick until it attaches.\n\n• Drive at full speed to pull the ATM out and get some distance from the sounding alarm—this will summon the cops.\n\n• Smash the ATM into stuff by swerving the truck to make it spill the cash boxes\n\n• Get out, kick them, and quickly grab the marked bills in each.\n\nFor Yasmani's tipped-off ATMs I got about 11k-ish per time, so not terrible, but likely not the best way to make money unless you get really efficient at it and invest in a proper getaway winch truck.\n\nGrand Theft Auto 6 GTA 6 guide : One-stop info shop\nGTA 6 cars : The garage lineup\nGTA 6 characters : Your anti-hero cast\nGTA 6 map : Confirmed Vice City locales\nGTA 6 PC release : When's it going to happen?",
+      "image": "https://cdn.mos.cms.futurecdn.net/2bsbrPohC2jrFUKms54Zqi-1920-80.jpg",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/2bsbrPohC2jrFUKms54Zqi-1920-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/ZF5ZJsyvbhJRVSDmd9H3jA-1920-80.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:27:50.000Z",
+      "sourceId": "pcgamer",
+      "source": "PC Gamer",
+      "category": "pc",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "wh5akr",
+      "title": "Популярный кроссовер, никогда официально не продававшийся в РФ, предлагают под заказ",
+      "url": "https://www.zr.ru/content/news/989040-populyarnyj-krossover-nikogda/",
+      "excerpt": "Цены на Hyundai Creta второго рестайлинга стартуют в РФ от 2,67 млн рублей",
+      "content": "Цены на Hyundai Creta второго рестайлинга стартуют в РФ от 2,67 млн рублей",
+      "image": "https://www.zr.ru/_ah/img/MJLxoM92c3V4QLMea02nDQ",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/MJLxoM92c3V4QLMea02nDQ",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:27:07.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "1bk462i",
+      "title": "Фильм «Кароси» выйдет в российский прокат в феврале",
+      "url": "https://www.intermedia.ru/news/408368",
+      "excerpt": "Локализованный тизер-трейлер и дату российской премьеры фильма «Кароси» (Karoshi) обнародовала 25 ноября 2026 года кинокомпания «Вольга»....",
+      "content": "Локализованный тизер-трейлер и дату российской премьеры фильма «Кароси» (Karoshi) обнародовала 25 ноября 2026 года кинокомпания «Вольга»....",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-25T14:26:00.000Z",
+      "sourceId": "intermedia",
+      "source": "InterMedia",
+      "category": "entertainment",
+      "lang": "ru",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "1n894zr",
+      "title": "Діти з української школи у Румунії зібрали понад 40 тисяч гривень для медзакладів Херсона",
+      "url": "https://www.ukrinform.ua/rubric-diaspora/4188555-diti-z-ukrainskoi-skoli-u-rumunii-zibrali-ponad-40-tisac-griven-dla-medzakladiv-hersona.html",
+      "excerpt": "Діти з української школи у румунській Констанці на ярмарку зібрали понад 40 тисяч гривень для медичних закладів Херсона, підтримка надійшла до Херсонського обласного центру служби крові.",
+      "content": "Діти з української школи у румунській Констанці на ярмарку зібрали понад 40 тисяч гривень для медичних закладів Херсона, підтримка надійшла до Херсонського обласного центру служби крові.",
+      "image": "https://static.ukrinform.com/photos/2026_09/thumb_files/630_360_1789409010-640.jpg",
+      "images": [
+        {
+          "url": "https://static.ukrinform.com/photos/2026_09/thumb_files/630_360_1789409010-640.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:25:21.000Z",
+      "sourceId": "ukrinform",
+      "source": "Ukrinform",
+      "category": "war",
+      "lang": "uk",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "dx7ync",
+      "title": "Машины с нечитаемыми номерами в РФ будут вычислять с помощью ИИ",
+      "url": "https://www.zr.ru/content/news/989032-mashiny-s-nechitaemymi-nomerami/",
+      "excerpt": "«Автодор» внедряет технологию распознавания транспорта с нечитаемыми госномерами",
+      "content": "«Автодор» внедряет технологию распознавания транспорта с нечитаемыми госномерами",
+      "image": "https://www.zr.ru/_ah/img/D82gKBu-9NeZ6URxccp05Q",
+      "images": [
+        {
+          "url": "https://www.zr.ru/_ah/img/D82gKBu-9NeZ6URxccp05Q",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:25:00.000Z",
+      "sourceId": "zr",
+      "source": "За рулём",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "1r6k4se",
+      "title": "GTA 6: Find and steal Paul Walker’s car, a Fast & Furious reference",
+      "url": "https://www.videogameschronicle.com/guide/gta-6-find-steal-paul-walkers-car-fast-furious/",
+      "excerpt": "How to find a reference to Paul Walker's iconic Fast & Furious vehicle in Grand Theft Auto 6… Source",
+      "content": "How to find a reference to Paul Walker's iconic Fast & Furious vehicle in Grand Theft Auto 6…\n\nSource",
+      "image": "https://www.videogameschronicle.com/files/2026/11/GTA-6-Find-and-steal-Paul-Walkers-car-a-Fast-Furious-reference-4.jpg",
+      "images": [
+        {
+          "url": "https://www.videogameschronicle.com/files/2026/11/GTA-6-Find-and-steal-Paul-Walkers-car-a-Fast-Furious-reference-4.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:23:22.000Z",
+      "sourceId": "vgc",
+      "source": "VGC",
+      "category": "industry",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "5jxfaq",
+      "title": "Expeditions: Samurai о феодальной Японии получила обновление раннего доступа с новой главой",
+      "url": "https://www.igromania.ru/news/170223/expeditions-samurai-o-feodalnoj-yaponii-poluchila-obnovlenie-rannego-dostupa-s-novoj-glavoj/",
+      "excerpt": "Ролевая игра Expeditions: Samurai о феодальной Японии получила второе крупное обновление раннего доступа, куда она вышла со смешанными отзывами в этом августе.",
+      "content": "Ролевая игра Expeditions: Samurai о феодальной Японии получила второе крупное обновление раннего доступа, куда она вышла со смешанными отзывами в этом августе.",
+      "image": "https://newcdn.igromania.ru//r/9ea65b2f69401176e8508320a9783357/510x-/newcdn.igromania.ru/articles/pics/tmp/images/2026/11/25/cd1a091c-9821-4ad7-b669-3cc9bb6c36d4.jpg",
+      "images": [
+        {
+          "url": "https://newcdn.igromania.ru//r/9ea65b2f69401176e8508320a9783357/510x-/newcdn.igromania.ru/articles/pics/tmp/images/2026/11/25/cd1a091c-9821-4ad7-b669-3cc9bb6c36d4.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:23:00.000Z",
+      "sourceId": "igromania",
+      "source": "Игромания",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "1frq7s2",
+      "title": "Who identifies as a prepper? New study offers surprising answers",
+      "url": "https://phys.org/news/2026-11-prepper.html",
+      "excerpt": "Amid rising concerns about natural disasters, geopolitical instability, public health threats and emerging technologies, new research on who identifies as a \"prepper\" in the United States shows that the group is larger and more diverse than previously thought.",
+      "content": "Amid rising concerns about natural disasters, geopolitical instability, public health threats and emerging technologies, new research on who identifies as a \"prepper\" in the United States shows that the group is larger and more diverse than previously thought.",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/who-identifies-as-a-pr.jpg",
+      "images": [
+        {
+          "url": "https://scx1.b-cdn.net/csz/news/tmb/2026/who-identifies-as-a-pr.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:20:17.000Z",
+      "sourceId": "physorg",
+      "source": "Phys.org",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "130lpf9",
+      "title": "A prickly surprise: Mexican hairy dwarf porcupines glow under UV light",
+      "url": "https://phys.org/news/2026-11-mexican-hairy-dwarf-porcupines-uv.html",
+      "excerpt": "Photoluminescence occurs when biological tissue absorbs short-wavelength light and re-emits it at longer wavelengths. It has been recorded in a growing number of mammals, but most records come from museum specimens, while records from live porcupines were…",
+      "content": "Photoluminescence occurs when biological tissue absorbs short-wavelength light and re-emits it at longer wavelengths. It has been recorded in a growing number of mammals, but most records come from museum specimens, while records from live porcupines were anecdotal. As the authors write in their article:",
+      "image": "https://scx1.b-cdn.net/csz/news/tmb/2026/mexican-hairy-dwarf-po.jpg",
+      "images": [
+        {
+          "url": "https://scx1.b-cdn.net/csz/news/tmb/2026/mexican-hairy-dwarf-po.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:20:12.000Z",
+      "sourceId": "physorg",
+      "source": "Phys.org",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "odictv",
+      "title": "Best Black Friday 2026 3D Printer deals live",
+      "url": "https://www.tomshardware.com/live/news/best-black-friday-2026-3d-printer-deals",
+      "excerpt": "You've been waiting for it all year, and now the Black Friday sales are finally here. It's that time of the year when your favorite 3D printer makers roll out huge discounts on some of their best products, and you can be sure that we will be here tracking…",
+      "content": "You've been waiting for it all year, and now the Black Friday sales are finally here. It's that time of the year when your favorite 3D printer makers roll out huge discounts on some of their best products, and you can be sure that we will be here tracking them all for you live.\n\nSo whether you are a new maker searching for an affordable, easy-to-use 3D printer to get you started, or a serious hobbyist looking to upgrade your workshop or expand your print farm, there is no better time to dive in and get the best bang for your buck than today.\n\nThroughout our live coverage, we will be rounding up the best deals from top 3D printer brands such as Bambu Lab, Prusa, Creality, Elegoo, Anycubic, Snapmaker, and more. From FDM and resin printers to tool changers and multicolor machines, we've got you covered. We'll also be keeping an eye out for savings on filaments and resin, as well as discounts on all those handy maker tools and 3D printer accessories.\n\nWe're backing up our deal selections with in-depth reviews, benchmarks, and comprehensive historical pricing analysis. We're checking deals around the clock to find the best options and keep this page up to date, but please note that they often won't last long, so you'll need to act quickly.\n\nSo sit back, relax, and let us do all the grunt work for you. Be sure to check back often, as we'll be keeping tabs on all the Black Friday sales as they unfold, and you're not going to want to miss out!\n\nQuick Links: Black Friday 3D Printer deals\n\n• Amazon:   All Black Friday 3D Printer Deals\n\n• Amazon: Black Friday Filament Discounts\n\n• Amazon: Bambu Lab P2S Combo now $649.99 (was $769)\n\nHottest Black Friday 3D Printer Deals\n\nSparkX i7 3D Printer: was $279 now $198.99\nWith support for up to 4 different color filament feeds when using the CFS Lite attachment, the SparkX i7 from Creality is a direct-drive extruder printer with a build volume of 10.2 x 10.2 x 10 inches. Let the printer complete prints at night with a whisper-quiet 45 dB night mode. View Deal\n\nCreality's K2 Combo is a formidable 3D printer. The smallest of the K2 family of printers, the K2 Combo still has a 260 x 260 x 260 mm print size, allowing users to print large objects inside its enclosed frame without worrying about having to glue together multiple prints. The ultra-sturdy frame holds an auto-leveling print bed and three step-servo motors for fast, consistent prints. View Deal\n\nKobra X Multicolor 3D Printer: was $359 now $299\nThe Kobra X delivers fast, affordable multicolor printing without a complicated external AMS or premium price tag. It features a 260 x 260 x 260mm (10.23 x 10.23 x 10.23-inch) build volume, automatic + Z bed leveling, and a color touch screen. View Deal\n\n* The listed previous prices can vary based on retailer, as many use different metrics, like 90-day rolling averages or ‘estimated value’ due to ongoing shortages and price hikes.\n\nNovember 24, 2026 – 4:14 PM Starting at just $599, 3D printer tool changers are cheaper than ever\n\nSnapmaker’s U1 kicked off the affordable tool changer craze around this time last year, with an early Kickstarter price of $799 and a full retail price of $999. But now it’s widely available and on sale for $100 less than ever. When we reviewed the U1 , we praised its roomy build area (270 mm cubed), direct-drive tool heads, and its four-head tool-changing capabilities, earning it 4.5 stars and a spot on our best 3D printers list.\n\nU1: was $849 now $699\nLast year, this tool-changer was the most anticipated upcoming printer around. With four heads for swapping colors or materials without the need to \"poop,\" it can breeze through complex multicolor prints much faster than single-head printers, without wasting nearly as much filament. View Deal\n\nCreator 5 3D printer: was $839 now $599\nThis open CoreXY 3D printer has four toolheads, is rated for head swaps that take 7 seconds, and sports a 256 mm X3 build volume. View Deal\n\nOn the heels of the U1, Flashforge released the Creator 5, a tool changer that’s a bit more basic, but still a solid machine ( we gave it 4 stars in our review ), priced even lower than the Snapmaker, both when it launched (at $699) and now, when it’s on sale for $100 less. — Matt Safford\n\nNovember 25, 2026 – 9:00 AM Save a whopping $200 on Creality's 16-color K2 Combo 3D printer in Black Friday stunner\n\nCreality's K2 Combo is the smallest in the K2 family, with a print area of 260 x 260 x 260mm. Direct from Creality, you can save $200 on the printer itself, bringing its $549 list price down to $349 for Black Friday. Bundled with a Creality CFS quadruple-spool feeder, you'll also save $200 off the $699 list price, bringing the price down to $499.\n\nCreality's K2 Combo is a formidable 3D printer. The smallest of the K2 family of printers, the K2 Combo still has a 260 x 260 x 260 mm print size, allowing users to print large objects inside its enclosed frame without worrying about having to glue together multiple prints. The ultra-sturdy frame holds an auto-leveling print bed and three step-servo motors for fast, consistent prints. View Deal\n\nAs with our K2 printers, such as the K2 Pro Combo we reviewed , you can pair up to four CFS cartridges together for a 16-color printer; though, with the smaller size here, it might be difficult to fit all those colors in. It also features auto print bed leveling, along with print failure detection. — Jake Roach",
+      "image": "https://cdn.mos.cms.futurecdn.net/Yr67EPk7UUD4H63p3qj2mX-1920-80.png",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/Yr67EPk7UUD4H63p3qj2mX-1920-80.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/ZfNTvfhB4F2ANJPSwACQdC-1920-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/JhYqd4CZYYuauBZ6AwRqiQ-1920-80.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/7X9faxffEZaYBYPTsTUxAM-1920-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/ztSRFZXXGYGLNENBynomTE-1920-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/FQNvj4snFqe4oY4QEpfjGA-1920-80.png",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/NNs9pc7758MPnUhxwoPQn9-1920-80.webp",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:20:12.000Z",
+      "sourceId": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "hardware",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "13uyf03",
+      "title": "Вышла модель Ternary Bonsai 2.5 в которой сжали 27-миллиардов параметров в 5,9 ГБ VRAM",
+      "url": "https://habr.com/ru/companies/selectel/articles/1112284/",
+      "excerpt": "Тяжелые модели для кода всегда упирались в дефицит видеопамяти. Чтобы работать, им нужны десятки гигабайт VRAM и желательно без сжатия. Стартап PrismML попытался решить проблему с помощью тернарного квантования в новой модели Ternary Bonsai 2.5 27B. В самой…",
+      "content": "Тяжелые модели для кода всегда упирались в дефицит видеопамяти. Чтобы работать, им нужны десятки гигабайт VRAM и желательно без сжатия. Стартап PrismML попытался решить проблему с помощью тернарного квантования в новой модели Ternary Bonsai 2.5 27B. В самой компактной упаковке Bonsai занимает 5,93 ГБ, и при этом, по данным компании, решает 75,6% задач SWE-bench Verified против 80,6% у Qwen3.8 27B на которой она создавалась. Подробности внутри.\n\nЧитать далее",
+      "image": "https://habrastorage.org/extt/b3/d0/f5/b3d0f5c479f96abbd413dc1c80401ae6.jpeg",
+      "images": [
+        {
+          "url": "https://habrastorage.org/extt/b3/d0/f5/b3d0f5c479f96abbd413dc1c80401ae6.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:16:24.000Z",
+      "sourceId": "habr-ai",
+      "source": "Habr AI",
+      "category": "ai",
+      "lang": "ru",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "3nsjzg",
+      "title": "Начальник в администрации Путина поставил \"Жизнь за царя\"",
+      "url": "https://www.dw.com/ru/%D0%BD%D0%B0%D1%87%D0%B0%D0%BB%D1%8C%D0%BD%D0%B8%D0%BA-%D0%B2-%D0%B0%D0%B4%D0%BC%D0%B8%D0%BD%D0%B8%D1%81%D1%82%D1%80%D0%B0%D1%86%D0%B8%D0%B8-%D0%BF%D1%83%D1%82%D0%B8%D0%BD%D0%B0-%D0%BF%D0%BE%D1%81%D1%82%D0%B0%D0%B2%D0%B8%D0%BB-%D0%B6%D0%B8%D0%B7%D0%BD%D1%8C-%D0%B7%D0%B0-%D1%86%D0%B0%D1%80%D1%8F/a-80050049?maca=rus-rss-ru-all-1126-rdf",
+      "excerpt": "В Большом театре покажут оперу \"главного цензора российской культуры\" Сергея Новикова. Чиновник стал режиссером постановки \"Жизнь за царя\". Что известно о нем и какую реакцию вызывает его постановка?",
+      "content": "В Большом театре покажут оперу \"главного цензора российской культуры\" Сергея Новикова. Чиновник стал режиссером постановки \"Жизнь за царя\". Что известно о нем и какую реакцию вызывает его постановка?",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-25T14:16:00.000Z",
+      "sourceId": "dw-ru",
+      "source": "DW Russian",
+      "category": "war",
+      "lang": "ru",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "utchzu",
+      "title": "Even Max Verstappen has succumbed to GTA 6 fever, squeezing in 40 hours around his Las Vegas Grand Prix win",
+      "url": "https://www.pcgamer.com/games/grand-theft-auto/even-max-verstappen-has-succumbed-to-gta-6-fever-squeezing-in-40-hours-around-his-las-vegas-grand-prix-win/",
+      "excerpt": "Grand Theft Auto 6 has managed to get its claws into just about everyone. Honestly, I can't go anywhere without hearing something from the soundtrack or someone talking about how much fun it is to joyride around Leonida. And now it's even infested the sports…",
+      "content": "Grand Theft Auto 6 has managed to get its claws into just about everyone. Honestly, I can't go anywhere without hearing something from the soundtrack or someone talking about how much fun it is to joyride around Leonida. And now it's even infested the sports I watch.\n\nTo keep non-Formula One fans up to speed, it was the Las Vegas Grand Prix over the weekend, one of the newer circuits on the calendar. Third place went to Oscar Piastri. In second place was his McLaren teammate and previous world champion for 2025, Lando Norris. And first place went to four-time F1 world champion Max Verstappen, not exactly very surprising given his history with the track. But it is a little more impressive when you take into account that Verstappen has also put 40 hours into GTA 6, much of which would have been before the race.\n\n\"I played a lot in the evening and in the morning in Vegas,\" he says in a stream (via IGN ), correcting the idea that he actually spent the plane ride home playing GTA 6 instead of spending time doing so around the race. \"I mean I can't go out anyways [in the evening and morning], and walk around.\"\n\nVerstappen did, however, explain that the aspect that GTA 6 has likely affected the most is his ability to play Minecraft, which he had planned to stream later this week: \"I'm so bad when I play too many games at the same time. I can't, I just can't.\"\n\nGTA 6 to Minecraft is certainly a jump, but you can't really blame anyone for trying to maximise their time in Leonida right now. I'll also take any chance to spend every free moment playing the game, the only difference being that instead of subsequently competing in an F1 race and winning it, I spend the next day of work acting like a zombie—a poorly functioning one at that. I suppose people are just built differently, or at least that's what I'll tell myself while I'm on my third cup of coffee in three hours.\n\nGrand Theft Auto 6 GTA 6 guide : One-stop info shop\nGTA 6 map : The full Vice City tour\nGTA 6 cheats : A complete list\nGTA 6 radio : All the songs and stations\nGTA 6 romance : How to keep a strong bond",
+      "image": "https://cdn.mos.cms.futurecdn.net/CQTzhRbNRKLtjyYiPMkaDh-1920-80.jpg",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/CQTzhRbNRKLtjyYiPMkaDh-1920-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/yRnewaDLb6YSuKR6wNQ6t7-1920-80.png",
+          "alt": "A car driving along the highway in GTA 6."
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/R4UAoyCLM246CLeZy7wBXb-1920-80.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:15:51.000Z",
+      "sourceId": "pcgamer",
+      "source": "PC Gamer",
+      "category": "pc",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "iqoxaj",
+      "title": "UK Actors Union Equity To Kickstart Negotiations With Streamers Early Next Year",
+      "url": "https://deadline.com/2026/11/streamer-negotiation-equity-actors-union-contracts-next-year-1237227832/",
+      "excerpt": "EXCLUSIVE: Having nearly signed off on its long-gestating deal with Pact, Equity will soon sit down with a trio of streamers. Deadline is told that the UK actors union intends to enter the negotiating table with Netflix, Disney and Apple at the start of next…",
+      "content": "EXCLUSIVE: Having nearly signed off on its long-gestating deal with Pact, Equity will soon sit down with a trio of streamers. Deadline is told that the UK actors union intends to enter the negotiating table with Netflix, Disney and Apple at the start of next year. Equity’s landmark deal with producer trade body Pact, which […]",
+      "image": "https://deadline.com/wp-content/uploads/2026/09/BD_206_Unit_00248_RT2-Edit.jpg",
+      "images": [
+        {
+          "url": "https://deadline.com/wp-content/uploads/2026/09/BD_206_Unit_00248_RT2-Edit.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:15:00.000Z",
+      "sourceId": "deadline",
+      "source": "Deadline",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "igx4ow",
+      "title": "Jessica Chastain's 2026 Neo-Western Is A Surprise Streaming Hit On Netflix",
+      "url": "https://www.slashfilm.com/2327889/jessica-chastain-2026-neo-western-heartland-streaming-netflix/",
+      "excerpt": "Netflix subscribers are tuning in to watch Jessica Chastain play a country singer on a mission in her new, neo-Western thriller flick.",
+      "content": "Netflix subscribers are tuning in to watch Jessica Chastain play a country singer on a mission in her new, neo-Western thriller flick.",
+      "image": "https://www.slashfilm.com/img/gallery/jessica-chastains-2026-neo-western-is-a-surprise-streaming-hit-on-netflix/l-intro-1795615423.jpg",
+      "images": [
+        {
+          "url": "https://www.slashfilm.com/img/gallery/jessica-chastains-2026-neo-western-is-a-surprise-streaming-hit-on-netflix/l-intro-1795615423.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.slashfilm.com/img/gallery/jessica-chastains-2026-neo-western-is-a-surprise-streaming-hit-on-netflix/intro-1795615423.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T14:04:47.000Z",
+      "sourceId": "slashfilm",
+      "source": "SlashFilm",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "149mfk1",
+      "title": "‘It’s not for the timid’: Blade Runner 2099’s showrunner on adapting the series for TV",
+      "url": "https://www.theverge.com/entertainment/1041596/blade-runner-2099-interview-showrunner-silka-luisa",
+      "excerpt": "As a longtime fan of the films, Blade Runner 2099 showrunner Silka Luisa says she was more excited than scared when it came to adapting the series for TV. The new show is set 50 years after the 2017 film Blade Runner 2049 and imagines a bleak future where…",
+      "content": "As a longtime fan of the films, Blade Runner 2099 showrunner Silka Luisa says she was more excited than scared when it came to adapting the series for TV. The new show is set 50 years after the 2017 film Blade Runner 2049 and imagines a bleak future where artificial humans known as replicants have taken over society after a brutal war. Luisa, who previously served as showrunner on Apple TV's Shining Girls adaptation , says she largely had to put any concerns about the monumental task of following up Blade Runner out of her mind while working on the show.\n\n\"I just don't think you can approach Blade Runner with fear,\" she tells The Verge . \"It's …",
+      "image": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Michelle_Yeoh_as_Olwen_in_Blade_Runner_2099_-_Credit_Clay_Enos_for_Prime_3000.jpg?quality=90&strip=all&crop=0,0,100,100",
+      "images": [
+        {
+          "url": "https://platform.theverge.com/wp-content/uploads/sites/2/2026/11/Michelle_Yeoh_as_Olwen_in_Blade_Runner_2099_-_Credit_Clay_Enos_for_Prime_3000.jpg?quality=90&strip=all&crop=0,0,100,100",
+          "alt": "Michelle Yeoh holding up a gun against a hazy yellow sky, in a still from the TV series Blade Runner 2099."
+        }
+      ],
+      "publishedAt": "2026-11-25T14:00:00.000Z",
+      "sourceId": "verge-ent",
+      "source": "The Verge Entertainment",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "u4bjvv",
+      "title": "The leading cities in the world for high-quality research in 2025",
+      "url": "https://www.nature.com/articles/d41586-026-03468-3",
+      "excerpt": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03468-3 A decade of data on the top-performing science cities in the Nature Index.",
+      "content": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03468-3\n\nA decade of data on the top-performing science cities in the Nature Index.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "sourceId": "nature",
+      "source": "Nature",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "1lzz8sc",
+      "title": "How Singapore has turned a nation into a smart-city testing ground",
+      "url": "https://www.nature.com/articles/d41586-026-03472-7",
+      "excerpt": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03472-7 The city-state’s compact size and centralized governance allow digital infrastructure to be introduced with unusual speed and consistency.",
+      "content": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03472-7\n\nThe city-state’s compact size and centralized governance allow digital infrastructure to be introduced with unusual speed and consistency.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "sourceId": "nature",
+      "source": "Nature",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "1e8mpvw",
+      "title": "Can Beijing scale up its smart-city ambitions?",
+      "url": "https://www.nature.com/articles/d41586-026-03470-9",
+      "excerpt": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03470-9 The world’s leading science city is testing AI and intelligent transport at scale, but linking data across its innovation hubs remains a challenge.",
+      "content": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03470-9\n\nThe world’s leading science city is testing AI and intelligent transport at scale, but linking data across its innovation hubs remains a challenge.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "sourceId": "nature",
+      "source": "Nature",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "n0ga3j",
+      "title": "The world’s leading science cities are changing — here’s why",
+      "url": "https://www.nature.com/articles/d41586-026-03466-5",
+      "excerpt": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03466-5 Nature Index data reveal the cities that are gaining ground in research, as smart technologies transform how urban centres operate and compete for talent.",
+      "content": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03466-5\n\nNature Index data reveal the cities that are gaining ground in research, as smart technologies transform how urban centres operate and compete for talent.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "sourceId": "nature",
+      "source": "Nature",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "gq9zsg",
+      "title": "China’s AI-powered smart-city model is going global",
+      "url": "https://www.nature.com/articles/d41586-026-03473-6",
+      "excerpt": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03473-6 China is using AI and big data to connect its cities and rural regions. Now, its smart-city technologies are attracting international interest.",
+      "content": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03473-6\n\nChina is using AI and big data to connect its cities and rural regions. Now, its smart-city technologies are attracting international interest.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "sourceId": "nature",
+      "source": "Nature",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "xhd65b",
+      "title": "Helsinki puts trust at the heart of its smart-city model",
+      "url": "https://www.nature.com/articles/d41586-026-03469-2",
+      "excerpt": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03469-2 Open urban data, recycled data-centre heat and a public AI register are helping the Finnish capital develop responsible urban technology.",
+      "content": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03469-2\n\nOpen urban data, recycled data-centre heat and a public AI register are helping the Finnish capital develop responsible urban technology.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "sourceId": "nature",
+      "source": "Nature",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "16f00xc",
+      "title": "London’s people-first approach to smart-city development",
+      "url": "https://www.nature.com/articles/d41586-026-03471-8",
+      "excerpt": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03471-8 Digital twins and open-data platforms are part of London’s aim to innovate for citizens.",
+      "content": "Nature, Published online: 25 November 2026; doi:10.1038/d41586-026-03471-8\n\nDigital twins and open-data platforms are part of London’s aim to innovate for citizens.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-25T00:00:00.000Z",
+      "sourceId": "nature",
+      "source": "Nature",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "le062d",
+      "title": "This smell startup says its AI nose is as good as a human’s",
+      "url": "https://www.technologyreview.com/2026/11/18/1148816/smell-startup-osmo-ai-nose-good-as-humans/",
+      "excerpt": "Giving computers a nose: AI startup Osmo claims its model has reached \"human-level olfactory intelligence\" — roughly as capable as the average person at detecting smells. The data problem: Fewer than 200,000 human smell descriptions existed before Osmo. The…",
+      "content": "• Giving computers a nose: AI startup Osmo claims its model has reached \"human-level olfactory intelligence\" — roughly as capable as the average person at detecting smells.\n\n• The data problem: Fewer than 200,000 human smell descriptions existed before Osmo. The company built its own dataset of over 10 million labels, using teams of trained sniffers and spectrometers running around the clock.\n\n• Real-world applications — and real skeptics: Osmo has worked with P&G on fragrances, identified insect repellents stronger than DEET, and helped spot counterfeit sneakers. But critics argue its big claims are undocumented and still heavily reliant on human judgment.\n\n• Context is everything: Scientists warn the AI may miss what makes human smell uniquely powerful — the same molecule in Camembert cheese also appears in used diapers, yet we never confuse the two. Cracking that complexity could unlock medical diagnostics, the technology's biggest potential prize.\n\n\" data-chronoton-post-id=\"1148816\" data-chronoton-expand-collapse=\"1\" data-chronoton-analytics-enabled=\"1\">\n\nIn a lab near Newark Airport in New Jersey, a team of around 30 experienced human sniffers are slowly working their way through every odor on Earth. Their careful notes—“nutty,” “peachy,” “marine”—are cross-referenced with a chemical analysis to create a rich set of training data for what AI startup Osmo calls the world’s first foundation model for smell. The company’s goal, says founder Alex Wiltschko, is “to give computers a sense of smell.”\n\n“Scent molecules are really the only language most species on this planet can speak,” he says. “Most species can’t communicate with sound or visually, so it truly is Earth’s original language. And it’s incredibly powerful for us, from a memory and an emotional standpoint. You can smell something once and remember it for the rest of your life. You can smell something on the street and be pulled back to high school.”\n\nIn the last few months, Wiltschko claims, Osmo’s model has achieved “human-level olfactory intelligence.” The company’s definition of this is that the model is about as good as the average person at detecting and discriminating between smells, and about as good as a junior perfume designer at creating them. It says its technology is already being used in the fragrance industry to help brands design and manufacture new scents. Last month, the company says, Osmo’s AI model outperformed in-house perfumers at one of the world’s largest consumer goods companies. Wiltschko believes it could be deployed eventually for threat detection at airports, for example, or diagnosing diseases.\n\nWiltschko spun the startup out of his work at Google Brain, the search giant’s former AI research lab, in 2023, and he is running the same playbook as AI startups in other domains: Throw a lot of data at difficult problems, and see what happens. The challenge with scent, Wiltschko says, is that there was a dearth of good data. Before Osmo, there were fewer than 200,000 human descriptions of smells in existing databases, by his count. Plus, the chemical sensor devices needed to collect data are expensive, and the fragrance industry is secretive about its work on olfactory science.\n\nA lot of the company’s work has been in creating its own dataset of more than 10 million human labels and 800 million “scent tokens,” which describe the exact molecules and concentrations that go into creating specific odors. Osmo uses spectrometers and other chemical sensors, running around the clock, to break down the molecular makeup of everything from fruit and flowers to pantry staples and organs. A team of around 70 trained data labelers in the US and overseas spend their days sniffing things and writing down what they smell like, using a standardized fragrance vocabulary.\n\nMapping out scents in this way is throwing out some unlikely parallels. In the same way that changing the order of words can drastically influence the meaning of a sentence, rearranging scent molecules in different proportions can drastically alter the smells humans perceive. “The scent tokens that define the smell of a newborn baby have massive overlap with the scent tokens in a fresh plate of cooked spaghetti,” Wiltschko says. (Specifically Barilla brand spaghetti, he says, which perhaps raises some questions for the people at the pasta factory.)\n\nThe company also creates its own scents, using a smell-printing robot the size of a school bus that mixes ingredients according to precise formulas to make samples for Osmo’s own research and fragrances for paying customers. It can design and print scents to order based on a ChatGPT-style prompt. Wiltschko flipped open his laptop to show me how the AI model worked. He opened a text box on screen, and I asked him to generate a fragrance that smelled like a Portuguese custard tart (we were in Lisbon for Web Summit), aimed at 18- to 23-year-old men. The system spent a few minutes cogitating, then generated three options for potential scent profiles that matched the brief (creamy, coconutty, fruity) and the molecules needed to create them. If I’d continued with the ordering process, my signature L’Eau de Custard would have been ready about a week later.\n\nOsmo’s technology has already been used to create retail fragrances, including for giants like Procter & Gamble. The Gates Foundation, which invested $5 million when Osmo launched, later gave the company a $3.5 million grant to assess molecules that repel disease-carrying insects, and Osmo identified eight substances that were more repellent than DEET. Osmo has also worked with StockX, the online clothing marketplace, on using smell to spot counterfeit sneakers by detecting differences in the chemical composition of the materials used in the shoes.\n\nBut not everyone is convinced by the technology or the company’s big claims. Avery Gilbert, a smell scientist and author of What the Nose Knows , has been sharply critical of Osmo on his Substack , arguing that some of its marketing claims are undocumented, and that its patent filings still rely on human sensory panels and perfumers, rather than AI. “This heavy reliance on human sensory judgments seems odd for a company premised on super-cool AI,” he wrote in March. In response, Wiltschko says that “human perception isn’t a workaround for AI”. “Language models learn from what people have written. Our model learns from what people smell. Smell is ultimately a human experience, so the model has to learn from humans to bridge chemistry and perception. That’s what lets it predict how people will experience a scent as well as the human nose does.”\n\nMichael Schmuker, a former professor of neural computation at the University of Hertfordshire who has previously consulted for Osmo, says the company’s technology is an achievement. With colleagues, he created an open-source, reverse-engineered version of Osmo’s 2023 model, but it lacks the reams of data the company has collected since.\n\nBut even with all this smell data, Osmo may be missing some of the factors that make human olfaction unique, Schmuker says. “Smell is super complex. Context is very important for smell. The same molecule may evoke a different association depending on context,” he says. “[The smell of] a French cheese like Camembert is partly the same molecule as in used nappies. You don’t confuse the two because of the context.”\n\nIn a controlled setting like a fragrance lab, this lack of context may not matter so much. But it could have an impact if Osmo’s technology becomes, as Wiltschko suggests, the “olfactive channel” for AI world models. Imagine a machine that could sniff out spoilage in food on a production line, or detect tumors through smell the way dogs have been trained to do in pilot studies .\n\nFor that to happen, sensor technology will need to get a lot better, Schmuker says. The models will need to keep improving. Medical diagnostics is the biggest prize.\n\n“There’s a lot of history of companies that have gone directly at that mountain peak and, unfortunately, not been successful, because it is very expensive and it is very difficult,” Wiltschko says. “So what we’re doing is building this foundation at the foothills of all these mountains. We’re sending expeditions up to the mountains, doing explorations, and basically smelling the whole world.”\n\nThis article has been updated with an additional comment from Alex Wiltschko.",
+      "image": "https://wp.technologyreview.com/wp-content/uploads/2026/11/Copy-of-Copy-of-BH1_6183_Ben_Hider_250430.jpg?w=840",
+      "images": [
+        {
+          "url": "https://wp.technologyreview.com/wp-content/uploads/2026/11/Copy-of-Copy-of-BH1_6183_Ben_Hider_250430.jpg?w=840",
+          "alt": "Osmo founder Alex Wiltschko says he wants to \"give computers a sense of smell\"."
+        }
+      ],
+      "publishedAt": "2026-11-18T10:20:30.000Z",
+      "sourceId": "mit-ai",
+      "source": "MIT Technology Review",
+      "category": "ai",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "q8gmxr",
+      "title": "Масло вытекло, коробка брыкается: как китайские машины в России подводит трансмиссия",
+      "url": "https://www.gazeta.ru/auto/2026/11/18/long-23867311.shtml",
+      "excerpt": "Сильные пинки при переключениях, скрежет из-под капота и почерневшее масло — на эти и другие неисправности жалуются владельцы китайских машин в России. Эксперты объясняют, что среди всех типов трансмиссий, которыми оснащаются китайские машины, вариаторы…",
+      "content": "Сильные пинки при переключениях, скрежет из-под капота и почерневшее масло — на эти и другие неисправности жалуются владельцы китайских машин в России. Эксперты объясняют, что среди всех типов трансмиссий, которыми оснащаются китайские машины, вариаторы наименее надежны. О том, какие проблемы с коробками передач возникают у Chery, Geely, JAC, GAC и Zeekr в России, — в материале \"Газеты.Ru\".",
+      "image": "https://img.gazeta.ru/files3/37/23868037/215-pic905-895x505-56206.jpg",
+      "images": [
+        {
+          "url": "https://img.gazeta.ru/files3/37/23868037/215-pic905-895x505-56206.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-18T05:02:21.000Z",
+      "sourceId": "gazeta-auto",
+      "source": "Газета.Ru Авто",
+      "category": "cars",
+      "lang": "ru",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "1rlt1f0",
+      "title": "Grok Build coding agent leaks oodles of confidential info, some belonging to SpaceXSI",
+      "url": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+      "excerpt": "Grok Build, the vibe-coding agent from SpaceXSI, is leaking data—some of it proprietary business information and other sensitive secrets—from thousands of its users, including the very same Elon Musk-owned company that offers the platform, new research shows…",
+      "content": "Grok Build, the vibe-coding agent from SpaceXSI, is leaking data—some of it proprietary business information and other sensitive secrets—from thousands of its users, including the very same Elon Musk-owned company that offers the platform, new research shows.\n\nThe information is revealed through links allowing Grok Build users to share their apps with others. Grok takes steps to randomize the URLs so only people who know the exact URL can access the data stored there. A design decision by developers of the platform, however, completely torpedoes that objective and makes it possible for anyone to enumerate thousands of live Grok Build projects. Except in rare cases, clicking those links opens the app and reveals all data associated with it.\n\nYou had one job\n\nResearch from security firm Claroc shows that the exposed data includes things like internal business plans, ad proposals, medical exam results, galley checklists from a celebrity cruise line, and employee names and ID numbers. Ironically, some of the sensitive data comes from two-dozen apps built by SpaceXSI (the name of the now-merged SpaceX and xAI) itself. A small sampling of the documents revealed in the SpaceXSI apps—Claroc found 24 of them—include an onboarding plan, marked confidential, for a new member of SpaceXSI’s enterprise sales team, a sales territory map of 594 accounts, internal system addresses for sales team tools, and advertising proposals.\n\nRead full article\n\nComments",
+      "image": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-plugin-marketplace-1152x648.webp",
+      "images": [
+        {
+          "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-plugin-marketplace-1152x648.webp",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.arstechnica.net/wp-content/uploads/2026/11/grok-plugin-marketplace-500x500.webp",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-10T21:12:59.000Z",
+      "sourceId": "ars-techlab",
+      "source": "Ars Technica Tech",
+      "category": "aisoft",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "he1057",
+      "title": "Lara Croft arrives on GOG with three adventures and two GOG Preservation Program additions!",
+      "url": "https://www.gog.com/en/news/lara_croft_arrives_on_gog_with_three_adventures_and_two_gog_preservation_program_additions",
+      "excerpt": "Lara Croft is ready for three new adventures on GOG! Lara Croft and the Guardian of Light , LARA CROFT AND THE TEMPLE OF OSIRIS™ , and Lara Croft GO are now available, bringing action, exploration, and puzzle-solving to players old and new. We're also proud…",
+      "content": "Lara Croft is ready for three new adventures on GOG! Lara Croft and the Guardian of Light , LARA CROFT AND THE TEMPLE OF OSIRIS™ , and Lara Croft GO are now available, bringing action, exploration, and puzzle-solving to players old and new.\n\nWe're also proud to welcome Lara Croft and the Guardian of Light and LARA CROFT AND THE TEMPLE OF OSIRIS™ to the GOG Preservation Program ! We're committed to keeping both adventures compatible with modern systems, helping these memorable games remain accessible for years to come.\n\nDiscover Lara Croft's latest adventures!",
+      "image": "",
+      "images": [],
+      "publishedAt": null,
+      "sourceId": "gog-news",
+      "source": "GOG",
+      "category": "releases",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "tl3xf3",
+      "title": "Release: The Spell Brigade",
+      "url": "https://www.gog.com/en/news/release_the_spell_brigade",
+      "excerpt": "The Spell Brigade is an online co-op survivors-like for 1-4 players – and it's now available on GOG! Team up with your wizard friends to slay hordes of dark creatures. Complete team-based objectives, unlock new upgrades and create overpowered spell synergies…",
+      "content": "The Spell Brigade is an online co-op survivors-like for 1-4 players – and it's now available on GOG!\n\nTeam up with your wizard friends to slay hordes of dark creatures. Complete team-based objectives, unlock new upgrades and create overpowered spell synergies. Friend nor foe is safe in this friendly fire bullet heaven!\n\nNow on GOG!",
+      "image": "",
+      "images": [],
+      "publishedAt": null,
+      "sourceId": "gog-news",
+      "source": "GOG",
+      "category": "releases",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "wakaz1",
+      "title": "Release: Hungry Horrors",
+      "url": "https://www.gog.com/en/news/release_hungry_horrors",
+      "excerpt": "Hungry Horrors is a strategy roguelike card game – and it's now available on GOG! You are a spoilt princess whose favourite hobbies are leisure, rest, and sleep, and who thinks manual labour is an activity for servants. Unfortunately, your kingdom has fallen…",
+      "content": "Hungry Horrors is a strategy roguelike card game – and it's now available on GOG!\n\nYou are a spoilt princess whose favourite hobbies are leisure, rest, and sleep, and who thinks manual labour is an activity for servants. Unfortunately, your kingdom has fallen under a ravenous curse, and every creature of British and Irish folklore has turned into a “Hungry Horrors”. With no prince showing up to save you, you reluctantly take matters into your own hands and set out to break the curse, feeding strange creatures one meal at a time.\n\nNow on GOG!",
+      "image": "",
+      "images": [],
+      "publishedAt": null,
+      "sourceId": "gog-news",
+      "source": "GOG",
+      "category": "releases",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
+      "id": "1y3brh7",
+      "title": "Release: Kingdoms of the Dump",
+      "url": "https://www.gog.com/en/news/release_kingdoms_of_the_dump",
+      "excerpt": "Kingdoms of the Dump is an SNES styled RPG set in a fantasy world of garbage, dreamed up by two full-time janitors – and it's now available on GOG! Join Dustin Binsley, the Trash Can Knight, as he travels across the five and half Kingdoms of the Dump. Fight…",
+      "content": "Kingdoms of the Dump is an SNES styled RPG set in a fantasy world of garbage, dreamed up by two full-time janitors – and it's now available on GOG!\n\nJoin Dustin Binsley, the Trash Can Knight, as he travels across the five and half Kingdoms of the Dump. Fight fearsome, filthy foes, brave dangerous, dank dungeons, and take on the totally disgusting toxic grimelin army to save the Dump from all out war!\n\nNow on GOG!",
+      "image": "",
+      "images": [],
+      "publishedAt": null,
+      "sourceId": "gog-news",
+      "source": "GOG",
+      "category": "releases",
+      "lang": "en",
+      "addedAt": "2026-11-25T14:55:34.310Z"
+    },
+    {
       "id": "gh-1330183186",
       "title": "Jstar269/Nakagawa-Recomp: Play PSP games you own as native Windows programs. A static recompiler: add your own disc, build, play. No game data included.",
       "url": "https://github.com/Jstar269/Nakagawa-Recomp",
@@ -1225,14 +2366,14 @@
     },
     {
       "id": "10dchus",
-      "title": "‘Saint-Pierre’ Is The High-Rating Canadian Cop Series Proving Small-Island Sentiment Can Provide The Drama",
+      "title": "‘Saint-Pierre’ Is The High-Rating Canadian Cop Series Proving Small Island Life Can Provide The Drama",
       "url": "https://deadline.com/2026/11/saint-pierre-canada-cbc-global-breakouts-1237230077/",
       "excerpt": "Welcome to Global Breakouts, Deadline’s strand in which, each fortnight, we shine a spotlight on the TV shows and films killing it in their local territories. The industry is as globalized as it’s ever been, but breakout hits are appearing in pockets of the…",
       "content": "Welcome to Global Breakouts, Deadline’s strand in which, each fortnight, we shine a spotlight on the TV shows and films killing it in their local territories. The industry is as globalized as it’s ever been, but breakout hits are appearing in pockets of the world all the time and it can be hard to keep […]",
-      "image": "https://deadline.com/wp-content/uploads/2026/11/Josephine-Jobert-and-Allan-Hawco-in-Saint-Pierre-season-three_-image-by-Derm-Carberry-e1795540639703.jpg",
+      "image": "https://deadline.com/wp-content/uploads/2026/11/Saint-Pierre-season-3.jpg",
       "images": [
         {
-          "url": "https://deadline.com/wp-content/uploads/2026/11/Josephine-Jobert-and-Allan-Hawco-in-Saint-Pierre-season-three_-image-by-Derm-Carberry-e1795540639703.jpg",
+          "url": "https://deadline.com/wp-content/uploads/2026/11/Saint-Pierre-season-3.jpg",
           "alt": ""
         }
       ],
@@ -6720,8 +7861,8 @@
       "id": "10ug3fi",
       "title": "Marginalia Search, Money, C++, Rust, AI, Stuff",
       "url": "https://www.marginalia.nu/log/a_141_marginalia_update/",
-      "excerpt": "Article URL: https://www.marginalia.nu/log/a_141_marginalia_update/ Comments URL: https://news.ycombinator.com/item?id=50638220 Points: 168 # Comments: 69",
-      "content": "Article URL: https://www.marginalia.nu/log/a_141_marginalia_update/\n\nComments URL: https://news.ycombinator.com/item?id=50638220\n\nPoints: 168\n\n# Comments: 69",
+      "excerpt": "Article URL: https://www.marginalia.nu/log/a_141_marginalia_update/ Comments URL: https://news.ycombinator.com/item?id=50638220 Points: 179 # Comments: 73",
+      "content": "Article URL: https://www.marginalia.nu/log/a_141_marginalia_update/\n\nComments URL: https://news.ycombinator.com/item?id=50638220\n\nPoints: 179\n\n# Comments: 73",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-25T03:47:42.000Z",
@@ -7177,6 +8318,19 @@
       "lang": "en"
     },
     {
+      "id": "gh-1459288063",
+      "title": "Heretek-AI/TAT-2: обновлённый порт",
+      "url": "https://github.com/Heretek-AI/TAT-2",
+      "excerpt": "",
+      "image": "",
+      "publishedAt": "2026-11-25T13:15:39Z",
+      "addedAt": "2026-11-25T04:09:32.787Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
       "id": "gh-1470989861",
       "title": "hanxl-native/darksiders-native: Darksiders II Deathinitive Edition on Android: a standalone app on the Peanuts Native runtime",
       "url": "https://github.com/hanxl-native/darksiders-native",
@@ -7196,19 +8350,6 @@
       "excerpt": "Unofficial native Mac (macOS) port of Black & White (2001) for Apple silicon. Needs your own copy of the game.",
       "image": "",
       "publishedAt": "2026-11-25T04:02:53Z",
-      "addedAt": "2026-11-25T04:09:32.787Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
-      "id": "gh-1459288063",
-      "title": "Heretek-AI/TAT-2: обновлённый порт",
-      "url": "https://github.com/Heretek-AI/TAT-2",
-      "excerpt": "",
-      "image": "",
-      "publishedAt": "2026-11-25T03:45:55Z",
       "addedAt": "2026-11-25T04:09:32.787Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -8435,8 +9576,8 @@
       "id": "83y40x",
       "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
       "url": "https://greydanus.github.io/2026/11/12/pengpt/",
-      "excerpt": "Article URL: https://greydanus.github.io/2026/11/12/pengpt/ Comments URL: https://news.ycombinator.com/item?id=50637056 Points: 311 # Comments: 53",
-      "content": "Article URL: https://greydanus.github.io/2026/11/12/pengpt/\n\nComments URL: https://news.ycombinator.com/item?id=50637056\n\nPoints: 311\n\n# Comments: 53",
+      "excerpt": "Article URL: https://greydanus.github.io/2026/11/12/pengpt/ Comments URL: https://news.ycombinator.com/item?id=50637056 Points: 322 # Comments: 56",
+      "content": "Article URL: https://greydanus.github.io/2026/11/12/pengpt/\n\nComments URL: https://news.ycombinator.com/item?id=50637056\n\nPoints: 322\n\n# Comments: 56",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-25T00:54:49.000Z",
@@ -14841,7 +15982,7 @@
       "title": "Ask HN: Anthropic is accusing my company of distilling. How can I prove I'm not?",
       "url": "https://news.ycombinator.com/item?id=50630809",
       "excerpt": "Basically the title. Anthropic is accusing me and my company of using their API for distillation. We are not. We do not train our own models. Our only usage which I think could get us flagged is automated regression benchmarks whenever we change some AI…",
-      "content": "Basically the title. Anthropic is accusing me and my company of using their API for distillation. We are not. We do not train our own models. Our only usage which I think could get us flagged is automated regression benchmarks whenever we change some AI settings. But this is not against their policy? Now I've got 24h to prove we didn't. Has anyone dealt with this too? How can you prove that you are not distilling Anthropic models without breaking your user's privacy?\n\nComments URL: https://news.ycombinator.com/item?id=50630809\n\nPoints: 362\n\n# Comments: 282",
+      "content": "Basically the title. Anthropic is accusing me and my company of using their API for distillation. We are not. We do not train our own models. Our only usage which I think could get us flagged is automated regression benchmarks whenever we change some AI settings. But this is not against their policy? Now I've got 24h to prove we didn't. Has anyone dealt with this too? How can you prove that you are not distilling Anthropic models without breaking your user's privacy?\n\nComments URL: https://news.ycombinator.com/item?id=50630809\n\nPoints: 380\n\n# Comments: 296",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-24T16:45:44.000Z",
@@ -19431,12 +20572,12 @@
       "addedAt": "2026-11-24T20:57:02.429Z"
     },
     {
-      "id": "gh-1439087973",
-      "title": "TheBozos/DC_Recomp: Dark Cloud (NTSC-U, SCUS-97111) static recompilation with PS2Recomp: configs, scripts, notes (no game data)",
-      "url": "https://github.com/TheBozos/DC_Recomp",
-      "excerpt": "Dark Cloud (NTSC-U, SCUS-97111) static recompilation with PS2Recomp: configs, scripts, notes (no game data)",
+      "id": "gh-1469939544",
+      "title": "e85442695-beep/kestrel: Console -> PC: static recompilation of the Xbox Series build of GTA VI. No game data.",
+      "url": "https://github.com/e85442695-beep/kestrel",
+      "excerpt": "Console -> PC: static recompilation of the Xbox Series build of GTA VI. No game data.",
       "image": "",
-      "publishedAt": "2026-11-24T10:23:19Z",
+      "publishedAt": "2026-11-25T14:00:48Z",
       "addedAt": "2026-11-24T10:25:48.927Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -19444,12 +20585,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1469939544",
-      "title": "e85442695-beep/kestrel: Console -> PC: static recompilation of the Xbox Series build of GTA VI. No game data.",
-      "url": "https://github.com/e85442695-beep/kestrel",
-      "excerpt": "Console -> PC: static recompilation of the Xbox Series build of GTA VI. No game data.",
+      "id": "gh-1439087973",
+      "title": "TheBozos/DC_Recomp: Dark Cloud (NTSC-U, SCUS-97111) static recompilation with PS2Recomp: configs, scripts, notes (no game data)",
+      "url": "https://github.com/TheBozos/DC_Recomp",
+      "excerpt": "Dark Cloud (NTSC-U, SCUS-97111) static recompilation with PS2Recomp: configs, scripts, notes (no game data)",
       "image": "",
-      "publishedAt": "2026-11-24T10:03:11Z",
+      "publishedAt": "2026-11-24T10:23:19Z",
       "addedAt": "2026-11-24T10:25:48.927Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -23581,12 +24722,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1462612300",
-      "title": "Alountk/OpenCrown-MAC: Play Dragon's Crown Pro natively on Apple Silicon Macs from your own PS4 dump: a macOS contribution to OpenCrown PC, with a static recompiler, launcher, controllers and online co-op.",
-      "url": "https://github.com/Alountk/OpenCrown-MAC",
-      "excerpt": "Play Dragon's Crown Pro natively on Apple Silicon Macs from your own PS4 dump: a macOS contribution to OpenCrown PC, with a static recompiler, launcher, controllers and online co-op.",
+      "id": "gh-1449527062",
+      "title": "kelvynzucco/majistic-recomp: Native PC port and static recompilation of Majin and the Forsaken Kingdom (Xbox 360) for Windows, with a focus on game preservation. Vulkan, locked 60 FPS, and 4K support.",
+      "url": "https://github.com/kelvynzucco/majistic-recomp",
+      "excerpt": "Native PC port and static recompilation of Majin and the Forsaken Kingdom (Xbox 360) for Windows, with a focus on game preservation. Vulkan, locked 60 FPS, and 4K support.",
       "image": "",
-      "publishedAt": "2026-11-24T10:22:08Z",
+      "publishedAt": "2026-11-25T14:17:27Z",
       "addedAt": "2026-11-24T00:23:16.105Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -23594,12 +24735,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1449527062",
-      "title": "kelvynzucco/majistic-recomp: Native PC port and static recompilation of Majin and the Forsaken Kingdom (Xbox 360) for Windows, with a focus on game preservation. Vulkan, locked 60 FPS, and 4K support.",
-      "url": "https://github.com/kelvynzucco/majistic-recomp",
-      "excerpt": "Native PC port and static recompilation of Majin and the Forsaken Kingdom (Xbox 360) for Windows, with a focus on game preservation. Vulkan, locked 60 FPS, and 4K support.",
+      "id": "gh-1462612300",
+      "title": "Alountk/OpenCrown-MAC: Play Dragon's Crown Pro natively on Apple Silicon Macs from your own PS4 dump: a macOS contribution to OpenCrown PC, with a static recompiler, launcher, controllers and online co-op.",
+      "url": "https://github.com/Alountk/OpenCrown-MAC",
+      "excerpt": "Play Dragon's Crown Pro natively on Apple Silicon Macs from your own PS4 dump: a macOS contribution to OpenCrown PC, with a static recompiler, launcher, controllers and online co-op.",
       "image": "",
-      "publishedAt": "2026-11-24T09:07:16Z",
+      "publishedAt": "2026-11-24T10:22:08Z",
       "addedAt": "2026-11-24T00:23:16.105Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -39964,7 +41105,7 @@
       "url": "https://github.com/TheBozos/VP2S_Recomp",
       "excerpt": "Native PC port of Valkyrie Profile 2: Silmeria (USA, SLUS-21452) by static recompilation with PS2Recomp: native renderer and audio, no GS/VU1/SPU2 emulation. No game data or keys included.",
       "image": "",
-      "publishedAt": "2026-11-23T11:21:31Z",
+      "publishedAt": "2026-11-25T14:43:55Z",
       "addedAt": "2026-11-22T17:06:41.013Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -44815,7 +45956,7 @@
       "url": "https://github.com/Yharnam-Hunters/Paleblood",
       "excerpt": "A decompilation of Bloodborne (CUSA03173 v1.09) with its own runtime: the game's code rewritten as readable C++, one verified function at a time. The game doesn't run on it yet; 21 functions verified. No game files included.",
       "image": "",
-      "publishedAt": "2026-11-25T13:59:16Z",
+      "publishedAt": "2026-11-25T14:50:57Z",
       "addedAt": "2026-11-22T01:13:25.685Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -44841,7 +45982,7 @@
       "url": "https://github.com/Cirno-Labs/opentouhou",
       "excerpt": "Unofficial native ports of the Touhou Project games for Windows, Linux and macOS. Downloads at opentouhou.org.",
       "image": "",
-      "publishedAt": "2026-11-25T13:09:14Z",
+      "publishedAt": "2026-11-25T14:54:00Z",
       "addedAt": "2026-11-22T01:13:25.181Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -49264,12 +50405,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1466359471",
-      "title": "YurizonoMika/Shattered-Pixel-Dungeon-3DS: Native C++17 port of Shattered Pixel Dungeon for Nintendo 3DS (libctru + citro2d): dual-screen UI, dungeon slice, original GPLv3 assets.",
-      "url": "https://github.com/YurizonoMika/Shattered-Pixel-Dungeon-3DS",
-      "excerpt": "Native C++17 port of Shattered Pixel Dungeon for Nintendo 3DS (libctru + citro2d): dual-screen UI, dungeon slice, original GPLv3 assets.",
+      "id": "gh-1464941300",
+      "title": "Yakult00/Slotbound-iOS: SlotBound iOS 移植版：在 iPhone 上玩 PC 老虎机肉鸽游戏（LÖVE 11.5 + LiveContainer，含游戏辅助面板）",
+      "url": "https://github.com/Yakult00/Slotbound-iOS",
+      "excerpt": "SlotBound iOS 移植版：在 iPhone 上玩 PC 老虎机肉鸽游戏（LÖVE 11.5 + LiveContainer，含游戏辅助面板）",
       "image": "",
-      "publishedAt": "2026-11-25T11:53:50Z",
+      "publishedAt": "2026-11-25T14:43:12Z",
       "addedAt": "2026-11-21T15:19:53.399Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -49277,12 +50418,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1464941300",
-      "title": "Yakult00/Slotbound-iOS: SlotBound iOS 移植版：在 iPhone 上玩 PC 老虎机肉鸽游戏（LÖVE 11.5 + LiveContainer，含游戏辅助面板）",
-      "url": "https://github.com/Yakult00/Slotbound-iOS",
-      "excerpt": "SlotBound iOS 移植版：在 iPhone 上玩 PC 老虎机肉鸽游戏（LÖVE 11.5 + LiveContainer，含游戏辅助面板）",
+      "id": "gh-1466359471",
+      "title": "YurizonoMika/Shattered-Pixel-Dungeon-3DS: Native C++17 port of Shattered Pixel Dungeon for Nintendo 3DS (libctru + citro2d): dual-screen UI, dungeon slice, original GPLv3 assets.",
+      "url": "https://github.com/YurizonoMika/Shattered-Pixel-Dungeon-3DS",
+      "excerpt": "Native C++17 port of Shattered Pixel Dungeon for Nintendo 3DS (libctru + citro2d): dual-screen UI, dungeon slice, original GPLv3 assets.",
       "image": "",
-      "publishedAt": "2026-11-25T04:04:21Z",
+      "publishedAt": "2026-11-25T11:53:50Z",
       "addedAt": "2026-11-21T15:19:53.399Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -54079,7 +55220,7 @@
       "url": "https://github.com/wie-project/PS4Recomp",
       "excerpt": "Experimental static recompiler from PS4 to macOS Apple Silicon",
       "image": "",
-      "publishedAt": "2026-11-25T14:10:53Z",
+      "publishedAt": "2026-11-25T14:47:17Z",
       "addedAt": "2026-11-21T06:58:28.857Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -68364,7 +69505,7 @@
       "url": "https://github.com/bbelgg/rs-rearmed",
       "excerpt": "Native Apple Silicon port of Rocksmith 2014, recompiled from your own copy of the game. Mac and Learn & Play editions, offline, no game files included.",
       "image": "",
-      "publishedAt": "2026-11-25T13:47:40Z",
+      "publishedAt": "2026-11-25T14:21:04Z",
       "addedAt": "2026-11-20T09:09:55.762Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -68723,21 +69864,6 @@
       "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
-      "id": "13gg67t",
-      "title": "Косте Лакосте и Полине Гагариной осталось «Меньше шага»",
-      "url": "https://www.intermedia.ru/news/408255",
-      "excerpt": "Коста Лакоста и Полина Гагарина устроили премьеру песни «Меньше шага» 20 ноября 2026 года. Релиз осуществил лейбл Zion Music.- От любви до...",
-      "content": "Коста Лакоста и Полина Гагарина устроили премьеру песни «Меньше шага» 20 ноября 2026 года. Релиз осуществил лейбл Zion Music.- От любви до...",
-      "image": "",
-      "images": [],
-      "publishedAt": "2026-11-20T08:48:00.000Z",
-      "sourceId": "intermedia",
-      "source": "InterMedia",
-      "category": "entertainment",
-      "lang": "ru",
-      "addedAt": "2026-11-20T09:09:52.629Z"
-    },
-    {
       "id": "1v8m0me",
       "title": "Toyota представила интересный пикап на базе Corolla: подробности о машине",
       "url": "https://www.zr.ru/content/news/988766-ot-krossovera-ostalas-tolko/",
@@ -68853,21 +69979,6 @@
       "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
-      "id": "13qfrws",
-      "title": "Люся Чеботина все поделила «Напополам»",
-      "url": "https://www.intermedia.ru/news/408252",
-      "excerpt": "Люся Чеботина представила новую песню «Напополам» 20 ноября 2026 года. Композицию сочинил Аркадийс Котковс в соавторстве с самой...",
-      "content": "Люся Чеботина представила новую песню «Напополам» 20 ноября 2026 года. Композицию сочинил Аркадийс Котковс в соавторстве с самой...",
-      "image": "",
-      "images": [],
-      "publishedAt": "2026-11-20T08:38:00.000Z",
-      "sourceId": "intermedia",
-      "source": "InterMedia",
-      "category": "entertainment",
-      "lang": "ru",
-      "addedAt": "2026-11-20T09:09:52.629Z"
-    },
-    {
       "id": "16fr4av",
       "title": "GTA 6 отдала дань \"Секретным материалам\": за расследование истории с НЛО дают трофей \"Истина где-то рядом\"",
       "url": "https://www.playground.ru/gta_6/news/gta_6_otdala_dan_sekretnym_materialam_za_rassledovanie_istorii_s_nlo_dayut_trofej_istina_gde_to_ryadom-1892315",
@@ -68968,21 +70079,6 @@
       "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
-      "id": "480083",
-      "title": "Аарон Пол, Райли Кио и Джон Гудман снимаются во втором сезоне сериала «Чудовище внутри меня»",
-      "url": "https://www.intermedia.ru/news/408248",
-      "excerpt": "Райли Кио («Джей Келли», «Лохматые предки»), Джон Гудман («Праведные Джемстоуны», «Диггер»), Лили Тейлор («Клиент всегда мёртв», «Внешние...",
-      "content": "Райли Кио («Джей Келли», «Лохматые предки»), Джон Гудман («Праведные Джемстоуны», «Диггер»), Лили Тейлор («Клиент всегда мёртв», «Внешние...",
-      "image": "",
-      "images": [],
-      "publishedAt": "2026-11-20T08:28:00.000Z",
-      "sourceId": "intermedia",
-      "source": "InterMedia",
-      "category": "entertainment",
-      "lang": "ru",
-      "addedAt": "2026-11-20T09:09:52.629Z"
-    },
-    {
       "id": "z93xch",
       "title": "WSJ: США обсуждают вступление Украины в НАТО в обмен на Донбасс",
       "url": "https://www.dw.com/ru/wsj-%D1%81%D1%88%D0%B0-%D0%BE%D0%B1%D1%81%D1%83%D0%B6%D0%B4%D0%B0%D1%8E%D1%82-%D0%B2%D1%81%D1%82%D1%83%D0%BF%D0%BB%D0%B5%D0%BD%D0%B8%D0%B5-%D1%83%D0%BA%D1%80%D0%B0%D0%B8%D0%BD%D1%8B-%D0%B2-%D0%BD%D0%B0%D1%82%D0%BE-%D0%B2-%D0%BE%D0%B1%D0%BC%D0%B5%D0%BD-%D0%BD%D0%B0-%D0%B4%D0%BE%D0%BD%D0%B1%D0%B0%D1%81%D1%81/a-79999651?maca=rus-rss-ru-all-1126-rdf",
@@ -68995,21 +70091,6 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-20T09:09:52.629Z"
-    },
-    {
-      "id": "1t1fbux",
-      "title": "“Learn From the Mistakes of Mentors”: The Head of Tallinn’s Discovery Campus Is All About Bridging Film Education and Industry",
-      "url": "https://www.hollywoodreporter.com/movies/movie-news/tallinn-discovery-campus-head-dhanushka-gunathilake-plans-1236759902/",
-      "excerpt": "Sri Lankan cinematographer Dhanushka Gunathilake took over the talent and industry platform of the Tallinn Black Nights Film Festival's Industry@Tallinn & Baltic Event this year. And he has ambitious plans.",
-      "content": "Sri Lankan cinematographer Dhanushka Gunathilake took over the talent and industry platform of the Tallinn Black Nights Film Festival's Industry@Tallinn & Baltic Event this year. And he has ambitious plans.",
-      "image": "",
-      "images": [],
-      "publishedAt": "2026-11-20T08:25:10.000Z",
-      "sourceId": "hollywoodreporter",
-      "source": "The Hollywood Reporter",
-      "category": "entertainment",
-      "lang": "en",
       "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
@@ -69113,26 +70194,6 @@
       "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
-      "id": "1wa3di0",
-      "title": "‘Sentimental Value’ Creative Duo Joachim Trier and Eskil Vogt Set for Göteborg Fest’s Nordic Honorary Dragon Award 2027",
-      "url": "https://variety.com/2026/film/global/joachim-trier-eskil-vogt-goteborg-nordic-honorary-dragon-1236954032/",
-      "excerpt": "Joachim Trier and Eskil Vogt, the creative partnership behind 2026 International Feature Oscar Winner and nine-time nominee “Sentimental Value,” are set to receive the Nordic Honorary Dragon Award, the top honor at the Göteborg Film Festival, the biggest film…",
-      "content": "Joachim Trier and Eskil Vogt, the creative partnership behind 2026 International Feature Oscar Winner and nine-time nominee “Sentimental Value,” are set to receive the Nordic Honorary Dragon Award, the top honor at the Göteborg Film Festival, the biggest film event in Scandinavia. Norway’s Trier and Vogt – Trier directing, both writing “Sentimental Value” and their […]",
-      "image": "https://variety.com/wp-content/uploads/2026/11/Trier-Vogt-3.jpg",
-      "images": [
-        {
-          "url": "https://variety.com/wp-content/uploads/2026/11/Trier-Vogt-3.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-20T08:10:36.000Z",
-      "sourceId": "variety",
-      "source": "Variety",
-      "category": "entertainment",
-      "lang": "en",
-      "addedAt": "2026-11-20T09:09:52.629Z"
-    },
-    {
       "id": "1i1979a",
       "title": "Nature's multilayered defenses against crop pests and viruses revealed",
       "url": "https://phys.org/news/2026-11-nature-multilayered-defenses-crop-pests.html",
@@ -69150,21 +70211,6 @@
       "source": "Phys.org",
       "category": "science",
       "lang": "en",
-      "addedAt": "2026-11-20T09:09:52.629Z"
-    },
-    {
-      "id": "136gkiu",
-      "title": "Татьяна Куртукова «улетела» вместе с Бастой",
-      "url": "https://www.intermedia.ru/news/408254",
-      "excerpt": "Gorilla Zippo и Татьяна Куртукова представили совместную песню «Улетай» 20 ноября 2026 года. Релиз осуществила сама певица вместе с лейблом Gaz....",
-      "content": "Gorilla Zippo и Татьяна Куртукова представили совместную песню «Улетай» 20 ноября 2026 года. Релиз осуществила сама певица вместе с лейблом Gaz....",
-      "image": "",
-      "images": [],
-      "publishedAt": "2026-11-20T08:08:00.000Z",
-      "sourceId": "intermedia",
-      "source": "InterMedia",
-      "category": "entertainment",
-      "lang": "ru",
       "addedAt": "2026-11-20T09:09:52.629Z"
     },
     {
@@ -78440,26 +79486,6 @@
       "addedAt": "2026-11-19T18:43:32.437Z"
     },
     {
-      "id": "18mj6em",
-      "title": "Глава GameStop раскритиковал отказ рынка от дисков на фоне выхода GTA VI",
-      "url": "https://stopgame.ru/newsdata/73566/glava_gamestop_raskritikoval_otkaz_rynka_ot_diskov_na_fone_vyhoda_gta_vi",
-      "excerpt": "Генеральный директор GameStop Райан Коэн (Ryan Cohen) выступил против перехода игровой индустрии на исключительно цифровые релизы. По его мнению, отказ от физических копий вредит покупателям и бизнесу розничных магазинов. Об этом он рассказал в интервью…",
-      "content": "Генеральный директор GameStop Райан Коэн (Ryan Cohen) выступил против перехода игровой индустрии на исключительно цифровые релизы. По его мнению, отказ от физических копий вредит покупателям и бизнесу розничных магазинов. Об этом он рассказал в интервью Bloomberg.… […]",
-      "image": "https://images.stopgame.ru/news/2026/11/19/MOKorwq.jpg",
-      "images": [
-        {
-          "url": "https://images.stopgame.ru/news/2026/11/19/MOKorwq.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-19T14:52:21.000Z",
-      "sourceId": "stopgame",
-      "source": "StopGame",
-      "category": "games",
-      "lang": "ru",
-      "addedAt": "2026-11-19T18:43:32.437Z"
-    },
-    {
       "id": "1dokwz3",
       "title": "Минобороны РФ прорекламировало службу по контракту в стиле GTA VI",
       "url": "https://meduza.io/news/2026/11/19/minoborony-rf-proreklamirovalo-sluzhbu-po-kontraktu-v-stile-gta-vi",
@@ -78492,46 +79518,6 @@
       "source": "DW Russian",
       "category": "war",
       "lang": "ru",
-      "addedAt": "2026-11-19T18:43:32.437Z"
-    },
-    {
-      "id": "1latgpf",
-      "title": "GTA 6 теперь будит по утрам",
-      "url": "https://www.igromania.ru/news/170079/gta-6-teper-budit-po-utram/",
-      "excerpt": "Пользователи Яндекс Станций с Алисой заметили музыкальную пасхалку, связанную с Grand Theft Auto.",
-      "content": "Пользователи Яндекс Станций с Алисой заметили музыкальную пасхалку, связанную с Grand Theft Auto.",
-      "image": "https://newcdn.igromania.ru//r/5acdf86c782a668058b2737f2e8b3ead/510x-/newcdn.igromania.ru/articles/pics/tmp/images/2026/11/19/d807684c-5a82-4359-95ce-2749d53901ff.jpg",
-      "images": [
-        {
-          "url": "https://newcdn.igromania.ru//r/5acdf86c782a668058b2737f2e8b3ead/510x-/newcdn.igromania.ru/articles/pics/tmp/images/2026/11/19/d807684c-5a82-4359-95ce-2749d53901ff.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-19T14:44:45.000Z",
-      "sourceId": "igromania",
-      "source": "Игромания",
-      "category": "games",
-      "lang": "ru",
-      "addedAt": "2026-11-19T18:43:32.437Z"
-    },
-    {
-      "id": "rof4jm",
-      "title": "Does GTA 6 have an 'easy mode'? Not officially, but there are two very important settings you can change to make the game less difficult",
-      "url": "https://www.eurogamer.net/gta-6-easy-mode-accessibility-options",
-      "excerpt": "By now, you've probably heard that you cannot use cheats in GTA 6 until you complete the main story . Not only that, but enabling cheat codes also locks story progression and deactivates the ability to save. Basically, you can use cheats to have a quick crime…",
-      "content": "By now, you've probably heard that you cannot use cheats in GTA 6 until you complete the main story . Not only that, but enabling cheat codes also locks story progression and deactivates the ability to save. Basically, you can use cheats to have a quick crime spree and blow off some steam, then it's back to normalcy. Understandably, some gamers are a little put out with this change.\n\nRead more",
-      "image": "https://assetsio.gnwcdn.com/Easy-mode-gta.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "images": [
-        {
-          "url": "https://assetsio.gnwcdn.com/Easy-mode-gta.jpg?width=690&quality=85&format=jpg&auto=webp",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-19T14:42:20.000Z",
-      "sourceId": "eurogamer",
-      "source": "Eurogamer",
-      "category": "games",
-      "lang": "en",
       "addedAt": "2026-11-19T18:43:32.437Z"
     },
     {
@@ -78741,46 +79727,6 @@
       "addedAt": "2026-11-19T18:43:32.437Z"
     },
     {
-      "id": "1yfhcq7",
-      "title": "Warren Spector lambasts GTA 6's \"billion dollar\" development - 'I just hope it's is the last of its kind even if it's the best we have to offer'",
-      "url": "https://www.eurogamer.net/gta-6-warren-spector-lambasts-billion-dollar-development",
-      "excerpt": "As GTA 6 finally arrives, increasingly outspoken games industry legend Warren Spector - known for seminal immersive sims including Deus Ex - has offered both praise for the game's achievements and lambasted its \"billion dollar\" development model, writing, \"I…",
-      "content": "As GTA 6 finally arrives, increasingly outspoken games industry legend Warren Spector - known for seminal immersive sims including Deus Ex - has offered both praise for the game's achievements and lambasted its \"billion dollar\" development model, writing, \"I just hope GTA 6 is the last of its kind even if it’s the best we have to offer\".\n\nRead more",
-      "image": "https://assetsio.gnwcdn.com/gta-6-cash.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "images": [
-        {
-          "url": "https://assetsio.gnwcdn.com/gta-6-cash.jpg?width=690&quality=85&format=jpg&auto=webp",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-19T14:08:40.000Z",
-      "sourceId": "eurogamer",
-      "source": "Eurogamer",
-      "category": "games",
-      "lang": "en",
-      "addedAt": "2026-11-19T18:43:32.437Z"
-    },
-    {
-      "id": "3r9v9j",
-      "title": "As Rockstar's alleged \"union busting\" tribunal hearing comes to a close amid GTA 6 launch, judge pledges to deliver verdict \"as quickly as I possibly can\"",
-      "url": "https://www.eurogamer.net/gta-6-rockstar-tribunal-awaits-verdict",
-      "excerpt": "Closing statements in Rockstar and IWGB's employment tribunal case - revolving around the GTA 6 developer's alleged 'union busting' and the firing of 34 employees - have now been read, bringing the hearing to an end. There's currently no timeline for a…",
-      "content": "Closing statements in Rockstar and IWGB's employment tribunal case - revolving around the GTA 6 developer's alleged 'union busting' and the firing of 34 employees - have now been read, bringing the hearing to an end. There's currently no timeline for a verdict, however, with one commentator suggesting a judgement could take weeks or months to arrive.\n\nRead more",
-      "image": "https://assetsio.gnwcdn.com/grand-theft-auto-6-lucia-lifting-weights.png?width=690&quality=85&format=jpg&auto=webp",
-      "images": [
-        {
-          "url": "https://assetsio.gnwcdn.com/grand-theft-auto-6-lucia-lifting-weights.png?width=690&quality=85&format=jpg&auto=webp",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-19T14:08:10.000Z",
-      "sourceId": "eurogamer",
-      "source": "Eurogamer",
-      "category": "games",
-      "lang": "en",
-      "addedAt": "2026-11-19T18:43:32.437Z"
-    },
-    {
       "id": "1oefw2k",
       "title": "Экс-замминистра обороны России Руслана Цаликова приговорили к 10 годам лишения свободы",
       "url": "https://www.bbc.com/russian/articles/cj75276p264qo?at_medium=RSS&at_campaign=rss",
@@ -78841,26 +79787,6 @@
       "sourceId": "arsscience",
       "source": "Ars Technica Science",
       "category": "science",
-      "lang": "en",
-      "addedAt": "2026-11-19T18:43:32.437Z"
-    },
-    {
-      "id": "1wk9xrw",
-      "title": "Call of Duty: Modern Warfare 4 was October's biggest game in the US, but it wasn't enough to crack 2026's best-selling top 10",
-      "url": "https://www.eurogamer.net/call-of-duty-modern-warfare-4-october-top-seller",
-      "excerpt": "Despite its somewhat muted critical reception, Call of Duty: Modern Warfare 4 has predictably topped the US video game charts in October. The Infinity Ward -developed shooter was October's best-selling game in the US across digital and retail, beating the…",
-      "content": "Despite its somewhat muted critical reception, Call of Duty: Modern Warfare 4 has predictably topped the US video game charts in October. The Infinity Ward -developed shooter was October's best-selling game in the US across digital and retail, beating the month's other big-hitters, including Gears of War: E-Day and Star Wars: Galactic Racer.\n\nRead more",
-      "image": "https://assetsio.gnwcdn.com/cod-modern-warfare-4-captain-price.jpg?width=690&quality=85&format=jpg&auto=webp",
-      "images": [
-        {
-          "url": "https://assetsio.gnwcdn.com/cod-modern-warfare-4-captain-price.jpg?width=690&quality=85&format=jpg&auto=webp",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-19T14:01:40.000Z",
-      "sourceId": "eurogamer",
-      "source": "Eurogamer",
-      "category": "games",
       "lang": "en",
       "addedAt": "2026-11-19T18:43:32.437Z"
     },
@@ -78995,26 +79921,6 @@
       "source": "SteamDeckHQ",
       "category": "consoles",
       "lang": "en",
-      "addedAt": "2026-11-19T18:43:32.437Z"
-    },
-    {
-      "id": "1fp4mvl",
-      "title": "Sea of Thieves «похудела» на всех платформах в два раза",
-      "url": "https://dtf.ru/games/5422812-sea-of-thieves-umnzhila-razmer-klienta-na-vsekh-platformakh",
-      "excerpt": "В Steam игре теперь нужно 53,2 ГБ, а версии для Xbox Series S — 26,3 ГБ.",
-      "content": "В Steam игре теперь нужно 53,2 ГБ, а версии для Xbox Series S — 26,3 ГБ.",
-      "image": "https://leonardo.osnova.io/8c154d9a-54ac-5eb7-bcf7-cff95f3a1611/",
-      "images": [
-        {
-          "url": "https://leonardo.osnova.io/8c154d9a-54ac-5eb7-bcf7-cff95f3a1611/",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-19T13:56:00.000Z",
-      "sourceId": "dtf",
-      "source": "DTF",
-      "category": "games",
-      "lang": "ru",
       "addedAt": "2026-11-19T18:43:32.437Z"
     },
     {
@@ -83327,7 +84233,7 @@
       "url": "https://github.com/Lazaer-YZY/ds2-sotfs-recomp",
       "excerpt": "Static recompilation of Dark Souls II: Scholar of the First Sin (Xbox 360) for Android arm64",
       "image": "",
-      "publishedAt": "2026-11-19T00:59:51Z",
+      "publishedAt": "2026-11-25T14:45:39Z",
       "addedAt": "2026-11-19T01:31:46.917Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
