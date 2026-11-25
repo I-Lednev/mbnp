@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-25T23:16:14.593Z",
-  "tookMs": 8480,
+  "generatedAt": "2026-11-25T23:36:01.702Z",
+  "tookMs": 9158,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -24,26 +24,26 @@
     "war": "Война"
   },
   "counts": {
-    "ai": 336,
+    "ai": 341,
     "games": 600,
     "announces": 28,
     "mobile": 10,
     "releases": 35,
     "rumors": 7,
     "software": 90,
-    "science": 289,
+    "science": 290,
     "entertainment": 600,
-    "ports": 166,
+    "ports": 170,
     "pc": 189,
     "consoles": 475,
-    "hardware": 161,
+    "hardware": 162,
     "industry": 166,
-    "updates": 24,
+    "updates": 25,
     "aimods": 23,
-    "aisoft": 100,
+    "aisoft": 102,
     "cars": 516,
     "war": 585,
-    "total": 4400
+    "total": 4414
   },
   "sourceCount": 89,
   "sources": [
@@ -678,12 +678,6 @@
       "error": "HTTP 403"
     },
     {
-      "source": "TouchArcade",
-      "url": "https://toucharcade.com/feed/",
-      "error": "HTTP 500",
-      "reused": 10
-    },
-    {
       "source": "r/GamingLeaksAndRumours",
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/new/.rss",
       "error": "HTTP 404"
@@ -697,7 +691,7 @@
       "source": "80.lv",
       "url": "https://80.lv/feed/",
       "error": "лента пуста",
-      "reused": 8
+      "reused": 7
     },
     {
       "source": "Kyiv Independent",
@@ -718,6 +712,372 @@
     }
   ],
   "items": [
+    {
+      "id": "gh-1466439618",
+      "title": "Qilin1066/BarbieWildHorseRescue--QilinRecomp: Static recompilation of Barbie Horse Adventures: Wild Horse Rescue (original Xbox, 2003) to portable C++23 with Vulkan 1.3, for Windows, Linux and macOS. No game data included.",
+      "url": "https://github.com/Qilin1066/BarbieWildHorseRescue--QilinRecomp",
+      "excerpt": "Static recompilation of Barbie Horse Adventures: Wild Horse Rescue (original Xbox, 2003) to portable C++23 with Vulkan 1.3, for Windows, Linux and macOS. No game data included.",
+      "image": "",
+      "publishedAt": "2026-11-25T23:34:16Z",
+      "addedAt": "2026-11-25T23:35:56.634Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1466481276",
+      "title": "Qilin1066/MetropolisStreetRacer--QilinRecomp: Static recompilation of Metropolis Street Racer (Dreamcast, 2000) to portable C++23 with Vulkan 1.3, for Windows, Linux and macOS. No game data included.",
+      "url": "https://github.com/Qilin1066/MetropolisStreetRacer--QilinRecomp",
+      "excerpt": "Static recompilation of Metropolis Street Racer (Dreamcast, 2000) to portable C++23 with Vulkan 1.3, for Windows, Linux and macOS. No game data included.",
+      "image": "",
+      "publishedAt": "2026-11-25T23:33:18Z",
+      "addedAt": "2026-11-25T23:35:56.634Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1462968077",
+      "title": "Qilin1066/PunchOutWii--QilinRecomp: Static recompilation of Punch-Out!! (Wii, 2009) to portable C++23 with Vulkan 1.3, for Windows, Linux and macOS. No game data included.",
+      "url": "https://github.com/Qilin1066/PunchOutWii--QilinRecomp",
+      "excerpt": "Static recompilation of Punch-Out!! (Wii, 2009) to portable C++23 with Vulkan 1.3, for Windows, Linux and macOS. No game data included.",
+      "image": "",
+      "publishedAt": "2026-11-25T23:27:22Z",
+      "addedAt": "2026-11-25T23:35:56.634Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1439286882",
+      "title": "gustavomorinaga/project-vekta: Killzone HD // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
+      "url": "https://github.com/gustavomorinaga/project-vekta",
+      "excerpt": "Killzone HD // Unofficial PC Port (static recompilation). Work in progress, partly playable. Builds on your PC from your own game.",
+      "image": "",
+      "publishedAt": "2026-11-25T23:00:39Z",
+      "addedAt": "2026-11-25T23:35:55.698Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "1vvzvh2",
+      "title": "‘Twilight’ Director Reveals Robert Pattinson Inspired James Bond Line in 2008 Film: “We Were Seeing the Future”",
+      "url": "https://www.hollywoodreporter.com/movies/movie-news/twilight-director-robert-pattinson-inspired-james-bond-line-1236763521/",
+      "excerpt": "Earlier this month, it was announced that Pattinson has been tapped as the new 007, succeeding Daniel Craig.",
+      "content": "Earlier this month, it was announced that Pattinson has been tapped as the new 007, succeeding Daniel Craig.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-25T23:33:26.000Z",
+      "sourceId": "hollywoodreporter",
+      "source": "The Hollywood Reporter",
+      "category": "entertainment",
+      "lang": "en",
+      "addedAt": "2026-11-25T23:35:52.544Z"
+    },
+    {
+      "id": "1sncisg",
+      "title": "Датамайнеры раскрыли графические настройки GTA 6: на PS5 Pro теоретически возможна более высокая частота кадров",
+      "url": "https://www.playground.ru/gta_6/news/datamajnery_raskryli_graficheskie_nastrojki_gta_6_na_ps5_pro_teoreticheski_vozmozhna_bolee_vysokaya_chastota_kadrov-1893941",
+      "excerpt": "Датамайнер Tex2 опубликовал полный список графических настроек Grand Theft Auto 6 на PS5, PS5 Pro и Xbox Series X|S. RockstarINTEL изучил данные и составил сравнительную таблицу, включив в неё преимущественно те параметры, по которым версии...",
+      "content": "Датамайнер Tex2 опубликовал полный список графических настроек Grand Theft Auto 6 на PS5, PS5 Pro и Xbox Series X|S. RockstarINTEL изучил данные и составил сравнительную таблицу, включив в неё преимущественно те параметры, по которым версии...",
+      "image": "https://i.playground.ru/e/NqV74cVK-jORyC-5IB0JQQ.png",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/NqV74cVK-jORyC-5IB0JQQ.png",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T23:27:21.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-25T23:35:52.544Z"
+    },
+    {
+      "id": "iu192o",
+      "title": "Quoting Scott Aaronson",
+      "url": "https://simonwillison.net/2026/Nov/25/scott-aaronson/",
+      "excerpt": "It’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. Picture van Leeuwenhoek first training a microscope on…",
+      "content": "It’s now obvious that we’ll be getting, not one-off solutions to this or that complexity question, but a whole new continent of mathematical truth, one that we’d previously only glimpsed through fog. Picture van Leeuwenhoek first training a microscope on pondwater, or Galileo first training his telescope on the stars. That might give you some idea of how our resolution into the complexity-theoretic universe, and the whole universe of mathematical truth beyond it, has now improved.\n\n&mdash; Scott Aaronson\n\nTags: mathematics , llms , ai , generative-ai",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-25T23:26:32.000Z",
+      "sourceId": "simonw",
+      "source": "Simon Willison",
+      "category": "aisoft",
+      "lang": "en",
+      "addedAt": "2026-11-25T23:35:52.544Z"
+    },
+    {
+      "id": "1ujkta8",
+      "title": "Get an RTX 5060 prebuilt for just $750 in deal that seems too good to be true",
+      "url": "https://www.tomshardware.com/desktops/gaming-pcs/get-an-rtx-5060-prebuilt-for-just-usd750-in-deal-that-seems-too-good-to-be-true-deep-usd650-discount-on-gaming-pc-offers-core-i5-14400f-16gb-ddr4-and-a-1tb-ssd",
+      "excerpt": "Walmart has the ABS Cyclone M Aqua on sale for just $750 , which is a prebuilt that packs an RTX 5060, Core i5-14400F, 16GB of DDR4 memory, and a 1TB SSD. ABS is Newegg's in-house PC brand, and yet Walmart is the only retailer where we found this deal. Check…",
+      "content": "Walmart has the ABS Cyclone M Aqua on sale for just $750 , which is a prebuilt that packs an RTX 5060, Core i5-14400F, 16GB of DDR4 memory, and a 1TB SSD. ABS is Newegg's in-house PC brand, and yet Walmart is the only retailer where we found this deal.\n\n• Check out the ABS Cyclone M Aqua at Walmart\n\nJust about any gaming PC you find under $1,000 has some serious compromises given the ongoing RAM, SSD, and GPU pricing crisis's. And this machine too has compromises, notably with the mATX motherboard and single 16GB DDR4-3200 DIMM. You're getting a lot for the money even with those compromises between the Core i5-14400F and RTX 5060, however. As you can see from our roundup of the best Black Friday gaming PC deals , there aren't a ton of options at this price. And in our tracking of Black Friday GPU deals , we found that the RTX 5060 is selling for close to $500 in many cases.\n\nCyclone M Aqua (RTX 5060, Core i5-14400F, 16GB DDR4, 1TB SSD): was $1399.99 now $749\nThe ABS Cyclone M Aqua is an mATX prebuilt with an RTX 5060, Core i5-14400F, 16GB of DDR4, and a 1TB NVMe SSD. View Deal\n\nAs you can see from the data from our GPU benchmark hierarchy , the RTX 5060 is a graphics card that's most comfortable at 1080p, though it can scale up to 1440p, assuming you're willing to lean into Nvidia's DLSS suite between Super Resolution and Multi-Frame Generation, both of which are supported on this GPU.\n\nIts main limitation is the 8GB frame buffer, which could pose issues in some titles at 1440p. For the vast majority of 1080p games, it shouldn't be a problem. In our testing of DLSS 5 , which is supported on the RTX 5060, we found that the 8GB frame buffer posed a limitation on performance. However, Nvidia has already apparently slashed the VRAM usage of its DLSS 5 model. The RTX 5060 was fast enough to reach 58 FPS at 1080p with DLSS 5 still.\n\nOutside of the GPU, the Core i5-14400F is the perfect CPU for a rig like this. It provides performance on the level of the Core i5-14600K in games while sacrificing a bit of peak productivity power and the unlocked multiplier.\n\nThe one major downside with this configuration is the single 16GB DDR4-3200 DIMM. With just a single stick, your bandwidth is cut in half. Thankfully, the motherboard has four DIMM slots, so you can add another 16GB module to double your capacity and unlock the full bandwidth. Thankfully, DDR4 is much cheaper than DDR5, as you can see in our RAM price tracker .\n\nMore Black Friday Tech Deals\n\nDownload the Tom's Hardware app for up-to-the-minute updates on iOS and Android .\n\nFor more Black Friday savings, check out our Best PC Hardware deals overall, or dive deeper into specialized SSD and Storage Deals, Hard Drive deals , Gaming Monitor deals , CPU deals, Gaming PC deals , RAM combo deals , 3D printer deals , RAM deals , Gaming laptop deals , Wi-Fi Router deals , GPU deals , and Gaming chair deals pages.\n\n* The listed previous prices can vary based on retailer, as many use different metrics, like 90-day rolling averages or ‘estimated value’ due to ongoing shortages and price hikes.",
+      "image": "https://cdn.mos.cms.futurecdn.net/VzJVi9zGqjqiYhWmeKVHPG-1920-80.jpg",
+      "images": [
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/VzJVi9zGqjqiYhWmeKVHPG-1920-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/eiuMw37Hd2GU5BamPJRBQf-1920-80.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/dKYnTmFRRtqDMQAEaHW9bd-1920-80.png",
+          "alt": "GPU Benchmarks Hierarchy 2026 - 1440p Performance Results"
+        },
+        {
+          "url": "https://cdn.mos.cms.futurecdn.net/65RrwJCESLNiM87Kdc4xxX-1920-80.png",
+          "alt": "GPU Benchmarks Hierarchy performance charts"
+        }
+      ],
+      "publishedAt": "2026-11-25T23:18:00.000Z",
+      "sourceId": "tomshardware",
+      "source": "Tom's Hardware",
+      "category": "hardware",
+      "lang": "en",
+      "addedAt": "2026-11-25T23:35:52.544Z"
+    },
+    {
+      "id": "18ljpbo",
+      "title": "Анонсирован кооперативный хоррор Blood Covenant о ликвидаторах аномалий",
+      "url": "https://www.playground.ru/misc/news/anonsirovan_kooperativnyj_horror_blood_covenant_o_likvidatorah_anomalij-1893940",
+      "excerpt": "Создатели Blood Covenant представили кооперативный хоррор о бригаде в защитных костюмах, которая убирает последствия ночной смены в меняющемся здании. В ролике показаны зачистка помещений, аномалии и ритуал в конце работы.",
+      "content": "Создатели Blood Covenant представили кооперативный хоррор о бригаде в защитных костюмах, которая убирает последствия ночной смены в меняющемся здании. В ролике показаны зачистка помещений, аномалии и ритуал в конце работы.",
+      "image": "https://i.playground.ru/e/E4D10eki9fM336q89FdnCw.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/E4D10eki9fM336q89FdnCw.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T22:51:16.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-25T23:35:52.544Z"
+    },
+    {
+      "id": "ye57x3",
+      "title": "Анонсирован казуальный RPG-автобаттлер My Own Hero Party",
+      "url": "https://www.playground.ru/misc/news/anonsirovan_kazualnyj_rpg_avtobattler_my_own_hero_party-1893939",
+      "excerpt": "Sekhmet Games представила пиксельный казуальный RPG-автобаттлер My Own Hero Party. Игра предложит походы по подземельям, набор союзников, сбор золота и постоянные улучшения.",
+      "content": "Sekhmet Games представила пиксельный казуальный RPG-автобаттлер My Own Hero Party. Игра предложит походы по подземельям, набор союзников, сбор золота и постоянные улучшения.",
+      "image": "https://i.playground.ru/e/PWQr8w4pq_Pq61x3i8a7Hw.jpeg",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/PWQr8w4pq_Pq61x3i8a7Hw.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-25T22:50:58.000Z",
+      "sourceId": "playground",
+      "source": "Playground",
+      "category": "games",
+      "lang": "ru",
+      "addedAt": "2026-11-25T23:35:52.544Z"
+    },
+    {
+      "id": "1ylishy",
+      "title": "The New York Times tells photographers not to use the latest Photoshop",
+      "url": "https://www.dpreview.com/news/new-york-times-adobe-photoshop-2027-restriction-ai/",
+      "excerpt": "Article URL: https://www.dpreview.com/news/new-york-times-adobe-photoshop-2027-restriction-ai/ Comments URL: https://news.ycombinator.com/item?id=50647673 Points: 107 # Comments: 56",
+      "content": "Article URL: https://www.dpreview.com/news/new-york-times-adobe-photoshop-2027-restriction-ai/\n\nComments URL: https://news.ycombinator.com/item?id=50647673\n\nPoints: 107\n\n# Comments: 56",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-25T21:18:02.000Z",
+      "sourceId": "hn",
+      "source": "Hacker News",
+      "category": "aisoft",
+      "lang": "en",
+      "addedAt": "2026-11-25T23:35:52.544Z"
+    },
+    {
+      "id": "c55dxd",
+      "title": "Why your fine-tuning job takes longer than the FLOPs say",
+      "url": "https://huggingface.co/blog/Dharma-AI/predicting-fine-tuning-time",
+      "excerpt": "",
+      "content": "",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-18T18:53:43.000Z",
+      "sourceId": "hf-blog",
+      "source": "Hugging Face",
+      "category": "ai",
+      "lang": "en",
+      "addedAt": "2026-11-25T23:35:52.544Z"
+    },
+    {
+      "id": "obvtj1",
+      "title": "Grand Theft Auto VI launches tomorrow, November 19",
+      "url": "https://blog.playstation.com/2026/11/18/grand-theft-auto-vi-launches-tomorrow-november-19/",
+      "excerpt": "Jason and Lucia have always known the deck is stacked against them. But when an easy score goes wrong, they find themselves on the darkest side of the sunniest place in America, in the middle of a criminal conspiracy stretching across the state of Leonida…",
+      "content": "Jason and Lucia have always known the deck is stacked against them. But when an easy score goes wrong, they find themselves on the darkest side of the sunniest place in America, in the middle of a criminal conspiracy stretching across the state of Leonida — forced to rely on each other more than ever if they want to make it out alive.\n\nGrand Theft Auto VI arrives on PlayStation 5 Thursday, November 19, available at PlayStation Store.\n\nWhen the sun fades and the neon glows, everyone has something to gain — and more to lose\n\nThe game is set in the state of Leonida, home to the neon-soaked streets of Vice City and beyond in the biggest, most immersive evolution of the series yet.\n\nJason Duval\n\nJason grew up around grifters and crooks. After a stint in the Army trying to shake off his troubled teens, he found himself in the Keys doing what he knows best, working for local drug runners. Meeting Lucia could be the best or worst thing to ever happen to him. Jason knows how he’d like it to turn out but right now, it’s hard to tell.\n\nLucia Caminos\n\nLucia’s father taught her to fight as soon as she could walk, and life has been coming at her swinging ever since. Fighting for her family landed her in the Leonida Penitentiary. Sheer luck got her out but now more than anything, Lucia wants the good life her mom has dreamed of since their days in Liberty City. Instead of half-baked fantasies, Lucia is prepared to take matters into her own hands.\n\nThe sprawling state of Leonida\n\nLeonida is made up of six regions: Vice City, the Leonida Keys, Grassrivers, Port Gellhorn, Ambrosia, and Mount Kalaga. Here’s a closer look at what makes each region unique.\n\nVice City\n\nThe glamour, hustle, and greed of America captured in a single city. Each neighborhood has something to offer, from the pastel art deco hotels and bright white sands of Ocean Beach, to the bustling panaderías of Little Cuba and the bootleg brands of the Tisha-Wocka flea market, out to the VC Port, the cruise ship capital of the world. We’re a long way from the ’80s, but Vice City is still the sun and fun capital of America\n\nLeonida Keys\n\nLife in this tropical archipelago isn’t flashy but it’s easy. Get your buzz on and pull up a deck chair but look out — you are right on the doorstep of some of the most beautiful and dangerous waters in all of America.\n\nGrassrivers\n\nYou never know what lies beneath the surface of this primordial expanse. The gators may be the most famous attraction, but there are far deadlier predators and weirder discoveries among the mangroves.\n\nPort Gellhorn\n\nCheap motels, shut-down attractions, and empty strip malls won’t bring the tourists back, but there’s a new economy in this once-popular vacation spot. It’s fueled by malt liquor, painkillers, and truck stop energy drinks.\n\nAmbrosia\n\nIn the heart of Leonida, American industry and old school values still reign supreme — whatever the cost. The Allied Crystal sugar refinery provides the jobs, while the local biker gang provides almost everything else.\n\nMount Kalaga\n\nA national landmark up against the state’s northern border, Mount Kalaga offers prime hunting, fishing, and off-road trails. In the lush surrounding backwoods, hillbilly mystics and paranoid radicals live far from the prying eyes of the government.\n\nBroadcasting live across Leonida\n\nSpanning stations including Classic Rock, Modern Hip-Hop, Pop, Metal, Dance, Latin, ‘80s, Electronic, Blues, Ballads, Talk Radio, and much more, Grand Theft Auto VI features the biggest and widest-ranging selection of in-game radio yet.\n\nPlus, for the first time ever, Grand Theft Auto VI introduces a series of on-demand podcasts for Jason and Lucia to experience beyond Leonida’s terrestrial radio, with both radio and podcasts available to listen to in vehicles and on foot through newly introduced headphones and earbuds connected to their smartphones.\n\nGrand Theft Auto VI\n\nAvailable November 19\n\nPlayStation Store",
+      "image": "https://live.staticflickr.com/65535/55656550652_ae44cc16c0_k.jpg",
+      "images": [
+        {
+          "url": "https://live.staticflickr.com/65535/55656550652_ae44cc16c0_k.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://live.staticflickr.com/65535/55657559960_e75c0acd33_k.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://live.staticflickr.com/65535/55657665268_d512489e41_k.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://live.staticflickr.com/65535/55657665263_09ad0085a2_k.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://live.staticflickr.com/65535/55657528801_fe0feb507c_k.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://live.staticflickr.com/65535/55657729799_a531be6181_k.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://live.staticflickr.com/65535/55657270133_59d0ed11ba_k.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://live.staticflickr.com/65535/55657958240_3fbf6fc954_k.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://live.staticflickr.com/65535/55657270143_71acbbc861_k.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://live.staticflickr.com/65535/55656550642_bcaf599d5a_k.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://live.staticflickr.com/65535/55656550657_7212f35b80_k.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://live.staticflickr.com/65535/55656550667_1ce1ed9bff_k.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-18T16:00:23.000Z",
+      "sourceId": "ps-blog",
+      "source": "PlayStation Blog",
+      "category": "updates",
+      "lang": "en",
+      "addedAt": "2026-11-25T23:35:52.544Z"
+    },
+    {
+      "id": "1e2ck9g",
+      "title": "How M.C. Escher’s Art Creates Bizarre Mathematical Worlds",
+      "url": "https://www.quantamagazine.org/how-m-c-eschers-art-creates-bizarre-mathematical-worlds-20261118/",
+      "excerpt": "Maurits Cornelis Escher didn’t plan on becoming the darling of mathematicians. Born in 1898 in the canal-lined city of Leeuwarden in the Netherlands, Escher struggled with mathematics as a student, once remarking that he “never got a pass mark.” He ended up…",
+      "content": "Maurits Cornelis Escher didn’t plan on becoming the darling of mathematicians. Born in 1898 in the canal-lined city of Leeuwarden in the Netherlands, Escher struggled with mathematics as a student, once remarking that he “never got a pass mark.” He ended up studying decorative arts and printmaking, and he used his artwork to explore the strange rules of nature that he found operating around him.\n\nSource",
+      "image": "https://www.quantamagazine.org/wp-content/uploads/2042/11/ImageGallery_EscherMath-crSEENOTES-Default.webp",
+      "images": [
+        {
+          "url": "https://www.quantamagazine.org/wp-content/uploads/2042/11/ImageGallery_EscherMath-crSEENOTES-Default.webp",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-18T15:51:40.000Z",
+      "sourceId": "quanta",
+      "source": "Quanta Magazine",
+      "category": "science",
+      "lang": "en",
+      "addedAt": "2026-11-25T23:35:52.544Z"
+    },
+    {
+      "id": "msu5nl",
+      "title": "The AI Hype Index: AI is everywhere",
+      "url": "https://www.technologyreview.com/2026/11/18/1148650/ai-hype-index-ai-is-everywhere/",
+      "excerpt": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up…",
+      "content": "Like a nasty rash, AI seems to spread everywhere. Google crams AI Overviews down your throat even though it costs the company billions of dollars in lost ad revenue. Leave your apartment, and you might pass two people heaving an AI-powered humanoid robot up the stairs to clean someone’s rooms. Go to the supermarket, and perhaps you’ll slip on a pool of melted ice cream congealing on the floor thanks to an AI-assisted cyberattack .\n\nYou go to the movies and see Sam Altman being played with nauseating intensity by Andrew Garfield, and go back home to find that Elon Musk has released a Grok-fied version of The Odyssey . You try to watch it, but it feels like a long, unskippable mobile ad. In a way, the whole world kind of feels that way now: Like a modern Odysseus, you are cursed to roam AI-infested waters, dueling with machine gods and monsters, trying to find your way back to somewhere that feels like home.",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-18T14:42:44.000Z",
+      "sourceId": "mit-ai",
+      "source": "MIT Technology Review",
+      "category": "ai",
+      "lang": "en",
+      "addedAt": "2026-11-25T23:35:52.544Z"
+    },
+    {
+      "id": "1whr576",
+      "title": "Startup Makes Headway Toward Formalizing All of Math With AI",
+      "url": "https://spectrum.ieee.org/enormous-theorem-ai",
+      "excerpt": "As Axiom Math ’s AI swarm was putting the final touches on the automatic verification of a 15,000-page proof of the classification of finite simple groups (CFSG) , colloquially referred to as the “enormous theorem,” on Sunday, 25 October, the company’s…",
+      "content": "As Axiom Math ’s AI swarm was putting the final touches on the automatic verification of a 15,000-page proof of the classification of finite simple groups (CFSG) , colloquially referred to as the “enormous theorem,” on Sunday, 25 October, the company’s Founding Mathematician Ken Ono had nothing to do but watch and reflect on the achievement.\n\nAs the son of a mathematician , he had grown up surrounded by some of the architects of the CFSG’s proof, widely considered to be the longest mathematical proof ever written by humans. Now, he was contributing to formally verifying what his father and peers had created. “My wife was with me as I watched the team countdown to completing the verification,” he recalls. “God, I cannot tell you how emotional I was.”\n\nUniversity of St Andrews group theorist Colva Roney-Dougal (who was not involved in the work) says of formalizing CFSG: “I held it up as an example of something that was going to be incredibly hard to formalize because I had thought that the amount of computing it was going to require was just unattainable,” she says. “So when I heard the announcement, I was really, really surprised.”\n\nThis result, along with the concurrent formal verification of the 7,500-page Stacks project , represent a huge AI engineering achievement and lay some of the groundwork for digitizing all mathematics.\n\nFormally Enormous\n\nWhy the hoo-ha? The CFSG concerns finite simple groups. These are groups (sets of elements combined with an operation, like addition or multiplication, that follows specific rules) that are simple (in other words, cannot be reduced or simplified further) and finite (as opposed to groups containing an infinite number of elements). For example, all the permutations of a deck of cards form a simple finite group.\n\nÉvariste Galois laid the foundations for group theory almost 200 years ago. Finite simple groups have since been classified by myriad mathematicians into 18 families (plus 26 sporadic simple groups that do not belong to any of these families). The CFSG’s proof confirms that this list is complete.\n\nBut this simple task was achieved only by bringing together results and arguments that far exceed what any individual mathematician can fully absorb from more than 500 journal articles written by around 100 authors over a half-century period. Translating this interconnected web of knowledge into code and verifying its correctness therefore posed a number of significant engineering challenges, even beyond those overcome in earlier proof formalizations by Axiom Math this year .\n\nOne of the hardest, according to Axiom Math’s Niels Voss , who led the CFSG formalization, was the sheer length of the proof. Over 15,000 pages of dense mathematics, the CFSG proof contains multiple theorems, lemmas, and definitions none of which can be checked until everything has been made machine-readable.\n\nTo get around this required some ingenuity. “We processed all the literature from the CFSG and traced the network structure of the informal proof before we were able to start working on it,” says Voss. “We then broke up the statement of the CFSG into about 100 milestones—landmark results along the way that can be independently verified—which we used to guide the formalization and stay on track.”\n\nRoney-Dougal says she is very impressed with the result and particularly appreciates how the formal proof finds and clears up several mistakes in the original human proof. She thinks this result is critical to formalizing any modern research in group theory, such as her own work understanding how simple finite groups behave.\n\nBut, Roney-Dougal says, because the verification was done automatically, there are few mathematicians capable of extracting information from the proof to share with the community, and that a new generation of mathematicians may have “missed a chance to gain knowledge from the doing of it.”\n\nStacks of Ingenuity Required\n\nJust nine days after the CFSG formalization announcement, Axiom Math revealed it had automatically formalized the Stacks project, too. Started in 2005 by Columbia University mathematician Aise Johan de Jong , Stacks is a massive, open-source collaborative mathematics textbook and reference work focused on highly abstract algebraic geometry and algebraic stacks (geometric spaces that are vital to modern string theory and number theory).\n\nWhereas CFSG is a single (huge) landmark theorem, the Stacks project is essentially a well-structured library of thousands of interlocking definitions, constructions, and lemmas bringing all of modern algebraic geometry together.\n\nThe final Stacks formalization stands at a mere 16 million lines of code (compared to CFSG’s 43 million lines of code, roughly on a par with the Linux kernel), but it presented a different challenge to Axiom Math engineers: needing to achieve faithfulness and coherence across thousands of interlocking definitions and theorems, says Axiom Math’s Vasily Ilin , who led the project.\n\nThis required the team to design a hierarchical system of AI agents with specialized responsibilities working in parallel, keeping every definition aligned across the library, while also checking faithfulness with multiagent audits, cross-checks against sources, and hard tests. This ensured that every element and task aligned across the entire project.\n\nA highly efficient, general, reusable, and maintainable formal library of foundational concepts underpinning much of modern mathematics, the impact of the Stacks formalization could be profound. Now, anyone or any bot can access the formal Stacks library and build new formal mathematics upon it. And together, the CFSG and Stacks formalizations represent a significant step toward formalizing all of mathematics. “They show the two ways formalization has to scale: one very long proof, and one very wide body of connected theory,” says Ono.\n\nOno and Voss see numerous advantages to a future in which formal mathematics becomes central: rubber-stamping theorems and proofs, preserving knowledge as expertise dwindles over time, and building a shared library as a basis for creating new mathematics. They are also optimistic about humanity’s role when all of mathematics is formalized, viewing formalization as a launchpad for humans to use and understand mathematics in new and innovative ways. “Aren’t we excited to think more broadly about what the future of math can be?” asks Ono. “I’m excited by that. I’m really excited.”",
+      "image": "https://spectrum.ieee.org/media-library/a-dot-with-thousands-of-plotted-points-radiating-from-its-center.jpg?id=68692858&width=980",
+      "images": [
+        {
+          "url": "https://spectrum.ieee.org/media-library/a-dot-with-thousands-of-plotted-points-radiating-from-its-center.jpg?id=68692858&width=980",
+          "alt": ""
+        },
+        {
+          "url": "https://spectrum.ieee.org/media-library/a-dot-with-thousands-of-plotted-points-radiating-from-its-center.jpg?id=68692858&width=1245&height=700&coordinates=0%2C150%2C0%2C151",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-18T13:00:03.000Z",
+      "sourceId": "ieee-ai",
+      "source": "IEEE Spectrum AI",
+      "category": "ai",
+      "lang": "en",
+      "addedAt": "2026-11-25T23:35:52.544Z"
+    },
+    {
+      "id": "1e1byl1",
+      "title": "Will AI Coding Eat Video Game Engines?",
+      "url": "https://spectrum.ieee.org/epic-games-unreal-engine-ai",
+      "excerpt": "When Travis McGeathy’s studio, Seeker Entertainment, ran out of funding in September, its game KinForge went down with it. KinForge was an online game built in Unreal Engine 5.7 and designed to run on servers hosted by Amazon Web Services (AWS). With no one…",
+      "content": "When Travis McGeathy’s studio, Seeker Entertainment, ran out of funding in September, its game KinForge went down with it. KinForge was an online game built in Unreal Engine 5.7 and designed to run on servers hosted by Amazon Web Services (AWS). With no one left to pay the server bill, the game became unplayable even for those few developers, including studio cofounder McGeathy, who had the code.\n\nThen, on a whim, McGeathy pointed Anthropic’s Claude Code at the project and asked it to make KinForge playable without AWS. After 4 hours of mostly hands-off work he had a build that let players host their own games. Claude added support for peer-to-peer play over both the internet and a local area network. To McGeathy’s surprise, it also added persistent save states, a feature that lets players resume a game if they’re disconnected.\n\nAlthough KinForge is still built in Unreal Engine, developments like this could give companies that create game engines cause for concern. The conversion was accomplished with an agentic AI workflow that partially bypasses the elaborate, user-friendly game engine UI that many companies, including Unreal Engine creator Epic Games, have spent decades perfecting. Anthropic’s Fable 5.2, released 9 November, further upped the ante. The model is capable of generating a 3D game with a custom game engine in the style of the hit Call of Duty series.\n\nThis raises a question: can game engines evolve quickly enough to keep pace with model improvements?\n\n“We’re definitely in a world where I can just dream up software really fast. So, if Unreal Engine was static, what’s the value at the end of next year? This is why we are pivoting hard towards velocity,” says Daniel Vogel , chief operating officer at Epic Games. “I think with any fixed set of features or functionality, it can eventually be replicated. If we’re doing our job right, we’re pushing the engine and pushing the envelope forward.”\n\nFrom Code to Nodes, and Back Again\n\nMajor game engines often offer developers new visual tools and workflows that help them build games while interacting with less code. Unreal Engine’s Blueprints, a graphically based system introduced in Unreal Engine 4 that lets designers script gameplay simply by wiring boxes together, is an example. Clair Obscur: Expedition 33 , an award-winning game from French studio Sandfall Interactive, leaned heavily on Blueprints for scripting gameplay encounters .\n\nThat should have been proof of the feature’s success. Instead, Epic will remove Blueprints in Unreal Engine 6 (UE6). Why? Blame LLMs. “AI doesn’t handle Blueprints very well,” says McGeathy. “It would much rather work with the code.”\n\nCurrently, LLMs interact with Unreal Engine primarily through a Model Context Protocol server . MCP is an open-source standard created by Anthropic that lets AI send commands to software. “It’s not actually moving the mouse,” says Ryan Barker , a gameplay and systems engineer who has worked on projects for Amazon Games and Sony Online Entertainment. “It’s sending signals to the editor that the editor understands.”\n\nUE6 will lean into that reality by moving all code to Verse, a text-based programming language that will replace both Blueprints and Unreal Engine 5’s C++ gameplay framework. UE6 will also replace Unreal’s actor framework, which is based on object-oriented programming , with Scene Graph, which resembles an entity component system . “Typically, an ECS is a lot harder to code around,” says Barker, but ECS can provide superior game performance and result in less duplicate code . An LLM can help manage the complexity.\n\nVerse debuted in Unreal Editor for Fortnite in 2023, while Scene Graph arrived in 2024. Verse was designed to let millions of creators run code side by side in Fortnite, so it’s strict. The compiler catches mistakes before code runs and limits what each function can do. And because Scene Graph is built on Verse, an AI can work with a game world through code. That’s different from Blueprints, which are stored as binary files that LLMs can’t read directly.\n\nIn addition to these changes, UE6 will make the engine more modular and expose its systems through an application programming interface “so that AI tooling can get at them without needing to fall back to slow computer use,” says Marcus Wassmer , the executive vice president of development at Epic Games. An internal effort that Epic calls “Python All the Things” aims to make everything in the editor scriptable. UE6 will also store more game assets as text so an LLM can edit them directly. For binary assets (nontext files) that remain, Epic is building a command-line tool that allows agents to interact with the files without loading the full UE6 interface.\n\nThe traditional Unreal Engine editor isn’t going away, but Vogel expects it will change as LLM use becomes more common. “You’re not going to move stuff visually in the editor. Those times are gone,” he says. Instead, he expects game developers will more frequently use the Unreal Engine editor to visualize “the context needed to make decisions or make the tweaks.”\n\nUnreal Engine 5.9 offers a glimpse at what that transition will mean in practice. Released as a developer preview on 9 November , it includes a new feature called Unreal Canvas . Vogel says it’s a collaboration feature that takes inspiration from visual workspace software like Miro . “It’s a way to make sense of the project,” says Vogel.\n\nWhy Buy an Engine When You Can Build One?\n\nEpic Games’ goal is to keep Unreal Engine relevant in a world where AI coding tools are becoming ever-more capable. The company has the benefit of approaching the problem from a position of strength : Unreal Engine is the second most commonly used engine, after Unity Technologies’ Unity engine, and ranks first if measured by the number of games sold.\n\nWill that be enough?\n\nMcGeathy says there can be benefits to creating an engine from scratch. “If you own the engine, you’re not reliant on a third party who could yank it out from underneath you.” However, he remains skeptical that many developers will go that route, even if AI makes it less painful. “Your goal as a game developer is to make a game. It’s not to make a game engine.”\n\nWhat LLMs do change, he says, is to lower the cost of switching between game engines. McGeathy, an Unreal veteran, used Claude to start building in Godot , an open-source engine he had never touched himself. “AI made transitioning from using Unreal into Godot trivial,” he says. Barker agrees. He used an LLM to build physics test scenes in both Unreal and Godot, which let him evaluate which engine was better suited to handle a game concept.\n\nWassmer recognizes that AI makes it “easier [for developers using Unreal Engine] to pick up a new standard or to convert stuff,” and says that Epic won’t attempt to block this shift. On the contrary, UE6 will remove barriers where possible. “Our explicit goal is to be able to interoperate with other ecosystems and other games,” he says.\n\nHe feels confident that, even with the aid of LLMs, building an engine from scratch carries a heavy price that most developers won’t want to pay. “You still have to burn a lot of tokens to get something of scale that is optimized and that runs across all platforms,” Wassmer says. “Would you rather spend that time and energy building something from scratch? Or would you rather use something modular, like UE6, and trim out the bits you don’t need?”",
+      "image": "https://spectrum.ieee.org/media-library/a-game-development-software-being-used-to-generate-and-refine-images-videos-and-3d-models-of-an-1800s-saloon-setting-for-a-vi.jpg?id=68705132&width=980",
+      "images": [
+        {
+          "url": "https://spectrum.ieee.org/media-library/a-game-development-software-being-used-to-generate-and-refine-images-videos-and-3d-models-of-an-1800s-saloon-setting-for-a-vi.jpg?id=68705132&width=980",
+          "alt": ""
+        },
+        {
+          "url": "https://spectrum.ieee.org/media-library/a-game-development-software-being-used-to-generate-and-refine-images-videos-and-3d-models-of-an-1800s-saloon-setting-for-a-vi.jpg?id=68705132&width=1245&height=700&coordinates=0%2C447%2C0%2C447",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-18T12:00:03.000Z",
+      "sourceId": "ieee-ai",
+      "source": "IEEE Spectrum AI",
+      "category": "ai",
+      "lang": "en",
+      "addedAt": "2026-11-25T23:35:52.544Z"
+    },
+    {
+      "id": "1motkid",
+      "title": "180B Parameters, 32GB of RAM: Pushing MoE Inference to the Limit with Transformers",
+      "url": "https://huggingface.co/blog/moe-expert-streaming",
+      "excerpt": "",
+      "content": "",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-18T00:00:00.000Z",
+      "sourceId": "hf-blog",
+      "source": "Hugging Face",
+      "category": "ai",
+      "lang": "en",
+      "addedAt": "2026-11-25T23:35:52.544Z"
+    },
     {
       "id": "gh-1466731825",
       "title": "Anthonyp85/TheSuffering-Recomp: Unofficial Original Xbox to Native Windows (D3D12) & Linux / Steam Deck (Vulkan + SDL3) static recompilation of The Suffering (USA)",
@@ -784,6 +1144,19 @@
       "lang": "en"
     },
     {
+      "id": "gh-1469644451",
+      "title": "lorransouzaaguiar/Digimon-World-4-Recomp: Digimon World 4 PC port — static recompilation of the original Xbox game into a native Linux program (Vulkan / OpenGL). Windows and macOS planned. Bring your own game dump.",
+      "url": "https://github.com/lorransouzaaguiar/Digimon-World-4-Recomp",
+      "excerpt": "Digimon World 4 PC port — static recompilation of the original Xbox game into a native Linux program (Vulkan / OpenGL). Windows and macOS planned. Bring your own game dump.",
+      "image": "",
+      "publishedAt": "2026-11-25T23:30:11Z",
+      "addedAt": "2026-11-25T23:16:09.324Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
       "id": "gh-1404706030",
       "title": "vyanhursky/DefJamFFNY-recomp: Def Jam: Fight for NY PC port — static recompilation of the original Xbox game for native Windows and macOS (Direct3D 11 / Vulkan). Bring your own game dump.",
       "url": "https://github.com/vyanhursky/DefJamFFNY-recomp",
@@ -816,19 +1189,6 @@
       "excerpt": "Source-first reverse engineering and port of Diggles: The Myth of Fenris (2001-2002) to Godot 4.7.2",
       "image": "",
       "publishedAt": "2026-11-25T22:04:26Z",
-      "addedAt": "2026-11-25T23:16:09.324Z",
-      "sourceId": "github-ports",
-      "source": "GitHub: порты",
-      "category": "ports",
-      "lang": "en"
-    },
-    {
-      "id": "gh-1469644451",
-      "title": "lorransouzaaguiar/Digimon-World-4-Recomp: Digimon World 4 PC port — static recompilation of the original Xbox game into a native Linux program (Vulkan / OpenGL). Windows and macOS planned. Bring your own game dump.",
-      "url": "https://github.com/lorransouzaaguiar/Digimon-World-4-Recomp",
-      "excerpt": "Digimon World 4 PC port — static recompilation of the original Xbox game into a native Linux program (Vulkan / OpenGL). Windows and macOS planned. Bring your own game dump.",
-      "image": "",
-      "publishedAt": "2026-11-25T21:31:07Z",
       "addedAt": "2026-11-25T23:16:09.324Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -7377,7 +7737,7 @@
       "title": "GPT-6.2 Astra is the first model to beat Googlers' code golf records",
       "url": "https://bjin.github.io/go-codegolf-benchmark/",
       "excerpt": "Back in 2015, when I was still at Google, there was a small group of code-golf enthusiasts spending hours trying to save just one byte on their solutions for weekly code-golf problems. No matter how hard you tried, there always seemed to be another Googler…",
-      "content": "Back in 2015, when I was still at Google, there was a small group of code-golf enthusiasts spending hours trying to save just one byte on their solutions for weekly code-golf problems. No matter how hard you tried, there always seemed to be another Googler who found a shorter solution. And once a problem entered the challenge phase and every solution became public, it was always astonishing to read how brilliant other people's solutions were. 11 years later, LLMs are evolving fast. A recent OpenAI post (\"Perplexity and Intelligence\", https://openai.com/index/perplexity-and-intelligence/ ) described researchers watching a model solve open math problems one after another in a Slack thread. I started to wonder: how would frontier models compete with the records that a small group of brilliant minds created with hours of effort each week? So I built this benchmark. Frontier models do find a lot of new approaches (and very brilliant ones) to solve these problems. For example, in two problems (\"Surviving Queens\" and \"The Rolling Dice\"), frontier models use complex numbers to solve them in Python and Ruby (both languages have built-in complex number support). And for the \"(-5)-Smooth Numbers\" problem, where you have to write code to list the first n positive integers of the form (-2)^x⋅(-3)^y⋅(-5)^z, most solutions build them with nested loops or by growing a set, then sort. GPT-6.2 Astra gets them all from powers of 4, and earns a sole best with this brilliant solution: g=lambda n:sorted(4**i%(2**999-5)%(2**49-3)for i in range(7000))[:n]\n\nThere is a dedicated section for this: https://bjin.github.io/go-codegolf-benchmark/#why/finding-a-... It's nice to see GPT-6.2 Astra become the first frontier model to beat the human records in code golfing. Along with other frontier models, it finds a lot of interesting solutions that Googlers back in 2015 didn't. On the other hand, I also believe code golfing can be a good benchmark (not a comprehensive one, of course) for frontier models. Code golfing rewards thinking differently, because a shorter solution usually comes from looking at the problem from a different angle. It also rewards running experiments, not just thinking: writing a search program to find a shorter expression, or exploring lesser-known features and functions in the target compiler, interpreter, or library. Human code golfers do this a lot, and no public training data tells a frontier model how to do so.\n\nComments URL: https://news.ycombinator.com/item?id=50601280\n\nPoints: 158\n\n# Comments: 34",
+      "content": "Back in 2015, when I was still at Google, there was a small group of code-golf enthusiasts spending hours trying to save just one byte on their solutions for weekly code-golf problems. No matter how hard you tried, there always seemed to be another Googler who found a shorter solution. And once a problem entered the challenge phase and every solution became public, it was always astonishing to read how brilliant other people's solutions were. 11 years later, LLMs are evolving fast. A recent OpenAI post (\"Perplexity and Intelligence\", https://openai.com/index/perplexity-and-intelligence/ ) described researchers watching a model solve open math problems one after another in a Slack thread. I started to wonder: how would frontier models compete with the records that a small group of brilliant minds created with hours of effort each week? So I built this benchmark. Frontier models do find a lot of new approaches (and very brilliant ones) to solve these problems. For example, in two problems (\"Surviving Queens\" and \"The Rolling Dice\"), frontier models use complex numbers to solve them in Python and Ruby (both languages have built-in complex number support). And for the \"(-5)-Smooth Numbers\" problem, where you have to write code to list the first n positive integers of the form (-2)^x⋅(-3)^y⋅(-5)^z, most solutions build them with nested loops or by growing a set, then sort. GPT-6.2 Astra gets them all from powers of 4, and earns a sole best with this brilliant solution: g=lambda n:sorted(4**i%(2**999-5)%(2**49-3)for i in range(7000))[:n]\n\nThere is a dedicated section for this: https://bjin.github.io/go-codegolf-benchmark/#why/finding-a-... It's nice to see GPT-6.2 Astra become the first frontier model to beat the human records in code golfing. Along with other frontier models, it finds a lot of interesting solutions that Googlers back in 2015 didn't. On the other hand, I also believe code golfing can be a good benchmark (not a comprehensive one, of course) for frontier models. Code golfing rewards thinking differently, because a shorter solution usually comes from looking at the problem from a different angle. It also rewards running experiments, not just thinking: writing a search program to find a shorter expression, or exploring lesser-known features and functions in the target compiler, interpreter, or library. Human code golfers do this a lot, and no public training data tells a frontier model how to do so.\n\nComments URL: https://news.ycombinator.com/item?id=50601280\n\nPoints: 180\n\n# Comments: 40",
       "image": "",
       "images": [],
       "publishedAt": "2026-11-22T16:44:48.000Z",
@@ -40010,12 +40370,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1467806130",
-      "title": "udarmolota/OxyDroid: OxyDroid brings Oxygen Not Included to mobile: play the full PC game on Android, natively, with your own copy from Steam.",
-      "url": "https://github.com/udarmolota/OxyDroid",
-      "excerpt": "OxyDroid brings Oxygen Not Included to mobile: play the full PC game on Android, natively, with your own copy from Steam.",
+      "id": "gh-1450307261",
+      "title": "KaikoClanworth1/mua3-native: Marvel Ultimate Alliance 3 running natively on Windows: up to 4K, high frame rates, mods. Bring your own game.",
+      "url": "https://github.com/KaikoClanworth1/mua3-native",
+      "excerpt": "Marvel Ultimate Alliance 3 running natively on Windows: up to 4K, high frame rates, mods. Bring your own game.",
       "image": "",
-      "publishedAt": "2026-11-25T12:04:59Z",
+      "publishedAt": "2026-11-25T23:07:46Z",
       "addedAt": "2026-11-23T12:20:11.607Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -40023,12 +40383,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1450307261",
-      "title": "KaikoClanworth1/mua3-native: Marvel Ultimate Alliance 3 running natively on Windows: up to 4K, high frame rates, mods. Bring your own game.",
-      "url": "https://github.com/KaikoClanworth1/mua3-native",
-      "excerpt": "Marvel Ultimate Alliance 3 running natively on Windows: up to 4K, high frame rates, mods. Bring your own game.",
+      "id": "gh-1467806130",
+      "title": "udarmolota/OxyDroid: OxyDroid brings Oxygen Not Included to mobile: play the full PC game on Android, natively, with your own copy from Steam.",
+      "url": "https://github.com/udarmolota/OxyDroid",
+      "excerpt": "OxyDroid brings Oxygen Not Included to mobile: play the full PC game on Android, natively, with your own copy from Steam.",
       "image": "",
-      "publishedAt": "2026-11-24T09:43:37Z",
+      "publishedAt": "2026-11-25T12:04:59Z",
       "addedAt": "2026-11-23T12:20:11.607Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -52667,7 +53027,7 @@
       "url": "https://github.com/Cirno-Labs/opentouhou",
       "excerpt": "Unofficial native ports of the Touhou Project games for Windows, Linux and macOS. Downloads at opentouhou.org.",
       "image": "",
-      "publishedAt": "2026-11-25T23:04:37Z",
+      "publishedAt": "2026-11-25T23:29:55Z",
       "addedAt": "2026-11-22T01:13:25.181Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -54068,7 +54428,7 @@
       "url": "https://github.com/ChupathingyCE/chupathingyce",
       "excerpt": "Halo CE: Ported for Everyone. Windows, Mac, Linux, Steam Deck, Android and FreeBSD, with online play and stats. Bring your own copy of the game.",
       "image": "",
-      "publishedAt": "2026-11-25T23:14:32Z",
+      "publishedAt": "2026-11-25T23:34:11Z",
       "addedAt": "2026-11-21T21:08:10.372Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -61900,12 +62260,12 @@
       "addedAt": "2026-11-21T15:19:50.637Z"
     },
     {
-      "id": "gh-1376255525",
-      "title": "wie-project/PS4Recomp: Experimental static recompiler from PS4 to macOS Apple Silicon",
-      "url": "https://github.com/wie-project/PS4Recomp",
-      "excerpt": "Experimental static recompiler from PS4 to macOS Apple Silicon",
+      "id": "gh-1450907077",
+      "title": "RodoLy/HarvestMoonAnimalParadeRecomp: обновлённый порт",
+      "url": "https://github.com/RodoLy/HarvestMoonAnimalParadeRecomp",
+      "excerpt": "",
       "image": "",
-      "publishedAt": "2026-11-25T14:47:17Z",
+      "publishedAt": "2026-11-25T23:30:47Z",
       "addedAt": "2026-11-21T06:58:28.857Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -61913,12 +62273,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1450907077",
-      "title": "RodoLy/HarvestMoonAnimalParadeRecomp: обновлённый порт",
-      "url": "https://github.com/RodoLy/HarvestMoonAnimalParadeRecomp",
-      "excerpt": "",
+      "id": "gh-1376255525",
+      "title": "wie-project/PS4Recomp: Experimental static recompiler from PS4 to macOS Apple Silicon",
+      "url": "https://github.com/wie-project/PS4Recomp",
+      "excerpt": "Experimental static recompiler from PS4 to macOS Apple Silicon",
       "image": "",
-      "publishedAt": "2026-11-21T06:29:06Z",
+      "publishedAt": "2026-11-25T14:47:17Z",
       "addedAt": "2026-11-21T06:58:28.857Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -69194,21 +69554,6 @@
       "sourceId": "gamesradar",
       "source": "GamesRadar+",
       "category": "aimods",
-      "lang": "en",
-      "addedAt": "2026-11-20T18:03:44.269Z"
-    },
-    {
-      "id": "1sw2ref",
-      "title": "Golden Globes Category Chaos: When ‘The Drama’ Is a Comedy…",
-      "url": "https://www.hollywoodreporter.com/movies/movie-features/golden-globes-category-chaos-the-drama-comedy-1236757819/",
-      "excerpt": "Ahead of the deliberations of the Globes’ eligibility committee, The Hollywood Reporter dissects a host of eyebrow-raising category submissions — ‘Club Kid’ as a drama, ‘Obsession’ as a comedy, and more.",
-      "content": "Ahead of the deliberations of the Globes’ eligibility committee, The Hollywood Reporter dissects a host of eyebrow-raising category submissions — ‘Club Kid’ as a drama, ‘Obsession’ as a comedy, and more.",
-      "image": "",
-      "images": [],
-      "publishedAt": "2026-11-20T17:15:00.000Z",
-      "sourceId": "hollywoodreporter",
-      "source": "The Hollywood Reporter",
-      "category": "entertainment",
       "lang": "en",
       "addedAt": "2026-11-20T18:03:44.269Z"
     },
@@ -79645,30 +79990,6 @@
       "addedAt": "2026-11-20T01:16:39.452Z"
     },
     {
-      "id": "11lqjg7",
-      "title": "'I’m So F**kin’ Bitter' — Doja Cat Begs Rockstar to Put Her Music on the GTA 6 Soundtrack",
-      "url": "https://www.ign.com/articles/im-so-fkin-bitter-doja-cat-begs-rockstar-to-put-her-music-on-the-gta-6-soundtrack",
-      "excerpt": "Doja Cat is extremely unhappy about getting passed over as a featured artist in GTA 6, and she’s making her feelings known in several blistering posts on social media. GTA 6 , like other games in the series, features several different radio stations that…",
-      "content": "Doja Cat is extremely unhappy about getting passed over as a featured artist in GTA 6, and she’s making her feelings known in several blistering posts on social media.\n\nGTA 6 , like other games in the series, features several different radio stations that players can scroll through as they zoom down the streets of Vice City. There’s oodles of licensed songs on these stations (we don’t even want to think about how costly this was for Rockstar to pull off), and PinkPantheress even hosts one as a DJ, which, of course, plays some of her music.\n\nOne artist who wasn’t included in the lineup was Doja Cat — who, as a gamer, was pretty pissed off about apparently getting snubbed by Rockstar for arguably the biggest game of the decade.\n\n“I would’ve loved to have my music on GTA 6. I’m so f**kin’ bitter,” she wrote on Twitter/X on November 19. In another, she tagged the official Rockstar account, writing, “Eat my dick all yall, I love your stupid f**kin’ bitch-ass game.” She tagged them again in a third post, saying, “You broke my heart, pinche culero.”\n\nAs previously mentioned, Doja Cat is an avid gamer. She regularly streams on Twitch between recording new albums and touring, often choosing to play a few games of Fortnite while chatting with her audience. She’s even referenced the game in one of her songs (Agora Hills), and also included a cute line referencing the ‘We got xyz before GTA 6’ meme in her song ‘All Mine.’\n\nNeedless to say, Doja’s expletive-ridden tweets quickly went viral, attracting no end of discourse from both fans and critics about what artists got featured in the game and those who missed out. Others were quick to remind her that GTA 5 added new songs to its radio station later in the game’s lifetime, so there’s still a chance that she might get to be in the game at some point further down the line.\n\n“They added newer songs on the radio later in GTA 5, so there’s still a chance sis,” one user commented .\n\n“You’re actually a gamer, too, that’s why I feel bad,” another lamented .\n\n“They added music over time to GTA 5. They might do it again. Start campaigning sis,” another encouraged .\n\nGTA 6’s soundtrack features a slew of high-profile music artists, with the likes of Cardi B, Tame Impala, Travis Scott, and Keith Richards being just a few who contributed to the project. Fans can buy the physical soundtrack as a collectible vinyl album, which can be pre-ordered on the IGN store right now.\n\nJust getting started in GTA 6 or wondering what to do next? Check out the Official Grand Theft Auto 6 guide right here on IGN. If you're still getting your bearings, discover GTA's new systems with the Beginner's Guide - 67 Tips and Tricks , or get all the details on the first chapters with the Chapter 1 Guide and Tips and Chapter 2 Guide and Tips . If you're already driving all around Leonida and want to know everything there is to find and do, see the Leonida interactive map .\n\nImage Credit: Chris Haston/WBTV via Getty Images",
-      "image": "https://assets-prd.ignimgs.com/2026/11/19/doja-cat-calls-out-rockstar-over-gta-6-snub-1795119810504.jpg",
-      "images": [
-        {
-          "url": "https://assets-prd.ignimgs.com/2026/11/19/doja-cat-calls-out-rockstar-over-gta-6-snub-1795119810504.jpg",
-          "alt": ""
-        },
-        {
-          "url": "https://assets-prd.ignimgs.com/2026/11/19/screenshot-2026-11-19-113115-1795118917160.png",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-19T20:31:02.000Z",
-      "sourceId": "ign",
-      "source": "IGN",
-      "category": "games",
-      "lang": "en",
-      "addedAt": "2026-11-20T01:16:39.452Z"
-    },
-    {
       "id": "14fh3ae",
       "title": "Китайский гибрид протащил Boeing 747 всего на двух колесах!",
       "url": "https://www.zr.ru/content/news/988730-kitajskij-gibrid-protashchil-boei/",
@@ -79729,26 +80050,6 @@
       "sourceId": "purexbox",
       "source": "Pure Xbox",
       "category": "consoles",
-      "lang": "en",
-      "addedAt": "2026-11-20T01:16:39.452Z"
-    },
-    {
-      "id": "1j2dwtp",
-      "title": "This Discounted Hylian Shield Backpack Has a Laptop Slot and Plenty of Room for Accessories",
-      "url": "https://www.ign.com/articles/legend-of-zelda-hylian-shield-backpack-laptop-bag-sale-black-friday-2026",
-      "excerpt": "The Amazon Black Friday sale officially kicked off today, offering dozens of discounts on all of our favorite nerdy things. Right in time for The Legend of Zelda: Ocarina of Time remake, one of the coolest on-theme pieces of Zelda apparel is the Hylian Shield…",
-      "content": "The Amazon Black Friday sale officially kicked off today, offering dozens of discounts on all of our favorite nerdy things. Right in time for The Legend of Zelda: Ocarina of Time remake, one of the coolest on-theme pieces of Zelda apparel is the Hylian Shield novelty backpack. It's currently $48.99 during Black Friday, saving you 30% off of the usual $69.99 sticker price. This makes a great Zelda gift for kids or for any convention-goers who are looking for a fun way to store their merch. You could even take it to work if you're feeling so bold.\n\nThe backpack is a bit larger than it looks in pictures, measuring in at 22in. tall, 18in. wide, and 4in. deep, so there's plenty of room for it to actually be practical. There's even a laptop slot on the inside like you'd expect from a normal backpack, as well as smaller accessory compartments for things like portable chargers or a Hookshot . There's a top handle and adjustable straps as well, but unfortunately no water bottle pockets on the outside. The Hylian Shield exterior itself is made of a 3D rubber, so it's pretty sturdy.\n\nWith the recent release of the Ocarina of Time remake, interest in the game is at an all-time high. IGN's Logan Plant said the remake \"skillfully melds the world and dungeon design of classic Zeldas with the movement and presentation of its more recent games, creating both a beautiful retelling of a legend and a rich adventure that stands on its own\" in his 9 out of 10 review .\n\nIf you're playing the game right now and haven't already located the shield yourself, take a look at IGN's guide on how to find it .\n\nOcarina of Time Graphic Tees Are Also on Sale\n\nFor even more Ocarina of Time apparel, Amazon also has dozens of Zelda-themed graphic t-shirts on sale for Black Friday. Many of them are Ocarina of Time themed, although focused on the original N64 release. There isn't any official remake merch quite yet, but you can bet we'll cover those if they're ever announced.",
-      "image": "https://assets-prd.ignimgs.com/2026/11/19/hylian-shield-1795119782327.jpg",
-      "images": [
-        {
-          "url": "https://assets-prd.ignimgs.com/2026/11/19/hylian-shield-1795119782327.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-19T20:23:31.000Z",
-      "sourceId": "ign",
-      "source": "IGN",
-      "category": "games",
       "lang": "en",
       "addedAt": "2026-11-20T01:16:39.452Z"
     },
@@ -79845,26 +80146,6 @@
       "source": "Ukrinform",
       "category": "war",
       "lang": "uk",
-      "addedAt": "2026-11-20T01:16:39.452Z"
-    },
-    {
-      "id": "1ntn8nx",
-      "title": "Ubisoft похвасталась вкладом Assassin’s Creed Black Flag Resynced в успехи компании и уволила ещё 166 человек",
-      "url": "https://3dnews.ru/1151558/ubisoft-pohvastalas-vkladom-assassins-creed-black-flag-resynced-v-uspehi-kompanii-i-uvolila-eshchyo-166-chelovek",
-      "excerpt": "Французский издатель и разработчик Ubisoft продолжает оправляться после масштабной организационной и операционной перезагрузки. Результаты за второй квартал 2027 финансового года внушают робкий оптимизм.",
-      "content": "Французский издатель и разработчик Ubisoft продолжает оправляться после масштабной организационной и операционной перезагрузки. Результаты за второй квартал 2027 финансового года внушают робкий оптимизм.",
-      "image": "https://cdn.3dnews.ru/assets/external/illustrations/2026/11/19/1151558/00.jpg",
-      "images": [
-        {
-          "url": "https://cdn.3dnews.ru/assets/external/illustrations/2026/11/19/1151558/00.jpg",
-          "alt": ""
-        }
-      ],
-      "publishedAt": "2026-11-19T20:15:00.000Z",
-      "sourceId": "3dnews-games",
-      "source": "3DNews Игры",
-      "category": "games",
-      "lang": "ru",
       "addedAt": "2026-11-20T01:16:39.452Z"
     },
     {
