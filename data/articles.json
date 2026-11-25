@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-11-25T04:06:50.013Z",
+  "generatedAt": "2026-11-25T04:09:52.426Z",
   "count": 1232,
   "articles": {
     "232641": {
@@ -27869,33 +27869,16 @@
       "length": 5840,
       "imageCount": 2
     },
-    "95zkcq": {
-      "version": 4,
-      "url": "https://deadline.com/2026/11/jenna-ushkowitz-glee-cory-monteith-tribute-1237233122/",
-      "fetchedAt": "2026-11-25T04:06:37.508Z",
-      "title": "Jenna Ushkowitz Says ‘Glee’s Cory Monteith Tribute “Wasn’t The Right Thing”: “It Was Too Soon For That”",
-      "byline": "Armando Tinoco",
-      "siteName": "Deadline",
-      "content": "Jenna Ushkowitz doesn’t want to remember when Glee did a tribute to Cory Monteith after his death.\n\nIn a new interview, the star of the musical comedy explains why it was difficult to film the episode and why she felt they shouldn’t have done it.\n\n“To shoot ‘The Quarterback’ [tribute episode]… I think it wasn’t the right thing,” Ushkowitz said on the We Need to Talk podcast. “And I think everybody collectively agrees that it’s maybe not the thing that we should have done, because we were grieving both privately and publicly.”\n\nMonteith played Finn Hudson in the Ryan Murphy series until his death in July 2013. The show continued and paid tribute with an episode dedicated to the late actor, which also acknowledged that the quarterback from the fictional William McKinley High School had died.\n\n“I think the fans definitely needed something, because they loved Cory so dearly like we did, and [loved] Finn so dearly,” Ushkowitz said. “But it’s a really hard thing to be grieving your friend and be a character grieving their friend at the same time.”\n\nShe continued, “It was like, too soon for that. [It] was not fun, [I] don’t want to remember that time. The show itself was never the same. He was the heart of the show, our friend, most importantly, and our leader. He really was the quarterback for us. He held everybody together. He hosted parties for the crew. He was the kindest. He knew everybody’s names. He just was such a good person, a kind person.”\n\nUshkowitz mentioned that at the time “even our creators, they were dealing with grief too” and “nobody had the tools” to deal with Monteith’s death.\n\nWatch the full interview in the video below.",
-      "images": [
-        {
-          "url": "https://deadline.com/wp-content/uploads/2026/11/Jenna-Ushkowitz-glee.jpg?w=1024",
-          "alt": ""
-        }
-      ],
-      "length": 1663,
-      "imageCount": 1
-    },
     "1tqa23y": {
       "version": 4,
       "url": "https://phys.org/news/2026-11-queensland-disaster-lessons.html",
-      "fetchedAt": "2026-11-25T04:06:37.511Z",
+      "fetchedAt": "2026-11-25T04:09:39.554Z",
       "error": "HTTP 403"
     },
     "gh-1459137710": {
       "version": 4,
       "url": "https://github.com/AOJ222/BlackAndWhite-macOS",
-      "fetchedAt": "2026-11-25T04:06:37.719Z",
+      "fetchedAt": "2026-11-25T04:09:40.241Z",
       "title": "GitHub - AOJ222/BlackAndWhite-macOS: Unofficial native Mac (macOS) port of Black & White (2001) for Apple silicon. Needs your own copy of the game.",
       "byline": "",
       "siteName": "GitHub",
@@ -27904,10 +27887,48 @@
       "length": 8591,
       "imageCount": 0
     },
+    "gh-1470989861": {
+      "version": 4,
+      "url": "https://github.com/hanxl-native/darksiders-native",
+      "fetchedAt": "2026-11-25T04:09:40.436Z",
+      "title": "GitHub - hanxl-native/darksiders-native: Darksiders II Deathinitive Edition on Android: a standalone app on the Peanuts Native runtime",
+      "byline": "",
+      "siteName": "GitHub",
+      "content": "Darksiders II Deathinitive Edition on an Android phone: one app, one button,\n60 fps and the resolution you choose.\nThis is the app: the screen, the game setup, the build flow, the startup screen and\nthe icon are this repository's. The runtime underneath is\nPeanuts Native, which does the hard\npart of running the game's code and graphics (see Credits); the app\nshows its own name and art, not the runtime's.\nWhat this app adds\n\nOne screen\nThe game file, the DLC, the pack, the GPU driver, the frame rate and resolution, the saves, the console's keys and firmware. No emulator menus.\n\nBuilds the .nup in the app\nPick the game's own .nsp/.xci and any number of DLC packs; BUILD GAME FILE merges them into one .nup with the importer that ships in the APK. A file that already holds an update is taken as it is, and the app warns if the build is not the one its pack was made for.\n\n60 fps and resolution\nA present-interval switch that holds 60 fps, and a render scale from 50 % to 200 %, both written as the runtime's switches.\n\nYour keys, your firmware\nThe APK carries no prod.keys and no console font. KEYS takes your own prod.keys; FIRMWARE takes your firmware folder or .zip and reads the shared fonts from it. Stand-in fonts (Noto, Droid) keep the game working before that.\n\nImports the pack\nThe PACK card takes the code and shader data the runtime needs as a .zip (made on a PC, see below) and shows Ready once it is in place.\n\nTurnip, picked for you\nMesa Turnip is selected automatically when it is installed; the GPU driver card installs a driver zip or goes back to the system one.\n\nSaves\nExport and import as a zip.\n\nIts own look\nThe \"D II\" monogram, the cards and the launcher are this project's; no emulator name or art on any screen.\n\nWhat you need\nThe app plays from two files: the .nup (the game) and the pack (the code\nand shaders the runtime needs). You can make both on a PC (route A) or on\nthe phone (route B).\nCommon to both routes:\n\nan Android 13+ phone with 8 GB of RAM or more (a Snapdragon 8 Gen 2/3 class device);\nyour own copy of the game (a dump of the card you own), .xci or .nsp;\nyour console's prod.keys;\nthe DLC packs, if you want them;\nyour save as a .zip, if you want to bring one.\n\nThere is no update step: this app and its pack are for the base game (v0). A\nfile that already carries an update is accepted, and the app warns that the pack\nwas not made for that build.\n\nA — with a PC (recommended)\nB — phone only\n\nA computer\nWindows with WSL2, Linux or macOS\n—\n\nprod.keys on\nthe PC\nthe phone\n\nFirmware\nnot needed\noptional (console fonts; stand-in fonts otherwise)\n\nWho builds the pack\nthe PC tool\nthe app\n\nTime\n~15–40 min on the PC, then minutes\n1–2 h on the phone\n\nNothing is uploaded anywhere: the tools run on your machine and the files stay on\nyour phone.\nPlay it — route A (with a PC, recommended)\n\nOn the PC, in this repository's tools/, run\nbuild-pack.cmd (Windows) or build-pack.sh with your game and the DLC. It\nmakes two files: DarksidersII.nup and pack.zip.\nCopy both to the phone (USB, SD card or cloud).\nOpen the app → PACK → choose pack.zip; the card shows Ready.\nGAME FILE → choose DarksidersII.nup → Move into the app → wait\n(15 GB, a few minutes).\nPLAY.\n\nNo keys or firmware on the phone with this route: the .nup already holds the\nDLC, and the pack holds the shaders.\nPlay it — route B (all on the phone)\n\nKEYS → your prod.keys. Without it the app cannot read the game files.\nFIRMWARE (optional) → your firmware .zip or folder, for the console's\nown fonts. Skipping it is fine.\nGAME FILE → the base .xci/.nsp. It is only read for now.\nDLC (optional) → the add-on .nsp files; you can select many at once.\nBUILD GAME FILE → confirm the space, then wait (1–2 h on a phone). You can\ncancel.\nPLAY.\n\nYour save\nSAVES → choose a .zip to restore a save; the same card exports the current\none as a .zip. The save is kept in the app's folder, so it survives updates.\nBuild the app from source\nThe app is an overlay on Peanuts Native v0.1.7-1. Two pieces:\n\npatches/0001-darksiders-hooks.patch — turns the upstream launcher into this\napp: the single screen becomes the launcher, the build gets the app's name and\nits assets folder, the startup screen drops the runtime's art for a named\nbuild, and the firmware picker is made public.\noverlay/ — the screen (DarksidersLauncherActivity), the icons and the\nredistributable fonts.\n\napply.sh clones the release, copies the overlay in and applies the patch.\n./apply.sh # clones upstream at v0.1.7-1, copies the overlay, applies the patch\ncd peanuts-native/android/app\nJAVA_HOME=/path/to/jdk17 ANDROID_HOME=/path/to/android-sdk \\\n./gradlew apk -PnxApp=peanuts -PnxAppId=darksiders -PnxLabel=\"Darksiders II Native\" \\\n-PnxGames=010071800BA98000 -PnxPackEngine=fake\n# android/app/out/nxnative-android-peanuts.apk\nNeeds git, JDK 17 and the Android SDK (build-tools, NDK 28.2). The first build\ncompiles the native host and takes a few minutes.\nA build of your own can carry assets/darksiders/pack.zip (the pack, copied on\nfirst start) and then the PACK card is not needed; a public build must not carry\nit — the pack holds the game's own translated shaders.\nTested on\nAll of the testing so far is on a Samsung Galaxy S24+ (Snapdragon 8 Gen 3,\nAdreno 750), Android 16, where it holds a steady 60 fps with Mesa Turnip.\n(The phone's own Adreno driver works too, but Turnip is what the app selects.)\nThat is the only device it has been run on. A Snapdragon 8 Gen 2/3 class phone is\nwhat the app is aimed at; on more modest hardware expect a lower frame rate and a\nlonger first shader build — the resolution scale in GRAPHICS (75 % or 50 %) is\nthe first thing to try. Reports from other phones are welcome.\nSupport\nThis app is free and will stay free. If it is useful to you, you can buy me a\ncoffee:\n\nKo-fi: https://ko-fi.com/hanxlnative\nPayPal: https://www.paypal.com/donate/?business=nmherrerab%40gmail.com&currency_code=USD\n\nCredits\n\nPeanuts Native by seedds and its\ncontributors: the runtime this app is built on (MIT; its Android host is\nGPL-3.0-or-later, see NOTICE).\nMesa Turnip, Noto Sans (SIL OFL) and Droid Sans Fallback (Apache 2.0) for the\npieces shipped with the app.\nNot affiliated with THQ Nordic, Gunfire Games or Nintendo. The game's names and\ncover art belong to their owners; this app ships neither.\n\nLicense\nThis repository's own files are MIT, see LICENSE. An APK built with\nthem also contains Peanuts Native's Android host, so the APK as a whole is\nGPL-3.0-or-later; see NOTICE.",
+      "images": [
+        {
+          "url": "https://github.com/hanxl-native/darksiders-native/raw/main/docs/darksiders-ui.png",
+          "alt": "screenshot"
+        }
+      ],
+      "length": 6469,
+      "imageCount": 1
+    },
+    "15l43qx": {
+      "version": 4,
+      "url": "https://www.zr.ru/content/articles/988982-mozhno-li-zimoj-ezdit-na-vses/",
+      "fetchedAt": "2026-11-25T04:09:40.574Z",
+      "title": "Можно ли зимой ездить на «всесезонке»? Да, но есть важный нюанс",
+      "byline": "«За рулем»",
+      "siteName": "zr.ru",
+      "content": "Вопрос от читателя «За рулем»: – Говорят, этой зимой сотрудники ГАИ будут штрафовать водителей за езду на летних шинах. Однако на Ставрополье снег выпадает крайне редко, необходимость в зимних шинах явно надуманная. Можно ли обойтись летними шинами? Если нет, решают ли проблему «всесезонки»? Расул Ш., Ставропольский крайНа вопросы читателей отвечает начальник Главного управления по обеспечению безопасности дорожного движения МВД России генерал-лейтенант полиции Михаил Черников. – Зимние шины предназначены для того, чтобы обеспечивать надежную управляемость транспортного средства не только на обледеневшем или заснеженном дорожном покрытии, но и на сухой дороге в условиях температур, близких к нулю градусов по Цельсию, а также при их отрицательных значениях. Такие условия встречаются в том числе на территории Ставропольского края, особенно в горных районах. Поэтому в соответствии с пунктом 5.2 Перечня неисправностей и условий, при которых запрещается эксплуатация транспортных средств, в зимний период (декабрь, январь, февраль) легковые автомобили должны быть оснащены зимними шинами. Отличительной особенностью таких шин является маркировка знаком в виде горной вершины с тремя пиками и снежинкой внутри нее, а также знака «M+S», «M&S», «M S». Если всесезонные шины такую маркировку имеют, эксплуатация автомобиля на них в зимний период закону не противоречит. Об особенностях всесезонных шин рассказано тут. «За рулем» можно читать и в Телеграм",
+      "images": [
+        {
+          "url": "https://www.zr.ru/d/story/36/988982/depositphotos_109823502_xl.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://www.zr.ru/d/story/f6/901622/chernikov800.jpg",
+          "alt": "Новые ответы ГИБДД -"
+        }
+      ],
+      "length": 1459,
+      "imageCount": 2
+    },
     "gh-1471124262": {
       "version": 4,
       "url": "https://github.com/MacosPorters/betterxen",
-      "fetchedAt": "2026-11-25T04:06:37.947Z",
+      "fetchedAt": "2026-11-25T04:09:40.783Z",
       "title": "GitHub - MacosPorters/betterxen: BetterXen — experimental Xbox Series X|S emulation research for native Apple Silicon, continued from XenoraOSS/Xenora.",
       "byline": "",
       "siteName": "GitHub",
@@ -27921,10 +27942,27 @@
       "length": 17734,
       "imageCount": 1
     },
+    "95zkcq": {
+      "version": 4,
+      "url": "https://deadline.com/2026/11/jenna-ushkowitz-glee-cory-monteith-tribute-1237233122/",
+      "fetchedAt": "2026-11-25T04:09:41.560Z",
+      "title": "Jenna Ushkowitz Says ‘Glee’s Cory Monteith Tribute “Wasn’t The Right Thing”: “It Was Too Soon For That”",
+      "byline": "Armando Tinoco",
+      "siteName": "Deadline",
+      "content": "Jenna Ushkowitz doesn’t want to remember when Glee did a tribute to Cory Monteith after his death.\n\nIn a new interview, the star of the musical comedy explains why it was difficult to film the episode and why she felt they shouldn’t have done it.\n\n“To shoot ‘The Quarterback’ [tribute episode]… I think it wasn’t the right thing,” Ushkowitz said on the We Need to Talk podcast. “And I think everybody collectively agrees that it’s maybe not the thing that we should have done, because we were grieving both privately and publicly.”\n\nMonteith played Finn Hudson in the Ryan Murphy series until his death in July 2013. The show continued and paid tribute with an episode dedicated to the late actor, which also acknowledged that the quarterback from the fictional William McKinley High School had died.\n\n“I think the fans definitely needed something, because they loved Cory so dearly like we did, and [loved] Finn so dearly,” Ushkowitz said. “But it’s a really hard thing to be grieving your friend and be a character grieving their friend at the same time.”\n\nShe continued, “It was like, too soon for that. [It] was not fun, [I] don’t want to remember that time. The show itself was never the same. He was the heart of the show, our friend, most importantly, and our leader. He really was the quarterback for us. He held everybody together. He hosted parties for the crew. He was the kindest. He knew everybody’s names. He just was such a good person, a kind person.”\n\nUshkowitz mentioned that at the time “even our creators, they were dealing with grief too” and “nobody had the tools” to deal with Monteith’s death.\n\nWatch the full interview in the video below.",
+      "images": [
+        {
+          "url": "https://deadline.com/wp-content/uploads/2026/11/Jenna-Ushkowitz-glee.jpg?w=1024",
+          "alt": ""
+        }
+      ],
+      "length": 1663,
+      "imageCount": 1
+    },
     "157slhx": {
       "version": 4,
       "url": "https://deadline.com/2026/11/dancing-with-the-stars-season-35-finale-recap-1237233031/",
-      "fetchedAt": "2026-11-25T04:06:38.158Z",
+      "fetchedAt": "2026-11-25T04:09:41.774Z",
       "title": "‘Dancing With The Stars’ Finale Recap: Who Takes Home The Len Goodman Mirrorball Trophy?",
       "byline": "Katie Campione",
       "siteName": "Deadline",
@@ -27938,22 +27976,10 @@
       "length": 6854,
       "imageCount": 1
     },
-    "gh-1429030695": {
-      "version": 4,
-      "url": "https://github.com/DCRecomp/BlueStingerRecomp",
-      "fetchedAt": "2026-11-25T04:06:38.473Z",
-      "title": "GitHub - DCRecomp/BlueStingerRecomp: Open-source static recompilation of Blue Stinger (Dreamcast, SH-4) into native Windows x64 C++20, focused on game preservation, hardware replacement, and modding.",
-      "byline": "",
-      "siteName": "GitHub",
-      "content": "Blue Stinger Recompiled\n\nTambém disponível no RecompLauncher, que instala e atualiza o jogo\ndireto deste repositório.\nAlso available on RecompLauncher, which installs and updates the\ngame straight from this repository.\nRecompilação estática (AOT) de Blue Stinger (Sega Dreamcast, 1999) para um executável nativo de Windows x64, em\nC++20. O código do jogo é traduzido instrução por instrução para C++, e as partes do console (arquivos, tempo, controles,\nsaves, filmes, áudio e vídeo) foram trocadas, uma por vez, por versões nativas de PC, sempre comparadas com o jogo\noriginal rodando no emulador Flycast. Não usa BIOS nem emulação do processador.\nA static (AOT) recompilation of Blue Stinger (Sega Dreamcast, 1999) into a native Windows x64 executable, in\nC++20. The game code is translated instruction by instruction into C++, and the console parts (files, timing, controls,\nsaves, movies, audio and video) were replaced, one at a time, by native PC versions, always checked against the original\ngame running in the Flycast emulator. No BIOS and no CPU emulation.\n\nEste repositório não contém o jogo nem nenhum dado dele. Você precisa da sua própria cópia do disco (GDI, CUE/BIN,\nCHD ou CDI). Ver LEGAL.md.\nThis repository does not contain the game or any of its data. You need your own copy of the disc (GDI, CUE/BIN,\nCHD or CDI). See LEGAL.md.\n\nStatus\nAtualizado em 24/11/2026. O jogo já roda no Windows a partir do seu disco, com controles (teclado e controle), saves,\nfilmes, áudio e vídeo nativos, renderização Vulkan, câmera livre, texturas HD, antialiasing e legendas em português, inglês,\nespanhol, francês, russo, japonês e chinês. A versão atual é uma pré-release:\nv0.9.7-8, com suporte completo ao RecompLauncher\n(instalação fácil, saves na nuvem e configurações no launcher). Os 16 filmes widescreen estão publicados.\nUpdated on 2026-11-24. The game already runs on Windows from your disc, with native controls (keyboard and gamepad),\nsaves, movies, audio and video, Vulkan rendering, a free camera, HD textures, antialiasing and subtitles in Portuguese,\nEnglish, Spanish, French, Russian, Japanese and Chinese. The current version is a pre-release:\nv0.9.7-8, with full RecompLauncher support (easy\nsetup, cloud saves and settings in the launcher). All 16 widescreen movies are published.\nRumo à versão 1.0: as etapas N0 a N6 estão concluídas, N7 e N8 estão em 95% e o N9 tem 6 de 8 partes com o trabalho\ntécnico concluído. A campanha completa ainda não começou. Isso dá cerca de 88%: as 11 etapas da 1.0 (N0 a N9 e a\ncampanha) têm o mesmo peso, e cada parte com trabalho técnico concluído conta como inteira.\nTowards version 1.0: stages N0 to N6 are done, N7 and N8 are at 95%, and N9 has 6 of its 8 parts technically done. The\nfull playthrough has not started yet. That is about 88%: the 11 stages of 1.0 (N0 to N9 and the playthrough) have equal\nweight, and each technically finished part counts as complete.\nPlanejamento / Roadmap\nO caminho foi dividido em duas fases: o que entra na versão 1.0 e o que vem depois dela. Em 22/11/2026 o escopo\nda 1.0 foi reduzido: controles avançados, acessibilidade, recursos extras e otimização saíram do N9 e passaram para o\nN10, e os mods passaram para o N11.\nThe plan is split into two phases: what goes into version 1.0 and what comes after it. On 2026-11-22 the 1.0\nscope was reduced: advanced controls, accessibility, extra features and optimization moved from N9 to N10, and mods moved\nto N11.\n✅ concluído / done · 🟡 em andamento ou aguardando conferência / in progress or awaiting review · ⬜ não iniciado / not started\nVersão 1.0 / Version 1.0\n\nEtapa / Stage\nO que é / What it is\nStatus\n\nN0–N6\nBase, arquivos, tempo, controles, saves, filmes e áudio nativos / Foundation, native files, timing, controls, saves, movies and audio\n✅\n\nN7\nRenderização Vulkan / Vulkan rendering\n🟡 95%: falta uma comparação de neblina com o original / one fog comparison against the original is missing\n\nN8\nRemoção da simulação do console / Console simulation removed\n🟡 95%: falta a campanha completa e uma falha de áudio intermitente / full playthrough and an intermittent audio fault pending\n\nN9\nRemasterização: edições Original e Remastered do mesmo jogo / Remaster: Original and Remastered editions of the same game\n🟡 ver abaixo / see below\n\nCampanha / Playthrough\nZerar o jogo do início ao fim, gravado e reproduzível, nas duas edições / Finish the game start to end, recorded and reproducible, in both editions\n⬜ obrigatória para a 1.0 / required for 1.0\n\nN9\nParte / Part\nStatus\n\nN9.0\nDuas edições no mesmo executável / Two editions in the same executable\n✅\n\nN9.1\nInstalador gráfico / Graphical installer\n🟡 pronto, falta conferência visual / done, visual review pending\n\nN9.2\nInterface da Remastered / Remastered interface\n🟡 pronto, falta conferência visual / done, visual review pending\n\nN9.3\nWidescreen 16:9 e HUD, incluindo os filmes widescreen / 16:9 widescreen and HUD, including widescreen movies\n🟡 pronto, falta conferência visual; filmes: 16 de 16 aprovados e publicados / done, visual review pending; movies: 16 of 16 approved and published\n\nN9.4\nIluminação, sombras e oclusão ambiente / Lighting, shadows and ambient occlusion\n🟡 pronto, falta conferência visual / done, visual review pending\n\nN9.5\nÁgua remasterizada / Remastered water\n🟡 só o cais; faltam outras áreas / docks only; other areas pending\n\nN9.6\nTexturas HD, antialiasing e pós-processamento / HD textures, antialiasing and post-processing\n🟡 publicado na v0.9.7-6, falta conferência visual / released in v0.9.7-6, visual review pending\n\nN9.7\nEstabilização final / Final stabilization\n⬜\n\nO suporte a Linux (N9-L) segue em paralelo: os passos L0 a L5 já foram publicados.\nLinux support (N9-L) runs in parallel: steps L0 to L5 are already published.\nDepois da 1.0 / After 1.0\n\nEtapa / Stage\nO que é / What it is\nStatus\n\nN10.0\nControles e experiência de PC: remapeamento no menu, ícones por controle, vários monitores / Controls and PC experience: in-menu remapping, per-gamepad icons, multiple monitors\n⬜\n\nN10.1\nCinemáticas, áudio e acessibilidade: filmes e músicas substituíveis, opções de legenda e de HUD / Cutscenes, audio and accessibility: replaceable movies and music, subtitle and HUD options\n⬜\n\nN10.2\nRecursos extras: mapa, estatísticas, modo foto, conquistas locais / Extra features: map, statistics, photo mode, local achievements\n⬜\n\nN10.3\nDesempenho e compatibilidade: NVIDIA, AMD e Intel, até 4K, Linux / Performance and compatibility: NVIDIA, AMD and Intel, up to 4K, Linux\n⬜\n\nN11\nMods e sistemas do jogo em C++ editável / Mods and game systems as editable C++\n⬜\n\nOs números antigos continuam nos documentos e nos commits anteriores. Equivalência: N9.5 → N9.3, N9.6 → N9.4, N9.7 →\nN9.5, N9.8 → N9.6, N9.12 → N9.7, N9.4 → N10.0, N9.9 → N10.1, N9.10 → N10.2, N9.11 → N10.3 e N10 → N11. O antigo N9.3\n(saves de PC) foi cancelado. Detalhes em docs/N9-PLANO.md.\nThe old numbers remain in earlier documents and commits. Mapping: N9.5 → N9.3, N9.6 → N9.4, N9.7 → N9.5, N9.8 → N9.6,\nN9.12 → N9.7, N9.4 → N10.0, N9.9 → N10.1, N9.10 → N10.2, N9.11 → N10.3 and N10 → N11. The old N9.3 (PC saves) was\ncancelled. Details in docs/N9-PLANO.md.\nBugs reportados / Reported bugs\nProblemas e pedidos enviados pelas issues e o estado de cada um.\nSe o seu problema não estiver aqui, abra uma issue.\nProblems and requests sent through issues and the status of\neach one. If your problem is not listed, please open an issue.\n✅ resolvido / fixed · ❌ em aberto / open\n\nIssue\nProblema / Problem\nStatus\nVersão / Version\n\n#1\nCDIs de outras fontes eram recusados / CDIs from other sources were rejected\n✅\nv0.9.7-3\n\n#1\nO instalador fecha depois de escolher a imagem / The installer closes after choosing the image\n❌ não reproduzido nos nossos testes; quem abriu a issue já instala, falta o retorno de outro usuário / not reproduced in our tests; the reporter can install now, waiting for another user's feedback\n—\n\n#2\nImagens CHD não eram aceitas / CHD images were not accepted\n✅ confirmado por quem relatou / confirmed by the reporter\nv0.9.7-3\n\n#3\nImagens GDI não eram aceitas / GDI images were not accepted\n✅\nv0.9.7-3\n\n#3\nO instalador fechava após o seletor de arquivos, por causa de uma extensão do Explorer / The installer closed after the file picker, because of an Explorer extension\n✅\nv0.9.7-4\n\n#3\nA instalação exigia o Visual Studio / Installing required Visual Studio\n✅\nv0.9.7-5\n\n#4, #5\nO Director's Cut não era suportado / The Director's Cut was not supported\n✅\nv0.9.7-4\n\n#4\nVersão PAL em 480p perde a sincronia e trava na primeira cena da Janine no QG / PAL version at 480p loses sync and freezes in the first Janine scene at HQ\n❌ ainda não testado / not tested yet\n—\n\nRecompLauncher\n\"Jogar\" abria o desinstalador e a instalação fácil não aparecia / \"Play\" opened the uninstaller and easy setup was missing\n✅\nv0.9.7-6\n\ntestes internos / internal tests\nFalhas intermitentes no áudio em tempo real / Intermittent real-time audio dropouts\n❌\n—\n\nVersões suportadas / Supported versions\n\nProduto / Product\nVersão / Version\nRegião / Region\nEdições / Editions\n\nT13001N\nV1.000 (1999-07-05)\nNTSC-U (EUA / USA)\nOriginal e Remastered / Original and Remastered\n\nT13001D 18\nV1.000\nPAL alemã / German PAL\nOriginal, 50 Hz\n\nT13001D-05\nV1.000\nPAL inglesa / English PAL\nOriginal, 50 Hz\n\nT13001D 09\nV1.000\nPAL francesa / French PAL\nOriginal, 50 Hz\n\nHDR-0003\nV1.006\nNTSC-J (Japão / Japan)\nOriginal\n\nDirector's Cut\nEN e FR / EN and FR\njaponesa com o patch de espouaisso / Japanese with the patch by espouaisso\nOriginal\n\nComo usar / How to use\nBaixe a última versão, abra o BlueStinger-Recompiler.exe e\nescolha o seu disco. O instalador compila o jogo na sua máquina e nada do disco sai dela. Imagens aceitas: GDI,\nCUE/BIN (como as do Redump), CHD e CDI, também dentro de .zip ou .7z.\nDownload the latest release, open BlueStinger-Recompiler.exe\nand pick your disc. The installer builds the game on your machine and nothing from the disc leaves it. Accepted images:\nGDI, CUE/BIN (like Redump's), CHD and CDI, also inside .zip or .7z.\nPara compilar, o instalador usa o Visual Studio (ou os Build Tools), se estiver instalado. Se não estiver, ele oferece um\ncompilador portátil: baixa o Zig, o CMake e o Ninja oficiais (cerca de 125 MB, cada arquivo conferido pelo SHA-256) e\nos guarda só no seu perfil, em %LOCALAPPDATA%\\BlueStingerRecomp\\compilador, sem instalar nada no sistema.\nTo build, the installer uses Visual Studio (or the Build Tools) when it is installed. Otherwise it offers a portable\ncompiler: it downloads the official Zig, CMake and Ninja (about 125 MB, each file checked by SHA-256) and keeps them only\nin your profile, in %LOCALAPPDATA%\\BlueStingerRecomp\\compilador, without installing anything on the system.\nPela linha de comando, o Builder faz o mesmo:\nFrom the command line, the Builder does the same:\nbs-builder --disc <seu_disco.cdi> --out <pasta> --kit . --sdl3 build/msvc-release/_deps/sdl3-src\nbs-builder ... --compilador-portatil\n\nPara desenvolvedores / For developers\nRequisitos: Visual Studio 2022 ou mais novo (ou os Build Tools) com CMake e Ninja, ou Clang. O jogo também compila com o\nZig no alvo x86_64-windows-gnu. Abra um Developer PowerShell e rode:\nRequirements: Visual Studio 2022 or newer (or the Build Tools) with CMake and Ninja, or Clang. The game also builds with\nZig for the x86_64-windows-gnu target. Open a Developer PowerShell and run:\ncmake --preset msvc-debug\ncmake --build --preset msvc-debug\nctest --preset msvc-debug\n\nO teste real_disc usa a sua imagem quando BS_DISC_IMAGE aponta para o .cdi, .gdi, .cue ou .chd. Sem essa\nvariável, ele é ignorado.\nThe real_disc test uses your image when BS_DISC_IMAGE points to the .cdi, .gdi, .cue or .chd. Without that\nvariable it is skipped.\nFerramentas de linha de comando:\nCommand-line tools:\nbs-extract --info \"ISO/Blue Stinger.cdi\" # mostra faixas e hash sem gravar nada / shows tracks and hash, writes nothing\nbs-extract \"ISO/Blue Stinger.cdi\" game-data # extrai e valida o hash / extracts and checks the hash\nbs-recomp config/bluestinger_us.toml # gera generated/*.cpp / generates generated/*.cpp\nbs-disasm game-data/1ST_READ.BIN 0x8C010000 0x8C010000 64 # disassembly: base, início, quantidade / base, start, count\n\nO executável 1ST_READ.BIN precisa ter o SHA-256 de uma versão suportada (tools/extractor/known_versions.h). Com\n--force, a extração acontece mesmo assim, e o resultado fica marcado como não verificado.\nThe 1ST_READ.BIN executable must match the SHA-256 of a supported version (tools/extractor/known_versions.h). With\n--force it is extracted anyway, and the result is marked as unverified.\nDetalhes e evidências de cada verificação estão no STATUS.md. A arquitetura está no\nARCHITECTURE.md, e os planos de cada etapa, em docs/.\nDetails and evidence for every check are in STATUS.md. The architecture is in\nARCHITECTURE.md, and each stage's plans are in docs/.\nAs pastas locais ISO/, game-data/, generated/, analysis/, saves/ e build/ são ignoradas pelo git.\nThe local folders ISO/, game-data/, generated/, analysis/, saves/ and build/ are ignored by git.",
-      "images": [],
-      "length": 13061,
-      "imageCount": 0
-    },
     "gh-1469836447": {
       "version": 4,
       "url": "https://github.com/Recoi1/RE-DEX",
-      "fetchedAt": "2026-11-25T04:06:38.634Z",
+      "fetchedAt": "2026-11-25T04:09:41.892Z",
       "title": "GitHub - Recoi1/RE-DEX: RE:DEX: Pokémon X and Y (3DS) recompiled to native PC, with a shared X/Y cross-play online world. Rust. Bring your own dump.",
       "byline": "",
       "siteName": "GitHub",
@@ -27962,10 +27988,34 @@
       "length": 3101,
       "imageCount": 0
     },
+    "gh-1429030695": {
+      "version": 4,
+      "url": "https://github.com/DCRecomp/BlueStingerRecomp",
+      "fetchedAt": "2026-11-25T04:09:42.052Z",
+      "title": "GitHub - DCRecomp/BlueStingerRecomp: Open-source static recompilation of Blue Stinger (Dreamcast, SH-4) into native Windows x64 C++20, focused on game preservation, hardware replacement, and modding.",
+      "byline": "",
+      "siteName": "GitHub",
+      "content": "Blue Stinger Recompiled\n\nTambém disponível no RecompLauncher, que instala e atualiza o jogo\ndireto deste repositório.\nAlso available on RecompLauncher, which installs and updates the\ngame straight from this repository.\nRecompilação estática (AOT) de Blue Stinger (Sega Dreamcast, 1999) para um executável nativo de Windows x64, em\nC++20. O código do jogo é traduzido instrução por instrução para C++, e as partes do console (arquivos, tempo, controles,\nsaves, filmes, áudio e vídeo) foram trocadas, uma por vez, por versões nativas de PC, sempre comparadas com o jogo\noriginal rodando no emulador Flycast. Não usa BIOS nem emulação do processador.\nA static (AOT) recompilation of Blue Stinger (Sega Dreamcast, 1999) into a native Windows x64 executable, in\nC++20. The game code is translated instruction by instruction into C++, and the console parts (files, timing, controls,\nsaves, movies, audio and video) were replaced, one at a time, by native PC versions, always checked against the original\ngame running in the Flycast emulator. No BIOS and no CPU emulation.\n\nEste repositório não contém o jogo nem nenhum dado dele. Você precisa da sua própria cópia do disco (GDI, CUE/BIN,\nCHD ou CDI). Ver LEGAL.md.\nThis repository does not contain the game or any of its data. You need your own copy of the disc (GDI, CUE/BIN,\nCHD or CDI). See LEGAL.md.\n\nStatus\nAtualizado em 24/11/2026. O jogo já roda no Windows a partir do seu disco, com controles (teclado e controle), saves,\nfilmes, áudio e vídeo nativos, renderização Vulkan, câmera livre, texturas HD, antialiasing e legendas em português, inglês,\nespanhol, francês, russo, japonês e chinês. A versão atual é uma pré-release:\nv0.9.7-8, com suporte completo ao RecompLauncher\n(instalação fácil, saves na nuvem e configurações no launcher). Os 16 filmes widescreen estão publicados.\nUpdated on 2026-11-24. The game already runs on Windows from your disc, with native controls (keyboard and gamepad),\nsaves, movies, audio and video, Vulkan rendering, a free camera, HD textures, antialiasing and subtitles in Portuguese,\nEnglish, Spanish, French, Russian, Japanese and Chinese. The current version is a pre-release:\nv0.9.7-8, with full RecompLauncher support (easy\nsetup, cloud saves and settings in the launcher). All 16 widescreen movies are published.\nRumo à versão 1.0: as etapas N0 a N6 estão concluídas, N7 e N8 estão em 95% e o N9 tem 6 de 8 partes com o trabalho\ntécnico concluído. A campanha completa ainda não começou. Isso dá cerca de 88%: as 11 etapas da 1.0 (N0 a N9 e a\ncampanha) têm o mesmo peso, e cada parte com trabalho técnico concluído conta como inteira.\nTowards version 1.0: stages N0 to N6 are done, N7 and N8 are at 95%, and N9 has 6 of its 8 parts technically done. The\nfull playthrough has not started yet. That is about 88%: the 11 stages of 1.0 (N0 to N9 and the playthrough) have equal\nweight, and each technically finished part counts as complete.\nPlanejamento / Roadmap\nO caminho foi dividido em duas fases: o que entra na versão 1.0 e o que vem depois dela. Em 22/11/2026 o escopo\nda 1.0 foi reduzido: controles avançados, acessibilidade, recursos extras e otimização saíram do N9 e passaram para o\nN10, e os mods passaram para o N11.\nThe plan is split into two phases: what goes into version 1.0 and what comes after it. On 2026-11-22 the 1.0\nscope was reduced: advanced controls, accessibility, extra features and optimization moved from N9 to N10, and mods moved\nto N11.\n✅ concluído / done · 🟡 em andamento ou aguardando conferência / in progress or awaiting review · ⬜ não iniciado / not started\nVersão 1.0 / Version 1.0\n\nEtapa / Stage\nO que é / What it is\nStatus\n\nN0–N6\nBase, arquivos, tempo, controles, saves, filmes e áudio nativos / Foundation, native files, timing, controls, saves, movies and audio\n✅\n\nN7\nRenderização Vulkan / Vulkan rendering\n🟡 95%: falta uma comparação de neblina com o original / one fog comparison against the original is missing\n\nN8\nRemoção da simulação do console / Console simulation removed\n🟡 95%: falta a campanha completa e uma falha de áudio intermitente / full playthrough and an intermittent audio fault pending\n\nN9\nRemasterização: edições Original e Remastered do mesmo jogo / Remaster: Original and Remastered editions of the same game\n🟡 ver abaixo / see below\n\nCampanha / Playthrough\nZerar o jogo do início ao fim, gravado e reproduzível, nas duas edições / Finish the game start to end, recorded and reproducible, in both editions\n⬜ obrigatória para a 1.0 / required for 1.0\n\nN9\nParte / Part\nStatus\n\nN9.0\nDuas edições no mesmo executável / Two editions in the same executable\n✅\n\nN9.1\nInstalador gráfico / Graphical installer\n🟡 pronto, falta conferência visual / done, visual review pending\n\nN9.2\nInterface da Remastered / Remastered interface\n🟡 pronto, falta conferência visual / done, visual review pending\n\nN9.3\nWidescreen 16:9 e HUD, incluindo os filmes widescreen / 16:9 widescreen and HUD, including widescreen movies\n🟡 pronto, falta conferência visual; filmes: 16 de 16 aprovados e publicados / done, visual review pending; movies: 16 of 16 approved and published\n\nN9.4\nIluminação, sombras e oclusão ambiente / Lighting, shadows and ambient occlusion\n🟡 pronto, falta conferência visual / done, visual review pending\n\nN9.5\nÁgua remasterizada / Remastered water\n🟡 só o cais; faltam outras áreas / docks only; other areas pending\n\nN9.6\nTexturas HD, antialiasing e pós-processamento / HD textures, antialiasing and post-processing\n🟡 publicado na v0.9.7-6, falta conferência visual / released in v0.9.7-6, visual review pending\n\nN9.7\nEstabilização final / Final stabilization\n⬜\n\nO suporte a Linux (N9-L) segue em paralelo: os passos L0 a L5 já foram publicados.\nLinux support (N9-L) runs in parallel: steps L0 to L5 are already published.\nDepois da 1.0 / After 1.0\n\nEtapa / Stage\nO que é / What it is\nStatus\n\nN10.0\nControles e experiência de PC: remapeamento no menu, ícones por controle, vários monitores / Controls and PC experience: in-menu remapping, per-gamepad icons, multiple monitors\n⬜\n\nN10.1\nCinemáticas, áudio e acessibilidade: filmes e músicas substituíveis, opções de legenda e de HUD / Cutscenes, audio and accessibility: replaceable movies and music, subtitle and HUD options\n⬜\n\nN10.2\nRecursos extras: mapa, estatísticas, modo foto, conquistas locais / Extra features: map, statistics, photo mode, local achievements\n⬜\n\nN10.3\nDesempenho e compatibilidade: NVIDIA, AMD e Intel, até 4K, Linux / Performance and compatibility: NVIDIA, AMD and Intel, up to 4K, Linux\n⬜\n\nN11\nMods e sistemas do jogo em C++ editável / Mods and game systems as editable C++\n⬜\n\nOs números antigos continuam nos documentos e nos commits anteriores. Equivalência: N9.5 → N9.3, N9.6 → N9.4, N9.7 →\nN9.5, N9.8 → N9.6, N9.12 → N9.7, N9.4 → N10.0, N9.9 → N10.1, N9.10 → N10.2, N9.11 → N10.3 e N10 → N11. O antigo N9.3\n(saves de PC) foi cancelado. Detalhes em docs/N9-PLANO.md.\nThe old numbers remain in earlier documents and commits. Mapping: N9.5 → N9.3, N9.6 → N9.4, N9.7 → N9.5, N9.8 → N9.6,\nN9.12 → N9.7, N9.4 → N10.0, N9.9 → N10.1, N9.10 → N10.2, N9.11 → N10.3 and N10 → N11. The old N9.3 (PC saves) was\ncancelled. Details in docs/N9-PLANO.md.\nBugs reportados / Reported bugs\nProblemas e pedidos enviados pelas issues e o estado de cada um.\nSe o seu problema não estiver aqui, abra uma issue.\nProblems and requests sent through issues and the status of\neach one. If your problem is not listed, please open an issue.\n✅ resolvido / fixed · ❌ em aberto / open\n\nIssue\nProblema / Problem\nStatus\nVersão / Version\n\n#1\nCDIs de outras fontes eram recusados / CDIs from other sources were rejected\n✅\nv0.9.7-3\n\n#1\nO instalador fecha depois de escolher a imagem / The installer closes after choosing the image\n❌ não reproduzido nos nossos testes; quem abriu a issue já instala, falta o retorno de outro usuário / not reproduced in our tests; the reporter can install now, waiting for another user's feedback\n—\n\n#2\nImagens CHD não eram aceitas / CHD images were not accepted\n✅ confirmado por quem relatou / confirmed by the reporter\nv0.9.7-3\n\n#3\nImagens GDI não eram aceitas / GDI images were not accepted\n✅\nv0.9.7-3\n\n#3\nO instalador fechava após o seletor de arquivos, por causa de uma extensão do Explorer / The installer closed after the file picker, because of an Explorer extension\n✅\nv0.9.7-4\n\n#3\nA instalação exigia o Visual Studio / Installing required Visual Studio\n✅\nv0.9.7-5\n\n#4, #5\nO Director's Cut não era suportado / The Director's Cut was not supported\n✅\nv0.9.7-4\n\n#4\nVersão PAL em 480p perde a sincronia e trava na primeira cena da Janine no QG / PAL version at 480p loses sync and freezes in the first Janine scene at HQ\n❌ ainda não testado / not tested yet\n—\n\nRecompLauncher\n\"Jogar\" abria o desinstalador e a instalação fácil não aparecia / \"Play\" opened the uninstaller and easy setup was missing\n✅\nv0.9.7-6\n\ntestes internos / internal tests\nFalhas intermitentes no áudio em tempo real / Intermittent real-time audio dropouts\n❌\n—\n\nVersões suportadas / Supported versions\n\nProduto / Product\nVersão / Version\nRegião / Region\nEdições / Editions\n\nT13001N\nV1.000 (1999-07-05)\nNTSC-U (EUA / USA)\nOriginal e Remastered / Original and Remastered\n\nT13001D 18\nV1.000\nPAL alemã / German PAL\nOriginal, 50 Hz\n\nT13001D-05\nV1.000\nPAL inglesa / English PAL\nOriginal, 50 Hz\n\nT13001D 09\nV1.000\nPAL francesa / French PAL\nOriginal, 50 Hz\n\nHDR-0003\nV1.006\nNTSC-J (Japão / Japan)\nOriginal\n\nDirector's Cut\nEN e FR / EN and FR\njaponesa com o patch de espouaisso / Japanese with the patch by espouaisso\nOriginal\n\nComo usar / How to use\nBaixe a última versão, abra o BlueStinger-Recompiler.exe e\nescolha o seu disco. O instalador compila o jogo na sua máquina e nada do disco sai dela. Imagens aceitas: GDI,\nCUE/BIN (como as do Redump), CHD e CDI, também dentro de .zip ou .7z.\nDownload the latest release, open BlueStinger-Recompiler.exe\nand pick your disc. The installer builds the game on your machine and nothing from the disc leaves it. Accepted images:\nGDI, CUE/BIN (like Redump's), CHD and CDI, also inside .zip or .7z.\nPara compilar, o instalador usa o Visual Studio (ou os Build Tools), se estiver instalado. Se não estiver, ele oferece um\ncompilador portátil: baixa o Zig, o CMake e o Ninja oficiais (cerca de 125 MB, cada arquivo conferido pelo SHA-256) e\nos guarda só no seu perfil, em %LOCALAPPDATA%\\BlueStingerRecomp\\compilador, sem instalar nada no sistema.\nTo build, the installer uses Visual Studio (or the Build Tools) when it is installed. Otherwise it offers a portable\ncompiler: it downloads the official Zig, CMake and Ninja (about 125 MB, each file checked by SHA-256) and keeps them only\nin your profile, in %LOCALAPPDATA%\\BlueStingerRecomp\\compilador, without installing anything on the system.\nPela linha de comando, o Builder faz o mesmo:\nFrom the command line, the Builder does the same:\nbs-builder --disc <seu_disco.cdi> --out <pasta> --kit . --sdl3 build/msvc-release/_deps/sdl3-src\nbs-builder ... --compilador-portatil\n\nPara desenvolvedores / For developers\nRequisitos: Visual Studio 2022 ou mais novo (ou os Build Tools) com CMake e Ninja, ou Clang. O jogo também compila com o\nZig no alvo x86_64-windows-gnu. Abra um Developer PowerShell e rode:\nRequirements: Visual Studio 2022 or newer (or the Build Tools) with CMake and Ninja, or Clang. The game also builds with\nZig for the x86_64-windows-gnu target. Open a Developer PowerShell and run:\ncmake --preset msvc-debug\ncmake --build --preset msvc-debug\nctest --preset msvc-debug\n\nO teste real_disc usa a sua imagem quando BS_DISC_IMAGE aponta para o .cdi, .gdi, .cue ou .chd. Sem essa\nvariável, ele é ignorado.\nThe real_disc test uses your image when BS_DISC_IMAGE points to the .cdi, .gdi, .cue or .chd. Without that\nvariable it is skipped.\nFerramentas de linha de comando:\nCommand-line tools:\nbs-extract --info \"ISO/Blue Stinger.cdi\" # mostra faixas e hash sem gravar nada / shows tracks and hash, writes nothing\nbs-extract \"ISO/Blue Stinger.cdi\" game-data # extrai e valida o hash / extracts and checks the hash\nbs-recomp config/bluestinger_us.toml # gera generated/*.cpp / generates generated/*.cpp\nbs-disasm game-data/1ST_READ.BIN 0x8C010000 0x8C010000 64 # disassembly: base, início, quantidade / base, start, count\n\nO executável 1ST_READ.BIN precisa ter o SHA-256 de uma versão suportada (tools/extractor/known_versions.h). Com\n--force, a extração acontece mesmo assim, e o resultado fica marcado como não verificado.\nThe 1ST_READ.BIN executable must match the SHA-256 of a supported version (tools/extractor/known_versions.h). With\n--force it is extracted anyway, and the result is marked as unverified.\nDetalhes e evidências de cada verificação estão no STATUS.md. A arquitetura está no\nARCHITECTURE.md, e os planos de cada etapa, em docs/.\nDetails and evidence for every check are in STATUS.md. The architecture is in\nARCHITECTURE.md, and each stage's plans are in docs/.\nAs pastas locais ISO/, game-data/, generated/, analysis/, saves/ e build/ são ignoradas pelo git.\nThe local folders ISO/, game-data/, generated/, analysis/, saves/ and build/ are ignored by git.",
+      "images": [],
+      "length": 13061,
+      "imageCount": 0
+    },
+    "gh-1459288063": {
+      "version": 4,
+      "url": "https://github.com/Heretek-AI/TAT-2",
+      "fetchedAt": "2026-11-25T04:09:42.285Z",
+      "title": "GitHub - Heretek-AI/TAT-2",
+      "byline": "",
+      "siteName": "GitHub",
+      "content": "TAT-2 — Thick As Thieves rebuilt in Godot 4.7\nA private-use, asset-faithful port of the shipped UE5.5 game Thick As Thieves\nto Godot 4.7.2 (Forward+, Jolt, 1280×720 reference). The port loads the real\nextracted geometry, materials, landscapes, audio, animation and gameplay tables;\nthe TAT-2 expansion adds The Moth thief, Jaspering Hall and co-op.\n\nPrivate-use notice. Extracted assets from the Steam install live in\nextracted/ and game/assets/ue/, both git-ignored. Only original code, tools\nand expansion content are committed. Do not redistribute extracted content.\n\nStatus (2026-11-24, bc063d2) — playable end-to-end: startscreen → Den →\ncontract prep → Guildhall run → two-phase escape → scoring, plus free-play\ncleanout, carried-loot capacity and stashing, two-player ENet co-op and all five\nE2E tiers.\n\nGate\nResult\n\nGDScript compile (tools/check_scripts_compile.gd)\n120 scripts, 0 broken\n\nUnit/integration (tests/run_tests.gd)\n278 checks, fails=0 (suites numbered to 90)\n\nM2 traversal/tools (tests/test_m2_player.gd)\nfails=0 (11)\n\nE2E (tests/e2e/run_e2e_tests.gd, tiers 1–4 + s2)\n278/278 (tier 1: 117)\n\nDoor walk · viewmodel truth · Niagara · leak probe\nPASS\n\nSteam manifest + content audit (make audit)\nexit 0, fail-closed tracked baseline, disk-backed coverage 99.6 % (12657/12703), 13/13 content groups\n\nGate ratchet (make gate-ratchet)\nPASS — floors verified against committed logs\n\nNot yet measured: the perf matrix (no publishable FPS run) and the editor's\nper-process VRAM. Do not quote frame rates from any older run.\nQuick start\nmake run # launch the game (native tools/godot, Flatpak fallback)\nmake test # headless unit/integration suite\nmake audit # fail-closed content + producer-baseline gate\npython3 tools/test_manifest_audit.py # negative controls for the audit\nA fresh clone needs the private assets first:\nmake extract # CUE4Parse dump of the Steam install\nmake normalize # generated JSON (levels, materials, gameplay, …)\nmake anims # 995 animation GLBs (Blender, ~30 min)\ntools/reimport_assets.sh # Godot import\nmake desktop-texture-cap # 1024 px cap + mipmaps (rerun after clean extract)\nRequirements: Godot 4.7.2 (tools/godot wrapper), Python 3, .NET 10 SDK (extractor),\nBlender (anims). Linux x86_64 desktop is the supported target; Android internal\nbuilds are documented in docs/ANDROID.md.\nCommands\n\nCommand\nPurpose\n\nmake run\nLaunch the desktop client (F3 = FPS/draw-call overlay)\n\nmake test\nHeadless integration run (278 checks)\n\nmake audit\nFail-closed gate: texture cap, mount/disk coverage, 13 content domains, producer output hashes, errors.log marker, freshness\n\nmake gate-ratchet\nAssert the gate floors in tools/gate_ratchet.json against the committed logs in docs/reports/logs/\n\nmake audit-bootstrap\nExplicit first run; writes the tracked tools/audit_baseline.json\n\nmake audit-refresh-stamps\nEscape hatch after regeneration; missing/decreased outputs still fail\n\nmake audit-imports\nSeparate Godot import gate (.import sidecars + .translation)\n\nmake normalize\nRun all 21 generated-data producers\n\nmake linux-build / make linux-stamp-verify / make linux-run\nLinux x86_64 export, its HEAD/PCK provenance stamp, and a run\n\nmake android-debug / make android-release\nSigned internal APK\n\nmake desktop-texture-cap\nRe-bake the 1024 px texture cap\n\nmake texture-cap-check\nRead-only: fail if any over-cap loader texture lacks the cap + mipmaps\n\nmake editor\nOpen the Godot editor with the TAT-2 Review dock\n\nmake bake-review MAP=guildhall\nHeadless bake of one binary LevelLoader scene per sublevel (+ manifest)\n\nmake bake-review-core\nBake the single-file core map used for load/VRAM checks\n\nmake review MAP=guildhall\nIn-game free-camera review of the static world (no mission)\n\nbuild/qa/test_perf_guard.sh\nExercise the perf wrapper's stamp/temperature/RSS contracts without launching a game\n\ntools/audit_baseline.json is tracked and records every producer/infrastructure\nhash, external tool version and per-output content digest. A normal run with no\nbaseline fails; make audit-bootstrap is the explicit first-run path.\ntools/audit_allowlists.json holds the 73 known case-only path normalizations,\n33 case-only .ubulk companions and 46 known-undumped manifest paths.\nHeadless gates that are not Make aliases:\ntools/godot --headless --path game --script \"$PWD/tools/check_scripts_compile.gd\"\ntools/godot --headless --path game --script res://tests/test_m2_player.gd\ntools/godot --headless --path game --script res://tests/e2e/run_e2e_tests.gd\ntools/godot --headless --path game --script res://probe_leak.gd\nWorld review\nThe real Guildhall/Den/Old-Manor world can be inspected without starting a\nmission, with the same LevelLoader the game uses:\nmake bake-review MAP=guildhall # per-sublevel .scn + world.scn + review.tscn + manifest\nmake editor # TAT-2 Review dock: bake/open, sublevel+kind toggles, bookmarks\nmake review MAP=guildhall # in-game free camera (WASD/QE, 1-0 toggles, F1-F6 bookmarks, P capture)\nmake review-capture MAP=guildhall # offscreen six-bookmark PNG sweep (no window presentation needed)\nGenerated scenes land in game/scenes/review/<map>/ and are git-ignored\n(extracted-content derivatives). The in-game camera loads the live world, not\nthe baked scenes; P saves PNGs to user://review_captures/. Architecture,\ntagging vocabulary, measured Den/lobby numbers and limits are in\ndocs/reports/review-map-baker.md.\nPlaying\n\nThieves: The Spider (grapple wire), The Chameleon (disguise integrity),\nThe Moth (astral scout, TAT-2 expansion).\nGadgets: Slithersap, smoke bomb, pickpocket fairy, blackjack, Thief Vision,\nlean left/right.\nContracts: 16 shipped contracts across Old Manor and Guildhall on Novice /\nThief / Master Thief, plus the FTUE tutorial route. The TAT-2 expansion adds\nThe Moth, the Jaspering Hall prep/tutorial identity and 2-player ENet co-op.\nFree play: in the Thieves' Den map table press G (or the\nFREE PLAY: GUILDHALL CLEANOUT [G] button) for a score-only Contract Inactive\nrun of Mission.Guildhall.LootTheRoom. No contract progress or currency is\nbanked.\nRun clock: 55:00 on the main window (the mission's authored duration).\nCompleting the objectives summons the escape doors and starts a separate\n20:00 endgame window; the doors stay open for 4 minutes each, then collapse.\nLoot: 12 authored inventory slots — minor loot takes 1, major loot 3, so\nfour majors fill the bag. A full bag refuses the pickup with the authored\nINVENTORY FULL line. Deposit everything at a stash to free slots; stashed\nvalue is banked even if you are caught, while carried loot is only kept if you\nescape.\nQA autostart: --qa-free-play, --qa-mission, --qa-contract <n>.\n\nRepository layout\ngame/ Godot project (src/, scenes/, tests/, assets/ue -> extracted)\ntools/ extractor (.NET/CUE4Parse), 21 normalizers, audit + gates\nbuild/qa/ tracked capture/probe harness sources (captures ignored)\ndocs/ architecture, performance, fidelity tracker, wave reports, handoffs\nextracted/ private extraction cache (gitignored)\n\nRuntime code lives under game/src/{core,player,ai,stealth,interact,missions,ui};\ndata under game/data/generated/ (gitignored, produced by make normalize).\nDocumentation\n\nAGENTS.md — operating rules, gates and traps for coding agents.\ndocs/HANDOFF_NEXT_AGENT.md — current state,\npipeline gotchas and open work.\ndocs/FIDELITY_GAPS.md — live 1:1 coverage tracker and\nevery documented residual.\ndocs/reports/w7-integration.md — latest\nwave: loot capacity/stash/payout and save v8, two-phase run clock and 25 escape\nmarkers, surface-resolved hearing, stair descent, KF11 backdrop and Cotter\nwardrobe, export provenance and the Sonar plan.\ndocs/reports/review-remediation-wave.md\n— earlier wave: beams, two-sided materials, albedo recovery, doors, traversal\nblockers, FOV, loot grounding, sign, free play.\ndocs/ARCHITECTURE.md,\ndocs/PERFORMANCE.md,\ndocs/reports/ — module map, batching numbers, per-area reports.\n\nKnown residuals\nSee docs/FIDELITY_GAPS.md. The visible ones: Guildhall\nPOI graybox floors/floating furniture, sign lettering low-contrast at 27 m, some\nwhite glass/emissive plates, the Den's 43.5 vs UE 52.6 Lumen GI gap, and a\n7-texture probe-exit warning (TAT2_NO_DEN_PROBE=1 is the clean path).\nBehavioural residuals: walked descents of 0.18–0.30 m still take 4–12 airborne\nframes, the two-phase timer banks local-only in co-op, the post-match haul screen\nis not built, and XP still uses the port's invented rule rather than the authored\nDefaultGame.ini curve — which brings the 48 level-gated market items far\nearlier than authored. Hearing is range-based: walls and closed doors do not\nblock sound yet.",
+      "images": [],
+      "length": 8567,
+      "imageCount": 0
+    },
     "gonp5g": {
       "version": 4,
       "url": "https://www.zr.ru/content/news/988929-bolshe-tysyachi-kilometrov-bez-d/",
-      "fetchedAt": "2026-11-25T04:06:38.759Z",
+      "fetchedAt": "2026-11-25T04:09:42.371Z",
       "title": "Больше тысячи километров без дозаправки: Haval анонсировал новый кроссовер",
       "byline": "Лежнин Роман",
       "siteName": "zr.ru",
@@ -27982,7 +28032,7 @@
     "dpe5a7": {
       "version": 4,
       "url": "https://variety.com/2026/tv/news/glee-jenna-ushkowitz-cory-monteith-tribute-1236957675/",
-      "fetchedAt": "2026-11-25T04:06:39.252Z",
+      "fetchedAt": "2026-11-25T04:09:42.874Z",
       "title": "‘Glee’ Star Jenna Ushkowitz Says Cory Monteith Tribute Was 'Too Soon'",
       "byline": "Payton Turkeltaub",
       "siteName": "Variety",
@@ -27996,39 +28046,10 @@
       "length": 2488,
       "imageCount": 1
     },
-    "gh-1459288063": {
-      "version": 4,
-      "url": "https://github.com/Heretek-AI/TAT-2",
-      "fetchedAt": "2026-11-25T04:06:39.384Z",
-      "title": "GitHub - Heretek-AI/TAT-2",
-      "byline": "",
-      "siteName": "GitHub",
-      "content": "TAT-2 — Thick As Thieves rebuilt in Godot 4.7\nA private-use, asset-faithful port of the shipped UE5.5 game Thick As Thieves\nto Godot 4.7.2 (Forward+, Jolt, 1280×720 reference). The port loads the real\nextracted geometry, materials, landscapes, audio, animation and gameplay tables;\nthe TAT-2 expansion adds The Moth thief, Jaspering Hall and co-op.\n\nPrivate-use notice. Extracted assets from the Steam install live in\nextracted/ and game/assets/ue/, both git-ignored. Only original code, tools\nand expansion content are committed. Do not redistribute extracted content.\n\nStatus (2026-11-24, bc063d2) — playable end-to-end: startscreen → Den →\ncontract prep → Guildhall run → two-phase escape → scoring, plus free-play\ncleanout, carried-loot capacity and stashing, two-player ENet co-op and all five\nE2E tiers.\n\nGate\nResult\n\nGDScript compile (tools/check_scripts_compile.gd)\n120 scripts, 0 broken\n\nUnit/integration (tests/run_tests.gd)\n278 checks, fails=0 (suites numbered to 90)\n\nM2 traversal/tools (tests/test_m2_player.gd)\nfails=0 (11)\n\nE2E (tests/e2e/run_e2e_tests.gd, tiers 1–4 + s2)\n278/278 (tier 1: 117)\n\nDoor walk · viewmodel truth · Niagara · leak probe\nPASS\n\nSteam manifest + content audit (make audit)\nexit 0, fail-closed tracked baseline, disk-backed coverage 99.6 % (12657/12703), 13/13 content groups\n\nGate ratchet (make gate-ratchet)\nPASS — floors verified against committed logs\n\nNot yet measured: the perf matrix (no publishable FPS run) and the editor's\nper-process VRAM. Do not quote frame rates from any older run.\nQuick start\nmake run # launch the game (native tools/godot, Flatpak fallback)\nmake test # headless unit/integration suite\nmake audit # fail-closed content + producer-baseline gate\npython3 tools/test_manifest_audit.py # negative controls for the audit\nA fresh clone needs the private assets first:\nmake extract # CUE4Parse dump of the Steam install\nmake normalize # generated JSON (levels, materials, gameplay, …)\nmake anims # 995 animation GLBs (Blender, ~30 min)\ntools/reimport_assets.sh # Godot import\nmake desktop-texture-cap # 1024 px cap + mipmaps (rerun after clean extract)\nRequirements: Godot 4.7.2 (tools/godot wrapper), Python 3, .NET 10 SDK (extractor),\nBlender (anims). Linux x86_64 desktop is the supported target; Android internal\nbuilds are documented in docs/ANDROID.md.\nCommands\n\nCommand\nPurpose\n\nmake run\nLaunch the desktop client (F3 = FPS/draw-call overlay)\n\nmake test\nHeadless integration run (278 checks)\n\nmake audit\nFail-closed gate: texture cap, mount/disk coverage, 13 content domains, producer output hashes, errors.log marker, freshness\n\nmake gate-ratchet\nAssert the gate floors in tools/gate_ratchet.json against the committed logs in docs/reports/logs/\n\nmake audit-bootstrap\nExplicit first run; writes the tracked tools/audit_baseline.json\n\nmake audit-refresh-stamps\nEscape hatch after regeneration; missing/decreased outputs still fail\n\nmake audit-imports\nSeparate Godot import gate (.import sidecars + .translation)\n\nmake normalize\nRun all 21 generated-data producers\n\nmake linux-build / make linux-stamp-verify / make linux-run\nLinux x86_64 export, its HEAD/PCK provenance stamp, and a run\n\nmake android-debug / make android-release\nSigned internal APK\n\nmake desktop-texture-cap\nRe-bake the 1024 px texture cap\n\nmake texture-cap-check\nRead-only: fail if any over-cap loader texture lacks the cap + mipmaps\n\nmake editor\nOpen the Godot editor with the TAT-2 Review dock\n\nmake bake-review MAP=guildhall\nHeadless bake of one binary LevelLoader scene per sublevel (+ manifest)\n\nmake bake-review-core\nBake the single-file core map used for load/VRAM checks\n\nmake review MAP=guildhall\nIn-game free-camera review of the static world (no mission)\n\nbuild/qa/test_perf_guard.sh\nExercise the perf wrapper's stamp/temperature/RSS contracts without launching a game\n\ntools/audit_baseline.json is tracked and records every producer/infrastructure\nhash, external tool version and per-output content digest. A normal run with no\nbaseline fails; make audit-bootstrap is the explicit first-run path.\ntools/audit_allowlists.json holds the 73 known case-only path normalizations,\n33 case-only .ubulk companions and 46 known-undumped manifest paths.\nHeadless gates that are not Make aliases:\ntools/godot --headless --path game --script \"$PWD/tools/check_scripts_compile.gd\"\ntools/godot --headless --path game --script res://tests/test_m2_player.gd\ntools/godot --headless --path game --script res://tests/e2e/run_e2e_tests.gd\ntools/godot --headless --path game --script res://probe_leak.gd\nWorld review\nThe real Guildhall/Den/Old-Manor world can be inspected without starting a\nmission, with the same LevelLoader the game uses:\nmake bake-review MAP=guildhall # per-sublevel .scn + world.scn + review.tscn + manifest\nmake editor # TAT-2 Review dock: bake/open, sublevel+kind toggles, bookmarks\nmake review MAP=guildhall # in-game free camera (WASD/QE, 1-0 toggles, F1-F6 bookmarks, P capture)\nmake review-capture MAP=guildhall # offscreen six-bookmark PNG sweep (no window presentation needed)\nGenerated scenes land in game/scenes/review/<map>/ and are git-ignored\n(extracted-content derivatives). The in-game camera loads the live world, not\nthe baked scenes; P saves PNGs to user://review_captures/. Architecture,\ntagging vocabulary, measured Den/lobby numbers and limits are in\ndocs/reports/review-map-baker.md.\nPlaying\n\nThieves: The Spider (grapple wire), The Chameleon (disguise integrity),\nThe Moth (astral scout, TAT-2 expansion).\nGadgets: Slithersap, smoke bomb, pickpocket fairy, blackjack, Thief Vision,\nlean left/right.\nContracts: 16 shipped contracts across Old Manor and Guildhall on Novice /\nThief / Master Thief, plus the FTUE tutorial route. The TAT-2 expansion adds\nThe Moth, the Jaspering Hall prep/tutorial identity and 2-player ENet co-op.\nFree play: in the Thieves' Den map table press G (or the\nFREE PLAY: GUILDHALL CLEANOUT [G] button) for a score-only Contract Inactive\nrun of Mission.Guildhall.LootTheRoom. No contract progress or currency is\nbanked.\nRun clock: 55:00 on the main window (the mission's authored duration).\nCompleting the objectives summons the escape doors and starts a separate\n20:00 endgame window; the doors stay open for 4 minutes each, then collapse.\nLoot: 12 authored inventory slots — minor loot takes 1, major loot 3, so\nfour majors fill the bag. A full bag refuses the pickup with the authored\nINVENTORY FULL line. Deposit everything at a stash to free slots; stashed\nvalue is banked even if you are caught, while carried loot is only kept if you\nescape.\nQA autostart: --qa-free-play, --qa-mission, --qa-contract <n>.\n\nRepository layout\ngame/ Godot project (src/, scenes/, tests/, assets/ue -> extracted)\ntools/ extractor (.NET/CUE4Parse), 21 normalizers, audit + gates\nbuild/qa/ tracked capture/probe harness sources (captures ignored)\ndocs/ architecture, performance, fidelity tracker, wave reports, handoffs\nextracted/ private extraction cache (gitignored)\n\nRuntime code lives under game/src/{core,player,ai,stealth,interact,missions,ui};\ndata under game/data/generated/ (gitignored, produced by make normalize).\nDocumentation\n\nAGENTS.md — operating rules, gates and traps for coding agents.\ndocs/HANDOFF_NEXT_AGENT.md — current state,\npipeline gotchas and open work.\ndocs/FIDELITY_GAPS.md — live 1:1 coverage tracker and\nevery documented residual.\ndocs/reports/w7-integration.md — latest\nwave: loot capacity/stash/payout and save v8, two-phase run clock and 25 escape\nmarkers, surface-resolved hearing, stair descent, KF11 backdrop and Cotter\nwardrobe, export provenance and the Sonar plan.\ndocs/reports/review-remediation-wave.md\n— earlier wave: beams, two-sided materials, albedo recovery, doors, traversal\nblockers, FOV, loot grounding, sign, free play.\ndocs/ARCHITECTURE.md,\ndocs/PERFORMANCE.md,\ndocs/reports/ — module map, batching numbers, per-area reports.\n\nKnown residuals\nSee docs/FIDELITY_GAPS.md. The visible ones: Guildhall\nPOI graybox floors/floating furniture, sign lettering low-contrast at 27 m, some\nwhite glass/emissive plates, the Den's 43.5 vs UE 52.6 Lumen GI gap, and a\n7-texture probe-exit warning (TAT2_NO_DEN_PROBE=1 is the clean path).\nBehavioural residuals: walked descents of 0.18–0.30 m still take 4–12 airborne\nframes, the two-phase timer banks local-only in co-op, the post-match haul screen\nis not built, and XP still uses the port's invented rule rather than the authored\nDefaultGame.ini curve — which brings the 48 level-gated market items far\nearlier than authored. Hearing is range-based: walls and closed doors do not\nblock sound yet.",
-      "images": [],
-      "length": 8567,
-      "imageCount": 0
-    },
-    "4cvdau": {
-      "version": 4,
-      "url": "https://www.hollywoodreporter.com/tv/tv-news/dancing-with-the-stars-next-pro-renewed-season-2-male-dancers-1236762752/",
-      "fetchedAt": "2026-11-25T04:06:39.913Z",
-      "title": "‘Dancing With the Stars: The Next Pro’ Renewed for Second Season",
-      "byline": "McKinley Franklin",
-      "siteName": "The Hollywood Reporter",
-      "content": "Logo text\n\nDancing With the Stars is going to find a new male professional dancer to add to its cast on the second season of The Next Pro.\n\nThe spinoff series has been renewed for a second season, which will find a new male pro dancer to be added to the cast. It was announced during the season 35 finale of DWTS on Tuesday night.\n\nRobert Irwin was present at the finale to announce the news, also revealing that fans will be paired with the eight prospective male pro dancers throughout The Next Pro.\n\nAdele Zaikman was named the winner of the first season of DWTS: The Next Pro, which originally shot in Australia. It was unclear if the show would be renewed, as the pro cast of the series does not always consistently change each season, and dancers typically remain on the show for multiple seasons.\n\nThe renewal was announced during the season 35 finale of DWTS on Tuesday night, which saw Tatyana Ali, Ezra Frech, Amber Glenn, Maura Higgins and Connor Wood compete for a chance to win the season 35 Len Goodman mirrorball trophy.\n\nZaikman reflected on winning The Next Pro in an interview with The Hollywood Reporter, saying taking on the show had been “a dream come true.” She added, “I’ve been a competitive dancer for all my life, and we have certain rules that we have to follow. The Next Pro allowed me to figure out who I am on a deeper level as a dancer. What can I bring to the dance floor? Maybe something new that people haven’t seen before. [On DWTS,] you can break the rules. You can be more creative.”\n\nTHR also recently asked Next Pro judge and season 35 pro dancer Mark Ballas if he’d be open to returning to the judges panel for a potential second season. “I don’t know if they’re doing a second season yet. I’ve had no confirmation of that. But yeah, again, if the timing feels right and everything’s in line with my family, and it makes sense, then sure. It was a fun experience,” he said.\n\nDancing With the Stars: The Next Pro is produced by BBC Studios. Conrad Green serves as showrunner and executive producer. Deena Katz, Ryan O’Dowd, Krystal Whitney and Alex Cross are executive producers. Quinn Lipton is co-executive producer.",
-      "images": [
-        {
-          "url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/07/181454_3541-e1784082388306.jpg?w=1440&h=810&crop=1",
-          "alt": ""
-        }
-      ],
-      "length": 2157,
-      "imageCount": 1
-    },
     "gh-1445065415": {
       "version": 4,
       "url": "https://github.com/RodoLy/HMMMGC",
-      "fetchedAt": "2026-11-25T04:06:40.276Z",
+      "fetchedAt": "2026-11-25T04:09:43.109Z",
       "title": "GitHub - RodoLy/HMMMGC: Harvest Moon: Magical Melody – PC recompilation",
       "byline": "",
       "siteName": "GitHub",
@@ -28102,10 +28123,65 @@
       "length": 20000,
       "imageCount": 16
     },
+    "4cvdau": {
+      "version": 4,
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/dancing-with-the-stars-next-pro-renewed-season-2-male-dancers-1236762752/",
+      "fetchedAt": "2026-11-25T04:09:43.563Z",
+      "title": "‘Dancing With the Stars: The Next Pro’ Renewed for Second Season",
+      "byline": "McKinley Franklin",
+      "siteName": "The Hollywood Reporter",
+      "content": "Logo text\n\nDancing With the Stars is going to find a new male professional dancer to add to its cast on the second season of The Next Pro.\n\nThe spinoff series has been renewed for a second season, which will find a new male pro dancer to be added to the cast. It was announced during the season 35 finale of DWTS on Tuesday night.\n\nRobert Irwin was present at the finale to announce the news, also revealing that fans will be paired with the eight prospective male pro dancers throughout The Next Pro.\n\nAdele Zaikman was named the winner of the first season of DWTS: The Next Pro, which originally shot in Australia. It was unclear if the show would be renewed, as the pro cast of the series does not always consistently change each season, and dancers typically remain on the show for multiple seasons.\n\nThe renewal was announced during the season 35 finale of DWTS on Tuesday night, which saw Tatyana Ali, Ezra Frech, Amber Glenn, Maura Higgins and Connor Wood compete for a chance to win the season 35 Len Goodman mirrorball trophy.\n\nZaikman reflected on winning The Next Pro in an interview with The Hollywood Reporter, saying taking on the show had been “a dream come true.” She added, “I’ve been a competitive dancer for all my life, and we have certain rules that we have to follow. The Next Pro allowed me to figure out who I am on a deeper level as a dancer. What can I bring to the dance floor? Maybe something new that people haven’t seen before. [On DWTS,] you can break the rules. You can be more creative.”\n\nTHR also recently asked Next Pro judge and season 35 pro dancer Mark Ballas if he’d be open to returning to the judges panel for a potential second season. “I don’t know if they’re doing a second season yet. I’ve had no confirmation of that. But yeah, again, if the timing feels right and everything’s in line with my family, and it makes sense, then sure. It was a fun experience,” he said.\n\nDancing With the Stars: The Next Pro is produced by BBC Studios. Conrad Green serves as showrunner and executive producer. Deena Katz, Ryan O’Dowd, Krystal Whitney and Alex Cross are executive producers. Quinn Lipton is co-executive producer.",
+      "images": [
+        {
+          "url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/07/181454_3541-e1784082388306.jpg?w=1440&h=810&crop=1",
+          "alt": ""
+        }
+      ],
+      "length": 2157,
+      "imageCount": 1
+    },
+    "gh-1470989416": {
+      "version": 4,
+      "url": "https://github.com/hanxl-native/smash-native",
+      "fetchedAt": "2026-11-25T04:09:43.768Z",
+      "title": "GitHub - hanxl-native/smash-native: Super Smash Bros. Ultimate on Android: a standalone app on the Peanuts Native runtime",
+      "byline": "",
+      "siteName": "GitHub",
+      "content": "Super Smash Bros. Ultimate on an Android phone: 60 fps, update 13.0.5 and the\n52 DLC packs, from one app with one button.\nThis is the app: the screen, the game setup, the build flow, the startup screen and\nthe icon are this repository's. The runtime underneath is\nPeanuts Native, which does the hard\npart of running the game's code and graphics (see Credits); the app\nshows its own name and art, not the runtime's.\nWhat this app adds\n\nOne screen\nThe game file, the update, the DLC, the pack, the GPU driver, the picture scale, the saves, the console's keys and firmware. No emulator menus.\n\nBuilds the .nup in the app\nPick the game's own .nsp/.xci, the update and any number of DLC packs; BUILD GAME FILE merges them into one .nup with the importer that ships in the APK.\n\nThe right update, checked\nThe update card reads the file's CNMT and refuses anything but 13.0.5 (v2031616), the version this app and its shader pack are made for.\n\nYour keys, your firmware\nThe APK carries no prod.keys and no console font. KEYS takes your own prod.keys; FIRMWARE takes your firmware folder or .zip and reads the shared fonts from it. Stand-in fonts (Noto, Droid) keep the game working before that.\n\nImports the pack\nThe PACK card takes the code and shader data the runtime needs as a .zip (made on a PC, see below) and shows Ready once it is in place.\n\nTurnip, picked for you\nMesa Turnip is selected automatically when it is installed; the phone's own Adreno driver loses the device at some scene changes. The GPU driver card installs a driver zip or goes back to the system one.\n\nSaves\nExport and import as a zip.\n\nIts own look\nThe badge, the cards and the startup screen are this project's; no emulator name or art on any screen.\n\nThe first start on a new GPU driver prepares the shaders (a few minutes). That\nscreen is the app's own too: the game's cover, the progress and the driver.\n\nWhat you need\nThe app plays from two files: the .nup (the game) and the pack (the code\nand shaders the runtime needs). You can make both on a PC (route A) or on\nthe phone (route B).\nCommon to both routes:\n\nan Android 13+ phone with 8 GB of RAM or more (a Snapdragon 8 Gen 2/3 class device);\nyour own copy of the game (a dump of the card you own), .xci or .nsp;\nthe 13.0.5 update (v2031616) — the app and its shaders are made for it;\nyour console's prod.keys;\nthe DLC packs, if you want them (there are 52);\nyour save as a .zip, if you want to bring one.\n\nA — with a PC (recommended)\nB — phone only\n\nA computer\nWindows with WSL2, Linux or macOS\n—\n\nprod.keys on\nthe PC\nthe phone\n\nFirmware\nnot needed\noptional (console fonts; stand-in fonts otherwise)\n\nWho builds the pack\nthe PC tool\nthe app\n\nTime\n~1.5–2 h on the PC, then minutes\n3–6 h on the phone\n\nNothing is uploaded anywhere: the tools run on your machine and the files stay on\nyour phone.\nPlay it — route A (with a PC, recommended)\n\nOn the PC, in this repository's tools/, run\nbuild-pack.cmd (Windows) or build-pack.sh with your game, the update and\nthe DLC. It makes two files: SmashUltimate.nup and pack.zip.\nCopy both to the phone (USB, SD card or cloud).\nOpen the app → PACK → choose pack.zip; the card shows Ready.\nGAME FILE → choose SmashUltimate.nup → Move into the app → wait a\nfew minutes (17 GB).\nPLAY.\n\nNo keys or firmware on the phone with this route: the .nup already holds the\nupdate and the DLC, and the pack holds the shaders.\nPlay it — route B (all on the phone)\n\nKEYS → your prod.keys. Without it the app cannot read the game files.\nFIRMWARE (optional) → your firmware .zip or folder, for the console's\nown fonts. Skipping it is fine.\nGAME FILE → the base .xci/.nsp. It is only read for now.\nUPDATE (13.0.5) → the update file. Anything but v2031616 is refused with\nthe version it found.\nDLC (optional) → the add-on .nsp files; you can select many at once.\nBUILD GAME FILE → confirm the space, then wait. This is the slow part:\nhours on a phone — leave it charging. You can cancel.\nPLAY.\n\nYour save\nSAVES → choose a .zip to restore a save; the same card exports the current\none as a .zip. The save is kept in the app's folder, so it survives updates.\nBuild the app from source\nThe app is an overlay on Peanuts Native v0.1.7-1. Two pieces:\n\npatches/0001-smash-hooks.patch — turns the upstream launcher into this app:\nthe single screen becomes the launcher, the build gets the app's name and its\nassets folder, the startup screen drops the runtime's art for a named build,\nand the firmware picker is made public.\noverlay/ — the screen (SmashLauncherActivity), the icons and the\nredistributable fonts.\n\napply.sh clones the release, copies the overlay in and applies the patch.\n./apply.sh # clones upstream at v0.1.7-1, copies the overlay, applies the patch\ncd peanuts-native/android/app\nJAVA_HOME=/path/to/jdk17 ANDROID_HOME=/path/to/android-sdk \\\n./gradlew apk -PnxApp=peanuts -PnxAppId=smash -PnxLabel=\"Smash Ultimate Native\" \\\n-PnxGames=01006A800016E000 -PnxPackEngine=fake\n# android/app/out/nxnative-android-peanuts.apk\nNeeds git, JDK 17 and the Android SDK (build-tools, NDK 28.2). The first build\ncompiles the native host and takes a few minutes.\nA build of your own can carry assets/smash/pack.zip (the pack, copied on first\nstart) and then the PACK card is not needed; a public build must not carry it —\nthe pack holds the game's own translated shaders.\nTested on\nAll of the testing so far is on a Samsung Galaxy S24+ (Snapdragon 8 Gen 3,\nAdreno 750), Android 16, where it holds a steady 60 fps with Mesa Turnip —\nfrom the opening movie to a four-player match, with Spanish text and saves\nworking. (On the phone's own Adreno driver the menus run, but it loses the device\nat some scene changes, which is why the app prefers Turnip.)\nThat is the only device it has been run on. A Snapdragon 8 Gen 2/3 class phone is\nwhat the app is aimed at; on more modest hardware expect a lower frame rate and a\nlonger first shader build — the resolution scale in GRAPHICS (75 % or 50 %) is\nthe first thing to try. Reports from other phones are welcome.\nSupport\nThis app is free and will stay free. If it is useful to you, you can buy me a\ncoffee:\n\nKo-fi: https://ko-fi.com/hanxlnative\nPayPal: https://www.paypal.com/donate/?business=nmherrerab%40gmail.com&currency_code=USD\n\nCredits\n\nPeanuts Native by seedds and its\ncontributors: the runtime this app is built on (MIT; its Android host is\nGPL-3.0-or-later, see NOTICE).\nMesa Turnip, Noto Sans (SIL OFL) and Droid Sans Fallback (Apache 2.0) for the\npieces shipped with the app.\nNot affiliated with Nintendo or Sora Ltd. The game's names and cover art belong\nto their owners; this app ships neither.\n\nLicense\nThis repository's own files are MIT, see LICENSE. An APK built with\nthem also contains Peanuts Native's Android host, so the APK as a whole is\nGPL-3.0-or-later; see NOTICE.",
+      "images": [
+        {
+          "url": "https://github.com/hanxl-native/smash-native/raw/main/docs/smash-ui.png",
+          "alt": "screenshot"
+        },
+        {
+          "url": "https://github.com/hanxl-native/smash-native/raw/main/docs/smash-startup.png",
+          "alt": "startup"
+        }
+      ],
+      "length": 6769,
+      "imageCount": 2
+    },
+    "1ihr5zm": {
+      "version": 4,
+      "url": "https://www.hollywoodreporter.com/lifestyle/shopping/fubo-free-access-to-disney-plus-hulu-espn-unlimited-fox-one-1236762695/",
+      "fetchedAt": "2026-11-25T04:09:43.971Z",
+      "title": "Fubo Plans Now Include Free Disney+, Hulu, ESPN Unlimited and Fox One",
+      "byline": "Erin Lassner",
+      "siteName": "The Hollywood Reporter",
+      "content": "If you purchase an independently reviewed product or service through a link on our website, The Hollywood Reporter may receive an affiliate commission.\n\nIn an effort to combat industry-wide streaming inflation, Fubo has introduced a deal-savvy way to access additional services for your same dollar — four more services, to be exact.\n\nAs of November 2026, new and existing subscribers to Fubo‘s most popular packages — Fubo Pro, Fubo Elite and Fubo’s legacy Deluxe plan — will now receive access to Disney+, Hulu, ESPN Unlimited and Fox One — a value of over $75 per month — at no extra cost. Plus, Fubo offers a five-day free trial, meaning new customers can test out their live TV plan of choice and gain access to all four of these bonus streamers at no cost during said period.\n\nFollowing the standard free trial, Fubo Pro has a promotional rate of $63.99 for the first month, then costs $88.99 monthly thereafter, while Fubo Elite is $68.99 for the first month, then $98.99 monthly thereafter. The former features 201 channels, while the latter includes 265 channels and 4K.\n\nTo claim Fubo’s Disney+, Hulu, ESPN Unlimited and Fox One promotion, new subscribers can select either of the two qualifying plans (Pro or Elite). (There’s nothing additional to add at check out.) Once subscribed (and taking advantage of the aforementioned five-day free trial), visit the My Account page upon sign in at fubo.tv, or use the activation link that’s displayed after checkout. Finally, follow the prompts to connect each account, and to watch, sign in to each app: Disney+, Hulu, ESPN and FOX One.\n\nVisit fubo.tv to further compare plans and sign up for the free trial period.\n\nRelated: Audible Subscriptions Drop to $1 Per Month for Black Friday",
+      "images": [
+        {
+          "url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/Fubo-Plans-Now-Include-Free-Disney-Hulu-ESPN-Unlimited-and-Fox-One-MAIN.jpg?w=1296&h=730&crop=1",
+          "alt": ""
+        }
+      ],
+      "length": 1740,
+      "imageCount": 1
+    },
     "1xc08fi": {
       "version": 4,
       "url": "https://www.playground.ru/gta_6/news/igroki_podschitali_tochnoe_kolichestvo_zdanij_s_intererami_v_gta_6_vojti_mozhno_pochti_v_tret_postroek-1893657",
-      "fetchedAt": "2026-11-25T04:06:40.353Z",
+      "fetchedAt": "2026-11-25T04:09:44.047Z",
       "title": "Игроки подсчитали точное количество зданий с интерьерами в GTA 6 - войти можно почти в треть построек",
       "byline": "monk70",
       "siteName": "Playground",
@@ -28135,48 +28211,10 @@
       "length": 1155,
       "imageCount": 5
     },
-    "1ihr5zm": {
-      "version": 4,
-      "url": "https://www.hollywoodreporter.com/lifestyle/shopping/fubo-free-access-to-disney-plus-hulu-espn-unlimited-fox-one-1236762695/",
-      "fetchedAt": "2026-11-25T04:06:40.578Z",
-      "title": "Fubo Plans Now Include Free Disney+, Hulu, ESPN Unlimited and Fox One",
-      "byline": "Erin Lassner",
-      "siteName": "The Hollywood Reporter",
-      "content": "If you purchase an independently reviewed product or service through a link on our website, The Hollywood Reporter may receive an affiliate commission.\n\nIn an effort to combat industry-wide streaming inflation, Fubo has introduced a deal-savvy way to access additional services for your same dollar — four more services, to be exact.\n\nAs of November 2026, new and existing subscribers to Fubo‘s most popular packages — Fubo Pro, Fubo Elite and Fubo’s legacy Deluxe plan — will now receive access to Disney+, Hulu, ESPN Unlimited and Fox One — a value of over $75 per month — at no extra cost. Plus, Fubo offers a five-day free trial, meaning new customers can test out their live TV plan of choice and gain access to all four of these bonus streamers at no cost during said period.\n\nFollowing the standard free trial, Fubo Pro has a promotional rate of $63.99 for the first month, then costs $88.99 monthly thereafter, while Fubo Elite is $68.99 for the first month, then $98.99 monthly thereafter. The former features 201 channels, while the latter includes 265 channels and 4K.\n\nTo claim Fubo’s Disney+, Hulu, ESPN Unlimited and Fox One promotion, new subscribers can select either of the two qualifying plans (Pro or Elite). (There’s nothing additional to add at check out.) Once subscribed (and taking advantage of the aforementioned five-day free trial), visit the My Account page upon sign in at fubo.tv, or use the activation link that’s displayed after checkout. Finally, follow the prompts to connect each account, and to watch, sign in to each app: Disney+, Hulu, ESPN and FOX One.\n\nVisit fubo.tv to further compare plans and sign up for the free trial period.\n\nRelated: Audible Subscriptions Drop to $1 Per Month for Black Friday",
-      "images": [
-        {
-          "url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/Fubo-Plans-Now-Include-Free-Disney-Hulu-ESPN-Unlimited-and-Fox-One-MAIN.jpg?w=1296&h=730&crop=1",
-          "alt": ""
-        }
-      ],
-      "length": 1740,
-      "imageCount": 1
-    },
-    "gh-1470989416": {
-      "version": 4,
-      "url": "https://github.com/hanxl-native/smash-native",
-      "fetchedAt": "2026-11-25T04:06:40.702Z",
-      "title": "GitHub - hanxl-native/smash-native: Super Smash Bros. Ultimate on Android: a standalone app on the Peanuts Native runtime",
-      "byline": "",
-      "siteName": "GitHub",
-      "content": "Super Smash Bros. Ultimate on an Android phone: 60 fps, update 13.0.5 and the\n52 DLC packs, from one app with one button.\nThis is the app: the screen, the game setup, the build flow, the startup screen and\nthe icon are this repository's. The runtime underneath is\nPeanuts Native, which does the hard\npart of running the game's code and graphics (see Credits); the app\nshows its own name and art, not the runtime's.\nWhat this app adds\n\nOne screen\nThe game file, the update, the DLC, the pack, the GPU driver, the picture scale, the saves, the console's keys and firmware. No emulator menus.\n\nBuilds the .nup in the app\nPick the game's own .nsp/.xci, the update and any number of DLC packs; BUILD GAME FILE merges them into one .nup with the importer that ships in the APK.\n\nThe right update, checked\nThe update card reads the file's CNMT and refuses anything but 13.0.5 (v2031616), the version this app and its shader pack are made for.\n\nYour keys, your firmware\nThe APK carries no prod.keys and no console font. KEYS takes your own prod.keys; FIRMWARE takes your firmware folder or .zip and reads the shared fonts from it. Stand-in fonts (Noto, Droid) keep the game working before that.\n\nImports the pack\nThe PACK card takes the code and shader data the runtime needs as a .zip (made on a PC, see below) and shows Ready once it is in place.\n\nTurnip, picked for you\nMesa Turnip is selected automatically when it is installed; the phone's own Adreno driver loses the device at some scene changes. The GPU driver card installs a driver zip or goes back to the system one.\n\nSaves\nExport and import as a zip.\n\nIts own look\nThe badge, the cards and the startup screen are this project's; no emulator name or art on any screen.\n\nThe first start on a new GPU driver prepares the shaders (a few minutes). That\nscreen is the app's own too: the game's cover, the progress and the driver.\n\nWhat you need\nThe app plays from two files: the .nup (the game) and the pack (the code\nand shaders the runtime needs). You can make both on a PC (route A) or on\nthe phone (route B).\nCommon to both routes:\n\nan Android 13+ phone with 8 GB of RAM or more (a Snapdragon 8 Gen 2/3 class device);\nyour own copy of the game (a dump of the card you own), .xci or .nsp;\nthe 13.0.5 update (v2031616) — the app and its shaders are made for it;\nyour console's prod.keys;\nthe DLC packs, if you want them (there are 52);\nyour save as a .zip, if you want to bring one.\n\nA — with a PC (recommended)\nB — phone only\n\nA computer\nWindows with WSL2, Linux or macOS\n—\n\nprod.keys on\nthe PC\nthe phone\n\nFirmware\nnot needed\noptional (console fonts; stand-in fonts otherwise)\n\nWho builds the pack\nthe PC tool\nthe app\n\nTime\n~1.5–2 h on the PC, then minutes\n3–6 h on the phone\n\nNothing is uploaded anywhere: the tools run on your machine and the files stay on\nyour phone.\nPlay it — route A (with a PC, recommended)\n\nOn the PC, in this repository's tools/, run\nbuild-pack.cmd (Windows) or build-pack.sh with your game, the update and\nthe DLC. It makes two files: SmashUltimate.nup and pack.zip.\nCopy both to the phone (USB, SD card or cloud).\nOpen the app → PACK → choose pack.zip; the card shows Ready.\nGAME FILE → choose SmashUltimate.nup → Move into the app → wait a\nfew minutes (17 GB).\nPLAY.\n\nNo keys or firmware on the phone with this route: the .nup already holds the\nupdate and the DLC, and the pack holds the shaders.\nPlay it — route B (all on the phone)\n\nKEYS → your prod.keys. Without it the app cannot read the game files.\nFIRMWARE (optional) → your firmware .zip or folder, for the console's\nown fonts. Skipping it is fine.\nGAME FILE → the base .xci/.nsp. It is only read for now.\nUPDATE (13.0.5) → the update file. Anything but v2031616 is refused with\nthe version it found.\nDLC (optional) → the add-on .nsp files; you can select many at once.\nBUILD GAME FILE → confirm the space, then wait. This is the slow part:\nhours on a phone — leave it charging. You can cancel.\nPLAY.\n\nYour save\nSAVES → choose a .zip to restore a save; the same card exports the current\none as a .zip. The save is kept in the app's folder, so it survives updates.\nBuild the app from source\nThe app is an overlay on Peanuts Native v0.1.7-1. Two pieces:\n\npatches/0001-smash-hooks.patch — turns the upstream launcher into this app:\nthe single screen becomes the launcher, the build gets the app's name and its\nassets folder, the startup screen drops the runtime's art for a named build,\nand the firmware picker is made public.\noverlay/ — the screen (SmashLauncherActivity), the icons and the\nredistributable fonts.\n\napply.sh clones the release, copies the overlay in and applies the patch.\n./apply.sh # clones upstream at v0.1.7-1, copies the overlay, applies the patch\ncd peanuts-native/android/app\nJAVA_HOME=/path/to/jdk17 ANDROID_HOME=/path/to/android-sdk \\\n./gradlew apk -PnxApp=peanuts -PnxAppId=smash -PnxLabel=\"Smash Ultimate Native\" \\\n-PnxGames=01006A800016E000 -PnxPackEngine=fake\n# android/app/out/nxnative-android-peanuts.apk\nNeeds git, JDK 17 and the Android SDK (build-tools, NDK 28.2). The first build\ncompiles the native host and takes a few minutes.\nA build of your own can carry assets/smash/pack.zip (the pack, copied on first\nstart) and then the PACK card is not needed; a public build must not carry it —\nthe pack holds the game's own translated shaders.\nTested on\nAll of the testing so far is on a Samsung Galaxy S24+ (Snapdragon 8 Gen 3,\nAdreno 750), Android 16, where it holds a steady 60 fps with Mesa Turnip —\nfrom the opening movie to a four-player match, with Spanish text and saves\nworking. (On the phone's own Adreno driver the menus run, but it loses the device\nat some scene changes, which is why the app prefers Turnip.)\nThat is the only device it has been run on. A Snapdragon 8 Gen 2/3 class phone is\nwhat the app is aimed at; on more modest hardware expect a lower frame rate and a\nlonger first shader build — the resolution scale in GRAPHICS (75 % or 50 %) is\nthe first thing to try. Reports from other phones are welcome.\nSupport\nThis app is free and will stay free. If it is useful to you, you can buy me a\ncoffee:\n\nKo-fi: https://ko-fi.com/hanxlnative\nPayPal: https://www.paypal.com/donate/?business=nmherrerab%40gmail.com&currency_code=USD\n\nCredits\n\nPeanuts Native by seedds and its\ncontributors: the runtime this app is built on (MIT; its Android host is\nGPL-3.0-or-later, see NOTICE).\nMesa Turnip, Noto Sans (SIL OFL) and Droid Sans Fallback (Apache 2.0) for the\npieces shipped with the app.\nNot affiliated with Nintendo or Sora Ltd. The game's names and cover art belong\nto their owners; this app ships neither.\n\nLicense\nThis repository's own files are MIT, see LICENSE. An APK built with\nthem also contains Peanuts Native's Android host, so the APK as a whole is\nGPL-3.0-or-later; see NOTICE.",
-      "images": [
-        {
-          "url": "https://github.com/hanxl-native/smash-native/raw/main/docs/smash-ui.png",
-          "alt": "screenshot"
-        },
-        {
-          "url": "https://github.com/hanxl-native/smash-native/raw/main/docs/smash-startup.png",
-          "alt": "startup"
-        }
-      ],
-      "length": 6769,
-      "imageCount": 2
-    },
     "1op8omz": {
       "version": 4,
       "url": "https://www.igromania.ru/news/170200/mrachnyij-rolevoj-ekshen-lords-of-the-fallen-2-vyijdet-v-aprele-2027-goda-datu-obyavyat-v-dekabre/",
-      "fetchedAt": "2026-11-25T04:06:40.788Z",
+      "fetchedAt": "2026-11-25T04:09:44.096Z",
       "title": "Мрачный ролевой экшен Lords of the Fallen 2 выйдет в апреле 2027 года — дату объявят в декабре",
       "byline": "Екатерина Кравецкая",
       "siteName": "igromania.ru",
@@ -28193,13 +28231,13 @@
     "119k3gq": {
       "version": 4,
       "url": "https://phys.org/news/2026-11-star-obliquity-impact-planet-habitability.html",
-      "fetchedAt": "2026-11-25T04:06:40.833Z",
+      "fetchedAt": "2026-11-25T04:09:44.124Z",
       "error": "HTTP 403"
     },
     "ich7df": {
       "version": 4,
       "url": "https://www.gematsu.com/2026/11/desktop-productivity-game-renal-spring-focus-as-a-kidney-announced-for-pc",
-      "fetchedAt": "2026-11-25T04:06:41.100Z",
+      "fetchedAt": "2026-11-25T04:09:44.401Z",
       "title": "Desktop productivity game renal spring: Focus as a Kidney announced for PC",
       "byline": "Sal Romano",
       "siteName": "Gematsu",
@@ -28213,27 +28251,10 @@
       "length": 2075,
       "imageCount": 1
     },
-    "pvjwrt": {
-      "version": 4,
-      "url": "https://deadline.com/2026/11/dancing-with-the-stars-the-next-pro-renewed-season-2-abc-la-1237233033/",
-      "fetchedAt": "2026-11-25T04:06:41.589Z",
-      "title": "‘Dancing With The Stars: The Next Pro’ Renewed For Season 2 At ABC & Prepares To Move Filming To LA",
-      "byline": "Peter White",
-      "siteName": "Deadline",
-      "content": "EXCLUSIVE: Adele Zaikman, the Israeli-Ukrainian Latin ballroom dancer and choreographer, landed a spot as a professional on the current season of Dancing with the Stars after winning spinoff The Next Pro earlier this year.\n\nExpect more dancers like Zaikman after ABC renewed Dancing with the Stars: The Next Pro for a second season.\n\nThe show is also bucking the trend of big-ticket competition shows moving out of Los Angeles by moving its second season to California, having shot the first season in Australia.\n\nDeadline understands that the BBC Studios-produced show has been successful in its bid to receive the California tax credit. This would make it only the second unscripted show to receive the credit after Netflix’s upcoming series Schooled!, which comes from YouTuber Mark Rober and Jimmy Kimmel’s production company Kimmelot. It would also become the first show to successfully score the tax credit in order to relocate to California, which was one of the core missions of the California Film & Television Jobs Act.\n\nIt is a massive boon for the business in California, given that the pendulum has been swinging the other way recently with shows such as American Idol moving to Georgia and The Masked Singer moving to New Jersey.\n\nThe first season of The Next Pro employed around 110 local cast and crew and contributed an estimated A$7.2M ($5M) to the local Australian economy, per Screen Queensland.\n\nThe law, otherwise known as California Assembly Bill 1138, was signed in to law in 2025 by Gov. Gavin Newsom, expanding the tax credits system to include unscripted shows for the first time. The act now covers “large-scale competition shows” with around 15% of its budget allocated to relocating television series.\n\nThe Next Pro will return next year for its second season. It will feature eight aspiring make dancers competing for the chance to become the next male pro on Dancing with the Stars, which is currently airing its finale episode.\n\nThe spinoff will join its mothership in California; Dancing with the Stars, which premiered in 2005, has filmed all 35 seasons of the show in Los Angeles.\n\nDancing with the Stars superfans will also have the chance to partner with hopeful contestants and help determine if they have what it takes to make it to the ballroom.\n\nRobert Irwin returns as host, although, at the moment, it’s unclear if three-time Mirrorball champion Mark Ballas and his mother Shirley Ballas, who is the head judge on British OG format Strictly Come Dancing, will return as judges.\n\nDancing with the Stars: The Next Pro is produced by BBC Studios. Conrad Green serves as showrunner and executive produces alongside Deena Katz, Ryan O’Dowd, Krystal Whitney and Alex Cross are executive producers. Quinn Lipton is co-executive producer.",
-      "images": [
-        {
-          "url": "https://deadline.com/wp-content/uploads/2026/11/181642_9070.jpg?w=1024",
-          "alt": ""
-        }
-      ],
-      "length": 2774,
-      "imageCount": 1
-    },
     "140mons": {
       "version": 4,
       "url": "https://www.gematsu.com/2026/11/exoprimal-to-end-service-on-september-29-2027",
-      "fetchedAt": "2026-11-25T04:06:41.662Z",
+      "fetchedAt": "2026-11-25T04:09:44.480Z",
       "title": "Exoprimal to end service on September 29, 2027",
       "byline": "Sal Romano",
       "siteName": "Gematsu",
@@ -28247,22 +28268,27 @@
       "length": 1208,
       "imageCount": 1
     },
-    "gh-1435747176": {
+    "pvjwrt": {
       "version": 4,
-      "url": "https://github.com/otavix010/blade-2-pc",
-      "fetchedAt": "2026-11-25T04:06:41.782Z",
-      "title": "GitHub - otavix010/blade-2-pc: Blade II (PS2, NTSC-U SLUS-20360): port nativo para PC por recompilação estática (PS2Recomp). Em desenvolvimento (o port ainda vai começar).",
-      "byline": "",
-      "siteName": "GitHub",
-      "content": "Blade II (PS2, NTSC-U SLUS-20360): port nativo para PC por recompilação estática, com o motor PS2 próprio do projeto. Gera a partir da sua ISO. Beta.\n\nO que é ·\nEstado atual: beta ·\nOpções ·\nPlataformas ·\nRequisitos ·\nDesempenho ·\nComo gerar ·\nPerguntas frequentes ·\nComo funciona ·\nEnglish\n\nProjeto de fãs, sem fins lucrativos. Blade é marca registrada da Marvel; este projeto não tem relação com a Marvel nem com a Activision. Este repositório não contém o jogo: você precisa da sua própria cópia do DVD (a versão americana, SLUS-20360).\n\nImportantPara jogar, baixe o Otavix Launcher. Ele baixa este port, pede a sua ISO, gera o jogo no seu PC e o mantém atualizado. Para relatar um problema ou pedir algo, use \"Reportar problema\" na página do jogo no launcher: o relatório já vai com o log e as configurações, e é por ele que as correções saem mais rápido.\nTo play, download the Otavix Launcher. It downloads this port, asks for your ISO, makes the game on your PC and keeps it updated. To report a problem or ask for something, use \"Report a problem\" on the game's page in the launcher: the report carries the log and the settings, and that is how fixes come out fastest.\n\nEnglish summary below\nO que é\nUm port nativo do Blade II (PlayStation 2, 2002) para Windows. Não é um emulador: o código do jogo é traduzido para C++ e compilado para x86-64 (recompilação estática), com o motor PS2 próprio do projeto (Otavix).\nComo o código do jogo não pode ser distribuído, o seu PC gera e compila a parte do jogo a partir da sua ISO. Um comando só faz tudo.\nEstado atual: beta\nO jogo roda do começo: logos, menu, briefing da missão e a primeira fase (o galpão do treino), a 30 FPS, que é o ritmo do jogo no PlayStation 2 (testado num Ryzen 7 9800X3D). Os microprogramas de geometria do VU1 são traduzidos para C++ na sua máquina (a etapa \"VU1\" do gerador). A parte gráfica do console (GS) roda na placa de vídeo.\nÉ a primeira versão: o jogo ainda não foi jogado até o fim no port; só a primeira fase foi testada. Relate pelo launcher o que encontrar.\nOpções\nPelo Otavix Launcher, no menu de opções do jogo: janela ou tela cheia (no jogo, F11 ou Alt+Enter alternam), tamanho da janela, escalonador (bilinear, AMD FSR 1 ou NVIDIA Image Scaling) e a nitidez dele, anti-serrilhamento FXAA e predefinições. A resolução interna (2x e 4x) ainda não foi testada neste jogo: por enquanto ele fica em 1x. A imagem fica em 4:3 (sem tela larga por enquanto). Sem o launcher, as mesmas opções são variáveis de ambiente: PS2X_TELA_CHEIA=1, PS2X_JANELA_TAM=1920x1080, PS2X_ESCALA=nenhum|bilinear|fsr|nis, PS2X_NITIDEZ_PCT=0..100, PS2X_FXAA=1.\nTeclado e mouse\nO teclado e o mouse funcionam junto com o controle. As teclas são trocadas na página Controles do\nOtavix Launcher, que também liga ou desliga o teclado e o mouse e ajusta a sensibilidade. Teclas padrão:\n\nBotão do PlayStation 2\nTecla padrão\n\nAnalógico esquerdo\nW A S D\n\nAnalógico direito\nmouse (ou I J K L)\n\nDirecional\nsetas\n\nX\nEspaço ou X\n\nBola\nC ou Esc\n\nQuadrado\nbotão esquerdo do mouse ou Z\n\nTriângulo\nbotão direito do mouse ou V\n\nL1 / R1\nQ / E\n\nL2 / R2\nShift esquerdo / Shift direito\n\nL3 / R3\nF / botão do meio do mouse\n\nSTART / SELECT\nEnter / Tab\n\nNo Blade II o analógico direito é o ataque: com o mouse, o movimento do mouse vira o golpe. Se preferir, troque as teclas na página Controles. O ponteiro do mouse só fica preso na janela depois da primeira tecla do jogo; Alt+Tab solta. F10 (medidor de desempenho), F11 e Alt+Enter (tela cheia) continuam sendo atalhos do port. Sem o launcher: PS2X_TECLADO=0|1, PS2X_MOUSE=0|1, PS2X_MOUSE_SENS=5..200 e PS2X_TECLAS=\"cross=space;square=mouse1 j;lstick_up=w\" (botão=teclas, separados por ;).\nSalvar e carregar o estado (save state)\nAlém do save do próprio jogo (cartão de memória), dá para salvar o momento exato e voltar a ele, como nos emuladores, em 9 espaços:\n\nTeclado: F5 salva, F8 carrega, F6 e F7 trocam o espaço.\nControle: segure Select e aperte RB para salvar, LB para carregar, e esquerda/direita no direcional para trocar o espaço. O Select usado nessas combinações não chega ao jogo; sozinho, ele funciona normalmente.\n\nUm aviso curto na tela confirma (\"Estado salvo no espaço 3\"). Não dá para salvar durante um vídeo; o aviso diz quando. Os estados ficam em estados\\ na pasta do port e valem só para a mesma versão do port: depois de uma atualização, os estados antigos são recusados (os saves do cartão continuam valendo). Carregar um estado não volta o cartão de memória no tempo. Desligar: na página Controles do launcher, ou PS2X_ESTADOS=0.\nPlataformas\n\nWindows\nLinux / SteamOS\n\nSituação\nbeta (este port)\nnão suportado no momento\n\nComo jogar\npelo launcher, ou gerar.cmd e jogar.cmd\nsó o port de God of War: Ascension tem versão Linux (beta) por enquanto\n\nRequisitos\n\nWindows 10/11 64 bits, com o Visual Studio 2022 Build Tools (C++ e CMake; o comando está em Como gerar). O launcher confere isso para você.\nA sua ISO do Blade II, na versão americana (NTSC-U) (SLUS-20360). O gerador confere o executável e, se não bater, diz se é outra edição (outra região ou versão) ou o mesmo disco modificado.\nMemória: o gerador usa uns 3 GB de RAM por compilação em paralelo e escolhe o paralelismo pela memória livre; com pouca RAM funciona, só demora mais.\nDisco: uns 10 GB livres para os arquivos do disco, o código traduzido e a compilação.\nAVX2 não é obrigatório: o gerador detecta a CPU e usa as bibliotecas AVX2 ou SSE4.\n\nDesempenho medido\nFPS de jogo, no motor 0.1.33, em resolução interna 1x (quadros que o jogo de fato produz, contados no motor). O jogo é feito para 30 FPS no PlayStation 2. Só colocamos o que foi medido; as demais máquinas ainda não foram testadas com este jogo.\n\nMáquina\nCPU\nGPU\nFPS\n\nPC 1\nRyzen 7 9800X3D\nRTX 5080\n30 (o limite do jogo; primeira fase)\n\nPC 2\nCore i5-11400F\nRX 9060 XT\nnão medido\n\nNotebook\nCore i5-10300H (4/8)\nGTX 1650\nnão medido\n\nPortátil\nLegion Go S (Linux)\nRadeon 780M\nnão suportado\n\nProblemas conhecidos\n\nPrimeira versão: só a primeira fase foi testada no port.\nÀs vezes a lista do menu de controles aparece com letras trocadas.\nÀs vezes, por um quadro, o ícone da arma no canto da tela aparece duplicado sobre um retângulo rosado.\nSem tela larga (16:9) por enquanto.\nEsta é a versão americana (NTSC-U) apenas (SLUS-20360); outras regiões e versões são recusadas pelo gerador, com o motivo.\n\nComo gerar\nPelo Otavix Launcher\nO Otavix Launcher lista este port: ele baixa o port, pede a ISO, gera o jogo e abre.\nÀ mão\n1. O que você precisa ter: a sua cópia do Blade II americano (SLUS-20360, \"Blade II (USA)\") como imagem .iso do DVD (ou .bin/.img de setores brutos). O gerador confere o executável pelo hash: outras versões não servem, porque o mapa de funções é o da americana.\n2. Instale as ferramentas (uma vez só), num terminal:\nwinget install Microsoft.VisualStudio.2022.BuildTools --override \"--quiet --wait --add Microsoft.VisualStudio.Workload.VCTools --add Microsoft.VisualStudio.Component.VC.CMake.Project --add Microsoft.VisualStudio.Component.VC.Llvm.Clang --includeRecommended\"\n\nO resto o gerador baixa sozinho: o motor do port (pacote pronto, conferido pelo SHA-256) e o FFmpeg (LGPL). Não precisa de Python nem de Git.\n3. Baixe este repositório (botão Code > Download ZIP, ou git clone) e extraia numa pasta sem espaços no caminho, por exemplo C:\\blade-2. Deixe uns 10 GB livres nesse disco.\n4. Clique duas vezes em gerar.cmd e escolha a ISO. Ele:\n\nconfere a ISO e extrai os arquivos do disco para trabalho\\disc;\nbaixa o motor do port (pacote pronto, conferido pelo SHA-256);\ntraduz o código do jogo e os microprogramas do VU1 para C++ (só no seu PC);\ncompila o código do jogo (de 3 a 30 minutos, conforme o PC; precisa de 16 GB de RAM ou mais).\n\n5. Jogue com jogar.cmd. O jogo lê os arquivos de trabalho\\disc e a ISO no lugar onde ela estava na geração (se mudar a ISO de lugar, rode gerar.cmd -RefazerDe 2).\nDepois de atualizar o port, gerar.cmd -RefazerDe 3 baixa o motor novo, retraduz e recompila sem extrair o disco de novo.\nPerguntas frequentes\nEste repositório tem o jogo? Não. Você precisa da sua própria cópia do DVD; o gerador monta o port no seu PC a partir da sua ISO.\nPor que 30 FPS? É o ritmo do Blade II no PlayStation 2: o jogo espera duas atualizações da tela por quadro. O port segue o original.\nRoda no Linux ou no SteamOS? Ainda não: só o port de God of War: Ascension tem versão Linux (beta). Este roda no Windows.\nO gerador disse \"executável modificado\" ou \"edição diferente\". E agora? \"Edição diferente\" é outra região ou versão do disco; \"executável modificado\" é o mesmo disco com o executável alterado (patch, tradução, hack ou ISO danificada). Use uma cópia original sem modificações (SLUS-20360).\nSaiu uma atualização do port. O que faço? Atualize pelo launcher e gere de novo (gerar.cmd -RefazerDe 3 à mão): ele baixa o motor novo, retraduz e recompila sem extrair o disco de novo.\nOnde relato um problema? No launcher, em \"Reportar problema\" na página do jogo.\nComo funciona\n\nO motor (tradutor MIPS R5900 → C++ e runtime: GS, VU1, DMA, IOP, áudio SPU2, cartão de memória) é próprio do projeto e vem pronto (bibliotecas compiladas); o seu PC só traduz e compila o código do jogo.\nO mapa de funções (jogo\\ghidra_funcoes.csv) veio de uma análise com o Ghidra e a extensão ghidra-emotionengine-reloaded: são só endereços e nomes, nada do código do jogo. jogo\\entradas_extra.txt lista funções chamadas só por ponteiro e alvos de tabelas de salto que a análise não marcou.\nA receita do VU1 (jogo\\vu1_receita.json) diz onde os microprogramas de geometria ficam no executável (offsets e tamanhos, conferidos por SHA-1) e como montar a memória de código do VU1.\nO ritmo do jogo segue o relógio do PC (PS2X_RELOGIO_REAL=1 no jogo\\jogo.json). A geometria do VU1 roda na mesma thread do jogo (PS2X_MTVU=0) e o GS roda na placa de vídeo.\n\nLicença e créditos\n\nO nosso código (gerar.ps1, gerar.cmd): MIT; os avisos do motor e de marcas estão em AVISOS.md.\nO motor do port (pacote otx-motor-ps2, baixado pronto pelo gerador) não é coberto pela licença MIT; os avisos de terceiros dele (raylib e glfw: zlib; FFmpeg: LGPL, DLLs à parte) estão no TERCEIROS.txt do pacote.\nO NIS vem do NVIDIA Image Scaling SDK (MIT) e o FSR 1 do AMD FidelityFX FSR (MIT).\nO ícone vem da capa do jogo no libretro-thumbnails.\nBlade é marca registrada da Marvel. Este é um projeto de fãs, sem fins lucrativos, sem relação com a Marvel nem com a Activision e não endossado por elas.\n\nComo é feito: o Otavix é um projeto de fãs, sem fins lucrativos, desenvolvido com a ajuda de assistentes de IA (Claude, da Anthropic), que escrevem e testam boa parte do código sob a direção do autor. Cada versão passa por testes antes de ser publicada, e os reports dos jogadores entram no mesmo ciclo.\nEnglish summary\nA native PC port of Blade II (PlayStation 2, 2002) made by static recompilation with the project's own PS2 engine. Beta, first release. It runs from the start (logos, menu, mission briefing and the first level) at 30 FPS, the game's own rate on the PlayStation 2; only the first level has been tested in the port so far. The console's graphics chip (GS) runs on the GPU; the internal resolution stays at 1x for now (not tested in this game yet). Save states in 9 slots: F5 saves, F8 loads, F6/F7 change the slot (controller: hold Select + RB / LB / D-pad left-right); they work only with the same port version. Options in the launcher: window or fullscreen (F11 / Alt+Enter), window size, upscaler (bilinear, AMD FSR 1, NVIDIA Image Scaling) and sharpness, FXAA. The picture stays 4:3. Keyboard and mouse work alongside the controller.\nPlatforms: Windows 10/11 only for now (Linux is not supported yet; only the God of War: Ascension port has a Linux beta). Easiest: the Otavix Launcher.\nBring your own game: no game code or data here, only the function map (addresses), translation settings and the VU1 \"recipe\" (offsets and sizes). You need the US release (SLUS-20360, Redump \"Blade II (USA)\") as an .iso. Install Visual Studio 2022 Build Tools with C++, CMake and Clang (command above), download this repository to a path without spaces with about 10 GB free, double-click gerar.cmd (it checks your ISO, extracts the disc files, downloads the prebuilt engine package (no Git needed), translates the game code on your PC and builds it, in 3 to 30 minutes; 16 GB of RAM needed), then play with jogar.cmd.\nLicense: our scripts are MIT; the engine package is not covered by it, and its third-party notices are in its TERCEIROS.txt. Blade is a trademark of Marvel; this is a non-commercial fan project, not affiliated with or endorsed by Marvel or Activision.\nHow it is made: Otavix is a non-profit fan project developed with the help of AI assistants (Anthropic's Claude), which write and test much of the code under the author's direction. Every release is tested before it is published, and player reports feed the same loop.",
-      "images": [],
-      "length": 12877,
-      "imageCount": 0
+      "url": "https://deadline.com/2026/11/dancing-with-the-stars-the-next-pro-renewed-season-2-abc-la-1237233033/",
+      "fetchedAt": "2026-11-25T04:09:44.793Z",
+      "title": "‘Dancing With The Stars: The Next Pro’ Renewed For Season 2 At ABC & Prepares To Move Filming To LA",
+      "byline": "Peter White",
+      "siteName": "Deadline",
+      "content": "EXCLUSIVE: Adele Zaikman, the Israeli-Ukrainian Latin ballroom dancer and choreographer, landed a spot as a professional on the current season of Dancing with the Stars after winning spinoff The Next Pro earlier this year.\n\nExpect more dancers like Zaikman after ABC renewed Dancing with the Stars: The Next Pro for a second season.\n\nThe show is also bucking the trend of big-ticket competition shows moving out of Los Angeles by moving its second season to California, having shot the first season in Australia.\n\nDeadline understands that the BBC Studios-produced show has been successful in its bid to receive the California tax credit. This would make it only the second unscripted show to receive the credit after Netflix’s upcoming series Schooled!, which comes from YouTuber Mark Rober and Jimmy Kimmel’s production company Kimmelot. It would also become the first show to successfully score the tax credit in order to relocate to California, which was one of the core missions of the California Film & Television Jobs Act.\n\nIt is a massive boon for the business in California, given that the pendulum has been swinging the other way recently with shows such as American Idol moving to Georgia and The Masked Singer moving to New Jersey.\n\nThe first season of The Next Pro employed around 110 local cast and crew and contributed an estimated A$7.2M ($5M) to the local Australian economy, per Screen Queensland.\n\nThe law, otherwise known as California Assembly Bill 1138, was signed in to law in 2025 by Gov. Gavin Newsom, expanding the tax credits system to include unscripted shows for the first time. The act now covers “large-scale competition shows” with around 15% of its budget allocated to relocating television series.\n\nThe Next Pro will return next year for its second season. It will feature eight aspiring make dancers competing for the chance to become the next male pro on Dancing with the Stars, which is currently airing its finale episode.\n\nThe spinoff will join its mothership in California; Dancing with the Stars, which premiered in 2005, has filmed all 35 seasons of the show in Los Angeles.\n\nDancing with the Stars superfans will also have the chance to partner with hopeful contestants and help determine if they have what it takes to make it to the ballroom.\n\nRobert Irwin returns as host, although, at the moment, it’s unclear if three-time Mirrorball champion Mark Ballas and his mother Shirley Ballas, who is the head judge on British OG format Strictly Come Dancing, will return as judges.\n\nDancing with the Stars: The Next Pro is produced by BBC Studios. Conrad Green serves as showrunner and executive produces alongside Deena Katz, Ryan O’Dowd, Krystal Whitney and Alex Cross are executive producers. Quinn Lipton is co-executive producer.",
+      "images": [
+        {
+          "url": "https://deadline.com/wp-content/uploads/2026/11/181642_9070.jpg?w=1024",
+          "alt": ""
+        }
+      ],
+      "length": 2774,
+      "imageCount": 1
     },
     "ha44as": {
       "version": 4,
       "url": "https://deadline.com/2026/11/kpop-demon-hunters-rei-ami-host-abc-whos-in-the-band-1237232706/",
-      "fetchedAt": "2026-11-25T04:06:41.963Z",
+      "fetchedAt": "2026-11-25T04:09:44.994Z",
       "title": "‘KPop Demon Hunters’ Rei Ami To Host ABC’s ‘Who’s In The Band?’",
       "byline": "Peter White",
       "siteName": "Deadline",
@@ -28279,7 +28305,7 @@
     "cd9oy2": {
       "version": 4,
       "url": "https://variety.com/2026/film/markets-festivals/indonesia-france-film-lab-projects-paris-forum-1236957588/",
-      "fetchedAt": "2026-11-25T04:06:42.202Z",
+      "fetchedAt": "2026-11-25T04:09:45.233Z",
       "title": "Indonesia-France Film Lab Unveils Six Projects Ahead of Paris Forum",
       "byline": "Naman Ramachandran",
       "siteName": "Variety",
@@ -28296,7 +28322,7 @@
     "1ns32vo": {
       "version": 4,
       "url": "https://www.zr.ru/content/articles/988960-kak-obsluzhit-benzonasos/",
-      "fetchedAt": "2026-11-25T04:06:42.295Z",
+      "fetchedAt": "2026-11-25T04:09:45.321Z",
       "title": "Фильтруй бензин! Как самому обслужить бензонасос (и почему это нужно уметь)",
       "byline": "Ревин Алексей, Колодочкин Михаил",
       "siteName": "zr.ru",
@@ -28313,13 +28339,19 @@
     "1gxd2gq": {
       "version": 4,
       "url": "https://phys.org/news/2026-11-centers-community.html",
-      "fetchedAt": "2026-11-25T04:06:42.296Z",
+      "fetchedAt": "2026-11-25T04:09:45.322Z",
       "error": "HTTP 403"
+    },
+    "4bezf9": {
+      "version": 4,
+      "url": "https://www.igromania.ru/news/170199/capcom-zakroet-serveryi-i-prekratit-polnuyu-podderzhku-exoprimal-v-2027-godu/",
+      "fetchedAt": "2026-11-25T04:09:45.440Z",
+      "error": "не удалось выделить основной текст"
     },
     "1ujk723": {
       "version": 4,
       "url": "https://www.zr.ru/content/news/988953-za-ehkranom-zachem-audi-mozhet-s/",
-      "fetchedAt": "2026-11-25T04:06:42.593Z",
+      "fetchedAt": "2026-11-25T04:09:45.610Z",
       "title": "Кнопки за дисплеем: необычная разработка Audi",
       "byline": "Ушакова Ирина",
       "siteName": "zr.ru",
@@ -28333,10 +28365,16 @@
       "length": 2904,
       "imageCount": 1
     },
+    "kqslnw": {
+      "version": 4,
+      "url": "https://phys.org/news/2026-11-hurricane-season-el-nio-fueled.html",
+      "fetchedAt": "2026-11-25T04:09:45.639Z",
+      "error": "HTTP 403"
+    },
     "1c9r5gz": {
       "version": 4,
       "url": "https://www.gematsu.com/2026/11/dinghai-the-ocean-pillar-launches-december-3",
-      "fetchedAt": "2026-11-25T04:06:42.661Z",
+      "fetchedAt": "2026-11-25T04:09:45.716Z",
       "title": "Dinghai: The Ocean Pillar launches December 3",
       "byline": "Sal Romano",
       "siteName": "Gematsu",
@@ -28350,16 +28388,10 @@
       "length": 2276,
       "imageCount": 1
     },
-    "kqslnw": {
-      "version": 4,
-      "url": "https://phys.org/news/2026-11-hurricane-season-el-nio-fueled.html",
-      "fetchedAt": "2026-11-25T04:06:42.797Z",
-      "error": "HTTP 403"
-    },
     "1msnteu": {
       "version": 4,
       "url": "https://deadline.com/2026/11/marvel-patrick-stewart-tribute-avengers-doomsday-last-day-filming-1237233059/",
-      "fetchedAt": "2026-11-25T04:06:43.242Z",
+      "fetchedAt": "2026-11-25T04:09:46.114Z",
       "title": "Marvel Plans Patrick Stewart Tribute In ‘Avengers: Doomsday’ As Anthony Russo Recalls Actor’s Last Day Of Filming: “He Was Struggling With His Health”",
       "byline": "Armando Tinoco",
       "siteName": "Deadline",
@@ -28373,22 +28405,16 @@
       "length": 1568,
       "imageCount": 1
     },
-    "4bezf9": {
-      "version": 4,
-      "url": "https://www.igromania.ru/news/170199/capcom-zakroet-serveryi-i-prekratit-polnuyu-podderzhku-exoprimal-v-2027-godu/",
-      "fetchedAt": "2026-11-25T04:06:43.255Z",
-      "error": "не удалось выделить основной текст"
-    },
     "1bt4433": {
       "version": 4,
       "url": "https://www.igromania.ru/news/170198/playstation-i-cd-projekt-red-zaklyuchili-soglashenie-o-reklamnom-prodvizhenii-vedmaka-4/",
-      "fetchedAt": "2026-11-25T04:06:43.780Z",
+      "fetchedAt": "2026-11-25T04:09:46.436Z",
       "error": "не удалось выделить основной текст"
     },
     "q67zhm": {
       "version": 4,
       "url": "https://www.playground.ru/gta_6/news/igroki_gta_6_provodyat_do_40_chasov_v_pervoj_glave_zanimayas_rybalkoj_i_povsednevnymi_delami-1893655",
-      "fetchedAt": "2026-11-25T04:06:43.854Z",
+      "fetchedAt": "2026-11-25T04:09:46.534Z",
       "title": "Игроки GTA 6 проводят до 40 часов в первой главе, занимаясь рыбалкой и повседневными делами",
       "byline": "IKarasik",
       "siteName": "Playground",
@@ -28413,13 +28439,13 @@
     "19hyyti": {
       "version": 4,
       "url": "https://phys.org/news/2026-11-ultrathin-rainbow-power-spacecraft-earth.html",
-      "fetchedAt": "2026-11-25T04:06:43.984Z",
+      "fetchedAt": "2026-11-25T04:09:46.604Z",
       "error": "HTTP 403"
     },
     "1kzgy2c": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/tv/tv-features/connor-wood-dancing-with-the-stars-finale-interview-1236762661/",
-      "fetchedAt": "2026-11-25T04:06:44.244Z",
+      "fetchedAt": "2026-11-25T04:09:46.960Z",
       "title": "‘Dancing With the Stars’ Finalist Connor Wood Has Already Won: “I Feel Really Good”",
       "byline": "Nicole Fell",
       "siteName": "The Hollywood Reporter",
@@ -28444,30 +28470,13 @@
     "19vv7uq": {
       "version": 4,
       "url": "https://phys.org/news/2026-11-alfalfa-root-nodules-rhizobia.html",
-      "fetchedAt": "2026-11-25T04:06:44.449Z",
+      "fetchedAt": "2026-11-25T04:09:47.128Z",
       "error": "HTTP 403"
-    },
-    "itaqc3": {
-      "version": 4,
-      "url": "https://www.playground.ru/gta_6/news/versiya_gta_6_dlya_xbox_series_x_okazalas_proizvoditelnee_chem_dlya_ps5_nesmotrya_na_marketingovuyu_kampaniyu_sony-1893650",
-      "fetchedAt": "2026-11-25T04:06:45.271Z",
-      "title": "Версия GTA 6 для Xbox Series X оказалась производительнее, чем для PS5, несмотря на маркетинговую кампанию Sony",
-      "byline": "monk70",
-      "siteName": "Playground",
-      "content": "Несмотря на рекламный слоган Sony «Plays best on PS5», версия Grand Theft Auto 6 для Xbox Series X демонстрирует более стабильную производительность, чем на консоли PlayStation 5. К такому выводу пришли специалисты Digital Foundry, сравнившие работу игры на обеих платформах.\nСогласно анализу, на PS5 заметно чаще наблюдаются просадки частоты кадров, тогда как Xbox Series X справляется с нагрузкой стабильнее. Для игры с динамичным геймплеем и масштабным открытым миром это имеет особое значение. Кроме того, версия для консоли Microsoft поддерживает технологию VRR, которая на совместимых дисплеях помогает сглаживать восприятие падений FPS.\nПри этом автор материала отмечает, что Xbox Series X превосходит PS5 по характеристикам на бумаге, поэтому некоторое преимущество в производительности вполне ожидаемо. Однако результаты тестирования ставят под сомнение рекламное заявление Sony о том, что GTA 6 лучше всего работает именно на её консоли.\nОтдельно автор обращает внимание на отсутствие FSR 4.1 в версии для Xbox Series X. По его мнению, использование технологии потенциально могло бы ещё сильнее улучшить качество изображения и даже позволить консоли превзойти PS5 Pro. Причины отсутствия FSR 4.1 он связывает с маркетинговым соглашением Sony, однако пока это лишь предположение.\nВпрочем, разница между версиями не настолько велика, чтобы существенно повлиять на впечатления от игры. В конечном счёте лучшей платформой для GTA 6 остаётся та, на которой игрокам удобнее всего запускать проект. GTA 6 доступна на PS5, PS5 Pro и Xbox Series X|S.",
-      "images": [
-        {
-          "url": "https://i.playground.ru/e/kOL_Pk_3bYbekSJVQjERLw.jpeg",
-          "alt": ""
-        }
-      ],
-      "length": 1551,
-      "imageCount": 1
     },
     "gh-1442475571": {
       "version": 4,
       "url": "https://github.com/xXNukem/Extremis-RE",
-      "fetchedAt": "2026-11-25T04:06:45.397Z",
+      "fetchedAt": "2026-11-25T04:09:47.859Z",
       "title": "GitHub - xXNukem/Extremis-RE: In Extremis (1993) PC game source port in development.",
       "byline": "",
       "siteName": "GitHub",
@@ -28481,35 +28490,27 @@
       "length": 8276,
       "imageCount": 1
     },
-    "1gqteug": {
+    "itaqc3": {
       "version": 4,
-      "url": "https://www.playground.ru/gta_6/news/slishkom_skuchnye_gonschik_formuly_1_maks_ferstappen_propustil_bolshinstvo_kat_stsen_v_gta_6_i_vyigral_gran_pri_las_vegasa-1893654",
-      "fetchedAt": "2026-11-25T04:06:45.513Z",
-      "title": "\"Слишком скучные\": гонщик Формулы-1 Макс Ферстаппен пропустил большинство кат-сцен в GTA 6 и выиграл Гран-при Лас-Вегаса",
-      "byline": "IKarasik",
+      "url": "https://www.playground.ru/gta_6/news/versiya_gta_6_dlya_xbox_series_x_okazalas_proizvoditelnee_chem_dlya_ps5_nesmotrya_na_marketingovuyu_kampaniyu_sony-1893650",
+      "fetchedAt": "2026-11-25T04:09:47.931Z",
+      "title": "Версия GTA 6 для Xbox Series X оказалась производительнее, чем для PS5, несмотря на маркетинговую кампанию Sony",
+      "byline": "monk70",
       "siteName": "Playground",
-      "content": "Макс Ферстаппен признался, что провёл за GTA 6 больше 40 часов во время уик-энда Гран-при Лас-Вегаса. Несмотря на увлечение игрой, гонщик Red Bull Racing сумел занять первое место в соревновании, опередив британца Ландо Норриса и австралийца Оскара Пиастри.\nФерстаппен рассказал об этом во время прямой трансляции на следующей неделе после гонки. По его словам, он играл в GTA 6 по утрам и вечерам между обязанностями на трассе.\n«В Вегасе я много играл вечером и утром. Всё равно я не могу просто выйти на улицу и погулять», — объяснил пилот.\nГонщик также признался, что из-за GTA 6 и постоянных выступлений за рулём настоящего гоночного автомобиля он совершенно забыл, как играть в Minecraft, хотя у него была запланирована трансляция по этой игре. Ферстаппен пошутил, что ему сложно переключаться между несколькими играми одновременно.\nПо словам спортсмена, он уже прошёл около 80% сюжетной кампании GTA 6. При этом большую часть основных кат-сцен он пропустил, назвав их слишком скучными. Ферстаппен также мог успеть опробовать различные автомобильные активности, включая драг-рейсинг и гонки по грязи.",
+      "content": "Несмотря на рекламный слоган Sony «Plays best on PS5», версия Grand Theft Auto 6 для Xbox Series X демонстрирует более стабильную производительность, чем на консоли PlayStation 5. К такому выводу пришли специалисты Digital Foundry, сравнившие работу игры на обеих платформах.\nСогласно анализу, на PS5 заметно чаще наблюдаются просадки частоты кадров, тогда как Xbox Series X справляется с нагрузкой стабильнее. Для игры с динамичным геймплеем и масштабным открытым миром это имеет особое значение. Кроме того, версия для консоли Microsoft поддерживает технологию VRR, которая на совместимых дисплеях помогает сглаживать восприятие падений FPS.\nПри этом автор материала отмечает, что Xbox Series X превосходит PS5 по характеристикам на бумаге, поэтому некоторое преимущество в производительности вполне ожидаемо. Однако результаты тестирования ставят под сомнение рекламное заявление Sony о том, что GTA 6 лучше всего работает именно на её консоли.\nОтдельно автор обращает внимание на отсутствие FSR 4.1 в версии для Xbox Series X. По его мнению, использование технологии потенциально могло бы ещё сильнее улучшить качество изображения и даже позволить консоли превзойти PS5 Pro. Причины отсутствия FSR 4.1 он связывает с маркетинговым соглашением Sony, однако пока это лишь предположение.\nВпрочем, разница между версиями не настолько велика, чтобы существенно повлиять на впечатления от игры. В конечном счёте лучшей платформой для GTA 6 остаётся та, на которой игрокам удобнее всего запускать проект. GTA 6 доступна на PS5, PS5 Pro и Xbox Series X|S.",
       "images": [
         {
-          "url": "https://i.playground.ru/e/4fM9TsHuWZcyJca4LRJCyA.png",
-          "alt": ""
-        },
-        {
-          "url": "https://i.playground.ru/p/4fM9TsHuWZcyJca4LRJCyA.png?760xauto",
-          "alt": ""
-        },
-        {
-          "url": "https://i.playground.ru/p/4fM9TsHuWZcyJca4LRJCyA.png.webp?420xauto",
+          "url": "https://i.playground.ru/e/kOL_Pk_3bYbekSJVQjERLw.jpeg",
           "alt": ""
         }
       ],
-      "length": 1105,
-      "imageCount": 3
+      "length": 1551,
+      "imageCount": 1
     },
     "1di1yu4": {
       "version": 4,
       "url": "https://www.playground.ru/gta_6/news/v_gta_6_spryatali_shutku_o_remasterah_i_remejkah_the_last_of_us-1893653",
-      "fetchedAt": "2026-11-25T04:06:45.681Z",
+      "fetchedAt": "2026-11-25T04:09:48.263Z",
       "title": "В GTA 6 спрятали шутку о ремастерах и ремейках The Last of Us",
       "byline": "IKarasik",
       "siteName": "Playground",
@@ -28539,10 +28540,35 @@
       "length": 1480,
       "imageCount": 5
     },
+    "1gqteug": {
+      "version": 4,
+      "url": "https://www.playground.ru/gta_6/news/slishkom_skuchnye_gonschik_formuly_1_maks_ferstappen_propustil_bolshinstvo_kat_stsen_v_gta_6_i_vyigral_gran_pri_las_vegasa-1893654",
+      "fetchedAt": "2026-11-25T04:09:48.565Z",
+      "title": "\"Слишком скучные\": гонщик Формулы-1 Макс Ферстаппен пропустил большинство кат-сцен в GTA 6 и выиграл Гран-при Лас-Вегаса",
+      "byline": "IKarasik",
+      "siteName": "Playground",
+      "content": "Макс Ферстаппен признался, что провёл за GTA 6 больше 40 часов во время уик-энда Гран-при Лас-Вегаса. Несмотря на увлечение игрой, гонщик Red Bull Racing сумел занять первое место в соревновании, опередив британца Ландо Норриса и австралийца Оскара Пиастри.\nФерстаппен рассказал об этом во время прямой трансляции на следующей неделе после гонки. По его словам, он играл в GTA 6 по утрам и вечерам между обязанностями на трассе.\n«В Вегасе я много играл вечером и утром. Всё равно я не могу просто выйти на улицу и погулять», — объяснил пилот.\nГонщик также признался, что из-за GTA 6 и постоянных выступлений за рулём настоящего гоночного автомобиля он совершенно забыл, как играть в Minecraft, хотя у него была запланирована трансляция по этой игре. Ферстаппен пошутил, что ему сложно переключаться между несколькими играми одновременно.\nПо словам спортсмена, он уже прошёл около 80% сюжетной кампании GTA 6. При этом большую часть основных кат-сцен он пропустил, назвав их слишком скучными. Ферстаппен также мог успеть опробовать различные автомобильные активности, включая драг-рейсинг и гонки по грязи.",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/4fM9TsHuWZcyJca4LRJCyA.png",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/4fM9TsHuWZcyJca4LRJCyA.png?760xauto",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/4fM9TsHuWZcyJca4LRJCyA.png.webp?420xauto",
+          "alt": ""
+        }
+      ],
+      "length": 1105,
+      "imageCount": 3
+    },
     "1iciugp": {
       "version": 4,
       "url": "https://www.playground.ru/wolf_among_us/news/remaster_the_wolf_among_us_vyhodit_na_nintendo_switch_29_noyabrya_s_novym_kontentom-1893649",
-      "fetchedAt": "2026-11-25T04:06:46.149Z",
+      "fetchedAt": "2026-11-25T04:09:48.630Z",
       "title": "Ремастер The Wolf Among Us выходит на Nintendo Switch 29 ноября с новым контентом",
       "byline": "monk70",
       "siteName": "Playground",
@@ -28564,60 +28590,10 @@
       "length": 910,
       "imageCount": 3
     },
-    "1vm4808": {
-      "version": 4,
-      "url": "https://www.playground.ru/star_wars_galactic_racer/news/v_dekabre_star_wars_galactic_racer_poluchit_obnovlenie_speed_legends_ono_dobavit_v_igru_mnozhestvo_novyh_vozmozhnostej-1893647",
-      "fetchedAt": "2026-11-25T04:06:46.253Z",
-      "title": "В декабре Star Wars: Galactic Racer получит обновление Speed Legends - оно добавит в игру множество новых возможностей",
-      "byline": "monk70",
-      "siteName": "Playground",
-      "content": "Для Star Wars: Galactic Racer готовится новое обновление. Разработчики анонсировали дополнение Speed ​​Legends, которое выйдет в декабре и будет доступно всем пользователям бесплатно.\nОбновление привнесёт ряд новых функций и возможностей. Среди подтверждённых нововведений — создание закрытых лобби, переназначение кнопок управления и восемь новых сценариев для гонок на подрейсерах. Также заявлены и другие особенности, подробности о которых пока не раскрываются.\nВ декабре в игру также добавят новые культовые транспортные средства из вселенной «Звёздных войн». Однако они будут доступны в рамках отдельного платного контента. Точная дата выхода и подробности об этих транспортных средствах пока не сообщаются.\nРелиз Star Wars: Galactic Racer состоялся 6 октября; игра получила положительные отзывы как от критиков, так и от игроков. На данный момент рейтинг игры в Steam составляет 86% положительных оценок.",
-      "images": [
-        {
-          "url": "https://i.playground.ru/e/rEa6RoTHINAgQVNSvnkg3g.jpeg",
-          "alt": ""
-        },
-        {
-          "url": "https://i.playground.ru/p/rEa6RoTHINAgQVNSvnkg3g.jpeg?760xauto",
-          "alt": ""
-        },
-        {
-          "url": "https://i.playground.ru/p/rEa6RoTHINAgQVNSvnkg3g.jpeg.webp?420xauto",
-          "alt": ""
-        }
-      ],
-      "length": 910,
-      "imageCount": 3
-    },
-    "1snednz": {
-      "version": 4,
-      "url": "https://www.playground.ru/gta_6/news/panini_vypustit_ofitsialnye_kollektsionnye_kartochki_po_gta_6_prodazhi_startuyut_v_dekabre-1893648",
-      "fetchedAt": "2026-11-25T04:06:46.339Z",
-      "title": "Panini выпустит официальные коллекционные карточки по GTA 6 - продажи стартуют в декабре",
-      "byline": "monk70",
-      "siteName": "Playground",
-      "content": "Panini America анонсировала выпуск официальных коллекционных карточек по Grand Theft Auto 6. Продажи должны начаться уже в декабре 2026 года, однако точная дата пока не объявлена.\nНовинки станут реальным воплощением коллекционных карточек, которые игроки смогут находить и собирать непосредственно в игровом мире GTA 6. Их будут продавать в привычных запечатанных пакетиках с карточками разной степени редкости и ценности — коллекционерам предстоит охотиться за недостающими экземплярами, чтобы собрать полную серию.\nСудя по первым изображениям, в коллекцию войдут различные персонажи и известные личности из мира GTA 6, представленные в нескольких художественных стилях.\n\nПока неизвестно, ограничится ли распространение карточек американским рынком или они появятся и в других странах, в том числе при участии итальянского подразделения Panini.\nЭто одна из первых крупных инициатив по официальному мерчандайзингу GTA 6 после выхода игры. Учитывая коммерческий успех проекта Rockstar Games, в будущем можно ожидать и других подобных коллабораций.",
-      "images": [
-        {
-          "url": "https://i.playground.ru/e/NvbLKaE_11W3rMKB5KEmfg.png",
-          "alt": ""
-        },
-        {
-          "url": "https://i.playground.ru/p/NvbLKaE_11W3rMKB5KEmfg.png?760xauto",
-          "alt": ""
-        },
-        {
-          "url": "https://i.playground.ru/p/NvbLKaE_11W3rMKB5KEmfg.png.webp?420xauto",
-          "alt": ""
-        }
-      ],
-      "length": 1046,
-      "imageCount": 3
-    },
     "i4c3p9": {
       "version": 4,
       "url": "https://www.hollywoodreporter.com/movies/movie-news/hunger-games-sunrise-on-the-reaping-thanksgiving-box-office-1236762317/",
-      "fetchedAt": "2026-11-25T04:06:46.511Z",
+      "fetchedAt": "2026-11-25T04:09:48.929Z",
       "title": "‘Hunger Games: Sunrise on the Reaping’ to Dominate Thanksgiving Box Office as ‘Focker In-Law,’ ‘Hexed’ Join Fray",
       "byline": "Ryan Gajewski",
       "siteName": "The Hollywood Reporter",
@@ -28639,10 +28615,60 @@
       "length": 6151,
       "imageCount": 3
     },
+    "1vm4808": {
+      "version": 4,
+      "url": "https://www.playground.ru/star_wars_galactic_racer/news/v_dekabre_star_wars_galactic_racer_poluchit_obnovlenie_speed_legends_ono_dobavit_v_igru_mnozhestvo_novyh_vozmozhnostej-1893647",
+      "fetchedAt": "2026-11-25T04:09:49.003Z",
+      "title": "В декабре Star Wars: Galactic Racer получит обновление Speed Legends - оно добавит в игру множество новых возможностей",
+      "byline": "monk70",
+      "siteName": "Playground",
+      "content": "Для Star Wars: Galactic Racer готовится новое обновление. Разработчики анонсировали дополнение Speed ​​Legends, которое выйдет в декабре и будет доступно всем пользователям бесплатно.\nОбновление привнесёт ряд новых функций и возможностей. Среди подтверждённых нововведений — создание закрытых лобби, переназначение кнопок управления и восемь новых сценариев для гонок на подрейсерах. Также заявлены и другие особенности, подробности о которых пока не раскрываются.\nВ декабре в игру также добавят новые культовые транспортные средства из вселенной «Звёздных войн». Однако они будут доступны в рамках отдельного платного контента. Точная дата выхода и подробности об этих транспортных средствах пока не сообщаются.\nРелиз Star Wars: Galactic Racer состоялся 6 октября; игра получила положительные отзывы как от критиков, так и от игроков. На данный момент рейтинг игры в Steam составляет 86% положительных оценок.",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/rEa6RoTHINAgQVNSvnkg3g.jpeg",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/rEa6RoTHINAgQVNSvnkg3g.jpeg?760xauto",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/rEa6RoTHINAgQVNSvnkg3g.jpeg.webp?420xauto",
+          "alt": ""
+        }
+      ],
+      "length": 910,
+      "imageCount": 3
+    },
+    "cg7hsc": {
+      "version": 4,
+      "url": "https://www.playground.ru/misc/news/gamescom_2027_pereedet_na_novuyu_ploschadku_sposobnuyu_vmestit_do_10_tysyach_zritelej-1893645",
+      "fetchedAt": "2026-11-25T04:09:49.319Z",
+      "title": "Gamescom 2027 переедет на новую площадку, способную вместить до 10 тысяч зрителей",
+      "byline": "monk70",
+      "siteName": "Playground",
+      "content": "Организаторы Gamescom 2027 сменят площадку проведения церемонии открытия: мероприятие впервые пройдёт на арене Lanxess Arena в Кёльне (Германия). Об этом сообщил Джефф Кили в своём аккаунте X.\nПереезд позволит значительно увеличить вместимость зала. Если прежняя площадка могла принять около 5 тысяч зрителей, то новая рассчитана на 10 тысяч человек — вдвое больше.\nТаким образом, организаторы рассчитывают сделать церемонию доступной для ещё большего числа посетителей. Gamescom 2027 стартует 24 августа.",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/xvzTsmvEAV1lpAhqof1XbQ.png",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/xvzTsmvEAV1lpAhqof1XbQ.png?760xauto",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/xvzTsmvEAV1lpAhqof1XbQ.png.webp?420xauto",
+          "alt": ""
+        }
+      ],
+      "length": 505,
+      "imageCount": 3
+    },
     "yg04c4": {
       "version": 4,
       "url": "https://variety.com/2026/tv/news/dancing-with-the-stars-winner-season-35-ezra-frech-1236957201/",
-      "fetchedAt": "2026-11-25T04:06:46.951Z",
+      "fetchedAt": "2026-11-25T04:09:49.617Z",
       "title": "Variety",
       "byline": "Emily Longeretta",
       "siteName": "Variety",
@@ -28656,10 +28682,35 @@
       "length": 4524,
       "imageCount": 1
     },
+    "1snednz": {
+      "version": 4,
+      "url": "https://www.playground.ru/gta_6/news/panini_vypustit_ofitsialnye_kollektsionnye_kartochki_po_gta_6_prodazhi_startuyut_v_dekabre-1893648",
+      "fetchedAt": "2026-11-25T04:09:49.682Z",
+      "title": "Panini выпустит официальные коллекционные карточки по GTA 6 - продажи стартуют в декабре",
+      "byline": "monk70",
+      "siteName": "Playground",
+      "content": "Panini America анонсировала выпуск официальных коллекционных карточек по Grand Theft Auto 6. Продажи должны начаться уже в декабре 2026 года, однако точная дата пока не объявлена.\nНовинки станут реальным воплощением коллекционных карточек, которые игроки смогут находить и собирать непосредственно в игровом мире GTA 6. Их будут продавать в привычных запечатанных пакетиках с карточками разной степени редкости и ценности — коллекционерам предстоит охотиться за недостающими экземплярами, чтобы собрать полную серию.\nСудя по первым изображениям, в коллекцию войдут различные персонажи и известные личности из мира GTA 6, представленные в нескольких художественных стилях.\n\nПока неизвестно, ограничится ли распространение карточек американским рынком или они появятся и в других странах, в том числе при участии итальянского подразделения Panini.\nЭто одна из первых крупных инициатив по официальному мерчандайзингу GTA 6 после выхода игры. Учитывая коммерческий успех проекта Rockstar Games, в будущем можно ожидать и других подобных коллабораций.",
+      "images": [
+        {
+          "url": "https://i.playground.ru/e/NvbLKaE_11W3rMKB5KEmfg.png",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/NvbLKaE_11W3rMKB5KEmfg.png?760xauto",
+          "alt": ""
+        },
+        {
+          "url": "https://i.playground.ru/p/NvbLKaE_11W3rMKB5KEmfg.png.webp?420xauto",
+          "alt": ""
+        }
+      ],
+      "length": 1046,
+      "imageCount": 3
+    },
     "15xfs6o": {
       "version": 4,
       "url": "https://www.gematsu.com/2026/11/mario-kart-world-version-1-9-0-update-now-available-adds-new-rallies-and-courses",
-      "fetchedAt": "2026-11-25T04:06:47.234Z",
+      "fetchedAt": "2026-11-25T04:09:49.932Z",
       "title": "Mario Kart World version 1.9.0 update now available, adds new rallies and courses",
       "byline": "Sal Romano",
       "siteName": "Gematsu",
@@ -28676,13 +28727,13 @@
     "1dqv6mm": {
       "version": 4,
       "url": "https://phys.org/news/2026-11-quantum-ingenuity-sidestep-limits-conventional.html",
-      "fetchedAt": "2026-11-25T04:06:47.326Z",
+      "fetchedAt": "2026-11-25T04:09:49.938Z",
       "error": "HTTP 403"
     },
     "1phc4qq": {
       "version": 4,
       "url": "https://www.playground.ru/gta_6/news/video_po_gta_6_nabrali_bolee_3_5_milliarda_prosmotrov_na_youtube_v_den_vyhoda-1893644",
-      "fetchedAt": "2026-11-25T04:06:47.414Z",
+      "fetchedAt": "2026-11-25T04:09:50.006Z",
       "title": "Видео по GTA 6 набрали более 3,5 миллиарда просмотров на YouTube в день выхода",
       "byline": "monk70",
       "siteName": "Playground",
@@ -28712,86 +28763,10 @@
       "length": 1253,
       "imageCount": 5
     },
-    "cg7hsc": {
-      "version": 4,
-      "url": "https://www.playground.ru/misc/news/gamescom_2027_pereedet_na_novuyu_ploschadku_sposobnuyu_vmestit_do_10_tysyach_zritelej-1893645",
-      "fetchedAt": "2026-11-25T04:06:47.477Z",
-      "title": "Gamescom 2027 переедет на новую площадку, способную вместить до 10 тысяч зрителей",
-      "byline": "monk70",
-      "siteName": "Playground",
-      "content": "Организаторы Gamescom 2027 сменят площадку проведения церемонии открытия: мероприятие впервые пройдёт на арене Lanxess Arena в Кёльне (Германия). Об этом сообщил Джефф Кили в своём аккаунте X.\nПереезд позволит значительно увеличить вместимость зала. Если прежняя площадка могла принять около 5 тысяч зрителей, то новая рассчитана на 10 тысяч человек — вдвое больше.\nТаким образом, организаторы рассчитывают сделать церемонию доступной для ещё большего числа посетителей. Gamescom 2027 стартует 24 августа.",
-      "images": [
-        {
-          "url": "https://i.playground.ru/e/xvzTsmvEAV1lpAhqof1XbQ.png",
-          "alt": ""
-        },
-        {
-          "url": "https://i.playground.ru/p/xvzTsmvEAV1lpAhqof1XbQ.png?760xauto",
-          "alt": ""
-        },
-        {
-          "url": "https://i.playground.ru/p/xvzTsmvEAV1lpAhqof1XbQ.png.webp?420xauto",
-          "alt": ""
-        }
-      ],
-      "length": 505,
-      "imageCount": 3
-    },
-    "1kzlhbq": {
-      "version": 4,
-      "url": "https://www.hollywoodreporter.com/tv/tv-news/dwts-season-35-finale-winner-week-11-recap-scores-freestyle-1236762506/",
-      "fetchedAt": "2026-11-25T04:06:47.792Z",
-      "title": "‘Dancing With the Stars’ Names Historic Season 35 Winner: See All the Scores, Who Won",
-      "byline": "McKinley Franklin",
-      "siteName": "The Hollywood Reporter",
-      "content": "Logo text\n\n[This story contains spoilers for the season finale of Dancing With the Stars season 35.]\n\nSeason 35 of Dancing With the Stars is officially over, and the show has crowned a new winner.\n\nThe finale episode of DWTS saw couples compete in three rounds of competition as Tatyana Ali, Ezra Frech, Amber Glenn, Maura Higgins and Connor Wood battled it out for a chance to win the season 35 Len Goodman mirrorball trophy.\n\nEzra Frech and Daniella Karagach were ultimately named the winner’s of DWTS season 35; his win makes him the first amputee winner of the series.\n\nAmber Glenn and Pasha Pashkov placed second. Maura and Mark Ballas came in fifth, with Tatyana and Jan Ravnik in fourth, and Connor and Rylee Arnold in third.\n\nFirst, contestants will dance compete in the judges’ choice round, as each judge selected a dance style for one of the contestants to perform. Second will be the instant dance challenge, which will task them to perform a number without knowing the dance style or the song until only minutes before performing it live.\n\nThe final performance is the beloved freestyle round, where all rules are out the window, leaving contestants with one final dance to wow the judges and fans.\n\nDuring the judges’ choice, three couples tied for the top of the leaderboard, earning perfect scores. Those duos were Amber and Pasha Pashkov; Maura and Mark; and Ezra and Daniella Karagach. Connor and Tatyana trailed closely behind, respectively scoring a 28/30 and 27/30 each.\n\nAmber, Maura and Ezra all earned perfect scores during the instant dance round, keeping the competition neck-and-neck. Tatyana matched her first-round score with a 27/30 for her instant jive; Connor received a 25/30 for his instant cha cha.\n\nAfter Tatyana and Jan performed their freestyle, a medley of “Minnie the Moocher” by Cab Calloway and “Over the Rainbow” by Judy Garland, the duo was both tearful. A piece of the professional dancer’s comments after the dance were cut out due to him saying an explicit (“She fucking killed it!” Jan reportedly said). They scored a 28/30 for their last dance of DWTS season 35.\n\nAmber and Pasha’s freestyle was set to Madonna’s “Like a Prayer” and “Music,” a tribute to her figure skating routine performed at the 2026 Olympics. She earned a perfect score, while also dancing alongside fellow Team USA members Madison Chock and Evan Bates.\n\nConnor and Rylee referenced Tom Holland’s iconic performed on Lip Sync Battle, set to “Singin’ in the Rain” by Gene Kelly and “Umbrella” by Rihanna. Connor even wore a recreation of Spider-Man actor’s outfit in the number equipped with fake rain on the ballroom floor, earning them a 29/30.\n\nMaura and Mark’s final number was another high spot, earning them a 30/30 for their glamorous performance to Marilyn Monroe’s “Diamonds Are a Girl’s Best Friend,” and “The Parting Glass” and “Flowers of the Red Hill.”\n\nEzra and Daniella performed a touching freestyle set to “Numb” by Linkin Park. Ezra began the number without his prosthetic on, and after putting it back on, it suddenly slipped off him mid-dance. The duo recovered swiftly though and were joined by wheelchair dancers, and finished the dance with another prosthetic in hand, paying tribute to the amputee’s wider journey.\n\nAlfonso Ribeiro and Julianne Hough serve as co-hosts while Carrie Ann Inaba, Derek Hough and Bruno Tonioli judge.\n\nAlso during the finale, season 34 champion Robert Irwin was on hand to announced the renewal of Dancing With the Stars: The Next Pro, which will feature a cast of prospective male pro dancers who will compete for a chance to join the season 36 cast. Robert also revealed that the men will dance also fans throughout the competition, teaching them how to dance.\n\nAlfonso and Julianne further revealed that Jackson Olson, Taylor Hanson, Tyler Cameron and all five finalists and their pros would be joining the DWTS tour in select cities. In more news, the co-hosts also announced 86 million votes had been cast in the finale alone.\n\nFor the first time, the DWTS finale is airing live coast-to-coast, allowing fans in any time zone in the U.S., its territories and Canada to vote for the season 35 winner. (The show typically only airs live for the East coast, with voting taking place only during the East coast airing of each show, leaving West coast and Mountain time viewers unable to vote live.)\n\nThe couple with the lowest combined total of judges’ scores and viewer votes is typically eliminated at the end of each DWTS episode; the winner is determined by combining the judges’ scores and viewer votes in the finale episode.\n\nEach viewer is allowed up to 10 votes per couple, per voting method (via ABC’s website and by text). Live voting takes place during the live airing of each show and ends shortly after the final performance.\n\nSee the full list of scores for the DWTS season 35 finale (including their instant dance challenge, judges’ choice and freestyle dance) below.\n\nJudges’ Choice Scores\n\nTatyana Ali and Jan Ravnik: 27/30Amber Glenn and Pasha Pashkov: 30/30Connor Wood and Rylee Arnold: 28/30Maura Higgins and Mark Ballas: 30/30Ezra Frech and Daniella Karagach: 30/30\n\nInstant Dance Challenge Scores\n\nTatyana Ali and Jan Ravnik: 27/30Amber Glenn and Pasha Pashkov: 30/30Connor Wood and Rylee Arnold: 25/30Maura Higgins and Mark Ballas: 30/30Ezra Frech and Daniella Karagach: 30/30\n\nFreestyle Scores\n\nTatyana Ali and Jan Ravnik: 28/30Amber Glenn and Pasha Pashkov: 30/30Connor Wood and Rylee Arnold: 29/30Maura Higgins and Mark Ballas: 30/30Ezra Frech and Daniella Karagach: 30/30\n\nFinal Results\n\nEzra Frech and Daniella Karagach: WINNERAmber Glenn and Pasha Pashkov: 2nd place Connor Wood and Rylee Arnold: 3rd placeTatyana Ali and Jan Ravnik: 4th placeMaura Higgins and Mark Ballas: 5th place\n\nThe season 35 finale of Dancing With the Stars airs Tuesday at 5 p.m. PT/8 p.m. ET, simulcasting across ABC and Disney+ and streaming the next day on Hulu. Check out all of The Hollywood Reporter’s DWTS coverage here.",
-      "images": [
-        {
-          "url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/DWTS-Season-35-Finale-ABC-H-2026.jpg?w=1296&h=730&crop=1",
-          "alt": ""
-        }
-      ],
-      "length": 6004,
-      "imageCount": 1
-    },
-    "w1tywj": {
-      "version": 4,
-      "url": "https://www.zr.ru/content/news/988977-zimnyaya-avtoshkola-pochemu-slozhn/",
-      "fetchedAt": "2026-11-25T04:06:47.863Z",
-      "title": "В какое время года идти в автошколу, чтобы уверенно сдать экзамен на права?",
-      "byline": "Лежнин Роман",
-      "siteName": "zr.ru",
-      "content": "Планируя обучение в автошколе, стоит думать не только о дате первого занятия, но и о том, когда предстоит сдавать экзамен. Курс длится от трех до пяти месяцев, и за это время погода успевает поменяться не раз, сообщает 110km.Ru. Вот почему опытные инструкторы советуют стартовать зимой: практика на сложной дороге закаляет, а экзамен тогда приходится на весну или лето.Снег прячет разметку, лед усложняет торможение, а видимость в непогоду оставляет желать лучшего. Отрабатывать маневры в таких условиях труднее, зато выпускник успевает почувствовать, как машина ведет себя на скользком покрытии. На льду МЧС рекомендует увеличивать обычную дистанцию в два-три раза и заранее снижать скорость. Рулить и нажимать на педали необходимо плавно: резкое торможение или движение рулем могут привести к потере управляемости. Также необходимо учитывать ухудшение видимости при осадках. После зимних занятий летние поездки обычно кажутся проще.Зимой полезно отрабатывать старт и торможение, а скорость выбирать с учетом покрытия и видимости: разрешенная знаками скорость не всегда подходит для снегопада, тумана или ледяного участка. Профессионалы советуют тормозить заранее, до поворота. На автомобиле с ABS при экстренном торможении необходимо нажимать на педаль уверенно и непрерывно, не имитируя работу системы частыми нажатиями. Подобные навыки стоит осваивать под контролем инструктора, а не проверять сцепление резкими торможениями или маневрами на обычной дороге.Но у зимнего обучения есть оговорка: сложная погода добавляет стресса новичку. Зимняя практика должна проходить в подходящих условиях и под руководством инструктора. Многие отмечают пользу зимнего опыта, но реальные навыки отрабатываются не в автошколе, а уже после получения прав.Летом легче осваивать базовые маневры: хорошо видны разметка и границы парковочного места, а сухая дорога не требует сразу учитывать гололед. Но желающих учиться в это время больше, поэтому группы формируются с задержками. Выпускник, который практиковался только в теплую погоду, может оказаться неподготовленным к зимним условиям.Весна и осень дают промежуточный вариант. Весной дополнительно становится длиннее световой день, а ранняя осень нередко удобна тем, что в автошколах меньше желающих, чем летом. Погода меняется, поэтому ученик может столкнуться с дождем или туманом, а затем и с первыми заморозками. И тут вновь возникает проблема со сдачей экзамена в неблагоприятных условиях.Наиболее предпочтительным месяцем для старта учебы в автошколе называют декабрь, январь или начало февраля. В этом случае экзамены могут пройти весной, но ученик успеет поездить по заснеженным дорогам и наледи. При планировании важно учитывать продолжительность курса, а не только погоду в день первого занятия.К слову, сезон не влияет на теоретическую подготовку: электронный курс ПДД доступен онлайн. Отдельно разбиралось предложение по сроку ПДД. Тем, кто прошел обучение и получил права летом, придется брать дополнительные уроки у инструктора после наступления холодов.О том, что аккуратность за рулем еще и снижает цену ОСАГО, «За рулем» уже рассказывал.Планируете отпуск?\nНе забудьте про страховку для выезжающих за рубеж (ВЗР) и международные банковские карты. Вот, что мы рекомендуем: Согласие – ВЗРШирокий выбор пакетов и опций под любые требования (базовый, расширенный, активный отдых, спорт). Страхование за границей до 100 000 $/€, по России – 50 000 $/€.Т-Банк – Т-Страхование - ВЗРСкидка 10% при первой покупке по промокоду AFFILEAD.Есть также страхование для тех, кто путешествует по России. Подходит для поездок за 90 км от дома и стоит от 30 ₽ в день. КАПИТАЛ LIFE - ВЗРСтраховая сумма – 30 000 / 35 000, 50 000 или 100 000 USD. Минимальный срок действия полиса – 1 день.Есть также продукт для путешествий по России. ПЛАТИ ПО ВСЕМУ МИРУ - международная картаДля оплаты зарубежных сервисов и подписок, для покупок за границей онлайн и офлайн. Выгодный курс обмена. Бесплатное обслуживание и бесплатная доставка по всей России. До 18 октября включительно по промокоду PLASTIC_AFF скидка на выпуск карты.\nРеклама: ООО \"СК \"Согласие\". 7706196090 ADLVwa2EeAfT1KcczwC8jV6DQ1Ts8Uh67TPjj83bjZF3w8fYsuux5a54THb9CtstALngmrH5 АО «ТБанк». 7710140679 ADLVwa2EeAfT1KcczwC8jV6brw7Na1ejPnMnWjHDVu2Bneu8N6XseL9MX2qkxE5mv9nJ3ofc АО «Т-Страхование». 7704082517 ADLVwa2EeAfT1KcczwC8jV6GQRbmG9cH4Gjufd5Jj6ytpDJ5MSc4TbD3eXf2bfwWEyjo2d73 ООО «Капитал Лайф Страхование Жизни». 7706548313 ADLVwa2EeAfT1KcczwC8jV6DQKti4kWV1oYSkMdqceZ8Bp7GNVnwHMS4h97e59XU1fygi6cw ООО «Капитал Лайф Страхование Жизни». 7706548313 ADLVwa2EeAfT1KcczwC8jV6EdkQ9tAKS1P87QiiQzioryTGCSAXtCJt25FPy2btYGjjHu1DS ООО \"КАПИБАРА\". 9703231520 ADLVwa2EeAfT1KcczwC8jV6aywuDykSehBfsHpvEmN719wDfLMpJphYfoDLm5joRMmUPM2as «За рулем» можно читать и в Телеграм",
-      "images": [
-        {
-          "url": "https://www.zr.ru/d/story/31/988977/traffic-cones-car-driving-license-test.jpg",
-          "alt": ""
-        }
-      ],
-      "length": 4746,
-      "imageCount": 1
-    },
-    "vrv2en": {
-      "version": 4,
-      "url": "https://variety.com/2026/film/news/philip-rosenberg-dead-all-that-jazz-1236957540/",
-      "fetchedAt": "2026-11-25T04:06:48.107Z",
-      "title": "Philip Rosenberg Dead: Production Designer on 'All That Jazz'",
-      "byline": "Pat Saperstein",
-      "siteName": "Variety",
-      "content": "Philip Rosenberg, a production designer and art director who was part of the team that won the art direction-set decoration Oscar for “All That Jazz,” died Oct. 28 in West Palm Beach, Florida. He was 91.\n\nHis death was announced by his nephew, Alan Rosenberg.\n\nRosenberg’s first film job was as design assistant on the 1968 “The Sea Gull.” He went on to become an art director and production designer, working with New York-based directors such as Sidney Lumet, Paul Mazursky and Norman Jewison. He partnered with production designer Tony Walton on films including “The Wiz” and “All That Jazz.”\n\nKnown for being part of the realist school of production design in the 1970s, he was nominated for an Oscar as art director of “The Wiz.” Among his other credits were “The Owl and the Pussycat,” “Next Stop Greenwich Village,” “The Gambler,” “Network,” “The Sentinel,” “Running on Empty,” “Night Falls on Manhattan” and “Moonstruck.” His final credit came for “Collateral Damage” in 2002.\n\nRosenberg grew up in Prospect Park South, Flatbush, Brooklyn, and studied scenic design at Yale. After graduation, he was hired as an assistant at the Metropolitan Opera, as well as assisting Marcel Vertès on the murals in the Cafe Carlyle.\n\nHe married Siv Sandstrom, a hostess in the Swedish pavilion at the 1964 World’s Fair, who assisted him in the art department on films including “Running on Empty” and “Moonstruck.” She died in 2024.\n\nHe is survived by his brothers Stanley Rosenberg and David Rosenberg and six nieces and nephews.",
-      "images": [
-        {
-          "url": "https://variety.com/wp-content/uploads/2026/11/GettyImages-106662355-e1795564014741.jpg?crop=0px%2C178px%2C2340px%2C1316px&resize=1000%2C563",
-          "alt": ""
-        }
-      ],
-      "length": 1524,
-      "imageCount": 1
-    },
     "83y40x": {
       "version": 4,
       "url": "https://greydanus.github.io/2026/11/12/pengpt/",
-      "fetchedAt": "2026-11-25T04:06:48.226Z",
+      "fetchedAt": "2026-11-25T04:09:50.151Z",
       "title": "PenGPT: A Generative Transformer for Handwriting and Sketches",
       "byline": "",
       "siteName": "Natural Intelligence",
@@ -28845,16 +28820,67 @@
       "length": 10024,
       "imageCount": 11
     },
+    "1kzlhbq": {
+      "version": 4,
+      "url": "https://www.hollywoodreporter.com/tv/tv-news/dwts-season-35-finale-winner-week-11-recap-scores-freestyle-1236762506/",
+      "fetchedAt": "2026-11-25T04:09:50.415Z",
+      "title": "‘Dancing With the Stars’ Names Historic Season 35 Winner: See All the Scores, Who Won",
+      "byline": "McKinley Franklin",
+      "siteName": "The Hollywood Reporter",
+      "content": "Logo text\n\n[This story contains spoilers for the season finale of Dancing With the Stars season 35.]\n\nSeason 35 of Dancing With the Stars is officially over, and the show has crowned a new winner.\n\nThe finale episode of DWTS saw couples compete in three rounds of competition as Tatyana Ali, Ezra Frech, Amber Glenn, Maura Higgins and Connor Wood battled it out for a chance to win the season 35 Len Goodman mirrorball trophy.\n\nEzra Frech and Daniella Karagach were ultimately named the winner’s of DWTS season 35; his win makes him the first amputee winner of the series.\n\nAmber Glenn and Pasha Pashkov placed second. Maura and Mark Ballas came in fifth, with Tatyana and Jan Ravnik in fourth, and Connor and Rylee Arnold in third.\n\nFirst, contestants will dance compete in the judges’ choice round, as each judge selected a dance style for one of the contestants to perform. Second will be the instant dance challenge, which will task them to perform a number without knowing the dance style or the song until only minutes before performing it live.\n\nThe final performance is the beloved freestyle round, where all rules are out the window, leaving contestants with one final dance to wow the judges and fans.\n\nDuring the judges’ choice, three couples tied for the top of the leaderboard, earning perfect scores. Those duos were Amber and Pasha Pashkov; Maura and Mark; and Ezra and Daniella Karagach. Connor and Tatyana trailed closely behind, respectively scoring a 28/30 and 27/30 each.\n\nAmber, Maura and Ezra all earned perfect scores during the instant dance round, keeping the competition neck-and-neck. Tatyana matched her first-round score with a 27/30 for her instant jive; Connor received a 25/30 for his instant cha cha.\n\nAfter Tatyana and Jan performed their freestyle, a medley of “Minnie the Moocher” by Cab Calloway and “Over the Rainbow” by Judy Garland, the duo was both tearful. A piece of the professional dancer’s comments after the dance were cut out due to him saying an explicit (“She fucking killed it!” Jan reportedly said). They scored a 28/30 for their last dance of DWTS season 35.\n\nAmber and Pasha’s freestyle was set to Madonna’s “Like a Prayer” and “Music,” a tribute to her figure skating routine performed at the 2026 Olympics. She earned a perfect score, while also dancing alongside fellow Team USA members Madison Chock and Evan Bates.\n\nConnor and Rylee referenced Tom Holland’s iconic performed on Lip Sync Battle, set to “Singin’ in the Rain” by Gene Kelly and “Umbrella” by Rihanna. Connor even wore a recreation of Spider-Man actor’s outfit in the number equipped with fake rain on the ballroom floor, earning them a 29/30.\n\nMaura and Mark’s final number was another high spot, earning them a 30/30 for their glamorous performance to Marilyn Monroe’s “Diamonds Are a Girl’s Best Friend,” and “The Parting Glass” and “Flowers of the Red Hill.”\n\nEzra and Daniella performed a touching freestyle set to “Numb” by Linkin Park. Ezra began the number without his prosthetic on, and after putting it back on, it suddenly slipped off him mid-dance. The duo recovered swiftly though and were joined by wheelchair dancers, and finished the dance with another prosthetic in hand, paying tribute to the amputee’s wider journey.\n\nAlfonso Ribeiro and Julianne Hough serve as co-hosts while Carrie Ann Inaba, Derek Hough and Bruno Tonioli judge.\n\nAlso during the finale, season 34 champion Robert Irwin was on hand to announced the renewal of Dancing With the Stars: The Next Pro, which will feature a cast of prospective male pro dancers who will compete for a chance to join the season 36 cast. Robert also revealed that the men will dance also fans throughout the competition, teaching them how to dance.\n\nAlfonso and Julianne further revealed that Jackson Olson, Taylor Hanson, Tyler Cameron and all five finalists and their pros would be joining the DWTS tour in select cities. In more news, the co-hosts also announced 86 million votes had been cast in the finale alone.\n\nFor the first time, the DWTS finale is airing live coast-to-coast, allowing fans in any time zone in the U.S., its territories and Canada to vote for the season 35 winner. (The show typically only airs live for the East coast, with voting taking place only during the East coast airing of each show, leaving West coast and Mountain time viewers unable to vote live.)\n\nThe couple with the lowest combined total of judges’ scores and viewer votes is typically eliminated at the end of each DWTS episode; the winner is determined by combining the judges’ scores and viewer votes in the finale episode.\n\nEach viewer is allowed up to 10 votes per couple, per voting method (via ABC’s website and by text). Live voting takes place during the live airing of each show and ends shortly after the final performance.\n\nSee the full list of scores for the DWTS season 35 finale (including their instant dance challenge, judges’ choice and freestyle dance) below.\n\nJudges’ Choice Scores\n\nTatyana Ali and Jan Ravnik: 27/30Amber Glenn and Pasha Pashkov: 30/30Connor Wood and Rylee Arnold: 28/30Maura Higgins and Mark Ballas: 30/30Ezra Frech and Daniella Karagach: 30/30\n\nInstant Dance Challenge Scores\n\nTatyana Ali and Jan Ravnik: 27/30Amber Glenn and Pasha Pashkov: 30/30Connor Wood and Rylee Arnold: 25/30Maura Higgins and Mark Ballas: 30/30Ezra Frech and Daniella Karagach: 30/30\n\nFreestyle Scores\n\nTatyana Ali and Jan Ravnik: 28/30Amber Glenn and Pasha Pashkov: 30/30Connor Wood and Rylee Arnold: 29/30Maura Higgins and Mark Ballas: 30/30Ezra Frech and Daniella Karagach: 30/30\n\nFinal Results\n\nEzra Frech and Daniella Karagach: WINNERAmber Glenn and Pasha Pashkov: 2nd place Connor Wood and Rylee Arnold: 3rd placeTatyana Ali and Jan Ravnik: 4th placeMaura Higgins and Mark Ballas: 5th place\n\nThe season 35 finale of Dancing With the Stars airs Tuesday at 5 p.m. PT/8 p.m. ET, simulcasting across ABC and Disney+ and streaming the next day on Hulu. Check out all of The Hollywood Reporter’s DWTS coverage here.",
+      "images": [
+        {
+          "url": "https://www.hollywoodreporter.com/wp-content/uploads/2026/11/DWTS-Season-35-Finale-ABC-H-2026.jpg?w=1296&h=730&crop=1",
+          "alt": ""
+        }
+      ],
+      "length": 6004,
+      "imageCount": 1
+    },
+    "vrv2en": {
+      "version": 4,
+      "url": "https://variety.com/2026/film/news/philip-rosenberg-dead-all-that-jazz-1236957540/",
+      "fetchedAt": "2026-11-25T04:09:50.701Z",
+      "title": "Philip Rosenberg Dead: Production Designer on 'All That Jazz'",
+      "byline": "Pat Saperstein",
+      "siteName": "Variety",
+      "content": "Philip Rosenberg, a production designer and art director who was part of the team that won the art direction-set decoration Oscar for “All That Jazz,” died Oct. 28 in West Palm Beach, Florida. He was 91.\n\nHis death was announced by his nephew, Alan Rosenberg.\n\nRosenberg’s first film job was as design assistant on the 1968 “The Sea Gull.” He went on to become an art director and production designer, working with New York-based directors such as Sidney Lumet, Paul Mazursky and Norman Jewison. He partnered with production designer Tony Walton on films including “The Wiz” and “All That Jazz.”\n\nKnown for being part of the realist school of production design in the 1970s, he was nominated for an Oscar as art director of “The Wiz.” Among his other credits were “The Owl and the Pussycat,” “Next Stop Greenwich Village,” “The Gambler,” “Network,” “The Sentinel,” “Running on Empty,” “Night Falls on Manhattan” and “Moonstruck.” His final credit came for “Collateral Damage” in 2002.\n\nRosenberg grew up in Prospect Park South, Flatbush, Brooklyn, and studied scenic design at Yale. After graduation, he was hired as an assistant at the Metropolitan Opera, as well as assisting Marcel Vertès on the murals in the Cafe Carlyle.\n\nHe married Siv Sandstrom, a hostess in the Swedish pavilion at the 1964 World’s Fair, who assisted him in the art department on films including “Running on Empty” and “Moonstruck.” She died in 2024.\n\nHe is survived by his brothers Stanley Rosenberg and David Rosenberg and six nieces and nephews.",
+      "images": [
+        {
+          "url": "https://variety.com/wp-content/uploads/2026/11/GettyImages-106662355-e1795564014741.jpg?crop=0px%2C178px%2C2340px%2C1316px&resize=1000%2C563",
+          "alt": ""
+        }
+      ],
+      "length": 1524,
+      "imageCount": 1
+    },
     "oek9sj": {
       "version": 4,
       "url": "https://phys.org/news/2026-11-laser-reveals-electrons-accumulate-atomically.html",
-      "fetchedAt": "2026-11-25T04:06:48.227Z",
+      "fetchedAt": "2026-11-25T04:09:50.703Z",
       "error": "HTTP 403"
+    },
+    "19idckq": {
+      "version": 4,
+      "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
+      "fetchedAt": "2026-11-25T04:09:50.962Z",
+      "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
+      "byline": "Connie Loizos",
+      "siteName": "TechCrunch",
+      "content": "Investors cheered Jensen Huang’s return as Nvidia’s CEO on Monday, but renowned business academic Jeffrey Sonnenfeld of Yale thinks they’re celebrating a mistake. He sees a company that is largely responsible for putting sophisticated technology in the hands of the country’s adversaries, at a moment when the risks couldn’t be higher. Far from a champion of American industry, he says, Nvidia is “a detriment to U.S. global industrial might.”\n\nAs evidence, Sonnenfeld points to research suggesting Nvidia’s most advanced chips have reached China despite U.S. export controls and to sinking shares of Anthropic, which he links to the realization that China’s seemingly miraculous open source AI models are, in a sense, copies of top U.S. labs’ work, even as Nvidia has insisted that smuggling is a “non-factor.”\n\nIndeed, Huang’s return was greeted with just as much enthusiasm in Asia, The Washington Post reported. “The king is back!” read one headline from China’s state-affiliated Star Market Daily.\n\nThe reinstatement itself followed heavy pressure from Washington. Nvidia’s chairman had effectively ruled out Huang’s return just last week. Then, in a torrent of private weekend calls led by Vice President JD Vance, top administration officials leaned on the board to welcome Huang back, with President Trump calling the board directly to vouch for him. “I made the deal,” Trump told CNBC on Monday.\n\nSonnenfeld says the directors who went along, and who returned Huang to the board even as it investigates whether foreign intelligence efforts targeted him, now face a “historic level of individual liability.”\n\nThe legal deluge has already begun. As we noted a couple of weeks ago, a potential class-action lawsuit was filed almost immediately. Days later, a shareholder derivative suit followed. Filed on Nvidia’s behalf against the directors themselves, the suit alleges the board ignored red flags about Huang’s relationship with suspected Chinese spy Alice Huang.\n\nThe class action is very much aimed at making Nvidia and Huang compensate investors for their losses, while the derivative suit puts the directors’ own behavior on trial, with any recovery going to Nvidia. Three more suits followed on November 18, the day after Nvidia’s most recent earnings call; all five were filed in Northern California, where Nvidia is based.\n\nHuang and Nvidia are also juggling a Justice Department antitrust investigation, a reported SEC probe into Nvidia’s accounting, a possible FBI review, a California subpoena, an export-control case that landed partner Megaspeed on the U.S. trade blacklist on Monday, and congressional inquiries, including a Senate Banking hearing next week at which Huang has agreed to testify.\n\nHere’s more of what Sonnenfeld had to say, in a Q&A that’s been edited for length and clarity.\n\nSo much has happened since we last talked. Huang was ousted, he’s come back. Do you think the board’s reliance on government assurances here is defensible or an abdication of its own duties?\n\nThey failed to rely on experts. That’s one of the reasons this board is going to be sued and lose, and these directors are likely to face a historic level of individual liability. They have a very inadequate directors and officers liability policy. They have also just failed in their diligence. They hired the Wachtell [law] firm. The Wachtell firm barely got off the blocks to do an investigation. And then they have already reversed themselves, so they didn’t use the expertise needed.\n\nIt’s wild that they also put Huang right back on the board of directors.\n\nThe board showed, in addition to incompetence and collaboration, just cowardice in their capitulation because Trump has nothing to wave over them. If this was SpaceX, where 46% of its business comes from the government [you could maybe see the case for Trump’s involvement]. For Nvidia, it’s not even 1% of its business that comes from the U.S. government, so [the board] didn’t have that threat. [Trump] can call off [federal] investigations, but he can’t call off the shareholder litigation. Some are already filed, and the estimates are there’ll probably be 30 of them, and they’re going to be extremely costly.\n\nAnd this is not, by the way, just a blue or red state issue. We already have 14 GOP senators who’ve already come out against this, and very prominent conservatives, like Pete Ricketts and Josh Hawley and Tom Cotton and John Cornyn. Those are some issues that may help explain why Nvidia’s stock is tumbling today.Might the board say, “We saw the classified intelligence findings, and they assure us Jensen will be absolved of wrongdoing”?\n\nThey haven’t seen those findings, and we also haven’t seen what will be the result of the Senate Intelligence Committee, the Senate Special Committee on Investigations, the Senate Banking Committee, and all their House counterparts. The board hasn’t seen any of that, and even if they saw it, which they have not yet, that still wouldn’t matter.\n\nDo you think the Commerce Department will continue to tighten its chip export controls to keep China from accessing so much compute or walk back some of those recent moves?\n\nWe already see that Megaspeed has finally been put on the sanctions list, as it should have been before. And we have documentation now that Nvidia, rather than a champion of U.S. global industrial might, is actually a detriment to U.S. global industrial might, because their chips have now turned out to be in the hands and in the systems of not just the Chinese military, as they got channeled to Northwestern Polytechnical University, which is a military institution — this is going into weapons that will, of course, be funneled to Iran and Russia, and they didn’t have access to that a year ago. [Editor’s note: China has long denied supplying weapons to either country. Nvidia chips have been found in Russian drones, however, and the U.S. ambassador to China said in September that President Trump had discussed selling arms to China, an account Trump has denied.]\n\nThe open source models that people have celebrated and marveled at — that China somehow has this ingenuity to be creating their own chips, so that Kimi and DeepSeek and these other celebrated open source models were producing a miracle of Anthropic-like results — turns out we know why. They are pirating it. They are “distilling it” from Anthropic using high-end Nvidia chips.\n\nNvidia has denied reports that its most advanced chips have been smuggled into China.\n\nThere’s an Israeli company, Lava, that just three weeks ago showed [dozens of] Blackwell chips are in China. We’re seeing, with the return of Jensen Huang, Anthropic plummet. Why would that be? Of course, this is because it’s hurting OpenAI. It’s hurting Grok. It’s hurting Perplexity. It’s hurting Gemini. And you’ve seen none of these tech titans celebrate this. We have the misogynist tech bros holding locker-room-type rallies about Jensen Huang’s return, but nobody else has spoken out in favor of this. [You’re not hearing from] the CEOs of Microsoft or IBM or J.P. Morgan or Walmart or General Motors or Caterpillar. Nobody thinks that this is a good move.\n\nYou don’t think Nvidia needed Huang back?\n\nHe was not the guy designing the chips. It’s important to point out that that’s a guy named Chris Malachowsky, a co-founder who’s still there who designed these GPUs and has a whole team of next-generation people like Jonah Alben doing the chip design. As for the great software that has leveraged these chips, that’s also not Jensen Huang. That’s a guy named Ian Buck, who’s been very much celebrated in the last two weeks. He’s the one who designed the CUDA software that leverages the chips. Those people weren’t going anywhere, and wherever Jensen Huang is has nothing to do with them.\n\nSome are trying to make Huang’s forced resignation about the extramarital affairs to which he has admitted, calling it HR policy gone wild.\n\nA CEO who doesn’t stand by his own code of conduct makes it completely unenforceable.\n\nWired quoted an Nvidia employee who said they’d never take an HR training course again if Huang was reinstated.\n\nThis thing is a sexual affair with a subordinate — whether it’s coercion, or even if it truly was somehow consensual, it’s not fair. Every decision on resource allocation, on staffing, on product decisions, is not objective. It’s either favoritism, or, if the relationship fails, retribution. All the other people on that team rise and fall with a sexual relationship; it’s something they have no control over.\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "images": [
+        {
+          "url": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-ChatGPT.png?resize=1200,675",
+          "alt": ""
+        }
+      ],
+      "length": 8666,
+      "imageCount": 1
     },
     "19qbx49": {
       "version": 4,
       "url": "https://www.zr.ru/content/news/988952-pereplachivaete-za-taksi-anali/",
-      "fetchedAt": "2026-11-25T04:06:48.363Z",
+      "fetchedAt": "2026-11-25T04:09:51.043Z",
       "title": "Такси или личный автомобиль: что выгоднее в разных городах России",
       "byline": "Газета.ру",
       "siteName": "zr.ru",
@@ -28871,7 +28897,7 @@
     "bel6sc": {
       "version": 4,
       "url": "https://variety.com/2026/film/news/film-news-in-brief-nov-23-2026-1236955894/",
-      "fetchedAt": "2026-11-25T04:06:48.536Z",
+      "fetchedAt": "2026-11-25T04:09:51.264Z",
       "title": "Curry Barker’s ‘Anything But Ghosts’ to Release in Premium HDR",
       "byline": "Jazz Tangcay",
       "siteName": "Variety",
@@ -28885,44 +28911,27 @@
       "length": 2166,
       "imageCount": 1
     },
-    "19idckq": {
+    "w1tywj": {
       "version": 4,
-      "url": "https://techcrunch.com/2026/11/24/yales-sonnenfeld-nvidia-is-a-detriment-to-u-s-industrial-might-not-a-champion/",
-      "fetchedAt": "2026-11-25T04:06:48.690Z",
-      "title": "Yale’s Sonnenfeld: Nvidia is a ‘detriment’ to US industrial might — not a champion",
-      "byline": "Connie Loizos",
-      "siteName": "TechCrunch",
-      "content": "Investors cheered Jensen Huang’s return as Nvidia’s CEO on Monday, but renowned business academic Jeffrey Sonnenfeld of Yale thinks they’re celebrating a mistake. He sees a company that is largely responsible for putting sophisticated technology in the hands of the country’s adversaries, at a moment when the risks couldn’t be higher. Far from a champion of American industry, he says, Nvidia is “a detriment to U.S. global industrial might.”\n\nAs evidence, Sonnenfeld points to research suggesting Nvidia’s most advanced chips have reached China despite U.S. export controls and to sinking shares of Anthropic, which he links to the realization that China’s seemingly miraculous open source AI models are, in a sense, copies of top U.S. labs’ work, even as Nvidia has insisted that smuggling is a “non-factor.”\n\nIndeed, Huang’s return was greeted with just as much enthusiasm in Asia, The Washington Post reported. “The king is back!” read one headline from China’s state-affiliated Star Market Daily.\n\nThe reinstatement itself followed heavy pressure from Washington. Nvidia’s chairman had effectively ruled out Huang’s return just last week. Then, in a torrent of private weekend calls led by Vice President JD Vance, top administration officials leaned on the board to welcome Huang back, with President Trump calling the board directly to vouch for him. “I made the deal,” Trump told CNBC on Monday.\n\nSonnenfeld says the directors who went along, and who returned Huang to the board even as it investigates whether foreign intelligence efforts targeted him, now face a “historic level of individual liability.”\n\nThe legal deluge has already begun. As we noted a couple of weeks ago, a potential class-action lawsuit was filed almost immediately. Days later, a shareholder derivative suit followed. Filed on Nvidia’s behalf against the directors themselves, the suit alleges the board ignored red flags about Huang’s relationship with suspected Chinese spy Alice Huang.\n\nThe class action is very much aimed at making Nvidia and Huang compensate investors for their losses, while the derivative suit puts the directors’ own behavior on trial, with any recovery going to Nvidia. Three more suits followed on November 18, the day after Nvidia’s most recent earnings call; all five were filed in Northern California, where Nvidia is based.\n\nHuang and Nvidia are also juggling a Justice Department antitrust investigation, a reported SEC probe into Nvidia’s accounting, a possible FBI review, a California subpoena, an export-control case that landed partner Megaspeed on the U.S. trade blacklist on Monday, and congressional inquiries, including a Senate Banking hearing next week at which Huang has agreed to testify.\n\nHere’s more of what Sonnenfeld had to say, in a Q&A that’s been edited for length and clarity.\n\nSo much has happened since we last talked. Huang was ousted, he’s come back. Do you think the board’s reliance on government assurances here is defensible or an abdication of its own duties?\n\nThey failed to rely on experts. That’s one of the reasons this board is going to be sued and lose, and these directors are likely to face a historic level of individual liability. They have a very inadequate directors and officers liability policy. They have also just failed in their diligence. They hired the Wachtell [law] firm. The Wachtell firm barely got off the blocks to do an investigation. And then they have already reversed themselves, so they didn’t use the expertise needed.\n\nIt’s wild that they also put Huang right back on the board of directors.\n\nThe board showed, in addition to incompetence and collaboration, just cowardice in their capitulation because Trump has nothing to wave over them. If this was SpaceX, where 46% of its business comes from the government [you could maybe see the case for Trump’s involvement]. For Nvidia, it’s not even 1% of its business that comes from the U.S. government, so [the board] didn’t have that threat. [Trump] can call off [federal] investigations, but he can’t call off the shareholder litigation. Some are already filed, and the estimates are there’ll probably be 30 of them, and they’re going to be extremely costly.\n\nAnd this is not, by the way, just a blue or red state issue. We already have 14 GOP senators who’ve already come out against this, and very prominent conservatives, like Pete Ricketts and Josh Hawley and Tom Cotton and John Cornyn. Those are some issues that may help explain why Nvidia’s stock is tumbling today.Might the board say, “We saw the classified intelligence findings, and they assure us Jensen will be absolved of wrongdoing”?\n\nThey haven’t seen those findings, and we also haven’t seen what will be the result of the Senate Intelligence Committee, the Senate Special Committee on Investigations, the Senate Banking Committee, and all their House counterparts. The board hasn’t seen any of that, and even if they saw it, which they have not yet, that still wouldn’t matter.\n\nDo you think the Commerce Department will continue to tighten its chip export controls to keep China from accessing so much compute or walk back some of those recent moves?\n\nWe already see that Megaspeed has finally been put on the sanctions list, as it should have been before. And we have documentation now that Nvidia, rather than a champion of U.S. global industrial might, is actually a detriment to U.S. global industrial might, because their chips have now turned out to be in the hands and in the systems of not just the Chinese military, as they got channeled to Northwestern Polytechnical University, which is a military institution — this is going into weapons that will, of course, be funneled to Iran and Russia, and they didn’t have access to that a year ago. [Editor’s note: China has long denied supplying weapons to either country. Nvidia chips have been found in Russian drones, however, and the U.S. ambassador to China said in September that President Trump had discussed selling arms to China, an account Trump has denied.]\n\nThe open source models that people have celebrated and marveled at — that China somehow has this ingenuity to be creating their own chips, so that Kimi and DeepSeek and these other celebrated open source models were producing a miracle of Anthropic-like results — turns out we know why. They are pirating it. They are “distilling it” from Anthropic using high-end Nvidia chips.\n\nNvidia has denied reports that its most advanced chips have been smuggled into China.\n\nThere’s an Israeli company, Lava, that just three weeks ago showed [dozens of] Blackwell chips are in China. We’re seeing, with the return of Jensen Huang, Anthropic plummet. Why would that be? Of course, this is because it’s hurting OpenAI. It’s hurting Grok. It’s hurting Perplexity. It’s hurting Gemini. And you’ve seen none of these tech titans celebrate this. We have the misogynist tech bros holding locker-room-type rallies about Jensen Huang’s return, but nobody else has spoken out in favor of this. [You’re not hearing from] the CEOs of Microsoft or IBM or J.P. Morgan or Walmart or General Motors or Caterpillar. Nobody thinks that this is a good move.\n\nYou don’t think Nvidia needed Huang back?\n\nHe was not the guy designing the chips. It’s important to point out that that’s a guy named Chris Malachowsky, a co-founder who’s still there who designed these GPUs and has a whole team of next-generation people like Jonah Alben doing the chip design. As for the great software that has leveraged these chips, that’s also not Jensen Huang. That’s a guy named Ian Buck, who’s been very much celebrated in the last two weeks. He’s the one who designed the CUDA software that leverages the chips. Those people weren’t going anywhere, and wherever Jensen Huang is has nothing to do with them.\n\nSome are trying to make Huang’s forced resignation about the extramarital affairs to which he has admitted, calling it HR policy gone wild.\n\nA CEO who doesn’t stand by his own code of conduct makes it completely unenforceable.\n\nWired quoted an Nvidia employee who said they’d never take an HR training course again if Huang was reinstated.\n\nThis thing is a sexual affair with a subordinate — whether it’s coercion, or even if it truly was somehow consensual, it’s not fair. Every decision on resource allocation, on staffing, on product decisions, is not objective. It’s either favoritism, or, if the relationship fails, retribution. All the other people on that team rise and fall with a sexual relationship; it’s something they have no control over.\nWhen you purchase through links in our articles, we may earn a small commission. This doesn’t affect our editorial independence.",
+      "url": "https://www.zr.ru/content/news/988977-zimnyaya-avtoshkola-pochemu-slozhn/",
+      "fetchedAt": "2026-11-25T04:09:51.337Z",
+      "title": "В какое время года идти в автошколу, чтобы уверенно сдать экзамен на права?",
+      "byline": "Лежнин Роман",
+      "siteName": "zr.ru",
+      "content": "Планируя обучение в автошколе, стоит думать не только о дате первого занятия, но и о том, когда предстоит сдавать экзамен. Курс длится от трех до пяти месяцев, и за это время погода успевает поменяться не раз, сообщает 110km.Ru. Вот почему опытные инструкторы советуют стартовать зимой: практика на сложной дороге закаляет, а экзамен тогда приходится на весну или лето.Снег прячет разметку, лед усложняет торможение, а видимость в непогоду оставляет желать лучшего. Отрабатывать маневры в таких условиях труднее, зато выпускник успевает почувствовать, как машина ведет себя на скользком покрытии. На льду МЧС рекомендует увеличивать обычную дистанцию в два-три раза и заранее снижать скорость. Рулить и нажимать на педали необходимо плавно: резкое торможение или движение рулем могут привести к потере управляемости. Также необходимо учитывать ухудшение видимости при осадках. После зимних занятий летние поездки обычно кажутся проще.Зимой полезно отрабатывать старт и торможение, а скорость выбирать с учетом покрытия и видимости: разрешенная знаками скорость не всегда подходит для снегопада, тумана или ледяного участка. Профессионалы советуют тормозить заранее, до поворота. На автомобиле с ABS при экстренном торможении необходимо нажимать на педаль уверенно и непрерывно, не имитируя работу системы частыми нажатиями. Подобные навыки стоит осваивать под контролем инструктора, а не проверять сцепление резкими торможениями или маневрами на обычной дороге.Но у зимнего обучения есть оговорка: сложная погода добавляет стресса новичку. Зимняя практика должна проходить в подходящих условиях и под руководством инструктора. Многие отмечают пользу зимнего опыта, но реальные навыки отрабатываются не в автошколе, а уже после получения прав.Летом легче осваивать базовые маневры: хорошо видны разметка и границы парковочного места, а сухая дорога не требует сразу учитывать гололед. Но желающих учиться в это время больше, поэтому группы формируются с задержками. Выпускник, который практиковался только в теплую погоду, может оказаться неподготовленным к зимним условиям.Весна и осень дают промежуточный вариант. Весной дополнительно становится длиннее световой день, а ранняя осень нередко удобна тем, что в автошколах меньше желающих, чем летом. Погода меняется, поэтому ученик может столкнуться с дождем или туманом, а затем и с первыми заморозками. И тут вновь возникает проблема со сдачей экзамена в неблагоприятных условиях.Наиболее предпочтительным месяцем для старта учебы в автошколе называют декабрь, январь или начало февраля. В этом случае экзамены могут пройти весной, но ученик успеет поездить по заснеженным дорогам и наледи. При планировании важно учитывать продолжительность курса, а не только погоду в день первого занятия.К слову, сезон не влияет на теоретическую подготовку: электронный курс ПДД доступен онлайн. Отдельно разбиралось предложение по сроку ПДД. Тем, кто прошел обучение и получил права летом, придется брать дополнительные уроки у инструктора после наступления холодов.О том, что аккуратность за рулем еще и снижает цену ОСАГО, «За рулем» уже рассказывал.Планируете отпуск?\nНе забудьте про страховку для выезжающих за рубеж (ВЗР) и международные банковские карты. Вот, что мы рекомендуем: Согласие – ВЗРШирокий выбор пакетов и опций под любые требования (базовый, расширенный, активный отдых, спорт). Страхование за границей до 100 000 $/€, по России – 50 000 $/€.Т-Банк – Т-Страхование - ВЗРСкидка 10% при первой покупке по промокоду AFFILEAD.Есть также страхование для тех, кто путешествует по России. Подходит для поездок за 90 км от дома и стоит от 30 ₽ в день. КАПИТАЛ LIFE - ВЗРСтраховая сумма – 30 000 / 35 000, 50 000 или 100 000 USD. Минимальный срок действия полиса – 1 день.Есть также продукт для путешествий по России. ПЛАТИ ПО ВСЕМУ МИРУ - международная картаДля оплаты зарубежных сервисов и подписок, для покупок за границей онлайн и офлайн. Выгодный курс обмена. Бесплатное обслуживание и бесплатная доставка по всей России. До 18 октября включительно по промокоду PLASTIC_AFF скидка на выпуск карты.\nРеклама: ООО \"СК \"Согласие\". 7706196090 ADLVwa2EeAfT1KcczwC8jV6DQ1Ts8Uh67TPjj83bjZF3w8fYsuux5a54THb9CtstALngmrH5 АО «ТБанк». 7710140679 ADLVwa2EeAfT1KcczwC8jV6brw7Na1ejPnMnWjHDVu2Bneu8N6XseL9MX2qkxE5mv9nJ3ofc АО «Т-Страхование». 7704082517 ADLVwa2EeAfT1KcczwC8jV6GQRbmG9cH4Gjufd5Jj6ytpDJ5MSc4TbD3eXf2bfwWEyjo2d73 ООО «Капитал Лайф Страхование Жизни». 7706548313 ADLVwa2EeAfT1KcczwC8jV6DQKti4kWV1oYSkMdqceZ8Bp7GNVnwHMS4h97e59XU1fygi6cw ООО «Капитал Лайф Страхование Жизни». 7706548313 ADLVwa2EeAfT1KcczwC8jV6EdkQ9tAKS1P87QiiQzioryTGCSAXtCJt25FPy2btYGjjHu1DS ООО \"КАПИБАРА\". 9703231520 ADLVwa2EeAfT1KcczwC8jV6aywuDykSehBfsHpvEmN719wDfLMpJphYfoDLm5joRMmUPM2as «За рулем» можно читать и в Телеграм",
       "images": [
         {
-          "url": "https://techcrunch.com/wp-content/uploads/2026/11/Jensen-ChatGPT.png?resize=1200,675",
+          "url": "https://www.zr.ru/d/story/31/988977/traffic-cones-car-driving-license-test.jpg",
           "alt": ""
         }
       ],
-      "length": 8666,
-      "imageCount": 1
-    },
-    "6ykkga": {
-      "version": 4,
-      "url": "https://deadline.com/2026/11/gta-6-take-two-ceo-strauss-zelnick-sxsw-london-2027-speaker-1237232963/",
-      "fetchedAt": "2026-11-25T04:06:49.153Z",
-      "title": "Take-Two CEO Strauss Zelnick To Talk ‘Grand Theft Auto VI’ At SXSW London 2027; More Speakers Announced",
-      "byline": "Denise Petski",
-      "siteName": "Deadline",
-      "content": "Take-Two Interactive CEO Strauss Zelnick, the man behind Grand Theft Auto VI, will speak at SXSW London 2027, organizers announced Tuesday.\n\nZelnick, who will talk “about building one of the world’s biggest entertainment franchises,” is among the first-wave of speakers for SXSW London, which returns to Shoreditch, east London, for its third year in May.\n\nBuilt around the theme “The Power of Human Potential”, the 2027 festival will focus on people in a year dominated by what machines can do. Additional speakers include Jon Steinback, former DeepMind creative lead whose start-up Marker is building an AI writing tool designed to develop, rather than delete, writers. David Thornton, President of Genomics Limited, will explore how rapid analysis of large-scale genetic and genomic information will empower us to predict disease risks and improve medicine.\n\nRounding out the first group of speakers are Sir Martin Sorrell and Rory Sutherland and media personality GK Barry, who will discuss the future of advertising and the creator economy. Additionally, Refik Anadol, founder of the newly opened L.A. museum, Dataland, will share his artistic vision for AI and data-driven installations.\n\nThe 2027 festival will run from May 24-29.",
-      "images": [
-        {
-          "url": "https://deadline.com/wp-content/uploads/2026/11/STRAUSS-ZELNICK-gta6.jpg?w=1024",
-          "alt": ""
-        }
-      ],
-      "length": 1237,
+      "length": 4746,
       "imageCount": 1
     },
     "bktj8r": {
       "version": 4,
       "url": "https://deadline.com/2026/11/james-marsden-cyclops-x-men-avengers-doomsday-wolverine-1237233013/",
-      "fetchedAt": "2026-11-25T04:06:49.308Z",
+      "fetchedAt": "2026-11-25T04:09:51.786Z",
       "title": "‘X-Men’s James Marsden On Cyclops Leading In ‘Avengers: Doomsday’ After Taking “Back Seat To Wolverine”: “It Was Important That My Return Felt Meaningful”",
       "byline": "Armando Tinoco",
       "siteName": "Deadline",
@@ -28936,10 +28945,27 @@
       "length": 1969,
       "imageCount": 1
     },
+    "6ykkga": {
+      "version": 4,
+      "url": "https://deadline.com/2026/11/gta-6-take-two-ceo-strauss-zelnick-sxsw-london-2027-speaker-1237232963/",
+      "fetchedAt": "2026-11-25T04:09:51.928Z",
+      "title": "Take-Two CEO Strauss Zelnick To Talk ‘Grand Theft Auto VI’ At SXSW London 2027; More Speakers Announced",
+      "byline": "Denise Petski",
+      "siteName": "Deadline",
+      "content": "Take-Two Interactive CEO Strauss Zelnick, the man behind Grand Theft Auto VI, will speak at SXSW London 2027, organizers announced Tuesday.\n\nZelnick, who will talk “about building one of the world’s biggest entertainment franchises,” is among the first-wave of speakers for SXSW London, which returns to Shoreditch, east London, for its third year in May.\n\nBuilt around the theme “The Power of Human Potential”, the 2027 festival will focus on people in a year dominated by what machines can do. Additional speakers include Jon Steinback, former DeepMind creative lead whose start-up Marker is building an AI writing tool designed to develop, rather than delete, writers. David Thornton, President of Genomics Limited, will explore how rapid analysis of large-scale genetic and genomic information will empower us to predict disease risks and improve medicine.\n\nRounding out the first group of speakers are Sir Martin Sorrell and Rory Sutherland and media personality GK Barry, who will discuss the future of advertising and the creator economy. Additionally, Refik Anadol, founder of the newly opened L.A. museum, Dataland, will share his artistic vision for AI and data-driven installations.\n\nThe 2027 festival will run from May 24-29.",
+      "images": [
+        {
+          "url": "https://deadline.com/wp-content/uploads/2026/11/STRAUSS-ZELNICK-gta6.jpg?w=1024",
+          "alt": ""
+        }
+      ],
+      "length": 1237,
+      "imageCount": 1
+    },
     "1div9nw": {
       "version": 4,
       "url": "https://www.wired.com/story/jensen-huang-nvidia-us-national-security-risks/",
-      "fetchedAt": "2026-11-25T04:06:49.700Z",
+      "fetchedAt": "2026-11-25T04:09:52.305Z",
       "title": "Jensen Huang’s Return Shows Nvidia Is Too Big to Police",
       "byline": "Dell Cameron",
       "siteName": "WIRED",
@@ -28968,27 +28994,6 @@
       ],
       "length": 14015,
       "imageCount": 5
-    },
-    "k5tg36": {
-      "version": 4,
-      "url": "https://www.aljazeera.com/news/2026/11/24/south-africa-convicts-zimbabwean-who-tried-to-fight-ukraine-for-russia?traffic_source=rss",
-      "fetchedAt": "2026-11-25T04:06:49.892Z",
-      "title": "South Africa convicts Zimbabwean who tried to fight Ukraine for Russia",
-      "byline": "Al Jazeera Staff",
-      "siteName": "Al Jazeera",
-      "content": "The Zimbabwean man was arrested on November 8 at a Johannesburg airport while attempting to board a flight to Russia.A South African court has convicted and sentenced a Zimbabwean man for trying to travel to Russia to fight in Ukraine after he was arrested earlier this month alongside eight others.Tafadzwa Sithole was sentenced to five years in prison on Tuesday, under a five-year suspension, meaning he would only have to serve the time if he is convicted of a similar crime within that time period. Sithole is set to be deported back to Zimbabwe.Recommended Stories list of 3 itemslist 1 of 3‘We’ll keep sinking Russian ships’: Ukraine challenges Putin’s global reachlist 2 of 3Is Libya a new front in the Ukraine war?list 3 of 3Putin says retaliation ‘inevitable’ after Ukraine hit Russian oil plantsend of listHe told the court that he had agreed to fight for Russia in the war in exchange for “remuneration” after successfully applying online in Zimbabwe.“He knew that the Russian Federation was engaged in an ongoing armed conflict with Ukraine and that the military service he intended to render would be performed in the context of that armed conflict,” his lawyer told the court.Sithole was arrested at OR Tambo international airport on November 8 while attempting to board a flight to Russia.Foreign Military Assistance ActSithole said a person he identified as “Albina” contacted him after he submitted the application, arranged accommodation in South Africa and provided a flight ticket to Russia. His admissions were detailed in a plea agreement with South African prosecutors.He pleaded guilty to violating the Regulation of Foreign Military Assistance Act. The act prohibits mercenary activity and regulates military assistance to parties in foreign conflicts, including recruitment and training, and also applies to foreign nationals.Sithole, who described himself as an unemployed third-year student at a university in Zimbabwe, appeared in court with four other accused who are also negotiating plea agreements with prosecutors.He said he entered South Africa legally on November 4 and stayed in an accommodation in Kempton Park, east of Johannesburg, in preparation for his travel to Russia.Larger issue at playZimbabwe is among several African countries where Russia has been recruiting fighters for its war against Ukraine. Others include South Africa, Kenya, Botswana and Ghana.Zimbabwean authorities said in March that 15 citizens had been killed in the war in Ukraine and that they were seeking the return of 66 others. The government said recruits were promised well-paid jobs but had their travel documents confiscated and were forced into combat.Relatives of Kenyan nationals conscripted by the Russian army in Ukraine pose with photos of their family members during a demonstration demanding urgent government action [File: Simon Maina/AFP]Kenya’s government said in February that more than 1,000 citizens had been recruited to fight for Russia. Families protested in Nairobi in March, demanding their relatives’ return and the prosecution of those responsible.An investigation by Code for Africa, a nonprofit data journalism and technology organisation, identified 289 websites, domains and social media profiles used to lure recruits through false advertising and promises of generous benefits.",
-      "images": [
-        {
-          "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/ap_6b05fc7f7b842-1795554431.jpg?resize=1920%2C1440",
-          "alt": ""
-        },
-        {
-          "url": "https://www.aljazeera.com/wp-content/uploads/2026/11/AFP__20260219__987E7B2__v1__HighRes__KenyaRussiaUkraineConflictWar-1795557984.jpg?w=770&resize=770%2C513&quality=80",
-          "alt": "Relatives of Kenyan nationals conscripted by the Russian army in Ukraine pose with photos of their family members during a demonstration demanding urgent govern"
-        }
-      ],
-      "length": 3327,
-      "imageCount": 2
     }
   }
 }
