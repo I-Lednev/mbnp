@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-27T09:00:29.167Z",
-  "tookMs": 17970,
+  "generatedAt": "2026-11-27T09:03:02.847Z",
+  "tookMs": 6446,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -28,7 +28,7 @@
     "games": 600,
     "announces": 32,
     "mobile": 10,
-    "releases": 38,
+    "releases": 43,
     "rumors": 7,
     "software": 83,
     "science": 273,
@@ -36,14 +36,14 @@
     "ports": 176,
     "pc": 179,
     "consoles": 477,
-    "hardware": 169,
+    "hardware": 171,
     "industry": 151,
     "updates": 27,
     "aimods": 19,
     "aisoft": 107,
     "cars": 511,
     "war": 548,
-    "total": 4310
+    "total": 4317
   },
   "sourceCount": 89,
   "sources": [
@@ -691,7 +691,7 @@
       "source": "80.lv",
       "url": "https://80.lv/feed/",
       "error": "лента пуста",
-      "reused": 6
+      "reused": 5
     },
     {
       "source": "Kyiv Independent",
@@ -706,6 +706,121 @@
     }
   ],
   "items": [
+    {
+      "id": "1im3tq7",
+      "title": "В Китае создали робопса-пожарного с ракетной теплозащитой — он выдерживает температуру до 1000 °C",
+      "url": "https://3dnews.ru/1151883",
+      "excerpt": "В Китае прошли испытания первого пожарно-разведывательного робопса, способного выдерживать температуру до 1000 °C. Эту способность робопсу обеспечило специальное покрытие корпуса из композитного материала, созданное с использованием технологий тепловой…",
+      "content": "В Китае прошли испытания первого пожарно-разведывательного робопса, способного выдерживать температуру до 1000 °C. Эту способность робопсу обеспечило специальное покрытие корпуса из композитного материала, созданное с использованием технологий тепловой защиты, применяемых в аэрокосмической отрасли. Источник изображения: Science and Technology Daily",
+      "image": "https://3dnews.ru/assets/external/illustrations/2026/11/27/1151883/6ea80e0d-1785-4bc4-8014-d2d5e48e88a9.jpeg",
+      "images": [
+        {
+          "url": "https://3dnews.ru/assets/external/illustrations/2026/11/27/1151883/6ea80e0d-1785-4bc4-8014-d2d5e48e88a9.jpeg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-27T08:50:00.000Z",
+      "sourceId": "3dnews-hardware",
+      "source": "3DNews Железо",
+      "category": "hardware",
+      "lang": "ru",
+      "addedAt": "2026-11-27T09:02:56.401Z"
+    },
+    {
+      "id": "1ic4818",
+      "title": "У двух американских партнёров Nvidia обнаружились китайские корни",
+      "url": "https://3dnews.ru/1151882",
+      "excerpt": "Два американских партнёра Nvidia, получившие право закупать её передовые ИИ-ускорители, оказались связаны с китайскими компаниями, одна из которых попала под санкции США. Одна структура сменила название после включения её китайского владельца в чёрный список…",
+      "content": "Два американских партнёра Nvidia, получившие право закупать её передовые ИИ-ускорители, оказались связаны с китайскими компаниями, одна из которых попала под санкции США. Одна структура сменила название после включения её китайского владельца в чёрный список, а другая принадлежит фирме, руководитель которой окончил военный вуз в КНР. Источник изображения: nvidia.com",
+      "image": "https://3dnews.ru/assets/external/illustrations/2026/11/27/1151882/nvidia.jpg",
+      "images": [
+        {
+          "url": "https://3dnews.ru/assets/external/illustrations/2026/11/27/1151882/nvidia.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-27T08:44:00.000Z",
+      "sourceId": "3dnews-hardware",
+      "source": "3DNews Железо",
+      "category": "hardware",
+      "lang": "ru",
+      "addedAt": "2026-11-27T09:02:56.401Z"
+    },
+    {
+      "id": "zpg2mt",
+      "title": "Release: AWAKEN - Astral Blade",
+      "url": "https://www.gog.com/fr/news/release_awaken_astral_blade",
+      "excerpt": "AWAKEN - Astral Blade is a 2.5D action-adventure metroidvania – and it's now available on GOG! Play as Tania, a bionic warrior fighting through a world twisted by Karpas energy. What began as a search mission quickly turns into something far more sinister, as…",
+      "content": "AWAKEN - Astral Blade is a 2.5D action-adventure metroidvania – and it's now available on GOG!\n\nPlay as Tania, a bionic warrior fighting through a world twisted by Karpas energy. What began as a search mission quickly turns into something far more sinister, as the missing investigation team proves to be only the beginning.\n\nNow on GOG!",
+      "image": "",
+      "images": [],
+      "publishedAt": null,
+      "sourceId": "gog-news",
+      "source": "GOG",
+      "category": "releases",
+      "lang": "en",
+      "addedAt": "2026-11-27T09:02:56.401Z"
+    },
+    {
+      "id": "y2jzna",
+      "title": "Early Access: 2 Fights 2 Tight Spaces",
+      "url": "https://www.gog.com/fr/news/early_access_2_fights_2_tight_spaces",
+      "excerpt": "2 Fights 2 Tight Spaces is a true sequel to the award-winning Fights in Tight Spaces – and it's now available in early access on GOG! It brings the classic turn-based deck-building strategy of the original to a whole new level; with an evolved visual style, a…",
+      "content": "2 Fights 2 Tight Spaces is a true sequel to the award-winning Fights in Tight Spaces – and it's now available in early access on GOG!\n\nIt brings the classic turn-based deck-building strategy of the original to a whole new level; with an evolved visual style, a raft of new content, and more replayability than ever. With a new polymorphic card system, every action choice will be meaningful, and every movement will be crucial.\n\nNow on GOG!",
+      "image": "",
+      "images": [],
+      "publishedAt": null,
+      "sourceId": "gog-news",
+      "source": "GOG",
+      "category": "releases",
+      "lang": "en",
+      "addedAt": "2026-11-27T09:02:56.401Z"
+    },
+    {
+      "id": "uoisg6",
+      "title": "Release: Chronocracy",
+      "url": "https://www.gog.com/fr/news/release_chronocracy",
+      "excerpt": "Chronocracy is an exciting real-time strategy game – and it's now available on GOG! Lead a small civilization, developing its society and surviving on a whimsical flat earth disk. Lead your tribe, wisely allocate forces and resources to fend off neighboring…",
+      "content": "Chronocracy is an exciting real-time strategy game – and it's now available on GOG!\n\nLead a small civilization, developing its society and surviving on a whimsical flat earth disk. Lead your tribe, wisely allocate forces and resources to fend off neighboring attacks, uncover secrets hidden in time, and save your civilization from destruction.\n\nNow on GOG!",
+      "image": "",
+      "images": [],
+      "publishedAt": null,
+      "sourceId": "gog-news",
+      "source": "GOG",
+      "category": "releases",
+      "lang": "en",
+      "addedAt": "2026-11-27T09:02:56.401Z"
+    },
+    {
+      "id": "1spqd5l",
+      "title": "Release: Sands of Salzaar",
+      "url": "https://www.gog.com/fr/news/release_sands_of_salzaar",
+      "excerpt": "Sands of Salzaar is a fantastical tale of an exotic land – and it's now available on GOG! The Old Empire has fallen, leaving rival tribes to fight for control of the great desert. Little do they know of the seeds of darkness which grow in the shadows with…",
+      "content": "Sands of Salzaar is a fantastical tale of an exotic land – and it's now available on GOG!\n\nThe Old Empire has fallen, leaving rival tribes to fight for control of the great desert. Little do they know of the seeds of darkness which grow in the shadows with each passing day... Witness a world in constant flux, driven by living systems where every playthrough offers a unique experience.\n\nNow on GOG!",
+      "image": "",
+      "images": [],
+      "publishedAt": null,
+      "sourceId": "gog-news",
+      "source": "GOG",
+      "category": "releases",
+      "lang": "en",
+      "addedAt": "2026-11-27T09:02:56.401Z"
+    },
+    {
+      "id": "oz1vww",
+      "title": "Lara Croft arrives on GOG with three adventures and two GOG Preservation Program additions!",
+      "url": "https://www.gog.com/fr/news/lara_croft_arrives_on_gog_with_three_adventures_and_two_gog_preservation_program_additions",
+      "excerpt": "Lara Croft is ready for three new adventures on GOG! Lara Croft and the Guardian of Light , LARA CROFT AND THE TEMPLE OF OSIRIS™ , and Lara Croft GO are now available, bringing action, exploration, and puzzle-solving to players old and new. We're also proud…",
+      "content": "Lara Croft is ready for three new adventures on GOG! Lara Croft and the Guardian of Light , LARA CROFT AND THE TEMPLE OF OSIRIS™ , and Lara Croft GO are now available, bringing action, exploration, and puzzle-solving to players old and new.\n\nWe're also proud to welcome Lara Croft and the Guardian of Light and LARA CROFT AND THE TEMPLE OF OSIRIS™ to the GOG Preservation Program ! We're committed to keeping both adventures compatible with modern systems, helping these memorable games remain accessible for years to come.\n\nDiscover Lara Croft's latest adventures!",
+      "image": "",
+      "images": [],
+      "publishedAt": null,
+      "sourceId": "gog-news",
+      "source": "GOG",
+      "category": "releases",
+      "lang": "en",
+      "addedAt": "2026-11-27T09:02:56.401Z"
+    },
     {
       "id": "gh-1470562477",
       "title": "finalpantasy/star-road-recomp: Star Road Recomp: Super Mario RPG (Nintendo Switch 2023 remake) native PC port via static recompilation and decompilation. SMRPG on Windows with 4K, high FPS, QoL and mods. ARM64 to x86-64, Vulkan. Bring your own dump; no game files included.",
@@ -826,7 +941,7 @@
       "title": "Трамп: Я міг би сказати, що Путін мені не друг, але ж я хочу угоду",
       "url": "https://www.pravda.com.ua/news/2026/11/27/8064921/",
       "excerpt": "Президент США Дональд Трамп заявив, що називає правителя Росії Володимира Путіна своїм другом, щоб мати змогу завершити російсько-українську війну, адже протилежна риторика вестиме до ворожнечі, а не до миру. Джерело : Трамп під час спілкування з журналістами…",
-      "content": "Президент США Дональд Трамп заявив, що називає правителя Росії Володимира Путіна своїм другом, щоб мати змогу завершити російсько-українську війну, адже протилежна риторика вестиме до ворожнечі, а не до миру.\n\nДжерело : Трамп під час спілкування з журналістами в Мар-а-Лаго в День подяки\n\nДеталі : Журналіст запитав американського президента, як поєднуються його заяви про те, що Путін його друг, і заклики до глави Кремля \"припинити всі військові агресії проти територій по всій Європі\", про що Трамп писав у Truth Social.\n\nПряма мова президента США : \"Обидві речі можна сказати. Але, дивіться, ви маєте дещо зрозуміти – ми хочемо укласти угоду, хочемо зупинити вбивства. Я міг би сказати, що він мені не друг, або що я хочу укласти угоду. Але я маю укласти угоду. Вони втрачають 25 тисяч людей на місяць. Я міг би підійти і казати: \"Знаєш, ти мене не подобаєшся\", але тоді ми матимемо таку ж проблему, яку ми маємо між Зеленським і Путіним\".\n\nТрамп вважає, що найбільше мирній угоді заважає особиста ненависть між президентом України і правителем Росії.\n\n\"Знаєте, найбільша проблема цього врегулювання полягає в тому, що от є два лідери, які дійсно ненавидять один одного. Тож коли я приходжу і раптом добре з ним ладнаю, бо я знаю його вже давно, то ми маємо дуже хорошу розмову. І суть у тому, що він хоче укласти угоду \", – пояснив Трамп.\n\nВін також заявив, що на початку війни давав протитанкові комплекси Javelin на початку війни, які \"перетворювали російські танки на купу брухту\".\n\n\"Я той, хто запровадив величезні податки і санкції проти Росії. Тож я був дуже жорстким щодо Росії. Але я хочу укласти угоду, якщо ми можемо її укласти. І ви знаєте, що я все життя вів переговори… Я заробив багато грошей. Я зробив багато, я мав величезний успіх. Я взаємодію з людьми так, як взаємодію. Я міг би зайти, сказати протилежне і не досягти геть нічого. А так я мав дуже гарну розмову з Китаєм і дуже гарну розмову з Росією\", – сказав Трамп.\n\nПередісторія:\n\n•\nПід час двосторонньої зустрічі на саміті у китайському Шеньчжені 19 листопада Трамп привітав Путіна обіймами й словами \"Це мій друг. Радий тебе бачити!\".\n\n•\nЗгодом Трамп опублікував у своїй соцмережі Truth Social світлину з Путіним із підписом \"мій друг\".\n\n•\nПізніше Трамп написав у Truth Social, що під час зустрічей з Путіним у Китаї просив його зупинити всю військову агресію в Європі.\n\n•\nПрезидент Володимир Зеленський розкритикував дружнє звернення президента США Дональда Трампа до очільника Кремля Володимира Путіна під час тристороннього саміту в Китаї, назвавши лідера РФ агресором і вбивцею та прирівняши його до Гітлера.",
+      "content": "Президент США Дональд Трамп заявив, що називає правителя Росії Володимира Путіна своїм другом, щоб мати змогу завершити російсько-українську війну, адже протилежна риторика вестиме до ворожнечі, а не до миру.\n\nДжерело : Трамп під час спілкування з журналістами в Мар-а-Лаго в День подяки\n\nДеталі : Журналіст запитав американського президента, як поєднуються його заяви про те, що Путін його друг, і заклики до глави Кремля \"припинити всі військові агресії проти територій по всій Європі\", про що Трамп писав у Truth Social.\n\nПряма мова президента США : \"Обидві речі можна сказати. Але, дивіться, ви маєте дещо зрозуміти – ми хочемо укласти угоду, хочемо зупинити вбивства. Я міг би сказати, що він мені не друг, або що я хочу укласти угоду. Але я маю укласти угоду. Вони втрачають 25 тисяч людей на місяць. Я міг би підійти і казати: \"Знаєш, ти мене не подобаєшся\", але тоді ми матимемо таку ж проблему, яку ми маємо між Зеленським і Путіним\".\n\nТрамп вважає, що найбільше мирній угоді заважає особиста ненависть між президентом України і правителем Росії.\n\n\"Знаєте, найбільша проблема цього врегулювання полягає в тому, що от є два лідери, які дійсно ненавидять один одного. Тож коли я приходжу і раптом добре з ним ладнаю, бо я знаю його вже давно, то ми маємо дуже хорошу розмову. І суть у тому, що він хоче укласти угоду \", – пояснив Трамп.\n\nВін також заявив, що на початку війни передавав Україні протитанкові комплекси Javelin на початку війни, які \"перетворювали російські танки на купу брухту\".\n\n\"Я той, хто запровадив величезні податки і санкції проти Росії. Тож я був дуже жорстким щодо Росії. Але я хочу укласти угоду, якщо ми можемо її укласти. І ви знаєте, що я все життя вів переговори… Я заробив багато грошей. Я зробив багато, я мав величезний успіх. Я взаємодію з людьми так, як взаємодію. Я міг би зайти, сказати протилежне і не досягти геть нічого. А так я мав дуже гарну розмову з Китаєм і дуже гарну розмову з Росією\", – сказав Трамп.\n\nПередісторія:\n\n•\nПід час двосторонньої зустрічі на саміті у китайському Шеньчжені 19 листопада Трамп привітав Путіна обіймами й словами \"Це мій друг. Радий тебе бачити!\".\n\n•\nЗгодом Трамп опублікував у своїй соцмережі Truth Social світлину з Путіним із підписом \"мій друг\".\n\n•\nПізніше Трамп написав у Truth Social, що під час зустрічей з Путіним у Китаї просив його зупинити всю військову агресію в Європі.\n\n•\nПрезидент Володимир Зеленський розкритикував дружнє звернення президента США Дональда Трампа до очільника Кремля Володимира Путіна під час тристороннього саміту в Китаї, назвавши лідера РФ агресором і вбивцею та прирівняши його до Гітлера.",
       "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/c/a/965494/ca8743624854dadac682fdec5e7e54b5.jpeg",
       "images": [
         {
@@ -70260,12 +70375,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1458306187",
-      "title": "0xdeafcafe/h2r: halo 2 recompiled from disk, fkn sick",
-      "url": "https://github.com/0xdeafcafe/h2r",
-      "excerpt": "halo 2 recompiled from disk, fkn sick",
+      "id": "gh-1354613114",
+      "title": "boburning/portcove: Local-first manager for decompilations, recompilations, and native PC ports.",
+      "url": "https://github.com/boburning/portcove",
+      "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
       "image": "",
-      "publishedAt": "2026-11-27T08:58:51Z",
+      "publishedAt": "2026-11-27T09:02:14Z",
       "addedAt": "2026-11-22T01:13:26.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
@@ -70273,12 +70388,12 @@
       "lang": "en"
     },
     {
-      "id": "gh-1354613114",
-      "title": "boburning/portcove: Local-first manager for decompilations, recompilations, and native PC ports.",
-      "url": "https://github.com/boburning/portcove",
-      "excerpt": "Local-first manager for decompilations, recompilations, and native PC ports.",
+      "id": "gh-1458306187",
+      "title": "0xdeafcafe/h2r: halo 2 recompiled from disk, fkn sick",
+      "url": "https://github.com/0xdeafcafe/h2r",
+      "excerpt": "halo 2 recompiled from disk, fkn sick",
       "image": "",
-      "publishedAt": "2026-11-27T08:56:41Z",
+      "publishedAt": "2026-11-27T08:58:51Z",
       "addedAt": "2026-11-22T01:13:26.147Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
