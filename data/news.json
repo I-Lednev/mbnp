@@ -1,6 +1,6 @@
 {
-  "generatedAt": "2026-11-28T10:15:27.948Z",
-  "tookMs": 7359,
+  "generatedAt": "2026-11-28T10:18:23.251Z",
+  "tookMs": 62658,
   "retentionDays": 7,
   "categories": {
     "ai": "ИИ",
@@ -33,17 +33,17 @@
     "software": 76,
     "science": 247,
     "entertainment": 600,
-    "ports": 166,
+    "ports": 169,
     "pc": 175,
     "consoles": 459,
     "hardware": 183,
     "industry": 137,
-    "updates": 25,
+    "updates": 26,
     "aimods": 21,
-    "aisoft": 99,
+    "aisoft": 100,
     "cars": 474,
-    "war": 539,
-    "total": 4165
+    "war": 540,
+    "total": 4171
   },
   "sourceCount": 89,
   "sources": [
@@ -673,6 +673,12 @@
   ],
   "errors": [
     {
+      "source": "Playground",
+      "url": "https://www.playground.ru/rss/news.xml",
+      "error": "таймаут",
+      "reused": 10
+    },
+    {
       "source": "Siliconera",
       "url": "https://www.siliconera.com/feed/",
       "error": "HTTP 403"
@@ -681,6 +687,12 @@
       "source": "r/GamingLeaksAndRumours",
       "url": "https://www.reddit.com/r/GamingLeaksAndRumours/new/.rss",
       "error": "HTTP 404"
+    },
+    {
+      "source": "Nature",
+      "url": "https://www.nature.com/nature.rss",
+      "error": "ответ не похож на RSS/Atom",
+      "reused": 10
     },
     {
       "source": "r/emulation",
@@ -693,12 +705,6 @@
       "error": "HTTP 404"
     },
     {
-      "source": "Ukrainska Pravda",
-      "url": "https://www.pravda.com.ua/rss/",
-      "error": "лента пуста",
-      "reused": 10
-    },
-    {
       "source": "Radio Svoboda",
       "url": "https://www.radiosvoboda.org/api/zrqiteuuir",
       "error": "лента пуста",
@@ -708,7 +714,7 @@
       "source": "The Guardian",
       "url": "https://www.theguardian.com/world/ukraine/rss",
       "error": "HTTP 403",
-      "reused": 9
+      "reused": 7
     },
     {
       "source": "Al Jazeera",
@@ -718,6 +724,128 @@
     }
   ],
   "items": [
+    {
+      "id": "gh-1437663037",
+      "title": "MooPuu/droid-recomp: ⚡ The Definitive Hub for Native Android Game Recompilations & Emulators — 379+ verified playable ports, dual Mobile & Desktop UI, BYOR guide, and Obtainium integration.",
+      "url": "https://github.com/MooPuu/droid-recomp",
+      "excerpt": "⚡ The Definitive Hub for Native Android Game Recompilations & Emulators — 379+ verified playable ports, dual Mobile & Desktop UI, BYOR guide, and Obtainium integration.",
+      "image": "",
+      "publishedAt": "2026-11-28T09:57:29Z",
+      "addedAt": "2026-11-28T10:17:23.989Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1429046152",
+      "title": "dlprentice/onslaught-ce: Onslaught CE: a native Linux and Windows port of Battle Engine Aquila (2003), built from its source. Bring your own copy of the game.",
+      "url": "https://github.com/dlprentice/onslaught-ce",
+      "excerpt": "Onslaught CE: a native Linux and Windows port of Battle Engine Aquila (2003), built from its source. Bring your own copy of the game.",
+      "image": "",
+      "publishedAt": "2026-11-27T23:53:16Z",
+      "addedAt": "2026-11-28T10:17:23.517Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "gh-1415797237",
+      "title": "tmcleroy/recomp-common: Code shared between recomp ports (native ports made by static recompilation): an in-game overlay menu with no dependencies",
+      "url": "https://github.com/tmcleroy/recomp-common",
+      "excerpt": "Code shared between recomp ports (native ports made by static recompilation): an in-game overlay menu with no dependencies",
+      "image": "",
+      "publishedAt": "2026-11-28T08:54:36Z",
+      "addedAt": "2026-11-28T10:17:23.053Z",
+      "sourceId": "github-ports",
+      "source": "GitHub: порты",
+      "category": "ports",
+      "lang": "en"
+    },
+    {
+      "id": "iwsbxh",
+      "title": "Росіяни вбили останнього мешканця Тягинки на Херсонщині – місцева влада",
+      "url": "https://www.pravda.com.ua/news/2026/11/28/8065096/",
+      "excerpt": "У селі Тягинка Херсонської області знайшли останки останнього мешканця населеного пункту, якого, за інформацією місцевої влади, вбили російські військові. Джерело : місцеве видання \" МОСТ \" із посиланням на начальника Тягинської сільської військової…",
+      "content": "У селі Тягинка Херсонської області знайшли останки останнього мешканця населеного пункту, якого, за інформацією місцевої влади, вбили російські військові.\n\nДжерело : місцеве видання \" МОСТ \" із посиланням на начальника Тягинської сільської військової адміністрації Миколу Яценка\n\nДеталі : За словами Яценка, чоловіка раніше намагалися переконати евакуюватися. Він виїхав із села й певний час перебував в іншому населеному пункті, однак згодом повернувся до Тягинки.\n\nЗа інформацією видання, у чоловіка була записка від російських військових із погрозою: \"Діду, йди звідси, або ми тебе хлопнемо!\".\n\nЧоловік, імовірно, загинув унаслідок російського обстрілу будинку. Його останки вдалося знайти лише під час перемир'я.",
+      "image": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/5/8/966675/58d630a4056e28de931e463880356a5f.jpeg",
+      "images": [
+        {
+          "url": "https://uimg.pravda.com.ua/buckets/upstatic/images/doc/5/8/966675/58d630a4056e28de931e463880356a5f.jpeg",
+          "alt": ""
+        },
+        {
+          "url": "https://uimg.pravda.com.ua/buckets/upstatic/system/MediaPhoto/photo/b/a/966676/ba5e84d0cb53cbe0f09728b0ad07c0b31795860769.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-28T10:13:00.000Z",
+      "sourceId": "pravda",
+      "source": "Ukrainska Pravda",
+      "category": "war",
+      "lang": "uk",
+      "addedAt": "2026-11-28T10:17:20.593Z"
+    },
+    {
+      "id": "vr1jwr",
+      "title": "Your coding agent shouldn't grade its own homework",
+      "url": "https://stackoverflow.blog/2026/11/13/your-coding-agent-shouldn-t-grade-its-own-homework/",
+      "excerpt": "AI coding agents can now write design docs, mock up frontends, and implement entire projects end to end. But can they be trusted to verify that their own code actually works?",
+      "content": "AI coding agents can now write design docs, mock up frontends, and implement entire projects end to end. But can they be trusted to verify that their own code actually works?",
+      "image": "",
+      "images": [],
+      "publishedAt": "2026-11-13T17:27:39.000Z",
+      "sourceId": "stackoverflow",
+      "source": "Stack Overflow",
+      "category": "aisoft",
+      "lang": "en",
+      "addedAt": "2026-11-28T10:17:20.593Z"
+    },
+    {
+      "id": "vkndbo",
+      "title": "Share of the Week: Lights",
+      "url": "https://blog.playstation.com/2026/11/13/share-of-the-week-lights/",
+      "excerpt": "Last week, we asked you to shine a light in games your love using #PSshare #PSBlog. Here are this week’s highlights: rorottino shared Sam holding his hands out to a ray of light in Death Stranding 2: On The Beach Leumir4 shared a lit flame in Red Dead…",
+      "content": "Last week, we asked you to shine a light in games your love using #PSshare #PSBlog. Here are this week’s highlights:\n\nrorottino shared Sam holding his hands out to a ray of light in Death Stranding 2: On The Beach\n\nLeumir4 shared a lit flame in Red Dead Redemption 2\n\nJarrinWasHere shared Aloy taking in a sunset in Horizon Forbidden West\n\nartenpixels_ shared Arjun underneath the eclipse in Saros\n\nDanielMoreira54 shares Amicia and Hugo lit by firelight in A Plague Tale: Innocence\n\nraphxander_ shares Jin framed by the sun in Ghost of Tsushima\n\nSearch #PSshare #PSBlog on Twitter or Instagram to see more entries to this week’s theme, or be inspired by other great games featuring Photo Mode . Want to be featured in the next Share of the Week?\n\nTHEME: Texture\nSUBMIT BY: 11:59 PM PT on November 18, 2026\n\nNext week, share interesting textures from the game of your choice using #PSshare #PSBlog for a chance to be featured.",
+      "image": "https://live.staticflickr.com/65535/55648994061_9574325b48_k.jpg",
+      "images": [
+        {
+          "url": "https://live.staticflickr.com/65535/55648994061_9574325b48_k.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://live.staticflickr.com/65535/55648994006_e9a119c81c_k.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://live.staticflickr.com/65535/55648012342_ccb2a01c46_k.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://live.staticflickr.com/65535/55649416340_5fd441e876_b.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://live.staticflickr.com/65535/55648012337_cef75174be_k.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://live.staticflickr.com/65535/55649416350_6a84e8995b_k.jpg",
+          "alt": ""
+        },
+        {
+          "url": "https://live.staticflickr.com/65535/55649129333_b8e02a0928_k.jpg",
+          "alt": ""
+        }
+      ],
+      "publishedAt": "2026-11-13T17:00:13.000Z",
+      "sourceId": "ps-blog",
+      "source": "PlayStation Blog",
+      "category": "updates",
+      "lang": "en",
+      "addedAt": "2026-11-28T10:17:20.593Z"
+    },
     {
       "id": "gh-1462360775",
       "title": "sp00nznet/win95: Windows 95's own userland, statically recompiled with pcrecomp; runs on Windows 11 with no emulator",
@@ -62647,7 +62775,7 @@
       "url": "https://github.com/berobloom/redcat-rrr-re",
       "excerpt": "Reverse engineering of RedCat's Razende Rekenrace (1996, DOS) and a from-scratch C port for Linux and the browser (WebAssembly). Needs your own copy of the game data.",
       "image": "",
-      "publishedAt": "2026-11-27T08:20:34Z",
+      "publishedAt": "2026-11-28T09:59:18Z",
       "addedAt": "2026-11-24T00:23:16.105Z",
       "sourceId": "github-ports",
       "source": "GitHub: порты",
